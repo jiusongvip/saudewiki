@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Local agent workspace: notes, screenshots, one-off verification scripts,
+# downloaded source images. Not part of the site, not for a public repo.
+.workbuddy-ai/
+
+# Build / gate / preview logs
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

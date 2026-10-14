@@ -1,0 +1,211 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ReviewMeta from '../../components/ReviewMeta.astro';
+import PlaceholderNotice from '../../components/PlaceholderNotice.astro';
+import Toc from '../../components/Toc.astro';
+import ReferenceList from '../../components/ReferenceList.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import DiseaseCard from '../../components/DiseaseCard.astro';
+import TopicCard from '../../components/TopicCard.astro';
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../../data/site';
+import {
+  publishedArticles,
+  resolveArticles,
+  resolveDiseases,
+  resolveTopics,
+  url,
+} from '../../lib/content';
+import type { Article } from '../../types';
+
+export function getStaticPaths() {
+  return publishedArticles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+interface Props {
+  article: Article;
+}
+
+const { article } = Astro.props;
+
+const relatedDiseases = resolveDiseases(article.diseaseSlugs);
+const relatedTopics = resolveTopics(article.topicSlugs);
+const relatedArticles = resolveArticles(article.relatedArticleSlugs).filter((a) => a.slug !== article.slug);
+
+const breadcrumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Artigos', href: url.articles() },
+  { name: article.title, href: url.article(article.slug) },
+];
+
+const tocItems = article.body.map((section) => ({ id: section.id, heading: section.heading }));
+
+const schemaNodes: Record<string, unknown>[] = [
+  {
+    '@type': 'Article',
+    '@id': `${url.article(article.slug)}#article`,
+    headline: article.title,
+    description: article.excerpt,
+    inLanguage: SITE.lang,
+    datePublished: article.publishedAt,
+    dateModified: article.updatedAt,
+    author: { '@type': 'Organization', name: article.author },
+    publisher: { '@id': `${SITE.url}/#organization` },
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    about: relatedDiseases.map((disease) => ({ '@type': 'MedicalCondition', name: disease.name })),
+  },
+];
+---
+
+<BaseLayout
+  title={`${article.metaTitle ?? article.title} | ${SITE.name}`}
+  description={article.excerpt}
+  breadcrumbs={breadcrumbs}
+  ogType="article"
+  schemaNodes={schemaNodes}
+>
+  <div class="mx-auto max-w-6xl px-5 pb-16 pt-10">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <div class="mt-6 grid gap-12 lg:grid-cols-[minmax(0,1fr)_300px]">
+      <article>
+        <span class="overline">{article.category}</span>
+        <h1 class="display mt-3 max-w-3xl text-[2.1rem] sm:text-[2.8rem]">{article.title}</h1>
+        <p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-ink-muted">{article.excerpt}</p>
+
+        <div class="mt-7 max-w-2xl">
+          <ReviewMeta
+            author={article.author}
+            reviewer={article.reviewer}
+            reviewStatus={article.reviewStatus}
+            publishedAt={article.publishedAt}
+            updatedAt={article.updatedAt}
+          />
+        </div>
+
+        {article.isPlaceholder && (
+          <div class="mt-5 max-w-2xl">
+            <PlaceholderNotice />
+          </div>
+        )}
+
+        <div class="mt-8 lg:hidden">
+          <Toc items={tocItems} />
+        </div>
+
+        <div class="prose-editorial mt-10 max-w-2xl">
+          {
+            article.body.map((section) => (
+              <section>
+                <h2 id={section.id}>{section.heading}</h2>
+                {section.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}
+                {section.bullets && section.bullets.length > 0 && (
+                  <ul>
+                    {section.bullets.map((bullet) => (
+                      <li>{bullet}</li>
+                    ))}
+                  </ul>
+                )}
+                {section.cta && (
+                  <p class="mt-4 rounded-lg border border-line bg-surface px-4 py-3 text-[0.88rem]">
+                    <a href={section.cta.href} class="font-semibold no-underline">
+                      {section.cta.label}
+                    </a>
+                  </p>
+                )}
+              </section>
+            ))
+          }
+        </div>
+
+        <div class="mt-14 max-w-2xl">
+          <ReferenceList references={article.references} />
+        </div>
+
+        <section class="mt-14 max-w-2xl rounded-xl border border-line bg-surface p-6" aria-labelledby="correcao">
+          <h2 id="correcao" class="text-[1.05rem] font-semibold tracking-tight">
+            Encontrou um erro neste artigo?
+          </h2>
+          <p class="mt-2 text-[0.88rem] leading-relaxed text-ink-muted">
+            Correções de conteúdo médico são bem-vindas e passam por revisão antes de qualquer alteração.
+          </p>
+          <a
+            href={url.contact()}
+            class="mt-4 inline-flex items-center gap-1.5 text-[0.85rem] font-semibold text-accent"
+          >
+            Enviar correção
+            <Icon name="tabler:arrow-right" class="h-4 w-4" />
+          </a>
+        </section>
+      </article>
+
+      <aside class="hidden lg:block">
+        <div class="sticky top-24 flex flex-col gap-6">
+          <Toc items={tocItems} />
+          {
+            relatedDiseases.length > 0 && (
+              <div class="rounded-xl border border-line bg-surface p-5">
+                <h2 class="overline">Doenças citadas</h2>
+                <ul class="mt-4 flex flex-col gap-2.5">
+                  {relatedDiseases.map((disease) => (
+                    <li>
+                      <a
+                        href={url.disease(disease.slug)}
+                        class="text-[0.88rem] font-medium text-accent transition-opacity hover:opacity-75"
+                      >
+                        Saiba mais sobre {disease.name.toLowerCase()}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          }
+        </div>
+      </aside>
+    </div>
+
+    {
+      relatedDiseases.length > 0 && (
+        <section class="mt-16 border-t border-line pt-12" aria-labelledby="doencas-relacionadas">
+          <h2 id="doencas-relacionadas" class="display text-[1.6rem]">Doenças relacionadas</h2>
+          <div class="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedDiseases.map((disease) => (
+              <DiseaseCard disease={disease} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      relatedTopics.length > 0 && (
+        <section class="mt-16 border-t border-line pt-12" aria-labelledby="temas-relacionados">
+          <h2 id="temas-relacionados" class="display text-[1.6rem]">Temas relacionados</h2>
+          <div class="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedTopics.map((topic) => (
+              <TopicCard topic={topic} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      relatedArticles.length > 0 && (
+        <section class="mt-16 border-t border-line pt-12" aria-labelledby="leia-tambem">
+          <h2 id="leia-tambem" class="display text-[1.6rem]">Leia também</h2>
+          <div class="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedArticles.map((item) => (
+              <ArticleCard article={item} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </div>
+</BaseLayout>

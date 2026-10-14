@@ -1,0 +1,37 @@
+---
+import { Icon } from 'astro-icon/components';
+import { url } from '../lib/content';
+import { imageForDisease } from '../lib/images';
+import ImageSlot from './ImageSlot.astro';
+import type { Disease } from '../types';
+
+interface Props {
+  disease: Disease;
+  /** CSS aspect-ratio for the photo. Varied per slot so a grid is not a row of clones. */
+  ratio?: string;
+  eager?: boolean;
+}
+
+const { disease, ratio = '4 / 3', eager = false } = Astro.props;
+const image = imageForDisease(disease.slug);
+---
+
+<a
+  href={url.disease(disease.slug)}
+  class="card card-link group flex flex-col overflow-hidden"
+>
+  <ImageSlot src={image?.src} alt={image?.alt ?? ''} ratio={ratio} eager={eager} />
+
+  <div class="flex flex-1 flex-col p-5 sm:p-6">
+    <span class="overline">{disease.category}</span>
+    <h3 class="mt-2.5 text-xl font-semibold tracking-tight">{disease.name}</h3>
+    <p class="mt-2 flex-1 text-[0.9rem] leading-relaxed text-ink-muted">{disease.summary}</p>
+    <span class="mt-5 inline-flex items-center gap-1.5 text-[0.85rem] font-semibold text-accent">
+      Conhecer a doença
+      <Icon
+        name="tabler:arrow-right"
+        class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+      />
+    </span>
+  </div>
+</a>

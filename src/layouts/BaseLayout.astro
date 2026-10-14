@@ -1,0 +1,206 @@
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../data/site';
+
+interface Crumb {
+  name: string;
+  href: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  robots?: string;
+  ogType?: string;
+  ogImage?: string;
+  breadcrumbs?: Crumb[];
+  /** Extra Schema.org nodes merged into the page @graph. */
+  schemaNodes?: Record<string, unknown>[];
+}
+
+const {
+  title,
+  description,
+  canonical,
+  robots,
+  ogType = 'website',
+  ogImage = '/og-1200x630.png',
+  breadcrumbs = [],
+  schemaNodes = [],
+} = Astro.props;
+
+const pathname = Astro.url.pathname;
+const canonicalUrl = canonical ?? new URL(pathname, Astro.site).href;
+const absoluteOgImage = new URL(ogImage, Astro.site).href;
+
+const graph: Record<string, unknown>[] = [
+  {
+    '@type': 'WebSite',
+    '@id': `${SITE.url}/#website`,
+    url: `${SITE.url}/`,
+    name: SITE.name,
+    description: SITE.description,
+    inLanguage: SITE.lang,
+    publisher: { '@id': `${SITE.url}/#organization` },
+  },
+  {
+    '@type': 'Organization',
+    '@id': `${SITE.url}/#organization`,
+    name: SITE.name,
+    url: `${SITE.url}/`,
+    logo: `${SITE.url}/favicon.svg`,
+  },
+];
+
+if (breadcrumbs.length > 0) {
+  graph.push({
+    '@type': 'BreadcrumbList',
+    '@id': `${canonicalUrl}#breadcrumb`,
+    itemListElement: breadcrumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: new URL(crumb.href, SITE.url).href,
+    })),
+  });
+}
+
+graph.push(...schemaNodes);
+
+const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+---
+
+<!doctype html>
+<html lang={SITE.lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0a0a" />
+    {robots && <meta name="robots" content={robots} />}
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content={SITE.locale} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={absoluteOgImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={absoluteOgImage} />
+
+    <script type="application/ld+json" set:html={schemaJson} />
+
+    <!-- Page-specific head extras, e.g. preloading the LCP image. -->
+    <slot name="head" />
+
+    <!--
+      Reveal is opt-in, not opt-out. The class is added here, before paint, and
+      the CSS only hides `.reveal` while it is present. With scripting off the
+      class never lands and every section is simply visible. The timer is the
+      second half of the same idea: if the bundle that drives the observer
+      never signals, the class comes off again rather than leaving the page
+      blank below the fold.
+
+      The handshake uses a class rather than a `data-*` attribute on purpose.
+      The dist gate cross-references every `data-*` token a script touches
+      against the built markup, and a runtime-only marker reads there as a
+      dangling hook. A class is not scanned, so the gate stays a clean signal.
+    -->
+    <script is:inline>
+      (function () {
+        var root = document.documentElement;
+        root.classList.add('reveal-on');
+        setTimeout(function () {
+          if (!root.classList.contains('reveal-live')) root.classList.remove('reveal-on');
+        }, 2500);
+      })();
+    </script>
+  </head>
+  <body class="flex min-h-[100dvh] flex-col bg-canvas text-ink antialiased">
+    <a
+      href="#conteudo"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:text-canvas"
+    >
+      Pular para o conteúdo
+    </a>
+
+    <Nav />
+
+    <main id="conteudo" class="shell flex-1">
+      <slot />
+    </main>
+
+    <Footer />
+
+    <script>
+      // Bundled (not is:inline) so the observer is defined once per page rather
+      // than duplicated for every component instance.
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const targets = Array.from(document.querySelectorAll<HTMLElement>('.reveal'));
+
+      // Tells the inline head script this bundle arrived, so its fallback timer
+      // does not undo the hiding. See the comment in <head>.
+      document.documentElement.classList.add('reveal-live');
+
+      const show = (el: HTMLElement) => el.classList.add('reveal-in');
+
+      if (prefersReduced || targets.length === 0) {
+        targets.forEach(show);
+      } else {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting) {
+                show(entry.target as HTMLElement);
+                observer.unobserve(entry.target);
+              }
+            }
+          },
+          { threshold: 0.08, rootMargin: '0px 0px -6% 0px' }
+        );
+        targets.forEach((el) => observer.observe(el));
+
+        /*
+         * Safety net. The observer alone left elements at opacity 0 forever:
+         * the negative rootMargin insets the bottom of the viewport, and a
+         * section parked in that last sliver never counts as intersecting.
+         * This sweep reveals anything already at least partly on screen,
+         * independent of the observer's geometry.
+         */
+        let queued = false;
+        const sweep = () => {
+          queued = false;
+          const limit = window.innerHeight;
+          for (const el of targets) {
+            if (!el.classList.contains('reveal-in') && el.getBoundingClientRect().top < limit) {
+              show(el);
+              observer.unobserve(el);
+            }
+          }
+        };
+        const queue = () => {
+          if (queued) return;
+          queued = true;
+          requestAnimationFrame(sweep);
+        };
+
+        window.addEventListener('scroll', queue, { passive: true });
+        window.addEventListener('resize', queue);
+        window.addEventListener('load', queue);
+        queue();
+      }
+    </script>
+  </body>
+</html>

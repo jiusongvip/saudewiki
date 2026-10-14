@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../data/site';
+import { url } from '../lib/content';
+
+const breadcrumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Política de privacidade', href: url.privacy() },
+];
+---
+
+<BaseLayout
+  title={`Política de privacidade | ${SITE.name}`}
+  description="Quais dados o Saudewiki coleta, para que servem e como pedir remoção. Documento em construção, alinhado à LGPD."
+  breadcrumbs={breadcrumbs}
+>
+  <div class="mx-auto max-w-3xl px-5 py-14">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">Política de privacidade</h1>
+
+    <aside class="mt-8 rounded-xl border border-warn/30 bg-warn-soft p-5 text-[0.85rem] leading-relaxed" role="note">
+      <p class="font-semibold">Documento em construção</p>
+      <p class="mt-1 text-ink-muted">
+        Este texto descreve o que o site faz hoje. Ele precisa ser revisto por responsável jurídico antes da
+        publicação definitiva, especialmente se ferramentas de análise, publicidade ou formulários forem adicionados.
+      </p>
+    </aside>
+
+    <div class="prose-editorial mt-10">
+      <h2 id="dados-coletados">Quais dados são coletados hoje</h2>
+      <p>
+        O Saudewiki <strong>não exige cadastro</strong> e não possui login. A navegação pelas páginas de doenças,
+        artigos e temas não envia dados pessoais ao projeto.
+      </p>
+      <p>
+        O site ainda <strong>não utiliza ferramentas de análise de audiência, publicidade ou rastreamento de
+        terceiros</strong>. Se isso mudar, esta seção será atualizada antes da mudança entrar no ar, informando quais
+        ferramentas são usadas e com que finalidade.
+      </p>
+
+      <h2 id="buscas">Buscas no site</h2>
+      <p>
+        A busca interna funciona inteiramente no seu navegador. O termo pesquisado é processado localmente e não é
+        enviado nem armazenado em servidor do projeto.
+      </p>
+
+      <h2 id="links-externos">Links para sites de terceiros</h2>
+      <p>
+        As páginas citam documentos oficiais e levam para sites como gov.br, portal.fiocruz.br e who.int. Ao seguir
+        esses links, você passa a estar sujeito às políticas de privacidade desses sites, que não controlamos.
+      </p>
+
+      <h2 id="contato-e-direitos">Contato e direitos do titular</h2>
+      <p>
+        Se você enviar uma mensagem pela <a href={url.contact()}>página de contato</a>, os dados que você incluir
+        serão usados apenas para responder à solicitação. Você pode pedir a exclusão dessas mensagens a qualquer
+        momento pelo mesmo canal.
+      </p>
+      <p>
+        Nos termos da Lei Geral de Proteção de Dados (LGPD), você pode solicitar confirmação de tratamento,
+        correção, anonimização ou eliminação de dados pessoais que eventualmente tenham sido coletados.
+      </p>
+
+      <h2 id="alteracoes">Alterações nesta política</h2>
+      <p>
+        Quando houver mudança relevante, a data de atualização abaixo será alterada e a natureza da mudança será
+        descrita nesta página.
+      </p>
+      <p class="text-[0.85rem] text-ink-muted">Última atualização: 13 de outubro de 2026.</p>
+    </div>
+  </div>
+</BaseLayout>

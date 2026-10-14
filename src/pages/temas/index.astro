@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TopicCard from '../../components/TopicCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { publishedTopics, url } from '../../lib/content';
+import { SITE } from '../../data/site';
+
+const breadcrumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Temas de saúde', href: url.topics() },
+];
+---
+
+<BaseLayout
+  title={`Temas de saúde | ${SITE.name}`}
+  description="Guias temáticos que reúnem doenças, artigos e medidas práticas em torno de um mesmo assunto de saúde."
+  breadcrumbs={breadcrumbs}
+>
+  <div class="mx-auto max-w-6xl px-5 pb-16 pt-10">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">Temas de saúde</h1>
+    <p class="mt-4 max-w-2xl text-[1rem] leading-relaxed text-ink-muted">
+      Um tema reúne tudo o que o site tem sobre uma área da saúde: as doenças envolvidas, os artigos relacionados e
+      o que fazer na prática. Temas ainda sem conteúdo aparecem marcados como em preparação.
+    </p>
+
+    <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {publishedTopics.map((topic) => <TopicCard topic={topic} />)}
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../data/site';
+import { url } from '../lib/content';
+
+const breadcrumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Contato', href: url.contact() },
+];
+
+const reasons = [
+  {
+    icon: 'tabler:alert-triangle',
+    title: 'Reportar um erro de conteúdo',
+    body: 'Informe o endereço da página e o trecho que parece incorreto, de preferência com a fonte que sustenta a correção.',
+  },
+  {
+    icon: 'tabler:bulb',
+    title: 'Sugerir uma pauta',
+    body: 'Doença, sintoma ou dúvida de saúde que você gostaria de ver explicada no site.',
+  },
+  {
+    icon: 'tabler:shield-lock',
+    title: 'Privacidade e direitos do titular',
+    body: 'Solicitações de acesso, correção ou exclusão de dados, nos termos da LGPD.',
+  },
+];
+
+const mailto = `mailto:${SITE.contact}?subject=${encodeURIComponent('Saudewiki, contato')}`;
+---
+
+<BaseLayout
+  title={`Contato | ${SITE.name}`}
+  description="Fale com o Saudewiki para reportar um erro de conteúdo, sugerir uma pauta ou exercer seus direitos de privacidade."
+  breadcrumbs={breadcrumbs}
+>
+  <div class="mx-auto max-w-3xl px-5 py-14">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">Contato</h1>
+    <p class="mt-4 max-w-xl text-[1rem] leading-relaxed text-ink-muted">
+      Este canal é para correções de conteúdo, sugestões de pauta e questões de privacidade.
+      <strong class="font-semibold text-ink">Ele não é um canal de atendimento médico</strong>. Não envie sintomas
+      esperando orientação individual.
+    </p>
+
+    <a
+      href={mailto}
+      class="mt-8 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3.5 text-[0.88rem] font-semibold text-canvas transition-colors hover:bg-accent-strong"
+    >
+      <Icon name="tabler:mail" class="h-4 w-4" />
+      {SITE.contact}
+    </a>
+
+    <div class="mt-12 grid gap-4 sm:grid-cols-3">
+      {
+        reasons.map((reason) => (
+          <div class="rounded-xl border border-line bg-surface p-5">
+            <span class="flex h-9 w-9 items-center justify-center rounded-lg bg-accent-soft text-accent">
+              <Icon name={reason.icon} class="h-[18px] w-[18px]" />
+            </span>
+            <h2 class="mt-4 text-[0.95rem] font-semibold tracking-tight">{reason.title}</h2>
+            <p class="mt-2 text-[0.85rem] leading-relaxed text-ink-muted">{reason.body}</p>
+          </div>
+        ))
+      }
+    </div>
+
+    <section class="mt-12 rounded-xl border border-line bg-surface p-6" aria-labelledby="como-reportar">
+      <h2 id="como-reportar" class="text-[1.05rem] font-semibold tracking-tight">
+        Como reportar um erro de conteúdo
+      </h2>
+      <p class="mt-2 text-[0.88rem] leading-relaxed text-ink-muted">
+        Para que a correção seja avaliada mais rápido, inclua:
+      </p>
+      <ul class="mt-4 flex flex-col gap-2 text-[0.88rem] text-ink-muted">
+        <li class="flex gap-2.5"><Icon name="tabler:point" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />O endereço (URL) da página</li>
+        <li class="flex gap-2.5"><Icon name="tabler:point" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />O trecho exato que parece incorreto</li>
+        <li class="flex gap-2.5"><Icon name="tabler:point" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />A fonte pública que sustenta a correção, quando houver</li>
+      </ul>
+      <p class="mt-5 text-[0.82rem] leading-relaxed text-ink-muted">
+        Em caso de sintomas ou dúvida sobre a própria saúde, procure uma unidade de saúde ou um serviço de atendimento
+        oficial. Este site não presta orientação individual.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

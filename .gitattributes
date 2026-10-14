@@ -1,0 +1,18 @@
+# Normalise line endings to LF in the repository.
+#
+# This is not cosmetic. A batch edit written by a Windows-side script rewrote
+# six source files as CRLF while the other twenty-eight stayed LF, and a
+# checker that split those files on "\n" then silently matched zero entries and
+# reported "no drafts" while a draft entry was present. Pinning the repository
+# to LF removes that whole class of failure.
+* text=auto eol=lf
+
+# Binary assets: never touch them.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.woff binary
+*.woff2 binary

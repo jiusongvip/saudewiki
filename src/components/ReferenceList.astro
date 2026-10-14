@@ -1,0 +1,43 @@
+---
+import { Icon } from 'astro-icon/components';
+import type { Reference } from '../types';
+
+interface Props {
+  references: Reference[];
+  title?: string;
+}
+
+const { references, title = 'Fontes e referências' } = Astro.props;
+---
+
+{
+  references.length > 0 && (
+    <section aria-labelledby="referencias" class="rounded-xl border border-line bg-surface p-6">
+      <h2 id="referencias" class="text-[1.05rem] font-semibold tracking-tight">
+        {title}
+      </h2>
+      <p class="mt-2 text-[0.8rem] text-ink-muted">
+        Fontes públicas consultadas na redação deste conteúdo. Cada link aponta para o documento específico, não para
+        a página inicial da instituição.
+      </p>
+      <ol class="mt-4 flex flex-col gap-3">
+        {references.map((reference) => (
+          <li class="flex gap-2.5 text-[0.85rem]">
+            <Icon name="tabler:external-link" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+            <span>
+              <a
+                href={reference.url}
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                class="font-medium text-accent underline underline-offset-2"
+              >
+                {reference.label}
+              </a>
+              <span class="text-ink-muted">, {reference.publisher}</span>
+            </span>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )
+}

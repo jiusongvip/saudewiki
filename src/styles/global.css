@@ -1,0 +1,548 @@
+@import "@fontsource/open-sauce-one/400.css";
+@import "@fontsource/open-sauce-one/500.css";
+@import "@fontsource/open-sauce-one/600.css";
+@import "@fontsource/open-sauce-one/700.css";
+@import "@fontsource/open-sauce-one/800.css";
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sauce One", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /*
+   * Teal is the site's only chromatic accent. Everything else is neutral on
+   * purpose, so the colour on a page comes from the photographs and the accent
+   * reads as a signal rather than as decoration.
+   */
+  --color-teal-50: #f0faf7;
+  --color-teal-100: #d6f2e9;
+  --color-teal-700: #0f6e5c;
+  --color-teal-800: #0b5547;
+  --color-teal-900: #083d33;
+
+  --color-canvas: #ffffff;
+  --color-surface: #ffffff;
+  --color-ink: #0a0a0a;
+  --color-ink-muted: #5a5a5a;
+  /* Decorative rules only. Never a control edge. */
+  --color-line: #e8e8e8;
+  /* Interactive control edges. Held at 3:1+ against every background (WCAG 1.4.11). */
+  --color-control: #767676;
+
+  --color-accent: #0b5547;
+  --color-accent-strong: #083d33;
+  --color-accent-soft: #f0faf7;
+  --color-accent-100: #d6f2e9;
+  --color-accent-200: #a9e0d2;
+
+  /*
+   * The three solid surfaces the home layout is built from, standing in for the
+   * reference's stone-50 / zinc-200 / neutral-900. They flip with the theme, so
+   * a card reads as a sheet of paper in light mode and a raised panel in dark
+   * mode, instead of the fixed light greys the reference hard-codes.
+   */
+  --color-sand: #fafaf9;
+  --color-mist: #e4e4e7;
+  --color-deep: #171717;
+
+  /* Semantic only. Review state must never be conveyed by colour alone. */
+  --color-warn: #8a5a12;
+  --color-warn-soft: #fdf4e4;
+
+  /* Image placeholder halftone */
+  --color-halftone: #d0d0d0;
+}
+
+:root {
+  color-scheme: light dark;
+
+  /*
+   * Photographs are shown in colour.
+   *
+   * The filter is kept as a token rather than deleted so the whole set can be
+   * pushed to monochrome from one line. It is deliberately `none` right now:
+   * the black-and-white direction was tried and rejected, and a grayscale
+   * filter over stock photos was reading as clinical rather than editorial.
+   */
+  --img-filter: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-canvas: #0b0b0b;
+    --color-surface: #141414;
+    --color-ink: #f5f5f5;
+    --color-ink-muted: #a3a3a3;
+    --color-line: rgba(255, 255, 255, 0.14);
+    --color-control: #8a8a8a;
+    --color-accent: #3fc9ac;
+    --color-accent-strong: #6ee0c8;
+    --color-accent-soft: #10231f;
+    --color-accent-100: #1b3a34;
+    --color-accent-200: #2b5a50;
+    --color-sand: #17171a;
+    --color-mist: #232328;
+    --color-deep: #101013;
+    --color-warn: #e0b063;
+    --color-warn-soft: rgba(224, 176, 99, 0.14);
+    --color-halftone: #2a2a2a;
+  }
+}
+
+html {
+  font-family: var(--font-sans);
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  background: var(--color-canvas);
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-canvas);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ---------------------------------------------------------------------------
+   Type scale — oversized display, tight tracking
+--------------------------------------------------------------------------- */
+
+.overline {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+/*
+ * Shared heading treatment. Pages set their own size with a `text-[...]`
+ * utility; this class supplies the weight, leading, tracking and balance.
+ * Kept as `.display` because every page already reaches for it.
+ */
+.display {
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.032em;
+  text-wrap: balance;
+}
+
+.t-hero {
+  font-size: clamp(2.8rem, 7.2vw, 5.75rem);
+  line-height: 0.94;
+  letter-spacing: -0.042em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.t-section {
+  font-size: clamp(1.9rem, 4.4vw, 3.5rem);
+  line-height: 1;
+  letter-spacing: -0.036em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.t-page {
+  font-size: clamp(2.2rem, 5.4vw, 4rem);
+  line-height: 0.99;
+  letter-spacing: -0.038em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.hairline {
+  height: 1px;
+  background: var(--color-line);
+}
+
+/* ---------------------------------------------------------------------------
+   Media — one shared image treatment
+--------------------------------------------------------------------------- */
+
+.media {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-accent-soft);
+}
+
+.media img,
+.media .media-img {
+  filter: var(--img-filter);
+}
+
+/* ---------------------------------------------------------------------------
+   Surfaces — card edges are control edges, not decoration
+--------------------------------------------------------------------------- */
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: 0.5rem;
+}
+
+.card-link {
+  border-color: var(--color-control);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card-link:hover {
+  border-color: var(--color-ink);
+  transform: translateY(-2px);
+}
+
+.card-link:hover .media img {
+  transform: scale(1.035);
+}
+
+.media img {
+  transition: transform 0.5s ease-out;
+}
+
+/* ---------------------------------------------------------------------------
+   Image placeholder — a halftone that reads as deliberate, not as a broken img
+--------------------------------------------------------------------------- */
+
+.halftone {
+  background-color: var(--color-accent-soft);
+  background-image: radial-gradient(circle, var(--color-halftone) 1px, transparent 1.7px);
+  background-size: 10px 10px;
+}
+
+/* ---------------------------------------------------------------------------
+   Home layout: solid cards and photographic cards, alternating
+
+   The palette here is the reference's. A light sheet, a mid grey, and one dark
+   band, against photographs carrying white type. The two glass weights are the
+   reference's as well, and they are the reason the foreground colours below are
+   pinned instead of inherited: a `white/20` panel always carries white text and
+   a `white/90` panel always carries black text, in both themes. Inheriting the
+   theme's ink would flip one of the two to unreadable. These rules are
+   unlayered, so they beat Tailwind's utilities. That is the intent, not an
+   accident.
+--------------------------------------------------------------------------- */
+
+/*
+ * The scale, taken from the reference: weight 800, tight leading, for the hero
+ * plus two smaller steps for the cards.
+ *
+ * The hero step is capped by height as well as width. The card it sits in is
+ * `overflow-hidden`, so a pure-vw size can outgrow a short viewport and be
+ * silently clipped — the headline would simply lose its bottom without any
+ * error anywhere. `24svh` only starts to bind below about 660px of viewport
+ * height, so the desktop composition is untouched, and it still reaches 11rem
+ * on a tall screen.
+ */
+.t-mega {
+  font-size: clamp(3rem, min(11vw, 24svh), 11rem);
+  line-height: 0.79;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+}
+
+.t-mid {
+  font-size: clamp(2.5rem, 6vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+}
+
+.t-big {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+}
+
+/*
+ * The hero's three pillar bars used to sit above the photograph. They were cut:
+ * they repeated the header navigation, and without them the photograph gets the
+ * whole screen and the search box can be as large as it needs to be.
+ */
+
+/*
+ * Windows onto a single photograph (`WindowGrid.astro`).
+ *
+ * The component's script writes each window's `background-size` and
+ * `background-position`; this block only supplies the frame and the fail-open
+ * fill. The neutral fill is the point: if the script never runs, the section
+ * has to look like a grid of plain tiles rather than a set of holes.
+ */
+.wg {
+  position: relative;
+}
+
+.wg [data-window] {
+  overflow: hidden;
+  background-color: var(--color-mist);
+  background-repeat: no-repeat;
+}
+
+/*
+ * The page container: the content never runs to the edge of the window.
+ *
+ * It is applied to the nav's inner row, to `<main>`, and to the footer's inner
+ * box — not to each section — so the three of them cannot disagree about where
+ * the page starts. Before this, the header and footer sat at `max-w-6xl` while
+ * the home sections ran nearly full-bleed, which is what made one page look
+ * like two pages stacked.
+ *
+ * `90rem` is the reference width, `proivf`'s `--max-width-8xl`. `72rem` was
+ * tried first and reads as too narrow: on a 1920px screen it leaves 384px of
+ * margin on each side, and the cards look like a column rather than a page.
+ *
+ * Deliberately no padding of its own: every element that wears this class
+ * supplies its own `px-5`. One source of truth for the width, one for the
+ * inset, rather than two of each that can drift apart.
+ */
+.shell {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 90rem;
+}
+
+.glass,
+.glass-solid {
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+/* Inactive tiles, and panels sitting on a photograph. */
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+/* The active tile, and anything over a photograph carrying real text. */
+.glass-solid {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: #0a0a0a;
+}
+
+/*
+ * Glass over a photograph, which is a different job from glass over the dark
+ * band and needs a different recipe. The reference tints these white/20, which
+ * leaves white type at roughly 1:1 whenever the photograph behind it is light;
+ * over the doctor's white coat the second panel in the last section was
+ * effectively invisible. Smoking it instead keeps the translucent look and puts
+ * the worst case, a pure white photograph, at about 4:1 for white type.
+ */
+.glass-photo {
+  background: rgba(15, 15, 15, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+/*
+ * Darkens the top of a photograph so white type over it is not a bet on what
+ * the picture happens to contain in that corner. Close to invisible over a
+ * photograph that is already dark, which is most of the ones this is used on.
+ */
+.scrim-top {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.58) 0%,
+    rgba(0, 0, 0, 0.3) 46%,
+    rgba(0, 0, 0, 0) 80%
+  );
+}
+
+/*
+ * The hero search is a white pill sitting on a photograph, so its colours are
+ * pinned rather than inherited. Left to the theme tokens the text would turn
+ * near-white in dark mode and disappear into the pill.
+ */
+.search-hero {
+  background: #ffffff;
+  color: #0a0a0a;
+}
+
+.search-hero input {
+  color: #0a0a0a;
+}
+
+.search-hero input::placeholder {
+  color: rgba(10, 10, 10, 0.5);
+}
+
+/* Solid white pill with a black label, in the reference's button style. */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  background: #ffffff;
+  color: #0a0a0a;
+  padding: 0.8rem 1.4rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: transform 0.25s ease;
+}
+
+.pill:hover {
+  transform: scale(1.05);
+}
+
+/*
+ * The numbered circle the reference puts in the corner of a tile. The border
+ * follows `currentColor`, so one class works on both glass weights.
+ */
+.num {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  border: 1px solid currentColor;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------------------------------------------------------------------
+   Scroll reveal
+
+   Two independent guards, because this content becoming invisible is a real
+   failure mode and not a cosmetic one:
+
+   1. Fail open. `html.reveal-on` is set by an inline script in <head> that
+      runs before paint. If scripting is off the class never appears and
+      everything is visible. If the script below throws, a timer in the same
+      inline script removes the class again.
+   2. A sweep on scroll/resize/load reveals anything the observer missed —
+      an element parked inside the observer's inset bottom edge used to sit
+      at opacity 0 forever.
+--------------------------------------------------------------------------- */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html:not(.reveal-on) .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------------------------------------------------------------------------
+   Prose
+--------------------------------------------------------------------------- */
+
+.prose-editorial {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-ink);
+}
+
+.prose-editorial h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  scroll-margin-top: 6rem;
+}
+
+.prose-editorial h3 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  scroll-margin-top: 6rem;
+}
+
+.prose-editorial p {
+  margin-bottom: 1.1rem;
+}
+
+.prose-editorial ul,
+.prose-editorial ol {
+  margin: 0 0 1.1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.prose-editorial ul {
+  list-style: disc;
+}
+
+.prose-editorial ol {
+  list-style: decimal;
+}
+
+.prose-editorial a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prose-editorial strong {
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------------------------
+   Utilities
+--------------------------------------------------------------------------- */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

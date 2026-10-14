@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import { Icon } from 'astro-icon/components';
+import { url } from '../lib/content';
+import { SITE } from '../data/site';
+
+const destinations = [
+  { label: 'Doenças', href: url.diseases(), description: 'Enciclopédia de doenças e condições' },
+  { label: 'Artigos', href: url.articles(), description: 'Respostas para dúvidas específicas' },
+  { label: 'Temas de saúde', href: url.topics(), description: 'Guias por área da saúde' },
+  { label: 'Sobre o projeto', href: url.about(), description: 'Missão, limites e princípios' },
+];
+---
+
+<BaseLayout
+  title={`Página não encontrada | ${SITE.name}`}
+  description="O endereço acessado não existe. Use a busca ou navegue pelas seções de doenças, artigos e temas de saúde."
+  robots="noindex, follow"
+>
+  <div class="mx-auto max-w-3xl px-5 py-20">
+    <p class="overline">Erro 404</p>
+    <h1 class="display mt-5 text-[2.4rem] sm:text-[3.2rem]">Esta página não existe.</h1>
+    <p class="mt-4 max-w-xl text-[1rem] leading-relaxed text-ink-muted">
+      O endereço pode ter sido alterado, removido ou nunca ter existido. Nenhum conteúdo médico foi publicado com
+      este endereço.
+    </p>
+
+    <div class="mt-8 max-w-xl">
+      <SearchBox variant="compact" />
+    </div>
+
+    <div class="mt-12 grid gap-4 sm:grid-cols-2">
+      {
+        destinations.map((item) => (
+          <a href={item.href} class="card card-link flex items-start justify-between gap-3 p-5">
+            <span>
+              <span class="block text-[0.95rem] font-semibold tracking-tight">{item.label}</span>
+              <span class="mt-1 block text-[0.82rem] text-ink-muted">{item.description}</span>
+            </span>
+            <Icon name="tabler:arrow-up-right" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+          </a>
+        ))
+      }
+    </div>
+
+    <a href={url.home()} class="mt-10 inline-flex items-center gap-1.5 text-[0.85rem] font-semibold text-accent">
+      <Icon name="tabler:arrow-left" class="h-4 w-4" />
+      Voltar para a página inicial
+    </a>
+  </div>
+</BaseLayout>

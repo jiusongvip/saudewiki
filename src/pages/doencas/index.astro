@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import DiseaseCard from '../../components/DiseaseCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { publishedDiseases, url } from '../../lib/content';
+import { SITE } from '../../data/site';
+
+const categories = Array.from(
+  new Map(publishedDiseases.map((d) => [d.categorySlug, d.category])).entries()
+).map(([slug, label]) => ({ slug, label, count: publishedDiseases.filter((d) => d.categorySlug === slug).length }));
+
+const breadcrumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Doenças', href: url.diseases() },
+];
+---
+
+<BaseLayout
+  title={`Doenças | ${SITE.name}`}
+  description="Enciclopédia de doenças em português: sintomas, transmissão, diagnóstico, tratamento e prevenção, com fontes públicas oficiais."
+  breadcrumbs={breadcrumbs}
+>
+  <div class="mx-auto max-w-6xl px-5 pb-8 pt-10">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">Doenças</h1>
+    <p class="mt-4 max-w-2xl text-[1rem] leading-relaxed text-ink-muted">
+      Cada página reúne o que é a doença, quais são os sintomas, como ela é transmitida, como é feito o diagnóstico e
+      o que reduz o risco, sempre com a fonte oficial indicada.
+    </p>
+
+    <div class="mt-8 max-w-xl">
+      <SearchBox variant="compact" />
+    </div>
+
+    <div class="mt-8 flex flex-wrap gap-2.5">
+      {
+        categories.map((category) => (
+          <span class="rounded-full border border-line px-3.5 py-1.5 text-[0.82rem] text-ink-muted">
+            {category.label} <span class="tabular-nums opacity-70">({category.count})</span>
+          </span>
+        ))
+      }
+    </div>
+  </div>
+
+  <section class="mx-auto max-w-6xl px-5 pb-16" aria-label="Lista de doenças">
+    <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {publishedDiseases.map((disease) => <DiseaseCard disease={disease} />)}
+    </div>
+
+    <p class="mt-10 text-[0.82rem] leading-relaxed text-ink-muted">
+      A enciclopédia está em construção. Novas doenças são adicionadas conforme passam pela revisão editorial. O
+      conteúdo ainda não revisado não é publicado.
+    </p>
+  </section>
+</BaseLayout>

@@ -1,0 +1,47 @@
+---
+import { Icon } from 'astro-icon/components';
+import { formatDatePtBr, url } from '../lib/content';
+import { imageForArticle } from '../lib/images';
+import ImageSlot from './ImageSlot.astro';
+import type { Article } from '../types';
+
+interface Props {
+  article: Article;
+  ratio?: string;
+  eager?: boolean;
+}
+
+const { article, ratio = '16 / 9', eager = false } = Astro.props;
+const image = imageForArticle(article.slug);
+---
+
+<article class="card card-link group flex flex-col overflow-hidden">
+  <ImageSlot src={image?.src} alt={image?.alt ?? ''} ratio={ratio} eager={eager} />
+
+  <div class="flex flex-1 flex-col p-5 sm:p-6">
+    <div class="flex items-center gap-3">
+      <span class="overline">{article.category}</span>
+      <span class="text-[0.72rem] text-ink-muted">{formatDatePtBr(article.updatedAt)}</span>
+    </div>
+
+    <h3 class="mt-2.5 text-[1.15rem] font-semibold leading-snug tracking-tight">
+      <a href={url.article(article.slug)} class="transition-colors hover:text-accent">
+        {article.title}
+      </a>
+    </h3>
+
+    <p class="mt-2 flex-1 text-[0.9rem] leading-relaxed text-ink-muted">{article.excerpt}</p>
+
+    <a
+      href={url.article(article.slug)}
+      class="mt-5 inline-flex items-center gap-1.5 text-[0.85rem] font-semibold text-accent"
+      aria-label={`Ler artigo: ${article.title}`}
+    >
+      Ler artigo
+      <Icon
+        name="tabler:arrow-right"
+        class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+      />
+    </a>
+  </div>
+</article>

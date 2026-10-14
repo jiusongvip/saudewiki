@@ -1,0 +1,97 @@
+---
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../data/site';
+import { navItems, url } from '../lib/content';
+
+const pathname = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? pathname === '/' : pathname.startsWith(href);
+---
+
+<header
+  id="main-nav"
+  class="sticky top-0 z-50 border-b border-line bg-canvas/85 backdrop-blur-md"
+>
+  <div class="shell flex h-16 items-center gap-3 px-5">
+    <a href={url.home()} class="flex shrink-0 items-center gap-2.5" aria-label={`${SITE.name}, página inicial`}>
+      <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-canvas">
+        <Icon name="tabler:heartbeat" class="h-[18px] w-[18px]" />
+      </span>
+      <span class="text-[1.05rem] font-semibold tracking-tight">{SITE.name}</span>
+    </a>
+
+    <nav class="ml-auto hidden items-center gap-7 md:flex" aria-label="Navegação principal">
+      {
+        navItems.map((item) => (
+          <a
+            href={item.href}
+            aria-current={isActive(item.href) ? 'page' : undefined}
+            class:list={[
+              'text-[0.9rem] transition-colors hover:text-accent',
+              isActive(item.href) ? 'font-semibold text-accent' : 'text-ink-muted',
+            ]}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <!-- `border-control`, not `border-line`: this is the edge of a control, and
+         WCAG 1.4.11 asks 3:1 for it. Decorative rules use `border-line`. -->
+    <a
+      href={url.search()}
+      class="ml-auto hidden items-center gap-2 rounded-full border border-control px-4 py-2 text-[0.85rem] font-semibold transition-colors hover:border-accent hover:text-accent md:ml-6 md:inline-flex"
+    >
+      <Icon name="tabler:search" class="h-4 w-4" />
+      Pesquisar
+    </a>
+
+    <button
+      id="mobile-menu-btn"
+      type="button"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      class="ml-auto inline-flex h-10 w-10 items-center justify-center rounded-lg border border-control md:hidden"
+    >
+      <Icon name="tabler:menu-2" class="h-5 w-5" />
+    </button>
+  </div>
+
+  <div id="mobile-menu" class="hidden border-t border-line bg-canvas px-5 pb-5 pt-3 md:hidden">
+    <nav class="flex flex-col" aria-label="Navegação móvel">
+      {
+        navItems.map((item) => (
+          <a
+            href={item.href}
+            class="border-b border-line py-3 text-[0.95rem] last:border-0"
+            aria-current={isActive(item.href) ? 'page' : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+      <a
+        href={url.search()}
+        class="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-accent px-4 py-3 text-[0.9rem] font-semibold text-canvas"
+      >
+        <Icon name="tabler:search" class="h-4 w-4" />
+        Pesquisar
+      </a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const button = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  if (button && menu) {
+    button.addEventListener('click', () => {
+      const nowHidden = menu.classList.toggle('hidden');
+      button.setAttribute('aria-expanded', String(!nowHidden));
+      button.setAttribute('aria-label', nowHidden ? 'Abrir menu' : 'Fechar menu');
+    });
+  }
+</script>

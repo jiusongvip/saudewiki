@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import { Icon } from 'astro-icon/components';
+import { buildSearchIndex, popularSearches, url } from '../lib/content';
+import { SITE } from '../data/site';
+
+/**
+ * The index is generated at build time and inlined, so search works with no
+ * backend. When a real search service is introduced, only the client script
+ * below changes — the page contract (query in `?q=`) stays the same.
+ */
+const searchIndexJson = JSON.stringify(buildSearchIndex()).replace(/</g, '\\u003c');
+---
+
+<BaseLayout
+  title={`Resultados da busca | ${SITE.name}`}
+  description="Busque por doenças, sintomas, artigos e temas de saúde no Saudewiki. Resultados com conteúdo em português e fontes oficiais."
+  robots="noindex, follow"
+>
+  <div class="mx-auto max-w-3xl px-5 py-14">
+    <h1 class="display text-[2.2rem] sm:text-[2.8rem]">Resultados da busca</h1>
+
+    <div class="mt-8">
+      <SearchBox variant="compact" />
+    </div>
+
+    <p id="search-summary" class="mt-6 text-[0.92rem] text-ink-muted" aria-live="polite">
+      Digite um termo para buscar por doenças, sintomas, artigos e temas.
+    </p>
+
+    <ul id="search-results" class="mt-8 flex flex-col gap-3"></ul>
+
+    <div id="search-empty" class="hidden">
+      <p class="text-[0.95rem] text-ink-muted">
+        Não encontramos resultados para esta pesquisa. Tente outro termo ou comece por uma busca popular:
+      </p>
+      <div class="mt-4 flex flex-wrap gap-2.5">
+        {
+          popularSearches.map((term) => (
+            <a
+              href={url.search(term)}
+              class="rounded-full border border-control px-3.5 py-1.5 text-[0.82rem] text-ink-muted transition-colors hover:border-accent hover:text-accent"
+            >
+              {term}
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <noscript>
+      <p class="mt-8 rounded-xl border border-line bg-surface p-5 text-[0.9rem] text-ink-muted">
+        A busca deste site precisa de JavaScript. Você pode navegar diretamente por
+        <a href={url.diseases()} class="font-medium text-accent underline underline-offset-2">doenças</a>,
+        <a href={url.articles()} class="font-medium text-accent underline underline-offset-2">artigos</a> ou
+        <a href={url.topics()} class="font-medium text-accent underline underline-offset-2">temas de saúde</a>.
+      </p>
+    </noscript>
+
+    <p class="mt-12 flex items-start gap-2 text-[0.8rem] leading-relaxed text-ink-muted">
+      <Icon name="tabler:info-circle" class="mt-0.5 h-4 w-4 shrink-0" />
+      <span>
+        Esta página de resultados não é indexada por buscadores. Todo o conteúdo pesquisável tem endereço próprio em
+        Doenças, Artigos e Temas de saúde.
+      </span>
+    </p>
+  </div>
+
+  <script type="application/json" id="search-index" set:html={searchIndexJson} />
+
+  <script>
+    const indexElement = document.getElementById('search-index');
+    const summary = document.getElementById('search-summary');
+    const list = document.getElementById('search-results');
+    const emptyState = document.getElementById('search-empty');
+    const input = document.querySelector<HTMLInputElement>('input[name="q"]');
+
+    interface Entry {
+      title: string;
+      excerpt: string;
+      href: string;
+      type: string;
+      typeLabel: string;
+      haystack: string;
+    }
+
+    const entries: Entry[] = indexElement?.textContent ? JSON.parse(indexElement.textContent) : [];
+    const params = new URLSearchParams(window.location.search);
+    const rawQuery = (params.get('q') ?? '').trim();
+
+    if (input) input.value = rawQuery;
+
+    const normalize = (value: string) =>
+      value
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim();
+
+    /**
+     * Results are built with DOM APIs rather than innerHTML: the query string
+     * is user-controlled and must never be interpreted as markup.
+     */
+    function renderResults(results: Entry[]): void {
+      if (!list || !summary || !emptyState) return;
+
+      list.replaceChildren();
+
+      if (results.length === 0) {
+        summary.textContent = `Não encontramos resultados para “${rawQuery}”.`;
+        emptyState.classList.remove('hidden');
+        return;
+      }
+
+      emptyState.classList.add('hidden');
+      summary.textContent =
+        results.length === 1
+          ? `1 resultado para “${rawQuery}”`
+          : `${results.length} resultados para “${rawQuery}”`;
+
+      for (const entry of results) {
+        const item = document.createElement('li');
+        item.className = 'card p-5';
+
+        const link = document.createElement('a');
+        link.href = entry.href;
+        link.className = 'block';
+
+        const meta = document.createElement('span');
+        meta.className = 'overline';
+        meta.textContent = entry.typeLabel;
+
+        const title = document.createElement('span');
+        title.className = 'mt-2 block text-[1.05rem] font-semibold tracking-tight';
+        title.textContent = entry.title;
+
+        const excerpt = document.createElement('span');
+        excerpt.className = 'mt-1.5 block text-[0.88rem] leading-relaxed text-ink-muted';
+        excerpt.textContent = entry.excerpt;
+
+        link.append(meta, title, excerpt);
+        item.append(link);
+        list.append(item);
+      }
+    }
+
+    if (!rawQuery) {
+      summary && (summary.textContent = 'Digite um termo para buscar por doenças, sintomas, artigos e temas.');
+      emptyState?.classList.add('hidden');
+    } else {
+      const terms = normalize(rawQuery).split(/\s+/).filter(Boolean);
+      const results = entries.filter((entry) => terms.every((term) => entry.haystack.includes(term)));
+      renderResults(results);
+      document.title = `${rawQuery} | busca | Saudewiki`;
+    }
+  </script>
+</BaseLayout>

@@ -1,0 +1,109 @@
+---
+/**
+ * A grid of rounded windows onto ONE photograph.
+ *
+ * This is the reference's technique, ported. Its `MaskedCard` does the same
+ * thing: the photograph is scaled to the size of the whole container, and every
+ * window shows the slice that happens to lie at its own offset inside that
+ * container. Because each coordinate is measured against the container rather
+ * than against the window, the windows can be any size and sit anywhere, and
+ * the photograph still lines up across all of them. That is what makes the
+ * result read as one image with pieces cut out of it instead of a pile of
+ * separate pictures.
+ *
+ * Two parts of this cannot be expressed in CSS and have to happen at runtime:
+ * the scale, because it depends on the container's measured height, and the
+ * offsets, because they depend on where each window ended up after layout.
+ *
+ * It differs from the reference in one place, deliberately. The reference sizes
+ * the photograph to the container's height and stops there, so a photograph
+ * whose aspect ratio is narrower than the container's leaves a bare strip down
+ * one side. This takes `max()` over both axes, so the photograph always covers.
+ *
+ * Fails open. Every window carries a neutral fill, so if the script never runs
+ * the page still shows a clean grid of tiles rather than a set of holes.
+ */
+interface Props {
+  src: string;
+  /** Horizontal anchor of the crop. 0 keeps the left edge, 1 keeps the right. */
+  fx?: number;
+  /** Vertical anchor of the crop. 0 keeps the top edge, 1 keeps the bottom. */
+  fy?: number;
+  class?: string;
+}
+
+const { src, fx = 0.5, fy = 0.5, class: klass = '' } = Astro.props;
+---
+
+<div class:list={['wg', klass]} data-wg data-src={src} data-fx={fx} data-fy={fy}>
+  <slot />
+</div>
+
+<script>
+  const sizes = new Map();
+
+  const measure = (src) => {
+    let pending = sizes.get(src);
+    if (!pending) {
+      pending = new Promise((resolve) => {
+        const probe = new Image();
+        probe.onload = () => resolve({ w: probe.naturalWidth, h: probe.naturalHeight });
+        probe.onerror = () => resolve(null);
+        probe.src = src;
+      });
+      sizes.set(src, pending);
+    }
+    return pending;
+  };
+
+  const paint = (host, size) => {
+    const src = host.dataset.src || '';
+    const fx = Number(host.dataset.fx ?? '0.5');
+    const fy = Number(host.dataset.fy ?? '0.5');
+    const box = host.getBoundingClientRect();
+    const sw = box.width;
+    const sh = box.height;
+    if (sw < 2 || sh < 2) return;
+
+    let rw = sw;
+    let rh = sh;
+    if (size) {
+      // max() over both axes: the photograph always covers the container.
+      const scale = Math.max(sw / size.w, sh / size.h);
+      rw = size.w * scale;
+      rh = size.h * scale;
+    }
+    const ox = -(rw - sw) * fx;
+    const oy = -(rh - sh) * fy;
+
+    for (const win of host.querySelectorAll('[data-window]')) {
+      const r = win.getBoundingClientRect();
+      win.style.backgroundImage = size ? `url("${src}")` : 'none';
+      win.style.backgroundSize = size ? `${rw}px ${rh}px` : 'auto';
+      win.style.backgroundPosition = `${Math.round(ox - (r.left - box.left))}px ${Math.round(
+        oy - (r.top - box.top)
+      )}px`;
+    }
+    host.classList.add('wg-on');
+  };
+
+  const hosts = Array.from(document.querySelectorAll('[data-wg]'));
+
+  if (hosts.length) {
+    const layout = (host) => {
+      measure(host.dataset.src || '').then((size) => paint(host, size));
+    };
+
+    for (const host of hosts) {
+      layout(host);
+      if ('ResizeObserver' in window) {
+        new ResizeObserver(() => layout(host)).observe(host);
+      }
+    }
+
+    window.addEventListener('resize', () => hosts.forEach(layout), { passive: true });
+
+    // Web fonts land after first paint and change the height of every window.
+    if (document.fonts) document.fonts.ready.then(() => hosts.forEach(layout));
+  }
+</script>

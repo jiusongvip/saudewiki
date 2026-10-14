@@ -1,0 +1,79 @@
+---
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../data/site';
+import { url } from '../lib/content';
+
+const year = new Date().getFullYear();
+
+const navigate = [
+  { label: 'Doenças', href: url.diseases() },
+  { label: 'Artigos', href: url.articles() },
+  { label: 'Temas de saúde', href: url.topics() },
+];
+
+const institutional = [
+  { label: 'Sobre nós', href: url.about() },
+  { label: 'Política editorial', href: url.editorial() },
+  { label: 'Política de privacidade', href: url.privacy() },
+  { label: 'Contato', href: url.contact() },
+];
+---
+
+<footer class="mt-24 border-t border-line bg-surface">
+  <div class="shell px-5 py-14">
+    <div class="grid gap-10 md:grid-cols-[1.6fr_1fr_1fr]">
+      <div>
+        <div class="flex items-center gap-2.5">
+          <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-canvas">
+            <Icon name="tabler:heartbeat" class="h-[18px] w-[18px]" />
+          </span>
+          <span class="text-[1.05rem] font-semibold tracking-tight">{SITE.name}</span>
+        </div>
+        <p class="mt-4 max-w-sm text-[0.9rem] leading-relaxed text-ink-muted">
+          Plataforma gratuita de informação em saúde, escrita em linguagem clara e baseada em fontes públicas
+          oficiais. Não substitui consulta, diagnóstico ou tratamento profissional.
+        </p>
+      </div>
+
+      <nav aria-label="Navegar">
+        <h2 class="overline">Navegar</h2>
+        <ul class="mt-4 flex flex-col gap-2.5">
+          {
+            navigate.map((item) => (
+              <li>
+                <a href={item.href} class="text-[0.9rem] text-ink-muted transition-colors hover:text-accent">
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <nav aria-label="Institucional">
+        <h2 class="overline">Institucional</h2>
+        <ul class="mt-4 flex flex-col gap-2.5">
+          {
+            institutional.map((item) => (
+              <li>
+                <a href={item.href} class="text-[0.9rem] text-ink-muted transition-colors hover:text-accent">
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+    </div>
+
+    <div class="mt-12 border-t border-line pt-6">
+      <p class="text-[0.8rem] leading-relaxed text-ink-muted">
+        As informações deste site têm caráter educativo e não substituem a avaliação de um profissional de saúde.
+        Em caso de dúvida ou agravamento de sintomas, procure um serviço de saúde.
+      </p>
+      <p class="mt-3 text-[0.8rem] text-ink-muted">
+        © {year} {SITE.name}. Conteúdo em revisão editorial contínua.
+      </p>
+    </div>
+  </div>
+</footer>

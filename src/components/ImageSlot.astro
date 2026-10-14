@@ -1,0 +1,49 @@
+---
+/**
+ * An image box that reserves its space before the file arrives.
+ *
+ * Two jobs. It keeps `aspect-ratio` on the wrapper so a lazy image cannot
+ * shift the layout when it loads, and when there is no `src` yet it renders a
+ * halftone block instead of a broken image. A missing photo should look like a
+ * deliberate placeholder, not like a bug.
+ *
+ * The `.media` class carries the shared image filter and the hover zoom, so
+ * every picture on the site is treated the same way.
+ */
+interface Props {
+  src?: string;
+  alt?: string;
+  /** CSS aspect-ratio, e.g. "4 / 3". Use "fill" to fill the parent instead. */
+  ratio?: string;
+  class?: string;
+  /** Set on above-the-fold images so they are not deferred. */
+  eager?: boolean;
+}
+
+const { src, alt = '', ratio = '4 / 3', class: klass = '', eager = false } = Astro.props;
+const fills = ratio === 'fill';
+---
+
+<div
+  class:list={['media', fills ? 'h-full w-full' : '', klass]}
+  style={fills ? undefined : `aspect-ratio: ${ratio}`}
+>
+  {
+    src ? (
+      <img
+        src={src}
+        alt={alt}
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+        fetchpriority={eager ? 'high' : 'auto'}
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+    ) : (
+      <div class="halftone absolute inset-0" aria-hidden="true">
+        <span class="absolute inset-0 flex items-center justify-center text-[0.65rem] uppercase tracking-[0.2em] text-ink-muted/60">
+          imagem pendente
+        </span>
+      </div>
+    )
+  }
+</div>

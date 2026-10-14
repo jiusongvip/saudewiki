@@ -1,0 +1,52 @@
+---
+import { Icon } from 'astro-icon/components';
+import { REVIEW_LABELS } from '../data/site';
+import { formatDatePtBr } from '../lib/content';
+import type { ReviewStatus } from '../types';
+
+interface Props {
+  author: string;
+  reviewer: string | null;
+  reviewStatus: ReviewStatus;
+  publishedAt: string;
+  updatedAt: string;
+}
+
+const { author, reviewer, reviewStatus, publishedAt, updatedAt } = Astro.props;
+
+/**
+ * Editorial provenance block. It only ever states what is actually true: when
+ * no named reviewer exists, it says so instead of implying a medical sign-off.
+ */
+const tone =
+  reviewStatus === 'published' || reviewStatus === 'reviewed'
+    ? 'border-accent-200 bg-accent-soft text-accent-strong'
+    : 'border-line bg-canvas text-ink-muted';
+---
+
+<div class="rounded-xl border border-line bg-surface p-5">
+  <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+    <span class:list={['inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[0.72rem] font-semibold', tone]}>
+      <Icon name="tabler:clipboard-check" class="h-3.5 w-3.5" />
+      {REVIEW_LABELS[reviewStatus]}
+    </span>
+    <span class="text-[0.8rem] text-ink-muted">Por {author}</span>
+  </div>
+
+  <dl class="mt-4 grid gap-x-8 gap-y-2 text-[0.8rem] sm:grid-cols-2">
+    <div class="flex gap-1.5">
+      <dt class="text-ink-muted">Revisão médica:</dt>
+      <dd class={reviewer ? 'font-medium text-ink' : 'font-medium text-warn'}>
+        {reviewer ?? 'ainda não realizada'}
+      </dd>
+    </div>
+    <div class="flex gap-1.5">
+      <dt class="text-ink-muted">Publicado em:</dt>
+      <dd class="font-medium text-ink">{formatDatePtBr(publishedAt)}</dd>
+    </div>
+    <div class="flex gap-1.5">
+      <dt class="text-ink-muted">Última atualização:</dt>
+      <dd class="font-medium text-ink">{formatDatePtBr(updatedAt)}</dd>
+    </div>
+  </dl>
+</div>
