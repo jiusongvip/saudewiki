@@ -3,6 +3,9 @@ import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
+import { localeSpecs, locales, localizePath, rootPath, defaultLocale } from '../lib/i18n';
+import type { Locale } from '../types';
 
 interface Crumb {
   name: string;
@@ -10,6 +13,7 @@ interface Crumb {
 }
 
 interface Props {
+  lang: Locale;
   title: string;
   description: string;
   canonical?: string;
@@ -17,11 +21,19 @@ interface Props {
   ogType?: string;
   ogImage?: string;
   breadcrumbs?: Crumb[];
+  /**
+   * Let the page run to the edge of the window. The home page needs this: its
+   * composition is full-bleed tiles separated by a 6px grout, and a centred
+   * `max-width` container would turn that into a framed poster. Every other page
+   * keeps the shell, because running body text edge to edge is unreadable.
+   */
+  bleed?: boolean;
   /** Extra Schema.org nodes merged into the page @graph. */
   schemaNodes?: Record<string, unknown>[];
 }
 
 const {
+  lang,
   title,
   description,
   canonical,
@@ -29,12 +41,31 @@ const {
   ogType = 'website',
   ogImage = '/og-1200x630.png',
   breadcrumbs = [],
+  bleed = false,
   schemaNodes = [],
 } = Astro.props;
+
+const spec = localeSpecs[lang];
+const t = ui[lang];
 
 const pathname = Astro.url.pathname;
 const canonicalUrl = canonical ?? new URL(pathname, Astro.site).href;
 const absoluteOgImage = new URL(ogImage, Astro.site).href;
+
+/**
+ * hreflang alternates.
+ *
+ * Both languages share their slugs, so an alternate is the same path with the
+ * locale prefix swapped: no per-page table of twins to maintain, and a new page
+ * is automatically correctly paired the moment it exists in both languages.
+ * `x-default` points at the root locale, which is the version for a reader whose
+ * language the site cannot tell.
+ */
+const neutralPath = rootPath(pathname);
+const alternates = locales.map((code) => ({
+  hreflang: localeSpecs[code].hreflang,
+  href: new URL(localizePath(neutralPath, code), Astro.site).href,
+}));
 
 const graph: Record<string, unknown>[] = [
   {
@@ -42,8 +73,8 @@ const graph: Record<string, unknown>[] = [
     '@id': `${SITE.url}/#website`,
     url: `${SITE.url}/`,
     name: SITE.name,
-    description: SITE.description,
-    inLanguage: SITE.lang,
+    description: t.site.description,
+    inLanguage: locales.map((code) => localeSpecs[code].hreflang),
     publisher: { '@id': `${SITE.url}/#organization` },
   },
   {
@@ -74,7 +105,7 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
 ---
 
 <!doctype html>
-<html lang={SITE.lang}>
+<html lang={spec.htmlLang} dir={spec.dir}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -83,11 +114,21 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
+    {
+      alternates.map((alternate) => (
+        <link rel="alternate" hreflang={alternate.hreflang} href={alternate.href} />
+      ))
+    }
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href={new URL(localizePath(neutralPath, defaultLocale), Astro.site).href}
+    />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={SITE.name} />
-    <meta property="og:locale" content={SITE.locale} />
+    <meta property="og:locale" content={spec.ogLocale} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
@@ -133,16 +174,16 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
       href="#conteudo"
       class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:text-canvas"
     >
-      Pular para o conteúdo
+      {t.nav.skip}
     </a>
 
-    <Nav />
+    <Nav lang={lang} />
 
-    <main id="conteudo" class="shell flex-1">
+    <main id="conteudo" class:list={['flex-1', !bleed && 'shell']}>
       <slot />
     </main>
 
-    <Footer />
+    <Footer lang={lang} />
 
     <script>
       // Bundled (not is:inline) so the observer is defined once per page rather

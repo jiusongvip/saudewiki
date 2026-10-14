@@ -1,0 +1,20 @@
+---
+import ArticleDetailView from '../../../views/ArticleDetailView.astro';
+import { contentFor } from '../../../lib/content';
+import type { Article } from '../../../types';
+
+export function getStaticPaths() {
+  return contentFor('zh-Hant').articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+interface Props {
+  article: Article;
+}
+
+const { article } = Astro.props;
+---
+
+<ArticleDetailView lang="zh-Hant" article={article} />

@@ -1,0 +1,159 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import BodyMap from '../components/BodyMap.astro';
+import DiseaseCard from '../components/DiseaseCard.astro';
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
+import { fill, localeSpecs } from '../lib/i18n';
+import { contentFor, formatDateFor } from '../lib/content';
+import { unitCount } from '../lib/counts';
+import type { BodyRegion, Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+  region: BodyRegion;
+}
+
+const { lang, region } = Astro.props;
+const t = ui[lang];
+const c = contentFor(lang);
+
+const diseases = c.regionDiseases(region);
+const articles = c.regionArticles(region);
+const counts = c.regionCounts(region);
+const isEmpty = counts.total === 0;
+
+const breadcrumbs = [
+  { name: t.common.home, href: c.urls.home() },
+  { name: t.nav.regions, href: c.urls.regions() },
+  { name: region.name, href: c.urls.region(region.slug) },
+];
+
+const name = region.name.toLowerCase();
+const metaDescription = isEmpty ? fill(t.regionPage.emptyMeta, { region: region.name }) : region.description;
+const pageId = `${SITE.url}${c.urls.region(region.slug)}`;
+
+const schemaNodes: Record<string, unknown>[] = [
+  {
+    '@type': 'CollectionPage',
+    '@id': `${pageId}#page`,
+    name: region.name,
+    description: region.description,
+    inLanguage: localeSpecs[lang].hreflang,
+    isPartOf: { '@id': `${SITE.url}/#website` },
+  },
+];
+
+if (diseases.length > 0) {
+  schemaNodes.push({
+    '@type': 'ItemList',
+    '@id': `${pageId}#lista`,
+    name: fill(t.regionPage.itemListName, { region: name }),
+    itemListElement: diseases.map((disease, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: disease.name,
+      url: `${SITE.url}${c.urls.disease(disease.slug)}`,
+    })),
+  });
+}
+---
+
+<BaseLayout lang={lang} title={`${region.name} | ${SITE.name}`} description={metaDescription} breadcrumbs={breadcrumbs} schemaNodes={schemaNodes}>
+  <div class="mx-auto max-w-6xl px-5 pb-10 pt-10">
+    <Breadcrumbs lang={lang} items={breadcrumbs} />
+
+    <div class="mt-8 grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <div>
+        <h1 class="display text-[2.4rem] sm:text-[3.1rem]">{region.name}</h1>
+        <p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-ink-muted">{region.description}</p>
+
+        {
+          isEmpty ? (
+            <aside class="mt-8 max-w-2xl rounded-xl border border-warn/30 bg-warn-soft p-5" role="note">
+              <div class="flex gap-3">
+                <Icon name="tabler:clock-hour-4" class="mt-0.5 h-4 w-4 shrink-0 text-warn" />
+                <div class="text-[0.85rem] leading-relaxed">
+                  <p class="font-semibold">{t.regionPage.emptyTitle}</p>
+                  <p class="mt-1 text-ink-muted">{t.regionPage.emptyBody}</p>
+                  <p class="mt-2 text-ink-muted">
+                    {t.regionPage.emptyInvite}{' '}
+                    <a href={c.urls.contact()} class="font-semibold text-accent underline underline-offset-2">
+                      {t.regionPage.talkToProject}
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </aside>
+          ) : (
+            <p class="mt-6 text-[0.85rem] font-semibold text-ink-muted">
+              {fill(t.regionPage.countsHere, {
+                diseases: unitCount(lang, counts.diseases, 'disease'),
+                articles: unitCount(lang, counts.articles, 'article'),
+              })}
+            </p>
+          )
+        }
+      </div>
+
+      <!-- The same figure the home page opens with, with this region's marker
+           held open. It is wayfinding, not decoration: the reader learns where
+           on the body they are, and the other markers stay clickable. -->
+      <BodyMap lang={lang} regions={c.regions} activeSlug={region.slug} class="order-first lg:order-none" />
+    </div>
+  </div>
+
+  {
+    diseases.length > 0 && (
+      <section class="border-t border-line" aria-labelledby="doencas-da-regiao">
+        <div class="mx-auto max-w-6xl px-5 py-14">
+          <h2 id="doencas-da-regiao" class="display text-[1.8rem]">
+            {fill(t.regionPage.diseasesHere, { region: name })}
+          </h2>
+          <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {diseases.map((disease) => (
+              <DiseaseCard lang={lang} disease={disease} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    articles.length > 0 && (
+      <section class="border-t border-line bg-surface" aria-labelledby="artigos-da-regiao">
+        <div class="mx-auto max-w-6xl px-5 py-14">
+          <h2 id="artigos-da-regiao" class="display text-[1.8rem]">{t.regionPage.articlesHere}</h2>
+          <ul class="mt-8 grid gap-x-10 gap-y-7 sm:grid-cols-2">
+            {articles.map((article) => (
+              <li>
+                <a href={c.urls.article(article.slug)} class="group block">
+                  <span class="text-[0.72rem] font-semibold uppercase tracking-wider text-accent">
+                    {article.category}
+                  </span>
+                  <span class="mt-1.5 block text-[1.05rem] font-semibold leading-snug tracking-tight transition-colors group-hover:text-accent">
+                    {article.title}
+                  </span>
+                  <span class="mt-1.5 block text-[0.78rem] text-ink-muted">
+                    {fill(t.common.updatedOn, { date: formatDateFor(article.updatedAt, lang) })}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
+
+  <div class="mx-auto max-w-6xl px-5 pb-16">
+    <p class="max-w-2xl text-[0.85rem] leading-relaxed text-ink-muted">{t.regionPage.sourcesNote}</p>
+    <a href={c.urls.regions()} class="mt-6 inline-flex items-center gap-2 text-[0.9rem] font-semibold text-accent">
+      <Icon name="tabler:arrow-left" class="h-4 w-4" />
+      {t.regionPage.allRegions}
+    </a>
+  </div>
+</BaseLayout>

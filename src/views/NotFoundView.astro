@@ -1,0 +1,60 @@
+---
+import SearchBox from '../components/SearchBox.astro';
+import { Icon } from 'astro-icon/components';
+import { ui } from '../i18n/ui';
+import { contentFor } from '../lib/content';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const c = contentFor(lang);
+
+/** `to` names the route in the catalog, so the label and the link cannot drift apart. */
+type DestinationRoute = 'diseases' | 'articles' | 'topics' | 'about';
+const destinations = t.notFound.destinations.map((item) => ({
+  ...item,
+  href: c.urls[item.to as DestinationRoute](),
+}));
+
+/*
+ * The 404 body, without the layout around it.
+ *
+ * A static host serves one `404.html` for every missing address, so the document
+ * cannot know which language was asked for. Both are rendered into the same file
+ * and `pages/404.astro` reveals one of them from the requested path — which is
+ * the only locale signal a not-found page can have.
+ */
+---
+
+<div class="mx-auto max-w-3xl px-5 py-20">
+  <p class="eyebrow">{t.notFound.eyebrow}</p>
+  <h1 class="display mt-5 text-[2.4rem] sm:text-[3.2rem]">{t.notFound.h1}</h1>
+  <p class="mt-4 max-w-xl text-[1rem] leading-relaxed text-ink-muted">{t.notFound.lead}</p>
+
+  <div class="mt-8 max-w-xl">
+    <SearchBox lang={lang} variant="compact" />
+  </div>
+
+  <div class="mt-12 grid gap-4 sm:grid-cols-2">
+    {
+      destinations.map((item) => (
+        <a href={item.href} class="card card-link flex items-start justify-between gap-3 p-5">
+          <span>
+            <span class="block text-[0.95rem] font-semibold tracking-tight">{item.label}</span>
+            <span class="mt-1 block text-[0.82rem] text-ink-muted">{item.description}</span>
+          </span>
+          <Icon name="tabler:arrow-up-right" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+        </a>
+      ))
+    }
+  </div>
+
+  <a href={c.urls.home()} class="mt-10 inline-flex items-center gap-1.5 text-[0.85rem] font-semibold text-accent">
+    <Icon name="tabler:arrow-left" class="h-4 w-4" />
+    {t.notFound.backHome}
+  </a>
+</div>

@@ -1,0 +1,25 @@
+---
+import type { Locale } from '../types';
+import { parseInline } from '../lib/prose';
+
+interface Props {
+  /** Body copy that may contain `[label](/internal/path/)` markers. */
+  text: string;
+  lang: Locale;
+}
+
+const { text, lang } = Astro.props;
+const parts = parseInline(text, lang);
+---
+
+{
+  parts.map((part) =>
+    part.kind === 'link' ? (
+      <a href={part.href} class="font-medium text-accent underline underline-offset-2">
+        {part.value}
+      </a>
+    ) : (
+      part.value
+    )
+  )
+}

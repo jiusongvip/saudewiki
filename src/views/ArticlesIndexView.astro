@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import TopicCard from '../components/TopicCard.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
+import { contentFor } from '../lib/content';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const c = contentFor(lang);
+
+const categories = Array.from(
+  new Map(c.articles.map((a) => [a.categorySlug, a.category])).entries()
+).map(([slug, label]) => ({ slug, label, count: c.articles.filter((a) => a.categorySlug === slug).length }));
+
+const breadcrumbs = [
+  { name: t.common.home, href: c.urls.home() },
+  { name: t.nav.articles, href: c.urls.articles() },
+];
+
+const topicsWithArticles = c.topics.filter((topic) => topic.articleSlugs.length > 0);
+---
+
+<BaseLayout lang={lang} title={`${t.articlesIndex.title} | ${SITE.name}`} description={t.articlesIndex.description} breadcrumbs={breadcrumbs}>
+  <div class="mx-auto max-w-6xl px-5 pb-8 pt-10">
+    <Breadcrumbs lang={lang} items={breadcrumbs} />
+
+    <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">{t.articlesIndex.h1}</h1>
+    <p class="mt-4 max-w-2xl text-[1rem] leading-relaxed text-ink-muted">{t.articlesIndex.lead}</p>
+
+    <div class="mt-8 max-w-xl">
+      <SearchBox lang={lang} variant="compact" />
+    </div>
+
+    <div class="mt-8 flex flex-wrap gap-2.5">
+      {
+        categories.map((category) => (
+          <span class="rounded-full border border-line px-3.5 py-1.5 text-[0.82rem] text-ink-muted">
+            {category.label} <span class="tabular-nums opacity-70">({category.count})</span>
+          </span>
+        ))
+      }
+    </div>
+  </div>
+
+  <section class="mx-auto max-w-6xl px-5 pb-16" aria-label={t.articlesIndex.listAria}>
+    <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {c.articles.map((article) => <ArticleCard lang={lang} article={article} />)}
+    </div>
+
+    <p class="mt-10 text-[0.82rem] leading-relaxed text-ink-muted">{t.articlesIndex.note}</p>
+  </section>
+
+  {
+    topicsWithArticles.length > 0 && (
+      <section class="border-t border-line bg-surface" aria-labelledby="navegar-por-tema">
+        <div class="mx-auto max-w-6xl px-5 py-16">
+          <h2 id="navegar-por-tema" class="display text-[1.8rem]">
+            {t.articlesIndex.browseByTopic}
+          </h2>
+          <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {topicsWithArticles.map((topic) => (
+              <TopicCard lang={lang} topic={topic} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>

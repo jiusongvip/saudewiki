@@ -1,0 +1,153 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import InlineText from '../components/InlineText.astro';
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
+import { fill } from '../lib/i18n';
+import { contentFor, formatDateFor } from '../lib/content';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+  /** The slug of one of the four institutional pages in `data/pages.ts`. */
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = ui[lang];
+const c = contentFor(lang);
+
+/** The route a page record is served from, for its own breadcrumb entry. */
+const routeFor = (value: string) =>
+  value === 'sobre'
+    ? c.urls.about()
+    : value === 'politica-editorial'
+      ? c.urls.editorial()
+      : value === 'politica-de-privacidade'
+        ? c.urls.privacy()
+        : c.urls.contact();
+
+const page = c.getPage(slug);
+if (!page) throw new Error(`Static page "${slug}" is not available in ${lang}`);
+
+const breadcrumbs = [{ name: t.common.home, href: c.urls.home() }, { name: page.title, href: routeFor(slug) }];
+
+const mailto = `mailto:${t.site.contact}?subject=${encodeURIComponent(t.site.contactSubject)}`;
+
+/**
+ * `{mission}` is a token in the source record rather than a restatement of the
+ * brand sentence: the about page, the home page and the social preview cannot
+ * then disagree about what the project claims to be.
+ */
+const text = (value: string) => fill(value, { mission: t.site.mission });
+---
+
+<BaseLayout lang={lang} title={`${page.title} | ${SITE.name}`} description={page.description} breadcrumbs={breadcrumbs}>
+  <div class="mx-auto max-w-3xl px-5 py-14">
+    <Breadcrumbs lang={lang} items={breadcrumbs} />
+
+    <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">{page.h1}</h1>
+
+    {
+      page.intro && (
+        <p class="mt-4 max-w-xl text-[1rem] leading-relaxed text-ink-muted">
+          <InlineText lang={lang} text={text(page.intro)} />
+        </p>
+      )
+    }
+
+    {
+      page.notice && (
+        <aside class="mt-8 rounded-xl border border-warn/30 bg-warn-soft p-5" role="note">
+          <p class="flex items-center gap-2 text-[0.9rem] font-semibold text-warn">
+            <Icon name="tabler:alert-triangle" class="h-4 w-4 shrink-0" />
+            {page.notice.title}
+          </p>
+          <p class="mt-2 text-[0.88rem] leading-relaxed text-ink-muted">{page.notice.body}</p>
+        </aside>
+      )
+    }
+
+    {
+      page.mailto && (
+        <a
+          href={mailto}
+          class="mt-8 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3.5 text-[0.88rem] font-semibold text-canvas transition-colors hover:bg-accent-strong"
+        >
+          <Icon name="tabler:mail" class="h-4 w-4" />
+          {t.site.contact}
+        </a>
+      )
+    }
+
+    {
+      !page.cardsAfter && page.cards && (
+        <div class="mt-12 grid gap-4 sm:grid-cols-3">
+          {page.cards.map((card) => (
+            <div class="rounded-xl border border-line bg-surface p-5">
+              {card.icon && (
+                <span class="flex h-9 w-9 items-center justify-center rounded-lg bg-accent-soft text-accent">
+                  <Icon name={card.icon} class="h-[18px] w-[18px]" />
+                </span>
+              )}
+              <h2 class="mt-4 text-[0.95rem] font-semibold tracking-tight">{card.title}</h2>
+              <p class="mt-2 text-[0.85rem] leading-relaxed text-ink-muted">{card.description}</p>
+            </div>
+          ))}
+        </div>
+      )
+    }
+
+    <div class="prose-editorial mt-10">
+      {
+        page.sections.map((section) => (
+          <section>
+            <h2 id={section.id}>{section.heading}</h2>
+            {section.paragraphs?.map((paragraph) => (
+              <p>
+                <InlineText lang={lang} text={text(paragraph)} />
+              </p>
+            ))}
+            {section.bullets && section.bullets.length > 0 && (
+              <ul>
+                {section.bullets.map((bullet) => (
+                  <li>
+                    <InlineText lang={lang} text={text(bullet)} />
+                  </li>
+                ))}
+              </ul>
+            )}
+            {section.id === page.cardsAfter && page.cards && (
+              <div class="mt-5 flex flex-col gap-3">
+                {page.cards.map((card) => (
+                  <div class="rounded-xl border border-line bg-surface p-5">
+                    <h3 class="text-[0.95rem] font-semibold">{card.title}</h3>
+                    <p class="mt-1.5 text-[0.88rem] leading-relaxed text-ink-muted">{card.description}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </section>
+        ))
+      }
+    </div>
+
+    {
+      page.outro && (
+        <p class="mt-10 rounded-xl border border-line bg-surface p-5 text-[0.82rem] leading-relaxed text-ink-muted">
+          <InlineText lang={lang} text={text(page.outro)} />
+        </p>
+      )
+    }
+
+    {
+      page.updatedAt && (
+        <p class="mt-8 text-[0.82rem] text-ink-muted">
+          {t.common.lastUpdate} {formatDateFor(page.updatedAt, lang)}
+        </p>
+      )
+    }
+  </div>
+</BaseLayout>

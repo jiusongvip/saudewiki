@@ -1,0 +1,20 @@
+---
+import RegionDetailView from '../../../views/RegionDetailView.astro';
+import { contentFor } from '../../../lib/content';
+import type { BodyRegion } from '../../../types';
+
+export function getStaticPaths() {
+  return contentFor('zh-Hant').regions.map((region) => ({
+    params: { slug: region.slug },
+    props: { region },
+  }));
+}
+
+interface Props {
+  region: BodyRegion;
+}
+
+const { region } = Astro.props;
+---
+
+<RegionDetailView lang="zh-Hant" region={region} />

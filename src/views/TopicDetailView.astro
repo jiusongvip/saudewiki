@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ReferenceList from '../components/ReferenceList.astro';
+import DiseaseCard from '../components/DiseaseCard.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
+import { localeSpecs } from '../lib/i18n';
+import { contentFor } from '../lib/content';
+import type { Locale, Topic } from '../types';
+
+interface Props {
+  lang: Locale;
+  topic: Topic;
+}
+
+const { lang, topic } = Astro.props;
+const t = ui[lang];
+const c = contentFor(lang);
+
+const topicDiseases = c.diseases.filter((disease) => topic.diseaseSlugs.includes(disease.slug));
+const topicArticles = c.articles.filter((article) => topic.articleSlugs.includes(article.slug));
+const isEmpty = topicDiseases.length === 0 && topicArticles.length === 0;
+
+const breadcrumbs = [
+  { name: t.common.home, href: c.urls.home() },
+  { name: t.nav.topics, href: c.urls.topics() },
+  { name: topic.title, href: c.urls.topic(topic.slug) },
+];
+
+const schemaNodes: Record<string, unknown>[] = [
+  {
+    '@type': 'CollectionPage',
+    '@id': `${SITE.url}${c.urls.topic(topic.slug)}#page`,
+    name: topic.title,
+    description: topic.description,
+    inLanguage: localeSpecs[lang].hreflang,
+    isPartOf: { '@id': `${SITE.url}/#website` },
+  },
+];
+---
+
+<BaseLayout lang={lang} title={`${topic.title} | ${SITE.name}`} description={topic.description} breadcrumbs={breadcrumbs} schemaNodes={schemaNodes}>
+  <div class="mx-auto max-w-6xl px-5 pb-16 pt-10">
+    <Breadcrumbs lang={lang} items={breadcrumbs} />
+
+    <span class="eyebrow mt-6 block">{t.topicsIndex.eyebrow}</span>
+    <h1 class="display mt-3 max-w-3xl text-[2.3rem] sm:text-[3rem]">{topic.title}</h1>
+    <p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-ink-muted">{topic.description}</p>
+
+    {
+      isEmpty && (
+        <aside class="mt-8 max-w-2xl rounded-xl border border-warn/30 bg-warn-soft p-5" role="note">
+          <div class="flex gap-3">
+            <Icon name="tabler:clock-hour-4" class="mt-0.5 h-4 w-4 shrink-0 text-warn" />
+            <div class="text-[0.85rem] leading-relaxed">
+              <p class="font-semibold">{t.topicPage.emptyTitle}</p>
+              <p class="mt-1 text-ink-muted">{t.topicPage.emptyBody}</p>
+            </div>
+          </div>
+        </aside>
+      )
+    }
+
+    <section class="mt-12" aria-labelledby="escopo">
+      <h2 id="escopo" class="display text-[1.6rem]">{t.topicPage.scope}</h2>
+      <ul class="mt-5 grid max-w-3xl gap-3 sm:grid-cols-2">
+        {
+          topic.scope.map((item) => (
+            <li class="flex gap-2.5 rounded-lg border border-line bg-surface px-4 py-3 text-[0.88rem]">
+              <Icon name="tabler:point" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+              <span class="text-ink-muted">{item}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+
+  {
+    topicDiseases.length > 0 && (
+      <section class="border-t border-line" aria-labelledby="doencas-do-tema">
+        <div class="mx-auto max-w-6xl px-5 py-14">
+          <h2 id="doencas-do-tema" class="display text-[1.8rem]">{t.topicPage.diseases}</h2>
+          <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {topicDiseases.map((disease) => (
+              <DiseaseCard lang={lang} disease={disease} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    topicArticles.length > 0 && (
+      <section class="border-t border-line bg-surface" aria-labelledby="artigos-do-tema">
+        <div class="mx-auto max-w-6xl px-5 py-14">
+          <h2 id="artigos-do-tema" class="display text-[1.8rem]">{t.topicPage.articles}</h2>
+          <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {topicArticles.map((article) => (
+              <ArticleCard lang={lang} article={article} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    topic.references.length > 0 && (
+      <div class="mx-auto max-w-6xl px-5 py-14">
+        <div class="max-w-2xl">
+          <ReferenceList lang={lang} references={topic.references} title={t.topicPage.sources} />
+        </div>
+      </div>
+    )
+  }
+</BaseLayout>

@@ -1,0 +1,114 @@
+---
+import { ui } from '../i18n/ui';
+import { contentFor } from '../lib/content';
+import { regionCaption } from '../lib/counts';
+import type { BodyRegion, Locale } from '../types';
+
+/**
+ * The clickable anatomy plate.
+ *
+ * `fit` decides which edge drives the size. The home page uses `height` so the
+ * body fills its screen and becomes the ground the headline sits on; the region
+ * pages use `width` because there the figure has to fit a sidebar column.
+ *
+ * The marker layer is positioned against the frame, and the frame shrink-wraps
+ * the picture, so a `spot` percentage always means the same organ no matter how
+ * big the figure renders. That only holds while the frame is exactly as large as
+ * the image, which is why it is `inline-block` and not `flex: 1`.
+ *
+ * Below `md` the markers are hidden and the tile grid takes over. The five
+ * abdominal regions sit about 67 source pixels apart at their closest, which is
+ * under a comfortable touch target once the figure is phone-sized. The grid is
+ * the honest version of the same navigation there, not a lesser fallback.
+ *
+ * The picture carries its own background colour, baked in at both light and dark
+ * values, so the plate can sit flush against the page with no visible edge. The
+ * `alt` says it is a drawing, because a reader must not take it for a photograph
+ * of a person, and it is read in the language of the page.
+ */
+interface Props {
+  lang: Locale;
+  regions: BodyRegion[];
+  /** Mark this region as the current one (used on the region's own page). */
+  activeSlug?: string;
+  eager?: boolean;
+  fit?: 'width' | 'height';
+  class?: string;
+}
+
+const { lang, regions, activeSlug, eager = false, fit = 'width', class: klass = '' } = Astro.props;
+
+const t = ui[lang];
+const c = contentFor(lang);
+
+const FIGURE = '/img/anatomia-corpo.webp';
+const FIGURE_DARK = '/img/anatomia-corpo-dark.webp';
+
+const captionOf = (region: BodyRegion) => regionCaption(lang, region.name, c.regionCounts(region));
+---
+
+<div class:list={['bodymap', fit === 'height' && 'bodymap-fit', klass]} data-bodymap>
+  <span class="bm-frame">
+    <picture>
+      <source srcset={FIGURE_DARK} media="(prefers-color-scheme: dark)" width="1024" height="1536" />
+      <img
+        src={FIGURE}
+        alt={t.home.figureAlt}
+        width="1024"
+        height="1536"
+        class="bm-img"
+        loading={eager ? 'eager' : 'lazy'}
+        fetchpriority={eager ? 'high' : undefined}
+        decoding="async"
+      />
+    </picture>
+
+    <ul class="bm-spots" aria-label={t.home.mapAria}>
+      {
+        regions.map((region) => {
+          const caption = captionOf(region);
+          const empty = c.regionCounts(region).total === 0;
+          return (
+            <li>
+              <a
+                href={c.urls.region(region.slug)}
+                class:list={['bm-dot', empty && 'bm-dot-empty', activeSlug === region.slug && 'bm-dot-on']}
+                style={`left: ${region.spot.x}%; top: ${region.spot.y}%`}
+                data-caption={caption}
+                aria-label={caption}
+                aria-current={activeSlug === region.slug ? 'true' : undefined}
+              />
+            </li>
+          );
+        })
+      }
+    </ul>
+  </span>
+
+  <p class="bm-caption" aria-hidden="true" data-bodymap-caption>
+    {t.home.mapCaption}
+  </p>
+</div>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-bodymap]');
+  const caption = root?.querySelector<HTMLElement>('[data-bodymap-caption]');
+
+  if (root && caption) {
+    const original = caption.textContent ?? '';
+    const dots = Array.from(root.querySelectorAll<HTMLElement>('[data-caption]'));
+
+    for (const dot of dots) {
+      const show = () => {
+        caption.textContent = dot.dataset.caption ?? original;
+      };
+      const reset = () => {
+        caption.textContent = original;
+      };
+      dot.addEventListener('pointerenter', show);
+      dot.addEventListener('focus', show);
+      dot.addEventListener('pointerleave', reset);
+      dot.addEventListener('blur', reset);
+    }
+  }
+</script>

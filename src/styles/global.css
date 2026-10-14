@@ -6,7 +6,15 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Open Sauce One", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  /*
+   * Latin first, then the Traditional Chinese system faces, then the platform
+   * default. A browser falls through the list per character, so Portuguese keeps
+   * Open Sauce One while Han glyphs resolve to a font drawn for traditional
+   * forms. No CJK webfont is loaded: a full Chinese set runs to megabytes, and
+   * these three cover macOS/iOS, Windows and Android/Linux between them.
+   */
+  --font-sans: "Open Sauce One", "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   /*
@@ -45,6 +53,14 @@
   --color-mist: #e4e4e7;
   --color-deep: #171717;
 
+  /*
+   * The ground the anatomy plate is drawn on. It is not a theme colour: it is
+   * the colour baked into `anatomia-corpo.webp`, so that a card wearing it and
+   * the picture sitting in it have no seam between them. The dark value matches
+   * the dark canvas for the same reason, using the second asset.
+   */
+  --color-paper: #fcfbf4;
+
   /* Semantic only. Review state must never be conveyed by colour alone. */
   --color-warn: #8a5a12;
   --color-warn-soft: #fdf4e4;
@@ -55,6 +71,10 @@
 
 :root {
   color-scheme: light dark;
+
+  /* The ring around an anatomy marker, in the plate's own colour. `--color-paper`
+     is the theme token; this is the same value with alpha, for a shadow. */
+  --bm-halo: rgba(252, 251, 244, 0.9);
 
   /*
    * Photographs are shown in colour.
@@ -69,6 +89,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --color-paper: #0b0b0b;
+    --bm-halo: rgba(11, 11, 11, 0.9);
     --color-canvas: #0b0b0b;
     --color-surface: #141414;
     --color-ink: #f5f5f5;
@@ -129,7 +151,13 @@ a {
    Type scale — oversized display, tight tracking
 --------------------------------------------------------------------------- */
 
-.overline {
+/*
+ * The small uppercase label above a heading. Named `eyebrow`, not `overline`:
+ * `overline` is also a Tailwind text-decoration utility, and because the class
+ * appears in markup the scanner emits that utility too, so every label grew a
+ * line over it.
+ */
+.eyebrow {
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.24em;
@@ -176,6 +204,39 @@ a {
 .hairline {
   height: 1px;
   background: var(--color-line);
+}
+
+/* ---------------------------------------------------------------------------
+   Chinese typography
+
+   Latin display type is tight on purpose: negative tracking and leading below 1
+   are what make a Latin headline read as display. Han glyphs fill their em, so
+   the same numbers make the lines collide and the ascenders clip, and an
+   `uppercase` label costs 0.24em of tracking for no effect. Under a Chinese
+   `<html lang>` the display steps keep their weight and size and lose only the
+   compression.
+--------------------------------------------------------------------------- */
+
+html[lang^="zh"] .eyebrow {
+  letter-spacing: 0.08em;
+  text-transform: none;
+}
+
+html[lang^="zh"] .display,
+html[lang^="zh"] .t-hero,
+html[lang^="zh"] .t-section,
+html[lang^="zh"] .t-page,
+html[lang^="zh"] .t-mega,
+html[lang^="zh"] .t-mid,
+html[lang^="zh"] .t-big,
+html[lang^="zh"] .hs-title {
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+/* Two Han characters side by side need more air than two Latin ones to scan. */
+html[lang^="zh"] .prose-editorial {
+  line-height: 1.9;
 }
 
 /* ---------------------------------------------------------------------------
@@ -285,19 +346,170 @@ a {
 /*
  * Windows onto a single photograph (`WindowGrid.astro`).
  *
- * The component's script writes each window's `background-size` and
- * `background-position`; this block only supplies the frame and the fail-open
- * fill. The neutral fill is the point: if the script never runs, the section
- * has to look like a grid of plain tiles rather than a set of holes.
+ * The component's script writes each window's `<img>` size and offset; this
+ * block only supplies the frame. The image is absolutely positioned inside a
+ * clipped window so the fail-open state, before the script runs, is a close-up
+ * of the photograph rather than a hole, and so `filter` and `object-fit` never
+ * have to fight the window's own box.
  */
 .wg {
   position: relative;
 }
 
 .wg [data-window] {
+  position: relative;
   overflow: hidden;
   background-color: var(--color-mist);
-  background-repeat: no-repeat;
+}
+
+.wg [data-window] img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  max-width: none;
+  filter: var(--img-filter);
+}
+
+/* ---------------------------------------------------------------------------
+   The anatomy map (`BodyMap.astro`)
+
+   Markers are placed by percentage over the figure, so they hold their organ at
+   any size. Three details are load-bearing:
+
+   - The frame shrink-wraps the picture. If it stretched, a `spot` percentage
+     would be measured against the column instead of the body and every marker
+     would drift off its organ.
+   - The `::before` overlay enlarges the hit area. The visible dot is 13px, which
+     nobody can aim at.
+   - Below `md` the whole marker layer stops existing and the figure falls back
+     to width-fit. The five abdominal regions sit about 67 source pixels apart at
+     their closest, which is under a touch target once the figure is phone-sized;
+     the region grid carries that navigation there instead.
+
+   The picture has its background colour baked in (paper in light, canvas in
+   dark), so `bg-paper` on the card behind it makes the plate edgeless.
+--------------------------------------------------------------------------- */
+
+.bodymap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+
+.bm-frame {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  line-height: 0;
+}
+
+.bm-img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Height-fit: the figure is bounded by the screen instead of by its column, so
+   it can stand as tall as the home page's first screen and set the width of the
+   gutters around it.
+
+   `max-height` in viewport units is the only way to say that. A percentage
+   height has nothing definite to resolve against inside a grid auto column and
+   falls back to the image's own 1536 pixels, which stretches the screen past the
+   viewport and silently shrinks both text columns to nothing. The subtraction
+   clears the header, the screen's own padding, the card's padding and the
+   caption line, so the figure ends up exactly as tall as the screen it is in. */
+.bodymap-fit {
+  min-width: 0;
+}
+
+.bodymap-fit .bm-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 1280px) {
+  .bodymap-fit .bm-img {
+    max-height: calc(100svh - 11rem);
+  }
+}
+
+/* Stacked, the figure would otherwise be taller than the screen it belongs to
+   and the first screen would become two. The cap keeps its aspect: both bounds
+   are `max-`, so the smaller scaling wins and the body is never squashed. */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .bodymap-fit .bm-img {
+    max-height: 60svh;
+  }
+}
+
+.bm-spots {
+  position: absolute;
+  inset: 0;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .bm-spots {
+    display: block;
+  }
+}
+
+.bm-dot {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  transform: translate(-50%, -50%);
+  border-radius: 9999px;
+  background: var(--color-accent);
+  /* The plate's own colour, so the dot reads as punched into the paper rather
+     than stuck on top of it. */
+  box-shadow: 0 0 0 3px var(--bm-halo);
+  transition:
+    transform 0.18s ease-out,
+    box-shadow 0.18s ease-out;
+}
+
+.bm-dot::before {
+  content: '';
+  position: absolute;
+  inset: -12px;
+}
+
+.bm-dot:hover,
+.bm-dot:focus-visible {
+  transform: translate(-50%, -50%) scale(1.55);
+  box-shadow: 0 0 0 4px var(--bm-halo);
+}
+
+/* A region with no text yet is still a place on the body, so it keeps its
+   marker and says what it is by being hollow. */
+.bm-dot-empty {
+  background: transparent;
+  border: 2px dashed var(--color-accent);
+}
+
+.bm-dot-on {
+  transform: translate(-50%, -50%) scale(1.7);
+  box-shadow:
+    0 0 0 4px var(--bm-halo),
+    0 0 0 7px var(--color-accent-200);
+}
+
+.bm-caption {
+  min-height: 1.5em;
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--color-ink-muted);
 }
 
 /*
@@ -361,15 +573,18 @@ a {
 
 /*
  * Darkens the top of a photograph so white type over it is not a bet on what
- * the picture happens to contain in that corner. Close to invisible over a
- * photograph that is already dark, which is most of the ones this is used on.
+ * the picture happens to contain in that corner. The worst case here is the
+ * diabetes card: a glucose meter on a white studio ground, where the old 0.58
+ * stop left the headline at about 3.5:1 and legible only by luck. At 0.74 the
+ * same corner is above 8:1, and a picture that is already dark barely changes.
  */
 .scrim-top {
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.58) 0%,
-    rgba(0, 0, 0, 0.3) 46%,
-    rgba(0, 0, 0, 0) 80%
+    rgba(0, 0, 0, 0.74) 0%,
+    rgba(0, 0, 0, 0.52) 42%,
+    rgba(0, 0, 0, 0.12) 74%,
+    rgba(0, 0, 0, 0) 100%
   );
 }
 
@@ -426,6 +641,153 @@ a {
   font-size: 0.8rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
+}
+
+/* ---------------------------------------------------------------------------
+   Home screens
+
+   The reference composes each screen as a full-bleed sheet of rounded cards
+   separated by a 6px grout, not as a stack of sections inside a centred
+   container. Four things follow from that:
+
+   - `0.75rem` outside, `0.375rem` between the cards. The grout is the design;
+     widen it to 24px and this is a card grid like every other site.
+   - Every screen after the first pads its top past the sticky header, because
+     from there on the header floats over content rather than sitting above it.
+   - `min-height`, never `height`. The reference clips with `h-screen` plus
+     `overflow-hidden`; with twelve real regions and real Portuguese headings
+     that would silently cut copy off on a short laptop.
+   - No `.shell` anywhere on this page, so the composition runs to the window.
+--------------------------------------------------------------------------- */
+
+.screen {
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.screen-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  min-height: 0;
+}
+
+@media (min-width: 768px) {
+  .screen {
+    min-height: calc(100svh - 4rem);
+  }
+
+  .screen + .screen {
+    min-height: 100svh;
+    padding-top: 4.75rem;
+  }
+}
+
+/*
+ * Screen one: the plate.
+ *
+ * Three columns — headline, body, search — where the middle one is only as wide
+ * as the figure renders at, and the figure is as tall as the screen. That is the
+ * whole trick behind "the homepage is the body" rather than "there is a body
+ * picture on the homepage": the drawing sets the grid's centre column, so the
+ * text has to live in the paper either side of it.
+ *
+ * `.hs-side` is a size container so the display type can be measured against the
+ * gutter it actually has. A `vw` size would be wrong on a wide short window, and
+ * the headline sits inside an `overflow-hidden` card, where too large a size
+ * clips silently instead of overflowing.
+ */
+.hs-stage {
+  display: grid;
+  flex: 1 1 auto;
+  min-height: 0;
+  gap: 1.25rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 1280px) {
+  .hs-stage {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+}
+
+.hs-side {
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.hs-title {
+  font-size: clamp(2.35rem, 17cqw, 7rem);
+  line-height: 0.84;
+  letter-spacing: -0.035em;
+  font-weight: 800;
+  text-wrap: balance;
+}
+
+/* ---------------------------------------------------------------------------
+   The region grid (`RegionTiles.astro`)
+
+   Twelve windows into the same anatomy plate, each magnified onto the organ that
+   window is about. The reference does the opposite with one photograph — several
+   cards at 1:1 that line up into one picture across the grout — and the maths is
+   the same `background-size` / `background-position` pair, which is why it all
+   happens here in CSS and in one short script rather than with clipped `<img>`
+   elements.
+
+   `background-size: cover` and `center` are the fail-open state: before the
+   script runs, and if it never runs, every tile shows the whole body scaled to
+   fill, which reads as a texture rather than as a broken image.
+--------------------------------------------------------------------------- */
+
+.rt-tile {
+  background: var(--color-sand);
+  text-decoration: none;
+}
+
+.rt-tile:hover {
+  border-color: var(--color-accent);
+}
+
+.rt-plate {
+  position: absolute;
+  inset: 0;
+  background-image: url('/img/anatomia-corpo.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .rt-plate {
+    background-image: url('/img/anatomia-corpo-dark.webp');
+  }
+}
+
+/*
+ * The plate's own ground, fading up from the label. Without it the engraving's
+ * hatching sits directly under the region name and the text has to compete with
+ * a drawing of ribs.
+ */
+.rt-veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--color-paper) 96%, transparent) 0%,
+    color-mix(in srgb, var(--color-paper) 80%, transparent) 38%,
+    color-mix(in srgb, var(--color-paper) 12%, transparent) 72%,
+    transparent 100%
+  );
+}
+
+/* A region with no text yet shows the same crop, quieter, so the wall of tiles
+   reads its own gaps instead of promising content that is not there. */
+.rt-tile-empty .rt-plate {
+  opacity: 0.45;
 }
 
 /* ---------------------------------------------------------------------------

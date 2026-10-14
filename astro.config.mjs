@@ -10,6 +10,13 @@ export default defineConfig({
     sitemap({
       lastmod: new Date('2026-10-13'),
       filter: (page) => !page.includes('/busca/'),
+      // Both languages use the same slugs, so a locale is the leading path
+      // segment: `pt-BR` has none and `zh-Hant` is its own prefix. The
+      // integration pairs entries by the path that is left over.
+      i18n: {
+        defaultLocale: 'pt-BR',
+        locales: { 'pt-BR': 'pt-BR', 'zh-Hant': 'zh-Hant' },
+      },
     }),
     icon(),
   ],

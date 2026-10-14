@@ -1,0 +1,105 @@
+---
+import { ui } from '../i18n/ui';
+import { contentFor } from '../lib/content';
+import { regionCaption, regionCountLabel } from '../lib/counts';
+import type { BodyRegion, Locale } from '../types';
+
+/**
+ * The twelve regions as windows into the same anatomy plate.
+ *
+ * This is the reference's `MaskedCard` idea, turned inside out. There, several
+ * cards show different parts of one photograph at 1:1, so the picture reads as
+ * continuous behind the grout. Here every tile is a magnified crop of the same
+ * drawing, centred on the organ that tile is about. The technique and the
+ * content are the same subject: a region *is* a close-up of the body, so the
+ * navigation graphic is not decoration over a stock photo, it is the map.
+ *
+ * The maths is done in the browser because it depends on the rendered size of
+ * each tile, which only the layout knows. `VIEW_H` is how much of the body, in
+ * source pixels of a 1536-tall plate, one tile shows: 300 means a tile frames
+ * about a fifth of the body, enough to place an organ and still recognise it.
+ *
+ * Before the script runs, and if it never runs, each tile still shows the plate
+ * at a fixed useful size through `background-position: center`, so the grid is
+ * never a wall of empty boxes.
+ */
+interface Props {
+  lang: Locale;
+  regions: BodyRegion[];
+  class?: string;
+}
+
+const { lang, regions, class: klass = '' } = Astro.props;
+const c = contentFor(lang);
+
+const VIEW_H = 300;
+---
+
+<div class:list={['rt-grid grid grid-cols-2 gap-1.5 md:grid-cols-3 md:gap-2 lg:grid-cols-4', klass]} data-rt-grid data-view-h={VIEW_H}>
+  {
+    regions.map((region) => {
+      const counts = c.regionCounts(region);
+      return (
+        <a
+          href={c.urls.region(region.slug)}
+          class:list={[
+            'rt-tile group relative flex min-h-[132px] flex-col justify-end overflow-hidden rounded-xl border border-transparent p-3 md:min-h-[168px] md:rounded-2xl md:p-4',
+            counts.total === 0 && 'rt-tile-empty',
+          ]}
+          data-rt-tile
+          data-x={region.spot.x}
+          data-y={region.spot.y}
+          aria-label={regionCaption(lang, region.name, counts)}
+        >
+          <span class="rt-plate" aria-hidden="true" data-rt-plate></span>
+          <span class="rt-veil" aria-hidden="true"></span>
+
+          <span class="relative z-10 block text-[1.02rem] font-extrabold leading-tight tracking-tight text-ink transition-colors duration-200 group-hover:text-accent md:text-[1.15rem]">
+            {region.name}
+          </span>
+          <span class:list={['relative z-10 mt-1 block text-[0.68rem] font-bold md:text-[0.72rem]', counts.total === 0 ? 'text-warn' : 'text-ink-muted']}>
+            {regionCountLabel(lang, counts)}
+          </span>
+        </a>
+      );
+    })
+  }
+</div>
+
+<script>
+  const grid = document.querySelector<HTMLElement>('[data-rt-grid]');
+
+  if (grid) {
+    const viewH = Number(grid.dataset.viewH ?? 300);
+    const tiles = Array.from(grid.querySelectorAll<HTMLElement>('[data-rt-tile]'));
+
+    const paint = () => {
+      for (const tile of tiles) {
+        const plate = tile.querySelector<HTMLElement>('[data-rt-plate]');
+        if (!plate) continue;
+
+        const tw = tile.clientWidth;
+        const th = tile.clientHeight;
+        if (!tw || !th) continue;
+
+        // Rendered plate size that makes `viewH` source pixels fill the tile.
+        const z = (th * 1536) / viewH;
+        const zw = z * (1024 / 1536);
+        const px = (Number(tile.dataset.x) / 100) * zw;
+        const py = (Number(tile.dataset.y) / 100) * z;
+
+        plate.style.backgroundSize = `${zw}px ${z}px`;
+        plate.style.backgroundPosition = `${Math.round(tw / 2 - px)}px ${Math.round(th / 2 - py)}px`;
+      }
+    };
+
+    // Layout settles a frame after paint, and the tiles are sized by the grid,
+    // so a single call is not enough on a cold load.
+    paint();
+    requestAnimationFrame(paint);
+    window.addEventListener('resize', paint);
+    if ('fonts' in document) {
+      document.fonts.ready.then(paint).catch(() => {});
+    }
+  }
+</script>

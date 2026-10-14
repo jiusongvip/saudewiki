@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TopicCard from '../components/TopicCard.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
+import { contentFor } from '../lib/content';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const c = contentFor(lang);
+
+const breadcrumbs = [
+  { name: t.common.home, href: c.urls.home() },
+  { name: t.nav.topics, href: c.urls.topics() },
+];
+---
+
+<BaseLayout lang={lang} title={`${t.topicsIndex.title} | ${SITE.name}`} description={t.topicsIndex.description} breadcrumbs={breadcrumbs}>
+  <div class="mx-auto max-w-6xl px-5 pb-16 pt-10">
+    <Breadcrumbs lang={lang} items={breadcrumbs} />
+
+    <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">{t.topicsIndex.h1}</h1>
+    <p class="mt-4 max-w-2xl text-[1rem] leading-relaxed text-ink-muted">{t.topicsIndex.lead}</p>
+
+    <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {c.topics.map((topic) => <TopicCard lang={lang} topic={topic} />)}
+    </div>
+  </div>
+</BaseLayout>

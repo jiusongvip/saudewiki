@@ -1,0 +1,59 @@
+---
+import { Icon } from 'astro-icon/components';
+import { contentFor } from '../lib/content';
+import { regionCountLabel } from '../lib/counts';
+import type { BodyRegion, Locale } from '../types';
+
+/**
+ * The region list in tile form.
+ *
+ * This is the text version of the anatomy map, and it is the only version on a
+ * phone, so it has to stand on its own: every tile names the place, says how
+ * much is there to read, and marks the places that are still empty. It is one
+ * component because the home page and `/por-regiao/` must not be able to
+ * disagree about what a region contains — in either language.
+ */
+interface Props {
+  lang: Locale;
+  regions: BodyRegion[];
+  class?: string;
+}
+
+const { lang, regions, class: klass = '' } = Astro.props;
+const c = contentFor(lang);
+---
+
+<ul class:list={['grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4', klass]}>
+  {
+    regions.map((region) => {
+      const counts = c.regionCounts(region);
+      return (
+        <li>
+          <a
+            href={c.urls.region(region.slug)}
+            class="group flex h-full flex-col justify-between rounded-2xl border border-line bg-sand p-4 transition-colors duration-200 hover:bg-mist md:p-5"
+          >
+            <span class="flex items-start justify-between gap-2">
+              <span class="text-[1.02rem] font-extrabold leading-tight tracking-tight md:text-[1.15rem]">
+                {region.name}
+              </span>
+              <Icon
+                name="tabler:arrow-right"
+                class="mt-0.5 h-4 w-4 shrink-0 text-ink-muted transition-transform duration-200 group-hover:translate-x-1"
+              />
+            </span>
+
+            <span
+              class:list={[
+                'mt-4 block text-[0.72rem] font-bold uppercase tracking-wider',
+                counts.total === 0 ? 'text-warn' : 'text-accent-strong',
+              ]}
+            >
+              {regionCountLabel(lang, counts)}
+            </span>
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>

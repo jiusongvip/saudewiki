@@ -1,11 +1,23 @@
 ---
 import { Icon } from 'astro-icon/components';
 import { SITE } from '../data/site';
-import { navItems, url } from '../lib/content';
+import { ui } from '../i18n/ui';
+import { fill } from '../lib/i18n';
+import { navItems, contentFor } from '../lib/content';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const urls = contentFor(lang).urls;
 
 const pathname = Astro.url.pathname;
 const isActive = (href: string) =>
-  href === '/' ? pathname === '/' : pathname.startsWith(href);
+  href === urls.home() ? pathname === href : pathname.startsWith(href);
 ---
 
 <header
@@ -13,16 +25,16 @@ const isActive = (href: string) =>
   class="sticky top-0 z-50 border-b border-line bg-canvas/85 backdrop-blur-md"
 >
   <div class="shell flex h-16 items-center gap-3 px-5">
-    <a href={url.home()} class="flex shrink-0 items-center gap-2.5" aria-label={`${SITE.name}, página inicial`}>
+    <a href={urls.home()} class="flex shrink-0 items-center gap-2.5" aria-label={fill(t.nav.brandAria, { site: SITE.name })}>
       <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-canvas">
         <Icon name="tabler:heartbeat" class="h-[18px] w-[18px]" />
       </span>
       <span class="text-[1.05rem] font-semibold tracking-tight">{SITE.name}</span>
     </a>
 
-    <nav class="ml-auto hidden items-center gap-7 md:flex" aria-label="Navegação principal">
+    <nav class="ml-auto hidden items-center gap-5 lg:gap-7 md:flex" aria-label={t.nav.ariaMain}>
       {
-        navItems.map((item) => (
+        navItems(lang).map((item) => (
           <a
             href={item.href}
             aria-current={isActive(item.href) ? 'page' : undefined}
@@ -37,32 +49,36 @@ const isActive = (href: string) =>
       }
     </nav>
 
+    <LanguageSwitcher lang={lang} class="ml-auto md:ml-4" />
+
     <!-- `border-control`, not `border-line`: this is the edge of a control, and
          WCAG 1.4.11 asks 3:1 for it. Decorative rules use `border-line`. -->
     <a
-      href={url.search()}
-      class="ml-auto hidden items-center gap-2 rounded-full border border-control px-4 py-2 text-[0.85rem] font-semibold transition-colors hover:border-accent hover:text-accent md:ml-6 md:inline-flex"
+      href={urls.search()}
+      class="mt-4 hidden items-center gap-2 rounded-full border border-control px-4 py-2 text-[0.85rem] font-semibold transition-colors hover:border-accent hover:text-accent md:mt-0 md:inline-flex md:ml-6"
     >
       <Icon name="tabler:search" class="h-4 w-4" />
-      Pesquisar
+      {t.nav.search}
     </a>
 
     <button
       id="mobile-menu-btn"
       type="button"
-      aria-label="Abrir menu"
+      aria-label={t.nav.openMenu}
       aria-expanded="false"
       aria-controls="mobile-menu"
-      class="ml-auto inline-flex h-10 w-10 items-center justify-center rounded-lg border border-control md:hidden"
+      data-open-label={t.nav.openMenu}
+      data-close-label={t.nav.closeMenu}
+      class="ml-2 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-control md:hidden"
     >
       <Icon name="tabler:menu-2" class="h-5 w-5" />
     </button>
   </div>
 
   <div id="mobile-menu" class="hidden border-t border-line bg-canvas px-5 pb-5 pt-3 md:hidden">
-    <nav class="flex flex-col" aria-label="Navegação móvel">
+    <nav class="flex flex-col" aria-label={t.nav.ariaMobile}>
       {
-        navItems.map((item) => (
+        navItems(lang).map((item) => (
           <a
             href={item.href}
             class="border-b border-line py-3 text-[0.95rem] last:border-0"
@@ -73,11 +89,11 @@ const isActive = (href: string) =>
         ))
       }
       <a
-        href={url.search()}
+        href={urls.search()}
         class="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-accent px-4 py-3 text-[0.9rem] font-semibold text-canvas"
       >
         <Icon name="tabler:search" class="h-4 w-4" />
-        Pesquisar
+        {t.nav.search}
       </a>
     </nav>
   </div>
@@ -88,10 +104,14 @@ const isActive = (href: string) =>
   const menu = document.getElementById('mobile-menu');
 
   if (button && menu) {
+    const labels = button.dataset;
     button.addEventListener('click', () => {
       const nowHidden = menu.classList.toggle('hidden');
       button.setAttribute('aria-expanded', String(!nowHidden));
-      button.setAttribute('aria-label', nowHidden ? 'Abrir menu' : 'Fechar menu');
+      button.setAttribute(
+        'aria-label',
+        nowHidden ? labels.openLabel ?? '' : labels.closeLabel ?? ''
+      );
     });
   }
 </script>

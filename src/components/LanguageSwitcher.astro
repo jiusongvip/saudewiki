@@ -1,0 +1,102 @@
+---
+import { Icon } from 'astro-icon/components';
+import { localeSpecs, locales, localizePath, rootPath } from '../lib/i18n';
+import { ui } from '../i18n/ui';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+  class?: string;
+}
+
+const { lang, class: klass = '' } = Astro.props;
+const t = ui[lang];
+
+/**
+ * The language switch: one trigger showing the language you are reading, opening
+ * a list of the others.
+ *
+ * Both languages share their slugs, so switching is a prefix swap on the current
+ * path — the reader lands on the same page in the other language, or on the
+ * nearest one that exists, and never on a dead end.
+ *
+ * A native `<details>` is the disclosure, not a button plus a hidden div and a
+ * script: the switch then works with JavaScript turned off, and the only code
+ * left to write is the convenience of closing it.
+ */
+const target = rootPath(Astro.url.pathname);
+const current = localeSpecs[lang];
+---
+
+<details
+  class:list={['group/lang relative shrink-0', klass]}
+  data-lang-switcher
+>
+  <summary
+    class="flex cursor-pointer list-none items-center gap-2 rounded-full border border-control px-3 py-2 text-[0.82rem] font-semibold transition-colors hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent [&::-webkit-details-marker]:hidden"
+    aria-label={t.nav.language}
+  >
+    <Icon name="tabler:language" class="h-4 w-4 shrink-0" />
+    <span class="hidden lg:inline">{current.label}</span>
+    <span class="lg:hidden">{current.shortLabel}</span>
+    <Icon
+      name="tabler:chevron-down"
+      class="h-3.5 w-3.5 shrink-0 text-ink-muted transition-transform group-open/lang:rotate-180"
+    />
+  </summary>
+
+  <ul class="absolute right-0 z-50 mt-2 min-w-[13.5rem] rounded-xl border border-line bg-canvas p-1.5 shadow-[0_18px_44px_-24px_rgba(15,23,20,0.5)]">
+    {
+      locales.map((code) => {
+        const spec = localeSpecs[code];
+        const isCurrent = code === lang;
+        return (
+          <li>
+            {isCurrent ? (
+              <span class="flex items-center gap-2.5 px-3 py-2.5 text-[0.86rem] font-semibold text-ink-muted">
+                <Icon name="tabler:check" class="h-4 w-4 shrink-0 text-accent" />
+                <span lang={spec.htmlLang}>{spec.label}</span>
+              </span>
+            ) : (
+              <a
+                href={localizePath(target, code)}
+                hreflang={spec.hreflang}
+                lang={spec.htmlLang}
+                class="flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-[0.86rem] text-ink-muted transition-colors hover:bg-accent-soft hover:text-accent-strong"
+              >
+                <span class="w-4 shrink-0" aria-hidden="true" />
+                {spec.label}
+              </a>
+            )}
+          </li>
+        );
+      })
+    }
+  </ul>
+</details>
+
+<script>
+  /**
+   * Closing is the one part a native disclosure cannot do for itself: clicking
+   * elsewhere, or pressing Escape, should put the menu away.
+   */
+  const openPanel = (node: EventTarget | null) =>
+    node instanceof HTMLElement
+      ? node.closest<HTMLElement>('details[data-lang-switcher][open]')
+      : null;
+
+  document.addEventListener('click', (event) => {
+    if (openPanel(event.target)) return;
+    document
+      .querySelector<HTMLElement>('details[data-lang-switcher][open]')
+      ?.removeAttribute('open');
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    const panel = document.querySelector<HTMLElement>('details[data-lang-switcher][open]');
+    if (!panel) return;
+    panel.removeAttribute('open');
+    panel.querySelector<HTMLElement>('summary')?.focus();
+  });
+</script>

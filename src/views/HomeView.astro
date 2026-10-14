@@ -1,0 +1,318 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import BodyMap from '../components/BodyMap.astro';
+import RegionTiles from '../components/RegionTiles.astro';
+import WindowGrid from '../components/WindowGrid.astro';
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
+import { fill } from '../lib/i18n';
+import { contentFor, formatDateFor, popularSearches } from '../lib/content';
+import { imageForDisease } from '../lib/images';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const c = contentFor(lang);
+
+/*
+ * The home page is the anatomy plate.
+ *
+ * Not "a page with a body illustration in its first screen": the drawing sets
+ * the height of the first screen, the twelve tiles of the second are magnified
+ * crops of that same drawing, and the rest of the page is what the drawing
+ * points at. Each screen is a full-bleed sheet of rounded cards separated by a
+ * 6px grout, which is the layout language the reference works in.
+ *
+ * Everything below the fold is a different way into the same three collections
+ * (regions, diseases, articles), and all of it is read through `contentFor(lang)`.
+ * Nothing here names a disease, a region or an article, and nothing here names a
+ * language either: the same view renders both, and the only difference is which
+ * locale it is handed.
+ */
+const PHOTO = {
+  collage: '/img/foco-cuidados.jpg',
+  curadoria: '/img/foco-curadoria.jpg',
+};
+
+const diseases = c.diseases.slice(0, 3);
+const articles = c.articles.slice(0, 6);
+---
+
+<BaseLayout lang={lang} title={fill(t.home.title, { site: SITE.name })} description={t.site.description} bleed>
+  <Fragment slot="head">
+    <link rel="preload" as="image" href="/img/anatomia-corpo.webp" fetchpriority="high" />
+  </Fragment>
+
+  <!-- 1. The body itself, at full screen height.
+       Three columns: the message, the figure, the search. The middle column is
+       only as wide as the drawing renders, and the drawing is as tall as the
+       screen, so the two flanking columns are genuine paper gutters rather than
+       a text box parked next to a picture. Nothing here carries `.reveal`: a
+       control that fades in can be clicked before it exists. -->
+  <section class="screen">
+    <div class="screen-col min-h-0 flex-1">
+      <div class="min-h-0 flex-1 overflow-hidden rounded-2xl bg-paper p-5 md:p-6 xl:p-8">
+        <div class="hs-stage">
+          <div class="hs-side justify-end">
+            <p class="eyebrow">{t.home.eyebrow}</p>
+            <h1 class="hs-title mt-3 text-ink">
+              {t.home.h1Line1}<br />{t.home.h1Line2}
+            </h1>
+            <p class="mt-4 max-w-[46ch] text-[0.95rem] leading-relaxed text-ink-muted md:mt-6">
+              {t.site.mission} {t.home.missionLead}
+            </p>
+          </div>
+
+          <BodyMap lang={lang} regions={c.regions} eager fit="height" />
+
+          <div class="hs-side xl:items-end">
+            <p class="text-[0.95rem] leading-relaxed text-ink-muted xl:max-w-[30ch]">
+              {t.home.markerHint}
+            </p>
+
+            <div class="mt-6 w-full xl:mt-auto xl:pt-8">
+              <SearchBox lang={lang} variant="hero" />
+              <ul class="mt-2.5 flex flex-wrap gap-1.5 xl:justify-end">
+                {
+                  popularSearches(lang).map((term) => (
+                    <li>
+                      <a
+                        href={c.urls.search(term)}
+                        class="inline-flex rounded-full border border-control bg-canvas px-3.5 py-1.5 text-[0.72rem] font-bold text-ink transition-colors duration-200 hover:border-accent hover:text-accent"
+                      >
+                        {term}
+                      </a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. The same drawing, twelve times, each window pushed in on one organ.
+       This is the map's navigation list with the map's own artwork behind it, and
+       on a phone it is the only version of that navigation: the markers on the
+       figure above sit closer together than a comfortable touch target. -->
+  <section class="screen screen-col">
+    <div class="flex flex-wrap items-end justify-between gap-3 px-1 pt-1 pb-2">
+      <h2 class="t-big text-ink">{t.home.regionsTitle}</h2>
+      <a
+        href={c.urls.regions()}
+        class="shrink-0 text-sm font-bold text-accent-strong underline-offset-4 hover:underline"
+      >
+        {t.home.regionsCta}
+      </a>
+    </div>
+
+    <RegionTiles lang={lang} regions={c.regions} class="min-h-0 flex-1 md:grid-rows-4 lg:grid-rows-3" />
+  </section>
+
+  <!-- 3. The encyclopedia. An asymmetric grid whose anchor is a single
+       photograph shown through two windows: the picture runs through the gutter,
+       so the two panels read as one image with a cut in it. -->
+  <section class="screen screen-col">
+    <div class="flex flex-wrap items-end justify-between gap-3 px-1 pt-1 pb-2">
+      <h2 class="t-big text-ink">{t.home.diseasesTitle}</h2>
+      <a
+        href={c.urls.diseases()}
+        class="shrink-0 text-sm font-bold text-accent-strong underline-offset-4 hover:underline"
+      >
+        {t.common.seeAllDiseases}
+      </a>
+    </div>
+
+    <div class="grid min-h-0 flex-1 grid-cols-2 gap-1.5 md:grid-cols-3 md:grid-rows-2 md:gap-2">
+      <WindowGrid
+        src={PHOTO.collage}
+        class="col-span-2 flex min-h-[320px] flex-col gap-1.5 md:col-span-1 md:row-span-2 md:gap-2"
+      >
+        <div data-window class="min-h-0 flex-1 rounded-2xl">
+          <img data-wg-img src={PHOTO.collage} alt={t.home.altCollage} loading="lazy" decoding="async" />
+        </div>
+        <div data-window class="min-h-0 flex-1 rounded-2xl" aria-hidden="true">
+          <img data-wg-img src={PHOTO.collage} alt="" loading="lazy" decoding="async" />
+        </div>
+      </WindowGrid>
+
+      {
+        diseases.map((disease) => {
+          const image = imageForDisease(disease.slug, lang);
+          return (
+            <a
+              href={c.urls.disease(disease.slug)}
+              class="relative min-h-[200px] overflow-hidden rounded-2xl md:min-h-0"
+            >
+              <img
+                src={image?.src}
+                alt={image?.alt ?? ''}
+                class="h-full w-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+              <span
+                class="scrim-top pointer-events-none absolute inset-0"
+                aria-hidden="true"
+              />
+              <div class="absolute inset-x-4 top-4 md:inset-x-5 md:top-5">
+                <h3 class="mt-1 text-xl font-extrabold leading-tight tracking-tight text-white md:text-2xl">
+                  {disease.name}
+                </h3>
+                <p class="mt-2 text-[0.78rem] leading-snug text-white/85">{disease.summary}</p>
+              </div>
+            </a>
+          );
+        })
+      }
+
+      <a
+        href={c.urls.diseases()}
+        class="flex min-h-[200px] flex-col justify-between rounded-2xl bg-mist p-5 md:min-h-0 md:p-6"
+      >
+        <span class="num text-ink">
+          <Icon name="tabler:arrow-right" class="h-4 w-4" />
+        </span>
+        <span class="text-xl font-extrabold leading-tight tracking-tight text-ink md:text-2xl">
+          {t.home.allDiseases}
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 4. The module that carries search traffic, so every entry states its
+       category, its date and what it actually says.
+
+       The sheet is `bg-mist` and the cards are the page colour, which is the
+       reference's section two turned inside out: there the tiles are light on a
+       photograph, here they are paper on a grey sheet. On a plain canvas the
+       cards were `bg-sand`, one step off white, and the grid read as floating
+       text with no tiles at all. -->
+  <section class="screen screen-col bg-mist">
+    <div class="flex flex-wrap items-end justify-between gap-3 px-1 pt-1 pb-2">
+      <h2 class="t-big text-ink">{t.home.articlesTitle}</h2>
+      <a
+        href={c.urls.articles()}
+        class="shrink-0 text-sm font-bold text-accent-strong underline-offset-4 hover:underline"
+      >
+        {t.common.seeAllArticles}
+      </a>
+    </div>
+
+    <div class="grid min-h-0 flex-1 grid-cols-1 gap-1.5 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2 md:gap-2">
+      {
+        articles.map((article) => (
+          <a
+            href={c.urls.article(article.slug)}
+            class="group flex min-h-[220px] flex-col rounded-2xl bg-canvas p-5 transition-colors duration-200 hover:bg-sand md:min-h-0 md:p-6"
+          >
+            <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+              <span class="text-[0.66rem] font-bold uppercase tracking-wider text-accent-strong">
+                {article.category}
+              </span>
+              <span class="text-[0.7rem] text-ink-muted">
+                {formatDateFor(article.updatedAt, lang)}
+              </span>
+            </div>
+
+            <h3 class="mt-3 text-lg font-extrabold leading-snug tracking-tight text-ink md:text-xl">
+              {article.title}
+            </h3>
+
+            <p class="mt-2 flex-1 text-sm leading-relaxed text-ink-muted">{article.excerpt}</p>
+
+            <span class="mt-5 inline-flex items-center gap-1.5 text-sm font-bold text-accent-strong">
+              {t.common.readArticle}
+              <Icon
+                name="tabler:arrow-right"
+                class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+              />
+            </span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- 5. Verification. The last thing a medical site should say about itself is
+       where its information comes from, and what it does not yet have. -->
+  <section class="screen screen-col">
+    <div class="min-h-0 flex-1 rounded-2xl bg-deep p-6 md:p-10">
+      <div class="flex h-full flex-col gap-8 md:gap-12 lg:flex-row lg:items-end lg:justify-between">
+        <div class="lg:max-w-sm">
+          <h2 class="t-big mt-2 text-white">{t.home.verifyTitle}</h2>
+          <p class="mt-4 text-sm leading-relaxed text-white/70 md:text-base">{t.home.verifyLead}</p>
+          <a href={c.urls.editorial()} class="pill mt-6">{t.home.verifyCta}</a>
+        </div>
+
+        <ul class="grid min-h-0 flex-1 gap-1.5 sm:grid-cols-2 md:gap-2 lg:w-[52%]">
+          {
+            t.home.verification.map((item) => (
+              <li class="glass flex flex-col justify-end rounded-xl p-4 md:rounded-2xl md:p-5">
+                <span class="mt-3 block text-base font-extrabold leading-tight tracking-tight md:text-xl">
+                  {item.title}
+                </span>
+                <span class="mt-2 block text-xs leading-snug text-white/75 md:text-sm">
+                  {item.body}
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Who writes this, and the open door. The project runs on students who do
+       it for free, so the closing ask is the text that is missing, not a
+       newsletter. -->
+  <section class="screen screen-col pb-6 md:pb-10">
+    <div class="grid min-h-0 flex-1 gap-1.5 md:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] md:gap-2">
+      <div class="flex flex-col justify-between rounded-2xl bg-mist p-6 md:p-10">
+        <div>
+          <h2 class="t-big text-ink">{t.home.studentsTitle}</h2>
+          <p class="mt-4 max-w-md text-sm leading-relaxed text-ink-muted md:text-base">
+            {t.site.mission} {t.home.studentsLead}
+          </p>
+        </div>
+
+        <ul class="mt-8 flex flex-wrap gap-2">
+          <li>
+            <a href={c.urls.contact()} class="pill">
+              {t.home.studentsCta}
+            </a>
+          </li>
+          <li>
+            <a
+              href={c.urls.about()}
+              class="inline-flex items-center gap-1.5 rounded-full border border-control px-5 py-[0.8rem] text-[0.85rem] font-bold whitespace-nowrap transition-colors duration-200 hover:border-ink"
+            >
+              {t.home.howItWorks}
+              <Icon name="tabler:arrow-right" class="h-4 w-4" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <WindowGrid src={PHOTO.curadoria} class="min-h-[260px] md:min-h-0">
+        <div data-window class="h-full rounded-2xl">
+          <img
+            data-wg-img
+            src={PHOTO.curadoria}
+            alt={t.home.altCuradoria}
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </WindowGrid>
+    </div>
+  </section>
+</BaseLayout>

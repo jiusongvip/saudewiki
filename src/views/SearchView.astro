@@ -1,0 +1,201 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import { Icon } from 'astro-icon/components';
+import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
+import { contentFor, popularSearches } from '../lib/content';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const c = contentFor(lang);
+
+/**
+ * The index is generated at build time and inlined, so search works with no
+ * backend. Each locale gets its own: a Chinese query against Portuguese copy
+ * returns noise. When a real search service is introduced, only the client
+ * script below changes — the page contract (query in `?q=`) stays the same.
+ */
+const searchIndexJson = JSON.stringify(c.searchIndex).replace(/</g, '\\u003c');
+
+/**
+ * Every string and rule the client script needs, handed over as JSON.
+ *
+ * The script itself is bundled once and shared by both languages, so it cannot
+ * contain either language's copy. Normalisation travels with the rest.
+ */
+const searchCopyJson = JSON.stringify({
+  lang,
+  idle: t.search.idle,
+  resultOne: t.search.resultOne,
+  resultMany: t.search.resultMany,
+  resultNone: t.search.resultNone,
+  browserTitle: t.search.browserTitle,
+  title: t.search.title,
+  site: SITE.name,
+}).replace(/</g, '\\u003c');
+---
+
+<BaseLayout lang={lang} title={`${t.search.title} | ${SITE.name}`} description={t.search.description} robots="noindex, follow">
+  <div class="mx-auto max-w-3xl px-5 py-14">
+    <h1 class="display text-[2.2rem] sm:text-[2.8rem]">{t.search.title}</h1>
+
+    <div class="mt-8">
+      <SearchBox lang={lang} variant="compact" />
+    </div>
+
+    <p id="search-summary" class="mt-6 text-[0.92rem] text-ink-muted" aria-live="polite">{t.search.idle}</p>
+
+    <ul id="search-results" class="mt-8 flex flex-col gap-3"></ul>
+
+    <div id="search-empty" class="hidden">
+      <p class="text-[0.95rem] text-ink-muted">{t.search.emptyLead}</p>
+      <div class="mt-4 flex flex-wrap gap-2.5">
+        {
+          popularSearches(lang).map((term) => (
+            <a
+              href={c.urls.search(term)}
+              class="rounded-full border border-control px-3.5 py-1.5 text-[0.82rem] text-ink-muted transition-colors hover:border-accent hover:text-accent"
+            >
+              {term}
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <noscript>
+      <p class="mt-8 rounded-xl border border-line bg-surface p-5 text-[0.9rem] text-ink-muted">
+        {t.search.noscript}
+        <a href={c.urls.diseases()} class="font-medium text-accent underline underline-offset-2">{t.search.noscriptDiseases}</a>{t.search.noscriptJoin}
+        <a href={c.urls.articles()} class="font-medium text-accent underline underline-offset-2">{t.search.noscriptArticles}</a>{t.search.noscriptLast}
+        <a href={c.urls.topics()} class="font-medium text-accent underline underline-offset-2">{t.search.noscriptTopics}</a>{t.search.noscriptTail}
+      </p>
+    </noscript>
+
+    <p class="mt-12 flex items-start gap-2 text-[0.8rem] leading-relaxed text-ink-muted">
+      <Icon name="tabler:info-circle" class="mt-0.5 h-4 w-4 shrink-0" />
+      <span>{t.common.noIndexNote}</span>
+    </p>
+  </div>
+
+  <script type="application/json" id="search-index" set:html={searchIndexJson} />
+  <script type="application/json" id="search-copy" set:html={searchCopyJson} />
+
+  <script>
+    const indexElement = document.getElementById('search-index');
+    const copyElement = document.getElementById('search-copy');
+    const summary = document.getElementById('search-summary');
+    const list = document.getElementById('search-results');
+    const emptyState = document.getElementById('search-empty');
+    const input = document.querySelector<HTMLInputElement>('input[name="q"]');
+
+    interface Entry {
+      title: string;
+      excerpt: string;
+      href: string;
+      type: string;
+      typeLabel: string;
+      haystack: string;
+    }
+
+    interface Copy {
+      lang: string;
+      idle: string;
+      resultOne: string;
+      resultMany: string;
+      resultNone: string;
+      browserTitle: string;
+      title: string;
+      site: string;
+    }
+
+    const entries: Entry[] = indexElement?.textContent ? JSON.parse(indexElement.textContent) : [];
+    const copy: Copy = copyElement?.textContent ? JSON.parse(copyElement.textContent) : ({} as Copy);
+
+    const params = new URLSearchParams(window.location.search);
+    const rawQuery = (params.get('q') ?? '').trim();
+
+    if (input) input.value = rawQuery;
+
+    const fill = (template: string, vars: Record<string, string | number>) =>
+      (template ?? '').replace(/\{(\w+)\}/g, (match, key: string) => (key in vars ? String(vars[key]) : match));
+
+    /**
+     * Mirrors `normalizeQuery` in src/lib/i18n.ts, which is what built the
+     * haystacks above. Portuguese folds accents so "hipertensao" matches
+     * "hipertensão"; Chinese skips NFD, because the decomposition round trip
+     * produces forms the index no longer contains.
+     */
+    const normalize = (value: string) =>
+      copy.lang === 'pt-BR'
+        ? value
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase()
+            .trim()
+        : value.normalize('NFC').toLowerCase().trim();
+
+    /**
+     * Results are built with DOM APIs rather than innerHTML: the query string
+     * is user-controlled and must never be interpreted as markup.
+     */
+    function renderResults(results: Entry[]): void {
+      if (!list || !summary || !emptyState) return;
+
+      list.replaceChildren();
+
+      if (results.length === 0) {
+        summary.textContent = fill(copy.resultNone, { q: rawQuery });
+        emptyState.classList.remove('hidden');
+        return;
+      }
+
+      emptyState.classList.add('hidden');
+      summary.textContent = fill(
+        results.length === 1 ? copy.resultOne : copy.resultMany,
+        { q: rawQuery, n: results.length }
+      );
+
+      for (const entry of results) {
+        const item = document.createElement('li');
+        item.className = 'card p-5';
+
+        const link = document.createElement('a');
+        link.href = entry.href;
+        link.className = 'block';
+
+        const meta = document.createElement('span');
+        meta.className = 'eyebrow';
+        meta.textContent = entry.typeLabel;
+
+        const title = document.createElement('span');
+        title.className = 'mt-2 block text-[1.05rem] font-semibold tracking-tight';
+        title.textContent = entry.title;
+
+        const excerpt = document.createElement('span');
+        excerpt.className = 'mt-1.5 block text-[0.88rem] leading-relaxed text-ink-muted';
+        excerpt.textContent = entry.excerpt;
+
+        link.append(meta, title, excerpt);
+        item.append(link);
+        list.append(item);
+      }
+    }
+
+    if (!rawQuery) {
+      summary && (summary.textContent = copy.idle);
+      emptyState?.classList.add('hidden');
+    } else {
+      const terms = normalize(rawQuery).split(/\s+/).filter(Boolean);
+      const results = entries.filter((entry) => terms.every((term) => entry.haystack.includes(term)));
+      renderResults(results);
+      document.title = fill(copy.browserTitle, { q: rawQuery, title: copy.title, site: copy.site });
+    }
+  </script>
+</BaseLayout>

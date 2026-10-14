@@ -1,20 +1,26 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { url } from '../lib/content';
+import { ui } from '../i18n/ui';
+import { contentFor } from '../lib/content';
+import type { Locale } from '../types';
 
 interface Props {
+  lang: Locale;
   value?: string;
   variant?: 'hero' | 'compact';
 }
 
-const { value = '', variant = 'compact' } = Astro.props;
-const inputId = `busca-${variant}`;
+const { lang, value = '', variant = 'compact' } = Astro.props;
+const t = ui[lang];
+const urls = contentFor(lang).urls;
+const inputId = `busca-${lang}-${variant}`;
 const isHero = variant === 'hero';
 
 /**
  * A real GET form, not a JS-only widget: submitting works with JavaScript
  * disabled, and the resulting URL carries the query so it can be shared and
- * reloaded.
+ * reloaded. The form posts to *this language's* /busca/, so a Chinese query
+ * never lands on the Portuguese index.
  *
  * The two variants are styled quite differently on purpose. The compact one
  * sits on the page, so it can use the theme's tokens and its edge is the visual
@@ -25,7 +31,7 @@ const isHero = variant === 'hero';
 ---
 
 <form
-  action={url.search()}
+  action={urls.search()}
   method="get"
   role="search"
   class:list={[
@@ -35,7 +41,7 @@ const isHero = variant === 'hero';
       : 'rounded-full border border-control bg-surface p-1.5',
   ]}
 >
-  <label class="sr-only" for={inputId}>Pesquise doenças, sintomas ou tratamentos</label>
+  <label class="sr-only" for={inputId}>{t.search.label}</label>
   <Icon
     name="tabler:search"
     class:list={[
@@ -49,7 +55,7 @@ const isHero = variant === 'hero';
     name="q"
     value={value}
     autocomplete="off"
-    placeholder="Pesquise doenças, sintomas ou tratamentos..."
+    placeholder={t.search.placeholder}
     class:list={[
       'min-w-0 flex-1 bg-transparent outline-none',
       isHero
@@ -64,6 +70,6 @@ const isHero = variant === 'hero';
       isHero ? 'px-8 py-4 text-base' : 'px-4 py-2 text-[0.8rem]',
     ]}
   >
-    Pesquisar
+    {t.search.button}
   </button>
 </form>

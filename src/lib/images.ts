@@ -18,11 +18,13 @@
  * the frame, not what the page is about. No dashes of any kind: the preflight
  * gate rejects them in `alt` attributes.
  */
+import type { Locale } from '../types';
+import { zhImageAlts } from '../data/zh-Hant/image-alts';
+
 export interface SiteImage {
   src: string;
   alt: string;
 }
-
 export const diseaseImages: Record<string, SiteImage> = {
   dengue: {
     src: '/img/doenca-dengue.jpg',
@@ -188,7 +190,19 @@ export const topicImages: Record<string, SiteImage> = {
  * Resolve by slug with a deliberate fallback. A missing picture must degrade
  * to the halftone placeholder rather than throwing at build time, because a
  * new content entry should never be blocked on an image.
+ *
+ * The file is the same in both languages; only the caption changes. A slug with
+ * no Chinese caption keeps its Portuguese one, which reads as unfinished in a
+ * Chinese page and is reported by `scripts/check-i18n.mjs`.
  */
-export const imageForDisease = (slug: string): SiteImage | undefined => diseaseImages[slug];
-export const imageForArticle = (slug: string): SiteImage | undefined => articleImages[slug];
-export const imageForTopic = (slug: string): SiteImage | undefined => topicImages[slug];
+const withAlt = (image: SiteImage | undefined, slug: string, lang: Locale): SiteImage | undefined =>
+  image && lang !== 'pt-BR' && zhImageAlts[slug] ? { src: image.src, alt: zhImageAlts[slug] } : image;
+
+export const imageForDisease = (slug: string, lang: Locale): SiteImage | undefined =>
+  withAlt(diseaseImages[slug], slug, lang);
+
+export const imageForArticle = (slug: string, lang: Locale): SiteImage | undefined =>
+  withAlt(articleImages[slug], slug, lang);
+
+export const imageForTopic = (slug: string, lang: Locale): SiteImage | undefined =>
+  withAlt(topicImages[slug], slug, lang);

@@ -1,0 +1,20 @@
+---
+import DiseaseDetailView from '../../../views/DiseaseDetailView.astro';
+import { contentFor } from '../../../lib/content';
+import type { Disease } from '../../../types';
+
+export function getStaticPaths() {
+  return contentFor('zh-Hant').diseases.map((disease) => ({
+    params: { slug: disease.slug },
+    props: { disease },
+  }));
+}
+
+interface Props {
+  disease: Disease;
+}
+
+const { disease } = Astro.props;
+---
+
+<DiseaseDetailView lang="zh-Hant" disease={disease} />

@@ -1,18 +1,21 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { REVIEW_LABELS } from '../data/site';
-import { formatDatePtBr } from '../lib/content';
-import type { ReviewStatus } from '../types';
+import { ui } from '../i18n/ui';
+import { fill } from '../lib/i18n';
+import { formatDateFor } from '../lib/content';
+import type { Locale } from '../types';
 
 interface Props {
+  lang: Locale;
   author: string;
   reviewer: string | null;
-  reviewStatus: ReviewStatus;
+  reviewStatus: 'draft' | 'needs_review' | 'reviewed' | 'published';
   publishedAt: string;
   updatedAt: string;
 }
 
-const { author, reviewer, reviewStatus, publishedAt, updatedAt } = Astro.props;
+const { lang, author, reviewer, reviewStatus, publishedAt, updatedAt } = Astro.props;
+const t = ui[lang];
 
 /**
  * Editorial provenance block. It only ever states what is actually true: when
@@ -28,25 +31,25 @@ const tone =
   <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
     <span class:list={['inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[0.72rem] font-semibold', tone]}>
       <Icon name="tabler:clipboard-check" class="h-3.5 w-3.5" />
-      {REVIEW_LABELS[reviewStatus]}
+      {t.review[reviewStatus]}
     </span>
-    <span class="text-[0.8rem] text-ink-muted">Por {author}</span>
+    <span class="text-[0.8rem] text-ink-muted">{fill(t.common.byAuthor, { author })}</span>
   </div>
 
   <dl class="mt-4 grid gap-x-8 gap-y-2 text-[0.8rem] sm:grid-cols-2">
     <div class="flex gap-1.5">
-      <dt class="text-ink-muted">Revisão médica:</dt>
+      <dt class="text-ink-muted">{t.common.medicalReview}</dt>
       <dd class={reviewer ? 'font-medium text-ink' : 'font-medium text-warn'}>
-        {reviewer ?? 'ainda não realizada'}
+        {reviewer ?? t.common.reviewAbsent}
       </dd>
     </div>
     <div class="flex gap-1.5">
-      <dt class="text-ink-muted">Publicado em:</dt>
-      <dd class="font-medium text-ink">{formatDatePtBr(publishedAt)}</dd>
+      <dt class="text-ink-muted">{t.common.publishedOn}</dt>
+      <dd class="font-medium text-ink">{formatDateFor(publishedAt, lang)}</dd>
     </div>
     <div class="flex gap-1.5">
-      <dt class="text-ink-muted">Última atualização:</dt>
-      <dd class="font-medium text-ink">{formatDatePtBr(updatedAt)}</dd>
+      <dt class="text-ink-muted">{t.common.lastUpdate}</dt>
+      <dd class="font-medium text-ink">{formatDateFor(updatedAt, lang)}</dd>
     </div>
   </dl>
 </div>

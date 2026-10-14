@@ -1,52 +1,45 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import SearchBox from '../components/SearchBox.astro';
-import { Icon } from 'astro-icon/components';
-import { url } from '../lib/content';
+import NotFoundView from '../views/NotFoundView.astro';
 import { SITE } from '../data/site';
+import { ui } from '../i18n/ui';
 
-const destinations = [
-  { label: 'Doenças', href: url.diseases(), description: 'Enciclopédia de doenças e condições' },
-  { label: 'Artigos', href: url.articles(), description: 'Respostas para dúvidas específicas' },
-  { label: 'Temas de saúde', href: url.topics(), description: 'Guias por área da saúde' },
-  { label: 'Sobre o projeto', href: url.about(), description: 'Missão, limites e princípios' },
-];
+/**
+ * One document, both languages.
+ *
+ * A static host serves this single file for every address it cannot find, so
+ * the build cannot know which language the reader was reaching for. Both bodies
+ * ship in the markup and the script below keeps the one that matches the path
+ * prefix. Nothing is fetched and nothing is rewritten: with scripting off the
+ * Portuguese half is what remains, which is the site's default language.
+ */
+const pt = ui['pt-BR'];
+const zh = ui['zh-Hant'];
 ---
 
 <BaseLayout
-  title={`Página não encontrada | ${SITE.name}`}
-  description="O endereço acessado não existe. Use a busca ou navegue pelas seções de doenças, artigos e temas de saúde."
+  lang="pt-BR"
+  title={`${pt.notFound.title} | ${SITE.name}`}
+  description={pt.notFound.description}
   robots="noindex, follow"
 >
-  <div class="mx-auto max-w-3xl px-5 py-20">
-    <p class="overline">Erro 404</p>
-    <h1 class="display mt-5 text-[2.4rem] sm:text-[3.2rem]">Esta página não existe.</h1>
-    <p class="mt-4 max-w-xl text-[1rem] leading-relaxed text-ink-muted">
-      O endereço pode ter sido alterado, removido ou nunca ter existido. Nenhum conteúdo médico foi publicado com
-      este endereço.
-    </p>
-
-    <div class="mt-8 max-w-xl">
-      <SearchBox variant="compact" />
-    </div>
-
-    <div class="mt-12 grid gap-4 sm:grid-cols-2">
-      {
-        destinations.map((item) => (
-          <a href={item.href} class="card card-link flex items-start justify-between gap-3 p-5">
-            <span>
-              <span class="block text-[0.95rem] font-semibold tracking-tight">{item.label}</span>
-              <span class="mt-1 block text-[0.82rem] text-ink-muted">{item.description}</span>
-            </span>
-            <Icon name="tabler:arrow-up-right" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />
-          </a>
-        ))
-      }
-    </div>
-
-    <a href={url.home()} class="mt-10 inline-flex items-center gap-1.5 text-[0.85rem] font-semibold text-accent">
-      <Icon name="tabler:arrow-left" class="h-4 w-4" />
-      Voltar para a página inicial
-    </a>
+  <div data-lang="pt-BR">
+    <NotFoundView lang="pt-BR" />
   </div>
+
+  <div data-lang="zh-Hant" hidden data-title={`${zh.notFound.title} | ${SITE.name}`}>
+    <NotFoundView lang="zh-Hant" />
+  </div>
+
+  <script>
+    const zhPanel = document.querySelector<HTMLElement>('[data-lang="zh-Hant"]');
+    const ptPanel = document.querySelector<HTMLElement>('[data-lang="pt-BR"]');
+
+    if (zhPanel && ptPanel && window.location.pathname.startsWith('/zh-Hant')) {
+      ptPanel.hidden = true;
+      zhPanel.hidden = false;
+      document.documentElement.lang = 'zh-Hant';
+      document.title = zhPanel.dataset.title ?? document.title;
+    }
+  </script>
 </BaseLayout>

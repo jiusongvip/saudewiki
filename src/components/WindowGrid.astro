@@ -15,13 +15,16 @@
  * the scale, because it depends on the container's measured height, and the
  * offsets, because they depend on where each window ended up after layout.
  *
- * It differs from the reference in one place, deliberately. The reference sizes
+ * It differs from the reference in two places, deliberately. The reference sizes
  * the photograph to the container's height and stops there, so a photograph
  * whose aspect ratio is narrower than the container's leaves a bare strip down
- * one side. This takes `max()` over both axes, so the photograph always covers.
+ * one side; this takes `max()` over both axes, so the photograph always covers.
+ * And where the reference paints `background-image`, this moves real `<img>`
+ * elements, because a background has no `alt` and this photograph is content.
  *
- * Fails open. Every window carries a neutral fill, so if the script never runs
- * the page still shows a clean grid of tiles rather than a set of holes.
+ * Fails open. Each window is a clipped box with the image parked in its top-left
+ * corner, so if the script never runs the section shows a close-up of the
+ * photograph rather than a set of holes.
  */
 interface Props {
   src: string;
@@ -57,7 +60,6 @@ const { src, fx = 0.5, fy = 0.5, class: klass = '' } = Astro.props;
   };
 
   const paint = (host, size) => {
-    const src = host.dataset.src || '';
     const fx = Number(host.dataset.fx ?? '0.5');
     const fy = Number(host.dataset.fy ?? '0.5');
     const box = host.getBoundingClientRect();
@@ -78,11 +80,14 @@ const { src, fx = 0.5, fy = 0.5, class: klass = '' } = Astro.props;
 
     for (const win of host.querySelectorAll('[data-window]')) {
       const r = win.getBoundingClientRect();
-      win.style.backgroundImage = size ? `url("${src}")` : 'none';
-      win.style.backgroundSize = size ? `${rw}px ${rh}px` : 'auto';
-      win.style.backgroundPosition = `${Math.round(ox - (r.left - box.left))}px ${Math.round(
-        oy - (r.top - box.top)
-      )}px`;
+      const tx = Math.round(ox - (r.left - box.left));
+      const ty = Math.round(oy - (r.top - box.top));
+
+      for (const img of win.querySelectorAll('[data-wg-img]')) {
+        img.style.width = `${Math.round(rw)}px`;
+        img.style.height = `${Math.round(rh)}px`;
+        img.style.transform = `translate(${tx}px, ${ty}px)`;
+      }
     }
     host.classList.add('wg-on');
   };

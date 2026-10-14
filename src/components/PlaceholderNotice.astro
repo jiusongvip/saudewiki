@@ -1,13 +1,19 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { url } from '../lib/content';
+import { ui } from '../i18n/ui';
+import { contentFor } from '../lib/content';
+import InlineText from './InlineText.astro';
+import type { Locale } from '../types';
 
 interface Props {
+  lang: Locale;
   /** Short label describing what kind of placeholder this is. */
   label?: string;
 }
 
-const { label = 'Conteúdo de demonstração' } = Astro.props;
+const { lang, label = ui[lang].common.placeholderLabel } = Astro.props;
+const t = ui[lang];
+const urls = contentFor(lang).urls;
 ---
 
 <aside class="rounded-xl border border-warn/30 bg-warn-soft p-4" role="note">
@@ -16,12 +22,11 @@ const { label = 'Conteúdo de demonstração' } = Astro.props;
     <div class="text-[0.82rem] leading-relaxed text-ink">
       <p class="font-semibold">{label}</p>
       <p class="mt-1 text-ink-muted">
-        Este texto foi escrito para validar a estrutura da página e <strong class="font-semibold">ainda não passou por
-        revisão médica</strong>. Ele não deve ser usado para tomar decisões sobre saúde.
+        <InlineText text={t.common.placeholderBody} lang={lang} />
       </p>
       <p class="mt-2">
-        <a href={url.contact()} class="font-medium text-accent underline underline-offset-2">
-          Encontrou um erro? Envie uma correção
+        <a href={urls.contact()} class="font-medium text-accent underline underline-offset-2">
+          {t.common.placeholderLink}
         </a>
       </p>
     </div>
