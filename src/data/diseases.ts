@@ -99,7 +99,7 @@ export const diseases: Disease[] = [
           'Dificuldade para respirar',
           'Pele pálida, fria e úmida',
           'Fraqueza intensa',
-          'Diminuição da urina ou sinais de desidratação',
+          'Urinar muito menos que o habitual ou sinais de desidratação',
           'Barriga inchada de forma repentina ou progressiva',
           'Piora súbita depois que a febre baixa',
         ],
@@ -160,7 +160,7 @@ export const diseases: Disease[] = [
           'Não há medicamento antiviral específico. O manejo se baseia em hidratação, alívio dos sintomas e acompanhamento clínico, sempre com orientação de um profissional de saúde.',
           'Em quadros leves, os cuidados incluem repouso, ingestão frequente de líquidos, alimentação leve conforme o apetite, observação da quantidade de urina e retorno para reavaliação na data indicada.',
           'Para febre e dor, o paracetamol pode ser indicado, mas a escolha e a dose dependem da idade, do peso e de outras condições, e devem ser definidas por um profissional de saúde. Não se automedique.',
-          'Medicamentos à base de ácido acetilsalicílico e anti-inflamatórios não esteroides devem ser evitados durante a suspeita, pelo risco de sangramento. Isso inclui o ácido acetilsalicílico (AAS ou aspirina), o ibuprofeno, o diclofenaco, o naproxeno e as combinações para gripe ou dor que contenham essas substâncias.',
+          'Enquanto houver suspeita de dengue, evite aspirina (AAS), ibuprofeno, diclofenaco, naproxeno e remédios para gripe ou dor que contenham essas substâncias: eles aumentam o risco de sangramento.',
           'Se houver vômitos repetidos, desidratação, sinais de alerta ou dengue grave, pode ser necessário receber soro na veia, ficar em observação ou ser internado. A quantidade e a velocidade da hidratação intravenosa são definidas pela equipe de saúde.',
           'Antibióticos não têm efeito contra o vírus, e corticoides e transfusões não são indicados de rotina: dependem de avaliação médica específica.',
         ],
@@ -250,7 +250,7 @@ export const diseases: Disease[] = [
       {
         question: 'Existe vacina contra dengue?',
         answer:
-          'Existem vacinas aprovadas no Brasil, mas a indicação depende de critérios definidos pelas autoridades de saúde e não substitui o controle do mosquito. Consulte o serviço de saúde da sua região.',
+          'Sim. O SUS oferece vacina contra a dengue, mas para o público e as regiões definidos pela estratégia do Ministério da Saúde, que mudam com o tempo. A vacina não substitui as medidas para reduzir a proliferação do mosquito. Informe-se na UBS da sua região.',
       },
     ],
     relatedArticleSlugs: [
@@ -270,11 +270,6 @@ export const diseases: Disease[] = [
         label: 'Dengue and severe dengue: fact sheet',
         url: 'https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue',
         publisher: 'Organização Mundial da Saúde',
-      },
-      {
-        label: 'Dengue: informações para profissionais e população',
-        url: 'https://portal.fiocruz.br/',
-        publisher: 'Fiocruz',
       },
     ],
     author: 'Equipe editorial Saudewiki',
@@ -573,7 +568,7 @@ export const diseases: Disease[] = [
           'Fraqueza ou dormência em um lado do corpo, boca torta ou dificuldade para falar',
           'Perda de visão ou visão muito embaçada de repente',
           'Confusão mental, convulsão ou desmaio',
-          'Diminuição importante da urina',
+          'Urinar muito menos que o habitual',
         ],
       },
       {
@@ -793,7 +788,7 @@ export const diseases: Disease[] = [
           'Confusão mental, sonolência excessiva ou convulsões',
           'Fraqueza ou dificuldade para mover um lado do corpo',
           'Falta de ar, dor no peito ou palpitações',
-          'Diminuição importante da quantidade de urina',
+          'Urinar muito menos que o habitual',
           'Pele e olhos amarelados',
         ],
         cta: {
@@ -943,11 +938,6 @@ export const diseases: Disease[] = [
         label: 'Chikungunya: fact sheet',
         url: 'https://www.who.int/news-room/fact-sheets/detail/chikungunya',
         publisher: 'Organização Mundial da Saúde',
-      },
-      {
-        label: 'Arboviroses: materiais técnicos',
-        url: 'https://portal.fiocruz.br/',
-        publisher: 'Fiocruz',
       },
     ],
     author: 'Equipe editorial Saudewiki',
@@ -1388,7 +1378,7 @@ export const diseases: Disease[] = [
     name: 'Tuberculose',
     aliases: ['TB', 'tuberculose pulmonar', 'bacilo de Koch'],
     summary:
-      'Doença infecciosa causada por uma bactéria que ataca principalmente os pulmões. Tem cura, e o tratamento é gratuito no sistema público de saúde.',
+      'Doença infecciosa causada por uma bactéria que ataca principalmente os pulmões. Tem cura, e o tratamento é gratuito no SUS.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     sections: [
@@ -1461,7 +1451,7 @@ export const diseases: Disease[] = [
         id: 'diagnostico',
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
-          'O diagnóstico combina a avaliação clínica com exames e está disponível gratuitamente no sistema público de saúde. No SUS, são usados principalmente:',
+          'O diagnóstico combina a avaliação clínica com exames, todos disponíveis gratuitamente no SUS. Os principais são:',
           'A radiografia de tórax entra como exame de apoio. Quando a doença está fora do pulmão, a equipe de saúde pode coletar amostras de outros locais, de acordo com os sintomas. No Brasil, a tuberculose é uma doença de notificação compulsória: todo caso confirmado é registrado pelo serviço de saúde no sistema de vigilância, o que ajuda a acompanhar a doença no país e a planejar as ações de saúde pública.',
         ],
         bullets: [
@@ -1587,7 +1577,7 @@ export const diseases: Disease[] = [
       {
         question: 'Conviver com quem tem tuberculose é perigoso?',
         answer:
-          'Depois de algumas semanas de tratamento, a pessoa deixa de transmitir a doença. Quem convive com um caso confirmado deve ser avaliado pelo serviço de saúde, para verificar se há infecção latente ou doença ativa.',
+          'Nas primeiras semanas de tratamento, a transmissão cai muito. Quem convive com um caso confirmado deve ser avaliado pelo serviço de saúde, para verificar se há infecção latente ou doença ativa.',
       },
       {
         question: 'O tratamento é gratuito?',
@@ -2142,7 +2132,7 @@ export const diseases: Disease[] = [
           'Não fumar e evitar a exposição à fumaça do tabaco, inclusive passiva',
           'Evitar contato com poeira, mofo, fumaça e outros gatilhos conhecidos',
           'Manter as vacinas em dia, sobretudo contra a gripe e as infecções respiratórias',
-          'Seguir o tratamento de controle de forma contínua, mesmo nos períodos sem sintomas',
+          'Seguir o tratamento de controle todos os dias, mesmo nos períodos sem sintomas',
           'Controlar peso e manter atividade física, com orientação profissional',
         ],
         cta: {
@@ -2155,7 +2145,7 @@ export const diseases: Disease[] = [
         heading: 'Tratamento e cuidados',
         paragraphs: [
           'O tratamento da asma tem como base o medicamento de controle, que reduz a inflamação e deve ser usado todos os dias, mesmo quando a pessoa está bem. O medicamento de alívio serve para a crise e não substitui o de controle.',
-          'Na DPOC, o tratamento inclui broncodilatadores, reabilitação pulmonar e, sobretudo, a cessação do tabagismo, a medida que mais altera a evolução da doença.',
+          'Na DPOC, o tratamento inclui broncodilatadores, reabilitação pulmonar e, principalmente, parar de fumar, a medida que mais muda a evolução da doença.',
           'Em ambas, usar o inalador do jeito certo é parte do tratamento: a técnica errada faz o medicamento não chegar aos pulmões.',
         ],
       },
@@ -2163,7 +2153,7 @@ export const diseases: Disease[] = [
         id: 'sinais-de-alerta',
         heading: 'Sinais de alerta e quando procurar atendimento',
         paragraphs: [
-          'Uma crise grave é uma emergência. Procure atendimento imediatamente se houver:',
+          'Uma crise grave é uma emergência. Ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento, sem esperar a crise melhorar sozinha, se houver:',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2289,7 +2279,7 @@ export const diseases: Disease[] = [
           'Manter alimentação variada, com menos sal e ultraprocessados',
           'Praticar atividade física regularmente',
           'Tratar arritmias e outras condições quando diagnosticadas',
-          'Tomar a medicação de forma contínua, sem interromper por conta própria',
+          'Tomar a medicação todos os dias, sem interromper por conta própria',
         ],
         cta: {
           label: 'Leia também: os sinais do infarto e o que fazer',
