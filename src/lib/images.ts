@@ -25,54 +25,69 @@ export interface SiteImage {
   src: string;
   alt: string;
 }
+/**
+ * Illustrated plates, not photographs. Each one shows the mechanism of the
+ * disease in cross-section, a clinical sign in the inset at the upper right and
+ * the main symptoms as a row of circular badges at the bottom. The captions
+ * inside the artwork are in Portuguese, so the picture is the same in both
+ * languages and only the `alt` changes.
+ */
 export const diseaseImages: Record<string, SiteImage> = {
   dengue: {
     src: '/img/doenca-dengue.webp',
-    alt: 'Mosquito Aedes aegypti pousado sobre a pele humana',
+    alt: 'Ilustração médica de um Aedes aegypti cravado na pele e liberando o vírus na corrente sanguínea, com recorte de um cotovelo coberto de manchas e quatro ícones circulares de febre alta, manchas, sangramento e dor muscular',
   },
   diabetes: {
     src: '/img/doenca-diabetes.webp',
-    alt: 'Glicosímetro com tira de teste, caneta de insulina e comprimidos sobre fundo branco',
+    alt: 'Ilustração médica do pâncreas liberando insulina num vaso cheio de cristais de glicose, com recorte da sola do pé com uma ferida aberta e quatro ícones de sede excessiva, visão embaçada, formigamento e cansaço',
   },
   hipertensao: {
     src: '/img/doenca-hipertensao.webp',
-    alt: 'Aparelho digital de medir pressão com a braçadeira ao lado',
+    alt: 'Ilustração médica de uma artéria de parede espessada e luz estreita sob pressão, ao lado de um braço com a braçadeira do esfigmomanômetro, com recorte da medição da pressão e quatro ícones de dor de cabeça, palpitação, visão embaçada e zumbido',
   },
   chikungunya: {
     src: '/img/doenca-chikungunya.webp',
-    alt: 'Fisioterapeuta aplicando massagem no ombro de um paciente',
+    alt: 'Ilustração médica de um joelho em corte com a membrana sinovial inchada e partículas do vírus, um mosquito no canto superior, com recorte de mãos com as articulações inflamadas e quatro ícones de febre alta, dor articular, manchas na pele e conjuntivite',
   },
   zika: {
     src: '/img/doenca-zika.webp',
-    alt: 'Mãos de adulto segurando os pés de um bebê',
+    alt: 'Ilustração médica de um Aedes aegypti picando a pele e liberando partículas azuis do vírus no sangue, com recorte de uma gestante com as mãos na barriga e quatro ícones de manchas na pele, conjuntivite, febre baixa e coceira',
   },
   malaria: {
     src: '/img/doenca-malaria.webp',
-    alt: 'Mosquito pousado sobre folhas verdes',
+    alt: 'Ilustração médica de um mosquito Anopheles injetando esporozoítos num vaso onde hemácias infectadas se rompem, com recorte de uma pessoa tremendo de calafrios sob a coberta e quatro ícones de febre em ciclos, sudorese, olhos amarelados e dor de cabeça',
   },
   tuberculose: {
     src: '/img/doenca-tuberculose.webp',
-    alt: 'Mãos segurando uma caixa de máscara respiratória',
+    alt: 'Ilustração médica de um pulmão em corte com uma cavidade cheia de bacilos no lobo superior, com recorte de uma pessoa tossindo num lenço com riscos de sangue e quatro ícones de tosse persistente, febre à tarde, suor noturno e emagrecimento',
   },
   'hiv-aids': {
     src: '/img/doenca-hiv-aids.webp',
-    alt: 'Microscópio de laboratório com as lentes objetivas em primeiro plano',
+    alt: 'Ilustração médica de um vírus HIV em corte aderido ao receptor CD4 de uma célula de defesa, com recorte de uma mão com luva azul segurando um teste rápido ao lado de uma gota de sangue no dedo e quatro ícones de febre, gânglios inchados, perda de peso e suor noturno',
   },
   'hepatites-virais': {
     src: '/img/doenca-hepatites.webp',
-    alt: 'Painel de parede com esfigmomanômetro e instrumentos clínicos',
+    alt: 'Ilustração médica de um fígado em corte com uma área inflamada, partículas virais e a vesícula biliar embaixo, com recorte de um olho com a esclera amarelada e quatro ícones de cansaço, dor no abdômen, urina escura e fezes claras',
   },
   asma: {
-    src: '/img/doenca-asma-dpoc.webp',
-    alt: 'Inalador azul de dose medida sobre uma superfície clara',
+    src: '/img/doenca-asma.webp',
+    alt: 'Ilustração médica comparando dois brônquios em corte, o da esquerda aberto com o ar passando e o da direita contraído, vermelho e cheio de muco amarelo, com recorte de uma pessoa usando um inalador com espaçador e quatro ícones de chiado no peito, aperto no peito, tosse e piora à noite',
   },
   dpoc: {
-    src: '/img/artigo-dpoc-tabagismo.webp',
-    alt: 'Cigarros apagados sobre cédulas de dinheiro',
+    src: '/img/doenca-dpoc.webp',
+    alt: 'Ilustração médica de um pulmão em corte que compara alvéolos sadios com o tecido destruído pelo enfisema, um cigarro soltando fumaça no canto, com recorte de uma pessoa idosa curvada com as mãos nos joelhos e quatro ícones de tabagismo, ar preso, tosse com catarro e piora gradual',
   },
   'infarto-e-avc': {
     src: '/img/doenca-infarto-avc.webp',
-    alt: 'Estetoscópio e óculos sobre um traçado de eletrocardiograma',
+    alt: 'Ilustração médica de um coração em corte com a coronária entupida por placa e coágulo ligada por um vaso até um cérebro com uma artéria bloqueada, com recorte de uma pessoa com a mão no peito e quatro ícones de dor no peito, boca torta, fraqueza em um lado e tempo é crucial',
+  },
+  'faringite-e-amigdalite': {
+    src: '/img/doenca-faringite-amigdalite.webp',
+    alt: 'Ilustração médica de uma cabeça e do pescoço em corte lateral mostrando as amígdalas inchadas com placas de pus, com recorte de uma boca aberta com espátula lingual e quatro ícones de dor ao engolir, febre, gânglios inchados e calafrios',
+  },
+  gastroenterite: {
+    src: '/img/doenca-gastroenterite.webp',
+    alt: 'Ilustração médica de um estômago e de um intestino em corte com a mucosa inflamada, vírus presos às vilosidades e líquido escorrendo para a luz do intestino, com recorte de uma mãe dando soro de reidratação oral com colher a uma criança e quatro ícones de diarreia, vômitos, cólica e boca seca',
   },
 };
 
