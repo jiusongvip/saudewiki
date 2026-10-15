@@ -50,6 +50,11 @@ const articles = c.articles.slice(0, 6);
 const featured = diseases[0];
 const featuredImage = imageForDisease(featured.slug, lang);
 const rest = diseases.slice(1);
+
+/* Two catalog sentences joined for one paragraph. Chinese closes a sentence with
+   a full-width stop that already carries its own trailing space, so a literal
+   space between them renders as a gap; Latin scripts need the space. */
+const lead = (...parts: string[]) => parts.join(lang === 'zh-Hant' ? '' : ' ');
 ---
 
 <BaseLayout lang={lang} title={fill(t.home.title, { site: SITE.name })} description={t.site.description} bleed>
@@ -73,7 +78,7 @@ const rest = diseases.slice(1);
               {t.home.h1Line1}<br />{t.home.h1Line2}
             </h1>
             <p class="mt-4 max-w-[46ch] text-[0.95rem] leading-relaxed text-ink-muted md:mt-6">
-              {t.site.mission} {t.home.missionLead}
+              {lead(t.site.mission, t.home.missionLead)}
             </p>
           </div>
 
@@ -343,7 +348,7 @@ const rest = diseases.slice(1);
         <div>
           <h2 class="t-big text-ink">{t.home.studentsTitle}</h2>
           <p class="mt-4 max-w-md text-sm leading-relaxed text-ink-muted md:text-base">
-            {t.site.mission} {t.home.studentsLead}
+            {lead(t.site.mission, t.home.studentsLead)}
           </p>
         </div>
 
