@@ -88,7 +88,6 @@ export function urlsFor(lang: Locale) {
     disease: (slug: string) => p(`/doencas/${slug}/`),
     articles: () => p('/artigos/'),
     article: (slug: string) => p(`/artigos/${slug}/`),
-    topics: () => p('/temas/'),
     topic: (slug: string) => p(`/temas/${slug}/`),
     regions: () => p('/por-regiao/'),
     region: (slug: string) => p(`/por-regiao/${slug}/`),

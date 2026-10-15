@@ -45,7 +45,17 @@ const schemaNodes: Record<string, unknown>[] = [
     </p>
 
     <div class="mt-10 grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_340px]">
-      <RegionGrid lang={lang} regions={c.regions} class="order-2 lg:order-1" />
+      <div class="order-2 min-w-0 lg:order-1">
+        <RegionGrid lang={lang} regions={c.regions} />
+        <section class="mt-14 border-t border-line pt-10" aria-labelledby="como-o-corpo-se-divide">
+          <h2 id="como-o-corpo-se-divide" class="display text-[1.8rem]">{t.regionsIndex.guideHeading}</h2>
+          <div class="mt-5 max-w-2xl space-y-4 text-[0.98rem] leading-relaxed text-ink">
+            {t.regionsIndex.guide.map((paragraph) => (
+              <p>{paragraph}</p>
+            ))}
+          </div>
+        </section>
+      </div>
       <BodyMap lang={lang} regions={c.regions} class="order-1 lg:sticky lg:top-24 lg:order-2" />
     </div>
   </div>

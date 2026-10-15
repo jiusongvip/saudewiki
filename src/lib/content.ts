@@ -340,7 +340,6 @@ export function navItems(lang: Locale) {
     { label: t.nav.diseases, href: urls.diseases() },
     { label: t.nav.regions, href: urls.regions() },
     { label: t.nav.articles, href: urls.articles() },
-    { label: t.nav.topics, href: urls.topics() },
     { label: t.nav.about, href: urls.about() },
   ];
 }

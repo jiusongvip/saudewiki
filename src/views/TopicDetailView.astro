@@ -26,7 +26,6 @@ const isEmpty = topicDiseases.length === 0 && topicArticles.length === 0;
 
 const breadcrumbs = [
   { name: t.common.home, href: c.urls.home() },
-  { name: t.nav.topics, href: c.urls.topics() },
   { name: topic.title, href: c.urls.topic(topic.slug) },
 ];
 
@@ -46,7 +45,7 @@ const schemaNodes: Record<string, unknown>[] = [
   <div class="mx-auto max-w-6xl px-5 pb-16 pt-10">
     <Breadcrumbs lang={lang} items={breadcrumbs} />
 
-    <span class="eyebrow mt-6 block">{t.topicsIndex.eyebrow}</span>
+    <span class="eyebrow mt-6 block">{t.topicPage.eyebrow}</span>
     <h1 class="display mt-3 max-w-3xl text-[2.3rem] sm:text-[3rem]">{topic.title}</h1>
     <p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-ink-muted">{topic.description}</p>
 

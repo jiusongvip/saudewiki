@@ -37,7 +37,6 @@ const pt = {
     diseases: 'Doenças',
     regions: 'Por região',
     articles: 'Artigos',
-    topics: 'Temas de saúde',
     about: 'Sobre nós',
     search: 'Pesquisar',
     ariaMain: 'Navegação principal',
@@ -127,11 +126,9 @@ const pt = {
       'Não encontramos resultados para esta pesquisa. Tente outro termo ou comece por uma busca popular:',
     noscript: 'A busca deste site precisa de JavaScript. Você pode navegar diretamente por',
     noscriptJoin: ', ',
-    noscriptLast: ' ou ',
     noscriptTail: '.',
     noscriptDiseases: 'doenças',
     noscriptArticles: 'artigos',
-    noscriptTopics: 'temas de saúde',
     typeDisease: 'Doença',
     typeArticle: 'Artigo',
     typeTopic: 'Tema',
@@ -222,16 +219,8 @@ const pt = {
     errorOnArticle: 'Encontrou um erro neste artigo?',
   },
 
-  topicsIndex: {
-    title: 'Temas de saúde',
-    h1: 'Temas de saúde',
-    description:
-      'Guias temáticos que reúnem doenças, artigos e medidas práticas em torno de um mesmo assunto de saúde.',
-    lead: 'Um tema reúne tudo o que o site tem sobre uma área da saúde: as doenças envolvidas, os artigos relacionados e o que fazer na prática. Temas ainda sem conteúdo aparecem marcados como em preparação.',
-    eyebrow: 'Tema de saúde',
-  },
-
   topicPage: {
+    eyebrow: 'Tema de saúde',
     emptyBody:
       'Ainda não há textos publicados neste tema. Enquanto isso, procure o assunto nas páginas de doenças e nos artigos de saúde.',
     scope: 'O que este tema cobre',
@@ -246,7 +235,14 @@ const pt = {
     description:
       'Escolha uma parte do corpo e veja as doenças e os artigos que a atingem: cérebro, olhos, pulmões, coração, fígado, rins, pele, articulações e sangue.',
     lead: 'Nem todo mundo procura uma doença pelo nome. Esta é a mesma enciclopédia organizada pelo lugar que dói: a primeira página de cada região reúne as doenças que a atingem e os artigos que tratam daquele problema.',
-    constructionHint: 'As regiões que ainda não têm textos aparecem marcadas como «Em construção».',
+    constructionHint:
+      'Onde a enciclopédia ainda não tem verbetes próprios, a página da região traz ainda assim os textos gerais sobre o mundo e os países de língua portuguesa; o selo «Em construção» assinala essas faltas.',
+    guideHeading: 'Como o corpo se divide',
+    guide: [
+      'A medicina organiza o corpo em aparelhos: nervoso, visual, do ouvido, nariz e garganta, respiratório, cardiovascular, digestório, hepático, metabólico, renal, cutâneo, musculoesquelético e do sangue. Cada região do mapa corresponde a um desses conjuntos. É a mesma enciclopédia, vista pelo lugar que dói em vez do nome da doença.',
+      'Cada página de região abre com duas leituras: o que costuma dar errado naquela parte no mundo, e o que é típico nos países de língua portuguesa — Brasil, Portugal, Angola, Moçambique, Guiné-Bissau, Cabo Verde e Timor-Leste — e por quê. Depois vêm as doenças e os artigos já publicados sobre aquela região.',
+      'As causas mudam de lugar para lugar: o AVC reflete a hipertensão de cada população, a diarreia reflete o acesso a água tratada, e a tuberculose reflete a velocidade com que um diagnóstico é encontrado. É por isso que a perspectiva lusófona vem logo depois da mundial.',
+    ],
     schemaName: 'Por região do corpo',
     schemaDescription:
       'Índice das partes do corpo cobertas pelo Saudewiki, com as doenças e os artigos de cada uma.',
@@ -258,6 +254,8 @@ const pt = {
     emptyInvite: 'Não encontrou o que procurava? Diga ao projeto qual assunto falta.',
     talkToProject: 'Falar com o projeto',
     countsHere: '{diseases} e {articles} nesta região.',
+    worldHeading: 'Doenças mais comuns no mundo',
+    lusophoneHeading: 'Nos países de língua portuguesa: o que acontece e por quê',
     diseasesHere: 'Doenças que atingem {region}',
     articlesHere: 'Leitura sobre estes problemas',
     sourcesNote:
@@ -279,7 +277,6 @@ const pt = {
     destinations: [
       { to: 'diseases', label: 'Doenças', description: 'Enciclopédia de doenças e condições' },
       { to: 'articles', label: 'Artigos', description: 'Respostas para dúvidas específicas' },
-      { to: 'topics', label: 'Temas de saúde', description: 'Guias por área da saúde' },
       { to: 'about', label: 'Sobre o projeto', description: 'Missão, limites e princípios' },
     ],
   },
@@ -313,7 +310,6 @@ const zh: UI = {
     diseases: '疾病',
     regions: '依部位',
     articles: '文章',
-    topics: '健康主題',
     about: '關於我們',
     search: '搜尋',
     ariaMain: '主要導航',
@@ -397,11 +393,9 @@ const zh: UI = {
     emptyLead: '找不到這次查詢的結果。請換一個字，或從常見的查詢開始：',
     noscript: '本站的搜尋需要 JavaScript。您也可以直接瀏覽',
     noscriptJoin: '、',
-    noscriptLast: '或',
     noscriptTail: '。',
     noscriptDiseases: '疾病',
     noscriptArticles: '文章',
-    noscriptTopics: '健康主題',
     typeDisease: '疾病',
     typeArticle: '文章',
     typeTopic: '主題',
@@ -489,15 +483,8 @@ const zh: UI = {
     errorOnArticle: '在這篇文章發現錯誤了嗎？',
   },
 
-  topicsIndex: {
-    title: '健康主題',
-    h1: '健康主題',
-    description: '主題導覽把疾病、文章與實務做法整理在同一個健康議題下。',
-    lead: '一個主題彙集本站在某個健康領域裡所有的內容：相關的疾病、文章，以及實際該做的事。還沒有內容的主題會標註為籌備中。',
-    eyebrow: '健康主題',
-  },
-
   topicPage: {
+    eyebrow: '健康主題',
     emptyBody:
       '這個主題還沒有已發布的內容。您可以先到疾病頁面與健康文章中查找相關的資訊。',
     scope: '本主題涵蓋的內容',
@@ -511,7 +498,13 @@ const zh: UI = {
     h1: '依身體部位探索',
     description: '選擇一個身體部位，看看哪些疾病與文章與它有關：腦、眼、肺、心臟、肝、腎、皮膚、關節與血液。',
     lead: '不是每個人都用病名找資料。這是同一部百科，改按會不舒服的地方來組織：每個部位的第一頁彙集會波及該處的疾病，以及處理這個問題的文章。',
-    constructionHint: '還沒有文字的部位會標示為「建置中」。',
+    constructionHint: '還沒有專屬詞條的部位，頁面仍提供全球與葡語系國家的概覽文字；「建置中」只代表該部位的疾病與文章還未齊備。',
+    guideHeading: '身體是怎麼分部的',
+    guide: [
+      '醫學把身體分成幾個系統：神經、視覺、耳鼻喉、呼吸、心血管、消化、肝膽、代謝、泌尿、皮膚、肌肉骨骼與血液。地圖上的每個部位就對應其中一組：這是同一部百科，只是改用「會不舒服的地方」代替病名來組織。',
+      '每個部位頁面都以兩種視角開頭：這個部位在全世界常見哪些問題；以及葡語系國家——巴西、葡萄牙、安哥拉、莫桑比克、幾內亞比索、維德角與東帝汶——的情況與背後的原因。之後才列出該部位已發布的疾病與文章。',
+      '病因會因地方而異：中風反映一個人群的高血壓控制情形，腹瀉反映自來水的普及率，結核病反映診斷被找到的速度。這就是為什麼葡語系國家的視角緊接在全球視角之後。',
+    ],
     schemaName: '依身體部位',
     schemaDescription: 'Saudewiki 涵蓋的身體部位索引，列出各部位的疾病與文章。',
   },
@@ -522,6 +515,8 @@ const zh: UI = {
     emptyInvite: '沒有找到您想看的內容？告訴我們還缺哪個主題。',
     talkToProject: '聯絡項目',
     countsHere: '這個部位共有{diseases}與{articles}。',
+    worldHeading: '全球常見疾病',
+    lusophoneHeading: '葡語系國家的情況與原因',
     diseasesHere: '會波及{region}的疾病',
     articlesHere: '關於這些問題的閱讀',
     sourcesNote:
@@ -541,7 +536,6 @@ const zh: UI = {
     destinations: [
       { to: 'diseases', label: '疾病', description: '疾病與狀況百科' },
       { to: 'articles', label: '文章', description: '特定疑問的解答' },
-      { to: 'topics', label: '健康主題', description: '各領域導覽' },
       { to: 'about', label: '關於本項目', description: '使命、限度與原則' },
     ],
   },

@@ -24,6 +24,9 @@ const diseases = c.regionDiseases(region);
 const articles = c.regionArticles(region);
 const counts = c.regionCounts(region);
 const isEmpty = counts.total === 0;
+const worldProse = region.globalOverview ?? [];
+const lusophoneProse = region.lusophoneOverview ?? [];
+const hasProse = worldProse.length > 0 || lusophoneProse.length > 0;
 
 const breadcrumbs = [
   { name: t.common.home, href: c.urls.home() },
@@ -32,7 +35,8 @@ const breadcrumbs = [
 ];
 
 const name = region.name.toLowerCase();
-const metaDescription = isEmpty ? fill(t.regionPage.emptyMeta, { region: region.name }) : region.description;
+const metaDescription =
+  isEmpty && !hasProse ? fill(t.regionPage.emptyMeta, { region: region.name }) : region.description;
 const pageId = `${SITE.url}${c.urls.region(region.slug)}`;
 
 const schemaNodes: Record<string, unknown>[] = [
@@ -80,7 +84,7 @@ if (diseases.length > 0) {
       <p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-ink-muted">{region.description}</p>
 
       {
-        isEmpty ? (
+        isEmpty && !hasProse ? (
           <aside class="mt-8 max-w-2xl rounded-xl border border-warn/30 bg-warn-soft p-5" role="note">
             <div class="flex gap-3">
               <Icon name="tabler:clock-hour-4" class="mt-0.5 h-4 w-4 shrink-0 text-warn" />
@@ -96,6 +100,13 @@ if (diseases.length > 0) {
               </div>
             </div>
           </aside>
+        ) : isEmpty ? (
+          <p class="mt-6 max-w-2xl text-[0.85rem] text-ink-muted">
+            {t.regionPage.emptyInvite}{' '}
+            <a href={c.urls.contact()} class="font-semibold text-accent underline underline-offset-2">
+              {t.regionPage.talkToProject}
+            </a>
+          </p>
         ) : (
           <p class="mt-6 text-[0.85rem] font-semibold text-ink-muted">
             {fill(t.regionPage.countsHere, {
@@ -103,6 +114,32 @@ if (diseases.length > 0) {
               articles: unitCount(lang, counts.articles, 'article'),
             })}
           </p>
+        )
+      }
+
+      {
+        worldProse.length > 0 && (
+          <section class="mt-12" aria-labelledby="pano-mundial">
+            <h2 id="pano-mundial" class="display text-[1.8rem]">{t.regionPage.worldHeading}</h2>
+            <div class="mt-5 max-w-2xl space-y-4 text-[0.98rem] leading-relaxed text-ink">
+              {worldProse.map((paragraph) => (
+                <p>{paragraph}</p>
+              ))}
+            </div>
+          </section>
+        )
+      }
+
+      {
+        lusophoneProse.length > 0 && (
+          <section class="mt-12" aria-labelledby="pano-lusofono">
+            <h2 id="pano-lusofono" class="display text-[1.8rem]">{t.regionPage.lusophoneHeading}</h2>
+            <div class="mt-5 max-w-2xl space-y-4 text-[0.98rem] leading-relaxed text-ink">
+              {lusophoneProse.map((paragraph) => (
+                <p>{paragraph}</p>
+              ))}
+            </div>
+          </section>
         )
       }
 
