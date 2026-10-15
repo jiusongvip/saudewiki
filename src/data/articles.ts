@@ -1505,12 +1505,12 @@ export const articles: Article[] = [
           'Uma crise é um sinal de que o controle pode estar inadequado. Leve esse episódio à próxima consulta: muitas vezes há ajuste no tratamento de controle, revisão da técnica de uso do inalador ou identificação de um gatilho que passou despercebido.',
         ],
         cta: {
-          label: 'Veja a página sobre asma e DPOC',
-          href: '/doencas/asma-e-dpoc/',
+          label: 'Veja a página sobre a asma',
+          href: '/doencas/asma/',
         },
       },
     ],
-    diseaseSlugs: ['asma-e-dpoc'],
+    diseaseSlugs: ['asma'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedArticleSlugs: ['dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro'],
     references: [
@@ -1577,8 +1577,8 @@ export const articles: Article[] = [
           'Manter atividade física adaptada à condição, com orientação profissional',
         ],
         cta: {
-          label: 'Veja a página sobre asma e DPOC',
-          href: '/doencas/asma-e-dpoc/',
+          label: 'Veja a página sobre a DPOC',
+          href: '/doencas/dpoc/',
         },
       },
       {
@@ -1593,7 +1593,7 @@ export const articles: Article[] = [
         },
       },
     ],
-    diseaseSlugs: ['asma-e-dpoc'],
+    diseaseSlugs: ['dpoc'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedArticleSlugs: ['asma-crise-o-que-fazer-enquanto-espera-atendimento'],
     references: [

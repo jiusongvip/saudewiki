@@ -502,7 +502,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         paragraphs: [
           '發作意味著病情控制可能不足。建議把這次情況帶到門診討論：通常需要調整控制藥物、檢視吸入器的使用技巧，或找出先前被忽略的誘發因子。',
         ],
-        ctaLabel: '氣喘與慢性阻塞性肺病頁面請見這裡',
+        ctaLabel: '氣喘頁面請見這裡',
       },
     ],
     references: [
@@ -559,7 +559,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
           '避免暴露於任何來源的煙霧，包括被動吸菸',
           '在專業指導下維持符合自身狀況的身體活動',
         ],
-        ctaLabel: '氣喘與慢性阻塞性肺病頁面請見這裡',
+        ctaLabel: '慢性阻塞性肺病頁面請見這裡',
       },
       {
         id: 'quando-procurar',

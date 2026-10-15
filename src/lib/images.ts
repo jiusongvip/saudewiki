@@ -62,9 +62,13 @@ export const diseaseImages: Record<string, SiteImage> = {
     src: '/img/doenca-hepatites.webp',
     alt: 'Painel de parede com esfigmomanômetro e instrumentos clínicos',
   },
-  'asma-e-dpoc': {
+  asma: {
     src: '/img/doenca-asma-dpoc.webp',
     alt: 'Inalador azul de dose medida sobre uma superfície clara',
+  },
+  dpoc: {
+    src: '/img/artigo-dpoc-tabagismo.webp',
+    alt: 'Cigarros apagados sobre cédulas de dinheiro',
   },
   'infarto-e-avc': {
     src: '/img/doenca-infarto-avc.webp',

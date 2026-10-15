@@ -19,7 +19,8 @@ export const zhImageAlts: Record<string, string> = {
   tuberculose: '雙手捧著一盒防護口罩',
   'hiv-aids': '實驗室顯微鏡，物鏡在畫面前景',
   'hepatites-virais': '牆面板上掛著血壓計與臨床器械',
-  'asma-e-dpoc': '藍色定量吸入器放在淺色檯面上',
+  asma: '藍色定量吸入器放在淺色檯面上',
+  dpoc: '擱在紙鈔上已熄滅的香煙',
   'infarto-e-avc': '聽診器與眼鏡放在心電圖圖紙上',
 
   'sintomas-iniciais-da-dengue': '深色表面上蚊子的近距離特寫',

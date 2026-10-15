@@ -61,7 +61,7 @@ export const regions: BodyRegion[] = [
     name: 'Pulmões e vias aéreas',
     description:
       'O estreitamento das vias por onde o ar passa e a infecção que se instala no tecido onde o oxigênio entra.',
-    diseaseSlugs: ['tuberculose', 'asma-e-dpoc'],
+    diseaseSlugs: ['tuberculose', 'asma', 'dpoc'],
     spot: { x: 43, y: 25.5 },
     reviewStatus: 'needs_review',
   },

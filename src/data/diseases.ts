@@ -2073,35 +2073,34 @@ export const diseases: Disease[] = [
     isPlaceholder: true,
   },
   {
-    id: 'asma-e-dpoc',
-    slug: 'asma-e-dpoc',
-    name: 'Asma e DPOC',
-    aliases: ['asma', 'DPOC', 'bronquite crônica', 'enfisema', 'doença pulmonar obstrutiva crônica'],
+    id: 'asma',
+    slug: 'asma',
+    name: 'Asma',
+    aliases: ['asma', 'crise de asma', 'bronquite asmática'],
     summary:
-      'Duas doenças crônicas das vias respiratórias. Na asma a limitação do fluxo de ar é reversível; na DPOC, em geral ligada ao tabagismo, ela é progressiva.',
+      'Doença crônica das vias respiratórias em que a limitação do fluxo de ar é reversível, com crises que alternam com períodos de controle.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     sections: [
       {
         id: 'o-que-e',
-        heading: 'O que são asma e DPOC?',
+        heading: 'O que é asma?',
         paragraphs: [
-          'Asma e DPOC são doenças crônicas que obstruem a passagem do ar nos pulmões, mas não são a mesma coisa.',
-          'Na asma, as vias aéreas ficam inflamadas e reagem de forma exagerada a gatilhos como poeira, mofo, fumaça e resfriados. A obstrução é reversível, e as crises alternam com períodos de controle.',
-          'Na DPOC, sigla de doença pulmonar obstrutiva crônica, a obstrução é progressiva e está ligada sobretudo ao tabagismo. Ela reúne o enfisema e a bronquite crônica, e costuma se manifestar depois de anos de exposição.',
+          'A asma é uma doença crônica que obstrui a passagem do ar nos pulmões. As vias aéreas ficam inflamadas e reagem de forma exagerada a gatilhos como poeira, mofo, fumaça e resfriados.',
+          'A obstrução é reversível, e as crises alternam com períodos de controle.',
         ],
       },
       {
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
         paragraphs: [
-          'Os sintomas das duas doenças se parecem, e só um profissional pode diferenciá-las.',
+          'Os sintomas da asma aparecem sobretudo durante as crises, e a intensidade varia de pessoa para pessoa.',
         ],
         bullets: [
           'Chiado no peito, chamado de sibilância',
           'Falta de ar, que piora com esforço',
           'Aperto ou pressão no peito',
-          'Tosse, muitas vezes seca na asma e com catarro na DPOC',
+          'Tosse, muitas vezes seca',
           'Piora dos sintomas à noite ou no início da manhã',
           'Cansaço para atividades que antes eram fáceis',
         ],
@@ -2112,22 +2111,22 @@ export const diseases: Disease[] = [
       },
       {
         id: 'transmissao',
-        heading: 'Asma e DPOC são contagiosas?',
+        heading: 'Asma é contagiosa?',
         paragraphs: [
-          'Não. São doenças crônicas não transmissíveis. Uma infecção respiratória pode desencadear uma crise, mas a doença em si não passa de uma pessoa para outra.',
+          'Não. A asma é uma doença crônica não transmissível. Uma infecção respiratória pode desencadear uma crise, mas a doença em si não passa de uma pessoa para outra.',
         ],
       },
       {
         id: 'diagnostico',
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
-          'O diagnóstico começa pela história clínica e pelo exame físico, e é confirmado pela espirometria, um exame que mede como o ar entra e sai dos pulmões. O resultado antes e depois do uso de um broncodilatador ajuda a diferenciar as duas doenças.',
+          'O diagnóstico começa pela história clínica e pelo exame físico, e é confirmado pela espirometria, um exame que mede como o ar entra e sai dos pulmões. O resultado antes e depois do uso de um broncodilatador mostra se a obstrução é reversível.',
           'Na asma, identificar os gatilhos que desencadeiam as crises faz parte do diagnóstico e do tratamento.',
         ],
       },
       {
         id: 'prevencao',
-        heading: 'Como reduzir crises e progressão',
+        heading: 'Como reduzir as crises',
         bullets: [
           'Não fumar e evitar a exposição à fumaça do tabaco, inclusive passiva',
           'Evitar contato com poeira, mofo, fumaça e outros gatilhos conhecidos',
@@ -2135,18 +2134,13 @@ export const diseases: Disease[] = [
           'Seguir o tratamento de controle todos os dias, mesmo nos períodos sem sintomas',
           'Controlar peso e manter atividade física, com orientação profissional',
         ],
-        cta: {
-          label: 'Leia também: por que parar de fumar muda o quadro na DPOC',
-          href: '/artigos/dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro/',
-        },
       },
       {
         id: 'tratamento',
         heading: 'Tratamento e cuidados',
         paragraphs: [
           'O tratamento da asma tem como base o medicamento de controle, que reduz a inflamação e deve ser usado todos os dias, mesmo quando a pessoa está bem. O medicamento de alívio serve para a crise e não substitui o de controle.',
-          'Na DPOC, o tratamento inclui broncodilatadores, reabilitação pulmonar e, principalmente, parar de fumar, a medida que mais muda a evolução da doença.',
-          'Em ambas, usar o inalador do jeito certo é parte do tratamento: a técnica errada faz o medicamento não chegar aos pulmões.',
+          'Usar o inalador do jeito certo é parte do tratamento: a técnica errada faz o medicamento não chegar aos pulmões.',
         ],
       },
       {
@@ -2176,18 +2170,10 @@ export const diseases: Disease[] = [
         answer:
           'Não. O medicamento de alívio trata o sintoma, mas não a inflamação. Usar apenas o de alívio com frequência indica que o controle está inadequado e exige reavaliação profissional.',
       },
-      {
-        question: 'Parar de fumar ajuda quem já tem DPOC?',
-        answer:
-          'Sim. É a medida que mais altera a evolução da doença: reduz a velocidade da perda de função pulmonar e melhora os sintomas.',
-      },
     ],
-    relatedArticleSlugs: [
-      'asma-crise-o-que-fazer-enquanto-espera-atendimento',
-      'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
-    ],
+    relatedArticleSlugs: ['asma-crise-o-que-fazer-enquanto-espera-atendimento'],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
-    relatedDiseaseSlugs: ['hipertensao', 'diabetes'],
+    relatedDiseaseSlugs: ['dpoc', 'hipertensao'],
     references: [
       {
         label: 'Asma: orientações e tratamento',
@@ -2199,6 +2185,111 @@ export const diseases: Disease[] = [
         url: 'https://www.who.int/news-room/fact-sheets/detail/asthma',
         publisher: 'Organização Mundial da Saúde',
       },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-13',
+    updatedAt: '2026-10-13',
+    isPlaceholder: true,
+  },
+  {
+    id: 'dpoc',
+    slug: 'dpoc',
+    name: 'DPOC',
+    aliases: ['DPOC', 'bronquite crônica', 'enfisema', 'doença pulmonar obstrutiva crônica'],
+    summary:
+      'Doença pulmonar obstrutiva crônica: limitação progressiva do fluxo de ar, ligada sobretudo ao tabagismo.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é DPOC?',
+        paragraphs: [
+          'A DPOC, sigla de doença pulmonar obstrutiva crônica, é uma doença crônica que obstrui a passagem do ar nos pulmões e reúne o enfisema e a bronquite crônica.',
+          'A obstrução é progressiva e está ligada sobretudo ao tabagismo. Costuma se manifestar depois de anos de exposição à fumaça do cigarro e a outros poluentes.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas da DPOC surgem de forma gradual e pioram com o tempo.',
+        ],
+        bullets: [
+          'Chiado no peito, chamado de sibilância',
+          'Falta de ar, que piora com esforço',
+          'Aperto ou pressão no peito',
+          'Tosse, muitas vezes com catarro',
+          'Piora dos sintomas à noite ou no início da manhã',
+          'Cansaço para atividades que antes eram fáceis',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'DPOC é contagiosa?',
+        paragraphs: [
+          'Não. A DPOC é uma doença crônica não transmissível. Uma infecção respiratória pode desencadear uma piora, mas a doença em si não passa de uma pessoa para outra.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O diagnóstico começa pela história clínica e pelo exame físico, e é confirmado pela espirometria, um exame que mede como o ar entra e sai dos pulmões. Na DPOC, a obstrução não melhora de forma significativa depois do broncodilatador, o que ajuda a diferenciá-la da asma.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como reduzir crises e progressão',
+        bullets: [
+          'Não fumar e evitar a exposição à fumaça do tabaco, inclusive passiva',
+          'Evitar contato com poeira, fumaça e outros poluentes',
+          'Manter as vacinas em dia, sobretudo contra a gripe e as infecções respiratórias',
+          'Seguir o tratamento todos os dias, mesmo nos períodos sem sintomas',
+          'Controlar peso e manter atividade física, com orientação profissional',
+        ],
+        cta: {
+          label: 'Leia também: por que parar de fumar muda o quadro na DPOC',
+          href: '/artigos/dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro/',
+        },
+      },
+      {
+        id: 'tratamento',
+        heading: 'Tratamento e cuidados',
+        paragraphs: [
+          'O tratamento da DPOC inclui broncodilatadores, reabilitação pulmonar e, principalmente, parar de fumar, a medida que mais muda a evolução da doença.',
+          'Usar o inalador do jeito certo é parte do tratamento: a técnica errada faz o medicamento não chegar aos pulmões.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Uma piora grave é uma emergência. Ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento, sem esperar melhorar sozinho, se houver:',
+        ],
+        bullets: [
+          'Dificuldade para falar frases completas',
+          'Uso visível da musculatura do pescoço e das costelas para respirar',
+          'Lábios ou pontas dos dedos azulados',
+          'Sonolência ou confusão durante a piora',
+          'Falta de resposta ao medicamento de alívio',
+          'Piora progressiva apesar do tratamento habitual',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Parar de fumar ajuda quem já tem DPOC?',
+        answer:
+          'Sim. É a medida que mais altera a evolução da doença: reduz a velocidade da perda de função pulmonar e melhora os sintomas.',
+      },
+    ],
+    relatedArticleSlugs: ['dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro'],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['asma', 'hipertensao'],
+    references: [
       {
         label: 'Chronic obstructive pulmonary disease (COPD): fact sheet',
         url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
