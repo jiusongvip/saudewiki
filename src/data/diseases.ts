@@ -971,43 +971,63 @@ export const diseases: Disease[] = [
         id: 'o-que-e',
         heading: 'O que é zika?',
         paragraphs: [
-          'Zika é uma infecção causada pelo vírus zika, transmitido principalmente pela picada do mosquito Aedes aegypti. O vírus também pode passar de pessoa para pessoa por via sexual, por transfusão de sangue e da gestante para o feto.',
-          'A infecção costuma ser leve e muitas pessoas não apresentam sintoma nenhum. O problema maior está na gestação: a infecção nesse período pode causar malformações no sistema nervoso do bebê.',
-        ],
-      },
-      {
-        id: 'sintomas',
-        heading: 'Quais são os sintomas?',
-        paragraphs: [
-          'A maioria das pessoas infectadas não tem sintomas. Quando aparecem, costumam ser leves e durar de dois a sete dias.',
-        ],
-        bullets: [
-          'Manchas vermelhas na pele, muitas vezes com coceira',
-          'Febre baixa',
-          'Olhos vermelhos sem secreção',
-          'Dor nas articulações e nos músculos',
-          'Dor de cabeça e mal-estar',
+          'Zika é uma arbovirose, ou seja, uma doença viral transmitida por mosquitos. Ela é causada pelo vírus zika, transmitido principalmente pela picada do mosquito Aedes aegypti, o mesmo que transmite dengue e chikungunya.',
+          'O vírus ficou conhecido a partir do surto de 2015, quando o aumento de nascimentos com microcefalia foi relacionado à infecção e levou à declaração de emergência em saúde pública, primeiro no Brasil e depois internacionalmente. Desde então, o número de casos caiu bastante, mas o vírus continua circulando, com registro de casos todos os anos e maior atividade nos meses mais quentes e chuvosos.',
+          'A infecção costuma ser leve e muitas pessoas não apresentam sintoma nenhum, o que faz com que muitos casos passem despercebidos. O problema maior está na gestação, porque a infecção nesse período pode atingir o feto e causar malformações no sistema nervoso do bebê.',
         ],
       },
       {
         id: 'transmissao',
         heading: 'Como o zika é transmitido?',
         paragraphs: [
-          'A via principal é a picada do mosquito Aedes aegypti, principalmente durante o dia. Diferente da dengue e da chikungunya, o zika também tem outras vias de transmissão.',
+          'A via principal é a picada da fêmea do mosquito Aedes aegypti infectada, principalmente durante o dia. Esse mosquito vive perto das casas, em recipientes que acumulam água parada, por isso a doença se espalha com facilidade em áreas urbanas.',
+          'A zika não passa pelo contato do dia a dia, como abraço, beijo ou compartilhamento de objetos. O vírus já foi encontrado na saliva, na urina e no leite materno, mas não há comprovação de transmissão por esses fluidos.',
+          'Diferente da dengue e da chikungunya, o zika também pode passar de outras maneiras:',
         ],
         bullets: [
-          'Picada do mosquito Aedes aegypti infectado',
-          'Relação sexual sem preservativo com pessoa infectada',
-          'Transfusão de sangue, em situações raras',
-          'Da gestante para o feto durante a gestação',
+          'Da mãe para o feto, durante a gestação, em qualquer trimestre e mesmo quando a mãe não tem sintomas',
+          'Por via sexual, já que o vírus pode permanecer no sêmen por semanas após o início dos sintomas',
+          'Por transfusão de sangue, embora esse risco seja baixo por causa da triagem de doadores',
         ],
       },
       {
-        id: 'diagnostico',
-        heading: 'Como é feito o diagnóstico?',
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
         paragraphs: [
-          'O diagnóstico combina a avaliação clínica com exames laboratoriais, que podem detectar o vírus ou a resposta do organismo a ele. A escolha do exame e a interpretação do resultado dependem do profissional de saúde e do momento da doença.',
-          'Durante a gestação, qualquer suspeita deve ser avaliada com prioridade, porque muda o acompanhamento pré-natal.',
+          'A maioria das pessoas infectadas não apresenta sintomas. Quando eles aparecem, surgem de 2 a 7 dias após a picada e costumam ser leves.',
+          'O conjunto dos sintomas dura, em geral, de 2 a 7 dias, e a maioria das pessoas melhora sem tratamento específico. Os sinais mais comuns são:',
+        ],
+        bullets: [
+          'Manchas vermelhas na pele, que aparecem cedo',
+          'Febre baixa, abaixo de 38,5 °C, ou ausência de febre',
+          'Conjuntivite sem secreção e olhos avermelhados',
+          'Dor de cabeça, dor nas articulações e dor muscular',
+          'Cansaço',
+          'Coceira intensa, que pode atrapalhar o sono',
+          'Inchaço ao redor das articulações e gânglios aumentados',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que exigem avaliação médica',
+        paragraphs: [
+          'A zika costuma ser leve, mas pode vir acompanhada de complicações neurológicas. Procure atendimento médico sem demora se notar algum destes sinais:',
+          'Esses sinais podem indicar síndrome de Guillain-Barré, encefalite, mielite ou neurite óptica e precisam de investigação. Alterações visuais devem ser avaliadas por um oftalmologista.',
+        ],
+        bullets: [
+          'Formigamento ou fraqueza nos braços ou nas pernas',
+          'Dificuldade para mover o rosto ou fraqueza que progride',
+          'Alteração do nível de consciência, confusão ou sonolência excessiva',
+          'Alterações na visão',
+        ],
+      },
+      {
+        id: 'zika-na-gravidez',
+        heading: 'Zika na gravidez: risco de microcefalia',
+        paragraphs: [
+          'A infecção pelo vírus Zika durante a gestação pode passar para o feto em qualquer trimestre, mesmo quando a gestante não tem sintomas. Estima-se que cerca de 26% das gestantes infectadas transmitam o vírus ao feto, e o risco de malformações congênitas é maior quando a infecção ocorre no primeiro trimestre.',
+          'As alterações causadas pela infecção congênita formam um conjunto chamado síndrome congênita do vírus Zika. Ela pode incluir microcefalia, alterações do sistema nervoso central, problemas de visão e de audição e dificuldades no desenvolvimento neuropsicomotor. As crianças afetadas podem ter deficiências intelectuais, físicas e sensoriais ao longo da vida e precisam de acompanhamento com uma equipe multiprofissional.',
+          'Detectar a infecção o mais cedo possível e manter o pré-natal em dia é fundamental. Gestantes com suspeita de zika devem procurar o serviço de saúde imediatamente, mesmo que os sintomas sejam leves, e ser acompanhadas conforme os protocolos de pré-natal do Ministério da Saúde, com exames de imagem do bebê quando indicado.',
         ],
         cta: {
           label: 'Leia também: o que o zika pode causar na gestação',
@@ -1015,56 +1035,103 @@ export const diseases: Disease[] = [
         },
       },
       {
+        id: 'grupos-de-risco',
+        heading: 'Quem tem mais risco',
+        paragraphs: [
+          'Todas as pessoas são suscetíveis ao vírus Zika, independentemente de idade ou sexo, mas a atenção maior é para dois grupos:',
+        ],
+        bullets: [
+          'Gestantes, pelo risco de transmissão ao feto e de malformações congênitas',
+          'Pessoas acima de 60 anos e pessoas com doenças crônicas, que têm mais chance de desenvolver complicações',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O diagnóstico começa pela avaliação clínica, feita por um médico, e é confirmado por exames laboratoriais. Todos os exames necessários estão disponíveis no Sistema Único de Saúde (SUS). Como os sintomas da zika se parecem com os da dengue e da chikungunya, a confirmação depende de exame laboratorial, e o tipo de exame depende do dia da doença:',
+          'A sorologia pode apresentar reação cruzada com a dengue, por isso as amostras costumam ser testadas em paralelo para as duas doenças. Quando a zika é confirmada, o caso deve ser notificado ao Ministério da Saúde em até 24 horas. Durante a gestação, qualquer suspeita deve ser avaliada com prioridade, e recém-nascidos com suspeita de comprometimento neurológico precisam de exames de imagem, como ultrassom, tomografia ou ressonância magnética.',
+        ],
+        bullets: [
+          'RT-PCR, que detecta o material genético do vírus; a urina pode ser usada para confirmar a infecção até o 15º dia do início dos sintomas',
+          'Sorologia para IgM, que identifica anticorpos produzidos pelo corpo',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Zika, dengue ou chikungunya: como diferenciar',
+        paragraphs: [
+          'As três doenças são transmitidas pelo mesmo mosquito, o que torna a diferenciação difícil apenas pelos sintomas.',
+          'A zika é a que mais se associa a malformações congênitas. Como a dengue pode provocar sangramentos graves, é importante que o médico descarte essa possibilidade antes de indicar certos medicamentos.',
+        ],
+        bullets: [
+          'Dengue: febre alta de 4 a 7 dias, manchas vermelhas a partir do 4º dia em 30% a 50% dos casos, dor muscular frequente e dor articular leve',
+          'Zika: febre ausente ou baixa de 1 a 2 dias, manchas vermelhas no 1º ou 2º dia em 90% a 100% dos casos, dor muscular e articular moderadas',
+          'Chikungunya: febre alta de 2 a 3 dias, manchas vermelhas entre o 2º e o 5º dia em cerca de 50% dos casos, dor muscular menos frequente e dor articular intensa e incapacitante',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Tratamento e cuidados',
+        paragraphs: [
+          'Não existe antiviral específico contra o vírus Zika. O tratamento alivia os sintomas e inclui repouso, ingestão de líquidos e medicamentos para a dor e a febre.',
+          'Para dor e febre, podem ser usados paracetamol ou dipirona, conforme a orientação do profissional de saúde. Não use ácido acetilsalicílico (aspirina) e evite anti-inflamatórios por conta própria, porque aumentam o risco de sangramento enquanto a dengue não é descartada. Quando há coceira intensa, anti-histamínicos podem ser indicados por um profissional de saúde.',
+          'Gestantes com suspeita de zika devem seguir as orientações do pré-natal e ser acompanhadas de perto, com avaliação do bebê quando necessário.',
+        ],
+      },
+      {
         id: 'prevencao',
         heading: 'Como prevenir?',
         paragraphs: [
-          'A prevenção combina o controle do mosquito com cuidados específicos para quem pode engravidar e para gestantes.',
+          'Não há vacina disponível contra a zika. Por isso, a prevenção se baseia em impedir a reprodução do mosquito, evitar suas picadas e prevenir a transmissão por via sexual.',
+          'O repelente é considerado seguro na gravidez quando usado conforme as instruções do fabricante. Em crianças menores de 2 anos, ele só deve ser usado com orientação médica. Gestantes devem redobrar os cuidados nos horários de maior atividade do mosquito, como o amanhecer e o fim da tarde. Para prevenir a transmissão por via sexual, o uso de preservativo é recomendado, especialmente durante a gravidez, e a gestante deve manter relações protegidas ao longo de toda a gestação quando houver suspeita ou confirmação de zika no parceiro.',
         ],
         bullets: [
-          'Eliminar água parada em vasos, calhas, pneus e recipientes guardados',
-          'Manter caixas d’água e tonéis tampados',
-          'Usar repelente e roupas que cubram braços e pernas',
-          'Instalar telas em janelas e portas',
-          'Usar preservativo nas relações sexuais, sobretudo se houver risco de gestação',
-          'Gestantes devem conversar com o serviço de saúde antes de viajar para áreas com transmissão',
+          'Tampar caixas d’água, tonéis e quaisquer reservatórios',
+          'Não deixar água acumulada em vasos, calhas e ralos',
+          'Colocar areia nos pratos das plantas',
+          'Guardar garrafas e pneus virados para baixo ou em local coberto',
+          'Manter o lixo fechado e descartar resíduos corretamente',
+          'Usar repelente à base de DEET, IR3535 ou icaridina nas áreas expostas do corpo, seguindo as orientações do fabricante',
+          'Vestir calças e camisas de manga comprida',
+          'Instalar telas em portas e janelas e usar mosquiteiro, sobretudo para gestantes, crianças pequenas e pessoas que dormem durante o dia',
         ],
         cta: {
           label: 'Leia também: como se proteger do zika em áreas com transmissão',
           href: '/artigos/zika-como-se-proteger-em-areas-com-transmissao/',
         },
       },
-      {
-        id: 'tratamento',
-        heading: 'Tratamento e cuidados',
-        paragraphs: [
-          'Não existe antiviral específico nem vacina disponível contra o zika. O cuidado é sintomático: repouso, hidratação e alívio da dor e da febre, com orientação profissional.',
-          'Como a dengue pode se parecer com o zika, medicamentos à base de ácido acetilsalicílico e anti-inflamatórios não esteroides devem ser evitados até que a dengue seja descartada.',
-        ],
-      },
-      {
-        id: 'sinais-de-alerta',
-        heading: 'Quando procurar atendimento',
-        paragraphs: [
-          'Procure atendimento em caso de dor abdominal intensa, vômitos persistentes, sangramento, sonolência ou diminuição da urina, sinais que também aparecem em outras arboviroses e exigem avaliação.',
-          'Gestantes com manchas na pele, febre ou olhos vermelhos devem procurar o serviço de saúde imediatamente, mesmo que os sintomas sejam leves.',
-        ],
-      },
     ],
     faq: [
       {
         question: 'Zika é perigoso para todo mundo?',
         answer:
-          'Para a maior parte das pessoas a infecção é leve e passa sozinha. O risco maior é a infecção durante a gestação, pelo efeito no desenvolvimento do bebê.',
+          'Para a maior parte das pessoas a infecção é leve e passa sozinha, e muitas nem apresentam sintomas. O risco maior é a infecção durante a gestação, pelo efeito no desenvolvimento do bebê.',
       },
       {
         question: 'Existe vacina contra zika?',
         answer:
-          'Não há vacina disponível até o momento. A prevenção depende de evitar a picada do mosquito e, no caso de gestantes, de cuidados adicionais.',
+          'Ainda não. Nenhuma vacina está disponível para a população, e a prevenção depende do controle do mosquito, da proteção contra picadas e do uso de preservativo nas relações sexuais.',
       },
       {
         question: 'Zika pode ser transmitido pelo beijo ou pelo abraço?',
         answer:
-          'Não. A transmissão conhecida é pela picada do mosquito, por via sexual, por transfusão e da gestante para o feto. Contato social não transmite o vírus.',
+          'Não pelo contato do dia a dia, como abraço, beijo ou uso de objetos compartilhados. A transmissão conhecida é pela picada do mosquito, por via sexual, por transfusão e da gestante para o feto.',
+      },
+      {
+        question: 'Zika na gravidez sempre causa microcefalia?',
+        answer:
+          'Não. A maioria das gestantes infectadas não transmite o vírus ao feto, e a malformação não ocorre em todos os casos de transmissão. O risco é maior quando a infecção acontece no primeiro trimestre da gestação.',
+      },
+      {
+        question: 'Como uma gestante pode se proteger?',
+        answer:
+          'Usando repelente autorizado e adequado para a gravidez, vestindo roupas que cubram o corpo, instalando telas e mosquiteiro, evitando os horários de maior atividade do mosquito e mantendo o pré-natal em dia. As relações sexuais também devem ser protegidas durante a gestação.',
+      },
+      {
+        question: 'A zika deixa sequelas?',
+        answer:
+          'Na maioria das pessoas, não. As complicações neurológicas, como a síndrome de Guillain-Barré, são raras, mas exigem atendimento médico imediato quando surgem.',
       },
     ],
     relatedArticleSlugs: [
