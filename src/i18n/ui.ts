@@ -108,6 +108,15 @@ const pt = {
     relatedArticles: 'Artigos relacionados',
     disclaimer:
       'Este conteúdo é informativo e não substitui uma consulta médica, um exame físico nem a orientação individual de um profissional de saúde. Em caso de sintomas ou dúvidas, procure uma unidade de saúde.',
+    /** The label of the link that follows `disclaimer` wherever it appears. */
+    disclaimerLink: 'Ler o aviso médico completo',
+    /**
+     * Shown inside a disease page's treatment section. The wording is about
+     * what the reader must not do, because that is the part of the page where
+     * acting on the text without a prescription causes harm.
+     */
+    medicationWarning:
+      'Não comece, não suspenda e não altere a dose de nenhum medicamento por conta própria. Só um profissional de saúde pode indicar o tratamento adequado ao seu caso.',
   },
 
   search: {
@@ -118,6 +127,12 @@ const pt = {
     title: 'Resultados da busca',
     description:
       'Busque por doenças, sintomas, artigos e temas de saúde no Saudewiki. Resultados com conteúdo em português e fontes oficiais.',
+    /**
+     * The search page is the one place where a reader types a symptom rather
+     * than a disease name, so the shared disclaimer is preceded by a sentence
+     * that answers the expectation a symptom query creates.
+     */
+    disclaimerLead: 'Uma busca por sintomas não é um diagnóstico.',
     idle: 'Digite um termo para buscar por doenças, sintomas, artigos e temas.',
     resultOne: '1 resultado para “{q}”',
     resultMany: '{n} resultados para “{q}”',
@@ -399,6 +414,9 @@ const zh: UI = {
     relatedArticles: '相關文章',
     disclaimer:
       '本站內容僅供健康資訊參考，不能取代醫師的問診、身體檢查與個人化建議。如有症狀或疑慮，請至醫療院所就醫。',
+    disclaimerLink: '閱讀完整的醫療免責聲明',
+    medicationWarning:
+      '請勿自行開始、停用或調整任何藥物的劑量。只有醫療專業人員能針對您的狀況決定合適的治療方式。',
   },
 
   search: {
@@ -408,6 +426,7 @@ const zh: UI = {
     popular: ['登革熱', '糖尿病', '高血壓', '預防接種', '女性健康'],
     title: '搜尋結果',
     description: '在 Saudewiki 搜尋疾病、症狀、文章與健康主題，結果均附官方來源。',
+    disclaimerLead: '搜尋症狀不等於診斷。',
     idle: '輸入文字即可查詢疾病、症狀、文章與主題。',
     resultOne: '「{q}」找到 1 筆結果',
     resultMany: '「{q}」找到 {n} 筆結果',

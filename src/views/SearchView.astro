@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SearchBox from '../components/SearchBox.astro';
+import MedicalDisclaimer from '../components/MedicalDisclaimer.astro';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
 import { contentFor, popularSearches } from '../lib/content';
@@ -43,6 +44,10 @@ const searchCopyJson = JSON.stringify({
 <BaseLayout lang={lang} title={`${t.search.title} | ${SITE.name}`} description={t.search.description} robots="noindex, follow">
   <div class="mx-auto max-w-3xl px-5 py-14">
     <h1 class="display text-[2.2rem] sm:text-[2.8rem]">{t.search.title}</h1>
+
+    <div class="mt-6 max-w-2xl">
+      <MedicalDisclaimer lang={lang} lead={t.search.disclaimerLead} />
+    </div>
 
     <div class="mt-8">
       <SearchBox lang={lang} variant="compact" />

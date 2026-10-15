@@ -584,6 +584,257 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
     ],
   },
 
+  'dpoc-sinais-de-alerta-quando-procurar-atendimento': {
+    title: '慢性阻塞性肺病：警示徵兆與何時就醫',
+    metaTitle: '慢性阻塞性肺病：警示徵兆',
+    excerpt:
+      '呼吸困難快速加劇、痰液變深或發燒，可能代表慢性阻塞性肺病急性惡化。了解哪些是警示徵兆，哪些屬於急症。',
+    body: [
+      {
+        id: 'o-que-e-uma-crise',
+        heading: '什麼是急性惡化',
+        paragraphs: [
+          '慢性阻塞性肺病的急性惡化，是指症狀突然加重、持續兩天以上且無法自行緩解。呼吸困難加劇，痰液變多或顏色變深，也可能出現發燒。',
+          '多數情況由呼吸道感染引發。暴露於煙霧與粉塵、空氣污染，以及中斷治療，也都可能誘發一次發作。',
+        ],
+      },
+      {
+        id: 'sinais-de-piora',
+        heading: '病情惡化的徵兆',
+        paragraphs: ['以下徵兆代表病情已失去控制，值得進一步評估：'],
+        bullets: [
+          '從事以往輕而易舉的活動時，呼吸困難加重',
+          '需要更頻繁使用緩解型藥物',
+          '痰液顏色變深、變得更黏稠或量變多',
+          '發燒、咳嗽與喘鳴比平時更嚴重',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: '何時就醫',
+        paragraphs: [
+          '若惡化持續兩天以上，請到平時追蹤此病的醫療院所或急診就醫。及早評估可避免發作加重。',
+          '急性惡化越早治療，住院風險越低。治療通常包括加強支氣管擴張劑，必要時加上類固醇與抗生素。',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: '何時屬於急症',
+        paragraphs: ['若出現以下情況，請立即前往急診或撥打 SAMU 192：'],
+        bullets: [
+          '難以完整說出一句話',
+          '呼吸時明顯看見頸部與肋骨的肌肉在用力',
+          '嘴唇或指尖呈現青紫色',
+          '惡化期間嗜睡或意識混亂',
+          '使用緩解型藥物後沒有改善',
+          '儘管依循常規治療，病情仍持續加重',
+        ],
+        ctaLabel: '慢性阻塞性肺病頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
+        label: '慢性阻塞性肺病（COPD）：事實摘要',
+        publisher: '世界衛生組織',
+      },
+      {
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/20220912_PCDT_Resumido_DPOC_final.pdf/@@download/file',
+        label: '慢性阻塞性肺病臨床診療指引（PCDT）',
+        publisher: '巴西衛生部',
+      },
+    ],
+  },
+
+  'dpoc-como-e-diagnosticada': {
+    title: '慢性阻塞性肺病：如何診斷',
+    excerpt:
+      '肺功能檢查（肺量計）是確診慢性阻塞性肺病的關鍵。了解診斷如何進行、這項檢查測量什麼，以及為何重要。',
+    body: [
+      {
+        id: 'como-e-confirmado',
+        heading: '如何確認診斷',
+        paragraphs: [
+          '慢性阻塞性肺病的診斷不能只靠症狀，而是綜合臨床病史、身體檢查，以及一項稱為肺功能檢查（肺量計）的檢查來判斷。',
+          '肺功能檢查是確診的必要條件，也是區分慢性阻塞性肺病與氣喘及其他狀況的關鍵。',
+        ],
+      },
+      {
+        id: 'espirometria',
+        heading: '肺功能檢查',
+        paragraphs: [
+          '檢查時，受檢者先深吸一口氣，再用力對儀器吹氣。測量會在使用支氣管擴張劑前後各進行一次。',
+          '在慢性阻塞性肺病中，使用支氣管擴張劑後，第一秒用力呼氣量（FEV1）與用力肺活量（FVC）的比值仍低於 0.70。這代表阻塞無法完全回復，也有助於排除氣喘——氣喘的改善通常較明顯。',
+        ],
+      },
+      {
+        id: 'outros-exames',
+        heading: '其他有幫助的檢查',
+        paragraphs: ['除了肺功能檢查，也可能安排其他檢查來評估嚴重程度與其他狀況：'],
+        bullets: [
+          '胸部 X 光，用以排除其他疾病',
+          '胸部電腦斷層，當病情懷疑有其他狀況時',
+          '血氧飽和度監測，必要時進行動脈血氣體分析，以評估血液中的氧氣',
+          '運動或行走測試，用於需要評估運動耐受度時',
+        ],
+      },
+      {
+        id: 'quando-suspeitar',
+        heading: '何時該懷疑並就醫評估',
+        paragraphs: ['若有持續的呼吸道症狀並伴隨風險因素，建議就醫評估，例如：'],
+        bullets: [
+          '呼吸困難逐漸出現，並在活動時加重',
+          '咳嗽帶痰持續數週或數月',
+          '有吸菸史，或長期暴露於粉塵與煙霧',
+          '反覆發生呼吸道感染',
+        ],
+        ctaLabel: '慢性阻塞性肺病頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
+        label: '慢性阻塞性肺病（COPD）：事實摘要',
+        publisher: '世界衛生組織',
+      },
+      {
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/20220912_PCDT_Resumido_DPOC_final.pdf/@@download/file',
+        label: '慢性阻塞性肺病臨床診療指引（PCDT）',
+        publisher: '巴西衛生部',
+      },
+    ],
+  },
+
+  'dpoc-tratamento-e-cuidados': {
+    title: '慢性阻塞性肺病：治療與日常照護',
+    excerpt:
+      '慢性阻塞性肺病的治療結合吸入型藥物、肺部復健與日常調整。了解持續照護包含哪些內容。',
+    body: [
+      {
+        id: 'tratamento-continuo',
+        heading: '治療是持續的',
+        paragraphs: [
+          '慢性阻塞性肺病無法治癒，但有治療方法。目標是緩解症狀、改善呼吸、減少發作，並維持生活品質。',
+          '治療結合藥物、肺部復健與生活型態調整，並會隨時間依個人症狀與發作情況調整。',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: '吸入型藥物',
+        paragraphs: [
+          '治療的基礎是吸入型支氣管擴張劑。在特定情況下，醫療團隊可能加上其他類別，例如吸入型類固醇。',
+          '維持型藥物每天都要使用，即使感覺良好時也不例外。緩解型藥物用於呼吸困難發作，不能取代維持型治療。',
+        ],
+      },
+      {
+        id: 'tecnica-do-inalador',
+        heading: '吸入劑的使用技巧',
+        paragraphs: ['正確使用吸入劑至關重要：技巧錯誤會讓藥物無法進入肺部。'],
+        bullets: [
+          '回診時帶著吸入劑，以便重新確認使用技巧',
+          '依照裝置指示的時間間隔與吸入次數操作',
+          '若有指示，使用輔助器（spacer）幫助藥物進入肺部',
+          '使用含類固醇的吸入劑後漱口',
+        ],
+      },
+      {
+        id: 'reabilitacao-e-oxigenio',
+        heading: '肺部復健與氧氣',
+        paragraphs: [
+          '肺部復健包含運動、健康教育，以及協助與呼吸困難共處的支持，能改善運動耐受度與生活品質。',
+          '血氧偏低的人可能需要在家使用氧氣治療，每天至少使用 15 小時。是否有需要，會依檢查結果決定。',
+        ],
+      },
+      {
+        id: 'dia-a-dia',
+        heading: '日常照護',
+        paragraphs: ['有些習慣屬於持續照護的一部分：'],
+        bullets: [
+          '依醫療院所的指引按時完成疫苗接種',
+          '在專業人員指導下，從事適合自身狀況的體能活動',
+          '練習呼吸技巧，例如縮唇呼吸',
+          '保持居家通風，遠離煙霧、塵埃與黴菌',
+          '規律回診，且在沒有症狀的期間也不要中斷治療',
+        ],
+        ctaLabel: '慢性阻塞性肺病頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/20220912_PCDT_Resumido_DPOC_final.pdf/@@download/file',
+        label: '慢性阻塞性肺病臨床診療指引（PCDT）',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tabagismo',
+        label: '吸菸：相關說明與戒菸治療',
+        publisher: '巴西衛生部',
+      },
+    ],
+  },
+
+  'dpoc-como-prevenir-crises-e-o-papel-das-vacinas': {
+    title: '慢性阻塞性肺病：如何預防發作與疫苗的角色',
+    metaTitle: '慢性阻塞性肺病：如何預防發作',
+    excerpt:
+      '按時接種疫苗、遠離煙霧並持續治療，有助於減少慢性阻塞性肺病的發作。了解自己能做些什麼。',
+    body: [
+      {
+        id: 'vacinas',
+        heading: '有幫助的疫苗',
+        paragraphs: [
+          '慢性阻塞性肺病患者屬於流感疫苗的優先接種族群，疫苗每年提供。感染流感病毒會增加發作與併發症的風險。',
+          '另有其他建議接種的疫苗，例如肺炎鏈球菌與 COVID-19 疫苗。實際的接種時程由醫療團隊依個人情況說明。',
+        ],
+        bullets: [
+          '流感疫苗：每年接種一次，依全國接種計畫辦理',
+          'COVID-19 疫苗：依當地指引接種',
+          '肺炎鏈球菌疫苗：建議呼吸道慢性疾病患者接種',
+        ],
+      },
+      {
+        id: 'evitar-gatilhos',
+        heading: '避免誘發因素',
+        paragraphs: ['許多發作是由感染與可避免的刺激物所引起：'],
+        bullets: [
+          '不要吸菸，並避免在家中與工作場所接觸菸霧',
+          '避免在密閉空間接觸柴火、木炭及其他物料燃燒的煙霧',
+          '減少暴露於粉塵、黴菌與刺激性清潔用品',
+          '勤洗手，並避免接觸感冒的人',
+        ],
+      },
+      {
+        id: 'tratamento-em-dia',
+        heading: '持續治療不中斷',
+        paragraphs: [
+          '即使沒有症狀，每天持續治療，也是預防發作最有效的方式之一。',
+          '回診的目的在於調整藥物、重新確認吸入劑技巧，並檢查疫苗接種。',
+        ],
+      },
+      {
+        id: 'quando-revisar',
+        heading: '何時該回診重新評估',
+        paragraphs: [
+          '若發作變得更頻繁，或呼吸困難加劇，請就醫重新評估治療。',
+          '新出現或持續存在的症狀，不應只歸因於慢性阻塞性肺病：其他狀況也可能需要進一步檢查。',
+        ],
+        ctaLabel: '慢性阻塞性肺病頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/vacinacao',
+        label: '國家疫苗接種行事曆',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
+        label: '慢性阻塞性肺病（COPD）：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+
   'infarto-quais-sao-os-sinais-e-o-que-fazer': {
     title: '心肌梗塞：有哪些訊號以及該怎麼做',
     excerpt:

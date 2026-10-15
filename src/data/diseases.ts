@@ -2259,7 +2259,7 @@ export const diseases: Disease[] = [
     name: 'DPOC',
     aliases: ['DPOC', 'bronquite crônica', 'enfisema', 'doença pulmonar obstrutiva crônica'],
     summary:
-      'Doença pulmonar obstrutiva crônica: limitação progressiva do fluxo de ar, ligada sobretudo ao tabagismo.',
+      'Doença pulmonar obstrutiva crônica: limitação progressiva do fluxo de ar, ligada sobretudo ao tabagismo. Tem tratamento e dá para viver melhor com ela.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     sections: [
@@ -2268,7 +2268,7 @@ export const diseases: Disease[] = [
         heading: 'O que é DPOC?',
         paragraphs: [
           'A DPOC, sigla de doença pulmonar obstrutiva crônica, é uma doença crônica que obstrui a passagem do ar nos pulmões e reúne o enfisema e a bronquite crônica.',
-          'A obstrução é progressiva e está ligada sobretudo ao tabagismo. Costuma se manifestar depois de anos de exposição à fumaça do cigarro e a outros poluentes.',
+          'A obstrução é progressiva e está ligada sobretudo ao tabagismo, mas não só a ele: a poeira e a fumaça do trabalho e de casa também pesam. É a terceira causa de morte no mundo, segundo a Organização Mundial da Saúde, e costuma se manifestar depois dos 40 anos.',
         ],
       },
       {
@@ -2284,6 +2284,21 @@ export const diseases: Disease[] = [
           'Tosse, muitas vezes com catarro',
           'Piora dos sintomas à noite ou no início da manhã',
           'Cansaço para atividades que antes eram fáceis',
+          'Perda de peso e de apetite nas fases mais avançadas',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que aumenta o risco?',
+        paragraphs: [
+          'O cigarro é o principal fator de risco, e o risco cresce com a quantidade e o tempo de exposição. A fumaça de segunda mão e a fumaça de lenha ou carvão em ambientes fechados também adoecem.',
+          'Outros fatores pesam: a poeira e os vapores químicos no trabalho, a poluição do ar, as infecções respiratórias na infância, a asma e a deficiência de alfa-1 antitripsina, uma condição genética rara.',
+        ],
+        bullets: [
+          'Fumar, em qualquer quantidade, e conviver com quem fuma',
+          'Trabalhar exposto a poeira, sílica, cimento ou vapores químicos sem proteção',
+          'Cozinhar ou aquecer a casa com lenha ou carvão em ambiente sem ventilação',
+          'Ter história familiar, asma de difícil controle ou infecções respiratórias repetidas na infância',
         ],
       },
       {
@@ -2298,29 +2313,75 @@ export const diseases: Disease[] = [
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
           'O diagnóstico começa pela história clínica e pelo exame físico, e é confirmado pela espirometria, um exame que mede como o ar entra e sai dos pulmões. Na DPOC, a obstrução não melhora de forma significativa depois do broncodilatador, o que ajuda a diferenciá-la da asma.',
-        ],
-      },
-      {
-        id: 'prevencao',
-        heading: 'Como reduzir crises e progressão',
-        bullets: [
-          'Não fumar e evitar a exposição à fumaça do tabaco, inclusive passiva',
-          'Evitar contato com poeira, fumaça e outros poluentes',
-          'Manter as vacinas em dia, sobretudo contra a gripe e as infecções respiratórias',
-          'Seguir o tratamento todos os dias, mesmo nos períodos sem sintomas',
-          'Controlar peso e manter atividade física, com orientação profissional',
+          'O critério adotado pelas diretrizes é a relação entre o volume expirado no primeiro segundo (VEF1) e a capacidade vital forçada (CVF) abaixo de 0,70 depois do broncodilatador. A gravidade é classificada a partir do VEF1.',
         ],
         cta: {
-          label: 'Leia também: por que parar de fumar muda o quadro na DPOC',
-          href: '/artigos/dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro/',
+          label: 'Leia também: como a DPOC é diagnosticada',
+          href: '/artigos/dpoc-como-e-diagnosticada/',
         },
+      },
+      {
+        id: 'exacerbacao',
+        heading: 'O que é uma exacerbação?',
+        paragraphs: [
+          'A exacerbação, ou crise, é uma piora súbita dos sintomas que dura dois dias ou mais e não melhora sozinha. A falta de ar aumenta, o catarro fica mais abundante ou mais escuro e pode aparecer febre.',
+          'Na maioria das vezes uma infecção respiratória dispara a crise. O tratamento costuma incluir reforço dos broncodilatadores e, quando indicado, corticoide e antibiótico. Crise grave exige atendimento de emergência.',
+        ],
       },
       {
         id: 'tratamento',
         heading: 'Tratamento e cuidados',
         paragraphs: [
-          'O tratamento da DPOC inclui broncodilatadores, reabilitação pulmonar e, principalmente, parar de fumar, a medida que mais muda a evolução da doença.',
-          'Usar o inalador do jeito certo é parte do tratamento: a técnica errada faz o medicamento não chegar aos pulmões.',
+          'O tratamento da DPOC inclui broncodilatadores inalatórios, reabilitação pulmonar e, principalmente, parar de fumar, a medida que mais muda a evolução da doença.',
+          'Usar o inalador do jeito certo é parte do tratamento: a técnica errada faz o medicamento não chegar aos pulmões. Em quem tem baixa de oxigênio no sangue, pode ser indicada a oxigenoterapia em casa, usada por pelo menos 15 horas por dia.',
+        ],
+        cta: {
+          label: 'Leia também: tratamento e cuidados na DPOC',
+          href: '/artigos/dpoc-tratamento-e-cuidados/',
+        },
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como reduzir crises e a progressão',
+        bullets: [
+          'Não fumar e evitar a exposição à fumaça do tabaco, inclusive passiva',
+          'Evitar contato com poeira, fumaça e outros poluentes',
+          'Manter as vacinas em dia, sobretudo contra a gripe, contra a covid-19 e contra o pneumococo',
+          'Seguir o tratamento todos os dias, mesmo nos períodos sem sintomas',
+          'Controlar peso e manter atividade física, com orientação profissional',
+          'Revisar a técnica do inalador nas consultas de acompanhamento',
+        ],
+        cta: {
+          label: 'Leia também: o que ajuda a prevenir as crises',
+          href: '/artigos/dpoc-como-prevenir-crises-e-o-papel-das-vacinas/',
+        },
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Complicações e outras condições',
+        paragraphs: [
+          'A DPOC costuma vir acompanhada de outras condições, que se influenciam entre si e merecem acompanhamento na mesma rotina de consultas.',
+        ],
+        bullets: [
+          'Doenças cardiovasculares, como insuficiência cardíaca e arritmias',
+          'Osteoporose, sobretudo em quem usa corticoide com frequência',
+          'Ansiedade e depressão',
+          'Perda de peso e de massa muscular',
+          'Apneia do sono e, em quem fumou por muitos anos, maior risco de câncer de pulmão',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Vida diária com DPOC',
+        paragraphs: [
+          'Com tratamento e acompanhamento, a maioria das pessoas consegue manter uma rotina ativa. Alguns ajustes ajudam a viver melhor com a doença.',
+        ],
+        bullets: [
+          'Manter alimentação equilibrada e peso saudável, porque os músculos da respiração também dependem de nutrição adequada',
+          'Praticar atividade física adaptada à condição, com orientação profissional',
+          'Treinar a respiração, como a respiração com os lábios franzidos e a respiração diafragmática',
+          'Deixar a casa ventilada e livre de fumaça, poeira e mofo',
+          'Manter consultas regulares e revisar os medicamentos com a equipe de saúde',
         ],
       },
       {
@@ -2337,6 +2398,10 @@ export const diseases: Disease[] = [
           'Falta de resposta ao medicamento de alívio',
           'Piora progressiva apesar do tratamento habitual',
         ],
+        cta: {
+          label: 'Leia também: sinais de alerta na DPOC',
+          href: '/artigos/dpoc-sinais-de-alerta-quando-procurar-atendimento/',
+        },
       },
     ],
     faq: [
@@ -2345,22 +2410,53 @@ export const diseases: Disease[] = [
         answer:
           'Sim. É a medida que mais altera a evolução da doença: reduz a velocidade da perda de função pulmonar e melhora os sintomas.',
       },
+      {
+        question: 'DPOC tem cura?',
+        answer:
+          'Não existe cura que devolva a função pulmonar perdida, mas o tratamento controla os sintomas, reduz as crises e permite manter uma vida ativa.',
+      },
+      {
+        question: 'Quem tem DPOC precisa tomar vacinas?',
+        answer:
+          'Sim. A vacina contra a gripe é recomendada todos os anos, e há outras indicadas, como a do pneumococo e a da covid-19. A equipe de saúde orienta quais são as suas.',
+      },
     ],
-    relatedArticleSlugs: ['dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro'],
+    relatedArticleSlugs: [
+      'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
+      'dpoc-sinais-de-alerta-quando-procurar-atendimento',
+      'dpoc-como-e-diagnosticada',
+      'dpoc-tratamento-e-cuidados',
+      'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedDiseaseSlugs: ['asma', 'hipertensao'],
     references: [
       {
-        label: 'Chronic obstructive pulmonary disease (COPD): fact sheet',
+        label: 'Doença pulmonar obstrutiva crônica (DPOC): folha informativa',
         url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
         publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Tabagismo: orientações e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tabagismo',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas da DPOC',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/20220912_PCDT_Resumido_DPOC_final.pdf/@@download/file',
+        publisher: 'Ministério da Saúde (Brasil)',
       },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-15',
     isPlaceholder: true,
   },
   {
