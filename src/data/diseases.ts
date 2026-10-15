@@ -1858,16 +1858,40 @@ export const diseases: Disease[] = [
         id: 'o-que-e',
         heading: 'O que são hepatites virais?',
         paragraphs: [
-          'Hepatite é a inflamação do fígado. Quando a causa é um vírus, ela é chamada de hepatite viral. As mais frequentes são as hepatites A, B, C, D e E.',
-          'Elas não são a mesma doença com nomes diferentes: os vírus são distintos, as formas de transmissão mudam e as consequências também. As hepatites B e C são as que mais preocupam pela chance de se tornarem crônicas.',
+          'As hepatites virais são inflamações do fígado provocadas por vírus. Existem cinco tipos principais, identificados pelas letras A, B, C, D e E. Cada um tem uma forma diferente de transmissão, um tempo próprio até os primeiros sintomas e uma evolução distinta: alguns provocam infecções que passam sozinhas, outros se tornam crônicos e podem, com os anos, levar à cirrose ou ao câncer de fígado.',
+          'O fígado é o órgão que processa os nutrientes, filtra substâncias tóxicas e produz a bile. Quando um vírus da hepatite ataca esse órgão, as células ficam inflamadas e passam a funcionar pior. Não são a mesma doença com nomes diferentes: os vírus são distintos, as formas de transmissão mudam e as consequências também.',
+          'Vírus diferentes causam doenças diferentes. As hepatites A e E chegam pelo que a pessoa come e bebe. As hepatites B, C e D entram pelo sangue e pelas relações sexuais. A hepatite D é um caso à parte: ela só se desenvolve em quem já tem o vírus da hepatite B. No Brasil, os tipos mais comuns são A, B e C; o vírus D aparece com mais frequência na região Norte do país, e o vírus E é menos frequente por aqui.',
+        ],
+      },
+      {
+        id: 'tipos-de-hepatites',
+        heading: 'Visão geral das cinco hepatites',
+        paragraphs: [
+          'Grande parte das pessoas infectadas não apresenta sintomas. Quando eles aparecem, costumam ser inespecíficos, como cansaço, mal-estar, enjoo e dor abdominal, e podem ser confundidos com uma gripe ou um problema digestivo. As cinco hepatites, no entanto, se comportam de formas bem diferentes:',
+        ],
+        bullets: [
+          'Hepatite A: transmitida por água e alimentos contaminados, pela via fecal-oral; não costuma se tornar crônica; existe vacina; o tratamento é de suporte, sem antiviral específico',
+          'Hepatite B: transmitida por sangue, relações sexuais e da mãe para o filho; torna-se crônica com frequência; existe vacina; há medicamentos que controlam a infecção',
+          'Hepatite C: transmitida por sangue e material contaminado; torna-se crônica com frequência; não existe vacina; há antivirais que curam mais de 95% dos casos',
+          'Hepatite D: mesmas vias da hepatite B, que precisa estar presente; torna-se crônica; a vacina da hepatite B também protege; o tratamento é feito com alfapeginterferona, em serviço especializado',
+          'Hepatite E: transmitida por água e alimentos contaminados, pela via fecal-oral; raramente se torna crônica, sobretudo em pessoas imunodeprimidas; não existe vacina; o tratamento é de suporte',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como cada hepatite é transmitida?',
+        paragraphs: [
+          'As formas de transmissão se dividem em dois grupos, e essa diferença define as medidas de prevenção. Nas hepatites A e E, os vírus saem pelas fezes de uma pessoa infectada e chegam a outra pela boca, o que se chama transmissão fecal-oral. Isso acontece quando falta saneamento básico ou quando a higiene é insuficiente: água ou alimentos contaminados por esgoto, mãos sujas no preparo da comida. A transmissão também ocorre entre pessoas próximas, como quem mora na mesma casa, crianças em creches e pessoas que vivem em instituições de longa permanência. O vírus A ainda pode circular em práticas sexuais que envolvem contato com fezes, e a hepatite E pode vir de carne mal cozida de animais infectados, de transfusão de sangue contaminado e da mãe para o filho.',
+          'Nas hepatites B, C e D, os vírus passam pelo contato com sangue contaminado e, no caso da B e da D, também por via sexual. As situações mais comuns são compartilhar agulhas, seringas, cachimbos e outros equipamentos para uso de drogas, dividir objetos de uso pessoal como lâminas de barbear, escovas de dente e alicates de unha, fazer tatuagem ou colocar piercing sem as normas de higiene, e realizar procedimentos odontológicos, cirúrgicos ou de hemodiálise sem os devidos cuidados de biossegurança. As hepatites B e C também podem passar da mãe para o filho na gestação ou no parto.',
+          'A hepatite C não passa pelo leite materno, pela comida, pela água nem pelo contato do dia a dia, como abraçar, beijar ou compartilhar alimentos e bebidas com uma pessoa infectada. Já a hepatite D não tem transmissão própria: para se replicar, o vírus D depende do vírus B. Por isso, quem se protege da hepatite B se protege também da D.',
         ],
       },
       {
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
         paragraphs: [
-          'A maioria das hepatites virais é silenciosa, sobretudo no início. Muitas pessoas só descobrem a infecção em exames de rotina ou quando o fígado já está comprometido.',
-          'Quando há sintomas, eles costumam ser inespecíficos:',
+          'Na maioria dos casos, as hepatites virais não provocam sintomas. A pessoa pode viver anos com o vírus sem saber, e a doença acaba descoberta décadas depois, em um exame de rotina ou na doação de sangue.',
+          'Quando aparecem, os sintomas são parecidos entre os tipos e pouco específicos: cansaço, febre, mal-estar, tontura, enjoo, vômitos, dor abdominal, pele e olhos amarelados (icterícia), urina escura e fezes claras. O tempo até os primeiros sintomas varia conforme o vírus: na hepatite A, aparecem de 15 a 50 dias após a infecção e duram menos de dois meses; na hepatite C, cerca de 80% das pessoas não têm sintomas, e entre as que têm, o intervalo pode ser de 2 a 12 semanas; a hepatite E costuma provocar uma infecção aguda que se resolve sozinha em 2 a 6 semanas. A idade também influencia: a hepatite A é pouco sintomática em crianças menores de 6 anos e mais grave em adultos, sobretudo acima de 50 anos.',
         ],
         bullets: [
           'Cansaço e mal-estar',
@@ -1882,46 +1906,62 @@ export const diseases: Disease[] = [
         },
       },
       {
-        id: 'transmissao',
-        heading: 'Como cada hepatite é transmitida?',
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento',
         paragraphs: [
-          'As formas de transmissão se dividem em dois grupos, e essa diferença define as medidas de prevenção.',
+          'Procure ajuda com urgência se a pele e os olhos ficarem amarelados, se a urina ficar muito escura e as fezes clarearem, se houver confusão ou sonolência, vômitos que não param, sangramento fácil nas gengivas ou no nariz, ou dor abdominal intensa. Esses sinais podem indicar insuficiência hepática aguda, uma situação de risco.',
+          'Também procure o serviço de saúde se houver uma situação de risco recente, como relação sexual desprotegida ou compartilhamento de agulhas, para avaliar a testagem.',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem corre mais risco',
+        paragraphs: [
+          'Algumas situações aumentam a exposição à infecção, e outras aumentam o risco de a doença evoluir de forma grave:',
         ],
         bullets: [
-          'Hepatites A e E: via fecal-oral, por água e alimentos contaminados e por falta de higiene',
-          'Hepatites B, C e D: por sangue e fluidos, em relações sexuais sem preservativo, no compartilhamento de agulhas e objetos cortantes, e da gestante para o bebê',
-          'A hepatite D só ocorre em quem já tem hepatite B',
+          'Compartilhar equipamentos de uso de drogas',
+          'Ter relações sexuais sem preservativo',
+          'Viver em locais sem saneamento básico adequado, o que pesa mais para as hepatites A e E',
+          'Trabalhar com exposição a sangue, como em serviços de saúde',
+          'Estar grávida, principalmente no segundo e no terceiro trimestre, no caso da hepatite E',
+          'Já ter outra doença do fígado',
+          'Viver com HIV ou outra condição que enfraquece a imunidade',
+          'Usar medicamentos que suprimem a imunidade ou ter passado por transplante de órgãos',
+          'Ser adulto acima de 50 anos, no caso da hepatite A',
         ],
       },
       {
         id: 'diagnostico',
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
-          'O diagnóstico é feito por exames de sangue, disponíveis gratuitamente no sistema público de saúde, incluindo testes rápidos para as hepatites B e C.',
-          'Como a infecção costuma ser silenciosa, a testagem é indicada para todas as pessoas adultas pelo menos uma vez na vida, e com mais frequência em quem tem fatores de risco.',
+          'O diagnóstico começa com um exame de sangue. Nas unidades básicas de saúde (UBS), o teste rápido para as hepatites B e C é gratuito e o resultado sai em poucos minutos. Qualquer pessoa pode pedir o teste, mesmo sem sintomas, e a testagem é indicada para todas as pessoas adultas pelo menos uma vez na vida. Toda gestante deve fazer os exames para as hepatites B e C durante o pré-natal, já na primeira consulta. As hepatites virais são doenças de notificação compulsória: todo caso confirmado é registrado pelos serviços de saúde, o que ajuda o país a acompanhar a doença e a planejar as ações de saúde pública.',
+          'Quando o teste de triagem é reagente, o médico pede exames complementares para confirmar a infecção ativa e avaliar o fígado:',
+        ],
+        bullets: [
+          'Hepatite A: anticorpo anti-HAV IgM na triagem, que indica infecção recente, e anti-HAV IgG na confirmação, que mostra infecção passada ou resposta à vacina',
+          'Hepatite B: antígeno HBsAg na triagem e carga viral (HBV-DNA) na confirmação',
+          'Hepatite C: anticorpos anti-HCV na triagem e carga viral (HCV-RNA) na confirmação',
+          'Hepatite D: anticorpos anti-HDV na triagem e carga viral (HDV-RNA) ou exame de tecido do fígado na confirmação',
+          'Hepatite E: anticorpo IgM anti-HEV na triagem e material genético do vírus nas fezes (RT-PCR) na confirmação',
         ],
       },
       {
-        id: 'prevencao',
-        heading: 'Como prevenir?',
-        bullets: [
-          'Vacinar-se contra as hepatites A e B, disponíveis gratuitamente no sistema público de saúde',
-          'Lavar as mãos e cuidar da higiene dos alimentos e da água, contra as hepatites A e E',
-          'Usar preservativo nas relações sexuais',
-          'Não compartilhar agulhas, seringas, lâminas, alicates e outros objetos que cortam ou perfuram',
-          'Fazer o pré-natal completo, que inclui a testagem e medidas para proteger o bebê',
+        id: 'diagnostico-diferencial',
+        heading: 'Outras causas de fígado inflamado',
+        paragraphs: [
+          'Ter um fígado inflamado, por si só, não indica uma hepatite viral. A icterícia e as alterações nas enzimas do fígado também aparecem em outras situações, como leptospirose, malária, febre amarela, efeitos de medicamentos e consumo excessivo de álcool.',
+          'Por isso, o diagnóstico não deve ser feito sozinho, a partir de um único sintoma ou de um resultado isolado: quem interpreta os exames junto com o quadro clínico é o médico.',
         ],
-        cta: {
-          label: 'Leia também: como se proteger das hepatites A e B',
-          href: '/artigos/hepatites-virais-quais-tem-vacina/',
-        },
       },
       {
         id: 'tratamento',
         heading: 'Tratamento e cuidados',
         paragraphs: [
-          'O tratamento depende do tipo. A hepatite A costuma se resolver sozinha, com repouso e hidratação. A hepatite B é controlada com medicamentos, e a hepatite C tem cura com antivirais de ação direta, disponíveis gratuitamente no sistema público de saúde.',
-          'O acompanhamento contínuo é o que evita a evolução para cirrose e câncer de fígado, por isso a detecção precoce muda o desfecho.',
+          'As hepatites A e E não têm tratamento específico. O corpo elimina o vírus sozinho na maioria dos casos. O cuidado consiste em repouso, hidratação e alimentação adequada, com medicamentos para aliviar os sintomas quando necessário. Não se automedique: remédios desnecessários ou tóxicos para o fígado podem piorar o quadro. A internação fica reservada aos casos mais graves, como a insuficiência hepática aguda.',
+          'A hepatite B não tem cura, mas tem tratamento. O SUS oferece medicamentos que controlam a infecção e reduzem o risco de cirrose, câncer de fígado e morte: alfapeginterferona, tenofovir desoproxila (TDF), entecavir e tenofovir alafenamida (TAF).',
+          'A hepatite C tem cura. O tratamento usa os antivirais de ação direta (DAA), que eliminam o vírus em mais de 95% dos casos, geralmente em 12 ou 24 semanas. O SUS fornece esses medicamentos, inclusive para crianças a partir de 3 anos. Nos casos iniciais, o tratamento pode começar na própria unidade básica de saúde.',
+          'A hepatite D é tratada em serviço especializado. O único medicamento disponível é a alfapeginterferona 2a, usada junto com os medicamentos da hepatite B. O objetivo é controlar o dano ao fígado, já que a infecção não tem cura. Quem tem hepatite D não deve consumir bebida alcoólica.',
         ],
         cta: {
           label: 'Leia também: hepatite C tem cura',
@@ -1929,19 +1969,50 @@ export const diseases: Disease[] = [
         },
       },
       {
-        id: 'sinais-de-alerta',
-        heading: 'Quando procurar atendimento',
+        id: 'recuperacao',
+        heading: 'Recuperação, formas crônicas e complicações',
         paragraphs: [
-          'Procure atendimento se houver pele e olhos amarelados, urina muito escura, dor abdominal intensa, vômitos persistentes ou confusão mental.',
-          'Também procure o serviço de saúde se houver qualquer situação de risco recente, como relação sexual desprotegida ou compartilhamento de agulhas, para avaliar a testagem.',
+          'As hepatites A e E costumam se resolver sozinhas e não se tornam crônicas. Já as hepatites B, C e D frequentemente se tornam crônicas, o que significa que o vírus permanece no corpo por mais de seis meses e mantém o fígado inflamado por anos, muitas vezes sem sintomas. A hepatite D é considerada a forma mais grave de hepatite viral, com maior risco de cirrose.',
+          'Quando a infecção crônica avança, o fígado pode desenvolver fibrose e cirrose, o que aumenta o risco de câncer de fígado e pode exigir transplante. Na hepatite C, cerca de 70% dos casos agudos se tornam crônicos, e o risco de cirrose fica entre 15% e 30% em 20 anos.',
+          'Em casos raros, a doença evolui de forma fulminante, com falência rápida do fígado, situação que pode ser fatal. Esse risco é maior em gestantes com hepatite E no segundo ou no terceiro trimestre.',
         ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir?',
+        paragraphs: [
+          'A prevenção combina vacinação, cuidados de higiene e saneamento e medidas de barreira. O preservativo é distribuído gratuitamente na rede pública de saúde; quem não sabe onde retirar pode ligar para o Disque Saúde, no número 136. Além da vacinação, ajudam a reduzir a transmissão:',
+        ],
+        bullets: [
+          'Lavar as mãos depois de usar o banheiro, antes de preparar alimentos e depois de trocar fraldas',
+          'Lavar frutas, verduras e legumes em água corrente; o que for consumido cru deve ficar 15 minutos em solução clorada, feita com 1 litro de água e 10 ml de água sanitária a 2,5%, sem perfume e indicada para uso em alimentos',
+          'Cozinhar bem os alimentos, principalmente carne suína, mariscos, peixes e frutos do mar',
+          'Usar preservativo em todas as relações sexuais',
+          'Não compartilhar agulhas, seringas, cachimbos nem objetos de uso pessoal que possam ter contato com sangue, como lâminas de barbear, escovas de dente e alicates de unha',
+          'Exigir material esterilizado em tatuagens, piercings, procedimentos odontológicos e sessões de manicure',
+          'Manter a higiene e o saneamento em casa, em creches, escolas e restaurantes',
+        ],
+      },
+      {
+        id: 'vacinacao',
+        heading: 'Vacinas contra as hepatites',
+        paragraphs: [
+          'A vacinação é a principal medida de prevenção contra as hepatites A e B. A vacina contra a hepatite B também protege contra a hepatite D, porque o vírus D depende do B para causar infecção.',
+          'A vacina contra a hepatite B está disponível gratuitamente no SUS para todas as pessoas que ainda não foram vacinadas, em qualquer idade. Para crianças, o esquema tem quatro doses: ao nascer e aos 2, 4 e 6 meses de idade, sendo as três últimas aplicadas na vacina pentavalente. Para adolescentes, adultos e pessoas idosas, o esquema completo costuma ter três doses.',
+          'A vacina contra a hepatite A faz parte do calendário infantil, em dose única aos 15 meses de idade, podendo ser aplicada entre 12 meses e 4 anos, 11 meses e 29 dias. Também está disponível nos Centros de Referência para Imunobiológicos Especiais (CRIE) para pessoas com condições específicas, como hepatopatias crônicas, pessoas vivendo com HIV e candidatos a transplante.',
+          'Quando a mãe tem hepatite B, o recém-nascido recebe a vacina e a imunoglobulina anti-hepatite B nas primeiras 24 horas de vida, medida que previne mais de 90% das transmissões da mãe para o bebê.',
+        ],
+        cta: {
+          label: 'Leia também: como se proteger das hepatites A e B',
+          href: '/artigos/hepatites-virais-quais-tem-vacina/',
+        },
       },
     ],
     faq: [
       {
-        question: 'Hepatite C tem cura?',
+        question: 'Hepatite tem cura?',
         answer:
-          'Sim. O tratamento com antivirais de ação direta cura a maioria das pessoas e está disponível gratuitamente no sistema público de saúde.',
+          'A hepatite C tem cura com o tratamento disponível no SUS. A hepatite B não tem cura, mas o tratamento controla a infecção e reduz as complicações. As hepatites A e E costumam se resolver sozinhas.',
       },
       {
         question: 'Existe vacina para todas as hepatites virais?',
@@ -1952,6 +2023,36 @@ export const diseases: Disease[] = [
         question: 'Hepatite B tem cura?',
         answer:
           'Na maior parte dos casos ela se torna uma infecção crônica controlada com medicamentos, e não eliminada. O acompanhamento contínuo evita a progressão para cirrose.',
+      },
+      {
+        question: 'Hepatite é contagiosa? Pega pelo beijo?',
+        answer:
+          'Depende do tipo. As hepatites A e E passam pela água e pelos alimentos contaminados e pelo contato fecal-oral, inclusive em algumas práticas sexuais. As hepatites B, C e D passam pelo sangue e pelas relações sexuais. A hepatite C não passa pelo beijo, pelo abraço nem pelo compartilhamento de alimentos.',
+      },
+      {
+        question: 'Quais são os primeiros sintomas de hepatite?',
+        answer:
+          'Os primeiros sintomas costumam ser cansaço, febre, mal-estar, dores musculares, enjoo e dor abdominal. Muitas pessoas não têm nenhum sintoma, e a pele e os olhos amarelados podem aparecer depois.',
+      },
+      {
+        question: 'Onde faço o teste e quanto custa?',
+        answer:
+          'O teste rápido para as hepatites B e C é gratuito e está disponível nas unidades básicas de saúde do SUS. O resultado sai em poucos minutos, e você pode pedir o teste mesmo sem sintomas.',
+      },
+      {
+        question: 'Quem já teve hepatite A pode ter de novo?',
+        answer:
+          'Não. Quem se recupera da hepatite A desenvolve imunidade duradoura e não contrai a doença novamente. O mesmo vale para quem foi vacinado.',
+      },
+      {
+        question: 'Quem tem hepatite pode doar sangue?',
+        answer:
+          'Quem tem hepatite C não deve doar sangue nem sêmen. Nos bancos de sangue, a triagem também impede a doação de pessoas com as outras formas de hepatite.',
+      },
+      {
+        question: 'Como evitar passar hepatite para o bebê na gravidez?',
+        answer:
+          'Toda gestante faz os exames de hepatite B e C no pré-natal. Se o resultado for reagente, o serviço de saúde indica o acompanhamento e as medidas para proteger o bebê. Quando a mãe tem hepatite B, o recém-nascido recebe a vacina e a imunoglobulina anti-hepatite B nas primeiras 24 horas de vida.',
       },
     ],
     relatedArticleSlugs: ['hepatites-virais-quais-tem-vacina', 'hepatite-c-tem-cura'],
