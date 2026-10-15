@@ -23,10 +23,6 @@ const pt = {
     contactSubject: 'Saudewiki, contato',
     /** Every content entry names this as its author; translated once here. */
     authorTeam: 'Equipe editorial Saudewiki',
-    /** Shown everywhere until a named medical reviewer is actually engaged. */
-    reviewNotice:
-      'O Saudewiki ainda não possui um corpo de revisores médicos formalizado. Todo o conteúdo abaixo está marcado como material de demonstração e não substitui avaliação profissional.',
-    copyright: 'Conteúdo em revisão editorial contínua.',
     legal: 'As informações deste site têm caráter educativo e não substituem a avaliação de um profissional de saúde. Em caso de dúvida ou agravamento de sintomas, procure um serviço de saúde.',
   },
 
@@ -90,7 +86,7 @@ const pt = {
       'Correções de conteúdo médico são bem-vindas e passam por revisão antes de qualquer alteração.',
     placeholderLabel: 'Conteúdo de demonstração',
     placeholderBody:
-      'Este texto foi escrito para validar a estrutura da página e ainda não passou por revisão médica. Ele não deve ser usado para tomar decisões sobre saúde.',
+      'Este texto ainda não passou por revisão médica. Ele não deve ser usado para tomar decisões sobre saúde.',
     placeholderLink: 'Encontrou um erro? Envie uma correção',
     inConstruction: 'Em construção',
     units: {
@@ -108,8 +104,6 @@ const pt = {
     topicInPreparation: 'Tema em preparação',
     relatedTopics: 'Temas relacionados',
     relatedArticles: 'Artigos relacionados',
-    noIndexNote:
-      'Esta página de resultados não é indexada por buscadores. Todo o conteúdo pesquisável tem endereço próprio em Doenças, Artigos e Temas de saúde.',
   },
 
   search: {
@@ -198,7 +192,6 @@ const pt = {
       'Enciclopédia de doenças em português: sintomas, transmissão, diagnóstico, tratamento e prevenção, com fontes públicas oficiais.',
     lead: 'Cada página reúne o que é a doença, quais são os sintomas, como ela é transmitida, como é feito o diagnóstico e o que reduz o risco, sempre com a fonte oficial indicada.',
     listAria: 'Lista de doenças',
-    note: 'A enciclopédia está em construção. Novas doenças são adicionadas conforme passam pela revisão editorial. O conteúdo ainda não revisado não é publicado.',
   },
 
   diseasePage: {
@@ -215,7 +208,6 @@ const pt = {
       'Artigos em português sobre sintomas, prevenção e cuidados com a saúde, ligados às páginas de doenças correspondentes.',
     lead: 'Textos curtos que respondem a dúvidas específicas e levam para a página da doença correspondente, onde o assunto é tratado por completo.',
     listAria: 'Lista de artigos',
-    note: 'Todos os artigos acima estão marcados como material de demonstração e aguardam revisão médica. Textos em rascunho não aparecem nesta lista.',
     browseByTopic: 'Navegar por tema',
   },
 
@@ -237,9 +229,8 @@ const pt = {
   },
 
   topicPage: {
-    emptyTitle: 'Tema em preparação',
     emptyBody:
-      'Ainda não há conteúdo publicado nem revisado nesta seção. Esta página existe para reservar o endereço e não deve ser lida como orientação de saúde.',
+      'Ainda não há textos publicados neste tema. Enquanto isso, procure o assunto nas páginas de doenças e nos artigos de saúde.',
     scope: 'O que este tema cobre',
     diseases: 'Doenças deste tema',
     articles: 'Artigos deste tema',
@@ -252,17 +243,16 @@ const pt = {
     description:
       'Escolha uma parte do corpo e veja as doenças e os artigos que a atingem: cérebro, olhos, pulmões, coração, fígado, rins, pele, articulações e sangue.',
     lead: 'Nem todo mundo procura uma doença pelo nome. Esta é a mesma enciclopédia organizada pelo lugar que dói: a primeira página de cada região reúne as doenças que a atingem e os artigos que tratam daquele problema.',
-    builtCount: '{built} de {total} regiões já têm texto. As demais estão marcadas como em construção.',
+    constructionHint: 'As regiões que ainda não têm textos aparecem marcadas como «Em construção».',
     schemaName: 'Por região do corpo',
     schemaDescription:
       'Índice das partes do corpo cobertas pelo Saudewiki, com as doenças e os artigos de cada uma.',
   },
 
   regionPage: {
-    emptyTitle: 'Região em construção',
     emptyBody:
-      'Ainda não há texto publicado sobre esta parte do corpo. A página existe para reservar o endereço e para que quem procura saiba o que ainda falta.',
-    emptyInvite: 'Estudantes de medicina podem escrever este texto.',
+      'Ainda não há textos publicados sobre esta parte do corpo. Escolha outra região do mapa ou veja a lista completa de doenças.',
+    emptyInvite: 'Não encontrou o que procurava? Diga ao projeto qual assunto falta.',
     talkToProject: 'Falar com o projeto',
     countsHere: '{diseases} e {articles} nesta região.',
     diseasesHere: 'Doenças que atingem {region}',
@@ -270,7 +260,7 @@ const pt = {
     sourcesNote:
       'Cada página de doença indica a fonte oficial que sustenta o texto e o estado editorial dele. Nenhuma parte deste site substitui a avaliação de um profissional de saúde.',
     allRegions: 'Ver todas as regiões do corpo',
-    emptyMeta: '{region} no Saudewiki: as páginas desta região ainda estão em construção.',
+    emptyMeta: '{region} no Saudewiki: ainda não há textos publicados sobre esta parte do corpo.',
     itemListName: 'Doenças que atingem {region}',
   },
 
@@ -305,9 +295,6 @@ const zh: UI = {
     contact: 'contato@saudewiki.com',
     contactSubject: 'Saudewiki 聯絡',
     authorTeam: 'Saudewiki 編輯團隊',
-    reviewNotice:
-      'Saudewiki 目前還沒有正式的醫學審查團隊。以下全部內容都標註為示範素材，不能取代專業評估。',
-    copyright: '內容持續接受編輯修訂。',
     legal:
       '本網站的資訊具教育性質，不能取代醫療專業人員的評估。若有疑問或症狀惡化，請尋求醫療協助。',
   },
@@ -370,7 +357,7 @@ const zh: UI = {
     correctionLead: '歡迎指出內容錯誤。所有更正都會先經過檢視，才會改動正文。',
     placeholderLabel: '示範內容',
     placeholderBody:
-      '這段文字是為了驗證頁面架構而寫，尚未通過醫學審查，不應用來做出健康相關的決定。',
+      '這段文字尚未通過醫學審查，不應用來做出健康相關的決定。',
     placeholderLink: '發現錯誤？送出更正',
     inConstruction: '建置中',
     units: {
@@ -387,7 +374,6 @@ const zh: UI = {
     topicInPreparation: '主題籌備中',
     relatedTopics: '相關主題',
     relatedArticles: '相關文章',
-    noIndexNote: '本搜尋結果頁不會被搜尋引擎索引。所有可查詢的內容都在疾病、文章與健康主題下有各自的網址。',
   },
 
   search: {
@@ -471,7 +457,6 @@ const zh: UI = {
     description: '疾病百科：症狀、傳染、診斷、治療與預防，均以淺白中文撰寫，並附公家機關的公開來源。',
     lead: '每個頁面整理這種疾病是什麼、有哪些症狀、如何傳染、怎樣診斷，以及什麼做法能降低風險，並標註引用的官方來源。',
     listAria: '疾病清單',
-    note: '百科仍在建置中。新的疾病通過編輯檢視後才加入，尚未審查的內容不會發布。',
   },
 
   diseasePage: {
@@ -487,7 +472,6 @@ const zh: UI = {
     description: '說明症狀、預防與健康照顧的文章，每篇都連結到對應的疾病頁面。',
     lead: '簡短的文章回答特定的疑問，並帶讀者到對應的疾病頁面，在那裡可以讀到完整的說明。',
     listAria: '文章清單',
-    note: '以上文章均標註為示範素材，等待醫學審查。草稿狀態的內容不會出現在這份清單裡。',
     browseByTopic: '依主題瀏覽',
   },
 
@@ -508,9 +492,8 @@ const zh: UI = {
   },
 
   topicPage: {
-    emptyTitle: '主題籌備中',
     emptyBody:
-      '這個分區還沒有已發布或已審查的內容。此頁面的存在是為了保留網址，不應被當作健康指引來閱讀。',
+      '這個主題還沒有已發布的內容。您可以先到疾病頁面與健康文章中查找相關的資訊。',
     scope: '本主題涵蓋的內容',
     diseases: '本主題的疾病',
     articles: '本主題的文章',
@@ -522,16 +505,15 @@ const zh: UI = {
     h1: '依身體部位探索',
     description: '選擇一個身體部位，看看哪些疾病與文章與它有關：腦、眼、肺、心臟、肝、腎、皮膚、關節與血液。',
     lead: '不是每個人都用病名找資料。這是同一部百科，改按會不舒服的地方來組織：每個部位的第一頁彙集會波及該處的疾病，以及處理這個問題的文章。',
-    builtCount: '{total} 個部位中已有 {built} 個完成撰寫，其餘標註為建置中。',
+    constructionHint: '還沒有文字的部位會標示為「建置中」。',
     schemaName: '依身體部位',
     schemaDescription: 'Saudewiki 涵蓋的身體部位索引，列出各部位的疾病與文章。',
   },
 
   regionPage: {
-    emptyTitle: '部位建置中',
     emptyBody:
-      '這個身體部位還沒有已發布的文字。頁面存在的目的是保留網址，並讓查找的人知道還缺什麼。',
-    emptyInvite: '醫學生可以撰寫這篇內容。',
+      '這個身體部位還沒有已發布的內容。您可以在地圖上選另一個部位，或查看完整的疾病清單。',
+    emptyInvite: '沒有找到您想看的內容？告訴我們還缺哪個主題。',
     talkToProject: '聯絡項目',
     countsHere: '這個部位共有{diseases}與{articles}。',
     diseasesHere: '會波及{region}的疾病',
@@ -539,7 +521,7 @@ const zh: UI = {
     sourcesNote:
       '每個疾病頁面都會標出支撐內容的官方來源與該文的編輯狀態。本站任何內容都不能取代醫療專業人員的評估。',
     allRegions: '查看所有身體部位',
-    emptyMeta: 'Saudewiki 的{region}頁面：這個部位的內容仍在建置中。',
+    emptyMeta: 'Saudewiki 的{region}頁面：這個部位還沒有已發布的內容。',
     itemListName: '會波及{region}的疾病',
   },
 

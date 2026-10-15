@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SearchBox from '../components/SearchBox.astro';
-import { Icon } from 'astro-icon/components';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
 import { contentFor, popularSearches } from '../lib/content';
@@ -77,11 +76,6 @@ const searchCopyJson = JSON.stringify({
         <a href={c.urls.topics()} class="font-medium text-accent underline underline-offset-2">{t.search.noscriptTopics}</a>{t.search.noscriptTail}
       </p>
     </noscript>
-
-    <p class="mt-12 flex items-start gap-2 text-[0.8rem] leading-relaxed text-ink-muted">
-      <Icon name="tabler:info-circle" class="mt-0.5 h-4 w-4 shrink-0" />
-      <span>{t.common.noIndexNote}</span>
-    </p>
   </div>
 
   <script type="application/json" id="search-index" set:html={searchIndexJson} />

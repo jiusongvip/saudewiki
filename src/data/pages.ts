@@ -42,7 +42,7 @@ export const staticPages: StaticPage[] = [
         id: 'limites-atuais',
         heading: 'Limites atuais, declarados abertamente',
         paragraphs: [
-          'O projeto está em construção. Neste momento, nenhum conteúdo passou por revisão médica formal, e nenhuma página afirma o contrário. Os textos publicados servem para validar a estrutura do site e estão marcados como material de demonstração.',
+          'Nenhum texto do site passou por revisão médica formal, e nenhuma página afirma o contrário. Todo conteúdo publicado é marcado como material de demonstração, para que a informação seja conferida na fonte oficial antes de qualquer decisão sobre saúde.',
           'Quem escreve são estudantes de medicina, de forma voluntária e sem remuneração. Isso não é revisão médica: nenhum texto passou por um corpo formal de revisores, e nenhuma página afirma o contrário. Também não existe, hoje, parceria institucional com faculdades de medicina, sociedades de especialidade ou órgãos oficiais. Quando isso existir, será dito aqui com nome e data.',
         ],
       },
@@ -137,12 +137,8 @@ export const staticPages: StaticPage[] = [
     slug: 'politica-de-privacidade',
     title: 'Política de privacidade',
     description:
-      'Quais dados o Saudewiki coleta, para que servem e como pedir remoção. Documento em construção, alinhado à LGPD.',
+      'Quais dados o Saudewiki coleta, para que servem e como pedir a eliminação deles, nos termos da LGPD.',
     h1: 'Política de privacidade',
-    notice: {
-      title: 'Documento em construção',
-      body: 'Este texto descreve o que o site faz hoje. Ele precisa ser revisto por responsável jurídico antes da publicação definitiva, especialmente se ferramentas de análise, publicidade ou formulários forem adicionados.',
-    },
     sections: [
       {
         id: 'dados-coletados',

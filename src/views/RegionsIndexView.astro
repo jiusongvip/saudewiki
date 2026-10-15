@@ -5,7 +5,7 @@ import BodyMap from '../components/BodyMap.astro';
 import RegionGrid from '../components/RegionGrid.astro';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
-import { fill, localeSpecs } from '../lib/i18n';
+import { localeSpecs } from '../lib/i18n';
 import { contentFor } from '../lib/content';
 import type { Locale } from '../types';
 
@@ -21,8 +21,6 @@ const breadcrumbs = [
   { name: t.common.home, href: c.urls.home() },
   { name: t.nav.regions, href: c.urls.regions() },
 ];
-
-const built = c.regions.filter((region) => c.regionCounts(region).total > 0).length;
 
 const schemaNodes: Record<string, unknown>[] = [
   {
@@ -43,7 +41,7 @@ const schemaNodes: Record<string, unknown>[] = [
     <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">{t.regionsIndex.h1}</h1>
     <p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-ink-muted">{t.regionsIndex.lead}</p>
     <p class="mt-3 max-w-2xl text-[0.85rem] leading-relaxed text-ink-muted">
-      {fill(t.regionsIndex.builtCount, { built, total: c.regions.length })}
+      {t.regionsIndex.constructionHint}
     </p>
 
     <div class="mt-10 grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_340px]">

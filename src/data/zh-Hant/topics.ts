@@ -103,7 +103,7 @@ export const zhTopics: Record<string, LocalizedTopic> = {
   },
   'saude-da-mulher': {
     title: '女性健康',
-    description: '本主題正在籌備中。此區目前尚無已撰寫或已審核的內容，需通過編輯審核後才會發布。',
-    scope: ['內容開發中', '此區尚未發布任何醫療指引'],
+    description: '女性健康：從月經週期、懷孕期到人生各階段來看這個主題。',
+    scope: ['月經週期與生殖健康', '懷孕期、產檢與產後', '更年期與中年健康'],
   },
 };

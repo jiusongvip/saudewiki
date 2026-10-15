@@ -173,10 +173,11 @@ export const topics: Topic[] = [
     slug: 'saude-da-mulher',
     title: 'Saúde da mulher',
     description:
-      'Tema em preparação. Esta seção ainda não tem conteúdo escrito nem revisado, e só será publicada depois de passar pela revisão editorial.',
+      'Saúde das mulheres: o assunto visto pelo ciclo menstrual, pela gestação e pelas diferentes fases da vida.',
     scope: [
-      'Conteúdo em desenvolvimento',
-      'Nenhuma orientação médica foi publicada nesta seção ainda',
+      'Ciclo menstrual e saúde reprodutiva',
+      'Gestação, pré-natal e pós-parto',
+      'Climatério e saúde na meia-idade',
     ],
     diseaseSlugs: [],
     articleSlugs: [],
