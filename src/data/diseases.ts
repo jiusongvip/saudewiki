@@ -1178,21 +1178,32 @@ export const diseases: Disease[] = [
         id: 'o-que-e',
         heading: 'O que é malária?',
         paragraphs: [
-          'Malária é uma doença infecciosa causada por protozoários do gênero Plasmodium, transmitidos pela picada da fêmea do mosquito Anopheles, conhecido como mosquito-prego, que pica principalmente ao entardecer e à noite.',
-          'No Brasil, a transmissão se concentra na Amazônia Legal. A doença não é contagiosa de pessoa para pessoa pelo contato, mas pode ser transmitida por transfusão de sangue e, mais raramente, da gestante para o feto.',
+          'Malária é uma doença infecciosa causada por parasitas (protozoários) do gênero Plasmodium, transmitidos pela picada da fêmea do mosquito Anopheles, conhecido no Brasil como mosquito-prego, carapanã ou muriçoca. Ela provoca febre, calafrios e mal-estar, e no Brasil a transmissão se concentra na região amazônica.',
+          'Duas espécies concentram a maior parte dos casos no Brasil. O Plasmodium vivax é o mais comum e costuma provocar uma forma menos grave, mas com risco de recaídas. O Plasmodium falciparum é o mais perigoso e pode levar à malária grave, com risco de morte. Com menos frequência, ocorrem infecções por P. malariae e P. ovale.',
+          'A transmissão acontece quando a fêmea de um mosquito Anopheles infectado pica uma pessoa. O parasita segue para o fígado e depois para o sangue, onde invade e destrói os glóbulos vermelhos. Essa destruição é o que provoca a febre e os demais sintomas.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a malária é transmitida?',
+        paragraphs: [
+          'O parasita passa para a pessoa pela picada da fêmea do mosquito Anopheles. Esse mosquito costuma picar ao entardecer e à noite, dentro e ao redor das casas, e se reproduz em água limpa, como igarapés, represas e áreas alagadas, o que explica a concentração de casos em áreas de floresta e de garimpo.',
+          'A malária não passa de uma pessoa para outra pelo contato do dia a dia, como abraço, beijo ou tosse, nem pelo ar. Em situações raras, a transmissão pode ocorrer por transfusão de sangue ou pelo compartilhamento de agulhas e seringas.',
         ],
       },
       {
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
         paragraphs: [
-          'Os primeiros sintomas costumam aparecer entre sete e trinta dias depois da picada e podem ser parecidos com os de uma gripe.',
+          'Os primeiros sintomas surgem, em geral, de 10 a 15 dias depois da picada, mas esse intervalo pode variar. No início, a malária se parece com outras doenças febris: febre, dor de cabeça, calafrios e dores no corpo.',
+          'Tremores, sudorese, cansaço, perda de apetite, náuseas e vômitos também são comuns. Em crianças, a febre pode ser o primeiro sinal. Os sintomas mais frequentes são:',
         ],
         bullets: [
-          'Febre alta, muitas vezes com calafrios e sudorese',
+          'Febre alta, muitas vezes com calafrios e tremores',
+          'Sudorese e cansaço',
           'Dor de cabeça e dor no corpo',
           'Náusea, vômito e falta de apetite',
-          'Cansaço e fraqueza',
+          'Fraqueza',
           'Palidez e coloração amarelada da pele e dos olhos, em alguns casos',
         ],
         cta: {
@@ -1201,34 +1212,104 @@ export const diseases: Disease[] = [
         },
       },
       {
-        id: 'transmissao',
-        heading: 'Como a malária é transmitida?',
+        id: 'ciclo-de-febre',
+        heading: 'O ciclo de febre que se repete',
         paragraphs: [
-          'A transmissão acontece pela picada do mosquito Anopheles infectado. O mosquito se reproduz em água limpa, parada ou de pouca correnteza, com sombra, o que explica a concentração de casos em áreas de floresta e de garimpo.',
-          'Não há transmissão por contato direto, alimentos ou objetos compartilhados.',
+          'Em parte dos casos, os sintomas se organizam em crises que se repetem, chamadas de acessos maláricos. A crise começa com frio intenso e tremores, que duram de alguns minutos a uma hora. Depois vem a fase de calor, com febre alta que pode passar de 40 °C e durar de duas a seis horas. Por fim, vem o suor intenso, quando a temperatura cai e a pessoa fica exausta.',
+          'Nas formas típicas, essas crises se repetem a cada 48 horas na malária por P. vivax ou a cada 72 horas na malária por P. malariae. O padrão, porém, pode ser irregular, sobretudo na infecção por P. falciparum, o que torna o diagnóstico apenas pela febre pouco confiável.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Os sinais abaixo indicam malária grave e exigem atendimento de urgência:',
+          'A malária grave é mais frequente na infecção por P. falciparum, mas pode ocorrer em qualquer tipo. Ela pode surgir em poucas horas, mesmo depois de sintomas que pareciam leves, por isso toda febre em quem mora ou esteve na região amazônica precisa ser investigada com rapidez.',
+        ],
+        bullets: [
+          'Confusão mental, sonolência excessiva ou dificuldade para acordar',
+          'Convulsões',
+          'Dificuldade para respirar',
+          'Urina escura ou avermelhada',
+          'Pele e olhos amarelados',
+          'Sangramentos',
+          'Fraqueza extrema',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem tem mais risco',
+        paragraphs: [
+          'Toda pessoa pode ter malária, mas alguns grupos têm maior chance de evoluir para a forma grave. Viver ou viajar para a região amazônica também aumenta a exposição ao mosquito, e quem nunca teve malária ou chegou há pouco tempo a uma área de transmissão tem menos proteção e adoece com mais facilidade.',
+          'Os principais grupos de risco são:',
+        ],
+        bullets: [
+          'Crianças, principalmente as menores de 5 anos',
+          'Gestantes, porque nelas a doença pode causar parto prematuro e baixo peso ao nascer',
+          'Pessoas infectadas pela primeira vez',
+          'Pessoas com a imunidade comprometida, como quem tem HIV ou aids',
         ],
       },
       {
         id: 'diagnostico',
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
-          'O diagnóstico é feito por exame de sangue. A gota espessa, analisada ao microscópio, é o exame de referência e permite identificar a espécie do parasito, o que define o tratamento.',
-          'Em áreas com transmissão, a recomendação é procurar o serviço de saúde diante de febre. Quanto mais cedo o diagnóstico, menor o risco de a doença evoluir para a forma grave.',
+          'O diagnóstico começa com a avaliação médica e é confirmado por exames que identificam o parasita no sangue. O exame de referência no Brasil é a gota espessa, uma gota de sangue analisada no microscópio, capaz de identificar o parasita e a espécie, o que define o tratamento.',
+          'Também existem testes rápidos, que detectam proteínas do parasita em cerca de 15 minutos e são usados em áreas de difícil acesso. Os dois exames estão disponíveis gratuitamente no SUS. Todo caso suspeito deve ser investigado e a malária deve ser notificada às autoridades de saúde. Em algumas situações, o médico pode repetir o exame ao longo de alguns dias, porque a quantidade de parasitas no sangue varia com o tempo.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Malária ou dengue: como diferenciar',
+        paragraphs: [
+          'A malária e a dengue começam com febre e dores no corpo, mas têm transmissor e sinais diferentes. A malária é transmitida pelo mosquito Anopheles, que pica ao entardecer e à noite; a dengue é transmitida pelo Aedes aegypti, de hábitos diurnos.',
+          'O diagnóstico correto depende do exame de sangue. Saber onde a pessoa esteve nos últimos dias ajuda o médico a suspeitar de malária e a pedir o teste certo.',
+        ],
+        bullets: [
+          'Mosquito transmissor: Anopheles, com picada no fim do dia e à noite, na malária; Aedes aegypti, com picada durante o dia, na dengue',
+          'Tempo até os sintomas: cerca de 10 a 15 dias na malária; 4 a 7 dias na dengue',
+          'Febre: pode vir em ciclos, com calafrios e sudorese, na malária; alta e contínua, de 4 a 7 dias, na dengue',
+          'Manchas na pele: incomuns na malária; frequentes na dengue, a partir do 4º dia',
+          'Sinais que chamam atenção: calafrios, tremores e suor intenso, com pele amarelada nas formas graves, na malária; dor atrás dos olhos e, nas formas graves, sangramentos, na dengue',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Tratamento e cuidados',
+        paragraphs: [
+          'A malária tem cura, e o tratamento é gratuito no SUS. O medicamento escolhido depende da espécie do parasita, do peso, da idade e do fato de a pessoa estar grávida, por isso o tratamento só deve ser feito com orientação de um profissional de saúde.',
+          'Na malária por P. vivax ou P. ovale, o tratamento combina cloroquina por três dias com primaquina por sete dias. A primaquina elimina as formas do parasita que ficam no fígado e causam as recaídas. Na malária por P. falciparum, o tratamento usa combinações de medicamentos à base de artemisinina.',
+          'O tratamento deve ser concluído exatamente como prescrito, mesmo que os sintomas melhorem. Interromper os medicamentos antes do fim permite que o parasita volte a se multiplicar e favorece as recaídas, e tomar remédios por conta própria também atrasa o diagnóstico correto. Alguns pontos exigem atenção:',
+        ],
+        bullets: [
+          'Gestantes, puérperas com até um mês de amamentação e crianças menores de 6 meses não podem usar primaquina, pelo risco de destruição dos glóbulos vermelhos',
+          'Antes de usar primaquina na malária por P. vivax, é obrigatório um teste que mede a atividade da enzima glicose-6-fosfato desidrogenase (G6PD); quem tem deficiência dessa enzima corre risco de destruição dos glóbulos vermelhos',
+          'Gestantes com malária por P. vivax recebem cloroquina por três dias e seguem com uma dose profilática semanal de cloroquina até o fim do primeiro mês de amamentação',
+          'Em casos selecionados de P. vivax, o médico pode indicar a tafenoquina, um medicamento de dose única oferecido pelo SUS desde 2024, com apresentação infantil desde 2026',
+        ],
+      },
+      {
+        id: 'recuperacao',
+        heading: 'Recaídas, complicações e recuperação',
+        paragraphs: [
+          'A maioria das pessoas se recupera por completo quando o tratamento é feito corretamente. A doença pode voltar de duas formas diferentes. Na malária por P. vivax e P. ovale, o parasita pode permanecer adormecido no fígado e provocar recaídas semanas ou meses depois, mesmo sem uma nova picada. Na malária por P. falciparum, pode haver recrudescência, quando o parasita reaparece porque o tratamento não foi completado.',
+          'Nas formas graves, a malária pode comprometer o cérebro (malária cerebral), os rins e o fígado, além de provocar anemia intensa e dificuldade para respirar. Uma complicação rara é a hemoglobinúria malárica, conhecida como febre da água negra, com destruição maciça de glóbulos vermelhos e urina muito escura, mais comum em quem tem deficiência de G6PD. Esses casos exigem internação.',
         ],
       },
       {
         id: 'prevencao',
         heading: 'Como prevenir?',
         paragraphs: [
-          'A prevenção se concentra em evitar a picada do mosquito e, em situações específicas, no uso de medicamentos profiláticos indicados por profissional de saúde.',
+          'Não existe vacina contra a malária disponível para a população brasileira, por isso a prevenção depende de evitar a picada do mosquito, com cuidados individuais e ações coletivas.',
+          'Quem vai viajar para a região amazônica deve procurar um serviço de saúde antes da viagem. Em alguns casos, o médico pode indicar medicamentos para prevenir a infecção durante a estadia.',
+          'Os principais cuidados são:',
         ],
         bullets: [
-          'Usar mosquiteiro impregnado com inseticida para dormir',
-          'Instalar telas em janelas e portas',
-          'Usar repelente nas áreas expostas da pele',
-          'Preferir roupas de manga longa e calça nos horários de maior atividade do mosquito',
-          'Evitar permanecer ao ar livre ao entardecer e à noite em áreas de transmissão',
-          'Buscar orientação sobre quimioprofilaxia antes de viajar para áreas de risco',
+          'Usar mosquiteiro, sobretudo ao dormir, de preferência impregnado com inseticida',
+          'Usar repelentes indicados por um profissional de saúde e reaplicar conforme a orientação',
+          'Vestir roupas que cubram braços e pernas, principalmente no fim do dia e à noite',
+          'Instalar telas em portas e janelas e usar espirais e vaporizadores nas horas de maior atividade do mosquito',
+          'Seguir as ações coletivas das equipes de saúde nas áreas de risco, como borrifação residual nas casas, distribuição de mosquiteiros impregnados e drenagem de criadouros',
         ],
         cta: {
           label: 'Leia também: como se prevenir da malária em viagens para a Amazônia',
@@ -1236,26 +1317,11 @@ export const diseases: Disease[] = [
         },
       },
       {
-        id: 'tratamento',
-        heading: 'Tratamento e cuidados',
+        id: 'vacinacao',
+        heading: 'Vacina contra a malária',
         paragraphs: [
-          'A malária tem tratamento e cura, disponível gratuitamente no sistema público de saúde. O esquema depende da espécie do parasito e da gravidade do quadro, e só um profissional pode defini-lo.',
-          'Tomar o medicamento pelo tempo indicado é essencial: interromper o tratamento antes do fim favorece a recaída e o desenvolvimento de resistência.',
-        ],
-      },
-      {
-        id: 'sinais-de-alerta',
-        heading: 'Sinais de alerta e quando procurar atendimento',
-        paragraphs: [
-          'Procure atendimento imediatamente se houver febre em área com transmissão de malária. Alguns sinais indicam forma grave e são uma emergência:',
-        ],
-        bullets: [
-          'Confusão mental, sonolência ou convulsões',
-          'Dificuldade para respirar',
-          'Diminuição muito acentuada da urina',
-          'Icterícia intensa ou sangramentos',
-          'Vômitos persistentes que impedem a hidratação',
-          'Fraqueza extrema, com dificuldade de ficar de pé',
+          'Não há vacina contra a malária disponível no Brasil. As vacinas recomendadas pela Organização Mundial da Saúde (OMS), RTS,S e R21, são usadas em crianças de países da África, onde a transmissão por P. falciparum é muito alta, e não fazem parte do calendário de vacinação brasileiro.',
+          'A pesquisa de uma vacina nacional avançou em 2026, quando a Anvisa autorizou o início dos testes em humanos de uma vacina contra o P. vivax desenvolvida com tecnologia brasileira. Os estudos ainda estão na fase inicial, sem previsão de uso na população, e a prevenção segue baseada no controle do mosquito e na proteção contra picadas.',
         ],
       },
     ],
@@ -1263,12 +1329,27 @@ export const diseases: Disease[] = [
       {
         question: 'Malária pega de outra pessoa?',
         answer:
-          'Não pelo contato direto. A transmissão ocorre pela picada do mosquito Anopheles infectado, além de casos raros por transfusão de sangue e da gestante para o feto.',
+          'Não. A malária não passa de uma pessoa para outra pelo contato, pelo beijo nem pelo ar. A transmissão acontece pela picada do mosquito Anopheles infectado. Em situações raras, pode ocorrer por transfusão de sangue ou pelo compartilhamento de agulhas e seringas.',
       },
       {
         question: 'Malária tem cura?',
         answer:
-          'Sim. O tratamento está disponível gratuitamente no sistema público de saúde e leva à cura quando seguido corretamente. O risco está no diagnóstico tardio e na interrupção do tratamento.',
+          'Sim. A malária tem cura, e o tratamento é gratuito e eficaz quando é feito corretamente. Quanto mais cedo o diagnóstico e o início do tratamento, menores são o risco de complicações e a chance de a doença se agravar.',
+      },
+      {
+        question: 'Quanto tempo a malária demora para aparecer?',
+        answer:
+          'Os primeiros sintomas costumam surgir de 10 a 15 dias depois da picada do mosquito infectado, mas esse intervalo pode variar.',
+      },
+      {
+        question: 'Quem já teve malária pode ter de novo?',
+        answer:
+          'Sim, uma pessoa pode ter malária várias vezes. A infecção por P. vivax e P. ovale pode reaparecer semanas ou meses depois por causa das formas do parasita que ficam no fígado, e uma nova picada também pode provocar uma nova infecção.',
+      },
+      {
+        question: 'Como saber se a febre é malária?',
+        answer:
+          'Não dá para saber apenas pelos sintomas, porque a malária se parece com outras doenças febris. Se você mora ou esteve na região amazônica e teve febre, procure um serviço de saúde para fazer o exame, que é gratuito no SUS.',
       },
       {
         question: 'Existe vacina contra malária no Brasil?',
