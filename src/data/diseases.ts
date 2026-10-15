@@ -2498,4 +2498,208 @@ export const diseases: Disease[] = [
     updatedAt: '2026-10-13',
     isPlaceholder: true,
   },
+  {
+    id: 'faringite',
+    slug: 'faringite-e-amigdalite',
+    name: 'Faringite e amigdalite',
+    metaTitle: 'Faringite e amigdalite',
+    aliases: ['dor de garganta', 'amigdalite', 'inflamação na garganta'],
+    summary:
+      'Infecção da garganta e das amígdalas, na maioria das vezes viral. Melhora em poucos dias, e o antibiótico só tem lugar quando a causa é bacteriana.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é faringite?',
+        paragraphs: [
+          'Faringite é a inflamação da garganta, e amigdalite é a inflamação das amígdalas, dois gânglios que ficam no fundo da boca. As duas costumam aparecer juntas, e a dor de garganta é um dos motivos de consulta mais frequentes em qualquer país.',
+          'A causa mais comum é viral. Segundo o Ministério da Saúde, os vírus são os agentes mais frequentes nas crianças, enquanto as bactérias atingem mais os jovens e os adultos.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas se sobrepoem entre as causas virais e bacterianas, e quem distingue é a avaliação profissional.',
+        ],
+        bullets: [
+          'Dor de garganta, pior ao engolir',
+          'Febre, calafrios e mal-estar',
+          'Gânglios do pescoço inchados e doloridos',
+          'Amígdalas vermelhas, por vezes com placas de pus',
+          'Falta de apetite',
+          'Na causa viral, costumam acompanhar tosse e corrimento nasal',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Faringite é contagiosa?',
+        paragraphs: [
+          'Sim. Os germes da garganta circulam pelas gotículas que a pessoa infectada libera ao tossir, espirrar ou falar, e também pelas mãos que tocam o rosto. Ambientes fechados e aglomerados favorecem a transmissão.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar atendimento?',
+        paragraphs: [
+          'A dor de garganta viral se resolve sozinha em poucos dias. Procure atendimento quando ela durar mais de quatro dias sem sinal de melhora, quando impedir beber líquidos, ou quando vier acompanhada de sinais que pedem avaliação imediata.',
+        ],
+        bullets: [
+          'Dificuldade para respirar ou para engolir a própria saliva',
+          'Febre alta que não cede',
+          'Inchaço importante em um lado da garganta, com dificuldade para abrir a boca',
+          'Manchas no corpo ou rigidez na nuca',
+          'Criança pequena que recusa líquidos ou fica prostrada',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como se trata?',
+        paragraphs: [
+          'Na infecção viral, o cuidado é de suporte: repouso, líquidos e analgésicos ou antitérmicos orientados por profissional de saúde. Não há medicamento que encurte muito a duração, e a garganta melhora sozinha.',
+          'Na amigdalite bacteriana, o antibiótico específico é indicado pelo profissional, e o tratamento precisa ser concluído até o fim, mesmo depois de a dor passar. Interromper o antibiótico antes da hora permite complicações, como a febre reumática, que pode atingir o coração, e a resistência bacteriana, um problema de saúde pública.',
+          'Antibiótico por conta própria em dor de garganta viral não acelera a melhora: ele não age sobre vírus, traz efeitos colaterais e fortalece bactérias resistentes.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Dor de garganta precisa de antibiótico?',
+        answer:
+          'Na maioria das vezes, não. A maior parte das faringites é viral e se resolve em poucos dias sem antibiótico. Ele só se justifica quando o profissional de saúde identifica amigdalite bacteriana, e então deve ser tomado até a última dose prescrita.',
+      },
+      {
+        question: 'Ar frio ou sorvete causam faringite?',
+        answer:
+          'A infecção é causada por vírus e bactérias, não pela temperatura. O frio ajuda a espalhar essas infecções porque empurra as pessoas para ambientes fechados e aglomerados, onde as gotículas circulam mais.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: [],
+    relatedDiseaseSlugs: ['gripe', 'hipertensao'],
+    references: [
+      {
+        label: 'Amidalite ou amigdalite',
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
+  },
+  {
+    id: 'gastroenterite',
+    slug: 'gastroenterite',
+    name: 'Gastroenterite (diarreia infecciosa)',
+    metaTitle: 'Gastroenterite',
+    aliases: ['diarreia', 'infecção intestinal', 'gastroenterite viral'],
+    summary:
+      'Infecção que inflama o estômago e o intestino, causando diarreia e vômitos. O principal perigo é a desidratação, e o tratamento começa com soro de reidratação oral.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é gastroenterite?',
+        paragraphs: [
+          'Gastroenterite é a infecção que inflama o revestimento do estômago e do intestino. Ela se manifesta como diarreia, que a Organização Mundial da Saúde define como três ou mais fezes moles ou líquidas em um dia.',
+          'É uma doença comum em todas as idades. A maioria passa em poucos dias, mas em crianças pequenas e pessoas idosas a desidratação pode evoluir depressa.',
+          'Segundo o Ministério da Saúde, as doenças diarreicas agudas atingem sobretudo crianças menores de cinco anos, e a diarreia segue entre as principais causas de morte nessa idade onde o acesso a água tratada é limitado.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: ['O quadro costuma começar de repente, com sintomas digestivos gerais.'],
+        bullets: [
+          'Diarreia, fezes moladas ou líquidas',
+          'Vômitos e náuseas',
+          'Dor e cólica abdominal',
+          'Febre, nem sempre presente',
+          'Sinais de desidratação: boca seca, pouca urina escura, falta de lágrimas ao chorar, sonolência ou irritação',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como se espalha?',
+        paragraphs: [
+          'Pelos germes que entram pela boca: água e alimentos contaminados, mãos que não foram lavadas e contato de pessoa a pessoa. Norovírus causa surtos em ambientes fechados, e o rotavírus é o mais comum dos vírus que adoecem crianças pequenas, segundo a OMS.',
+          'A diarreia é um marcador de saneamento. Onde falta água tratada, o mesmo micróbio reaparece a cada estação, e campanhas de reidratação oral são a resposta que mais salva vidas.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar atendimento?',
+        paragraphs: [
+          'Na diarreia, o que orienta a decisão não é quantos dias dura, mas como a pessoa está. Vá a um serviço de saúde se aparecer qualquer sinal de desidratação, especialmente em bebê, criança pequena ou pessoa idosa.',
+        ],
+        bullets: [
+          'Sangue nas fezes',
+          'Vômito que impede de reter líquidos',
+          'Febre alta mantida',
+          'Boca seca, urina rara, olhos fundos, criança que chora sem lágrimas',
+          'Sonolência excessiva ou recusa de alimentos',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como se trata?',
+        paragraphs: [
+          'O primeiro passo é repor o que se perdeu: soro de reidratação oral, distribuído gratuitamente pelo SUS, em pequenos goles e com frequência, desde o início da diarreia. A água e os alimentos comuns também contam, mas o soro repõe na medida certa a água e os sais perdidos.',
+          'Nas crianças, a OMS recomenda os sais de reidratação oral e o zinco dispersável, que encurtam o episódio e reduzem o risco de complicações. A amamentação e a alimentação devem continuar.',
+          'Remédios que param a diarreia não devem ser usados por conta própria, especialmente em crianças: eles seguram no intestino justamente os micróbios que o corpo está tentando eliminar.',
+          'O antibiótico ou antiparasitário só tem lugar quando o profissional de saúde identifica a causa bacteriana ou parasitária.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir?',
+        paragraphs: [
+          'Água tratada, saneamento e lavagem das mãos com sabão, antes de comer e depois de usar o banheiro, são a base da prevenção, como destaca a OMS.',
+          'Contra o rotavírus, o calendário do SUS oferece a vacina oral em duas doses, aos dois e aos quatro meses de idade. Ela não impede toda diarreia, mas reduz muito as formas graves que levam a criança ao hospital.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Criança com diarreia deve parar de comer?',
+        answer:
+          'Não. Suspender a alimentação piora o quadro. Ofereça o soro de reidratação oral à parte, em goles frequentes, e mantenha a comida habitual e a amamentação, em pequenas porções ao longo do dia.',
+      },
+      {
+        question: 'Antibiótico ajuda na diarreia?',
+        answer:
+          'Na maioria dos casos, não. A gastroenterite comum é viral ou se resolve sozinha, e o antibiótico pode até atrapalhar. Ele só se justifica quando o profissional de saúde identifica bactéria ou parasita que exigem tratamento específico.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: [],
+    relatedDiseaseSlugs: ['dengue', 'hepatites-virais'],
+    references: [
+      {
+        label: 'Doenças diarreicas agudas (DDA)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rotavírus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rotavirus',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diarrhoeal disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
+  },
 ];

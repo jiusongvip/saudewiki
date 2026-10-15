@@ -12,10 +12,10 @@ import type { BodyRegion } from '../types';
  *
  * 1. A disease enters a region only when its own entry says that place is
  *    affected. `hipertensao` writes that "visão embaçada" can appear, so it is
- *    under `olhos`; it never mentions the kidneys, so it is not under `rins`,
- *    even though hypertensive nephropathy is real and would belong there. The
- *    gap is a to-do list, not an error: fill it by writing the sentence in the
- *    disease entry first.
+ *    under `olhos`; the same entry later says the disease "prejudica... os
+ *    rins", which is what earns it a place under `rins`. A mapping with no such
+ *    sentence behind it is the error this rule exists to prevent: fill a gap by
+ *    writing the sentence in the disease entry first, never by editing here.
  * 2. Every region carries two prose blocks even when it has no entries yet:
  *    `globalOverview` (what usually goes wrong with that part worldwide) and
  *    `lusophoneOverview` (what is typical across Portuguese-speaking countries,
@@ -55,7 +55,7 @@ export const regions: BodyRegion[] = [
     name: 'Olhos',
     description:
       'A visão embaçada que acompanha a pressão alta, a dor atrás dos olhos da dengue e o que a diabetes faz, ao longo dos anos, com os vasos finos do olho.',
-    diseaseSlugs: ['diabetes', 'hipertensao', 'dengue'],
+    diseaseSlugs: ['diabetes', 'hipertensao', 'dengue', 'zika', 'chikungunya'],
     globalOverview: [
       'No mundo, a catarata continua sendo a maior causa de cegueira evitável, e o glaucoma, a principal causa de cegueira irreversível: a perda de visão ocorre sem dor e sem aviso, por isso o exame periódico é parte do cuidado.',
       'Os erros refrativos não corrigidos, como miopia e astigmatismo, são de longe a queixa visual mais comum do planeta, e a retinopatia diabética é hoje uma das maiores causas de perda de visão em idade produtiva.',
@@ -74,7 +74,7 @@ export const regions: BodyRegion[] = [
     name: 'Ouvidos, nariz e garganta',
     description:
       'Ouvido, nariz e garganta: a porta de entrada de boa parte das infecções que se espalham pelo ar.',
-    diseaseSlugs: [],
+    diseaseSlugs: ['faringite-e-amigdalite', 'hipertensao', 'hiv-aids', 'chikungunya'],
     globalOverview: [
       'Nessas três portas de entrada, o mundo adoece muito: infecções das vias aéreas superiores, como faringites, amigdalites e sinusites, estão entre os motivos de consulta mais frequentes em qualquer país, e otite média é queixa comum na primeira infância.',
       'A maioria das dores de garganta é viral e se resolve sozinha em poucos dias. Antibiótico só se justifica quando há indicação profissional, e usá-lo por conta própria em infecção viral não acelera a melhora.',
@@ -150,7 +150,7 @@ export const regions: BodyRegion[] = [
     slug: 'estomago-e-intestinos',
     name: 'Estômago e intestinos',
     description: 'O aparelho digestivo e as doenças que se manifestam nele, da dor abdominal à diarreia.',
-    diseaseSlugs: [],
+    diseaseSlugs: ['gastroenterite', 'dengue', 'hepatites-virais', 'hiv-aids'],
     globalOverview: [
       'No mundo todo, as infecções intestinais, virais e bacterianas, são a doença mais comum de todas: gastroenterites de curta duração atingem crianças e adultos em qualquer país, e a diarreia segue sendo uma das grandes causas de morte na infância onde o acesso a água tratada é limitado.',
       'A úlcera gástrica tem causa identificada, a bactéria Helicobacter pylori, e tem tratamento definido. O refluxo, a síndrome do intestino irritável e as constipações crônicas acompanham a dieta urbana, e o câncer colorretal está entre os cânceres mais diagnosticados, com melhor resultado quando detectado cedo.',
@@ -189,7 +189,7 @@ export const regions: BodyRegion[] = [
     name: 'Rins',
     description:
       'O filtro do corpo. A diabetes pode lesioná-lo com o tempo, e a queda do volume de urina é sinal de alerta em infecção grave.',
-    diseaseSlugs: ['diabetes', 'dengue'],
+    diseaseSlugs: ['diabetes', 'hipertensao', 'dengue'],
     globalOverview: [
       'No mundo, a doença renal crônica afeta centenas de milhões de pessoas e cresce junto com diabetes e hipertensão, suas duas principais causas. Ela fica silenciosa até fases avançadas: por isso quem tem essas duas condições faz exame de função renal de rotina.',
       'A infecção urinária é uma das queixas mais frequentes entre mulheres, e a pedra no rim atinge parcela relevante da população adulta, com dor típica em cólica que irradia para as costas.',
