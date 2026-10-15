@@ -244,6 +244,9 @@ const pt = {
       'As causas mudam de lugar para lugar: o AVC reflete a hipertensão de cada população, a diarreia reflete o acesso a água tratada, e a tuberculose reflete a velocidade com que um diagnóstico é encontrado. É por isso que a perspectiva lusófona vem logo depois da mundial.',
     ],
     schemaName: 'Por região do corpo',
+    allDiseasesHeading: 'As doenças do dia a dia',
+    allDiseasesLead:
+      'Na vida cotidiana as pessoas adoecem, e as doenças que podem aparecer são, em linhas gerais, estas:',
     schemaDescription:
       'Índice das partes do corpo cobertas pelo Saudewiki, com as doenças e os artigos de cada uma.',
   },
@@ -506,6 +509,8 @@ const zh: UI = {
       '病因會因地方而異：中風反映一個人群的高血壓控制情形，腹瀉反映自來水的普及率，結核病反映診斷被找到的速度。這就是為什麼葡語系國家的視角緊接在全球視角之後。',
     ],
     schemaName: '依身體部位',
+    allDiseasesHeading: '日常生活中會得的疾病',
+    allDiseasesLead: '人在日常生活中會生病，可能會得的疾病大致如下：',
     schemaDescription: 'Saudewiki 涵蓋的身體部位索引，列出各部位的疾病與文章。',
   },
 

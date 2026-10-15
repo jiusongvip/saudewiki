@@ -27,6 +27,12 @@ const c = contentFor(lang);
   {
     regions.map((region) => {
       const counts = c.regionCounts(region);
+      const tileDiseases = c.regionDiseases(region);
+      const names = tileDiseases
+        .slice(0, 3)
+        .map((disease) => disease.name)
+        .join(lang === 'pt-BR' ? ', ' : '、');
+      const more = tileDiseases.length - Math.min(3, tileDiseases.length);
       return (
         <li>
           <a
@@ -41,6 +47,10 @@ const c = contentFor(lang);
                 name="tabler:arrow-right"
                 class="mt-0.5 h-4 w-4 shrink-0 text-ink-muted transition-transform duration-200 group-hover:translate-x-1"
               />
+            </span>
+
+            <span class="mt-2 block text-[0.8rem] leading-snug text-ink-muted line-clamp-2">
+              {tileDiseases.length > 0 ? `${names}${more > 0 ? ` +${more}` : ''}` : region.description}
             </span>
 
             <span

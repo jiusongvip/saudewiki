@@ -55,6 +55,26 @@ const schemaNodes: Record<string, unknown>[] = [
             ))}
           </div>
         </section>
+        <section class="mt-14 border-t border-line pt-10" aria-labelledby="doencas-do-cotidiano">
+          <h2 id="doencas-do-cotidiano" class="display text-[1.8rem]">{t.regionsIndex.allDiseasesHeading}</h2>
+          <p class="mt-4 max-w-2xl text-[0.98rem] leading-relaxed text-ink">{t.regionsIndex.allDiseasesLead}</p>
+          {
+            c.diseases.length > 0 && (
+              <ul class="mt-6 flex flex-wrap gap-2">
+                {c.diseases.map((disease) => (
+                  <li>
+                    <a
+                      href={c.urls.disease(disease.slug)}
+                      class="inline-flex rounded-full border border-control bg-canvas px-3.5 py-1.5 text-[0.82rem] font-semibold transition-colors hover:border-accent hover:text-accent"
+                    >
+                      {disease.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )
+          }
+        </section>
       </div>
       <BodyMap lang={lang} regions={c.regions} class="order-1 lg:sticky lg:top-24 lg:order-2" />
     </div>
