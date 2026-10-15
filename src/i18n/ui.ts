@@ -105,6 +105,8 @@ const pt = {
     topicInPreparation: 'Tema em preparação',
     relatedTopics: 'Temas relacionados',
     relatedArticles: 'Artigos relacionados',
+    disclaimer:
+      'Este conteúdo é informativo e não substitui uma consulta médica, um exame físico nem a orientação individual de um profissional de saúde. Em caso de sintomas ou dúvidas, procure uma unidade de saúde.',
   },
 
   search: {
@@ -177,7 +179,7 @@ const pt = {
         body: 'Qualquer pessoa pode reportar um erro; a correção é avaliada antes de o texto mudar.',
       },
     ],
-    studentsTitle: 'Escrito por estudantes, de graça',
+    studentsTitle: 'Escrito por estudantes de medicina, de graça',
     studentsLead:
       'O que falta para o projeto crescer é texto: cada região do mapa que aparece como «Em construção» é uma página à espera de ser escrita.',
     studentsCta: 'Participar do projeto',
@@ -376,6 +378,8 @@ const zh: UI = {
     topicInPreparation: '主題籌備中',
     relatedTopics: '相關主題',
     relatedArticles: '相關文章',
+    disclaimer:
+      '本站內容僅供健康資訊參考，不能取代醫師的問診、身體檢查與個人化建議。如有症狀或疑慮，請至醫療院所就醫。',
   },
 
   search: {
@@ -444,7 +448,7 @@ const zh: UI = {
         body: '任何人都可以回報錯誤；更正經檢視後才會改動正文。',
       },
     ],
-    studentsTitle: '由學生義務撰寫',
+    studentsTitle: '由醫學生義務撰寫',
     studentsLead:
       '項目要成長，缺的是內容：圖譜上每個標為「建置中」的部位，都是一張還在等待撰寫的頁面。',
     studentsCta: '參與這個項目',

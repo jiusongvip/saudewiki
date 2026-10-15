@@ -17,7 +17,7 @@ export const articles: Article[] = [
     slug: 'sintomas-iniciais-da-dengue',
     title: 'Quais são os primeiros sintomas da dengue?',
     excerpt:
-      'Febre alta de início súbito, dor atrás dos olhos e dores no corpo são os sinais mais frequentes. Entenda o que aparece primeiro e quando a doença se agrava.',
+      'Febre alta de início súbito, dor atrás dos olhos e dores no corpo são os sintomas mais frequentes. Entenda o que aparece primeiro e quando a doença se agrava.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
@@ -26,12 +26,12 @@ export const articles: Article[] = [
         heading: 'O que costuma aparecer primeiro',
         paragraphs: [
           'Os sintomas da dengue normalmente começam entre quatro e dez dias depois da picada do mosquito. O início tende a ser abrupto: a pessoa sai de um estado normal para febre alta em poucas horas.',
-          'Os sinais mais comuns nas primeiras 24 a 48 horas são febre alta, dor de cabeça, dor atrás dos olhos e dores intensas nos músculos e nas articulações.',
+          'Os sintomas mais comuns nas primeiras 24 a 48 horas são febre alta, dor de cabeça, dor atrás dos olhos e dores intensas nos músculos e nas articulações.',
         ],
       },
       {
         id: 'primeiros-sinais',
-        heading: 'Primeiros sinais, em ordem aproximada',
+        heading: 'Primeiros sintomas, em ordem aproximada',
         bullets: [
           'Febre alta, geralmente acima de 38 °C, de início súbito',
           'Dor de cabeça intensa, muitas vezes atrás dos olhos',
@@ -56,14 +56,14 @@ export const articles: Article[] = [
         id: 'o-que-nao-e-sintoma',
         heading: 'O que não é sintoma típico',
         paragraphs: [
-          'Espirros frequentes, coriza e obstrução nasal são mais sugestivos de resfriado ou de outras infecções respiratórias do que de dengue. Isso não substitui avaliação profissional, mas ajuda a organizar a suspeita.',
+          'Espirros frequentes, coriza e obstrução nasal são mais sugestivos de resfriado ou de outras infecções respiratórias do que de dengue. Isso não substitui uma avaliação profissional, mas ajuda a organizar a suspeita.',
         ],
       },
       {
         id: 'o-que-fazer',
         heading: 'O que fazer se você suspeitar',
         paragraphs: [
-          'Hidrate-se, evite medicamentos à base de ácido acetilsalicílico e anti-inflamatórios, e procure uma unidade de saúde para avaliação. O diagnóstico e o manejo dependem de um profissional.',
+          'Hidrate-se, evite aspirina (ácido acetilsalicílico) e anti-inflamatórios, e procure uma unidade de saúde para avaliação. Quem define o diagnóstico e o tratamento é um profissional de saúde.',
         ],
       },
     ],
@@ -94,7 +94,7 @@ export const articles: Article[] = [
     slug: 'como-prevenir-a-dengue',
     title: 'Como prevenir a dengue?',
     excerpt:
-      'Sem tratamento específico contra o vírus, a prevenção se concentra em eliminar criadouros do mosquito e evitar a picada. Veja o que funciona na prática.',
+      'Como não há antiviral específico contra o vírus, a prevenção se concentra em eliminar criadouros do mosquito e evitar a picada. Veja o que funciona na prática.',
     category: 'Prevenção',
     categorySlug: 'prevencao',
     body: [
@@ -102,7 +102,7 @@ export const articles: Article[] = [
         id: 'por-que-a-prevencao-e-central',
         heading: 'Por que a prevenção é central',
         paragraphs: [
-          'Não existe antiviral específico contra a dengue. Isso significa que reduzir a população do mosquito e evitar a picada é a estratégia mais eficaz disponível.',
+          'Não existe antiviral específico contra a dengue. Por isso, a base da prevenção é reduzir a população do mosquito e evitar a picada. O SUS também oferece vacina contra a dengue, para o público e as regiões definidos pela estratégia do Ministério da Saúde: informe-se na unidade de saúde da sua região.',
           'O Aedes aegypti se reproduz em água parada. Qualquer recipiente com água limpa e parada, por menor que seja, pode servir de criadouro.',
         ],
       },
@@ -141,7 +141,7 @@ export const articles: Article[] = [
         id: 'o-que-nao-funciona',
         heading: 'O que não substitui a prevenção',
         paragraphs: [
-          'Vitaminas, chás e soluções caseiras não previnem a infecção. O controle do mosquito depende de eliminar criadouros de forma contínua, não de medidas pontuais.',
+          'Vitaminas, chás e soluções caseiras não previnem a infecção. O controle do mosquito exige eliminar criadouros continuamente, não com medidas pontuais.',
         ],
         cta: {
           label: 'Entenda a transmissão na página sobre dengue',
@@ -197,9 +197,9 @@ export const articles: Article[] = [
         bullets: [
           'Dor abdominal intensa e contínua',
           'Vômitos persistentes que impedem a hidratação',
-          'Sangramento de gengiva, nariz, urina ou fezes',
+          'Sangramento de gengiva ou nariz, sangue na urina ou nas fezes',
           'Sonolência excessiva, irritabilidade ou confusão mental',
-          'Diminuição acentuada da urina ou outros sinais de desidratação',
+          'Urinar muito menos que o habitual ou outros sinais de desidratação',
           'Extremidades frias, palidez ou dificuldade para respirar',
         ],
       },
@@ -391,7 +391,7 @@ export const articles: Article[] = [
   {
     id: 'vacinacao-o-que-e-o-calendario-basico',
     slug: 'vacinacao-o-que-e-o-calendario-basico',
-    title: 'Vacinação infantil: o que é o calendário básico?',
+    title: 'Vacinação infantil: o que é o Calendário Nacional de Vacinação?',
     excerpt:
       'O calendário de vacinação organiza quais vacinas são recomendadas em cada faixa etária. Entenda como ele funciona e por que o acompanhamento é contínuo.',
     category: 'Saúde infantil',
@@ -401,7 +401,7 @@ export const articles: Article[] = [
         id: 'o-que-e-o-calendario',
         heading: 'O que é o calendário de vacinação',
         paragraphs: [
-          'O calendário é um cronograma que indica quais vacinas são recomendadas em cada idade. Ele é atualizado periodicamente pelas autoridades de saúde, conforme novas evidências e novos produtos.',
+          'O Calendário Nacional de Vacinação é o cronograma que indica quais vacinas são recomendadas em cada idade. Ele é atualizado pelo Ministério da Saúde conforme novas evidências e novos produtos.',
         ],
       },
       {
@@ -415,7 +415,7 @@ export const articles: Article[] = [
         id: 'onde-consultar',
         heading: 'Onde consultar o calendário atualizado',
         paragraphs: [
-          'O calendário vigente deve ser sempre consultado na fonte oficial, porque as recomendações mudam. A caderneta da criança é o registro que acompanha esse histórico.',
+          'As recomendações mudam com o tempo, por isso confirme o calendário vigente no site do Ministério da Saúde ou na UBS. A caderneta da criança é o registro que acompanha esse histórico.',
         ],
         cta: {
           label: 'Ver o tema de saúde infantil',
@@ -484,7 +484,7 @@ export const articles: Article[] = [
         id: 'por-que-a-dor-e-tao-forte',
         heading: 'Por que a dor articular é tão forte',
         paragraphs: [
-          'Na chikungunya, o vírus provoca uma inflamação intensa nas articulações. É isso que dá à doença a sua característica mais marcante: a dor costuma ser mais forte e mais localizada do que na dengue, e muitas vezes vem acompanhada de inchaço.',
+          'Na chikungunya, o vírus provoca uma inflamação intensa nas articulações. É isso que faz da dor a marca registrada da doença: ela costuma ser mais forte e mais localizada do que na dengue, e muitas vezes vem acompanhada de inchaço.',
           'As articulações mais atingidas são as das mãos, dos pés, dos tornozelos e dos joelhos. Em alguns casos, a dor é tão intensa que dificulta caminhar ou segurar objetos.',
         ],
       },
@@ -495,16 +495,16 @@ export const articles: Article[] = [
           'A evolução da chikungunya costuma ser descrita em três fases, e isso ajuda a entender por que a recuperação não é igual para todo mundo.',
         ],
         bullets: [
-          'Fase aguda: até cerca de dez dias, com febre alta e dor articular intensa',
-          'Fase pós-aguda: de dez dias a três meses, quando a febre cede e a dor pode continuar',
-          'Fase crônica: além de três meses, quando a dor articular persiste e passa a exigir acompanhamento',
+          'Fase aguda: até 14 dias, com febre alta e dor articular intensa',
+          'Fase pós-aguda: de 15 a 90 dias, quando a febre cede e a dor pode continuar',
+          'Fase crônica: além de 90 dias, quando a dor articular persiste e passa a exigir acompanhamento',
         ],
       },
       {
         id: 'quanto-tempo-dura',
         heading: 'Quanto tempo dura, na prática',
         paragraphs: [
-          'A maioria das pessoas melhora em algumas semanas. Uma parte dos casos mantém dor por meses, e uma parcela menor convive com sintomas articulares por mais tempo.',
+          'A maioria das pessoas melhora em algumas semanas. Parte das pessoas continua com dor por meses, e uma parcela menor convive com sintomas articulares por mais tempo.',
           'Não é possível prever de antemão quem vai evoluir para a forma prolongada. Idade mais avançada, dor articular prévia e quadros mais intensos na fase aguda aparecem associados a uma recuperação mais lenta.',
         ],
       },
@@ -512,8 +512,8 @@ export const articles: Article[] = [
         id: 'o-que-ajuda',
         heading: 'O que ajuda na recuperação',
         paragraphs: [
-          'Nas primeiras semanas, o cuidado é o mesmo das outras arboviroses: repouso, hidratação e alívio da dor com orientação profissional. Medicamentos à base de ácido acetilsalicílico e anti-inflamatórios não esteroides devem ser evitados enquanto a dengue não for descartada.',
-          'Quando a dor persiste, a fisioterapia costuma fazer parte do tratamento, com exercícios graduais que ajudam a manter o movimento e a força da articulação. A conduta é definida caso a caso.',
+          'Nas primeiras semanas, o cuidado é o mesmo das outras arboviroses: repouso, hidratação e alívio da dor com orientação de um profissional de saúde. Enquanto a dengue não for descartada, evite aspirina (ácido acetilsalicílico), ibuprofeno e outros anti-inflamatórios: eles aumentam o risco de sangramento.',
+          'Quando a dor persiste, a fisioterapia costuma fazer parte do tratamento, com exercícios graduais que ajudam a manter o movimento e a força da articulação. O tratamento é definido caso a caso.',
         ],
         cta: {
           label: 'Veja a página completa sobre chikungunya',
@@ -559,7 +559,7 @@ export const articles: Article[] = [
     slug: 'chikungunya-e-dengue-como-diferenciar',
     title: 'Chikungunya e dengue: como diferenciar?',
     excerpt:
-      'As duas doenças são transmitidas pelo mesmo mosquito e começam com febre alta e dores no corpo. A diferença principal está na dor articular, e isso muda a conduta.',
+      'As duas doenças são transmitidas pelos mesmos mosquitos e começam com febre alta e dores no corpo. A diferença principal está na dor articular, e isso muda o tratamento.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
@@ -568,25 +568,25 @@ export const articles: Article[] = [
         heading: 'Por que as duas se confundem',
         paragraphs: [
           'Dengue e chikungunya são transmitidas pelos mesmos mosquitos, circulam nas mesmas áreas e começam de forma parecida: febre alta de início súbito, dor de cabeça, dor no corpo e mal-estar.',
-          'Por isso, o que diferencia uma da outra raramente é um sintoma isolado. O conjunto e a intensidade de cada sinal é que orientam a suspeita.',
+          'Por isso, o que diferencia uma da outra raramente é um sintoma isolado. O conjunto de sintomas e a intensidade de cada um é que orientam a suspeita.',
         ],
       },
       {
         id: 'diferencas',
         heading: 'As diferenças que costumam aparecer',
         bullets: [
-          'Dor articular: na chikungunya tende a ser muito intensa e incapacitante; na dengue é comum, mas menos localizada',
-          'Inchaço articular: mais frequente na chikungunya',
-          'Manchas na pele: podem aparecer nas duas, em momentos diferentes',
-          'Dor atrás dos olhos: mais característica da dengue',
-          'Duração: na chikungunya a dor articular pode se prolongar por semanas ou meses',
+          'A dor articular tende a ser muito intensa e incapacitante na chikungunya; na dengue é comum, mas menos localizada',
+          'O inchaço articular é mais frequente na chikungunya',
+          'As manchas na pele podem aparecer nas duas, em momentos diferentes',
+          'A dor atrás dos olhos é mais característica da dengue',
+          'A dor articular da chikungunya pode se prolongar por semanas ou meses',
         ],
       },
       {
         id: 'o-que-nao-serve',
         heading: 'O que não serve para diferenciar',
         paragraphs: [
-          'A presença de sangramento, por si só, não confirma dengue. E a ausência de manchas na pele não descarta nenhuma das duas. Também não é possível diferenciar pelo local onde a pessoa mora ou pela época do ano, já que as duas circulam juntas.',
+          'Sangramento, por si só, não confirma dengue. E a ausência de manchas na pele não descarta nenhuma das duas. Também não é possível diferenciar pelo local onde a pessoa mora ou pela época do ano, já que as duas circulam juntas.',
           'Só a avaliação em serviço de saúde, com exame clínico e, quando indicado, exames laboratoriais, permite definir a causa.',
         ],
       },
@@ -595,7 +595,7 @@ export const articles: Article[] = [
         heading: 'Por que a diferença importa',
         paragraphs: [
           'As duas doenças não têm antiviral específico e o tratamento inicial é parecido. A diferença está no acompanhamento: a dengue exige atenção aos sinais de alerta, que aparecem quando a febre cede, e a chikungunya pode exigir acompanhamento prolongado da dor articular.',
-          'Nos dois casos, medicamentos à base de ácido acetilsalicílico e anti-inflamatórios não esteroides devem ser evitados até que a dengue seja descartada, pelo risco de sangramento.',
+          'Nos dois casos, evite aspirina (ácido acetilsalicílico), ibuprofeno e outros anti-inflamatórios até que a dengue seja descartada: eles aumentam o risco de sangramento.',
         ],
         cta: {
           label: 'Entenda os sinais de alerta da dengue',
@@ -606,7 +606,7 @@ export const articles: Article[] = [
         id: 'o-que-fazer',
         heading: 'O que fazer diante da dúvida',
         paragraphs: [
-          'Procure uma unidade de saúde para avaliação, informe onde você mora ou viajou nos últimos dias e relate todos os sintomas, inclusive a intensidade da dor nas articulações. Não tente diferenciar em casa nem se automedicar.',
+          'Procure uma unidade de saúde para avaliação, informe onde você mora e para onde viajou nos últimos dias e relate todos os sintomas, inclusive a intensidade da dor nas articulações. Não tente diferenciar em casa nem se automedicar.',
         ],
         cta: {
           label: 'Veja a página sobre chikungunya',
@@ -658,7 +658,7 @@ export const articles: Article[] = [
       },
       {
         id: 'sintomas-na-gestante',
-        heading: 'Sintomas que exigem atenção imediata',
+        heading: 'Sintomas que devem ser avaliados',
         paragraphs: [
           'Os sintomas na gestante são os mesmos das outras pessoas e podem ser leves: manchas vermelhas na pele com coceira, febre baixa, olhos vermelhos sem secreção, dor nas articulações e dor de cabeça.',
           'Como a infecção pode ser silenciosa, a orientação é procurar o serviço de saúde diante de qualquer um desses sinais durante a gestação, mesmo que pareçam banais.',
@@ -668,7 +668,7 @@ export const articles: Article[] = [
         id: 'acompanhamento',
         heading: 'Como é o acompanhamento',
         paragraphs: [
-          'A suspeita durante a gestação muda o pré-natal. O serviço de saúde pode indicar exames para investigar a infecção e um acompanhamento mais próximo, com avaliação do desenvolvimento do bebê por meio de exames de imagem.',
+          'A suspeita durante a gestação muda o pré-natal. O serviço de saúde pode indicar exames para investigar a infecção e um acompanhamento mais próximo, com avaliação do desenvolvimento do bebê em exames de imagem.',
           'O acompanhamento continua depois do nascimento, com avaliação do desenvolvimento e, quando necessário, encaminhamento para estimulação precoce e outras especialidades.',
         ],
       },
@@ -676,7 +676,7 @@ export const articles: Article[] = [
         id: 'como-reduzir-o-risco',
         heading: 'Como reduzir o risco',
         bullets: [
-          'Evitar viajar para áreas com transmissão de zika durante a gestação, sempre conversando antes com o serviço de saúde',
+          'Evitar viajar para áreas com transmissão de zika durante a gestação e conversar antes com o serviço de saúde',
           'Usar repelente, seguindo a orientação do fabricante',
           'Preferir roupas que cubram braços e pernas',
           'Instalar telas em janelas e portas e usar mosquiteiro para dormir',
@@ -692,7 +692,7 @@ export const articles: Article[] = [
         id: 'parceiros',
         heading: 'O que vale para o parceiro também',
         paragraphs: [
-          'Como o zika pode ser transmitido por via sexual, o cuidado não é só da gestante. O uso de preservativo durante toda a gestação protege a pessoa gestante de uma infecção que poderia afetar o bebê.',
+          'Como o zika pode ser transmitido por via sexual, o cuidado não é só da gestante. O uso de preservativo durante toda a gestação protege a gestante de uma infecção que poderia afetar o bebê.',
         ],
         cta: {
           label: 'Entenda a transmissão do zika',
@@ -733,9 +733,9 @@ export const articles: Article[] = [
     body: [
       {
         id: 'sem-vacina',
-        heading: 'Sem vacina, a proteção é comportamental',
+        heading: 'Sem vacina, a proteção é evitar a picada',
         paragraphs: [
-          'Não há vacina disponível contra o zika, e não existe antiviral específico. Isso significa que reduzir a exposição ao mosquito é a estratégia central.',
+          'Não há vacina disponível contra o zika, e não existe antiviral específico. Isso significa que evitar a picada do mosquito é o essencial.',
           'O Aedes aegypti tem hábitos diurnos, com maior atividade no início da manhã e no fim da tarde. Ele se reproduz em água limpa e parada, em qualquer recipiente, por menor que seja.',
         ],
       },
@@ -743,12 +743,12 @@ export const articles: Article[] = [
         id: 'criadouros',
         heading: 'Criadouros que costumam passar despercebidos',
         bullets: [
-          'Pratos de vasos de plantas e folhagens que acumulam água',
-          'Calhas entupidas e lajes com pontos de acúmulo',
-          'Pneus, baldes, garrafas e brinquedos guardados ao ar livre',
+          'Pratinhos de vasos e qualquer objeto que acumule água',
+          'Calhas entupidas e lajes com água empoçada',
+          'Pneus, baldes, garrafas e brinquedos deixados do lado de fora',
           'Caixas d’água, tonéis e cisternas sem tampa',
-          'Bebedouros de animais e ralos pouco usados',
-          'Reservatórios em imóveis fechados',
+          'Bebedouros de animais e ralos que quase não recebem água',
+          'Reservatórios de imóveis fechados ou abandonados',
         ],
       },
       {
@@ -765,7 +765,7 @@ export const articles: Article[] = [
         id: 'transmissao-sexual',
         heading: 'A via sexual também conta',
         paragraphs: [
-          'Diferente da dengue e da chikungunya, o zika também pode ser transmitido por via sexual. O uso de preservativo é parte da prevenção, sobretudo quando há risco de gestação.',
+          'Ao contrário da dengue e da chikungunya, o zika também pode ser transmitido por via sexual. O uso de preservativo é parte da prevenção, principalmente para gestantes e para quem pode engravidar.',
         ],
         cta: {
           label: 'Leia também: zika na gestação',
@@ -776,7 +776,7 @@ export const articles: Article[] = [
         id: 'o-que-nao-funciona',
         heading: 'O que não substitui a prevenção',
         paragraphs: [
-          'Vitaminas, chás e soluções caseiras não previnem a infecção. O controle do mosquito depende de eliminar criadouros de forma contínua, não de medidas isoladas.',
+          'Vitaminas, chás e soluções caseiras não previnem a infecção. O controle do mosquito exige eliminar criadouros continuamente, não com medidas isoladas.',
         ],
         cta: {
           label: 'Veja o guia de prevenção da dengue, que usa o mesmo mosquito',
@@ -827,20 +827,20 @@ export const articles: Article[] = [
         id: 'regra-de-ouro',
         heading: 'A regra de ouro: febre em área de transmissão',
         paragraphs: [
-          'Em regiões com transmissão de malária, qualquer episódio de febre deve ser investigado no mesmo dia. O exame é simples, feito por gota espessa ou teste rápido, e está disponível no sistema público de saúde.',
-          'O motivo da urgência é prático: o diagnóstico precoce evita a forma grave. Esperar a febre passar é o erro que mais custa.',
+          'Em regiões com transmissão de malária, qualquer episódio de febre deve ser investigado no mesmo dia. O exame é simples, feito por gota espessa ou teste rápido, e está disponível no SUS.',
+          'O motivo da urgência é prático: o diagnóstico precoce reduz muito o risco de forma grave. Esperar a febre passar é o erro que mais custa.',
         ],
       },
       {
         id: 'sinais-de-gravidade',
         heading: 'Sinais de gravidade',
         paragraphs: [
-          'Alguns sinais indicam que a doença evoluiu para a forma grave e configuram emergência:',
+          'Alguns sinais indicam que a doença evoluiu para a forma grave. Nesses casos, é emergência: procure atendimento imediato.',
         ],
         bullets: [
           'Confusão mental, sonolência ou convulsões',
           'Dificuldade para respirar',
-          'Diminuição muito acentuada da urina',
+          'Urinar muito menos que o habitual',
           'Icterícia intensa ou sangramentos',
           'Vômitos persistentes que impedem a hidratação',
           'Fraqueza extrema, com dificuldade de ficar de pé',
@@ -850,14 +850,14 @@ export const articles: Article[] = [
         id: 'por-que-nao-esperar',
         heading: 'Por que não dá para esperar',
         paragraphs: [
-          'A malária causada por Plasmodium falciparum pode evoluir de forma rápida e levar a complicações em poucos dias. É por isso que a recomendação oficial é procurar atendimento diante de febre em área de transmissão, sem tentar tratamento caseiro.',
+          'A malária causada por Plasmodium falciparum pode evoluir de forma rápida e levar a complicações em poucos dias. Por isso, procure atendimento imediato se tiver febre em área de transmissão: ligue para o SAMU (192) ou vá a um pronto atendimento, sem tentar tratamento caseiro.',
         ],
       },
       {
         id: 'tratamento-e-seguimento',
         heading: 'Tratamento e seguimento',
         paragraphs: [
-          'O tratamento é gratuito no sistema público de saúde e depende da espécie do parasito, identificada no exame. Tomar o medicamento pelo tempo indicado é essencial para evitar recaída e resistência.',
+          'O tratamento é gratuito no SUS e depende da espécie do parasito, identificada no exame. Tomar o medicamento pelo tempo indicado é essencial para evitar recaída e resistência.',
         ],
         cta: {
           label: 'Veja a página completa sobre malária',
@@ -902,7 +902,7 @@ export const articles: Article[] = [
         heading: 'Onde está o risco',
         paragraphs: [
           'No Brasil, a transmissão de malária se concentra na Amazônia Legal. O risco é maior em áreas de floresta, de garimpo e de assentamento, sobretudo perto de água limpa e com sombra.',
-          'O mosquito Anopheles, conhecido como mosquito-prego, tem hábito noturno e crepuscular. É por isso que as medidas de proteção se concentram no fim da tarde e à noite.',
+          'O mosquito Anopheles, conhecido como mosquito-prego, pica principalmente do entardecer até a noite. Por isso, as medidas de proteção se concentram nesse período.',
         ],
       },
       {
@@ -930,7 +930,7 @@ export const articles: Article[] = [
         id: 'depois-da-viagem',
         heading: 'Depois de voltar',
         paragraphs: [
-          'A malária pode se manifestar semanas depois da viagem. Se aparecer febre em até um mês após o retorno de uma área de transmissão, procure atendimento e informe o deslocamento, e essa informação muda a investigação.',
+          'A malária pode se manifestar semanas depois da viagem. Se aparecer febre nas semanas e meses seguintes ao retorno de uma área de transmissão, procure atendimento e informe a viagem recente. Essa informação muda a investigação.',
         ],
         cta: {
           label: 'Veja os sintomas na página sobre malária',
@@ -941,7 +941,7 @@ export const articles: Article[] = [
         id: 'o-que-nao-funciona',
         heading: 'O que não funciona',
         paragraphs: [
-          'Vitaminas, chás e repelentes caseiros não substituem as medidas de proteção. Também não existe vacina disponível para uso rotineiro no Brasil, então a prevenção depende de evitar a picada.',
+          'Vitaminas, chás e repelentes caseiros não substituem as medidas de proteção. Também não existe vacina disponível para uso rotineiro no Brasil, e as vacinas em estudo ainda estão em fase de testes clínicos. A prevenção depende de evitar a picada.',
         ],
       },
     ],
@@ -973,7 +973,7 @@ export const articles: Article[] = [
     metaTitle: 'Tosse por mais de três semanas',
     title: 'Tosse por mais de três semanas: quando é sinal de alerta?',
     excerpt:
-      'Tosse persistente é o sintoma mais comum da tuberculose. Três semanas é o limite a partir do qual a investigação deve começar.',
+      'Tosse persistente é o sintoma mais comum da tuberculose. Se a tosse passa de três semanas, é hora de investigar.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
@@ -1000,7 +1000,7 @@ export const articles: Article[] = [
         id: 'como-e-a-investigacao',
         heading: 'Como é a investigação',
         paragraphs: [
-          'A investigação começa na unidade básica de saúde e inclui exames do escarro, como a baciloscopia e o teste rápido molecular, além de radiografia de tórax quando indicada. Tudo é gratuito no sistema público de saúde.',
+          'A investigação começa na unidade básica de saúde e inclui exames do escarro, como a baciloscopia e o teste rápido molecular, além de radiografia de tórax quando indicada. Tudo é gratuito no SUS.',
           'Se houver suspeita, também são avaliadas as pessoas que convivem com o paciente, porque a transmissão acontece pelo ar em ambientes fechados.',
         ],
       },
@@ -1008,7 +1008,7 @@ export const articles: Article[] = [
         id: 'o-que-nao-e',
         heading: 'O que não é sinal de tuberculose',
         paragraphs: [
-          'Tosse que dura poucos dias, geralmente ligada a resfriados e viroses, não indica tuberculose. Espirros e coriza também não são sintomas típicos. O que muda o quadro é a duração.',
+          'Tosse que dura poucos dias, geralmente ligada a resfriados e viroses, não indica tuberculose. Espirros e coriza também não são sintomas típicos. O que muda a suspeita é a duração.',
         ],
       },
       {
@@ -1051,7 +1051,7 @@ export const articles: Article[] = [
     metaTitle: 'Tuberculose: o tratamento tem cura',
     title: 'Tuberculose: o tratamento é gratuito e leva à cura',
     excerpt:
-      'O tratamento da tuberculose dura em geral seis meses, é gratuito no sistema público de saúde e cura a doença quando é seguido até o fim.',
+      'O tratamento da tuberculose dura em geral seis meses, é gratuito no SUS e cura a doença quando é seguido até o fim.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
@@ -1060,7 +1060,7 @@ export const articles: Article[] = [
         heading: 'Como funciona o tratamento',
         paragraphs: [
           'O tratamento usa uma combinação de antibióticos, em geral por seis meses. A combinação é necessária porque a bactéria pode se tornar resistente se for tratada com um único medicamento.',
-          'Os medicamentos são fornecidos gratuitamente pelo sistema público de saúde, e o acompanhamento inclui consultas regulares.',
+          'Os medicamentos são fornecidos gratuitamente pelo SUS, e o acompanhamento inclui consultas regulares.',
         ],
       },
       {
@@ -1075,14 +1075,14 @@ export const articles: Article[] = [
         id: 'transmissao-cai-rapido',
         heading: 'A transmissão cai rápido',
         paragraphs: [
-          'Depois de algumas semanas de tratamento, a pessoa deixa de transmitir a doença. Isso é importante para quem convive com o paciente e mostra por que começar o tratamento cedo protege toda a casa.',
+          'Nas primeiras semanas de tratamento, a transmissão cai muito. Isso protege quem convive com o paciente e mostra por que começar o tratamento cedo protege toda a casa.',
         ],
       },
       {
         id: 'efeitos-e-apoio',
         heading: 'Efeitos do tratamento e apoio',
         paragraphs: [
-          'Alguns medicamentos podem causar efeitos como náusea, alterações na visão ou desconforto. Eles devem ser relatados à equipe de saúde, que pode ajustar a conduta, e nunca abandonar o tratamento por conta própria.',
+          'Alguns medicamentos podem causar efeitos como náusea, alterações na visão ou desconforto. Informe esses efeitos à equipe de saúde, que pode ajustar o tratamento. E nunca pare por conta própria.',
           'O apoio da equipe e da família ajuda na adesão, e é parte do tratamento tanto quanto o medicamento.',
         ],
         cta: {
@@ -1091,10 +1091,10 @@ export const articles: Article[] = [
         },
       },
       {
-        id: 'infecção-latente',
+        id: 'infeccao-latente',
         heading: 'E a infecção latente?',
         paragraphs: [
-          'Quem foi infectado sem adoecer pode ter a chamada infecção latente, sem sintomas e sem transmitir. Nesses casos, o serviço de saúde avalia se há indicação de tratamento preventivo, sobretudo em pessoas com maior risco.',
+          'Quem foi infectado sem adoecer pode ter a chamada infecção latente, sem sintomas e sem transmissão. Nesses casos, o serviço de saúde avalia se há indicação de tratamento preventivo, sobretudo em pessoas com maior risco.',
         ],
         cta: {
           label: 'Entenda a transmissão da tuberculose',
@@ -1128,7 +1128,7 @@ export const articles: Article[] = [
     id: 'hiv-o-que-fazer-nas-primeiras-72-horas',
     slug: 'hiv-o-que-fazer-nas-primeiras-72-horas',
     metaTitle: 'HIV: o que fazer nas primeiras 72 horas',
-    title: 'HIV: o que fazer nas primeiras 72 horas após uma exposição',
+    title: 'HIV: o que fazer nas primeiras 72 horas após uma situação de risco',
     excerpt:
       'Existe uma medida de prevenção que precisa começar em até 72 horas depois de uma situação de risco. Quanto mais cedo, maior a chance de funcionar.',
     category: 'Prevenção',
@@ -1146,16 +1146,15 @@ export const articles: Article[] = [
         id: 'janela-de-72-horas',
         heading: 'A janela de 72 horas',
         paragraphs: [
-          'A PEP precisa ser iniciada o quanto antes e no máximo em até 72 horas depois da exposição. Passado esse prazo, ela deixa de ser indicada, porque a chance de funcionar cai muito.',
+          'A PEP precisa ser iniciada o quanto antes, em até 72 horas depois da exposição. Passado esse prazo, ela deixa de ser indicada, porque a chance de funcionar cai muito.',
           'Depois de iniciada, o uso precisa continuar por todo o período indicado pelo serviço de saúde, em geral 28 dias. Interromper antes reduz a proteção.',
         ],
       },
       {
         id: 'situacoes',
-        heading: 'Situações em que a avaliação é indicada',
+        heading: 'Situações que exigem avaliação imediata',
         bullets: [
-          'Relação sexual sem preservativo ou com preservativo que rompeu',
-          'Rompimento de preservativo com parceiro de sorologia desconhecida',
+          'Relação sexual sem preservativo, ou com preservativo que rompeu, com parceiro de sorologia desconhecida ou que vive com HIV sem tratamento',
           'Compartilhamento de agulhas ou seringas',
           'Acidente com material cortante ou perfurante',
           'Violência sexual, situação em que a busca por atendimento deve ser imediata',
@@ -1165,7 +1164,7 @@ export const articles: Article[] = [
         id: 'onde-procurar',
         heading: 'Onde procurar',
         paragraphs: [
-          'A PEP está disponível gratuitamente no sistema público de saúde, em serviços de urgência e em centros de referência. O atendimento é sigiloso.',
+          'A PEP está disponível gratuitamente no SUS, em serviços de urgência e em centros de referência. O atendimento é sigiloso.',
           'Além da PEP, o serviço avalia a necessidade de outras medidas, como vacinação e testagem para outras infecções.',
         ],
       },
@@ -1173,7 +1172,7 @@ export const articles: Article[] = [
         id: 'depois',
         heading: 'E depois',
         paragraphs: [
-          'O acompanhamento inclui testes ao longo dos meses seguintes, porque uma infecção recente pode não aparecer nos primeiros exames. Manter as consultas é parte do cuidado.',
+          'O acompanhamento inclui testes ao longo dos meses seguintes, porque uma infecção recente pode não aparecer nos primeiros exames. Volte para todas as consultas de acompanhamento: elas fazem parte do cuidado.',
         ],
         cta: {
           label: 'Leia também: indetectável igual a intransmissível',
@@ -1239,7 +1238,7 @@ export const articles: Article[] = [
           'Carga viral indetectável de forma sustentada, confirmada por exames regulares',
           'Tratamento antirretroviral em uso contínuo, sem interrupção',
           'Acompanhamento periódico com o serviço de saúde',
-          'A afirmação se refere à transmissão sexual, não à transmissão por sangue ou por compartilhamento de agulhas',
+          'A afirmação se refere à transmissão sexual, não à transmissão por sangue ou pelo compartilhamento de agulhas',
         ],
       },
       {
@@ -1247,7 +1246,7 @@ export const articles: Article[] = [
         heading: 'Por que isso importa',
         paragraphs: [
           'Além do efeito direto na saúde de quem vive com HIV, o conceito tem um efeito importante contra o estigma: ele desfaz a ideia de que viver com HIV significa necessariamente transmitir o vírus.',
-          'Também reforça por que o tratamento é oferecido a todas as pessoas diagnosticadas, independentemente de contagem de células de defesa.',
+          'Também reforça por que o tratamento é oferecido a todas as pessoas diagnosticadas, independentemente da contagem de células de defesa.',
         ],
       },
       {
@@ -1297,18 +1296,18 @@ export const articles: Article[] = [
         id: 'o-mapa-das-vacinas',
         heading: 'O mapa das vacinas',
         bullets: [
-          'Hepatite A: há vacina, disponível no sistema público de saúde',
-          'Hepatite B: há vacina, disponível para todas as faixas etárias',
-          'Hepatite D: não há vacina específica, mas a vacina contra a hepatite B protege, porque a hepatite D só ocorre em quem já tem hepatite B',
-          'Hepatite C: não há vacina disponível',
-          'Hepatite E: não há vacina disponível',
+          'Contra a hepatite A há vacina, disponível no SUS',
+          'Contra a hepatite B há vacina para todas as faixas etárias',
+          'A hepatite D não tem vacina específica, mas a vacina contra a hepatite B protege, porque a D só ocorre em quem já tem a B',
+          'A hepatite C não tem vacina',
+          'A hepatite E não tem vacina',
         ],
       },
       {
         id: 'por-que-a-b-e-tao-importante',
         heading: 'Por que a vacina contra a hepatite B é tão importante',
         paragraphs: [
-          'A hepatite B é a que tem maior chance de se tornar crônica, e a infecção crônica pode evoluir para cirrose e câncer de fígado. A vacina é a forma mais eficaz de prevenção e está disponível gratuitamente.',
+          'Quando a infecção se torna crônica, a hepatite B pode evoluir para cirrose e câncer de fígado. O risco de cronicidade é maior quanto mais cedo a pessoa se infecta: em bebês, a maioria das infecções se torna crônica. A vacina é a principal forma de prevenção e está disponível gratuitamente no SUS.',
           'Como a hepatite D depende da hepatite B para se estabelecer, vacinar contra a B também elimina o risco da D.',
         ],
       },
@@ -1324,7 +1323,7 @@ export const articles: Article[] = [
         id: 'alem-da-vacina',
         heading: 'Além da vacina',
         bullets: [
-          'Fazer a testagem, disponível gratuitamente no sistema público de saúde',
+          'Fazer a testagem, disponível gratuitamente no SUS',
           'Usar preservativo nas relações sexuais',
           'Não compartilhar objetos de uso pessoal que cortam ou perfuram',
           'Exigir material esterilizado em procedimentos como tatuagem e piercing',
@@ -1339,7 +1338,7 @@ export const articles: Article[] = [
         id: 'onde-vacinar',
         heading: 'Onde se vacinar',
         paragraphs: [
-          'As vacinas estão disponíveis nas unidades básicas de saúde. Como as recomendações por faixa etária e por situação de risco mudam com o tempo, o calendário vigente deve ser consultado na fonte oficial ou na própria unidade de saúde.',
+          'As vacinas estão disponíveis nas unidades básicas de saúde. As recomendações por faixa etária e por situação de risco mudam com o tempo, por isso confirme o calendário vigente na unidade de saúde.',
         ],
         cta: {
           label: 'Consulte o calendário de vacinação',
@@ -1398,7 +1397,7 @@ export const articles: Article[] = [
         id: 'como-e-o-tratamento',
         heading: 'Como é o tratamento',
         paragraphs: [
-          'O tratamento é feito com medicamentos por via oral, por um período definido pelo profissional de saúde, e está disponível gratuitamente no sistema público de saúde.',
+          'O tratamento é feito com medicamentos por via oral, por um período definido pelo profissional de saúde, e está disponível gratuitamente no SUS.',
           'O acompanhamento inclui exames para avaliar a resposta ao tratamento e a condição do fígado. A cura é confirmada por exame depois do fim do tratamento.',
         ],
       },
@@ -1473,14 +1472,14 @@ export const articles: Article[] = [
           'Afaste-se do gatilho, se ele for identificável',
           'Sente-se ereto e mantenha a calma; deitar pode piorar a sensação de falta de ar',
           'Não fume e não fique em ambiente com fumaça',
-          'Se não houver melhora rápida, procure atendimento',
+          'Se não houver melhora rápida, procure uma UPA ou um pronto-socorro',
         ],
       },
       {
         id: 'sinais-de-gravidade',
         heading: 'Sinais de gravidade',
         paragraphs: [
-          'Estes sinais indicam crise grave e exigem atendimento de emergência imediato:',
+          'Estes sinais indicam crise grave. Nesses casos, ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento:',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -1495,7 +1494,7 @@ export const articles: Article[] = [
         id: 'o-que-nao-fazer',
         heading: 'O que não fazer',
         paragraphs: [
-          'Não substitua o medicamento de controle pelo de alívio durante a crise. São medicamentos com funções diferentes: o de alívio abre a via aérea no momento, e o de controle trata a inflamação ao longo do tempo.',
+          'O medicamento de alívio não substitui o de controle no dia a dia. São medicamentos com funções diferentes: o de alívio abre a via aérea no momento, e o de controle trata a inflamação ao longo do tempo.',
           'Também não espere a crise passar sozinha quando há sinais de gravidade.',
         ],
       },
@@ -1503,15 +1502,15 @@ export const articles: Article[] = [
         id: 'depois-da-crise',
         heading: 'Depois da crise',
         paragraphs: [
-          'Uma crise é um sinal de que o controle pode estar inadequado. Vale levar o episódio para a consulta: muitas vezes há ajuste no tratamento de controle, revisão da técnica de uso do inalador ou identificação de um gatilho que passou despercebido.',
+          'Uma crise é um sinal de que o controle pode estar inadequado. Leve esse episódio à próxima consulta: muitas vezes há ajuste no tratamento de controle, revisão da técnica de uso do inalador ou identificação de um gatilho que passou despercebido.',
         ],
         cta: {
-          label: 'Veja a página sobre asma e DPOC',
-          href: '/doencas/asma-e-dpoc/',
+          label: 'Veja a página sobre a asma',
+          href: '/doencas/asma/',
         },
       },
     ],
-    diseaseSlugs: ['asma-e-dpoc'],
+    diseaseSlugs: ['asma'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedArticleSlugs: ['dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro'],
     references: [
@@ -1539,7 +1538,7 @@ export const articles: Article[] = [
     metaTitle: 'DPOC e tabagismo: por que parar',
     title: 'DPOC e tabagismo: por que parar de fumar muda o quadro',
     excerpt:
-      'Na DPOC, parar de fumar é a medida que mais altera a evolução da doença. Entenda o que muda e por que o apoio para parar faz diferença.',
+      'Na DPOC, parar de fumar é a medida que mais muda a evolução da doença. Entenda o que muda e por que o apoio para parar faz diferença.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     body: [
@@ -1547,7 +1546,7 @@ export const articles: Article[] = [
         id: 'relacao',
         heading: 'A relação entre fumo e DPOC',
         paragraphs: [
-          'A DPOC é uma doença progressiva em que as vias aéreas e o tecido dos pulmões são gradualmente destruídos. O tabagismo é o principal fator de risco, e o efeito depende da carga de exposição ao longo dos anos.',
+          'A DPOC é uma doença progressiva, que destrói aos poucos as vias aéreas e o tecido dos pulmões. O tabagismo é o principal fator de risco, e o efeito depende de há quanto tempo e em que quantidade a pessoa fumou.',
           'Não é só o cigarro industrializado: a exposição à fumaça de lenha, de carvão e de outros materiais em ambientes fechados também contribui.',
         ],
       },
@@ -1563,7 +1562,7 @@ export const articles: Article[] = [
         id: 'nao-e-so-vontade',
         heading: 'Não é só questão de vontade',
         paragraphs: [
-          'A dependência da nicotina é uma condição tratável. O sistema público de saúde oferece apoio para quem quer parar, incluindo acompanhamento e, quando indicado, medicamentos.',
+          'A dependência da nicotina é uma condição tratável. O SUS oferece apoio para quem quer parar, incluindo acompanhamento e, quando indicado, medicamentos.',
           'Tentativas anteriores que não deram certo não significam fracasso: a maioria das pessoas que param precisou de mais de uma tentativa.',
         ],
       },
@@ -1571,22 +1570,22 @@ export const articles: Article[] = [
         id: 'outras-medidas',
         heading: 'Outras medidas que ajudam',
         bullets: [
-          'Vacinar-se contra a gripe e outras infecções respiratórias conforme a orientação de saúde',
-          'Usar os medicamentos inalatórios do jeito certo e de forma contínua',
+          'Manter a vacina contra a gripe em dia, conforme a orientação do serviço de saúde',
+          'Usar os medicamentos inalatórios do jeito certo e todos os dias',
           'Participar de reabilitação pulmonar, quando indicada',
           'Evitar a exposição à fumaça de qualquer origem, inclusive passiva',
           'Manter atividade física adaptada à condição, com orientação profissional',
         ],
         cta: {
-          label: 'Veja a página sobre asma e DPOC',
-          href: '/doencas/asma-e-dpoc/',
+          label: 'Veja a página sobre a DPOC',
+          href: '/doencas/dpoc/',
         },
       },
       {
         id: 'quando-procurar',
         heading: 'Quando procurar atendimento',
         paragraphs: [
-          'Procure atendimento se houver piora da falta de ar, mudança no catarro, febre ou necessidade de usar o medicamento de alívio com mais frequência. Dificuldade para falar, lábios azulados ou sonolência são emergência.',
+          'Procure atendimento se houver piora da falta de ar, mudança no catarro, febre ou necessidade de usar o medicamento de alívio com mais frequência. Dificuldade para falar, lábios azulados ou sonolência são emergência: ligue para o SAMU (192).',
         ],
         cta: {
           label: 'Leia também: o que fazer em uma crise de asma',
@@ -1594,7 +1593,7 @@ export const articles: Article[] = [
         },
       },
     ],
-    diseaseSlugs: ['asma-e-dpoc'],
+    diseaseSlugs: ['dpoc'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedArticleSlugs: ['asma-crise-o-que-fazer-enquanto-espera-atendimento'],
     references: [
@@ -1633,7 +1632,7 @@ export const articles: Article[] = [
         ],
         bullets: [
           'Dor ou aperto no peito, com sensação de peso',
-          'Dor que irradia para braço, pescoço, mandíbula ou costas',
+          'Dor que irradia para o braço, o pescoço, a mandíbula ou as costas',
           'Suor frio e palidez',
           'Falta de ar',
           'Náusea ou vômito',
@@ -1653,7 +1652,7 @@ export const articles: Article[] = [
         heading: 'O que fazer diante da suspeita',
         bullets: [
           'Chame ajuda imediatamente pelo SAMU, no número 192',
-          'Não dirija você mesmo, se houver outra pessoa disponível',
+          'Não vá ao hospital dirigindo você mesmo: peça carona a alguém ou aguarde o SAMU',
           'Não espere os sintomas passarem para procurar atendimento',
           'Não tome medicamento por conta própria',
           'Anote o horário em que os sintomas começaram',
@@ -1705,7 +1704,7 @@ export const articles: Article[] = [
     slug: 'avc-como-reconhecer-os-sinais-e-agir-rapido',
     title: 'AVC: como reconhecer os sinais e agir rápido',
     excerpt:
-      'Fraqueza de um lado do corpo, boca torta e dificuldade para falar são os sinais mais comuns do AVC. Reconhecer rápido é o que permite tratamento em tempo.',
+      'Fraqueza de um lado do corpo, boca torta e dificuldade para falar são os sinais mais comuns do AVC. Reconhecer rápido é o que permite tratar a tempo.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     body: [
@@ -1737,7 +1736,7 @@ export const articles: Article[] = [
         heading: 'Um teste rápido que qualquer pessoa pode fazer',
         paragraphs: [
           'Diante da suspeita, três perguntas simples ajudam a identificar o AVC: peça para a pessoa sorrir e observe se um lado do rosto não se move; peça para levantar os dois braços e veja se um cai; peça para repetir uma frase simples e observe se a fala sai arrastada ou confusa.',
-          'Qualquer alteração em uma dessas três é motivo para chamar ajuda imediatamente. O teste não descarta o AVC quando está normal, mas ajuda a não deixar passar o caso típico.',
+          'Qualquer alteração em um desses três sinais é motivo para chamar ajuda imediatamente. O teste não descarta o AVC quando está normal, mas ajuda a não deixar passar o caso típico.',
         ],
       },
       {
@@ -1755,7 +1754,7 @@ export const articles: Article[] = [
         id: 'prevencao',
         heading: 'Como reduzir o risco',
         paragraphs: [
-          'A hipertensão é o principal fator de risco para o AVC. Controlar a pressão ao longo dos anos, tratar o diabetes, não fumar e manter a medicação em dia são as medidas com maior impacto.',
+          'A hipertensão é o principal fator de risco para o AVC. Controlar a pressão ao longo dos anos, tratar o diabetes, não fumar e manter a medicação em dia são as medidas que mais reduzem o risco.',
         ],
         cta: {
           label: 'Entenda a hipertensão na página completa',

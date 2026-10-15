@@ -118,7 +118,7 @@ export const topics: Topic[] = [
       'Complicações e como reduzi-las',
       'Emergências cardiovasculares e como reconhecê-las',
     ],
-    diseaseSlugs: ['diabetes', 'hipertensao', 'asma-e-dpoc', 'infarto-e-avc'],
+    diseaseSlugs: ['diabetes', 'hipertensao', 'asma', 'dpoc', 'infarto-e-avc'],
     articleSlugs: [
       'diabetes-tipo-2-o-que-muda-no-dia-a-dia',
       'hipertensao-como-medir-a-pressao-em-casa',

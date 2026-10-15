@@ -129,6 +129,10 @@ const schemaNodes: Record<string, unknown>[] = [
           <ReferenceList lang={lang} references={article.references} />
         </div>
 
+        <p class="mt-8 max-w-2xl border-l-2 border-line pl-4 text-[0.85rem] leading-relaxed text-ink-muted">
+          {t.common.disclaimer}
+        </p>
+
         <section class="mt-14 max-w-2xl rounded-xl border border-line bg-surface p-6" aria-labelledby="correcao">
           <h2 id="correcao" class="text-[1.05rem] font-semibold tracking-tight">
             {t.articlePage.errorOnArticle}
