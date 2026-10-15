@@ -104,6 +104,8 @@ const pt = {
     topicInPreparation: 'Tema em preparação',
     relatedTopics: 'Temas relacionados',
     relatedArticles: 'Artigos relacionados',
+    disclaimer:
+      'Este conteúdo é informativo e não substitui uma consulta médica, um exame físico nem a orientação individual de um profissional de saúde. Em caso de sintomas ou dúvidas, procure uma unidade de saúde.',
   },
 
   search: {
@@ -374,6 +376,8 @@ const zh: UI = {
     topicInPreparation: '主題籌備中',
     relatedTopics: '相關主題',
     relatedArticles: '相關文章',
+    disclaimer:
+      '本站內容僅供健康資訊參考，不能取代醫師的問診、身體檢查與個人化建議。如有症狀或疑慮，請至醫療院所就醫。',
   },
 
   search: {

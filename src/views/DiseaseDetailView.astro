@@ -156,6 +156,10 @@ const title = `${disease.metaTitle ?? `${disease.name}: ${t.diseasePage.titleSuf
           <ReferenceList lang={lang} references={disease.references} />
         </div>
 
+        <p class="mt-8 max-w-2xl border-l-2 border-line pl-4 text-[0.85rem] leading-relaxed text-ink-muted">
+          {t.common.disclaimer}
+        </p>
+
         {
           relatedArticles.length > 0 && (
             <section class="mt-14 max-w-2xl" aria-labelledby="artigos-relacionados">

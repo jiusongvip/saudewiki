@@ -96,7 +96,7 @@ export const zhDiseasesA: Record<string, LocalizedDisease> = {
       {
         question: '有預防登革熱的疫苗嗎？',
         answer:
-          '巴西已有核准使用的疫苗，但接種對象取決於衛生主管機關設定的條件，且疫苗不能取代病媒蚊管制。請洽您所在地區的醫療衛生機構。',
+          '巴西公共衛生系統（SUS）確實提供登革熱疫苗，但接種對象與地區依衛生部設定的策略而定，且會隨時間調整。疫苗不能取代減少蚊子孳生的措施。請向您所在地區的基本衛生單位（UBS）確認。',
       },
     ],
     references: [
@@ -208,6 +208,11 @@ export const zhDiseasesA: Record<string, LocalizedDisease> = {
       {
         question: '得過屈公病還會再得嗎？',
         answer: '感染後通常會產生長久的免疫力。但蚊子仍會傳播其他疾病，例如登革熱與茲卡病毒，風險依然存在。',
+      },
+      {
+        question: '有預防屈公病的疫苗嗎？',
+        answer:
+          '有。巴西國家衛生監管理局（Anvisa）已核准一款屈公病疫苗，適用年齡為 18 至 59 歲，其在公共衛生系統的逐步導入仍在進行中。請向您所在地區的醫療衛生機構確認是否已對您開放。',
       },
     ],
     references: [
@@ -482,7 +487,7 @@ export const zhDiseasesA: Record<string, LocalizedDisease> = {
         heading: '如何診斷？',
         paragraphs: [
           '檢查從持續咳嗽開始，包括痰液檢驗，例如抗酸菌塗片檢查與分子快速檢測，以及在有指徵時安排胸部X光檢查。這些都在巴西公共衛生系統（SUS）中免費提供。',
-          '早期診斷正是中斷傳播鏈的關鍵，因為接受治療的人在數週後即不再傳播疾病。',
+          '早期診斷正是中斷傳播鏈的關鍵，因為開始治療後的數週內，傳播力會大幅下降。',
         ],
       },
       {
@@ -527,7 +532,7 @@ export const zhDiseasesA: Record<string, LocalizedDisease> = {
       },
       {
         question: '與肺結核患者相處危險嗎？',
-        answer: '接受治療數週後，患者就不再傳播此病。與確診病例密切接觸的人應由醫療衛生機構評估。',
+        answer: '接受治療後的數週內，傳播風險會大幅下降。與確診病例密切接觸的人應由醫療衛生機構評估。',
       },
     ],
     references: [

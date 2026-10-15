@@ -156,7 +156,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         id: 'transmissao-cai-rapido',
         heading: '傳播很快下降',
         paragraphs: [
-          '接受治療數週後，患者便不再傳播疾病。這對同住者極為重要，也說明了為何盡早開始治療能保護整個家庭。',
+          '接受治療數週後，傳播力會大幅下降。這對同住者極為重要，也說明了為何盡早開始治療能保護整個家庭。',
         ],
       },
       {
@@ -169,7 +169,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         ctaLabel: '肺結核完整頁面請見這裡',
       },
       {
-        id: 'infecção-latente',
+        id: 'infeccao-latente',
         heading: '潛伏感染呢？',
         paragraphs: [
           '已感染但未發病的人，可能處於所謂的潛伏感染狀態：沒有症狀，也不會傳播。在這些情況下，衛生機構會評估是否有預防性治療的指徵，尤其是風險較高的人。',
@@ -341,7 +341,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         id: 'por-que-a-b-e-tao-importante',
         heading: '為何 B 型肝炎疫苗如此重要',
         paragraphs: [
-          'B 型肝炎轉為慢性的可能性最高，而慢性感染可能進展為肝硬化與肝癌。疫苗是最有效的預防方式，且免費提供。',
+          '當感染轉為慢性，B 型肝炎可能進展為肝硬化與肝癌。感染年齡越早，慢性化的風險越高：嬰兒的感染多數會轉為慢性。疫苗是主要的預防方式，且在巴西公共衛生系統（SUS）免費提供。',
           '由於 D 型肝炎必須依賴 B 型肝炎才能發生，接種 B 型肝炎疫苗也一併消除了 D 型肝炎的風險。',
         ],
       },
