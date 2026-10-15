@@ -691,6 +691,15 @@ html[lang^="zh"] .prose-editorial {
     min-height: 100svh;
     padding-top: 4.75rem;
   }
+
+  /* The two closing sheets hold a paragraph and four short cards, not a map or
+     a wall of photographs, so a viewport's worth of height has nothing to put in
+     it. The panel's own background ends up holding the difference, which reads
+     as a hole. These two keep the grout and the full-bleed edge and drop only
+     the promise that each one fills a screen. */
+  .screen + .screen.screen-tight {
+    min-height: 0;
+  }
 }
 
 /*
