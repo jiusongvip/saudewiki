@@ -11,7 +11,7 @@ import type { Locale } from '../types';
 
 interface Props {
   lang: Locale;
-  /** The slug of one of the four institutional pages in `data/pages.ts`. */
+  /** The slug of one of the institutional pages in `data/pages.ts`. */
   slug: string;
 }
 
@@ -25,9 +25,11 @@ const routeFor = (value: string) =>
     ? c.urls.about()
     : value === 'politica-editorial'
       ? c.urls.editorial()
-      : value === 'politica-de-privacidade'
-        ? c.urls.privacy()
-        : c.urls.contact();
+      : value === 'aviso-medico'
+        ? c.urls.medicalDisclaimer()
+        : value === 'politica-de-privacidade'
+          ? c.urls.privacy()
+          : c.urls.contact();
 
 const page = c.getPage(slug);
 if (!page) throw new Error(`Static page "${slug}" is not available in ${lang}`);

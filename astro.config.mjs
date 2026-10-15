@@ -8,7 +8,7 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     sitemap({
-      lastmod: new Date('2026-10-13'),
+      lastmod: new Date('2026-10-15'),
       filter: (page) => !page.includes('/busca/'),
       // Both languages use the same slugs, so a locale is the leading path
       // segment: `pt-BR` has none and `zh-Hant` is its own prefix. The

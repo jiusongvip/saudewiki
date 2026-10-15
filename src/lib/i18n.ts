@@ -95,6 +95,7 @@ export function urlsFor(lang: Locale) {
     search: (q?: string) => (q ? `${p('/busca/')}?q=${encodeURIComponent(q)}` : p('/busca/')),
     about: () => p('/sobre/'),
     editorial: () => p('/politica-editorial/'),
+    medicalDisclaimer: () => p('/aviso-medico/'),
     privacy: () => p('/politica-de-privacidade/'),
     contact: () => p('/contato/'),
   };

@@ -134,6 +134,107 @@ export const staticPages: StaticPage[] = [
     ],
   },
   {
+    slug: 'aviso-medico',
+    title: 'Aviso médico',
+    description:
+      'Nada aqui é orientação médica. Veja o que não fazer com o conteúdo do Saudewiki, quando procurar atendimento e até onde vai a responsabilidade do projeto.',
+    h1: 'Aviso médico',
+    intro:
+      'Este aviso diz o que fazer e o que não fazer com o que você lê aqui, e até onde vai a responsabilidade do projeto. Ele não repete a descrição do site: isso está na [página sobre o projeto](/sobre/).',
+    notice: {
+      title: 'Em caso de emergência, não use este site',
+      body: 'Ligue para o SAMU pelo 192 ou vá até o serviço de saúde mais próximo. Para orientações gerais do Ministério da Saúde, o Disque Saúde atende pelo 136.',
+    },
+    sections: [
+      {
+        id: 'nao-e-aviso-medico',
+        heading: 'Este conteúdo não é orientação médica',
+        paragraphs: [
+          'Nada nesta página ou nas outras constitui consulta, diagnóstico, prescrição ou plano de tratamento. O texto foi escrito para um leitor genérico, não para o seu caso, e não substitui a avaliação de um profissional habilitado nem o atendimento presencial.',
+        ],
+      },
+      {
+        id: 'o-que-nao-fazer',
+        heading: 'O que não fazer com este conteúdo',
+        bullets: [
+          'Não use as páginas para se autodiagnosticar nem para descartar uma hipótese de doença.',
+          'Não comece, não altere a dose e não interrompa um medicamento por conta própria.',
+          'Não adie uma consulta ou um exame já indicado porque a leitura pareceu tranquilizadora.',
+          'Não use o site no lugar de uma consulta já agendada.',
+          'Não use o conteúdo para orientar o tratamento de outra pessoa.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Medicamentos exigem prescrição',
+        paragraphs: [
+          'As páginas de doenças citam classes de medicamentos de forma geral, para explicar como a doença costuma ser tratada. Citar não é recomendar, e nada aqui é indicação de uso.',
+          'Todo medicamento tem efeitos adversos e interações. Escolha, dose e duração dependem do seu peso, dos seus exames e de outros remédios que você já toma. Só quem prescreve pode decidir isso.',
+        ],
+      },
+      {
+        id: 'alto-risco',
+        heading: 'Doenças graves e situações de risco',
+        paragraphs: [
+          'Algumas páginas tratam de quadros em que a demora custa caro, como dengue grave, infarto, AVC, HIV e tuberculose. O texto descreve a doença em geral; ele não sabe nada sobre o seu caso.',
+          'Reconhecer em si mesmo os sinais descritos não confirma nem descarta nada. Quem pode examinar você é um profissional de saúde, e é a ele que a decisão cabe.',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: 'Sinais que pedem atendimento imediato',
+        paragraphs: [
+          'Estes sinais não devem ser avaliados por leitura: procure atendimento na hora, sem passar pelo site antes.',
+        ],
+        bullets: [
+          'Falta de ar ou dor no peito.',
+          'Desmaio ou perda de consciência.',
+          'Sangramento que não para.',
+          'Confusão mental ou pensamentos de se ferir.',
+        ],
+      },
+      {
+        id: 'fontes-e-tempo',
+        heading: 'Fontes e defasagem',
+        paragraphs: [
+          'O conteúdo é organizado a partir de documentos públicos de instituições como o Ministério da Saúde, a Fiocruz e a Organização Mundial da Saúde. Ainda assim, a medicina muda e a política pública também: uma página correta na data da publicação pode ficar desatualizada depois.',
+          'Antes de agir com base em algo que você leu aqui, confirme no canal oficial: o site do Ministério da Saúde, a unidade de saúde mais próxima ou o Disque Saúde, pelo 136.',
+        ],
+      },
+      {
+        id: 'sem-garantias',
+        heading: 'Nenhuma garantia, expressa ou implícita',
+        paragraphs: [
+          'Não garantimos, de forma expressa nem implícita, que o conteúdo seja exato, completo, atual ou adequado a uma finalidade específica.',
+          'O site é oferecido no estado em que se encontra. O acesso pode ser interrompido, e páginas podem ser alteradas ou removidas sem aviso.',
+        ],
+      },
+      {
+        id: 'responsabilidade',
+        heading: 'Limitação de responsabilidade',
+        paragraphs: [
+          'Não nos responsabilizamos por danos diretos ou indiretos decorrentes do uso, da confiança depositada ou da impossibilidade de uso deste site, nem por decisões de saúde tomadas a partir do que está publicado aqui.',
+          'Aplicar qualquer informação ao próprio caso é decisão de quem lê. Nada neste aviso afasta direitos previstos na legislação brasileira, inclusive os da Lei Geral de Proteção de Dados (LGPD).',
+        ],
+      },
+      {
+        id: 'outras-paginas',
+        heading: 'Onde está o resto',
+        paragraphs: [
+          'Quem escreve o site, o que ele declara não ser e quais são os limites atuais do projeto estão na [página sobre o projeto](/sobre/). Como o conteúdo é escrito, referenciado e corrigido está na [política editorial](/politica-editorial/). Este aviso não repete nenhum dos dois.',
+        ],
+      },
+      {
+        id: 'contato',
+        heading: 'Encontrou um erro neste aviso?',
+        paragraphs: [
+          'Escreva pela [página de contato](/contato/). Correções de texto legal são avaliadas como qualquer outra correção de conteúdo.',
+        ],
+      },
+    ],
+    updatedAt: '2026-10-15',
+  },
+  {
     slug: 'politica-de-privacidade',
     title: 'Política de privacidade',
     description:
