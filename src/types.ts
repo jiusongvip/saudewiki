@@ -153,6 +153,13 @@ export interface BodyRegion {
   description: string;
   diseaseSlugs: string[];
   /**
+   * Two prose blocks that make a region page useful even when the encyclopedia
+   * has no entry for that place yet: what usually goes wrong with this part
+   * worldwide, and what is typical (and why) in Portuguese-speaking countries.
+   */
+  globalOverview: string[];
+  lusophoneOverview: string[];
+  /**
    * Marker position as a percentage of the anatomy figure's own box, so it
    * survives any rendered size. Measured against `public/img/anatomia-corpo.webp`.
    */
@@ -225,6 +232,8 @@ export interface LocalizedTopic {
 export interface LocalizedRegion {
   name: string;
   description: string;
+  globalOverview?: string[];
+  lusophoneOverview?: string[];
 }
 
 /**

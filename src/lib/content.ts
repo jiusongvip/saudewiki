@@ -135,7 +135,13 @@ function localizeRegion(region: BodyRegion, lang: Locale): BodyRegion {
   if (lang === 'pt-BR') return region;
   const zh = zhRegions[region.slug];
   if (!zh) return region;
-  return { ...region, name: zh.name, description: zh.description };
+  return {
+    ...region,
+    name: zh.name,
+    description: zh.description,
+    globalOverview: zh.globalOverview ?? region.globalOverview,
+    lusophoneOverview: zh.lusophoneOverview ?? region.lusophoneOverview,
+  };
 }
 
 function localizePage(page: StaticPage, lang: Locale): StaticPage {
