@@ -245,7 +245,7 @@ const pt = {
       'As causas mudam de lugar para lugar: o AVC reflete a hipertensão de cada população, a diarreia reflete o acesso a água tratada, e a tuberculose reflete a velocidade com que um diagnóstico é encontrado. É por isso que a perspectiva lusófona vem logo depois da mundial.',
       'Na prática: o mapa ajuda a localizar a parte do corpo, os cartões mostram o que já está publicado em cada região, e a busca encontra qualquer texto pelo nome, inclusive os que pertencem a mais de uma região.',
     ],
-    guideRegionsHeading: 'As doze regiões, uma linha para cada',
+    guideRegionsHeading: 'O que abrange cada região',
     schemaName: 'Por região do corpo',
     allDiseasesHeading: 'As doenças do dia a dia',
     allDiseasesLead:
@@ -513,7 +513,7 @@ const zh: UI = {
       '病因會因地方而異：中風反映一個人群的高血壓控制情形，腹瀉反映自來水的普及率，結核病反映診斷被找到的速度。這就是為什麼葡語系國家的視角緊接在全球視角之後。',
       '實際使用時：地圖幫您找到身體的部位，上方的卡片顯示每個部位已發布的內容，搜尋則可按名稱找到任何文字，包括同時屬於幾個部位的疾病。',
     ],
-    guideRegionsHeading: '十二個部位，各用一行說明',
+    guideRegionsHeading: '各部位涵蓋的範圍',
     schemaName: '依身體部位',
     allDiseasesHeading: '日常生活中會得的疾病',
     allDiseasesLead: '人在日常生活中會生病，可能會得的疾病大致如下：',
