@@ -47,6 +47,10 @@ export const zhImageAlts: Record<string, string> = {
   'asma-tratamento-e-controle': '透明霧化面罩與白色霧化器',
   'asma-como-evitar-crises': '戴著黃色手套打掃的婦女',
   'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro': '擱在紙鈔上已熄滅的香煙',
+  'dpoc-sinais-de-alerta-quando-procurar-atendimento': '戴著霧化面罩的小孩',
+  'dpoc-como-e-diagnosticada': '在螢幕旁對著肺功能儀器吹氣的人',
+  'dpoc-tratamento-e-cuidados': '手中拿著霧化面罩',
+  'dpoc-como-prevenir-crises-e-o-papel-das-vacinas': '醫護人員為患者手臂注射疫苗',
   'infarto-quais-sao-os-sinais-e-o-que-fazer': '印在心電圖紙上的波形',
   'avc-como-reconhecer-os-sinais-e-agir-rapido': '白色檯面上的聽診器',
 

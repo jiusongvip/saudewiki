@@ -81,6 +81,7 @@ export const topics: Topic[] = [
       'diabetes',
       'hipertensao',
       'asma',
+      'dpoc',
       'infarto-e-avc',
     ],
     articleSlugs: [
@@ -92,6 +93,7 @@ export const topics: Topic[] = [
       'hepatites-virais-quais-tem-vacina',
       'hipertensao-como-medir-a-pressao-em-casa',
       'asma-como-evitar-crises',
+      'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
     ],
     references: [
       {
@@ -130,6 +132,10 @@ export const topics: Topic[] = [
       'asma-tratamento-e-controle',
       'asma-como-evitar-crises',
       'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
+      'dpoc-sinais-de-alerta-quando-procurar-atendimento',
+      'dpoc-como-e-diagnosticada',
+      'dpoc-tratamento-e-cuidados',
+      'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
       'infarto-quais-sao-os-sinais-e-o-que-fazer',
       'avc-como-reconhecer-os-sinais-e-agir-rapido',
     ],

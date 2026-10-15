@@ -1601,7 +1601,13 @@ export const articles: Article[] = [
     ],
     diseaseSlugs: ['dpoc'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
-    relatedArticleSlugs: ['asma-crise-o-que-fazer-enquanto-espera-atendimento'],
+    relatedArticleSlugs: [
+      'asma-crise-o-que-fazer-enquanto-espera-atendimento',
+      'dpoc-sinais-de-alerta-quando-procurar-atendimento',
+      'dpoc-como-e-diagnosticada',
+      'dpoc-tratamento-e-cuidados',
+      'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
+    ],
     references: [
       {
         label: 'Chronic obstructive pulmonary disease (COPD): fact sheet',
@@ -1618,7 +1624,350 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-15',
+    isPlaceholder: true,
+  },
+  {
+    id: 'dpoc-sinais-de-alerta-quando-procurar-atendimento',
+    slug: 'dpoc-sinais-de-alerta-quando-procurar-atendimento',
+    metaTitle: 'DPOC: sinais de alerta',
+    title: 'DPOC: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'Falta de ar que piora rápido, catarro mais escuro ou febre podem indicar uma exacerbação da DPOC. Saiba o que é sinal de alerta e o que é emergência.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-uma-crise',
+        heading: 'O que é uma exacerbação',
+        paragraphs: [
+          'A exacerbação da DPOC é uma piora súbita dos sintomas que dura dois dias ou mais e não melhora sozinha. A falta de ar aumenta, o catarro fica mais abundante ou mais escuro e pode aparecer febre.',
+          'Na maioria dos casos, uma infecção respiratória é o gatilho. Também podem disparar uma crise a exposição à fumaça e à poeira, a poluição do ar e a interrupção do tratamento.',
+        ],
+      },
+      {
+        id: 'sinais-de-piora',
+        heading: 'Sinais de que a doença piorou',
+        paragraphs: [
+          'Alguns sinais indicam que a DPOC saiu do controle e merece avaliação:',
+        ],
+        bullets: [
+          'Mais falta de ar para atividades que antes eram fáceis',
+          'Necessidade de usar o medicamento de alívio com mais frequência',
+          'Catarro mais escuro, mais espesso ou em maior quantidade',
+          'Febre, mais tosse e mais chiado do que o habitual',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Se a piora durar dois dias ou mais, procure a unidade de saúde onde a doença é acompanhada ou um pronto atendimento. A avaliação precoce evita que a crise se agrave.',
+          'Quanto mais cedo a exacerbação é tratada, menor o risco de internação. O tratamento costuma incluir reforço dos broncodilatadores e, quando indicado, corticoide e antibiótico.',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Procure um pronto atendimento ou ligue para o SAMU (192) imediatamente se houver:',
+        ],
+        bullets: [
+          'Dificuldade para falar frases completas',
+          'Uso visível da musculatura do pescoço e das costelas para respirar',
+          'Lábios ou pontas dos dedos azulados',
+          'Sonolência ou confusão durante a piora',
+          'Falta de resposta ao medicamento de alívio',
+          'Piora progressiva apesar do tratamento habitual',
+        ],
+        cta: {
+          label: 'Veja a página sobre a DPOC',
+          href: '/doencas/dpoc/',
+        },
+      },
+    ],
+    diseaseSlugs: ['dpoc'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
+      'dpoc-como-e-diagnosticada',
+      'dpoc-tratamento-e-cuidados',
+      'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
+    ],
+    references: [
+      {
+        label: 'Doença pulmonar obstrutiva crônica (DPOC): folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas da DPOC',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/20220912_PCDT_Resumido_DPOC_final.pdf/@@download/file',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
+    isPlaceholder: true,
+  },
+  {
+    id: 'dpoc-como-e-diagnosticada',
+    slug: 'dpoc-como-e-diagnosticada',
+    title: 'DPOC: como é feito o diagnóstico',
+    excerpt:
+      'A espirometria é o exame que confirma a DPOC. Entenda como o diagnóstico é feito, o que o exame mede e por que ele é importante.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'como-e-confirmado',
+        heading: 'Como o diagnóstico é confirmado',
+        paragraphs: [
+          'O diagnóstico da DPOC não é feito apenas pelos sintomas. Ele se apoia na história clínica, no exame físico e em um exame de função pulmonar chamado espirometria.',
+          'A espirometria é obrigatória para confirmar a doença e é o exame que permite diferenciar a DPOC da asma e de outras condições.',
+        ],
+      },
+      {
+        id: 'espirometria',
+        heading: 'A espirometria',
+        paragraphs: [
+          'No exame, a pessoa sopra em um aparelho, com força, depois de uma inspiração profunda. As medidas são repetidas antes e depois de um medicamento broncodilatador.',
+          'Na DPOC, a relação entre o volume expirado no primeiro segundo (VEF1) e a capacidade vital forçada (CVF) continua abaixo de 0,70 depois do broncodilatador. Isso indica uma obstrução que não se reverte completamente e ajuda a afastar a asma, em que a melhora costuma ser maior.',
+        ],
+      },
+      {
+        id: 'outros-exames',
+        heading: 'Outros exames que ajudam',
+        paragraphs: [
+          'Além da espirometria, outros exames podem ser pedidos para avaliar a gravidade e outras condições:',
+        ],
+        bullets: [
+          'Radiografia de tórax, para afastar outras doenças',
+          'Tomografia de tórax, quando o quadro sugere outras condições',
+          'Oximetria de pulso e, em casos selecionados, gasometria, para avaliar o oxigênio no sangue',
+          'Testes de esforço ou de caminhada, quando é preciso medir a tolerância ao exercício',
+        ],
+      },
+      {
+        id: 'quando-suspeitar',
+        heading: 'Quando suspeitar e procurar avaliação',
+        paragraphs: [
+          'Procure avaliação se tiver sintomas respiratórios persistentes e algum fator de risco, como:',
+        ],
+        bullets: [
+          'Falta de ar que surgiu aos poucos e piora com esforço',
+          'Tosse com catarro por várias semanas ou meses',
+          'História de tabagismo ou de exposição prolongada a poeira e fumaça',
+          'Infecções respiratórias de repetição',
+        ],
+        cta: {
+          label: 'Veja a página sobre a DPOC',
+          href: '/doencas/dpoc/',
+        },
+      },
+    ],
+    diseaseSlugs: ['dpoc'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
+      'dpoc-sinais-de-alerta-quando-procurar-atendimento',
+      'dpoc-tratamento-e-cuidados',
+      'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
+    ],
+    references: [
+      {
+        label: 'Doença pulmonar obstrutiva crônica (DPOC): folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas da DPOC',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/20220912_PCDT_Resumido_DPOC_final.pdf/@@download/file',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
+    isPlaceholder: true,
+  },
+  {
+    id: 'dpoc-tratamento-e-cuidados',
+    slug: 'dpoc-tratamento-e-cuidados',
+    title: 'DPOC: tratamento e cuidados no dia a dia',
+    excerpt:
+      'O tratamento da DPOC combina medicamentos inalatórios, reabilitação pulmonar e mudanças no dia a dia. Veja o que faz parte do cuidado contínuo.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'tratamento-continuo',
+        heading: 'O tratamento é contínuo',
+        paragraphs: [
+          'A DPOC não tem cura, mas tem tratamento. O objetivo é aliviar os sintomas, melhorar a respiração, reduzir as crises e manter a qualidade de vida.',
+          'O tratamento combina medicamentos, reabilitação pulmonar e mudanças no estilo de vida. Ele é ajustado ao longo do tempo, conforme os sintomas e as crises de cada pessoa.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Medicamentos inalatórios',
+        paragraphs: [
+          'A base do tratamento são os broncodilatadores por via inalatória. Em situações específicas, a equipe de saúde pode indicar outras classes, como o corticoide inalatório.',
+          'Os medicamentos de manutenção são usados todos os dias, mesmo quando a pessoa está bem. Os medicamentos de alívio servem para episódios de falta de ar e não substituem o tratamento de manutenção.',
+        ],
+      },
+      {
+        id: 'tecnica-do-inalador',
+        heading: 'A técnica do inalador',
+        paragraphs: [
+          'Usar o inalador do jeito certo é decisivo: com a técnica errada, o medicamento não chega aos pulmões.',
+        ],
+        bullets: [
+          'Levar o inalador nas consultas, para revisar a técnica',
+          'Seguir o tempo de espera e o número de inalações indicados para o seu dispositivo',
+          'Usar espaçador, se for orientado, para facilitar a chegada do medicamento',
+          'Enxaguar a boca depois dos inaladores que contêm corticoide',
+        ],
+      },
+      {
+        id: 'reabilitacao-e-oxigenio',
+        heading: 'Reabilitação e oxigênio',
+        paragraphs: [
+          'A reabilitação pulmonar inclui exercícios, educação em saúde e apoio para conviver melhor com a falta de ar. Ela melhora a tolerância ao esforço e a qualidade de vida.',
+          'Pessoas com baixa de oxigênio no sangue podem precisar de oxigenoterapia em casa, usada por pelo menos 15 horas por dia. A indicação é feita a partir de exames.',
+        ],
+      },
+      {
+        id: 'dia-a-dia',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: ['Alguns hábitos fazem parte do cuidado contínuo:'],
+        bullets: [
+          'Manter as vacinas em dia, conforme a orientação do serviço de saúde',
+          'Manter atividade física adaptada à condição, com orientação profissional',
+          'Praticar exercícios de respiração, como a respiração com os lábios franzidos',
+          'Manter a casa ventilada e livre de fumaça, poeira e mofo',
+          'Manter as consultas regulares e não abandonar o tratamento nos períodos sem sintomas',
+        ],
+        cta: {
+          label: 'Veja a página sobre a DPOC',
+          href: '/doencas/dpoc/',
+        },
+      },
+    ],
+    diseaseSlugs: ['dpoc'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
+      'dpoc-sinais-de-alerta-quando-procurar-atendimento',
+      'dpoc-como-e-diagnosticada',
+      'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
+    ],
+    references: [
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas da DPOC',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/20220912_PCDT_Resumido_DPOC_final.pdf/@@download/file',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Tabagismo: orientações e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tabagismo',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
+    isPlaceholder: true,
+  },
+  {
+    id: 'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
+    slug: 'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
+    metaTitle: 'DPOC: como prevenir crises',
+    title: 'DPOC: como prevenir crises e o papel das vacinas',
+    excerpt:
+      'Vacinas em dia, evitar a fumaça e seguir o tratamento ajudam a reduzir as crises de DPOC. Veja o que está ao seu alcance.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'vacinas',
+        heading: 'Vacinas que ajudam',
+        paragraphs: [
+          'Quem tem DPOC faz parte do grupo prioritário para a vacina contra a gripe, oferecida todos os anos. A infecção pelo vírus influenza aumenta o risco de crises e de complicações.',
+          'Há outras vacinas indicadas, como a do pneumococo e a da covid-19. A equipe de saúde orienta o calendário mais adequado para cada pessoa.',
+        ],
+        bullets: [
+          'Vacina contra a gripe: todos os anos, conforme a campanha nacional',
+          'Vacina contra a covid-19: conforme a orientação local',
+          'Vacina contra o pneumococo: indicada para pessoas com condições respiratórias crônicas',
+        ],
+      },
+      {
+        id: 'evitar-gatilhos',
+        heading: 'Evitar os gatilhos',
+        paragraphs: [
+          'Boa parte das crises é disparada por infecções e por irritantes que podem ser evitados:',
+        ],
+        bullets: [
+          'Não fumar e evitar a fumaça do tabaco em casa e no trabalho',
+          'Evitar fumaça de lenha, carvão e outros materiais em ambientes fechados',
+          'Reduzir a exposição a poeira, mofo e produtos de limpeza irritantes',
+          'Lavar as mãos com frequência e evitar contato com pessoas gripadas',
+        ],
+      },
+      {
+        id: 'tratamento-em-dia',
+        heading: 'Manter o tratamento em dia',
+        paragraphs: [
+          'Seguir o tratamento todos os dias, mesmo quando não há sintomas, é uma das formas mais eficazes de prevenir crises.',
+          'As consultas de acompanhamento servem para ajustar os medicamentos, revisar a técnica do inalador e checar as vacinas.',
+        ],
+      },
+      {
+        id: 'quando-revisar',
+        heading: 'Quando revisar com a equipe de saúde',
+        paragraphs: [
+          'Se as crises ficarem mais frequentes ou a falta de ar aumentar, procure o serviço de saúde para reavaliar o tratamento.',
+          'Sintomas novos ou persistentes não devem ser atribuídos apenas à DPOC: outras condições podem precisar de investigação.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a DPOC',
+          href: '/doencas/dpoc/',
+        },
+      },
+    ],
+    diseaseSlugs: ['dpoc'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
+      'dpoc-sinais-de-alerta-quando-procurar-atendimento',
+      'dpoc-como-e-diagnosticada',
+      'dpoc-tratamento-e-cuidados',
+    ],
+    references: [
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Doença pulmonar obstrutiva crônica (DPOC): folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
     isPlaceholder: true,
   },
   {

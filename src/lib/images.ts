@@ -173,6 +173,22 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-dpoc-tabagismo.webp',
     alt: 'Cigarros apagados sobre cédulas de dinheiro',
   },
+  'dpoc-sinais-de-alerta-quando-procurar-atendimento': {
+    src: '/img/artigo-dpoc-sinais-de-alerta.webp',
+    alt: 'Criança usando máscara de nebulização sentada em casa',
+  },
+  'dpoc-como-e-diagnosticada': {
+    src: '/img/artigo-dpoc-diagnostico.webp',
+    alt: 'Pessoa soprando em um espirômetro diante de um monitor',
+  },
+  'dpoc-tratamento-e-cuidados': {
+    src: '/img/artigo-dpoc-tratamento.webp',
+    alt: 'Mão segurando uma máscara de nebulização',
+  },
+  'dpoc-como-prevenir-crises-e-o-papel-das-vacinas': {
+    src: '/img/artigo-dpoc-prevencao.webp',
+    alt: 'Profissional aplicando vacina no braço de um paciente',
+  },
   'infarto-quais-sao-os-sinais-e-o-que-fazer': {
     src: '/img/artigo-infarto-sinais.webp',
     alt: 'Traçado de eletrocardiograma impresso em papel',
