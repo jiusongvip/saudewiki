@@ -722,4 +722,256 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
     ],
   },
+
+  'asma-sintomas-e-sinais-de-alerta': {
+    title: '氣喘的症狀與警示訊號',
+    excerpt: '喘鳴、呼吸困難與時好時壞的咳嗽是氣喘最常見的表現。認清嚴重程度的訊號，才能避免發作惡化。',
+    body: [
+      {
+        id: 'sintomas',
+        heading: '哪些症狀代表氣喘',
+        paragraphs: [
+          '氣喘最常見的症狀是喘鳴、呼吸困難、胸口緊縮或壓迫感，以及咳嗽，咳嗽多為乾咳。這些症狀以發作的形式出現，有時會自行緩解，有時需要治療。',
+          '嚴重程度因人而異：有人症狀輕微且間隔很久，有人則經常發作。症狀在夜間或清晨加重也很常見。',
+        ],
+        bullets: [
+          '胸部發出哮鳴聲，即所謂的喘鳴',
+          '呼吸困難，且在用力時加劇',
+          '胸部有緊縮或壓迫感',
+          '乾咳且持續，尤其在夜間',
+          '夜間因呼吸困難或咳嗽而醒來',
+        ],
+      },
+      {
+        id: 'variacao',
+        heading: '症狀為何時好時壞',
+        paragraphs: [
+          '氣喘患者的氣道處於發炎狀態，也較為敏感。接觸誘發因子時氣道收窄，症狀隨之出現；遠離誘發因子或治療穩定時，情況就會改善。',
+          '這種起伏讓不少人在狀況好的時候低估了疾病。其實即使沒有症狀，發炎仍然存在，因此控制型藥物不應因為感覺良好而中斷。',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: '警示訊號',
+        paragraphs: ['以下訊號代表嚴重發作，請立即撥打 SAMU 192 或前往急診：'],
+        bullets: [
+          '難以完整說出一句話',
+          '呼吸時明顯看見頸部與肋骨的肌肉在用力',
+          '嘴唇或指尖呈現青紫色',
+          '發作時嗜睡或意識混亂',
+          '使用緩解型藥物後沒有改善',
+          '儘管依循常規治療，病情仍持續加重',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: '何時就醫',
+        paragraphs: [
+          '若症狀每週出現超過兩次、夜間因此醒來，或影響日常活動，代表控制並不理想，建議把這些情況帶到門診討論。',
+          '不要等到嚴重發作才求助：調整治療通常不複雜，卻能明顯改善生活品質。',
+        ],
+        ctaLabel: '氣喘頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        label: '氣喘：指引與治療',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/asthma',
+        label: '氣喘：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+
+  'asma-diagnostico-e-exames': {
+    title: '氣喘是如何診斷的',
+    excerpt: '氣喘的診斷結合了時好時壞的症狀病史，以及測量肺部氣流的檢查。',
+    body: [
+      {
+        id: 'historia-e-exame',
+        heading: '病史與身體檢查',
+        paragraphs: [
+          '診斷始於與專業人員的對話及身體檢查。會特別重視時好時壞的症狀、在夜間或清晨加重，以及接觸誘發因子後才出現的症狀。',
+          '過敏、鼻炎與家族氣喘史，以及吸菸、接觸塵埃與黴菌等因素，也都納入評估。',
+        ],
+      },
+      {
+        id: 'espirometria',
+        heading: '肺功能檢查',
+        paragraphs: [
+          '肺功能檢查是確認氣道阻塞的檢查。它測量空氣進出肺部的狀況，並記錄第一秒用力呼氣量（VEF1）。',
+          '檢查會在吸入支氣管擴張劑後再做一次。若 VEF1 增加至少 12% 且達 200 毫升，代表阻塞具可逆性，這是氣喘的特徵。',
+        ],
+      },
+      {
+        id: 'outros-exames',
+        heading: '其他有幫助的檢查',
+        bullets: [
+          '支氣管激發試驗，用於症狀疑似但肺功能檢查正常時',
+          '部分情況下測量尖峰呼氣流速，用來追蹤控制狀況',
+          '過敏原檢測，在需要找出相關過敏原時使用',
+          '用於排除其他原因的檢查，例如胸部 X 光與鼻炎的評估',
+        ],
+      },
+      {
+        id: 'diagnostico-em-criancas',
+        heading: '兒童的診斷',
+        paragraphs: [
+          '年幼孩童較難配合肺功能檢查，因為這項檢查需要配合動作。在這些情況下，診斷主要依賴症狀與對治療的反應。',
+          '在判定為氣喘之前，醫師必須排除其他造成咳嗽與喘鳴的原因，例如細支氣管炎、過敏性鼻炎與胃食道逆流。',
+        ],
+      },
+      {
+        id: 'depois-do-diagnostico',
+        heading: '確診之後',
+        paragraphs: [
+          '確診之後，下一步是建立長期的治療計畫，並學會辨識病情加重的訊號。規律的追蹤才是讓氣喘維持控制的關鍵。',
+        ],
+        ctaLabel: '氣喘頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        label: '氣喘：指引與治療',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma/pcdt',
+        label: '氣喘：臨床診療指引（PCDT）',
+        publisher: '巴西衛生部',
+      },
+    ],
+  },
+
+  'asma-tratamento-e-controle': {
+    title: '氣喘的治療與日常控制',
+    excerpt: '氣喘的治療結合每天使用的控制型藥物，以及發作時使用的緩解型藥物。持之以恆才能讓病情穩定。',
+    body: [
+      {
+        id: 'medicamentos',
+        heading: '控制型藥物與緩解型藥物',
+        paragraphs: [
+          '兩類藥物功能不同。控制型藥物減輕氣道發炎，必須每天使用，即使沒有症狀也不例外；緩解型藥物則在發作時打開氣道。',
+          '頻繁只使用緩解型藥物，代表控制並不理想，因為它無法處理症狀背後真正的原因，也就是發炎。',
+        ],
+      },
+      {
+        id: 'inalador',
+        heading: '吸入器的使用技巧',
+        paragraphs: [
+          '吸入器的使用技巧是治療的一部分。技巧錯誤時，大部分藥物會留在口腔與喉嚨，而沒有進入肺部。',
+          '不妨在門診請專業人員確認您的技巧，並詢問是否需要搭配輔助裝置，讓孩童或協調有困難的人更容易使用。',
+        ],
+      },
+      {
+        id: 'sus',
+        heading: '巴西公共衛生系統的免費治療',
+        paragraphs: [
+          '在巴西公共衛生系統（SUS），氣喘的治療是免費的。吸入型的倍氯米松與沙丁胺醇，以及口服的潑尼松，都可在地區衛生單位取得，依巴西衛生部的氣喘臨床診療指引提供。',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: '追蹤照護',
+        bullets: [
+          '即使沒有症狀，也按時回診追蹤',
+          '每天使用控制型藥物，不要自行中斷',
+          '記錄發作與其誘發因子，回診時提供給專業人員',
+          '定期檢視吸入器的使用技巧與是否需要調整劑量',
+        ],
+      },
+      {
+        id: 'quando-reavaliar',
+        heading: '何時需要重新評估控制',
+        paragraphs: [
+          '經常發作、夜間醒來，以及反覆使用緩解型藥物，都代表需要重新檢視治療計畫。請把這些情況告知衛生機構，不要自行增加劑量。',
+        ],
+        ctaLabel: '氣喘頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        label: '氣喘：指引與治療',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma/pcdt',
+        label: '氣喘：臨床診療指引（PCDT）',
+        publisher: '巴西衛生部',
+      },
+    ],
+  },
+
+  'asma-como-evitar-crises': {
+    title: '如何避免氣喘發作',
+    excerpt: '找出誘發因子、照顧居家環境，並讓疫苗與治療維持在軌道上，是減少發作最有幫助的幾件事。',
+    body: [
+      {
+        id: 'gatilhos',
+        heading: '找出誘發因子',
+        paragraphs: [
+          '每個人都有自己的誘發因子。最常見的是塵蟎與塵埃、黴菌、動物毛屑、香菸煙霧、天氣變化、呼吸道感染與運動。',
+          '記下發作的時間與地點，有助於找出模式，並減少接觸最常見的誘發因子。',
+        ],
+      },
+      {
+        id: 'casa',
+        heading: '居家環境的照顧',
+        bullets: [
+          '保持住家通風並讓陽光照射',
+          '減少容易積塵的物品，例如地毯、窗簾與絨毛玩具',
+          '經常清洗寢具與毛毯',
+          '處理滲漏與潮濕，避免黴菌滋生',
+          '不要在家中吸菸，並避免任何來源的煙霧',
+        ],
+      },
+      {
+        id: 'vacinas',
+        heading: '疫苗按時接種',
+        paragraphs: [
+          '呼吸道感染是引發發作的主要原因之一，因此按時接種疫苗也是氣喘控制的一部分。',
+          '使用吸入型或全身性皮質類固醇的中度或重度氣喘患者，屬於每年流感疫苗接種活動的優先族群。',
+        ],
+      },
+      {
+        id: 'vida-ativa',
+        heading: '保持活躍與病情控制',
+        paragraphs: [
+          '體能活動是治療的一部分，能改善呼吸能力。若運動經常引發發作，代表控制可能並不理想，治療通常會隨之調整。',
+          '維持健康體重並每天使用控制型藥物，可降低發作機會，包括由運動引起的發作。',
+        ],
+      },
+      {
+        id: 'plano-de-acao',
+        heading: '書面的行動計畫',
+        paragraphs: [
+          '許多衛生機構會提供書面的行動計畫，說明症狀加重時該怎麼做、何時該求助。建議把它放在隨手可取的地方，並在回診時重新檢視。',
+        ],
+        ctaLabel: '氣喘頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        label: '氣喘：指引與治療',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/vacinacao',
+        label: '疫苗接種：接種時程與優先族群',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/asthma',
+        label: '氣喘：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
 };

@@ -153,6 +153,22 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-asma-crise.webp',
     alt: 'Ambulância em atendimento com a porta traseira aberta',
   },
+  'asma-sintomas-e-sinais-de-alerta': {
+    src: '/img/artigo-asma-sintomas.webp',
+    alt: 'Ilustração anatômica dos pulmões humanos sobre fundo bege',
+  },
+  'asma-diagnostico-e-exames': {
+    src: '/img/artigo-asma-diagnostico.webp',
+    alt: 'Médico de braços cruzados segurando um estetoscópio vermelho',
+  },
+  'asma-tratamento-e-controle': {
+    src: '/img/artigo-asma-tratamento.webp',
+    alt: 'Máscara de nebulização transparente ao lado de um aparelho branco',
+  },
+  'asma-como-evitar-crises': {
+    src: '/img/artigo-asma-evitar-crises.webp',
+    alt: 'Mulher de luvas amarelas limpando a casa',
+  },
   'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro': {
     src: '/img/artigo-dpoc-tabagismo.webp',
     alt: 'Cigarros apagados sobre cédulas de dinheiro',

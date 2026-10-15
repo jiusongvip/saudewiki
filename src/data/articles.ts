@@ -1512,7 +1512,13 @@ export const articles: Article[] = [
     ],
     diseaseSlugs: ['asma'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
-    relatedArticleSlugs: ['dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro'],
+    relatedArticleSlugs: [
+      'asma-sintomas-e-sinais-de-alerta',
+      'asma-diagnostico-e-exames',
+      'asma-tratamento-e-controle',
+      'asma-como-evitar-crises',
+      'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
+    ],
     references: [
       {
         label: 'Asma: orientações e tratamento',
@@ -1782,6 +1788,344 @@ export const articles: Article[] = [
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
     updatedAt: '2026-10-13',
+    isPlaceholder: true,
+  },
+  {
+    id: 'asma-sintomas-e-sinais-de-alerta',
+    slug: 'asma-sintomas-e-sinais-de-alerta',
+    title: 'Sintomas de asma e os sinais de alerta',
+    excerpt:
+      'Chiado, falta de ar e tosse que vão e voltam são os sinais mais comuns da asma. Reconhecer os sinais de gravidade é o que evita que uma crise piore.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'sintomas',
+        heading: 'Quais sintomas indicam asma',
+        paragraphs: [
+          'Os sintomas mais comuns da asma são chiado no peito, falta de ar, aperto ou pressão no peito e tosse, muitas vezes seca. Eles aparecem em episódios e podem desaparecer sozinhos ou com tratamento.',
+          'A intensidade varia muito: há quem tenha sintomas leves e espaçados e quem tenha crises frequentes. Também é comum que os sintomas piorem à noite ou no início da manhã.',
+        ],
+        bullets: [
+          'Chiado no peito, chamado de sibilância',
+          'Falta de ar, que piora com esforço',
+          'Aperto ou pressão no peito',
+          'Tosse seca e persistente, sobretudo à noite',
+          'Acordar durante a noite por falta de ar ou tosse',
+        ],
+      },
+      {
+        id: 'variacao',
+        heading: 'Por que os sintomas vão e voltam',
+        paragraphs: [
+          'Na asma, as vias aéreas ficam inflamadas e mais sensíveis. Quando a pessoa entra em contato com um gatilho, elas se estreitam e os sintomas aparecem; quando o gatilho some ou o tratamento está em dia, o quadro melhora.',
+          'Essa variação faz com que muitas pessoas subestimem a doença nos períodos bons. A inflamação continua presente mesmo sem sintomas, e é por isso que o tratamento de controle não deve ser interrompido quando a pessoa se sente bem.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta',
+        paragraphs: [
+          'Estes sinais indicam crise grave. Nesses casos, ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento:',
+        ],
+        bullets: [
+          'Dificuldade para falar frases completas',
+          'Uso visível da musculatura do pescoço e das costelas para respirar',
+          'Lábios ou pontas dos dedos azulados',
+          'Sonolência ou confusão durante a crise',
+          'Falta de resposta ao medicamento de alívio',
+          'Piora progressiva apesar do tratamento habitual',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Sintomas que aparecem mais de duas vezes por semana, que acordam a pessoa à noite ou que limitam as atividades do dia a dia indicam que o controle está inadequado. Vale levar esse histórico à consulta.',
+          'Não espere uma crise grave para procurar ajuda: o ajuste do tratamento costuma ser simples e muda bastante a qualidade de vida.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a asma',
+          href: '/doencas/asma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['asma'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'asma-crise-o-que-fazer-enquanto-espera-atendimento',
+      'asma-diagnostico-e-exames',
+      'asma-tratamento-e-controle',
+      'asma-como-evitar-crises',
+    ],
+    references: [
+      {
+        label: 'Asma: orientações e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Asthma: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/asthma',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
+    isPlaceholder: true,
+  },
+  {
+    id: 'asma-diagnostico-e-exames',
+    slug: 'asma-diagnostico-e-exames',
+    title: 'Como a asma é diagnosticada',
+    excerpt:
+      'O diagnóstico da asma combina a história de sintomas que vão e voltam com exames que medem o fluxo de ar nos pulmões.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'historia-e-exame',
+        heading: 'História clínica e exame físico',
+        paragraphs: [
+          'O diagnóstico começa pela conversa com o profissional de saúde e pelo exame físico. São valorizadas queixas que vão e voltam, que pioram à noite ou no início da manhã e que aparecem depois do contato com um gatilho.',
+          'Também entram na avaliação a história de alergias, de rinite e de asma na família, além de fatores como tabagismo e exposição a poeira e mofo.',
+        ],
+      },
+      {
+        id: 'espirometria',
+        heading: 'Espirometria',
+        paragraphs: [
+          'A espirometria é o exame que confirma a obstrução das vias aéreas. Ela mede como o ar entra e sai dos pulmões e registra o volume expiratório forçado no primeiro segundo, o VEF1.',
+          'O exame é repetido depois do uso de um broncodilatador. Um aumento do VEF1 de pelo menos 12% e 200 mL mostra que a obstrução é reversível, o que é característico da asma.',
+        ],
+      },
+      {
+        id: 'outros-exames',
+        heading: 'Outros exames que ajudam',
+        bullets: [
+          'Teste de broncoprovocação, quando os sintomas são sugestivos mas a espirometria é normal',
+          'Medida do pico de fluxo expiratório, em alguns casos, para acompanhar o controle',
+          'Testes de alergia, quando é útil identificar os alérgenos envolvidos',
+          'Exames para descartar outras causas, como radiografia de tórax e avaliação da rinite',
+        ],
+      },
+      {
+        id: 'diagnostico-em-criancas',
+        heading: 'Diagnóstico em crianças',
+        paragraphs: [
+          'Em crianças pequenas, a espirometria pode ser difícil de realizar, porque o exame exige coordenação. Nesses casos, o diagnóstico fica apoiado nos sintomas e na resposta ao tratamento.',
+          'O médico precisa descartar outras causas de tosse e chiado, como bronquiolite, rinite alérgica e refluxo, antes de concluir que se trata de asma.',
+        ],
+      },
+      {
+        id: 'depois-do-diagnostico',
+        heading: 'Depois do diagnóstico',
+        paragraphs: [
+          'Confirmado o diagnóstico, o passo seguinte é montar um plano de tratamento contínuo e aprender a reconhecer os sinais de piora. O acompanhamento regular é o que mantém a asma controlada.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a asma',
+          href: '/doencas/asma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['asma'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'asma-crise-o-que-fazer-enquanto-espera-atendimento',
+      'asma-sintomas-e-sinais-de-alerta',
+      'asma-tratamento-e-controle',
+      'asma-como-evitar-crises',
+    ],
+    references: [
+      {
+        label: 'Asma: orientações e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Asma: Protocolo Clínico e Diretrizes Terapêuticas',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma/pcdt',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
+    isPlaceholder: true,
+  },
+  {
+    id: 'asma-tratamento-e-controle',
+    slug: 'asma-tratamento-e-controle',
+    title: 'Tratamento da asma e controle no dia a dia',
+    excerpt:
+      'O tratamento da asma une o medicamento de controle, usado todos os dias, ao de alívio, usado na crise. A constância é o que mantém a doença controlada.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'medicamentos',
+        heading: 'Medicamento de controle e medicamento de alívio',
+        paragraphs: [
+          'São dois tipos de medicamento, com funções diferentes. O de controle reduz a inflamação das vias aéreas e precisa ser usado todos os dias, mesmo quando não há sintomas. O de alívio abre a via aérea durante a crise.',
+          'Usar apenas o de alívio com frequência é sinal de que o controle está inadequado, porque ele não trata a inflamação que está por trás dos sintomas.',
+        ],
+      },
+      {
+        id: 'inalador',
+        heading: 'Técnica do inalador',
+        paragraphs: [
+          'A técnica de uso do inalador faz parte do tratamento. Quando ela está errada, boa parte do medicamento fica na boca e na garganta em vez de chegar aos pulmões.',
+          'Vale pedir ao profissional de saúde que acompanhe a sua técnica na consulta e que indique se há necessidade de espaçador, um dispositivo que facilita o uso em crianças e em quem tem dificuldade de coordenação.',
+        ],
+      },
+      {
+        id: 'sus',
+        heading: 'Tratamento gratuito pelo SUS',
+        paragraphs: [
+          'No SUS, o tratamento da asma é gratuito. Beclometasona e salbutamol inalatórios e prednisona estão disponíveis nas unidades de saúde, conforme o Protocolo Clínico e Diretrizes Terapêuticas da asma.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Acompanhamento',
+        bullets: [
+          'Comparecer às consultas de acompanhamento, mesmo em períodos sem sintomas',
+          'Manter o medicamento de controle em uso diário, sem interromper por conta própria',
+          'Registrar as crises e os gatilhos que as provocaram, para levar à consulta',
+          'Revisar periodicamente a técnica do inalador e a necessidade de ajuste de dose',
+        ],
+      },
+      {
+        id: 'quando-reavaliar',
+        heading: 'Quando o controle precisa ser revisto',
+        paragraphs: [
+          'Crises frequentes, despertar à noite e uso repetido do medicamento de alívio indicam que o plano precisa ser revisto. Leve essas informações ao serviço de saúde em vez de aumentar a dose por conta própria.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a asma',
+          href: '/doencas/asma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['asma'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'asma-crise-o-que-fazer-enquanto-espera-atendimento',
+      'asma-sintomas-e-sinais-de-alerta',
+      'asma-diagnostico-e-exames',
+      'asma-como-evitar-crises',
+    ],
+    references: [
+      {
+        label: 'Asma: orientações e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Asma: Protocolo Clínico e Diretrizes Terapêuticas',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma/pcdt',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
+    isPlaceholder: true,
+  },
+  {
+    id: 'asma-como-evitar-crises',
+    slug: 'asma-como-evitar-crises',
+    title: 'Como evitar crises de asma',
+    excerpt:
+      'Identificar os gatilhos, cuidar do ambiente de casa e manter vacinas e tratamento em dia são as medidas que mais reduzem as crises.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'gatilhos',
+        heading: 'Identificar os gatilhos',
+        paragraphs: [
+          'Cada pessoa tem gatilhos próprios. Os mais comuns são ácaros e poeira, mofo, pelos de animais, fumaça de cigarro, mudanças de tempo, infecções respiratórias e exercício.',
+          'Anotar quando e onde as crises acontecem ajuda a reconhecer o padrão e a reduzir a exposição aos gatilhos mais frequentes.',
+        ],
+      },
+      {
+        id: 'casa',
+        heading: 'Cuidados dentro de casa',
+        bullets: [
+          'Manter a casa ventilada e exposta ao sol',
+          'Reduzir objetos que acumulam pó, como tapetes, cortinas e bichos de pelúcia',
+          'Lavar com frequência roupas de cama e cobertores',
+          'Evitar mofo, cuidando de infiltrações e de umidade',
+          'Não fumar dentro de casa e evitar a fumaça de qualquer origem',
+        ],
+      },
+      {
+        id: 'vacinas',
+        heading: 'Vacinas em dia',
+        paragraphs: [
+          'As infecções respiratórias estão entre os principais gatilhos de crise. Por isso, manter a vacinação em dia faz parte do controle da asma.',
+          'Pessoas com asma em uso de corticoide inalatório ou sistêmico, na forma moderada ou grave, estão entre os grupos prioritários da campanha anual de vacinação contra a gripe.',
+        ],
+      },
+      {
+        id: 'vida-ativa',
+        heading: 'Vida ativa e controle da doença',
+        paragraphs: [
+          'A atividade física faz parte do tratamento e melhora a capacidade respiratória. Quando o exercício provoca crises com frequência, o controle pode estar inadequado e o tratamento costuma ser ajustado.',
+          'Manter o peso saudável e o medicamento de controle em uso diário reduz a chance de crises, inclusive as provocadas por esforço.',
+        ],
+      },
+      {
+        id: 'plano-de-acao',
+        heading: 'Plano de ação por escrito',
+        paragraphs: [
+          'Muitos serviços entregam um plano de ação por escrito, que explica o que fazer quando os sintomas pioram e quando procurar ajuda. Vale guardá-lo à mão e revisá-lo nas consultas.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a asma',
+          href: '/doencas/asma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['asma'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'asma-crise-o-que-fazer-enquanto-espera-atendimento',
+      'asma-sintomas-e-sinais-de-alerta',
+      'asma-diagnostico-e-exames',
+      'asma-tratamento-e-controle',
+    ],
+    references: [
+      {
+        label: 'Asma: orientações e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Vacinação: calendário e grupos prioritários',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Asthma: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/asthma',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-15',
+    updatedAt: '2026-10-15',
     isPlaceholder: true,
   },
 ];
