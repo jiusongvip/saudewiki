@@ -10,6 +10,7 @@ import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
 import { fill } from '../lib/i18n';
 import { contentFor, formatDateFor, popularSearches } from '../lib/content';
+import { unitCount } from '../lib/counts';
 import { imageForArticle, imageForDisease } from '../lib/images';
 import type { Locale } from '../types';
 
@@ -41,8 +42,14 @@ const PHOTO = {
   curadoria: '/img/foco-curadoria.jpg',
 };
 
-const diseases = c.diseases.slice(0, 3);
+const diseases = c.diseases.slice(0, 4);
 const articles = c.articles.slice(0, 6);
+
+/* The left column is a disease, not a stock band: four are shown, one of them
+   large. `diseases[0]` is the feature and the remaining three fill the grid. */
+const featured = diseases[0];
+const featuredImage = imageForDisease(featured.slug, lang);
+const rest = diseases.slice(1);
 ---
 
 <BaseLayout lang={lang} title={fill(t.home.title, { site: SITE.name })} description={t.site.description} bleed>
@@ -118,9 +125,12 @@ const articles = c.articles.slice(0, 6);
     <RegionTiles lang={lang} regions={c.regions} class="min-h-0 flex-1 md:grid-rows-4 lg:grid-rows-3" />
   </section>
 
-  <!-- 3. The encyclopedia. An asymmetric grid whose anchor is a single
-       photograph shown through two windows: the picture runs through the gutter,
-       so the two panels read as one image with a cut in it. -->
+  <!-- 3. The encyclopedia. Its anchor is a disease, shown the same way the
+       regions above are: one photograph seen through two windows, so the picture
+       runs through the gutter and the panel reads as one image with a cut in it.
+       The four entries are one large and three square, all of them carrying their
+       words at the foot of the photograph, which is where these pictures have
+       spare surface and where the article row below also puts its text. -->
   <section class="screen screen-col">
     <div class="flex flex-wrap items-end justify-between gap-3 px-1 pt-1 pb-2">
       <h2 class="t-big text-ink">{t.home.diseasesTitle}</h2>
@@ -132,40 +142,74 @@ const articles = c.articles.slice(0, 6);
       </a>
     </div>
 
-    <div class="grid min-h-0 flex-1 grid-cols-2 gap-1.5 md:grid-cols-3 md:grid-rows-2 md:gap-2">
-      <WindowGrid
-        src={PHOTO.collage}
-        class="col-span-2 flex min-h-[320px] flex-col gap-1.5 md:col-span-1 md:row-span-2 md:gap-2"
+    <div class="grid min-h-0 flex-1 grid-cols-1 gap-1.5 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2 md:gap-2">
+      <a
+        href={c.urls.disease(featured.slug)}
+        class="relative col-span-1 flex min-h-[320px] flex-col overflow-hidden rounded-2xl sm:col-span-2 md:col-span-1 md:row-span-2 md:min-h-0"
       >
-        <div data-window class="min-h-0 flex-1 rounded-2xl">
-          <img data-wg-img src={PHOTO.collage} alt={t.home.altCollage} loading="lazy" decoding="async" />
+        <WindowGrid
+          src={featuredImage?.src ?? PHOTO.collage}
+          class="flex min-h-0 flex-1 flex-col gap-1.5 md:gap-2"
+        >
+          <div data-window class="min-h-0 flex-1 rounded-2xl">
+            <img
+              data-wg-img
+              src={featuredImage?.src ?? PHOTO.collage}
+              alt={featuredImage?.alt ?? t.home.altCollage}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div data-window class="min-h-0 flex-1 rounded-2xl" aria-hidden="true">
+            <img
+              data-wg-img
+              src={featuredImage?.src ?? PHOTO.collage}
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </WindowGrid>
+
+        <span class="scrim-bottom pointer-events-none absolute inset-0" aria-hidden="true" />
+        <div class="absolute inset-x-5 bottom-5 md:inset-x-6 md:bottom-6">
+          <p class="text-[0.66rem] font-bold uppercase tracking-wider text-white/90">
+            {featured.category}
+          </p>
+          <h3
+            class="mt-2 text-2xl font-extrabold leading-tight tracking-tight text-white md:text-[1.75rem]"
+          >
+            {featured.name}
+          </h3>
+          <p class="mt-3 max-w-[42ch] text-sm leading-relaxed text-white/85">{featured.summary}</p>
         </div>
-        <div data-window class="min-h-0 flex-1 rounded-2xl" aria-hidden="true">
-          <img data-wg-img src={PHOTO.collage} alt="" loading="lazy" decoding="async" />
-        </div>
-      </WindowGrid>
+      </a>
 
       {
-        diseases.map((disease) => {
+        rest.map((disease) => {
           const image = imageForDisease(disease.slug, lang);
           return (
             <a
               href={c.urls.disease(disease.slug)}
               class="relative min-h-[200px] overflow-hidden rounded-2xl md:min-h-0"
             >
+              <!-- Pinned to the box rather than `h-full`: below the md breakpoint
+                   the card's height comes only from `min-h-[200px]`, which is not
+                   a definite height, so a percentage on the image resolves to auto
+                   and the photograph stops at its own aspect ratio. -->
               <img
                 src={image?.src}
                 alt={image?.alt ?? ''}
-                class="h-full w-full object-cover"
+                class="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"
                 decoding="async"
               />
-              <span
-                class="scrim-top pointer-events-none absolute inset-0"
-                aria-hidden="true"
-              />
-              <div class="absolute inset-x-4 top-4 md:inset-x-5 md:top-5">
-                <h3 class="mt-1 text-xl font-extrabold leading-tight tracking-tight text-white md:text-2xl">
+              <span class="scrim-bottom pointer-events-none absolute inset-0" aria-hidden="true" />
+              <div class="absolute inset-x-4 bottom-4 md:inset-x-5 md:bottom-5">
+                <p class="text-[0.66rem] font-bold uppercase tracking-wider text-white/90">
+                  {disease.category}
+                </p>
+                <h3 class="mt-1.5 text-xl font-extrabold leading-tight tracking-tight text-white md:text-2xl">
                   {disease.name}
                 </h3>
                 <p class="mt-2 text-[0.78rem] leading-snug text-white/85">{disease.summary}</p>
@@ -177,13 +221,19 @@ const articles = c.articles.slice(0, 6);
 
       <a
         href={c.urls.diseases()}
-        class="flex min-h-[200px] flex-col justify-between rounded-2xl bg-mist p-5 md:min-h-0 md:p-6"
+        class="group flex min-h-[200px] flex-col justify-between rounded-2xl bg-mist p-5 md:min-h-0 md:p-6"
       >
-        <span class="num text-ink">
-          <Icon name="tabler:arrow-right" class="h-4 w-4" />
+        <span class="text-4xl font-extrabold leading-none tracking-tight text-ink tabular-nums md:text-5xl">
+          {unitCount(lang, c.diseases.length, 'disease')}
         </span>
-        <span class="text-xl font-extrabold leading-tight tracking-tight text-ink md:text-2xl">
-          {t.home.allDiseases}
+        <span class="mt-6 flex items-end justify-between gap-3">
+          <span class="text-xl font-extrabold leading-tight tracking-tight text-ink md:text-2xl">
+            {t.home.allDiseases}
+          </span>
+          <Icon
+            name="tabler:arrow-right"
+            class="h-5 w-5 shrink-0 text-accent-strong transition-transform duration-200 group-hover:translate-x-1"
+          />
         </span>
       </a>
     </div>

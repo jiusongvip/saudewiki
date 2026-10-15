@@ -582,15 +582,20 @@ html[lang^="zh"] .prose-editorial {
 }
 
 /*
- * Darkens the top of a photograph so white type over it is not a bet on what
+ * Darkens the foot of a photograph so white type over it is not a bet on what
  * the picture happens to contain in that corner. The worst case here is the
  * diabetes card: a glucose meter on a white studio ground, where the old 0.58
  * stop left the headline at about 3.5:1 and legible only by luck. At 0.74 the
  * same corner is above 8:1, and a picture that is already dark barely changes.
+ *
+ * The type sits at the bottom, not the top: the photographs are all of an object
+ * on a table, so the subject is in the upper half and the empty surface is at its
+ * feet. Putting the words there too means the picture keeps its subject and the
+ * card reads like the article row below it, which also finishes with text.
  */
-.scrim-top {
+.scrim-bottom {
   background: linear-gradient(
-    to bottom,
+    to top,
     rgba(0, 0, 0, 0.74) 0%,
     rgba(0, 0, 0, 0.52) 42%,
     rgba(0, 0, 0, 0.12) 74%,
