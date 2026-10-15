@@ -1634,74 +1634,118 @@ export const diseases: Disease[] = [
         id: 'o-que-e',
         heading: 'O que é HIV e o que é aids?',
         paragraphs: [
-          'HIV é a sigla do vírus da imunodeficiência humana, que ataca células do sistema de defesa do organismo. A aids é o estágio mais avançado da infecção, quando a imunidade já está comprometida e aparecem as chamadas infecções oportunistas.',
-          'HIV e aids não são a mesma coisa: uma pessoa pode viver com HIV e não ter aids, desde que faça o tratamento. É por isso que a distinção importa.',
-        ],
-      },
-      {
-        id: 'sintomas',
-        heading: 'Quais são os sintomas?',
-        paragraphs: [
-          'A infecção pelo HIV pode ficar anos sem dar sintoma. É comum que, nas primeiras semanas, apareça um quadro parecido com uma gripe forte, com febre, mal-estar, dor de garganta e gânglios inchados, que passa sozinho e raramente é associado ao HIV.',
-          'Como os sintomas não são confiáveis para identificar a infecção, a única forma de saber é fazer o teste.',
-        ],
-        bullets: [
-          'Fase inicial: quadro gripal que passa sozinho, ou nenhum sintoma',
-          'Período intermediário: geralmente sem sintomas, mesmo sem tratamento',
-          'Fase avançada: perda de peso, febre prolongada, diarreia frequente e infecções de repetição',
+          'O HIV é o vírus da imunodeficiência humana, que ataca as células que coordenam a defesa do corpo, chamadas de linfócitos T-CD4+. Ao destruir essas células de forma constante, o HIV enfraquece o sistema imunológico e abre caminho para infecções e tumores que, em condições normais, seriam contidos.',
+          'HIV e aids não são a mesma coisa. O HIV é o vírus, e uma pessoa pode viver com ele por anos sem apresentar sintomas. A aids é o estágio mais avançado da infecção, quando a imunidade já está gravemente comprometida e aparecem as chamadas doenças oportunistas.',
+          'Descobrir a infecção cedo e iniciar o tratamento muda o curso da doença: hoje, quem faz o tratamento corretamente vive bem e não transmite o vírus por via sexual.',
         ],
       },
       {
         id: 'transmissao',
         heading: 'Como o HIV é transmitido?',
+        paragraphs: [
+          'O HIV passa de uma pessoa para outra pelo contato com fluidos específicos: sangue, sêmen, secreções vaginais e leite materno. Ele não sobrevive fora do corpo e não se espalha pelo ar, pela água ou pelo toque. As principais formas de transmissão são:',
+        ],
         bullets: [
-          'Relação sexual sem preservativo com pessoa que vive com HIV e não está em tratamento',
-          'Compartilhamento de agulhas, seringas e outros objetos de uso injetável',
-          'Da gestante para o bebê na gestação, no parto ou na amamentação, sem acompanhamento',
-          'Transfusão de sangue contaminado, situação muito rara hoje por causa do controle nos bancos de sangue',
+          'Sexo vaginal, anal ou oral sem camisinha e sem o uso de PrEP; a relação anal em que a pessoa recebe o pênis é a prática com maior risco',
+          'Compartilhamento de seringas, agulhas e outros materiais que cortam ou furam',
+          'Da mãe para o bebê, durante a gestação, o parto ou a amamentação',
+          'Transfusão de sangue ou transplante de órgãos, algo muito raro hoje, porque no Brasil todos os doadores são testados',
         ],
       },
       {
         id: 'nao-transmite',
         heading: 'O que não transmite HIV',
         paragraphs: [
-          'Muita gente ainda evita contato por medo de algo que não transmite a infecção. Beijo, abraço, aperto de mão, uso do mesmo banheiro, piscina, talheres, copos, picada de inseto e contato com suor não transmitem o HIV.',
+          'Muita gente ainda tem dúvidas sobre o que não oferece risco. O HIV não sobrevive fora do corpo e não se espalha pelo ar, pela água ou pelo toque. Entender isso ajuda a combater o preconceito: conviver, estudar e trabalhar com quem vive com HIV não oferece risco.',
+          'Estas situações não transmitem o HIV:',
+        ],
+        bullets: [
+          'Beijo no rosto ou na boca, abraço e aperto de mão',
+          'Suor e lágrima',
+          'Picada de inseto',
+          'Compartilhar talheres, copos, sabonete, toalha ou lençóis',
+          'Usar ônibus, piscina ou banheiro',
+          'Doar sangue',
+          'Pelo ar',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A infecção pelo HIV costuma passar por três fases. Na infecção aguda, que aparece nas primeiras semanas, os sinais lembram uma gripe: febre, dores no corpo e mal-estar. Como são leves e passageiros, muitas pessoas não percebem que foram infectadas.',
+          'Depois vem a fase assintomática, que pode durar vários anos, na qual a pessoa não apresenta sinais visíveis. Sem tratamento, a infecção avança para a aids, quando as defesas estão muito enfraquecidas e surgem as doenças oportunistas.',
+          'Como os sintomas não são confiáveis para identificar a infecção, a única forma de saber é fazer o teste. As três fases costumam se apresentar assim:',
+        ],
+        bullets: [
+          'Infecção aguda: quadro parecido com uma gripe forte, com febre, mal-estar, dor de garganta e gânglios inchados, que passa sozinho, ou nenhum sintoma',
+          'Fase assintomática: pode durar vários anos, geralmente sem sintomas, mesmo sem tratamento',
+          'Aids: perda de peso, febre persistente, suores noturnos, diarreia prolongada, infecções de repetição e alguns tipos de câncer',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Procure um serviço de saúde se você passou por uma situação de risco ou se apresenta sintomas persistentes, como febre prolongada, suores noturnos, diarreia por várias semanas, perda de peso sem explicação ou gânglios inchados por muito tempo. O diagnóstico precoce muda o curso da infecção.',
+          'Se você teve uma exposição de risco, como sexo sem camisinha ou um acidente com material cortante, busque atendimento imediatamente. A PEP deve começar o quanto antes, no máximo até 72 horas depois da exposição; quanto mais cedo, melhor. Passado esse prazo, ela não está mais indicada.',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem está mais exposto ao HIV',
+        paragraphs: [
+          'Qualquer pessoa pode se infectar. O risco não está ligado a um tipo de pessoa, e sim a situações e práticas. Algumas circunstâncias aumentam a exposição ao vírus:',
+        ],
+        bullets: [
+          'Sexo sem camisinha, sobretudo a relação anal receptiva',
+          'Compartilhar seringas e agulhas',
+          'Ter outras infecções sexualmente transmissíveis, que facilitam a entrada do vírus',
+          'Relação sexual com alguém que vive com HIV e não faz tratamento',
+          'Acidentes com material biológico, como acontece com profissionais de saúde',
         ],
       },
       {
         id: 'diagnostico',
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
-          'O diagnóstico é feito por testes que detectam o vírus ou os anticorpos produzidos contra ele. Os testes são gratuitos no sistema público de saúde, e a testagem é sigilosa.',
-          'Fazer o teste cedo muda o desfecho: quanto antes o tratamento começa, melhor a resposta e menor o impacto na saúde.',
+          'O diagnóstico do HIV é simples, gratuito e pode ser feito de forma anônima no SUS. Os testes rápidos usam uma gota de sangue da ponta do dedo e dão o resultado em cerca de 30 minutos; estão disponíveis em unidades de saúde e nos Centros de Testagem e Aconselhamento (CTA). Existe também o autoteste, que a própria pessoa faz com fluido oral ou sangue, no momento e no lugar que preferir.',
+          'Fazer o teste cedo muda o desfecho: quanto antes o tratamento começa, melhor a resposta e menor o impacto na saúde. No Brasil, tanto a infecção pelo HIV quanto a aids estão na lista nacional de notificação compulsória, e os casos confirmados são registrados no sistema de vigilância, o que ajuda a acompanhar a epidemia e a planejar as ações de saúde pública.',
         ],
       },
       {
-        id: 'prevencao',
-        heading: 'Como prevenir?',
+        id: 'janela-imunologica',
+        heading: 'A janela imunológica e os exames de acompanhamento',
         paragraphs: [
-          'A prevenção combina métodos de barreira, testagem regular e medicamentos indicados em situações específicas.',
+          'Os testes rápidos e os exames laboratoriais buscam anticorpos contra o HIV. O corpo leva um tempo para produzi-los, em média de 30 a 60 dias. Esse intervalo é a janela imunológica. Quem faz o teste dentro desse período pode receber um resultado negativo mesmo estando infectado. Por isso, depois de uma situação de risco, o ideal é testar e repetir o exame cerca de 30 dias depois.',
+          'Depois do diagnóstico, o SUS oferece exames para acompanhar a infecção:',
         ],
         bullets: [
-          'Usar preservativo em todas as relações sexuais',
-          'Não compartilhar agulhas, seringas ou objetos cortantes',
-          'Fazer o teste regularmente, sobretudo após uma situação de risco',
-          'Usar a profilaxia pós-exposição (PEP), que deve ser iniciada o quanto antes e no máximo em 72 horas',
-          'Discutir com o serviço de saúde a indicação da profilaxia pré-exposição (PrEP)',
-          'Realizar o pré-natal completo, que inclui a testagem e reduz muito a transmissão para o bebê',
+          'Carga viral, que mede a quantidade de vírus no sangue',
+          'Contagem de linfócitos T-CD4+, que mostra como está a imunidade',
+          'Genotipagem, que identifica mutações do vírus e ajuda a escolher o tratamento',
         ],
-        cta: {
-          label: 'Leia também: o que fazer nas primeiras 72 horas após uma exposição',
-          href: '/artigos/hiv-o-que-fazer-nas-primeiras-72-horas/',
-        },
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com o HIV',
+        paragraphs: [
+          'Os primeiros sintomas do HIV lembram os de uma gripe ou de outras infecções virais, o que faz muita gente adiar o teste. Apenas um exame confirma a infecção.',
+          'Nem os sintomas nem o histórico de exposição substituem o teste, então não espere aparecer algum sintoma para se testar depois de uma situação de risco.',
+        ],
       },
       {
         id: 'tratamento',
         heading: 'Tratamento e cuidados',
         paragraphs: [
-          'O tratamento antirretroviral é gratuito no sistema público de saúde e deve ser iniciado o quanto antes, para todas as pessoas diagnosticadas. Com o tratamento correto e contínuo, a carga viral pode se tornar indetectável.',
-          'Carga viral indetectável significa que o HIV não é transmitido por via sexual. Essa é a base do conceito conhecido como indetectável igual a intransmissível.',
-          'O acompanhamento inclui exames periódicos, apoio para a adesão ao tratamento e cuidado com a saúde de forma ampla.',
+          'Não existe cura nem vacina para o HIV, mas o tratamento permite viver com boa qualidade de vida por muitos anos. Desde 1996, o Brasil distribui os medicamentos antirretrovirais (ARV) de forma gratuita a todas as pessoas que vivem com HIV e precisam de tratamento.',
+          'A recomendação atual é iniciar o tratamento assim que o diagnóstico é confirmado, independentemente de sintomas ou da contagem de T-CD4+. Os medicamentos impedem a multiplicação do vírus no organismo e ajudam a recuperar a imunidade. Muitas pessoas usam hoje um comprimido único que combina lamivudina e dolutegravir, de alta eficácia e boa tolerância.',
+          'O ponto central é a adesão: tomar os remédios todos os dias, no horário certo, é o que mantém o vírus sob controle. Quando o tratamento é feito corretamente, a carga viral cai a níveis indetectáveis e a pessoa deixa de transmitir o HIV por via sexual, o que se chama de tratamento como prevenção. Como qualquer medicamento, os ARV podem causar efeitos colaterais, que variam conforme a combinação:',
+        ],
+        bullets: [
+          'Alguns efeitos são passageiros, como náusea e dor de cabeça nas primeiras semanas',
+          'Outros pedem ajuste do esquema, então avise a equipe de saúde se algo incomodar',
+          'O acompanhamento é feito com consultas periódicas e exames de carga viral e T-CD4+, que mostram se o tratamento está funcionando',
         ],
         cta: {
           label: 'Leia também: indetectável igual a intransmissível',
@@ -1709,11 +1753,29 @@ export const diseases: Disease[] = [
         },
       },
       {
-        id: 'sinais-de-alerta',
-        heading: 'Quando procurar atendimento',
+        id: 'prevencao',
+        heading: 'Como prevenir?',
         paragraphs: [
-          'Procure um serviço de saúde imediatamente após uma situação de risco, para avaliar a profilaxia pós-exposição, que só é eficaz se iniciada em até 72 horas.',
-          'Também procure atendimento se houver febre prolongada, perda de peso, diarreia frequente, gânglios inchados ou infecções de repetição, e peça a testagem.',
+          'A prevenção do HIV hoje é pensada de forma combinada, ou seja, somando várias estratégias de acordo com a necessidade de cada pessoa:',
+        ],
+        bullets: [
+          'Camisinha, disponível gratuitamente no SUS, que também protege de outras infecções sexualmente transmissíveis',
+          'PrEP (profilaxia pré-exposição), medicamento tomado por quem tem maior risco de exposição, de uso diário ou sob demanda, sempre com testagem periódica',
+          'PEP (profilaxia pós-exposição), usada após uma situação de risco, em até 72 horas, por 28 dias',
+          'Testagem regular, que permite descobrir a infecção cedo',
+          'Tratamento de quem vive com HIV, que reduz a transmissão',
+        ],
+        cta: {
+          label: 'Leia também: o que fazer nas primeiras 72 horas após uma exposição',
+          href: '/artigos/hiv-o-que-fazer-nas-primeiras-72-horas/',
+        },
+      },
+      {
+        id: 'transmissao-materno-infantil',
+        heading: 'Da mãe para o bebê',
+        paragraphs: [
+          'O HIV pode passar da mãe para o bebê na gestação, no parto ou na amamentação. Com o tratamento antirretroviral durante a gestação, o risco de transmissão cai para menos de 1%; sem tratamento, esse risco é muito maior.',
+          'O pré-natal inclui o teste de HIV para todas as gestantes. Quando o diagnóstico é feito e o tratamento começa cedo, o parto pode ser por cesariana e a amamentação pode ser substituída, conforme a orientação da equipe de saúde.',
         ],
       },
     ],
@@ -1721,17 +1783,37 @@ export const diseases: Disease[] = [
       {
         question: 'Viver com HIV é o mesmo que ter aids?',
         answer:
-          'Não. A aids é o estágio mais avançado da infecção, quando a imunidade está comprometida. Com tratamento, a infecção pelo HIV pode permanecer controlada e a pessoa não desenvolve aids.',
+          'Não. O HIV é o vírus que ataca o sistema imunológico. A aids é o estágio mais avançado da infecção, quando a imunidade está gravemente comprometida e surgem as doenças oportunistas. Com tratamento, muitas pessoas vivem com HIV sem chegar a esse estágio.',
       },
       {
         question: 'HIV tem cura?',
         answer:
-          'Não há cura até o momento, mas o tratamento antirretroviral controla a infecção, preserva a imunidade e permite uma vida longa com qualidade.',
+          'Não existe cura nem vacina até hoje. Com o tratamento antirretroviral correto, a infecção fica controlada, a pessoa vive com boa qualidade de vida e não transmite o vírus por via sexual.',
       },
       {
-        question: 'Uma pessoa com carga viral indetectável transmite HIV?',
+        question: 'Dá para pegar HIV pelo beijo ou por talheres?',
         answer:
-          'Não por via sexual. Carga viral indetectável de forma sustentada, com tratamento em dia, significa que o HIV não é transmitido sexualmente.',
+          'Não. O HIV não passa pelo beijo, pelo abraço, por talheres, copos, toalhas, piscina, banheiro nem pelo ar. A transmissão exige contato com sangue, sêmen, secreção vaginal ou leite materno.',
+      },
+      {
+        question: 'Quanto tempo depois da exposição o teste detecta o HIV?',
+        answer:
+          'Os testes buscam anticorpos, e o corpo leva de 30 a 60 dias para produzi-los em quantidade detectável. Esse é o período da janela imunológica. Um teste feito antes disso pode dar negativo mesmo com a pessoa infectada, por isso o exame deve ser repetido cerca de 30 dias depois da situação de risco.',
+      },
+      {
+        question: 'Existe prevenção depois de uma relação sem camisinha?',
+        answer:
+          'Sim. É a PEP, que deve ser iniciada em até 72 horas após a exposição, o quanto antes. O tratamento dura 28 dias, e a PEP pode ser obtida gratuitamente em serviços de saúde.',
+      },
+      {
+        question: 'Quem vive com HIV em tratamento pode transmitir o vírus?',
+        answer:
+          'Não, quando o tratamento é feito corretamente e a carga viral está indetectável. Nessas condições, a pessoa não transmite o HIV por via sexual.',
+      },
+      {
+        question: 'O tratamento é gratuito?',
+        answer:
+          'Sim. Os medicamentos antirretrovirais são distribuídos gratuitamente pelo SUS a todas as pessoas que vivem com HIV e precisam de tratamento.',
       },
     ],
     relatedArticleSlugs: ['hiv-o-que-fazer-nas-primeiras-72-horas', 'indetectavel-intransmissivel-o-que-significa'],
