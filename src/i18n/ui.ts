@@ -420,7 +420,7 @@ const zh: UI = {
     eyebrow: '人體解剖圖譜',
     h1Line1: '認識',
     h1Line2: '您的身體。',
-    missionLead: '從您關心的身體部位開始。',
+    missionLead: '請先從您關心的身體部位開始瀏覽。',
     markerHint: '每個圓點代表一個身體部位，點下去就能找到會波及該處的疾病。',
     mapCaption: '選擇一個身體部位，即可看見該處的疾病。',
     mapAria: '身體部位',
