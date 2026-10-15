@@ -54,6 +54,24 @@ const schemaNodes: Record<string, unknown>[] = [
               <p>{paragraph}</p>
             ))}
           </div>
+          <h3 class="mt-9 text-[1.08rem] font-extrabold tracking-tight">{t.regionsIndex.guideRegionsHeading}</h3>
+          <dl class="mt-4 grid gap-x-10 gap-y-5 sm:grid-cols-2">
+            {
+              c.regions.map((region) => (
+                <div>
+                  <dt>
+                    <a
+                      href={c.urls.region(region.slug)}
+                      class="text-[0.95rem] font-extrabold transition-colors hover:text-accent"
+                    >
+                      {region.name}
+                    </a>
+                  </dt>
+                  <dd class="mt-1 text-[0.85rem] leading-relaxed text-ink-muted">{region.description}</dd>
+                </div>
+              ))
+            }
+          </dl>
         </section>
         <section class="mt-14 border-t border-line pt-10" aria-labelledby="doencas-do-cotidiano">
           <h2 id="doencas-do-cotidiano" class="display text-[1.8rem]">{t.regionsIndex.allDiseasesHeading}</h2>

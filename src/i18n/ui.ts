@@ -240,9 +240,12 @@ const pt = {
     guideHeading: 'Como o corpo se divide',
     guide: [
       'A medicina organiza o corpo em aparelhos: nervoso, visual, do ouvido, nariz e garganta, respiratório, cardiovascular, digestório, hepático, metabólico, renal, cutâneo, musculoesquelético e do sangue. Cada região do mapa corresponde a um desses conjuntos. É a mesma enciclopédia, vista pelo lugar que dói em vez do nome da doença.',
+      'Uma doença pode aparecer em mais de uma região. A diabetes mora em «Pâncreas e metabolismo», onde ela começa, e também em «Olhos» e «Rins», onde o excesso de glicose lesa os vasos finos ao longo dos anos. Cada região lista apenas as doenças cujo próprio verbete descreve aquela parte como atingida.',
       'Cada página de região abre com duas leituras: o que costuma dar errado naquela parte no mundo, e o que é típico nos países de língua portuguesa — Brasil, Portugal, Angola, Moçambique, Guiné-Bissau, Cabo Verde e Timor-Leste — e por quê. Depois vêm as doenças e os artigos já publicados sobre aquela região.',
       'As causas mudam de lugar para lugar: o AVC reflete a hipertensão de cada população, a diarreia reflete o acesso a água tratada, e a tuberculose reflete a velocidade com que um diagnóstico é encontrado. É por isso que a perspectiva lusófona vem logo depois da mundial.',
+      'Na prática: o mapa ajuda a localizar a parte do corpo, os cartões mostram o que já está publicado em cada região, e a busca encontra qualquer texto pelo nome, inclusive os que pertencem a mais de uma região.',
     ],
+    guideRegionsHeading: 'As doze regiões, uma linha para cada',
     schemaName: 'Por região do corpo',
     allDiseasesHeading: 'As doenças do dia a dia',
     allDiseasesLead:
@@ -505,9 +508,12 @@ const zh: UI = {
     guideHeading: '身體是怎麼分部的',
     guide: [
       '醫學把身體分成幾個系統：神經、視覺、耳鼻喉、呼吸、心血管、消化、肝膽、代謝、泌尿、皮膚、肌肉骨骼與血液。地圖上的每個部位就對應其中一組：這是同一部百科，只是改用「會不舒服的地方」代替病名來組織。',
+      '一種疾病可能同時出現在幾個部位下：糖尿病歸在「胰臟與代謝」，因為它從那裡開始；也歸在「眼睛」與「腎臟」，因為長期高血糖會損傷這些部位的微細血管。每個部位只收錄自己的詞條裡寫明波及該處的疾病。',
       '每個部位頁面都以兩種視角開頭：這個部位在全世界常見哪些問題；以及葡語系國家——巴西、葡萄牙、安哥拉、莫桑比克、幾內亞比索、維德角與東帝汶——的情況與背後的原因。之後才列出該部位已發布的疾病與文章。',
       '病因會因地方而異：中風反映一個人群的高血壓控制情形，腹瀉反映自來水的普及率，結核病反映診斷被找到的速度。這就是為什麼葡語系國家的視角緊接在全球視角之後。',
+      '實際使用時：地圖幫您找到身體的部位，上方的卡片顯示每個部位已發布的內容，搜尋則可按名稱找到任何文字，包括同時屬於幾個部位的疾病。',
     ],
+    guideRegionsHeading: '十二個部位，各用一行說明',
     schemaName: '依身體部位',
     allDiseasesHeading: '日常生活中會得的疾病',
     allDiseasesLead: '人在日常生活中會生病，可能會得的疾病大致如下：',
