@@ -412,6 +412,16 @@ html[lang^="zh"] .prose-editorial {
   height: auto;
 }
 
+/* The region pages pin the plate beside the text for the whole page, so the rail
+   has to fit one screen: a short landscape window would otherwise leave its
+   bottom half — and the last markers — below the fold with no way to reach them
+   while the rail stays put. Both bounds are `max-`, so the aspect holds. */
+@media (min-width: 1024px) {
+  .bodymap-rail .bm-img {
+    max-height: calc(100svh - 10rem);
+  }
+}
+
 /* Height-fit: the figure is bounded by the screen instead of by its column, so
    it can stand as tall as the home page's first screen and set the width of the
    gutters around it.

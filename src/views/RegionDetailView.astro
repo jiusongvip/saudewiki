@@ -62,98 +62,104 @@ if (diseases.length > 0) {
 ---
 
 <BaseLayout lang={lang} title={`${region.name} | ${SITE.name}`} description={metaDescription} breadcrumbs={breadcrumbs} schemaNodes={schemaNodes}>
-  <div class="mx-auto max-w-6xl px-5 pb-10 pt-10">
+  <div class="mx-auto max-w-6xl px-5 pt-10">
     <Breadcrumbs lang={lang} items={breadcrumbs} />
-
-    <div class="mt-8 grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
-      <div>
-        <h1 class="display text-[2.4rem] sm:text-[3.1rem]">{region.name}</h1>
-        <p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-ink-muted">{region.description}</p>
-
-        {
-          isEmpty ? (
-            <aside class="mt-8 max-w-2xl rounded-xl border border-warn/30 bg-warn-soft p-5" role="note">
-              <div class="flex gap-3">
-                <Icon name="tabler:clock-hour-4" class="mt-0.5 h-4 w-4 shrink-0 text-warn" />
-                <div class="text-[0.85rem] leading-relaxed">
-                  <p class="font-semibold">{t.regionPage.emptyTitle}</p>
-                  <p class="mt-1 text-ink-muted">{t.regionPage.emptyBody}</p>
-                  <p class="mt-2 text-ink-muted">
-                    {t.regionPage.emptyInvite}{' '}
-                    <a href={c.urls.contact()} class="font-semibold text-accent underline underline-offset-2">
-                      {t.regionPage.talkToProject}
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </aside>
-          ) : (
-            <p class="mt-6 text-[0.85rem] font-semibold text-ink-muted">
-              {fill(t.regionPage.countsHere, {
-                diseases: unitCount(lang, counts.diseases, 'disease'),
-                articles: unitCount(lang, counts.articles, 'article'),
-              })}
-            </p>
-          )
-        }
-      </div>
-
-      <!-- The same figure the home page opens with, with this region's marker
-           held open. It is wayfinding, not decoration: the reader learns where
-           on the body they are, and the other markers stay clickable. -->
-      <BodyMap lang={lang} regions={c.regions} activeSlug={region.slug} class="order-first lg:order-none" />
-    </div>
   </div>
 
-  {
-    diseases.length > 0 && (
-      <section class="border-t border-line" aria-labelledby="doencas-da-regiao">
-        <div class="mx-auto max-w-6xl px-5 py-14">
-          <h2 id="doencas-da-regiao" class="display text-[1.8rem]">
-            {fill(t.regionPage.diseasesHere, { region: name })}
-          </h2>
-          <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {diseases.map((disease) => (
-              <DiseaseCard lang={lang} disease={disease} />
-            ))}
-          </div>
-        </div>
-      </section>
-    )
-  }
+  <!--
+    One grid for the whole page rather than one per block. The plate is
+    wayfinding, so it travels beside the text from the heading down to the last
+    card instead of scrolling away after the first screen — and because the cards
+    now live in the same column as the heading, they end where it ends.
+    `items-start` is what makes the stickiness possible: the grid row is as tall
+    as the content column, so the rail has the full page to move within.
+  -->
+  <div class="mx-auto grid max-w-6xl items-start gap-x-10 gap-y-10 px-5 pb-16 pt-8 lg:grid-cols-[minmax(0,1fr)_320px]">
+    <div class="min-w-0">
+      <h1 class="display text-[2.4rem] sm:text-[3.1rem]">{region.name}</h1>
+      <p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-ink-muted">{region.description}</p>
 
-  {
-    articles.length > 0 && (
-      <section class="border-t border-line bg-surface" aria-labelledby="artigos-da-regiao">
-        <div class="mx-auto max-w-6xl px-5 py-14">
-          <h2 id="artigos-da-regiao" class="display text-[1.8rem]">{t.regionPage.articlesHere}</h2>
-          <ul class="mt-8 grid gap-x-10 gap-y-7 sm:grid-cols-2">
-            {articles.map((article) => (
-              <li>
-                <a href={c.urls.article(article.slug)} class="group block">
-                  <span class="text-[0.72rem] font-semibold uppercase tracking-wider text-accent">
-                    {article.category}
-                  </span>
-                  <span class="mt-1.5 block text-[1.05rem] font-semibold leading-snug tracking-tight transition-colors group-hover:text-accent">
-                    {article.title}
-                  </span>
-                  <span class="mt-1.5 block text-[0.78rem] text-ink-muted">
-                    {fill(t.common.updatedOn, { date: formatDateFor(article.updatedAt, lang) })}
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-    )
-  }
+      {
+        isEmpty ? (
+          <aside class="mt-8 max-w-2xl rounded-xl border border-warn/30 bg-warn-soft p-5" role="note">
+            <div class="flex gap-3">
+              <Icon name="tabler:clock-hour-4" class="mt-0.5 h-4 w-4 shrink-0 text-warn" />
+              <div class="text-[0.85rem] leading-relaxed">
+                <p class="font-semibold">{t.regionPage.emptyTitle}</p>
+                <p class="mt-1 text-ink-muted">{t.regionPage.emptyBody}</p>
+                <p class="mt-2 text-ink-muted">
+                  {t.regionPage.emptyInvite}{' '}
+                  <a href={c.urls.contact()} class="font-semibold text-accent underline underline-offset-2">
+                    {t.regionPage.talkToProject}
+                  </a>
+                </p>
+              </div>
+            </div>
+          </aside>
+        ) : (
+          <p class="mt-6 text-[0.85rem] font-semibold text-ink-muted">
+            {fill(t.regionPage.countsHere, {
+              diseases: unitCount(lang, counts.diseases, 'disease'),
+              articles: unitCount(lang, counts.articles, 'article'),
+            })}
+          </p>
+        )
+      }
 
-  <div class="mx-auto max-w-6xl px-5 pb-16">
-    <p class="max-w-2xl text-[0.85rem] leading-relaxed text-ink-muted">{t.regionPage.sourcesNote}</p>
-    <a href={c.urls.regions()} class="mt-6 inline-flex items-center gap-2 text-[0.9rem] font-semibold text-accent">
-      <Icon name="tabler:arrow-left" class="h-4 w-4" />
-      {t.regionPage.allRegions}
-    </a>
+      {
+        diseases.length > 0 && (
+          <section class="mt-14 border-t border-line pt-10" aria-labelledby="doencas-da-regiao">
+            <h2 id="doencas-da-regiao" class="display text-[1.8rem]">
+              {fill(t.regionPage.diseasesHere, { region: name })}
+            </h2>
+            <div class="mt-8 grid gap-5 sm:grid-cols-2">
+              {diseases.map((disease) => (
+                <DiseaseCard lang={lang} disease={disease} />
+              ))}
+            </div>
+          </section>
+        )
+      }
+
+      {
+        articles.length > 0 && (
+          <section class="mt-14 rounded-2xl bg-surface p-6 sm:p-8" aria-labelledby="artigos-da-regiao">
+            <h2 id="artigos-da-regiao" class="display text-[1.8rem]">{t.regionPage.articlesHere}</h2>
+            <ul class="mt-8 grid gap-x-8 gap-y-7 sm:grid-cols-2">
+              {articles.map((article) => (
+                <li>
+                  <a href={c.urls.article(article.slug)} class="group block">
+                    <span class="text-[0.72rem] font-semibold uppercase tracking-wider text-accent">
+                      {article.category}
+                    </span>
+                    <span class="mt-1.5 block text-[1.05rem] font-semibold leading-snug tracking-tight transition-colors group-hover:text-accent">
+                      {article.title}
+                    </span>
+                    <span class="mt-1.5 block text-[0.78rem] text-ink-muted">
+                      {fill(t.common.updatedOn, { date: formatDateFor(article.updatedAt, lang) })}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      <div class="mt-14">
+        <p class="max-w-2xl text-[0.85rem] leading-relaxed text-ink-muted">{t.regionPage.sourcesNote}</p>
+        <a href={c.urls.regions()} class="mt-6 inline-flex items-center gap-2 text-[0.9rem] font-semibold text-accent">
+          <Icon name="tabler:arrow-left" class="h-4 w-4" />
+          {t.regionPage.allRegions}
+        </a>
+      </div>
+    </div>
+
+    <!-- The same figure the home page opens with, with this region's marker held
+         open. It is wayfinding, not decoration: the reader learns where on the
+         body they are, and the other markers stay clickable. -->
+    <aside class="bodymap-rail order-first lg:order-none lg:sticky lg:top-20">
+      <BodyMap lang={lang} regions={c.regions} activeSlug={region.slug} />
+    </aside>
   </div>
 </BaseLayout>
