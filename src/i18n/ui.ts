@@ -178,7 +178,7 @@ const pt = {
         body: 'Qualquer pessoa pode reportar um erro; a correção é avaliada antes de o texto mudar.',
       },
     ],
-    studentsTitle: 'Escrito por estudantes, de graça',
+    studentsTitle: 'Escrito por estudantes de medicina, de graça',
     studentsLead:
       'O que falta para o projeto crescer é texto: cada região do mapa que aparece como «Em construção» é uma página à espera de ser escrita.',
     studentsCta: 'Participar do projeto',
@@ -446,7 +446,7 @@ const zh: UI = {
         body: '任何人都可以回報錯誤；更正經檢視後才會改動正文。',
       },
     ],
-    studentsTitle: '由學生義務撰寫',
+    studentsTitle: '由醫學生義務撰寫',
     studentsLead:
       '項目要成長，缺的是內容：圖譜上每個標為「建置中」的部位，都是一張還在等待撰寫的頁面。',
     studentsCta: '參與這個項目',
