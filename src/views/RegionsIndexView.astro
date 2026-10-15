@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import BodyMap from '../components/BodyMap.astro';
+import GuideSections from '../components/GuideSections.astro';
 import RegionGrid from '../components/RegionGrid.astro';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
@@ -22,14 +23,36 @@ const breadcrumbs = [
   { name: t.nav.regions, href: c.urls.regions() },
 ];
 
+/**
+ * Articles grouped by the place they talk about, derived from the diseases each
+ * article names. The region owns no article list of its own — this is the same
+ * derivation the region pages use, shown here as one index.
+ */
+const readings = c.regions
+  .map((region) => ({ region, articles: c.regionArticles(region) }))
+  .filter((entry) => entry.articles.length > 0);
+
+const pageId = `${SITE.url}${c.urls.regions()}`;
 const schemaNodes: Record<string, unknown>[] = [
   {
     '@type': 'CollectionPage',
-    '@id': `${SITE.url}${c.urls.regions()}#page`,
+    '@id': `${pageId}#page`,
     name: t.regionsIndex.schemaName,
     description: t.regionsIndex.schemaDescription,
     inLanguage: localeSpecs[lang].hreflang,
     isPartOf: { '@id': `${SITE.url}/#website` },
+  },
+  {
+    '@type': 'ItemList',
+    '@id': `${pageId}#lista`,
+    name: t.regionsIndex.schemaName,
+    numberOfItems: c.regions.length,
+    itemListElement: c.regions.map((region, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: region.name,
+      url: `${SITE.url}${c.urls.region(region.slug)}`,
+    })),
   },
 ];
 ---
@@ -73,6 +96,45 @@ const schemaNodes: Record<string, unknown>[] = [
             }
           </dl>
         </section>
+        <GuideSections lang={lang} sections={c.guide('regions')} class="mt-14 first:mt-0" />
+        {
+          readings.length > 0 && (
+            <section class="mt-14 border-t border-line pt-10" aria-labelledby="leituras-por-regiao">
+              <h2 id="leituras-por-regiao" class="display text-[1.8rem]">
+                {t.regionsIndex.regionArticlesHeading}
+              </h2>
+              <p class="mt-4 max-w-2xl text-[0.98rem] leading-relaxed text-ink">
+                {t.regionsIndex.regionArticlesLead}
+              </p>
+              <dl class="mt-6 grid gap-x-10 gap-y-6 sm:grid-cols-2">
+                {
+                  readings.map(({ region, articles }) => (
+                    <div>
+                      <dt>
+                        <a
+                          href={c.urls.region(region.slug)}
+                          class="text-[0.95rem] font-extrabold transition-colors hover:text-accent"
+                        >
+                          {region.name}
+                        </a>
+                      </dt>
+                      <dd class="mt-2 space-y-2">
+                        {articles.map((article) => (
+                          <a
+                            href={c.urls.article(article.slug)}
+                            class="block text-[0.88rem] leading-snug text-ink-muted transition-colors hover:text-accent"
+                          >
+                            {article.title}
+                          </a>
+                        ))}
+                      </dd>
+                    </div>
+                  ))
+                }
+              </dl>
+            </section>
+          )
+        }
         <section class="mt-14 border-t border-line pt-10" aria-labelledby="doencas-do-cotidiano">
           <h2 id="doencas-do-cotidiano" class="display text-[1.8rem]">{t.regionsIndex.allDiseasesHeading}</h2>
           <p class="mt-4 max-w-2xl text-[0.98rem] leading-relaxed text-ink">{t.regionsIndex.allDiseasesLead}</p>

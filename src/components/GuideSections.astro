@@ -1,0 +1,87 @@
+---
+import InlineText from './InlineText.astro';
+import { Icon } from 'astro-icon/components';
+import { localizedHref } from '../lib/content';
+import type { ContentSection, Locale } from '../types';
+
+/**
+ * Guide prose of a list page, rendered as editorial sections.
+ *
+ * One component because the disease list, the article list, the region index and
+ * the topic pages all show the same kind of text, and the block that carries a
+ * red-flag list on one of them must not read differently on another.
+ */
+interface Props {
+  lang: Locale;
+  sections: ContentSection[];
+  /** Rendered above every heading; the index pages differ only in spacing. */
+  class?: string;
+  /**
+   * Heading level, because the same prose is a top-level block on a list page
+   * and a sub-block under a category name on the same page. Level 2 by default;
+   * the category blocks pass 4 so the outline never inverts.
+   */
+  level?: 2 | 3 | 4;
+}
+
+const { lang, sections, class: klass = '', level = 2 } = Astro.props;
+const Heading = `h${level}`;
+const headingClass =
+  level === 2
+    ? 'display scroll-mt-28 text-[1.7rem] sm:text-[1.8rem]'
+    : 'scroll-mt-24 text-[1.05rem] font-extrabold tracking-tight';
+// A top-level block is separated from the previous one by a rule; a block nested
+// under a category name is already separated by that name.
+const wrapperClass = level === 2 ? 'border-t border-line pt-10' : 'pt-2';
+---
+
+{
+  sections.map((section) => (
+    <section class:list={[wrapperClass, klass]} aria-labelledby={section.id}>
+      <Heading id={section.id} class={headingClass}>
+        {section.heading}
+      </Heading>
+
+      {
+        section.paragraphs && section.paragraphs.length > 0 && (
+          <div class="mt-5 max-w-2xl space-y-4 text-[0.98rem] leading-relaxed text-ink">
+            {section.paragraphs.map((paragraph) => (
+              <p>
+                <InlineText lang={lang} text={paragraph} />
+              </p>
+            ))}
+          </div>
+        )
+      }
+
+      {
+        section.bullets && section.bullets.length > 0 && (
+          <ul class="mt-5 max-w-2xl space-y-3 text-[0.95rem] leading-relaxed">
+            {section.bullets.map((bullet) => (
+              <li class="flex gap-2.5">
+                <Icon name="tabler:point" class="mt-1 h-4 w-4 shrink-0 text-accent" />
+                <span class="text-ink">
+                  <InlineText lang={lang} text={bullet} />
+                </span>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+
+      {
+        section.cta && (
+          <p class="mt-6">
+            <a
+              href={localizedHref(section.cta.href, lang)}
+              class="inline-flex items-center gap-1.5 text-[0.9rem] font-semibold text-accent"
+            >
+              {section.cta.label}
+              <Icon name="tabler:arrow-right" class="h-4 w-4" />
+            </a>
+          </p>
+        )
+      }
+    </section>
+  ))
+}

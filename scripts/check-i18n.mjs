@@ -24,6 +24,8 @@ export { zhRegions } from './src/data/zh-Hant/regions';
 export { zhStaticPages } from './src/data/zh-Hant/pages';
 export { zhCategories } from './src/data/zh-Hant/categories';
 export { zhImageAlts } from './src/data/zh-Hant/image-alts';
+export { listGuides, categoryGuides } from './src/data/guides';
+export { zhListGuides, zhCategoryGuides } from './src/data/zh-Hant/guides';
 export { diseaseImages, articleImages, topicImages } from './src/lib/images';
 export { ui } from './src/i18n/ui';
 `;
@@ -113,6 +115,19 @@ for (const item of mod.staticPages) {
   if ((item.cards?.length ?? 0) !== (twin.cards?.length ?? 0)) report('page', item.slug, 'card count differs');
   if (Boolean(item.notice) !== Boolean(twin.notice)) report('page', item.slug, 'notice presence differs');
   if (item.cardsAfter !== twin.cardsAfter) report('page', item.slug, 'cardsAfter differs');
+}
+
+// The list-page guides and the category definitions are prose too, and they
+// render on pages whose every other block is Chinese: a gap falls back to
+// Portuguese one paragraph at a time, invisibly.
+for (const page of Object.keys(mod.listGuides)) {
+  checkSections('guide', page, mod.listGuides[page], mod.zhListGuides[page]);
+}
+for (const slug of Object.keys(mod.categoryGuides)) {
+  checkSections('guide', slug, mod.categoryGuides[slug], mod.zhCategoryGuides[slug]);
+}
+for (const slug of Object.keys(mod.zhCategoryGuides)) {
+  if (!mod.categoryGuides[slug]) report('guide', slug, 'translation for a guide that does not exist');
 }
 
 // Categories and image captions are keyed by the same slugs; a gap there is a

@@ -101,6 +101,8 @@ const pt = {
     /** The joiner inside a count line: "3 doenças · 5 artigos". */
     countSeparator: ' · ',
     contentInTopic: '{n} {unit} neste tema',
+    /** Freshness line shown under a list heading, built from the entries themselves. */
+    listUpdated: 'O texto mais recente desta lista foi atualizado em {date}.',
     topicInPreparation: 'Tema em preparação',
     relatedTopics: 'Temas relacionados',
     relatedArticles: 'Artigos relacionados',
@@ -186,12 +188,17 @@ const pt = {
   },
 
   diseasesIndex: {
-    title: 'Doenças',
+    title: 'Doenças: sintomas, diagnóstico e prevenção',
     h1: 'Doenças',
     description:
-      'Enciclopédia de doenças em português: sintomas, transmissão, diagnóstico, tratamento e prevenção, com fontes públicas oficiais.',
+      'Enciclopédia de doenças em português: o que é cada uma, sintomas, transmissão, diagnóstico, tratamento e prevenção, com fontes públicas oficiais e data de revisão.',
     lead: 'Cada página reúne o que é a doença, quais são os sintomas, como ela é transmitida, como é feito o diagnóstico e o que reduz o risco, sempre com a fonte oficial indicada.',
     listAria: 'Lista de doenças',
+    listHeading: 'Os verbetes publicados',
+    groupHeading: 'A enciclopédia por grupo',
+    groupLead:
+      'Os verbetes desta lista estão divididos pelo que a doença faz com o corpo, não por órgão: a infecção vem de um agente externo, a condição crônica permanece e exige acompanhamento.',
+    alphaHeading: 'Todas as doenças, em ordem alfabética',
   },
 
   diseasePage: {
@@ -202,13 +209,18 @@ const pt = {
   },
 
   articlesIndex: {
-    title: 'Artigos de saúde',
+    title: 'Artigos de saúde: sintomas, prevenção e rotina',
     h1: 'Artigos de saúde',
     description:
-      'Artigos em português sobre sintomas, prevenção e cuidados com a saúde, ligados às páginas de doenças correspondentes.',
+      'Artigos curtos em português sobre sintomas, prevenção e cuidados diários: o que reconhecer, o que fazer no tempo certo, e o que muda no dia a dia de uma doença crônica.',
     lead: 'Textos curtos que respondem a dúvidas específicas e levam para a página da doença correspondente, onde o assunto é tratado por completo.',
     listAria: 'Lista de artigos',
+    listHeading: 'Os artigos publicados',
     browseByTopic: 'Navegar por tema',
+    groupHeading: 'Os artigos por grupo',
+    groupLead:
+      'Cada artigo pertence a um dos grupos da enciclopédia, e o grupo diz de que distância ele trata o assunto: a dúvida pontual de quem está bem, a dúvida do dia a dia de quem convive com uma condição.',
+    alphaHeading: 'Todos os artigos, em ordem alfabética',
   },
 
   articlePage: {
@@ -230,7 +242,7 @@ const pt = {
   },
 
   regionsIndex: {
-    title: 'Por região do corpo',
+    title: 'Doenças por região do corpo',
     h1: 'Explore por região do corpo',
     description:
       'Escolha uma parte do corpo e veja as doenças e os artigos que a atingem: cérebro, olhos, pulmões, coração, fígado, rins, pele, articulações e sangue.',
@@ -246,6 +258,10 @@ const pt = {
       'Na prática: o mapa ajuda a localizar a parte do corpo, os cartões mostram o que já está publicado em cada região, e a busca encontra qualquer texto pelo nome, inclusive os que pertencem a mais de uma região.',
     ],
     guideRegionsHeading: 'O que abrange cada região',
+    /** Below the tiles: the short readings that each region's diseases generated. */
+    regionArticlesHeading: 'O que já se pode ler sobre cada região',
+    regionArticlesLead:
+      'Estes textos curtos nasceram das doenças listadas acima: cada região mostra os artigos que tratam dos problemas daquele lugar do corpo.',
     schemaName: 'Por região do corpo',
     allDiseasesHeading: 'As doenças do dia a dia',
     allDiseasesLead:
@@ -377,6 +393,7 @@ const zh: UI = {
     countDisease: '{n} {unit}',
     countSeparator: '、',
     contentInTopic: '本主題共 {n} {unit}',
+    listUpdated: '本清單最新的文字更新於 {date}。',
     topicInPreparation: '主題籌備中',
     relatedTopics: '相關主題',
     relatedArticles: '相關文章',
@@ -458,11 +475,15 @@ const zh: UI = {
   },
 
   diseasesIndex: {
-    title: '疾病',
+    title: '疾病百科：症狀、診斷與預防',
     h1: '疾病',
-    description: '疾病百科：症狀、傳染、診斷、治療與預防，均以淺白中文撰寫，並附公家機關的公開來源。',
+    description: '疾病百科全書：這種疾病是什麼、有哪些症狀、如何傳染、怎麼診斷、如何治療與預防，附公家機關的公開來源與文字的審查狀態。',
     lead: '每個頁面整理這種疾病是什麼、有哪些症狀、如何傳染、怎樣診斷，以及什麼做法能降低風險，並標註引用的官方來源。',
     listAria: '疾病清單',
+    listHeading: '已發布的條目',
+    groupHeading: '依群組瀏覽百科',
+    groupLead: '這份清單按疾病對身體的作用方式分組，而不是按器官：傳染病來自體外的病原，慢性病則長久相伴、需要持續照護。',
+    alphaHeading: '全部疾病索引',
   },
 
   diseasePage: {
@@ -478,7 +499,11 @@ const zh: UI = {
     description: '說明症狀、預防與健康照顧的文章，每篇都連結到對應的疾病頁面。',
     lead: '簡短的文章回答特定的疑問，並帶讀者到對應的疾病頁面，在那裡可以讀到完整的說明。',
     listAria: '文章清單',
+    listHeading: '已發布的文章',
     browseByTopic: '依主題瀏覽',
+    groupHeading: '依群組瀏覽文章',
+    groupLead: '每篇文章都屬於百科的一個群組，而群組說明它從哪個距離處理主題：健康時的一次疑問，或是與一種慢性病共處的日常。',
+    alphaHeading: '全部文章索引',
   },
 
   articlePage: {
@@ -514,6 +539,8 @@ const zh: UI = {
       '實際使用時：地圖幫您找到身體的部位，上方的卡片顯示每個部位已發布的內容，搜尋則可按名稱找到任何文字，包括同時屬於幾個部位的疾病。',
     ],
     guideRegionsHeading: '各部位涵蓋的範圍',
+    regionArticlesHeading: '每個部位目前讀得到什麼',
+    regionArticlesLead: '這些短文來自上方列出的疾病：每個部位顯示處理該處問題的文章。',
     schemaName: '依身體部位',
     allDiseasesHeading: '日常生活中會得的疾病',
     allDiseasesLead: '人在日常生活中會生病，可能會得的疾病大致如下：',

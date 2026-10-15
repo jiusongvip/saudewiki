@@ -20,12 +20,14 @@ import { articles } from '../data/articles';
 import { topics } from '../data/topics';
 import { regions } from '../data/regions';
 import { staticPages } from '../data/pages';
+import { categoryGuides, listGuides, type GuidePage } from '../data/guides';
 import { zhDiseases } from '../data/zh-Hant/diseases';
 import { zhArticles } from '../data/zh-Hant/articles';
 import { zhTopics } from '../data/zh-Hant/topics';
 import { zhRegions } from '../data/zh-Hant/regions';
 import { zhStaticPages } from '../data/zh-Hant/pages';
 import { zhCategories } from '../data/zh-Hant/categories';
+import { zhCategoryGuides, zhListGuides } from '../data/zh-Hant/guides';
 
 /**
  * The single gate between raw data and everything the site renders.
@@ -185,6 +187,18 @@ export interface LocaleContent {
    */
   regionArticles: (region: BodyRegion) => Article[];
   regionCounts: (region: BodyRegion) => { diseases: number; articles: number; total: number };
+  /**
+   * Guide prose of a list page, in this locale. Written once per page in
+   * `data/guides.ts`, so the disease list and the article list cannot describe
+   * the same editorial rule in two different ways.
+   */
+  guide: (page: GuidePage) => ContentSection[];
+  /**
+   * The definition of a group, addressed by `categorySlug`. The same text is
+   * shown wherever the group appears: under the disease list, under the article
+   * list, and on the topic page that carries that slug.
+   */
+  categoryGuide: (slug: string) => ContentSection[];
   urls: ReturnType<typeof urlsFor>;
   searchIndex: SearchEntry[];
 }
@@ -250,6 +264,10 @@ export function contentFor(lang: Locale): LocaleContent {
     regionDiseases,
     regionArticles,
     regionCounts,
+    guide: (page) =>
+      localizeSections(listGuides[page] ?? [], lang === 'pt-BR' ? undefined : zhListGuides[page]),
+    categoryGuide: (slug) =>
+      localizeSections(categoryGuides[slug] ?? [], lang === 'pt-BR' ? undefined : zhCategoryGuides[slug]),
     urls,
     searchIndex: [],
   };

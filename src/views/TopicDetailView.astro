@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GuideSections from '../components/GuideSections.astro';
 import ReferenceList from '../components/ReferenceList.astro';
 import DiseaseCard from '../components/DiseaseCard.astro';
 import ArticleCard from '../components/ArticleCard.astro';
@@ -39,6 +40,27 @@ const schemaNodes: Record<string, unknown>[] = [
     isPartOf: { '@id': `${SITE.url}/#website` },
   },
 ];
+
+if (topicDiseases.length > 0) {
+  schemaNodes.push({
+    '@type': 'ItemList',
+    '@id': `${SITE.url}${c.urls.topic(topic.slug)}#lista`,
+    name: t.topicPage.diseases,
+    numberOfItems: topicDiseases.length,
+    itemListElement: topicDiseases.map((disease, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: disease.name,
+      url: `${SITE.url}${c.urls.disease(disease.slug)}`,
+    })),
+  });
+}
+
+/**
+ * A theme and a category are the same group seen from two pages, so the group's
+ * definition is written once in `data/guides.ts` and shown here too.
+ */
+const groupProse = c.categoryGuide(topic.slug);
 ---
 
 <BaseLayout lang={lang} title={`${topic.title} | ${SITE.name}`} description={topic.description} breadcrumbs={breadcrumbs} schemaNodes={schemaNodes}>
@@ -76,6 +98,8 @@ const schemaNodes: Record<string, unknown>[] = [
         }
       </ul>
     </section>
+
+    <GuideSections lang={lang} sections={groupProse} class="mt-14 first:mt-0" />
   </div>
 
   {
