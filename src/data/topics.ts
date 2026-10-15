@@ -80,6 +80,7 @@ export const topics: Topic[] = [
       'hepatites-virais',
       'diabetes',
       'hipertensao',
+      'asma',
       'infarto-e-avc',
     ],
     articleSlugs: [
@@ -90,6 +91,7 @@ export const topics: Topic[] = [
       'hiv-o-que-fazer-nas-primeiras-72-horas',
       'hepatites-virais-quais-tem-vacina',
       'hipertensao-como-medir-a-pressao-em-casa',
+      'asma-como-evitar-crises',
     ],
     references: [
       {
@@ -123,6 +125,10 @@ export const topics: Topic[] = [
       'diabetes-tipo-2-o-que-muda-no-dia-a-dia',
       'hipertensao-como-medir-a-pressao-em-casa',
       'asma-crise-o-que-fazer-enquanto-espera-atendimento',
+      'asma-sintomas-e-sinais-de-alerta',
+      'asma-diagnostico-e-exames',
+      'asma-tratamento-e-controle',
+      'asma-como-evitar-crises',
       'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
       'infarto-quais-sao-os-sinais-e-o-que-fazer',
       'avc-como-reconhecer-os-sinais-e-agir-rapido',
