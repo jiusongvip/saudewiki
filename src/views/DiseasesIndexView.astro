@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SearchBox from '../components/SearchBox.astro';
 import DiseaseCard from '../components/DiseaseCard.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import MedicalDisclaimer from '../components/MedicalDisclaimer.astro';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
 import { contentFor } from '../lib/content';
@@ -32,6 +33,10 @@ const breadcrumbs = [
 
     <h1 class="display mt-6 text-[2.4rem] sm:text-[3.2rem]">{t.diseasesIndex.h1}</h1>
     <p class="mt-4 max-w-2xl text-[1rem] leading-relaxed text-ink-muted">{t.diseasesIndex.lead}</p>
+
+    <div class="mt-6">
+      <MedicalDisclaimer lang={lang} variant="inline" />
+    </div>
 
     <div class="mt-8 max-w-xl">
       <SearchBox lang={lang} variant="compact" />

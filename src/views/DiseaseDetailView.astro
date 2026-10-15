@@ -105,6 +105,19 @@ const title = `${disease.metaTitle ?? `${disease.name}: ${t.diseasePage.titleSuf
             disease.sections.map((section) => (
               <section>
                 <h2 id={section.id}>{section.heading}</h2>
+                {/*
+                  The treatment section is the one part of the page a reader can
+                  act on without a prescription, so the warning about medication
+                  sits at the top of that section instead of in the footer.
+                  `tratamento` is the section id every disease record uses in both
+                  languages, and the i18n gate keeps the two languages' section
+                  ids aligned, so the id is a stable contract rather than a guess.
+                */}
+                {section.id === 'tratamento' && (
+                  <p class="mt-4 rounded-lg border border-warn/30 bg-warn-soft px-4 py-3 text-[0.85rem] leading-relaxed text-ink">
+                    {t.common.medicationWarning}
+                  </p>
+                )}
                 {section.paragraphs?.map((paragraph) => (
                   <p>
                     <InlineText lang={lang} text={paragraph} />
@@ -157,7 +170,13 @@ const title = `${disease.metaTitle ?? `${disease.name}: ${t.diseasePage.titleSuf
         </div>
 
         <p class="mt-8 max-w-2xl border-l-2 border-line pl-4 text-[0.85rem] leading-relaxed text-ink-muted">
-          {t.common.disclaimer}
+          {t.common.disclaimer}{' '}
+          <a
+            href={c.urls.medicalDisclaimer()}
+            class="font-semibold text-accent underline underline-offset-2"
+          >
+            {t.common.disclaimerLink}
+          </a>
         </p>
 
         {

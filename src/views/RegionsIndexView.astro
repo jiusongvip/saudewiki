@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import BodyMap from '../components/BodyMap.astro';
 import RegionGrid from '../components/RegionGrid.astro';
+import MedicalDisclaimer from '../components/MedicalDisclaimer.astro';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
 import { localeSpecs } from '../lib/i18n';
@@ -43,6 +44,10 @@ const schemaNodes: Record<string, unknown>[] = [
     <p class="mt-3 max-w-2xl text-[0.85rem] leading-relaxed text-ink-muted">
       {t.regionsIndex.constructionHint}
     </p>
+
+    <div class="mt-6">
+      <MedicalDisclaimer lang={lang} variant="inline" />
+    </div>
 
     <div class="mt-10 grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_340px]">
       <RegionGrid lang={lang} regions={c.regions} class="order-2 lg:order-1" />

@@ -130,7 +130,13 @@ const schemaNodes: Record<string, unknown>[] = [
         </div>
 
         <p class="mt-8 max-w-2xl border-l-2 border-line pl-4 text-[0.85rem] leading-relaxed text-ink-muted">
-          {t.common.disclaimer}
+          {t.common.disclaimer}{' '}
+          <a
+            href={c.urls.medicalDisclaimer()}
+            class="font-semibold text-accent underline underline-offset-2"
+          >
+            {t.common.disclaimerLink}
+          </a>
         </p>
 
         <section class="mt-14 max-w-2xl rounded-xl border border-line bg-surface p-6" aria-labelledby="correcao">
