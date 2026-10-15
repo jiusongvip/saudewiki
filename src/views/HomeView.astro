@@ -4,12 +4,13 @@ import SearchBox from '../components/SearchBox.astro';
 import BodyMap from '../components/BodyMap.astro';
 import RegionTiles from '../components/RegionTiles.astro';
 import WindowGrid from '../components/WindowGrid.astro';
+import ImageSlot from '../components/ImageSlot.astro';
 import { Icon } from 'astro-icon/components';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
 import { fill } from '../lib/i18n';
 import { contentFor, formatDateFor, popularSearches } from '../lib/content';
-import { imageForDisease } from '../lib/images';
+import { imageForArticle, imageForDisease } from '../lib/images';
 import type { Locale } from '../types';
 
 interface Props {
@@ -209,35 +210,47 @@ const articles = c.articles.slice(0, 6);
 
     <div class="grid min-h-0 flex-1 grid-cols-1 gap-1.5 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2 md:gap-2">
       {
-        articles.map((article) => (
-          <a
-            href={c.urls.article(article.slug)}
-            class="group flex min-h-[220px] flex-col rounded-2xl bg-canvas p-5 transition-colors duration-200 hover:bg-sand md:min-h-0 md:p-6"
-          >
-            <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
-              <span class="text-[0.66rem] font-bold uppercase tracking-wider text-accent-strong">
-                {article.category}
-              </span>
-              <span class="text-[0.7rem] text-ink-muted">
-                {formatDateFor(article.updatedAt, lang)}
-              </span>
-            </div>
+        articles.map((article) => {
+          const image = imageForArticle(article.slug, lang);
+          return (
+            <a
+              href={c.urls.article(article.slug)}
+              class="group flex min-h-[300px] flex-col overflow-hidden rounded-2xl bg-canvas transition-colors duration-200 hover:bg-sand md:min-h-0"
+            >
+              <!-- The picture takes the slack the text does not need, so the
+                   card always fills its row and the reading block keeps the
+                   height its content asks for. -->
+              <div class="min-h-[130px] basis-0 flex-[1.25]">
+                <ImageSlot lang={lang} src={image?.src} alt={image?.alt ?? ''} ratio="fill" />
+              </div>
 
-            <h3 class="mt-3 text-lg font-extrabold leading-snug tracking-tight text-ink md:text-xl">
-              {article.title}
-            </h3>
+              <div class="flex flex-col p-5 md:p-6">
+                <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <span class="text-[0.66rem] font-bold uppercase tracking-wider text-accent-strong">
+                    {article.category}
+                  </span>
+                  <span class="text-[0.7rem] text-ink-muted">
+                    {formatDateFor(article.updatedAt, lang)}
+                  </span>
+                </div>
 
-            <p class="mt-2 flex-1 text-sm leading-relaxed text-ink-muted">{article.excerpt}</p>
+                <h3 class="mt-3 text-lg font-extrabold leading-snug tracking-tight text-ink md:text-xl">
+                  {article.title}
+                </h3>
 
-            <span class="mt-5 inline-flex items-center gap-1.5 text-sm font-bold text-accent-strong">
-              {t.common.readArticle}
-              <Icon
-                name="tabler:arrow-right"
-                class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
-              />
-            </span>
-          </a>
-        ))
+                <p class="mt-2 text-sm leading-relaxed text-ink-muted">{article.excerpt}</p>
+
+                <span class="mt-5 inline-flex items-center gap-1.5 text-sm font-bold text-accent-strong">
+                  {t.common.readArticle}
+                  <Icon
+                    name="tabler:arrow-right"
+                    class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+                  />
+                </span>
+              </div>
+            </a>
+          );
+        })
       }
     </div>
   </section>
