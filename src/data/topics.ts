@@ -4,9 +4,9 @@ import type { Topic } from '../types';
  * Health topics: the third pillar, sitting between the encyclopedia and the
  * articles.
  *
- * A topic only lists content that actually exists. Topics whose content has not
- * been written yet keep empty arrays and render an explicit "em preparação"
- * notice, rather than pretending to be a finished medical guide.
+ * A topic only lists content that actually exists: every slug below resolves to
+ * a published disease or article, and a topic that cannot list any is dropped
+ * from the site rather than published as an empty shell.
  */
 export const topics: Topic[] = [
   {
@@ -209,9 +209,23 @@ export const topics: Topic[] = [
       'Gestação, pré-natal e pós-parto',
       'Climatério e saúde na meia-idade',
     ],
-    diseaseSlugs: [],
-    articleSlugs: [],
-    references: [],
+    diseaseSlugs: ['zika'],
+    articleSlugs: [
+      'zika-na-gestacao-o-que-a-infeccao-pode-causar',
+      'zika-como-se-proteger-em-areas-com-transmissao',
+    ],
+    references: [
+      {
+        label: 'Zika: sintomas, prevenção e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/z/zika-virus',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Zika virus: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/zika-virus',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
     reviewStatus: 'needs_review',
   },
 ];

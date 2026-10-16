@@ -14,8 +14,8 @@
  *
  * - draft        → not built at all (excluded from getStaticPaths, so it can
  *                  never appear in the sitemap, a list, or a link)
- * - needs_review → built and reachable, but rendered with a visible
- *                  "em revisão médica" notice
+ * - needs_review → built and reachable, carrying the review-group badge; the
+ *                  stage before an identified professional signs it off
  * - reviewed     → medical review completed and recorded
  * - published    → reviewed and cleared for public release
  */

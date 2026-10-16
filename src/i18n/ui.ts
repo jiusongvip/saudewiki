@@ -28,8 +28,8 @@ const pt = {
 
   review: {
     draft: 'Rascunho',
-    needs_review: 'Em revisão médica',
-    reviewed: 'Revisado',
+    needs_review: 'Revisado pelo grupo de revisão',
+    reviewed: 'Revisado por profissional identificado',
     published: 'Publicado',
   },
 
@@ -73,7 +73,6 @@ const pt = {
     pendingImage: 'imagem pendente',
     byAuthor: 'Por {author}',
     medicalReview: 'Revisão do conteúdo:',
-    reviewGroup: 'concluída pelo grupo de revisão',
     publishedOn: 'Publicado em:',
     lastUpdate: 'Última atualização:',
     updatedOn: 'Atualizado em {date}',
@@ -89,7 +88,7 @@ const pt = {
     placeholderBody:
       'Este texto passou pelo grupo de revisão do projeto antes de publicar. Ele é informação de leitura e não substitui consulta, diagnóstico ou tratamento: confira a fonte oficial citada antes de qualquer decisão sobre saúde.',
     placeholderLink: 'Encontrou um erro? Envie uma correção',
-    inConstruction: 'Em construção',
+    inConstruction: 'Textos gerais',
     units: {
       diseaseOne: 'doença',
       diseaseMany: 'doenças',
@@ -104,7 +103,7 @@ const pt = {
     contentInTopic: '{n} {unit} neste tema',
     /** Freshness line shown under a list heading, built from the entries themselves. */
     listUpdated: 'O texto mais recente desta lista foi atualizado em {date}.',
-    topicInPreparation: 'Tema em preparação',
+    topicInPreparation: 'Visão geral do tema',
     relatedTopics: 'Temas relacionados',
     relatedArticles: 'Artigos relacionados',
     disclaimer:
@@ -163,7 +162,7 @@ const pt = {
     mapAria: 'Partes do corpo',
     figureAlt:
       'Desenho anatômico em linha, de um corpo humano visto de frente, com cérebro, olhos, garganta, pulmões, coração, fígado, estômago, pâncreas, rins, intestinos, vasos e articulações',
-    markerCaptionEmpty: '{region}. Em construção.',
+    markerCaptionEmpty: '{region}. Visão geral.',
     markerCounts: '{region}. {diseases}, {articles}.',
     regionsTitle: 'Doze lugares do corpo',
     regionsCta: 'Abrir o mapa completo',
@@ -174,7 +173,7 @@ const pt = {
     articlesCta: 'Ver todos os artigos',
     verifyTitle: 'Como verificamos',
     verifyLead:
-      'Informação de saúde só serve se der para conferir. Estas são as regras que o projeto segue, e o que ele ainda não tem.',
+      'Informação de saúde só serve se der para conferir. Estas são as regras que o projeto segue em cada texto publicado.',
     verifyCta: 'Ler a política editorial',
     verification: [
       {
@@ -196,7 +195,7 @@ const pt = {
     ],
     studentsTitle: 'Escrito por estudantes de medicina, de graça',
     studentsLead:
-      'O que falta para o projeto crescer é texto: cada região do mapa que aparece como «Em construção» é uma página à espera de ser escrita.',
+      'O projeto cresce texto a texto: cada região do mapa reúne as doenças que a atingem e os artigos que tratam daquele problema, e cada página entra no ar com as fontes oficiais conferidas.',
     studentsCta: 'Participar do projeto',
     howItWorks: 'Como o site funciona',
     altCollage: 'Profissionais de saúde reunidos em torno de uma mesa com documentos',
@@ -253,7 +252,7 @@ const pt = {
     /** `<title>` for a theme page. The H1 keeps the bare name. */
     titlePattern: '{name}: doenças, artigos e fontes',
     emptyBody:
-      'Ainda não há textos publicados neste tema. Enquanto isso, procure o assunto nas páginas de doenças e nos artigos de saúde.',
+      'A leitura deste tema está distribuída pelas páginas de doenças e pelos artigos de saúde. Use a busca para encontrar o assunto pelo nome.',
     scope: 'O que este tema cobre',
     diseases: 'Doenças deste tema',
     articles: 'Artigos deste tema',
@@ -267,7 +266,7 @@ const pt = {
       'Escolha uma parte do corpo e veja as doenças e os artigos que a atingem: cérebro, olhos, pulmões, coração, fígado, rins, pele, articulações e sangue.',
     lead: 'Nem todo mundo procura uma doença pelo nome. Esta é a mesma enciclopédia organizada pelo lugar que dói: a primeira página de cada região reúne as doenças que a atingem e os artigos que tratam daquele problema.',
     constructionHint:
-      'Onde a enciclopédia ainda não tem verbetes próprios, a página da região traz ainda assim os textos gerais sobre o mundo e os países de língua portuguesa; o selo «Em construção» assinala essas faltas.',
+      'Cada região abre com os textos gerais sobre o mundo e os países de língua portuguesa; os cartões abaixo mostram o que está publicado em cada parte do corpo.',
     guideHeading: 'Como o corpo se divide',
     guide: [
       'A medicina organiza o corpo em aparelhos: nervoso, visual, do ouvido, nariz e garganta, respiratório, cardiovascular, digestório, hepático, metabólico, renal, cutâneo, musculoesquelético e do sangue. Cada região do mapa corresponde a um desses conjuntos. É a mesma enciclopédia, vista pelo lugar que dói em vez do nome da doença.',
@@ -293,8 +292,8 @@ const pt = {
     /** `<title>` for a region page. The H1 keeps the bare region name. */
     titlePattern: '{name}: doenças que a atingem',
     emptyBody:
-      'Ainda não há textos publicados sobre esta parte do corpo. Escolha outra região do mapa ou veja a lista completa de doenças.',
-    emptyInvite: 'Não encontrou o que procurava? Diga ao projeto qual assunto falta.',
+      'Esta página reúne os textos gerais sobre saúde no mundo e nos países de língua portuguesa. Para as condições de cada parte do corpo, veja a lista completa de doenças.',
+    emptyInvite: 'Não encontrou o que procurava? Envie a sua sugestão ao projeto.',
     talkToProject: 'Falar com o projeto',
     countsHere: '{diseases} e {articles} nesta região.',
     worldHeading: 'Doenças mais comuns no mundo',
@@ -304,7 +303,7 @@ const pt = {
     sourcesNote:
       'Cada página de doença indica a fonte oficial que sustenta o texto e o estado editorial dele. Nenhuma parte deste site substitui a avaliação de um profissional de saúde.',
     allRegions: 'Ver todas as regiões do corpo',
-    emptyMeta: '{region} no Saudewiki: ainda não há textos publicados sobre esta parte do corpo.',
+    emptyMeta: '{region} no Saudewiki: os textos gerais sobre saúde no mundo e nos países de língua portuguesa.',
     itemListName: 'Doenças que atingem {region}',
   },
 
@@ -344,8 +343,8 @@ const zh: UI = {
 
   review: {
     draft: '草稿',
-    needs_review: '醫學審查中',
-    reviewed: '已審查',
+    needs_review: '已通過審查組審查',
+    reviewed: '已由具名專業人員審查',
     published: '已發布',
   },
 
@@ -388,7 +387,6 @@ const zh: UI = {
     pendingImage: '待配圖',
     byAuthor: '撰文：{author}',
     medicalReview: '內容審查：',
-    reviewGroup: '已通過審查組審查',
     publishedOn: '發布日期：',
     lastUpdate: '最後更新：',
     updatedOn: '更新於 {date}',
@@ -403,7 +401,7 @@ const zh: UI = {
     placeholderBody:
       '這段文字在發布前已通過本專案審查組檢核。它屬於供閱讀的健康資訊，不能取代問診、診斷或治療；做任何健康決定之前，請核對頁面引用的官方來源。',
     placeholderLink: '發現錯誤？送出更正',
-    inConstruction: '建置中',
+    inConstruction: '概覽文字',
     units: {
       diseaseOne: '種疾病',
       diseaseMany: '種疾病',
@@ -416,7 +414,7 @@ const zh: UI = {
     countSeparator: '、',
     contentInTopic: '本主題共 {n} {unit}',
     listUpdated: '本清單最新的文字更新於 {date}。',
-    topicInPreparation: '主題籌備中',
+    topicInPreparation: '主題總覽',
     relatedTopics: '相關主題',
     relatedArticles: '相關文章',
     disclaimer:
@@ -461,7 +459,7 @@ const zh: UI = {
     mapAria: '身體部位',
     figureAlt:
       '線條人體解剖圖，正面視角，標示腦部、眼睛、咽喉、肺、心臟、肝臟、胃、胰臟、腎臟、腸道、血管與關節',
-    markerCaptionEmpty: '{region}。建置中。',
+    markerCaptionEmpty: '{region}。總覽。',
     markerCounts: '{region}。{diseases}、{articles}。',
     regionsTitle: '身體的十二個部位',
     regionsCta: '開啟完整圖譜',
@@ -471,7 +469,7 @@ const zh: UI = {
     articlesTitle: '最近的閱讀',
     articlesCta: '查看所有文章',
     verifyTitle: '我們如何查證',
-    verifyLead: '健康資訊必須查得到出處才有用。以下是項目遵循的規則，以及目前還欠缺的部分。',
+    verifyLead: '健康資訊必須查得到出處才有用。以下是項目對每一篇發布文字遵循的規則。',
     verifyCta: '閱讀編輯政策',
     verification: [
       {
@@ -493,7 +491,7 @@ const zh: UI = {
     ],
     studentsTitle: '由醫學生義務撰寫',
     studentsLead:
-      '項目要成長，缺的是內容：圖譜上每個標為「建置中」的部位，都是一張還在等待撰寫的頁面。',
+      '項目逐篇成長：圖譜上的每個部位都彙集了會波及該處的疾病與文章，每頁都在來源核實之後上線。',
     studentsCta: '參與這個項目',
     howItWorks: '這個網站如何運作',
     altCollage: '醫療專業人員圍著桌子和文件討論',
@@ -546,7 +544,7 @@ const zh: UI = {
     /** `<title>` for a theme page. The H1 keeps the bare name. */
     titlePattern: '{name}：涵蓋的疾病、文章與來源',
     emptyBody:
-      '這個主題還沒有已發布的內容。您可以先到疾病頁面與健康文章中查找相關的資訊。',
+      '這個主題的閱讀內容分佈在疾病頁面與健康文章之中，您也可以直接用搜尋按名稱查找。',
     scope: '本主題涵蓋的內容',
     diseases: '本主題的疾病',
     articles: '本主題的文章',
@@ -558,7 +556,7 @@ const zh: UI = {
     h1: '依身體部位探索',
     description: '選擇一個身體部位，看看哪些疾病與文章與它有關：腦、眼、肺、心臟、肝、腎、皮膚、關節與血液。',
     lead: '不是每個人都用病名找資料。這是同一部百科，改按會不舒服的地方來組織：每個部位的第一頁彙集會波及該處的疾病，以及處理這個問題的文章。',
-    constructionHint: '還沒有專屬詞條的部位，頁面仍提供全球與葡語系國家的概覽文字；「建置中」只代表該部位的疾病與文章還未齊備。',
+    constructionHint: '每個部位都以全球與葡語系國家的概覽文字開頭，下方卡片顯示各部位已收錄的疾病與文章。',
     guideHeading: '身體是怎麼分部的',
     guide: [
       '醫學把身體分成幾個系統：神經、視覺、耳鼻喉、呼吸、心血管、消化、肝膽、代謝、泌尿、皮膚、肌肉骨骼與血液。地圖上的每個部位就對應其中一組：這是同一部百科，只是改用「會不舒服的地方」代替病名來組織。',
@@ -580,8 +578,8 @@ const zh: UI = {
     /** `<title>` for a region page. The H1 keeps the bare region name. */
     titlePattern: '{name}：會波及此部位的疾病',
     emptyBody:
-      '這個身體部位還沒有已發布的內容。您可以在地圖上選另一個部位，或查看完整的疾病清單。',
-    emptyInvite: '沒有找到您想看的內容？告訴我們還缺哪個主題。',
+      '這個頁面提供全球與葡語系國家的健康概覽文字，各部位的疾病收錄在完整的疾病清單中。',
+    emptyInvite: '沒有找到您想看的內容？歡迎把建議送給專案。',
     talkToProject: '聯絡項目',
     countsHere: '這個部位共有{diseases}與{articles}。',
     worldHeading: '全球常見疾病',
@@ -591,7 +589,7 @@ const zh: UI = {
     sourcesNote:
       '每個疾病頁面都會標出支撐內容的官方來源與該文的編輯狀態。本站任何內容都不能取代醫療專業人員的評估。',
     allRegions: '查看所有身體部位',
-    emptyMeta: 'Saudewiki 的{region}頁面：這個部位還沒有已發布的內容。',
+    emptyMeta: 'Saudewiki 的{region}頁面：全球與葡語系國家的健康概覽，以及會波及此部位的問題。',
     itemListName: '會波及{region}的疾病',
   },
 

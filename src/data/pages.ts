@@ -78,15 +78,15 @@ export const staticPages: StaticPage[] = [
       {
         title: 'Rascunho',
         description:
-          'Texto em escrita ou ainda sem fontes. Não é construído no site: não aparece em listas, não pode ser linkado e não entra no sitemap.',
+          'Estado inicial do texto, enquanto as fontes se reúnem. Nada neste estado entra no site: não aparece em listas, não pode ser linkado e não entra no sitemap.',
       },
       {
-        title: 'Em revisão médica',
+        title: 'Revisado pelo grupo de revisão',
         description:
-          'Texto escrito, com fontes indicadas e já conferido pelo grupo de revisão do projeto. O selo com esse estado aparece na própria página.',
+          'Texto escrito, com fontes indicadas e conferido pelo grupo de revisão do projeto, que checa fonte, termo e coerência com o restante do site. O selo com esse estado aparece na própria página.',
       },
       {
-        title: 'Revisado',
+        title: 'Revisado por profissional identificado',
         description:
           'Passou por revisão de um profissional identificado. O nome do revisor aparece na página, junto da data.',
       },
@@ -247,10 +247,10 @@ export const staticPages: StaticPage[] = [
     sections: [
       {
         id: 'dados-coletados',
-        heading: 'Quais dados são coletados hoje',
+        heading: 'Quais dados são coletados',
         paragraphs: [
           'O Saudewiki não exige cadastro e não possui login. A navegação pelas páginas de doenças, artigos e temas não envia dados pessoais ao projeto.',
-          'O site ainda não utiliza ferramentas de análise de audiência, publicidade ou rastreamento de terceiros. Se isso mudar, esta seção será atualizada antes da mudança entrar no ar, informando quais ferramentas são usadas e com que finalidade.',
+          'O site carrega o Google Analytics (gtag.js, propriedade G-MT5P2PZER0) para medir quantas pessoas leem cada página, de onde chegam e em que dispositivo leem. Não há cadastro nem login, então a medição não carrega nome, e-mail ou documento seu. A lista de páginas visitadas pode indicar quais assuntos de saúde você leu, e ela vai para o Google, não para o projeto. Para sair dessa medição, use um bloqueador de scripts ou de rastreamento no navegador.',
         ],
       },
       {
@@ -283,7 +283,7 @@ export const staticPages: StaticPage[] = [
         ],
       },
     ],
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-16',
   },
   {
     slug: 'contato',

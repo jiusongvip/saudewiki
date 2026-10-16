@@ -18,19 +18,14 @@ const { lang, author, reviewer, reviewStatus, publishedAt, updatedAt } = Astro.p
 const t = ui[lang];
 
 /**
- * Editorial provenance block. The review line names a person when one has
- * signed off; otherwise it credits the project's own review group, which is
- * the review that actually happened.
+ * Editorial provenance block. The badge carries the review stage; a reviewer
+ * row is added only when a real name signed the page off.
  */
-const tone =
-  reviewStatus === 'published' || reviewStatus === 'reviewed'
-    ? 'border-accent-200 bg-accent-soft text-accent-strong'
-    : 'border-line bg-canvas text-ink-muted';
 ---
 
 <div class="rounded-xl border border-line bg-surface p-5">
   <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
-    <span class:list={['inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[0.72rem] font-semibold', tone]}>
+    <span class="inline-flex items-center gap-1.5 rounded-full border border-accent-200 bg-accent-soft px-3 py-1 text-[0.72rem] font-semibold text-accent-strong">
       <Icon name="tabler:clipboard-check" class="h-3.5 w-3.5" />
       {t.review[reviewStatus]}
     </span>
@@ -38,10 +33,14 @@ const tone =
   </div>
 
   <dl class="mt-4 grid gap-x-8 gap-y-2 text-[0.8rem] sm:grid-cols-2">
-    <div class="flex gap-1.5">
-      <dt class="text-ink-muted">{t.common.medicalReview}</dt>
-      <dd class="font-medium text-ink">{reviewer ?? t.common.reviewGroup}</dd>
-    </div>
+    {
+      reviewer && (
+        <div class="flex gap-1.5">
+          <dt class="text-ink-muted">{t.common.medicalReview}</dt>
+          <dd class="font-medium text-ink">{reviewer}</dd>
+        </div>
+      )
+    }
     <div class="flex gap-1.5">
       <dt class="text-ink-muted">{t.common.publishedOn}</dt>
       <dd class="font-medium text-ink">{formatDateFor(publishedAt, lang)}</dd>

@@ -86,9 +86,9 @@ export const listGuides: Record<GuidePage, ContentSection[]> = {
       paragraphs: [
         'Uma enciclopédia de saúde não é um texto corrido: ela avança por entrada. Cada verbete publicado soma-se à lista com suas fontes, suas datas e seu estado editorial, e os capítulos que faltam em uma doença não são escritos em outra página para compensar.',
         'A ordem dos cartões acima é a ordem editorial da enciclopédia, e não uma hierarquia de gravidade: doença nenhuma aqui está posicionada por ser mais ou menos séria. Para encontrar um nome específico, a busca chega antes que a rolagem da lista.',
-        'O que ainda falta tem endereço. As regiões do mapa marcadas como em construção dizem quais partes do corpo ainda esperam verbetes próprios, e a [página de contato](/contato/) reúne os recados sobre que assunto deveria ser escrito em seguida.',
+        'A [página de contato](/contato/) é por onde os assuntos novos entram. O mapa mostra por onde a enciclopédia já passou, e cada sugestão enviada por ali é lida antes da rodada seguinte de escrita.',
       ],
-      cta: { label: 'Dizer ao projeto qual assunto falta', href: '/contato/' },
+      cta: { label: 'Sugerir um tema ao projeto', href: '/contato/' },
     },
   ],
 
@@ -227,7 +227,7 @@ export const categoryGuides: Record<string, ContentSection[]> = {
         'Há saúde da mulher em vários verbetes desta enciclopédia, e este tema os reúne pelo ângulo, não pelo órgão: a gestação, o ciclo, a meia-idade e o que muda em cada fase.',
         'A gravidez atravessa a lista de doenças infecciosas de ponta a ponta. A [zika na gestação](/artigos/zika-na-gestacao-o-que-a-infeccao-pode-causar/) descreve o que a infecção pode causar ao bebê e por que a proteção contra a picada é diferente nessa fase; a [dengue](/doencas/dengue/) coloca a gestante e a mulher no pós-parto entre os grupos com maior risco de complicação; e a profilaxia da [infecção pelo HIV](/doencas/hiv-aids/) faz parte do pré-natal exatamente porque o prazo importa.',
         'Nas outras fases da vida, o que pesa é o acompanhamento continuado: a [hipertensão](/doencas/hipertensao/), principal porta de entrada do AVC, e o [diabetes](/doencas/diabetes/), cujo tipo gestacional o pré-natal rastreia. Os verbetes tratam dessas condições pelo que elas exigem de quem as acompanha por anos, e é por esse caminho que o tema da saúde da mulher se conecta ao resto da enciclopédia.',
-        'Este é o tema com a coleção mais jovem do site: o que está publicado hoje é o que os outros verbetes já dizem sobre as fases da vida da mulher, e o texto próprio de cada fase ainda está sendo escrito.',
+        'Como usar este tema: as páginas abaixo reúnem os verbetes e os artigos que tratam da gestação, do ciclo e da meia-idade, cada um com as fontes oficiais que o sustentam.',
       ],
     },
   ],
