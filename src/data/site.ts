@@ -12,5 +12,12 @@
 export const SITE = {
   name: 'Saudewiki',
   url: 'https://www.saudewiki.com',
+  /**
+   * The project's public content repository — ten encyclopedia entries in
+   * Markdown, generated from `src/data` by `scripts/export-artigos.mjs`. It is
+   * the only external page this organization owns, so it is what `sameAs` names.
+   * Swap in an organization account here if one is ever opened.
+   */
+  github: 'https://github.com/jiusongvip/saudewiki-artigos',
   updated: '2026-10-14',
 } as const;
