@@ -20,7 +20,11 @@ const urls = contentFor(lang).urls;
 const image = imageForArticle(article.slug, lang);
 ---
 
-<article class="card card-link group flex flex-col overflow-hidden">
+<a
+  href={urls.article(article.slug)}
+  class="card card-link group flex flex-col overflow-hidden"
+  aria-label={fill(t.common.readArticleAria, { title: article.title })}
+>
   <ImageSlot lang={lang} src={image?.src} alt={image?.alt ?? ''} ratio={ratio} eager={eager} />
 
   <div class="flex flex-1 flex-col p-5 sm:p-6">
@@ -29,24 +33,16 @@ const image = imageForArticle(article.slug, lang);
       <span class="text-[0.72rem] text-ink-muted">{formatDateFor(article.updatedAt, lang)}</span>
     </div>
 
-    <h3 class="mt-2.5 text-[1.15rem] font-semibold leading-snug tracking-tight">
-      <a href={urls.article(article.slug)} class="transition-colors hover:text-accent">
-        {article.title}
-      </a>
-    </h3>
+    <h3 class="mt-2.5 text-[1.15rem] font-semibold leading-snug tracking-tight">{article.title}</h3>
 
     <p class="mt-2 flex-1 text-[0.9rem] leading-relaxed text-ink-muted">{article.excerpt}</p>
 
-    <a
-      href={urls.article(article.slug)}
-      class="mt-5 inline-flex items-center gap-1.5 text-[0.85rem] font-semibold text-accent"
-      aria-label={fill(t.common.readArticleAria, { title: article.title })}
-    >
+    <span class="mt-5 inline-flex items-center gap-1.5 text-[0.85rem] font-semibold text-accent">
       {t.common.readArticle}
       <Icon
         name="tabler:arrow-right"
         class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
       />
-    </a>
+    </span>
   </div>
-</article>
+</a>
