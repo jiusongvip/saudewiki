@@ -1,0 +1,35 @@
+---
+/**
+ * The project's icon.
+ *
+ * Every icon on this site is decoration sitting beside a real text label, so the
+ * `<svg>` is kept out of the accessibility tree by default — otherwise a screen
+ * reader announces the picture and then the same word again. Passing `title` or
+ * `desc` opts out of that: an icon that carries its own name *is* the label.
+ *
+ * `astro-icon` only forwards attributes, so the default has to be applied
+ * somewhere, and doing it here means no call site has to remember it.
+ */
+import { Icon as AstroIcon } from 'astro-icon/components';
+
+interface Props {
+  name: string;
+  size?: number | string;
+  width?: number | string;
+  height?: number | string;
+  class?: string;
+  title?: string | { id?: string; value: string };
+  desc?: string | { id?: string; value: string };
+  'is:inline'?: boolean;
+  [key: string]: unknown;
+}
+
+const { title, desc, ...rest } = Astro.props;
+
+const accessibility =
+  title === undefined && desc === undefined
+    ? { 'aria-hidden': 'true', focusable: 'false' }
+    : { title, desc };
+---
+
+<AstroIcon {...rest} {...accessibility} />
