@@ -3180,39 +3180,56 @@ export const articles: Article[] = [
         id: 'quadro-habitual',
         heading: 'O que costuma ser esperado',
         paragraphs: [
-          'A gastroenterite comum começa de repente, com diarreia, cólica e, muitas vezes, vômito e febre baixa. Na maior parte das vezes, é causada por vírus e passa sozinha em poucos dias, desde que a pessoa beba líquidos.',
-          'O que preocupa nessa doença não é o número de dias, e sim a perda de água e sais. Bebês, crianças pequenas e pessoas idosas desidratam mais rápido e precisam de atenção redobrada.',
+          'A gastroenterite costuma começar de repente, com diarreia, cólica abdominal e, muitas vezes, vômito, náusea e febre baixa. O Ministério da Saúde considera doença diarreica aguda quando há três ou mais evacuações líquidas ou amolecidas em 24 horas; em alguns casos, as fezes vêm com muco e sangue.',
+          'Na maior parte das vezes a causa é viral e o episódio se resolve sozinho em poucos dias, desde que a pessoa beba líquidos. O que preocupa não é a duração, e sim a perda de água e sais. A desidratação é a principal complicação e o que costuma levar alguém a procurar o serviço de saúde, sobretudo no caso de bebês e pessoas idosas.',
         ],
       },
       {
         id: 'sinais-de-alerta',
         heading: 'Sinais que pedem avaliação imediata',
         paragraphs: [
-          'Alguns sinais mostram que a perda de líquidos já passou do ponto e que a pessoa não consegue se hidratar sozinha em casa.',
+          'Alguns sinais mostram que a perda de líquidos já é maior do que se consegue repor em casa. O Ministério da Saúde orienta voltar imediatamente ao serviço de saúde diante de qualquer um deles, mesmo que a pessoa pareça bem.',
         ],
         bullets: [
           'Sangue ou muco nas fezes',
           'Vômitos repetidos que impedem de reter qualquer líquido',
-          'Muita sede, boca seca, urina rara e escura',
+          'Diarreia que piora em vez de melhorar',
+          'Muita sede, boca seca e pouca urina, mais escura que o normal',
+          'Recusa de alimentos ou de beber',
           'Olhos fundos, moleira afundada em bebês, choro sem lágrimas',
-          'Sonolência excessiva, fraqueza intensa ou recusa de alimentos',
-          'Pele que demora a voltar ao normal quando é pinçada',
+          'Sonolência excessiva, fraqueza intensa ou irritação',
+        ],
+      },
+      {
+        id: 'quem-desidrata-mais-rapido',
+        heading: 'Quem desidrata mais rápido',
+        paragraphs: [
+          'Bebês, crianças pequenas e pessoas idosas desidratam mais rápido. Segundo o Ministério da Saúde, esses grupos devem procurar o serviço de saúde com urgência assim que adoecem. Entre crianças menores de cinco anos, a diarreia segue como uma das principais causas de morte no mundo, sobretudo onde faltam água tratada e saneamento.',
+          'Também correm mais risco as pessoas desnutridas e as que têm a imunidade reduzida, como quem vive com HIV. Nesses grupos, o mesmo episódio que em um adulto saudável passa em poucos dias pode evoluir para desidratação grave em poucas horas.',
         ],
       },
       {
         id: 'emergencia',
         heading: 'Quando é emergência',
         paragraphs: [
-          'Desidratação grave é emergência. Se a pessoa está muito sonolenta, não consegue beber ou respira rápido, ligue para o SAMU, no 192, ou leve ao pronto atendimento mais próximo, sem esperar em casa.',
-          'Em bebês e em pessoas idosas, o quadro pode piorar em poucas horas. Nesses grupos, o Ministério da Saúde orienta procurar o serviço de saúde em regime de urgência.',
+          'Desidratação grave é emergência. Segundo a Organização Mundial da Saúde, há desidratação grave quando a pessoa está sonolenta ou inconsciente, tem os olhos fundos, não consegue beber ou bebe mal e a pele, quando pinçada, demora dois segundos ou mais para voltar ao normal. Diante desses sinais, não espere em casa.',
+          'Nesse caso, ligue para o SAMU, no 192, ou leve a pessoa ao pronto atendimento mais próximo, sem esperar. Em bebês e em pessoas idosas a situação pode piorar em poucas horas, por isso o tempo até o atendimento faz diferença.',
+        ],
+      },
+      {
+        id: 'avaliacao-e-cuidados',
+        heading: 'Como avaliar e o que fazer até o atendimento',
+        paragraphs: [
+          'Enquanto o atendimento não chega, ofereça líquidos em goles pequenos e frequentes. O soro de reidratação oral, distribuído gratuitamente pelo SUS, repõe água e sais na proporção certa; água e água de coco também hidratam, mas o soro é o mais indicado. Se a criança ainda mama, continue a amamentação.',
+          'Para acompanhar a hidratação em casa, observe se a boca e a língua estão secas, as lágrimas ao chorar, a quantidade e a cor da urina e, em bebês, a moleira e o número de fraldas molhadas. Não dê remédio para parar a diarreia nem refrigerante ou suco muito açucarado por conta própria, porque podem piorar o quadro. Sinais de gravidade pedem atendimento, e não cuidados caseiros.',
         ],
       },
       {
         id: 'prazo',
-        heading: 'O prazo que indica voltar ao serviço',
+        heading: 'O prazo que indica voltar ao serviço de saúde',
         paragraphs: [
-          'Quando a diarreia não melhora em dois dias, ou quando piora, a recomendação é voltar ao serviço de saúde para reavaliação, mesmo sem sinal de gravidade.',
-          'Diarreia que passa de 14 dias é classificada como persistente e precisa de investigação, porque outras causas, como parasitas e intolerâncias, entram na lista.',
+          'Quando a diarreia não melhora em dois dias, ou quando piora, o Ministério da Saúde recomenda voltar ao serviço de saúde para reavaliação, mesmo sem sinal de gravidade.',
+          'Diarreia que passa de 14 dias é classificada como persistente e precisa de investigação, porque outras causas, como parasitas e intolerâncias alimentares, entram na lista. Sangue ou muco nas fezes caracteriza disenteria e também exige avaliação, sem esperar.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
@@ -3260,7 +3277,8 @@ export const articles: Article[] = [
         id: 'pela-boca',
         heading: 'Pela boca, a partir das fezes',
         paragraphs: [
-          'A transmissão da gastroenterite é fecal-oral: os germes saem nas fezes de uma pessoa infectada e chegam à boca de outra. O caminho mais comum é a água e o alimento contaminados.',
+          'A transmissão da gastroenterite é fecal-oral: os germes saem nas fezes de uma pessoa infectada e chegam à boca de outra. A Organização Mundial da Saúde descreve a infecção se espalhando por água e alimentos contaminados ou de pessoa para pessoa, quando a higiene é precária.',
+          'O caminho mais comum é a água e o alimento contaminados. Basta uma quantidade de fezes que o olho não vê para levar o micróbio até a boca de quem come ou bebe, sem que nada pareça errado.',
         ],
       },
       {
@@ -3268,27 +3286,43 @@ export const articles: Article[] = [
         heading: 'Pelas mãos e pelos objetos',
         paragraphs: [
           'Mãos que não foram lavadas levam os germes das fezes para alimentos, utensílios, superfícies e brinquedos. Tocar nesses objetos e depois levar a mão à boca já basta para a infecção entrar.',
-          'Trocar fraldas, cuidar de alguém doente e manusear alimentos crus são momentos em que a mão passa a ser a via principal do micróbio.',
+          'Trocar fraldas, cuidar de alguém doente, usar transporte público e manusear alimentos crus são momentos em que a mão passa a ser a via principal do micróbio, sobretudo quando não há sabão por perto.',
         ],
       },
       {
         id: 'ambientes-fechados',
         heading: 'Onde o contágio é maior',
         paragraphs: [
-          'Creches, escolas, asilos e acampamentos reúnem muitas pessoas próximas e favorecem a circulação dos germes, sobretudo do norovírus.',
-          'Água sem tratamento, gelo feito com água insegura e alimentos crus ou malcozidos também concentram micróbios e estão por trás de muitos surtos.',
+          'Creches, escolas, asilos, navios e acampamentos reúnem muitas pessoas próximas e favorecem a circulação dos germes, sobretudo do norovírus, que se espalha depressa nesses locais.',
+          'Água sem tratamento, gelo feito com água insegura e alimentos crus ou malcozidos também concentram micróbios e estão por trás de muitos surtos. Surtos em restaurantes e festas costumam ter esse tipo de origem.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Comportamentos que aumentam o risco',
+        paragraphs: ['Segundo o Ministério da Saúde, algumas situações facilitam a contaminação:'],
+        bullets: [
+          'Beber água sem tratamento adequado',
+          'Consumir alimentos sem saber a procedência, o preparo e a forma de armazenamento',
+          'Consumir leite não fervido ou não pasteurizado e seus derivados',
+          'Comer carnes, pescados e mariscos crus ou malcozidos',
+          'Comer frutas e verduras sem higienização adequada',
+          'Viajar para locais com saneamento e higiene precários',
+          'Higiene pessoal e coletiva insuficiente',
         ],
       },
       {
         id: 'nao-e-contagioso',
         heading: 'O que não é contagioso',
         paragraphs: [
-          'Nem toda diarreia vem de infecção. Remédios, intolerância à lactose, doença celíaca e síndrome do intestino irritável causam diarreia sem germe, e nesse caso não há transmissão entre pessoas.',
+          'Nem toda diarreia vem de infecção. Medicamentos como antibióticos e laxantes, intolerância à lactose, doença celíaca e síndrome do intestino irritável causam diarreia sem germe, e nesse caso não há transmissão entre pessoas.',
+          'Distinguir os dois quadros importa para o cuidado: só a diarreia infecciosa justifica atenção redobrada com a água, com as mãos e com o afastamento de quem está doente.',
         ],
       },
       {
         id: 'reduzir-em-casa',
         heading: 'Como reduzir a transmissão em casa',
+        paragraphs: ['As mesmas medidas que cortam a transmissão em casa valem para o trabalho e para a escola:'],
         bullets: [
           'Lavar as mãos com sabão antes de comer e depois de usar o banheiro ou trocar fraldas',
           'Lavar e desinfetar as superfícies e os utensílios da cozinha',
@@ -3342,8 +3376,16 @@ export const articles: Article[] = [
         id: 'consulta',
         heading: 'A avaliação na consulta',
         paragraphs: [
-          'O diagnóstico começa pela conversa e pelo exame físico. O profissional pergunta sobre o início dos sintomas, o número de evacuações, a presença de sangue ou muco e o contato com outras pessoas doentes.',
-          'A parte central do exame é o estado de hidratação: sede, umidade da boca, lágrimas, urina e a elasticidade da pele. É esse estado, e não o nome do micróbio, que define o tratamento.',
+          'O diagnóstico começa pela conversa e pelo exame físico. O profissional pergunta sobre o início dos sintomas, o número de evacuações, a presença de muco ou sangue nas fezes, febre, náusea e vômito, além de doenças crônicas e de outras pessoas doentes no convívio.',
+          'O exame físico se concentra no estado de hidratação, e a pessoa deve ser pesada sempre que possível. É esse estado, e não o nome do micróbio, que define o tratamento a seguir.',
+        ],
+      },
+      {
+        id: 'hidratacao',
+        heading: 'Como o grau de desidratação é classificado',
+        paragraphs: [
+          'O profissional classifica a desidratação em três níveis, segundo a Organização Mundial da Saúde. No quadro grave, aparecem pelo menos dois destes sinais: sonolência ou inconsciência, olhos fundos, incapacidade de beber ou beber mal e pele pinçada que demora dois segundos ou mais para voltar ao normal.',
+          'No quadro intermediário, aparecem dois ou mais destes sinais: inquietação ou irritabilidade, olhos fundos e sede intensa, com a pessoa bebendo com avidez. Sem sinais suficientes para esses dois níveis, não há desidratação. Essa classificação decide se o cuidado é em casa, na unidade de saúde ou com soro na veia.',
         ],
       },
       {
@@ -3351,21 +3393,31 @@ export const articles: Article[] = [
         heading: 'Quando os exames de fezes entram',
         paragraphs: [
           'Os exames entram em situações específicas: sangue ou muco nas fezes, desidratação grave, suspeita de cólera e surtos. Pode-se pedir coprocultura, exame parasitológico de fezes e pesquisa de vírus.',
-          'A amostra deve ser colhida antes do antibiótico, para que o medicamento não mascare o resultado. Em caso de surto, o serviço de saúde orienta a coleta junto com a vigilância epidemiológica do município.',
+          'A amostra deve ser colhida antes do antibiótico, para que o medicamento não mascare o resultado. Em caso de surto, o serviço de saúde orienta a coleta junto com a vigilância epidemiológica do município. Vale saber ainda que o diagnóstico etiológico nem sempre é possível, porque a coleta de fezes é difícil de fazer.',
+        ],
+      },
+      {
+        id: 'disenteria-e-colera',
+        heading: 'Quando a causa pode ser bacteriana',
+        paragraphs: [
+          'Quando há sangue ou muco nas fezes, o quadro é chamado disenteria, e aí entram na lista agentes bacterianos como Shigella, Salmonella e Escherichia coli. A cólera é outra possibilidade, com diarreia aquosa e volumosa que desidrata rápido.',
+          'Nesses casos, e só nesses, o antibiótico pode ser indicado, sempre com avaliação profissional. Na gastroenterite viral comum, o antibiótico não ajuda, provoca efeitos colaterais e aumenta a resistência das bactérias.',
         ],
       },
       {
         id: 'nao-da-em-casa',
         heading: 'Por que não dá para decidir em casa',
         paragraphs: [
-          'Não existe um exame caseiro que diga se a diarreia é viral ou bacteriana, e os sintomas se parecem muito. O que define a urgência são os sinais de gravidade, não o olhar para as fezes.',
+          'Não existe um exame caseiro que diga se a diarreia é viral ou bacteriana, e os sintomas se parecem muito entre si.',
+          'O que define a urgência são os sinais de gravidade, não o olhar para as fezes. Por isso, a decisão de procurar um serviço de saúde deve se apoiar no estado de hidratação, e não em uma tentativa de adivinhar o micróbio.',
         ],
       },
       {
         id: 'outras-causas',
         heading: 'Outras causas de diarreia',
         paragraphs: [
-          'A diarreia também aparece por causas não infecciosas: uso de antibióticos, intolerância à lactose, doença celíaca e síndrome do intestino irritável. Distinguir esses casos muda o tratamento e evita antibiótico desnecessário.',
+          'A diarreia também aparece por causas não infecciosas: uso de antibióticos, intolerância à lactose, doença celíaca e síndrome do intestino irritável.',
+          'Distinguir esses casos muda o tratamento e evita antibiótico desnecessário. É por isso que o profissional pergunta sobre medicamentos em uso, alimentação e doenças prévias antes de fechar o diagnóstico.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
@@ -3414,15 +3466,31 @@ export const articles: Article[] = [
         heading: 'Repor o que se perdeu',
         paragraphs: [
           'O ponto central do tratamento é repor a água e os sais perdidos. O soro de reidratação oral, disponível gratuitamente no SUS, deve ser oferecido em pequenos goles frequentes, começando logo no primeiro episódio de diarreia.',
-          'Água, água de coco e caldos também ajudam a hidratar, mas o soro repõe os eletrólitos na proporção adequada. Refrigerantes e sucos muito açucarados podem piorar a diarreia.',
+          'Água, água de coco e caldos também ajudam a hidratar, mas o soro repõe os eletrólitos na proporção adequada. Refrigerantes e sucos muito açucarados podem piorar a diarreia, porque arrastam ainda mais líquido para o intestino.',
+        ],
+      },
+      {
+        id: 'planos-de-reidratacao',
+        heading: 'Os três planos de reidratação',
+        paragraphs: [
+          'O Ministério da Saúde organiza o manejo em três planos, conforme o estado de hidratação. No Plano A, a pessoa está hidratada e o cuidado acontece em casa: aumentar a ingestão de líquidos, manter a alimentação e oferecer soro após cada evacuação.',
+          'No Plano B, há desidratação sem gravidade, mas a pessoa ainda consegue beber: o soro é oferecido na unidade de saúde, que a mantém até a reidratação completa. No Plano C, a desidratação é grave e a reposição é feita na veia, com transferência rápida para um serviço hospitalar.',
         ],
       },
       {
         id: 'alimentacao',
-        heading: 'Alimentação e zinco',
+        heading: 'Alimentação e amamentação',
         paragraphs: [
-          'Não é preciso parar de comer. Manter a alimentação habitual, em porções pequenas ao longo do dia, acelera a recuperação. Em crianças, a amamentação deve continuar.',
-          'Em crianças, o Ministério da Saúde recomenda a suplementação de zinco uma vez ao dia por 10 a 14 dias, o que encurta o episódio e reduz o risco de complicações.',
+          'Não é preciso parar de comer. Se a pessoa está consciente e consegue engolir, manter a alimentação habitual em porções pequenas ao longo do dia acelera a recuperação. Em crianças, a amamentação deve continuar.',
+          'O corpo precisa de energia para se recuperar, e a comida não piora a diarreia. O que ajuda é não forçar grandes volumes de uma vez nem oferecer alimentos muito gordurosos ou açucarados.',
+        ],
+      },
+      {
+        id: 'zinco',
+        heading: 'Zinco nas crianças',
+        paragraphs: [
+          'Em crianças, a Organização Mundial da Saúde e o Ministério da Saúde recomendam a suplementação de zinco uma vez ao dia por 10 a 14 dias.',
+          'Segundo a Organização Mundial da Saúde, o zinco reduz a duração do episódio em cerca de 25% e o volume das fezes em torno de 30%, além de diminuir o risco de complicações. É um complemento do soro, e não um substituto.',
         ],
       },
       {
@@ -3430,7 +3498,7 @@ export const articles: Article[] = [
         heading: 'O que não ajuda',
         paragraphs: [
           'Remédios que param a diarreia e medicamentos para vômito não devem ser usados por conta própria, sobretudo em crianças. Eles seguram no intestino os germes que o corpo tenta eliminar e podem mascarar a desidratação.',
-          'Antibiótico por conta própria na gastroenterite viral não acelera a melhora: ele não age sobre vírus, provoca efeitos colaterais e aumenta a resistência das bactérias.',
+          'Antibiótico por conta própria na gastroenterite viral não acelera a melhora: ele não age sobre vírus, provoca efeitos colaterais e aumenta a resistência das bactérias. Só há indicação quando o profissional identifica disenteria, cólera ou outra causa específica.',
         ],
       },
       {
@@ -3438,7 +3506,7 @@ export const articles: Article[] = [
         heading: 'Quando voltar para reavaliação',
         paragraphs: [
           'Volte ao serviço de saúde se a diarreia não melhorar em dois dias, se piorar ou se aparecerem sinais de desidratação. Em bebês, crianças pequenas e pessoas idosas, o prazo para procurar ajuda é menor.',
-          'Sinais de desidratação grave, como sonolência intensa, incapacidade de beber e pele que não volta ao normal, são emergência e pedem ajuda imediata pelo SAMU, no 192.',
+          'Sinais de desidratação grave, como sonolência intensa, incapacidade de beber e pele que demora a voltar ao normal, são emergência e pedem ajuda imediata pelo SAMU, no 192.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
@@ -3491,20 +3559,37 @@ export const articles: Article[] = [
         id: 'agua-e-maos',
         heading: 'Água tratada e mãos limpas',
         paragraphs: [
-          'A maior parte das gastroenterites vem de água e alimentos contaminados e de mãos que não foram lavadas. Tratar a água e lavar as mãos com sabão antes de comer e depois do banheiro cortam a principal via de transmissão.',
+          'A maior parte das gastroenterites vem de água e alimentos contaminados e de mãos que não foram lavadas. Tratar a água e lavar as mãos com sabão cortam a principal via de transmissão.',
         ],
         bullets: [
-          'Lavar as mãos com sabão antes de preparar ou comer alimentos e depois do banheiro ou de trocar fraldas',
-          'Tratar a água para consumo, filtrando ou fervendo, e guardá-la em recipiente limpo e tampado',
+          'Lavar as mãos com sabão antes de preparar ou comer alimentos e depois do banheiro, de trocar fraldas ou de tocar em animais',
+          'Tratar a água para consumo e guardá-la em recipiente limpo, tampado e de boca estreita',
           'Lavar bem frutas, verduras e utensílios da cozinha',
           'Cozinhar bem carnes, ovos e pescados, evitando alimentos crus ou malcozidos',
+        ],
+      },
+      {
+        id: 'como-tratar-a-agua',
+        heading: 'Como tratar a água em casa',
+        paragraphs: [
+          'Nem toda água disponível é segura para beber. Segundo o Ministério da Saúde, a água pode ser tratada em casa por filtração, por fervura ou pela adição de duas gotas de solução de hipoclorito de sódio a 2,5% para cada litro, aguardando 30 minutos antes de usar.',
+          'Depois de tratada, a água deve ficar em vasilha limpa, tampada e de boca estreita, para não voltar a se contaminar. Água de riachos, rios, cacimbas ou poços sem tratamento não serve para beber e, quando contaminada, nem para banhar.',
         ],
       },
       {
         id: 'alimentacao-e-aleitamento',
         heading: 'Alimentação e amamentação',
         paragraphs: [
-          'Manter a amamentação nos primeiros meses de vida aumenta a resistência da criança contra a diarreia. Evitar o desmame precoce é uma medida de proteção reconhecida pelo Ministério da Saúde.',
+          'Manter a amamentação nos primeiros meses de vida aumenta a resistência da criança contra a diarreia, e evitar o desmame precoce é uma medida de proteção reconhecida pelo Ministério da Saúde. A Organização Mundial da Saúde recomenda o aleitamento exclusivo até os seis meses.',
+          'Na cozinha, vale proteger os alimentos de insetos e animais, guardar tudo em recipientes fechados e higienizar bem as mãos e os utensílios antes de preparar a comida.',
+        ],
+      },
+      {
+        id: 'saneamento',
+        heading: 'Saneamento e água segura',
+        paragraphs: [
+          'A prevenção também depende de medidas coletivas: água tratada, rede de esgoto e coleta de lixo adequada. Segundo a Organização Mundial da Saúde, cerca de 780 milhões de pessoas não têm acesso a água potável melhorada e 2,5 bilhões vivem sem saneamento adequado, o que mantém a diarreia circulando.',
+          'Onde falta saneamento, os mesmos micróbios reaparecem a cada temporada. Por isso, as ações de saneamento e as medidas dentro de casa se somam: uma reforça a outra.',
         ],
       },
       {
@@ -3512,14 +3597,15 @@ export const articles: Article[] = [
         heading: 'Vacina contra o rotavírus',
         paragraphs: [
           'Contra o rotavírus, principal causa de diarreia grave em crianças pequenas, o calendário do SUS oferece a vacina oral em duas doses, aos dois e aos quatro meses de idade.',
-          'A vacina não impede toda diarreia, mas reduz muito as formas graves que levam a criança ao hospital.',
+          'A vacina não impede toda diarreia, mas reduz muito as formas graves que levam a criança ao hospital. Como a proteção é maior quando o esquema está completo, vale seguir as datas do calendário.',
         ],
       },
       {
         id: 'o-que-nao-previne',
         heading: 'O que não previne',
         paragraphs: [
-          'Não há vacina contra a diarreia comum causada por outros vírus e bactérias, e remédios caseiros não impedem a infecção. A prevenção depende de água segura, saneamento e higiene.',
+          'Não há vacina contra a diarreia comum causada por outros vírus e bactérias, e remédios caseiros não impedem a infecção. Gargarejos, chás e vitaminas em dose alta não substituem água segura e higiene.',
+          'A prevenção depende de água tratada, saneamento e higiene, e não de produtos vendidos como proteção. Quem tem diarreia de repetição deve investigar a causa com um profissional, em vez de tentar tratar por conta própria.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
