@@ -39,7 +39,7 @@ export const localeSpecs: Record<Locale, LocaleSpec> = {
     ogLocale: 'pt_BR',
     hreflang: 'pt-BR',
     prefix: '',
-    label: 'Português (Brasil)',
+    label: 'Português',
     shortLabel: 'PT',
     dir: 'ltr',
   },
