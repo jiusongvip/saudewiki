@@ -22,5 +22,14 @@ export default defineConfig({
   ],
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      watch: {
+        // `dist` is 169 pages plus hashed assets, and `astro build` rewrites all
+        // of it. Watching it while a build runs exhausts the file handles the dev
+        // server needs, which surfaces as `EMFILE` and turns every route into a
+        // 500 with nothing on screen to say why.
+        ignored: ['**/dist/**', '**/.astro/**'],
+      },
+    },
   },
 });
