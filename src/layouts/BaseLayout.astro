@@ -82,7 +82,7 @@ const graph: Record<string, unknown>[] = [
     '@id': `${SITE.url}/#organization`,
     name: SITE.name,
     url: `${SITE.url}/`,
-    logo: `${SITE.url}/favicon.svg`,
+    logo: `${SITE.url}/logo-512.png`,
   },
 ];
 
@@ -125,6 +125,8 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
       href={new URL(localizePath(neutralPath, defaultLocale), Astro.site).href}
     />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={SITE.name} />

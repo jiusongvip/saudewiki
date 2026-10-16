@@ -1,0 +1,23 @@
+---
+/**
+ * Mark + site name, as one unit.
+ *
+ * Nav and footer used to spell the lockup out separately, which let the two
+ * drift apart in size and weight. The name always comes from `SITE`, so a rebrand
+ * touches one file.
+ */
+import { SITE } from '../data/site';
+import BrandMark from './BrandMark.astro';
+
+interface Props {
+  class?: string;
+  markClass?: string;
+}
+
+const { class: className, markClass = 'h-8 w-8' } = Astro.props;
+---
+
+<span class:list={['flex items-center gap-2.5', className]}>
+  <BrandMark class={markClass} />
+  <span class="text-[1.05rem] font-semibold tracking-tight">{SITE.name}</span>
+</span>
