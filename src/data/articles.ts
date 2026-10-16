@@ -2334,33 +2334,84 @@ export const articles: Article[] = [
         id: 'medicamentos',
         heading: 'Medicamento de controle e medicamento de alívio',
         paragraphs: [
-          'São dois tipos de medicamento, com funções diferentes. O de controle reduz a inflamação das vias aéreas e precisa ser usado todos os dias, mesmo quando não há sintomas. O de alívio abre a via aérea durante a crise.',
-          'Usar apenas o de alívio com frequência é sinal de que o controle está inadequado, porque ele não trata a inflamação que está por trás dos sintomas.',
+          'A asma tem dois tipos de medicamento, com funções diferentes. O de controle reduz a inflamação das vias aéreas e precisa ser usado todos os dias, mesmo quando não há sintomas. O de alívio abre a via aérea durante a crise e não substitui o controle.',
+          'Usar apenas o de alívio com frequência é sinal de que o controle está inadequado, porque ele não trata a inflamação que está por trás dos sintomas. O ajuste da terapêutica busca a menor dose necessária para manter o controle, reduzindo efeitos adversos.',
+        ],
+        bullets: [
+          'Os principais medicamentos de controle são os corticosteroides inalatórios, como a beclometasona.',
+          'Os de alívio são broncodilatadores, como o salbutamol.',
+          'Em alguns casos o profissional combina os dois na mesma inalação, para facilitar o uso.',
         ],
       },
       {
         id: 'inalador',
         heading: 'Técnica do inalador',
         paragraphs: [
-          'A técnica de uso do inalador faz parte do tratamento. Quando ela está errada, boa parte do medicamento fica na boca e na garganta em vez de chegar aos pulmões.',
-          'Vale pedir ao profissional de saúde que acompanhe a sua técnica na consulta e que indique se há necessidade de espaçador, um dispositivo que facilita o uso em crianças e em quem tem dificuldade de coordenação.',
+          'A técnica de uso do inalador faz parte do tratamento. Quando está errada, boa parte do medicamento fica na boca e na garganta em vez de chegar aos pulmões, e o efeito diminui.',
+          'Uma sequência comum ajuda: agitar o inalador, expirar até o fim, vedar os lábios no bocal, apertar e inspirar devagar ao mesmo tempo, segurar a respiração por alguns segundos e só então soltar o ar. Quem usa corticoide inalatório costuma enxaguar a boca depois, para evitar rouquidão e aftas.',
+        ],
+        bullets: [
+          'Vale pedir ao profissional de saúde que acompanhe a sua técnica na consulta.',
+          'Pergunte se há necessidade de espaçador, um dispositivo que facilita o uso em crianças e em quem tem dificuldade de coordenação.',
         ],
       },
       {
         id: 'sus',
         heading: 'Tratamento gratuito pelo SUS',
         paragraphs: [
-          'No SUS, o tratamento da asma é gratuito. Beclometasona e salbutamol inalatórios e prednisona estão disponíveis nas unidades de saúde, conforme o Protocolo Clínico e Diretrizes Terapêuticas da asma.',
+          'No SUS, o tratamento da asma é gratuito. Desde 2011, o programa Farmácia Popular oferece, sem custo e mediante CPF e receita médica, três medicamentos: a beclometasona e o salbutamol inalatórios e o brometo de ipratrópio. Todos constam do Protocolo Clínico e Diretrizes Terapêuticas da asma.',
+          'Em crises mais intensas, o profissional de saúde pode prescrever corticosteroides em comprimidos, como a prednisona, além dos medicamentos de uso contínuo. A orientação é procurar uma Unidade Básica de Saúde (UBS), onde se recebe o tratamento e o acompanhamento.',
         ],
       },
       {
         id: 'acompanhamento',
         heading: 'Acompanhamento',
         bullets: [
-          'Voltar às consultas de acompanhamento, mesmo em períodos sem sintomas',
-          'Manter o medicamento de controle em uso diário, sem interromper por conta própria',
-          'Registrar as crises e os gatilhos que as provocaram, para levar à consulta',
-          'Revisar periodicamente a técnica do inalador e a necessidade de ajuste de dose',
+          'Voltar às consultas de acompanhamento, mesmo em períodos sem sintomas.',
+          'Manter o medicamento de controle em uso diário, sem interromper por conta própria.',
+          'Registrar as crises e os gatilhos que as provocaram, para levar à consulta.',
+          'Revisar periodicamente a técnica do inalador e a necessidade de ajuste de dose.',
+          'Manter as vacinas em dia, em especial a vacina da gripe, pois infecções respiratórias são gatilhos frequentes de crise.',
+        ],
+      },
+      {
+        id: 'plano-de-acao',
+        heading: 'Plano de ação por escrito',
+        paragraphs: [
+          'Muitos serviços entregam um plano de ação por escrito, que explica o que fazer no dia a dia, quando os sintomas pioram e quando procurar ajuda. Ele traduz o tratamento em passos claros e reduz a dúvida na hora da crise.',
+          'Guardar esse plano à mão e revisá-lo nas consultas ajuda a reconhecer cedo os sinais de que o controle escapou. Peça esse plano ao profissional de saúde: faz parte do cuidado, não é um extra.',
+        ],
+      },
+      {
+        id: 'quando-buscar-socorro',
+        heading: 'Quando buscar atendimento com urgência',
+        paragraphs: [
+          'A asma pode ser grave e, em casos extremos e raros, levar à morte quando a crise não recebe o tratamento correto. Por isso, certos sinais pedem atendimento imediato e não podem esperar a consulta de rotina.',
+          'Ao surgir qualquer um desses sinais, procure atendimento imediatamente: em caso de dúvida, ligue para o SAMU (192) ou vá ao pronto atendimento mais próximo.',
+        ],
+        bullets: [
+          'Falta de ar intensa, que impede falar frases completas ou deitar.',
+          'Lábios ou unhas azulados, sinal de falta de oxigênio.',
+          'O medicamento de alívio não alivia após o uso, ou a melhora dura pouco.',
+          'Sonolência, confusão ou cansaço extremo para respirar.',
+          'Sintomas que pioram rápido apesar do tratamento.',
+        ],
+      },
+      {
+        id: 'adesao',
+        heading: 'Por que a adesão faz a diferença',
+        paragraphs: [
+          'O medicamento de controle só protege enquanto é usado. Parar por conta própria quando os sintomas sumiram é uma das causas mais comuns de nova crise, porque a inflamação volta silenciosamente antes dos sintomas.',
+          'Manter o uso diário, revisar a técnica e não aumentar a dose sem orientação são atitudes simples que mantêm a asma controlada. Com acompanhamento correto e constante, a maioria das pessoas com asma leva uma vida normal.',
+        ],
+      },
+      {
+        id: 'duvidas-comuns',
+        heading: 'Dúvidas comuns sobre o tratamento',
+        paragraphs: [
+          'Posso parar o remédio quando me sinto bem? Não. O controle age na inflamação, que pode voltar sem aviso. Mantenha o uso diário enquanto o profissional de saúde não orientar o contrário.',
+          'O inalador vicia? Os medicamentos para asma não causam dependência. O alívio serve para abrir a via aérea na crise; usar muito indica que o controle precisa ser revisto, não que o remédio vicia.',
+          'Exercício provoca crise? Pode, em quem tem controle inadequado. Com o tratamento ajustado, a atividade física faz parte do cuidado e melhora a capacidade respiratória.',
         ],
       },
       {
@@ -2399,7 +2450,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-16',
     isPlaceholder: true,
   },
   {
