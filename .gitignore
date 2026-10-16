@@ -12,6 +12,11 @@ dist/
 # Build / gate / preview logs
 *.log
 
+# One-off design drafts / temp artifacts (not part of the site)
+saudewiki-logo-designs*.svg
+saudewiki-logo-designs*.png
+deepseek_html_*.html
+
 # Environment
 .env
 .env.*

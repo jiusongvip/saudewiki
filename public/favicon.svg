@@ -1,9 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
   <!--
-    Favicon variant of the brand mark. The header lockup keeps the outlined ring,
-    but at 16px a 4.6-unit stroke collapses into a smudge, so the tab icon inverts
-    to a filled disc with the pulse knocked out in white.
+    Favicon variant of the brand mark: a filled accent disc with the arterial
+    pulse knocked out in white. The pulse reads as a single heartbeat —
+    flat lead-in, one tall spike, one deep trough, one short rebound — and
+    stays legible down to 16px because the disc carries the silhouette.
   -->
   <circle cx="24" cy="24" r="21" fill="#0b5547"/>
-  <path d="M6 24h8l3.2-9 6 18 3.2-9H42" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path
+    d="M3 24h13l4.5-12 4.5 23 3.5-16 2.5 5h7"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="3.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 </svg>
