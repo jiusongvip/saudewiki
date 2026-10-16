@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /busca/
 
-Sitemap: https://www.saudewiki.com/sitemap-index.xml
+Sitemap: https://www.saudewiki.com/sitemap.xml
