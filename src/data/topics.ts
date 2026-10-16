@@ -30,6 +30,7 @@ export const topics: Topic[] = [
       'tuberculose',
       'hiv-aids',
       'hepatites-virais',
+      'faringite-e-amigdalite',
     ],
     articleSlugs: [
       'sintomas-iniciais-da-dengue',
@@ -42,6 +43,10 @@ export const topics: Topic[] = [
       'tuberculose-o-tratamento-tem-cura-e-e-gratuito',
       'indetectavel-intransmissivel-o-que-significa',
       'hepatite-c-tem-cura',
+      'faringite-e-amigdalite-sinais-de-alerta',
+      'faringite-e-amigdalite-como-se-transmite',
+      'faringite-e-amigdalite-como-e-diagnosticada',
+      'faringite-e-amigdalite-tratamento-e-cuidados',
     ],
     references: [
       {
@@ -83,6 +88,7 @@ export const topics: Topic[] = [
       'asma',
       'dpoc',
       'infarto-e-avc',
+      'faringite-e-amigdalite',
     ],
     articleSlugs: [
       'como-prevenir-a-dengue',
@@ -95,6 +101,7 @@ export const topics: Topic[] = [
       'asma-como-evitar-crises',
       'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
       'infarto-e-avc-fatores-de-risco',
+      'faringite-e-amigdalite-prevencao',
     ],
     references: [
       {

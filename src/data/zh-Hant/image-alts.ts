@@ -61,7 +61,11 @@ export const zhImageAlts: Record<string, string> = {
   'infarto-e-avc-fatores-de-risco': '在戶外跑步的女子',
   'infarto-e-avc-como-e-diagnosticado': '淺色房間裡附滑動床的醫學影像設備',
   'infarto-e-avc-tratamento-e-reabilitacao': '在復健室握著平行桿的人，旁邊站著穿白袍的醫護人員，牆上有木製肋木與插畫',
-
+  'faringite-e-amigdalite-sinais-de-alerta': '一名女性把手放在頸部，表情因喉嚨痛而痛苦',
+  'faringite-e-amigdalite-como-se-transmite': '一名男性咳嗽時用手遮住口鼻，另一手向前舉起',
+  'faringite-e-amigdalite-como-e-diagnosticada': '淺藍色背景上的黑色聽診器',
+  'faringite-e-amigdalite-tratamento-e-cuidados': '桌上有一杯熱茶、餅乾與檸檬片',
+  'faringite-e-amigdalite-prevencao': '雙手在水龍頭下沖洗',
   'doencas-infecciosas': '戴口罩與防護鏡的醫療專業人員',
   prevencao: '在水龍頭下用泡沫洗手的雙手',
   'doencas-cronicas': '淺色檯面上散落的圓形藥錠',

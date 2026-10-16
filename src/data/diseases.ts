@@ -2659,9 +2659,8 @@ export const diseases: Disease[] = [
     id: 'faringite',
     slug: 'faringite-e-amigdalite',
     name: 'Faringite e amigdalite',
-    // The generic suffix promises prevention; this page has no prevention section.
     metaTitle: 'Faringite e amigdalite: sintomas e transmissão',
-    aliases: ['dor de garganta', 'amigdalite', 'inflamação na garganta'],
+    aliases: ['dor de garganta', 'amigdalite', 'faringite', 'faringoamigdalite', 'inflamação na garganta'],
     summary:
       'Infecção da garganta e das amígdalas, na maioria das vezes viral. Melhora em poucos dias, e o antibiótico só tem lugar quando a causa é bacteriana.',
     category: 'Doenças infecciosas',
@@ -2669,17 +2668,17 @@ export const diseases: Disease[] = [
     sections: [
       {
         id: 'o-que-e',
-        heading: 'O que é faringite?',
+        heading: 'O que são faringite e amigdalite?',
         paragraphs: [
-          'Faringite é a inflamação da garganta, e amigdalite é a inflamação das amígdalas, dois gânglios que ficam no fundo da boca. As duas costumam aparecer juntas, e a dor de garganta é um dos motivos de consulta mais frequentes em qualquer país.',
-          'A causa mais comum é viral. Segundo o Ministério da Saúde, os vírus são os agentes mais frequentes nas crianças, enquanto as bactérias atingem mais os jovens e os adultos.',
+          'Faringite é a inflamação da garganta, e amigdalite é a inflamação das amígdalas, duas estruturas de defesa que ficam no fundo da boca. As duas costumam aparecer juntas na mesma infecção, e a dor de garganta está entre os motivos de consulta mais frequentes em qualquer idade.',
+          'A causa mais comum é viral. Segundo o Ministério da Saúde, os vírus predominam nas crianças, enquanto as bactérias, em especial o estreptococo do grupo A, atingem mais os jovens e os adultos. Na maioria das vezes a infecção é leve e passa sozinha em poucos dias, mas a forma bacteriana precisa de antibiótico e de tratamento completo, porque complicações como a febre reumática podem aparecer quando o remédio é interrompido antes do fim.',
         ],
       },
       {
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
         paragraphs: [
-          'Os sintomas se sobrepoem entre as causas virais e bacterianas, e quem distingue é a avaliação profissional.',
+          'Os sintomas se sobrepõem entre as causas virais e bacterianas, e quem distingue é a avaliação profissional.',
         ],
         bullets: [
           'Dor de garganta, pior ao engolir',
@@ -2692,9 +2691,18 @@ export const diseases: Disease[] = [
       },
       {
         id: 'transmissao',
-        heading: 'Faringite é contagiosa?',
+        heading: 'É contagiosa? Como se transmite?',
         paragraphs: [
-          'Sim. Os germes da garganta circulam pelas gotículas que a pessoa infectada libera ao tossir, espirrar ou falar, e também pelas mãos que tocam o rosto. Ambientes fechados e aglomerados favorecem a transmissão.',
+          'Sim, a forma aguda é contagiosa. Os germes da garganta circulam pelas gotículas que a pessoa infectada libera ao tossir, espirrar ou falar, e também pelos objetos de uso pessoal compartilhados, como copos, talheres e escovas de dente. Ambientes fechados e aglomerados favorecem a transmissão.',
+          'A amigdalite de repetição costuma ter outras causas por trás, como o refluxo gastroesofágico, e nesse caso não é uma infecção que passa de uma pessoa para outra.',
+        ],
+      },
+      {
+        id: 'como-e-diagnosticada',
+        heading: 'Como o profissional diferencia a causa?',
+        paragraphs: [
+          'Não dá para saber em casa se a dor de garganta é viral ou bacteriana, porque os sintomas se parecem. O profissional examina a garganta e as amígdalas com um abaixador de língua e observa febre, gânglios do pescoço e a presença de placas de pus.',
+          'Quando a suspeita é de estreptococo, ele pode pedir um exame da secreção da garganta, como a cultura ou o teste rápido, para confirmar a bactéria antes de indicar antibiótico. Tosse e corrimento nasal apontam mais para causa viral, que não responde a antibiótico.',
         ],
       },
       {
@@ -2710,6 +2718,10 @@ export const diseases: Disease[] = [
           'Manchas no corpo ou rigidez na nuca',
           'Criança pequena que recusa líquidos ou fica prostrada',
         ],
+        cta: {
+          label: 'Veja os sinais de alerta na dor de garganta',
+          href: '/artigos/faringite-e-amigdalite-sinais-de-alerta/',
+        },
       },
       {
         id: 'tratamento',
@@ -2719,6 +2731,29 @@ export const diseases: Disease[] = [
           'Na amigdalite bacteriana, o antibiótico específico é indicado pelo profissional, e o tratamento precisa ser concluído até o fim, mesmo depois de a dor passar. Interromper o antibiótico antes da hora permite complicações, como a febre reumática, que pode atingir o coração, e a resistência bacteriana, um problema de saúde pública.',
           'Antibiótico por conta própria em dor de garganta viral não acelera a melhora: ele não age sobre vírus, traz efeitos colaterais e fortalece bactérias resistentes.',
         ],
+        cta: {
+          label: 'Leia sobre o tratamento e os cuidados em casa',
+          href: '/artigos/faringite-e-amigdalite-tratamento-e-cuidados/',
+        },
+      },
+      {
+        id: 'prevencao',
+        heading: 'Dá para prevenir?',
+        paragraphs: [
+          'Não existe vacina contra a dor de garganta comum, então a prevenção depende de hábitos que reduzem a circulação dos germes.',
+        ],
+        bullets: [
+          'Lavar as mãos com frequência, sobretudo depois de tocar objetos de uso coletivo',
+          'Não compartilhar copos, talheres, garrafas e escovas de dente',
+          'Evitar beijos na boca quando estiver com resfriado ou dor de garganta',
+          'Manter os ambientes ventilados e evitar aglomerações fechadas',
+          'Não fumar e ficar longe do cigarro, porque o tabagismo favorece as infecções das amígdalas',
+          'Investigar e tratar o refluxo gastroesofágico nos casos de amigdalite de repetição',
+        ],
+        cta: {
+          label: 'Veja como reduzir o risco de novas infecções',
+          href: '/artigos/faringite-e-amigdalite-prevencao/',
+        },
       },
     ],
     faq: [
@@ -2732,22 +2767,43 @@ export const diseases: Disease[] = [
         answer:
           'A infecção é causada por vírus e bactérias, não pela temperatura. O frio ajuda a espalhar essas infecções porque empurra as pessoas para ambientes fechados e aglomerados, onde as gotículas circulam mais.',
       },
+      {
+        question: 'Amigdalite de repetição precisa de cirurgia?',
+        answer:
+          'Só em situações específicas, quando as crises são muito frequentes ou surgem complicações, e a decisão é do profissional. Retirar as amígdalas não elimina a dor de garganta, porque faringites e laringites continuam possíveis.',
+      },
     ],
-    relatedArticleSlugs: [],
-    relatedTopicSlugs: [],
-    relatedDiseaseSlugs: ['gripe', 'hipertensao'],
+    relatedArticleSlugs: [
+      'faringite-e-amigdalite-sinais-de-alerta',
+      'faringite-e-amigdalite-como-se-transmite',
+      'faringite-e-amigdalite-como-e-diagnosticada',
+      'faringite-e-amigdalite-tratamento-e-cuidados',
+      'faringite-e-amigdalite-prevencao',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['infarto-e-avc', 'hiv-aids', 'tuberculose'],
     references: [
       {
         label: 'Amidalite ou amigdalite',
         url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
         publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
       },
+      {
+        label: 'Febre reumática',
+        url: 'https://bvsms.saude.gov.br/febre-reumatica/',
+        publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
+      },
+      {
+        label: 'Rheumatic heart disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-16',
   },
   {
     id: 'gastroenterite',

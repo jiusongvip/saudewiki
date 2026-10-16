@@ -1441,4 +1441,276 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
     ],
   },
+  'faringite-e-amigdalite-sinais-de-alerta': {
+    title: '喉嚨痛：警訊與何時該就醫',
+    metaTitle: '喉嚨痛：警訊',
+    excerpt:
+      '大多數喉嚨痛幾天內會自行好轉，但有些警訊代表感染嚴重、需要立即評估。了解該注意什麼。',
+    body: [
+      {
+        id: 'quadro-habitual',
+        heading: '通常會是什麼樣子',
+        paragraphs: [
+          '病毒性的喉嚨痛常伴隨流鼻水、咳嗽與輕微發燒，幾天內不用抗生素就會好轉。',
+          '細菌性扁桃腺炎則傾向造成較高的發燒、吞嚥時劇烈疼痛，以及扁桃腺上的化膿斑塊。即使如此，兩者較輕的表現很像，真正改變處置方向的是重症警訊。',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: '需要立即評估的警訊',
+        paragraphs: ['有些警訊代表感染已經超出喉嚨的範圍，或正在堵住呼吸道，不能在家等待。'],
+        bullets: [
+          '呼吸困難或有窒息感',
+          '連吞嚥自己的口水都有困難，口水會從嘴角流出',
+          '喉嚨只有一側腫起，且張口困難',
+          '高燒使用退燒藥後仍不退',
+          '身體出現皮疹或頸部僵硬',
+          '幼兒拒絕喝水、精神萎靡或非常嗜睡',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: '什麼情況算急症',
+        paragraphs: [
+          '呼吸困難是急症。這種情況請撥打巴西行動急救服務（SAMU）192，或把患者送到最近的急診。',
+          '喉嚨只有一側腫起並伴隨張口困難，可能代表扁桃腺周圍積膿，需要在醫療院所接受評估與治療。',
+        ],
+      },
+      {
+        id: 'prazo',
+        heading: '通常建議就醫的期限',
+        paragraphs: [
+          '喉嚨痛超過四天完全沒有好轉，或已經無法吃喝時，即使沒有重症警訊，也建議就醫。',
+          '一年之內喉嚨痛反覆發作多次的人也值得檢查，因為反覆發作背後可能有其他原因，例如胃食道逆流。',
+        ],
+        ctaLabel: '咽喉炎與扁桃腺炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        label: '扁桃腺炎（Amidalite ou amigdalite）',
+        publisher: '巴西衛生部──健康虛擬圖書館',
+      },
+    ],
+  },
+  'faringite-e-amigdalite-como-se-transmite': {
+    title: '咽喉炎與扁桃腺炎：如何傳染？',
+    excerpt:
+      '急性期會透過飛沫與共用物品在人與人之間傳播。了解感染如何擴散，以及在家能做些什麼來降低風險。',
+    body: [
+      {
+        id: 'pelo-ar',
+        heading: '透過空氣中的飛沫',
+        paragraphs: [
+          '感染者咳嗽、打噴嚏或說話時，會噴出帶有病毒或細菌的小飛沫。身旁的人吸入這些飛沫就可能生病。',
+        ],
+      },
+      {
+        id: 'maos-e-objetos',
+        heading: '透過雙手與共用物品',
+        paragraphs: [
+          '雙手會把喉嚨的病原體帶到杯子、餐具、水瓶與牙刷上。共用這些物品，感染就找到另一個人。',
+          '沾到病原體的手再摸嘴巴、鼻子或眼睛，也足以讓病原體進入體內。',
+        ],
+      },
+      {
+        id: 'ambientes-fechados',
+        heading: '密閉環境更容易傳播',
+        paragraphs: [
+          '在密閉擁擠的場所，飛沫在空氣中停留更久，人與人之間的距離也更近。這就是喉嚨感染在冬天更常見的原因，因為大家都待在密閉空間裡。',
+          '學校與托兒所聚集許多兒童，傳播在這些場所也會增加。',
+        ],
+      },
+      {
+        id: 'nao-e-contagioso',
+        heading: '什麼不會傳染',
+        paragraphs: [
+          '一年反覆發作多次的扁桃腺炎通常另有原因，例如胃食道逆流，不會在人與人之間傳染。',
+          '喉嚨痛也可能來自乾燥空氣、煙霧與其他刺激物，這種情況沒有感染可以傳播。',
+        ],
+      },
+      {
+        id: 'reduzir-em-casa',
+        heading: '如何降低家中的傳播',
+        bullets: [
+          '經常洗手',
+          '不共用杯子、餐具與牙刷',
+          '咳嗽、打噴嚏時用手臂遮住口鼻',
+          '讓環境通風，避免待在密閉擁擠的空間',
+          '感冒期間避免嘴對嘴親吻',
+        ],
+        ctaLabel: '咽喉炎與扁桃腺炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        label: '扁桃腺炎（Amidalite ou amigdalite）',
+        publisher: '巴西衛生部──健康虛擬圖書館',
+      },
+    ],
+  },
+  'faringite-e-amigdalite-como-e-diagnosticada': {
+    title: '咽喉炎與扁桃腺炎：專業人員如何分辨病因？',
+    metaTitle: '咽喉炎與扁桃腺炎：診斷',
+    excerpt:
+      '病毒與細菌在喉嚨造成的症狀很像，在家無法分辨。看看專業人員如何做出診斷。',
+    body: [
+      {
+        id: 'consulta',
+        heading: '門診時的檢查',
+        paragraphs: [
+          '診斷從問診與檢查喉嚨開始。專業人員會用壓舌板觀察扁桃腺的顏色、有無化膿斑塊，以及頸部淋巴結的大小。',
+          '高燒、吞嚥時劇烈疼痛與化膿斑塊會提高細菌感染的懷疑。咳嗽與流鼻水則較指向病毒。',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: '什麼時候用檢驗確認細菌',
+        paragraphs: [
+          '由於症狀會重疊，專業人員可能採檢喉嚨分泌物，做培養或快速檢驗，在開立抗生素前先確認是否為鏈球菌。',
+          '這類檢驗能避免不必要的抗生素，它對病毒無效，還會讓抗藥性細菌更強勢。',
+        ],
+      },
+      {
+        id: 'nao-da-em-casa',
+        heading: '為什麼在家無法判斷',
+        paragraphs: [
+          '對著鏡子看喉嚨無法分辨病毒與細菌，因為白色的斑塊在兩種情況都可能出現。判斷病因與是否需要抗生素，靠的是專業評估。',
+        ],
+      },
+      {
+        id: 'outras-causas',
+        heading: '喉嚨痛的其他原因',
+        paragraphs: [
+          '不是所有喉嚨痛都來自感染。乾燥空氣、煙霧、胃食道逆流與長時間用聲也會刺激喉嚨並造成疼痛，背後沒有感染源。',
+        ],
+        ctaLabel: '咽喉炎與扁桃腺炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        label: '扁桃腺炎（Amidalite ou amigdalite）',
+        publisher: '巴西衛生部──健康虛擬圖書館',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease',
+        label: '風濕性心臟病：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+  'faringite-e-amigdalite-tratamento-e-cuidados': {
+    title: '喉嚨痛：治療與居家照護',
+    excerpt:
+      '大多數情況靠休息、補充水分與止痛藥就能好轉。抗生素只在病因是細菌時使用，而且必須吃完整個療程。',
+    body: [
+      {
+        id: 'cuidados-virais',
+        heading: '病毒性感染的照護',
+        paragraphs: ['病因是病毒時，身體會自行清除感染。治療的目的是緩解症狀，讓患者保持舒適與水分充足。'],
+        bullets: [
+          '整天分次補充水分',
+          '選擇柔軟、溫熱、較容易吞嚥的食物',
+          '依醫療院所指示使用止痛或退燒藥',
+          '充分休息與睡眠',
+          '空氣太乾時為環境加濕',
+        ],
+      },
+      {
+        id: 'antibiotico',
+        heading: '細菌性感染使用抗生素',
+        paragraphs: [
+          '細菌性扁桃腺炎由專業人員開立抗生素，即使疼痛消退也要服用到最後一劑。',
+          '提前停藥可能讓細菌留在體內並造成合併症，例如侵犯關節、可能傷及心臟的風濕熱，以及腎臟發炎。',
+        ],
+      },
+      {
+        id: 'nao-ajuda',
+        heading: '沒有幫助的做法',
+        paragraphs: [
+          '病毒性喉嚨痛自行使用抗生素不會加快康復，因為它對病毒無效、會帶來副作用，還會增加細菌的抗藥性。',
+          '喉片與喉嚨噴劑只能短暫止痛，無法處理病因。',
+        ],
+      },
+      {
+        id: 'reavaliacao',
+        heading: '什麼時候需要回診',
+        paragraphs: [
+          '如果疼痛幾天內沒有好轉、反而加重，或出現吞嚥困難，請回到醫療院所重新評估。',
+          '呼吸困難是急症，請立即撥打巴西行動急救服務（SAMU）192 求助。',
+        ],
+        ctaLabel: '咽喉炎與扁桃腺炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        label: '扁桃腺炎（Amidalite ou amigdalite）',
+        publisher: '巴西衛生部──健康虛擬圖書館',
+      },
+      {
+        url: 'https://bvsms.saude.gov.br/febre-reumatica/',
+        label: '風濕熱（Febre reumática）',
+        publisher: '巴西衛生部──健康虛擬圖書館',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance',
+        label: '抗微生物藥物抗藥性：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+  'faringite-e-amigdalite-prevencao': {
+    title: '如何預防咽喉炎與扁桃腺炎？',
+    excerpt:
+      '沒有對抗一般喉嚨痛的疫苗，但有些習慣能減少病原體在家中、學校與工作場所的傳播。',
+    body: [
+      {
+        id: 'higiene',
+        heading: '手部與物品的清潔',
+        paragraphs: ['喉嚨的病原體多半先到手上與個人物品上，之後才到另一個人的嘴裡。'],
+        bullets: [
+          '用肥皂與清水洗手，尤其在咳嗽、打噴嚏或碰觸共用物品之後',
+          '不共用杯子、餐具、水瓶與牙刷',
+          '避免用手摸嘴巴、鼻子與眼睛',
+        ],
+      },
+      {
+        id: 'ambiente',
+        heading: '環境與生活習慣',
+        paragraphs: [
+          '通風良好、不擁擠的環境能減少接觸到感染者飛沫的機會。',
+          '吸菸或二手菸會刺激喉嚨並增加扁桃腺感染的機會，因此遠離菸霧也是預防的一部分。',
+        ],
+        bullets: ['開窗讓空氣流通', '流行期間避免長時間待在密閉擁擠的場所', '不吸菸並遠離二手菸', '空氣太乾時為環境加濕'],
+      },
+      {
+        id: 'crises-de-repeticao',
+        heading: '反覆發作的人',
+        paragraphs: [
+          '對於一年反覆發作多次扁桃腺炎的人，值得檢查維持發炎的原因，例如胃食道逆流與長期暴露於菸霧。',
+          '治療感冒與過敏性問題（例如鼻炎）有助於減少因喉嚨痛就醫的次數。',
+        ],
+      },
+      {
+        id: 'o-que-nao-previne',
+        heading: '無法預防的做法',
+        paragraphs: [
+          '鹽水漱口、高劑量維生素 C 與偏方都無法阻止感染。冷風與冰品也不會造成咽喉炎，因為病因是病毒與細菌。',
+          '洗手、通風與遠離生病的人，是效果最好的措施。',
+        ],
+        ctaLabel: '咽喉炎與扁桃腺炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        label: '扁桃腺炎（Amidalite ou amigdalite）',
+        publisher: '巴西衛生部──健康虛擬圖書館',
+      },
+    ],
+  },
 };

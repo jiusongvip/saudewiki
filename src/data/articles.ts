@@ -2779,4 +2779,392 @@ export const articles: Article[] = [
     updatedAt: '2026-10-16',
     isPlaceholder: true,
   },
+  {
+    id: 'faringite-e-amigdalite-sinais-de-alerta',
+    slug: 'faringite-e-amigdalite-sinais-de-alerta',
+    metaTitle: 'Dor de garganta: sinais de alerta',
+    title: 'Dor de garganta: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'A maioria das dores de garganta melhora sozinha em poucos dias. Alguns sinais, porém, indicam infecção grave e pedem avaliação imediata. Saiba o que observar.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'quadro-habitual',
+        heading: 'O que costuma ser esperado',
+        paragraphs: [
+          'A dor de garganta viral costuma vir junto com corrimento nasal, tosse e febre baixa, e melhora em poucos dias sem antibiótico.',
+          'A amigdalite bacteriana tende a causar febre mais alta, dor intensa ao engolir e placas de pus nas amígdalas. Mesmo assim, o quadro leve das duas formas se parece, e o que muda a conduta são os sinais de gravidade.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que pedem avaliação imediata',
+        paragraphs: [
+          'Alguns sinais indicam que a infecção passou dos limites da garganta ou está fechando a passagem de ar, e não podem esperar em casa.',
+        ],
+        bullets: [
+          'Dificuldade para respirar ou sensação de sufocamento',
+          'Dificuldade para engolir a própria saliva, com saliva escorrendo pela boca',
+          'Inchaço em um só lado da garganta, com dificuldade para abrir a boca',
+          'Febre alta que não cede com antitérmico',
+          'Manchas no corpo ou rigidez na nuca',
+          'Criança pequena que recusa líquidos, fica prostrada ou muito sonolenta',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Dificuldade para respirar é emergência. Nesse caso, ligue para o SAMU, no 192, ou leve a pessoa ao pronto atendimento mais próximo.',
+          'O inchaço em um só lado da garganta com dificuldade para abrir a boca pode indicar um acúmulo de pus ao redor da amígdala, que precisa de avaliação e tratamento no serviço de saúde.',
+        ],
+      },
+      {
+        id: 'prazo',
+        heading: 'O prazo que costuma indicar avaliação',
+        paragraphs: [
+          'Quando a dor de garganta passa de quatro dias sem nenhuma melhora, ou quando impede comer e beber, a recomendação é procurar atendimento mesmo sem sinal de gravidade.',
+          'Também vale investigar quem tem dor de garganta várias vezes ao ano, porque a repetição pode ter outra causa por trás, como o refluxo gastroesofágico.',
+        ],
+        cta: {
+          label: 'Veja a página sobre faringite e amigdalite',
+          href: '/doencas/faringite-e-amigdalite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['faringite-e-amigdalite'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'faringite-e-amigdalite-como-se-transmite',
+      'faringite-e-amigdalite-como-e-diagnosticada',
+      'faringite-e-amigdalite-tratamento-e-cuidados',
+      'faringite-e-amigdalite-prevencao',
+    ],
+    references: [
+      {
+        label: 'Amidalite ou amigdalite',
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'faringite-e-amigdalite-como-se-transmite',
+    slug: 'faringite-e-amigdalite-como-se-transmite',
+    title: 'Faringite e amigdalite: como se transmite?',
+    excerpt:
+      'A forma aguda passa de pessoa para pessoa por gotículas e por objetos compartilhados. Entenda como a infecção circula e o que reduz o risco dentro de casa.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'pelo-ar',
+        heading: 'Pelo ar, em gotículas',
+        paragraphs: [
+          'Ao tossir, espirrar ou falar, a pessoa infectada lança pequenas gotículas com vírus ou bactérias. Quem está perto respira essas gotículas e pode adoecer.',
+        ],
+      },
+      {
+        id: 'maos-e-objetos',
+        heading: 'Pelas mãos e por objetos compartilhados',
+        paragraphs: [
+          'As mãos levam os germes da garganta para copos, talheres, garrafas e escovas de dente. Ao compartilhar esses objetos, a infecção encontra outra pessoa.',
+          'Levar a mão contaminada à boca, ao nariz ou aos olhos também é suficiente para o germe entrar no organismo.',
+        ],
+      },
+      {
+        id: 'ambientes-fechados',
+        heading: 'Ambientes fechados favorecem',
+        paragraphs: [
+          'Em locais fechados e aglomerados, as gotículas ficam mais tempo no ar e a distância entre as pessoas diminui. É por isso que as infecções de garganta circulam mais no inverno, quando todos ficam em ambientes fechados.',
+          'Escolas e creches reúnem muitas crianças próximas, e a transmissão cresce nesses espaços.',
+        ],
+      },
+      {
+        id: 'nao-e-contagioso',
+        heading: 'O que não é contagioso',
+        paragraphs: [
+          'A amigdalite de repetição, que volta várias vezes ao ano, costuma ter outras causas, como o refluxo gastroesofágico, e não passa de uma pessoa para outra.',
+          'A dor de garganta também pode vir do ar seco, da fumaça e de outros irritantes, e nesse caso não há infecção para transmitir.',
+        ],
+      },
+      {
+        id: 'reduzir-em-casa',
+        heading: 'Como reduzir a transmissão em casa',
+        bullets: [
+          'Lavar as mãos com frequência',
+          'Não compartilhar copos, talheres e escovas de dente',
+          'Cobrir a boca com o braço ao tossir e espirrar',
+          'Ventilar os ambientes e evitar aglomerações fechadas',
+          'Evitar beijos na boca durante o resfriado',
+        ],
+        cta: {
+          label: 'Veja a página sobre faringite e amigdalite',
+          href: '/doencas/faringite-e-amigdalite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['faringite-e-amigdalite'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'faringite-e-amigdalite-sinais-de-alerta',
+      'faringite-e-amigdalite-como-e-diagnosticada',
+      'faringite-e-amigdalite-tratamento-e-cuidados',
+      'faringite-e-amigdalite-prevencao',
+    ],
+    references: [
+      {
+        label: 'Amidalite ou amigdalite',
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'faringite-e-amigdalite-como-e-diagnosticada',
+    slug: 'faringite-e-amigdalite-como-e-diagnosticada',
+    metaTitle: 'Faringite e amigdalite: diagnóstico',
+    title: 'Faringite e amigdalite: como o profissional identifica a causa?',
+    excerpt:
+      'Vírus e bactérias causam sintomas parecidos na garganta, e a diferença não dá para ver em casa. Veja como o profissional chega ao diagnóstico.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'consulta',
+        heading: 'O exame na consulta',
+        paragraphs: [
+          'O diagnóstico começa pela conversa e pelo exame da garganta. Com um abaixador de língua, o profissional observa a cor das amígdalas, a presença de placas de pus e o tamanho dos gânglios do pescoço.',
+          'Febre alta, dor forte ao engolir e placas de pus aumentam a suspeita de bactéria. Tosse e corrimento nasal apontam mais para vírus.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quando um exame confirma a bactéria',
+        paragraphs: [
+          'Como os sintomas se sobrepõem, o profissional pode pedir um exame da secreção da garganta, a cultura ou o teste rápido, para saber se o estreptococo está presente antes de indicar antibiótico.',
+          'Esse exame ajuda a evitar antibiótico desnecessário, que não age sobre vírus e ainda fortalece as bactérias resistentes.',
+        ],
+      },
+      {
+        id: 'nao-da-em-casa',
+        heading: 'Por que não dá para decidir em casa',
+        paragraphs: [
+          'Olhar a garganta no espelho não permite diferenciar vírus de bactéria, e placas esbranquiçadas podem aparecer nas duas situações. Quem define a causa e a necessidade de antibiótico é a avaliação profissional.',
+        ],
+      },
+      {
+        id: 'outras-causas',
+        heading: 'Outras causas de dor de garganta',
+        paragraphs: [
+          'Nem toda dor de garganta vem de infecção. Ar seco, fumaça, refluxo gastroesofágico e uso intenso da voz também irritam a garganta e podem causar dor, sem agente infeccioso envolvido.',
+        ],
+        cta: {
+          label: 'Veja a página sobre faringite e amigdalite',
+          href: '/doencas/faringite-e-amigdalite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['faringite-e-amigdalite'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'faringite-e-amigdalite-sinais-de-alerta',
+      'faringite-e-amigdalite-como-se-transmite',
+      'faringite-e-amigdalite-tratamento-e-cuidados',
+      'faringite-e-amigdalite-prevencao',
+    ],
+    references: [
+      {
+        label: 'Amidalite ou amigdalite',
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
+      },
+      {
+        label: 'Rheumatic heart disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'faringite-e-amigdalite-tratamento-e-cuidados',
+    slug: 'faringite-e-amigdalite-tratamento-e-cuidados',
+    title: 'Dor de garganta: tratamento e cuidados em casa',
+    excerpt:
+      'A maioria dos casos melhora com repouso, líquidos e analgésico. O antibiótico só entra quando a causa é bacteriana, e precisa ser tomado até o fim.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'cuidados-virais',
+        heading: 'Cuidados na infecção viral',
+        paragraphs: [
+          'Quando a causa é viral, o corpo resolve a infecção sozinho. O tratamento serve para aliviar os sintomas e manter a pessoa confortável e hidratada.',
+        ],
+        bullets: [
+          'Beber líquidos ao longo do dia',
+          'Preferir alimentos macios e mornos, mais fáceis de engolir',
+          'Usar analgésico ou antitérmico conforme a orientação do serviço de saúde',
+          'Descansar e dormir bem',
+          'Umidificar o ambiente quando o ar estiver muito seco',
+        ],
+      },
+      {
+        id: 'antibiotico',
+        heading: 'Antibiótico na infecção bacteriana',
+        paragraphs: [
+          'Na amigdalite bacteriana, o antibiótico é indicado por um profissional e deve ser tomado até a última dose, mesmo depois de a dor passar.',
+          'Parar antes do fim pode deixar bactérias vivas no organismo e permitir complicações, como a febre reumática, que atinge as articulações e pode lesionar o coração, e a inflamação dos rins.',
+        ],
+      },
+      {
+        id: 'nao-ajuda',
+        heading: 'O que não ajuda',
+        paragraphs: [
+          'Antibiótico por conta própria na dor de garganta viral não acelera a melhora, porque não age sobre vírus, causa efeitos colaterais e aumenta a resistência das bactérias.',
+          'Pastilhas e sprays de garganta aliviam a dor por pouco tempo e não tratam a causa.',
+        ],
+      },
+      {
+        id: 'reavaliacao',
+        heading: 'Quando voltar para reavaliação',
+        paragraphs: [
+          'Se a dor não melhorar em poucos dias, piorar ou vier com dificuldade para engolir, volte ao serviço de saúde para reavaliação.',
+          'Dificuldade para respirar é emergência e pede ajuda imediata pelo SAMU, no 192.',
+        ],
+        cta: {
+          label: 'Veja a página sobre faringite e amigdalite',
+          href: '/doencas/faringite-e-amigdalite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['faringite-e-amigdalite'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'faringite-e-amigdalite-sinais-de-alerta',
+      'faringite-e-amigdalite-como-se-transmite',
+      'faringite-e-amigdalite-como-e-diagnosticada',
+      'faringite-e-amigdalite-prevencao',
+    ],
+    references: [
+      {
+        label: 'Amidalite ou amigdalite',
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
+      },
+      {
+        label: 'Febre reumática',
+        url: 'https://bvsms.saude.gov.br/febre-reumatica/',
+        publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
+      },
+      {
+        label: 'Antimicrobial resistance: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'faringite-e-amigdalite-prevencao',
+    slug: 'faringite-e-amigdalite-prevencao',
+    title: 'Como prevenir faringite e amigdalite?',
+    excerpt:
+      'Não existe vacina contra a dor de garganta comum, mas alguns hábitos reduzem a circulação dos germes em casa, na escola e no trabalho.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'higiene',
+        heading: 'Higiene das mãos e dos objetos',
+        paragraphs: [
+          'A maior parte dos germes da garganta chega às mãos e aos objetos de uso pessoal antes de chegar à boca de outra pessoa.',
+        ],
+        bullets: [
+          'Lavar as mãos com água e sabão, principalmente depois de tossir, espirrar ou tocar objetos de uso coletivo',
+          'Não compartilhar copos, talheres, garrafas e escovas de dente',
+          'Evitar levar as mãos à boca, ao nariz e aos olhos',
+        ],
+      },
+      {
+        id: 'ambiente',
+        heading: 'Ambientes e hábitos',
+        paragraphs: [
+          'Ambientes ventilados e menos aglomerados reduzem a chance de contato com as gotículas de alguém infectado.',
+          'O cigarro, ativo ou passivo, irrita a garganta e aumenta a chance de infecções das amígdalas, por isso ficar longe da fumaça também faz parte da prevenção.',
+        ],
+        bullets: [
+          'Abrir janelas e manter o ar circulando',
+          'Evitar permanecer em locais fechados e cheios durante surtos',
+          'Não fumar e ficar longe do cigarro',
+          'Umidificar o ar quando ele estiver muito seco',
+        ],
+      },
+      {
+        id: 'crises-de-repeticao',
+        heading: 'Quem tem crises de repetição',
+        paragraphs: [
+          'Em quem apresenta amigdalite várias vezes ao ano, vale investigar fatores que mantêm a inflamação, como o refluxo gastroesofágico e a exposição constante à fumaça.',
+          'Tratar resfriados e quadros alérgicos, como a rinite, ajuda a reduzir as idas ao serviço de saúde por dor de garganta.',
+        ],
+      },
+      {
+        id: 'o-que-nao-previne',
+        heading: 'O que não previne',
+        paragraphs: [
+          'Gargarejo com sal, vitamina C em dose alta e remédios caseiros não impedem a infecção. Ar frio e sorvete também não causam faringite, porque a causa são vírus e bactérias.',
+          'Higiene das mãos, ventilação e manter distância de quem está doente são as medidas com melhor resultado.',
+        ],
+        cta: {
+          label: 'Veja a página sobre faringite e amigdalite',
+          href: '/doencas/faringite-e-amigdalite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['faringite-e-amigdalite'],
+    topicSlugs: ['prevencao'],
+    relatedArticleSlugs: [
+      'faringite-e-amigdalite-sinais-de-alerta',
+      'faringite-e-amigdalite-como-se-transmite',
+      'faringite-e-amigdalite-como-e-diagnosticada',
+      'faringite-e-amigdalite-tratamento-e-cuidados',
+    ],
+    references: [
+      {
+        label: 'Amidalite ou amigdalite',
+        url: 'https://bvsms.saude.gov.br/amidalite-ou-amigdalite/',
+        publisher: 'Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
 ];
