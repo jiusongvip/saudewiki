@@ -1,0 +1,88 @@
+---
+import { Icon } from 'astro-icon/components';
+import { ui } from '../i18n/ui';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+---
+
+<button
+  id="back-to-top"
+  type="button"
+  aria-label={t.nav.backToTop}
+  class="back-to-top fixed bottom-[calc(env(safe-area-inset-bottom)+1.25rem)] right-5 z-40 inline-flex h-11 w-11 items-center justify-center rounded-full border border-control bg-canvas/85 text-ink shadow-sm backdrop-blur-md hover:bg-accent-soft hover:text-accent md:bottom-8 md:right-8"
+>
+  <Icon name="tabler:arrow-bar-to-up" class="h-5 w-5" />
+</button>
+
+<style>
+  .back-to-top {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition:
+      opacity 0.2s ease-out,
+      transform 0.2s ease-out;
+  }
+
+  .back-to-top.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  /*
+   * `visibility: hidden` is what keeps a parked button out of the tab order, so
+   * it also has to give way the moment the button holds focus — otherwise the
+   * scroll listener would hide the control a keyboard reader is standing on and
+   * drop the cursor back at the top of the document (WCAG 2.4.7).
+   */
+  .back-to-top:focus-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back-to-top {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  const button = document.getElementById('back-to-top');
+
+  if (button) {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    // One screen of travel, not a fixed pixel count: the point is that the top
+    // of the page is no longer in view, which depends on how tall it is.
+    const isOffTop = () => window.scrollY > window.innerHeight * 0.75;
+
+    let queued = false;
+    const sync = () => {
+      queued = false;
+      button.classList.toggle('is-visible', isOffTop());
+    };
+    const queue = () => {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(sync);
+    };
+
+    button.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
+    });
+
+    window.addEventListener('scroll', queue, { passive: true });
+    window.addEventListener('resize', queue);
+    // A reload or a restored scroll position can land mid-page with the button
+    // still in its initial hidden state.
+    sync();
+  }
+</script>

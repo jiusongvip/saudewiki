@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import BackToTop from '../components/BackToTop.astro';
 import { SITE } from '../data/site';
 // The two weights that paint above the fold: 400 for body text, 600 for every
 // `.display` heading. Imported as URLs so Vite resolves the same hashed asset
@@ -215,6 +216,8 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
     </main>
 
     <Footer lang={lang} />
+
+    <BackToTop lang={lang} />
 
     <script>
       // Bundled (not is:inline) so the observer is defined once per page rather
