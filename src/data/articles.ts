@@ -2357,7 +2357,7 @@ export const articles: Article[] = [
         id: 'acompanhamento',
         heading: 'Acompanhamento',
         bullets: [
-          'Comparecer às consultas de acompanhamento, mesmo em períodos sem sintomas',
+          'Voltar às consultas de acompanhamento, mesmo em períodos sem sintomas',
           'Manter o medicamento de controle em uso diário, sem interromper por conta própria',
           'Registrar as crises e os gatilhos que as provocaram, para levar à consulta',
           'Revisar periodicamente a técnica do inalador e a necessidade de ajuste de dose',

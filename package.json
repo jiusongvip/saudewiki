@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "check:i18n": "node scripts/check-i18n.mjs"
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "check:editorial": "node scripts/check-editorial.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
