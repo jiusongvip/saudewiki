@@ -3167,4 +3167,396 @@ export const articles: Article[] = [
     updatedAt: '2026-10-16',
     isPlaceholder: true,
   },
+  {
+    id: 'gastroenterite-sinais-de-alerta',
+    slug: 'gastroenterite-sinais-de-alerta',
+    title: 'Diarreia: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'A maioria dos episódios de diarreia passa sozinha em poucos dias. Alguns sinais, porém, indicam desidratação importante e pedem avaliação imediata. Saiba o que observar.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'quadro-habitual',
+        heading: 'O que costuma ser esperado',
+        paragraphs: [
+          'A gastroenterite comum começa de repente, com diarreia, cólica e, muitas vezes, vômito e febre baixa. Na maior parte das vezes, é causada por vírus e passa sozinha em poucos dias, desde que a pessoa beba líquidos.',
+          'O que preocupa nessa doença não é o número de dias, e sim a perda de água e sais. Bebês, crianças pequenas e pessoas idosas desidratam mais rápido e precisam de atenção redobrada.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que pedem avaliação imediata',
+        paragraphs: [
+          'Alguns sinais mostram que a perda de líquidos já passou do ponto e que a pessoa não consegue se hidratar sozinha em casa.',
+        ],
+        bullets: [
+          'Sangue ou muco nas fezes',
+          'Vômitos repetidos que impedem de reter qualquer líquido',
+          'Muita sede, boca seca, urina rara e escura',
+          'Olhos fundos, moleira afundada em bebês, choro sem lágrimas',
+          'Sonolência excessiva, fraqueza intensa ou recusa de alimentos',
+          'Pele que demora a voltar ao normal quando é pinçada',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Desidratação grave é emergência. Se a pessoa está muito sonolenta, não consegue beber ou respira rápido, ligue para o SAMU, no 192, ou leve ao pronto atendimento mais próximo, sem esperar em casa.',
+          'Em bebês e em pessoas idosas, o quadro pode piorar em poucas horas. Nesses grupos, o Ministério da Saúde orienta procurar o serviço de saúde em regime de urgência.',
+        ],
+      },
+      {
+        id: 'prazo',
+        heading: 'O prazo que indica voltar ao serviço',
+        paragraphs: [
+          'Quando a diarreia não melhora em dois dias, ou quando piora, a recomendação é voltar ao serviço de saúde para reavaliação, mesmo sem sinal de gravidade.',
+          'Diarreia que passa de 14 dias é classificada como persistente e precisa de investigação, porque outras causas, como parasitas e intolerâncias, entram na lista.',
+        ],
+        cta: {
+          label: 'Veja a página sobre gastroenterite',
+          href: '/doencas/gastroenterite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['gastroenterite'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'gastroenterite-como-se-transmite',
+      'gastroenterite-como-e-diagnosticada',
+      'gastroenterite-tratamento-e-cuidados',
+      'gastroenterite-prevencao',
+    ],
+    references: [
+      {
+        label: 'Doenças diarreicas agudas (DDA)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diarrhoeal disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gastroenterite-como-se-transmite',
+    slug: 'gastroenterite-como-se-transmite',
+    title: 'Gastroenterite: como se transmite?',
+    excerpt:
+      'A infecção passa de pessoa para pessoa pelas mãos, pela água e pelos alimentos contaminados. Entenda o caminho dos germes e o que reduz o risco dentro de casa.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'pela-boca',
+        heading: 'Pela boca, a partir das fezes',
+        paragraphs: [
+          'A transmissão da gastroenterite é fecal-oral: os germes saem nas fezes de uma pessoa infectada e chegam à boca de outra. O caminho mais comum é a água e o alimento contaminados.',
+        ],
+      },
+      {
+        id: 'maos-e-objetos',
+        heading: 'Pelas mãos e pelos objetos',
+        paragraphs: [
+          'Mãos que não foram lavadas levam os germes das fezes para alimentos, utensílios, superfícies e brinquedos. Tocar nesses objetos e depois levar a mão à boca já basta para a infecção entrar.',
+          'Trocar fraldas, cuidar de alguém doente e manusear alimentos crus são momentos em que a mão passa a ser a via principal do micróbio.',
+        ],
+      },
+      {
+        id: 'ambientes-fechados',
+        heading: 'Onde o contágio é maior',
+        paragraphs: [
+          'Creches, escolas, asilos e acampamentos reúnem muitas pessoas próximas e favorecem a circulação dos germes, sobretudo do norovírus.',
+          'Água sem tratamento, gelo feito com água insegura e alimentos crus ou malcozidos também concentram micróbios e estão por trás de muitos surtos.',
+        ],
+      },
+      {
+        id: 'nao-e-contagioso',
+        heading: 'O que não é contagioso',
+        paragraphs: [
+          'Nem toda diarreia vem de infecção. Remédios, intolerância à lactose, doença celíaca e síndrome do intestino irritável causam diarreia sem germe, e nesse caso não há transmissão entre pessoas.',
+        ],
+      },
+      {
+        id: 'reduzir-em-casa',
+        heading: 'Como reduzir a transmissão em casa',
+        bullets: [
+          'Lavar as mãos com sabão antes de comer e depois de usar o banheiro ou trocar fraldas',
+          'Lavar e desinfetar as superfícies e os utensílios da cozinha',
+          'Lavar bem frutas e verduras e cozinhar as carnes por completo',
+          'Tratar a água para consumo, filtrando ou fervendo',
+          'Separar o banheiro e os utensílios de quem está doente, quando possível',
+        ],
+        cta: {
+          label: 'Veja a página sobre gastroenterite',
+          href: '/doencas/gastroenterite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['gastroenterite'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'gastroenterite-sinais-de-alerta',
+      'gastroenterite-como-e-diagnosticada',
+      'gastroenterite-tratamento-e-cuidados',
+      'gastroenterite-prevencao',
+    ],
+    references: [
+      {
+        label: 'Doenças diarreicas agudas (DDA)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diarrhoeal disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gastroenterite-como-e-diagnosticada',
+    slug: 'gastroenterite-como-e-diagnosticada',
+    title: 'Gastroenterite: como o profissional identifica a causa?',
+    excerpt:
+      'Na maioria dos casos não é preciso exame: o que orienta o tratamento é o estado de hidratação. Os exames de fezes entram quando aparecem sinais específicos.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'consulta',
+        heading: 'A avaliação na consulta',
+        paragraphs: [
+          'O diagnóstico começa pela conversa e pelo exame físico. O profissional pergunta sobre o início dos sintomas, o número de evacuações, a presença de sangue ou muco e o contato com outras pessoas doentes.',
+          'A parte central do exame é o estado de hidratação: sede, umidade da boca, lágrimas, urina e a elasticidade da pele. É esse estado, e não o nome do micróbio, que define o tratamento.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quando os exames de fezes entram',
+        paragraphs: [
+          'Os exames entram em situações específicas: sangue ou muco nas fezes, desidratação grave, suspeita de cólera e surtos. Pode-se pedir coprocultura, exame parasitológico de fezes e pesquisa de vírus.',
+          'A amostra deve ser colhida antes do antibiótico, para que o medicamento não mascare o resultado. Em caso de surto, o serviço de saúde orienta a coleta junto com a vigilância epidemiológica do município.',
+        ],
+      },
+      {
+        id: 'nao-da-em-casa',
+        heading: 'Por que não dá para decidir em casa',
+        paragraphs: [
+          'Não existe um exame caseiro que diga se a diarreia é viral ou bacteriana, e os sintomas se parecem muito. O que define a urgência são os sinais de gravidade, não o olhar para as fezes.',
+        ],
+      },
+      {
+        id: 'outras-causas',
+        heading: 'Outras causas de diarreia',
+        paragraphs: [
+          'A diarreia também aparece por causas não infecciosas: uso de antibióticos, intolerância à lactose, doença celíaca e síndrome do intestino irritável. Distinguir esses casos muda o tratamento e evita antibiótico desnecessário.',
+        ],
+        cta: {
+          label: 'Veja a página sobre gastroenterite',
+          href: '/doencas/gastroenterite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['gastroenterite'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'gastroenterite-sinais-de-alerta',
+      'gastroenterite-como-se-transmite',
+      'gastroenterite-tratamento-e-cuidados',
+      'gastroenterite-prevencao',
+    ],
+    references: [
+      {
+        label: 'Doenças diarreicas agudas (DDA)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diarrhoeal disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gastroenterite-tratamento-e-cuidados',
+    slug: 'gastroenterite-tratamento-e-cuidados',
+    title: 'Diarreia: tratamento e cuidados em casa',
+    excerpt:
+      'O tratamento começa com soro de reidratação oral, distribuído gratuitamente pelo SUS. Manter a alimentação e usar zinco nas crianças encurta o episódio.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'soro',
+        heading: 'Repor o que se perdeu',
+        paragraphs: [
+          'O ponto central do tratamento é repor a água e os sais perdidos. O soro de reidratação oral, disponível gratuitamente no SUS, deve ser oferecido em pequenos goles frequentes, começando logo no primeiro episódio de diarreia.',
+          'Água, água de coco e caldos também ajudam a hidratar, mas o soro repõe os eletrólitos na proporção adequada. Refrigerantes e sucos muito açucarados podem piorar a diarreia.',
+        ],
+      },
+      {
+        id: 'alimentacao',
+        heading: 'Alimentação e zinco',
+        paragraphs: [
+          'Não é preciso parar de comer. Manter a alimentação habitual, em porções pequenas ao longo do dia, acelera a recuperação. Em crianças, a amamentação deve continuar.',
+          'Em crianças, o Ministério da Saúde recomenda a suplementação de zinco uma vez ao dia por 10 a 14 dias, o que encurta o episódio e reduz o risco de complicações.',
+        ],
+      },
+      {
+        id: 'nao-ajuda',
+        heading: 'O que não ajuda',
+        paragraphs: [
+          'Remédios que param a diarreia e medicamentos para vômito não devem ser usados por conta própria, sobretudo em crianças. Eles seguram no intestino os germes que o corpo tenta eliminar e podem mascarar a desidratação.',
+          'Antibiótico por conta própria na gastroenterite viral não acelera a melhora: ele não age sobre vírus, provoca efeitos colaterais e aumenta a resistência das bactérias.',
+        ],
+      },
+      {
+        id: 'reavaliacao',
+        heading: 'Quando voltar para reavaliação',
+        paragraphs: [
+          'Volte ao serviço de saúde se a diarreia não melhorar em dois dias, se piorar ou se aparecerem sinais de desidratação. Em bebês, crianças pequenas e pessoas idosas, o prazo para procurar ajuda é menor.',
+          'Sinais de desidratação grave, como sonolência intensa, incapacidade de beber e pele que não volta ao normal, são emergência e pedem ajuda imediata pelo SAMU, no 192.',
+        ],
+        cta: {
+          label: 'Veja a página sobre gastroenterite',
+          href: '/doencas/gastroenterite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['gastroenterite'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'gastroenterite-sinais-de-alerta',
+      'gastroenterite-como-se-transmite',
+      'gastroenterite-como-e-diagnosticada',
+      'gastroenterite-prevencao',
+    ],
+    references: [
+      {
+        label: 'Doenças diarreicas agudas (DDA)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rotavírus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rotavirus',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diarrhoeal disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gastroenterite-prevencao',
+    slug: 'gastroenterite-prevencao',
+    title: 'Como prevenir gastroenterite e diarreia?',
+    excerpt:
+      'Água tratada, saneamento e lavagem das mãos são a base da prevenção. A vacina contra o rotavírus protege as crianças das formas graves.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'agua-e-maos',
+        heading: 'Água tratada e mãos limpas',
+        paragraphs: [
+          'A maior parte das gastroenterites vem de água e alimentos contaminados e de mãos que não foram lavadas. Tratar a água e lavar as mãos com sabão antes de comer e depois do banheiro cortam a principal via de transmissão.',
+        ],
+        bullets: [
+          'Lavar as mãos com sabão antes de preparar ou comer alimentos e depois do banheiro ou de trocar fraldas',
+          'Tratar a água para consumo, filtrando ou fervendo, e guardá-la em recipiente limpo e tampado',
+          'Lavar bem frutas, verduras e utensílios da cozinha',
+          'Cozinhar bem carnes, ovos e pescados, evitando alimentos crus ou malcozidos',
+        ],
+      },
+      {
+        id: 'alimentacao-e-aleitamento',
+        heading: 'Alimentação e amamentação',
+        paragraphs: [
+          'Manter a amamentação nos primeiros meses de vida aumenta a resistência da criança contra a diarreia. Evitar o desmame precoce é uma medida de proteção reconhecida pelo Ministério da Saúde.',
+        ],
+      },
+      {
+        id: 'vacina',
+        heading: 'Vacina contra o rotavírus',
+        paragraphs: [
+          'Contra o rotavírus, principal causa de diarreia grave em crianças pequenas, o calendário do SUS oferece a vacina oral em duas doses, aos dois e aos quatro meses de idade.',
+          'A vacina não impede toda diarreia, mas reduz muito as formas graves que levam a criança ao hospital.',
+        ],
+      },
+      {
+        id: 'o-que-nao-previne',
+        heading: 'O que não previne',
+        paragraphs: [
+          'Não há vacina contra a diarreia comum causada por outros vírus e bactérias, e remédios caseiros não impedem a infecção. A prevenção depende de água segura, saneamento e higiene.',
+        ],
+        cta: {
+          label: 'Veja a página sobre gastroenterite',
+          href: '/doencas/gastroenterite/',
+        },
+      },
+    ],
+    diseaseSlugs: ['gastroenterite'],
+    topicSlugs: ['prevencao'],
+    relatedArticleSlugs: [
+      'gastroenterite-sinais-de-alerta',
+      'gastroenterite-como-se-transmite',
+      'gastroenterite-como-e-diagnosticada',
+      'gastroenterite-tratamento-e-cuidados',
+    ],
+    references: [
+      {
+        label: 'Doenças diarreicas agudas (DDA)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rotavírus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rotavirus',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diarrhoeal disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
 ];

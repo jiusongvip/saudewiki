@@ -244,6 +244,26 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-faringite-prevencao.webp',
     alt: 'Mãos sob a água corrente enquanto são lavadas',
   },
+  'gastroenterite-sinais-de-alerta': {
+    src: '/img/artigo-atendimento.webp',
+    alt: 'Profissional de saúde examinando o braço de um paciente',
+  },
+  'gastroenterite-como-se-transmite': {
+    src: '/img/artigo-gastro-transmissao.webp',
+    alt: 'Mãos cobertas de espuma sendo esfregadas sob a água da torneira',
+  },
+  'gastroenterite-como-e-diagnosticada': {
+    src: '/img/artigo-gastro-diagnostico.webp',
+    alt: 'Lentes e platina de um microscópio de laboratório em close',
+  },
+  'gastroenterite-tratamento-e-cuidados': {
+    src: '/img/artigo-gastro-tratamento.webp',
+    alt: 'Mãos em concha recolhendo água corrente',
+  },
+  'gastroenterite-prevencao': {
+    src: '/img/artigo-gastro-prevencao.webp',
+    alt: 'Mãos lavando cenouras e abóbora sob a água da torneira',
+  },
 };
 
 export const topicImages: Record<string, SiteImage> = {

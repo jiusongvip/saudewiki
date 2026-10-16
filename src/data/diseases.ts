@@ -2810,9 +2810,16 @@ export const diseases: Disease[] = [
     slug: 'gastroenterite',
     name: 'Gastroenterite (diarreia infecciosa)',
     metaTitle: 'Gastroenterite: sintomas e prevenção',
-    aliases: ['diarreia', 'infecção intestinal', 'gastroenterite viral'],
+    aliases: [
+      'diarreia',
+      'infecção intestinal',
+      'gastroenterite viral',
+      'gastroenterite aguda',
+      'virose',
+      'diarreia infecciosa',
+    ],
     summary:
-      'Infecção que inflama estômago e intestino, causando diarreia e vômitos. O perigo principal é a desidratação, e o tratamento começa com soro de reidratação oral.',
+      'Infecção do estômago e do intestino que causa diarreia e vômitos. Quase sempre viral e passageira, mas a desidratação é o risco real, e o tratamento começa em casa, com soro de reidratação oral.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     sections: [
@@ -2820,62 +2827,84 @@ export const diseases: Disease[] = [
         id: 'o-que-e',
         heading: 'O que é gastroenterite?',
         paragraphs: [
-          'Gastroenterite é a infecção que inflama o revestimento do estômago e do intestino. Ela se manifesta como diarreia, que a Organização Mundial da Saúde define como três ou mais fezes moles ou líquidas em um dia.',
-          'É uma doença comum em todas as idades. A maioria passa em poucos dias, mas em crianças pequenas e pessoas idosas a desidratação pode evoluir depressa.',
-          'Segundo o Ministério da Saúde, as doenças diarreicas agudas atingem sobretudo crianças menores de cinco anos, e a diarreia segue entre as principais causas de morte nessa idade onde o acesso a água tratada é limitado.',
+          'Gastroenterite é a inflamação do estômago e do intestino causada, na maioria das vezes, por vírus, bactérias ou parasitas. Ela se manifesta como diarreia, que a Organização Mundial da Saúde define como três ou mais evacuações de fezes moles ou líquidas em um dia.',
+          'É uma doença comum em qualquer idade, mas os grupos mais vulneráveis são as crianças pequenas e as pessoas idosas, em quem a perda de água e sais pode evoluir rápido. A maioria dos episódios é leve e passa sozinha em poucos dias; o que mais muda o desfecho é a rapidez com que a hidratação é reposta.',
+          'Segundo o Ministério da Saúde, as doenças diarreicas agudas atingem sobretudo crianças menores de cinco anos, e a diarreia segue entre as principais causas de morte nessa faixa de idade onde o acesso a água tratada e saneamento é limitado.',
         ],
       },
       {
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
-        paragraphs: ['O quadro costuma começar de repente, com sintomas digestivos gerais.'],
+        paragraphs: ['O quadro costuma começar de repente, com sintomas digestivos e, às vezes, febre.'],
         bullets: [
-          'Diarreia, fezes moladas ou líquidas',
+          'Diarreia, com fezes moles ou líquidas',
           'Vômitos e náuseas',
           'Dor e cólica abdominal',
           'Febre, nem sempre presente',
-          'Sinais de desidratação: boca seca, pouca urina escura, falta de lágrimas ao chorar, sonolência ou irritação',
+          'Sangue ou muco nas fezes, quando a causa é bacteriana ou parasitária',
+          'Sinais de desidratação: boca seca, pouca urina e escura, ausência de lágrimas ao chorar, sonolência ou irritação',
         ],
       },
       {
         id: 'transmissao',
         heading: 'Como se espalha?',
         paragraphs: [
-          'Pelos germes que entram pela boca: água e alimentos contaminados, mãos que não foram lavadas e contato de pessoa a pessoa. Norovírus causa surtos em ambientes fechados, e o rotavírus é o mais comum dos vírus que adoecem crianças pequenas, segundo a OMS.',
-          'A diarreia é um marcador de saneamento. Onde falta água tratada, o mesmo micróbio reaparece a cada estação, e campanhas de reidratação oral são a resposta que mais salva vidas.',
+          'A transmissão é fecal-oral: os germes saem das fezes e entram pela boca. Isso acontece por água e alimentos contaminados, por mãos que não foram lavadas e pelo contato direto com uma pessoa doente ou com objetos contaminados.',
+          'Norovírus costuma causar surtos em ambientes fechados, e o rotavírus é o vírus que mais adoece crianças pequenas, segundo a Organização Mundial da Saúde. A diarreia também é um marcador de saneamento: onde falta água tratada, os mesmos micróbios voltam a cada temporada.',
+        ],
+      },
+      {
+        id: 'como-e-diagnosticada',
+        heading: 'Como é diagnosticada?',
+        paragraphs: [
+          'Na maioria dos casos, o diagnóstico é clínico, pela história e pelo exame do estado de hidratação, sem necessidade de exame. O que orienta a conduta não é saber o nome do micróbio, e sim o quanto a pessoa perdeu de água e sais.',
+          'Quando há sangue ou muco nas fezes, desidratação grave ou suspeita de surto, o profissional pode pedir exames de fezes: coprocultura, exame parasitológico e pesquisa de vírus. Nesses casos, a amostra deve ser colhida antes do uso de antibióticos, para não atrapalhar o resultado.',
+          'Nem toda diarreia é infecciosa. Medicamentos, intolerância à lactose, doença celíaca e síndrome do intestino irritável também causam diarreia, e nesses casos não há germe a tratar.',
         ],
       },
       {
         id: 'quando-procurar',
         heading: 'Quando procurar atendimento?',
         paragraphs: [
-          'Na diarreia, o que orienta a decisão não é quantos dias dura, mas como a pessoa está. Vá a um serviço de saúde se aparecer qualquer sinal de desidratação, especialmente em bebê, criança pequena ou pessoa idosa.',
+          'Na diarreia, o que orienta a decisão não é quantos dias dura, mas como a pessoa está. Volte ao serviço de saúde se não houver melhora em dois dias ou se aparecer algum dos sinais abaixo, sobretudo em bebê, criança pequena ou pessoa idosa.',
         ],
         bullets: [
-          'Sangue nas fezes',
-          'Vômito que impede de reter líquidos',
-          'Febre alta mantida',
-          'Boca seca, urina rara, olhos fundos, criança que chora sem lágrimas',
-          'Sonolência excessiva ou recusa de alimentos',
+          'Sangue ou muco nas fezes',
+          'Vômitos repetidos que impedem de reter líquidos',
+          'Muita sede, boca seca, urina rara e escura',
+          'Olhos fundos, moleira afundada em bebês, choro sem lágrimas',
+          'Sonolência excessiva, fraqueza ou recusa de alimentos',
         ],
+        cta: {
+          label: 'Veja os sinais de alerta na diarreia',
+          href: '/artigos/gastroenterite-sinais-de-alerta/',
+        },
       },
       {
         id: 'tratamento',
         heading: 'Como se trata?',
         paragraphs: [
-          'O primeiro passo é repor o que se perdeu: soro de reidratação oral, distribuído gratuitamente pelo SUS, em pequenos goles e com frequência, desde o início da diarreia. A água e os alimentos comuns também contam, mas o soro repõe na medida certa a água e os sais perdidos.',
-          'Nas crianças, a OMS recomenda os sais de reidratação oral e o zinco dispersável, que encurtam o episódio e reduzem o risco de complicações. A amamentação e a alimentação devem continuar.',
-          'Remédios que param a diarreia não devem ser usados por conta própria, especialmente em crianças: eles seguram no intestino justamente os micróbios que o corpo está tentando eliminar.',
-          'O antibiótico ou antiparasitário só tem lugar quando o profissional de saúde identifica a causa bacteriana ou parasitária.',
+          'O tratamento gira em torno de repor o que se perdeu. O soro de reidratação oral, distribuído gratuitamente pelo SUS, é oferecido em pequenos goles e com frequência, desde o primeiro episódio de diarreia. Água e alimentos comuns também contam, mas o soro repõe água e sais na proporção certa.',
+          'Em crianças, a Organização Mundial da Saúde e o Ministério da Saúde recomendam os sais de reidratação oral com zinco por 10 a 14 dias, o que encurta o episódio e reduz o risco de complicações. Manter a alimentação e a amamentação acelera a recuperação.',
+          'Quando a perda é maior, a reidratação pode ser feita na unidade de saúde e, nos casos graves, por via intravenosa. Esse plano de reposição é definido pelo profissional após avaliar o grau de desidratação.',
+          'Medicamentos que param a diarreia e remédios para vômito não devem ser usados por conta própria, sobretudo em crianças: eles seguram no intestino justamente os germes que o corpo tenta eliminar. O antibiótico só tem lugar quando o profissional identifica disenteria, cólera ou outra causa bacteriana ou parasitária específica.',
         ],
+        cta: {
+          label: 'Leia sobre o tratamento e os cuidados em casa',
+          href: '/artigos/gastroenterite-tratamento-e-cuidados/',
+        },
       },
       {
         id: 'prevencao',
         heading: 'Como prevenir?',
         paragraphs: [
-          'Água tratada, saneamento e lavagem das mãos com sabão, antes de comer e depois de usar o banheiro, são a base da prevenção, como destaca a OMS.',
+          'Água tratada, saneamento e lavagem das mãos com sabão, antes de comer e depois de usar o banheiro, são a base da prevenção, como destaca a Organização Mundial da Saúde. Também vale higienizar bem frutas, verduras e utensílios de cozinha e manter a amamentação nos primeiros meses de vida.',
           'Contra o rotavírus, o calendário do SUS oferece a vacina oral em duas doses, aos dois e aos quatro meses de idade. Ela não impede toda diarreia, mas reduz muito as formas graves que levam a criança ao hospital.',
         ],
+        cta: {
+          label: 'Veja como reduzir o risco de novas infecções',
+          href: '/artigos/gastroenterite-prevencao/',
+        },
       },
     ],
     faq: [
@@ -2885,14 +2914,25 @@ export const diseases: Disease[] = [
           'Não. Suspender a alimentação piora o quadro. Ofereça o soro de reidratação oral à parte, em goles frequentes, e mantenha a comida habitual e a amamentação, em pequenas porções ao longo do dia.',
       },
       {
+        question: 'Quanto tempo dura a gastroenterite?',
+        answer:
+          'Na maioria dos casos, alguns dias. Quando a diarreia passa de 14 dias, ela é classificada como persistente e precisa de investigação, porque aí outras causas entram na lista.',
+      },
+      {
         question: 'Antibiótico ajuda na diarreia?',
         answer:
-          'Na maioria dos casos, não. A gastroenterite comum é viral ou se resolve sozinha, e o antibiótico pode até atrapalhar. Ele só se justifica quando o profissional de saúde identifica bactéria ou parasita que exigem tratamento específico.',
+          'Na maioria dos casos, não. A gastroenterite comum é viral ou se resolve sozinha, e o antibiótico pode até atrapalhar. Ele só se justifica quando o profissional de saúde identifica disenteria, cólera ou outro agente que exige tratamento específico.',
       },
     ],
-    relatedArticleSlugs: [],
-    relatedTopicSlugs: [],
-    relatedDiseaseSlugs: ['dengue', 'hepatites-virais'],
+    relatedArticleSlugs: [
+      'gastroenterite-sinais-de-alerta',
+      'gastroenterite-como-se-transmite',
+      'gastroenterite-como-e-diagnosticada',
+      'gastroenterite-tratamento-e-cuidados',
+      'gastroenterite-prevencao',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['dengue', 'hepatites-virais', 'hiv-aids'],
     references: [
       {
         label: 'Doenças diarreicas agudas (DDA)',
@@ -2914,6 +2954,6 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-16',
   },
 ];

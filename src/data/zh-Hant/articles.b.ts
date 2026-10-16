@@ -1713,4 +1713,291 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
     ],
   },
+  'gastroenterite-sinais-de-alerta': {
+    title: '腹瀉：警訊與何時該就醫',
+    excerpt:
+      '多數腹瀉幾天內會自行好轉。但有些訊號代表明顯脫水，需要立即評估。了解該注意什麼。',
+    body: [
+      {
+        id: 'quadro-habitual',
+        heading: '常見的表現',
+        paragraphs: [
+          '腸胃炎通常來得突然，出現腹瀉、絞痛，並常伴隨嘔吐與輕微發燒。多數情況由病毒引起，只要補充足夠水分，幾天內就會自行好轉。',
+          '這類疾病令人擔心的不是持續幾天，而是水分與鹽分的流失。嬰兒、幼兒與長者脫水得更快，需要格外留意。',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: '需要立即評估的訊號',
+        paragraphs: [
+          '有些訊號顯示水分流失已超過身體能自行補回的程度，無法只靠在家喝水解決。',
+        ],
+        bullets: [
+          '糞便帶血或黏液',
+          '反覆嘔吐，無法留住任何液體',
+          '非常口渴、口乾、尿量少且顏色深',
+          '眼窩凹陷、嬰兒囟門凹陷、哭泣時沒有淚水',
+          '過度嗜睡、極度虛弱或拒絕進食',
+          '皮膚捏起後遲遲不回復原狀',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: '什麼情況算急症',
+        paragraphs: [
+          '嚴重脫水屬於急症。如果病人非常嗜睡、無法喝水或呼吸急促，請撥打 SAMU（192），或立刻前往最近的急診，不要在家裡等待。',
+          '對嬰兒與長者，情況可能幾小時內就惡化。巴西衛生部建議這兩個族群以急症方式就醫。',
+        ],
+      },
+      {
+        id: 'prazo',
+        heading: '該回診的時間界線',
+        paragraphs: [
+          '當腹瀉兩天內沒有好轉，或反而加重，即使沒有明顯的危險訊號，也建議回到醫療機構重新評估。',
+          '腹瀉超過 14 天就歸類為持續性腹瀉，需要進一步檢查，因為寄生蟲與不耐症等病因也會列入考慮。',
+        ],
+        ctaLabel: '腸胃炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        label: '急性腹瀉疾病（DDA）',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        label: '腹瀉疾病：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+  'gastroenterite-como-se-transmite': {
+    title: '腸胃炎：如何傳染？',
+    excerpt:
+      '感染經由手、受污染的飲水與食物在人與人之間傳播。了解病原體的路徑，以及如何降低家中的風險。',
+    body: [
+      {
+        id: 'pela-boca',
+        heading: '經由嘴巴，來自糞便',
+        paragraphs: [
+          '腸胃炎的傳播途徑是糞口傳染：病原體從病人的糞便排出，再經由嘴巴進入另一個人體內。最常見的途徑是受污染的飲水與食物。',
+        ],
+      },
+      {
+        id: 'maos-e-objetos',
+        heading: '經由手與物品',
+        paragraphs: [
+          '沒洗過的手會把病原體從糞便帶到食物、器具、檯面與玩具上。碰到這些物品後再把手放到嘴邊，就足以讓感染進入體內。',
+          '換尿布、照顧病人與處理生食時，手會成為病原體的主要傳播途徑。',
+        ],
+      },
+      {
+        id: 'ambientes-fechados',
+        heading: '傳染風險較高的場所',
+        paragraphs: [
+          '托兒所、學校、安養機構與宿營地讓人們近距離聚集，有利於病原體流通，尤其是諾羅病毒。',
+          '未經處理的水、以不安全水源製成的冰塊，以及生食或未煮熟的食品，也會聚集病原體，是許多群聚感染的來源。',
+        ],
+      },
+      {
+        id: 'nao-e-contagioso',
+        heading: '不會傳染的情況',
+        paragraphs: [
+          '並非所有腹瀉都來自感染。藥物、乳糖不耐、乳糜瀉與腸躁症會引起沒有病原體的腹瀉，這種情況不會在人與人之間傳染。',
+        ],
+      },
+      {
+        id: 'reduzir-em-casa',
+        heading: '如何降低家中的傳播',
+        bullets: [
+          '吃東西前，以及上廁所或換尿布後，用肥皂洗手',
+          '清洗並消毒廚房檯面與器具',
+          '徹底清洗蔬果，並將肉類完全煮熟',
+          '把飲用水處理過再喝，可過濾或煮沸',
+          '情況允許時，讓病人使用不同的衛浴與餐具',
+        ],
+        ctaLabel: '腸胃炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        label: '急性腹瀉疾病（DDA）',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        label: '腹瀉疾病：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+  'gastroenterite-como-e-diagnosticada': {
+    title: '腸胃炎：專業人員如何找出病因？',
+    excerpt:
+      '多數情況不需要檢驗，決定治療方向的是脫水程度。只有在出現特定訊號時才會安排糞便檢驗。',
+    body: [
+      {
+        id: 'consulta',
+        heading: '門診時的評估',
+        paragraphs: [
+          '診斷從問診與身體檢查開始。專業人員會詢問症狀何時開始、排便次數、是否帶血或黏液，以及是否接觸過其他病人。',
+          '檢查的核心是脫水程度：口渴、口腔濕潤度、淚水、尿量與皮膚彈性。決定治療方向的是這個狀態，而不是病原體的名字。',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: '什麼時候安排糞便檢驗',
+        paragraphs: [
+          '糞便檢驗用於特定情況：糞便帶血或黏液、嚴重脫水、懷疑霍亂與群聚感染。可安排細菌培養、寄生蟲檢查與病毒檢驗。',
+          '檢體必須在使用抗生素之前採集，以免藥物掩蓋結果。發生群聚感染時，醫療機構會會同當地流行病學監測單位安排採檢。',
+        ],
+      },
+      {
+        id: 'nao-da-em-casa',
+        heading: '為什麼在家無法判斷',
+        paragraphs: [
+          '沒有能判斷腹瀉屬於病毒性或細菌性的居家檢驗，兩者症狀也很相似。決定是否緊急的是危險訊號，而不是盯著糞便看。',
+        ],
+      },
+      {
+        id: 'outras-causas',
+        heading: '腹瀉的其他病因',
+        paragraphs: [
+          '腹瀉也可能來自非感染性病因：使用抗生素、乳糖不耐、乳糜瀉與腸躁症。分辨這些情況會改變治療方向，並避免不必要的抗生素。',
+        ],
+        ctaLabel: '腸胃炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        label: '急性腹瀉疾病（DDA）',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        label: '腹瀉疾病：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+  'gastroenterite-tratamento-e-cuidados': {
+    title: '腹瀉：治療與居家照護',
+    excerpt:
+      '治療從口服補液鹽開始，SUS 免費提供。維持進食並讓兒童補充鋅，可以縮短病程。',
+    body: [
+      {
+        id: 'soro',
+        heading: '補回流失的部分',
+        paragraphs: [
+          '治療的重點是補回流失的水分與鹽分。口服補液鹽可在 SUS 免費取得，應從第一次腹瀉開始就頻繁地小口飲用。',
+          '水、椰子水與清湯也有助於補水，但口服補液鹽能以恰當比例補回電解質。含糖飲料與甜度高的果汁反而可能讓腹瀉更嚴重。',
+        ],
+      },
+      {
+        id: 'alimentacao',
+        heading: '飲食與鋅',
+        paragraphs: [
+          '不需要停止進食。維持平常飲食，改成一天裡少量多餐，能加快康復。兒童仍應持續母乳哺餵。',
+          '對兒童，巴西衛生部建議每天補充一次鋅，持續 10 至 14 天，可縮短病程並降低併發症風險。',
+        ],
+      },
+      {
+        id: 'nao-ajuda',
+        heading: '沒有幫助的做法',
+        paragraphs: [
+          '止瀉藥與止吐藥不應自行服用，兒童尤其如此。這類藥物把身體正試圖排出的病原體留在腸道裡，還可能掩蓋脫水。',
+          '病毒性腸胃炎自行使用抗生素不會加快康復：抗生素對病毒無效，會帶來副作用，還會增加細菌的抗藥性。',
+        ],
+      },
+      {
+        id: 'reavaliacao',
+        heading: '什麼時候回診',
+        paragraphs: [
+          '如果腹瀉兩天內沒有好轉、反而加重，或出現脫水訊號，請回到醫療機構。嬰兒、幼兒與長者就醫的時間界線更短。',
+          '嚴重脫水的訊號，例如極度嗜睡、無法喝水與皮膚遲遲不回復原狀，屬於急症，請立即撥打 SAMU（192）求助。',
+        ],
+        ctaLabel: '腸胃炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        label: '急性腹瀉疾病（DDA）',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rotavirus',
+        label: '輪狀病毒',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        label: '腹瀉疾病：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+  'gastroenterite-prevencao': {
+    title: '如何預防腸胃炎與腹瀉？',
+    excerpt:
+      '自來水、下水道與洗手是預防的基礎。輪狀病毒疫苗則保護兒童免於重症。',
+    body: [
+      {
+        id: 'agua-e-maos',
+        heading: '自來水與乾淨的手',
+        paragraphs: [
+          '多數腸胃炎來自受污染的飲水與食物，以及沒洗過的手。處理飲用水，並在吃東西前與上廁所後用肥皂洗手，可以切斷最主要的傳播途徑。',
+        ],
+        bullets: [
+          '在處理或食用食物前，以及上廁所或換尿布後，用肥皂洗手',
+          '把飲用水處理過再喝，可過濾或煮沸，並存放在乾淨加蓋的容器中',
+          '徹底清洗蔬果與廚房器具',
+          '把肉類、蛋與魚類煮熟，避免生食或未煮熟的食物',
+        ],
+      },
+      {
+        id: 'alimentacao-e-aleitamento',
+        heading: '飲食與母乳哺餵',
+        paragraphs: [
+          '在生命最初幾個月維持母乳哺餵，能提高兒童對腹瀉的抵抗力。避免過早斷奶是巴西衛生部認可的保護措施。',
+        ],
+      },
+      {
+        id: 'vacina',
+        heading: '輪狀病毒疫苗',
+        paragraphs: [
+          '針對幼兒重症腹瀉最主要病因的輪狀病毒，SUS 的疫苗接種行程提供兩劑口服疫苗，分別在兩個月與四個月大時接種。',
+          '疫苗不能預防所有腹瀉，但能大幅減少把孩子送進醫院的重症。',
+        ],
+      },
+      {
+        id: 'o-que-nao-previne',
+        heading: '無法預防的做法',
+        paragraphs: [
+          '對於其他病毒與細菌引起的常見腹瀉，並沒有疫苗，偏方也無法阻止感染。預防依靠安全的飲水、下水道與衛生習慣。',
+        ],
+        ctaLabel: '腸胃炎頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        label: '急性腹瀉疾病（DDA）',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rotavirus',
+        label: '輪狀病毒',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
+        label: '腹瀉疾病：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
 };
