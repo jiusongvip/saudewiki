@@ -6,10 +6,10 @@ import RegionTiles from '../components/RegionTiles.astro';
 import WindowGrid from '../components/WindowGrid.astro';
 import ImageSlot from '../components/ImageSlot.astro';
 import MedicalDisclaimer from '../components/MedicalDisclaimer.astro';
-import { Icon } from 'astro-icon/components';
+import Icon from '../components/Icon.astro';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
-import { fill } from '../lib/i18n';
+import { fill, localeSpecs } from '../lib/i18n';
 import { contentFor, formatDateFor, popularSearches } from '../lib/content';
 import { unitCount } from '../lib/counts';
 import { imageForArticle, imageForDisease } from '../lib/images';
@@ -56,9 +56,62 @@ const rest = diseases.slice(1);
    a full-width stop that already carries its own trailing space, so a literal
    space between them renders as a gap; Latin scripts need the space. */
 const lead = (...parts: string[]) => parts.join(lang === 'zh-Hant' ? '' : ' ');
+
+/*
+ * The home page is the table of contents of the encyclopedia, so it is marked up
+ * as one — a `CollectionPage` carrying the entries it actually shows.
+ *
+ * The date is derived, not typed: it is the newest `updatedAt` across everything
+ * the site publishes, which is the honest answer to "when did this change" for a
+ * page that has no body of its own. `SITE.updated` is not used here because a
+ * hand-kept constant silently goes stale.
+ */
+const newest = [...c.diseases, ...c.articles].reduce(
+  (latest, item) => (item.updatedAt > latest ? item.updatedAt : latest),
+  ''
+);
+
+const listedEntries = [
+  ...diseases.map((item) => ({ name: item.name, path: c.urls.disease(item.slug) })),
+  ...articles.map((item) => ({ name: item.title, path: c.urls.article(item.slug) })),
+];
+
+/* Same rule as the layout's canonical: the page describes the URL it is served
+   from, so the Chinese home page must not claim to be the Portuguese one. */
+const pageUrl = new URL(Astro.url.pathname, SITE.url).href;
+
+const schemaNodes: Record<string, unknown>[] = [
+  {
+    '@type': 'CollectionPage',
+    '@id': `${pageUrl}#page`,
+    url: pageUrl,
+    name: SITE.name,
+    description: t.site.description,
+    inLanguage: localeSpecs[lang].hreflang,
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    author: { '@type': 'Organization', name: t.site.authorTeam },
+    dateModified: newest,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: listedEntries.length,
+      itemListElement: listedEntries.map((entry, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: entry.name,
+        url: new URL(entry.path, SITE.url).href,
+      })),
+    },
+  },
+];
 ---
 
-<BaseLayout lang={lang} title={fill(t.home.title, { site: SITE.name })} description={t.site.description} bleed>
+<BaseLayout
+  lang={lang}
+  title={fill(t.home.title, { site: SITE.name })}
+  description={t.site.description}
+  schemaNodes={schemaNodes}
+  bleed
+>
   <Fragment slot="head">
     <link rel="preload" as="image" href="/img/anatomia-corpo.webp" fetchpriority="high" />
   </Fragment>
