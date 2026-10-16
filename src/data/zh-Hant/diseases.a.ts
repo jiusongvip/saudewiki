@@ -233,11 +233,6 @@ export const zhDiseasesA: Record<string, LocalizedDisease> = {
         label: '登革熱與重症登革熱：事實清單',
         publisher: '世界衛生組織',
       },
-      {
-        url: 'https://portal.fiocruz.br/',
-        label: '登革熱：供專業人員與民眾閱讀的資訊',
-        publisher: 'Fiocruz（奧斯瓦爾多·拉克魯茲基金會）',
-      },
     ],
   },
   chikungunya: {
@@ -438,11 +433,6 @@ export const zhDiseasesA: Record<string, LocalizedDisease> = {
         url: 'https://www.who.int/news-room/fact-sheets/detail/chikungunya',
         label: '屈公病：事實清單',
         publisher: '世界衛生組織',
-      },
-      {
-        url: 'https://portal.fiocruz.br/',
-        label: '蟲媒病毒感染：專業資料',
-        publisher: 'Fiocruz（奧斯瓦爾多·拉克魯茲基金會）',
       },
     ],
   },

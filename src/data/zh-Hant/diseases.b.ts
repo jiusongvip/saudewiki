@@ -1098,7 +1098,6 @@ export const zhDiseasesB: Record<string, LocalizedDisease> = {
   'faringite-e-amigdalite': {
     name: '咽喉炎與扁桃腺炎',
     metaTitle: '咽喉炎與扁桃腺炎：症狀與傳染',
-    metaTitle: '咽喉炎與扁桃腺炎：症狀、傳染與預防',
     aliases: ['喉嚨痛', '扁桃腺炎', '喉嚨發炎'],
     summary: '喉嚨與扁桃腺的感染，多數由病毒引起。幾天內會自行好轉，抗生素只在病因是細菌時才有用。',
     sections: [
@@ -1185,7 +1184,7 @@ export const zhDiseasesB: Record<string, LocalizedDisease> = {
         id: 'o-que-e',
         heading: '什麼是腸胃炎？',
         paragraphs: [
-          '腸胃炎是侵襲胃與腸内壁的感染，表現為腹瀉。世界衛生組織把腹瀉定義為一天內三次以上鬆軟或水樣的糞便。',
+          '腸胃炎是侵襲胃與腸內壁的感染，表現為腹瀉。世界衛生組織把腹瀉定義為一天內三次以上鬆軟或水樣的糞便。',
           '這是全球最常見的傳染病：幾乎每個人一年至少發作一次。多數情況幾天內康復，但在幼兒與長者身上，脫水可能惡化得很快。',
           '根據巴西衛生部，急性腹瀉疾病主要影響五歲以下兒童；在自來水取得受限的地方，腹瀉仍是這個年齡層的主要死因之一。',
         ],
