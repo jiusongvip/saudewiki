@@ -77,8 +77,10 @@ const listedEntries = [
 ];
 
 /* Same rule as the layout's canonical: the page describes the URL it is served
-   from, so the Chinese home page must not claim to be the Portuguese one. */
-const pageUrl = new URL(Astro.url.pathname, SITE.url).href;
+   from, so the Chinese home page must not claim to be the Portuguese one. The
+   root home drops its trailing slash to match the canonical and the sitemap. */
+const pageUrl =
+  Astro.url.pathname === '/' ? SITE.url : new URL(Astro.url.pathname, SITE.url).href;
 
 const schemaNodes: Record<string, unknown>[] = [
   {

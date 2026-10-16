@@ -54,8 +54,19 @@ const {
 const spec = localeSpecs[lang];
 const t = ui[lang];
 
+/**
+ * House URL rule: the default-locale home at the site root carries no trailing
+ * slash, while every other path — the `/zh-Hant/` home included — keeps one.
+ * Applied to the canonical, the hreflang set and og:url so they agree with the
+ * sitemap (see `scripts/fix-sitemap-home.mjs`).
+ */
+const dropRootSlash = (href: string) => {
+  if (!href.startsWith('http')) return href;
+  return new URL(href).pathname === '/' ? href.replace(/\/$/, '') : href;
+};
+
 const pathname = Astro.url.pathname;
-const canonicalUrl = canonical ?? new URL(pathname, Astro.site).href;
+const canonicalUrl = dropRootSlash(canonical ?? new URL(pathname, Astro.site).href);
 const absoluteOgImage = new URL(ogImage, Astro.site).href;
 /**
  * A page kept out of the index should not spend the head on pointing at itself:
@@ -76,7 +87,7 @@ const indexed = !robots?.includes('noindex');
 const neutralPath = rootPath(pathname);
 const alternates = locales.map((code) => ({
   hreflang: localeSpecs[code].hreflang,
-  href: new URL(localizePath(neutralPath, code), Astro.site).href,
+  href: dropRootSlash(new URL(localizePath(neutralPath, code), Astro.site).href),
 }));
 
 const graph: Record<string, unknown>[] = [
@@ -150,7 +161,7 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
           <link
             rel="alternate"
             hreflang="x-default"
-            href={new URL(localizePath(neutralPath, defaultLocale), Astro.site).href}
+            href={dropRootSlash(new URL(localizePath(neutralPath, defaultLocale), Astro.site).href)}
           />
         </>
       )
