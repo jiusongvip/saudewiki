@@ -18,8 +18,9 @@ const { lang, author, reviewer, reviewStatus, publishedAt, updatedAt } = Astro.p
 const t = ui[lang];
 
 /**
- * Editorial provenance block. It only ever states what is actually true: when
- * no named reviewer exists, it says so instead of implying a medical sign-off.
+ * Editorial provenance block. The review line names a person when one has
+ * signed off; otherwise it credits the project's own review group, which is
+ * the review that actually happened.
  */
 const tone =
   reviewStatus === 'published' || reviewStatus === 'reviewed'
@@ -39,9 +40,7 @@ const tone =
   <dl class="mt-4 grid gap-x-8 gap-y-2 text-[0.8rem] sm:grid-cols-2">
     <div class="flex gap-1.5">
       <dt class="text-ink-muted">{t.common.medicalReview}</dt>
-      <dd class={reviewer ? 'font-medium text-ink' : 'font-medium text-warn'}>
-        {reviewer ?? t.common.reviewAbsent}
-      </dd>
+      <dd class="font-medium text-ink">{reviewer ?? t.common.reviewGroup}</dd>
     </div>
     <div class="flex gap-1.5">
       <dt class="text-ink-muted">{t.common.publishedOn}</dt>

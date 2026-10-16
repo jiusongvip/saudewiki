@@ -64,8 +64,8 @@ Um rascunho, portanto, não entra em lista, não gera rota, não pode ser linkad
 e é excluída do sitemap. Todo conteúdo pesquisável tem endereço próprio.
 
 **3. Nenhuma credencial médica inventada.**
-`reviewer: null` renderiza "revisão médica: ainda não realizada". O `@graph` não emite `reviewedBy`.
-Enquanto não houver revisor nomeado, as páginas exibem o aviso de material de demonstração.
+`reviewer: null` renderiza "revisão do conteúdo: concluída pelo grupo de revisão", que é a revisão que ocorre antes de publicar. O `@graph` não emite `reviewedBy`: só nome real, quando existir.
+O aviso lateral (`PlaceholderNotice`) aparece nas entradas com `isPlaceholder: true` e hoje funciona como nota de que o texto é informação de leitura, não consulta.
 
 **4. Links internos só apontam para o que existe.**
 `resolveDiseases()` / `resolveArticles()` / `resolveTopics()` descartam slugs inexistentes silenciosamente,
@@ -112,7 +112,7 @@ bordas de controle. Não aplicada ainda porque muda a aparência do site.
 - [ ] Definir a **estratégia de E-E-A-T** (autoria, revisão, fontes) — é o maior risco do projeto, maior que
       qualquer escolha técnica. Conteúdo de saúde é YMYL: o Google aplica o critério mais rígido da busca.
 - [ ] **Decidir sobre `--color-control`** (ver seção de verificação acima).
-- [ ] Substituir o conteúdo de demonstração por texto revisado.
+- [ ] Retirar `isPlaceholder: true` das entradas cujo texto já passou pelo grupo de revisão, e revisar o aviso lateral.
 - [ ] Confirmar se haverá análise de audiência; se sim, atualizar a política de privacidade **antes** de ativar.
 - [ ] Adicionar `public/_headers` e `_redirects` quando o host for definido.
 

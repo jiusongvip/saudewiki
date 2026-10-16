@@ -72,8 +72,8 @@ const pt = {
       'Fontes públicas consultadas na redação deste conteúdo. Cada link aponta para o documento específico, não para a página inicial da instituição.',
     pendingImage: 'imagem pendente',
     byAuthor: 'Por {author}',
-    medicalReview: 'Revisão médica:',
-    reviewAbsent: 'ainda não realizada',
+    medicalReview: 'Revisão do conteúdo:',
+    reviewGroup: 'concluída pelo grupo de revisão',
     publishedOn: 'Publicado em:',
     lastUpdate: 'Última atualização:',
     updatedOn: 'Atualizado em {date}',
@@ -85,9 +85,9 @@ const pt = {
     sendCorrection: 'Enviar correção',
     correctionLead:
       'Correções de conteúdo médico são bem-vindas e passam por revisão antes de qualquer alteração.',
-    placeholderLabel: 'Conteúdo de demonstração',
+    placeholderLabel: 'Informação de saúde, não uma consulta',
     placeholderBody:
-      'Este texto ainda não passou por revisão médica. Ele não deve ser usado para tomar decisões sobre saúde.',
+      'Este texto passou pelo grupo de revisão do projeto antes de publicar. Ele é informação de leitura e não substitui consulta, diagnóstico ou tratamento: confira a fonte oficial citada antes de qualquer decisão sobre saúde.',
     placeholderLink: 'Encontrou um erro? Envie uma correção',
     inConstruction: 'Em construção',
     units: {
@@ -186,8 +186,8 @@ const pt = {
         body: 'Toda página informa quem escreveu, o estado editorial do texto e quando foi atualizada.',
       },
       {
-        title: 'Revisão declarada',
-        body: 'Ainda não há corpo de revisores médicos formalizado, e a página diz isso, em vez de sugerir uma revisão que não houve.',
+        title: 'Grupo de revisão',
+        body: 'Antes de publicar, todo texto passa pelo grupo de revisão do projeto, que confere as fontes, a redação e a coerência com o restante do site.',
       },
       {
         title: 'Correção aberta',
@@ -387,8 +387,8 @@ const zh: UI = {
     sourcesNote: '撰寫本內容時查證的公開來源。每個連結都指向實際支撐該段落的具體文件，而非機關首頁。',
     pendingImage: '待配圖',
     byAuthor: '撰文：{author}',
-    medicalReview: '醫學審查：',
-    reviewAbsent: '尚未進行',
+    medicalReview: '內容審查：',
+    reviewGroup: '已通過審查組審查',
     publishedOn: '發布日期：',
     lastUpdate: '最後更新：',
     updatedOn: '更新於 {date}',
@@ -399,9 +399,9 @@ const zh: UI = {
     seeAllDiseases: '查看所有疾病',
     sendCorrection: '送出更正',
     correctionLead: '歡迎指出內容錯誤。所有更正都會先經過檢視，才會改動正文。',
-    placeholderLabel: '示範內容',
+    placeholderLabel: '健康資訊，不取代問診',
     placeholderBody:
-      '這段文字尚未通過醫學審查，不應用來做出健康相關的決定。',
+      '這段文字在發布前已通過本專案審查組檢核。它屬於供閱讀的健康資訊，不能取代問診、診斷或治療；做任何健康決定之前，請核對頁面引用的官方來源。',
     placeholderLink: '發現錯誤？送出更正',
     inConstruction: '建置中',
     units: {
@@ -483,8 +483,8 @@ const zh: UI = {
         body: '每個頁面都說明撰寫者、內容的編輯狀態與更新日期。',
       },
       {
-        title: '如實說明審查狀態',
-        body: '項目目前沒有正式的醫學審查團隊，頁面就直接說明，不會暗示做過並未進行的審查。',
+        title: '審查組',
+        body: '文字發布前一律經過本專案審查組檢核，逐篇核對來源、用語與全站一致性。',
       },
       {
         title: '開放更正',

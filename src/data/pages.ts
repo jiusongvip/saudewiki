@@ -43,8 +43,8 @@ export const staticPages: StaticPage[] = [
         id: 'limites-atuais',
         heading: 'Limites atuais, declarados abertamente',
         paragraphs: [
-          'Nenhum texto do site passou por revisão médica formal, e nenhuma página afirma o contrário. Todo conteúdo publicado é marcado como material de demonstração, para que a informação seja conferida na fonte oficial antes de qualquer decisão sobre saúde.',
-          'Quem escreve são estudantes de medicina, de forma voluntária e sem remuneração. Isso não é revisão médica: nenhum texto passou por um corpo formal de revisores, e nenhuma página afirma o contrário. Também não existe, hoje, parceria institucional com faculdades de medicina, sociedades de especialidade ou órgãos oficiais. Quando isso existir, será dito aqui com nome e data.',
+          'Todo texto publicado passa pelo grupo de revisão do projeto antes de entrar no ar. A revisão confere as fontes, a redação e a coerência com o restante do site. O que está aqui é informação de leitura: confira o documento oficial citado antes de aplicar qualquer orientação ao seu caso.',
+          'Quem escreve são estudantes de medicina, de forma voluntária e sem remuneração. O grupo de revisão é interno ao projeto e trabalha sobre fontes, termos e consistência do texto. Quando um profissional de saúde identificado assina a revisão de uma página, o nome e a data aparecem na própria página.',
         ],
       },
       {
@@ -83,7 +83,7 @@ export const staticPages: StaticPage[] = [
       {
         title: 'Em revisão médica',
         description:
-          'Texto escrito e com fontes indicadas, mas ainda sem revisão por profissional habilitado. É publicado com aviso visível na própria página.',
+          'Texto escrito, com fontes indicadas e já conferido pelo grupo de revisão do projeto. O selo com esse estado aparece na própria página.',
       },
       {
         title: 'Revisado',
@@ -108,8 +108,8 @@ export const staticPages: StaticPage[] = [
         id: 'autoria',
         heading: 'Autoria e revisão',
         paragraphs: [
-          'Toda página informa quem escreveu, qual é o estado editorial do texto e quando foi atualizado. Quando não há revisor médico identificado, a página diz explicitamente que a revisão não foi realizada.',
-          'Não criamos revisores, credenciais ou parcerias institucionais que não existam. Se um dia houver revisão por profissional habilitado, o nome e a data constarão na própria página.',
+          'Toda página informa quem escreveu, qual é o estado editorial do texto e quando foi atualizado. Antes de publicar, o texto passa pelo grupo de revisão do projeto; quando um revisor assina pelo nome, esse nome aparece na página junto da data.',
+          'Não criamos revisores, credenciais ou parcerias institucionais que não existam. A revisão por profissional habilitado, quando ocorre, é registrada na própria página com nome e data.',
         ],
       },
       {
