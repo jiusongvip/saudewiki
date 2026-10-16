@@ -5,6 +5,7 @@ import BodyMap from '../components/BodyMap.astro';
 import RegionTiles from '../components/RegionTiles.astro';
 import WindowGrid from '../components/WindowGrid.astro';
 import ImageSlot from '../components/ImageSlot.astro';
+import MedicalDisclaimer from '../components/MedicalDisclaimer.astro';
 import { Icon } from 'astro-icon/components';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
@@ -310,7 +311,23 @@ const lead = (...parts: string[]) => parts.join(lang === 'zh-Hant' ? '' : ' ');
     </div>
   </section>
 
-  <!-- 5. Verification. The last thing a medical site should say about itself is
+  <!-- 5. The medical disclaimer, given its own sheet.
+
+       The reader has just been shown four disease cards and six article cards,
+       so this is the first point on the page where they could believe they have
+       read advice. The caveat belongs here, not only in the footer link.
+
+       It is the same MedicalDisclaimer block the other content pages use, which
+       keeps the wording in ui.common.disclaimer instead of a second copy that
+       could drift. The sheet carries no heading of its own: the block already
+       says what it is, and a heading would only restate its first line. -->
+  <section class="screen screen-col screen-tight">
+    <div class="min-h-0 flex-1">
+      <MedicalDisclaimer lang={lang} />
+    </div>
+  </section>
+
+  <!-- 6. Verification. The last thing a medical site should say about itself is
        where its information comes from, and what it does not yet have. -->
   <section class="screen screen-col screen-tight">
     <div class="min-h-0 flex-1 rounded-2xl bg-deep p-6 md:p-10">
@@ -339,7 +356,7 @@ const lead = (...parts: string[]) => parts.join(lang === 'zh-Hant' ? '' : ' ');
     </div>
   </section>
 
-  <!-- 6. Who writes this, and the open door. The project runs on medical students
+  <!-- 7. Who writes this, and the open door. The project runs on medical students
        who do it for free, so the closing ask is the text that is missing, not a
        newsletter. -->
   <section class="screen screen-col screen-tight pb-6 md:pb-10">

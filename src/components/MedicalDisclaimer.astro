@@ -9,10 +9,14 @@ import type { Locale } from '../types';
  *
  * The wording is not defined here: it is `common.disclaimer`, which disease and
  * article pages already print at the foot of their body. This component exists
- * so the pages that carry NO body disclaimer at all (search, and the listings
- * that organise the site by symptom or by body part) get the same sentence plus
- * the link to `/aviso-medico/`, rather than a second wording that would drift
- * from the first.
+ * so the pages that carry NO body disclaimer at all (search, the home page, and
+ * the listings that organise the site by symptom or by body part) get the same
+ * sentence plus the link to `/aviso-medico/`, rather than a second wording that
+ * would drift from the first.
+ *
+ * The panel's text is capped at `max-w-2xl` while the box itself is not, so the
+ * home page can give it a full-bleed sheet without the sentence running the
+ * whole width of a desktop screen.
  *
  * `panel` is the bordered form, used where the page offers the reader no other
  * medical framing. `inline` is the quiet rule-and-text form, for index pages
@@ -39,7 +43,7 @@ const urls = contentFor(lang).urls;
     <aside class="rounded-xl border border-warn/30 bg-warn-soft p-5" role="note">
       <div class="flex gap-3">
         <Icon name="tabler:stethoscope" class="mt-0.5 h-4 w-4 shrink-0 text-warn" />
-        <div class="text-[0.85rem] leading-relaxed">
+        <div class="max-w-2xl text-[0.85rem] leading-relaxed">
           {lead && <p class="font-semibold text-ink">{lead}</p>}
           <p class:list={['text-ink-muted', lead && 'mt-1']}>{t.common.disclaimer}</p>
           <p class="mt-2">
