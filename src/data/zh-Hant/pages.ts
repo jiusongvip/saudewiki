@@ -16,6 +16,7 @@ export const zhStaticPages: StaticPage[] = [
   {
     slug: 'sobre',
     title: '關於這個專案',
+    metaTitle: '關於這個專案：本站定位與內容如何產出',
     description:
       'Saudewiki 是什麼、它為哪些人而存在、內容如何產出，以及它為自己所設定的邊界。',
     h1: '關於這個專案',
@@ -66,6 +67,7 @@ export const zhStaticPages: StaticPage[] = [
   {
     slug: 'politica-editorial',
     title: '編輯政策',
+    metaTitle: '編輯政策：可採用來源、撰寫審查與勘誤',
     description:
       'Saudewiki 的醫學內容如何撰寫、如何標註來源、如何審查與修正，以及每一個編輯狀態的意義。',
     h1: '編輯政策',
@@ -134,6 +136,7 @@ export const zhStaticPages: StaticPage[] = [
   {
     slug: 'aviso-medico',
     title: '醫療免責聲明',
+    metaTitle: '醫療免責聲明：本站內容不是醫療建議',
     description:
       '這裡的內容不是醫療建議，也不能取代醫師的面對面診療。請了解不該拿本站內容做什麼、用藥為什麼必須遵照醫囑、哪些症狀要立刻就醫、資訊為什麼可能過時，以及本專案在資訊準確性與責任上的界線，並以官方發布的資訊為準。',
     h1: '醫療免責聲明',
@@ -235,6 +238,7 @@ export const zhStaticPages: StaticPage[] = [
   {
     slug: 'politica-de-privacidade',
     title: '隱私政策',
+    metaTitle: '隱私政策：收集哪些資料與資料主體權利',
     description:
       'Saudewiki 收集哪些資料、用途為何，以及依據巴西通用資料保護法（LGPD）該如何請求刪除。',
     h1: '隱私政策',
@@ -282,6 +286,7 @@ export const zhStaticPages: StaticPage[] = [
   {
     slug: 'contato',
     title: '聯絡方式',
+    metaTitle: '聯絡方式：回報錯誤、提出選題與隱私權利',
     description:
       '向 Saudewiki 回報內容錯誤、提出選題建議，或行使您的隱私權利。',
     h1: '聯絡方式',

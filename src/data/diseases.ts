@@ -718,7 +718,7 @@ export const diseases: Disease[] = [
     name: 'Chikungunya',
     aliases: ['febre chikungunya', 'vírus chikungunya', 'dor nas articulações chikungunya'],
     summary:
-      'Infecção viral transmitida pelos mosquitos Aedes aegypti e Aedes albopictus. A marca da doença é a dor nas articulações, que pode persistir por semanas ou meses.',
+      'Infecção viral transmitida pelos mosquitos Aedes aegypti e Aedes albopictus. A marca é a dor nas articulações, que pode durar semanas ou meses.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     sections: [
@@ -1160,7 +1160,7 @@ export const diseases: Disease[] = [
     name: 'Malária',
     aliases: ['paludismo', 'malária grave', 'mosquito-prego'],
     summary:
-      'Doença causada por protozoários do gênero Plasmodium e transmitida pela picada do mosquito Anopheles. Tem tratamento gratuito e cura, mas pode se agravar rápido.',
+      'Causada por protozoários do gênero Plasmodium e transmitida pela picada do mosquito Anopheles. Tem tratamento gratuito e cura, mas pode se agravar rápido.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     sections: [
@@ -1840,7 +1840,7 @@ export const diseases: Disease[] = [
     name: 'Hepatites virais',
     aliases: ['hepatite A', 'hepatite B', 'hepatite C', 'inflamação do fígado'],
     summary:
-      'Inflamações do fígado causadas por vírus diferentes, transmitidos por água e alimentos ou por sangue e fluidos. Costumam ser silenciosas e podem se tornar crônicas.',
+      'Inflamações do fígado por vírus diferentes, transmitidos por água e alimentos ou por sangue e fluidos. Costumam ser silenciosas e podem se tornar crônicas.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     sections: [
@@ -2659,7 +2659,8 @@ export const diseases: Disease[] = [
     id: 'faringite',
     slug: 'faringite-e-amigdalite',
     name: 'Faringite e amigdalite',
-    metaTitle: 'Faringite e amigdalite',
+    // The generic suffix promises prevention; this page has no prevention section.
+    metaTitle: 'Faringite e amigdalite: sintomas e transmissão',
     aliases: ['dor de garganta', 'amigdalite', 'inflamação na garganta'],
     summary:
       'Infecção da garganta e das amígdalas, na maioria das vezes viral. Melhora em poucos dias, e o antibiótico só tem lugar quando a causa é bacteriana.',
@@ -2752,10 +2753,10 @@ export const diseases: Disease[] = [
     id: 'gastroenterite',
     slug: 'gastroenterite',
     name: 'Gastroenterite (diarreia infecciosa)',
-    metaTitle: 'Gastroenterite',
+    metaTitle: 'Gastroenterite: sintomas e prevenção',
     aliases: ['diarreia', 'infecção intestinal', 'gastroenterite viral'],
     summary:
-      'Infecção que inflama o estômago e o intestino, causando diarreia e vômitos. O principal perigo é a desidratação, e o tratamento começa com soro de reidratação oral.',
+      'Infecção que inflama estômago e intestino, causando diarreia e vômitos. O perigo principal é a desidratação, e o tratamento começa com soro de reidratação oral.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     sections: [

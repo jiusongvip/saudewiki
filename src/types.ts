@@ -257,6 +257,12 @@ export interface StaticPage {
   /** Route key, e.g. `sobre`. Never shown. */
   slug: string;
   title: string;
+  /**
+   * `<title>` variant of `title`, following the `metaTitle` convention already
+   * used by diseases and articles: the visible H1 and the breadcrumb keep the
+   * bare name, while the search-result title carries what the page answers.
+   */
+  metaTitle?: string;
   description: string;
   h1: string;
   /** Lead paragraph under the H1. */

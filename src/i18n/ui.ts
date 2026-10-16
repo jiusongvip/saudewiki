@@ -206,7 +206,7 @@ const pt = {
     title: 'Doenças: sintomas, diagnóstico e prevenção',
     h1: 'Doenças',
     description:
-      'Enciclopédia de doenças em português: o que é cada uma, sintomas, transmissão, diagnóstico, tratamento e prevenção, com fontes públicas oficiais e data de revisão.',
+      'Enciclopédia de doenças em português: o que é cada uma, sintomas, transmissão, diagnóstico, tratamento e prevenção, com fontes oficiais e data de revisão.',
     lead: 'Cada página reúne o que é a doença, quais são os sintomas, como ela é transmitida, como é feito o diagnóstico e o que reduz o risco, sempre com a fonte oficial indicada.',
     listAria: 'Lista de doenças',
     listHeading: 'Os verbetes publicados',
@@ -217,7 +217,8 @@ const pt = {
   },
 
   diseasePage: {
-    titleSuffix: 'sintomas, transmissão e prevenção',
+    /** `<title>` for a disease page. The H1 keeps the bare name. */
+    titlePattern: '{name}: sintomas, transmissão e prevenção',
     faq: 'Perguntas frequentes',
     errorOnPage: 'Encontrou um erro nesta página?',
     otherDiseases: 'Outras doenças relacionadas',
@@ -227,7 +228,7 @@ const pt = {
     title: 'Artigos de saúde: sintomas, prevenção e rotina',
     h1: 'Artigos de saúde',
     description:
-      'Artigos curtos em português sobre sintomas, prevenção e cuidados diários: o que reconhecer, o que fazer no tempo certo, e o que muda no dia a dia de uma doença crônica.',
+      'Artigos curtos em português sobre sintomas, prevenção e cuidados diários: o que reconhecer, o que fazer no tempo certo e o que muda no dia a dia.',
     lead: 'Textos curtos que respondem a dúvidas específicas e levam para a página da doença correspondente, onde o assunto é tratado por completo.',
     listAria: 'Lista de artigos',
     listHeading: 'Os artigos publicados',
@@ -248,6 +249,8 @@ const pt = {
 
   topicPage: {
     eyebrow: 'Tema de saúde',
+    /** `<title>` for a theme page. The H1 keeps the bare name. */
+    titlePattern: '{name}: doenças, artigos e fontes',
     emptyBody:
       'Ainda não há textos publicados neste tema. Enquanto isso, procure o assunto nas páginas de doenças e nos artigos de saúde.',
     scope: 'O que este tema cobre',
@@ -286,6 +289,8 @@ const pt = {
   },
 
   regionPage: {
+    /** `<title>` for a region page. The H1 keeps the bare region name. */
+    titlePattern: '{name}: doenças que a atingem',
     emptyBody:
       'Ainda não há textos publicados sobre esta parte do corpo. Escolha outra região do mapa ou veja a lista completa de doenças.',
     emptyInvite: 'Não encontrou o que procurava? Diga ao projeto qual assunto falta.',
@@ -506,14 +511,15 @@ const zh: UI = {
   },
 
   diseasePage: {
-    titleSuffix: '症狀、傳染與預防',
+    /** `<title>` for a disease page. The H1 keeps the bare name. */
+    titlePattern: '{name}：症狀、傳染與預防',
     faq: '常見問題',
     errorOnPage: '在這個頁面發現錯誤了嗎？',
     otherDiseases: '其他相關疾病',
   },
 
   articlesIndex: {
-    title: '健康文章',
+    title: '健康文章：症狀、預防與日常照護',
     h1: '健康文章',
     description: '說明症狀、預防與健康照顧的文章，每篇都連結到對應的疾病頁面。',
     lead: '簡短的文章回答特定的疑問，並帶讀者到對應的疾病頁面，在那裡可以讀到完整的說明。',
@@ -535,6 +541,8 @@ const zh: UI = {
 
   topicPage: {
     eyebrow: '健康主題',
+    /** `<title>` for a theme page. The H1 keeps the bare name. */
+    titlePattern: '{name}：涵蓋的疾病、文章與來源',
     emptyBody:
       '這個主題還沒有已發布的內容。您可以先到疾病頁面與健康文章中查找相關的資訊。',
     scope: '本主題涵蓋的內容',
@@ -544,7 +552,7 @@ const zh: UI = {
   },
 
   regionsIndex: {
-    title: '依身體部位',
+    title: '依身體部位找疾病：各部位已發布的內容',
     h1: '依身體部位探索',
     description: '選擇一個身體部位，看看哪些疾病與文章與它有關：腦、眼、肺、心臟、肝、腎、皮膚、關節與血液。',
     lead: '不是每個人都用病名找資料。這是同一部百科，改按會不舒服的地方來組織：每個部位的第一頁彙集會波及該處的疾病，以及處理這個問題的文章。',
@@ -567,6 +575,8 @@ const zh: UI = {
   },
 
   regionPage: {
+    /** `<title>` for a region page. The H1 keeps the bare region name. */
+    titlePattern: '{name}：會波及此部位的疾病',
     emptyBody:
       '這個身體部位還沒有已發布的內容。您可以在地圖上選另一個部位，或查看完整的疾病清單。',
     emptyInvite: '沒有找到您想看的內容？告訴我們還缺哪個主題。',

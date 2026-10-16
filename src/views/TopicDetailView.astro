@@ -9,7 +9,7 @@ import MedicalDisclaimer from '../components/MedicalDisclaimer.astro';
 import { Icon } from 'astro-icon/components';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
-import { localeSpecs } from '../lib/i18n';
+import { fill, localeSpecs } from '../lib/i18n';
 import { contentFor } from '../lib/content';
 import type { Locale, Topic } from '../types';
 
@@ -64,7 +64,13 @@ if (topicDiseases.length > 0) {
 const groupProse = c.categoryGuide(topic.slug);
 ---
 
-<BaseLayout lang={lang} title={`${topic.title} | ${SITE.name}`} description={topic.description} breadcrumbs={breadcrumbs} schemaNodes={schemaNodes}>
+<BaseLayout
+  lang={lang}
+  title={`${fill(t.topicPage.titlePattern, { name: topic.title })} | ${SITE.name}`}
+  description={topic.description}
+  breadcrumbs={breadcrumbs}
+  schemaNodes={schemaNodes}
+>
   <div class="mx-auto max-w-6xl px-5 pb-16 pt-10">
     <Breadcrumbs lang={lang} items={breadcrumbs} />
 

@@ -16,6 +16,7 @@ export const staticPages: StaticPage[] = [
   {
     slug: 'sobre',
     title: 'Sobre o projeto',
+    metaTitle: 'Sobre o projeto: como o conteúdo é produzido',
     description:
       'O que é o Saudewiki, para quem ele existe, como o conteúdo é produzido e quais são os limites do que ele se propõe a fazer.',
     h1: 'Sobre o projeto',
@@ -66,6 +67,7 @@ export const staticPages: StaticPage[] = [
   {
     slug: 'politica-editorial',
     title: 'Política editorial',
+    metaTitle: 'Política editorial: fontes, autoria e correções',
     description:
       'Como o conteúdo médico do Saudewiki é escrito, referenciado, revisado e corrigido, e o que cada estado editorial significa.',
     h1: 'Política editorial',
@@ -136,6 +138,7 @@ export const staticPages: StaticPage[] = [
   {
     slug: 'aviso-medico',
     title: 'Aviso médico',
+    metaTitle: 'Aviso médico: não é orientação médica',
     description:
       'Nada aqui é orientação médica. Veja o que não fazer com o conteúdo do Saudewiki, quando procurar atendimento e até onde vai a responsabilidade do projeto.',
     h1: 'Aviso médico',
@@ -237,6 +240,7 @@ export const staticPages: StaticPage[] = [
   {
     slug: 'politica-de-privacidade',
     title: 'Política de privacidade',
+    metaTitle: 'Política de privacidade: dados e direitos',
     description:
       'Quais dados o Saudewiki coleta, para que servem e como pedir a eliminação deles, nos termos da LGPD.',
     h1: 'Política de privacidade',
@@ -285,6 +289,7 @@ export const staticPages: StaticPage[] = [
     slug: 'contato',
     mailto: true,
     title: 'Contato',
+    metaTitle: 'Contato: erros, pautas e direitos do titular',
     description:
       'Fale com o Saudewiki para reportar um erro de conteúdo, sugerir uma pauta ou exercer seus direitos de privacidade.',
     h1: 'Contato',

@@ -88,7 +88,9 @@ function localizeDisease(disease: Disease, lang: Locale): Disease {
   return {
     ...disease,
     name: zh.name,
-    metaTitle: zh.metaTitle ?? disease.metaTitle,
+    // Never `?? disease.metaTitle`: a `<title>` written for the Portuguese page
+    // would leak into the Chinese one, which has its own naming rules.
+    metaTitle: zh.metaTitle,
     aliases: zh.aliases ?? disease.aliases,
     summary: zh.summary,
     category: categoryLabel(lang, disease.categorySlug, disease.category),
@@ -111,7 +113,7 @@ function localizeArticle(article: Article, lang: Locale): Article {
   return {
     ...article,
     title: zh.title,
-    metaTitle: zh.metaTitle ?? article.metaTitle,
+    metaTitle: zh.metaTitle,
     excerpt: zh.excerpt,
     category: categoryLabel(lang, article.categorySlug, article.category),
     body: localizeSections(article.body, zh.body),
@@ -153,6 +155,7 @@ function localizePage(page: StaticPage, lang: Locale): StaticPage {
   return {
     ...page,
     title: zh.title,
+    metaTitle: zh.metaTitle,
     description: zh.description,
     h1: zh.h1,
     intro: zh.intro ?? page.intro,

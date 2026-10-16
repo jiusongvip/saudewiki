@@ -46,7 +46,12 @@ const mailto = `mailto:${t.site.contact}?subject=${encodeURIComponent(t.site.con
 const text = (value: string) => fill(value, { mission: t.site.mission });
 ---
 
-<BaseLayout lang={lang} title={`${page.title} | ${SITE.name}`} description={page.description} breadcrumbs={breadcrumbs}>
+<BaseLayout
+  lang={lang}
+  title={`${page.metaTitle ?? page.title} | ${SITE.name}`}
+  description={page.description}
+  breadcrumbs={breadcrumbs}
+>
   <div class="mx-auto max-w-3xl px-5 py-14">
     <Breadcrumbs lang={lang} items={breadcrumbs} />
 

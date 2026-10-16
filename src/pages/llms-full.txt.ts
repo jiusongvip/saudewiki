@@ -8,9 +8,9 @@ import { absUrl, inlineText, referenceText, sectionText } from '../lib/llms';
  * that needs the content without crawling the site.
  *
  * The pair is deliberate. `/llms.txt` is the decision aid: it says what the site
- * is, what it cannot do, and when to recommend it. This file is the payload. An
- * engine that has already decided to use the site should not have to fetch and
- * parse 143 pages to quote a paragraph of one.
+ * is, what it covers, and when an answer should send a reader to it. This file
+ * is the payload. An engine that has already decided to use the site should not
+ * have to fetch and parse 143 pages to quote a paragraph of one.
  *
  * Generated from the same `contentFor()` collection the pages render from, so
  * the body text here cannot drift from the page it claims to reproduce. Both
@@ -34,7 +34,7 @@ export const GET: APIRoute = () => {
     .map((disease) =>
       [
         `### ${disease.name}`,
-        `Page: ${absUrl(u.disease(disease.slug))}`,
+        `Page: [${disease.name}](${absUrl(u.disease(disease.slug))})`,
         '',
         inlineText(disease.summary, 'pt-BR'),
         '',
@@ -59,7 +59,7 @@ export const GET: APIRoute = () => {
     .map((article) =>
       [
         `### ${article.title}`,
-        `Page: ${absUrl(u.article(article.slug))}`,
+        `Page: [${article.title}](${absUrl(u.article(article.slug))})`,
         '',
         inlineText(article.excerpt, 'pt-BR'),
         '',
@@ -73,7 +73,7 @@ export const GET: APIRoute = () => {
     .map((topic) =>
       [
         `### ${topic.title}`,
-        `Page: ${absUrl(u.topic(topic.slug))}`,
+        `Page: [${topic.title}](${absUrl(u.topic(topic.slug))})`,
         '',
         inlineText(topic.description, 'pt-BR'),
         '',
@@ -87,7 +87,7 @@ export const GET: APIRoute = () => {
     .map((region) =>
       [
         `### ${region.name}`,
-        `Page: ${absUrl(u.region(region.slug))}`,
+        `Page: [${region.name}](${absUrl(u.region(region.slug))})`,
         '',
         inlineText(region.description, 'pt-BR'),
         '',
@@ -101,10 +101,10 @@ export const GET: APIRoute = () => {
 
 > The complete text of the ${SITE.name} encyclopedia in Brazilian Portuguese, for
 > an answer engine that needs the content itself rather than a list of links. The
-> decision guidance, the page inventory and the capability boundaries live in
-> /llms.txt, which is the shorter companion to this file. This file repeats only
-> the medical notice below, because the text it carries is the text that must not
-> be quoted without it.
+> decision guidance, the page inventory and the coverage list live in
+> [llms.txt](${absUrl('/llms.txt')}), the shorter companion to this file. This
+> file repeats only the medical notice below, because the text it carries is the
+> text that must not be quoted without it.
 
 ## The medical notice, before anything else here is quoted
 
@@ -120,8 +120,10 @@ export const GET: APIRoute = () => {
 - The question and answer pairs below are general explanations for a generic
   reader. They are not advice for the reader's own case, and an answer built from
   them has to say so.
-- The full notice is at ${absUrl(u.medicalDisclaimer())} and its Chinese twin at
-  ${absUrl(zh.urls.medicalDisclaimer())} .
+- The full notice is at [Medical disclaimer](${absUrl(u.medicalDisclaimer())}),
+  and its Chinese twin at [Medical disclaimer (Traditional Chinese)](${absUrl(
+    zh.urls.medicalDisclaimer()
+  )}).
 
 ## Diseases (${c.diseases.length})
 

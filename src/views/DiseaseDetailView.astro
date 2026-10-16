@@ -13,7 +13,7 @@ import ImageSlot from '../components/ImageSlot.astro';
 import { Icon } from 'astro-icon/components';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
-import { localeSpecs } from '../lib/i18n';
+import { fill, localeSpecs } from '../lib/i18n';
 import { contentFor, localizedHref } from '../lib/content';
 import { imageForDisease } from '../lib/images';
 import type { Disease, Locale } from '../types';
@@ -72,7 +72,7 @@ if (disease.faq && disease.faq.length > 0) {
   });
 }
 
-const title = `${disease.metaTitle ?? `${disease.name}: ${t.diseasePage.titleSuffix}`} | ${SITE.name}`;
+const title = `${disease.metaTitle ?? fill(t.diseasePage.titlePattern, { name: disease.name })} | ${SITE.name}`;
 ---
 
 <BaseLayout lang={lang} title={title} description={disease.summary} breadcrumbs={breadcrumbs} ogType="article" schemaNodes={schemaNodes}>

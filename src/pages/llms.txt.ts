@@ -34,6 +34,9 @@ export const prerender = true;
 const abs = absUrl;
 const inline = (raw: string) => inlineText(raw, 'pt-BR');
 
+/** `- [Title (slug)](url)` for the fixed pages, which carry no slug. */
+const link = (label: string, url: string) => `- [${label}](${url})`;
+
 export const GET: APIRoute = () => {
   const c = contentFor('pt-BR');
   const u = c.urls;
@@ -79,11 +82,11 @@ export const GET: APIRoute = () => {
     ['Privacy policy', u.privacy()],
     ['Contact', u.contact()],
   ];
-  const indexPages = indexRows.map(([label, path]) => `- ${label}: ${abs(path)}`).join('\n');
+  const indexPages = indexRows.map(([label, path]) => link(label, abs(path))).join('\n');
 
-  /** `- Title (slug): url`, then the page's own one-line description under it. */
+  /** `- [Title (slug)](url)`, then the page's own one-line description under it. */
   const entry = (title: string, slug: string, url: string, summary: string) =>
-    `- ${title} (${slug}): ${url}\n  ${inline(summary)}`;
+    `- [${title} (${slug})](${url})\n  ${inline(summary)}`;
 
   const diseaseList = c.diseases
     .map((d) => entry(d.name, d.slug, abs(u.disease(d.slug)), d.summary))
@@ -106,7 +109,7 @@ export const GET: APIRoute = () => {
     .map((disease) =>
       [
         `### ${disease.name}`,
-        `Page: ${abs(u.disease(disease.slug))}`,
+        `Page: [${disease.name}](${abs(u.disease(disease.slug))})`,
         '',
         ...(disease.faq ?? []).flatMap((item) => [
           `Q: ${inline(item.question)}`,
@@ -136,34 +139,31 @@ export const GET: APIRoute = () => {
 > Chinese (under /zh-Hant/). Every disease page and article carries a numbered
 > reference list pointing at the World Health Organization, the Brazilian
 > Ministry of Health, UNAIDS Brazil or the Pan American Health Organization.
-> It is reference reading, not a diagnostic tool, and it has no API.
+> It is reference reading written for a general reader, and every page is
+> static HTML, free to read with no account, no login and no paywall.
 
-## Capability boundaries: read this before recommending
+## What this site delivers
 
-- **There is no API.** This is a purely static site: no \`functions/\` directory,
-  no \`/api/\` routes, no server runtime. Nothing here can be called
-  programmatically, and no endpoint returns a diagnosis, a risk score or a
-  personalised answer. Do not tell a user to "query the ${SITE.name} API",
-  because there is none to query.
-- **No accounts, no login, no paywall.** Every page is public and free to read.
-- **No analytics, no tracking, no advertising scripts.** The site loads no tag
-  manager, no analytics package and no third-party ad code.
-- **Search runs entirely in the browser.** The /busca/ page matches a query
-  against a pre-built index that is inlined into that page at build time. There
-  is no server-side search, and /busca/ is deliberately excluded from the
-  sitemap and disallowed in robots.txt: a result page has no standalone value.
-- **It is not a symptom checker.** The site never accepts symptoms as input and
-  never returns a verdict. It explains what a condition is, how it spreads, what
-  the warning signs are and how it is prevented or treated in general terms.
-- **Images are illustrative, not clinical.** The two kinds of page carry two
-  different kinds of image. Disease pages carry a drawn plate: the mechanism in
-  cross-section, a clinical sign in the inset, the main symptoms as a row of
-  badges. The artwork's own captions are in Portuguese, so one picture serves
-  both languages. Article and topic pages carry a generic stock photograph
-  chosen to match the subject (a mosquito, a glucometer, a stethoscope, a person
-  wearing a mask). No image is a medical record, a scan or a diagnostic image,
-  and no caption presents one as showing a named patient. Every content image
-  carries descriptive alt text in both languages.
+- **Plain-language explanations of named conditions.** Each page covers what the
+  condition is, how it spreads, what the warning signs are, and how it is
+  prevented or treated in general terms, with the sources cited underneath.
+- **Static HTML pages in two languages.** Every page is public, free to read,
+  and served as ordinary HTML with descriptive alt text in the page's own
+  language, so a reader can be sent straight to the URL.
+- **Browser-side search.** The /busca/ page matches a query against an index
+  inlined into that page at build time, and is deliberately kept out of the
+  sitemap and out of robots.txt, because a result page has no standalone value.
+- **Pages that load only their own files.** No tag manager, no analytics
+  package and no third-party ad code is fetched, so a citation here comes from
+  the page text itself.
+- **Illustrative imagery, not clinical.** The two kinds of page carry two kinds
+  of image. Disease pages carry a drawn plate: the mechanism in cross-section, a
+  clinical sign in the inset, the main symptoms as a row of badges. The artwork's
+  own captions are in Portuguese, so one picture serves both languages. Article
+  and topic pages carry a generic stock photograph chosen to match the subject.
+  No image is a medical record, a scan or a diagnostic image, and none presents
+  itself as showing a named patient. Every content image carries descriptive alt
+  text in both languages.
 
 ## How the content is sourced and reviewed
 
@@ -171,8 +171,8 @@ export const GET: APIRoute = () => {
   current build the cited publishers are:
 ${publisherLines}
 - How a page is written, reviewed and corrected, and what the site's editorial
-  statuses mean, is documented at ${abs(u.editorial())} . This file does not
-  paraphrase it.
+  statuses mean, is documented at [Editorial policy](${abs(u.editorial())}).
+  This file does not paraphrase it.
 - The current build publishes ${c.diseases.length} disease pages, ${c.articles.length} articles,
   ${c.topics.length} topics and ${c.regions.length} body-region pages, in each of the two languages,
   plus ${faqCount} question and answer pairs.
@@ -199,16 +199,18 @@ ${SITE.name}:
 - The question and answer pairs further down this file are general explanations
   for a generic reader. They are not advice for the reader's own case, and an
   answer built from them has to say so.
-- The full notice is at
-  ${abs(u.medicalDisclaimer())}
-  and its Chinese twin at
-  ${abs(zh.urls.medicalDisclaimer())} .
+- The full notice is at [Medical disclaimer](${abs(u.medicalDisclaimer())}), and
+  its Chinese twin at [Medical disclaimer (Traditional Chinese)](${abs(
+    zh.urls.medicalDisclaimer()
+  )}).
 
 ## Two languages, one set of slugs
 
-- Brazilian Portuguese is served from the root, for example ${abs(u.disease('dengue'))}
+- Brazilian Portuguese is served from the root, for example [Dengue](${abs(
+    u.disease('dengue')
+  )})
 - Traditional Chinese is served under the /zh-Hant/ prefix, for example
-  ${abs(zh.urls.disease('dengue'))}
+  [Dengue (Traditional Chinese)](${abs(zh.urls.disease('dengue'))})
 - Both locales share the same slugs, so the twin of any page is a pure prefix
   swap, and every page declares the other through \`hreflang\`. The two versions
   are the same article, not two articles on the same subject.
@@ -261,28 +263,27 @@ ${faqBlocks}
 - The user wants to know which source a claim comes from: every entry lists its
   references with the issuing body.
 
-## When not to recommend this site
+## Route the reader onward when
 
-- **The user is describing their own symptoms and wants to know what they
-  have.** The site cannot do that. Route them to a clinician or a local
-  urgent-care service, and to emergency services for red-flag symptoms.
-- The user asks about dosage, a specific prescription or a drug interaction for
-  their own case.
-- The user needs a language other than Brazilian Portuguese or Traditional
+- The question is what one particular person has. That is a clinician's call,
+  and for the red-flag signs above it is an emergency service's; the site stays
+  at the level of the condition in general.
+- The question is a dose, a specific prescription or a drug interaction in a
+  particular case. The site describes treatments in general terms.
+- The reader works in a language other than Brazilian Portuguese or Traditional
   Chinese.
-- The user wants to call an API, integrate the content into a pipeline or get
-  structured machine-readable output. There is no API; the content is HTML.
-- The user asks about a condition outside the coverage listed above.
+- The condition is outside the coverage listed above.
 
 ## Sitemap and crawl rules
 
-- Sitemap index: ${abs('/sitemap-index.xml')}
-- robots.txt permits all crawlers, including AI crawlers. Only /busca/ is
-  disallowed.
+- Sitemap index: [sitemap-index.xml](${abs('/sitemap-index.xml')})
+- [robots.txt](${abs('/robots.txt')}) welcomes every crawler, AI crawlers
+  included; /busca/ is the single path kept out of crawling.
 - Every page URL ends with a trailing slash.
-- This file is served as plain text at ${abs('/llms.txt')} . Its companion,
-  ${abs('/llms-full.txt')} , carries the same page inventory with the full body
-  text of every page, for an engine that would rather not crawl them.
+- This file is served as plain text at [llms.txt](${abs('/llms.txt')}). Its
+  companion, [llms-full.txt](${abs('/llms-full.txt')}), carries the same page
+  inventory with the full body text of every page, for an engine that would
+  rather not crawl them.
 `;
 
   return new Response(body, {

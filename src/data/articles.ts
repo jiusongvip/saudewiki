@@ -252,7 +252,7 @@ export const articles: Article[] = [
     slug: 'diabetes-tipo-2-o-que-muda-no-dia-a-dia',
     title: 'Diabetes tipo 2: o que muda no dia a dia?',
     excerpt:
-      'O diagnóstico de diabetes tipo 2 não significa uma lista de proibições. Significa acompanhamento, ajustes graduais e monitoramento: entenda o que muda de verdade.',
+      'O diagnóstico de diabetes tipo 2 não é uma lista de proibições: é acompanhamento, ajustes graduais e monitoramento. Entenda o que muda de verdade.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     body: [
@@ -392,6 +392,7 @@ export const articles: Article[] = [
     id: 'vacinacao-o-que-e-o-calendario-basico',
     slug: 'vacinacao-o-que-e-o-calendario-basico',
     title: 'Vacinação infantil: o que é o Calendário Nacional de Vacinação?',
+    metaTitle: 'Vacinação infantil: como funciona o calendário',
     excerpt:
       'O calendário de vacinação organiza quais vacinas são recomendadas em cada faixa etária. Entenda como ele funciona e por que o acompanhamento é contínuo.',
     category: 'Saúde infantil',
@@ -476,7 +477,7 @@ export const articles: Article[] = [
     metaTitle: 'Chikungunya: quanto dura a dor articular',
     title: 'Chikungunya: quanto tempo dura a dor nas articulações?',
     excerpt:
-      'A dor articular é a marca da chikungunya e, para parte das pessoas, ela continua depois que a febre passa. Entenda as fases da doença e o que ajuda na recuperação.',
+      'A dor articular é a marca da chikungunya e, para parte das pessoas, continua depois que a febre passa. Entenda as fases da doença e o que ajuda na recuperação.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
@@ -559,7 +560,7 @@ export const articles: Article[] = [
     slug: 'chikungunya-e-dengue-como-diferenciar',
     title: 'Chikungunya e dengue: como diferenciar?',
     excerpt:
-      'As duas doenças são transmitidas pelos mesmos mosquitos e começam com febre alta e dores no corpo. A diferença principal está na dor articular, e isso muda o tratamento.',
+      'Transmitidas pelos mesmos mosquitos, as duas doenças começam com febre alta e dores no corpo. A diferença está na dor articular, e ela muda o tratamento.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
@@ -1208,7 +1209,7 @@ export const articles: Article[] = [
     metaTitle: 'Indetectável: o que isso significa',
     title: 'Indetectável igual a intransmissível: o que isso significa?',
     excerpt:
-      'Quando o tratamento do HIV está em dia e a carga viral fica indetectável, o vírus não é transmitido por via sexual. Entenda o que essa frase significa na prática.',
+      'Com o tratamento do HIV em dia e a carga viral indetectável, o vírus não é transmitido por via sexual. Entenda o que essa frase significa na prática.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
@@ -1373,7 +1374,7 @@ export const articles: Article[] = [
     slug: 'hepatite-c-tem-cura',
     title: 'Hepatite C tem cura: o que muda no tratamento',
     excerpt:
-      'A hepatite C deixou de ser uma doença sem tratamento. Com os antivirais de ação direta, a maioria das pessoas se cura, e o tratamento está disponível gratuitamente.',
+      'A hepatite C deixou de ser uma doença sem tratamento. Com os antivirais de ação direta, a maioria das pessoas se cura, e o tratamento é gratuito.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [

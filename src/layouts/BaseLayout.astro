@@ -3,6 +3,11 @@ import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { SITE } from '../data/site';
+// The two weights that paint above the fold: 400 for body text, 600 for every
+// `.display` heading. Imported as URLs so Vite resolves the same hashed asset
+// the stylesheet references, which lets the preload actually be reused.
+import fontBody from '@fontsource/open-sauce-one/files/open-sauce-one-latin-400-normal.woff2?url';
+import fontHeading from '@fontsource/open-sauce-one/files/open-sauce-one-latin-600-normal.woff2?url';
 import { ui } from '../i18n/ui';
 import { localeSpecs, locales, localizePath, rootPath, defaultLocale } from '../lib/i18n';
 import type { Locale } from '../types';
@@ -51,6 +56,12 @@ const t = ui[lang];
 const pathname = Astro.url.pathname;
 const canonicalUrl = canonical ?? new URL(pathname, Astro.site).href;
 const absoluteOgImage = new URL(ogImage, Astro.site).href;
+/**
+ * A page kept out of the index should not spend the head on pointing at itself:
+ * a canonical and an hreflang set on a `noindex` document is noise Google has to
+ * reconcile. Derived from `robots` so the two can never disagree.
+ */
+const indexed = !robots?.includes('noindex');
 
 /**
  * hreflang alternates.
@@ -110,20 +121,38 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0a0a0a" />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href={fontBody}
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href={fontHeading}
+      crossorigin="anonymous"
+    />
     {robots && <meta name="robots" content={robots} />}
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonicalUrl} />
     {
-      alternates.map((alternate) => (
-        <link rel="alternate" hreflang={alternate.hreflang} href={alternate.href} />
-      ))
+      indexed && (
+        <>
+          <link rel="canonical" href={canonicalUrl} />
+          {alternates.map((alternate) => (
+            <link rel="alternate" hreflang={alternate.hreflang} href={alternate.href} />
+          ))}
+          <link
+            rel="alternate"
+            hreflang="x-default"
+            href={new URL(localizePath(neutralPath, defaultLocale), Astro.site).href}
+          />
+        </>
+      )
     }
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href={new URL(localizePath(neutralPath, defaultLocale), Astro.site).href}
-    />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />

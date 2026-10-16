@@ -1097,6 +1097,8 @@ export const zhDiseasesB: Record<string, LocalizedDisease> = {
   },
   'faringite-e-amigdalite': {
     name: '咽喉炎與扁桃腺炎',
+    metaTitle: '咽喉炎與扁桃腺炎：症狀與傳染',
+    metaTitle: '咽喉炎與扁桃腺炎：症狀、傳染與預防',
     aliases: ['喉嚨痛', '扁桃腺炎', '喉嚨發炎'],
     summary: '喉嚨與扁桃腺的感染，多數由病毒引起。幾天內會自行好轉，抗生素只在病因是細菌時才有用。',
     sections: [
@@ -1175,7 +1177,7 @@ export const zhDiseasesB: Record<string, LocalizedDisease> = {
   gastroenterite: {
     name: '腸胃炎（感染性腹瀉）',
     aliases: ['腹瀉', '腸道感染', '病毒性腸胃炎'],
-    metaTitle: '腸胃炎',
+    metaTitle: '腸胃炎：症狀與預防',
     summary:
       '使胃與腸發炎的感染，引起腹瀉與嘔吐。最大的危險是脫水，治療要從口服補液鹽開始。',
     sections: [

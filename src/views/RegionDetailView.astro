@@ -66,7 +66,13 @@ if (diseases.length > 0) {
 }
 ---
 
-<BaseLayout lang={lang} title={`${region.name} | ${SITE.name}`} description={metaDescription} breadcrumbs={breadcrumbs} schemaNodes={schemaNodes}>
+<BaseLayout
+  lang={lang}
+  title={`${fill(t.regionPage.titlePattern, { name: region.name })} | ${SITE.name}`}
+  description={metaDescription}
+  breadcrumbs={breadcrumbs}
+  schemaNodes={schemaNodes}
+>
   <div class="mx-auto max-w-6xl px-5 pt-10">
     <Breadcrumbs lang={lang} items={breadcrumbs} />
   </div>
