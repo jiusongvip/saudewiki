@@ -9,11 +9,13 @@ import ArticleCard from '../components/ArticleCard.astro';
 import DiseaseCard from '../components/DiseaseCard.astro';
 import TopicCard from '../components/TopicCard.astro';
 import InlineText from '../components/InlineText.astro';
+import ImageSlot from '../components/ImageSlot.astro';
 import { Icon } from 'astro-icon/components';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
 import { localeSpecs } from '../lib/i18n';
 import { contentFor, localizedHref } from '../lib/content';
+import { imageForDisease } from '../lib/images';
 import type { Disease, Locale } from '../types';
 
 interface Props {
@@ -37,6 +39,10 @@ const breadcrumbs = [
 ];
 
 const tocItems = disease.sections.map((section) => ({ id: section.id, heading: section.heading }));
+/* The plate belongs to the opening "what is it" section, which every disease
+   record lists first; it is lazy so it cannot become the largest contentful
+   paint on a page whose header already carries the title and the summary. */
+const plate = imageForDisease(disease.slug, lang);
 const pageId = `${SITE.url}${c.urls.disease(disease.slug)}`;
 
 const schemaNodes: Record<string, unknown>[] = [
@@ -102,9 +108,21 @@ const title = `${disease.metaTitle ?? `${disease.name}: ${t.diseasePage.titleSuf
 
         <div class="prose-editorial mt-10 max-w-2xl">
           {
-            disease.sections.map((section) => (
+            disease.sections.map((section, index) => (
               <section>
                 <h2 id={section.id}>{section.heading}</h2>
+                {
+                  index === 0 &&
+                  plate && (
+                    <ImageSlot
+                      lang={lang}
+                      src={plate.src}
+                      alt={plate.alt}
+                      ratio="4 / 3"
+                      class="my-6 rounded-xl border border-line"
+                    />
+                  )
+                }
                 {/*
                   The treatment section is the one part of the page a reader can
                   act on without a prescription, so the warning about medication
