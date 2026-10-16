@@ -1225,4 +1225,221 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
     ],
   },
+
+  'infarto-e-avc-fatores-de-risco': {
+    metaTitle: '心肌梗塞與腦卒中：風險因子',
+    title: '心肌梗塞與腦卒中：有哪些風險因子',
+    excerpt: '高血壓、糖尿病、膽固醇過高、吸菸與久坐不動，是多數病例背後的原因。其中大部分風險因子都可以控制。',
+    body: [
+      {
+        id: 'fatores-comuns',
+        heading: '心肌梗塞與腦卒中的共同點',
+        paragraphs: [
+          '兩者都發生在一條動脈被阻塞、部分組織得不到氧氣的時候。因此，長年損害血管的各種因子，會同時提高心肌梗塞與腦卒中的風險。',
+          '多數病例背後是動脈粥狀硬化：脂肪斑塊堆積在動脈壁上，一旦破裂就會形成血栓，中斷血流。',
+        ],
+      },
+      {
+        id: 'hipertensao',
+        heading: '高血壓',
+        paragraphs: [
+          '[高血壓](/doencas/hipertensao/) 是腦卒中的首要風險因子，也是心肌梗塞的主要風險因子之一。血壓過高會磨損動脈壁，同時提高血管阻塞與腦部血管破裂的機率。',
+          '控制血壓靠的是長期追蹤：量血壓、每天按時服藥，必要時調整劑量。因為血壓改善就自行停藥，是血壓再度升高最常見的原因之一。',
+        ],
+        bullets: [
+          '在家中或衛生單位定期量測血壓',
+          '按醫囑時間服藥，不要自行中斷',
+          '減少飲食中的鹽分，避免超加工食品',
+          '把量到的數值記錄下來，回診時帶給醫師',
+        ],
+      },
+      {
+        id: 'outros-fatores',
+        heading: '其他重要的風險因子',
+        paragraphs: [
+          '糖尿病與膽固醇過高、吸菸、體重過重、久坐不動、飲酒過量、高齡與家族史，都在這份清單上。糖尿病與高血壓同時存在時影響更大：在這種情況下，發生心肌梗塞的機率是其他人的二到四倍。',
+        ],
+        bullets: [
+          '糖尿病者把血糖控制在目標範圍',
+          '膽固醇過高者依照醫師指示接受治療',
+          '戒菸',
+          '維持適當體重，並減少鹽分與油脂',
+          '規律進行體能活動',
+          '減少飲酒，不要使用非法藥物',
+          '治療心房顫動，以免形成跑到腦部的血栓',
+        ],
+      },
+      {
+        id: 'o-que-muda',
+        heading: '哪些是可以改變的',
+        paragraphs: [
+          '年齡、家族史與性別無法改變，但大部分的風險取決於可以治療與追蹤的因子。有高血壓、糖尿病或膽固醇過高的人，只要持續治療，就能明顯降低發作的機率。',
+          '辨識徵兆也是一種預防：及早到達醫療現場，才能接受可避免後遺症的治療。',
+        ],
+        ctaLabel: '心肌梗塞與腦卒中頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        label: '心肌梗塞：症狀、風險因子與就醫',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+        label: '腦卒中：類型、徵兆、治療與復健',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+        label: '心血管疾病：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+
+  'infarto-e-avc-como-e-diagnosticado': {
+    metaTitle: '心肌梗塞與腦卒中：如何診斷',
+    title: '心肌梗塞與腦卒中：如何診斷',
+    excerpt: '心肌梗塞靠心電圖與心肌旋轉蛋白確認心臟受損；腦卒中靠腦部電腦斷層分辨是阻塞還是出血。',
+    body: [
+      {
+        id: 'na-urgencia',
+        heading: '診斷在急診現場完成',
+        paragraphs: [
+          '兩者的診斷都在急診的處置過程中完成，而不是事後在門診慢慢檢查。目標是確認事件類型，並盡快開始治療。',
+          '因此，出現症狀時的第一步是呼救，而不是自行找地方做檢查。',
+        ],
+      },
+      {
+        id: 'infarto',
+        heading: '心肌梗塞如何確認',
+        paragraphs: [
+          '患者一到院就會接受評估：生命徵象、臨床檢查，以及能顯示冠狀動脈阻塞典型變化的心電圖。',
+          '血液檢查測的是心肌旋轉蛋白，這是心肌受損時出現的蛋白。有些情況需要重複心電圖與檢驗，才能確認或排除心肌梗塞。',
+        ],
+        bullets: [
+          '一抵達就做的心電圖',
+          '血液中的心肌旋轉蛋白檢驗',
+          '需要從血管內部觀察冠狀動脈時的心導管檢查',
+        ],
+      },
+      {
+        id: 'avc',
+        heading: '腦卒中如何確認',
+        paragraphs: [
+          '腦部電腦斷層是初步評估最常用的影像檢查。它能區分由阻塞造成的缺血性腦卒中與由血管破裂造成的出血性腦卒中，而這個差別決定了治療方式。',
+          '影像檢查之外，醫療團隊也會確認血壓、血糖，以及症狀開始的準確時間。最後這項資訊，決定了是否還來得及進行血栓溶解治療。',
+        ],
+        bullets: ['腦部電腦斷層', '血壓與血糖', '症狀開始時間的記錄'],
+      },
+      {
+        id: 'acompanhamento',
+        heading: '追蹤檢查',
+        paragraphs: [
+          '有風險因子的人會定期追蹤血壓、血糖、膽固醇與其他指標。心肌梗塞或腦卒中之後的追蹤，則包括重新評估治療，以及找出病因的檢查，例如心房顫動。',
+        ],
+      },
+      {
+        id: 'o-que-nao-esperar',
+        heading: '不能等待的情況',
+        bullets: [
+          '胸痛、呼吸困難、冷汗或突然昏厥',
+          '身體一側無力、說話改變或突然喪失視力',
+          '突發且極其劇烈的頭痛',
+          '意識混亂或平衡感改變',
+        ],
+        ctaLabel: '心肌梗塞與腦卒中頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+        label: '腦卒中：類型、徵兆、治療與復健',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        label: '心肌梗塞：症狀、風險因子與就醫',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+        label: '心血管疾病：事實摘要',
+        publisher: '世界衛生組織',
+      },
+    ],
+  },
+
+  'infarto-e-avc-tratamento-e-reabilitacao': {
+    metaTitle: '心肌梗塞與腦卒中：治療與復健',
+    title: '心肌梗塞與腦卒中：治療與復健',
+    excerpt: '盡快恢復血流是治療的核心。事件之後，復健與持續追蹤決定了恢復的程度。',
+    body: [
+      {
+        id: 'primeiras-horas',
+        heading: '治療從最初幾個小時開始',
+        paragraphs: [
+          '兩種情況的治療目標，都是在更多組織壞死之前恢復血流。這就是為什麼從症狀開始到就醫之間的間隔，會改變結果。',
+          '照護依循 SUS 的準則。心肌梗塞方面，急性心肌梗塞照護流程從 SAMU 192 開始，由它完成初步處置並通知轉介醫院。',
+        ],
+      },
+      {
+        id: 'avc-isquemico',
+        heading: '缺血性腦卒中',
+        paragraphs: [
+          '治療在急診照護中心進行。能溶解血栓的靜脈血栓溶解治療，若能在症狀開始後四小時半內展開，就可以列入考慮。',
+          '出血性腦卒中則以控制血壓與出血為重點，依情況可能需要手術或血管內處置。',
+        ],
+      },
+      {
+        id: 'infarto',
+        heading: '心肌梗塞',
+        paragraphs: [
+          '首選處置是緊急心導管介入治療，也就是用導管從血管內部打通動脈，通常會置入支架。若無法在所需時間內進行，就改用溶解血栓的血栓溶解劑。',
+          '2026 年 9 月，巴西一項法律擴大了 SUS 急診與緊急照護網絡（包括 UPA）血栓溶解劑的供應，讓治療可以在更接近患者所在之處開始。',
+        ],
+      },
+      {
+        id: 'reabilitacao',
+        heading: '事件之後的復健',
+        paragraphs: [
+          '恢復不會在出院時結束。腦卒中方面，及早開始的物理治療與語言治療，對動作與語言有明顯幫助，復健可在專科復健中心（CER）進行。',
+          '心肌梗塞方面，出院後的追蹤包括調整藥物，以及依醫療團隊的指示逐步恢復活動。',
+        ],
+        bullets: ['物理治療，協助恢復動作', '語言治療，協助說話與吞嚥', '逐步恢復日常活動', '在回診時調整藥物'],
+      },
+      {
+        id: 'nao-interromper',
+        heading: '支撐恢復的關鍵',
+        paragraphs: [
+          '心肌梗塞或腦卒中之後，每天按時服藥並維持追蹤，才能降低再次發作的風險。',
+        ],
+        bullets: [
+          '按醫囑時間服藥，不要自行中斷',
+          '把血壓、血糖與膽固醇控制在目標範圍',
+          '不吸菸、減少飲酒，並依指示維持體能活動',
+          '按時回診追蹤',
+        ],
+        ctaLabel: '心肌梗塞與腦卒中頁面請見這裡',
+      },
+    ],
+    references: [
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        label: '心肌梗塞：症狀、風險因子與就醫',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+        label: '腦卒中：類型、徵兆、治療與復健',
+        publisher: '巴西衛生部',
+      },
+      {
+        url: 'https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/sancionada-lei-que-preve-oferta-de-tromboliticos-para-tratamento-de-infarto-e-avc-na-rede-de-urgencia-e-emergencia-do-sus',
+        label: 'SUS 擴大心肌梗塞與腦卒中的血栓溶解劑供應',
+        publisher: '巴西衛生部',
+      },
+    ],
+  },
 };

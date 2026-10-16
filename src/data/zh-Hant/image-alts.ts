@@ -58,6 +58,9 @@ export const zhImageAlts: Record<string, string> = {
   'dpoc-como-prevenir-crises-e-o-papel-das-vacinas': '醫護人員為患者手臂注射疫苗',
   'infarto-quais-sao-os-sinais-e-o-que-fazer': '印在心電圖紙上的波形',
   'avc-como-reconhecer-os-sinais-e-agir-rapido': '白色檯面上的聽診器',
+  'infarto-e-avc-fatores-de-risco': '在戶外跑步的女子',
+  'infarto-e-avc-como-e-diagnosticado': '淺色房間裡附滑動床的醫學影像設備',
+  'infarto-e-avc-tratamento-e-reabilitacao': '在復健室握著平行桿的人，旁邊站著穿白袍的醫護人員，牆上有木製肋木與插畫',
 
   'doencas-infecciosas': '戴口罩與防護鏡的醫療專業人員',
   prevencao: '在水龍頭下用泡沫洗手的雙手',

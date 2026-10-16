@@ -94,6 +94,7 @@ export const topics: Topic[] = [
       'hipertensao-como-medir-a-pressao-em-casa',
       'asma-como-evitar-crises',
       'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
+      'infarto-e-avc-fatores-de-risco',
     ],
     references: [
       {
@@ -138,6 +139,9 @@ export const topics: Topic[] = [
       'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
       'infarto-quais-sao-os-sinais-e-o-que-fazer',
       'avc-como-reconhecer-os-sinais-e-agir-rapido',
+      'infarto-e-avc-fatores-de-risco',
+      'infarto-e-avc-como-e-diagnosticado',
+      'infarto-e-avc-tratamento-e-reabilitacao',
     ],
     references: [
       {

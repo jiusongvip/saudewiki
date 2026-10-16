@@ -115,6 +115,23 @@
 | `O nome da doença está relacionado à...`（元解释式铺垫） | 直接写表现，如 `Nas formas graves, a febre amarela pode causar icterícia, que deixa...` |
 | `de 20% a 50% dos casos graves levam ao óbito`（同句重复 graves） | `entre 20% e 50% dos pacientes podem morrer` |
 | 免责声明省略冠词，如 `substitui consulta médica, exame físico nem orientação` | `substitui uma consulta médica, um exame físico nem a orientação individual` |
+| `têm a mesma lógica`（用于解释发病机制） | `têm o mesmo mecanismo` |
+| `é uma das causas mais comuns de descompensação`（术语化，患者不易懂） | `é uma das causas mais comuns de a pressão voltar a subir` |
+| `Diabéticos e hipertensos têm ... mais chance`（把患者写成标签式名词，且同句重复 `ter`） | `Diabetes e hipertensão aumentam ... o risco de` |
+| `merece atenção à parte` | `merece atenção especial` |
+| `atingir um lado do corpo apenas`（状语后置生硬） | `atingir apenas um lado do corpo` |
+| `Nada disso deve atrasar a chamada por ajuda`（`chamada por ajuda` 不自然） | `Nada disso deve atrasar o pedido de ajuda` |
+| `aumentam o risco dos dois ao mesmo tempo`（`dos dois` 指代含糊） | `aumentam ao mesmo tempo o risco de infarto e de AVC` |
+| `confirmar o quadro`（万能用词 `quadro`） | `confirmar ou afastar o infarto` |
+| `o trombolítico entra quando...`（口语化动词 `entrar`） | `o trombolítico é usado quando...` |
+| `Chame ajuda ... , ou pelos bombeiros, no 193, ou leve a pessoa...`（三项并列结构断裂） | 拆句：`Chame ajuda ... ou pelo Corpo de Bombeiros, no 193. Se não for possível, leve a pessoa...` |
+| `Chame ajuda em vez de dirigir você mesmo`（主语与动作错位） | `Peça a alguém por perto que chame ajuda` |
+| `Comparecer às consultas de acompanhamento`（行政腔） | `Voltar às consultas de acompanhamento` |
+| `Manter alimentação saudável`（冠词省略） | `Manter uma alimentação saudável` |
+| `Pressão alta tem relação com AVC?`（冠词省略） | `Pressão alta tem relação com o AVC?` |
+| FAQ 用 `O quanto antes.` 作开头（残句） | `Procure ajuda o mais rápido possível.` |
+| `Como não é possível diferenciar sozinho em casa`（`diferenciar` 缺宾语） | `Como não dá para saber em casa qual é a causa` |
+| `o AVC é tratado nos ... e o infarto segue a ...`（被动与主动并列，机构名无解释） | 补同位语并统一句式：`o AVC é tratado nos Centros de Atendimento de Urgência, os hospitais de referência para esses casos, e o infarto segue a ...` |
 
 补充规则：
 

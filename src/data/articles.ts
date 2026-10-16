@@ -2034,7 +2034,13 @@ export const articles: Article[] = [
     ],
     diseaseSlugs: ['infarto-e-avc', 'hipertensao'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
-    relatedArticleSlugs: ['avc-como-reconhecer-os-sinais-e-agir-rapido', 'hipertensao-como-medir-a-pressao-em-casa'],
+    relatedArticleSlugs: [
+      'avc-como-reconhecer-os-sinais-e-agir-rapido',
+      'hipertensao-como-medir-a-pressao-em-casa',
+      'infarto-e-avc-fatores-de-risco',
+      'infarto-e-avc-como-e-diagnosticado',
+      'infarto-e-avc-tratamento-e-reabilitacao',
+    ],
     references: [
       {
         label: 'Doenças cardiovasculares: prevenção e cuidados',
@@ -2051,7 +2057,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-16',
     isPlaceholder: true,
   },
   {
@@ -2119,7 +2125,13 @@ export const articles: Article[] = [
     ],
     diseaseSlugs: ['infarto-e-avc', 'hipertensao'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
-    relatedArticleSlugs: ['infarto-quais-sao-os-sinais-e-o-que-fazer', 'hipertensao-como-medir-a-pressao-em-casa'],
+    relatedArticleSlugs: [
+      'infarto-quais-sao-os-sinais-e-o-que-fazer',
+      'hipertensao-como-medir-a-pressao-em-casa',
+      'infarto-e-avc-fatores-de-risco',
+      'infarto-e-avc-como-e-diagnosticado',
+      'infarto-e-avc-tratamento-e-reabilitacao',
+    ],
     references: [
       {
         label: 'Doenças cardiovasculares: prevenção e cuidados',
@@ -2136,7 +2148,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-16',
     isPlaceholder: true,
   },
   {
@@ -2475,6 +2487,295 @@ export const articles: Article[] = [
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
     updatedAt: '2026-10-15',
+    isPlaceholder: true,
+  },
+  {
+    id: 'infarto-e-avc-fatores-de-risco',
+    slug: 'infarto-e-avc-fatores-de-risco',
+    metaTitle: 'Infarto e AVC: fatores de risco',
+    title: 'Infarto e AVC: quais são os fatores de risco',
+    excerpt:
+      'Hipertensão, diabetes, colesterol alto, tabagismo e sedentarismo estão por trás da maior parte dos casos. Boa parte desses fatores pode ser controlada.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'fatores-comuns',
+        heading: 'O que infarto e AVC têm em comum',
+        paragraphs: [
+          'Os dois eventos acontecem quando uma artéria é obstruída e uma parte do tecido fica sem oxigênio. Por isso, os fatores que danificam os vasos sanguíneos ao longo dos anos aumentam ao mesmo tempo o risco de infarto e de AVC.',
+          'A aterosclerose está por trás da maior parte dos casos: placas de gordura se acumulam na parede das artérias e podem se romper, formando um coágulo que interrompe o fluxo de sangue.',
+        ],
+      },
+      {
+        id: 'hipertensao',
+        heading: 'Pressão alta',
+        paragraphs: [
+          'A [hipertensão](/doencas/hipertensao/) é o principal fator de risco para o AVC e um dos principais para o infarto. A pressão alta desgasta a parede das artérias e aumenta a chance tanto de obstrução quanto de rompimento de vasos no cérebro.',
+          'O controle depende de acompanhamento contínuo: medir a pressão, tomar a medicação todos os dias e ajustar a dose quando necessário. Interromper o remédio por conta própria porque a pressão melhorou é uma das causas mais comuns de a pressão voltar a subir.',
+        ],
+        bullets: [
+          'Medir a pressão em casa ou na unidade de saúde com regularidade',
+          'Tomar a medicação nos horários prescritos, sem interromper',
+          'Reduzir o sal da comida e evitar ultraprocessados',
+          'Levar as medidas anotadas para as consultas',
+        ],
+      },
+      {
+        id: 'outros-fatores',
+        heading: 'Outros fatores que pesam',
+        paragraphs: [
+          'Diabetes e colesterol alto, tabagismo, excesso de peso, sedentarismo, álcool em excesso, idade avançada e histórico familiar completam a lista. Diabetes e hipertensão juntos pesam bastante: nessas duas condições, a chance de infarto é de duas a quatro vezes maior.',
+        ],
+        bullets: [
+          'Manter a glicose sob controle, no caso do diabetes',
+          'Seguir o tratamento indicado para o colesterol alto',
+          'Parar de fumar',
+          'Manter o peso adequado e uma alimentação com menos sal e gordura',
+          'Praticar atividade física regularmente',
+          'Reduzir o consumo de álcool e não usar drogas ilícitas',
+          'Tratar a fibrilação atrial, que pode formar coágulos que chegam ao cérebro',
+        ],
+      },
+      {
+        id: 'o-que-muda',
+        heading: 'O que dá para mudar',
+        paragraphs: [
+          'Idade, histórico familiar e sexo não podem ser mudados, mas a maior parte do risco depende de fatores que podem ser tratados e acompanhados. Quem tem pressão alta, diabetes ou colesterol alto e mantém o tratamento em dia reduz bastante a chance de um evento.',
+          'Reconhecer os sinais também é prevenção: chegar rápido ao atendimento é o que permite o tratamento que evita sequelas.',
+        ],
+        cta: {
+          label: 'Veja a página sobre infarto e AVC',
+          href: '/doencas/infarto-e-avc/',
+        },
+      },
+    ],
+    diseaseSlugs: ['infarto-e-avc', 'hipertensao'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'infarto-quais-sao-os-sinais-e-o-que-fazer',
+      'avc-como-reconhecer-os-sinais-e-agir-rapido',
+      'infarto-e-avc-como-e-diagnosticado',
+      'infarto-e-avc-tratamento-e-reabilitacao',
+    ],
+    references: [
+      {
+        label: 'Infarto: sintomas, fatores de risco e atendimento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'AVC: tipos, sinais, tratamento e reabilitação',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Cardiovascular diseases: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'infarto-e-avc-como-e-diagnosticado',
+    slug: 'infarto-e-avc-como-e-diagnosticado',
+    metaTitle: 'Infarto e AVC: como é o diagnóstico',
+    title: 'Infarto e AVC: como é feito o diagnóstico',
+    excerpt:
+      'No infarto, o eletrocardiograma e a troponina confirmam a lesão do coração. No AVC, a tomografia de crânio mostra se a causa é obstrução ou sangramento.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'na-urgencia',
+        heading: 'O diagnóstico acontece na urgência',
+        paragraphs: [
+          'Nos dois casos o diagnóstico é feito durante o atendimento de urgência, e não em consultas eletivas depois. O objetivo é identificar o tipo de evento e começar o tratamento o mais rápido possível.',
+          'Por isso, o primeiro passo diante dos sintomas é chamar ajuda, e não procurar exames por conta própria.',
+        ],
+      },
+      {
+        id: 'infarto',
+        heading: 'Como o infarto é identificado',
+        paragraphs: [
+          'A pessoa é avaliada assim que chega: sinais vitais, exame clínico e um eletrocardiograma, que mostra alterações típicas da obstrução de uma artéria do coração.',
+          'O exame de sangue mede a troponina, proteína que aparece quando o músculo cardíaco sofre lesão. Em alguns casos, o eletrocardiograma e a dosagem precisam ser repetidos para confirmar ou afastar o infarto.',
+        ],
+        bullets: [
+          'Eletrocardiograma, feito assim que a pessoa chega',
+          'Dosagem de troponina no sangue',
+          'Cateterismo cardíaco, quando é preciso ver as artérias por dentro',
+        ],
+      },
+      {
+        id: 'avc',
+        heading: 'Como o AVC é identificado',
+        paragraphs: [
+          'A tomografia computadorizada de crânio é o exame de imagem mais usado na avaliação inicial. Ela diferencia o AVC isquêmico, causado por obstrução, do hemorrágico, causado pelo rompimento de um vaso, e essa diferença muda o tratamento.',
+          'Junto com o exame de imagem, a equipe verifica a pressão arterial, a glicemia e o horário exato em que os sintomas começaram. Essa última informação define se ainda há tempo para a trombólise.',
+        ],
+        bullets: [
+          'Tomografia computadorizada de crânio',
+          'Pressão arterial e glicemia',
+          'Registro do horário de início dos sintomas',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Exames de acompanhamento',
+        paragraphs: [
+          'Quem tem fatores de risco faz acompanhamento regular para avaliar pressão, glicose, colesterol e outros indicadores. Depois de um infarto ou de um AVC, o seguimento inclui reavaliação do tratamento e exames para investigar a causa, como a fibrilação atrial.',
+        ],
+      },
+      {
+        id: 'o-que-nao-esperar',
+        heading: 'O que não pode esperar',
+        bullets: [
+          'Dor no peito, falta de ar, suor frio ou desmaio súbito',
+          'Fraqueza de um lado do corpo, fala alterada ou perda de visão de início súbito',
+          'Dor de cabeça súbita e muito intensa',
+          'Confusão mental ou alteração do equilíbrio',
+        ],
+        cta: {
+          label: 'Veja a página sobre infarto e AVC',
+          href: '/doencas/infarto-e-avc/',
+        },
+      },
+    ],
+    diseaseSlugs: ['infarto-e-avc'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'infarto-quais-sao-os-sinais-e-o-que-fazer',
+      'avc-como-reconhecer-os-sinais-e-agir-rapido',
+      'infarto-e-avc-fatores-de-risco',
+      'infarto-e-avc-tratamento-e-reabilitacao',
+    ],
+    references: [
+      {
+        label: 'AVC: tipos, sinais, tratamento e reabilitação',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Infarto: sintomas, fatores de risco e atendimento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Cardiovascular diseases: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
+    isPlaceholder: true,
+  },
+  {
+    id: 'infarto-e-avc-tratamento-e-reabilitacao',
+    slug: 'infarto-e-avc-tratamento-e-reabilitacao',
+    metaTitle: 'Infarto e AVC: tratamento e reabilitação',
+    title: 'Infarto e AVC: tratamento e reabilitação',
+    excerpt:
+      'Restabelecer o fluxo de sangue o mais rápido possível é o centro do tratamento. Depois do evento, reabilitação e acompanhamento definem a recuperação.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'primeiras-horas',
+        heading: 'O tratamento começa nas primeiras horas',
+        paragraphs: [
+          'Nas duas situações, o tratamento busca restabelecer o fluxo de sangue antes que mais tecido morra. É por isso que o tempo entre o início dos sintomas e o atendimento muda o resultado.',
+          'O atendimento segue protocolos do SUS. No infarto, a Linha de Cuidado do Infarto Agudo do Miocárdio começa no SAMU 192, que faz o atendimento inicial e já comunica o hospital de referência.',
+        ],
+      },
+      {
+        id: 'avc-isquemico',
+        heading: 'No AVC isquêmico',
+        paragraphs: [
+          'O tratamento é feito nos Centros de Atendimento de Urgência. A trombólise endovenosa, que dissolve o coágulo, pode ser indicada quando iniciada em até 4 horas e meia do começo dos sintomas.',
+          'No AVC hemorrágico, o foco é controlar a pressão e o sangramento, e o tratamento pode incluir cirurgia ou procedimento endovascular, conforme o caso.',
+        ],
+      },
+      {
+        id: 'infarto',
+        heading: 'No infarto',
+        paragraphs: [
+          'A angioplastia primária, que abre a artéria por dentro com um cateter e em geral implanta um stent, é o procedimento preferido. Quando não está disponível no tempo necessário, entra o trombolítico, que dissolve o coágulo.',
+          'Em setembro de 2026, uma lei ampliou a oferta de trombolíticos na rede de urgência e emergência do SUS, incluindo as UPAs, para que o tratamento possa começar mais perto de onde a pessoa está.',
+        ],
+      },
+      {
+        id: 'reabilitacao',
+        heading: 'Reabilitação depois do evento',
+        paragraphs: [
+          'A recuperação não termina na alta. No AVC, a fisioterapia e a fonoaudiologia iniciadas cedo fazem diferença nos movimentos e na fala, e a reabilitação pode ser feita nos Centros Especializados em Reabilitação (CER).',
+          'No infarto, o acompanhamento depois da alta inclui ajuste das medicações e retomada gradual das atividades, conforme a orientação da equipe.',
+        ],
+        bullets: [
+          'Fisioterapia para recuperar os movimentos',
+          'Fonoaudiologia para a fala e a deglutição',
+          'Retomada gradual das atividades do dia a dia',
+          'Ajuste das medicações nas consultas de seguimento',
+        ],
+      },
+      {
+        id: 'nao-interromper',
+        heading: 'O que sustenta a recuperação',
+        paragraphs: [
+          'Depois de um infarto ou de um AVC, tomar a medicação prescrita todos os dias e manter o acompanhamento é o que reduz o risco de um novo evento.',
+        ],
+        bullets: [
+          'Tomar os medicamentos nos horários prescritos, sem interromper por conta própria',
+          'Manter pressão, glicose e colesterol sob controle',
+          'Não fumar, reduzir o álcool e manter atividade física conforme a orientação',
+          'Voltar às consultas de acompanhamento',
+        ],
+        cta: {
+          label: 'Veja a página sobre infarto e AVC',
+          href: '/doencas/infarto-e-avc/',
+        },
+      },
+    ],
+    diseaseSlugs: ['infarto-e-avc'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'infarto-quais-sao-os-sinais-e-o-que-fazer',
+      'avc-como-reconhecer-os-sinais-e-agir-rapido',
+      'infarto-e-avc-fatores-de-risco',
+      'infarto-e-avc-como-e-diagnosticado',
+    ],
+    references: [
+      {
+        label: 'Infarto: sintomas, fatores de risco e atendimento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'AVC: tipos, sinais, tratamento e reabilitação',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'SUS amplia a oferta de trombolíticos para infarto e AVC',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/sancionada-lei-que-preve-oferta-de-tromboliticos-para-tratamento-de-infarto-e-avc-na-rede-de-urgencia-e-emergencia-do-sus',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-16',
+    updatedAt: '2026-10-16',
     isPlaceholder: true,
   },
 ];

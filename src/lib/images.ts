@@ -212,6 +212,18 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-avc-sinais.webp',
     alt: 'Estetoscópio sobre uma superfície branca',
   },
+  'infarto-e-avc-fatores-de-risco': {
+    src: '/img/artigo-infarto-avc-risco.webp',
+    alt: 'Mulher correndo ao ar livre',
+  },
+  'infarto-e-avc-como-e-diagnosticado': {
+    src: '/img/artigo-infarto-avc-diagnostico.webp',
+    alt: 'Aparelho de imagem médica com mesa deslizante em sala clara',
+  },
+  'infarto-e-avc-tratamento-e-reabilitacao': {
+    src: '/img/artigo-infarto-avc-reabilitacao.webp',
+    alt: 'Pessoa apoiando as mãos numa barra paralela de caminhar durante sessão de reabilitação, ao lado de um profissional de saúde de avental branco, em sala com espaldar de madeira e desenhos na parede',
+  },
 };
 
 export const topicImages: Record<string, SiteImage> = {
