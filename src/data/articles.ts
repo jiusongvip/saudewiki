@@ -17,35 +17,57 @@ export const articles: Article[] = [
     slug: 'sintomas-iniciais-da-dengue',
     title: 'Quais são os primeiros sintomas da dengue?',
     excerpt:
-      'Febre alta de início súbito, dor atrás dos olhos e dores no corpo são os sintomas mais frequentes. Entenda o que aparece primeiro e quando a doença se agrava.',
+      'Febre alta súbita, dor atrás dos olhos e dores no corpo marcam o início. Veja as fases da dengue, os sinais de alarme e o que a diferencia de outras doenças.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
       {
         id: 'o-que-observar-primeiro',
-        heading: 'O que costuma aparecer primeiro',
+        heading: 'Quais são os primeiros sintomas da dengue?',
         paragraphs: [
-          'Os sintomas da dengue normalmente começam entre quatro e dez dias depois da picada do mosquito. O início tende a ser abrupto: a pessoa sai de um estado normal para febre alta em poucas horas.',
-          'Os sintomas mais comuns nas primeiras 24 a 48 horas são febre alta, dor de cabeça, dor atrás dos olhos e dores intensas nos músculos e nas articulações.',
+          'Os primeiros sintomas da dengue costumam ser febre alta de início súbito, dor de cabeça, dor atrás dos olhos e dores intensas nos músculos e nas articulações. A febre pode chegar a 39 °C ou 40 °C e vir acompanhada de náusea, vômito e perda de apetite.',
+          'A infecção pelo vírus da dengue nem sempre se manifesta. Estima-se que cerca de uma em cada quatro infecções produza sintomas, e a maioria dos casos é leve ou assintomática. Isso ajuda a explicar por que a doença circula tanto sem ser percebida.',
+          'Quando os sintomas aparecem, o início é abrupto: a pessoa passa de um estado normal para febre alta em poucas horas. Nas primeiras 24 a 48 horas também podem surgir rubor facial e vermelhidão na garganta, sinais discretos que costumam passar despercebidos.',
+        ],
+      },
+      {
+        id: 'quanto-tempo-para-aparecer',
+        heading: 'Quanto tempo depois da picada os sintomas aparecem?',
+        paragraphs: [
+          'O período de incubação da dengue é de quatro a dez dias após a picada do mosquito infectado, com maior frequência entre cinco e sete dias. Por isso, em uma área com transmissão, a febre que surge nesse intervalo deve levantar a suspeita, mesmo sem outros sinais evidentes.',
+          'A febre costuma durar de dois a sete dias e pode ter um padrão bifásico, com uma queda e um novo aumento antes de ceder de vez. A recuperação completa, por sua vez, leva de uma a duas semanas.',
+          'Depois da fase aguda, o cansaço pode persistir por algumas semanas. A recuperação varia de pessoa para pessoa e não termina no momento em que a febre passa.',
+        ],
+      },
+      {
+        id: 'fases-da-doenca',
+        heading: 'Quais são as fases da dengue?',
+        paragraphs: [
+          'A dengue costuma seguir três fases. A primeira é a febril, que dura de dois a sete dias e concentra febre alta, dor de cabeça, dor atrás dos olhos, dores no corpo e, em muitos casos, manchas na pele. É o período em que o vírus circula no sangue e em que o exame consegue detectá-lo com mais facilidade.',
+          'A segunda é a crítica, que começa justamente quando a febre cede e dura cerca de 24 a 48 horas. Nesse intervalo, parte dos pacientes melhora, mas quem tem extravasamento importante de plasma pode evoluir para dengue grave em poucas horas. O paciente pode parecer bem mesmo diante de sinais iniciais de choque.',
+          'A terceira é a de recuperação, quando o líquido extravasado é reabsorvido. O volume de urina aumenta, a frequência cardíaca pode cair e a pele pode descamar com coceira. É uma fase de melhora, mas que ainda exige acompanhamento.',
         ],
       },
       {
         id: 'primeiros-sinais',
-        heading: 'Primeiros sintomas, em ordem aproximada',
+        heading: 'Qual é a ordem dos sintomas?',
         bullets: [
-          'Febre alta, geralmente acima de 38 °C, de início súbito',
+          'Febre alta, em geral entre 39 °C e 40 °C, de início súbito',
           'Dor de cabeça intensa, muitas vezes atrás dos olhos',
           'Dores no corpo, nos músculos e nas articulações',
           'Náusea, vômito e perda de apetite',
-          'Manchas vermelhas na pele, que podem surgir do terceiro ao sexto dia',
+          'Manchas vermelhas na pele, do tipo maculopapular, que costumam surgir do terceiro ao sexto dia',
+          'Sangramentos leves, como gengiva sangrando, nariz sangrando ou pequenas manchas roxas na pele',
+          'Gânglios inchados e, em alguns casos, aumento do fígado',
+          'Rubor no rosto e vermelhidão na garganta nas primeiras 24 a 48 horas',
         ],
       },
       {
-        id: 'o-que-muda-no-terceiro-dia',
-        heading: 'O que muda por volta do terceiro dia',
+        id: 'sinais-de-alarme',
+        heading: 'Quais sinais indicam que a dengue está se agravando?',
         paragraphs: [
-          'A fase mais delicada não é o pico da febre, e sim o momento em que ela começa a ceder. É nesse período que os casos graves costumam se manifestar.',
-          'Sinais como dor abdominal intensa, vômitos persistentes, sangramentos e sonolência exigem avaliação imediata em serviço de saúde.',
+          'Os sinais de alarme costumam aparecer entre o terceiro e o sétimo dia, no momento em que a febre começa a ceder. Dor abdominal intensa, vômitos persistentes, acúmulo de líquido, sangramento de mucosas, letargia ou agitação, aumento do fígado, tontura e dificuldade para respirar são os principais.',
+          'Cerca de uma em cada vinte pessoas com dengue evolui para a forma grave, caracterizada por extravasamento importante de plasma, sangramento grave ou comprometimento de órgãos. A avaliação médica nessa janela é o que separa um caso comum de uma emergência.',
         ],
         cta: {
           label: 'Veja os sinais de alerta na página sobre dengue',
@@ -53,17 +75,28 @@ export const articles: Article[] = [
         },
       },
       {
-        id: 'o-que-nao-e-sintoma',
-        heading: 'O que não é sintoma típico',
+        id: 'dengue-ou-outra-doenca',
+        heading: 'Como diferenciar dengue de chikungunya, zika e gripe?',
         paragraphs: [
-          'Espirros frequentes, coriza e obstrução nasal são mais sugestivos de resfriado ou de outras infecções respiratórias do que de dengue. Isso não substitui uma avaliação profissional, mas ajuda a organizar a suspeita.',
+          'A chikungunya também é transmitida pelo Aedes e começa de forma abrupta, mas a dor nas articulações costuma ser o sintoma dominante: intensa, incapacitante e capaz de durar semanas ou meses. Na dengue, a dor no corpo é marcante, porém raramente persiste por tanto tempo.',
+          'A zika tende a ser mais leve. Conjuntivite, coceira e manchas na pele são frequentes, a febre é baixa e boa parte das infecções não produz sintoma algum. O risco maior está na gestação, porque a infecção pode causar malformações no bebê.',
+          'A gripe se distingue pela presença de sintomas respiratórios, como tosse, dor de garganta e coriza, que não são típicos da dengue. Ainda assim, a semelhança entre as arboviroses é grande, e apenas o exame laboratorial confirma o diagnóstico.',
+        ],
+      },
+      {
+        id: 'o-que-nao-e-sintoma',
+        heading: 'Quais sintomas não são típicos de dengue?',
+        paragraphs: [
+          'Espirros frequentes, coriza e obstrução nasal apontam mais para resfriado ou outras infecções respiratórias do que para dengue. Isso não substitui uma avaliação profissional, mas ajuda a organizar a suspeita.',
         ],
       },
       {
         id: 'o-que-fazer',
-        heading: 'O que fazer se você suspeitar',
+        heading: 'O que fazer ao suspeitar de dengue?',
         paragraphs: [
-          'Hidrate-se, evite aspirina (ácido acetilsalicílico) e anti-inflamatórios, e procure uma unidade de saúde para avaliação. Quem define o diagnóstico e o tratamento é um profissional de saúde.',
+          'As medidas iniciais mais seguras são hidratar-se, repousar e usar paracetamol para a dor e a febre. Evite aspirina (ácido acetilsalicílico), anti-inflamatórios como ibuprofeno e injeções intramusculares, porque aumentam o risco de sangramento.',
+          'O momento do exame importa. Nos primeiros cinco dias de sintomas, a detecção do vírus por NS1 ou RT-PCR é o caminho mais direto. A partir do sexto dia, o teste de anticorpos passa a ser mais útil. O profissional de saúde define qual exame faz sentido em cada caso.',
+          'Procure uma unidade de saúde para avaliação. Se houver qualquer sinal de alarme, procure atendimento de emergência imediatamente, sem esperar os sintomas passarem.',
         ],
       },
     ],
@@ -81,12 +114,27 @@ export const articles: Article[] = [
         url: 'https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue',
         publisher: 'Organização Mundial da Saúde',
       },
+      {
+        label: 'Clinical Features of Dengue',
+        url: 'https://www.cdc.gov/dengue/hcp/clinical-signs/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Chikungunya: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/chikungunya',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Zika virus: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/zika-virus',
+        publisher: 'Organização Mundial da Saúde',
+      },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-17',
     isPlaceholder: true,
   },
   {
