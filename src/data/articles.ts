@@ -261,6 +261,7 @@ export const articles: Article[] = [
         heading: 'O que muda de verdade',
         paragraphs: [
           'O diabetes tipo 2 é uma condição crônica, e o tratamento é de longo prazo. Na prática, o dia a dia passa a incluir três coisas novas: monitoramento, alimentação planejada e movimento regular.',
+          'Essas mudanças não precisam ser drásticas de uma vez. Pequenos ajustes mantidos ao longo das semanas costumam ser mais sustentáveis do que grandes mudanças que duram poucos dias.',
         ],
       },
       {
@@ -268,13 +269,25 @@ export const articles: Article[] = [
         heading: 'Monitoramento',
         paragraphs: [
           'Acompanhar a glicose em casa, quando indicado, ajuda a entender como o corpo responde a diferentes alimentos, horários e níveis de atividade. Os exames de acompanhamento são definidos pelo profissional de saúde.',
+          'Além da glicemia eventual, o exame de hemoglobina glicada (HbA1c) mostra uma média dos últimos meses e é um dos principais parâmetros de acompanhamento.',
+        ],
+        bullets: [
+          'Registre as medições com data, horário e se foram antes ou depois das refeições',
+          'Leve o registro às consultas para ajustar o plano com o profissional',
+          'Não ajuste doses nem horários por conta própria com base em uma única medição',
         ],
       },
       {
         id: 'alimentacao',
         heading: 'Alimentação',
         paragraphs: [
-          'Não existe lista universal de alimentos proibidos. O que costuma ajudar é regularidade nos horários, controle das porções e redução de bebidas açucaradas e ultraprocessados.',
+          'Não existe lista universal de alimentos proibidos. O que costuma ajudar é a regularidade nos horários e o controle das porções.',
+        ],
+        bullets: [
+          'Reduza bebidas açucaradas e alimentos ultraprocessados',
+          'Prefira refeições em horários parecidos a cada dia',
+          'Inclua fibras (vegetais, legumes, grãos integrais) nas refeições',
+          'Não pule refeições: longos jejuns podem desregular a glicemia',
         ],
       },
       {
@@ -282,6 +295,61 @@ export const articles: Article[] = [
         heading: 'Atividade física',
         paragraphs: [
           'Movimento regular melhora a resposta do corpo à insulina. A recomendação deve ser ajustada à condição de cada pessoa e definida com acompanhamento profissional.',
+          'Mesmo caminhadas curtas e frequentes já trazem benefício; o importante é a regularidade, não a intensidade isolada.',
+        ],
+        bullets: [
+          'Procure distribuir a atividade ao longo da semana',
+          'Comece gradualmente, especialmente se estava sem rotina de exercícios',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Medicamentos',
+        paragraphs: [
+          'Muitas pessoas com diabetes tipo 2 usam medicamentos para ajudar no controle da glicemia. O esquema é definido pelo profissional de saúde e ajustado conforme o acompanhamento.',
+          'No Brasil, os medicamentos para diabetes estão disponíveis no SUS mediante prescrição.',
+        ],
+        bullets: [
+          'Tome na dose e nos horários indicados, sem interromper por conta própria',
+          'Se perder uma dose, siga a orientação do profissional ou da bula; não dobre a próxima dose',
+          'Não ajuste o tratamento com base em uma única medição da glicemia',
+        ],
+      },
+      {
+        id: 'hipoglicemia',
+        heading: 'Hipoglicemia: sinais de alerta',
+        paragraphs: [
+          'A glicemia muito baixa (hipoglicemia) pode ocorrer, especialmente em quem usa certos medicamentos. Sinais comuns incluem tremor, suor, tontura, fraqueza e confusão.',
+          'Se aparecerem sinais de hipoglicemia, a conduta geral é ingerir algo com açúcar de absorção rápida (como suco ou glucose) e, em seguida, um lanche; se não melhorar, procure ajuda.',
+        ],
+        bullets: [
+          'Tenha sempre à mão uma fonte rápida de açúcar (suco, glucose, bala)',
+          'Avise pessoas próximas sobre os sinais e o que fazer',
+          'Procure atendimento se os sintomas forem intensos ou não melhorarem',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Acompanhamento de longo prazo',
+        paragraphs: [
+          'O diabetes tipo 2 é gerenciado ao longo dos anos. O acompanhamento regular permite identificar e tratar precocemente complicações.',
+        ],
+        bullets: [
+          'Verifique a pressão arterial nas consultas',
+          'Cuidado com os pés: inspeção diária e calçados adequados',
+          'Avaliação dos olhos (retinopatia) conforme orientação',
+          'Exames de função renal e dos pés, conforme o profissional',
+          'Cuidados odontológicos regulares',
+        ],
+      },
+      {
+        id: 'duvidas-comuns',
+        heading: 'Dúvidas comuns sobre o dia a dia',
+        paragraphs: [
+          'Posso comer frutas? Sim, frutas podem fazer parte da alimentação; o ponto é a porção e a regularidade, não o banimento.',
+          'Preciso cortar todo o açúcar? O foco é reduzir bebidas e alimentos com muito açúcar adicionado, não eliminar cada grama.',
+          'O diabetes tipo 2 tem cura? É uma condição crônica; o controle adequado mantém a glicemia na faixa e reduz riscos, mas não há "cura" garantida.',
+          'Posso beber álcool? O álcool pode afetar a glicemia; converse com o profissional sobre quantidade e ocasião.',
         ],
       },
       {
@@ -310,12 +378,22 @@ export const articles: Article[] = [
         url: 'https://www.who.int/news-room/fact-sheets/detail/diabetes',
         publisher: 'Organização Mundial da Saúde',
       },
+      {
+        label: 'Atividade física: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/physical-activity',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Tratamento da hipoglicemia (baixa de açúcar no sangue)',
+        url: 'https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html',
+        publisher: 'Centros de Controle e Prevenção de Doenças (CDC, EUA)',
+      },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-17',
     isPlaceholder: true,
   },
   {
