@@ -260,6 +260,7 @@ export const articles: Article[] = [
         id: 'o-que-muda',
         heading: 'O que muda de verdade no dia a dia?',
         paragraphs: [
+          'O dia a dia com diabetes tipo 2 não exige mudanças drásticas de uma vez: o essencial é monitorar a glicemia, organizar a alimentação e manter o movimento, com acompanhamento profissional ao longo dos anos.',
           'O diabetes tipo 2 é uma condição crônica, e o tratamento é de longo prazo. Na prática, o dia a dia passa a incluir três coisas novas: monitoramento, alimentação planejada e movimento regular.',
           'Essas mudanças não precisam ser drásticas de uma vez. Pequenos ajustes mantidos ao longo das semanas costumam ser mais sustentáveis do que grandes mudanças que duram poucos dias.',
         ],
