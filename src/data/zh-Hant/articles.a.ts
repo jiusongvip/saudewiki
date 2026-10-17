@@ -194,7 +194,7 @@ export const zhArticlesA: Record<string, LocalizedArticle> = {
     body: [
       {
         id: 'o-que-muda',
-        heading: '真正的改變',
+        heading: '確診後，日常生活真正會改變的是什麼？',
         paragraphs: [
           '第二型糖尿病是一種慢性疾病，需要長期治療。實際上，日常生活會新增三件事：監測、有計畫的飲食與規律的活動。',
           '這些改變不需要一次到位。在數週內持續的小幅調整，往往比只維持幾天的大改變更容易長久。',
@@ -202,10 +202,10 @@ export const zhArticlesA: Record<string, LocalizedArticle> = {
       },
       {
         id: 'monitoramento',
-        heading: '監測',
+        heading: '日常生活中該如何監測血糖？',
         paragraphs: [
           '在有需要時於家中監測血糖，有助於了解身體對不同食物、進食時間與活動量的反應。追蹤檢查的項目由專業醫療人員決定。',
-          '除了偶發的血糖值，糖化血色素（HbA1c）檢查能反映過去數個月的平均狀況，是追蹤的重要指標之一。',
+          '除了偶發的血糖值，糖化血色素（HbA1c）檢查能反映過去數個月的平均狀況，是追蹤的重要指標之一（巴西衛生部）。',
         ],
         bullets: [
           '記錄測量值時一併註明日期、時間，以及是餐前或餐後',
@@ -215,9 +215,9 @@ export const zhArticlesA: Record<string, LocalizedArticle> = {
       },
       {
         id: 'alimentacao',
-        heading: '飲食',
+        heading: '飲食上需要做哪些調整？',
         paragraphs: [
-          '並沒有適用於所有人的禁忌食物清單。通常有幫助的是：固定進食時間、控制份量。',
+          '並沒有適用於所有人的禁忌食物清單（巴西衛生部）；通常有幫助的是：固定進食時間、控制份量。',
         ],
         bullets: [
           '減少含糖飲料與超加工食品',
@@ -228,9 +228,9 @@ export const zhArticlesA: Record<string, LocalizedArticle> = {
       },
       {
         id: 'movimento',
-        heading: '體力活動',
+        heading: '規律運動有什麼重要性？',
         paragraphs: [
-          '規律的活動能改善身體對胰島素的反應。相關建議應依個人狀況調整，並在專業人員的追蹤下制訂。',
+          '規律的活動能改善身體對胰島素的反應。世界衛生組織（WHO）建議每週至少 150 分鐘中等強度的身體活動，有助於降低第二型糖尿病的風險；個別建議應在專業人員追蹤下制訂。',
           '即使是短而頻繁的散步也有幫助；重點在於規律，而非單次強度。',
         ],
         bullets: [
@@ -240,10 +240,10 @@ export const zhArticlesA: Record<string, LocalizedArticle> = {
       },
       {
         id: 'medicamentos',
-        heading: '藥物',
+        heading: '藥物是如何作用的？',
         paragraphs: [
           '許多第二型糖尿病患者會使用藥物來協助控制血糖。用藥方式由專業醫療人員制訂，並依追蹤結果調整。',
-          '在巴西，糖尿病藥物可憑處方經 SUS（全民健康系統）取得。',
+          '在巴西，糖尿病藥物可憑處方經 SUS（全民健康系統）取得（巴西衛生部）。',
         ],
         bullets: [
           '按指示的劑量與時間服藥，不要自行中斷',
@@ -253,10 +253,10 @@ export const zhArticlesA: Record<string, LocalizedArticle> = {
       },
       {
         id: 'hipoglicemia',
-        heading: '低血糖：警訊',
+        heading: '發生低血糖時該怎麼辦？',
         paragraphs: [
           '血糖過低（低血糖）可能發生，使用某些藥物的人尤其要注意。常見徵兆包括發抖、出汗、頭暈、無力與混亂。',
-          '若出現低血糖徵兆，一般作法是先攝取吸收快速的糖（如果汁或葡萄糖），隨後再吃一點點心；若未改善，應尋求協助。',
+          '若出現低血糖徵兆，一般作法是依照美國疾病管制與預防中心（CDC）所稱的「15-15 法則」：攝取約 15 克吸收快速的糖（如果汁或葡萄糖），等候 15 分鐘後再評估；若未改善，應尋求協助。',
         ],
         bullets: [
           '隨身準備可快速補糖的來源（果汁、葡萄糖、糖果）',
@@ -266,9 +266,9 @@ export const zhArticlesA: Record<string, LocalizedArticle> = {
       },
       {
         id: 'acompanhamento',
-        heading: '長期追蹤',
+        heading: '為什麼長期追蹤很重要？',
         paragraphs: [
-          '第二型糖尿病需要長年管理。規律追蹤有助於及早發現並處理併發症。',
+          '第二型糖尿病需要長年管理。規律追蹤（巴西衛生部）有助於及早發現並處理併發症。',
         ],
         bullets: [
           '就診時測量血壓',
@@ -280,7 +280,7 @@ export const zhArticlesA: Record<string, LocalizedArticle> = {
       },
       {
         id: 'duvidas-comuns',
-        heading: '關於日常生活的常見疑問',
+        heading: '關於日常生活，最常見的疑問有哪些？',
         paragraphs: [
           '可以吃水果嗎？可以，水果可以納入飲食；重點在於份量與規律，而非完全禁止。',
           '需要完全不吃糖嗎？重點是減少含大量添加糖的飲料與食物，而不是剔除每一克糖。',

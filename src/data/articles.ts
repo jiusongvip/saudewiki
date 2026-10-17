@@ -258,7 +258,7 @@ export const articles: Article[] = [
     body: [
       {
         id: 'o-que-muda',
-        heading: 'O que muda de verdade',
+        heading: 'O que muda de verdade no dia a dia?',
         paragraphs: [
           'O diabetes tipo 2 é uma condição crônica, e o tratamento é de longo prazo. Na prática, o dia a dia passa a incluir três coisas novas: monitoramento, alimentação planejada e movimento regular.',
           'Essas mudanças não precisam ser drásticas de uma vez. Pequenos ajustes mantidos ao longo das semanas costumam ser mais sustentáveis do que grandes mudanças que duram poucos dias.',
@@ -266,10 +266,10 @@ export const articles: Article[] = [
       },
       {
         id: 'monitoramento',
-        heading: 'Monitoramento',
+        heading: 'Como monitorar a glicemia no dia a dia?',
         paragraphs: [
           'Acompanhar a glicose em casa, quando indicado, ajuda a entender como o corpo responde a diferentes alimentos, horários e níveis de atividade. Os exames de acompanhamento são definidos pelo profissional de saúde.',
-          'Além da glicemia eventual, o exame de hemoglobina glicada (HbA1c) mostra uma média dos últimos meses e é um dos principais parâmetros de acompanhamento.',
+          'Além da glicemia eventual, o exame de hemoglobina glicada (HbA1c) mostra uma média dos últimos meses e é um dos principais parâmetros de acompanhamento, segundo o Ministério da Saúde.',
         ],
         bullets: [
           'Registre as medições com data, horário e se foram antes ou depois das refeições',
@@ -279,9 +279,9 @@ export const articles: Article[] = [
       },
       {
         id: 'alimentacao',
-        heading: 'Alimentação',
+        heading: 'O que ajustar na alimentação?',
         paragraphs: [
-          'Não existe lista universal de alimentos proibidos. O que costuma ajudar é a regularidade nos horários e o controle das porções.',
+          'Não existe lista universal de alimentos proibidos (Ministério da Saúde). O que costuma ajudar é a regularidade nos horários e o controle das porções.',
         ],
         bullets: [
           'Reduza bebidas açucaradas e alimentos ultraprocessados',
@@ -292,9 +292,9 @@ export const articles: Article[] = [
       },
       {
         id: 'movimento',
-        heading: 'Atividade física',
+        heading: 'Qual a importância da atividade física?',
         paragraphs: [
-          'Movimento regular melhora a resposta do corpo à insulina. A recomendação deve ser ajustada à condição de cada pessoa e definida com acompanhamento profissional.',
+          'Movimento regular melhora a resposta do corpo à insulina. A OMS recomenda ao menos 150 minutos de atividade física de intensidade moderada por semana, o que contribui para reduzir o risco de diabetes tipo 2; a recomendação individual deve ser ajustada com acompanhamento profissional.',
           'Mesmo caminhadas curtas e frequentes já trazem benefício; o importante é a regularidade, não a intensidade isolada.',
         ],
         bullets: [
@@ -304,10 +304,10 @@ export const articles: Article[] = [
       },
       {
         id: 'medicamentos',
-        heading: 'Medicamentos',
+        heading: 'Como funcionam os medicamentos?',
         paragraphs: [
           'Muitas pessoas com diabetes tipo 2 usam medicamentos para ajudar no controle da glicemia. O esquema é definido pelo profissional de saúde e ajustado conforme o acompanhamento.',
-          'No Brasil, os medicamentos para diabetes estão disponíveis no SUS mediante prescrição.',
+          'No Brasil, os medicamentos para diabetes estão disponíveis no SUS mediante prescrição (Ministério da Saúde).',
         ],
         bullets: [
           'Tome na dose e nos horários indicados, sem interromper por conta própria',
@@ -317,10 +317,10 @@ export const articles: Article[] = [
       },
       {
         id: 'hipoglicemia',
-        heading: 'Hipoglicemia: sinais de alerta',
+        heading: 'O que fazer em caso de hipoglicemia?',
         paragraphs: [
           'A glicemia muito baixa (hipoglicemia) pode ocorrer, especialmente em quem usa certos medicamentos. Sinais comuns incluem tremor, suor, tontura, fraqueza e confusão.',
-          'Se aparecerem sinais de hipoglicemia, a conduta geral é ingerir algo com açúcar de absorção rápida (como suco ou glucose) e, em seguida, um lanche; se não melhorar, procure ajuda.',
+          'Se aparecerem sinais de hipoglicemia, a conduta geral segue a chamada "regra 15-15" descrita pelos Centros de Controle e Prevenção de Doenças (CDC) dos EUA: ingerir cerca de 15 g de carboidratos de absorção rápida (como suco ou glucose), aguardar 15 minutos e reavaliar; se não melhorar, procure ajuda.',
         ],
         bullets: [
           'Tenha sempre à mão uma fonte rápida de açúcar (suco, glucose, bala)',
@@ -330,9 +330,9 @@ export const articles: Article[] = [
       },
       {
         id: 'acompanhamento',
-        heading: 'Acompanhamento de longo prazo',
+        heading: 'Por que o acompanhamento de longo prazo é importante?',
         paragraphs: [
-          'O diabetes tipo 2 é gerenciado ao longo dos anos. O acompanhamento regular permite identificar e tratar precocemente complicações.',
+          'O diabetes tipo 2 é gerenciado ao longo dos anos. O acompanhamento regular, segundo o Ministério da Saúde, permite identificar e tratar precocemente complicações.',
         ],
         bullets: [
           'Verifique a pressão arterial nas consultas',
@@ -344,7 +344,7 @@ export const articles: Article[] = [
       },
       {
         id: 'duvidas-comuns',
-        heading: 'Dúvidas comuns sobre o dia a dia',
+        heading: 'Quais as dúvidas mais comuns sobre o dia a dia?',
         paragraphs: [
           'Posso comer frutas? Sim, frutas podem fazer parte da alimentação; o ponto é a porção e a regularidade, não o banimento.',
           'Preciso cortar todo o açúcar? O foco é reduzir bebidas e alimentos com muito açúcar adicionado, não eliminar cada grama.',
