@@ -333,7 +333,7 @@ export const diseases: Disease[] = [
         id: 'sinais-de-alerta',
         heading: 'Quando procurar atendimento',
         paragraphs: [
-          'Quem tem diabetes deve procurar um serviço de urgência, ou ligar para o SAMU 192, diante de sinais que podem indicar cetoacidose diabética ou estado hiperglicêmico hiperosmolar, duas emergências que exigem atendimento rápido:',
+          'Quem tem diabetes deve procurar um serviço de urgência, ou procurar atendimento de emergência, diante de sinais que podem indicar cetoacidose diabética ou estado hiperglicêmico hiperosmolar, duas emergências que exigem atendimento rápido:',
         ],
         bullets: [
           'Vômitos persistentes, dor abdominal e dificuldade para respirar',
@@ -450,7 +450,7 @@ export const diseases: Disease[] = [
       {
         question: 'O que fazer em uma queda da glicemia?',
         answer:
-          'A hipoglicemia costuma causar tremor, sudorese, palidez, fome repentina, tontura, palpitação e confusão. Se a pessoa estiver consciente, deve consumir algo doce de ação rápida e medir a glicemia novamente em seguida. Se houver desmaio, convulsão ou dificuldade para acordar, acione o SAMU 192 imediatamente, porque é uma emergência.',
+          'A hipoglicemia costuma causar tremor, sudorese, palidez, fome repentina, tontura, palpitação e confusão. Se a pessoa estiver consciente, deve consumir algo doce de ação rápida e medir a glicemia novamente em seguida. Se houver desmaio, convulsão ou dificuldade para acordar, procure atendimento de emergência imediatamente, porque é uma emergência.',
       },
       {
         question: 'Comer muito açúcar causa diabetes?',
@@ -559,7 +559,7 @@ export const diseases: Disease[] = [
         heading: 'Quando procurar atendimento',
         paragraphs: [
           'Uma pressão muito alta, em geral a partir de 180/120 mmHg, acompanhada de alguns sintomas, é uma emergência médica. Em gestantes, dor de cabeça intensa, visão borrada, inchaço que piora de repente ou convulsão também exigem atendimento imediato.',
-          'Nesses casos, procure um serviço de urgência ou ligue para o SAMU 192, sobretudo diante de:',
+          'Nesses casos, procure atendimento de emergência imediatamente, sobretudo diante de:',
         ],
         bullets: [
           'Dor no peito, que pode irradiar para o braço ou para a mandíbula',
@@ -2185,7 +2185,7 @@ export const diseases: Disease[] = [
         id: 'sinais-de-alerta',
         heading: 'Sinais de alerta e quando procurar atendimento',
         paragraphs: [
-          'Uma crise grave é uma emergência. Ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento, sem esperar a crise melhorar sozinha, se houver:',
+          'Uma crise grave é uma emergência. Procure atendimento de emergência ou vá imediatamente a um pronto atendimento, sem esperar a crise melhorar sozinha, se houver:',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2388,7 +2388,7 @@ export const diseases: Disease[] = [
         id: 'sinais-de-alerta',
         heading: 'Sinais de alerta e quando procurar atendimento',
         paragraphs: [
-          'Uma piora grave é uma emergência. Ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento, sem esperar melhorar sozinho, se houver:',
+          'Uma piora grave é uma emergência. Procure atendimento de emergência ou vá imediatamente a um pronto atendimento, sem esperar melhorar sozinho, se houver:',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2465,7 +2465,7 @@ export const diseases: Disease[] = [
     name: 'Infarto e AVC',
     aliases: ['ataque cardíaco', 'infarto agudo do miocárdio', 'IAM', 'derrame', 'acidente vascular cerebral', 'AVC'],
     summary:
-      'Duas emergências cardiovasculares em que cada minuto conta. Reconhecer os sinais e chamar o SAMU no 192 imediatamente muda o desfecho.',
+      'Duas emergências cardiovasculares em que cada minuto conta. Reconhecer os sinais e buscar atendimento de emergência imediatamente muda o desfecho.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     sections: [
@@ -2571,7 +2571,7 @@ export const diseases: Disease[] = [
         paragraphs: [
           'O tratamento começa no atendimento de urgência, com medidas para restabelecer o fluxo de sangue o mais rápido possível. No infarto, a angioplastia primária é o procedimento preferido, e o trombolítico é usado quando essa opção não está disponível no tempo necessário.',
           'No AVC isquêmico, a trombólise endovenosa pode ser indicada quando iniciada em até 4 horas e meia do começo dos sintomas, conforme os protocolos do SUS.',
-          'No SUS, o AVC é tratado nos Centros de Atendimento de Urgência, os hospitais de referência para esses casos, e o infarto segue a Linha de Cuidado do Infarto Agudo do Miocárdio, que começa no SAMU 192. Desde setembro de 2026, uma lei ampliou a oferta de medicamentos trombolíticos na rede de urgência e emergência, incluindo as UPAs.',
+          'No SUS, o AVC é tratado nos Centros de Atendimento de Urgência, os hospitais de referência para esses casos, e o infarto segue a Linha de Cuidado do Infarto Agudo do Miocárdio, que começa no SAMU. Desde setembro de 2026, uma lei ampliou a oferta de medicamentos trombolíticos na rede de urgência e emergência, incluindo as UPAs.',
           'Depois do evento, o acompanhamento inclui medicamentos, reabilitação e mudanças de hábito. No AVC, a fisioterapia e a fonoaudiologia iniciadas cedo fazem diferença na recuperação dos movimentos e da fala, e a reabilitação pode ser feita nos Centros Especializados em Reabilitação (CER).',
         ],
       },
@@ -2579,7 +2579,7 @@ export const diseases: Disease[] = [
         id: 'sinais-de-alerta',
         heading: 'O que fazer diante de uma suspeita',
         paragraphs: [
-          'Chame ajuda imediatamente pelo SAMU, no número 192, ou pelo Corpo de Bombeiros, no 193. Se não for possível, leve a pessoa ao serviço de urgência mais próximo. Não espere os sintomas passarem e não leve a pessoa para casa para observar.',
+          'Chame ajuda imediatamente pelo serviço de emergência local. Se não for possível, leve a pessoa ao serviço de urgência mais próximo. Não espere os sintomas passarem e não leve a pessoa para casa para observar.',
         ],
         bullets: [
           'Anote o horário em que os sintomas começaram: essa informação muda o tratamento',

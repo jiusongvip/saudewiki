@@ -930,7 +930,7 @@ export const articles: Article[] = [
         id: 'por-que-nao-esperar',
         heading: 'Por que não dá para esperar',
         paragraphs: [
-          'A malária causada por Plasmodium falciparum pode evoluir de forma rápida e levar a complicações em poucos dias. Por isso, procure atendimento imediato se tiver febre em área de transmissão: ligue para o SAMU (192) ou vá a um pronto atendimento, sem tentar tratamento caseiro.',
+          'A malária causada por Plasmodium falciparum pode evoluir de forma rápida e levar a complicações em poucos dias. Por isso, procure atendimento imediato se tiver febre em área de transmissão: procure atendimento de emergência ou vá a um pronto atendimento, sem tentar tratamento caseiro.',
         ],
       },
       {
@@ -1559,7 +1559,7 @@ export const articles: Article[] = [
         id: 'sinais-de-gravidade',
         heading: 'Sinais de gravidade',
         paragraphs: [
-          'Estes sinais indicam crise grave. Nesses casos, ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento:',
+          'Estes sinais indicam crise grave. Nesses casos, procure atendimento de emergência ou vá imediatamente a um pronto atendimento:',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -1671,7 +1671,7 @@ export const articles: Article[] = [
         id: 'quando-procurar',
         heading: 'Quando procurar atendimento',
         paragraphs: [
-          'Procure atendimento se houver piora da falta de ar, mudança no catarro, febre ou necessidade de usar o medicamento de alívio com mais frequência. Dificuldade para falar, lábios azulados ou sonolência são emergência: ligue para o SAMU (192).',
+          'Procure atendimento se houver piora da falta de ar, mudança no catarro, febre ou necessidade de usar o medicamento de alívio com mais frequência. Dificuldade para falar, lábios azulados ou sonolência são emergência: procure atendimento de emergência.',
         ],
         cta: {
           label: 'Leia também: o que fazer em uma crise de asma',
@@ -1750,7 +1750,7 @@ export const articles: Article[] = [
         id: 'emergencia',
         heading: 'Quando é emergência',
         paragraphs: [
-          'Procure um pronto atendimento ou ligue para o SAMU (192) imediatamente se houver:',
+          'Procure atendimento de emergência imediatamente se houver:',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2086,8 +2086,8 @@ export const articles: Article[] = [
         id: 'o-que-fazer',
         heading: 'O que fazer diante da suspeita',
         bullets: [
-          'Chame ajuda imediatamente pelo SAMU, no número 192',
-          'Não vá ao hospital dirigindo você mesmo: peça carona a alguém ou aguarde o SAMU',
+          'Chame ajuda imediatamente: procure atendimento de emergência',
+          'Não vá ao hospital dirigindo você mesmo: peça carona a alguém ou aguarde o atendimento de emergência',
           'Não espere os sintomas passarem para procurar atendimento',
           'Não tome medicamento por conta própria',
           'Anote o horário em que os sintomas começaram',
@@ -2151,7 +2151,7 @@ export const articles: Article[] = [
     body: [
       {
         id: 'o-que-e',
-        heading: 'O que é o AVC',
+        heading: 'O que é o AVC?',
         paragraphs: [
           'O AVC é uma emergência médica: a cada minuto sem tratamento, mais células do cérebro são perdidas. Reconhecer os sinais e pedir socorro imediato é o que faz a diferença entre uma recuperação completa e sequelas permanentes.',
           'O acidente vascular cerebral acontece quando um vaso que leva sangue ao cérebro entope ou se rompe, e a região privada de sangue deixa de funcionar. Existem dois tipos principais: o AVC isquêmico, causado por obstrução, corresponde a cerca de 85% dos casos; e o AVC hemorrágico, causado por ruptura, responde por cerca de 15%. Um episódio breve e reversível, o ataque isquêmico transitório (AIT), também avisa que um AVC pode estar por vir.',
@@ -2159,7 +2159,7 @@ export const articles: Article[] = [
       },
       {
         id: 'sinais',
-        heading: 'Quais são os sinais de AVC',
+        heading: 'Quais são os sinais de AVC?',
         paragraphs: [
           'Os sinais do AVC costumam surgir de repente e atingem com mais frequência apenas um lado do corpo. Fique atento a estes sintomas, segundo o Ministério da Saúde e a OMS:',
         ],
@@ -2174,7 +2174,7 @@ export const articles: Article[] = [
       },
       {
         id: 'teste-rapido',
-        heading: 'Como usar o teste FAST para identificar o AVC',
+        heading: 'Como usar o teste FAST para identificar o AVC?',
         paragraphs: [
           'O teste FAST é a forma mais simples de identificar um AVC e pode ser feita por qualquer pessoa. Cada letra lembra o que observar:',
           'Peça para a pessoa sorrir (Face: um lado do rosto fica torto?), levantar os dois braços (Arms: um braço cai?) e repetir uma frase simples (Speech: a fala sai arrastada ou estranha?). Se houver qualquer alteração, o T (Time) manda ligar para o socorro na hora. O teste não descarta o AVC quando está normal, mas ajuda a não perder o caso típico.',
@@ -2182,12 +2182,12 @@ export const articles: Article[] = [
       },
       {
         id: 'o-que-fazer',
-        heading: 'O que fazer ao suspeitar de AVC',
+        heading: 'O que fazer ao suspeitar de AVC?',
         paragraphs: [
           'Ao suspeitar de AVC, o socorro precisa ser acionado imediatamente. O tempo ganho antes da chegada ao hospital é o que abre as opções de tratamento.',
         ],
         bullets: [
-          'Ligue para o SAMU no 192 e diga que suspeita de um AVC',
+          'Procure atendimento de emergência imediatamente e diga que suspeita de um AVC',
           'Anote o horário exato em que os sintomas começaram',
           'Não ofereça comida, bebida nem remédio à pessoa',
           'Não a deixe sozinha e mantenha-a deitada, se possível',
@@ -2196,14 +2196,14 @@ export const articles: Article[] = [
       },
       {
         id: 'tempo',
-        heading: 'Por que o tempo é decisivo no AVC',
+        heading: 'Por que o tempo é decisivo no AVC?',
         paragraphs: [
           'No AVC, o tempo é o cérebro. Segundo os CDC, os tratamentos mais eficazes só estão disponíveis quando o AVC é reconhecido e atendido dentro de cerca de 3 horas após o primeiro sintoma. Por isso, anotar o horário de início e chamar o socorro de imediato importa tanto quanto o próprio diagnóstico.',
         ],
       },
       {
         id: 'fatores-risco',
-        heading: 'Quais fatores aumentam o risco de AVC',
+        heading: 'Quais fatores aumentam o risco de AVC?',
         paragraphs: [
           'Vários fatores aumentam as chances de um AVC, e muitos deles podem ser controlados ao longo dos anos:',
         ],
@@ -2220,7 +2220,7 @@ export const articles: Article[] = [
       },
       {
         id: 'prevencao',
-        heading: 'Como reduzir o risco de AVC',
+        heading: 'Como reduzir o risco de AVC?',
         paragraphs: [
           'A maior parte dos AVCs poderia ser evitada com mudanças no dia a dia e o acompanhamento dos fatores de risco. Manter a pressão controlada, não fumar, comer melhor, praticar atividade física e tratar o diabetes e o colesterol alto são as medidas que mais reduzem o risco, segundo a OMS.',
         ],
@@ -2299,7 +2299,7 @@ export const articles: Article[] = [
         id: 'sinais-de-alerta',
         heading: 'Sinais de alerta',
         paragraphs: [
-          'Estes sinais indicam crise grave. Nesses casos, ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento:',
+          'Estes sinais indicam crise grave. Nesses casos, procure atendimento de emergência ou vá imediatamente a um pronto atendimento:',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2498,7 +2498,7 @@ export const articles: Article[] = [
         heading: 'Quando buscar atendimento com urgência',
         paragraphs: [
           'A asma pode ser grave e, em casos extremos e raros, levar à morte quando a crise não recebe o tratamento correto. Por isso, certos sinais pedem atendimento imediato e não podem esperar a consulta de rotina.',
-          'Ao surgir qualquer um desses sinais, procure atendimento imediatamente: em caso de dúvida, ligue para o SAMU (192) ou vá ao pronto atendimento mais próximo.',
+          'Ao surgir qualquer um desses sinais, procure atendimento imediatamente: em caso de dúvida, procure atendimento de emergência ou vá ao pronto atendimento mais próximo.',
         ],
         bullets: [
           'Falta de ar intensa, que impede falar frases completas ou deitar.',
@@ -2858,7 +2858,7 @@ export const articles: Article[] = [
         heading: 'O tratamento começa nas primeiras horas',
         paragraphs: [
           'Nas duas situações, o tratamento busca restabelecer o fluxo de sangue antes que mais tecido morra. É por isso que o tempo entre o início dos sintomas e o atendimento muda o resultado.',
-          'O atendimento segue protocolos do SUS. No infarto, a Linha de Cuidado do Infarto Agudo do Miocárdio começa no SAMU 192, que faz o atendimento inicial e já comunica o hospital de referência.',
+          'O atendimento segue protocolos do SUS. No infarto, a Linha de Cuidado do Infarto Agudo do Miocárdio começa no SAMU, que faz o atendimento inicial e já comunica o hospital de referência.',
         ],
       },
       {
@@ -2978,7 +2978,7 @@ export const articles: Article[] = [
         id: 'emergencia',
         heading: 'Quando é emergência',
         paragraphs: [
-          'Dificuldade para respirar é emergência. Nesse caso, ligue para o SAMU, no 192, ou leve a pessoa ao pronto atendimento mais próximo.',
+          'Dificuldade para respirar é emergência. Nesse caso, procure atendimento de emergência imediatamente ou leve a pessoa ao pronto atendimento mais próximo.',
           'O inchaço em um só lado da garganta com dificuldade para abrir a boca pode indicar um acúmulo de pus ao redor da amígdala, que precisa de avaliação e tratamento no serviço de saúde.',
         ],
       },
@@ -3211,7 +3211,7 @@ export const articles: Article[] = [
         heading: 'Quando voltar para reavaliação',
         paragraphs: [
           'Se a dor não melhorar em poucos dias, piorar ou vier com dificuldade para engolir, volte ao serviço de saúde para reavaliação.',
-          'Dificuldade para respirar é emergência e pede ajuda imediata pelo SAMU, no 192.',
+          'Dificuldade para respirar é emergência e pede ajuda imediata: procure atendimento de emergência.',
         ],
         cta: {
           label: 'Veja a página sobre faringite e amigdalite',
@@ -3375,7 +3375,7 @@ export const articles: Article[] = [
         heading: 'Quando é emergência',
         paragraphs: [
           'Desidratação grave é emergência. Segundo a Organização Mundial da Saúde, há desidratação grave quando a pessoa está sonolenta ou inconsciente, tem os olhos fundos, não consegue beber ou bebe mal e a pele, quando pinçada, demora dois segundos ou mais para voltar ao normal. Diante desses sinais, não espere em casa.',
-          'Nesse caso, ligue para o SAMU, no 192, ou leve a pessoa ao pronto atendimento mais próximo, sem esperar. Em bebês e em pessoas idosas a situação pode piorar em poucas horas, por isso o tempo até o atendimento faz diferença.',
+          'Nesse caso, procure atendimento de emergência imediatamente ou leve a pessoa ao pronto atendimento mais próximo, sem esperar. Em bebês e em pessoas idosas a situação pode piorar em poucas horas, por isso o tempo até o atendimento faz diferença.',
         ],
       },
       {
@@ -3668,7 +3668,7 @@ export const articles: Article[] = [
         heading: 'Quando voltar para reavaliação',
         paragraphs: [
           'Volte ao serviço de saúde se a diarreia não melhorar em dois dias, se piorar ou se aparecerem sinais de desidratação. Em bebês, crianças pequenas e pessoas idosas, o prazo para procurar ajuda é menor.',
-          'Sinais de desidratação grave, como sonolência intensa, incapacidade de beber e pele que demora a voltar ao normal, são emergência e pedem ajuda imediata pelo SAMU, no 192.',
+          'Sinais de desidratação grave, como sonolência intensa, incapacidade de beber e pele que demora a voltar ao normal, são emergência e pedem ajuda imediata: procure atendimento de emergência.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',

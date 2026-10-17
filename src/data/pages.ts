@@ -146,7 +146,7 @@ export const staticPages: StaticPage[] = [
       'Este aviso diz o que fazer e o que não fazer com o que você lê aqui, e até onde vai a responsabilidade do projeto. Ele não repete a descrição do site: isso está na [página sobre o projeto](/sobre/).',
     notice: {
       title: 'Em caso de emergência, não use este site',
-      body: 'Ligue para o SAMU pelo 192 ou vá até o serviço de saúde mais próximo. Para orientações gerais do Ministério da Saúde, o Disque Saúde atende pelo 136.',
+      body: 'Procure atendimento de emergência imediatamente ou vá até o serviço de saúde mais próximo. Para orientações gerais do Ministério da Saúde, o Disque Saúde atende pelo 136.',
     },
     sections: [
       {

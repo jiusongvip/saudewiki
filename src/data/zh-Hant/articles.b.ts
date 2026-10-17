@@ -619,7 +619,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       {
         id: 'emergencia',
         heading: '何時屬於急症',
-        paragraphs: ['若出現以下情況，請立即前往急診或撥打 SAMU 192：'],
+        paragraphs: ['若出現以下情況，請立即前往急診或撥打當地急救電話：'],
         bullets: [
           '難以完整說出一句話',
           '呼吸時明顯看見頸部與肋骨的肌肉在用力',
@@ -866,7 +866,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         id: 'o-que-fazer',
         heading: '懷疑時的應對',
         bullets: [
-          '立即撥打巴西緊急醫療服務 SAMU 的 192 求助',
+          '立即撥打當地急救電話求助',
           '若在場另有他人，不要自己開車',
           '不要等待症狀過去才就醫',
           '不要自行服用藥物',
@@ -910,7 +910,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
     body: [
       {
         id: 'o-que-e',
-        heading: '什麼是腦中風',
+        heading: '什麼是腦中風？',
         paragraphs: [
           '腦中風是一種急症：每拖延一分鐘，就有更多腦細胞受損。能否及早辨識徵兆並立刻求救，往往決定了能不能完全康復，還是留下永久後遺症。',
           '腦中風發生於供應腦部的血管阻塞或破裂，使該區域因缺血而失去功能。主要有兩大型態：缺血性腦中風由血栓阻塞造成，約佔八成五；出血性腦中風由血管破裂引起，約佔一成五。此外，短暫性腦缺血發作（俗稱小中風）的症狀會在數分鐘內緩解，卻是即將發生中風的重要警訊。',
@@ -918,7 +918,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
       {
         id: 'sinais',
-        heading: '腦中風有哪些症狀與前兆',
+        heading: '腦中風有哪些症狀與前兆？',
         paragraphs: [
           '腦中風的徵兆通常突然出現，且多半只影響身體一側。依據世界衛生組織與各國衛生單位的整理，應留意以下症狀：',
         ],
@@ -933,7 +933,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
       {
         id: 'teste-rapido',
-        heading: '如何用 FAST 口訣辨識腦中風',
+        heading: '如何用 FAST 口訣辨識腦中風？',
         paragraphs: [
           'FAST 是最簡單、任何人都能做的辨識口訣，每個字母對應一項觀察重點：',
           '請對方笑一笑（Face 臉：一側是否歪斜？）、舉起雙手（Arms 手：一隻是否垂落？）、說一句簡單的話（Speech 說：是否口齒不清？）。任一項異常，T（Time 時間）就代表要立刻撥打急救電話。台灣腦中風學會也以 FAST 作為對民眾的衛教口訣，提醒把握黃金時間就醫；測試正常並不能完全排除中風，但能避免漏掉典型個案。',
@@ -941,12 +941,12 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
       {
         id: 'o-que-fazer',
-        heading: '懷疑腦中風時該怎麼做',
+        heading: '懷疑腦中風時該怎麼做？',
         paragraphs: [
           '一旦懷疑是中風，必須立刻啟動急救。搶在到達醫院前的黃金時間內就醫，才打得開治療的選項。',
         ],
         bullets: [
-          '立刻撥打當地急救電話（台灣 119、香港 999），並說明懷疑是腦中風',
+          '立刻撥打當地急救電話，並說明懷疑是腦中風',
           '記下症狀開始的確切時間',
           '不要給患者進食、喝水或自行用藥',
           '不要讓患者獨處，必要時協助平躺',
@@ -955,14 +955,14 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
       {
         id: 'tempo',
-        heading: '為什麼黃金時間這麼重要',
+        heading: '為什麼黃金時間這麼重要？',
         paragraphs: [
           '中風講求分秒必爭。根據美國 CDC，最有效的中風治療，必須在症狀出現後約三小時內就醫才能使用；因此記下發作時間、立刻求救，和診斷本身一樣重要。',
         ],
       },
       {
         id: 'fatores-risco',
-        heading: '哪些因素會增加腦中風風險',
+        heading: '哪些因素會增加腦中風風險？',
         paragraphs: [
           '多項因素會提高腦中風的風險，其中許多可以長期控制：',
         ],
@@ -979,7 +979,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       },
       {
         id: 'prevencao',
-        heading: '如何降低腦中風風險',
+        heading: '如何降低腦中風風險？',
         paragraphs: [
           '多數中風其實可以靠日常調整與控制風險因子來預防。依照世界衛生組織的建議，控制血壓、不吸菸、均衡飲食、規律運動、並治療糖尿病與高膽固醇，是降低風險最有效的幾項措施。',
         ],
@@ -1035,7 +1035,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
       {
         id: 'sinais-de-alerta',
         heading: '警示訊號',
-        paragraphs: ['以下訊號代表嚴重發作，請立即撥打 SAMU 192 或前往急診：'],
+        paragraphs: ['以下訊號代表嚴重發作，請立即撥打當地急救電話或前往急診：'],
         bullets: [
           '難以完整說出一句話',
           '呼吸時明顯看見頸部與肋骨的肌肉在用力',
@@ -1191,7 +1191,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         heading: '何時需要緊急就醫',
         paragraphs: [
           '氣喘可能很嚴重；在極端而罕見的情況下，若發作沒有得到正確治療，甚至可能致命。因此某些警訊需要立即就醫，不能等例行門診。',
-          '一旦出現下列任一警訊，請立刻就醫；若有疑慮，可撥打緊急醫療專線（SAMU 192）或前往最近的急診。',
+          '一旦出現下列任一警訊，請立刻就醫；若有疑慮，可撥打當地急救電話或前往最近的急診。',
         ],
         bullets: [
           '嚴重呼吸困難，連說完整句子或平躺都有困難。',
@@ -1463,7 +1463,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         heading: '治療從最初幾個小時開始',
         paragraphs: [
           '兩種情況的治療目標，都是在更多組織壞死之前恢復血流。這就是為什麼從症狀開始到就醫之間的間隔，會改變結果。',
-          '照護依循 SUS 的準則。心肌梗塞方面，急性心肌梗塞照護流程從 SAMU 192 開始，由它完成初步處置並通知轉介醫院。',
+          '照護依循 SUS 的準則。心肌梗塞方面，急性心肌梗塞照護流程從 SAMU 開始，由它完成初步處置並通知轉介醫院。',
         ],
       },
       {
@@ -1555,7 +1555,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         id: 'emergencia',
         heading: '什麼情況算急症',
         paragraphs: [
-          '呼吸困難是急症。這種情況請撥打巴西行動急救服務（SAMU）192，或把患者送到最近的急診。',
+          '呼吸困難是急症。這種情況請撥打當地急救電話，或把患者送到最近的急診。',
           '喉嚨只有一側腫起並伴隨張口困難，可能代表扁桃腺周圍積膿，需要在醫療院所接受評估與治療。',
         ],
       },
@@ -1723,7 +1723,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         heading: '什麼時候需要回診',
         paragraphs: [
           '如果疼痛幾天內沒有好轉、反而加重，或出現吞嚥困難，請回到醫療院所重新評估。',
-          '呼吸困難是急症，請立即撥打巴西行動急救服務（SAMU）192 求助。',
+          '呼吸困難是急症，請立即撥打當地急救電話求助。',
         ],
         ctaLabel: '咽喉炎與扁桃腺炎頁面請見這裡',
       },
@@ -1838,7 +1838,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         heading: '什麼情況算急症',
         paragraphs: [
           '嚴重脫水屬於急症。世界衛生組織的判定是：病人嗜睡或意識不清、眼窩凹陷、無法喝水或喝得很差，且皮膚捏起後需要兩秒以上才回復。出現這些情況不要在家等待。',
-          '此時請撥打 SAMU（192），或立刻將病人送往最近的急診，不要拖延。對嬰兒與長者，情況可能幾小時內就惡化，因此就醫所需的時間格外重要。',
+          '此時請撥打當地急救電話，或立刻將病人送往最近的急診，不要拖延。對嬰兒與長者，情況可能幾小時內就惡化，因此就醫所需的時間格外重要。',
         ],
       },
       {
@@ -2068,7 +2068,7 @@ export const zhArticlesB: Record<string, LocalizedArticle> = {
         heading: '什麼時候回診',
         paragraphs: [
           '如果腹瀉兩天內沒有好轉、反而加重，或出現脫水訊號，請回到醫療機構。嬰兒、幼兒與長者就醫的時間界線更短。',
-          '嚴重脫水的訊號，例如極度嗜睡、無法喝水與皮膚遲遲不回復原狀，屬於急症，請立即撥打 SAMU（192）求助。',
+          '嚴重脫水的訊號，例如極度嗜睡、無法喝水與皮膚遲遲不回復原狀，屬於急症，請立即撥打當地急救電話求助。',
         ],
         ctaLabel: '腸胃炎頁面請見這裡',
       },

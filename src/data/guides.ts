@@ -62,7 +62,7 @@ export const listGuides: Record<GuidePage, ContentSection[]> = {
         'Há quadros em que a página deve ficar aberta na mesa e a ligação ser feita antes. Os verbetes abaixo descrevem cada um desses sinais com suas fontes; a lista serve para reconhecer que é hora de procurar atendimento, não para decidir qual doença você tem.',
       ],
       bullets: [
-        'Fraqueza ou dormência de um lado do corpo, boca torta, fala embolada ou perda súbita de visão: [infarto e AVC](/doencas/infarto-e-avc/). O tempo muda o tratamento, e o SAMU atende no 192.',
+        'Fraqueza ou dormência de um lado do corpo, boca torta, fala embolada ou perda súbita de visão: [infarto e AVC](/doencas/infarto-e-avc/). O tempo muda o tratamento, e procure atendimento de emergência imediatamente.',
         'Aperto ou dor no peito que sobe para o pescoço, a mandíbula, as costas ou o braço: a mesma página, e o artigo [quais são os sinais do infarto](/artigos/infarto-quais-sao-os-sinais-e-o-que-fazer/).',
         'Febre que começa a ceder seguida de dor abdominal intensa, vômitos persistentes, sangramento, tontura ou urina muito menor: [dengue](/doencas/dengue/), fase crítica.',
         'Chiado no peito com dificuldade para falar frases completas, lábios azulados ou nenhuma resposta ao medicamento de alívio: [asma](/doencas/asma/).',
