@@ -1,22 +1,23 @@
 ---
 name: disease-encyclopedia-ptbr
-description: 根据用户输入的疾病名称，优先用脚本查询百度健康疾病目录数据接口定位医典链接，索引未命中时改用浏览器百度搜索兜底，或直接读取用户提供的医典链接，核对权威医学信息，重写成原创、符合巴西读者语言与搜索习惯的葡语内容，并连同繁体中文孪生与 5 篇派生文章直接写入本站 src/data 数据文件。先判定是新增疾病还是修改已有疾病，两种模式分别执行；显式调用本技能且只提供疾病名称时也应执行；不用于个人诊断或个体化治疗。
+description: 根据用户输入的疾病名称，优先用脚本查询百度健康疾病目录数据接口定位医典链接，索引未命中时改用浏览器百度搜索兜底，或直接读取用户提供的医典链接，核对权威医学信息，重写成原创、符合巴西读者语言与搜索习惯的葡语疾病词条，并连同繁体中文孪生直接写入本站 src/data 数据文件。先判定是新增疾病还是修改已有疾病，两种模式分别执行；显式调用本技能且只提供疾病名称时也应执行；派生文章由配套的 article-derivation-ptbr skill 生成；不用于个人诊断或个体化治疗。
 ---
 
 # 巴西葡语疾病医典
 
-根据疾病名称，制作或更新一个疾病词条（含 5 篇派生文章），直接写入本站数据文件。以百度健康医典确定疾病主题和知识覆盖范围，再独立核实医学结论并完成巴西葡语本地化重写。
+根据疾病名称，制作或更新一个疾病词条，直接写入本站数据文件。以百度健康医典确定疾病主题和知识覆盖范围，再独立核实医学结论并完成巴西葡语本地化重写。**派生文章不在本 skill 范围内**，由配套的 [`article-derivation-ptbr`](../article-derivation-ptbr/SKILL.md) skill 生成，两者由[仓库规则](../../AGENTS.md)第一节的链式工作流串联。
 
 ## 默认设置
 
 - 接受中文、葡语或英语疾病名称。检索前将其解析为规范中文疾病名，写作前再确定巴西葡语中的规范名称。
 - 显式调用本技能时，如果用户只输入一个疾病名称，应将其视为完整任务并直接执行，不再追问需要什么输出。
 - **每次固定产出两个语言层**：`pt-BR`（编辑源）与 `zh-Hant`（繁体孪生）。不再产出其他地区版本。
-- **输出目标是本站数据文件，不是 Markdown 文件**：疾病词条写入 `src/data/diseases.ts`，派生文章写入 `src/data/articles.ts`，繁体孪生写入 `src/data/zh-Hant/` 下对应的半区文件，并完成主题、分类、图片等全站接线。完整文件清单与字段映射见第 5 步。
+- **输出目标是本站数据文件，不是 Markdown 文件**：疾病词条写入 `src/data/diseases.ts`，繁体孪生写入 `src/data/zh-Hant/` 下对应的半区文件，并完成主题、分类、图片等全站接线。派生文章及其接线由配套的 `article-derivation-ptbr` skill 负责。完整文件清单与字段映射见第 5 步。
 - 写入前**必须先判定模式**：该疾病在本站是否已存在 → 新增模式或修改模式，见第 0 步。
 - slug 使用稳定的 ASCII kebab 格式（如 `dengue`、`hepatites-virais`）。
 - 成文中不得提及或引用百度或任何未核实来源；来源改为写入结构化的 `references` 字段，只放真实可打开的巴西、PAHO 或 WHO 官方链接。
-- **每次执行都必须走满[质检工作流](references/qc-workflow.md)**：三轮质检（医学与安全、巴西本地事实、巴西葡语语言）走完后综合评分必须为 10 分且无关键错误才可交付。
+- 共享资产（本 skill 与文章 skill 只此一份）：编辑清单 [`../_shared/editorial-checklist.md`](../_shared/editorial-checklist.md)、三轮质检 [`../_shared/qc-workflow.md`](../_shared/qc-workflow.md)、定位脚本 [`../_shared/scripts/find_disease.py`](../_shared/scripts/find_disease.py)。
+- **每次执行都必须走满[质检工作流](../_shared/qc-workflow.md)**：三轮质检（医学与安全、巴西本地事实、巴西葡语语言）走完后综合评分必须为 10 分且无关键错误才可交付。
 
 ## 工作流程
 
@@ -36,36 +37,37 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 | 环节 | 新增模式 | 修改模式 |
 |---|---|---|
 | pt-BR 疾病词条 | 在 `diseases.ts` 数组末尾追加新条目 | 就地编辑已有条目的字段与 section |
-| zh-Hant 孪生 | 追加新 key 到 `diseases.b.ts`；缺则补齐 | 就地编辑已有孪生；缺失则补齐 |
-| 派生文章 | 新增 5 篇 | 只补**缺失主题**；已有同主题文章不推倒重写 |
+| 词条的 section 结构 | 按医典正文 H2 子主题**逐个建节**（上限 15 节，超出按 5.3 合并） | 对照医典正文 H2，**缺失的 H2 新增独立 section**（新 id）；已有 section 只改必要内容，不推倒重写 |
+| zh-Hant 孪生 | 追加新 key 到 `diseases.b.ts`；缺则补齐 | 就地编辑已有孪生；缺失则补齐（新增 section 必须成对补进孪生） |
+| 派生文章 | **不在本 skill 范围**（由配套 [`article-derivation-ptbr`](../article-derivation-ptbr/SKILL.md) skill 生成） | 同左 |
 | topics / regions / images | 全部接线 | 只在受影响处增改，移除失效引用 |
 | slug / id | 新定 ASCII slug，`id` 与 `slug` 相同 | **绝不改动**，会断链并改变路由 |
 | 日期 | `publishedAt` = `updatedAt` = 当天 | 保留原 `publishedAt`，只更新 `updatedAt` |
-| 审校状态 | `needs_review` | 保留原值；若内容有实质改动则置 `needs_review`，并在最终回复中说明 |
+| 审校状态 | `needs_review` | 一律置 `needs_review`，与站内现有内容的审核状态保持一致，并在最终回复中说明 |
 
-修改模式的额外硬约束：**不得改动 slug、`id`、已有 section 的 `id`**；新增 section 必须使用新 id，且不得与视图已保留的 id 冲突（见 5.7 第 12 条）。一级标题、锚点与既有内链必须继续有效。
+修改模式的额外硬约束：**不得改动 slug、`id`、已有 section 的 `id`**；补齐缺失的 H2 节时必须**新增独立 section 并使用新 id**，不得把该 H2 的内容塞进已有 section 草草带过，新 id 也不得与视图已保留的 id 冲突（见 5.8 第 12 条）。一级标题、锚点与既有内链必须继续有效。
 
 ### 1. 定位准确的疾病页面
 
 如果用户提供了百度健康医典链接，用浏览器直接打开并核对疾病标题。只有疾病名称时，按「脚本索引优先、浏览器搜索兜底」定位真实链接：
 
-1. 运行 `scripts/find_disease.py <疾病名>`（路径相对于本技能目录，用 `python3` 执行）。脚本通过接口 `https://jiankang.baidu.com/widescreen/api/entitylist` 枚举疾病目录的全部分类，构建「疾病名 → 医典链接」索引并输出精确匹配的 `url`（形如 `https://www.baidu.com/bh/dict/ydxx_<长数字编号>?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`）。命中即用；脚本带一张「俗名/缩写 → 规范词条名」别名表（如 `感冒` → `上呼吸道感染`、`乙肝` → `慢性乙型肝炎`、`冠心病` → `冠状动脉粥样硬化性心脏病`），命中别名时按规范词条返回链接；脚本只输出接口返回的真实链接，编号不得猜测、改写或拼接。首次运行需联网构建索引（55 个请求并发，约数秒），之后默认使用本地缓存（24 小时），加 `--refresh` 可强制刷新。
+1. 运行 `python3 ../_shared/scripts/find_disease.py <疾病名>`（路径相对于本技能目录）。脚本通过接口 `https://jiankang.baidu.com/widescreen/api/entitylist` 枚举疾病目录的全部分类，构建「疾病名 → 医典链接」索引并输出精确匹配的 `url`（形如 `https://www.baidu.com/bh/dict/ydxx_<长数字编号>?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`）。命中即用；脚本带一张「俗名/缩写 → 规范词条名」别名表（如 `感冒` → `上呼吸道感染`、`乙肝` → `慢性乙型肝炎`、`冠心病` → `冠状动脉粥样硬化性心脏病`），命中别名时按规范词条返回链接；脚本只输出接口返回的真实链接，编号不得猜测、改写或拼接。首次运行需联网构建索引（55 个请求并发，约数秒），之后默认使用本地缓存（24 小时），加 `--refresh` 可强制刷新。
 2. 若脚本未精确匹配（脚本会列出相近条目），说明该病名不在索引内，且别名表也没覆盖到（索引只覆盖疾病目录里的规范词条，而且每个分类返回的词条是封顶的，如「呼吸内科」只回 62 条；例如「基孔肯雅热」与「慢性阻塞性肺病」都在索引之外）。此时脚本会直接打印百度搜索直达链接（`https://www.baidu.com/s?wd=<病名>`），改用浏览器打开它，在结果页中查找百度健康的医典卡片（通常带「快速了解…」标题或百度健康标识）。**医典卡片不一定在结果第一条，前几位常是广告或其他平台，需要从上到下扫描整个结果页，必要时向下滚动；若本页没有，再翻到下一页查找。** 找到后点击并切换到新标签页，读取实际打开的完整链接。搜索词与词条标题可能不同，须确认该词条在医学上确实是目标疾病，确认后成文使用规范病名。只使用这一种站内搜索方式，不使用其他外部搜索引擎。
 3. 用浏览器打开定位到的链接（脚本输出的 `url` 或搜索打开的页面），核对标题与疾病一致、页面具有医典标识且正文可读。**链接必须带查询参数：无参数的裸链接会渲染成空白页，至少保留 `?from=dicta`；脚本输出与搜索打开的链接已包含参数，原样使用，不得截断。** 医典编号前缀可能是 `ydxx_`（脚本索引返回）或 `ydzz_`（部分搜索词条，如「发烧」返回 `ydzz_`），两者都要按 `<前缀><长数字编号>` 原样保留，不得猜测、改写或拼接编号。不得只凭 URL 格式或接口字段认定资料已获取，也不得用普通科普文章、问答或疾病百科摘要代替医典正文。
 4. 仅当脚本与百度搜索都不可用时，才退回用浏览器打开疾病目录页（`https://jiankang.baidu.com/widescreen/entitylist`），逐一切换分类/子标签/翻页查找。该目录页包含「分类」（按类型、按部位、按科室）、各分类下的子标签（如「大家在看」「传染病」「慢性病」等，具体以页面实际渲染为准）以及字母索引，要逐一切换、翻页，不要只看默认首屏，也不要因为某个标签里没有就断定条目不存在。
 
 已验证的路径示例：
 
-- 索引命中：`python3 scripts/find_disease.py 黄热病` → 精确定位 `https://www.baidu.com/bh/dict/ydxx_10832053142974960414?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`；
-- 索引命中：`python3 scripts/find_disease.py 疟疾` → 精确定位 `https://www.baidu.com/bh/dict/ydxx_8366163726564178028?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`；
-- 索引命中：`python3 scripts/find_disease.py 过敏性鼻炎` → 精确定位 `https://www.baidu.com/bh/dict/ydxx_7998945448732660588?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`；
+- 索引命中：`python3 ../_shared/scripts/find_disease.py 黄热病` → 精确定位 `https://www.baidu.com/bh/dict/ydxx_10832053142974960414?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`；
+- 索引命中：`python3 ../_shared/scripts/find_disease.py 疟疾` → 精确定位 `https://www.baidu.com/bh/dict/ydxx_8366163726564178028?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`；
+- 索引命中：`python3 ../_shared/scripts/find_disease.py 过敏性鼻炎` → 精确定位 `https://www.baidu.com/bh/dict/ydxx_7998945448732660588?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`；
 - 别名命中：`感冒` 为俗名，脚本按别名表解析为规范词条「上呼吸道感染」→ `https://www.baidu.com/bh/dict/ydxx_7857558483949126547?from=dicta`；
 - 别名命中：`乙肝` 按别名表解析为「慢性乙型肝炎」→ `https://www.baidu.com/bh/dict/ydxx_8101833864273141868?from=dicta&sf_ref=med_pc&sf_ch=ch_med_pc`；
 - 搜索兜底：`基孔肯雅热` 索引不命中（真实疾病也可能缺失），百度搜索得到同名词条 → `https://www.baidu.com/bh/dict/ydxx_10916817226070139834?from=dicta`；
 - 搜索兜底：`发烧` 索引不命中（俗名，规范词条为「发热」），医典卡片在结果第 3 条（前两条为广告），向下扫描仍可定位 → `https://www.baidu.com/bh/dict/ydzz_13814826510454812508?from=dicta`（注意此处编号前缀是 `ydzz_`）。
 - 搜索兜底：`慢性阻塞性肺病` 索引不命中（接口每个分类的词条是封顶的），脚本直接打印搜索直达链接 `https://www.baidu.com/s?wd=%E6%85%A2%E6%80%A7%E9%98%BB%E5%A1%9E%E6%80%A7%E8%82%BA%E7%97%85`。
 
-无论用哪种方式定位，权威医学事实核验仍按第 3 步执行。百度医典页面动态加载，正文需用浏览器读取渲染后的内容，并按需展开章节，完整查看概述、病因、症状、就医、诊断、治疗、预后和日常预防等内容。
+无论用哪种方式定位，权威医学事实核验仍按第 3 步执行。百度医典页面动态加载，正文需用浏览器读取渲染后的内容，并按需展开章节，完整查看全部内容。**读取时必须记下医典的两层结构**：(a) 顶层 8 栏（概述、病因、症状、就医、治疗、预后、日常、图解）的标题与顺序，作为本站 section 的**排序框架**；(b) 每栏正文里逐个 H2 子主题小节（如"并发症""相关检查""鉴别诊断"）的标题与顺序，以及其下的 H3/H4。它决定本站的 section 划分，是第 5 步结构对齐的唯一基准。
 
 遇到 404、空白页或抓取失败时，区分工具请求失败与浏览器中实际出现的错误页，不据一次工具报错断言疾病页面不存在。页面渲染成空白时，先确认打开的是含 `?from=dicta` 等查询参数的完整链接（不带参数的裸链接会空白），并等待 JS 渲染完成。同时检查是否误用了 Markdown 展示中的反斜杠转义（例如把 `ydxx_` 写成 `ydxx\\_`）。若仍失败，用 `--refresh` 重跑脚本核对编号是否变化；脚本未命中时改用百度搜索兜底；两者都无果时再从疾病目录页重新获取。不要反复重试同一失败请求。若以上方式均不可用，说明失败环节并请用户提供可访问的医典链接。
 
@@ -75,7 +77,7 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 
 ### 2. 建立事实清单
 
-按医学主题提取事实，不要按原文段落逐段处理。将信息分为四类：
+按**医典的 8 栏框架**逐栏提取事实，并逐栏深入到其正文的每个 H2 子主题，不要按原文段落逐段排列：每个 H2 小节都要记录要点，作为第 5 步建节的依据。将信息分为四类：
 
 - 经核实后可以保留的稳定临床事实；
 - 需要删除或替换的中国特定信息，例如地理分布、流行季节、就诊科室、诊断标准、疫苗供应、药品审批、隔离规定或本地流行病学数据；
@@ -101,9 +103,9 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 
 ### 4. 面向巴西读者重写
 
-读取并遵守[葡语编辑与质检清单](references/editorial-checklist.md)。
+读取并遵守[葡语编辑与质检清单](../_shared/editorial-checklist.md)。
 
-根据巴西用户的搜索意图重新拟定文章结构。优先使用患者熟悉的自然表达，仅在有助于准确理解时引入专业术语。标题应回答真实的搜索问题，例如症状、传播方式、危险信号、诊断、治疗、病程、预防、用药安全以及疾病是否具有传染性。
+章节的**划分以医典正文的 H2 子主题为准、排序以医典 8 栏为准**（见 5.3），各节**标题措辞**按巴西用户的搜索意图重新拟定。优先使用患者熟悉的自然表达，仅在有助于准确理解时引入专业术语。标题应回答真实的搜索问题，例如症状、传播方式、危险信号、诊断、治疗、病程、预防、用药安全以及疾病是否具有传染性。
 
 成文不能只做逐句翻译。初稿完成后，必须进行一次独立的巴西葡语母语化编辑：检查代词指代、主动与被动表达、介词搭配、并列结构、句子完整性、患者熟悉的词汇以及中文式名词化表达。优先使用主语明确、动作直接、患者容易理解的句子；必要时重复名词，避免为了省略而造成歧义。
 
@@ -111,10 +113,7 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 
 本地化单位、药品名称、医疗服务表达、流行病学和疫苗信息。只有在对读者有帮助且相关内容已经核实时，才使用 SUS、UBS、UPA、SAMU 或急诊等巴西机构和服务名称。
 
-本步结束前还要完成两项派生产出：
-
-1. **同一份事实清单一次性产出 `zh-Hant` 孪生**：不是二次翻译，而是与 `pt-BR` 同源改写；专有名词、术语与数字必须与 `pt-BR` 一致，语气、标点与用词习惯遵循台湾繁体中文，不使用 `你`（统一用 `您`），不得出现简体专用字形。
-2. **从该疾病词条自身的 section 中派生 5 篇文章**：挑选 5 个最高价值主题各写一篇独立文章，优先级与查重要求见 5.3。
+本步结束前还要产出 **`zh-Hant` 孪生**：不是二次翻译，而是与 `pt-BR` 同源改写；专有名词、术语与数字必须与 `pt-BR` 一致，语气、标点与用词习惯遵循台湾繁体中文，不使用 `你`（统一用 `您`），不得出现简体专用字形。
 
 ### 5. 写入站点数据文件
 
@@ -125,19 +124,17 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 `pt-BR` 源：
 
 1. `src/data/diseases.ts` —— 疾病词条（新增模式追加到数组末尾的 `];` 之前；修改模式就地编辑）。
-2. `src/data/articles.ts` —— 派生文章（同上）。
-3. `src/data/topics.ts` —— 把疾病 slug 加入主题的 `diseaseSlugs`，把文章 slug 加入 `articleSlugs`。
-4. `src/data/regions.ts` —— **仅当**词条自身的文字明确写明某个身体部位受累时，才把疾病 slug 加入该 region 的 `diseaseSlugs`（沿用该文件既有的规则）。
+2. `src/data/topics.ts` —— 把疾病 slug 加入主题的 `diseaseSlugs`（文章 slug 由配套文章 skill 处理）。
+3. `src/data/regions.ts` —— **仅当**词条自身的文字明确写明某个身体部位受累时，才把疾病 slug 加入该 region 的 `diseaseSlugs`（沿用该文件既有的规则）。
 
 `zh-Hant` 孪生：
 
-5. `src/data/zh-Hant/diseases.b.ts` —— 疾病孪生。
-6. `src/data/zh-Hant/articles.b.ts` —— 文章孪生。
-7. `src/data/zh-Hant/categories.ts` —— 仅当引入新的 `categorySlug` 时才加 key。
-8. `src/data/zh-Hant/image-alts.ts` —— 仅当同时配图时才加 key（与 `images.ts` 成对）。
-9. `src/data/zh-Hant/topics.ts` —— 仅当新建 topic 或改动 `scope` 时才改（`scope` 行数须与源相等）。
+4. `src/data/zh-Hant/diseases.b.ts` —— 疾病孪生。
+5. `src/data/zh-Hant/categories.ts` —— 仅当引入新的 `categorySlug` 时才加 key。
+6. `src/data/zh-Hant/image-alts.ts` —— 仅当配疾病图时才加 key（与 `images.ts` 成对）。
+7. `src/data/zh-Hant/topics.ts` —— 仅当新建 topic 或改动 `scope` 时才改（`scope` 行数须与源相等）。
 
-**zh-Hant 的分块与合并（务必遵守）**：孪生侧的疾病与文章各有两个作者文件 —— `diseases.a.ts` + `diseases.b.ts`、`articles.a.ts` + `articles.b.ts` —— 由 `src/data/zh-Hant/diseases.ts`、`articles.ts` 用 `{ ...A, ...B }` 合并成单一 Record。key 落在哪个半区**语义完全等价**，只是分块写作约定。**新增孪生一律追加到 `.b`；不要改动 `.a`；不要新建 `.c`/`.d` 之类新的分块文件。**
+**zh-Hant 的分块与合并（务必遵守）**：孪生侧的疾病与文章各有两个作者文件 —— `diseases.a.ts` + `diseases.b.ts`、`articles.a.ts` + `articles.b.ts` —— 由 `src/data/zh-Hant/diseases.ts`、`articles.ts` 用 `{ ...A, ...B }` 合并成单一 Record。key 落在哪个半区**语义完全等价**，只是分块写作约定。**本 skill 只写疾病侧：新增孪生一律追加到 `diseases.b.ts`；不要改动 `.a`；不要新建 `.c`/`.d` 之类新的分块文件。文章侧的 `articles.b.ts` 由配套文章 skill 写。**
 
 不要新建 `diseases-new.ts` 之类的兄弟文件：`pt-BR` 侧 `src/lib/content.ts` 与 `scripts/check-i18n.mjs` 直接 `import { diseases } / { articles }`，新建文件会破坏契约。
 
@@ -160,36 +157,59 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 | 内链 | 段落内联 `[label](/path/)` 以及 `cta: { label, href }`（根路径） |
 | 资料来源 | `references: [{ label, url, publisher }]` |
 
-文章（`Article`）：`title`、`excerpt`、`slug`+`id`、`body[].id/heading` 与 `body[].paragraphs`/`bullets`/`cta`。文章**没有** `faq` 与 `keywords` 字段，FAQ 改写为普通 body section；免责声明同样不写入数据。标题超过 60 字时才加 `metaTitle`，且繁体孪生必须镜像 —— 源没有而孪生有的 `metaTitle` 会被门禁判为错误。
+文章的字段映射见配套的 [`article-derivation-ptbr`](../article-derivation-ptbr/SKILL.md)。
 
-#### 5.3 派生 5 篇文章
+#### 5.3 结构对齐：section = 医典正文 H2 子主题，8 栏仅作排序
 
-从该疾病词条**自身的 section** 中挑 5 个最高价值主题各派生一篇。默认优先级：危险信号与何时就医 → 传播方式或危险因素 → 诊断与检查 → 治疗与护理 → 预防与疫苗。缺少该 section 时顺延到实际存在的等价 section（如高风险人群、分型分期、鉴别诊断）。
+本站的数据模型是**扁平**的：`ContentSection` 只有 `id`+`heading`+`paragraphs`+`bullets`（见 `src/types.ts`），视图对每个 section 只渲染一个 `<h2>`，没有子节字段。**一节只能承载医典的一个层级**，所以必须先选定哪一层做节。规则如下，新增与修改两种模式都适用。
 
-- **先查重**：若 `src/data/articles.ts` 中已有该疾病的同主题文章，只补缺失主题，不重复造；修改模式尤其如此。
-- 文章 slug 使用 ASCII kebab，例如 `<disease-slug>-como-se-transmite`、`<disease-slug>-sinais-de-alerta`。
-- 5 篇必须各自独立成文，不得把 section 原样搬过来；同一事实在不同文章中的措辞与侧重要有区分。
+**建节**
 
-#### 5.4 关系接线（必须双向）
+1. **节 = 医典正文的 H2 子主题层**。医典每个顶层栏正文里的每个 H2 小节（如"并发症""相关检查""鉴别诊断"），在本站都建一个**独立 section**，`heading` 对应该 H2 主题；逐个 H2 都建，不挑选。
+2. **H3/H4 用 `bullets`/段落承载**。H2 之下的 H3、H4 不再建节，降为该 section 的 `bullets` 或段落；被降级的子标题作为 bullet 的首词保留（如「血常规：…」），语意、数字与原文一律不删，以保证医典内容显示全。
+3. **顶层 8 栏不自身成节，只作排序与归属框架**。section 顺序按医典 8 栏（概述、病因、症状、就医、治疗、预后、日常、图解）的先后排列，同一栏内的多个 H2 节按该栏内顺序连续排列。
+4. **图解栏不立节**，对应首节的配图，见 5.6。
+5. 医典里不属于正文小节的内容（摘要表格、零散问答、医生履历等）按 5.2 处理，不硬造节。
+6. 安全例外：**危险信号与何时就医**即使医典未独立成 H2，也必须建独立警示 section（`id: 'sinais-de-alerta'` + `bullets`），这是安全底线，不随医典结构变化。
+7. 孪生同步：每个 section 在 `zh-Hant` 孪生里必须有相同 `id`、对应繁体 `heading`，以及条数相等的 `paragraphs` / `bullets`。
 
-- `disease.relatedArticleSlugs` = 本次 5 篇（修改模式取并集，不删除已有值）。
+**合并规则（节数上限 15）**
+
+按 H2 逐个建节后，若某词条的 section 总数**超过 15 节**，按下述规则合并直到 ≤15；未超过 15 的不合并。
+
+1. **只在同一顶层栏内合并**，跨栏绝不合并（如"症状"不能并进"治疗"）。合并后的节归它原来的栏，顺序按该栏在医典里的位置。
+2. **只并"同父 + 同类"的兄弟**：同一父标题下的**同质枚举**才可合并（如"相关检查"下的血常规/血生化/病原学/影像，或"分型"下的各型）。不同父节点、不同临床维度（诊断 vs 治疗 vs 并发症）不合并。
+3. **合并是降层级，不是删内容**：合并后 section 的 `heading` 取上位主题名，被并 H2 的内容连同其下的 H3/H4 一并降为 `bullets`，语意与数字一律保留。
+4. **例外：`sinais-de-alerta`（危险信号）永远独立成节**，即使超限也不并入别节。
+5. **例外：被引用的锚点不得并入** —— 任何被 `faq`、内链或派生文章 `cta` 指向的 section id，合并即断锚点，必须保留独立，改在别处凑合并额度。修改模式下若合并会改动已有且被引用的 id，优先保留该 id。
+
+本次按 5.3 合并了哪些项、由哪个 `id` 承载，须在第 6 步的交付说明里列出。
+
+#### 5.4 派生文章（由配套 skill 负责）
+
+**不在本 skill 范围内**：派生文章由配套的 [`article-derivation-ptbr`](../article-derivation-ptbr/SKILL.md) skill 生成，其**数量与选题由医典页面的「相关阅读」模块决定**（无该模块不生成；≤5 条按条数；>5 条取 5 篇）。本 skill 只负责疾病词条自身：新建词条时 `relatedArticleSlugs` 置为空数组，由文章 skill 在生成文章后回填。
+
+#### 5.5 关系接线（疾病侧）
+
 - `disease.relatedTopicSlugs` = 并入的主题；`disease.relatedDiseaseSlugs` = 2 至 4 个**已存在**的 slug（同分类或鉴别诊断对象）。
-- `article.diseaseSlugs = [diseaseSlug]`；`article.topicSlugs ⊆ disease.relatedTopicSlugs`；`article.relatedArticleSlugs` = 其余 4 篇（必要时并入已有相关文章）。
-- 词条 section 的 `cta.href` 指向对应文章，文章的 `cta.href` 指回疾病页。
+- `disease.relatedArticleSlugs` 新建时置为空数组，由配套文章 skill 在生成文章后回填；本 skill 不写该字段的文章引用。
+- 词条 section 指向文章的 `cta.href` 由文章 skill 在生成文章后补上。
 - 分类：优先复用 `src/data/categories.ts` 中已有的 `categorySlug`；确需新增时在 `zh-Hant/categories.ts` 成对补充标签。
 - 所有关系 slug 必须指向已存在条目：`content.ts` 对不存在的 slug 会静默丢弃，只丢链接、不报错，因此必须自查。
 
-#### 5.5 图片
+#### 5.6 图片
 
-沿用本站既有做法：每个「可构建」条目恰好配 1 张照片，`draft` 条目不配图。配图必须**成对登记**且**亲眼核图**，按下列顺序执行。
+沿用本站既有做法：每个「可构建」疾病条目恰好配 1 张照片，`draft` 条目不配图。配图必须**成对登记**且**亲眼核图**，按下列顺序执行。（文章配图同法，由配套文章 skill 处理。）
 
 **取图（网络限制已知，不要在这些端点上反复重试）**
 
 1. 图源：Unsplash / Pexels，取 CC0 或免费商用授权照片。本站不记录图片来源与署名，因此不要把署名写进内容或 `alt`。
-2. 实测**只有图片 CDN 可直连**：`images.unsplash.com`、`images.pexels.com`，用 `curl` 直接下载即可（加 `?w=1400&q=80&fm=jpg&fit=crop`）。
+2. 实测**只有图片 CDN 可直连**：`images.unsplash.com`、`images.pexels.com`，用 `curl` 或 Node `fetch` 直接下载即可。**取图参数固定用 `?w=1200&h=800&fit=crop&q=80&fm=jpg`**：`h=800&fit=crop` 让 CDN 在服务端直接裁成最终 3:2，单张体积约为旧参数（`w=1400` 且不裁剪）的三分之一，是这一环节最大的提速点。不要直接向 Unsplash 要 `fm=webp`（实测体积反而更大），webp 编码留给本地 `sharp`。
+   - **多张时必须并行下载，并给每张设有超时的重试**：该 CDN 走 Fastly 边缘节点，RTT 约 240ms，且单连接吞吐在 15–170 KB/s 之间大幅波动；串行下载常要十几分钟，并行（`Promise.all` 或 `xargs -P5`）可把整批压到数秒。每张设 30–45 秒超时，超时即丢弃重发（最多 3 次）。
+   - **下载前先判断目标文件是否已存在，存在即跳过**，避免重复运行时无条件重下。
 3. 搜索页、官方 API 与其余图床在当前网络下不可用：`unsplash.com/napi`、`pexels.com` 搜索页、`cdn.pixabay.com`、`cdn.stocksnap.io`、`commons.wikimedia.org`、`upload.wikimedia.org` 均返回 307/403/000，无法抓取。
 4. 检索只能借助浏览器 agent 打开 Unsplash / Pexels 搜索结果页读取候选，且**必须严格约束它的输出**：要求它逐字复制页面上 `<img>` 的 `src` 属性原文（以 `https://images.unsplash.com/photo-` 开头，连同 `?fm=...&w=...&ixlib=...` 全部参数照抄），**不得自行拼接或"还原"URL**，并让它实际打开该 URL 确认非 404 后才返回。实测 agent 自行拼 URL 会把哈希段编错（大量 404），它给出的 `alt` / 描述也可能是编造的 —— **agent 的任何文字一律不可直接采信**。
-5. 相关性标准：**与疾病本身相符即可，不要求逐篇贴合文章主题**。四张相关图能组成一个统一的疾病语境即可（例：哮喘 → 肺部解剖、医生检查、雾化治疗、居家除尘）。宽泛搜索（如直接搜疾病名）常返回大量无关图（手机、牙刷、家具），要逐张筛掉。
+5. 相关性标准：**与疾病本身相符即可，不要求逐张贴合具体主题**。宽泛搜索（如直接搜疾病名）常返回大量无关图（手机、牙刷、家具），要逐张筛掉。
 
 **核图（不得跳过）**
 
@@ -197,30 +217,30 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 
 **落盘与登记**
 
-7. 统一使用 `.webp`，宽约 1200px、高度随图（卡片由 CSS 裁切，不要求统一宽高比），体积大致 40 至 190 KB；落在 `public/img/`，命名为 `doenca-<slug>.webp` / `artigo-<slug>.webp`。
+7. 统一使用 `.webp`，宽 1200px，高度随图（按上面取图参数会在服务端裁成 3:2，即 1200×800，卡片仍由 CSS 裁切，不要求统一宽高比），体积大致 40 至 190 KB；落在 `public/img/`，疾病图命名为 `doenca-<slug>.webp`（文章图 `artigo-<slug>.webp` 由文章 skill 处理）。
 8. 编码用 `sharp`（`node_modules` 已有）：`sharp(src).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 82 }).toFile(dest)`。**`sips` 不支持 webp 编码**，`cwebp` / ImageMagick 本机未安装，不要用它们。
 9. **换图（如替换不相关的旧图）覆盖同名文件**：新图写回原文件名，`images.ts` 的 `src` 路径无需改动，只改两语言的 `alt`。
-10. 必须**成对**登记，key 均为 slug：`src/lib/images.ts` 的 `diseaseImages` / `articleImages`（`pt-BR` 的 `alt`）与 `src/data/zh-Hant/image-alts.ts`（繁中的 `alt`）。缺任一即门禁报错。
+10. 必须**成对**登记，key 均为 slug：`src/lib/images.ts` 的 `diseaseImages`（`pt-BR` 的 `alt`）与 `src/data/zh-Hant/image-alts.ts`（繁中的 `alt`）。缺任一即门禁报错。
 11. `alt` 只描述**画面内容**，不描述页面主题；**不得含任何形式的破折号**。换图后旧 `alt` 会与新画面不符，必须同步改写，否则门禁虽过但描述错误。
 12. 找不到医学上贴切的照片时回退占位图（缺图不阻塞构建），不要硬凑不相关照片。
 
-#### 5.6 审校与日期
+#### 5.7 审校与日期
 
 ```
 author: 'Equipe editorial Saudewiki'
 reviewer: null                    // 绝不臆造署名
-reviewStatus: 'needs_review'      // 不得使用 'draft'
+reviewStatus: 'needs_review'      // 新增与修改一律用此值，与站内现有内容一致；不得使用 'draft' / 'reviewed' / 'published'
 publishedAt: '<首次创建当天的 ISO 日期>'
 updatedAt: '<本次运行当天的 ISO 日期>'
 isPlaceholder: true
 ```
 
-新增模式 `publishedAt` 与 `updatedAt` 相同；修改模式保留原 `publishedAt`，只更新 `updatedAt`。
+新增模式 `publishedAt` 与 `updatedAt` 相同；修改模式保留原 `publishedAt`，只更新 `updatedAt`。审校状态不受模式影响：新增与修改的疾病词条，`reviewStatus` 一律为 `needs_review`，与站内现有内容保持一致。
 
-#### 5.7 结构不变量（写入前自查）
+#### 5.8 结构不变量（写入前自查）
 
-1. 每个非 `draft` 的疾病与文章都有孪生，key 等于 `pt-BR` 的 slug（逐字原样）。
-2. section `id` 集合完全一致（疾病看 `sections`，文章看 `body`）。
+1. 每个非 `draft` 的疾病都有孪生，key 等于 `pt-BR` 的 slug（逐字原样）。
+2. section `id` 集合完全一致（看 `sections`）。
 3. 逐个 section 的 `paragraphs` / `bullets` **数量相等**；源没有的字段不得在孪生里补出。
 4. `ctaLabel` 严格配对：源有 `cta` 才写，源无 `cta` 不得写。
 5. `references` 的 `url` 集合完全一致，不缺失不多余。
@@ -232,6 +252,7 @@ isPlaceholder: true
 11. slug 唯一且为 ASCII kebab；`cta.href` 指向真实存在的根路径。
 12. 不得使用视图已占用的 section id：`perguntas-frequentes`、`artigos-relacionados`、`temas-relacionados`、`outras-doencas`、`correcao`。
 13. 修改模式：不得改动 slug、`id`、已有 section 的 `id` 与 `publishedAt`。
+14. **结构对齐与节数上限（见 5.3）**：section 划分对齐医典的**正文 H2 子主题层**——医典每个 H2 小节在本站（含 `zh-Hant` 孪生）都有对应的**独立** section，H3/H4 已降为该节的 `bullets`/段落且子标题与内容均未删；顶层 8 栏仅作排序，未各自成节；`sinais-de-alerta` 独立成节；section 总数 ≤15，若曾合并，被并项按 5.3 保留为 `bullets`、被引用的已有 section `id` 未改动；本次补齐的节均为**新增独立 id**。
 
 ### 6. 交付前审查
 
@@ -241,9 +262,10 @@ isPlaceholder: true
 
 1. **写前记录基线**：运行 `node scripts/check-i18n.mjs`，记下当前已有问题集合。本仓库基线并非全绿，因此判断标准是差异而不是全绿。
 2. 写入完成后再次运行 `node scripts/check-i18n.mjs`：**问题集合不得新增，且不得出现引用本次 slug 的问题**。允许只减不增。
-3. 运行 `npm run build`：必须成功，并确认新路由已生成 —— `/doencas/<slug>/`、`/zh-Hant/doencas/<slug>/`、`/artigos/<5 个 slug>/`、`/zh-Hant/artigos/<5 个 slug>/`。修改模式则确认原路由未被破坏。
-4. 逐条核对 5.7 的结构不变量。
-5. 修改模式额外核对：没有产生新 slug，原有锚点与内链仍然有效，`publishedAt` 未变，孪生已补齐。
+3. 运行 `npm run build`：必须成功，并确认新路由已生成 —— `/doencas/<slug>/`、`/zh-Hant/doencas/<slug>/`。修改模式则确认原路由未被破坏。
+4. 运行 `node scripts/check-editorial.mjs`（或 `npm run check:editorial`）：必须通过与 `scripts/editorial-baseline.json` 的差异比较，只允许减少不允许新增。
+5. 逐条核对 5.8 的结构不变量。
+6. 修改模式额外核对：没有产生新 slug，原有锚点与内链仍然有效，`publishedAt` 未变，孪生已补齐。
 
 **内容检查**
 
@@ -251,17 +273,19 @@ isPlaceholder: true
 - 任何仍然保留的中国信息是否具有医学必要性、已经核实且能被巴西读者理解，否则删除；
 - 所有巴西现行政策是否经过独立核实；
 - 药物禁忌、危险信号、诊断时间窗、单位和数字是否准确；
+- **逐条溯源审计（必做）**：把词条每个 section 里的具体断言列成「来源映射」表，逐条标出出处（医典对应 H2 小节或某条 `references` 来源及其原文片段）；把无法溯源的断言删除或限定。审计结果随交付说明给出；
+- **结构对齐核验（必做）**：作对照表比对医典的 8 栏及其正文 H2 子主题与本站 `sections[].id` + `heading`，确认每个 H2 都有**独立** section、H3/H4 已降为 `bullets`/段落且内容未删、顶层 8 栏仅作排序；缺失的 H2 是否已作为**新增 section** 补齐（列出新增的 `id`）；若超 15 节，列出按 5.3 合并了哪些项、由哪个 `id` 承载。结果随交付说明给出；
 - 是否像母语者创作的巴西葡语，而不是中文翻译腔；
-- 是否完成**三轮质检**：第一轮医学与安全、第二轮巴西本地事实与本地化、第三轮巴西葡语语言，逐轮打开并对照 `references/editorial-checklist.md`，规则、对照章节与评分见[质检工作流](references/qc-workflow.md)；
+- 是否完成**三轮质检**：第一轮医学与安全、第二轮巴西本地事实与本地化、第三轮巴西葡语语言，逐轮打开并对照 [`../_shared/editorial-checklist.md`](../_shared/editorial-checklist.md)，规则、对照章节与评分见[质检工作流](../_shared/qc-workflow.md)；
 - 是否完全没有百度来源说明或未经证实的医学审核声明；
 - 繁体孪生单独复查：术语与 `pt-BR` 一致、用词与标点符合台湾习惯、无简体字形、无 `你`。
 
-每次执行都要在交付前进行内部评分；如用户要求，再展示分项分数。评分维度为医学准确性与安全性、巴西葡语自然度、巴西本地化、搜索结构与可读性、**数据结构与 SEO 元数据**，每项满分均为 10 分；综合评分取五项得分的算术平均，满分同样为 10 分。其中巴西葡语自然度应按[葡语编辑与质检清单](references/editorial-checklist.md)中的葡语表达维度（语法与基本正确性、巴西葡语自然度、医疗科普写作成熟度、母语编辑后的完成度、综合语言表现）逐项评分后取平均。若存在危险信号错误、用药安全错误、未核实的巴西疫苗政策、中文语境残留、严重葡语歧义、结构不变量违规或明显的 AI 模板化痕迹与翻译腔，即使综合评分达到 10 分，也不得判定为合格。
+每次执行都要在交付前进行内部评分；如用户要求，再展示分项分数。评分维度为医学准确性与安全性、巴西葡语自然度、巴西本地化、搜索结构与可读性、**数据结构与 SEO 元数据**，每项满分均为 10 分；综合评分取五项得分的算术平均，满分同样为 10 分。其中「医学准确性与安全性」内含**事实可溯**子项：只要有一处具体断言无法溯源到医典对应 H2 小节或已引用来源，该项即不得满分，须先删除或补来源。其中巴西葡语自然度应按[葡语编辑与质检清单](../_shared/editorial-checklist.md)中的葡语表达维度（语法与基本正确性、巴西葡语自然度、医疗科普写作成熟度、母语编辑后的完成度、综合语言表现）逐项评分后取平均。若存在危险信号错误、用药安全错误、未核实的巴西疫苗政策、中文语境残留、严重葡语歧义、结构不变量违规或明显的 AI 模板化痕迹与翻译腔，即使综合评分达到 10 分，也不得判定为合格。
 
 综合评分低于 10 分时，不得直接交付：根据扣分项修改内容，**重跑「质检工作流」的三轮质检**，再进行复评；重复这一流程，直到综合评分达到 10 分且不存在关键错误。若剩余扣分来自无法核实的医学事实、政策时效或其他外部限制，不能通过改写措辞硬凑分，应保留实际分数，说明原因，并删除或明确限定相关内容。
 
-最终回复应说明本次是**新增**还是**修改**，列出实际写入的文件路径（可点击的绝对路径），并说明同时产出了巴西葡语（`pt-BR`）与繁体中文（`zh-Hant`）两个语言层以及本次派生的文章。用户已经要求隐去来源时，交付说明中也不要主动透露隐藏的来源归属。
+最终回复应说明本次是**新增**还是**修改**，列出实际写入的文件路径（可点击的绝对路径），说明同时产出了巴西葡语（`pt-BR`）与繁体中文（`zh-Hant`）两个语言层，并**列出本次结构对齐的结果**：对照医典正文补齐了哪些 H2 节、每个新 section 的 `id` 与对应主题，以及（若超 15 节）按 5.3 合并了哪些项、由哪个 `id` 承载（修改模式下尤其必须说明，让用户能核对缺失节是否已真正补上）。用户已经要求隐去来源时，交付说明中也不要主动透露隐藏的来源归属。
 
 ## 质检工作流
 
-固定三轮质检、评分标准、返工循环与交付前的硬门禁，见 [质检工作流](references/qc-workflow.md)。用户要求新增或修改疾病词条、或为该疾病补写或重写派生文章与配图时，该工作流即为固定要求，与第 0 至 6 步并行执行，不得省略或压缩为一次自检。
+固定三轮质检、评分标准、返工循环与交付前的硬门禁，见 [质检工作流](../_shared/qc-workflow.md)。用户要求新增或修改疾病词条时，该工作流即为固定要求，与第 0 至 6 步并行执行，不得省略，也不得压缩为一次自检。派生文章由配套的 [`article-derivation-ptbr`](../article-derivation-ptbr/SKILL.md) skill 按其自身流程与同一套共享清单生成与质检。

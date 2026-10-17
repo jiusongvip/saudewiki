@@ -1,6 +1,6 @@
 // Editorial gate for the Portuguese copy. Run with: node scripts/check-editorial.mjs
 //
-// The rules in skills/disease-encyclopedia-ptbr/references/editorial-checklist.md
+// The rules in skills/_shared/editorial-checklist.md
 // that can be counted or matched are enforced here, so the third QC round is not
 // only a promise: template openers, filler frameworks, colon lists, dashes,
 // Chinese leftovers, leftover disclaimers and fragmented FAQ answers all fail the
