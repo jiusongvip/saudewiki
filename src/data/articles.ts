@@ -2140,62 +2140,89 @@ export const articles: Article[] = [
     updatedAt: '2026-10-16',
     isPlaceholder: true,
   },
-  {
+    {
     id: 'avc-como-reconhecer-os-sinais-e-agir-rapido',
     slug: 'avc-como-reconhecer-os-sinais-e-agir-rapido',
     title: 'AVC: como reconhecer os sinais e agir rápido',
     excerpt:
-      'Fraqueza de um lado do corpo, boca torta e dificuldade para falar são os sinais mais comuns do AVC. Reconhecer rápido é o que permite tratar a tempo.',
+      'Fraqueza de um lado do corpo, boca torta e dificuldade para falar são os sinais mais comuns do AVC. O teste FAST ajuda a identificar o problema, e o socorro deve ser chamado na hora.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     body: [
       {
-        id: 'o-que-acontece',
-        heading: 'O que acontece no AVC',
+        id: 'o-que-e',
+        heading: 'O que é o AVC',
         paragraphs: [
-          'No AVC, acidente vascular cerebral, uma artéria do cérebro é obstruída ou se rompe, e uma região do cérebro deixa de receber sangue. A maioria dos casos é de obstrução.',
-          'Sem sangue, as células cerebrais começam a morrer em minutos. A rapidez do atendimento é o que define quanto do cérebro pode ser preservado.',
+          'O AVC é uma emergência médica: a cada minuto sem tratamento, mais células do cérebro são perdidas. Reconhecer os sinais e pedir socorro imediato é o que faz a diferença entre uma recuperação completa e sequelas permanentes.',
+          'O acidente vascular cerebral acontece quando um vaso que leva sangue ao cérebro entope ou se rompe, e a região privada de sangue deixa de funcionar. Existem dois tipos principais: o AVC isquêmico, causado por obstrução, corresponde a cerca de 85% dos casos; e o AVC hemorrágico, causado por ruptura, responde por cerca de 15%. Um episódio breve e reversível, o ataque isquêmico transitório (AIT), também avisa que um AVC pode estar por vir.',
         ],
       },
       {
         id: 'sinais',
-        heading: 'Os sinais que precisam ser reconhecidos',
+        heading: 'Quais são os sinais de AVC',
         paragraphs: [
-          'Os sinais do AVC costumam aparecer de forma súbita e atingir apenas um lado do corpo:',
+          'Os sinais do AVC costumam surgir de repente e atingem com mais frequência apenas um lado do corpo. Fique atento a estes sintomas, segundo o Ministério da Saúde e a OMS:',
         ],
         bullets: [
-          'Fraqueza ou dormência de um lado do rosto, com o canto da boca caído',
+          'Fraqueza ou dormência em um lado do rosto, com o canto da boca caído',
           'Fraqueza no braço ou na perna de um lado do corpo',
           'Dificuldade para falar ou para entender o que é dito',
           'Perda súbita de visão em um ou nos dois olhos',
-          'Dor de cabeça súbita e muito intensa',
-          'Desequilíbrio, tontura intensa ou dificuldade para andar',
+          'Tontura forte, perda de equilíbrio ou dificuldade para andar',
+          'Dor de cabeça súbita e muito intensa, sem causa conhecida',
         ],
       },
       {
         id: 'teste-rapido',
-        heading: 'Um teste rápido que qualquer pessoa pode fazer',
+        heading: 'Como usar o teste FAST para identificar o AVC',
         paragraphs: [
-          'Diante da suspeita, três perguntas simples ajudam a identificar o AVC: peça para a pessoa sorrir e observe se um lado do rosto não se move; peça para levantar os dois braços e veja se um cai; peça para repetir uma frase simples e observe se a fala sai arrastada ou confusa.',
-          'Qualquer alteração em um desses três sinais é motivo para chamar ajuda imediatamente. O teste não descarta o AVC quando está normal, mas ajuda a não deixar passar o caso típico.',
+          'O teste FAST é a forma mais simples de identificar um AVC e pode ser feita por qualquer pessoa. Cada letra lembra o que observar:',
+          'Peça para a pessoa sorrir (Face: um lado do rosto fica torto?), levantar os dois braços (Arms: um braço cai?) e repetir uma frase simples (Speech: a fala sai arrastada ou estranha?). Se houver qualquer alteração, o T (Time) manda ligar para o socorro na hora. O teste não descarta o AVC quando está normal, mas ajuda a não perder o caso típico.',
         ],
       },
       {
         id: 'o-que-fazer',
-        heading: 'O que fazer',
+        heading: 'O que fazer ao suspeitar de AVC',
+        paragraphs: [
+          'Ao suspeitar de AVC, o socorro precisa ser acionado imediatamente. O tempo ganho antes da chegada ao hospital é o que abre as opções de tratamento.',
+        ],
         bullets: [
-          'Chame o SAMU, no número 192, e informe que você suspeita de AVC',
+          'Ligue para o SAMU no 192 e diga que suspeita de um AVC',
           'Anote o horário exato em que os sintomas começaram',
-          'Não ofereça comida, bebida ou medicamento',
-          'Não deixe a pessoa sozinha',
-          'Se houver perda de consciência, mantenha as vias aéreas livres e siga as orientações do serviço de emergência',
+          'Não ofereça comida, bebida nem remédio à pessoa',
+          'Não a deixe sozinha e mantenha-a deitada, se possível',
+          'Não leve a pessoa de carro próprio: peça a ambulância para o atendimento começar no trajeto',
+        ],
+      },
+      {
+        id: 'tempo',
+        heading: 'Por que o tempo é decisivo no AVC',
+        paragraphs: [
+          'No AVC, o tempo é o cérebro. Segundo os CDC, os tratamentos mais eficazes só estão disponíveis quando o AVC é reconhecido e atendido dentro de cerca de 3 horas após o primeiro sintoma. Por isso, anotar o horário de início e chamar o socorro de imediato importa tanto quanto o próprio diagnóstico.',
+        ],
+      },
+      {
+        id: 'fatores-risco',
+        heading: 'Quais fatores aumentam o risco de AVC',
+        paragraphs: [
+          'Vários fatores aumentam as chances de um AVC, e muitos deles podem ser controlados ao longo dos anos:',
+        ],
+        bullets: [
+          'Pressão alta, o principal fator de risco',
+          'Diabetes tipo 2',
+          'Colesterol alto',
+          'Tabagismo',
+          'Excesso de peso e obesidade',
+          'Vida sedentária, sem atividade física regular',
+          'Uso excessivo de álcool ou de drogas ilícitas',
+          'Idade avançada, histórico familiar e arritmias como a fibrilação atrial',
         ],
       },
       {
         id: 'prevencao',
-        heading: 'Como reduzir o risco',
+        heading: 'Como reduzir o risco de AVC',
         paragraphs: [
-          'A hipertensão é o principal fator de risco para o AVC. Controlar a pressão ao longo dos anos, tratar o diabetes, não fumar e manter a medicação em dia são as medidas que mais reduzem o risco.',
+          'A maior parte dos AVCs poderia ser evitada com mudanças no dia a dia e o acompanhamento dos fatores de risco. Manter a pressão controlada, não fumar, comer melhor, praticar atividade física e tratar o diabetes e o colesterol alto são as medidas que mais reduzem o risco, segundo a OMS.',
         ],
         cta: {
           label: 'Entenda a hipertensão na página completa',
@@ -2214,14 +2241,19 @@ export const articles: Article[] = [
     ],
     references: [
       {
-        label: 'Doenças cardiovasculares: prevenção e cuidados',
-        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doencas-cardiovasculares',
+        label: 'Stroke: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/stroke',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'AVC: sintomas, tipos e prevenção',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
         publisher: 'Ministério da Saúde (Brasil)',
       },
       {
-        label: 'Cardiovascular diseases: fact sheet',
-        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
-        publisher: 'Organização Mundial da Saúde',
+        label: 'Sinais e sintomas do AVC (B.E. F.A.S.T.)',
+        url: 'https://www.cdc.gov/stroke/signs-symptoms/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
       },
     ],
     author: 'Equipe editorial Saudewiki',
