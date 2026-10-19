@@ -17,6 +17,9 @@ saudewiki-logo-designs*.svg
 saudewiki-logo-designs*.png
 deepseek_html_*.html
 
+# Scratch workspace for content generation (logs, dumps, screenshots, one-off scripts)
+.tmp-content/
+
 # Environment
 .env
 .env.*
