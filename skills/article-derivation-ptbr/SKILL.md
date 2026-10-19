@@ -13,7 +13,7 @@ description: 为本站已存在的疾病词条派生巴西葡语文章（含繁�
 - **数量与选题都以医典页面的「相关阅读」模块为准**（见第 3 步），不固定为 5 篇。
 - **每次固定产出两个语言层**：`pt-BR`（编辑源）与 `zh-Hant`（繁体孪生）。不再产出其他地区版本。
 - 成文中不得提及或引用百度或任何未核实来源；来源写入文章 `references`，只放真实可打开的巴西、PAHO 或 WHO 官方链接。
-- 共享资产（本 skill 与疾病 skill 只此一份）：编辑清单 [`../_shared/editorial-checklist.md`](../_shared/editorial-checklist.md)、三轮质检 [`../_shared/qc-workflow.md`](../_shared/qc-workflow.md)、定位脚本 [`../_shared/scripts/find_disease.py`](../_shared/scripts/find_disease.py)。
+- 共享资产（本 skill 与疾病 skill 只此一份）：编辑清单 [`../_shared/editorial-checklist.md`](../_shared/editorial-checklist.md)、三轮质检 [`../_shared/qc-workflow.md`](../_shared/qc-workflow.md)、定位脚本 [`../_shared/scripts/find_disease.py`](../_shared/scripts/find_disease.py)、来源资料库 [`../_shared/sources/library.json`](../_shared/sources/library.json)（读写与复用流程见 [`../source-library-ptbr/SKILL.md`](../source-library-ptbr/SKILL.md)）。
 - slug 使用稳定的 ASCII kebab 格式，形如 `<disease-slug>-como-se-transmite`。
 - **每次执行都必须走满[质检工作流](../_shared/qc-workflow.md)**：三轮质检（医学与安全、巴西本地事实、巴西葡语语言）走完后综合评分必须为 10 分且无关键错误才可交付。
 
@@ -42,6 +42,7 @@ description: 为本站已存在的疾病词条派生巴西葡语文章（含繁�
 2. 「相关阅读」的**文章条目**可把其事实点作为输入，但**不得逐句翻译或改写**，且须先按本节用巴西权威资料核实；核不到即删除或改写为不含具体断言的定性表述。**视频条目只作选题灵感**，不得凭标题成文，正文内容仍须取自词条 section 或已核实来源。
 3. 核实优先采用：巴西卫生部（Ministério da Saúde）与 ANVISA；PAHO/OPAS；WHO；适用于巴西的其他国家级机构或同行评议指南。
 4. 相关阅读条目多带中国语境（中国医生、中国流行病学、就诊科室等），一律替换为巴西本地已核实信息，不得直接搬入。
+5. **取源先查共享资料库**：先跑 `node scripts/references.mjs search <疾病|主题>`，命中即复用（`label`/`url`/`publisher` 原样写进文章 `references`）；未命中才打开官方页核实，并用 `references.mjs add` 回写资料库、记 `supports`（见 [`../source-library-ptbr/SKILL.md`](../source-library-ptbr/SKILL.md)）。
 
 ### 3. 定篇数与选题（由「相关阅读」决定）
 
@@ -56,6 +57,7 @@ description: 为本站已存在的疾病词条派生巴西葡语文章（含繁�
 - 先取尽全部**文章条目**（超过 5 条时取与词条 section 或高价值主题对口者），每条对应一篇，以该文章的主题为选题；其正文只作事实收集输入，最终成文须独立创作。
 - 文章条目不足以覆盖本次篇数时，再用**视频条目**按标题补齐剩余篇数，把标题作为该篇的选题范围；正文内容仍须取自本疾病词条 section 或第 2 步已核实来源，不得凭标题成文。
 - 文章条目已覆盖本次篇数时，不再使用视频条目选题。
+- **选题层过滤中国语境**：某条目的**标题本身**以中国情境为卖点（中国式食疗 / 民间偏方、中国就诊科室、中国流行病学数字等）时，不得直接把标题当选题；须先把选题改到**巴西可核实**的角度（巴西卫生部、ANVISA、PAHO/OPAS、WHO 有据可查的内容）再成文。改不到可溯源角度、又不构成独立主题的条目跳过不写（本次篇数随之减少）；核不到来源的食疗方与偏方一律不写。
 
 ### 4. 写作
 
@@ -139,6 +141,7 @@ isPlaceholder: true
 3. 运行 `npm run build`：必须成功，并确认新路由已生成 —— `/artigos/<本次各文章 slug>/`、`/zh-Hant/artigos/<本次各文章 slug>/`（本次未生成文章时跳过文章路由核对）。
 4. 运行 `node scripts/check-editorial.mjs`（或 `npm run check:editorial`）：必须通过与 `scripts/editorial-baseline.json` 的差异比较，只允许减少不允许新增。
 5. 逐条核对上述结构不变量。
+6. 运行 `npm run check:references`（= `node scripts/references.mjs check`）：`references` 的每个 url 都已在共享资料库 `skills/_shared/sources/library.json` 中登记且 host 合规，必须通过。
 
 **内容检查**
 

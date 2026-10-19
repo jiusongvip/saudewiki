@@ -2808,8 +2808,8 @@ export const diseases: Disease[] = [
   {
     id: 'gastroenterite',
     slug: 'gastroenterite',
-    name: 'Gastroenterite (diarreia infecciosa)',
-    metaTitle: 'Gastroenterite: sintomas e prevenção',
+    name: 'Gastroenterite aguda (diarreia infecciosa)',
+    metaTitle: 'Gastroenterite aguda: sintomas e prevenção',
     aliases: [
       'diarreia',
       'infecção intestinal',
@@ -2825,24 +2825,72 @@ export const diseases: Disease[] = [
     sections: [
       {
         id: 'o-que-e',
-        heading: 'O que é gastroenterite?',
+        heading: 'O que é gastroenterite aguda?',
         paragraphs: [
-          'Gastroenterite é a inflamação do estômago e do intestino causada, na maioria das vezes, por vírus, bactérias ou parasitas. Ela se manifesta como diarreia, que a Organização Mundial da Saúde define como três ou mais evacuações de fezes moles ou líquidas em um dia.',
+          'Gastroenterite aguda é a inflamação do estômago e do intestino causada, na maioria das vezes, por vírus, bactérias ou parasitas. Ela se manifesta como diarreia, que a Organização Mundial da Saúde define como três ou mais evacuações de fezes moles ou líquidas em um dia.',
           'É uma doença comum em qualquer idade, mas os grupos mais vulneráveis são as crianças pequenas e as pessoas idosas, em quem a perda de água e sais pode evoluir rápido. A maioria dos episódios é leve e passa sozinha em poucos dias; o que mais muda o desfecho é a rapidez com que a hidratação é reposta.',
           'Segundo o Ministério da Saúde, as doenças diarreicas agudas atingem sobretudo crianças menores de cinco anos, e a diarreia segue entre as principais causas de morte nessa faixa de idade onde o acesso a água tratada e saneamento é limitado.',
+        ],
+        cta: {
+          label: 'Veja as dúvidas mais frequentes sobre gastroenterite',
+          href: '/artigos/gastroenterite-duvidas-frequentes/',
+        },
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de gastroenterite aguda?',
+        paragraphs: [
+          'A gastroenterite pode ser infecciosa ou não infecciosa. A forma infecciosa é a mais comum e tem origem em vírus, bactérias ou parasitas. A forma não infecciosa aparece por medicamentos que irritam o estômago e o intestino, por intolerâncias alimentares ou por doenças inflamatórias do intestino.',
+          'Quanto ao tempo, a maioria dos episódios é aguda e se resolve em poucos dias. Quando a diarreia passa de 14 dias, ela é classificada como persistente e pede investigação, porque outras causas entram na lista.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a gastroenterite aguda?',
+        paragraphs: [
+          'Vírus, bactérias e parasitas são as causas mais comuns. Entre os vírus, o rotavírus é o que mais adoece crianças pequenas e o norovírus é o que costuma provocar surtos, enquanto adenovírus e astrovírus aparecem com menos frequência. Entre as bactérias estão a Escherichia coli, a Salmonella, a Shigella e a Campylobacter, além do Vibrio cholerae, causador da cólera. Entre os parasitas, os mais frequentes são a giárdia, a ameba e o Cryptosporidium.',
+          'A gastroenterite também pode ter causas não infecciosas. Antibióticos e outros medicamentos, intolerância à lactose, doença celíaca, síndrome do intestino irritável e doenças inflamatórias intestinais, como a doença de Crohn e a retocolite ulcerativa, são quadros que imitam a infecção sem que exista germe a tratar.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que aumenta o risco?',
+        paragraphs: [
+          'Alguns grupos adoecem com mais facilidade e desidratam mais rápido. Outros fatores têm mais a ver com o ambiente e com os hábitos do dia a dia.',
+        ],
+        bullets: [
+          'Crianças pequenas, sobretudo com menos de seis meses, e pessoas idosas',
+          'Interrupção precoce da amamentação e desnutrição',
+          'Imunidade reduzida, como em pessoas que vivem com HIV',
+          'Ambientes coletivos, como creches e escolas',
+          'Água sem tratamento, alimentos crus ou malconservados e saneamento precário',
+          'Uso prolongado de antibióticos sem orientação profissional',
         ],
       },
       {
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
-        paragraphs: ['O quadro costuma começar de repente, com sintomas digestivos e, às vezes, febre.'],
+        paragraphs: [
+          'O quadro costuma começar de repente, com sintomas digestivos e, às vezes, febre. A diarreia é o sinal mais característico: para a Organização Mundial da Saúde, fala-se em diarreia a partir de três evacuações de fezes moles ou líquidas em um dia.',
+        ],
         bullets: [
           'Diarreia, com fezes moles ou líquidas',
           'Vômitos e náuseas',
           'Dor e cólica abdominal',
           'Febre, nem sempre presente',
           'Sangue ou muco nas fezes, quando a causa é bacteriana ou parasitária',
-          'Sinais de desidratação: boca seca, pouca urina e escura, ausência de lágrimas ao chorar, sonolência ou irritação',
+        ],
+        cta: {
+          label: 'Veja os sintomas da gastroenterite',
+          href: '/artigos/gastroenterite-sintomas/',
+        },
+      },
+      {
+        id: 'sintomas-gerais',
+        heading: 'Quais outros sinais podem aparecer?',
+        paragraphs: [
+          'Além dos sintomas digestivos, a gastroenterite costuma vir acompanhada de sinais gerais, como febre, dor de cabeça, dores no corpo e sensação de mal-estar.',
+          'Quando a perda de líquidos é grande, surgem os sinais de desidratação, que são os que mais preocupam e os que definem a urgência do atendimento.',
         ],
       },
       {
@@ -2859,6 +2907,7 @@ export const diseases: Disease[] = [
         paragraphs: [
           'Na maioria dos casos, o diagnóstico é clínico, pela história e pelo exame do estado de hidratação, sem necessidade de exame. O que orienta a conduta não é saber o nome do micróbio, e sim o quanto a pessoa perdeu de água e sais.',
           'Quando há sangue ou muco nas fezes, desidratação grave ou suspeita de surto, o profissional pode pedir exames de fezes: coprocultura, exame parasitológico e pesquisa de vírus. Nesses casos, a amostra deve ser colhida antes do uso de antibióticos, para não atrapalhar o resultado.',
+          'Quando a desidratação é importante, exames de sangue ajudam a acompanhar os eletrólitos, como sódio e potássio, e o estado geral do paciente.',
           'Nem toda diarreia é infecciosa. Medicamentos, intolerância à lactose, doença celíaca e síndrome do intestino irritável também causam diarreia, e nesses casos não há germe a tratar.',
         ],
       },
@@ -2867,6 +2916,7 @@ export const diseases: Disease[] = [
         heading: 'Quando procurar atendimento?',
         paragraphs: [
           'Na diarreia, o que orienta a decisão não é quantos dias dura, mas como a pessoa está. Volte ao serviço de saúde se não houver melhora em dois dias ou se aparecer algum dos sinais abaixo, sobretudo em bebê, criança pequena ou pessoa idosa.',
+          'O atendimento pode começar na unidade básica de saúde (UBS) mais próxima, que acompanha o caso e orienta a hidratação. Em quadros graves, com desidratação intensa, procure uma unidade de pronto atendimento (UPA) ou a emergência de um hospital. Em emergência, ligue para o SAMU, no 192; vômitos e diarreia, por si sós, não são motivo para acionar o SAMU.',
         ],
         bullets: [
           'Sangue ou muco nas fezes',
@@ -2876,22 +2926,71 @@ export const diseases: Disease[] = [
           'Sonolência excessiva, fraqueza ou recusa de alimentos',
         ],
         cta: {
-          label: 'Veja os sinais de alerta na diarreia',
-          href: '/artigos/gastroenterite-sinais-de-alerta/',
+          label: 'Veja quando a gastroenterite pode ser grave',
+          href: '/artigos/gastroenterite-pode-ser-grave/',
         },
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Como diferenciar de outras causas?',
+        paragraphs: [
+          'Nem toda diarreia é uma gastroenterite infecciosa. Uso de antibióticos, intolerância à lactose, doença celíaca e síndrome do intestino irritável provocam diarreia sem germe, e nesses casos o tratamento é outro.',
+          'Quando a diarreia se prolonga, vem com perda de peso, sangue nas fezes ou mudança no hábito intestinal, o profissional investiga causas mais graves, como doenças inflamatórias do intestino e câncer colorretal.',
+        ],
       },
       {
         id: 'tratamento',
         heading: 'Como se trata?',
         paragraphs: [
-          'O tratamento gira em torno de repor o que se perdeu. O soro de reidratação oral, distribuído gratuitamente pelo SUS, é oferecido em pequenos goles e com frequência, desde o primeiro episódio de diarreia. Água e alimentos comuns também contam, mas o soro repõe água e sais na proporção certa.',
+          'O tratamento gira em torno de repor o que se perdeu. O soro de reidratação oral (SRO) é a base do cuidado e deve ser oferecido em pequenos goles e com frequência, desde o primeiro episódio de diarreia. Água e alimentos comuns também contam, mas o SRO repõe água e sais na proporção certa.',
           'Em crianças, a Organização Mundial da Saúde e o Ministério da Saúde recomendam os sais de reidratação oral com zinco por 10 a 14 dias, o que encurta o episódio e reduz o risco de complicações. Manter a alimentação e a amamentação acelera a recuperação.',
           'Quando a perda é maior, a reidratação pode ser feita na unidade de saúde e, nos casos graves, por via intravenosa. Esse plano de reposição é definido pelo profissional após avaliar o grau de desidratação.',
-          'Medicamentos que param a diarreia e remédios para vômito não devem ser usados por conta própria, sobretudo em crianças: eles seguram no intestino justamente os germes que o corpo tenta eliminar. O antibiótico só tem lugar quando o profissional identifica disenteria, cólera ou outra causa bacteriana ou parasitária específica.',
+          'Medicamentos que param a diarreia e remédios para vômito não devem ser usados por conta própria, sobretudo em crianças: eles não tratam a causa e não substituem a reposição de líquidos. O antibiótico só tem lugar quando o profissional identifica disenteria, cólera ou outra causa bacteriana ou parasitária específica.',
         ],
         cta: {
-          label: 'Leia sobre o tratamento e os cuidados em casa',
-          href: '/artigos/gastroenterite-tratamento-e-cuidados/',
+          label: 'Veja por que não parar a diarreia com remédio',
+          href: '/artigos/gastroenterite-remedios/',
+        },
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'A desidratação é a complicação mais comum e a que mais pesa no desfecho. Ela começa com sede e urina escura e, se não for corrigida, evolui para queda da pressão, sonolência e choque.',
+          'Quando a perda de líquidos e sais é grande, podem aparecer alterações dos eletrólitos, como queda de sódio e de potássio, que agravam o quadro. Em episódios que se arrastam, a diarreia persistente leva à perda de peso e à desnutrição, sobretudo em crianças.',
+          'Em pessoas já debilitadas, o mesmo episódio que passa sozinho em um adulto saudável pode desidratar rápido.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados e monitoramento em casa',
+        paragraphs: [
+          'Em casa, o cuidado se concentra em repor líquidos e observar o estado da pessoa ao longo do dia. Alguns hábitos simples também reduzem a transmissão para o resto da família.',
+        ],
+        bullets: [
+          'Separar os utensílios da pessoa doente e, quando possível, o banheiro',
+          'Desinfetar superfícies, o vaso sanitário e os objetos tocados com frequência',
+          'Lavar as mãos com sabão depois de trocar fraldas, limpar vômito ou usar o banheiro',
+          'Anotar o número de evacuações por dia, a presença de sangue ou muco e a temperatura',
+          'Observar boca seca, lágrimas ao chorar, quantidade e cor da urina e, em bebês, as fraldas molhadas',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Alimentação e rotina durante a doença',
+        paragraphs: [
+          'Não é preciso parar de comer. Preparações leves e de fácil digestão, oferecidas em porções pequenas e mais vezes ao dia, ajudam na recuperação e não pioram a diarreia.',
+          'Em bebês, a amamentação deve continuar. Quem usa fórmula pode receber, com orientação do profissional, uma versão sem lactose durante o episódio. O repouso também faz parte do cuidado, porque o corpo gasta energia para se recuperar.',
+        ],
+        bullets: [
+          'Prefira preparações leves, como arroz, caldo, sopa e frutas',
+          'Evite refrigerantes e sucos muito açucarados, que pioram a diarreia',
+          'Beba água e soro de reidratação oral ao longo do dia, em pequenos goles',
+          'Volte à alimentação habitual aos poucos, conforme a diarreia cede',
+        ],
+        cta: {
+          label: 'Veja o que comer e como se hidratar em casa',
+          href: '/artigos/gastroenterite-alimentacao/',
         },
       },
       {
@@ -2901,10 +3000,6 @@ export const diseases: Disease[] = [
           'Água tratada, saneamento e lavagem das mãos com sabão, antes de comer e depois de usar o banheiro, são a base da prevenção, como destaca a Organização Mundial da Saúde. Também vale higienizar bem frutas, verduras e utensílios de cozinha e manter a amamentação nos primeiros meses de vida.',
           'Contra o rotavírus, o calendário do SUS oferece a vacina oral em duas doses, aos dois e aos quatro meses de idade. Ela não impede toda diarreia, mas reduz muito as formas graves que levam a criança ao hospital.',
         ],
-        cta: {
-          label: 'Veja como reduzir o risco de novas infecções',
-          href: '/artigos/gastroenterite-prevencao/',
-        },
       },
     ],
     faq: [
@@ -2923,13 +3018,18 @@ export const diseases: Disease[] = [
         answer:
           'Na maioria dos casos, não. A gastroenterite comum é viral ou se resolve sozinha, e o antibiótico pode até atrapalhar. Ele só se justifica quando o profissional de saúde identifica disenteria, cólera ou outro agente que exige tratamento específico.',
       },
+      {
+        question: 'O que comer durante a gastroenterite?',
+        answer:
+          'Não é preciso ficar sem comer. Prefira preparações leves e de fácil digestão, como arroz, caldo e sopa, em porções pequenas e mais vezes ao dia. Evite refrigerantes e sucos muito açucarados. Em bebês, mantenha a amamentação.',
+      },
     ],
     relatedArticleSlugs: [
-      'gastroenterite-sinais-de-alerta',
-      'gastroenterite-como-se-transmite',
-      'gastroenterite-como-e-diagnosticada',
-      'gastroenterite-tratamento-e-cuidados',
-      'gastroenterite-prevencao',
+      'gastroenterite-sintomas',
+      'gastroenterite-duvidas-frequentes',
+      'gastroenterite-remedios',
+      'gastroenterite-alimentacao',
+      'gastroenterite-pode-ser-grave',
     ],
     relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
     relatedDiseaseSlugs: ['dengue', 'hepatites-virais', 'hiv-aids'],
@@ -2949,11 +3049,26 @@ export const diseases: Disease[] = [
         url: 'https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease',
         publisher: 'Organização Mundial da Saúde',
       },
+      {
+        label: 'Calendário Nacional de Vacinação — rotavírus',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario?id=0',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'SAMU 192',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/samu-192',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Pocket book of hospital care for children (WHO)',
+        url: 'https://cdn.who.int/media/docs/default-source/2021-dha-docs/pnadk428.pdf',
+        publisher: 'Organização Mundial da Saúde',
+      },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-19',
   },
 ];

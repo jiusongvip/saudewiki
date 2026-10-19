@@ -48,7 +48,7 @@ export const zhListGuides: Record<GuidePage, LocalizedSection[]> = {
         '胸口壓迫或疼痛延伸到頸部、下顎、背部或手臂：同一個頁面，以及文章[心肌梗塞：有哪些訊號以及該怎麼做](/artigos/infarto-quais-sao-os-sinais-e-o-que-fazer/)。',
         '退燒開始之後接著出現劇烈腹痛、持續嘔吐、出血、頭暈或尿量明顯減少：[登革熱](/doencas/dengue/)，危急期。',
         '胸口喘鳴、無法說完一整句話、嘴唇發紫或緩解藥物毫無反應：[氣喘](/doencas/asma/)。',
-        '腹瀉合併口乾、眼窩凹陷、孩子哭泣沒有眼淚或過度嗜睡：[腸胃炎（感染性腹瀉）](/doencas/gastroenterite/)。',
+        '腹瀉合併口乾、眼窩凹陷、孩子哭泣沒有眼淚或過度嗜睡：[胃腸炎（感染性腹瀉）](/doencas/gastroenterite/)。',
         '咳嗽持續三週或更久，尤其伴傍晚發燒、夜間盜汗與體重下降：[肺結核](/doencas/tuberculose/)。檢查由公共衛生系統提供。',
         '出現暴露於愛滋病毒的高風險情境：暴露後預防用藥必須在 72 小時內開始，時限的算法見文章[愛滋病毒：暴露後頭 72 小時該怎麼做](/artigos/hiv-o-que-fazer-nas-primeiras-72-horas/)。',
       ],
@@ -57,7 +57,7 @@ export const zhListGuides: Record<GuidePage, LocalizedSection[]> = {
       id: 'episodio-e-convivencia',
       heading: '一次發作的病與長相隨的病',
       paragraphs: [
-        '這份清單裡多數條目描述的是一次發作：人會生病、就醫、接受治療，然後康復。對這些疾病，頁面要交付的是辨識病情與該就醫的時刻。[登革熱](/doencas/dengue/)、[瘧疾](/doencas/malaria/)與[腸胃炎（感染性腹瀉）](/doencas/gastroenterite/)屬於這一組，所以它們的頁面從分期與訊號開始。',
+        '這份清單裡多數條目描述的是一次發作：人會生病、就醫、接受治療，然後康復。對這些疾病，頁面要交付的是辨識病情與該就醫的時刻。[登革熱](/doencas/dengue/)、[瘧疾](/doencas/malaria/)與[胃腸炎（感染性腹瀉）](/doencas/gastroenterite/)屬於這一組，所以它們的頁面從分期與訊號開始。',
         '另一些描述的是長相隨的狀況：[糖尿病](/doencas/diabetes/)、[高血壓](/doencas/hipertensao/)、[氣喘](/doencas/asma/)與[慢性阻塞性肺病](/doencas/dpoc/)。對它們，最有用的文字不是發作當下，而是控制：哪些檢查要重複、間隔多久，藥物在完全沒有症狀的每一天做了什麼，以及為什麼中斷治療通常就是併發症的由來。',
         '這種分別不是擺設。對一次發作，拖延造成傷害；對慢性狀況，造成傷害的是中斷。這份清單的兩個群組，[傳染病](/temas/doencas-infecciosas/)與[慢性病](/temas/doencas-cronicas/)，正是依這條軸線安排閱讀順序。',
       ],
@@ -195,7 +195,7 @@ export const zhCategoryGuides: Record<string, LocalizedSection[]> = {
       heading: '兒童健康這個群組涵蓋什麼',
       paragraphs: [
         '孩子不是縮小的成人，適合成人的資訊並不總適合孩子。在嬰兒身上觀察的是不同的訊號：腹瀉時，算數的是口乾、哭泣沒有眼淚、眼窩凹陷與很少出現的尿液；就登革熱而言，幼兒屬於併發症風險較高的群組；而疫苗時程有精確的月齡，那是成人日常沒有的。',
-        '這一組收集百科裡已經發布的兒童內容，並指出條目中特別談孩子的地方：[腸胃炎（感染性腹瀉）](/doencas/gastroenterite/)，那裡的脫水進展很快；[登革熱](/doencas/dengue/)，嬰兒屬於併發症高風險群組；以及[肺結核](/doencas/tuberculose/)，與患者同住者的調查在任何症狀出現之前就要開始。',
+        '這一組收集百科裡已經發布的兒童內容，並指出條目中特別談孩子的地方：[胃腸炎（感染性腹瀉）](/doencas/gastroenterite/)，那裡的脫水進展很快；[登革熱](/doencas/dengue/)，嬰兒屬於併發症高風險群組；以及[肺結核](/doencas/tuberculose/)，與患者同住者的調查在任何症狀出現之前就要開始。',
         '例行接種是這一組最常被查詢的文字，而且理由正當：[基本預防接種時程表](/artigos/vacinacao-o-que-e-o-calendario-basico/) 是本國免費提供、群體效果最大的預防措施之一。',
       ],
     },

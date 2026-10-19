@@ -244,25 +244,25 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-faringite-prevencao.webp',
     alt: 'Mãos sob a água corrente enquanto são lavadas',
   },
-  'gastroenterite-sinais-de-alerta': {
-    src: '/img/artigo-atendimento.webp',
-    alt: 'Profissional de saúde examinando o braço de um paciente',
+  'gastroenterite-sintomas': {
+    src: '/img/artigo-gastroenterite-sintomas.webp',
+    alt: 'Mulher com as mãos sobre a barriga, indicando desconforto abdominal',
   },
-  'gastroenterite-como-se-transmite': {
-    src: '/img/artigo-gastro-transmissao.webp',
+  'gastroenterite-duvidas-frequentes': {
+    src: '/img/artigo-gastroenterite-duvidas-frequentes.webp',
     alt: 'Mãos cobertas de espuma sendo esfregadas sob a água da torneira',
   },
-  'gastroenterite-como-e-diagnosticada': {
-    src: '/img/artigo-gastro-diagnostico.webp',
-    alt: 'Lentes e platina de um microscópio de laboratório em close',
-  },
-  'gastroenterite-tratamento-e-cuidados': {
-    src: '/img/artigo-gastro-tratamento.webp',
+  'gastroenterite-remedios': {
+    src: '/img/artigo-gastroenterite-remedios.webp',
     alt: 'Mãos em concha recolhendo água corrente',
   },
-  'gastroenterite-prevencao': {
-    src: '/img/artigo-gastro-prevencao.webp',
-    alt: 'Mãos lavando cenouras e abóbora sob a água da torneira',
+  'gastroenterite-alimentacao': {
+    src: '/img/artigo-gastroenterite-alimentacao.webp',
+    alt: 'Tigela escura com uma sopa quente de legumes',
+  },
+  'gastroenterite-pode-ser-grave': {
+    src: '/img/artigo-gastroenterite-pode-ser-grave.webp',
+    alt: 'Profissional de saúde posicionando um cateter no braço do paciente',
   },
 };
 

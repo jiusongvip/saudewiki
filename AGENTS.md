@@ -8,7 +8,7 @@
 
 - **Skill A（疾病词条）**：`skills/disease-encyclopedia-ptbr/SKILL.md`
 - **Skill B（派生文章）**：`skills/article-derivation-ptbr/SKILL.md`
-- **共享资产**（两 skill 只此一份）：`skills/_shared/editorial-checklist.md`、`skills/_shared/qc-workflow.md`、`skills/_shared/scripts/find_disease.py`
+- **共享资产**（两 skill 只此一份）：`skills/_shared/editorial-checklist.md`、`skills/_shared/qc-workflow.md`、`skills/_shared/scripts/find_disease.py`、来源资料库 `skills/_shared/sources/library.json`（读写见 `skills/source-library-ptbr/SKILL.md`）
 
 当用户要求**新增一个疾病词条**、**修改某个已有疾病词条**，或为该疾病**补充或重写派生文章与配图**时，按下面的链式流程执行，不得跳过：
 
@@ -17,6 +17,7 @@
 3. 两个 skill 都必须执行 `skills/_shared/qc-workflow.md` 规定的**三轮质检**（第一轮医学与安全、第二轮巴西本地事实与本地化、第三轮巴西葡语语言），每轮对照 `skills/_shared/editorial-checklist.md` 的对应章节逐条核对。
 4. **交付门禁**：三轮质检后的综合评分必须为 10 分且不存在关键错误；未达标时按扣分项修改并**重跑三轮**，直到达标。未达标不得交付，也不得用一次自检代替三轮质检。
 5. 第三轮质检与交付门禁都要跑 `node scripts/check-editorial.mjs`（或 `npm run check:editorial`）：它把清单里可机械化的红线变成硬门禁。与 `scripts/editorial-baseline.json` 比对，只允许减少不允许新增；修好旧问题后跑 `--update-baseline` 收缩基线。
+6. **来源先查后写**：Skill A 第 3 步与 Skill B 第 2 步核实事实时，先跑 `node scripts/references.mjs search <疾病或主题>` 查共享资料库；命中即复用（`label`/`url`/`publisher` 原样写进 `references`），未命中才打开官方页核实，并用 `references.mjs add` 回写资料库、记 `supports`；核不到来源的断言一律降调或删除。详见 `skills/source-library-ptbr/SKILL.md`。
 
 ## 二、改文案的两条硬约束
 
@@ -33,6 +34,7 @@
 
 ```bash
 npm run check:editorial      # 编辑红线，必须通过（与 scripts/editorial-baseline.json 比对，只减不增）
+npm run check:references     # 来源门禁，必须通过：references 的 url 须在资料库中且 host 合规
 node scripts/check-i18n.mjs  # 双语结构不变量与繁体字形，判断标准是与既有问题的差异，不要求全绿
 npm run build                # 必须成功；新增词条要确认新路由已生成，修改模式要确认原路由未被破坏
 ```

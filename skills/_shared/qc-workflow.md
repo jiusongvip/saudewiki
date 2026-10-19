@@ -8,6 +8,7 @@
 2. 每轮开始前都要打开 `editorial-checklist.md`（本目录下），逐条对照本轮负责的章节，而不是凭记忆判断。
 3. 三轮走完后评分。综合评分未达 10 分或存在关键错误 → 按扣分项修改 → **重跑全部三轮** → 复评，循环直到综合评分 10 分且无关键错误。未达标不得交付。
 4. 不得为提高分数改动未经核实的医学事实，也不得用语言润色掩盖医学或本地事实上的缺口。
+5. 核实与写源**先查共享资料库**：跑 `node scripts/references.mjs search <疾病|主题>`，命中即复用（`label`/`url`/`publisher` 原样写进 `references`）；未命中才打开官方页核实，并用 `references.mjs add` 回写资料库、记 `supports`；核不到来源的断言降调或删除。见 [`../source-library-ptbr/SKILL.md`](../source-library-ptbr/SKILL.md)。
 
 ## 三轮分工
 
@@ -40,6 +41,7 @@
 3. `node scripts/check-editorial.mjs` 必须通过：清单里可机械化的红线由它强制 —— 模板句合计 >1、`Trata-se de` 开头、同节非枚举性质的冒号式列表 >3、破折号 >2、翻译腔黑名单（`através de`、`comparecer`、`realizar a avaliação` 等）、耸动绝对化说法、pt-BR 正文里的中文残留与中国语境词、`alt` 里的破折号。必要枚举结构由脚本自动豁免。判断标准同样是与 `scripts/editorial-baseline.json` 的差异：只允许减少不允许新增；修复后跑 `--update-baseline` 收缩基线。
 4. 逐条核对 `SKILL.md` 5.8 的结构不变量与「最终审查」第 10 条，其中**第 14 条结构对齐**必须逐 H2 核验：医典正文每个 H2 在本站（含孪生）都有独立 section，H3/H4 已降为 `bullets`/段落且内容未删，顶层 8 栏仅作排序，总数 ≤15，补齐的节均为新增独立 `id`。
 5. 修改模式额外核对：slug、`id`、已有 section 的 `id` 与 `publishedAt` 均未变，原有锚点与内链仍有效，孪生已补齐。
+6. `npm run check:references`（= `node scripts/references.mjs check`）必须通过：`references` 的每个 url 都已在共享资料库 `skills/_shared/sources/library.json` 中登记，且 host 在官方白名单内。
 
 ## 交付说明必须包含
 

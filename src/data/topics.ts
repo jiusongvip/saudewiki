@@ -48,10 +48,11 @@ export const topics: Topic[] = [
       'faringite-e-amigdalite-como-se-transmite',
       'faringite-e-amigdalite-como-e-diagnosticada',
       'faringite-e-amigdalite-tratamento-e-cuidados',
-      'gastroenterite-sinais-de-alerta',
-      'gastroenterite-como-se-transmite',
-      'gastroenterite-como-e-diagnosticada',
-      'gastroenterite-tratamento-e-cuidados',
+      'gastroenterite-sintomas',
+      'gastroenterite-duvidas-frequentes',
+      'gastroenterite-remedios',
+      'gastroenterite-alimentacao',
+      'gastroenterite-pode-ser-grave',
     ],
     references: [
       {
@@ -108,7 +109,6 @@ export const topics: Topic[] = [
       'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
       'infarto-e-avc-fatores-de-risco',
       'faringite-e-amigdalite-prevencao',
-      'gastroenterite-prevencao',
     ],
     references: [
       {

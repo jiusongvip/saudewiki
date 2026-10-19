@@ -16,7 +16,7 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 - 写入前**必须先判定模式**：该疾病在本站是否已存在 → 新增模式或修改模式，见第 0 步。
 - slug 使用稳定的 ASCII kebab 格式（如 `dengue`、`hepatites-virais`）。
 - 成文中不得提及或引用百度或任何未核实来源；来源改为写入结构化的 `references` 字段，只放真实可打开的巴西、PAHO 或 WHO 官方链接。
-- 共享资产（本 skill 与文章 skill 只此一份）：编辑清单 [`../_shared/editorial-checklist.md`](../_shared/editorial-checklist.md)、三轮质检 [`../_shared/qc-workflow.md`](../_shared/qc-workflow.md)、定位脚本 [`../_shared/scripts/find_disease.py`](../_shared/scripts/find_disease.py)。
+- 共享资产（本 skill 与文章 skill 只此一份）：编辑清单 [`../_shared/editorial-checklist.md`](../_shared/editorial-checklist.md)、三轮质检 [`../_shared/qc-workflow.md`](../_shared/qc-workflow.md)、定位脚本 [`../_shared/scripts/find_disease.py`](../_shared/scripts/find_disease.py)、来源资料库 [`../_shared/sources/library.json`](../_shared/sources/library.json)（读写与复用流程见 [`../source-library-ptbr/SKILL.md`](../source-library-ptbr/SKILL.md)）。
 - **每次执行都必须走满[质检工作流](../_shared/qc-workflow.md)**：三轮质检（医学与安全、巴西本地事实、巴西葡语语言）走完后综合评分必须为 10 分且无关键错误才可交付。
 
 ## 工作流程
@@ -86,7 +86,7 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 
 不得保留原文中特征明显的比喻、句序、医生履历、网站品牌或编辑背书。输出必须是真正的重新创作，不能逐句翻译。
 
-经核实可用于写作的权威来源，同时记录为第 5 步的 `references` 条目（label、url、publisher），只保留真实可打开、且确实支撑所引结论的链接。
+经核实可用于写作的权威来源，同时记录为第 5 步的 `references` 条目（label、url、publisher），只保留真实可打开、且确实支撑所引结论的链接。**取源先查共享资料库**：先跑 `node scripts/references.mjs search <疾病|主题>`，命中即复用；未命中才打开官方页核实，并用 `references.mjs add` 回写资料库、记 `supports`（见 [`../source-library-ptbr/SKILL.md`](../source-library-ptbr/SKILL.md)）。
 
 ### 3. 核实医学结论
 
@@ -97,7 +97,7 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 3. 世界卫生组织（WHO）；
 4. 适用于巴西的其他国家级公共卫生机构或同行评议临床指南。
 
-医学指南和疫苗政策会变化，因此每次执行都要联网检查最新信息。权威资料存在差异时，以巴西当前指南为准，并避免给出虚假的精确结论。未经巴西权威资料独立核实，不得把中国的诊疗方案、病例定义、用药习惯或疫苗说法写入 `pt-BR` 内容。
+医学指南和疫苗政策会变化，因此每次执行都要联网检查最新信息。权威资料存在差异时，以巴西当前指南为准，并避免给出虚假的精确结论。未经巴西权威资料独立核实，不得把中国的诊疗方案、病例定义、用药习惯或疫苗说法写入 `pt-BR` 内容。本节核实所用的每条来源都先查共享资料库、命中即复用；未命中才联网取源，并回写资料库（见第 2 步）。
 
 不得提供针对个人的诊断或药物剂量，也不得把医院内操作改写为居家治疗建议。危险信号必须醒目标出，并明确建议寻求适当的专业医疗帮助。
 
@@ -266,6 +266,7 @@ isPlaceholder: true
 4. 运行 `node scripts/check-editorial.mjs`（或 `npm run check:editorial`）：必须通过与 `scripts/editorial-baseline.json` 的差异比较，只允许减少不允许新增。
 5. 逐条核对 5.8 的结构不变量。
 6. 修改模式额外核对：没有产生新 slug，原有锚点与内链仍然有效，`publishedAt` 未变，孪生已补齐。
+7. 运行 `npm run check:references`（= `node scripts/references.mjs check`）：`references` 的每个 url 都已在共享资料库 `skills/_shared/sources/library.json` 中登记且 host 合规，必须通过。
 
 **内容检查**
 

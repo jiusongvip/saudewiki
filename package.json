@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "check": "astro check",
     "check:i18n": "node scripts/check-i18n.mjs",
-    "check:editorial": "node scripts/check-editorial.mjs"
+    "check:editorial": "node scripts/check-editorial.mjs",
+    "check:references": "node scripts/references.mjs check"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

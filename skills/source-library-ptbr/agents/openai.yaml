@@ -1,0 +1,4 @@
+interface:
+  display_name: "巴葡来源资料库"
+  short_description: "为疾病词条与派生文章检索、核实、沉淀并复用官方来源；写作前先查共享资料库，未命中才取源并回写，交付跑 check:references"
+  default_prompt: "使用 $source-library-ptbr 处理疾病词条或派生文章的来源：先用 node scripts/references.mjs search 检索共享资料库 skills/_shared/sources/library.json，命中即复用（label/url/publisher 原样写进 references，pt-BR 与 zh-Hant 孪生镜像）；未命中的才去打开白名单内的巴西/PAHO/WHO 官方页面，逐条核实医学断言后用 references.mjs add 回写资料库并记 supports；核不到来源的断言一律降调或删除。交付前跑 npm run check:references，确保 references 的 url 都在库中且 host 在官方白名单内。"
