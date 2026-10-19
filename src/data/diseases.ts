@@ -18,9 +18,9 @@ export const diseases: Disease[] = [
     id: 'dengue',
     slug: 'dengue',
     name: 'Dengue',
-    aliases: ['febre da dengue', 'dengue clássica', 'dengue grave'],
+    aliases: ['febre da dengue', 'dengue clássica', 'dengue grave', 'dengue hemorrágica'],
     summary:
-      'Doença viral transmitida pela picada do mosquito Aedes aegypti. A maior parte dos casos é leve, mas a forma grave pode evoluir rapidamente.',
+      'Infecção viral transmitida pela picada do Aedes aegypti. A maioria dos casos é leve, mas a forma grave costuma começar quando a febre cede.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     sections: [
@@ -28,36 +28,76 @@ export const diseases: Disease[] = [
         id: 'o-que-e',
         heading: 'O que é dengue?',
         paragraphs: [
-          'Dengue é uma infecção causada por um vírus transmitido principalmente pela picada do mosquito Aedes aegypti. Existem quatro sorotipos do vírus, e uma pessoa pode adoecer mais de uma vez ao longo da vida.',
-          'A maioria das pessoas infectadas apresenta sintomas leves ou nenhum sintoma. Uma parcela menor evolui para formas graves, geralmente depois que a febre começa a ceder.',
-          'A infecção por um sorotipo gera imunidade duradoura contra ele, mas não protege contra os outros três. Por isso, uma nova infecção por outro sorotipo pode aumentar o risco de a doença evoluir para a forma grave.',
-          'A doença é mais comum em regiões tropicais e subtropicais, sobretudo em áreas urbanas com acúmulo de água parada e alta densidade de mosquitos.',
+          'Dengue é uma infecção causada por quatro sorotipos do vírus dengue (DENV-1 a DENV-4), transmitidos principalmente pela picada da fêmea do Aedes aegypti. Quem se infecta por um sorotipo fica imune a ele por muito tempo, mas pode adoecer de novo ao entrar em contato com os outros três.',
+          'A maior parte das infecções não causa sintoma ou causa um quadro leve. Uma parcela menor evolui para a forma grave, e isso costuma acontecer justamente quando a febre começa a ceder, e não no auge dela.',
+          'No Brasil, a dengue circula de forma contínua desde a década de 1980, com surtos que se repetem e se concentram entre outubro e maio. O mosquito se cria em água limpa e parada e vive dentro ou ao redor das casas, o que explica por que a transmissão é mais intensa em cidades densamente ocupadas.',
+          'A dengue não é um problema só do Brasil. A Organização Mundial da Saúde estima de 100 a 400 milhões de infecções por ano no mundo. Em 2024 foram notificados 14,6 milhões de casos e mais de 12 mil mortes, o maior número já registrado em doze meses, com boa parte nas Américas.',
         ],
       },
       {
         id: 'transmissao',
         heading: 'Como a dengue é transmitida?',
         paragraphs: [
-          'A transmissão acontece pela picada de um mosquito fêmea infectado, sobretudo durante o dia. Não há transmissão direta de pessoa para pessoa.',
-          'O mosquito se reproduz em água parada, o que explica por que os casos aumentam em períodos de chuva e calor.',
-          'O Aedes aegypti costuma picar no início da manhã e no fim da tarde e vive perto das pessoas. Por isso, quem está com dengue deve evitar novas picadas: isso reduz a chance de o mosquito adquirir o vírus e transmiti-lo a outras pessoas.',
-          'Em situações raras, o vírus também pode ser transmitido da gestante para o bebê, por transfusão de sangue ou por transplante de órgãos.',
+          'A transmissão acontece pela picada de uma fêmea do Aedes aegypti infectada. O mosquito tem hábitos diurnos, com atividade maior no começo da manhã e no fim da tarde, e costuma viver dentro ou muito perto das casas.',
+          'Não existe transmissão direta de pessoa para pessoa. O que existe é um ciclo: o mosquito se infecta ao picar alguém com o vírus no sangue e, depois de alguns dias, passa o vírus adiante ao picar outra pessoa. Esse período de vírus no sangue começa até dois dias antes dos sintomas e segue até cerca de dois dias depois de a febre passar.',
+          'Em situações raras, o vírus pode passar da gestante para o bebê, por transfusão de sangue ou por transplante de órgãos. O Aedes albopictus também é capaz de transmitir a dengue, mas tem papel secundário em relação ao Aedes aegypti.',
+          'Por isso, quem está com dengue deve evitar novas picadas. Assim o mosquito não adquire o vírus e não o leva para outra pessoa da casa ou da vizinhança.',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem tem maior risco de complicação?',
+        paragraphs: [
+          'Qualquer pessoa pode evoluir para dengue grave, inclusive quem nunca teve a doença antes. Alguns grupos, porém, precisam de acompanhamento mais próximo desde o primeiro atendimento:',
+        ],
+        bullets: [
+          'Bebês e crianças pequenas, sobretudo menores de 2 anos',
+          'Pessoas com 65 anos ou mais',
+          'Gestantes e mulheres no pós-parto',
+          'Pessoas com diabetes, hipertensão, doença renal, cardíaca, pulmonar ou do sangue',
+          'Pessoas com obesidade',
+          'Pessoas com imunidade comprometida',
+          'Quem já teve dengue por outro sorotipo',
+          'Quem tem dificuldade para se hidratar ou mora longe de um serviço de saúde',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de dengue?',
+        paragraphs: [
+          'A classificação usada hoje separa três situações: dengue sem sinais de alarme, dengue com sinais de alarme e dengue grave. A antiga divisão entre dengue clássica e dengue hemorrágica ainda aparece na conversa do dia a dia, mas não descreve bem todos os casos.',
+          'A dengue sem sinais de alarme é a mais comum. Febre, dor de cabeça, dores no corpo e manchas na pele dominam o quadro, e a recuperação acontece na maioria das vezes com hidratação e acompanhamento.',
+          'A dengue grave é definida por pelo menos uma destas condições: extravasamento importante de plasma, com choque ou acúmulo de líquido que atrapalha a respiração; sangramento intenso; ou comprometimento grave de órgãos como fígado, coração, cérebro e rins. É possível ter dengue grave sem nenhum sangramento visível, o que torna o termo dengue hemorrágica enganoso.',
+        ],
+        cta: {
+          label: 'Leia também: dengue pode matar?',
+          href: '/artigos/dengue-pode-matar/',
+        },
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a dengue?',
+        paragraphs: [
+          'A causa é a infecção por um dos quatro sorotipos do vírus dengue, um flavivírus de RNA. Não há outra via: não se pega dengue pelo contato com uma pessoa doente, por alimentos ou por água.',
+          'Depois da picada, o vírus se multiplica nas células de defesa da pele e dos gânglios e chega à corrente sanguínea. É nesse período, chamado de viremia, que um novo mosquito pode se infectar ao picar a pessoa.',
+          'Na forma grave, o problema central é o aumento da permeabilidade dos vasos. O plasma escapa para o pulmão, para o abdômen ou para outros tecidos, o sangue fica mais concentrado e a circulação pode entrar em colapso. As paredes dos vasos não estão destruídas, e é por isso que a reposição de líquido em tempo costuma reverter o quadro.',
         ],
       },
       {
         id: 'sintomas',
         heading: 'Quais são os sintomas da dengue?',
         paragraphs: [
-          'Os primeiros sinais costumam aparecer entre quatro e dez dias após a picada do mosquito.',
-          'Os sintomas variam bastante: nem todas as pessoas têm febre alta, manchas na pele ou todas essas manifestações ao mesmo tempo, e muitas infecções não causam sintoma nenhum.',
+          'Os sintomas costumam começar entre quatro e dez dias depois da picada e durar de dois a sete dias. O início é abrupto: a pessoa passa de um estado normal para febre alta em poucas horas, com dor de cabeça, dor atrás dos olhos, dores no corpo e mal-estar.',
+          'Nem todo mundo apresenta todos esses sinais. A febre pode ser baixa ou passar despercebida, e muitas infecções não causam sintoma nenhum. É comum haver vermelhidão no rosto e na garganta nos primeiros dias, o que costuma ser confundido com outras doenças.',
         ],
         bullets: [
-          'Febre alta de início súbito, geralmente entre 39 °C e 40 °C',
-          'Dor de cabeça intensa e dor atrás dos olhos, que piora ao movimentar os olhos',
-          'Dores musculares e nas articulações',
-          'Náusea, vômito e falta de apetite',
-          'Manchas vermelhas na pele, que podem surgir mais tarde',
-          'Coceira, sobretudo quando as manchas aparecem',
+          'Febre alta, em geral entre 39 °C e 40 °C, de início súbito',
+          'Dor de cabeça intensa e dor atrás dos olhos, que piora ao mover os olhos',
+          'Dores musculares e nas articulações, com sensação de corpo quebrado',
+          'Náusea, vômito, falta de apetite e, às vezes, diarreia',
+          'Manchas vermelhas na pele, que podem coçar e descamar depois',
+          'Sangramentos leves, como gengiva sangrando ou pequenas manchas roxas',
+          'Gânglios inchados e aumento do fígado em alguns casos',
         ],
         cta: {
           label: 'Leia também: quais são os primeiros sintomas da dengue?',
@@ -68,79 +108,63 @@ export const diseases: Disease[] = [
         id: 'fases-da-dengue',
         heading: 'Quais são as fases da dengue?',
         paragraphs: [
-          'A dengue costuma passar por três fases. Reconhecê-las ajuda a entender por que a piora pode acontecer justamente quando a febre começa a baixar.',
-          'Fase febril: dura de dois a sete dias, com febre, dores no corpo, dor de cabeça e mal-estar. A desidratação pode ocorrer pela febre, pelos vômitos ou pela baixa ingestão de líquidos.',
-          'Fase crítica: começa quando a febre diminui, em geral entre o terceiro e o sétimo dia, e pode durar de 24 a 48 horas. Em quem evolui para a forma grave, é nesse período que podem surgir o extravasamento de plasma, os sangramentos e o choque.',
-          'Fase de recuperação: o organismo reabsorve o líquido que saiu dos vasos, o apetite volta e as alterações dos exames tendem a regredir. Cansaço, manchas e coceira podem permanecer por algum tempo.',
-        ],
-      },
-      {
-        id: 'dengue-grave',
-        heading: 'O que é dengue grave?',
-        paragraphs: [
-          'A dengue grave é a forma da doença associada a pelo menos uma destas complicações: extravasamento importante de plasma, com choque ou acúmulo de líquido que prejudica a respiração; sangramento intenso; ou comprometimento grave de órgãos, como fígado, coração, cérebro e rins.',
-          'O termo “dengue hemorrágica” ainda é usado popularmente, mas não descreve todos os casos: uma pessoa pode ter dengue grave sem apresentar sangramento evidente.',
+          'A doença costuma seguir três fases. Reconhecê-las ajuda a entender por que a piora pode acontecer justamente quando a febre baixa.',
+          'Fase febril: dura de dois a sete dias e concentra febre alta, dor de cabeça, dor atrás dos olhos, dores no corpo e, em muitos casos, manchas na pele. É o período em que há mais vírus no sangue.',
+          'Fase crítica: começa quando a febre cede, em geral entre o terceiro e o sétimo dia, e dura de 24 a 48 horas. É quando pode surgir o extravasamento de plasma, com dor abdominal intensa, vômitos persistentes, acúmulo de líquido e, nos casos mais graves, choque. A pessoa pode parecer bem no início dessa fase, o que atrasa a busca por atendimento.',
+          'Fase de recuperação: o organismo reabsorve o líquido que saiu dos vasos, a urina volta ao volume habitual, o apetite retorna e as alterações do hemograma melhoram. Cansaço, manchas e coceira podem durar mais alguns dias.',
         ],
       },
       {
         id: 'sinais-de-alerta',
-        heading: 'Sinais de alerta e quando procurar atendimento',
+        heading: 'Sinais de alerta e onde procurar atendimento',
         paragraphs: [
-          'A melhora da febre não significa que o risco acabou: os sinais de alerta costumam surgir quando a temperatura começa a baixar, geralmente entre o terceiro e o sétimo dia da doença.',
-          'Procure atendimento imediatamente, mesmo que a febre tenha baixado, se aparecer algum destes sinais:',
+          'A melhora da febre não significa que o risco passou. Os sinais de alerta costumam aparecer entre o terceiro e o sétimo dia, quando a temperatura começa a cair, e indicam extravasamento de plasma ou sangramento.',
+          'Procure atendimento imediatamente, mesmo sem febre, se aparecer algum destes sinais:',
         ],
         bullets: [
           'Dor abdominal intensa e contínua',
-          'Vômitos persistentes ou dificuldade de beber líquidos',
+          'Vômitos frequentes que impedem a hidratação',
           'Sangramento de gengiva, nariz ou nas fezes',
           'Vômito com sangue ou fezes muito escuras',
           'Sonolência excessiva, confusão, agitação ou irritabilidade',
           'Tontura, desmaio ou queda de pressão',
-          'Dificuldade para respirar',
+          'Dificuldade para respirar ou respiração rápida',
           'Pele pálida, fria e úmida',
           'Fraqueza intensa',
-          'Urinar muito menos que o habitual ou sinais de desidratação',
-          'Barriga inchada de forma repentina ou progressiva',
+          'Urinar muito menos que o habitual',
+          'Barriga inchada de repente ou aumentando aos poucos',
           'Piora súbita depois que a febre baixa',
         ],
         cta: {
-          label: 'Leia também: quando procurar atendimento médico em caso de suspeita de dengue',
+          label: 'Leia também: quando procurar atendimento em caso de suspeita de dengue',
           href: '/artigos/quando-procurar-atendimento-em-caso-de-suspeita-de-dengue/',
         },
-      },
-      {
-        id: 'grupos-de-risco',
-        heading: 'Quem tem maior risco de complicações?',
-        paragraphs: [
-          'Qualquer pessoa pode desenvolver dengue grave, mas alguns grupos precisam de acompanhamento mais atento:',
-        ],
-        bullets: [
-          'Bebês e crianças pequenas',
-          'Pessoas com 65 anos ou mais',
-          'Gestantes e mulheres no pós-parto',
-          'Pessoas que já tiveram dengue',
-          'Pessoas com diabetes, hipertensão, doença renal, doença cardíaca, doença respiratória ou doenças do sangue',
-          'Pessoas com obesidade',
-          'Pessoas com imunidade comprometida',
-          'Pessoas com dificuldade para se hidratar ou sem acesso rápido a atendimento',
-        ],
       },
       {
         id: 'diagnostico',
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
-          'O diagnóstico começa pela avaliação clínica: sintomas, dia em que começaram e histórico de moradia ou viagem em área com circulação do vírus. No exame físico, o profissional procura sinais de desidratação, sangramento, alterações na circulação e comprometimento de órgãos.',
-          'O tipo de exame depende do momento da doença. Nos primeiros dias, geralmente até o quinto dia, o RT-PCR e o teste de antígeno NS1 podem identificar o vírus; a partir do sexto dia, a sorologia detecta os anticorpos produzidos contra ele.',
-          'O hemograma ajuda a acompanhar leucócitos, hematócrito e plaquetas, mas não confirma a dengue sozinho. Exames de função hepática e renal, testes de coagulação e exames de imagem podem ser solicitados conforme o quadro.',
-          'A queda das plaquetas é comum, mas o número isolado não define a gravidade nem indica transfusão por si só: o risco é avaliado em conjunto com o estado geral, a pressão arterial, a hidratação e outros exames.',
+          'O diagnóstico começa na conversa e no exame físico. Febre alta de início súbito com dor de cabeça, dor atrás dos olhos, dores no corpo ou manchas na pele, em alguém que vive ou viajou para uma área com transmissão, já levanta a suspeita.',
+          'O profissional também procura sinais de desidratação, sangramento, alteração da circulação e comprometimento de órgãos. A confirmação laboratorial ajuda a vigilância e a diferenciar de outras doenças, mas o atendimento não espera o resultado: ele começa pela avaliação clínica.',
+          'O tipo de exame depende do dia da doença. Até o quinto dia, é possível detectar o vírus por RT-PCR ou pela pesquisa do antígeno NS1. A partir do sexto dia, o teste de anticorpos passa a ser o mais indicado, porque o vírus já deixou a corrente sanguínea em quantidade detectável.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames podem ser solicitados?',
+        paragraphs: [
+          'O hemograma é o exame mais usado no acompanhamento. Ele mostra queda de leucócitos e de plaquetas e, quando há extravasamento de plasma, aumento do hematócrito, que indica sangue mais concentrado.',
+          'Exames bioquímicos avaliam fígado, rins, eletrólitos e coração. Alterações nas enzimas hepáticas são comuns e, em geral, leves. Em alguns casos aparecem marcadores de lesão cardíaca ou renal.',
+          'A imagem entra quando há suspeita de complicação. Radiografia de tórax, ultrassom de abdômen e de tórax e tomografia ajudam a identificar líquido no pulmão, no abdômen ou ao redor do coração. O eletrocardiograma é solicitado quando há sintomas cardíacos ou alterações no exame.',
+          'Nenhum exame isolado define a gravidade. A decisão de internar ou de reavaliar em 24 horas considera o estado geral, a pressão arterial, a diurese, o hematócrito e a forma como os sintomas evoluem.',
         ],
       },
       {
         id: 'diagnostico-diferencial',
         heading: 'Quais doenças podem parecer dengue?',
         paragraphs: [
-          'Febre, dores no corpo e manchas na pele também aparecem em outras doenças. Dependendo da região e dos sintomas, o profissional pode considerar outros diagnósticos.',
-          'Não é seguro diferenciar essas doenças apenas pela aparência das manchas ou pela intensidade da dor: a avaliação profissional é necessária.',
+          'Febre com dores no corpo e manchas na pele aparece em várias doenças. Dependendo da região e do histórico da pessoa, o profissional considera outras hipóteses antes de fechar o diagnóstico.',
+          'Não é seguro diferenciar essas doenças pelo aspecto das manchas ou pela intensidade da dor. Só a avaliação profissional, com exames quando indicado, separa uma da outra.',
         ],
         bullets: [
           'Chikungunya e zika',
@@ -155,34 +179,40 @@ export const diseases: Disease[] = [
       },
       {
         id: 'tratamento',
-        heading: 'Tratamento e cuidados',
+        heading: 'Tratamento: o que ajuda e o que evitar',
         paragraphs: [
-          'Não há medicamento antiviral específico. O manejo se baseia em hidratação, alívio dos sintomas e acompanhamento clínico, sempre com orientação de um profissional de saúde.',
-          'Em quadros leves, os cuidados incluem repouso, ingestão frequente de líquidos, alimentação leve conforme o apetite, observação da quantidade de urina e retorno para reavaliação na data indicada.',
-          'Para febre e dor, o paracetamol pode ser indicado, mas a escolha e a dose dependem da idade, do peso e de outras condições, e devem ser definidas por um profissional de saúde. Não se automedique.',
-          'Enquanto houver suspeita de dengue, evite aspirina (AAS), ibuprofeno, diclofenaco, naproxeno e remédios para gripe ou dor que contenham essas substâncias: eles aumentam o risco de sangramento.',
-          'Se houver vômitos repetidos, desidratação, sinais de alerta ou dengue grave, pode ser necessário receber soro na veia, ficar em observação ou ser internado. A quantidade e a velocidade da hidratação intravenosa são definidas pela equipe de saúde.',
-          'Antibióticos não têm efeito contra o vírus, e corticoides e transfusões não são indicados de rotina: dependem de avaliação médica específica.',
+          'Não existe antiviral contra a dengue. O tratamento é de suporte: hidratação, repouso, alívio da dor e da febre e acompanhamento clínico, com retorno para reavaliação na data indicada.',
+          'Em casa, beba líquidos ao longo de todo o dia, em pequenas quantidades e com frequência, mesmo sem sede. Observe a cor da urina e quantas vezes você urina. Coma o que conseguir, sem forçar, e deixe exercício intenso e bebida alcoólica para depois.',
+          'Para febre e dor, o paracetamol é a opção mais usada. A dose depende da idade, do peso e de outras condições de saúde, e deve ser definida por um profissional. Não se automedique nem repita a dose antes do intervalo indicado.',
+          'Enquanto houver suspeita de dengue, evite aspirina (AAS), ibuprofeno, diclofenaco, naproxeno e fórmulas para gripe que contenham essas substâncias. Todos aumentam o risco de sangramento.',
+          'Se houver vômitos repetidos, desidratação, sinais de alerta ou dengue grave, pode ser necessário soro na veia, observação na unidade de saúde ou internação. Antibióticos não têm efeito sobre o vírus, e corticoides e transfusões não são indicados de rotina.',
         ],
       },
       {
-        id: 'recuperacao',
-        heading: 'Recuperação e cuidados',
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir?',
         paragraphs: [
-          'A maioria das pessoas se recupera em uma ou duas semanas. O cansaço e a fraqueza podem persistir por mais tempo, mesmo depois que a febre e as dores desaparecem.',
-          'O retorno às atividades deve ser gradual, e é melhor evitar exercício intenso, consumo de álcool e automedicação durante a recuperação.',
-          'Procure novamente o serviço de saúde se os sintomas voltarem ou se aparecer falta de ar, sangramento, dor abdominal, tontura ou redução da quantidade de urina.',
-          'Com reconhecimento precoce e manejo adequado, a maioria dos casos graves pode ser tratada com sucesso.',
+          'A complicação mais temida é o choque por extravasamento de plasma, que pode levar à falência da circulação. Sangramentos importantes, inclusive digestivos, também fazem parte da forma grave.',
+          'O vírus e a resposta inflamatória podem comprometer órgãos. Miocardite e insuficiência cardíaca, encefalopatia ou encefalite, insuficiência renal aguda e lesão hepática grave são descritas em uma minoria dos pacientes e exigem cuidado hospitalar.',
+          'Quem teve dengue pode sentir cansaço por algumas semanas. A maioria se recupera por completo, sem sequela, e a letalidade da forma grave cai muito quando o atendimento acontece cedo.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'O que muda no dia a dia durante a recuperação?',
+        paragraphs: [
+          'A maioria das pessoas se recupera em uma ou duas semanas. O cansaço pode durar mais, e o retorno às atividades deve ser gradual: comece pelo que você dá conta e aumente conforme a energia volta.',
+          'Durante a fase febril, fique em casa e evite novas picadas, para não alimentar o ciclo de transmissão. Use repelente e, se possível, durma com mosquiteiro.',
+          'Volte ao serviço de saúde se os sintomas piorarem, se a febre voltar depois de dias sem ela, ou se aparecer falta de ar, sangramento, dor abdominal, tontura ou redução da urina.',
+          'Álcool e exercício intenso devem esperar a recuperação completa. Só use remédios para dor com orientação, pelas mesmas razões que valem durante a fase aguda.',
         ],
       },
       {
         id: 'prevencao',
         heading: 'Como prevenir a dengue?',
         paragraphs: [
-          'Como não existe tratamento específico para eliminar o vírus, a prevenção combina eliminação de criadouros, proteção contra picadas e vacinação quando indicada.',
-          'Os ovos do mosquito podem permanecer viáveis por meses em superfícies secas. Por isso, não basta descartar a água: é importante esfregar as paredes internas dos recipientes.',
-          'Repelentes com icaridina, DEET ou IR3535 podem ser usados conforme o rótulo e as orientações para cada faixa etária, inclusive na gestação.',
-          'No Brasil existem vacinas contra a dengue aprovadas pela Anvisa. A indicação depende da idade, das condições de saúde e das recomendações vigentes, e a oferta pode variar conforme o município. Consulte uma unidade de saúde para saber se a vacina é indicada para você. Mesmo quem foi vacinado deve continuar eliminando os criadouros e evitando a picada.',
+          'Sem antiviral, a prevenção se apoia em duas frentes: reduzir o mosquito e evitar a picada. O controle do vetor é o principal método, segundo o Ministério da Saúde, e funciona melhor fora da temporada de surtos.',
+          'O Aedes aegypti se cria em água limpa e parada, em qualquer recipiente. Os ovos resistem meses em superfícies secas, então não basta jogar a água fora: é preciso esfregar as paredes internas de vasos, caixas e tonéis.',
         ],
         bullets: [
           'Eliminar água parada em vasos, calhas, pneus e recipientes guardados',
@@ -205,12 +235,12 @@ export const diseases: Disease[] = [
       {
         question: 'Dengue pega de outra pessoa?',
         answer:
-          'Não. A transmissão ocorre pela picada do mosquito Aedes aegypti infectado, não pelo contato direto entre pessoas.',
+          'Não. A transmissão ocorre pela picada do Aedes aegypti infectado, não pelo contato direto entre pessoas, por alimentos ou por água.',
       },
       {
         question: 'Quem já teve dengue pode ter de novo?',
         answer:
-          'Sim. Como existem quatro sorotipos do vírus, uma nova infecção por um sorotipo diferente é possível e pode aumentar o risco de a doença evoluir para a forma grave.',
+          'Sim. Como existem quatro sorotipos do vírus, uma nova infecção por um sorotipo diferente é possível, e a segunda infecção aumenta o risco de a doença evoluir para a forma grave.',
       },
       {
         question: 'Quanto tempo dura a dengue?',
@@ -238,6 +268,11 @@ export const diseases: Disease[] = [
           'Não é recomendado. O ibuprofeno, a aspirina e outros anti-inflamatórios podem aumentar o risco de sangramento. Procure orientação para escolher uma opção segura.',
       },
       {
+        question: 'Dengue pode matar?',
+        answer:
+          'Sim, embora a maioria dos casos evolua bem. A forma grave pode levar a choque, sangramento intenso e falência de órgãos, e o risco cai muito quando o atendimento acontece cedo. Por isso, sinais de alerta exigem avaliação imediata.',
+      },
+      {
         question: 'Existe algum alimento ou suco que aumente as plaquetas?',
         answer:
           'Não há alimento ou bebida com comprovação de que eleve as plaquetas de forma imediata. Alimentação leve e boa hidratação ajudam na recuperação, mas não substituem o acompanhamento clínico.',
@@ -248,18 +283,20 @@ export const diseases: Disease[] = [
           'Na maioria dos casos, o próprio organismo elimina o vírus e a pessoa se recupera com hidratação, repouso e acompanhamento. Não há antiviral específico, e o mais importante é observar os sinais de alerta e tratar rapidamente qualquer complicação.',
       },
       {
-        question: 'Existe vacina contra dengue?',
+        question: 'Existe vacina contra dengue no SUS?',
         answer:
-          'Sim. O SUS oferece vacina contra a dengue, mas para o público e as regiões definidos pela estratégia do Ministério da Saúde, que mudam com o tempo. A vacina não substitui as medidas para reduzir a proliferação do mosquito. Informe-se na UBS da sua região.',
+          'Sim. A vacina foi incorporada ao SUS em dezembro de 2023 e é oferecida em municípios selecionados por critérios de transmissão, para crianças e adolescentes de 10 a 14 anos, em duas doses com intervalo de três meses. O público e a lista de municípios são revistos a cada ano, então confirme na UBS da sua região.',
       },
     ],
     relatedArticleSlugs: [
       'sintomas-iniciais-da-dengue',
       'como-prevenir-a-dengue',
       'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue',
+      'dengue-pode-matar',
+      'dengue-segunda-infeccao',
     ],
     relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
-    relatedDiseaseSlugs: ['diabetes', 'hipertensao'],
+    relatedDiseaseSlugs: ['chikungunya', 'zika', 'malaria'],
     references: [
       {
         label: 'Dengue: sintomas, prevenção e tratamento',
@@ -267,16 +304,26 @@ export const diseases: Disease[] = [
         publisher: 'Ministério da Saúde (Brasil)',
       },
       {
+        label: 'Vacinação contra a dengue: municípios contemplados',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue/vacinacao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
         label: 'Dengue and severe dengue: fact sheet',
         url: 'https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue',
         publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Clinical Features of Dengue',
+        url: 'https://www.cdc.gov/dengue/hcp/clinical-signs/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
       },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-19',
     isPlaceholder: true,
   },
   {

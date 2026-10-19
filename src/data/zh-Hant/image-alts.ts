@@ -31,6 +31,8 @@ export const zhImageAlts: Record<string, string> = {
   'sintomas-iniciais-da-dengue': '深色表面上蚊子的近距離特寫',
   'como-prevenir-a-dengue': '蚊子停在葉片與細枝之間',
   'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue': '醫療專業人員檢查患者的手臂',
+  'dengue-pode-matar': '綠色葉片上正面朝向鏡頭的長腿昆蟲',
+  'dengue-segunda-infeccao': '綠葉上蚊子的近距離特寫',
   'diabetes-tipo-2-o-que-muda-no-dia-a-dia': '血糖機放在白色桌面上，已插入試紙',
   'hipertensao-como-medir-a-pressao-em-casa': '圓形錶盤的血壓計與袖帶放在淺色背景上',
   'vacinacao-o-que-e-o-calendario-basico': '手握注射器針筒，旁邊放著疫苗瓶',

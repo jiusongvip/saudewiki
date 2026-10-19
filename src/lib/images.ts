@@ -104,6 +104,14 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-atendimento.webp',
     alt: 'Profissional de saúde examinando o braço de um paciente',
   },
+  'dengue-pode-matar': {
+    src: '/img/artigo-malaria-prevencao.webp',
+    alt: 'Inseto de pernas longas pousado em uma folha verde, visto de frente',
+  },
+  'dengue-segunda-infeccao': {
+    src: '/img/artigo-chikungunya-dengue.webp',
+    alt: 'Mosquito em detalhe sobre uma folha verde',
+  },
   'diabetes-tipo-2-o-que-muda-no-dia-a-dia': {
     src: '/img/artigo-diabetes-dia-a-dia.webp',
     alt: 'Medidor de glicose sobre uma mesa branca com a tira de teste encaixada',

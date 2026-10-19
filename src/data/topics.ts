@@ -36,6 +36,8 @@ export const topics: Topic[] = [
     articleSlugs: [
       'sintomas-iniciais-da-dengue',
       'como-prevenir-a-dengue',
+      'dengue-pode-matar',
+      'dengue-segunda-infeccao',
       'chikungunya-dor-nas-articulacoes-quanto-tempo-dura',
       'chikungunya-e-dengue-como-diferenciar',
       'zika-na-gestacao-o-que-a-infeccao-pode-causar',

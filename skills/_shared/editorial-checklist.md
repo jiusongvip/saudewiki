@@ -24,7 +24,7 @@
 16. 免责声明不写入数据（本站的数据文件不存放免责声明文本），由视图统一渲染。
 17. H2 落地为 `sections[]` 对象：`id` 用 ASCII 且两语言完全一致，`heading` 是该节标题，正文放 `paragraphs` 或 `bullets`，需要引导阅读时加 `cta`。
 18. 内链写在段落里用 `[label](/path/)`，独立引导用 `cta: { label, href }`，路径均为根路径。
-19. **派生文章的深度标准**：每篇 6 个 section、每节约 2 段，全文约 750 至 900 词；每个 section 至少交代「是什么 / 为什么 / 怎么办」中的两层，不是把词条段落换词重排。重写或加厚既有文章时按同一标准对齐。
+19. **派生文章的深度标准**：全文约 1100 至 1400 词、每节 2 至 3 段；**section 的数量与每节内容由该篇主题决定**——先看这个题目该分几节、每节具体写什么，再据此组织，不固定节数，也不要求每个 section 都套「是什么 / 为什么 / 怎么办」三层，每节的深浅跟着自身主题走，不是把词条段落换词重排。重写或加厚既有文章时按同一标准对齐。
 20. **文章零臆造**：文章里每个具体断言（数字、百分比、剂量、天数、分级或分型、检测时间窗、就医路径、风险人群、操作步骤）都必须能对应到疾病词条自身的 section / faq，或已列入 `references` 的来源；核不到来源的断言一律删除，或改写为不含具体细节的定性表述，不得凭常识或记忆补充。所引来源一律取自共享资料库 `skills/_shared/sources/library.json`（先 `node scripts/references.mjs search` 查库、未命中再取源并 `references.mjs add` 回写），不得引用库外或未核实链接。
 21. **结构体检（终检必做）**：把医典的 8 栏及其正文 H2 子主题与本站 `sections[].id` + `heading` 列成对照表，逐 H2 核对；缺的 H2 一律**新增独立 section**补齐（并同步 `zh-Hant` 孪生），不得并入已有 section 带过；确认 H3/H4 已降为 `bullets`/段落且内容未删、顶层 8 栏未各自成节；确认 section 总数 ≤15，若曾合并则列出被并项与承载 `id`。若某个 H2 的内容当前散落在别节，把它迁移到新节并在原节删除重复，已有 section 的 `id` 保持不变。
 
@@ -137,6 +137,8 @@
 | FAQ 用 `O quanto antes.` 作开头（残句） | `Procure ajuda o mais rápido possível.` |
 | `Como não é possível diferenciar sozinho em casa`（`diferenciar` 缺宾语） | `Como não dá para saber em casa qual é a causa` |
 | `o AVC é tratado nos ... e o infarto segue a ...`（被动与主动并列，机构名无解释） | 补同位语并统一句式：`o AVC é tratado nos Centros de Atendimento de Urgência, os hospitais de referência para esses casos, e o infarto segue a ...` |
+| `A doença não é um problema apenas brasileiro`（铺垫式泛化） | 直接限定范围：`A dengue não é um problema só do Brasil` |
+| `É o período de maior quantidade de vírus no sangue`（名词化堆叠） | `É o período em que há mais vírus no sangue` |
 
 补充规则：
 

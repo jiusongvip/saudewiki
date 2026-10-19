@@ -31,8 +31,13 @@
       "publisher": "Organização Mundial da Saúde",
       "host": "www.who.int",
       "lang": "pt",
-      "topics": ["antibióticos", "resistência antimicrobiana"],
-      "diseases": ["gastroenterite"],
+      "topics": [
+        "antibióticos",
+        "resistência antimicrobiana"
+      ],
+      "diseases": [
+        "gastroenterite"
+      ],
       "supports": [
         "不當使用抗生素會加劇細菌耐藥（antimicrobial resistance）"
       ],
@@ -197,11 +202,20 @@
       "publisher": "Centers for Disease Control and Prevention (CDC)",
       "host": "www.cdc.gov",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "dengue",
+        "arboviroses"
+      ],
+      "diseases": [
+        "dengue"
+      ],
+      "supports": [
+        "Fases clínicas: febril, crítica e de recuperação",
+        "Na fase crítica, hematócrito sobe e plaquetas caem antes de sinais visíveis",
+        "Sinais de alarme surgem quando a febre cede"
+      ],
+      "verifiedAt": "2026-10-19",
+      "status": "verified"
     },
     {
       "id": "dados-e-informacoes-sobre-o-hiv",
@@ -223,11 +237,26 @@
       "publisher": "Organização Mundial da Saúde",
       "host": "www.who.int",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "dengue",
+        "arboviroses"
+      ],
+      "diseases": [
+        "dengue"
+      ],
+      "supports": [
+        "Sintomas começam 4 a 10 dias após a infecção e duram 2 a 7 dias",
+        "Estimativa de 100 a 400 milhões de infecções por ano no mundo",
+        "Em 2024: 14,6 milhões de casos e mais de 12 mil mortes notificadas, recorde em 12 meses",
+        "Américas responderam por mais de 13 milhões de casos notificados em 2024",
+        "Infecção prévia aumenta o risco de dengue grave",
+        "Viremia: transmissão pessoa-mosquito até 2 dias antes dos sintomas e até 2 dias após a febre",
+        "Vetores principais: Aedes aegypti e Aedes albopictus",
+        "Tratamento: paracetamol; evitar ibuprofeno e aspirina pelo risco de sangramento",
+        "Vacina QDenga recomendada apenas para 6 a 16 anos em áreas de alta transmissão"
+      ],
+      "verifiedAt": "2026-10-19",
+      "status": "verified"
     },
     {
       "id": "dengue-sintomas-prevencao-e-tratamento",
@@ -236,11 +265,27 @@
       "publisher": "Ministério da Saúde (Brasil)",
       "host": "www.gov.br",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "dengue",
+        "arboviroses"
+      ],
+      "diseases": [
+        "dengue"
+      ],
+      "supports": [
+        "Vetor no Brasil: fêmea do Aedes aegypti; transmissão vertical e por transfusão são raras",
+        "Quatro sorotipos: DENV-1 a DENV-4",
+        "Padrão sazonal com aumento de casos entre outubro e maio",
+        "Doença endêmica no Brasil desde 1986; primeira epidemia documentada em 1981-1982 em Boa Vista (RR)",
+        "Caso suspeito: febre de 39 a 40 °C de início súbito mais dois entre cefaleia, prostração, mialgia/artralgia e dor retro-orbitária",
+        "Sinais de alarme entre o 3º e o 7º dia, com declínio da febre",
+        "Diagnóstico: detecção do vírus até o 5º dia; anticorpos a partir do 6º dia",
+        "Tratamento de suporte: repouso, hidratação, não se automedicar, retorno para reavaliação",
+        "Grupos de maior risco: gestantes, lactentes, crianças até 2 anos, maiores de 65 anos e pessoas com doenças crônicas",
+        "Vacina incorporada ao SUS em 21 de dezembro de 2023"
+      ],
+      "verifiedAt": "2026-10-19",
+      "status": "verified"
     },
     {
       "id": "diabetes-fact-sheet",
@@ -720,6 +765,30 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "vacinacao-contra-a-dengue-municipios-contemplados",
+      "label": "Vacinação contra a dengue: municípios contemplados",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue/vacinacao",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "dengue",
+        "vacinação",
+        "arboviroses"
+      ],
+      "diseases": [
+        "dengue"
+      ],
+      "supports": [
+        "Vacina incorporada ao SUS em 21 de dezembro de 2023",
+        "Público em 2024: crianças e adolescentes de 10 a 14 anos",
+        "Esquema de duas doses com intervalo de três meses",
+        "Municípios selecionados por alta transmissão e porte populacional"
+      ],
+      "verifiedAt": "2026-10-19",
+      "status": "verified"
     },
     {
       "id": "who-pocket-book-pnadk428",

@@ -17,92 +17,76 @@ export const articles: Article[] = [
     slug: 'sintomas-iniciais-da-dengue',
     title: 'Quais são os primeiros sintomas da dengue?',
     excerpt:
-      'A dengue começa com febre alta de início súbito, dor de cabeça, dor atrás dos olhos e dores no corpo. Os sinais de alarme surgem quando a febre cede.',
+      'Febre alta de início súbito, dor de cabeça, dor atrás dos olhos e dores no corpo. Reconhecer os primeiros sinais ajuda a procurar atendimento no tempo certo.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
       {
-        id: 'o-que-observar-primeiro',
-        heading: 'Quais são os primeiros sintomas da dengue?',
+        id: 'primeiros-sinais',
+        heading: 'O que aparece primeiro',
         paragraphs: [
-          'Os primeiros sintomas da dengue costumam ser febre alta de início súbito, dor de cabeça, dor atrás dos olhos e dores intensas nos músculos e nas articulações. A febre pode chegar a 39 °C ou 40 °C e vir acompanhada de náusea, vômito e perda de apetite.',
-          'A infecção pelo vírus da dengue nem sempre se manifesta. A [Organização Mundial da Saúde](https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue) estima que cerca de uma em cada quatro infecções produza sintomas, e a maioria dos casos é leve ou assintomática. Isso ajuda a explicar por que a doença circula tanto sem ser percebida.',
-          'Quando os sintomas aparecem, o início é abrupto: a pessoa passa de um estado normal para febre alta em poucas horas. Nas primeiras 24 a 48 horas também podem surgir rubor facial e vermelhidão na garganta, sinais discretos que costumam passar despercebidos.',
+          'A dengue costuma começar de forma abrupta. Em poucas horas, a pessoa passa de um estado normal para febre alta, em geral entre 39 °C e 40 °C, acompanhada de dor de cabeça intensa, dor atrás dos olhos que piora ao mover o olhar e dores nos músculos e nas articulações. Também são comuns náusea, falta de apetite e uma sensação de cansaço profundo, e muitas pessoas notam vermelhidão no rosto e na garganta logo nos primeiros dias, o que costuma ser confundido com outras doenças.',
+          'Essa combinação de febre alta com dor no corpo é o que levanta a suspeita. Ela não é exclusiva da dengue, mas, em uma área com transmissão, já justifica procurar uma unidade de saúde para avaliação, mesmo sem manchas na pele e sem outros sinais. Vale lembrar que boa parte das infecções não causa sintoma nenhum ou causa um quadro leve, e que a febre pode ser baixa ou passar despercebida em algumas pessoas.',
+          'As manchas vermelhas costumam aparecer entre o terceiro e o sexto dia, muitas vezes quando a febre já começou a ceder. Elas podem coçar e, ao desaparecer, deixar a pele descamando. Nem todo mundo tem manchas, e a ausência delas não afasta a dengue. Algumas pessoas apresentam ainda sangramentos leves, como a gengiva sangrando ou pequenas manchas roxas na pele, e podem ter gânglios inchados, com aumento do fígado em casos isolados.',
         ],
       },
       {
-        id: 'quanto-tempo-para-aparecer',
+        id: 'quanto-tempo-depois-da-picada',
         heading: 'Quanto tempo depois da picada os sintomas aparecem?',
         paragraphs: [
-          'O período de incubação da dengue é de quatro a dez dias após a picada do mosquito infectado, com maior frequência entre cinco e sete dias. Por isso, em uma área com transmissão, a febre que surge nesse intervalo deve levantar a suspeita, mesmo sem outros sinais evidentes.',
-          'A febre costuma durar de dois a sete dias e pode ter um padrão bifásico, com uma queda e um novo aumento antes de ceder de vez. A recuperação completa, por sua vez, leva de uma a duas semanas.',
-          'Depois da fase aguda, o cansaço pode persistir por algumas semanas. A recuperação varia de pessoa para pessoa e não termina no momento em que a febre passa.',
+          'O intervalo entre a picada do mosquito infectado e o aparecimento dos sintomas costuma ser de quatro a dez dias. Nesse período a pessoa não sente nada, mas o vírus já está se multiplicando no organismo e circula no sangue. Isso significa que, mesmo sem sintomas, ela pode infectar outros mosquitos que a piquem.',
+          'Os sintomas duram em geral de dois a sete dias. A febre pode ceder e voltar antes de ir embora de vez, e é justamente na queda da temperatura que a atenção precisa aumentar. Quem mora ou viajou para uma área com transmissão nos dias anteriores deve mencionar isso no atendimento.',
+          'Conhecer essas datas ajuda a organizar a busca por ajuda. Como o quadro começa alguns dias depois da picada e dura menos de uma semana na fase aguda, cumprir o retorno marcado e observar a queda da febre são o que garante segurança nesse intervalo. Se os sintomas se arrastarem além do previsto ou piorarem, o caso precisa de reavaliação.',
         ],
       },
       {
-        id: 'fases-da-doenca',
+        id: 'fases',
         heading: 'Quais são as fases da dengue?',
         paragraphs: [
-          'A dengue costuma seguir três fases. A primeira é a febril, que dura de dois a sete dias e concentra febre alta, dor de cabeça, dor atrás dos olhos, dores no corpo e, em muitos casos, manchas na pele. É o período em que o vírus circula no sangue e em que o exame consegue detectá-lo com mais facilidade.',
-          'A segunda é a crítica, que começa justamente quando a febre cede e dura cerca de 24 a 48 horas. Nesse intervalo, parte dos pacientes melhora, mas quem tem extravasamento importante de plasma pode evoluir para dengue grave em poucas horas. O paciente pode parecer bem mesmo diante de sinais iniciais de choque. O [CDC](https://www.cdc.gov/dengue/hcp/clinical-signs/index.html) descreve essa janela como o momento em que o hematócrito sobe e as plaquetas caem, antes de qualquer sinal visível.',
-          'A terceira é a de recuperação, quando o líquido extravasado é reabsorvido. O volume de urina aumenta, a frequência cardíaca pode cair e a pele pode descamar com coceira. É uma fase de melhora, mas que ainda exige acompanhamento.',
-        ],
-      },
-      {
-        id: 'primeiros-sinais',
-        heading: 'Qual é a ordem dos sintomas?',
-        bullets: [
-          'Febre alta, em geral entre 39 °C e 40 °C, de início súbito',
-          'Dor de cabeça intensa, muitas vezes atrás dos olhos',
-          'Dores no corpo, nos músculos e nas articulações',
-          'Náusea, vômito e perda de apetite',
-          'Manchas vermelhas na pele, do tipo maculopapular, que costumam surgir do terceiro ao sexto dia',
-          'Sangramentos leves, como gengiva sangrando, nariz sangrando ou pequenas manchas roxas na pele',
-          'Gânglios inchados e, em alguns casos, aumento do fígado',
-          'Rubor no rosto e vermelhidão na garganta nas primeiras 24 a 48 horas',
+          'A doença costuma seguir três fases. A primeira é a febril, que dura de dois a sete dias e concentra febre alta, dor de cabeça, dor atrás dos olhos, dores no corpo, náusea e, em muitos casos, manchas vermelhas na pele. É o período em que há mais vírus no sangue e, por isso, o de maior risco de transmissão.',
+          'A segunda é a crítica, que começa quando a febre cede, em geral entre o terceiro e o sétimo dia, e dura de 24 a 48 horas. É o momento em que pode ocorrer extravasamento de plasma, com piora rápida, às vezes com a pessoa ainda parecendo bem. A terceira é a de recuperação: o organismo reabsorve o líquido que saiu dos vasos, o apetite volta, a urina retorna ao volume habitual e o cansaço diminui aos poucos.',
+          'Vale lembrar que a maioria das infecções não passa por todas essas fases de forma perceptível. Muita gente tem um quadro leve, sem manchas e sem alterações importantes nos exames, e se recupera em casa, com hidratação e repouso. Ainda assim, conhecer as fases ajuda a entender por que a melhora da febre não é sinal de que o risco passou.',
         ],
       },
       {
         id: 'sinais-de-alarme',
-        heading: 'Quais sinais indicam que a dengue está se agravando?',
+        heading: 'Quais sinais indicam que a dengue está piorando?',
         paragraphs: [
-          'Os sinais de alarme costumam aparecer entre o terceiro e o sétimo dia, no momento em que a febre começa a ceder. Dor abdominal intensa, vômitos persistentes, acúmulo de líquido, sangramento de mucosas, letargia ou agitação, aumento do fígado, tontura e dificuldade para respirar são os principais.',
-          'Cerca de uma em cada vinte pessoas com dengue evolui para a forma grave, caracterizada por extravasamento importante de plasma, sangramento grave ou comprometimento de órgãos. A avaliação médica nessa janela é o que separa um caso comum de uma emergência.',
+          'Dor abdominal intensa e contínua, vômitos frequentes, sangramento de gengiva ou nariz, sonolência excessiva, agitação, tontura, dificuldade para respirar, pele fria e úmida e redução importante da urina são sinais de alerta. Eles podem aparecer com a febre já baixa ou até ausente, o que engana muita gente.',
+          'Esses sinais apontam para extravasamento de plasma ou sangramento e não seguem uma ordem fixa: podem surgir juntos ou isolados. Basta um deles para justificar a avaliação no mesmo dia, mesmo que a pessoa esteja se sentindo bem.',
+          'Diante de qualquer um deles, procure atendimento imediatamente. Não espere o retorno marcado nem tente resolver em casa: a diferença entre um caso comum e uma emergência costuma estar no tempo até a avaliação profissional.',
         ],
         cta: {
-          label: 'Veja os sinais de alerta na página sobre dengue',
+          label: 'Veja a lista completa de sinais de alerta',
           href: '/doencas/dengue/',
         },
       },
       {
         id: 'dengue-ou-outra-doenca',
-        heading: 'Como diferenciar dengue de chikungunya, zika e gripe?',
+        heading: 'Como diferenciar de chikungunya, zika e gripe?',
         paragraphs: [
-          'A chikungunya também é transmitida pelo Aedes e começa de forma abrupta, mas a dor nas articulações costuma ser o sintoma dominante: intensa, incapacitante e, segundo a [Organização Mundial da Saúde](https://www.who.int/news-room/fact-sheets/detail/chikungunya), capaz de durar semanas ou meses. Na dengue, a dor no corpo é marcante, porém raramente persiste por tanto tempo.',
-          'A zika tende a ser mais leve. Conjuntivite, coceira e manchas na pele são frequentes, a febre é baixa e boa parte das infecções não produz sintoma algum. O risco maior está na gestação, porque a infecção pode causar malformações no bebê.',
-          'A gripe se distingue pela presença de sintomas respiratórios, como tosse, dor de garganta e coriza, que não são típicos da dengue. Ainda assim, a semelhança entre as arboviroses é grande, e apenas o exame laboratorial confirma o diagnóstico.',
-        ],
-      },
-      {
-        id: 'o-que-nao-e-sintoma',
-        heading: 'Quais sintomas não são típicos de dengue?',
-        paragraphs: [
-          'Espirros frequentes, coriza e obstrução nasal apontam mais para resfriado ou outras infecções respiratórias do que para dengue. Isso não substitui uma avaliação profissional, mas ajuda a organizar a suspeita.',
+          'A chikungunya também é transmitida pelo Aedes e começa de forma abrupta, mas a dor nas articulações costuma dominar o quadro, é intensa e pode durar semanas ou meses. Na dengue, a dor no corpo é marcante, porém raramente persiste por tanto tempo.',
+          'Outras doenças também começam com febre e dores no corpo, como a febre do Oropouche, a covid-19, a influenza, a leptospirose, a malária, o sarampo, a rubéola e a febre amarela. Algumas delas exigem tratamento específico, e o histórico de viagens ajuda o profissional a escolher quais hipóteses investigar.',
+          'A zika costuma ser mais leve, com febre baixa, manchas na pele, coceira e conjuntivite, e boa parte das infecções não causa sintoma. A gripe se distingue pelos sintomas respiratórios, como tosse, dor de garganta e coriza, que não são típicos da dengue. Ainda assim, nem o aspecto das manchas nem a intensidade da dor separam essas doenças sozinhas: só a avaliação profissional, com exames quando indicados, confirma o diagnóstico.',
         ],
       },
       {
         id: 'o-que-fazer',
         heading: 'O que fazer ao suspeitar de dengue?',
         paragraphs: [
-          'O [Ministério da Saúde](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue) recomenda hidratação, repouso e paracetamol para a dor e a febre, e contraindica aspirina (ácido acetilsalicílico), anti-inflamatórios como ibuprofeno e injeções intramusculares, porque aumentam o risco de sangramento.',
-          'O momento do exame importa. Nos primeiros cinco dias de sintomas, a detecção do vírus por NS1 ou RT-PCR é o caminho mais direto. A partir do sexto dia, o teste de anticorpos passa a ser mais útil. O profissional de saúde define qual exame faz sentido em cada caso.',
-          'Procure uma unidade de saúde para avaliação. Se houver qualquer sinal de alarme, procure atendimento de emergência imediatamente, sem esperar os sintomas passarem.',
+          'Beba líquidos ao longo do dia, em pequenas quantidades e com frequência, mesmo sem sede. Observe a cor da urina e quantas vezes você urina, porque urinar pouco e escuro mostra que a hidratação não está dando conta. Descanse, coma o que conseguir e deixe exercício intenso e bebida alcoólica para depois. Para febre e dor, o paracetamol é a opção mais usada, e a dose deve ser definida por um profissional de saúde.',
+          'Enquanto houver suspeita, evite aspirina, ibuprofeno, diclofenaco e fórmulas para gripe que contenham essas substâncias, porque aumentam o risco de sangramento. Procure a UBS mais próxima para avaliação e volte na data indicada, mesmo que esteja se sentindo melhor.',
+          'Se a febre passar e você continuar bem, mantenha a hidratação por mais alguns dias e retome as atividades aos poucos. Se aparecer qualquer sinal de alerta, volte antes da data marcada, sem esperar o retorno agendado.',
         ],
       },
     ],
     diseaseSlugs: ['dengue'],
     topicSlugs: ['doencas-infecciosas'],
-    relatedArticleSlugs: ['como-prevenir-a-dengue', 'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue'],
+    relatedArticleSlugs: [
+      'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue',
+      'dengue-pode-matar',
+      'como-prevenir-a-dengue',
+    ],
     references: [
       {
         label: 'Dengue: sintomas, prevenção e tratamento',
@@ -119,22 +103,12 @@ export const articles: Article[] = [
         url: 'https://www.cdc.gov/dengue/hcp/clinical-signs/index.html',
         publisher: 'Centers for Disease Control and Prevention (CDC)',
       },
-      {
-        label: 'Chikungunya: fact sheet',
-        url: 'https://www.who.int/news-room/fact-sheets/detail/chikungunya',
-        publisher: 'Organização Mundial da Saúde',
-      },
-      {
-        label: 'Zika virus: fact sheet',
-        url: 'https://www.who.int/news-room/fact-sheets/detail/zika-virus',
-        publisher: 'Organização Mundial da Saúde',
-      },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-17',
+    updatedAt: '2026-10-19',
     isPlaceholder: true,
   },
   {
@@ -142,68 +116,81 @@ export const articles: Article[] = [
     slug: 'como-prevenir-a-dengue',
     title: 'Como prevenir a dengue?',
     excerpt:
-      'Como não há antiviral específico contra o vírus, a prevenção se concentra em eliminar criadouros do mosquito e evitar a picada. Veja o que funciona na prática.',
+      'Sem antiviral, a prevenção depende de reduzir o mosquito e evitar a picada. Veja o que funciona na rotina da casa e qual é o lugar da vacina.',
     category: 'Prevenção',
     categorySlug: 'prevencao',
     body: [
       {
-        id: 'por-que-a-prevencao-e-central',
-        heading: 'Por que a prevenção é central',
+        id: 'por-que-o-vetor-e-o-alvo',
+        heading: 'Por que o controle do mosquito é o centro da prevenção',
         paragraphs: [
-          'Não existe antiviral específico contra a dengue. Por isso, a base da prevenção é reduzir a população do mosquito e evitar a picada. O SUS também oferece vacina contra a dengue, para o público e as regiões definidos pela estratégia do Ministério da Saúde: informe-se na unidade de saúde da sua região.',
-          'O Aedes aegypti se reproduz em água parada. Qualquer recipiente com água limpa e parada, por menor que seja, pode servir de criadouro.',
+          'Não existe antiviral contra a dengue. Isso desloca toda a estratégia para antes da infecção: reduzir a população do Aedes aegypti e evitar que ele pique as pessoas. O Ministério da Saúde trata o controle do vetor como o principal método de prevenção, acima de qualquer medida isolada.',
+          'O mosquito vive dentro ou ao redor das casas, tem hábitos diurnos e se reproduz em água limpa e parada. Isso significa que boa parte do trabalho acontece no quintal, na laje, no vaso da sala e em qualquer objeto esquecido que acumule chuva. Como ele pica de dia, proteger-se apenas à noite está longe de resolver o problema.',
+          'Como o mosquito vive perto das pessoas e não costuma se afastar muito do local onde nasceu, o foco que alimenta os casos quase sempre está na própria casa ou no terreno vizinho. Isso explica por que a vistoria do quintal tem tanto peso na rotina de prevenção, e por que ela precisa ser repetida de forma contínua, não apenas quando os casos aumentam.',
         ],
       },
       {
-        id: 'criadouros',
-        heading: 'Criadouros que costumam passar despercebidos',
-        bullets: [
-          'Pratos de vasos de plantas e folhagens que acumulam água',
-          'Calhas entupidas e lajes com pontos de acúmulo',
-          'Pneus, baldes, garrafas e brinquedos guardados ao ar livre',
-          'Caixas d’água, tonéis e cisternas sem tampa',
-          'Bebedouros de animais e ralos pouco usados',
-          'Vasos sanitários e reservatórios em imóveis fechados',
-        ],
-      },
-      {
-        id: 'rotina',
-        heading: 'Uma rotina semanal de dez minutos',
+        id: 'onde-o-mosquito-se-cria',
+        heading: 'Onde o mosquito se cria',
         paragraphs: [
-          'Reservar um dia fixo da semana para vistoriar o quintal e as áreas comuns é mais eficaz do que mutirões isolados. O ciclo de reprodução do mosquito é curto, e a vistoria semanal interrompe esse ciclo antes que novos adultos apareçam.',
+          'Prato de vaso, calha entupida, pneu velho, balde, garrafa, brinquedo, caixa d’água sem tampa, bebedouro de animal e ralo pouco usado são criadouros comuns. A fêmea deposita os ovos na parede interna do recipiente, acima da linha da água, e a larva nasce quando o nível sobe.',
+          'Por isso a vistoria precisa alcançar locais que ninguém olha: atrás da máquina de lavar, na bandeja da geladeira, no reservatório do ar-condicionado, em imóveis fechados e em terrenos abandonados. Um único recipiente esquecido pode manter mosquitos por semanas, e não é raro que a casa de alguém com dengue tenha criadouros no próprio quintal.',
+          'A recomendação da Organização Mundial da Saúde é esvaziar, cobrir e limpar os reservatórios de água uma vez por semana. Uma rotina semanal interrompe o ciclo antes que novos mosquitos apareçam, e é mais eficaz do que agir apenas quando os casos aumentam. Quando as casas de uma mesma rua fazem isso na mesma semana, o efeito dura mais.',
         ],
       },
       {
-        id: 'evitar-picada',
+        id: 'ovos-e-limpeza',
+        heading: 'Por que só jogar a água fora não resolve',
+        paragraphs: [
+          'Os ovos do Aedes resistem meses em superfícies secas. Quando a água volta, eles eclodem. É por isso que virar o balde ou secar a poça resolve apenas parte do problema: a parede do recipiente continua com ovos viáveis.',
+          'A recomendação prática é esfregar as paredes internas com escova ou esponja, lavar com sabão e deixar secar ao sol. Caixas d’água e tonéis devem ficar tampados o tempo todo, e a limpeza precisa ser repetida, de preferência uma vez por semana.',
+          'Vale escolher um dia fixo na semana para essa vistoria, porque a tarefa esquecida é a que falha. Em períodos de chuva, recipientes que ficam a céu aberto acumulam água em poucos dias e merecem uma olhada a mais.',
+        ],
+      },
+      {
+        id: 'protecao-contra-picada',
         heading: 'Como reduzir o risco de picada',
         paragraphs: [
-          'O mosquito tem hábitos diurnos, com maior atividade no início da manhã e no fim da tarde.',
+          'O Aedes aegypti pica principalmente no começo da manhã e no fim da tarde. Nesses horários, roupas que cobrem braços e pernas ajudam, assim como repelentes com DEET, icaridina ou IR3535, aplicados conforme o rótulo e reaplicados no intervalo indicado.',
+          'Telas em portas e janelas e mosquiteiro, sobretudo para bebês e pessoas acamadas, completam a proteção. Gestantes podem usar repelente seguindo a orientação do fabricante. Quem está com dengue deve redobrar esse cuidado, porque evitar novas picadas interrompe a circulação do vírus.',
+          'Como o mosquito pica de dia, dentro de casa a proteção também importa: o inseto entra nos ambientes e prefere as horas de luz. Repelente, roupa adequada e telas funcionam juntos, e nenhum deles substitui a eliminação dos criadouros.',
         ],
-        bullets: [
-          'Usar repelente, seguindo a orientação do fabricante',
-          'Preferir roupas que cubram braços e pernas nos horários de maior atividade',
-          'Instalar telas em janelas e usar mosquiteiros em regiões com transmissão intensa',
+      },
+      {
+        id: 'vacina',
+        heading: 'Qual é o lugar da vacina',
+        paragraphs: [
+          'A vacina contra a dengue foi incorporada ao SUS em dezembro de 2023. A estratégia prioriza crianças e adolescentes de 10 a 14 anos em municípios selecionados por critérios de transmissão e porte populacional, com duas doses e intervalo de três meses entre elas.',
+          'O público e a lista de municípios são revistos a cada ano, então vale confirmar na UBS da sua região se a vacina está disponível para você ou para seus filhos. De todo modo, a vacina não substitui o controle do mosquito: mesmo quem foi vacinado precisa continuar eliminando criadouros e evitando picadas.',
+          'A vacina é uma ferramenta a mais, não a única. Em municípios onde ela não está disponível, o controle do mosquito continua sendo o que reduz a transmissão, e as mesmas medidas valem para quem já se vacinou. Como a proteção não é imediata nem completa, ninguém deve relaxar as outras ações por causa dela.',
         ],
       },
       {
         id: 'o-que-nao-funciona',
         heading: 'O que não substitui a prevenção',
         paragraphs: [
-          'Vitaminas, chás e soluções caseiras não previnem a infecção. O controle do mosquito exige eliminar criadouros continuamente, não com medidas pontuais.',
+          'Vitaminas, chás, sucos e soluções caseiras não previnem a infecção. Também não há comprovação de que aparelhos de ultrassom ou plantas específicas resolvam o problema de um quintal com criadouros ativos.',
+          'A prevenção funciona melhor quando é contínua e coletiva. Uma casa limpa em uma rua com vários focos continua exposta, e é por isso que a participação da vizinhança e o trabalho dos agentes de saúde fazem diferença. Fora da temporada de surtos é o melhor momento para manter essa rotina.',
+          'Desconfie de soluções que prometem acabar com o mosquito sem eliminar água parada. Produtos e aparelhos podem complementar o cuidado, mas não substituem a vistoria dos recipientes. Na dúvida, a pergunta útil é simples: esse método elimina os focos de água onde as larvas nascem? Se a resposta for não, ele não resolve o principal.',
         ],
-        cta: {
-          label: 'Entenda a transmissão na página sobre dengue',
-          href: '/doencas/dengue/',
-        },
       },
     ],
     diseaseSlugs: ['dengue'],
     topicSlugs: ['prevencao', 'doencas-infecciosas'],
-    relatedArticleSlugs: ['sintomas-iniciais-da-dengue', 'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue'],
+    relatedArticleSlugs: [
+      'sintomas-iniciais-da-dengue',
+      'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue',
+      'dengue-segunda-infeccao',
+    ],
     references: [
       {
         label: 'Dengue: sintomas, prevenção e tratamento',
         url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Vacinação contra a dengue: municípios contemplados',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue/vacinacao',
         publisher: 'Ministério da Saúde (Brasil)',
       },
       {
@@ -216,7 +203,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-19',
     isPlaceholder: true,
   },
   {
@@ -225,7 +212,7 @@ export const articles: Article[] = [
     title: 'Quando procurar atendimento médico em caso de suspeita de dengue?',
     metaTitle: 'Dengue: quando procurar atendimento',
     excerpt:
-      'A maioria dos casos evolui bem com hidratação e repouso. Mas alguns sinais indicam risco de forma grave e exigem avaliação imediata: saiba quais são.',
+      'A maioria dos casos evolui bem com hidratação e repouso. Alguns sinais, porém, indicam risco de forma grave e exigem avaliação imediata.',
     category: 'Prevenção',
     categorySlug: 'prevencao',
     body: [
@@ -233,32 +220,56 @@ export const articles: Article[] = [
         id: 'regra-geral',
         heading: 'A regra geral',
         paragraphs: [
-          'Diante de febre com dores no corpo em uma região com transmissão de dengue, procure uma unidade de saúde para avaliação. O profissional vai definir se há necessidade de exames e de acompanhamento mais próximo.',
+          'Febre alta de início súbito acompanhada de dor de cabeça, dor atrás dos olhos, dores no corpo ou manchas na pele, em uma região com transmissão, é motivo para procurar uma unidade de saúde. O Ministério da Saúde orienta que febre entre 39 °C e 40 °C com pelo menos dois desses sintomas já justifica atendimento, mesmo sem manchas visíveis.',
+          'Não é preciso esperar o quadro piorar para buscar ajuda. Na primeira consulta, o profissional avalia o risco naquele momento, orienta a hidratação e define se há necessidade de exames e de retorno em 24 ou 48 horas. É essa avaliação inicial que separa quem pode seguir em casa de quem precisa de observação mais próxima.',
+          'Vale lembrar que a ausência de febre não descarta a dengue. Em algumas pessoas a temperatura é baixa ou passa despercebida, e o cansaço e as dores no corpo podem ser o único sinal. Quem mora ou viajou para uma área com transmissão e não se sente bem deve procurar avaliação mesmo sem febre medida, sobretudo se fizer parte de um dos grupos de maior risco.',
         ],
       },
       {
-        id: 'sinais-de-alerta',
+        id: 'sinais-de-alarme',
         heading: 'Sinais de alerta que exigem atendimento imediato',
         paragraphs: [
-          'Estes sinais costumam aparecer na fase em que a febre começa a ceder, e não no pico dela. É justamente por isso que muita gente os ignora.',
+          'Alguns sinais indicam que a doença pode estar evoluindo para a forma grave. Eles costumam aparecer quando a febre começa a ceder, e não no pico dela, o que explica por que tanta gente os ignora pensando que está melhorando.',
+          'Os sinais não seguem uma ordem fixa e podem aparecer juntos ou isolados. Um único item da lista já basta para justificar a avaliação, mesmo que a pessoa esteja se sentindo bem e já não tenha febre.',
+          'Procure atendimento na hora, mesmo sem febre, se aparecer algum destes sinais:',
         ],
         bullets: [
           'Dor abdominal intensa e contínua',
-          'Vômitos persistentes que impedem a hidratação',
-          'Sangramento de gengiva ou nariz, sangue na urina ou nas fezes',
-          'Sonolência excessiva, irritabilidade ou confusão mental',
-          'Urinar muito menos que o habitual ou outros sinais de desidratação',
-          'Extremidades frias, palidez ou dificuldade para respirar',
+          'Vômitos frequentes que impedem a hidratação',
+          'Sangramento de gengiva, nariz ou nas fezes',
+          'Vômito com sangue ou fezes muito escuras',
+          'Sonolência excessiva, confusão ou agitação',
+          'Tontura, desmaio ou queda de pressão',
+          'Dificuldade para respirar ou respiração rápida',
+          'Pele pálida, fria e úmida',
+          'Urinar muito menos que o habitual',
+          'Piora súbita depois que a febre baixa',
         ],
       },
       {
-        id: 'grupos-de-maior-risco',
+        id: 'por-que-a-febre-ceder-preocupa',
+        heading: 'Por que a queda da febre preocupa',
+        paragraphs: [
+          'A fase crítica começa justamente quando a temperatura baixa, em geral entre o terceiro e o sétimo dia da doença, e dura de 24 a 48 horas. É nesse intervalo que pode ocorrer o extravasamento de plasma, com acúmulo de líquido e risco de choque.',
+          'Nesse momento, o hematócrito pode subir e as plaquetas cair antes de qualquer sinal visível. Por isso, a melhora aparente não dispensa a reavaliação marcada: ela existe para acompanhar essa janela, comparando os exames com os da primeira consulta.',
+          'A hidratação e o retorno na data combinada servem justamente para atravessar esse período com segurança. Quem sai da consulta com orientação de voltar em 24 ou 48 horas deve cumprir o prazo, mesmo que esteja sem febre. Se houver piora antes disso, não espere: volte ao serviço. Nessa fase, o hemograma pode mostrar alterações que o exame físico ainda não revela.',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
         heading: 'Quem precisa de atenção redobrada',
+        paragraphs: [
+          'Qualquer pessoa pode ter dengue grave, inclusive na primeira infecção. Alguns grupos, porém, têm risco maior de complicação e precisam de avaliação mais próxima desde o início.',
+          'Idade e condições de saúde mudam a forma como o corpo responde à desidratação e ao extravasamento de líquido, e é por isso que esses grupos são avaliados com mais cuidado. Eles devem procurar atendimento ao primeiro sintoma, sem esperar:',
+          'Para essas pessoas, a orientação é não aguardar sinais de alarme e não adiar o retorno marcado. O acompanhamento desde os primeiros dias é o que permite tratar a piora antes que ela se torne grave. Quem cuida de uma criança, de um idoso ou de alguém com doença crônica deve conhecer essa lista, porque muitas vezes é essa pessoa que percebe a mudança primeiro.',
+        ],
         bullets: [
-          'Crianças pequenas e idosos',
-          'Gestantes',
-          'Pessoas com doenças crônicas, como diabetes e hipertensão',
-          'Pessoas em uso de medicamentos anticoagulantes',
+          'Bebês e crianças pequenas, sobretudo menores de 2 anos',
+          'Pessoas com 65 anos ou mais',
+          'Gestantes e mulheres no pós-parto',
+          'Pessoas com diabetes, hipertensão, doença renal, cardíaca ou pulmonar',
+          'Pessoas com obesidade ou com imunidade comprometida',
+          'Quem já teve dengue por outro sorotipo',
         ],
         cta: {
           label: 'Saiba mais sobre hipertensão',
@@ -266,16 +277,31 @@ export const articles: Article[] = [
         },
       },
       {
-        id: 'o-que-nao-fazer',
+        id: 'onde-procurar',
+        heading: 'Onde procurar atendimento',
+        paragraphs: [
+          'No Brasil, a porta de entrada é a UBS mais próxima, que avalia, hidrata e encaminha quando necessário. Casos com sinais de alerta podem ser atendidos em UPA ou pronto-socorro, que têm estrutura para hidratação venosa e observação.',
+          'Em situações de emergência, como desmaio, sangramento intenso ou dificuldade para respirar, ligue para o SAMU no 192. Não espere o horário comercial e não dirija sozinho se estiver tonto ou muito fraco.',
+          'Se você não sabe qual serviço procurar, comece pela UBS. A equipe orienta o fluxo da sua região e encaminha para a UPA quando necessário, o que evita deslocamentos desnecessários. Levar um documento e, se possível, a lista de medicamentos em uso agiliza o atendimento.',
+        ],
+      },
+      {
+        id: 'o-que-nao-fazer-enquanto-espera',
         heading: 'O que não fazer enquanto espera atendimento',
         paragraphs: [
-          'Não use ácido acetilsalicílico nem anti-inflamatórios não esteroides por conta própria, pelo risco de sangramento. Mantenha a hidratação e evite automedicação.',
+          'Não use aspirina, ibuprofeno, diclofenaco ou fórmulas para gripe que contenham anti-inflamatórios, pelo risco de sangramento. Para febre e dor, o paracetamol é a opção mais usada, com dose definida por um profissional, e tomar mais de um remédio com a mesma substância não acelera a melhora.',
+          'Mantenha a hidratação em pequenas quantidades e com frequência, evite exercício e álcool e não tome medicamento por conta própria para vomitar menos ou para dor intensa. Se os vômitos impedirem de beber líquidos, isso já é motivo para buscar atendimento.',
+          'Leve a lista dos remédios que você usa, inclusive os de uso contínuo, para que a equipe avalie cada um durante o atendimento. Ao chegar, informe também se já teve dengue antes e se mora ou viajou para uma área com transmissão.',
         ],
       },
     ],
     diseaseSlugs: ['dengue'],
     topicSlugs: ['prevencao', 'doencas-infecciosas'],
-    relatedArticleSlugs: ['sintomas-iniciais-da-dengue', 'como-prevenir-a-dengue'],
+    relatedArticleSlugs: [
+      'sintomas-iniciais-da-dengue',
+      'dengue-pode-matar',
+      'como-prevenir-a-dengue',
+    ],
     references: [
       {
         label: 'Dengue: sintomas, prevenção e tratamento',
@@ -287,12 +313,215 @@ export const articles: Article[] = [
         url: 'https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue',
         publisher: 'Organização Mundial da Saúde',
       },
+      {
+        label: 'Clinical Features of Dengue',
+        url: 'https://www.cdc.gov/dengue/hcp/clinical-signs/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-19',
+    isPlaceholder: true,
+  },
+  {
+    id: 'dengue-pode-matar',
+    slug: 'dengue-pode-matar',
+    title: 'Dengue pode matar? O que leva à forma grave',
+    excerpt:
+      'A maior parte dos casos evolui bem, mas uma minoria desenvolve choque, sangramento intenso ou falência de órgãos. Entenda o que muda na forma grave.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'quantos-casos-evoluem',
+        heading: 'Quantos casos evoluem para a forma grave',
+        paragraphs: [
+          'A dengue é uma doença que assusta pelo nome, mas a maioria das pessoas se recupera. Boa parte das infecções não causa sintoma, e os casos com febre e dores costumam melhorar em uma a duas semanas com hidratação e acompanhamento.',
+          'Uma minoria evolui para a forma grave. O Ministério da Saúde afirma que quase todos os óbitos por dengue podem ser evitados e que isso depende, na maior parte das vezes, da qualidade e da rapidez do atendimento. Ou seja, o desfecho está mais ligado ao tempo até o cuidado do que a uma característica inevitável da doença.',
+          'A proporção de casos graves varia de temporada para temporada e depende do sorotipo em circulação, da imunidade da população e do acesso aos serviços de saúde. Por isso, mais útil do que tentar prever o risco individual é saber reconhecer os sinais de piora, porque é essa percepção que costuma levar a pessoa ao serviço no tempo certo.',
+        ],
+      },
+      {
+        id: 'o-que-muda-na-forma-grave',
+        heading: 'O que muda na forma grave',
+        paragraphs: [
+          'Na dengue grave, o problema central é o extravasamento de plasma. O líquido sai dos vasos para o pulmão, o abdômen ou outros tecidos, o sangue fica concentrado e a circulação pode entrar em colapso, quadro chamado de choque.',
+          'A forma grave também inclui sangramento intenso e comprometimento de órgãos como fígado, coração, cérebro e rins. É possível ter dengue grave sem sangramento visível, o que torna o termo popular dengue hemorrágica enganoso e perigoso: ele faz muita gente esperar por sangue para buscar ajuda.',
+          'Além do choque, a forma grave pode se manifestar como sangramento digestivo, alteração de consciência, dificuldade para respirar por acúmulo de líquido e redução da urina. São situações que exigem ambiente hospitalar e monitoramento contínuo. Reconhecer esses quadros é o que leva à internação no tempo certo, e é por isso que a avaliação profissional não deve ser adiada.',
+        ],
+      },
+      {
+        id: 'segunda-infeccao',
+        heading: 'A segunda infecção pesa no risco',
+        paragraphs: [
+          'Existem quatro sorotipos do vírus. A infecção por um deles garante proteção duradoura contra esse sorotipo, mas não contra os outros três. Quem já teve dengue uma vez tem risco maior de forma grave em uma infecção posterior por outro sorotipo. Por isso, saber quantas vezes a pessoa já adoeceu ajuda a equipe a dimensionar o risco, ainda que o desfecho dependa também da idade e das condições de saúde.',
+          'Isso não significa que a primeira infecção seja inofensiva. Bebês, crianças pequenas, gestantes, pessoas idosas e pessoas com doenças crônicas também podem evoluir mal na primeira vez, e por isso precisam de avaliação precoce. A soma dos fatores, e não um deles isolado, é o que orienta a conduta.',
+          'Vale reforçar que esse histórico deve ser informado em toda consulta, mesmo em outro município ou anos depois. Essa informação muda a forma como a equipe avalia o caso e define o acompanhamento, e nenhum exame rápido substitui esse relato no primeiro atendimento.',
+        ],
+      },
+      {
+        id: 'sinais-que-antecedem',
+        heading: 'Os sinais que antecedem a piora',
+        paragraphs: [
+          'A piora costuma acontecer quando a febre cede, entre o terceiro e o sétimo dia, e não no auge da temperatura. Dor abdominal intensa, vômitos persistentes, sangramento, sonolência, agitação, tontura, dificuldade para respirar e urina muito reduzida são os sinais que pedem atendimento imediato.',
+          'Reconhecer essa janela é o que separa um caso comum de uma emergência. Se a pessoa parece bem mas apresenta qualquer um desses sinais, ela precisa ser avaliada no mesmo dia, sem esperar o retorno agendado.',
+          'A lista vale para qualquer pessoa, mas pesa mais em quem já teve dengue antes e nos grupos de maior risco. Na dúvida sobre um sinal, procure avaliação: uma consulta a mais é sempre melhor do que esperar a piora se instalar.',
+        ],
+        cta: {
+          label: 'Veja a lista completa de sinais de alerta',
+          href: '/doencas/dengue/',
+        },
+      },
+      {
+        id: 'tratamento-que-muda-o-desfecho',
+        heading: 'O tratamento que muda o desfecho',
+        paragraphs: [
+          'Não há antiviral contra a dengue. O que muda o desfecho é a reposição de líquidos no tempo certo, feita com orientação profissional, além do controle dos sintomas e da observação dos sinais de alarme. É por isso que a rapidez pesa tanto no resultado final. Esperar o retorno marcado quando já existem sinais de alarme é justamente o que transforma um caso tratável em emergência.',
+          'Casos com sinais de alerta ou dengue grave podem precisar de soro na veia, observação na unidade de saúde ou internação. Antibióticos não têm efeito sobre o vírus, e corticoides e transfusões não são indicados de rotina. A decisão sobre cada um desses recursos é da equipe de saúde.',
+          'A reavaliação marcada faz parte do tratamento, não é formalidade. É nela que a equipe compara o hematócrito, a pressão e a diurese com os valores da primeira consulta e decide se o caso pode seguir em casa. A velocidade da reposição de líquido é definida caso a caso.',
+        ],
+      },
+      {
+        id: 'quem-precisa-de-mais-atencao',
+        heading: 'Quem precisa de mais atenção',
+        paragraphs: [
+          'Bebês e crianças pequenas, pessoas com 65 anos ou mais, gestantes e mulheres no pós-parto, pessoas com obesidade, com imunidade comprometida ou com doenças crônicas como diabetes e hipertensão têm risco maior de complicação.',
+          'Para esses grupos, a orientação é procurar atendimento ao primeiro sintoma, sem esperar sinais de alarme, e retornar na data marcada mesmo que a febre tenha passado. O acompanhamento próximo é o que permite tratar a piora antes que ela se torne choque.',
+          'Quem mora longe de um serviço de saúde ou tem dificuldade para se hidratar também precisa de um plano claro de retorno, porque a distância pode atrasar o atendimento quando os sinais de alarme aparecerem. Combinar com antecedência como chegar ao serviço, e quem pode acompanhar a pessoa, faz diferença nesse momento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['dengue'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'dengue-segunda-infeccao',
+      'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue',
+      'sintomas-iniciais-da-dengue',
+    ],
+    references: [
+      {
+        label: 'Dengue: sintomas, prevenção e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Dengue and severe dengue: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Clinical Features of Dengue',
+        url: 'https://www.cdc.gov/dengue/hcp/clinical-signs/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-19',
+    isPlaceholder: true,
+  },
+  {
+    id: 'dengue-segunda-infeccao',
+    slug: 'dengue-segunda-infeccao',
+    title: 'Segunda infecção por dengue é mais perigosa?',
+    excerpt:
+      'Quem já teve dengue pode adoecer de novo pelos outros sorotipos, e a segunda infecção aumenta o risco de forma grave. Entenda o que isso muda na prática.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'quatro-sorotipos',
+        heading: 'Por que é possível ter dengue mais de uma vez',
+        paragraphs: [
+          'O vírus da dengue tem quatro sorotipos, identificados como DENV-1, DENV-2, DENV-3 e DENV-4. A infecção por um deles gera imunidade duradoura contra aquele sorotipo, mas não protege contra os outros três.',
+          'Por isso, uma pessoa pode adoecer até quatro vezes ao longo da vida, uma para cada sorotipo. Como vários sorotipos circulam ao mesmo tempo no Brasil, a reinfecção não é uma exceção: é parte do comportamento esperado da doença. Saber disso ajuda a entender por que a preocupação com o mosquito não termina depois do primeiro episódio.',
+          'A imunidade que se forma depois da infecção é específica para o sorotipo que causou a doença. Quem teve DENV-1 pode ter DENV-2, DENV-3 ou DENV-4 mais adiante, e cada episódio é tratado como uma nova infecção. Por isso, ter dengue uma vez não deve ser encarado como proteção definitiva, nem dispensa os cuidados nas exposições seguintes.',
+        ],
+      },
+      {
+        id: 'por-que-a-segunda-vez-preocupa',
+        heading: 'Por que a segunda vez preocupa',
+        paragraphs: [
+          'A Organização Mundial da Saúde aponta que quem já foi infectado tem risco maior de desenvolver dengue grave em uma infecção posterior. O motivo está na forma como o sistema imunológico responde ao segundo sorotipo.',
+          'Na segunda infecção, os anticorpos produzidos na primeira podem se ligar ao novo vírus sem neutralizá-lo, e essa resposta desajustada facilita a entrada do vírus nas células e aumenta a inflamação. O resultado é maior chance de extravasamento de plasma e de complicações. Esse é o motivo pelo qual a segunda infecção recebe atenção especial nos serviços de saúde, mesmo quando os sintomas iniciais parecem leves.',
+          'Esse mecanismo é descrito pela Organização Mundial da Saúde, que lista a infecção anterior como fator de risco para a forma grave. Por isso, o histórico de dengue deve ser informado em qualquer consulta, inclusive em outro município. A informação muda a avaliação e o plano de retorno.',
+        ],
+      },
+      {
+        id: 'nem-toda-segunda-infeccao-e-grave',
+        heading: 'Nem toda segunda infecção é grave',
+        paragraphs: [
+          'Risco maior não significa destino certo. A maioria das segundas infecções também cursa com febre, dores no corpo e recuperação em uma a duas semanas, sem nenhuma complicação.',
+          'O que muda é o nível de atenção. Saber que já teve dengue antes ajuda o profissional a avaliar o caso e a marcar o retorno. Não é motivo para pânico, e sim para não deixar sintomas de alerta passarem. O acompanhamento existe para identificar cedo quem sai dessa expectativa e precisa de mais do que hidratação em casa.',
+          'A reavaliação também serve para ajustar a hidratação e decidir se o caso pode seguir em casa. Ter tido dengue antes é um dado que o profissional usa junto com idade, sintomas e exames, e não um diagnóstico de gravidade.',
+        ],
+      },
+      {
+        id: 'como-reduzir-o-risco',
+        heading: 'Como reduzir o risco de adoecer de novo',
+        paragraphs: [
+          'Quem já teve dengue precisa se proteger do mesmo jeito que qualquer outra pessoa: eliminar criadouros do mosquito e evitar picadas. Não existe comportamento que garanta imunidade aos outros sorotipos.',
+          'Na prática, isso significa vistoriar o quintal uma vez por semana, escovar as paredes dos recipientes com água, manter caixas d’água tampadas e usar repelente nos horários de maior atividade do mosquito. A proteção individual reduz a chance de uma nova infecção e também protege quem está por perto. Vale lembrar que o quintal de uma casa também pode alimentar criadouros de toda a vizinhança.',
+          'A proteção não é definitiva. Mesmo quem já teve os quatro sorotipos continua exposto a picadas e a outras arboviroses transmitidas pelo mesmo mosquito, como chikungunya e zika. Como o mosquito se cria perto das casas, a limpeza do quintal é a medida que mais depende de você, e ela vale independentemente de quantas vezes você já adoeceu.',
+        ],
+      },
+      {
+        id: 'sinais-de-alarme',
+        heading: 'Os sinais que exigem atendimento imediato',
+        paragraphs: [
+          'Na segunda infecção, vale redobrar a atenção à fase em que a febre cede, entre o terceiro e o sétimo dia. Dor abdominal intensa, vômitos persistentes, sangramento de gengiva ou nariz, sonolência, agitação, tontura, falta de ar e urina muito reduzida são sinais de alerta.',
+          'Diante de qualquer um deles, procure atendimento imediatamente, mesmo que a febre tenha baixado. A melhora da temperatura não indica que o risco passou, e é justamente nesse momento que a forma grave costuma se manifestar.',
+          'A lista é a mesma para qualquer caso, mas quem já teve dengue antes deve conhecê-la de cor. Na dúvida sobre um sinal, procure avaliação no mesmo dia, sem esperar o retorno marcado.',
+        ],
+        cta: {
+          label: 'Entenda a forma grave na página sobre dengue',
+          href: '/doencas/dengue/',
+        },
+      },
+      {
+        id: 'vacinacao-e-duvidas',
+        heading: 'Vacina e outras dúvidas frequentes',
+        paragraphs: [
+          'A vacina contra a dengue foi incorporada ao SUS em dezembro de 2023 e é oferecida em municípios selecionados, para crianças e adolescentes de 10 a 14 anos, em duas doses com intervalo de três meses. O público e a lista de municípios são revistos a cada ano.',
+          'Quem já teve dengue pode se vacinar, desde que esteja dentro do grupo e do município contemplados, e a decisão deve ser conversada na unidade de saúde. Ter tido a doença antes não dispensa a prevenção: continuar eliminando criadouros e evitando picadas segue sendo a base de tudo.',
+          'Se você já teve dengue, informe isso no posto de vacinação. O histórico ajuda a equipe a orientar a conduta e a reforçar os cuidados que continuam necessários depois da vacina. O mesmo vale quando o atendimento acontece em outro município, porque o registro nem sempre acompanha o paciente entre serviços.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['dengue'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'dengue-pode-matar',
+      'sintomas-iniciais-da-dengue',
+      'como-prevenir-a-dengue',
+    ],
+    references: [
+      {
+        label: 'Dengue and severe dengue: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Dengue: sintomas, prevenção e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Vacinação contra a dengue: municípios contemplados',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue/vacinacao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-19',
     isPlaceholder: true,
   },
   {
@@ -3390,8 +3619,9 @@ export const articles: Article[] = [
         id: 'sintomas-principais',
         heading: 'Quais sintomas costumam aparecer',
         paragraphs: [
-          'A gastroenterite aguda começa de repente e tem na diarreia o seu sintoma mais característico. O Ministério da Saúde considera doença diarreica aguda quando ocorrem três ou mais evacuações de fezes líquidas ou amolecidas em 24 horas.',
-          'Junto com a diarreia costumam vir náusea e vômito, cólicas e dor abdominal. A febre pode ou não aparecer, e as fezes podem trazer muco ou sangue quando a causa é bacteriana ou parasitária.',
+          'A gastroenterite aguda começa de repente e tem na diarreia o seu sintoma mais característico. O Ministério da Saúde considera doença diarreica aguda quando ocorrem três ou mais evacuações de fezes líquidas ou amolecidas em 24 horas. Na maior parte dos casos, a diarreia chega junto com náusea, vômito, cólicas e dor abdominal. Ela é o sintoma que mais chama atenção, mas não é o único.',
+          'Esses sintomas nascem da inflamação do estômago e do intestino. A mucosa irritada passa a perder mais líquido do que consegue reabsorver, e é isso que transforma o bolo fecal em fezes líquidas. O vômito aparece quando o organismo tenta expulsar o que irrita o tubo digestivo, e a cólica é o intestino se contraindo com mais força e mais vezes. A velocidade com que o conteúdo passa reduz o tempo de absorção, e o corpo perde água e sais nesse processo.',
+          'Vale anotar quantas vezes por dia a pessoa evacua, se as fezes têm sangue ou muco e se há febre. Essas três informações ajudam o profissional a separar um episódio comum de um quadro que pede exame. Enquanto isso, ofereça líquidos em goles pequenos e frequentes desde a primeira evacuação líquida, sem esperar a sede chegar. Esses dados valem mais do que a impressão geral de piora.',
         ],
         bullets: [
           'Diarreia, com fezes líquidas ou amolecidas',
@@ -3405,24 +3635,27 @@ export const articles: Article[] = [
         id: 'como-o-quadro-comeca',
         heading: 'Como o quadro costuma começar',
         paragraphs: [
-          'Na maioria das vezes os sintomas digestivos vêm primeiro e se instalam ao longo do dia, sem um aviso claro. A pessoa passa a ir ao banheiro com mais frequência e sente o corpo mais cansado do que o habitual.',
-          'Nem todo episódio é igual. A forma mais comum é leve, com diarreia e mal-estar que cedem em poucos dias. Quando os vômitos são repetidos ou a diarreia piora em vez de melhorar, o quadro merece mais atenção.',
+          'Na maioria das vezes os sintomas digestivos vêm primeiro e se instalam ao longo do dia, sem um aviso claro. A pessoa passa a ir ao banheiro com mais frequência, sente o corpo mais cansado do que o habitual e perde o apetite antes mesmo de perceber que está doente. É um sinal fácil de confundir com cansaço.',
+          'O intervalo entre a infecção e o primeiro sintoma depende do agente e da quantidade de germes que entrou no organismo. Duas pessoas que comeram a mesma coisa podem, assim, adoecer em momentos diferentes, e uma delas pode nem adoecer. Essa diferença explica por que nem sempre é possível apontar a refeição responsável, e procurar a refeição culpada raramente ajuda no cuidado imediato.',
+          'Nas primeiras horas, o mais útil é observar o ritmo do quadro. Quando as evacuações se espaçam e os vômitos diminuem, o episódio tende a ceder sozinho. Se acontece o contrário, com idas ao banheiro cada vez mais próximas ou vômitos que não param, o caminho é procurar atendimento em vez de esperar. Essa observação vale mais nas primeiras 24 horas do que qualquer exame.',
         ],
       },
       {
         id: 'sinais-gerais',
         heading: 'Sinais gerais que acompanham o quadro',
         paragraphs: [
-          'Além dos sintomas digestivos, a gastroenterite costuma vir com sinais gerais, como febre, dor de cabeça, dores no corpo e sensação de mal-estar.',
-          'Esses sinais fazem parte da resposta do organismo à infecção e tendem a ceder junto com a diarreia. O que muda o rumo do episódio não é a febre em si, e sim a quantidade de água e sais que a pessoa perde.',
+          'Além dos sintomas digestivos, a gastroenterite costuma vir com sinais gerais, como febre, dor de cabeça, dores no corpo e sensação de mal-estar. Em muitos casos, esse mal-estar aparece antes da diarreia e é o primeiro aviso de que algo está fora do lugar. Em crianças, ele costuma vir com irritabilidade e sonolência.',
+          'Esses sinais fazem parte da resposta do organismo à infecção. A temperatura sobe porque o corpo reage ao agente, e as dores no corpo vêm da mesma mobilização. O que muda o rumo do episódio, porém, não é a febre em si, e sim a quantidade de água e sais que a pessoa perde a cada evacuação e a cada vômito. Febre alta isolada não indica gravidade, mas febre que não cede merece atenção.',
+          'Medir a temperatura e observar se a febre cede ou se mantém ajuda a acompanhar a evolução. Não é preciso baixar a febre a qualquer custo, e qualquer remédio deve ser discutido com um profissional, sobretudo em crianças. Se a febre durar vários dias ou vier acompanhada de piora do estado geral, procure atendimento. O registro ao longo do dia mostra o padrão melhor do que uma medida isolada.',
         ],
       },
       {
         id: 'sinais-de-desidratacao',
         heading: 'Sinais de desidratação',
         paragraphs: [
-          'Quando a perda de líquidos é maior do que a reposição, aparecem os sinais de desidratação. Eles são o que define a urgência do atendimento.',
-          'O Ministério da Saúde orienta procurar a unidade de saúde mais próxima quando dois ou mais destes sinais estão presentes.',
+          'Quando a perda de líquidos é maior do que a reposição, aparecem os sinais de desidratação. Eles definem a urgência do atendimento mais do que o número de evacuações ou a presença de febre. Os sinais surgem de forma gradual e podem passar despercebidos por quem convive com a pessoa.',
+          'Crianças pequenas e pessoas idosas chegam a esse ponto mais rápido. Na criança, a proporção de água em relação ao peso é maior e a reserva para compensar a perda é menor. Na pessoa idosa, a sensação de sede costuma ser mais fraca, o que atrasa a reposição justamente quando ela é mais necessária. Observar a urina e o estado da boca é, nesse caso, mais confiável do que perguntar se há sede.',
+          'O Ministério da Saúde orienta procurar a unidade de saúde mais próxima quando dois ou mais destes sinais estão presentes. No caminho, continue oferecendo soro de reidratação oral em colheradas, porque cada gole conta enquanto o atendimento não chega. Se a pessoa estiver vomitando, ofereça uma colher a cada poucos minutos.',
         ],
         bullets: [
           'Olhos fundos',
@@ -3437,16 +3670,18 @@ export const articles: Article[] = [
         id: 'o-que-foge-do-esperado',
         heading: 'O que foge do esperado',
         paragraphs: [
-          'A maioria dos episódios melhora em poucos dias sem tratamento específico. Alguns sinais, porém, não são esperados e pedem avaliação: sangue ou muco nas fezes, diarreia que piora em vez de melhorar e vômitos repetidos que impedem de reter líquidos.',
-          'A diarreia que passa de 14 dias deixa de ser aguda e passa a ser classificada como persistente, o que exige investigação. Quando não há melhora em dois dias, o Ministério da Saúde também recomenda voltar ao serviço de saúde.',
+          'A maioria dos episódios melhora em poucos dias sem tratamento específico. Alguns sinais, porém, não são esperados e pedem avaliação: sangue ou muco nas fezes, diarreia que piora em vez de melhorar e vômitos repetidos que impedem de reter líquidos. Nenhum deles deve ser atribuído ao acaso.',
+          'A diarreia que passa de 14 dias deixa de ser aguda e passa a ser classificada como persistente, o que exige investigação, porque outras causas entram na lista. Quando não há melhora em dois dias, o Ministério da Saúde também recomenda voltar ao serviço de saúde, mesmo que a pessoa pareça bem. O prazo de dois dias é um limite, não uma meta para esperar.',
+          'Ao procurar atendimento, leve o que você anotou: número de evacuações por dia, presença de sangue ou muco, temperatura e quanto a pessoa conseguiu beber. Esses dados poupam tempo e ajudam a definir se o caso pode ser tratado em casa ou precisa de reidratação na unidade. Quem chega com essas informações recebe orientação mais rápida.',
         ],
       },
       {
         id: 'nem-toda-diarreia-e-gastroenterite',
         heading: 'Nem toda diarreia é gastroenterite',
         paragraphs: [
-          'A diarreia também aparece em quadros sem infecção. Medicamentos como antibióticos e laxantes, intolerância à lactose, doença celíaca, síndrome do intestino irritável e doenças inflamatórias intestinais podem causar diarreia sem germe a tratar.',
-          'Quando a diarreia se arrasta, vem com perda de peso, sangue nas fezes ou mudança do hábito intestinal, o profissional investiga outras causas. Por isso, quem tem episódios de repetição deve avaliar com um profissional em vez de tratar por conta própria.',
+          'A diarreia também aparece em quadros sem infecção. Medicamentos como antibióticos e laxantes, intolerância à lactose, doença celíaca, síndrome do intestino irritável e doenças inflamatórias intestinais podem causar diarreia sem germe a tratar. A lista é longa e inclui situações comuns no dia a dia.',
+          'Nesses casos, o intestino reage a algo que não consegue digerir ou absorver, ou está inflamado de forma crônica. O resultado se parece com uma infecção, mas o tratamento é outro, e o antibiótico não ajuda e pode até piorar o quadro. A automedicação, nesse cenário, tende a agravar justamente os casos em que não havia bactéria.',
+          'Quando a diarreia se arrasta, vem com perda de peso, sangue nas fezes ou mudança do hábito intestinal, o profissional investiga outras causas. Quem tem episódios de repetição deve, portanto, avaliar com um clínico geral em vez de tratar por conta própria. O tratamento correto depende de saber qual é a causa, e isso nem sempre se resolve em uma consulta.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
@@ -3499,48 +3734,54 @@ export const articles: Article[] = [
         id: 'e-contagiosa',
         heading: 'A gastroenterite é contagiosa?',
         paragraphs: [
-          'Sim. A transmissão é fecal-oral: os microrganismos saem pelas fezes e entram pela boca, por meio de água e alimentos contaminados, de mãos que não foram lavadas e do contato direto com uma pessoa doente.',
-          'Por isso, lavar as mãos com sabão e tratar a água de consumo são as medidas que mais reduzem o risco dentro de casa. O norovírus, em especial, costuma causar surtos em ambientes fechados.',
+          'Sim. A transmissão é fecal-oral: os microrganismos saem pelas fezes e entram pela boca, por meio de água e alimentos contaminados, de mãos que não foram lavadas e do contato direto com uma pessoa doente. Não é preciso contato íntimo para isso acontecer, porque basta levar a mão à boca depois de tocar em uma superfície contaminada. Por isso, lavar as mãos protege mais do que evitar abraços, e a medida vale para visitas e para quem cuida da pessoa doente.',
+          'É essa via que explica por que a doença se espalha com facilidade dentro de casa. Uma troca de fralda sem lavar as mãos, um copo compartilhado ou uma superfície mal higienizada bastam para levar o agente de uma pessoa a outra. O norovírus, em especial, costuma causar surtos em ambientes fechados, como escolas, creches e locais de trabalho, onde muita gente usa os mesmos banheiros e utensílios. Nesses locais, a higiene das mãos e dos banheiros faz diferença.',
+          'Lavar as mãos com sabão depois de usar o banheiro, trocar fraldas ou limpar vômito, tratar a água de consumo e higienizar frutas e verduras são as medidas que mais reduzem o risco em casa. Vale também separar os utensílios da pessoa doente e, quando possível, o banheiro, além de trocar a roupa de cama com mais frequência durante o episódio. Essas medidas valem para toda a família, não só para quem está doente.',
         ],
       },
       {
         id: 'quanto-tempo-dura',
         heading: 'Quanto tempo dura?',
         paragraphs: [
-          'Na maioria dos casos, alguns dias. A doença é autolimitada e costuma durar até 14 dias. Quando a diarreia passa desse período, ela é classificada como persistente e precisa de investigação.',
-          'O prazo que indica voltar ao serviço de saúde é de dois dias sem melhora ou quando a diarreia piora, mesmo sem outro sinal de gravidade.',
+          'Na maioria dos casos, alguns dias. A doença é autolimitada, o que significa que o organismo resolve a infecção sem tratamento específico, e costuma durar até 14 dias. Quando a diarreia passa desse período, ela é classificada como persistente e precisa de investigação. O prazo é uma referência, não uma previsão exata para cada pessoa.',
+          'O tempo varia conforme o agente e o estado de saúde de quem adoece. Episódios virais costumam ser mais curtos, enquanto quadros bacterianos ou parasitários podem se arrastar por mais tempo. O que decide a gravidade, porém, não é a duração em si, e sim a quantidade de líquido reposta ao longo dos dias, porque a perda continua enquanto a diarreia não cede. Quem tem doença crônica pode demorar mais para se recuperar. A hidratação é o que mantém o quadro sob controle.',
+          'O prazo que indica voltar ao serviço de saúde é de dois dias sem melhora ou quando a diarreia piora, mesmo sem outro sinal de gravidade. Não é preciso esperar o fim de semana nem a consulta já marcada. Em crianças pequenas e em pessoas idosas, procure atendimento mais cedo, porque a desidratação pode avançar em poucas horas. Levar o registro das evacuações ajuda o profissional a decidir.',
         ],
       },
       {
         id: 'crianca-deve-parar-de-comer',
         heading: 'Criança com diarreia deve parar de comer?',
         paragraphs: [
-          'Não. Suspender a alimentação piora o quadro e atrapalha a recuperação. A orientação é manter a alimentação habitual e a amamentação, oferecendo o soro de reidratação oral à parte, em goles pequenos e frequentes.',
-          'Em bebês, a amamentação deve continuar durante todo o episódio. Preparações leves, em porções pequenas e mais vezes ao dia, são mais bem toleradas. Veja mais em [o que comer durante a gastroenterite](/artigos/gastroenterite-alimentacao/).',
+          'Não. Suspender a alimentação piora o quadro e atrapalha a recuperação. A orientação é manter a alimentação habitual e a amamentação, oferecendo o soro de reidratação oral à parte, em goles pequenos e frequentes. O alimento não disputa espaço com o soro: as duas coisas se complementam ao longo do dia. O soro entra como complemento, não como substituto da refeição.',
+          'O intestino inflamado continua capaz de absorver nutrientes, e é deles que a criança tira a energia para se recuperar. Ficar sem comer prolonga a diarreia e aumenta a perda de peso, sobretudo em quem já está abaixo do peso. Em crianças desnutridas, esse efeito aparece mais rápido e pode transformar um episódio comum em um problema mais longo. Por isso, o peso deve ser acompanhado depois que a diarreia cede.',
+          'Na prática, ofereça preparações leves em porções pequenas e mais vezes ao dia, sem forçar. Em bebês, a amamentação deve continuar durante todo o episódio. Se a criança recusar tudo por muitas horas, vale procurar orientação. A insistência deve ser gentil, sem transformar a refeição em briga. Veja mais em [o que comer durante a gastroenterite](/artigos/gastroenterite-alimentacao/).',
         ],
       },
       {
         id: 'antibiotico-ajuda',
         heading: 'Antibiótico ajuda na diarreia?',
         paragraphs: [
-          'Na maioria dos casos, não. A gastroenterite comum é viral ou se resolve sozinha, e o antibiótico só se justifica quando o profissional identifica disenteria, com sangue ou muco nas fezes, ou cólera, sempre com acompanhamento médico.',
-          'Tomar antibiótico por conta própria não encurta a diarreia e ainda favorece a resistência dos microrganismos aos medicamentos.',
+          'Na maioria dos casos, não. A gastroenterite comum é viral ou se resolve sozinha, e o antibiótico só se justifica quando o profissional identifica disenteria, com sangue ou muco nas fezes, ou cólera, sempre com acompanhamento médico. O antibiótico não é um tratamento para diarreia em geral.',
+          'Usar antibiótico contra uma infecção viral não encurta a diarreia e ainda elimina bactérias que fazem parte da flora intestinal, o que pode agravar o quadro. O uso sem indicação também favorece a resistência dos microrganismos aos medicamentos, um problema que a Organização Mundial da Saúde trata como uma das principais ameaças à saúde pública. A resistência também torna as infecções mais graves para quem adoece depois.',
+          'Quando há suspeita de causa bacteriana, a coleta de fezes é feita antes do antibiótico, para não prejudicar o resultado do exame. Quem começa o remédio por conta própria pode tornar essa investigação mais difícil e atrasar o tratamento correto. Sem o exame, a escolha do remédio vira tentativa.',
         ],
       },
       {
         id: 'posso-tomar-remedio-para-parar',
         heading: 'Posso tomar remédio para parar a diarreia?',
         paragraphs: [
-          'Não por conta própria, sobretudo em crianças. Medicamentos que paralisam o intestino não tratam a causa, não repõem a água e os sais perdidos e podem esconder sinais de gravidade.',
-          'O que de fato funciona é a reposição de líquidos desde o primeiro episódio. Entenda o motivo em [por que não parar a diarreia com remédio](/artigos/gastroenterite-remedios/).',
+          'Não por conta própria, sobretudo em crianças. Medicamentos que paralisam o intestino não tratam a causa, não repõem a água e os sais perdidos e podem esconder sinais de gravidade. O alívio imediato não significa que a infecção esteja controlada.',
+          'A diarreia é uma forma de defesa: o intestino acelera para expulsar o agente e as toxinas que ele produz. Quando o remédio interrompe esse movimento, o conteúdo irritante permanece por mais tempo em contato com a mucosa, e a melhora aparente pode vir junto com uma piora silenciosa. Em crianças, o risco é maior porque a reserva de líquidos é menor. Em idosos, os sinais podem ser mais discretos e demorar a ser notados. A diarreia não é o inimigo a ser silenciado.',
+          'O que de fato funciona é a reposição de líquidos desde o primeiro episódio. Entenda o motivo em [por que não parar a diarreia com remédio](/artigos/gastroenterite-remedios/). O soro continua sendo a base em qualquer cenário.',
         ],
       },
       {
         id: 'quando-procurar-atendimento',
         heading: 'Quando procurar atendimento?',
         paragraphs: [
-          'Volte ao serviço de saúde se não houver melhora em dois dias ou se aparecer sangue ou muco nas fezes, vômitos repetidos, muita sede, diminuição da urina ou sonolência excessiva.',
-          'O atendimento pode começar na unidade básica de saúde mais próxima. Em quadros graves, com desidratação intensa, procure uma unidade de pronto atendimento ou a emergência de um hospital.',
+          'Volte ao serviço de saúde se não houver melhora em dois dias ou se aparecer sangue ou muco nas fezes, vômitos repetidos, muita sede, diminuição da urina ou sonolência excessiva. Esses sinais indicam que a perda de líquidos passou do que se consegue repor em casa.',
+          'O atendimento pode começar na unidade básica de saúde mais próxima, que avalia o estado de hidratação e orienta a reposição. Em quadros graves, com desidratação intensa, procure uma unidade de pronto atendimento ou a emergência de um hospital, onde é possível fazer a reposição por via intravenosa. O encaminhamento depende do grau de desidratação.',
+          'Em bebês e pessoas idosas, vale procurar mais cedo, mesmo sem sinal evidente, porque a reserva de água é menor e a piora pode ser rápida. A ligação para o SAMU, no 192, fica reservada a situações de risco imediato à vida; vômitos e diarreia, por si sós, não são motivo para acionar o serviço. Procurar cedo é sempre mais simples do que procurar tarde.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
@@ -3593,48 +3834,54 @@ export const articles: Article[] = [
         id: 'por-que-evitar-antidiarreico',
         heading: 'Por que não usar remédio para parar a diarreia',
         paragraphs: [
-          'Medicamentos que interrompem a diarreia agem sobre o sintoma, não sobre a causa. A gastroenterite é, na maioria das vezes, viral e se resolve sozinha, e o que decide o desfecho é repor a água e os sais perdidos, e não bloquear as evacuações.',
-          'Além de não tratar a infecção, esses remédios podem mascarar sinais que indicam gravidade, como a piora da diarreia ou a presença de sangue nas fezes. Por isso, não devem ser usados por conta própria, sobretudo em crianças.',
+          'Medicamentos que interrompem a diarreia agem sobre o sintoma, não sobre a causa. A gastroenterite é, na maioria das vezes, viral e se resolve sozinha, e o que decide o desfecho é repor a água e os sais perdidos, e não bloquear as evacuações. O remédio pode até dar a impressão de melhora nas primeiras horas. O que a pessoa sente é alívio, não recuperação, e a infecção continua o seu curso.',
+          'A diarreia tem uma função. O intestino acelera o trânsito para eliminar o agente e as toxinas que ele produz, e quando o remédio paralisa esse movimento, o conteúdo irritante permanece mais tempo em contato com a mucosa. Isso pode prolongar a infecção e aumentar a absorção de toxinas. O resultado é uma diarreia que parece controlada, mas que volta assim que o efeito do remédio passa.',
+          'Há ainda um risco prático. Ao reduzir as evacuações, o remédio esconde justamente o sinal que indica piora, como o aparecimento de sangue ou a intensificação da diarreia. Quem está tomando o medicamento pode demorar a perceber que o quadro mudou. Diante disso, esses remédios não devem ser usados por conta própria, sobretudo em crianças, que desidratam mais rápido.',
         ],
       },
       {
         id: 'o-que-realmente-funciona',
         heading: 'O que realmente funciona',
         paragraphs: [
-          'A base do cuidado é o soro de reidratação oral, oferecido em goles pequenos e frequentes desde o primeiro episódio de diarreia. Ele repõe água e eletrólitos na proporção certa, o que evita a desidratação.',
-          'Em crianças, o Ministério da Saúde recomenda ainda o zinco, uma vez ao dia por 10 a 14 dias, o que encurta o episódio. Manter a alimentação e a amamentação também ajuda na recuperação.',
+          'A base do cuidado é o soro de reidratação oral, oferecido em goles pequenos e frequentes desde o primeiro episódio de diarreia. Ele repõe água e eletrólitos na proporção certa, o que evita a desidratação. Não é preciso esperar o quadro piorar para começar, nem esperar a sede aparecer. Cada evacuação representa uma perda que precisa ser compensada. O soro pode ser dado com colher ou seringa, sem pressa.',
+          'A composição do soro não é arbitrária. A glicose que ele contém ajuda o intestino a absorver o sódio e, com ele, a água, mesmo quando a mucosa está inflamada. É essa combinação que faz o soro funcionar melhor do que a água pura, que sozinha não repõe os sais perdidos e pode diluir ainda mais o que restou no organismo. Água continua sendo útil, mas não substitui o soro.',
+          'Em crianças, o Ministério da Saúde recomenda ainda o zinco, uma vez ao dia por 10 a 14 dias, o que encurta o episódio. Manter a alimentação e a amamentação também ajuda na recuperação, e nenhuma dessas medidas depende de receita. Quem tem soro industrializado em casa deve usá-lo antes de qualquer preparação caseira, porque a proporção já vem pronta. O soro deve ser oferecido mesmo que a criança recuse no primeiro momento.',
         ],
       },
       {
         id: 'remedio-para-vomito',
         heading: 'E remédio para vômito?',
         paragraphs: [
-          'Vômitos repetidos que impedem de reter líquidos são um sinal de alerta e pedem avaliação, não automedicação. Esse tipo de medicamento também não substitui a reposição de líquidos.',
-          'Quando a pessoa não consegue beber, a reidratação pode ser feita na unidade de saúde e, nos casos graves, por via intravenosa, conforme o grau de desidratação avaliado pelo profissional.',
+          'Vômitos repetidos que impedem de reter líquidos são um sinal de alerta e pedem avaliação, não automedicação. Esse tipo de medicamento também não substitui a reposição de líquidos, que é o que realmente corrige a perda. Sem reposição, o remédio apenas alivia o desconforto por algumas horas e o problema continua. Se o vômito impede até o soro de ficar no estômago, o atendimento não pode esperar. O objetivo é repor, não apenas aliviar o sintoma.',
+          'Quando a pessoa vomita tudo o que bebe, a reposição pela boca deixa de funcionar, e é justamente aí que o quadro pode evoluir para desidratação. O vômito persistente também pode indicar outra causa, e não apenas a gastroenterite comum. A avaliação profissional, nesse caso, importa mais do que escolher um remédio por conta própria.',
+          'Nesses casos, a reidratação pode ser feita na unidade de saúde, em pequenas quantidades e sob observação, e nos quadros graves por via intravenosa, conforme o grau de desidratação avaliado pelo profissional. A via intravenosa garante que o líquido entre mesmo quando o estômago não colabora. É uma decisão técnica, tomada depois de examinar a pessoa.',
         ],
       },
       {
         id: 'antibiotico',
         heading: 'Quando o antibiótico tem lugar',
         paragraphs: [
-          'O antibiótico não serve para a maioria das diarreias. Segundo o Ministério da Saúde, ele deve ficar reservado aos casos com sangue ou muco nas fezes associados a comprometimento do estado geral, ou à cólera com desidratação grave, sempre com acompanhamento médico.',
-          'Em quadros suspeitos, a coleta de fezes é feita antes do uso de antibióticos, para não prejudicar o resultado dos exames.',
+          'O antibiótico não serve para a maioria das diarreias. Segundo o Ministério da Saúde, ele deve ficar reservado aos casos com sangue ou muco nas fezes associados a comprometimento do estado geral, ou à cólera com desidratação grave, sempre com acompanhamento médico. Fora dessas situações, o remédio não traz benefício e pode causar efeitos indesejados. A decisão depende do quadro, não do hábito de tomar antibiótico.',
+          'A razão é direta: a maior parte dos episódios é viral, e o antibiótico não age sobre vírus. Em quem tem infecção bacteriana sem sinais de gravidade, o organismo costuma resolver sozinho, e o remédio acrescenta efeitos indesejados sem acelerar a melhora. Ele também desequilibra a flora intestinal, o que pode prolongar a diarreia por outro caminho.',
+          'Em quadros suspeitos, a coleta de fezes é feita antes do uso de antibióticos, para não prejudicar o resultado dos exames. Essa é mais uma razão para não começar o remédio por conta própria antes de uma avaliação. O exame pode ser a peça que falta para definir se há bactéria e qual é ela.',
         ],
       },
       {
         id: 'automedicacao-e-resistencia',
         heading: 'O risco da automedicação',
         paragraphs: [
-          'Usar antibiótico sem prescrição não resolve a diarreia e ainda alimenta um problema maior: a resistência dos microrganismos aos antibióticos. A Organização Mundial da Saúde trata a resistência antimicrobiana como uma das principais ameaças à saúde pública.',
-          'O mesmo vale para remédios para parar a diarreia comprados por conta própria. Nada substitui a avaliação de quem consegue distinguir uma diarreia simples de um quadro que exige tratamento específico.',
+          'Usar antibiótico sem prescrição não resolve a diarreia e ainda alimenta um problema maior: a resistência dos microrganismos aos antibióticos. A Organização Mundial da Saúde trata a resistência antimicrobiana como uma das principais ameaças à saúde pública. O fenômeno cresce a cada uso desnecessário e reduz as opções de tratamento para todos. A prescrição, quando necessária, deve vir de quem examinou a pessoa.',
+          'Cada uso desnecessário seleciona bactérias mais resistentes, que depois circulam entre as pessoas e tornam infecções comuns mais difíceis de tratar. O efeito não fica restrito a quem tomou o remédio: ele passa para a comunidade e para os serviços de saúde. Quando uma infecção simples deixa de responder ao primeiro antibiótico, o tratamento fica mais longo e mais caro.',
+          'O mesmo vale para remédios para parar a diarreia comprados por conta própria. Nada substitui a avaliação de quem consegue distinguir uma diarreia simples de um quadro que exige tratamento específico. Essa diferença raramente é visível de fora, e é por isso que a consulta tem valor. Quem tem dúvida sobre um remédio deve perguntar a um profissional antes de tomar.',
         ],
       },
       {
         id: 'quando-o-profissional-indica',
         heading: 'Quando é o profissional quem indica',
         paragraphs: [
-          'A decisão sobre qualquer medicação cabe ao profissional de saúde, após avaliar o estado de hidratação e identificar, quando possível, o agente causador. O tratamento se organiza em planos de reposição, que vão do cuidado em casa à hidratação intravenosa.',
-          'Por isso, o caminho mais seguro diante da diarreia é repor líquidos e procurar atendimento quando surgirem sinais de alerta.',
+          'A decisão sobre qualquer medicação cabe ao profissional de saúde, após avaliar o estado de hidratação e identificar, quando possível, o agente causador. O tratamento se organiza em planos de reposição, que vão do cuidado em casa à hidratação intravenosa. Cada plano tem critérios próprios e é revisto conforme a resposta. A prescrição, quando necessária, vem acompanhada da orientação sobre sinais de alerta.',
+          'Essa avaliação começa pelo estado geral: nível de consciência, sede, olhos, boca e elasticidade da pele. É o grau de desidratação que define a via e a velocidade da reposição, não o nome do micróbio. Dois pacientes com a mesma diarreia podem, então, receber condutas diferentes, e isso não é inconsistência.',
+          'O caminho mais seguro diante da diarreia, portanto, é repor líquidos e procurar atendimento quando surgirem sinais de alerta. A automedicação atrasa esse passo e não substitui a consulta. Quando o quadro é leve, a orientação profissional costuma ser simples; quando não é, é ela que evita a internação. O atendimento precoce evita que o quadro avance.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
@@ -3687,24 +3934,27 @@ export const articles: Article[] = [
         id: 'hidratacao-primeiro',
         heading: 'A hidratação vem antes da comida',
         paragraphs: [
-          'Na diarreia, o que mais pesa não é o que se come, e sim o quanto de líquido se repõe. O primeiro passo é aumentar a ingestão de água e de soro de reidratação oral, em goles pequenos ao longo do dia.',
-          'O Ministério da Saúde orienta ingerir de 50 a 100 ml de líquido após cada evacuação diarreica, além do soro oferecido continuamente. Assim se evita que a perda de água evolua para desidratação.',
+          'Na diarreia, o que mais pesa não é o que se come, e sim o quanto de líquido se repõe. O primeiro passo é aumentar a ingestão de água e de soro de reidratação oral, em goles pequenos ao longo do dia. A comida vem depois, e não precisa ser suspensa. A ordem importa: primeiro o líquido, depois o alimento, e nunca o contrário. Sem líquido, o corpo não consegue compensar o que perde.',
+          'O Ministério da Saúde orienta ingerir de 50 a 100 ml de líquido após cada evacuação diarreica, além do soro oferecido continuamente. A conta parece simples, mas é ela que compensa o que se perde a cada ida ao banheiro. Quem espera sentir sede para beber costuma repor menos do que perde. O volume pode ser dividido em várias tomadas pequenas.',
+          'A sede é um aviso tardio, sobretudo em crianças e pessoas idosas. Quando ela aparece com força, a perda já começou. Por isso, ofereça líquido em intervalos regulares, mesmo que a pessoa não peça, e observe se a urina continua clara e em quantidade habitual. Se ela ficar escura e espaçada, a reposição está aquém do necessário. A cor da urina é um indicador simples e útil em casa.',
         ],
       },
       {
         id: 'soro-caseiro',
         heading: 'Como preparar o soro caseiro',
         paragraphs: [
-          'Quando não há soro de reidratação oral à mão, o Ministério da Saúde ensina a preparar o soro caseiro: em um litro de água mineral, filtrada ou fervida e já fria, misturar uma colher pequena, de café, de sal e uma colher grande, de sopa, de açúcar.',
-          'Depois de bem misturado, o soro deve ser oferecido ao longo do dia, em pequenas colheradas. Seguir a medida indicada é o que mantém a proporção adequada de sal e de açúcar.',
+          'Quando não há soro de reidratação oral à mão, o Ministério da Saúde ensina a preparar o soro caseiro: em um litro de água mineral, filtrada ou fervida e já fria, misturar uma colher pequena, de café, de sal e uma colher grande, de sopa, de açúcar. A água precisa estar limpa; se não houver filtrada, ferva e espere esfriar antes de misturar. Água sem tratamento pode levar contaminação para dentro do soro.',
+          'A medida importa mais do que parece. Açúcar em excesso puxa água para o intestino e piora a diarreia, e sal em excesso sobrecarrega o organismo. Por isso, não acrescente mais sal nem mais açúcar por conta própria, nem troque as colheres por medidas maiores. A receita funciona pela proporção, não pela quantidade. Uma colher a mais muda a proporção e o efeito.',
+          'Depois de bem misturado, o soro deve ser oferecido ao longo do dia, em pequenas colheradas. Se houver soro de reidratação oral industrializado disponível, ele é a primeira escolha, porque já vem na proporção adequada. A preparação caseira é uma alternativa para quando não há outra opção por perto. A receita deve ser seguida à risca, sem adaptações.',
         ],
       },
       {
         id: 'mantenha-a-alimentacao',
         heading: 'Não é preciso parar de comer',
         paragraphs: [
-          'Suspender a alimentação não ajuda e ainda atrapalha a recuperação. A orientação é manter a alimentação habitual, incluindo o leite materno, e apenas ajustar a forma como ela é oferecida.',
-          'Preparações leves e de fácil digestão, em porções pequenas e mais vezes ao dia, são mais bem aceitas durante o episódio.',
+          'Suspender a alimentação não ajuda e ainda atrapalha a recuperação. A orientação é manter a alimentação habitual, incluindo o leite materno, e apenas ajustar a forma como ela é oferecida. O corpo precisa de energia para combater a infecção e reparar a mucosa intestinal. O jejum, além de não ajudar, aumenta a sensação de fraqueza e torna a rotina mais difícil para quem cuida.',
+          'O intestino inflamado continua absorvendo nutrientes, e é deles que vem a energia para reparar a mucosa e recuperar o peso perdido. Ficar sem comer prolonga a diarreia e aumenta a fraqueza. Em crianças, a perda de peso pode ser rápida, e a recuperação depende de voltar a comer bem depois que a diarreia cede.',
+          'Preparações leves e de fácil digestão, em porções pequenas e mais vezes ao dia, são mais bem aceitas durante o episódio. Não é preciso insistir em comida seca nem retirar tudo o que a pessoa gosta. O objetivo é manter o aporte sem sobrecarregar o estômago. Comer pouco e com frequência funciona melhor do que uma refeição grande.',
         ],
         bullets: [
           'Prefira preparações leves, como arroz, caldo, sopa e frutas',
@@ -3717,8 +3967,9 @@ export const articles: Article[] = [
         id: 'o-que-evitar',
         heading: 'O que evitar durante a diarreia',
         paragraphs: [
-          'Alguns itens pioram a diarreia e devem ficar de fora até a melhora. Segundo a Organização Mundial da Saúde, bebidas muito açucaradas aumentam a perda de líquidos e agravam o quadro.',
-          'Também vale evitar alimentos crus ou malcozidos e leite não fervido ou não pasteurizado, que estão entre os que favorecem a infecção.',
+          'Alguns itens pioram a diarreia e devem ficar de fora até a melhora. Segundo a Organização Mundial da Saúde, bebidas muito açucaradas aumentam a perda de líquidos e agravam o quadro. O efeito é rápido e aparece poucas horas depois de beber. A lista é curta e vale para adultos e crianças. Trocar o refrigerante por água já reduz o problema.',
+          'O motivo é osmótico: muito açúcar no intestino atrai água para dentro dele, e o resultado é mais evacuação líquida. Refrigerantes, sucos industrializados e bebidas esportivas entram nessa lista. Mesmo os sucos naturais devem ser oferecidos com moderação, diluídos em água quando possível. A quantidade de açúcar importa mais do que o tipo de bebida.',
+          'Também vale evitar alimentos crus ou malcozidos e leite não fervido ou não pasteurizado, que estão entre os que favorecem a infecção. Durante o episódio, a prioridade é comida simples, bem cozida e de origem conhecida. Cozinhar bem os alimentos é uma medida simples e eficaz.',
         ],
         bullets: [
           'Refrigerantes e sucos muito açucarados',
@@ -3731,16 +3982,18 @@ export const articles: Article[] = [
         id: 'bebes-e-criancas',
         heading: 'Bebês e crianças',
         paragraphs: [
-          'Nos bebês, a amamentação deve continuar durante o episódio, pois ajuda na resistência contra as diarreias. Quem usa fórmula pode receber, com orientação do profissional, uma versão com menos lactose durante a diarreia.',
-          'Em crianças, o Ministério da Saúde recomenda o zinco, uma vez ao dia por 10 a 14 dias, o que encurta o episódio e reduz o risco de complicações.',
+          'Nos bebês, a amamentação deve continuar durante o episódio, pois ajuda na resistência contra as diarreias. Quem usa fórmula pode receber, com orientação do profissional, uma versão com menos lactose durante a diarreia. A troca não deve ser feita por conta própria. A amamentação também hidrata e acalma a criança nos momentos mais difíceis.',
+          'O leite materno repõe água e oferece fatores de proteção que a fórmula não reproduz. Interromper a amamentação justamente durante a diarreia retira da criança o alimento que ela melhor tolera. A sucção também ajuda a manter o vínculo e a tranquilizar o bebê. O leite materno continua sendo o melhor alimento nessa fase.',
+          'Em crianças, o Ministério da Saúde recomenda o zinco, uma vez ao dia por 10 a 14 dias, o que encurta o episódio e reduz o risco de complicações. O suplemento é indicado pelo profissional e não substitui o soro. A alimentação segue em paralelo, sem interrupção. O zinco é dado por um período curto e definido.',
         ],
       },
       {
         id: 'quando-a-comida-nao-desce',
         heading: 'Quando a pessoa não consegue comer ou beber',
         paragraphs: [
-          'Se a pessoa recusa alimentos, não consegue reter líquidos ou apresenta sinais de desidratação, o cuidado em casa não é suficiente. Nesses casos, é preciso procurar a unidade de saúde mais próxima.',
-          'Vômitos repetidos, muita sede, diminuição da urina e sangue nas fezes são sinais que pedem atendimento, e não ajustes na dieta.',
+          'Se a pessoa recusa alimentos, não consegue reter líquidos ou apresenta sinais de desidratação, o cuidado em casa não é suficiente. Nesses casos, é preciso procurar a unidade de saúde mais próxima. Quanto antes a avaliação, menor a chance de precisar de internação. Sinais de desidratação não devem ser tratados em casa.',
+          'Vômitos repetidos impedem que a reposição pela boca acompanhe a perda, e a desidratação avança mesmo que a pessoa esteja tentando beber. Sangue nas fezes e diminuição da urina também mudam a conduta. Nenhum desses sinais se resolve com ajuste de dieta. A avaliação profissional define se há necessidade de soro na veia.',
+          'Nessa situação, adiar o atendimento só aumenta o risco. A reidratação na unidade, com avaliação do grau de desidratação, é o passo seguinte. O profissional decide a via e a velocidade da reposição conforme o exame. Quanto antes a reposição começa, melhor o resultado.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
@@ -3798,31 +4051,36 @@ export const articles: Article[] = [
         id: 'quase-sempre-leve',
         heading: 'Na maioria das vezes, o quadro é leve',
         paragraphs: [
-          'A gastroenterite aguda costuma ser autolimitada e se resolver em poucos dias. A maior parte dos episódios é viral e não exige tratamento específico, apenas reposição de líquidos.',
-          'Isso não significa que possa ser ignorada. A mesma doença que passa em poucos dias em um adulto saudável pode desidratar rápido uma criança pequena ou uma pessoa idosa.',
+          'A gastroenterite aguda costuma ser autolimitada e se resolver em poucos dias. A maior parte dos episódios é viral e não exige tratamento específico, apenas reposição de líquidos. A maioria das pessoas volta à rotina em poucos dias, sem precisar de exame. Isso não quer dizer que todo episódio seja igual: alguns duram mais e exigem acompanhamento.',
+          'Isso não significa que possa ser ignorada. A mesma doença que passa em poucos dias em um adulto saudável pode desidratar rápido uma criança pequena ou uma pessoa idosa, porque a reserva de água e a capacidade de compensar a perda são diferentes. O agente pode ser o mesmo; o corpo, não. Idade e estado nutricional pesam mais do que o tipo de vírus. A diferença aparece nas primeiras horas.',
+          'O que separa os dois cenários não é a agressividade do agente, e sim a velocidade com que o corpo repõe o que perde. Começar a oferecer líquidos cedo é a medida que mais aproxima um caso do desfecho leve. Quem repõe nas primeiras horas costuma precisar de menos atendimento. A reposição precoce é simples e não depende de receita. A diferença raramente está no diagnóstico, e quase sempre no tempo.',
         ],
       },
       {
         id: 'desidratacao-e-o-risco',
         heading: 'A desidratação é o verdadeiro risco',
         paragraphs: [
-          'A principal complicação da gastroenterite é a desidratação. Segundo o Ministério da Saúde, quando tratada de forma incorreta ou não tratada, a doença diarreica pode levar à desidratação grave e ao distúrbio hidroeletrolítico, com risco de morte.',
-          'Esse risco cresce quando há desnutrição ou imunidade reduzida. É por isso que a rapidez com que a hidratação é reposta faz tanta diferença no desfecho.',
+          'A principal complicação da gastroenterite é a desidratação. Segundo o Ministério da Saúde, quando tratada de forma incorreta ou não tratada, a doença diarreica pode levar à desidratação grave e ao distúrbio hidroeletrolítico, com risco de morte. A mesma fonte lembra que a maioria dessas mortes é evitável com hidratação e atendimento a tempo. A desidratação é o que transforma um caso comum em internação.',
+          'A perda acontece pelos dois caminhos ao mesmo tempo, fezes e vômito, e muitas vezes supera o que a pessoa consegue beber. Os rins tentam segurar água e sódio, mas essa compensação tem limite, e é esse limite que se esgota primeiro nos grupos mais vulneráveis. Em crianças, a perda pode representar uma fração grande do peso em pouco tempo. Quanto menor a reserva, mais rápido esse limite é atingido. A reposição precisa acompanhar esse ritmo.',
+          'Repor desde o início é o que evita a progressão, e a conta é simples: o que entra precisa cobrir o que sai. Quando a pessoa já apresenta sinais de desidratação, a reposição caseira deixa de bastar e o atendimento passa a ser necessário. Nesse ponto, cada hora conta mais do que qualquer ajuste na dieta. A demora é o fator que mais pesa no desfecho.',
         ],
       },
       {
         id: 'quem-corre-mais-risco',
         heading: 'Quem corre mais risco de desidratar',
         paragraphs: [
-          'Crianças pequenas e pessoas idosas desidratam mais rápido e, segundo o Ministério da Saúde, devem procurar o serviço de saúde com urgência assim que adoecem.',
-          'Também correm mais risco as pessoas desnutridas e as que têm a imunidade reduzida, como quem vive com HIV. Nesses grupos, o mesmo episódio pode evoluir para desidratação grave em poucas horas.',
+          'Crianças pequenas e pessoas idosas desidratam mais rápido e, segundo o Ministério da Saúde, devem procurar o serviço de saúde com urgência assim que adoecem. Nesses grupos, a avaliação não deve esperar o quadro piorar. A avaliação precoce não é exagero.',
+          'Na criança, a água representa uma fatia maior do peso corporal e a reserva é menor, então a mesma perda pesa mais. Na pessoa idosa, a sede é menos perceptível e o organismo demora mais a corrigir o desequilíbrio. Por isso, a sede não é um bom termômetro nessas faixas de idade. Oferecer líquido por rotina é melhor do que esperar o pedido. A observação, então, deve ser frequente.',
+          'Também correm mais risco as pessoas desnutridas e as que têm a imunidade reduzida, como quem vive com HIV. Nesses grupos, o mesmo episódio pode evoluir para desidratação grave em poucas horas. Reconhecer o próprio grupo de risco ajuda a decidir mais cedo por atendimento. Quem cuida também precisa saber reconhecer esses sinais.',
         ],
       },
       {
         id: 'sinais-de-alerta',
         heading: 'Sinais de alerta',
         paragraphs: [
-          'O Ministério da Saúde orienta voltar imediatamente ao serviço de saúde diante de qualquer um destes sinais, mesmo que a pessoa pareça bem.',
+          'O Ministério da Saúde orienta voltar imediatamente ao serviço de saúde diante de qualquer um destes sinais, mesmo que a pessoa pareça bem. Vale para crianças e adultos.',
+          'A lista não serve para tranquilizar, e sim para indicar os motivos de não esperar. Cada item mostra que a perda de líquidos ou o comprometimento geral já passou do que se resolve em casa. Um sinal isolado já basta para procurar atendimento, e o conjunto reforça a urgência. Nenhum deles deve ser minimizado por parecer passageiro.',
+          'Se houver mais de um sinal ao mesmo tempo, a urgência aumenta. Em bebês e pessoas idosas, procure atendimento ao primeiro sinal, sem aguardar o próximo. Anotar quando cada sinal apareceu ajuda na consulta. Levar essas informações acelera a conduta.',
         ],
         bullets: [
           'Piora da diarreia',
@@ -3839,17 +4097,18 @@ export const articles: Article[] = [
         id: 'desidratacao-grave-e-emergencia',
         heading: 'Desidratação grave é emergência',
         paragraphs: [
-          'Segundo a Organização Mundial da Saúde, há desidratação grave quando a pessoa está sonolenta ou inconsciente, tem os olhos fundos, não consegue beber ou bebe mal e a pele, quando pinçada, demora dois segundos ou mais para voltar ao normal.',
-          'Diante desses sinais, procure a emergência de um hospital ou uma unidade de pronto atendimento imediatamente. Em bebês e em pessoas idosas, a situação pode piorar em poucas horas.',
-          'A ligação para o SAMU, no 192, é indicada em situações de risco imediato à vida. Vômitos e diarreia, por si sós, não são motivo para acionar o SAMU.',
+          'Segundo a Organização Mundial da Saúde, há desidratação grave quando a pessoa está sonolenta ou inconsciente, tem os olhos fundos, não consegue beber ou bebe mal e a pele, quando pinçada, demora dois segundos ou mais para voltar ao normal. A classificação é clínica e não depende de exame de sangue. O exame físico é rápido e não invasivo.',
+          'Esse conjunto indica que o volume de líquido circulando já não sustenta a pressão e a perfusão dos órgãos. É uma emergência porque a correção precisa ser rápida e por via intravenosa, o que só é possível em serviço de saúde. Quanto mais tarde a reposição começa, maior o risco de complicações. A reposição intravenosa é feita em ambiente monitorado. O tempo entre os primeiros sinais e a chegada ao serviço importa.',
+          'Diante desses sinais, procure a emergência de um hospital ou uma unidade de pronto atendimento imediatamente. A ligação para o SAMU, no 192, é indicada em situações de risco imediato à vida; vômitos e diarreia, por si sós, não são motivo para acionar o SAMU. Se houver rebaixamento de consciência, a remoção deve ser feita por serviço de emergência. Não espere o quadro piorar para buscar ajuda. A avaliação é rápida e não depende de agendamento.',
         ],
       },
       {
         id: 'complicacoes',
         heading: 'Complicações e o que muda o desfecho',
         paragraphs: [
-          'Além da desidratação, a perda de líquidos e sais pode alterar os eletrólitos, como sódio e potássio, o que agrava o quadro. Em episódios que se arrastam, a diarreia persistente leva à perda de peso e à desnutrição, sobretudo em crianças.',
-          'A maior parte desses quadros pode ser evitada com reposição de líquidos desde o início e com atendimento nos primeiros sinais de alerta.',
+          'Além da desidratação, a perda de líquidos e sais pode alterar os eletrólitos, como sódio e potássio, o que agrava o quadro. Em episódios que se arrastam, a diarreia persistente leva à perda de peso e à desnutrição, sobretudo em crianças. O desequilíbrio pode aparecer mesmo quando a diarreia já está diminuindo. O acompanhamento inclui a reposição de eletrólitos quando necessário. Em crianças, o impacto no crescimento é a maior preocupação.',
+          'A diarreia que dura semanas reduz a absorção de nutrientes e cria um ciclo: quanto menos se absorve, mais difícil fica recuperar o peso e a força. Em crianças, esse ciclo compromete o crescimento. Por isso, o peso e a altura merecem acompanhamento depois do episódio. A recuperação nutricional faz parte do tratamento.',
+          'A maior parte desses quadros pode ser evitada com reposição de líquidos desde o início e com atendimento nos primeiros sinais de alerta. O acompanhamento depois do episódio também importa, para recuperar peso e investigar causas quando a diarreia se repete. Depois do episódio, vale retomar a rotina aos poucos. A alta não encerra o cuidado.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
