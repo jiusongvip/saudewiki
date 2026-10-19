@@ -1,20 +1,17 @@
 ---
-import { ui } from '../i18n/ui';
-import type { Locale } from '../types';
-
 /**
  * An image box that reserves its space before the file arrives.
  *
  * Two jobs. It keeps `aspect-ratio` on the wrapper so a lazy image cannot
  * shift the layout when it loads, and when there is no `src` yet it renders a
- * halftone block instead of a broken image. A missing photo should look like a
- * deliberate placeholder, not like a bug.
+ * halftone block instead of a broken image. The block carries no caption: an
+ * unfinished-looking label on a published health page reads as a warning about
+ * the page, not about the picture.
  *
  * The `.media` class carries the shared image filter and the hover zoom, so
  * every picture on the site is treated the same way.
  */
 interface Props {
-  lang: Locale;
   src?: string;
   alt?: string;
   /** CSS aspect-ratio, e.g. "4 / 3". Use "fill" to fill the parent instead. */
@@ -24,9 +21,8 @@ interface Props {
   eager?: boolean;
 }
 
-const { lang, src, alt = '', ratio = '4 / 3', class: klass = '', eager = false } = Astro.props;
+const { src, alt = '', ratio = '4 / 3', class: klass = '', eager = false } = Astro.props;
 const fills = ratio === 'fill';
-const t = ui[lang];
 ---
 
 <div
@@ -44,11 +40,7 @@ const t = ui[lang];
         class="absolute inset-0 h-full w-full object-cover"
       />
     ) : (
-      <div class="halftone absolute inset-0" aria-hidden="true">
-        <span class="absolute inset-0 flex items-center justify-center text-[0.65rem] uppercase tracking-[0.2em] text-ink-muted/60">
-          {t.common.pendingImage}
-        </span>
-      </div>
+      <div class="halftone absolute inset-0" aria-hidden="true"></div>
     )
   }
 </div>

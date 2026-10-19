@@ -24,7 +24,7 @@ const image = imageForDisease(disease.slug, lang);
   href={urls.disease(disease.slug)}
   class="card card-link group flex flex-col overflow-hidden"
 >
-  <ImageSlot lang={lang} src={image?.src} alt={image?.alt ?? ''} ratio={ratio} eager={eager} />
+  <ImageSlot src={image?.src} alt={image?.alt ?? ''} ratio={ratio} eager={eager} />
 
   <div class="flex flex-1 flex-col p-5 sm:p-6">
     <span class="eyebrow">{disease.category}</span>

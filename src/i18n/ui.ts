@@ -70,7 +70,6 @@ const pt = {
     sources: 'Fontes e referências',
     sourcesNote:
       'Fontes públicas consultadas na redação deste conteúdo. Cada link aponta para o documento específico, não para a página inicial da instituição.',
-    pendingImage: 'imagem pendente',
     byAuthor: 'Por {author}',
     medicalReview: 'Revisão do conteúdo:',
     publishedOn: 'Publicado em:',
@@ -384,7 +383,6 @@ const zh: UI = {
     tocTitle: '本頁內容',
     sources: '來源與參考資料',
     sourcesNote: '撰寫本內容時查證的公開來源。每個連結都指向實際支撐該段落的具體文件，而非機關首頁。',
-    pendingImage: '待配圖',
     byAuthor: '撰文：{author}',
     medicalReview: '內容審查：',
     publishedOn: '發布日期：',
