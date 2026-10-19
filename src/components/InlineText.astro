@@ -3,7 +3,10 @@ import type { Locale } from '../types';
 import { parseInline } from '../lib/prose';
 
 interface Props {
-  /** Body copy that may contain `[label](/internal/path/)` markers. */
+  /**
+   * Body copy that may contain `[label](/internal/path/)` markers, or
+   * `[label](https://cited.host/)` markers for the hosts in `prose.ts`.
+   */
   text: string;
   lang: Locale;
 }
@@ -15,7 +18,11 @@ const parts = parseInline(text, lang);
 {
   parts.map((part) =>
     part.kind === 'link' ? (
-      <a href={part.href} class="font-medium text-accent underline underline-offset-2">
+      <a
+        href={part.href}
+        class="font-medium text-accent underline underline-offset-2"
+        {...(part.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+      >
         {part.value}
       </a>
     ) : (

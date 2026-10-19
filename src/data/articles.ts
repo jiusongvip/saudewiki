@@ -17,7 +17,7 @@ export const articles: Article[] = [
     slug: 'sintomas-iniciais-da-dengue',
     title: 'Quais são os primeiros sintomas da dengue?',
     excerpt:
-      'Febre alta súbita, dor atrás dos olhos e dores no corpo marcam o início. Veja as fases da dengue, os sinais de alarme e o que a diferencia de outras doenças.',
+      'A dengue começa com febre alta de início súbito, dor de cabeça, dor atrás dos olhos e dores no corpo. Os sinais de alarme surgem quando a febre cede.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     body: [
@@ -26,7 +26,7 @@ export const articles: Article[] = [
         heading: 'Quais são os primeiros sintomas da dengue?',
         paragraphs: [
           'Os primeiros sintomas da dengue costumam ser febre alta de início súbito, dor de cabeça, dor atrás dos olhos e dores intensas nos músculos e nas articulações. A febre pode chegar a 39 °C ou 40 °C e vir acompanhada de náusea, vômito e perda de apetite.',
-          'A infecção pelo vírus da dengue nem sempre se manifesta. Estima-se que cerca de uma em cada quatro infecções produza sintomas, e a maioria dos casos é leve ou assintomática. Isso ajuda a explicar por que a doença circula tanto sem ser percebida.',
+          'A infecção pelo vírus da dengue nem sempre se manifesta. A [Organização Mundial da Saúde](https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue) estima que cerca de uma em cada quatro infecções produza sintomas, e a maioria dos casos é leve ou assintomática. Isso ajuda a explicar por que a doença circula tanto sem ser percebida.',
           'Quando os sintomas aparecem, o início é abrupto: a pessoa passa de um estado normal para febre alta em poucas horas. Nas primeiras 24 a 48 horas também podem surgir rubor facial e vermelhidão na garganta, sinais discretos que costumam passar despercebidos.',
         ],
       },
@@ -44,7 +44,7 @@ export const articles: Article[] = [
         heading: 'Quais são as fases da dengue?',
         paragraphs: [
           'A dengue costuma seguir três fases. A primeira é a febril, que dura de dois a sete dias e concentra febre alta, dor de cabeça, dor atrás dos olhos, dores no corpo e, em muitos casos, manchas na pele. É o período em que o vírus circula no sangue e em que o exame consegue detectá-lo com mais facilidade.',
-          'A segunda é a crítica, que começa justamente quando a febre cede e dura cerca de 24 a 48 horas. Nesse intervalo, parte dos pacientes melhora, mas quem tem extravasamento importante de plasma pode evoluir para dengue grave em poucas horas. O paciente pode parecer bem mesmo diante de sinais iniciais de choque.',
+          'A segunda é a crítica, que começa justamente quando a febre cede e dura cerca de 24 a 48 horas. Nesse intervalo, parte dos pacientes melhora, mas quem tem extravasamento importante de plasma pode evoluir para dengue grave em poucas horas. O paciente pode parecer bem mesmo diante de sinais iniciais de choque. O [CDC](https://www.cdc.gov/dengue/hcp/clinical-signs/index.html) descreve essa janela como o momento em que o hematócrito sobe e as plaquetas caem, antes de qualquer sinal visível.',
           'A terceira é a de recuperação, quando o líquido extravasado é reabsorvido. O volume de urina aumenta, a frequência cardíaca pode cair e a pele pode descamar com coceira. É uma fase de melhora, mas que ainda exige acompanhamento.',
         ],
       },
@@ -78,7 +78,7 @@ export const articles: Article[] = [
         id: 'dengue-ou-outra-doenca',
         heading: 'Como diferenciar dengue de chikungunya, zika e gripe?',
         paragraphs: [
-          'A chikungunya também é transmitida pelo Aedes e começa de forma abrupta, mas a dor nas articulações costuma ser o sintoma dominante: intensa, incapacitante e capaz de durar semanas ou meses. Na dengue, a dor no corpo é marcante, porém raramente persiste por tanto tempo.',
+          'A chikungunya também é transmitida pelo Aedes e começa de forma abrupta, mas a dor nas articulações costuma ser o sintoma dominante: intensa, incapacitante e, segundo a [Organização Mundial da Saúde](https://www.who.int/news-room/fact-sheets/detail/chikungunya), capaz de durar semanas ou meses. Na dengue, a dor no corpo é marcante, porém raramente persiste por tanto tempo.',
           'A zika tende a ser mais leve. Conjuntivite, coceira e manchas na pele são frequentes, a febre é baixa e boa parte das infecções não produz sintoma algum. O risco maior está na gestação, porque a infecção pode causar malformações no bebê.',
           'A gripe se distingue pela presença de sintomas respiratórios, como tosse, dor de garganta e coriza, que não são típicos da dengue. Ainda assim, a semelhança entre as arboviroses é grande, e apenas o exame laboratorial confirma o diagnóstico.',
         ],
@@ -94,7 +94,7 @@ export const articles: Article[] = [
         id: 'o-que-fazer',
         heading: 'O que fazer ao suspeitar de dengue?',
         paragraphs: [
-          'As medidas iniciais mais seguras são hidratar-se, repousar e usar paracetamol para a dor e a febre. Evite aspirina (ácido acetilsalicílico), anti-inflamatórios como ibuprofeno e injeções intramusculares, porque aumentam o risco de sangramento.',
+          'O [Ministério da Saúde](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue) recomenda hidratação, repouso e paracetamol para a dor e a febre, e contraindica aspirina (ácido acetilsalicílico), anti-inflamatórios como ibuprofeno e injeções intramusculares, porque aumentam o risco de sangramento.',
           'O momento do exame importa. Nos primeiros cinco dias de sintomas, a detecção do vírus por NS1 ou RT-PCR é o caminho mais direto. A partir do sexto dia, o teste de anticorpos passa a ser mais útil. O profissional de saúde define qual exame faz sentido em cada caso.',
           'Procure uma unidade de saúde para avaliação. Se houver qualquer sinal de alarme, procure atendimento de emergência imediatamente, sem esperar os sintomas passarem.',
         ],

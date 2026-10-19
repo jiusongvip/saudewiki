@@ -20,12 +20,19 @@ const navigate = [
   { label: t.nav.articles, href: urls.articles() },
 ];
 
+/**
+ * `title` is the English name of the page, and it is the only thing rendered in
+ * English here. The visible label stays in the reader's language, and it stays
+ * the accessible name too: overriding it with `aria-label` would rename the
+ * link for screen readers and break WCAG 2.5.3, which asks that the accessible
+ * name contain the visible label.
+ */
 const institutional = [
-  { label: t.footer.about, href: urls.about() },
-  { label: t.footer.editorial, href: urls.editorial() },
-  { label: t.footer.disclaimer, href: urls.medicalDisclaimer() },
-  { label: t.footer.privacy, href: urls.privacy() },
-  { label: t.footer.contact, href: urls.contact() },
+  { label: t.footer.about, href: urls.about(), title: 'About' },
+  { label: t.footer.editorial, href: urls.editorial(), title: 'Editorial Policy' },
+  { label: t.footer.disclaimer, href: urls.medicalDisclaimer(), title: 'Medical Disclaimer' },
+  { label: t.footer.privacy, href: urls.privacy(), title: 'Privacy Policy' },
+  { label: t.footer.contact, href: urls.contact(), title: 'Contact' },
 ];
 ---
 
@@ -58,7 +65,11 @@ const institutional = [
           {
             institutional.map((item) => (
               <li>
-                <a href={item.href} class="text-[0.9rem] text-ink-muted transition-colors hover:text-accent">
+                <a
+                  href={item.href}
+                  title={item.title}
+                  class="text-[0.9rem] text-ink-muted transition-colors hover:text-accent"
+                >
                   {item.label}
                 </a>
               </li>
