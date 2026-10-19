@@ -89,6 +89,54 @@ export const diseaseImages: Record<string, SiteImage> = {
     src: '/img/doenca-gastroenterite.webp',
     alt: 'Ilustração médica de um estômago e de um intestino em corte com a mucosa inflamada, vírus presos às vilosidades e líquido escorrendo para a luz do intestino, com recorte de uma mãe dando soro de reidratação oral com colher a uma criança e quatro ícones de diarreia, vômitos, cólica e boca seca',
   },
+  enxaqueca: {
+    src: '/img/doenca-enxaqueca.webp',
+    alt: 'Ilustração médica de uma cabeça em corte lateral mostrando o cérebro com uma artéria dilatada e latejando de um só lado e ondas de dor, com recorte de uma mulher pressionando a têmpora com a mão e quatro ícones de dor latejante, um lado só, náusea e sensibilidade à luz e ao som',
+  },
+  'otite-media-aguda': {
+    src: '/img/doenca-otite-media-aguda.webp',
+    alt: 'Ilustração médica de um ouvido em corte mostrando o ouvido médio atrás do tímpano inchado e cheio de pus e a tuba auditiva bloqueada, com recorte de uma criança pequena puxando a orelha e chorando e quatro ícones de dor de ouvido, febre, ouvido tampado e choro fácil',
+  },
+  pneumonia: {
+    src: '/img/doenca-pneumonia.webp',
+    alt: 'Ilustração médica de um pulmão em corte com um lobo inferior consolidado e cheio de pus enquanto o outro permanece saudável, com recorte de um idoso tossindo com a mão no peito e quatro ícones de febre alta, tosse, dor no peito e falta de ar',
+  },
+  'insuficiencia-cardiaca': {
+    src: '/img/doenca-insuficiencia-cardiaca.webp',
+    alt: 'Ilustração médica de um coração em corte, aumentado, com uma câmara dilatada e a parede fraca e líquido azul represado no pulmão e nas pernas, com recorte de tornozelos e pés inchados e quatro ícones de falta de ar, inchaço, cansaço e ganho de peso',
+  },
+  'esteatose-hepatica': {
+    src: '/img/doenca-esteatose-hepatica.webp',
+    alt: 'Ilustração médica comparando um fígado saudável de um lado com um fígado gordurodo do outro, amarelado e cheio de gotículas de gordura dentro das células, com a vesícula biliar embaixo, com recorte de uma mão pressionando a parte superior direita da barriga e quatro ícones de silenciosa, cansaço, desconforto e gordura',
+  },
+  'colesterol-alto': {
+    src: '/img/doenca-colesterol-alto.webp',
+    alt: 'Ilustração médica de uma artéria em corte com uma placa amarelada de colesterol estreitando o canal ao lado de uma artéria saudável e aberta, com recorte de uma mancha amarelada de gordura na pálpebra e quatro ícones de sem sinal, placa, LDL alto e risco cardíaco',
+  },
+  'doenca-renal-cronica': {
+    src: '/img/doenca-renal-cronica.webp',
+    alt: 'Ilustração médica de um rim em corte, encolhido, com o córtex afinado e os glomérulos cicatrizados, com recorte de pés e tornozelos inchados e quatro ícones de inchaço, cansaço, coceira e urinar à noite',
+  },
+  hanseniase: {
+    src: '/img/doenca-hanseniase.webp',
+    alt: 'Ilustração médica de um bloco de pele em corte com bacilos e um nervo periférico engrossado e inflamado correndo pelo tecido, com recorte de uma mancha clara e dormente no antebraço e quatro ícones de mancha, dormência, nervo grosso e fraqueza',
+  },
+  'anemia-ferropriva': {
+    src: '/img/doenca-anemia-ferropriva.webp',
+    alt: 'Ilustração médica de um vaso sanguíneo em corte com poucas hemácias pequenas e pálidas por falta de ferro, com recorte de uma pálpebra puxada para baixo mostrando o interior pálido e quatro ícones de palidez, cansaço, falta de ar e tontura',
+  },
+  catarata: {
+    src: '/img/doenca-catarata.webp',
+    alt: 'Ilustração médica de um olho em corte com o cristalino opaco e esbranquiçado no centro, espalhando a luz em vez de focá-la na retina, com recorte de um olho com a pupila esbranquiçada e quatro ícones de visão embaçada, cores desbotadas, ofuscamento e pior à noite',
+  },
+  'parasitoses-intestinais': {
+    src: '/img/doenca-parasitoses-intestinais.webp',
+    alt: 'Ilustração médica de um intestino em corte com a mucosa levemente inflamada e vermes parasitas na luz, uma lombriga grande e oxiúros finos presos à parede, com recorte de uma criança com a barriga inchada e quatro ícones de dor, diarreia, estufada e coceira',
+  },
+  'artrite-reumatoide': {
+    src: '/img/doenca-artrite-reumatoide.webp',
+    alt: 'Ilustração médica de uma articulação do dedo em corte com a membrana sinovial espessada, vermelha e inflamada corroendo a cartilagem e o osso, com recorte de duas mãos com os nós dos dedos inchados e vermelhos e quatro ícones de rigidez, inchaço, dois lados e dor',
+  },
 };
 
 export const articleImages: Record<string, SiteImage> = {
@@ -271,6 +319,102 @@ export const articleImages: Record<string, SiteImage> = {
   'gastroenterite-pode-ser-grave': {
     src: '/img/artigo-gastroenterite-pode-ser-grave.webp',
     alt: 'Profissional de saúde posicionando um cateter no braço do paciente',
+  },
+  'enxaqueca-sinais-de-alerta-quando-procurar-atendimento': {
+    src: '/img/artigo-enxaqueca-sinais-alerta.webp',
+    alt: 'Homem de olhos fechados pressionando as têmporas com as duas mãos',
+  },
+  'enxaqueca-tratamento-e-cuidados': {
+    src: '/img/artigo-enxaqueca-repouso.webp',
+    alt: 'Mulher deitada num colchão com o braço sobre os olhos',
+  },
+  'catarata-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-catarata-exame-visao.webp',
+    alt: 'Profissional de saúde apontando para as letras de uma escala de acuidade visual na parede',
+  },
+  'catarata-tratamento-e-cirurgia': {
+    src: '/img/artigo-catarata-cirurgia.webp',
+    alt: 'Dois cirurgiões de touca e máscara operando sob as luzes de um centro cirúrgico',
+  },
+  'otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento': {
+    src: '/img/artigo-otite-crianca-febre.webp',
+    alt: 'Criança pequena com adesivo refrescante na testa, apoiada no braço de um adulto',
+  },
+  'otite-media-aguda-tratamento-e-cuidados': {
+    src: '/img/artigo-otite-otoscopio.webp',
+    alt: 'Close de um otoscópio azul aplicado ao ouvido de uma pessoa',
+  },
+  'pneumonia-sinais-de-alerta-quando-procurar-atendimento': {
+    src: '/img/artigo-pneumonia-rx.webp',
+    alt: 'Radiografia de tórax com manchas claras espalhadas nos dois pulmões',
+  },
+  'pneumonia-tratamento-e-recuperacao': {
+    src: '/img/artigo-pneumonia-soro.webp',
+    alt: 'Bolsa de soro pendurada no pé de infusão em uma sala de hospital',
+  },
+  'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento': {
+    src: '/img/artigo-insuficiencia-cardiaca-rx.webp',
+    alt: 'Radiografia de tórax mostrando o contorno alargado do coração',
+  },
+  'insuficiencia-cardiaca-tratamento-e-vida-diaria': {
+    src: '/img/artigo-insuficiencia-cardiaca-balanca.webp',
+    alt: 'Pés descalços sobre uma balança digital de banheiro',
+  },
+  'esteatose-hepatica-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-esteatose-ultrassom.webp',
+    alt: 'Profissional de luvas pretas segurando o transdutor de um aparelho de ultrassom',
+  },
+  'esteatose-hepatica-como-reverter-com-habitos': {
+    src: '/img/artigo-esteatose-cozinha.webp',
+    alt: 'Pessoa picando legumes numa tábua de cozinha',
+  },
+  'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento': {
+    src: '/img/artigo-parasitoses-crianca.webp',
+    alt: 'Criança sentada na cama, com expressão cansada',
+  },
+  'parasitoses-intestinais-tratamento-e-prevencao': {
+    src: '/img/artigo-parasitoses-higiene.webp',
+    alt: 'Criança curvada lavando os pés numa bacia branca',
+  },
+  'colesterol-alto-como-detectar-e-quando-procurar-atendimento': {
+    src: '/img/artigo-colesterol-tubos.webp',
+    alt: 'Fileiras de tubos de coleta de sangue com tampas coloridas numa bandeja de laboratório',
+  },
+  'colesterol-alto-tratamento-e-mudancas-de-habitos': {
+    src: '/img/artigo-colesterol-aveia.webp',
+    alt: 'Tigela de aveia com leite e sementes sobre fundo branco',
+  },
+  'doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento': {
+    src: '/img/artigo-renal-modelo.webp',
+    alt: 'Mão segurando um modelo anatômico de rim aberto ao meio',
+  },
+  'doenca-renal-cronica-tratamento-e-convivencia': {
+    src: '/img/artigo-renal-dialise.webp',
+    alt: 'Aparelho de hemodiálise com tela e linhas de circuito numa sala de tratamento',
+  },
+  'hanseniase-sinais-na-pele-quando-procurar-atendimento': {
+    src: '/img/artigo-hanseniase-sensibilidade.webp',
+    alt: 'Mão tocando o antebraço de outra pessoa durante o teste de sensibilidade da pele',
+  },
+  'hanseniase-tratamento-gratuito-no-sus': {
+    src: '/img/artigo-hanseniase-medicamentos.webp',
+    alt: 'Blíster fechado de cápsulas azuis e brancas sobre a mesa',
+  },
+  'artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento': {
+    src: '/img/artigo-artrite-maos.webp',
+    alt: 'Mão que massageia os dedos da outra mão cerrada',
+  },
+  'artrite-reumatoide-tratamento-e-cuidados-com-as-juntas': {
+    src: '/img/artigo-artrite-juntas.webp',
+    alt: 'Close da mão enrugada de uma pessoa idosa, com os dedos abertos',
+  },
+  'anemia-ferropriva-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-anemia-fadiga.webp',
+    alt: 'Mulher de óculos reclinada no sofá, com o rosto cansado',
+  },
+  'anemia-ferropriva-tratamento-e-alimentacao': {
+    src: '/img/artigo-anemia-alimentacao.webp',
+    alt: 'Tigela com grão-de-bico, lentilha, abacate, milho e folhas verdes',
   },
 };
 
