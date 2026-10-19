@@ -538,16 +538,17 @@ export const articles: Article[] = [
         heading: 'O que muda de verdade no dia a dia?',
         paragraphs: [
           'O dia a dia com diabetes tipo 2 não exige mudanças drásticas de uma vez: o essencial é monitorar a glicemia, organizar a alimentação e manter o movimento, com acompanhamento profissional ao longo dos anos.',
-          'O diabetes tipo 2 é uma condição crônica, e o tratamento é de longo prazo. Na prática, o dia a dia passa a incluir três coisas novas: monitoramento, alimentação planejada e movimento regular.',
-          'Essas mudanças não precisam ser drásticas de uma vez. Pequenos ajustes mantidos ao longo das semanas costumam ser mais sustentáveis do que grandes mudanças que duram poucos dias.',
+          'O diabetes tipo 2 é uma condição crônica, e o tratamento é de longo prazo. Na prática, a rotina passa a incluir três frentes novas: monitoramento, alimentação planejada e movimento regular. Nenhuma delas depende de equipamentos caros nem de disciplina perfeita.',
+          'Essas mudanças não precisam ser drásticas de uma vez. Pequenos ajustes mantidos ao longo das semanas costumam ser mais sustentáveis do que grandes mudanças que duram poucos dias. O objetivo não é a perfeição em uma semana, e sim uma rotina que se mantenha por anos.',
         ],
       },
       {
         id: 'monitoramento',
         heading: 'Como monitorar a glicemia no dia a dia?',
         paragraphs: [
-          'Acompanhar a glicose em casa, quando indicado, ajuda a entender como o corpo responde a diferentes alimentos, horários e níveis de atividade. Os exames de acompanhamento são definidos pelo profissional de saúde.',
-          'Além da glicemia eventual, o exame de hemoglobina glicada (HbA1c) mostra uma média dos últimos meses e é um dos principais parâmetros de acompanhamento, segundo o Ministério da Saúde.',
+          'Acompanhar a glicose em casa, quando indicado, ajuda a entender como o corpo responde a diferentes alimentos, horários e níveis de atividade. Os exames de acompanhamento e a frequência das medições são definidos pelo profissional de saúde.',
+          'A hemoglobina glicada (HbA1c) mostra uma média da glicemia dos últimos meses e é um dos principais parâmetros de acompanhamento. A meta costuma ficar em torno de 7%, mas o valor é definido caso a caso pela equipe de saúde.',
+          'O registro vale mais do que o número isolado. Anotar data, horário e o que foi comido antes da medição transforma uma lista de valores em informação útil para ajustar o plano na consulta.',
         ],
         bullets: [
           'Registre as medições com data, horário e se foram antes ou depois das refeições',
@@ -559,21 +560,24 @@ export const articles: Article[] = [
         id: 'alimentacao',
         heading: 'O que ajustar na alimentação?',
         paragraphs: [
-          'Não existe lista universal de alimentos proibidos (Ministério da Saúde). O que costuma ajudar é a regularidade nos horários e o controle das porções.',
+          'Não existe lista universal de alimentos proibidos. O que costuma ajudar é a regularidade nos horários e o controle das porções, mais do que cortar grupos inteiros de alimentos.',
+          'Refeições em horários parecidos a cada dia dão ao organismo um ritmo previsível e facilitam o controle da glicemia. Longos jejuns podem desregular as taxas e favorecer episódios de baixa de glicose.',
+          'Incluir fibras nas refeições, como vegetais, legumes e grãos integrais, costuma tornar a absorção dos carboidratos mais lenta e ajudar na saciedade. Bebidas açucaradas e ultraprocessados concentram muito açúcar em pouco volume e são os primeiros itens a revisar.',
         ],
         bullets: [
           'Reduza bebidas açucaradas e alimentos ultraprocessados',
           'Prefira refeições em horários parecidos a cada dia',
           'Inclua fibras (vegetais, legumes, grãos integrais) nas refeições',
-          'Não pule refeições: longos jejuns podem desregular a glicemia',
+          'Evite longos jejuns, que podem desregular a glicemia',
         ],
       },
       {
         id: 'movimento',
         heading: 'Qual a importância da atividade física?',
         paragraphs: [
-          'Movimento regular melhora a resposta do corpo à insulina. A OMS recomenda ao menos 150 minutos de atividade física de intensidade moderada por semana, o que contribui para reduzir o risco de diabetes tipo 2; a recomendação individual deve ser ajustada com acompanhamento profissional.',
-          'Mesmo caminhadas curtas e frequentes já trazem benefício; o importante é a regularidade, não a intensidade isolada.',
+          'Movimento regular melhora a resposta do corpo à insulina. A Organização Mundial da Saúde recomenda ao menos 150 minutos de atividade física de intensidade moderada por semana, o que contribui para reduzir o risco de diabetes tipo 2.',
+          'A recomendação individual deve ser ajustada com acompanhamento profissional, sobretudo para quem tem outras condições de saúde ou limitações nas articulações, no coração ou nos pés.',
+          'Mesmo caminhadas curtas e frequentes já trazem benefício. O importante é a regularidade, não a intensidade isolada de um único treino.',
         ],
         bullets: [
           'Procure distribuir a atividade ao longo da semana',
@@ -585,11 +589,12 @@ export const articles: Article[] = [
         heading: 'Como funcionam os medicamentos?',
         paragraphs: [
           'Muitas pessoas com diabetes tipo 2 usam medicamentos para ajudar no controle da glicemia. O esquema é definido pelo profissional de saúde e ajustado conforme o acompanhamento.',
-          'No Brasil, os medicamentos para diabetes estão disponíveis no SUS mediante prescrição (Ministério da Saúde).',
+          'A metformina costuma ser o primeiro remédio indicado, e existem outras classes, como as sulfonilureias e os inibidores do SGLT-2. A escolha depende da glicemia, de outras doenças e do risco de efeitos colaterais.',
+          'No Brasil, os medicamentos para diabetes estão disponíveis no SUS mediante prescrição. A metformina, a glibenclamida, a gliclazida e as insulinas NPH e regular estão entre os itens oferecidos, e o programa Farmácia Popular também distribui parte deles.',
         ],
         bullets: [
           'Tome na dose e nos horários indicados, sem interromper por conta própria',
-          'Se perder uma dose, siga a orientação do profissional ou da bula; não dobre a próxima dose',
+          'Se perder uma dose, siga a orientação do profissional ou da bula, e não dobre a próxima dose',
           'Não ajuste o tratamento com base em uma única medição da glicemia',
         ],
       },
@@ -597,11 +602,12 @@ export const articles: Article[] = [
         id: 'hipoglicemia',
         heading: 'O que fazer em caso de hipoglicemia?',
         paragraphs: [
-          'A glicemia muito baixa (hipoglicemia) pode ocorrer, especialmente em quem usa certos medicamentos. Sinais comuns incluem tremor, suor, tontura, fraqueza e confusão.',
-          'Se aparecerem sinais de hipoglicemia, a conduta geral segue a chamada "regra 15-15" descrita pelos Centros de Controle e Prevenção de Doenças (CDC) dos EUA: ingerir cerca de 15 g de carboidratos de absorção rápida (como suco ou glucose), aguardar 15 minutos e reavaliar; se não melhorar, procure ajuda.',
+          'A glicemia muito baixa, chamada hipoglicemia, pode ocorrer, especialmente em quem usa certos medicamentos. Sinais comuns incluem tremor, suor, calafrios, palidez, confusão, batimento rápido, fome, irritabilidade, tontura e fraqueza.',
+          'Se aparecerem sinais de hipoglicemia, a conduta geral segue a chamada regra 15-15: ingerir cerca de 15 g de carboidratos de absorção rápida, como suco ou glicose, aguardar 15 minutos e reavaliar. Se a glicemia continuar baixa, repita o procedimento.',
+          'A situação muda quando a pessoa está inconsciente, convulsionando ou não desperta. Nesses casos, trate como emergência e acione o serviço de atendimento de urgência; nunca ofereça comida ou bebida a alguém inconsciente, pelo risco de engasgo.',
         ],
         bullets: [
-          'Tenha sempre à mão uma fonte rápida de açúcar (suco, glucose, bala)',
+          'Tenha sempre à mão uma fonte rápida de açúcar, como suco, glicose ou bala',
           'Avise pessoas próximas sobre os sinais e o que fazer',
           'Procure atendimento se os sintomas forem intensos ou não melhorarem',
         ],
@@ -610,7 +616,8 @@ export const articles: Article[] = [
         id: 'acompanhamento',
         heading: 'Por que o acompanhamento de longo prazo é importante?',
         paragraphs: [
-          'O diabetes tipo 2 é gerenciado ao longo dos anos. O acompanhamento regular, segundo o Ministério da Saúde, permite identificar e tratar precocemente complicações.',
+          'O diabetes tipo 2 é gerenciado ao longo dos anos. O acompanhamento regular permite identificar e tratar precocemente complicações nos olhos, nos rins, nos nervos e no sistema cardiovascular.',
+          'Algumas dessas complicações começam antes de qualquer sintoma. Quem tem diabetes tipo 2 deve fazer o exame de fundo de olho logo após o diagnóstico e repetir a avaliação todo ano, além de exames de urina e de função dos rins conforme a orientação.',
         ],
         bullets: [
           'Verifique a pressão arterial nas consultas',
@@ -624,17 +631,9 @@ export const articles: Article[] = [
         id: 'duvidas-comuns',
         heading: 'Quais as dúvidas mais comuns sobre o dia a dia?',
         paragraphs: [
-          'Posso comer frutas? Sim, frutas podem fazer parte da alimentação; o ponto é a porção e a regularidade, não o banimento.',
-          'Preciso cortar todo o açúcar? O foco é reduzir bebidas e alimentos com muito açúcar adicionado, não eliminar cada grama.',
-          'O diabetes tipo 2 tem cura? É uma condição crônica; o controle adequado mantém a glicemia na faixa e reduz riscos, mas não há "cura" garantida.',
-          'Posso beber álcool? O álcool pode afetar a glicemia; converse com o profissional sobre quantidade e ocasião.',
-        ],
-      },
-      {
-        id: 'onde-entender-mais',
-        heading: 'Onde entender mais sobre a doença',
-        paragraphs: [
-          'A página sobre diabetes traz uma visão geral dos tipos, sintomas e complicações.',
+          'Posso comer frutas? Sim, frutas podem fazer parte da alimentação; o ponto é a porção e a regularidade, não o banimento. Preciso cortar todo o açúcar? O foco é reduzir bebidas e alimentos com muito açúcar adicionado, não eliminar cada grama.',
+          'O diabetes tipo 2 tem cura? É uma condição crônica; o controle adequado mantém a glicemia na faixa desejada e reduz riscos, mas não há cura garantida. O que importa é manter o tratamento e o acompanhamento ao longo dos anos.',
+          'Posso beber álcool? O álcool pode afetar a glicemia, e o efeito varia conforme a quantidade e se foi consumido com ou sem alimento. Converse com o profissional sobre quantidade e ocasião.',
         ],
         cta: {
           label: 'Ir para a página sobre diabetes',
@@ -644,7 +643,7 @@ export const articles: Article[] = [
     ],
     diseaseSlugs: ['diabetes'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
-    relatedArticleSlugs: ['hipertensao-como-medir-a-pressao-em-casa'],
+    relatedArticleSlugs: ['diabetes-sinais-e-sintomas', 'diabetes-fatores-de-risco', 'diabetes-hipoglicemia'],
     references: [
       {
         label: 'Diabetes: orientações e materiais',
@@ -671,7 +670,426 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-17',
+    updatedAt: '2026-10-19',
+    isPlaceholder: true,
+  },
+  {
+    id: 'diabetes-sinais-e-sintomas',
+    slug: 'diabetes-sinais-e-sintomas',
+    title: 'Diabetes: quais são os sinais e sintomas?',
+    excerpt:
+      'O diabetes tipo 2 costuma avançar em silêncio por anos. Conhecer os sinais ajuda a procurar avaliação antes que as complicações apareçam.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-demora',
+        heading: 'Por que o diabetes pode passar anos sem sintomas?',
+        paragraphs: [
+          'No diabetes tipo 2, a glicemia sobe de forma gradual, e o corpo se adapta por um tempo a esse nível mais alto. Por isso, muitas pessoas não sentem nada e descobrem a alteração apenas em um exame de rotina, feito por outro motivo. A doença pode permanecer silenciosa por anos antes de dar qualquer sinal claro, e quando os valores finalmente saem da faixa o desgaste nos vasos já pode ter começado muito antes.',
+          'Esse período silencioso é o que torna a doença perigosa. Quando os primeiros sinais aparecem, parte das complicações nos vasos e nos nervos pode já estar em curso, e é por isso que o rastreio em quem tem fatores de risco tem valor mesmo sem queixa. Um exame simples de sangue costuma bastar para sair da dúvida.',
+          'O tempo sem sintomas varia de pessoa para pessoa. Quem tem histórico familiar, sobrepeso, pressão alta ou outra condição de risco deve conversar com a equipe de saúde sobre a periodicidade de medir a glicemia, ainda que se sinta bem. Quanto mais cedo a alteração é notada, mais simples costuma ser o controle ao longo dos anos, já que cada ano com a glicemia controlada reduz o desgaste acumulado nos vasos e nos nervos.',
+        ],
+      },
+      {
+        id: 'sinais-classicos',
+        heading: 'Quais são os sinais clássicos de glicemia alta?',
+        paragraphs: [
+          'Quando a glicemia se mantém elevada, o organismo tenta eliminar o excesso de glicose pela urina, o que puxa água junto e provoca sede e idas frequentes ao banheiro, inclusive à noite. A falta de energia nas células, por sua vez, aumenta a fome e o cansaço, mesmo sem esforço maior que o de costume. Em muitos casos, é a ida repetida ao banheiro durante a noite que chama a atenção primeiro.',
+          'A lista abaixo reúne os sinais mais citados por quem convive com a doença. Eles podem aparecer isolados e em intensidade leve, o que faz muita gente atribuí-los à rotina corrida ou à idade. Na dúvida, vale anotá-los e levar o conjunto para a consulta, porque a falta de um sinal não afasta a doença.',
+        ],
+        bullets: [
+          'Sede excessiva e necessidade frequente de urinar, inclusive à noite',
+          'Fome frequente e cansaço sem causa clara',
+          'Perda de peso sem dieta ou explicação',
+          'Visão embaçada',
+          'Feridas e machucados que demoram a cicatrizar',
+          'Formigamento, queimação ou dormência nos pés e nas mãos',
+        ],
+      },
+      {
+        id: 'pele-e-cicatrizacao',
+        heading: 'O que muda na pele, nas feridas e nos pés?',
+        paragraphs: [
+          'A glicemia alta prejudica a circulação e a sensibilidade, sobretudo nos pés. Uma ferida pequena, que passaria despercebida, pode demorar semanas para cicatrizar e infeccionar com facilidade, o que transforma um machucado simples em um problema sério. Nos pés, a perda de sensibilidade faz com que o machucado passe despercebido no momento em que acontece.',
+          'Infecções de repetição, como na bexiga, nos rins, na gengiva ou na pele, também são mais frequentes quando a glicemia está descontrolada. É comum que essas infecções apareçam antes de qualquer outro sinal e levem à investigação do diabetes, especialmente em quem já tem outros fatores de risco. Por isso, infecções que se repetem merecem investigação, mesmo quando o tratamento de cada episódio parece resolver.',
+          'Por isso, examinar os pés todos os dias faz parte da rotina. Observe a planta, o espaço entre os dedos e as unhas, e procure atendimento se notar ferida, bolha, vermelhidão ou perda de sensibilidade. A inspeção diária é rápida e vale a pena mesmo para quem não sente nada nos pés.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quais sinais exigem atendimento de urgência?',
+        paragraphs: [
+          'Existem sinais que indicam duas emergências ligadas ao diabetes: a cetoacidose diabética e o estado hiperglicêmico hiperosmolar. Nos dois casos, a demora no atendimento aumenta o risco, e a orientação é procurar um serviço de urgência sem esperar que o quadro melhore sozinho. São quadros graves, que não se resolvem em casa.',
+          'Também exige avaliação rápida a glicemia muito alta que não cai mesmo com o tratamento em dia, assim como a queda grave de glicose em quem usa insulina, com desmaio ou convulsão. Esses episódios podem ser sinal de que o esquema de tratamento precisa de ajuste pelo profissional de saúde, e não de mudança por conta própria.',
+          'Na dúvida sobre a gravidade, o mais seguro é buscar ajuda. Uma avaliação que termina sem nada grave custa menos do que uma complicação tratada tarde, e os serviços de urgência orientam procurar atendimento sempre que esses sinais aparecem.',
+        ],
+        bullets: [
+          'Vômitos persistentes, dor abdominal e dificuldade para respirar',
+          'Hálito com odor de fruta, sonolência intensa ou confusão mental',
+          'Desmaio, convulsão ou dificuldade para acordar',
+          'Glicemia muito alta que não cai, mesmo com o tratamento em dia',
+          'Sinais de glicose muito baixa, como tremores, suor frio e palidez',
+        ],
+      },
+      {
+        id: 'tipos-e-sinais',
+        heading: 'Os sinais são iguais no tipo 1 e no tipo 2?',
+        paragraphs: [
+          'Os sinais clássicos de glicemia alta se parecem nos dois tipos, mas o ritmo é diferente. No tipo 1, os sintomas costumam surgir em poucas semanas e podem ser intensos, o que leva a uma procura de atendimento mais cedo, muitas vezes com perda de peso rápida. No tipo 2, a instalação é lenta e os sinais aparecem aos poucos, quando aparecem.',
+          'No Brasil, o tipo 1 costuma se manifestar principalmente entre 10 e 14 anos, com cerca de 25,6 casos por 100 mil habitantes por ano. Já o tipo 2 responde por cerca de 90% dos casos e se concentra em adultos, embora esteja aparecendo cada vez mais cedo, acompanhando o avanço do sobrepeso e do sedentarismo.',
+          'Em qualquer idade, a presença dos sinais não fecha o diagnóstico: a confirmação depende de exames de sangue, com interpretação do profissional de saúde. Os mesmos sinais podem ter outras causas, e só a medida da glicemia mostra se a origem é o diabetes. Nenhuma lista de sintomas substitui essa medida.',
+        ],
+      },
+      {
+        id: 'o-que-fazer',
+        heading: 'O que fazer diante de sinais suspeitos?',
+        paragraphs: [
+          'Diante de sinais persistentes, o caminho é procurar a unidade básica de saúde e relatar o que vem sendo notado, incluindo mudanças de peso, sede, visão e cicatrização. A equipe decide quais exames pedir e como interpretar os resultados, e o acompanhamento costuma seguir na atenção básica. Levar um registro simples do que foi notado ajuda a equipe a interpretar melhor o quadro.',
+          'Não se automedique nem tente controlar a glicemia por conta própria. O diagnóstico e o plano de cuidado dependem de medidas feitas em exames, e não da impressão isolada de um dia nem de um resultado obtido em farmácia. Um resultado isolado, sem contexto, não substitui a avaliação profissional.',
+          'Procurar ajuda cedo muda o curso da doença. Quando o diabetes é identificado antes das complicações, o tratamento tem mais chance de manter a glicemia sob controle e de preservar olhos, rins, nervos e coração ao longo dos anos. Manter o acompanhamento depois do diagnóstico é o que sustenta esse controle.',
+        ],
+        cta: {
+          label: 'Ir para a página sobre diabetes',
+          href: '/doencas/diabetes/',
+        },
+      },
+    ],
+    diseaseSlugs: ['diabetes'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['diabetes-tipo-2-o-que-muda-no-dia-a-dia', 'diabetes-fatores-de-risco'],
+    references: [
+      {
+        label: 'Diabetes: orientações e materiais',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diabetes: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diabetes',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-19',
+    isPlaceholder: true,
+  },
+  {
+    id: 'diabetes-fatores-de-risco',
+    slug: 'diabetes-fatores-de-risco',
+    title: 'Diabetes: quais fatores aumentam o risco?',
+    excerpt:
+      'Histórico familiar, sobrepeso, sedentarismo e pressão alta estão entre os fatores que elevam a chance de diabetes tipo 2. Veja o que dá para mudar.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-conta',
+        heading: 'O que conta como fator de risco?',
+        paragraphs: [
+          'Fator de risco é uma condição, um histórico ou um hábito que aumenta a chance de desenvolver diabetes tipo 2. Ter um deles não significa que a doença vai aparecer, e não ter nenhum não garante proteção: são peças que, somadas, mudam a probabilidade de cada pessoa. Duas pessoas com o mesmo número de fatores podem ter riscos diferentes, porque o peso de cada item varia.',
+          'O diabetes é uma das condições crônicas mais comuns no mundo. Cerca de 830 milhões de pessoas viviam com a doença em 2022, contra 200 milhões em 1990, e mais de 95% dos casos são do tipo 2. No Brasil, estima-se mais de 13 milhões de pessoas com diabetes, perto de 6,9% da população. O tipo 2 é o mais frequente e o que mais depende de fatores modificáveis.',
+          'Conhecer os próprios fatores serve para decidir, junto com a equipe de saúde, quando medir a glicemia e com que frequência. Quanto mais fatores reunidos, mais cedo costuma valer a pena investigar, porque o tipo 2 costuma avançar em silêncio por anos. Fatores que se somam, em geral, pedem atenção mais cedo do que um fator isolado.',
+        ],
+      },
+      {
+        id: 'fatores-hereditarios',
+        heading: 'Quais fatores não dependem das escolhas da pessoa?',
+        paragraphs: [
+          'Alguns fatores vêm da história pessoal e familiar. Ter pai, mãe, irmão ou parente próximo com diabetes aumenta a chance, porque a predisposição genética pesa no tipo 2. A herança não determina o futuro, mas muda o ponto de partida de cada pessoa, e quem tem casos na família deve redobrar a atenção aos hábitos.',
+          'A idade também entra na conta, já que o risco cresce com o passar dos anos. Fazem parte desse grupo ainda o histórico de diabetes gestacional, ter tido um bebê com mais de 4 kg ao nascer, a síndrome dos ovários policísticos e a apneia do sono. Na prática, a equipe usa esses dados para decidir a frequência do rastreio.',
+          'Outro item é o uso prolongado de medicamentos glicocorticoides, que podem elevar a glicemia. Nenhum desses fatores é motivo para alarme isolado, mas todos pedem uma conversa sobre rastreio, com a glicemia medida em intervalos definidos pela equipe de saúde.',
+        ],
+      },
+      {
+        id: 'fatores-modificaveis',
+        heading: 'Quais fatores podem ser modificados?',
+        paragraphs: [
+          'Uma parte importante do risco está em hábitos e condições que podem ser trabalhados ao longo do tempo. É nesse grupo que as mudanças de estilo de vida têm maior efeito, e é sobre ele que vale concentrar o esforço. Quanto antes esse trabalho começa, maior tende a ser o efeito ao longo dos anos.',
+          'Esses fatores raramente agem sozinhos. Sobrepeso, alimentação e sedentarismo costumam caminhar juntos e reforçar o mesmo mecanismo, que é a resistência à insulina, situação em que o corpo responde pior ao próprio hormônio. Reduzir a gordura da cintura costuma melhorar essa resposta.',
+          'A lista abaixo reúne os fatores modificáveis mais citados. Reconhecer quais estão presentes na sua rotina ajuda a montar um plano realista, um passo de cada vez, em vez de tentar mudar tudo de uma só vez. A escolha de qual item atacar primeiro depende da rotina de cada pessoa.',
+        ],
+        bullets: [
+          'Sobrepeso, sobretudo com gordura acumulada na região da cintura',
+          'Sedentarismo e alimentação rica em açúcar e gordura',
+          'Pressão alta',
+          'Colesterol ou triglicérides alterados',
+          'Tabagismo',
+        ],
+      },
+      {
+        id: 'pre-diabetes-e-risco',
+        heading: 'Por que a pré-diabetes é um alerta?',
+        paragraphs: [
+          'Na pré-diabetes, a glicemia está acima do normal, mas ainda não é alta o suficiente para confirmar a doença. Ela é, ao mesmo tempo, um fator de risco e o último estágio em que a evolução ainda pode ser evitada. Vale tratar o resultado como um alerta, e não como um diagnóstico já fechado.',
+          'A estimativa é que cerca de metade das pessoas diagnosticadas com pré-diabetes desenvolva diabetes, mesmo com orientação médica. Isso mostra que o acompanhamento precisa ser próximo, e não apenas uma anotação no prontuário, porque a janela de ação é justamente essa. Nesse caso, o intervalo entre as consultas costuma ser menor do que o de quem está na faixa normal.',
+          'A pré-diabetes é a única fase que ainda pode ser revertida. É justamente por isso que ela costuma ser o momento em que as mudanças de hábito têm a maior chance de evitar a doença, antes que a glicemia alta passe a danificar vasos e nervos de forma permanente. Agir no momento do alerta é diferente de esperar o diagnóstico confirmado.',
+        ],
+      },
+      {
+        id: 'como-reduzir',
+        heading: 'Como reduzir o risco de diabetes tipo 2?',
+        paragraphs: [
+          'No caso do tipo 2, mudanças de hábito têm impacto relevante, e não é preciso esperar um diagnóstico para começar. As ações que mais pesam são as mesmas que protegem o coração e a circulação, e costumam valer para toda a família. A prevenção serve tanto para quem já tem a doença quanto para quem quer evitá-la.',
+          'Nenhuma delas precisa ser radical. Manter a constância por meses tende a render mais do que uma mudança intensa que dura poucas semanas, e pequenos avanços somados fazem diferença ao longo dos anos. Combinar hábitos melhora mais o resultado do que apostar em uma única mudança isolada.',
+          'A lista abaixo resume as medidas com maior efeito. O melhor ponto de partida é escolher uma delas para começar e conversar com a equipe de saúde sobre como encaixar o restante na sua rotina.',
+        ],
+        bullets: [
+          'Manter um peso saudável e evitar o ganho de peso ao longo dos anos',
+          'Praticar pelo menos 150 minutos por semana de atividade física de intensidade moderada',
+          'Cuidar da alimentação, com menos açúcar, sal e ultraprocessados',
+          'Não fumar e evitar o fumo passivo',
+        ],
+      },
+      {
+        id: 'quando-medir',
+        heading: 'Quando medir a glicemia?',
+        paragraphs: [
+          'Quem tem um ou mais fatores de risco deve conversar com a equipe de saúde sobre a necessidade de medir a glicemia periodicamente, mesmo sem sintoma nenhum, já que o tipo 2 costuma ser silencioso por anos. O rastreio não é um exame isolado, e sim parte do acompanhamento.',
+          'A medida é simples, feita por exame de sangue, e o resultado é interpretado pelo profissional. Encontrar uma alteração cedo permite agir antes que as complicações apareçam e costuma tornar o controle mais fácil de manter. Para quem não tem fatores de risco, a equipe define a frequência conforme a idade e o histórico.',
+        ],
+        cta: {
+          label: 'Ir para a página sobre diabetes',
+          href: '/doencas/diabetes/',
+        },
+      },
+    ],
+    diseaseSlugs: ['diabetes'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['diabetes-sinais-e-sintomas', 'diabetes-pre-diabetes', 'diabetes-tipo-2-o-que-muda-no-dia-a-dia'],
+    references: [
+      {
+        label: 'Diabetes: orientações e materiais',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diabetes: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diabetes',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Atividade física: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/physical-activity',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-19',
+    isPlaceholder: true,
+  },
+  {
+    id: 'diabetes-pre-diabetes',
+    slug: 'diabetes-pre-diabetes',
+    title: 'Pré-diabetes: o que é e o que fazer',
+    excerpt:
+      'Na pré-diabetes a glicemia está acima do normal, mas ainda não confirma a doença. É a fase em que as mudanças de hábito têm mais chance de evitar a evolução.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é pré-diabetes?',
+        paragraphs: [
+          'A pré-diabetes é uma faixa intermediária: a glicemia está acima do normal, mas ainda não atingiu o valor que confirma o diabetes. Não é uma doença à parte, e sim um aviso de que o metabolismo da glicose já não funciona como antes. Quem recebe esse resultado costuma não ter nenhum sintoma, o que torna a explicação ainda mais importante.',
+          'Nessa fase, o corpo ainda produz insulina, mas responde pior a ela, o que se chama resistência à insulina. Sem mudanças, esse processo tende a evoluir ao longo dos anos até o diagnóstico de diabetes tipo 2, mas esse caminho não é inevitável.',
+          'Por ser silenciosa, a pré-diabetes costuma aparecer em exames de rotina feitos por outros motivos. Muitas pessoas passam por ela sem notar nada, o que explica a importância do rastreio em quem tem fatores de risco, como histórico familiar, sobrepeso ou pressão alta. Quanto mais cedo o achado aparece, mais tempo há para agir antes do diagnóstico.',
+        ],
+      },
+      {
+        id: 'quais-valores',
+        heading: 'Quais valores indicam pré-diabetes?',
+        paragraphs: [
+          'O diagnóstico é feito por exames de sangue, e a interpretação cabe ao profissional de saúde. Costumam ser usadas três medidas, e qualquer uma delas pode mostrar a faixa intermediária. Os três exames medem a glicemia em momentos e janelas diferentes.',
+          'Na glicemia de jejum, com pelo menos 8 horas sem comer, a pré-diabetes fica entre 100 e 125 mg/dL. No teste de tolerância oral à glicose, com 75 g, a faixa é de 140 a 199 mg/dL após duas horas. Na hemoglobina glicada, que reflete a média dos últimos meses, a faixa vai de 5,7% a 6,4%. Cada um desses exames tem um papel, e o profissional escolhe o mais adequado ao caso.',
+          'Valores acima dessas faixas confirmam o diabetes: glicemia de jejum de 126 mg/dL ou mais, glicemia de 2 horas de 200 mg/dL ou mais, ou hemoglobina glicada de 6,5% ou mais. Quando um único exame aparece alterado e não há sintomas claros, o resultado costuma ser repetido antes de qualquer conclusão, para não tratar alguém que não tem a doença nem deixar um caso passar.',
+        ],
+      },
+      {
+        id: 'por-que-importa',
+        heading: 'Por que a pré-diabetes importa?',
+        paragraphs: [
+          'A pré-diabetes não é um resultado para guardar na gaveta. A estimativa é que cerca de metade das pessoas diagnosticadas com ela desenvolva diabetes, mesmo com orientação médica, o que mostra que o acompanhamento precisa ser próximo. Tratar o resultado como detalhe costuma custar anos de exposição à glicemia alta.',
+          'O que interessa é que essa é a única fase que ainda pode ser revertida. Antes do diagnóstico, o organismo ainda responde bem às mudanças de hábito, e é aí que elas têm a maior chance de evitar a doença. Essa resposta é o que diferencia a pré-diabetes do diabetes já instalado.',
+          'Mesmo quando a evolução não é totalmente evitada, agir nessa fase costuma adiar o aparecimento do diabetes e reduzir a exposição prolongada à glicemia alta, que é o que danifica vasos e nervos ao longo dos anos. Adiar alguns anos já significa menos tempo de desgaste para o corpo.',
+        ],
+      },
+      {
+        id: 'o-que-fazer',
+        heading: 'O que fazer para reverter a pré-diabetes?',
+        paragraphs: [
+          'As ações que ajudam na pré-diabetes são as mesmas que reduzem o risco de diabetes tipo 2. Nenhuma delas precisa ser radical, e a constância ao longo dos meses costuma render mais do que uma mudança intensa que dura poucas semanas. Não existe uma fórmula única que sirva para todas as pessoas.',
+          'Perder peso quando há sobrepeso, mesmo que a perda seja pequena, e manter a alimentação regular estão entre as medidas com maior efeito. O plano deve ser ajustado caso a caso pela equipe de saúde, considerando outras condições e o risco de cada pessoa. Pequenas metas costumam funcionar melhor do que metas grandes demais.',
+          'O ponto de partida é conversar com a equipe de saúde sobre o resultado do exame e sobre um plano possível para a sua rotina, em vez de tentar seguir uma dieta genérica encontrada na internet. O plano precisa caber na rotina real, e não em um cenário ideal.',
+        ],
+        bullets: [
+          'Manter um peso saudável e evitar o ganho de peso ao longo dos anos',
+          'Praticar pelo menos 150 minutos por semana de atividade física de intensidade moderada',
+          'Cuidar da alimentação, com menos açúcar, sal e ultraprocessados',
+          'Não fumar',
+          'Repetir os exames nos intervalos definidos pela equipe de saúde',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Como é o acompanhamento?',
+        paragraphs: [
+          'Na pré-diabetes, o acompanhamento costuma ser feito na atenção básica, na unidade básica de saúde, com a equipe de clínico geral e de enfermagem. O intervalo entre os exames é definido conforme o resultado e o risco de cada pessoa. Em muitos casos, o retorno é combinado já na primeira consulta.',
+          'O acompanhamento não serve apenas para medir a glicemia. Ele é o momento de revisar peso, pressão arterial, colesterol e hábitos, e de ajustar o plano quando algo não está funcionando. Esse conjunto de medidas dá uma visão mais ampla do risco cardiovascular.',
+          'Esse cuidado continuado é o que separa um resultado alterado esquecido de um problema tratado a tempo. Manter as consultas em dia, mesmo quando a glicemia melhora, ajuda a sustentar os ganhos ao longo dos anos. Sem acompanhamento, é fácil que a melhora inicial se perca com o tempo.',
+        ],
+      },
+      {
+        id: 'duvidas-comuns',
+        heading: 'Dúvidas comuns sobre a pré-diabetes',
+        paragraphs: [
+          'A pré-diabetes sempre vira diabetes? Não. Parte das pessoas volta à faixa normal com mudanças de hábito, e outras adiam o diagnóstico por anos. O que decide o rumo é a combinação entre genética, hábitos e acompanhamento, e o resultado de um único exame não decide o futuro sozinho.',
+          'Preciso de remédio na pré-diabetes? Depende do caso. O tratamento começa pelas mudanças de estilo de vida, e a decisão sobre medicamentos é tomada pelo profissional de saúde conforme a glicemia e outros fatores. Quando indicado, o medicamento entra junto com as mudanças, e não no lugar delas.',
+          'Posso esperar para mudar depois? Não é o melhor caminho, porque a pré-diabetes é a única fase que ainda pode ser revertida. Adiar as mudanças costuma significar perder a janela em que elas funcionam melhor. Começar agora, mesmo com passos pequenos, vale mais do que esperar o momento perfeito.',
+        ],
+        cta: {
+          label: 'Ir para a página sobre diabetes',
+          href: '/doencas/diabetes/',
+        },
+      },
+    ],
+    diseaseSlugs: ['diabetes'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['diabetes-fatores-de-risco', 'diabetes-tipo-2-o-que-muda-no-dia-a-dia'],
+    references: [
+      {
+        label: 'Diabetes: orientações e materiais',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diabetes: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diabetes',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-19',
+    isPlaceholder: true,
+  },
+  {
+    id: 'diabetes-hipoglicemia',
+    slug: 'diabetes-hipoglicemia',
+    title: 'Hipoglicemia no diabetes: o que fazer quando a glicemia cai',
+    excerpt:
+      'A queda da glicemia pode surgir de repente e pede uma reação rápida. Entenda os sinais, a regra 15-15 e quando tratar como emergência.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é hipoglicemia?',
+        paragraphs: [
+          'Hipoglicemia é a glicemia abaixo do nível necessário para o corpo funcionar bem. Ela pode ocorrer em qualquer pessoa, mas é mais comum em quem usa insulina ou determinados medicamentos que aumentam a produção de insulina. Quem usa esses medicamentos deve conhecer bem os próprios limites e os sinais de alerta.',
+          'O cérebro depende da glicose como combustível, e é por isso que a queda costuma vir acompanhada de sintomas como confusão, tontura e irritabilidade. Reconhecer os sinais cedo é o que evita que a situação piore, e agir nos primeiros minutos costuma evitar que o episódio se torne grave. Em pessoas que não usam esses medicamentos, a hipoglicemia costuma ser menos frequente.',
+          'Episódios de hipoglicemia podem ser leves, quando a pessoa ainda consegue se tratar sozinha, ou graves, quando precisa de ajuda de outra pessoa. Para quem usa insulina, aprender a lidar com esses episódios faz parte do tratamento, e não é sinal de falha no cuidado. O plano individual deve ser combinado com a equipe de saúde.',
+        ],
+      },
+      {
+        id: 'quais-sinais',
+        heading: 'Quais são os sinais de glicemia baixa?',
+        paragraphs: [
+          'Os sinais de hipoglicemia costumam aparecer de repente e podem variar de uma pessoa para outra, e até de um episódio para outro na mesma pessoa. Quem convive com diabetes aprende a reconhecer a própria combinação de sintomas. O que é sinal para uma pessoa pode não ser para outra, e isso é normal.',
+          'É comum que os primeiros sinais sejam sentidos no corpo, como tremor e suor, antes de qualquer alteração de consciência. Quando a glicemia cai mais, podem surgir confusão e dificuldade para raciocinar, o que deixa a pessoa menos capaz de resolver sozinha a situação. Quando a queda é rápida, os sintomas podem piorar em poucos minutos.',
+          'A lista abaixo reúne os sinais mais citados. Sentir apenas alguns deles já justifica medir a glicemia e agir, sem esperar que todos apareçam. Ter o material de medição por perto ajuda a confirmar a suspeita antes de agir.',
+        ],
+        bullets: [
+          'Tremor nas mãos ou no corpo',
+          'Suor, pele fria e pegajosa',
+          'Calafrios',
+          'Batimento do coração acelerado',
+          'Fome repentina',
+          'Tontura',
+          'Irritabilidade ou nervosismo',
+          'Confusão e dificuldade para se concentrar',
+        ],
+      },
+      {
+        id: 'regra-15-15',
+        heading: 'Como aplicar a regra 15-15?',
+        paragraphs: [
+          'Quando a pessoa está consciente e consegue engolir, a conduta geral segue a chamada regra 15-15: ingerir cerca de 15 g de carboidratos de absorção rápida, aguardar 15 minutos e reavaliar a glicemia. A regra vale para quem está consciente e consegue engolir sem risco de engasgo.',
+          'Se a glicemia continuar baixa, o passo é repetir o procedimento de 15 g e esperar mais 15 minutos antes de medir novamente. Depois de a glicemia voltar à faixa segura, uma refeição ou lanche ajuda a estabilizar o valor. Repetir o passo, em vez de comer muito de uma vez, evita que a glicemia suba demais.',
+          'São exemplos de carboidratos de absorção rápida o suco, a glicose em gel ou em comprimido, o açúcar e as balas comuns. Alimentos ricos em gordura, como chocolate e amendoim, agem mais devagar e não são a melhor escolha para tratar um episódio agudo. Cada pessoa costuma ter uma fonte preferida, e vale manter a que funciona melhor.',
+        ],
+      },
+      {
+        id: 'quando-e-emergencia',
+        heading: 'Quando a hipoglicemia é uma emergência?',
+        paragraphs: [
+          'Alguns episódios exigem ajuda imediata de emergência. É o caso quando a pessoa está inconsciente, apresenta convulsão ou não desperta mesmo com estímulo, situações em que o risco é maior e cada minuto conta. Nesses casos, não adianta tentar tratar em casa.',
+          'Nesses casos, a orientação é acionar o serviço de atendimento de urgência e nunca oferecer comida ou bebida a alguém inconsciente, pelo risco de engasgo. Não tente dar líquidos à força, mesmo que o sinal pareça leve. Se houver glucagon prescrito, ele deve ser usado conforme a orientação recebida.',
+          'Se a pessoa melhora depois da ajuda, ainda assim vale relatar o episódio na próxima consulta. Repetições podem indicar a necessidade de ajustar doses ou o esquema de tratamento, o que só o profissional de saúde deve fazer. Registrar cada episódio ajuda a identificar padrões.',
+        ],
+      },
+      {
+        id: 'como-prevenir',
+        heading: 'Como reduzir o risco de novos episódios?',
+        paragraphs: [
+          'Boa parte da prevenção está em não deixar a glicemia cair a ponto de gerar sintomas. Cumprir os horários das refeições e dos medicamentos, sem pular etapas, é o primeiro passo. Refeições regulares e doses corretas sustentam boa parte do controle, e evitar pular refeições depois de tomar o remédio é parte central desse cuidado.',
+          'Também ajuda evitar longos jejuns, sobretudo antes de atividade física ou de dirigir, e combinar refeições com carboidratos e fibras para tornar a liberação de glicose mais gradual. Nos dias de exercício, pode ser necessário ajustar a alimentação com orientação profissional.',
+          'Carregar sempre uma fonte rápida de açúcar é uma medida simples que muda o desfecho de um episódio. O hábito vale tanto para quem usa insulina quanto para quem toma outros medicamentos com risco de hipoglicemia. Vale revisar o plano sempre que a rotina muda, como em viagens ou mudanças de horário.',
+        ],
+        bullets: [
+          'Tenha sempre à mão uma fonte rápida de açúcar, como suco, glicose ou bala',
+          'Respeite os horários das refeições e dos medicamentos',
+          'Evite longos jejuns, sobretudo antes de exercício ou de dirigir',
+          'Anote os episódios e leve o registro às consultas',
+        ],
+      },
+      {
+        id: 'avise-quem-esta-perto',
+        heading: 'Por que avisar quem está perto?',
+        paragraphs: [
+          'Em uma hipoglicemia grave, a pessoa pode não conseguir se tratar sozinha. Por isso, familiares, colegas e pessoas próximas precisam saber reconhecer os sinais e o que fazer enquanto a ajuda chega. Quem sabe o que fazer não perde tempo procurando informação na hora do aperto.',
+          'Ter um documento que identifique a condição, ou um cartão com orientações, ajuda quem socorre a agir mais rápido. Um plano simples, combinado com antecedência, costuma valer mais do que improvisar na hora. Esse plano deve incluir onde está a fonte de açúcar e o que fazer se a pessoa não despertar.',
+          'Explicar o que é a hipoglicemia e como agir também reduz o susto de quem está por perto. Saber que a confusão e a irritabilidade fazem parte do quadro evita que o episódio seja confundido com outra coisa. Combinar os detalhes com antecedência deixa todos mais tranquilos.',
+        ],
+        cta: {
+          label: 'Ir para a página sobre diabetes',
+          href: '/doencas/diabetes/',
+        },
+      },
+    ],
+    diseaseSlugs: ['diabetes'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['diabetes-sinais-e-sintomas', 'diabetes-tipo-2-o-que-muda-no-dia-a-dia'],
+    references: [
+      {
+        label: 'Diabetes: orientações e materiais',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diabetes: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/diabetes',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Tratamento da hipoglicemia (baixa de açúcar no sangue)',
+        url: 'https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html',
+        publisher: 'Centros de Controle e Prevenção de Doenças (CDC, EUA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-19',
     isPlaceholder: true,
   },
   {

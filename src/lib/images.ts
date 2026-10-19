@@ -164,6 +164,22 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-diabetes-dia-a-dia.webp',
     alt: 'Medidor de glicose sobre uma mesa branca com a tira de teste encaixada',
   },
+  'diabetes-sinais-e-sintomas': {
+    src: '/img/artigo-diabetes-sinais.webp',
+    alt: 'Glicosímetro, caneta de insulina, caixas de comprimidos e lancetas dispostos sobre fundo laranja',
+  },
+  'diabetes-fatores-de-risco': {
+    src: '/img/artigo-diabetes-risco.webp',
+    alt: 'Família caminhando ao ar livre num campo de grama, vista de longe',
+  },
+  'diabetes-pre-diabetes': {
+    src: '/img/artigo-diabetes-pre-diabetes.webp',
+    alt: 'Mão com luva segurando um tubo de coleta de sangue diante de outros tubos de ensaio',
+  },
+  'diabetes-hipoglicemia': {
+    src: '/img/artigo-diabetes-hipoglicemia.webp',
+    alt: 'Cubos de açúcar empilhados sobre fundo claro, vistos de perto',
+  },
   'hipertensao-como-medir-a-pressao-em-casa': {
     src: '/img/artigo-medir-pressao.webp',
     alt: 'Esfigmomanômetro com mostrador redondo e braçadeira sobre fundo claro',

@@ -147,6 +147,10 @@ export const topics: Topic[] = [
       'catarata-tratamento-e-cirurgia',
       'parasitoses-intestinais-tratamento-e-prevencao',
       'artrite-reumatoide-tratamento-e-cuidados-com-as-juntas',
+      'diabetes-sinais-e-sintomas',
+      'diabetes-fatores-de-risco',
+      'diabetes-pre-diabetes',
+      'diabetes-hipoglicemia',
     ],
     references: [
       {
@@ -192,6 +196,10 @@ export const topics: Topic[] = [
     ],
     articleSlugs: [
       'diabetes-tipo-2-o-que-muda-no-dia-a-dia',
+      'diabetes-sinais-e-sintomas',
+      'diabetes-fatores-de-risco',
+      'diabetes-pre-diabetes',
+      'diabetes-hipoglicemia',
       'hipertensao-como-medir-a-pressao-em-casa',
       'asma-crise-o-que-fazer-enquanto-espera-atendimento',
       'asma-sintomas-e-sinais-de-alerta',

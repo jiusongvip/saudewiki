@@ -346,6 +346,15 @@ export const diseases: Disease[] = [
         ],
       },
       {
+        id: 'o-quanto-e-comum',
+        heading: 'Quanto o diabetes é comum?',
+        paragraphs: [
+          'O diabetes é uma das condições crônicas mais frequentes no mundo. Segundo a Organização Mundial da Saúde, o número de pessoas que vivem com a doença passou de 200 milhões em 1990 para cerca de 830 milhões em 2022, e o crescimento é mais rápido nos países de renda baixa e média. Só em 2022, cerca de 14% dos adultos com 18 anos ou mais viviam com diabetes.',
+          'No Brasil, o Ministério da Saúde estima, com base na Sociedade Brasileira de Diabetes, mais de 13 milhões de pessoas com a doença, o que representa cerca de 6,9% da população. O tipo 2 responde por cerca de 9 em cada 10 casos.',
+          'Como o tipo 2 costuma ser silencioso por anos, boa parte das pessoas descobre a doença tarde, às vezes já com alguma complicação instalada. O rastreio depende de medidas simples de glicemia, e é por isso que quem tem fatores de risco deve conversar com a equipe de saúde sobre a periodicidade dos exames.',
+        ],
+      },
+      {
         id: 'tipos-de-diabetes',
         heading: 'Quais são os tipos de diabetes?',
         paragraphs: [
@@ -356,6 +365,19 @@ export const diseases: Disease[] = [
           'Diabetes tipo 2: o organismo ainda produz insulina, mas não a utiliza bem, o que se chama resistência à insulina, e com o tempo a produção também tende a diminuir. É o tipo mais comum e está associado a sobrepeso, sedentarismo, alimentação inadequada e histórico familiar.',
           'Diabetes gestacional: aparece durante a gravidez, quando a glicemia sobe acima do normal. Costuma ser detectado no pré-natal e, na maioria das vezes, melhora após o parto, mas a mulher passa a ter maior risco de desenvolver o tipo 2 mais tarde.',
           'Pré-diabetes: a glicemia está acima do normal, mas ainda não é alta o suficiente para confirmar a doença. É o momento em que as mudanças de hábito têm mais chance de evitar a evolução.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Quais são as causas do diabetes?',
+        paragraphs: [
+          'Cada tipo de diabetes tem uma origem diferente, e entender o mecanismo ajuda a entender por que o tratamento varia tanto de uma pessoa para outra.',
+        ],
+        bullets: [
+          'Diabetes tipo 1: o sistema imunológico ataca as células do pâncreas que produzem insulina, e a produção cai a ponto de o corpo precisar de insulina injetável. A causa exata não é conhecida e não há como prevenir a doença.',
+          'Diabetes tipo 2: o organismo passa a responder mal à própria insulina, o que se chama resistência à insulina, e com os anos a produção também diminui. A doença está ligada a sobrepeso, sedentarismo, triglicérides elevados, pressão alta e alimentação inadequada, além da predisposição genética.',
+          'Diabetes gestacional: a glicemia sobe durante a gravidez e, na maioria das vezes, volta ao normal depois do parto. Ainda assim, a mulher e o bebê passam a ter risco maior de desenvolver diabetes tipo 2 mais tarde.',
+          'Pré-diabetes: não é bem uma causa, e sim um estágio intermediário, em que a glicemia já está acima do normal, mas ainda não confirma a doença.',
         ],
       },
       {
@@ -375,6 +397,10 @@ export const diseases: Disease[] = [
           'Infecções de repetição, como na bexiga, nos rins ou na pele',
           'Náuseas e vômitos',
         ],
+        cta: {
+          label: 'Leia também: como reconhecer os sinais do diabetes',
+          href: '/artigos/diabetes-sinais-e-sintomas/',
+        },
       },
       {
         id: 'sinais-de-alerta',
@@ -390,6 +416,10 @@ export const diseases: Disease[] = [
           'Em quem usa insulina, hipoglicemia grave com desmaio ou convulsão',
           'Sinais de glicose muito baixa, como tremores, suor frio e palidez',
         ],
+        cta: {
+          label: 'Leia também: o que fazer quando a glicemia cai',
+          href: '/artigos/diabetes-hipoglicemia/',
+        },
       },
       {
         id: 'fatores-de-risco',
@@ -408,6 +438,10 @@ export const diseases: Disease[] = [
           'Apneia do sono',
           'Uso prolongado de medicamentos glicocorticoides',
         ],
+        cta: {
+          label: 'Leia também: quem corre mais risco de ter diabetes',
+          href: '/artigos/diabetes-fatores-de-risco/',
+        },
       },
       {
         id: 'transmissao',
@@ -424,6 +458,20 @@ export const diseases: Disease[] = [
           'Confirma o diabetes: glicemia de jejum, com pelo menos 8 horas de jejum, de 126 mg/dL ou mais; glicemia de 2 horas no teste de tolerância oral à glicose (TOTG com 75 g) de 200 mg/dL ou mais; glicemia medida ao acaso de 200 mg/dL ou mais junto com sintomas; ou hemoglobina glicada (HbA1c) de 6,5% ou mais.',
           'Valores intermediários, que ainda não confirmam a doença, indicam pré-diabetes: glicemia de jejum entre 100 e 125 mg/dL, glicemia de 2 horas no TOTG entre 140 e 199 mg/dL, ou hemoglobina glicada entre 5,7% e 6,4%. Nessa faixa, o acompanhamento deve ser mais próximo.',
           'Para acompanhar o tratamento, a hemoglobina glicada é um dos exames mais usados, porque mostra a média da glicemia dos últimos meses. A meta costuma ficar em torno de 7%, mas o valor é definido caso a caso pelo profissional de saúde.',
+          'No Brasil, o rastreio e o acompanhamento costumam começar na atenção básica, na unidade básica de saúde (UBS), com a equipe de clínico geral e de enfermagem. Quando o caso exige investigação mais específica, o paciente é encaminhado para avaliação com especialista.',
+        ],
+        cta: {
+          label: 'Leia também: o que é pré-diabetes e o que fazer',
+          href: '/artigos/diabetes-pre-diabetes/',
+        },
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com diabetes?',
+        paragraphs: [
+          'Sentir muita sede e urinar com frequência não é exclusividade do diabetes: essas queixas podem ter outras causas, e só a medida da glicemia mostra se a origem é a doença.',
+          'Uma glicemia alta isolada também não fecha o diagnóstico. Durante uma doença aguda, em situações de estresse ou com o uso de medicamentos corticoides, a glicose pode subir de forma passageira, e o valor precisa ser reavaliado com a pessoa já recuperada.',
+          'Por isso, quando um único exame aparece alterado e não há sintomas claros, o resultado é repetido antes de confirmar a doença. Essa reavaliação evita tanto deixar um caso passar quanto tratar alguém que não tem diabetes.',
         ],
       },
       {
@@ -442,12 +490,31 @@ export const diseases: Disease[] = [
         heading: 'Tratamento e cuidados',
         paragraphs: [
           'O tratamento combina alimentação adequada, atividade física, monitoramento da glicose e, quando indicado, medicamentos, sempre ajustados ao tipo da doença e às condições de cada pessoa. O acompanhamento contínuo é o que evita complicações nos olhos, rins, nervos e sistema cardiovascular.',
+          'As metas são definidas caso a caso, mas em geral buscam manter a hemoglobina glicada em torno de 7% e a glicemia dentro de faixas seguras, além de controlar pressão, colesterol e peso. Metas mais rígidas ou mais flexíveis dependem da idade, de outras doenças e do risco de hipoglicemia.',
           'No diabetes tipo 1, o tratamento exige insulina todos os dias, aplicada na camada de gordura logo abaixo da pele, nas coxas, no abdômen, nos braços ou nos glúteos, variando o local. O tipo e a dose são definidos pelo profissional de saúde.',
-          'No diabetes tipo 2, o tratamento começa por mudanças no estilo de vida e, quando necessário, inclui medicamentos orais. A metformina costuma ser o primeiro remédio indicado, e existem outras classes, como as sulfonilureias e os inibidores que reduzem a absorção de carboidratos no intestino. A escolha depende da glicemia, de outras doenças e do risco de efeitos colaterais.',
+          'No diabetes tipo 2, o tratamento começa por mudanças no estilo de vida e, quando necessário, inclui medicamentos orais. A metformina costuma ser o primeiro remédio indicado, e existem outras classes, como as sulfonilureias, os inibidores do SGLT2 e os inibidores que reduzem a absorção de carboidratos no intestino. A escolha depende da glicemia, de outras doenças e do risco de efeitos colaterais.',
           'O acompanhamento da glicemia em casa, com o glicosímetro, ajuda a entender como a doença responde à alimentação, à atividade física e aos medicamentos. A frequência das medições varia conforme o tipo de diabetes e o tratamento e é orientada pela equipe de saúde.',
           'No SUS, o tratamento é gratuito: a metformina, a glibenclamida, a glicazida e as insulinas NPH e regular estão disponíveis nas unidades básicas de saúde, e o programa Farmácia Popular também distribui esses medicamentos sem custo em farmácias credenciadas. Em algumas unidades também há glicosímetro, tiras reagentes e seringas para a aplicação da insulina.',
           'Em casos selecionados de diabetes tipo 2 com obesidade importante, a cirurgia bariátrica pode ser uma alternativa, sempre indicada por uma equipe de saúde após uma avaliação completa.',
         ],
+      },
+      {
+        id: 'cuidados-diarios',
+        heading: 'Quais cuidados fazem parte da rotina?',
+        paragraphs: [
+          'Conviver com diabetes envolve cuidados simples que se repetem todos os dias e são decisivos para evitar complicações. Boa parte deles não depende de tecnologia, e sim de rotina.',
+        ],
+        bullets: [
+          'Medir a glicemia conforme a orientação da equipe de saúde, anotando os valores com data e horário para levar às consultas',
+          'Não interromper nem ajustar medicamentos por conta própria, mesmo quando a glicemia parece boa',
+          'Manter alimentação regular, sem pular refeições, e a atividade física como parte da rotina',
+          'Redobrar a atenção em dias de febre, vômito ou infecção, quando a glicemia pode descompensar; nesses casos, procure orientação',
+          'Levar sempre um documento que identifique a condição e uma fonte rápida de açúcar, para o caso de hipoglicemia',
+        ],
+        cta: {
+          label: 'Leia também: o que muda no dia a dia com diabetes tipo 2',
+          href: '/artigos/diabetes-tipo-2-o-que-muda-no-dia-a-dia/',
+        },
       },
       {
         id: 'prevencao',
@@ -505,7 +572,13 @@ export const diseases: Disease[] = [
           'Não é uma relação direta e simples. O desenvolvimento do tipo 2 envolve fatores genéticos, excesso de peso, sedentarismo e outros elementos; o consumo excessivo de açúcar contribui para o ganho de peso e para o aumento do risco.',
       },
     ],
-    relatedArticleSlugs: ['diabetes-tipo-2-o-que-muda-no-dia-a-dia'],
+    relatedArticleSlugs: [
+      'diabetes-tipo-2-o-que-muda-no-dia-a-dia',
+      'diabetes-sinais-e-sintomas',
+      'diabetes-fatores-de-risco',
+      'diabetes-pre-diabetes',
+      'diabetes-hipoglicemia',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedDiseaseSlugs: ['hipertensao', 'dengue'],
     references: [
@@ -519,12 +592,17 @@ export const diseases: Disease[] = [
         url: 'https://www.who.int/news-room/fact-sheets/detail/diabetes',
         publisher: 'Organização Mundial da Saúde',
       },
+      {
+        label: 'Tratamento da hipoglicemia (baixa de açúcar no sangue)',
+        url: 'https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-19',
     isPlaceholder: true,
   },
   {
