@@ -4153,4 +4153,2213 @@ export const articles: Article[] = [
     updatedAt: '2026-10-19',
     isPlaceholder: true,
   },
+  {
+      id: 'enxaqueca-sinais-de-alerta-quando-procurar-atendimento',
+      slug: 'enxaqueca-sinais-de-alerta-quando-procurar-atendimento',
+      metaTitle: 'Enxaqueca: sinais de alerta',
+      title: 'Enxaqueca: sinais de alerta e quando procurar atendimento',
+      excerpt:
+        'Quem tem enxaqueca aprende a reconhecer a própria crise. O problema é quando a dor de cabeça muda de padrão ou traz sinais que não pertencem a ela. Veja o que exige atendimento imediato.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'quando-procurar-imediatamente',
+          heading: 'Sinais que pedem atendimento imediato',
+          paragraphs: [
+            'Na enxaqueca conhecida, a crise é incômoda, mas reconhecível: dura de 4 a 72 horas, costuma pulsar em um lado da cabeça, piora com esforço e vem com náusea e incômodo à luz e ao barulho. O sinal de alerta aparece quando algo foge desse roteiro. Nesses casos, não espere a crise passar sozinha: ligue para o SAMU (192) ou vá a um pronto atendimento se notar:',
+          ],
+          bullets: [
+            'Dor de cabeça que explode e atinge a intensidade máxima em menos de um minuto',
+            'Fraqueza ou paralisia de um lado do corpo, boca torta, fala embolada ou perda de visão súbita',
+            'Febre com rigidez no pescoço e dor de cabeça intensa',
+            'Confusão mental, convulsão, dificuldade para despertar ou manchas vermelhas e roxas na pele',
+            'Dor de cabeça que surge durante esforço físico, tosse forte ou relação sexual',
+            'Uma aura diferente do habitual, ou a primeira aura depois dos 40 anos',
+            'Dor de cabeça persistente e inédita depois dos 60 anos',
+          ],
+          cta: {
+            label: 'Veja a página completa sobre enxaqueca',
+            href: '/doencas/enxaqueca/',
+          },
+        },
+        {
+          id: 'dor-de-cabeca-em-trovoada',
+          heading: 'A dor que explode em segundos',
+          paragraphs: [
+            'Existe um tipo de dor de cabeça com início abrupto, que atinge a intensidade máxima em menos de um minuto e dura mais de cinco minutos. A descrição clássica é de um trovão, e ela é um sinal de urgência: está muitas vezes associada a transtornos vasculares intracranianos graves, sobretudo a hemorragia subaracnóidea, aquela em que um aneurisma rompe e sangra ao redor do cérebro.',
+            'Nesse cenário, a dor de cabeça em trovoada só pode ser chamada de primária depois que as causas orgânicas forem comprovadamente excluídas, o que exige neuroimagem e, em muitos casos, análise do líquido que banha o cérebro. Ou seja: quem sente esse tipo de dor deve fazer a investigação completa, e não se contentar com um analgésico. O mesmo vale para a dor de cabeça que surge pela primeira vez ligada a esforço físico, tosse ou atividade sexual.',
+          ],
+        },
+        {
+          id: 'avc-e-meningite',
+          heading: 'O que o AVC e a meningite têm a ver com a dor de cabeça',
+          paragraphs: [
+            'A dor de cabeça súbita e intensa, sem causa aparente, está na lista de sinais de AVC divulgada pelo Ministério da Saúde, junto com a boca torta, a fala embolada e a fraqueza em um lado do corpo. Como o AVC isquêmico responde pela maior parte dos casos e o tratamento depende do tempo, a regra é acionar o SAMU (192) ou os Bombeiros (193) e ir à emergência o mais rápido possível.',
+            'A meningite é outra emergência que se anuncia com dor de cabeça. Ela costuma vir com febre, rigidez no pescoço, náusea, vômito e sensibilidade à luz, e os sinais de gravidade incluem confusão mental, convulsão, dificuldade para despertar e manchas avermelhadas ou arroxeadas na pele. O Ministério da Saúde informa que todos os exames para diagnosticar a meningite estão disponíveis no Sistema Único de Saúde (SUS).',
+          ],
+        },
+        {
+          id: 'mudanca-de-padrao',
+          heading: 'Quando a dor de cabeça deixa de ser enxaqueca',
+          paragraphs: [
+            'Quem convive com a enxaqueca tem um padrão, e o que deve chamar a atenção é a quebra desse padrão. Uma aura que aparece pela primeira vez depois dos 40 anos, uma aura feita só de perda de campo visual, ou uma aura que se estende muito além de uma hora pede investigação para separar a migrânea do ataque isquêmico transitório. Uma dor de cabeça nova e persistente em pessoa com mais de 60 anos deve fazer pensar em arterite de células gigantes, inflamação de artérias da cabeça que pode causar cegueira e se anuncia muitas vezes com dor ao mastigar e couro cabeludo dolorido.',
+            'A pressão alta também entra nessa conta. Seus sintomas costumam aparecer apenas quando a pressão sobe muito, e incluem dor de cabeça, tontura e visão embaçada. Por isso, medir a pressão antes de concluir que é a crise de sempre é um bom hábito: o Ministério da Saúde recomenda a aferição pelo menos uma vez por ano para maiores de 20 anos, e ela é feita na unidade básica de saúde (UBS). Leia mais em [como medir a pressão arterial em casa](/artigos/hipertensao-como-medir-a-pressao-em-casa/).',
+          ],
+        },
+        {
+          id: 'crise-que-nao-passa',
+          heading: 'Crise que não passa e atendimento de rotina',
+          paragraphs: [
+            'Uma crise de enxaqueca que se arrasta por mais de 72 horas e incapacita tem nome, estado migranoso, e é considerada uma complicação da doença: merece avaliação médica, e não apenas mais comprimidos. O mesmo se aplica a quem passa a ter dor em 15 ou mais dias do mês, quadro em que o uso excessivo de analgésicos costuma estar envolvido e que se resolve quando o excesso é interrompido com acompanhamento.',
+            'Para quem tem crises frequentes, o caminho de rotina começa na UBS, onde a equipe revisa o padrão das crises, mede a pressão, confere os medicamentos em uso e encaminha ao especialista quando é preciso confirmar o diagnóstico ou iniciar prevenção. Levar um registro das crises, com datas, duração e remédios tomados, encurta esse caminho.',
+          ],
+        },
+      ],
+      diseaseSlugs: ['enxaqueca'],
+      topicSlugs: ['doencas-cronicas'],
+      relatedArticleSlugs: ['enxaqueca-tratamento-e-cuidados'],
+      references: [
+        {
+          label: 'Cefaleias, folha de dados sobre distúrbios de dor de cabeça',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/headache-disorders',
+          publisher: 'Organização Mundial da Saúde',
+        },
+        {
+          label: 'AVC: sinais de alerta e o que fazer',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Meningite: sintomas e quando procurar atendimento',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'enxaqueca-tratamento-e-cuidados',
+      slug: 'enxaqueca-tratamento-e-cuidados',
+      title: 'Enxaqueca: tratamento e cuidados no dia a dia',
+      excerpt:
+        'Do momento certo de tomar o analgésico à prevenção diária, passando pelo excesso de remédio que agrava a dor. Um guia prático para organizar o tratamento da enxaqueca na rotina.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'na-crise',
+          heading: 'Na crise, o tempo importa',
+          paragraphs: [
+            'O primeiro princípio do tratamento é agir cedo. A Organização Mundial da Saúde recomenda que o analgésico seja tomado no primeiro sinal da crise, inclusive quando o aviso é a aura, porque esperar a dor se instalar costuma reduzir a resposta ao medicamento. Descansar em ambiente escuro e silencioso e usar compressa fria na cabeça são medidas que ajudam enquanto o remédio faz efeito.',
+            'Quando o analgésico comum não dá conta, o médico dispõe de outras classes: antieméticos para a náusea e o vômito, medicamentos específicos para a enxaqueca, como os triptanos, e, em alguns casos, associações. A escolha depende do seu padrão de crises, de outras doenças e dos remédios que você já usa. Por isso o tratamento da enxaqueca é individualizado, e a bula alheia raramente funciona.',
+          ],
+          cta: {
+            label: 'Entenda a enxaqueca na página da doença',
+            href: '/doencas/enxaqueca/',
+          },
+        },
+        {
+          id: 'preventivo',
+          heading: 'Prevenção para quem tem muitos dias com dor',
+          paragraphs: [
+            'Existe uma segunda frente de tratamento, feita de medicamento tomado todos os dias, mesmo sem dor, para reduzir frequência, intensidade e duração das crises. Ela entra em cena quando a enxaqueca ocupa muitos dias do mês ou atrapalha demais a vida, e seu efeito é gradual: a resposta é avaliada pelo médico ao longo das semanas, e não na primeira caixa.',
+            'A meta do tratamento é declarada pelo paciente, com base no que ele quer recuperar, e por isso vale levar números para a consulta: quantos dias com dor no mês, quantos dias de trabalho ou estudo perdidos, quantos comprimidos por semana. Aproveite para falar de sono, álcool e também de humor, já que ansiedade e depressão são mais frequentes em quem tem enxaqueca e pioram o quadro quando ficam sem cuidado.',
+          ],
+        },
+        {
+          id: 'excesso-de-remedio',
+          heading: 'O remédio que passa a causar dor',
+          paragraphs: [
+            'Este é o ponto em que muita gente tropeça sem perceber. Usar medicamento agudo em excesso, por mais de três meses, pode transformar a enxaqueca episódica em dor quase diária, a cefaleia por uso excessivo de medicamentos. A referência de excesso, pela classificação internacional das cefaleias, é 10 ou mais dias por mês com triptanos, ergotamina, opioides e analgésicos combinados, e 15 ou mais dias por mês com analgésicos simples, como paracetamol e anti-inflamatórios.',
+            'O diagnóstico importa porque a saída é diferente da que a pessoa está tentando: adicionar remédio costuma piorar, e a suspensão orientada do excesso costuma melhorar a dor e ainda restaurar a resposta ao tratamento preventivo. A própria classificação internacional descreve que apenas informar o paciente sobre esse mecanismo, algo que pode ser feito no atendimento básico, já é parte essencial do manejo.',
+          ],
+        },
+        {
+          id: 'gatilhos-na-rotina',
+          heading: 'Cuidados que reduzem a frequência das crises',
+          paragraphs: [
+            'Medidas simples aparecem nas recomendações da OMS e funcionam como base do tratamento, junto com os medicamentos. Elas só valem se forem sustentáveis, e o diário de cefaleia é o instrumento que mostra o que muda alguma coisa para você:',
+          ],
+          bullets: [
+            'Dormir horários regulares, evitando tanto a privação quanto o excesso',
+            'Restringir ou eliminar a bebida alcoólica',
+            'Beber água ao longo do dia e não pular refeições',
+            'Identificar os alimentos que antecedem suas crises',
+            'Manter atividade física regular, começando devagar nos dias sem dor',
+            'Registrar cada crise, com duração, intensidade e remédio tomado',
+          ],
+        },
+        {
+          id: 'pelo-sus',
+          heading: 'Onde buscar tratamento no SUS',
+          paragraphs: [
+            'O acompanhamento começa na unidade básica de saúde (UBS) de referência, onde a equipe pode confirmar o padrão das crises, medir a pressão, revisar o uso de analgésicos e tratar as condições que pesam no risco cardiovascular, como a [hipertensão](/doencas/hipertensao/). Quando o diagnóstico é difícil, o paciente precisa de prevenção ou há sinal de alerta, o encaminhamento vai ao neurologista ou a um serviço de cefaleia, regulado pela rede.',
+            'Há uma ressalva honesta: a OMS registra que, em muitos países, medicamentos específicos para enxaqueca não estão disponíveis com facilidade, e que a maior parte das pessoas com cefaleia no mundo não recebe diagnóstico nem tratamento adequado. Isso não significa ficar sem opção. Significa que vale perguntar ao médico qual é o melhor entre o que está acessível na rede, revisar o plano a cada consulta e não comprar remédio por conta própria para suprir a lacuna.',
+          ],
+        },
+        {
+          id: 'convivendo',
+          heading: 'No trabalho, na escola e em casa',
+          paragraphs: [
+            'A enxaqueca é episódica, e é justamente isso que faz o público subestimá-la. Muita gente trabalha durante a crise, com rendimento reduzido, e o custo aparece em dias perdidos, tarefas adiadas e irritabilidade no fim do mês. Combinar com a chefia ou com a escola um plano mínimo, com local tranquilo, água e acesso ao remédio no início da crise, costuma resolver boa parte do problema.',
+            'Para crianças e adolescentes, os sinais mudam um pouco: as crises duram menos, a dor pode aparecer dos dois lados da cabeça, e queixas abdominais, náusea e palidez costumam chamar mais atenção que a própria dor. Vale relatar isso ao médico, porque enxaqueca na infância existe e também se trata.',
+          ],
+        },
+      ],
+      diseaseSlugs: ['enxaqueca'],
+      topicSlugs: ['doencas-cronicas', 'prevencao'],
+      relatedArticleSlugs: ['enxaqueca-sinais-de-alerta-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Cefaleias, folha de dados sobre distúrbios de dor de cabeça',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/headache-disorders',
+          publisher: 'Organização Mundial da Saúde',
+        },
+        {
+          label: 'Classificação Internacional das Cefaleias, 3ª edição (ICHD-3), tradução brasileira',
+          url: 'https://sbcefaleia.com.br/images/_ICHD-3-Brazilian-Portuguese-translation_complete-version.pdf',
+          publisher: 'Sociedade Brasileira de Cefaleia',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento',
+      slug: 'otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento',
+      metaTitle: 'Otite média aguda: quando procurar atendimento',
+      title: 'Otite média aguda: sinais de alerta e quando procurar atendimento',
+      excerpt:
+        'Dor de ouvido e febre costumam ceder em poucos dias, e a otite nem sempre precisa de antibiótico. Saiba o que observar em casa, a partir de quando a espera deixa de ser segura e quais sinais levam direto ao pronto atendimento.',
+      category: 'Doenças infecciosas',
+      categorySlug: 'doencas-infecciosas',
+      body: [
+        {
+          id: 'curso-esperado',
+          heading: 'O que é esperado nos primeiros dias',
+          paragraphs: [
+            'Na otite média aguda, a dor de ouvido aparece de repente, muitas vezes à noite, acompanhada de febre e irritabilidade. Nos primeiros dois ou três dias, o quadro tende a melhorar: a dor cede, a febre perde força e a criança volta a dormir.',
+            'Essa melhora espontânea não é sorte, é a regra. A maioria das pessoas com otite média aguda melhora sem antibiótico, e o tratamento inicial é contra a dor, com analgésico ajustado à idade e ao peso.',
+          ],
+        },
+        {
+          id: 'observar-em-casa',
+          heading: 'O que observar em casa',
+          paragraphs: [
+            'Enquanto espera a melhora, a observação conta tanto quanto o remédio. Anote a evolução da dor, da febre e do comportamento, e procure avaliação se notar:',
+          ],
+          bullets: [
+            'Dor que segue igual ou pior depois de 48 a 72 horas',
+            'Febre que não cede a partir do terceiro dia',
+            'Líquido ou pus escorrendo pelo ouvido',
+            'Criança que não aceita líquidos ou mamada',
+            'Sons abafados e surdez que seguem depois de a dor passar',
+          ],
+        },
+        {
+          id: 'quando-a-ubs',
+          heading: 'Quando ir à unidade de saúde',
+          paragraphs: [
+            'A regra das 48 a 72 horas é o marco que separa a observação segura da consulta necessária. Se a criança piora ou não melhora dentro desse prazo, a unidade de saúde avalia se chegou a vez do antibiótico, que em geral é a amoxicilina.',
+            'Quanto mais nova a criança, mais cedo a avaliação se justifica: bebês pequenos, sobretudo os que ainda não completaram seis meses, merecem ser vistos mais rápido. Sinais de complicação não esperam prazo nenhum.',
+          ],
+        },
+        {
+          id: 'emergencia',
+          heading: 'Quando é emergência',
+          paragraphs: [
+            'Vá a um pronto atendimento sem esperar, e leve a criança para avaliação imediata, se junto com a dor de ouvido aparecer:',
+          ],
+          bullets: [
+            'Inchaço, vermelhidão e dor no osso atrás do ouvido',
+            'Pescoço rigido, confusão, sonolência excessiva ou vômitos que não param',
+            'Febre alta que não cede em bebê muito pequeno',
+            'Rosto torto ou perda de força em um lado da face',
+            'Choro sem lágrima, boca seca e pouca urina, sinais de desidratação',
+          ],
+          cta: {
+            label: 'Veja a página sobre a otite média aguda',
+            href: '/doencas/otite-media-aguda/',
+          },
+        },
+      ],
+      diseaseSlugs: ['otite-media-aguda'],
+      topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+      relatedArticleSlugs: ['otite-media-aguda-tratamento-e-cuidados'],
+      references: [
+        {
+          label: 'Otite média (aguda), versão saúde para a família',
+          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-aguda',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'Otite média aguda na infância: tratamento, Projeto Diretrizes',
+          url: 'https://amb.org.br/files/_BibliotecaAntiga/otite-media-aguda-na-infancia-tratamento.pdf',
+          publisher: 'Associação Médica Brasileira',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'otite-media-aguda-tratamento-e-cuidados',
+      slug: 'otite-media-aguda-tratamento-e-cuidados',
+      metaTitle: 'Otite média aguda: tratamento e cuidados',
+      title: 'Otite média aguda: tratamento e cuidados do dia a dia',
+      excerpt:
+        'Na otite, a dor vem de trás do tímpano. Entenda como aliviar a dor, quando o antibiótico vale a pena, o que não funciona e como acompanhar a audição depois que a crise passa.',
+      category: 'Doenças infecciosas',
+      categorySlug: 'doencas-infecciosas',
+      body: [
+        {
+          id: 'dor-antes-de-tudo',
+          heading: 'Tratar a dor é o primeiro passo',
+          paragraphs: [
+            'O incômodo da otite média aguda nasce do líquido acumulado no ouvido médio, pressionando o tímpano por dentro. Por isso, a primeira medida do tratamento é a dor, não a infecção: analgésicos dados pela boca, como paracetamol ou ibuprofeno, conforme a orientação da equipe de saúde, que ajusta a dose à idade e ao peso.',
+            'Entre as opções sem antibiótico, o ibuprofeno tem evidência de alívio da dor na otite. Nada de duplicar remédios por conta própria: dois analgésicos com o mesmo princípio ativo somam risco sem somar benefício.',
+          ],
+        },
+        {
+          id: 'antibiotico-quando',
+          heading: 'Quando o antibiótico entra',
+          paragraphs: [
+            'O critério prático é o tempo: piora ou falta de melhora entre 48 e 72 horas do início dos sintomas pedem antibiótico, assim como os casos de maior gravidade, como bebê muito pequeno ou pus escorrendo pelo ouvido.',
+            'Quando indicado, a amoxicilina segue como primeira escolha nas diretrizes brasileiras. O tratamento dura o tempo receitado e deve ser completo, e o retorno de avaliação faz parte do cuidado. Se a criança melhora antes do fim do remédio, não é hora de interromper sem orientação.',
+          ],
+        },
+        {
+          id: 'o-que-nao-ajuda',
+          heading: 'O que não ajuda e pode atrapalhar',
+          paragraphs: [
+            'Anti-histamínicos e descongestionantes não têm lugar no tratamento da otite: revisões sistemáticas mostram benefício pequeno e risco real de efeitos colaterais, e os anti-histamínicos ainda prolongam o líquido no ouvido médio. Corticoide em associação com antibiótico também não melhora o resultado.',
+            'Gota no ouvido sem prescrição é outro erro comum: a dor vem de trás do tímpano, onde o líquido medicado não chega, e algumas formulações fazem mal quando o tímpano está perfurado. Receita caseira, algodão molhado e sopro no ouvido ficam de fora.',
+          ],
+        },
+        {
+          id: 'liquido-que-permanece',
+          heading: 'O líquido que sobra e a audição',
+          paragraphs: [
+            'Passada a crise, o ouvido médio pode guardar líquido sem infecção ativa por semanas a meses, a chamada otite média secretora. A criança não sente dor, mas passa a ouvir abafado, como se o ouvido estivesse entupido.',
+            'A maior parte desses casos se resolve sozinha, e a conduta é observar e reavaliar. Quando o líquido persiste, a audição fica prejudicada por tempo demais ou as otites se repetem, vale fazer teste de audição e conversar com o otorrinolaringologista: em situações selecionadas, a colocação de um tubo de ventilação no tímpano ajuda a drenar o ouvido médio.',
+          ],
+          cta: {
+            label: 'Veja a página sobre a otite média aguda',
+            href: '/doencas/otite-media-aguda/',
+          },
+        },
+      ],
+      diseaseSlugs: ['otite-media-aguda'],
+      topicSlugs: ['doencas-infecciosas', 'prevencao'],
+      relatedArticleSlugs: ['otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Otite média (aguda), versão saúde para a família',
+          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-aguda',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'Otite média (serosa), versão saúde para a família',
+          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-serosa',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'Otite média aguda na infância: tratamento, Projeto Diretrizes',
+          url: 'https://amb.org.br/files/_BibliotecaAntiga/otite-media-aguda-na-infancia-tratamento.pdf',
+          publisher: 'Associação Médica Brasileira',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
+      slug: 'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
+      metaTitle: 'Pneumonia: quando procurar atendimento',
+      title: 'Pneumonia: sinais de alerta e quando procurar atendimento',
+      excerpt:
+        'Falta de ar, respiração rápida, confusão em idosos e oxigênio abaixo de 90% distinguem a pneumonia que trata em casa da que precisa de hospital. Saiba o que observar em cada idade.',
+      category: 'Doenças infecciosas',
+      categorySlug: 'doencas-infecciosas',
+      body: [
+        {
+          id: 'o-que-importa-observar',
+          heading: 'A gravidade não está na febre',
+          paragraphs: [
+            'Na pneumonia, o termômetro diz menos do que parece. Um adulto pode estar febril e respirando bem, enquanto outro, com temperatura normal, tem o oxigênio caindo sem aviso. Os três sinais que realmente importam são a respiração, o estado de alerta e a saturação de oxigênio, medida em segundos com o oxímetro de pulso.',
+            'A febre alta que não cede, a dor no peito que aumenta e a falta de ar que aparece até em repouso são a combinação que encurta o caminho até o atendimento. Na dúvida entre esperar e ir, a pneumonia recomenda ir.',
+          ],
+        },
+        {
+          id: 'sinais-em-adultos',
+          heading: 'Sinais de alerta em adultos e idosos',
+          paragraphs: [
+            'Para adultos, os critérios objetivos mais usados pelos profissionais separam o tratamento caseiro da internação. Vá atrás de atendimento, sem esperar o dia seguinte, se houver:',
+          ],
+          bullets: [
+            'Respiração acima de 30 incursões por minuto em repouso',
+            'Saturação de oxigênio abaixo de 90% no ar ambiente',
+            'Falta de ar que impede falar uma frase completa',
+            'Confusão súbita, desorientação ou sonolência anormal',
+            'Lábios ou pontas dos dedos arroxeados',
+            'Febre alta persistente com dor no peito que piora',
+          ],
+        },
+        {
+          id: 'sinais-em-criancas',
+          heading: 'Sinais de alerta nas crianças',
+          paragraphs: [
+            'Nos menores de cinco anos, a Organização Mundial da Saúde ensina a avaliar a pneumonia sem aparelho: contar a respiração e olhar o tórax. A respiração rápida e a parte de baixo do peito puxando para dentro ao inspirar já são pneumonia.',
+          ],
+          bullets: [
+            'Respirar visivelmente mais rápido que o habitual',
+            'Costelas e região abaixo delas "puxando" a cada ar',
+            'Gemência ao respirar ou respiração pela boca sem parar',
+            'Recusa do peito, da mamadeira ou da água',
+            'Chiado no peito que lembra uma crise de asma',
+            'Qualquer convulsão, moleza excessiva ou dificuldade para despertar',
+          ],
+        },
+        {
+          id: 'idosos-silenciosos',
+          heading: 'Quando a pneumonia chega sem tosse',
+          paragraphs: [
+            'Em pessoas idosas, a pneumonia pode se esconder: nenhuma tosse, febre baixa, e de repente a pessoa fica confusa, desorientada, caída, sem fome. Uma mudança súbita de comportamento em quem mora sozinho ou é acompanhado em casa justifica avaliação no mesmo dia.',
+            'O mesmo vale para quem tem [DPOC](/doencas/dpoc/) ou [asma](/doencas/asma/): uma piora que não responde à medicação de costume pode ser pneumonia por cima da doença de base, e não simples crise.',
+          ],
+        },
+        {
+          id: 'onde-procurar',
+          heading: 'Onde procurar atendimento, e o que não esperar',
+          paragraphs: [
+            'A UBS resolve a maior parte das pneumonias leves: ouve o pulmão, mede a saturação, inicia o antibiótico e marca o retorno. A UPA e o hospital entram quando falta oxigênio, há confusão, ou a pessoa não consegue beber e tomar a medicação. Falta de ar intensa, lábios azulados ou sonolência anormal são motivo para chamar o SAMU (192).',
+            'Uma última linha: a pneumonia típica melhora em dias de tratamento. A tosse que dura três semanas ou mais, com febre de fim de tarde, suor noturno e emagrecimento, é o retrato da [tuberculose](/doencas/tuberculose/), doença de investigação e tratamento diferentes, oferecidos de forma integral pelo SUS.',
+          ],
+          cta: {
+            label: 'Veja a página sobre pneumonia',
+            href: '/doencas/pneumonia/',
+          },
+        },
+      ],
+      diseaseSlugs: ['pneumonia'],
+      topicSlugs: ['doencas-infecciosas'],
+      relatedArticleSlugs: ['pneumonia-tratamento-e-recuperacao'],
+      references: [
+        {
+          label: 'Pneumonia in children: folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/pneumonia',
+          publisher: 'Organização Mundial da Saúde',
+        },
+        {
+          label: 'Pneumonia adquirida na comunidade, edição profissional',
+          url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'Tuberculose: perguntas e sinais',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tuberculose',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'pneumonia-tratamento-e-recuperacao',
+      slug: 'pneumonia-tratamento-e-recuperacao',
+      metaTitle: 'Pneumonia: tratamento e recuperação',
+      title: 'Pneumonia: tratamento, cuidados na recuperação e vacinas',
+      excerpt:
+        'O antibiótico deve começar cedo, e a maioria dos casos se resolve em casa. Veja como funciona o tratamento, por que a tosse demora a ir embora e o que o calendário do SUS oferece de vacina.',
+      category: 'Doenças infecciosas',
+      categorySlug: 'doencas-infecciosas',
+      body: [
+        {
+          id: 'comecar-cedo',
+          heading: 'Por que o tratamento começa logo',
+          paragraphs: [
+            'Quando a avaliação sugere pneumonia bacteriana, o antibiótico é iniciado o quanto antes. Estudos de organização de serviço mostram que tratar cedo reduz complicações, tempo de internação e mortalidade, e é por isso que o médico não espera o resultado de cultura para decidir.',
+            'Nas crianças, a amoxicilina oral é a primeira escolha recomendada pela OMS, e a maioria dos casos leves do adulto também se trata com antibiótico por via oral, em casa, com retorno marcado. Quem decide se o local do tratamento é o domicílio, o hospital ou a UTI é a gravidade medida no atendimento.',
+          ],
+        },
+        {
+          id: 'no-hospital',
+          heading: 'Quando é preciso internar',
+          paragraphs: [
+            'A queda do oxigênio no sangue é a principal porta da internação: muitos médicos tratam a hipoxemia como indicação absoluta de internamento, e a saturação abaixo de 90% no ar ambiente pede oxigênio e observação hospitalar.',
+            'Os escores de gravidade, como o CURB-65, ajudam o médico a escolher o local do tratamento, pesando idade, confusão, frequência respiratória alta, pressão baixa e ureia elevada. Choque séptico e insuficiência respiratória que exige ventilação mecânica levam à UTI. Nos demais casos, o antibiótico venoso, a hidratação e o oxigênio fazem o resto do serviço.',
+          ],
+        },
+        {
+          id: 'em-casa',
+          heading: 'Os cuidados durante o tratamento em casa',
+          paragraphs: [
+            'O tratamento ambulatorial só funciona com colaboração. O essencial:',
+          ],
+          bullets: [
+            'Tomar o antibiótico pelo tempo receitado, mesmo depois da febre sumir',
+            'Voltar à unidade de saúde na data marcada para reavaliação',
+            'Beber líquidos com frequência e descansar sem abandonar as refeições',
+            'Usar analgésico e antitérmico conforme a orientação, sem se automedicar',
+            'Não reutilizar sobras de antibiótico de caixinhas anteriores',
+            'Procurar atendimento antes da hora se vier falta de ar, confusão ou recusa de líquidos',
+          ],
+        },
+        {
+          id: 'recuperacao-lenta',
+          heading: 'A tosse que fica e o tempo de recuperação',
+          paragraphs: [
+            'A melhora começa antes do que a cura: a febre cede nos primeiros dias e o fôlego volta aos poucos, mas a tosse e o cansaço podem acompanhar por várias semanas. Até a radiografia demora mais que o corpo: os sinais no exame costumam atrasar a resolução clínica em várias semanas.',
+            'Sinais de alerta na convalescença pedem retorno imediato: febre que volta, tosse com sangue, falta de ar nova ou piora do estado geral. E a tosse que se arrasta por três semanas ou mais, com suor noturno e emagrecimento, deve ser investigada para tuberculose, não tratada como resto de pneumonia.',
+          ],
+        },
+        {
+          id: 'vacinas',
+          heading: 'As vacinas que o SUS oferece',
+          paragraphs: [
+            'A forma mais barata e eficaz de evitar a pneumonia é a vacina contra as bactérias e vírus que a causam com mais frequência. O Calendário Nacional de Vacinação reúne as principais, com acesso gratuito pelo SUS.',
+          ],
+          bullets: [
+            'Pneumocócica conjugada para crianças: doses aos 2 e 4 meses, reforço aos 12 meses',
+            'Pentavalente (que inclui o Hib) aos 2, 4 e 6 meses',
+            'Influenza para crianças a partir de 6 meses e para idosos, uma dose a cada temporada',
+            'Pneumocócica para pessoas idosas, indicada no calendário de vacinação da pessoa idosa',
+            'Sarampo e coqueluche, doenças que preparam o terreno para a pneumonia',
+          ],
+          cta: {
+            label: 'Veja a página sobre pneumonia',
+            href: '/doencas/pneumonia/',
+          },
+        },
+      ],
+      diseaseSlugs: ['pneumonia'],
+      topicSlugs: ['doencas-infecciosas', 'prevencao'],
+      relatedArticleSlugs: ['pneumonia-sinais-de-alerta-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Calendário Nacional de Vacinação',
+          url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Pneumonia adquirida na comunidade, edição profissional',
+          url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'Pneumonia in children: folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/pneumonia',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
+      slug: 'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
+      metaTitle: 'Insuficiência cardíaca: sinais de alerta',
+      title: 'Insuficiência cardíaca: sinais de alerta e quando procurar atendimento',
+      excerpt:
+        'A descompensação da insuficiência cardíaca costuma dar avisos dias antes da emergência. Saiba quais sinais vigiar em casa e quando chamar o SAMU.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'a-piora-comeca-devagar',
+          heading: 'A piora costuma avisar antes',
+          paragraphs: [
+            'Na insuficiência cardíaca, o músculo do coração já bombeia com pouca eficiência, e qualquer desequilíbrio aumenta a pressão dentro das veias. O líquido sai dos vasos e se instala onde a gravidade e o próprio pulmão permitem: tornozelos, barriga e, por fim, os espaços entre os alvéolos. É essa sequência que transforma uma semana de inchaço discreto em uma falta de ar que acorda a pessoa à noite.',
+            'Por isso a maioria das internações evitáveis poderia ter sido cortada antes. Os sinais de alarme aparecem dias antes da crise, e a pessoa que os conhece pode avisar a equipe de saúde em vez de esperar a urgência. Estudos usados pelas diretrizes brasileiras tratam a variação de peso em poucos dias como um dos melhores marcadores de acúmulo de líquido.',
+          ],
+        },
+        {
+          id: 'sinais-para-vigiar-em-casa',
+          heading: 'Sinais para vigiar em casa',
+          paragraphs: [
+            'Nem todo desconforto exige um pronto atendimento no mesmo minuto. Estes sinais pedem contato com a equipe que acompanha o coração em até 24 horas:',
+          ],
+          bullets: [
+            'Ganho de peso em poucos dias, sem mudança de alimentação',
+            'Tornozelos, pernas ou barriga visivelmente mais inchados',
+            'Dormir com mais travesseiros do que de costume',
+            'Falta de ar ao fazer o que antes era rotina',
+            'Tosse nova, sobretudo à noite',
+            'Cansaço desproporcional ou tontura com os remédios em dia',
+          ],
+          cta: {
+            label: 'Veja a página sobre insuficiência cardíaca',
+            href: '/doencas/insuficiencia-cardiaca/',
+          },
+        },
+        {
+          id: 'quando-e-emergencia',
+          heading: 'Quando é emergência',
+          paragraphs: [
+            'Há sinais que não admitem espera. Ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento se aparecer:',
+          ],
+          bullets: [
+            'Falta de ar intensa em repouso ou sensação de afogamento',
+            'Dor no peito que não alivia',
+            'Desmaio, confusão mental ou sonolência anormal',
+            'Lábios, mãos ou pés arroxeados',
+            'Palpitações com tontura ou sensação de desmaio iminente',
+            'Falta de ar crescente junto de inchaço que sobe rápido',
+          ],
+        },
+        {
+          id: 'enquanto-o-atendimento-chega',
+          heading: 'Enquanto o atendimento chega',
+          paragraphs: [
+            'Sentar a pessoa ereta, com as pernas para baixo, e afrouxar roupas apertadas costuma aliviar a falta de ar. Abra a janela e mantenha a calma: tentar caminhar ou deitar agrava a sensação de afogamento. Não leve a pessoa andando até o hospital se ela estiver muito curta de ar, e não a coloque para dirigir.',
+            'Aumentar a dose do diurético por conta própria é uma decisão que só cabe ao médico que conhece o caso. Alguns protocolos preveem dose extra orientada por telefone, mas sem esse plano escrito combinado com a equipe, o risco de desidratar e prejudicar os rins é real. Se houver medicação receitada de resgate, use exatamente como foi orientado.',
+          ],
+        },
+        {
+          id: 'onde-ser-atendido',
+          heading: 'Onde buscar atendimento',
+          paragraphs: [
+            'Para sinais que preocupam mas não são emergenciais, o caminho é a unidade básica de saúde (UBS) de referência ou, fora do horário, a unidade de pronto atendimento (UPA). Leve a lista de remédios com as doses, a caderneta de peso diário e os exames mais recentes, inclusive a última dosagem de potássio e de função renal, porque esses números guiam o ajuste.',
+            'Quem tem doença avançada, internação recente, fração de ejeção muito baixa ou suspeita de arritmia costuma precisar de serviço com cardiologista e leito de observação. O Sistema Único de Saúde organiza esse percurso por regulação de vagas, então o encaminhamento pode não ser para o hospital mais próximo. Se a pessoa já é acompanhada por um serviço de referência, ligue para ele antes: muitas equipes têm canal para orientar a descompensação e evitar a ida ao pronto atendimento.',
+          ],
+        },
+      ],
+      diseaseSlugs: ['insuficiencia-cardiaca'],
+      topicSlugs: ['doencas-cronicas'],
+      relatedArticleSlugs: ['insuficiencia-cardiaca-tratamento-e-vida-diaria'],
+      references: [
+        {
+          label: 'Insuficiência cardíaca: especialista explica fatores de risco, sintomas e tratamento',
+          url: 'https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-norte/hdt-ufnt/insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento',
+          publisher: 'Rede Ebserh e Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Diretriz Brasileira de Insuficiência Cardíaca Crônica',
+          url: 'https://www.scielo.br/j/abc/a/XrJZJkL945HZqpd3dZgdPrf/?lang=pt',
+          publisher: 'Sociedade Brasileira de Cardiologia',
+        },
+        {
+          label: 'Doenças cardiovasculares, folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'insuficiencia-cardiaca-tratamento-e-vida-diaria',
+      slug: 'insuficiencia-cardiaca-tratamento-e-vida-diaria',
+      metaTitle: 'Viver com insuficiência cardíaca',
+      title: 'Insuficiência cardíaca: tratamento e vida diária',
+      excerpt:
+        'Os quatro pilares de remédios do protocolo brasileiro, a balança como ferramenta de monitoramento, o sal na prática e a reabilitação cardíaca disponível no SUS.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'os-quatro-pilares',
+          heading: 'Os quatro pilares do tratamento',
+          paragraphs: [
+            'O protocolo nacional para a insuficiência cardíaca com fração de ejeção reduzida, aprovado pelo Ministério da Saúde em 2024, reúne quatro classes de medicamentos. São eles: o inibidor da enzima de conversão ou a associação sacubitril-valsartana; o betabloqueador; o antagonista da aldosterona, que no Brasil é a espironolactona; e o inibidor do SGLT2, como a dapagliflozina, remédio criado para o diabetes e que se mostrou útil no coração.',
+            'As diretrizes recomendam começar as quatro classes o mais cedo possível e subir as doses em consultas próximas, em vez de esgotar uma antes de iniciar a outra. Cada uma atua em um mecanismo diferente do desgaste cardíaco, e o benefício cresce quando elas trabalham juntas. Por isso, sentir-se melhor não é motivo para suspender nenhuma delas por conta própria.',
+          ],
+        },
+        {
+          id: 'diureticos-e-alivio-de-sintomas',
+          heading: 'Diuréticos aliviam, mas não bastam',
+          paragraphs: [
+            'A furosemida e outros diuréticos são o remédio que traz alívio rápido: retiram o líquido que congestionou pulmão e pernas. Eles convivem com os quatro pilares, não os substituem. Quem usa só diurético respira melhor por alguns dias e segue exposto às internações que as outras classes ajudam a evitar. A dose do diurético costuma mudar conforme o peso e o inchaço, e é comum a equipe orientar ajuste dentro de uma faixa combinada.',
+          ],
+        },
+        {
+          id: 'balanca-como-instrumento',
+          heading: 'A balança como instrumento de monitoramento',
+          paragraphs: [
+            'Pesar-se todo dia é a forma mais barata de perceber a piora antes da crise. As diretrizes brasileiras usam a variação de peso em poucos dias, somada ao inchaço periférico, como marcador confiável de acúmulo de líquido. O pedido costuma ser simples, e a regularidade vale mais do que a precisão da balança.',
+          ],
+          bullets: [
+            'Pese-se uma vez por dia, sempre no mesmo horário, logo ao acordar',
+            'Vá ao banheiro antes e use a mesma roupa, ou nenhuma',
+            'Anote o número em papel ou aplicativo, sem esquecer o dia',
+            'Observe tornozelos e abdome junto do peso',
+            'Avise a equipe ao notar a mudança que ela definiu como limite',
+            'Leve a caderneta às consultas, inclusive quando estiver tudo bem',
+          ],
+        },
+        {
+          id: 'sal-e-liquidos-na-pratica',
+          heading: 'Sal e líquidos na prática',
+          paragraphs: [
+            'Reduzir sal continua fazendo sentido, mas o extremo de sal zero não é a meta. Dietas muito restritivas em sódio foram associadas a piores resultados nos estudos que sustentam o protocolo brasileiro. O ganho real está em cortar as fontes invisíveis: temperos prontos, macarrão instantâneo, embutidos, congelados industrializados, sopas de pacote e pão de forma comprado fora de casa.',
+            'Temperar com alho, cebola, limão e ervas frescas substitui bem o saleiro. Já a restrição de água não vale para todos: ela é indicada apenas em situações como congestão persistente, sintomas importantes ou sódio baixo no sangue, com volume definido pela equipe. Beber água demais pode piorar a congestão; beber de menos, por ordem médica e sem necessidade, pode desidratar e sobrecarregar os rins.',
+          ],
+        },
+        {
+          id: 'movimento-e-reabilitacao',
+          heading: 'Movimento e reabilitação cardíaca',
+          paragraphs: [
+            'Repouso absoluto ficou para trás. Em pacientes estáveis, o exercício aeróbico supervisionado melhora disposição, capacidade física e adesão ao tratamento, dentro de programas de reabilitação cardíaca que combinam avaliação médica, prescrição de atividade, apoio psicossocial e orientação à família.',
+            'Há oferta pública nesse caminho, incluindo equipamentos vinculados à atenção básica, como as Academias da Saúde e os Núcleos de Apoio à Saúde da Família, além de serviços de reabilitação em hospitais referenciados. A disponibilidade varia bastante entre municípios, e nem toda cidade tem programa pronto. Antes de começar, peça avaliação médica: arritmia não controlada, doença de válvula grave e descompensação atual são contraindicações temporárias ou definitivas para o exercício.',
+          ],
+          cta: {
+            label: 'Veja a página sobre insuficiência cardíaca',
+            href: '/doencas/insuficiencia-cardiaca/',
+          },
+        },
+        {
+          id: 'acompanhamento-e-sus',
+          heading: 'Acompanhamento no SUS',
+          paragraphs: [
+            'A atenção primária é o eixo do cuidado: ajustar remédios, pedir exames de função renal e potássio, encaminhar quando necessário e sustentar o vínculo entre as consultas. A avaliação especializada fica reservada a quem teve internação recente, permanece com sintomas intensos ou precisa avaliar dispositivo cardíaco, cirurgia ou transplante.',
+            'O SUS financia o percurso que vai do exame à cirurgia: consultas, ecocardiograma, os medicamentos do protocolo, implante de dispositivos e transplante cardíaco, coordenado pelo Sistema Nacional de Transplantes. Na prática, o acesso depende de regulação, fila e da rede disponível na região, e o país concentra os serviços de alta complexidade em poucas capitais. Quem mora longe se beneficia de um plano de acompanhamento firmado com a UBS, para não perder as revisões.',
+          ],
+          cta: {
+            label: 'Leia também: como medir a pressão arterial em casa',
+            href: '/artigos/hipertensao-como-medir-a-pressao-em-casa/',
+          },
+        },
+      ],
+      diseaseSlugs: ['insuficiencia-cardiaca'],
+      topicSlugs: ['doencas-cronicas', 'prevencao'],
+      relatedArticleSlugs: ['insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Protocolo Clínico e Diretrizes Terapêuticas de insuficiência cardíaca com fração de ejeção reduzida',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/i/insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Relatório de Recomendação da CONITEC para o protocolo de insuficiência cardíaca',
+          url: 'https://www.gov.br/conitec/pt-br/midias/relatorios/2024/relatorio-de-recomendacao-no-808-pcdt-insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida',
+          publisher: 'CONITEC',
+        },
+        {
+          label: 'Diretriz Brasileira de Insuficiência Cardíaca Crônica',
+          url: 'https://www.scielo.br/j/abc/a/XrJZJkL945HZqpd3dZgdPrf/?lang=pt',
+          publisher: 'Sociedade Brasileira de Cardiologia',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
+      slug: 'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
+      metaTitle: 'Esteatose hepática: sinais de alerta',
+      title: 'Esteatose hepática: sintomas e quando procurar atendimento',
+      excerpt:
+        'A gordura no fígado costuma ser silenciosa e aparecer em exames de rotina. Saiba queixas que merecem investigação e quais sinais pedem atendimento imediato.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'silenciosa-no-inicio',
+          heading: 'Por que quase não há sintomas',
+          paragraphs: [
+            'A esteatose hepática, a gordura no fígado, raramente dá sinal no começo. O fígado é um órgão silencioso: mesmo acumulando gordura nas suas células, continua trabalhando e não dói. É por isso que a maioria dos diagnósticos vem de um exame pedido por outro motivo.',
+            'Quando os sintomas aparecem, são vagos: desconforto ou peso na parte superior direita da barriga, cansaço ao longo do dia e diminuição do apetite. Nenhuma dessas queixas é exclusiva da esteatose, e por isso só a investigação com exame de sangue e de imagem confirma o quadro.',
+          ],
+        },
+        {
+          id: 'como-e-descoberta',
+          heading: 'Como a esteatose costuma ser descoberta',
+          paragraphs: [
+            'Na rotina, o primeiro indício vem da ultrassonografia de abdome, exame de imagem que mostra o fígado mais claro e, em muitos casos, aumentado de tamanho.',
+            'No exame de sangue, as transaminases podem vir levemente elevadas, o que levanta a suspeita e leva a avaliar o fígado com atenção. Quem tem fatores de risco, como [diabetes](/doencas/diabetes/), sobrepeso ou colesterol alto, deve pedir a avaliação mesmo sem sentir nada.',
+          ],
+        },
+        {
+          id: 'sinais-de-piora',
+          heading: 'Sinais de que o fígado piorou',
+          paragraphs: [
+            'A gordura isolada costuma ser estável. O que muda o cenário é a inflamação, que ao longo dos anos pode evoluir para cicatriz, a fibrose. Procure reavaliação se aparecerem:',
+          ],
+          bullets: [
+            'Cansaço que aumenta e não melhora com descanso',
+            'Dor persistente no lado superior direito do abdome',
+            'Sensação de estômago cheio ou estufado quase todo dia',
+            'Pele e olhos com tom amarelado',
+            'Perda de peso sem esforço e sem explicação',
+          ],
+          cta: {
+            label: 'Veja a página sobre a esteatose hepática',
+            href: '/doencas/esteatose-hepatica/',
+          },
+        },
+        {
+          id: 'quando-e-emergencia',
+          heading: 'Quando é emergência',
+          paragraphs: [
+            'Vá a um pronto atendimento ou ligue para o SAMU (192) se, em alguém com doença no fígado, surgirem sinais de complicação grave:',
+          ],
+          bullets: [
+            'Confusão mental, sonolência ou desorientação',
+            'Vômito com sangue ou fezes muito escuras',
+            'Barriga muito inchada e endurecida de repente',
+            'Febre alta com dor intensa no abdome',
+            'Pele e olhos amarelados que aparecem rápido',
+          ],
+        },
+        {
+          id: 'onde-fazer-o-acompanhamento',
+          heading: 'Onde fazer o acompanhamento',
+          paragraphs: [
+            'O primeiro passo é procurar a unidade básica de saúde (UBS) de referência. De lá, quem tem esteatose com fatores de risco pode ser encaminhado a um clínico geral, a um gastroenterologista ou a um hepatologista, o médico que cuida especificamente do fígado.',
+            'O acompanhamento inclui repetir exames de sangue, avaliar o peso e medir a rigidez do fígado com a elastografia, quando indicada. Manter as consultas em dia é o que permite detectar uma progressão cedo, quando ainda dá para reverter.',
+          ],
+        },
+      ],
+      diseaseSlugs: ['esteatose-hepatica'],
+      topicSlugs: ['doencas-cronicas'],
+      relatedArticleSlugs: ['esteatose-hepatica-como-reverter-com-habitos'],
+      references: [
+        {
+          label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Métodos de diagnóstico da esteato-hepatite associada à disfunção metabólica (MASH)',
+          url: 'https://sbhepatologia.org.br/publicacoes/artigos/metodos-de-diagnostico-da-esteato-hepatite-associada-a-disfuncao-metabolica-mash/',
+          publisher: 'Sociedade Brasileira de Hepatologia',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'esteatose-hepatica-como-reverter-com-habitos',
+      slug: 'esteatose-hepatica-como-reverter-com-habitos',
+      title: 'Esteatose hepática: como reverter com hábitos',
+      excerpt:
+        'Perder peso e mexer-se mudam a história da gordura no fígado. Entenda quanto emagrecer faz diferença e como o SUS organiza o acompanhamento desse cuidado.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'o-que-reverte',
+          heading: 'O que faz a gordura regredir',
+          paragraphs: [
+            'A esteatose hepática responde à mudança de hábitos mais do que a qualquer medicamento. Os dois pilares são perder peso e aumentar a atividade física, e o efeito aparece de forma proporcional: quanto maior e mais mantida a perda de peso, maior a redução da gordura no fígado.',
+            'A equipe de saúde costuma usar metas simples. Perder 5% do peso já reduz a gordura acumulada; chegar a 10% ou mais se associa à melhora da inflamação e, em muitos casos, da fibrose. São números que servem de referência, e o ritmo certo cabe a cada pessoa, com orientação profissional.',
+          ],
+        },
+        {
+          id: 'alimentacao',
+          heading: 'Alimentação que ajuda o fígado',
+          paragraphs: [
+            'Não há uma dieta única, mas o padrão que mais protege o fígado é o que também protege o coração: menos ultraprocessados, menos açúcar e menos bebida alcoólica, mais comida de verdade.',
+          ],
+          bullets: [
+            'Reduzir refrigerantes, doces e farinhas refinadas, que viram gordura no fígado',
+            'Diminir frituras e alimentos ultraprocessados, ricos em gordura e sal',
+            'Aumentar verduras, legumes, frutas e feijão em cada refeição',
+            'Trocar parte dos cereais refinados por integrais',
+            'Cortar ou reduzir muito o álcool, que agride diretamente o fígado',
+          ],
+        },
+        {
+          id: 'movimento',
+          heading: 'Atividade física mesmo sem emagrecer',
+          paragraphs: [
+            'Mexer-se ajuda o fígado por outro caminho: o exercício melhora a forma como o corpo usa a insulina e a glicose, o que reduz a gordura hepática mesmo antes de o ponteiro da balança cair.',
+            'Para começar, vale o ritmo que dá para manter. Uma caminhada de 30 minutos na maioria dos dias da semana já traz benefício, e somar exercícios de força duas vezes por semana ajuda ainda mais. Quem é sedentário deve aumentar a intensidade de forma gradual.',
+          ],
+        },
+        {
+          id: 'pelo-sus',
+          heading: 'Como o SUS organiza esse cuidado',
+          paragraphs: [
+            'O acompanhamento da esteatose começa na unidade básica de saúde (UBS), onde o clínico geral avalia exames, peso e fatores de risco. Quando é preciso investigar inflamação ou fibrose, a pessoa pode ser encaminhada a um gastroenterologista ou hepatologista.',
+            'Nas consultas de rotina, a equipe ajusta metas de peso, orienta alimentação e atividade física e trata as condições que alimentam a esteatose, como [diabetes](/doencas/diabetes/) e [colesterol alto](/doencas/colesterol-alto/). Revisitar os exames periodicamente é o que permite notar uma melhora ou uma piora a tempo.',
+          ],
+        },
+        {
+          id: 'o-que-nao-faz-milagres',
+          heading: 'O que não existe: pílula que limpa o fígado',
+          paragraphs: [
+            'Detox, chá emagrecedor e suplemento prometendo limpar o fígado não revertem a esteatose, e alguns podem até sobrecarregar o órgão. Antes de tomar qualquer produto, mesmo natural, fale com a equipe de saúde: o que funciona é o que se sustenta ao longo dos meses.',
+          ],
+        },
+        {
+          id: 'acompanhamento',
+          heading: 'Como saber se está funcionando',
+          paragraphs: [
+            'A evolução aparece nos exames e não nos sintomas, justamente porque a esteatose é silenciosa. A transaminase tende a normalizar, e a ultrassonografia pode mostrar o fígado com menos gordura.',
+            'O mais importante é não abandonar o cuidado quando o resultado melhora. Uma parcela das pessoas volta a acumular gordura quando recupera o peso, e por isso o acompanhamento continua mesmo depois da reversão.',
+          ],
+          cta: {
+            label: 'Veja a página completa sobre a esteatose hepática',
+            href: '/doencas/esteatose-hepatica/',
+          },
+        },
+      ],
+      diseaseSlugs: ['esteatose-hepatica'],
+      topicSlugs: ['doencas-cronicas', 'prevencao'],
+      relatedArticleSlugs: ['esteatose-hepatica-sintomas-e-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Modificação do estilo de vida em MASLD/MASH: fatos e evidências',
+          url: 'https://sbhepatologia.org.br/publicacoes/artigos/modificacao-do-estilo-de-vida-em-masld-mash-fatos-e-evidencias/',
+          publisher: 'Sociedade Brasileira de Hepatologia',
+        },
+        {
+          label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'colesterol-alto-como-detectar-e-quando-procurar-atendimento',
+      slug: 'colesterol-alto-como-detectar-e-quando-procurar-atendimento',
+      metaTitle: 'Colesterol alto: como detectar',
+      title: 'Colesterol alto: como detectar e quando procurar atendimento',
+      excerpt:
+        'O distúrbio do metabolismo das gorduras não dói e quase nunca aparece no espelho. Ele é pego no perfil lipídico, e a leitura do exame depende do risco de cada pessoa.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'por-que-e-silencioso',
+          heading: 'Por que o colesterol alto passa despercebido',
+          paragraphs: [
+            'A dislipidemia é um distúrbio do metabolismo das gorduras: o colesterol LDL e os triglicerídeos circulam em excesso, e nada disso produz dor, cansaço ou sinal visível. O depósito acontece por dentro da parede das artérias, devagar, durante anos. As diretrizes brasileiras são diretas ao estimar que, em pelo menos metade das pessoas, a primeira manifestação da doença aterosclerótica é um evento coronário agudo, ou seja, um infarto.',
+            'É por isso que a descoberta legítima do colesterol alto é de laboratório, e não de sintoma. Quem espera sentir alguma coisa para investigar está, na prática, esperando o primeiro evento cardiovascular. Quando o exame é feito a tempo, quase todo o risco medido ali pode ser reduzido com tratamento.',
+          ],
+        },
+        {
+          id: 'o-exame-e-o-jejum',
+          heading: 'O exame, e a mudança na regra do jejum',
+          paragraphs: [
+            'O perfil lipídico mede colesterol total, HDL (o bom), LDL (o ruim) e triglicerídeos, e o custo no setor público é baixo. A parte que mais confunde ainda é o jejum: as diretrizes brasileiras dispensam jejum para colesterol total, HDL, LDL calculado e colesterol não HDL, o que permite colher o exame em qualquer horário do dia. Idosos, pessoas com diabetes, gestantes e crianças são quem mais ganha com essa mudança, porque evitar horas sem comer reduz risco de hipoglicemia e de mal-estar.',
+            'A exceção são os triglicerídeos. Sem jejum, o valor desejável é abaixo de 175 mg/dL; quando a medida vem muito acima disso, a equipe pode repetir a coleta em jejum para interpretar melhor, porque a fórmula usada para calcular o LDL perde confiabilidade com triglicerídeos acima de 400 mg/dL. Se a amostra vier com aparência turva e triglicerídeos muito altos, não ignore o resultado: é o cenário que merece reavaliação rápida.',
+          ],
+        },
+        {
+          id: 'quem-precisa-dosar',
+          heading: 'Quem deve dosar, e com que frequência',
+          paragraphs: [
+            'A dosagem faz parte da rotina de quem já tem fator de risco, e nesses casos o pedido costuma vir junto da consulta de acompanhamento. Pergunte à equipe de saúde se é hora do exame se você se reconhece em alguma destas situações:',
+          ],
+          bullets: [
+            'Diabetes, pré-diabetes ou resistência à insulina',
+            'Pressão alta, mesmo controlada com remédio',
+            'Infarto, AVC ou angina na família em idade jovem',
+            'Parente próximo com LDL acima de 190 mg/dL',
+            'Sobrepeso relevante, sobretudo com gordura na cintura',
+            'Tabagismo ou consumo frequente de álcool',
+          ],
+        },
+        {
+          id: 'como-ler-o-exame',
+          heading: 'Como ler o exame sem se assustar',
+          paragraphs: [
+            'O número impresso ao lado do LDL não é um veredito. O protocolo brasileiro lembra que não existe valor normal único de LDL: o alvo depende do risco cardiovascular da pessoa, estimado com idade, pressão arterial, tabagismo, diabetes e histórico familiar. Para quem já teve infarto ou AVC, ou para quem tem diabetes com outros fatores, a meta de LDL é bem mais baixa do que para um jovem saudável. O colesterol não HDL (total menos HDL) entra como alvo secundário, útil quando os triglicerídeos estão altos.',
+            'Duas situações mudam o raciocínio e pedem atenção imediata da equipe: LDL a partir de 190 mg/dL em adulto, que por si só já classifica a pessoa como de risco alto e levanta a suspeita de hipercolesterolemia familiar, forma genética que exige investigar pais, irmãos e filhos; e triglicerídeos acima de 500 mg/dL, que colocam risco real de pancreatite aguda, inflamação súbita do pâncreas. Em crianças, valores de LDL acima de 160 mg/dL com história familiar de colesterol alto também merecem investigação.',
+          ],
+          cta: {
+            label: 'Veja a página sobre colesterol alto',
+            href: '/doencas/colesterol-alto/',
+          },
+        },
+        {
+          id: 'quando-procurar-atendimento',
+          heading: 'Quando procurar atendimento',
+          paragraphs: [
+            'Exame alterado sem sintoma não é caso de pronto atendimento. O caminho é a unidade básica de saúde (UBS), com o resultado em mãos, para classificar o risco, repetir o que for preciso e decidir entre mudança de hábitos e medicamento. Procure avaliação com mais urgência se aparecerem sinais de que as artérias já foram afetadas:',
+          ],
+          bullets: [
+            'Dor ou aperto no peito aos esforços, que melhora com repouso',
+            'Falta de ar nova ao caminhar ou subir escada',
+            'Dor na panturrilha ao andar, que obriga a parar',
+            'Ferida no pé que demora a cicatrizar, em quem tem diabetes e colesterol alto',
+            'Manchas amareladas nas pálpebras ou nódulos nos tendões',
+          ],
+        },
+        {
+          id: 'quando-e-emergencia',
+          heading: 'Quando é emergência',
+          paragraphs: [
+            'Ligue para o SAMU (192) ou vá a um pronto atendimento sem esperar, se surgir:',
+          ],
+          bullets: [
+            'Dor no peito intensa, opressiva, com suor, náusea ou irradiação para braço e mandíbula',
+            'Boca torta, fala embolada, fraqueza em um lado do corpo ou perda de visão súbita',
+            'Dor abdominal forte e contínua, acima do umbigo, com vômitos que não aliviam',
+            'Desmaio associado a dor no peito',
+          ],
+        },
+      ],
+      diseaseSlugs: ['colesterol-alto'],
+      topicSlugs: ['doencas-cronicas'],
+      relatedArticleSlugs: ['colesterol-alto-tratamento-e-mudancas-de-habitos'],
+      references: [
+        {
+          label: 'Protocolo Clínico e Diretrizes Terapêuticas de dislipidemia',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/d/dislipidemia',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose',
+          url: 'https://www.scielo.br/j/abc/a/whBsCyzTDzGYJcsBY7YVkWn/?lang=pt',
+          publisher: 'Sociedade Brasileira de Cardiologia',
+        },
+        {
+          label: 'Alimentação saudável, folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'colesterol-alto-tratamento-e-mudancas-de-habitos',
+      slug: 'colesterol-alto-tratamento-e-mudancas-de-habitos',
+      metaTitle: 'Colesterol alto: tratamento e hábitos',
+      title: 'Colesterol alto: tratamento e mudanças de hábitos',
+      excerpt:
+        'Meta de LDL definida pelo risco, estatina sem mito, o que fazer com triglicerídeos muito altos e as trocas alimentares que realmente mudam o exame.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'meta-personalizada',
+          heading: 'Primeiro definir a meta, depois escolher o remédio',
+          paragraphs: [
+            'Tratar colesterol alto não é baixar o LDL até um número genérico de laboratório. O protocolo brasileiro organiza o raciocínio em estratificação de risco: idade, pressão arterial, tabagismo, diabetes, doença renal e histórico de infarto ou AVC na família definem se a pessoa está em risco baixo, intermediário, alto ou muito alto, e cada faixa tem sua meta de LDL. A meta em risco muito alto é bem mais ambiciosa do que a de quem não tem fator de risco.',
+            'Isso explica por que duas pessoas com o mesmo exame recebem condutas diferentes. Quem tem doença cardiovascular estabelecida precisa de medicamento desde o primeiro dia, enquanto uma alteração discreta em pessoa jovem e sem outros fatores pode ser manejada primeiro com mudança de hábitos e reavaliação no tempo combinado com a equipe.',
+          ],
+        },
+        {
+          id: 'estatina-sem-mito',
+          heading: 'Estatina, o pilar com evidência máxima',
+          paragraphs: [
+            'A estatina é a primeira linha nas diretrizes brasileiras, com recomendação de grau máximo e evidência de nível A: ela reduz LDL, infarto, AVC e mortalidade em quem tem risco relevante. Em geral a dose é ajustada para atingir a meta em vez de trocar de remédio a cada resultado, e a medicação tende a ser contínua, porque o metabolismo das gorduras volta ao ponto de partida quando ela é suspensa.',
+            'Sobre os efeitos adversos, o retrato honesto é menos assustador do que a conversa de corredor de academia: eles são pouco frequentes. A queixa muscular costuma surgir entre quatro e doze semanas do início, em músculos grandes e dos dois lados do corpo, como nádegas, coxas, panturrilhas e costas, e é mais comum em quem faz atividade física intensa. Dosar a enzima CK de rotina, sem sintoma, não faz parte do acompanhamento. As transaminases são verificadas na entrada do tratamento e reavaliadas apenas se aparecer sinal de alteração hepática, como pele amarelada, urina escura, dor abdominal ou perda de apetite. Em metanálises, estatinas potentes foram associadas a um pequeno aumento de casos novos de diabetes, efeito que não compensa a redução de eventos cardiovasculares em quem tem risco alto.',
+          ],
+        },
+        {
+          id: 'triglicerideos-e-o-pancreas',
+          heading: 'Triglicerídeos muito altos e o pâncreas',
+          paragraphs: [
+            'Triglicerídeos acima de 500 mg/dL mudam a prioridade do tratamento. Nessa faixa, o risco imediato não é o infarto daqui a dez anos, e sim a pancreatite aguda: o protocolo nacional registra que valores acima de 500 mg/dL podem precipitar ataques de inflamação do pâncreas, e que a hipertrigliceridemia responde por parte dos casos de pancreatite aguda. O objetivo passa a ser tirar rápido esse excesso de gordura do sangue.',
+            'Aí entram o fibrato, incluído no protocolo brasileiro para essa finalidade, a suspensão de álcool, o controle rigoroso da glicemia e uma alimentação pobre em gordura e em açúcar, com ajuste da dieta definido por profissional. Quem tem pancreatite sente dor abdominal intensa e contínua, acima do umbigo, muitas vezes com vômitos, e isso é emergência: vá a um pronto atendimento.',
+          ],
+        },
+        {
+          id: 'alimentacao-que-faz-diferenca',
+          heading: 'Alimentação: trocar em vez de só cortar',
+          paragraphs: [
+            'As referências da Organização Mundial da Saúde para a gordura da dieta são objetivas: no máximo 30% das calorias diárias vindas de gordura total, no máximo 10% de gordura saturada, o mínimo possível de gordura trans e açúcares livres abaixo de 10% das calorias, com menos de 5% sendo ainda melhor. Frutas e verduras em quantidade equivalente a pelo menos 400 g por dia, e cerca de 25 g de fibras, completam o quadro.',
+            'No cardápio brasileiro, o efeito prático vem das trocas. Trocar parte da carne vermelha processada por feijão, ovo, frango sem pele ou peixe; trocar arroz branco por integral ou misturar; trocar biscoito recheado e salgadinho de pacote por fruta e castanha; usar azeite na finalização em vez de margarina e fritura por imersão. Reduzir refrigerante e suco de caixinha ataca os triglicerídeos diretamente, porque o açúcar virado gordura no fígado é parte do problema.',
+          ],
+        },
+        {
+          id: 'movimento-peso-e-cigarro',
+          heading: 'Movimento, peso e cigarro',
+          paragraphs: [
+            'Exercício aeróbico regular melhora o quadro, com efeito mais visível no HDL e nos triglicerídeos e no controle do peso, e ajuda a manter a pressão arterial e a glicemia em faixa melhor. O ganho é maior quando a atividade se soma à alimentação, não quando a substitui.',
+          ],
+          bullets: [
+            'Caminhada, bicicleta ou natação na maioria dos dias da semana',
+            'Aumentar o tempo aos poucos, sem precisar de academia para começar',
+            'Trabalhar força muscular duas a três vezes por semana',
+            'Reduzir tempo sentado, levantando a cada hora',
+            'Parar de fumar: o risco cardiovascular começa a cair em semanas',
+            'Dormir o suficiente, porque privação de sono piora o controle metabólico',
+          ],
+        },
+        {
+          id: 'acompanhamento-e-sus',
+          heading: 'Acompanhamento, exames e o que o SUS oferece',
+          paragraphs: [
+            'O perfil lipídico de controle não serve para discutir a cada três meses se o remédio deve continuar: ele é lido pela equipe para conferir meta e adesão, geralmente depois do tempo de ajuste que a própria equipe define. Entre uma consulta e outra, o que muda o resultado é tomar o remédio todos os dias e sustentar as trocas alimentares. O protocolo nacional de dislipidemia está na rede pública, e as unidades básicas de saúde organizam a investigação da família quando se suspeita de hipercolesterolemia familiar.',
+            'Remédio para colesterol não substitui o tratamento das doenças que andam junto. Quem tem [diabetes](/doencas/diabetes/) ou [pressão alta](/doencas/hipertensao/) precisa das duas coisas, e a soma é o que reduz infarto e AVC. Para quem já teve um evento desses, o texto sobre [fatores de risco de infarto e AVC](/artigos/infarto-e-avc-fatores-de-risco/) detalha como os fatores se combinam.',
+          ],
+          cta: {
+            label: 'Veja a página sobre colesterol alto',
+            href: '/doencas/colesterol-alto/',
+          },
+        },
+      ],
+      diseaseSlugs: ['colesterol-alto'],
+      topicSlugs: ['doencas-cronicas', 'prevencao'],
+      relatedArticleSlugs: ['colesterol-alto-como-detectar-e-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Protocolo Clínico e Diretrizes Terapêuticas de dislipidemia',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/d/dislipidemia',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose',
+          url: 'https://www.scielo.br/j/abc/a/whBsCyzTDzGYJcsBY7YVkWn/?lang=pt',
+          publisher: 'Sociedade Brasileira de Cardiologia',
+        },
+        {
+          label: 'Alimentação saudável, folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento',
+      slug: 'doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento',
+      metaTitle: 'Doença renal crônica: sinais de alerta',
+      title: 'Doença renal crônica: sinais de alerta e quando procurar atendimento',
+      excerpt:
+        'Os rins avisam tarde. Entenda o que observar na urina, no inchaço e no cansaço, e quais sinais levam a uma emergência.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'os-rins-avisam-tarde',
+          heading: 'Por que os rins avisam tarde',
+          paragraphs: [
+            'Cada rim abriga cerca de um milhão de filtros minúsculos, os néfrons, que separam do sangue o que deve virar urina. A doença renal crônica é justamente a perda progressiva e irreversível desses filtros, e o órgão tem margem de reserva: boa parte da função pode se perder antes de qualquer queixa aparecer. É por isso que a Organização Mundial da Saúde estima que a maioria das pessoas com doença renal no mundo não sabe que a tem.',
+            'O que aparece primeiro, quase sempre, não é sintoma e sim exame. A albumina na urina sobe antes da filtração cair, e a creatinina no sangue, convertida em taxa de filtração glomerular estimada (TFGe), revela o que o corpo ainda não reclama. Nos estágios 1, 2 e 3, a pessoa pode levar uma vida inteira sem perceber nada de errado.',
+          ],
+        },
+        {
+          id: 'o-que-muda-no-corpo',
+          heading: 'O que muda no corpo quando o rim perde função',
+          paragraphs: [
+            'Quando a filtração cai de verdade, o acúmulo de toxinas, líquido e minerais mexe com o organismo inteiro. Os sinais mais comuns nessa fase são vagos e atribuídos a outras causas:',
+          ],
+          bullets: [
+            'Cansaço, palidez e falta de ar, pela anemia da doença renal',
+            'Inchaço nas pernas, nos pés e ao redor dos olhos',
+            'Coceira generalizada, sem vermelhidão nem lesão de pele',
+            'Cãibras nas pernas, principalmente à noite',
+            'Perda de apetite, náuseas e gosto metálico na boca',
+            'Sono ruim, sonolência durante o dia e dificuldade de concentração',
+          ],
+        },
+        {
+          id: 'sinais-para-procurar-avaliacao',
+          heading: 'Sinais que pedem avaliação',
+          paragraphs: [
+            'Nem tudo vira emergência, mas alguns achados justificam marcar consulta rápido, especialmente em quem tem [diabetes](/doencas/diabetes/) ou [pressão alta](/doencas/hipertensao/):',
+          ],
+          bullets: [
+            'Volume de urina que cai dia após dia',
+            'Espuma persistente na urina, sinal de proteína',
+            'Inchaço novo nos tornozelos ou no rosto, sobretudo de manhã',
+            'Pressão arterial que sai do controle, mesmo com remédio em dia',
+            'Cansaço progressivo, com palidez',
+            'Urinhar muito à noite, acordando duas ou mais vezes',
+          ],
+          cta: {
+            label: 'Veja a página sobre doença renal crônica',
+            href: '/doencas/doenca-renal-cronica/',
+          },
+        },
+        {
+          id: 'o-que-a-urina-mostra',
+          heading: 'O que a urina mostra',
+          paragraphs: [
+            'A urina é o exame mais barato disponível, e três observações têm valor. Urina com espuma que não some fala de perda de proteína, e a relação albumina/creatinina (RAC) quantifica isso com precisão; acima de 30 mg/g já é considerado elevado. Urina avermelhada ou cor de coca-cola sugere sangue, que pode vir de cálculo, infecção ou inflamação do rim. Urina turva com febre e dor nas costas costuma indicar infecção urinária alta, que precisa de tratamento imediato.',
+            'A Sociedade Brasileira de Nefrologia recomenda, para quem tem fator de risco, creatinina e urinálise uma vez por ano, além de triagem de idosos, cardiopatas e pessoas com história familiar de doença renal. Se você nunca fez esses exames e se reconhece nos fatores de risco, leve o pedido de exame na próxima consulta e peça que eles entrem na rotina.',
+          ],
+        },
+        {
+          id: 'quando-e-emergencia',
+          heading: 'Quando é emergência',
+          paragraphs: [
+            'Ligue para o SAMU (192) ou vá a um pronto atendimento se, em alguém com doença renal conhecida ou suspeita, aparecer:',
+          ],
+          bullets: [
+            'Falta de ar intensa, com inchaço generalizado',
+            'Ausência de urina por um dia inteiro, ou queda muito brusca do volume',
+            'Confusão mental, sonolência excessiva ou convulsão',
+            'Dor no peito, palpitações ou desmaio',
+            'Fraqueza muscular importante com coração acelerado, possível potássio alto',
+            'Febre alta com dor lombar e urina turva ou com sangue',
+          ],
+        },
+        {
+          id: 'onde-ser-atendido',
+          heading: 'Onde buscar atendimento',
+          paragraphs: [
+            'Fora da emergência, o caminho começa na unidade básica de saúde (UBS), que solicita creatinina, urinálise e cultura de urina quando necessário, ajusta pressão e glicemia, e encaminha ao nefrologista nos estágios mais avançados ou de progressão rápida. O especialista em rins é o nefrologista; urologista é o cirurgião das vias urinárias, e os dois papéis se confundem com frequência.',
+            'A rede brasileira tem uma linha de cuidado específica para doença crônica, e o tratamento dialítico é ofertado pelo Sistema Único de Saúde em clínicas conveniadas. Quem tem estágio 4 ou 5 deve ter acompanhamento programado, com conversa antecipada sobre hemodiálise, diálise peritoneal e transplante, porque a preparação evita a diálise de urgência, feita em pior condição clínica.',
+          ],
+        },
+      ],
+      diseaseSlugs: ['doenca-renal-cronica'],
+      topicSlugs: ['doencas-cronicas'],
+      relatedArticleSlugs: ['doenca-renal-cronica-tratamento-e-convivencia'],
+      references: [
+        {
+          label: 'Como se prevenir: orientações e tratamento em nefropatias',
+          url: 'https://sbn.org.br/publico/orientacoes-e-tratamento/como-se-prevenir/',
+          publisher: 'Sociedade Brasileira de Nefrologia',
+        },
+        {
+          label: 'Renal disease, folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/kidney-disease',
+          publisher: 'Organização Mundial da Saúde',
+        },
+        {
+          label: 'Doença renal crônica, informação ao cidadão',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/drc',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'doenca-renal-cronica-tratamento-e-convivencia',
+      slug: 'doenca-renal-cronica-tratamento-e-convivencia',
+      metaTitle: 'Viver com doença renal crônica',
+      title: 'Doença renal crônica: tratamento e convivência',
+      excerpt:
+        'Conter o avanço, evitar remédios que agridem o rim, entender a dieta por estágio e saber como o SUS organiza diálise e transplante.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'conter-o-avanco',
+          heading: 'Conter o avanço é o tratamento',
+          paragraphs: [
+            'O rim já perdido não volta, então o que se faz é desacelerar a perda. O manual da Sociedade Brasileira de Nefrologia reúne um conjunto que tem evidência e está ao alcance da rotina: controlar a pressão arterial, tratar o diabetes, ajustar colesterol e triglicerídeos, manter peso saudável, praticar atividade física, parar de fumar e seguir dieta adequada ao estágio. Em muitos casos, esse pacote é o que separa passar anos no estágio 3 de precisar de diálise.',
+            'A consulta com o nefrologista é a referência da doença renal, e a UBS sustenta o dia a dia. Entre uma consulta e outra, medir a pressão arterial em casa faz diferença, porque valores alterados passam despercebidos e são o principal motor da progressão. Uma dieta ajustada ao estágio e ao peso também faz parte do resultado.',
+          ],
+          cta: {
+            label: 'Leia também: como medir a pressão arterial em casa',
+            href: '/artigos/hipertensao-como-medir-a-pressao-em-casa/',
+          },
+        },
+        {
+          id: 'remedios-que-o-rim-nao-gosta',
+          heading: 'Remédios que o rim não agradece',
+          paragraphs: [
+            'A Sociedade Brasileira de Nefrologia alerta para os anti-inflamatórios não esteroidais, usados por conta própria para dor de cabeça, dor nas costas e cólica: ibuprofeno, diclofenaco e nimesulida reduzem o fluxo de sangue no rim, e o uso frequente, sobretudo sem orientação, pode acelerar a perda de função, com risco maior em idosos, hipertensos e pessoas com diabetes. O mesmo cuidado vale para chás e suplementos sem procedência, alguns com nefrotóxicos conhecidos.',
+            'Há também medicamentos que a equipe precisa ajustar quando a filtração cai, porque se acumulam no sangue: muitos analgésicos, antibióticos e até o remédio para gastrite têm dose recalculada pela TFGe. Isso não significa suspender o tratamento, e sim ajustar. Leve a lista completa de tudo que você toma, inclusive fitoterápicos, em cada consulta, e evite a farmácia de balcão como fonte de conselho.',
+          ],
+        },
+        {
+          id: 'dieta-estagio-por-estagio',
+          heading: 'Dieta, estágio por estágio',
+          paragraphs: [
+            'No começo, a orientação é a mesma de qualquer dieta protetora do coração: menos sal (com temperos naturais no lugar), peso controlado, poucos ultraprocessados, verduras e frutas em quantidade adequada. A restrição de proteína costuma entrar mais adiante, e sempre calculada por nutricionista, porque proteína demais cansa o rim e de menos tira massa muscular.',
+            'Nos estágios 4 e 5, minerais específicos entram na conta. O potássio, abundante em banana, laranja, abacate, batata e feijão, pode subir demais e provocar arritmia; o fósforo, presente em refrigerantes de cola, lácteos e ultraprocessados, acelera o dano nos ossos e nas artérias; o sódio agrava inchaço e pressão alta. Há ainda uma proibição curiosa e real: a carambola é o único alimento vetado nos estágios avançados, porque a toxina que ela contém, a caramboxina, não é eliminada quando o rim falha, e pode causar soluços persistentes, confusão mental, convulsão e até coma.',
+          ],
+        },
+        {
+          id: 'preparacao-antes-da-decisao',
+          heading: 'Preparação antes de precisar decidir',
+          paragraphs: [
+            'Chegar ao estágio 5 não é começar a diálise no dia seguinte. Existe a fase conservadora, depois a pré-diálise, em que a equipe prepara o corpo, treina a pessoa e a família e cria com antecedência o acesso vascular para hemodiálise ou o cateter para diálise peritoneal. Começar o tratamento com planejamento, em consulta ambulatorial, é muito diferente de começar às pressas por uma emergência, situação associada a pior desfecho.',
+            'A escolha do tratamento substitutivo é compartilhada. Cada opção tem rotina, restrições e vantagens próprias, e a decisão depende do estágio, de outras doenças, da rotina da casa e do apoio disponível. Se você está em estágio 4, pergunte à equipe quando a conversa sobre diálise e transplante deve acontecer, e peça que ela seja registrada no prontuário.',
+          ],
+        },
+        {
+          id: 'hemodialise-e-dialise-peritoneal',
+          heading: 'Hemodiálise e diálise peritoneal',
+          paragraphs: [
+            'A hemodiálise é feita em clínica especializada, em geral três sessões por semana, de quatro a cinco horas cada uma, com o sangue circulando por uma máquina que filtra o que o rim não filtra mais. A diálise peritoneal usa a membrana que reveste a cavidade abdominal como filtro: o líquido é trocado algumas vezes por dia em casa, e à noite pode ser feito por um aparelho, o que libera as manhãs.',
+            'O Sistema Único de Saúde oferta o tratamento renal substitutivo em clínicas conveniadas, o que inclui sessões, insumos, acompanhamento de equipe e avaliação para transplante. Na prática, a disponibilidade de vagas e de unidades depende do estado e do município, e o deslocamento até o serviço é parte do planejamento familiar. Vale perguntar sobre transporte sanitário, horários e apoio social no momento da decisão.',
+          ],
+        },
+        {
+          id: 'transplante',
+          heading: 'Transplante de rim',
+          paragraphs: [
+            'O transplante é a alternativa que mais devolve rotina e qualidade de vida, e pode ser feito a partir de doador falecido ou vivo. O processo depende de compatibilidade de tipo sanguíneo e de tipagem HLA, de avaliação clínica que afaste outras contraindicações e da lista única coordenada pelo Sistema Nacional de Transplantes. Em algumas situações, o rim pode ser transplantado antes de a pessoa começar a diálise, o chamado transplante preemptivo.',
+            'A cirurgia dura em média de duas a três horas, sob anestesia geral, e o novo rim costuma ficar na parte baixa da barriga, não no lugar dos rins originais. Depois, vem a imunossupressão contínua, que exige medicamentos diários, vigilância de infecções e consultas regulares, além de cuidado com sol e com vacinas. Quem está em estágio 4 ou 5 deve perguntar sobre a avaliação para transplante antes de se sentir preparado, porque o processo de entrada na lista leva tempo.',
+          ],
+        },
+        {
+          id: 'convivencia-e-apoio',
+          heading: 'Convivência, anemia e apoio',
+          paragraphs: [
+            'A anemia é parte frequente do quadro, porque o rim doente produz menos eritropoetina, o hormônio que estimula a fabricação de glóbulos vermelhos. Ela traz palidez, fraqueza e mal-estar e pode piorar o coração. O tratamento combina reposição de ferro, por via oral ou na veia, medicação que estimula a produção de sangue e, em situações específicas, transfusão. Em alguns casos, a anemia tem outra causa somada, como a falta de ferro por sangramento digestivo, e a equipe investiga antes de tratar.',
+            'Viver com doença renal crônica mexe com trabalho, sono, apetite, sexualidade e humor, e nada disso é detalhe. A rotina de três sessões de diálise por semana reorganiza a casa inteira, e a reabilitação, o apoio psicológico e os grupos de pacientes ajudam a atravessar a mudança. Fazer perguntas sobre horário de remédios, alimentação fora de casa e viagem é legítimo: quanto mais concreta a conversa com a equipe, menos improvável é o dia a dia.',
+          ],
+        },
+      ],
+      diseaseSlugs: ['doenca-renal-cronica'],
+      topicSlugs: ['doencas-cronicas', 'prevencao'],
+      relatedArticleSlugs: ['doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Manual Pronto para Doença Renal Crônica, 4ª e 5ª edições',
+          url: 'https://sbn.org.br/wp-content/uploads/2024/11/ManualProntoDRC4e5_compressed.pdf',
+          publisher: 'Sociedade Brasileira de Nefrologia',
+        },
+        {
+          label: 'Doença renal crônica, informação ao cidadão',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/drc',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Insuficiência renal: o que é, estágios e tratamento',
+          url: 'https://sbn.org.br/publico/doencas-comuns/insuficiencia-renal/',
+          publisher: 'Sociedade Brasileira de Nefrologia',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'hanseniase-sinais-na-pele-quando-procurar-atendimento',
+      slug: 'hanseniase-sinais-na-pele-quando-procurar-atendimento',
+      metaTitle: 'Hanseníase: sinais na pele',
+      title: 'Hanseníase: sinais na pele e quando procurar atendimento',
+      excerpt:
+        'Mancha clara ou amarronzada que não dói, não coça e perde a sensibilidade é o principal sinal da hanseníase. Veja como reconhecer, o que não é hanseníase e onde buscar avaliação.',
+      category: 'Doenças infecciosas',
+      categorySlug: 'doencas-infecciosas',
+      body: [
+        {
+          id: 'o-principal-sinal',
+          heading: 'O principal sinal está na pele',
+          paragraphs: [
+            'A hanseníase se manifesta, quase sempre, por manchas na pele que perdem a sensibilidade. Podem ser claras, avermelhadas, acastanhadas ou amarronzadas, de contorno irregular, e surgem no tronco, nos braços, nas pernas ou no rosto. O que distingue a mancha da hanseníase de qualquer outra mancha é simples: ela não sente direito o toque, o calor, o frio ou a dor.',
+            'Muitas pessoas só percebem a mancha quando alguém chama a atenção, porque ela não coça, não dói e não arde. Também não descama de forma intensa nem melhora com creme comum. Passam meses, às vezes anos, convivendo com a lesão antes de procurar uma unidade de saúde.',
+          ],
+        },
+        {
+          id: 'testando-a-sensibilidade',
+          heading: 'Como testar a sensibilidade da mancha',
+          paragraphs: [
+            'Esse teste pode ser feito em casa, com objetos simples, e serve apenas para levantar suspeita, não para dar diagnóstico. Em uma sala bem iluminada, compare a área da mancha com a pele ao redor:',
+          ],
+          bullets: [
+            'Toque a mancha com uma ponta de algodão e pergunte se a sensação é igual à da pele vizinha',
+            'Encoste dois palitos de fósforo, um com a ponta acesa e outro com o lado apagado, morno, e veja se a pessoa distingue quente de frio',
+            'Pressione levemente com a ponta de um grampo aberto e compare com a mesma região do outro lado do corpo',
+            'Repita o teste em diferentes manchas ao longo de algumas semanas; a perda de sensibilidade costuma aumentar',
+          ],
+          cta: {
+            label: 'Veja a página sobre a hanseníase',
+            href: '/doencas/hanseniase/',
+          },
+        },
+        {
+          id: 'o-que-nao-e-hanseniase',
+          heading: 'O que não é hanseníase',
+          paragraphs: [
+            'Nem toda mancha clara na pele é hanseníase. Pano branco (pitiríase versicolor), dermatite, vitiligo e até marcas deixadas por espinhas ou queimaduras são queixas muito mais comuns. Nenhuma dessas condições costuma vir acompanhada de perda de sensibilidade na área da mancha.',
+            'Mancha que coça muito, arde ou descama costuma apontar para outra causa. Da mesma forma, a hanseníase não se transmite pelo beijo, pelo abraço, pelo uso do mesmo banheiro nem pelo compartilhamento de talheres e roupas, e não é hereditária. Nada disso deve atrasar a investigação: se a mancha persiste e perde sensibilidade, a avaliação na UBS é o caminho.',
+          ],
+        },
+        {
+          id: 'quando-procurar-a-ubs',
+          heading: 'Quando procurar a unidade básica de saúde',
+          paragraphs: [
+            'Vale ir à UBS em qualquer um dos cenários abaixo, mesmo sem sintoma geral:',
+          ],
+          bullets: [
+            'Mancha que dura três meses ou mais e não responde a creme ou pomada comum',
+            'Mancha em que a pessoa percebe dormência, formigamento ou redução da sensibilidade ao calor e à dor',
+            'Queda de pelos e diminuição do suor em uma área específica da pele',
+            'Caroço, dor em queimação ou perda de força em uma das mãos, dos pés ou no rosto',
+            'Contato próximo e prolongado com alguém que recebeu diagnóstico de hanseníase',
+          ],
+        },
+        {
+          id: 'na-consulta',
+          heading: 'O que acontece na consulta',
+          paragraphs: [
+            'Na UBS, o profissional examina a pele, testa a sensibilidade das manchas e palpa os troncos nervosos dos braços e das pernas. Não é preciso jejum nem preparo prévio. Se o exame bastar para fechar o diagnóstico, a equipe já explica o esquema de tratamento e o organiza dentro do calendário da unidade.',
+            'Em casos duvidosos, a pessoa é encaminhada a um serviço de referência, que pode solicitar baciloscopia, biópsia de pele ou de nervo e exames eletroneuromiográficos. Todo caso confirmado é notificado às autoridades de saúde, e as pessoas que convivem com o paciente entram na investigação de contatos, mesmo sem apresentar manchas.',
+          ],
+        },
+      ],
+      diseaseSlugs: ['hanseniase'],
+      topicSlugs: ['doencas-infecciosas'],
+      relatedArticleSlugs: ['hanseniase-tratamento-gratuito-no-sus'],
+      references: [
+        {
+          label: 'Hanseníase: sintomas, diagnóstico e tratamento',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Leprosy: fact sheet',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/leprosy',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'hanseniase-tratamento-gratuito-no-sus',
+      slug: 'hanseniase-tratamento-gratuito-no-sus',
+      metaTitle: 'Hanseníase: tratamento gratuito no SUS',
+      title: 'Hanseníase: como funciona o tratamento gratuito no SUS',
+      excerpt:
+        'A poliquimioterapia contra a hanseníase é distribuída de graça pelo SUS, cura a doença e dispensa internação. Veja a duração dos esquemas, o cuidado com os contatos e os direitos da pessoa em tratamento.',
+      category: 'Doenças infecciosas',
+      categorySlug: 'doencas-infecciosas',
+      body: [
+        {
+          id: 'como-funciona-a-pqt',
+          heading: 'A poliquimioterapia distribuída pelo SUS',
+          paragraphs: [
+            'O tratamento da hanseníase é feito com a poliquimioterapia (PQT-U), uma combinação de três medicamentos antibióticos fornecidos gratuitamente pelo Sistema Único de Saúde: rifampicina, dapsona e clofazimina. A associação dos três foi desenhada para evitar a resistência do bacilo, o que acontecia quando o tratamento usava apenas uma droga.',
+            'O esquema é tomado em cartelas, na forma de comprimidos, e começa no dia em que o diagnóstico é confirmado na unidade básica de saúde (UBS). A primeira dose do mês é supervisionada por um profissional de saúde; as demais doses são tomadas em casa. O tratamento dispensa internação e não afasta a pessoa do trabalho, da escola ou da rotina familiar.',
+          ],
+        },
+        {
+          id: 'duracao-dos-esquemas',
+          heading: 'Quanto tempo dura o tratamento',
+          paragraphs: [
+            'A duração depende da forma clínica da doença. Na hanseníase paucibacilar, com poucas manchas e menos bacilos, o esquema dura seis meses. Na hanseníase multibacilar, com mais lesões e maior carga de bacilos, o esquema é de doze meses.',
+            'A alta por cura é dada quando a pessoa toma todas as doses previstas dentro do prazo e passa pela avaliação final. Interromper o tratamento antes do fim é o que pode levar à resistência, uma situação mais difícil de tratar e que exige esquemas substitutivos, também oferecidos de graça pelo SUS.',
+          ],
+        },
+        {
+          id: 'transmissao-cai-no-inicio',
+          heading: 'No início do tratamento, a transmissão cai',
+          paragraphs: [
+            'Logo que a poliquimioterapia começa, a pessoa deixa de eliminar o bacilo pelas vias respiratórias e, portanto, deixa de transmitir a infecção. Não é necessário isolamento, nem afastar o paciente da mesa de jantar, do banheiro ou do convívio com crianças pequenas.',
+            'Esse dado ajuda a desfazer o estigma que ainda cerca a doença: a pessoa em tratamento pode abraçar a família, dividir os mesmos objetos e continuar a rotina. As primeiras semanas podem trazer reações inflamatórias, chamadas reações hansênicas, que não significam falha do tratamento e devem ser avaliadas pela equipe.',
+          ],
+        },
+        {
+          id: 'quem-convive-com-o-caso',
+          heading: 'Quem convive com a pessoa diagnosticada',
+          paragraphs: [
+            'A investigação de contatos faz parte do protocolo. São avaliadas as pessoas que convivem ou conviveram por período prolongado com o caso confirmado, em casa, no trabalho ou na escola. O exame de pele e dos nervos é feito na UBS, sem custo, e serve para detectar lesões que ainda não deram sinal.',
+            'Entre os contatos, o Ministério da Saúde também recomenda a aplicação da vacina BCG em quem não tem cicatriz vacinal, dentro das regras previstas pela equipe de saúde. Contatos que apresentam manchas são tratados como caso novo; quem não tem sinal recebe orientação de retorno e continua sendo acompanhado por alguns anos.',
+          ],
+        },
+        {
+          id: 'cuidado-com-maos-pes-e-olhos',
+          heading: 'Autocuidado com mãos, pés e olhos',
+          paragraphs: [
+            'A hanseníase pode deixar áreas do corpo sem sensibilidade. Sem dor, pequenos ferimentos passam despercebidos e podem evoluir para úlceras. O autocuidado diário é parte do tratamento:',
+          ],
+          bullets: [
+            'Inspecionar mãos, pés e olhos todos os dias em local bem iluminado',
+            'Hidratar a pele seca para evitar rachaduras',
+            'Evitar água muito quente ao lavar louça ou tomar banho; conferir a temperatura com a parte da pele que ainda sente',
+            'Não andar descalço e usar calçados macios, bem ajustados',
+            'Remover espinhos, pedrinhas ou pedaços de tecido que entrem no pé, mesmo sem dor',
+            'Proteger os olhos se a pálpebra estiver com dificuldade para fechar',
+          ],
+        },
+        {
+          id: 'direitos-e-combate-ao-estigma',
+          heading: 'Direitos e o fim do estigma',
+          paragraphs: [
+            'No dia do diagnóstico, a pessoa recebe a Caderneta de Saúde da Pessoa com Hanseníase, que registra as doses, orienta o autocuidado e descreve os direitos previstos. Quem precisa de afastamento por complicação recebe atestado pela equipe que faz o acompanhamento, e o benefício é tratado como qualquer afastamento por doença, sem qualquer restrição especial ligada ao diagnóstico.',
+            'Hanseníase é uma doença infecciosa como qualquer outra, transmitida por via respiratória apenas em convívio próximo e prolongado, e com cura. Uma pessoa em tratamento não é perigo para a família, para os colegas nem para a escola. Se a equipe de saúde ou o empregador apresentar dúvida, vale mostrar o conteúdo oficial do Ministério da Saúde sobre o assunto.',
+          ],
+          cta: {
+            label: 'Veja a página sobre a hanseníase',
+            href: '/doencas/hanseniase/',
+          },
+        },
+      ],
+      diseaseSlugs: ['hanseniase'],
+      topicSlugs: ['doencas-infecciosas', 'prevencao'],
+      relatedArticleSlugs: ['hanseniase-sinais-na-pele-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Hanseníase: sintomas, diagnóstico e tratamento',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Hanseníase: situação epidemiológica',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase/situacao-epidemiologica',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Leprosy: fact sheet',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/leprosy',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'anemia-ferropriva-sintomas-e-quando-procurar-atendimento',
+      slug: 'anemia-ferropriva-sintomas-e-quando-procurar-atendimento',
+      metaTitle: 'Anemia ferropriva: sintomas',
+      title: 'Anemia ferropriva: sintomas e quando procurar atendimento',
+      excerpt:
+        'Cansaço, palidez e falta de ar aos esforços são os primeiros sinais da anemia por falta de ferro. Veja como reconhecê-los, o que mais se parece com anemia e quando procurar uma UBS.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'os-primeiros-sinais',
+          heading: 'Os primeiros sinais costumam ser discretos',
+          paragraphs: [
+            'A anemia por falta de ferro costuma chegar devagar. O corpo começa usando o ferro que estava guardado e só quando essa reserva acaba é que a hemoglobina cai o suficiente para dar sinais. Por isso muitas pessoas convivem semanas com o quadro sem perceber.',
+            'O retrato mais clássico é o cansaço que não combina com o esforço feito, acompanhado de palidez. Esse par de sintomas é tão comum que acaba sendo atribuído a sono ruim ou estresse, mas vale investigar quando persiste.',
+          ],
+        },
+        {
+          id: 'sinais-que-passam-despercebidos',
+          heading: 'Sinais que costumam passar despercebidos',
+          paragraphs: [
+            'Além do cansaço e da palidez, a anemia ferropriva traz sinais que muitas pessoas não associam à falta de ferro:',
+          ],
+          bullets: [
+            'Falta de ar ao subir escadas ou caminhar em ritmo mais rápido',
+            'Palpitações e tontura ao se levantar',
+            'Dificuldade para se concentrar e queda de rendimento no trabalho ou na escola',
+            'Unhas quebradiças, que em casos antigos assumem formato de colher',
+            'Secura e queda de cabelo mais intensas que o habitual',
+          ],
+        },
+        {
+          id: 'o-que-mais-parece-anemia',
+          heading: 'O que mais se parece com anemia ferropriva',
+          paragraphs: [
+            'Nem todo cansaço vem de anemia, e nem toda anemia é por falta de ferro. Alterações da tireoide, apneia do sono, infecções prolongadas e outros tipos de anemia dão sintomas parecidos. Por isso a confirmação depende de exame de sangue, não da sensação isolada.',
+            'Há ainda uma diferença que importa: a anemia associada à [doença renal crônica](/doencas/doenca-renal-cronica/) tem outro mecanismo e exige outra abordagem. Antes de iniciar ferro por conta própria, é essencial saber qual é o tipo de anemia em jogo.',
+          ],
+        },
+        {
+          id: 'quando-procurar-a-ubs',
+          heading: 'Quando procurar a unidade básica de saúde',
+          paragraphs: [
+            'A UBS resolve a maior parte dos casos, e ir até lá mais cedo faz diferença. Procure atendimento quando:',
+          ],
+          bullets: [
+            'O cansaço e a palidez persistem por mais de duas ou três semanas',
+            'Há falta de ar, palpitação ou tontura atrapalhando as atividades do dia',
+            'A menstruação é muito volumosa ou a gravidez veio acompanhada desses sinais',
+            'As fezes ficam pretas ou aparece sangue, indício de perda de sangue',
+            'A pessoa já tem doença cardíaca e nota piora da disposição ou do fôlego',
+          ],
+        },
+        {
+          id: 'na-consulta',
+          heading: 'O que acontece na consulta',
+          paragraphs: [
+            'Na UBS, o profissional avalia a história e o exame físico e solicita o hemograma. Os valores de hemoglobina e de ferritina, interpretados junto do quadro e da idade e do sexo da pessoa, indicam se a anemia é por falta de ferro e qual a provável causa. Em alguns casos, o médico investiga a origem da perda de sangue.',
+            'Se o caso é leve, o acompanhamento pode seguir na própria unidade. Se há piora rápida, anemia intensa ou doença associada, a pessoa é encaminhada para avaliação especializada. Entender o tipo de anemia é o primeiro passo de um tratamento que funciona.',
+          ],
+          cta: {
+            label: 'Veja a página sobre a anemia ferropriva',
+            href: '/doencas/anemia-ferropriva/',
+          },
+        },
+      ],
+      diseaseSlugs: ['anemia-ferropriva'],
+      topicSlugs: ['doencas-cronicas'],
+      relatedArticleSlugs: ['anemia-ferropriva-tratamento-e-alimentacao'],
+      references: [
+        {
+          label: 'Anaemia: fact sheet',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/anaemia',
+          publisher: 'Organização Mundial da Saúde',
+        },
+        {
+          label: 'Anemia por deficiência de ferro: protocolo clínico e diretrizes terapêuticas',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/anemia-deficiencia-de-ferro',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'anemia-ferropriva-tratamento-e-alimentacao',
+      slug: 'anemia-ferropriva-tratamento-e-alimentacao',
+      title: 'Anemia ferropriva: tratamento e alimentação',
+      excerpt:
+        'O ferro por via oral resolve a maioria dos casos, mas a duração do tratamento e a forma de comer interferem no resultado. Veja como repor o ferro, melhorar a absorção e acompanhar os exames.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'como-funciona-o-tratamento',
+          heading: 'Como funciona o tratamento',
+          paragraphs: [
+            'O tratamento da anemia ferropriva tem duas frentes: repor o ferro que falta e corrigir a causa da perda ou do consumo excessivo. Nos casos leves e moderados, o ferro por via oral resolve, e a hemoglobina costuma começar a subir em algumas semanas.',
+            'A melhora do cansaço, porém, não encerra o tratamento. Enquanto a ferritina, que mede o estoque de ferro, não se repletar, a reposição continua; isso costuma levar de dois a seis meses. O tempo exato e a forma de tomar são definidos pelo médico, conforme o caso. A transfusão de sangue fica reservada para as situações graves ou muito sintomáticas.',
+          ],
+        },
+        {
+          id: 'ferro-na-dieta',
+          heading: 'Ferro na dieta',
+          paragraphs: [
+            'A alimentação ajuda na prevenção e durante o tratamento, mas não substitui a reposição quando a anemia já está instalada. Bons exemplos de alimentos com ferro:',
+          ],
+          bullets: [
+            'Carnes vermelhas, fígado e miúdos, fontes de ferro mais bem aproveitado pelo corpo',
+            'Aves e peixes',
+            'Feijão, lentilha, grão-de-bico e ervilha',
+            'Tofu e farelo de aveia',
+            'Verduras de folhas escuras, como couve, espinafre e rúcula',
+          ],
+        },
+        {
+          id: 'absorcao-a-favor',
+          heading: 'Comer de um jeito que ajuda a absorver',
+          paragraphs: [
+            'A maneira de montar o prato interfere bastante na absorção do ferro. Estratégias simples fazem diferença:',
+          ],
+          bullets: [
+            'Combinar a refeição com fontes de vitamina C, como laranja, limão, acerola ou tomate, que aumentam o aproveitamento do ferro',
+            'Evitar leite e derivados junto das principais refeições, pois o cálcio compete com a absorção',
+            'Deixar café e chá para longe das refeições, já que reduzem o aproveitamento do ferro',
+            'Distribuir as fontes de ferro ao longo do dia, em vez de concentrar em uma só refeição',
+            'Cuidar da alimentação na gestação e na amamentação, fases de maior necessidade',
+          ],
+        },
+        {
+          id: 'efeitos-colaterais',
+          heading: 'Efeitos no estômago e no intestino',
+          paragraphs: [
+            'O ferro oral é seguro, mas pode incomodar. Náusea, desconforto estomacal, intestino preso e fezes mais escuras são queixas frequentes no início.',
+            'Nada disso é motivo para interromper o tratamento por conta própria. Ajustar o horário da toma, iniciar com frequência menor ou trocar a apresentação são soluções que o profissional conhece, e que costumam resolver o incômodo sem comprometer o resultado.',
+          ],
+        },
+        {
+          id: 'gravidez-e-criancas',
+          heading: 'Gravidez, infância e adolescência',
+          paragraphs: [
+            'Na gravidez, a necessidade de ferro aumenta junto do volume de sangue e do crescimento do bebê, e o pré-natal costuma prever a suplementação. O acompanhamento é essencial para reduzir o risco de anemia materna, parto prematuro e baixo peso ao nascer.',
+            'Na infância e na adolescência, o ritmo de crescimento e, entre as meninas, o início da menstruação elevam a exigência de ferro. Crianças com anemia podem ficar mais cansadas, irritadas e com menos rendimento na escola. A suplementação nessas fases deve seguir a orientação da equipe de saúde.',
+          ],
+        },
+        {
+          id: 'acompanhar-resultados',
+          heading: 'Acompanhar com exames, não apenas com a sensação',
+          paragraphs: [
+            'O tratamento da anemia ferropriva se acompanha com exames, porque os sintomas melhoram antes de o estoque de ferro se repletar. Pontos de atenção no acompanhamento:',
+          ],
+          bullets: [
+            'Repetir hemograma e ferritina nos prazos definidos pelo médico, mesmo depois da melhora',
+            'Manter o ferro pelo tempo indicado, sem interromper assim que o cansaço passa',
+            'Investigar sangramentos persistentes e casos que não respondem à reposição',
+            'Reavaliar o quadro quando há doença renal ou outra condição que mude a estratégia',
+          ],
+          cta: {
+            label: 'Veja a página sobre a anemia ferropriva',
+            href: '/doencas/anemia-ferropriva/',
+          },
+        },
+      ],
+      diseaseSlugs: ['anemia-ferropriva'],
+      topicSlugs: ['doencas-cronicas', 'prevencao'],
+      relatedArticleSlugs: ['anemia-ferropriva-sintomas-e-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Anemia por deficiência de ferro: protocolo clínico e diretrizes terapêuticas',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/anemia-deficiencia-de-ferro',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Principais questões sobre anemia ferropriva na criança',
+          url: 'https://portaldeboaspraticas.iff.fiocruz.br/atencao-crianca/principais-questoes-sobre-anemia-ferropriva-na-crianca/',
+          publisher: 'Fiocruz',
+        },
+        {
+          label: 'Anaemia: fact sheet',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/anaemia',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'catarata-sintomas-e-quando-procurar-atendimento',
+      slug: 'catarata-sintomas-e-quando-procurar-atendimento',
+      metaTitle: 'Catarata: sintomas e quando procurar atendimento',
+      title: 'Catarata: sintomas, evolução e quando procurar atendimento',
+      excerpt:
+        'Entenda como a catarata progride, quais são os sinais de que a visão está piorando e em que situação é preciso buscar um oftalmologista com urgência.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'como-a-visao-muda',
+          heading: 'Como a visão muda com a catarata',
+          paragraphs: [
+            'A catarata provoca a opacificação do cristalino, a lente natural do olho. Isso faz a imagem chegar embaçada à retina e a pessoa percebe que está enxergando pior, como se houvesse uma névoa na frente dos olhos.',
+            'No início, o embaçamento é discreto e muitas vezes só notado à noite ou sob luz forte. A progressão é lenta, e na maioria dos casos leva anos até a visão ficar realmente prejudicada. O oftalmologista consegue medir essa perda em cada consulta e indicar o momento certo de intervir.',
+          ],
+        },
+        {
+          id: 'sinais-de-piora',
+          heading: 'Sinais de que a catarata está avançando',
+          paragraphs: [
+            'Alguns sinais mostram que a opacificação do cristalino está aumentando e a cirurgia deve ser considerada:',
+          ],
+          bullets: [
+            'Precisar de luz muito forte para conseguir ler ou costurar',
+            'Sentir ofuscamento ao dirigir à noite ou com farol contrário',
+            'Perceber as cores desbotadas, com tom amarelado ou acinzentado',
+            'Ter que trocar a receita dos óculos a cada poucos meses',
+          ],
+        },
+        {
+          id: 'ritmo-da-progressao',
+          heading: 'Em quanto tempo a catarata piora a visão',
+          paragraphs: [
+            'A catarata avança devagar e sem dor, muitas vezes ao longo de anos. Os dois olhos costumam ser afetados, mas quase nunca no mesmo ritmo: é comum enxergar melhor de um lado e só perceber a diferença na consulta.',
+            'Há um detalhe que confunde muita gente. Quando a opacificação se forma no centro do cristalino, a mudança no foco pode melhorar a visão de perto por um período, e a pessoa volta a ler sem óculos. Isso não é o olho melhorando: é o grau mudando ao redor da área turva.',
+            'O que não faz parte desse ritmo é a perda súbita. Uma queda de visão em horas ou em poucos dias não é comportamento de catarata e precisa de avaliação no mesmo dia.',
+          ],
+        },
+        {
+          id: 'nenhum-colirio-resolve',
+          heading: 'Nenhum colírio desfaz a catarata',
+          paragraphs: [
+            'A cirurgia é o único tratamento que cura a catarata. Não há colírio nem medicamento que faça a opacificação do cristalino desaparecer, e a lente turvada não volta a ficar transparente sozinha.',
+            'Por isso, produtos que prometem reverter a catarata merecem desconfiança: além de não cumprirem o que anunciam, podem atrasar uma avaliação que já deveria ter acontecido. Suplementos vitamínicos também não têm efeito comprovado sobre a progressão.',
+          ],
+        },
+        {
+          id: 'quando-procurar',
+          heading: 'Quando procurar atendimento',
+          paragraphs: [
+            'Se você percebe a visão embaçada e o embaçamento está piorando, marque uma consulta com oftalmologista. Na UBS mais próxima, é possível conseguir o encaminhamento para o serviço de oftalmologia do SUS.',
+            'A catarata não é urgência. Porém, se houver perda visual súbita, dor ocular intensa, surgimento de manchas escuras flutuantes ou alucinações visuais, procure atendimento no mesmo dia, pois podem indicar outras condições que exigem intervenção rápida.',
+          ],
+          cta: {
+            label: 'Veja a página sobre a catarata',
+            href: '/doencas/catarata/',
+          },
+        },
+      ],
+      diseaseSlugs: ['catarata'],
+      topicSlugs: ['doencas-cronicas'],
+      relatedArticleSlugs: ['catarata-tratamento-e-cirurgia'],
+      references: [
+        {
+          label: 'Catarata, versão saúde para a família',
+          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/catarata/catarata',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'Cegueira e deficiência visual: folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment',
+          publisher: 'Organização Mundial da Saúde',
+        },
+        {
+          label: 'Metade das pessoas com cegueira por catarata precisa de cirurgia que muda a vida',
+          url: 'https://www.who.int/news/item/11-02-2026-one-in-two-people-facing-cataract-blindness-need-access-to-life-changing-surgery',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'catarata-tratamento-e-cirurgia',
+      slug: 'catarata-tratamento-e-cirurgia',
+      metaTitle: 'Catarata: tratamento e cirurgia',
+      title: 'Catarata: tratamento cirúrgico, recuperação e acesso pelo SUS',
+      excerpt:
+        'A cirurgia de catarata é segura, eficaz e oferecida pelo SUS. Saiba como funciona o procedimento, o que esperar da recuperação e como acessar o tratamento.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'quando-operar',
+          heading: 'Quando a cirurgia está indicada',
+          paragraphs: [
+            'A cirurgia é recomendada quando a opacificação do cristalino atrapalha atividades diárias, como dirigir, trabalhar, ler ou cuidar da casa. Não existe grau mínimo obrigatório: a indicação é funcional, baseada no impacto que a perda visual causa na vida da pessoa.',
+            'Não é preciso esperar a catarata "amadurecer". Adiar a cirurgia em casos avançados pode tornar o procedimento mais delicado e a recuperação, mais lenta.',
+          ],
+        },
+        {
+          id: 'condicoes-cronicas',
+          heading: 'Diabetes e problema cardíaco impedem a cirurgia?',
+          paragraphs: [
+            'A cirurgia de catarata pode ser feita em pessoas de qualquer idade, e é considerada segura também em quem tem diabetes ou doença cardíaca, desde que essas condições estejam em acompanhamento.',
+            'A indicação depende do quanto a visão já atrapalha, não do tempo desde o diagnóstico. Enquanto a rotina segue possível, não há vantagem em operar antes da hora. A exceção é rara: quando a catarata provoca inflamação no olho ou eleva a pressão dentro dele, o oftalmologista pode recomendar cirurgia imediata.',
+          ],
+        },
+        {
+          id: 'como-e-a-cirurgia',
+          heading: 'Como funciona o procedimento',
+          paragraphs: [
+            'A técnica mais usada é a facoemulsificação: o oftalmologista fragmenta o cristalino opacificado por ultrassom e o aspira, substituindo-o por uma lente intraocular artificial que devolve a transparência ao eixo visual.',
+            'A cirurgia é feita sob anestesia local, dura em média 20 a 30 minutos e não exige internação. O paciente recebe alta no mesmo dia. O SUS oferece o procedimento gratuitamente em hospitais credenciados, e o Ministério da Saúde tem ampliado a capacidade cirúrgica, inclusive com protocolos que tratam catarata e glaucoma em uma única intervenção.',
+          ],
+        },
+        {
+          id: 'recuperacao',
+          heading: 'Recuperação e cuidados no pós-operatório',
+          paragraphs: [
+            'A recuperação costuma ser rápida, e muitos já enxergam melhor em 24 a 48 horas. O oftalmologista prescreve colírios antibiótico e anti-inflamatório para evitar infecção e controlar a inflamação:',
+          ],
+          bullets: [
+            'Evitar esfregar o olho operado por pelo menos um mês',
+            'Usar protetor ocular para dormir nos primeiros dias',
+            'Suspender atividades físicas intensas e trabalhos com poeira por orientação médica',
+            'Retornar às consultas de acompanhamento para verificar a cicatrização e a acuidade visual',
+          ],
+        },
+        {
+          id: 'a-catarata-volta',
+          heading: 'A catarata volta depois da cirurgia?',
+          paragraphs: [
+            'A catarata em si não volta, porque o cristalino natural já foi removido. O que acontece, em cerca de uma a cada quatro pessoas operadas, é a cápsula fina que ficou no olho para sustentar a lente artificial ficar opaca meses ou anos depois. É a chamada catarata secundária, e o resultado é parecido com o anterior: a visão volta a ficar embaçada.',
+            'O tratamento não é uma nova cirurgia de catarata. Na maioria dos casos, o oftalmologista usa um laser para abrir um pequeno orifício nessa cápsula e permitir a passagem da luz.',
+          ],
+          cta: {
+            label: 'Veja a página sobre a catarata',
+            href: '/doencas/catarata/',
+          },
+        },
+      ],
+      diseaseSlugs: ['catarata'],
+      topicSlugs: ['doencas-cronicas', 'prevencao'],
+      relatedArticleSlugs: ['catarata-sintomas-e-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Catarata, versão saúde para a família',
+          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/catarata/catarata',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'SUS vai oferecer cirurgia que trata glaucoma e catarata ao mesmo tempo',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/sus-vai-oferecer-cirurgia-que-trata-glaucoma-e-catarata-ao-mesmo-tempo',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Doenças oculares: orientações e cuidados',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doencas-oculares',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento',
+      slug: 'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento',
+      metaTitle: 'Parasitoses intestinais: quando procurar atendimento',
+      title: 'Parasitoses intestinais: sinais de alerta e quando procurar atendimento',
+      excerpt:
+        'A maior parte das parasitoses intestinais se resolve com exame de fezes e remédio certo na unidade básica de saúde. O que muda tudo são quatro cenas: obstrução intestinal, sangue nas fezes, desidratação e anemia importante. Saiba reconhecê-las.',
+      category: 'Doenças infecciosas',
+      categorySlug: 'doencas-infecciosas',
+      body: [
+        {
+          id: 'quadro-tranquilo',
+          heading: 'Na maioria das vezes, sem pressa',
+          paragraphs: [
+            'A dor abdominal vaga, as fezes moles de vez em quando e a coceira anal noturna formam o retrato mais comum das parasitoses intestinais, e nada nele exige pronto atendimento. O caminho previsto é a consulta na unidade básica de saúde, o exame de fezes e o remédio adequado ao parasita encontrado.',
+            'O que muda o cenário são algumas cenas específicas, descritas abaixo. Elas envolvem obstrução do intestino, perda de sangue, desidratação e anemia, e nenhuma delas melhora com medida caseira.',
+          ],
+        },
+        {
+          id: 'observar-em-casa',
+          heading: 'O que observar em casa',
+          paragraphs: [
+            'Enquanto a consulta chega, vale anotar a evolução dos pontos que mostram como o parasita está afetando o conjunto:',
+          ],
+          bullets: [
+            'O apetite e o peso, ou a curva de crescimento na criança',
+            'O aspecto e a frequência das fezes, e se há sangue nelas',
+            'A coceira anal noturna e o sono atrapalhado',
+            'Palidez, cansaço e falta de ar ao brincar ou fazer esforço',
+            'Os episódios de dor abdominal e o que os alivia',
+            'O estado de hidratação, observando lábios, lágrimas e volume de urina',
+          ],
+        },
+        {
+          id: 'sinais-na-crianca',
+          heading: 'Sinais que pedem avaliação nas crianças',
+          paragraphs: [
+            'As crianças pagam o preço maior das parasitoses, porque o parasita compete justamente com a fase da vida em que o corpo mais precisa de alimento. Leve a criança de novo à unidade de saúde, sem esperar o fim do tratamento, se notar:',
+          ],
+          bullets: [
+            'Emagrecimento ou parada do ganho de peso ao longo de semanas',
+            'Cansaço, palidez e queda do rendimento escolar',
+            'Diarreia persistente, com fezes gordurosas e barriga estufada, quadro típico da giárdia',
+            'Coceira anal noturna intensa, com criança agitada e dormindo mal',
+            'Crescimento mais lento que o esperado para a idade',
+          ],
+        },
+        {
+          id: 'emergencia',
+          heading: 'Quando é emergência',
+          paragraphs: [
+            'Poucas situações ligam o sinal vermelho, mas elas existem. Procure um pronto atendimento sem esperar se aparecer:',
+          ],
+          bullets: [
+            'Dor abdominal forte em cólica, com vômitos e interrupção das fezes e dos gases, sugestiva de obstrução intestinal',
+            'Barriga muito distendida, dura e sensível ao toque',
+            'Sangue nas fezes acompanhado de febre alta',
+            'Sinais de desidratação, como boca seca, choro sem lágrima, pouca urina e moleza excessiva',
+            'Palidez intensa com falta de ar, fraqueza importante ou coração acelerado',
+          ],
+        },
+        {
+          id: 'onde-procurar',
+          heading: 'Onde fazer o exame e a consulta',
+          paragraphs: [
+            'A UBS resolve a maior parte dos casos: faz a pergunta certa, pede o parasitológico de fezes, escolhe o remédio conforme o parasita e marca a reavaliação. Em regiões de alta transmissão, o Ministério da Saúde coordena campanhas de tratamento periódico, e quem recebe o diagnóstico em casa não precisa esperar crise para levar as crianças à consulta.',
+            'Leve os exames de volta na data combinada, inclusive quando o resultado negativo não explicar os sintomas, porque uma única amostra pode não ter pego o parasito. E se o quadro for de diarreia com vômitos e desidratação, o cuidado imediato é o da [gastroenterite](/doencas/gastroenterite/), enquanto a [anemia ferropriva](/doencas/anemia-ferropriva/) explica a palidez e o cansaço que persistem depois de tratar os vermes.',
+          ],
+          cta: {
+            label: 'Veja a página sobre as parasitoses intestinais',
+            href: '/doencas/parasitoses-intestinais/',
+          },
+        },
+      ],
+      diseaseSlugs: ['parasitoses-intestinais'],
+      topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+      relatedArticleSlugs: ['parasitoses-intestinais-tratamento-e-prevencao'],
+      references: [
+        {
+          label: 'Geo-helmintíase: o que é, sintomas e tratamento',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Geo-helmintíases transmitidas pelo solo: folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+          publisher: 'Organização Mundial da Saúde',
+        },
+        {
+          label: 'Ascaridíase, versão saúde para a família',
+          url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-nematelmintos-nemat%C3%B3deos/ascarid%C3%ADase',
+          publisher: 'Manual MSD',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'parasitoses-intestinais-tratamento-e-prevencao',
+      slug: 'parasitoses-intestinais-tratamento-e-prevencao',
+      metaTitle: 'Parasitoses intestinais: tratamento e prevenção',
+      title: 'Parasitoses intestinais: tratamento, higiene e prevenção',
+      excerpt:
+        'Cada parasita tem o seu remédio, e o remédio sozinho não resolve: sem higiene e água tratada, o verme volta. Veja como funciona o tratamento, por que a família toda entra no caso do oxiúro e o que quebra o ciclo.',
+      category: 'Doenças infecciosas',
+      categorySlug: 'doencas-infecciosas',
+      body: [
+        {
+          id: 'remedio-para-cada-parasita',
+          heading: 'O remédio depende do parasita',
+          paragraphs: [
+            'Contra os vermes, as opções mais usadas são o albendazol e o mebendazol, em geral em tratamento curto. Contra protozoários como a giárdia e a ameba, funcionam a nitazoxanida e os medicamentos da família do metronidazol, e é aí que a automedicação tropeça: a caixa comprada na farmácia para vermes não elimina protozoários, e o quadro volta sem explicação.',
+            'A dose se define pela idade e pelo peso, e a gravidez muda a escolha do remédio, por isso bebê, criança e gestante merecem avaliação individual. No Brasil, o tratamento das geo-helmintíases está disponível na rede pública, com o albendazol fornecido pelo SUS nas unidades básicas de saúde.',
+          ],
+        },
+        {
+          id: 'na-pratica',
+          heading: 'Como conduzir o tratamento',
+          paragraphs: [
+            'Feita a prescrição, o resto depende de casa:',
+          ],
+          bullets: [
+            'Tomar o medicamento pelo tempo combinado e retornar na data marcada',
+            'No caso do oxiúro, tratar toda a família no mesmo dia, mesmo quem não tem sintoma',
+            'Cortar a reinfecção com higiene: mãos lavadas com sabão, unhas curtas, banho pela manhã',
+            'Lavar roupa íntima, pijama e lençóis com frequência enquanto o oxiúro estiver em casa',
+            'Não repetir sobras de remédio de caixas anteriores',
+            'Voltar antes da hora se palidez e cansaço persistirem, sinal de que falta investigar a anemia',
+          ],
+        },
+        {
+          id: 'quebrar-o-ciclo',
+          heading: 'Por que o verme volta',
+          paragraphs: [
+            'Sem quebrar o ciclo, o remédio limpa hoje e o parasita reentra amanhã. Os ovos dos vermes transmitidos pelo solo amadurecem na terra e voltam à boca pela mão mal lavada, pela verdura crua ou pela água contaminada; os cistos da giárdia resistem em água mal tratada; e os ovos do oxiúro vivem no lençol, na roupa e nas unhas de quem se coça à noite.',
+            'A reinfecção é o motor da carga parasitária nas crianças, que trocam ovos entre si em casa, na creche e na escola. Por isso o tratamento do oxiúro é da família toda, e por isso a higiene não é detalhe decorativo: é a metade do remédio.',
+          ],
+        },
+        {
+          id: 'prevencao',
+          heading: 'Prevenção no dia a dia',
+          paragraphs: [
+            'As medidas que fecham a porta de entrada do parasita são simples, baratas e valem para todos os tipos de parasitose intestinal:',
+          ],
+          bullets: [
+            'Lavar as mãos com água e sabão depois de usar o banheiro e antes de comer',
+            'Lavar muito bem as frutas, as verduras e os legumes que serão consumidos crus',
+            'Beber só água tratada, fervida ou filtrada',
+            'Usar calçados ao caminhar em terra ou areia',
+            'Manter as unhas curtas e limpas, principalmente nas crianças',
+            'Em áreas de alta transmissão, participar das campanhas de tratamento periódico oferecidas pelo SUS',
+          ],
+          cta: {
+            label: 'Veja a página sobre as parasitoses intestinais',
+            href: '/doencas/parasitoses-intestinais/',
+          },
+        },
+      ],
+      diseaseSlugs: ['parasitoses-intestinais'],
+      topicSlugs: ['doencas-infecciosas', 'prevencao'],
+      relatedArticleSlugs: ['parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Infecção por oxiúro, versão saúde para a família',
+          url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-nematelmintos-nemat%C3%B3deos/infec%C3%A7%C3%A3o-por-oxi%C3%BAro',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'Giardíase, versão saúde para a família',
+          url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/giard%C3%ADase',
+          publisher: 'Manual MSD',
+        },
+        {
+          label: 'Geo-helmintíases transmitidas pelo solo: folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento',
+      slug: 'artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento',
+      metaTitle: 'Artrite reumatoide: sinais iniciais',
+      title: 'Artrite reumatoide: sinais iniciais e quando procurar atendimento',
+      excerpt:
+        'Rigidez matinal, inchaço simétrico nas juntas das mãos e dor que dura semanas são a pista da artrite reumatoide. Entenda o que observar e quando procurar um reumatologista.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'primeiros-sinais',
+          heading: 'Os primeiros sinais',
+          paragraphs: [
+            'A artrite reumatoide raramente começa de uma vez. Ela vai aparecendo em detalhes que a pessoa aprende a ignorar, e são justamente esses detalhes que o reumatologista procura.',
+          ],
+          bullets: [
+            'Rigidez nas mãos ao acordar, que demora a passar',
+            'Dor e inchaço nos dedos e nos punhos, dos dois lados',
+            'Junta quente e sensível ao apertar',
+            'Dificuldade para abrir um pote ou girar a chave',
+            'Cansaço sem explicação, que aparece antes da dor intensa',
+          ],
+        },
+        {
+          id: 'padrao-das-juntas',
+          heading: 'Um padrão que ajuda a reconhecer',
+          paragraphs: [
+            'A dor da artrite reumatoide segue um desenho próprio: atinge articulações pequenas, das mãos e dos pés, e quase sempre dos dois lados do corpo ao mesmo tempo. O punho e a base dos dedos são lugares típicos.',
+            'Outra marca é o horário. A rigidez é maior depois do repouso, ao acordar ou depois de um longo período parado, e melhora quando a pessoa se mexe. Dor que só piora com o uso da junta, ao fim do dia, costuma apontar para artrose, não para artrite reumatoide.',
+          ],
+        },
+        {
+          id: 'duracao-importa',
+          heading: 'Por que a duração importa',
+          paragraphs: [
+            'Uma junta que dói por dois ou três dias, depois de um esforço ou de uma virose, não acende alerta. O sinal que muda a história é a persistência: inflamação que fica seis semanas ou mais, sempre nas mesmas articulações, merece avaliação.',
+            'Esse é também o ponto que separa a artrite reumatoide da dor articular deixada por arboviroses. Depois da [chikungunya](/doencas/chikungunya/) a dor pode durar meses, mas ela costuma ter começado de forma abrupta, com febre alta, logo após as picadas do mosquito. A [dengue](/doencas/dengue/) dói muito na fase aguda e depois alivia.',
+          ],
+        },
+        {
+          id: 'quando-procurar',
+          heading: 'Quando procurar atendimento',
+          paragraphs: [
+            'O primeiro passo é a unidade de saúde de referência, que avalia a persistência do inchaço e encaminha ao reumatologista. A lista de espera por reumatologia nas grandes cidades é longa, e por isso vale buscar o encaminhamento assim que a rigidez matinal se repete por semanas, sem esperar a junta deformar.',
+            'Nem tudo é emergência, mas há situações que pedem atendimento no mesmo dia. Uma única articulação inchada, quente e dolorida, ainda mais com febre, pode ser infecção na junta e precisa ser vista logo. Dor que impede de mover a mão, o punho ou o pé também merece avaliação urgente.',
+          ],
+          cta: {
+            label: 'Veja a página sobre a artrite reumatoide',
+            href: '/doencas/artrite-reumatoide/',
+          },
+        },
+      ],
+      diseaseSlugs: ['artrite-reumatoide'],
+      topicSlugs: ['doencas-cronicas'],
+      relatedArticleSlugs: ['artrite-reumatoide-tratamento-e-cuidados-com-as-juntas'],
+      references: [
+        {
+          label: 'Artrite reumatoide',
+          url: 'https://www.reumatologia.org.br/doencas-reumaticas/artrite-reumatoide/',
+          publisher: 'Sociedade Brasileira de Reumatologia',
+        },
+        {
+          label: 'Artrite reumatoide: folha informativa',
+          url: 'https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis',
+          publisher: 'Organização Mundial da Saúde',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
+  {
+      id: 'artrite-reumatoide-tratamento-e-cuidados-com-as-juntas',
+      slug: 'artrite-reumatoide-tratamento-e-cuidados-com-as-juntas',
+      metaTitle: 'Artrite reumatoide: tratamento',
+      title: 'Artrite reumatoide: tratamento e cuidados com as juntas',
+      excerpt:
+        'Controlar a inflamação cedo protege a articulação da deformidade. Veja como funciona o tratamento da artrite reumatoide e quais cuidados ajudam a poupar as juntas no dia a dia.',
+      category: 'Doenças crônicas',
+      categorySlug: 'doencas-cronicas',
+      body: [
+        {
+          id: 'objetivo',
+          heading: 'O objetivo do tratamento',
+          paragraphs: [
+            'O tratamento da artrite reumatoide tem uma meta clara: apagar a inflamação antes que ela danifique a articulação. Alcançada a remissão, a doença fica quieta, a dor recua e a pessoa mantém o uso das juntas.',
+            'Por isso o início precoce é tão decisivo. Nos primeiros meses a inflamação é mais fácil de conter, e cada articulação preservada é função garantida no futuro. Esperar para ver é a pior escolha.',
+          ],
+        },
+        {
+          id: 'medicamentos',
+          heading: 'As medicações e o acompanhamento',
+          paragraphs: [
+            'O reumatologista escolhe as medicações e monta a sequência de tratamento conforme as opções disponíveis no serviço, ajustando tudo ao tipo de junta atingida e à resposta de cada pessoa. O SUS mantém um protocolo clínico específico para a artrite reumatoide, que organiza esse caminho.',
+            'Vale lembrar que muitos desses medicamentos demoram semanas para mostrar efeito, e o alívio rápido costuma vir de outros recursos usados no início. Nunca mude a dose nem pare por conta própria, e mantenha os exames de acompanhamento, que vigiam o fígado e o sangue durante o tratamento.',
+          ],
+        },
+        {
+          id: 'cuidados',
+          heading: 'Cuidados que poupam as juntas',
+          paragraphs: [
+            'O remédio controla a inflamação, e o cuidado diário poupa a articulação. Alguns hábitos fazem diferença ao lado do tratamento.',
+          ],
+          bullets: [
+            'Fazer fisioterapia para manter a mobilidade e fortalecer a musculatura em torno das juntas',
+            'Praticar atividade física de baixo impacto, como caminhada, natação ou bicicleta',
+            'Proteger as juntas: distribuir o peso, usar as duas mãos e evitar torções repetidas',
+            'Aplicar calor morno nas juntas rígidas e compressa fria nas muito inchadas',
+            'Equilibrar esforço e repouso, sem longos períodos na mesma posição',
+          ],
+        },
+        {
+          id: 'conviver',
+          heading: 'Conviver e acompanhar',
+          paragraphs: [
+            'A artrite reumatoide é crônica, e o acompanhamento é o que mantém a doença controlada ao longo dos anos. Voltar às consultas, mesmo quando tudo vai bem, permite ajustar o tratamento antes de a dor voltar a subir.',
+            'Parar de fumar, manter o peso e cuidar das vacinas recomendadas ajudam o resto do corpo a acompanhar as juntas. Em caso de cirurgia, de infecção ou de febre durante o tratamento, avise o reumatologista antes de tomar qualquer providência.',
+          ],
+          cta: {
+            label: 'Veja a página sobre a artrite reumatoide',
+            href: '/doencas/artrite-reumatoide/',
+          },
+        },
+      ],
+      diseaseSlugs: ['artrite-reumatoide'],
+      topicSlugs: ['doencas-cronicas', 'prevencao'],
+      relatedArticleSlugs: ['artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento'],
+      references: [
+        {
+          label: 'Protocolo Clínico e Diretrizes Terapêuticas de Artrite Reumatoide',
+          url: 'https://www.gov.br/conitec/pt-br/midias/relatorios/2017/pcdt_ar_final.pdf/@@download/file',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Artrite reumatoide',
+          url: 'https://www.reumatologia.org.br/doencas-reumaticas/artrite-reumatoide/',
+          publisher: 'Sociedade Brasileira de Reumatologia',
+        },
+      ],
+      author: 'Equipe editorial Saudewiki',
+      reviewer: null,
+      reviewStatus: 'needs_review',
+      publishedAt: '2026-10-19',
+      updatedAt: '2026-10-19',
+      isPlaceholder: true,
+    },
 ];
