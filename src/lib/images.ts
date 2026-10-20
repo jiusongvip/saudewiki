@@ -184,6 +184,22 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-medir-pressao.webp',
     alt: 'Esfigmomanômetro com mostrador redondo e braçadeira sobre fundo claro',
   },
+  'hipertensao-alimentacao-e-sal': {
+    src: '/img/artigo-hipertensao-alimentacao-e-sal.webp',
+    alt: 'Salada de alface com tomate-cereja, pepino e cebola-roxa em uma tigela, vista de cima sobre mesa de madeira',
+  },
+  'hipertensao-posso-parar-o-remedio': {
+    src: '/img/artigo-hipertensao-posso-parar-o-remedio.webp',
+    alt: 'Mão segurando uma cápsula branca sobre uma caixa organizadora semanal de comprimidos, com pastilhas coloridas nos compartimentos',
+  },
+  'hipertensao-metas-de-pressao': {
+    src: '/img/artigo-hipertensao-metas-de-pressao.webp',
+    alt: 'Braço com a braçadeira de um esfigmomanômetro manual sendo inflada por uma mão, com o mostrador redondo em destaque',
+  },
+  'hipertensao-perigo-mesmo-sem-sintomas': {
+    src: '/img/artigo-hipertensao-perigo-mesmo-sem-sintomas.webp',
+    alt: 'Casal de idosos caminhando de costas por uma alameda arborizada de parque, ao lado de um lago',
+  },
   'vacinacao-o-que-e-o-calendario-basico': {
     src: '/img/artigo-vacinacao.webp',
     alt: 'Mão segurando uma seringa com frasco de vacina ao lado',

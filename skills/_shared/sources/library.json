@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "allowedHosts": [
     "gov.br",
     "saude.gov.br",
@@ -26,11 +26,19 @@
       "publisher": "Organização Mundial da Saúde",
       "host": "www.who.int",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "钠",
+        "盐",
+        "健康饮食"
+      ],
+      "diseases": [
+        "hipertensao"
+      ],
+      "supports": [
+        "成年人盐摄入应限制在每天 5 克以下（即钠每天 2 克）"
+      ],
+      "verifiedAt": "2026-10-20",
+      "status": "verified"
     },
     {
       "id": "amidalite-ou-amigdalite",
@@ -189,11 +197,18 @@
       "publisher": "Organização Mundial da Saúde",
       "host": "www.who.int",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "身体活动",
+        "运动"
+      ],
+      "diseases": [
+        "hipertensao"
+      ],
+      "supports": [
+        "WHO 建议成人每周至少进行 150 分钟中等强度身体活动（未达到即为身体活动不足）"
+      ],
+      "verifiedAt": "2026-10-20",
+      "status": "verified"
     },
     {
       "id": "atualizacao-da-diretriz-brasileira-de-dislipidemias-e-prevencao-da-aterosclerose",
@@ -821,11 +836,26 @@
       "publisher": "Ministério da Saúde (Brasil)",
       "host": "www.gov.br",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "高血压",
+        "血压",
+        "危险因素",
+        "血压测量"
+      ],
+      "diseases": [
+        "hipertensao"
+      ],
+      "supports": [
+        "高血压定义为收缩压和舒张压达到或超过 140/90 mmHg（即 14 por 9）",
+        "高血压 90% 的病例遗传自父母（家族史是重要因素）",
+        "巴西每天有 388 人死于高血压",
+        "主要危险因素包括吸烟、饮酒、肥胖、高盐饮食和缺乏身体活动",
+        "症状通常只在血压大幅升高时才出现",
+        "20 岁以上应每年至少测量一次血压；有高血压家族史者每年至少测量两次",
+        "SUS 在基本卫生单位和 Farmácia Popular 免费提供降压药，处方有效期为 120 天"
+      ],
+      "verifiedAt": "2026-10-20",
+      "status": "verified"
     },
     {
       "id": "hiv-and-aids-fact-sheet",
@@ -860,11 +890,26 @@
       "publisher": "Organização Mundial da Saúde",
       "host": "www.who.int",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "高血压",
+        "血压",
+        "危险因素"
+      ],
+      "diseases": [
+        "hipertensao"
+      ],
+      "supports": [
+        "2024 年全球 30–79 岁成人中估计有 14 亿人患高血压（占该年龄段 33%）",
+        "约 6 亿（44%）高血压患者不知道自己患病",
+        "控制目标：合并心血管疾病、糖尿病、慢性肾病或心血管高风险者低于 130/80，多数人低于 140/90",
+        "预防建议每周至少 150 分钟中等强度有氧运动（或 75 分钟高强度）",
+        "钠摄入应低于每天 2 克（少吃咸食）",
+        "减少饮酒：女性每天最多 1 杯、男性 2 杯",
+        "血压极高（通常 180/120 或更高）并出现症状时应立即就医",
+        "未控制的高血压可导致心脏病发作、中风、心力衰竭和肾损害（肾衰竭）"
+      ],
+      "verifiedAt": "2026-10-20",
+      "status": "verified"
     },
     {
       "id": "immunization-topic-overview",

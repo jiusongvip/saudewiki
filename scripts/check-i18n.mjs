@@ -72,6 +72,117 @@ function checkReferences(slug, source, translated) {
   if (extra.length) report('refs', slug, `reference url not in the source: ${extra.join(', ')}`);
 }
 
+// ——— Portuguese left inside a Chinese page ———
+//
+// A twin can exist and be wired correctly while the text it overrides is still
+// Portuguese: a reference label, a publisher, a heading. Every structural check
+// above passes, because they match slugs, section ids and reference urls, never
+// the words themselves. So nothing on screen tells the reader the page is half
+// translated, and nothing here did either. This is the one gap matching by key
+// cannot see, so it is checked by looking at the text.
+
+const CJK = /[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/;
+
+// Diacritics Portuguese uses and English / plain loanwords do not.
+const PT_ACCENT = /[ãõçáéíóúâêôàÃÕÇÁÉÍÓÚÂÊÔÀ]/;
+
+// Function words. A Latin string carrying two of these, or one plus an accent,
+// is Portuguese prose; a single unaccented hit is not enough to call it, which
+// keeps "A guide to care" and "SAMU 192" from being flagged.
+const PT_WORDS = new Set([
+  'a', 'o', 'as', 'os', 'um', 'uma', 'uns', 'umas', 'de', 'do', 'da', 'dos', 'das', 'em', 'no', 'na',
+  'nos', 'nas', 'por', 'para', 'com', 'sem', 'que', 'nao', 'se', 'ao', 'aos', 'e', 'ou', 'como',
+  'mais', 'menos', 'seu', 'sua', 'seus', 'suas', 'pelo', 'pela', 'ate', 'entre', 'sobre', 'contra',
+  'apos', 'desde', 'quando', 'onde', 'qual', 'quais', 'tambem', 'isso', 'esta', 'este', 'essa',
+  'esse', 'sao', 'foi', 'tem', 'pode', 'podem', 'deve', 'devem',
+]);
+
+// Brazilian bodies, programmes and abbreviations that legitimately stay in
+// Portuguese inside an otherwise Chinese string.
+const KEEP_PT =
+  /\b(Anvisa|Butantan|Instituto Butantan|SUS|Farm[áa]cia Popular|SAMU 192|SAMU|CPF|UBS|UPA|CER|CONITEC|MAPA|Disque Sa[úu]de|Guillain-Barr[ée]|Amaz[ôo]nia Legal|Febre reum[áa]tica|Amidalite|amigdalite|Projeto Diretrizes|MSD|ICHD-3)\b/gi;
+
+const looksPortuguese = (text) => {
+  const bare = String(text ?? '')
+    .replace(KEEP_PT, ' ')
+    .replace(/https?:\/\/\S+/g, ' ');
+  // A string that already carries Chinese is Chinese; embedded loanwords are the
+  // annotated norm, not a gap.
+  if (CJK.test(bare)) return false;
+  const tokens = (bare.match(/\p{L}+/gu) ?? []).map((t) => t.toLowerCase());
+  if (!tokens.length) return false;
+  const hits = tokens.filter((t) => PT_WORDS.has(t)).length;
+  return hits >= 2 || (hits >= 1 && PT_ACCENT.test(bare));
+};
+
+const sectionUnits = (sections) => {
+  const units = [];
+  for (const s of sections ?? []) {
+    units.push([`#${s.id}`, s.heading]);
+    (s.paragraphs ?? []).forEach((p, i) => units.push([`#${s.id}.p${i}`, p]));
+    (s.bullets ?? []).forEach((b, i) => units.push([`#${s.id}.b${i}`, b]));
+    if (s.ctaLabel !== undefined) units.push([`#${s.id}.ctaLabel`, s.ctaLabel]);
+  }
+  return units;
+};
+const referenceUnits = (refs) =>
+  (refs ?? []).flatMap((r, i) => [
+    [`ref${i}.label`, r.label],
+    [`ref${i}.publisher`, r.publisher],
+  ]);
+
+// The strings each twin renders, per collection. Kept in step with the fields
+// `checkSections` / `checkReferences` compare, plus the reference label and
+// publisher, which no structural rule reads.
+const twinUnits = {
+  disease: (t) => [
+    ['name', t.name],
+    ['summary', t.summary],
+    ...(t.metaTitle ? [['metaTitle', t.metaTitle]] : []),
+    ...sectionUnits(t.sections),
+    ...(t.faq ?? []).flatMap((f, i) => [[`faq${i}.q`, f.question], [`faq${i}.a`, f.answer]]),
+    ...referenceUnits(t.references),
+  ],
+  article: (t) => [
+    ['title', t.title],
+    ['excerpt', t.excerpt],
+    ...(t.metaTitle ? [['metaTitle', t.metaTitle]] : []),
+    ...sectionUnits(t.body),
+    ...referenceUnits(t.references),
+  ],
+  topic: (t) => [
+    ['title', t.title],
+    ['description', t.description],
+    ...(t.scope ?? []).map((s, i) => [`scope${i}`, s]),
+    ...referenceUnits(t.references),
+  ],
+  region: (t) => [
+    ['name', t.name],
+    ['description', t.description],
+    ...(t.globalOverview ?? []).map((s, i) => [`global${i}`, s]),
+    ...(t.lusophoneOverview ?? []).map((s, i) => [`lusophone${i}`, s]),
+  ],
+  page: (t) => [
+    ['title', t.title],
+    ['h1', t.h1],
+    ['description', t.description],
+    ...(t.metaTitle ? [['metaTitle', t.metaTitle]] : []),
+    ...(t.intro ? [['intro', t.intro]] : []),
+    ...(t.notice ? [['notice.title', t.notice.title], ['notice.body', t.notice.body]] : []),
+    ...(t.cards ?? []).flatMap((c, i) => [[`card${i}.title`, c.title], [`card${i}.description`, c.description]]),
+    ...sectionUnits(t.sections),
+    ...(t.outro ? [['outro', t.outro]] : []),
+  ],
+  guide: (t) => sectionUnits(t),
+};
+
+const scanTwin = (kind, slug, units) => {
+  for (const [where, raw] of units) {
+    if (!looksPortuguese(raw)) continue;
+    report('untrans', `${kind}:${slug}`, `${where} is still Portuguese: ${String(raw).trim().slice(0, 70)}`);
+  }
+};
+
 // Each pair: [source collection, override map, kind, section field]
 const pairs = [
   [mod.diseases, mod.zhDiseases, 'disease', 'sections'],
@@ -102,6 +213,7 @@ for (const [source, overrides, kind, field] of pairs) {
     }
     if ('metaTitle' in item && twin.metaTitle && !item.metaTitle)
       report(kind, item.slug, 'translation adds a metaTitle the source does not have');
+    scanTwin(kind, item.slug, twinUnits[kind](twin));
   }
 }
 
@@ -115,6 +227,7 @@ for (const item of mod.staticPages) {
   if ((item.cards?.length ?? 0) !== (twin.cards?.length ?? 0)) report('page', item.slug, 'card count differs');
   if (Boolean(item.notice) !== Boolean(twin.notice)) report('page', item.slug, 'notice presence differs');
   if (item.cardsAfter !== twin.cardsAfter) report('page', item.slug, 'cardsAfter differs');
+  scanTwin('page', item.slug, twinUnits.page(twin));
 }
 
 // The list-page guides and the category definitions are prose too, and they
@@ -122,9 +235,11 @@ for (const item of mod.staticPages) {
 // Portuguese one paragraph at a time, invisibly.
 for (const page of Object.keys(mod.listGuides)) {
   checkSections('guide', page, mod.listGuides[page], mod.zhListGuides[page]);
+  if (mod.zhListGuides[page]) scanTwin('guide', page, twinUnits.guide(mod.zhListGuides[page]));
 }
 for (const slug of Object.keys(mod.categoryGuides)) {
   checkSections('guide', slug, mod.categoryGuides[slug], mod.zhCategoryGuides[slug]);
+  if (mod.zhCategoryGuides[slug]) scanTwin('guide', slug, twinUnits.guide(mod.zhCategoryGuides[slug]));
 }
 for (const slug of Object.keys(mod.zhCategoryGuides)) {
   if (!mod.categoryGuides[slug]) report('guide', slug, 'translation for a guide that does not exist');
@@ -136,6 +251,8 @@ const categorySlugs = new Set([...mod.diseases, ...mod.articles].map((i) => i.ca
 for (const slug of categorySlugs) if (!mod.zhCategories[slug]) report('category', slug, 'no zh label');
 for (const extra of Object.keys(mod.zhCategories))
   if (!categorySlugs.has(extra)) report('category', extra, 'zh label for a category that does not exist');
+for (const [slug, label] of Object.entries(mod.zhCategories))
+  if (looksPortuguese(label)) report('untrans', `category:${slug}`, `label is still Portuguese: ${label}`);
 
 const imageSlugs = [
   ...Object.keys(mod.diseaseImages),
@@ -143,6 +260,8 @@ const imageSlugs = [
   ...Object.keys(mod.topicImages),
 ];
 for (const slug of imageSlugs) if (!mod.zhImageAlts[slug]) report('image', slug, 'no zh alt text');
+for (const [slug, alt] of Object.entries(mod.zhImageAlts))
+  if (looksPortuguese(alt)) report('untrans', `image:${slug}`, `alt text is still Portuguese: ${alt.slice(0, 70)}`);
 for (const extra of Object.keys(mod.zhImageAlts))
   if (!imageSlugs.includes(extra)) report('image', extra, 'alt text for a slug with no image');
 

@@ -3,8 +3,8 @@
 // The rules in skills/_shared/editorial-checklist.md
 // that can be counted or matched are enforced here, so the third QC round is not
 // only a promise: template openers, filler frameworks, colon lists, dashes,
-// Chinese leftovers, leftover disclaimers and fragmented FAQ answers all fail the
-// build instead of being noticed by whoever remembers to look.
+// Chinese leftovers, leftover disclaimers, fragmented FAQ answers and article
+// length all fail the build instead of being noticed by whoever remembers to look.
 //
 // What this script cannot judge stays with the checklist: whether a sentence reads
 // like a Brazilian health editor wrote it, whether a collocation is real, whether
@@ -17,6 +17,7 @@
 import { readFileSync, existsSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import esbuild from 'esbuild';
+import { ARTICLE_WORDS, countWords } from './lib/article-rules.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const baselinePath = `${root}scripts/editorial-baseline.json`;
@@ -113,6 +114,11 @@ const HYPE = [/assassina silenciosa/gi, /a melhor e mais eficaz/gi, /melhor opç
 // China-specific leftovers that must not survive into pt-BR copy.
 const CHINA_WORDS = [/\bChina\b/g, /\bchin[êe]s[ao]s?\b/gi, /\bPequim\b/g, /\bBeijing\b/g, /国内/g];
 
+// Article length. The checklist asks for 900 to 1200 words of body text: the
+// paragraphs and bullets a reader actually reads. Headings, title, excerpt, CTA
+// labels and reference labels are structure, not prose, so they do not count.
+// The band lives in `lib/article-rules.mjs` so `verify.mjs` reports the same one.
+
 for (const item of entries) {
   if (item.data.reviewStatus === 'draft') continue;
   const texts = item.units.map(([where, text]) => [where, String(text ?? '')]);
@@ -174,6 +180,23 @@ for (const item of entries) {
     const han = text.match(/[\u4e00-\u9fff]+/g);
     if (han) add('chinese', item.kind, item.slug, han.join(' '), `in ${where}`);
     else for (const re of CHINA_WORDS) for (const m of text.matchAll(re)) add('chinese', item.kind, item.slug, m[0], `in ${where}`);
+  }
+
+  // 6. article length, counted over body text only
+  if (item.kind === 'article') {
+    const body = (item.data.body ?? [])
+      .flatMap((s) => [...(s.paragraphs ?? []), ...(s.bullets ?? [])])
+      .join(' ');
+    const n = countWords(body);
+    if (n < ARTICLE_WORDS.min || n > ARTICLE_WORDS.max) {
+      add(
+        'wordcount',
+        'article',
+        item.slug,
+        `${n} words`,
+        `body text outside ${ARTICLE_WORDS.min}-${ARTICLE_WORDS.max}`
+      );
+    }
   }
 }
 

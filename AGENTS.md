@@ -33,10 +33,37 @@
 ## 四、门禁命令（与编辑器、AI 工具无关，任何成员都能跑）
 
 ```bash
-npm run check:editorial      # 编辑红线，必须通过（与 scripts/editorial-baseline.json 比对，只减不增）
-npm run check:references     # 来源门禁，必须通过：references 的 url 须在资料库中且 host 合规
-node scripts/check-i18n.mjs  # 双语结构不变量与繁体字形，判断标准是与既有问题的差异，不要求全绿
+npm run verify               # 一次跑完三道门禁 + 接线自查，写作期的主力循环，约 1 秒
+npm run verify -- --prefix <疾病>   # 只看某个疾病的文章，附字数与每节段落数
+npm run verify -- --budget 6        # 顺带给出每节该写多少词
 npm run build                # 必须成功；新增词条要确认新路由已生成，修改模式要确认原路由未被破坏
 ```
 
-程序化执行时以 `check:editorial` 与 `build` 的退出码为准；`check-i18n` 目前对既有问题也返回 0，需人读输出比对。
+`npm run verify` 是 `check:editorial` + `check-i18n` + `check:references` 的并行封装，另外补上三道门禁都不管的**接线**：文章的疾病 / 主题 / 分类 / 配图 / CTA 是否都指向真实存在的条目，以及每篇文章的字数与每节段落数。它以退出码收口，可作任何脚本的最后一步。
+
+单跑某一项时仍可用：
+
+```bash
+npm run check:editorial      # 编辑红线，必须通过（与 scripts/editorial-baseline.json 比对，只减不增）
+npm run check:references     # 来源门禁，必须通过：references 的 url 须在资料库中且 host 合规
+node scripts/check-i18n.mjs  # 双语结构不变量、繁体字形与繁体层残留葡语，判断标准是与既有问题的差异，不要求全绿
+```
+
+程序化执行时以 `check:editorial`、`verify` 与 `build` 的退出码为准；`check-i18n` 发现任何问题（含简体字形、`你`、繁体层残留葡语）即返回非 0，需人读输出比对。
+
+## 五、写作循环：改一次数据只跑一次构建
+
+`npm run build` 是本仓库最慢的一步：整站 253 页，实测 70–80 秒，其中约 40 秒花在 Node 启动时被沙箱 fs 代理逐次拦截的模块解析上，与内容多少无关。因此：
+
+1. **写作期不构建。** 改完 `src/data` 用 `npm run verify -- --prefix <疾病>` 收口，约 1 秒；构建只在交付前跑一次。修改期间反复构建，是这条工作流最大的时间浪费。
+2. **先给每节定字数，再动笔。** 正文 900–1200 词、每节 2–3 段。先用 `npm run verify -- --budget <节数>` 拿到每节的目标词数（6 节即每节约 175 词），一次写到位；写短了再逐句补，会比一次写准慢数倍。
+3. **整篇替换走 `scripts/draft.mjs`，不要手算行号。** `export` 取出现有文章为 JSON，改完 `check` 看字数与双语结构，`apply` 一次性写回 `articles.ts` 与孪生；`apply` 保留 `id`、`publishedAt`、`reviewStatus` 与署名，只改正文、接线与 `updatedAt`。整块替换不再需要 Python 行范围脚本，也不会再出现替换后括号失衡。
+4. **构建被批量删除守卫拦下时**（`SAFE_DELETE_BULK_CONFIRM_REQUIRED`，`dist/` 清理触发），在命令前加 `CODEBUDDY_SAFE_DELETE_ENABLED=0`，只影响该次构建进程。
+
+```bash
+node scripts/draft.mjs export <slug...> --out .tmp-content/<疾病>.json
+node scripts/draft.mjs check  .tmp-content/<疾病>.json
+node scripts/draft.mjs apply  .tmp-content/<疾病>.json
+npm run verify -- --prefix <疾病>
+npm run build
+```

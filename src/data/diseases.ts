@@ -626,6 +626,15 @@ export const diseases: Disease[] = [
         ],
       },
       {
+        id: 'epidemiologia',
+        heading: 'Quanta gente tem pressão alta?',
+        paragraphs: [
+          'A hipertensão está entre as condições crônicas mais comuns. No Brasil, cerca de 3 em cada 10 adultos vivem com pressão alta, e uma parte deles não sabe que tem a doença. O Ministério da Saúde estima que a hipertensão esteja ligada a cerca de 388 mortes por dia no país, sobretudo por suas complicações cardiovasculares.',
+          'No mundo, a Organização Mundial da Saúde calcula que cerca de 1,4 bilhão de adultos entre 30 e 79 anos tenham pressão alta, e que quase metade não tenha diagnóstico. A maior parte desses casos está em países de renda baixa e média.',
+          'A doença fica mais frequente com o avançar da idade, em pessoas com diabetes ou doença renal e em pessoas negras. Ter parentes próximos com pressão alta também aumenta bastante o risco, o que reforça a importância de medir a pressão com regularidade mesmo sem sentir nada.',
+        ],
+      },
+      {
         id: 'valores-de-referencia',
         heading: 'Quais valores indicam pressão alta?',
         paragraphs: [
@@ -649,6 +658,15 @@ export const diseases: Disease[] = [
           'Na hipertensão secundária, que representa cerca de 1 em cada 10 casos, existe uma doença por trás da pressão alta. Entre as causas estão doenças dos rins, distúrbios hormonais como o hiperaldosteronismo e o feocromocitoma, estreitamento da artéria que leva sangue ao rim, apneia do sono e o uso de alguns medicamentos, como anticoncepcionais e anti-inflamatórios. Tratar a causa pode reduzir e até resolver a pressão alta, e por isso a investigação é feita principalmente em pessoas mais jovens ou que não respondem bem ao tratamento.',
           'Dois padrões de medida podem confundir o diagnóstico. Na hipertensão do avental branco, a pressão sobe apenas quando é medida no consultório, por causa do nervosismo, e fica normal no restante do dia. Na hipertensão mascarada, acontece o contrário: a medida no consultório é normal, mas a pressão é alta em casa ou ao longo do dia.',
           'Já a hipertensão na gravidez surge durante a gestação, geralmente depois da 20ª semana, e pode evoluir para a pré-eclâmpsia, uma condição que exige acompanhamento próximo do pré-natal.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a pressão alta?',
+        paragraphs: [
+          'Na maior parte dos casos, a pressão alta não tem uma causa única. Ela surge da soma de fatores genéticos, idade e hábitos de vida, o que é chamado de hipertensão primária. O peso da herança é grande: segundo o Ministério da Saúde, a doença é herdada dos pais em cerca de 9 em cada 10 casos.',
+          'Isso não significa que a pressão alta seja inevitável em quem tem casos na família. Significa que esses fatores merecem mais atenção ao longo dos anos, com medida regular da pressão e mudanças de hábito que reduzem o risco.',
+          'Em uma parte menor dos casos, a pressão alta é consequência de outra condição, a hipertensão secundária. Como já citado nos tipos da doença, entre as causas estão doenças dos rins e distúrbios hormonais, além do uso de certos medicamentos, e por isso a investigação é feita principalmente em pessoas mais jovens ou que não respondem bem ao tratamento.',
         ],
       },
       {
@@ -677,7 +695,12 @@ export const diseases: Disease[] = [
           'A hipertensão costuma ser silenciosa: a maioria das pessoas não apresenta sintoma nenhum, principalmente nos estágios iniciais, e pode conviver com a pressão alta por anos sem perceber. Muitas vezes ela é descoberta em um exame de rotina.',
           'Quando algo aparece, os sinais mais comuns são dor de cabeça, muitas vezes na região da nuca e ao acordar, tontura, cansaço e falta de energia, palpitação ou sensação de coração acelerado, visão embaçada e zumbido no ouvido.',
           'Esses sintomas não são confiáveis para dizer se a pressão está alta ou controlada: é possível ter uma pressão muito elevada sem sentir nada e sentir dor de cabeça com a pressão normal. Por isso, o controle depende da medida, e não da sensação.',
+          'Quando a pressão alta já vem causando dano ao organismo, podem surgir outros sinais, que se somam aos anteriores. É o caso de falta de ar aos esforços, dor no peito, inchaço nas pernas, piora da visão ou menos urina que o habitual. Esses sintomas indicam que algum órgão pode estar sendo afetado e pedem avaliação, sem serem atribuídos apenas à pressão.',
         ],
+        cta: {
+          label: 'Leia também: por que a pressão alta é perigosa mesmo sem sintomas',
+          href: '/artigos/hipertensao-perigo-mesmo-sem-sintomas/',
+        },
       },
       {
         id: 'sinais-de-alerta',
@@ -709,6 +732,7 @@ export const diseases: Disease[] = [
           'Também são usadas medidas feitas fora do consultório, que ajudam a afastar o efeito do nervosismo e a acompanhar a pressão ao longo do dia. Na medida residencial (MRPA), a média de 130/80 mmHg ou mais confirma a hipertensão; na monitorização ambulatorial de 24 horas (MAPA), vale o mesmo valor na média das 24 horas, sendo 135/85 mmHg no período de vigília e 120/70 mmHg no período de sono.',
           'Para que o resultado seja confiável, a medida precisa ser feita com técnica correta: descansar sentado por pelo menos 5 minutos antes, manter o braço apoiado na altura do coração e usar um aparelho de braço certificado. Na primeira consulta, costuma-se medir os dois braços e usar como referência o lado com valores mais altos.',
           'Depois de confirmar a hipertensão, o profissional investiga o impacto da doença e procura possíveis causas. Entre os exames de rotina estão a glicemia, o colesterol e os triglicérides, a creatinina e outros marcadores da função dos rins, os eletrólitos do sangue, a análise da urina e o eletrocardiograma; conforme o caso, podem ser pedidos ecocardiograma, exame de fundo de olho, ultrassonografia dos rins e testes para causas secundárias.',
+          'Antes de fechar o diagnóstico, também é preciso afastar outras situações que confundem o quadro, como a pressão que sobe apenas pelo nervosismo no consultório ou a que só aparece fora dele. Além disso, valores altos podem ser consequência de outra doença ou de um medicamento em uso, e não o problema principal. Separar esses casos muda a conduta e evita tratar como hipertensão algo que tem outra origem.',
         ],
         cta: {
           label: 'Leia também: como medir a pressão arterial em casa',
@@ -739,6 +763,22 @@ export const diseases: Disease[] = [
           'Os remédios não devem ser usados por conta própria nem compartilhados. Quem tem a pressão controlada por um medicamento não deve interrompê-lo sem orientação, porque a pressão tende a subir de novo quando o efeito passa. Interromper a medicação por conta própria é um dos erros mais comuns e mais perigosos.',
           'No SUS, o acompanhamento da hipertensão é feito principalmente na atenção básica, nas unidades básicas de saúde (UBS), com consultas, medidas de pressão, orientação e fornecimento gratuito de medicamentos. Entre os remédios oferecidos estão a hidroclorotiazida, a furosemida, a espironolactona, o captopril, o enalapril, a losartana, o anlodipino, o nifedipino, o atenolol, o metoprolol e o propranolol. Desde fevereiro de 2025, o Programa Farmácia Popular passou a distribuir sem custo todos os medicamentos de hipertensão do seu catálogo, em farmácias credenciadas.',
           'Em casos de difícil controle, com suspeita de causa secundária ou complicações, o paciente é encaminhado para avaliação com especialista.',
+          'O primeiro contato costuma ser a unidade básica de saúde (UBS) de referência, onde o tratamento pode ser iniciado e acompanhado. Diante de sinais de emergência, o atendimento é feito no pronto atendimento mais próximo ou pelo SAMU 192, no telefone 192.',
+          'Controlar a pressão alta também passa por cuidar dos fatores que costumam andar juntos, como colesterol alto, diabetes e tabagismo. Quando existe indicação, o especialista pode recorrer a outros tratamentos e procedimentos; essas decisões são individuais e dependem da causa e das condições de cada pessoa.',
+        ],
+        cta: {
+          label: 'Leia também: quais são as metas de pressão',
+          href: '/artigos/hipertensao-metas-de-pressao/',
+        },
+      },
+      {
+        id: 'crise-hipertensiva',
+        heading: 'Crise hipertensiva: o que fazer',
+        paragraphs: [
+          'Uma crise hipertensiva acontece quando a pressão sobe de forma abrupta, em geral a partir de 180/120 mmHg. Ela pode vir acompanhada de sintomas ou acontecer sem nenhum aviso.',
+          'Quando a pressão muito alta se soma a dor no peito, falta de ar, dor de cabeça súbita e intensa, alterações na visão, confusão ou fraqueza em um lado do corpo, trata-se de uma emergência médica. Esses sinais podem indicar lesão em órgãos como coração, cérebro e rins e exigem atendimento imediato: procure o pronto atendimento mais próximo ou ligue para o SAMU 192.',
+          'Nessa situação, não tome remédio extra por conta própria, não dobre a dose e não use a medicação de outra pessoa. Baixar a pressão rápido demais, fora do hospital, pode ser perigoso.',
+          'Se a medida está muito alta, mas você não tem nenhum desses sintomas, descanse alguns minutos, respire fundo e meça de novo. Se o valor continuar alto, procure atendimento no mesmo dia para reavaliar o tratamento.',
         ],
       },
       {
@@ -755,6 +795,29 @@ export const diseases: Disease[] = [
           'Cuidar do sono e do estresse',
           'Medir a pressão periodicamente, mesmo sem sintomas',
         ],
+        cta: {
+          label: 'Leia também: alimentação e sal no controle da pressão',
+          href: '/artigos/hipertensao-alimentacao-e-sal/',
+        },
+      },
+      {
+        id: 'cuidados-no-dia-a-dia',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'Controlar a pressão alta é uma tarefa de rotina, não só de consulta. Alguns cuidados diários fazem diferença no resultado do tratamento:',
+        ],
+        bullets: [
+          'Tomar os medicamentos todos os dias, no horário combinado, e não interromper sozinho quando a pressão normaliza',
+          'Medir a pressão em casa com a técnica correta e anotar os valores para levar à consulta',
+          'Levar o aparelho de pressão às consultas de acompanhamento, para conferir se ele está calibrado',
+          'Manter uma rotina de alimentação com pouco sal, atividade física regular e sono adequado',
+          'Voltar à unidade de saúde nas datas marcadas e sempre que surgirem sintomas novos',
+          'Antes de viajar de avião, engravidar ou doar sangue, conversar com a equipe de saúde, porque a orientação depende do controle da pressão',
+        ],
+        cta: {
+          label: 'Leia também: posso parar o remédio quando a pressão normaliza?',
+          href: '/artigos/hipertensao-posso-parar-o-remedio/',
+        },
       },
     ],
     faq: [
@@ -789,7 +852,13 @@ export const diseases: Disease[] = [
           'Não. Não existe vacina para prevenir ou tratar a hipertensão. A prevenção e o controle dependem de hábitos saudáveis, do acompanhamento regular na unidade de saúde e do uso correto dos medicamentos quando eles são indicados.',
       },
     ],
-    relatedArticleSlugs: ['hipertensao-como-medir-a-pressao-em-casa'],
+    relatedArticleSlugs: [
+      'hipertensao-como-medir-a-pressao-em-casa',
+      'hipertensao-perigo-mesmo-sem-sintomas',
+      'hipertensao-metas-de-pressao',
+      'hipertensao-posso-parar-o-remedio',
+      'hipertensao-alimentacao-e-sal',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedDiseaseSlugs: ['diabetes', 'dengue'],
     references: [
@@ -808,7 +877,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

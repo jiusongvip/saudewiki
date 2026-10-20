@@ -1106,33 +1106,88 @@ export const articles: Article[] = [
         id: 'por-que-medir-em-casa',
         heading: 'Por que medir em casa',
         paragraphs: [
-          'A pressão varia ao longo do dia e muda conforme a situação. Medições repetidas, feitas em casa e em datas diferentes, ajudam o profissional de saúde a entender o padrão real.',
+'A pressão varia ao longo do dia e muda conforme a situação. Medições repetidas, feitas em casa e em datas diferentes, ajudam o profissional de saúde a entender o padrão real. Isso importa porque a pressão alta costuma não dar sinal. Segundo a Organização Mundial da Saúde, quase metade das pessoas que vivem com hipertensão não sabe disso. Medir com regularidade é a única forma de descobrir o problema e acompanhá-lo.',
+          'Quem tem mais de 20 anos deve medir a pressão ao menos uma vez por ano. Com histórico familiar de hipertensão, a recomendação é medir no mínimo duas vezes por ano. Isso faz diferença porque a doença é herdada dos pais em cerca de 9 em cada 10 casos.',
+          'No Brasil, a pressão alta está ligada a cerca de 388 mortes por dia e a complicações sérias, como infarto, AVC, insuficiência cardíaca e problemas nos rins. O diagnóstico precoce e o acompanhamento contínuo são a forma de reduzir esse impacto.',
         ],
       },
       {
         id: 'antes-de-medir',
         heading: 'Antes de medir',
+        paragraphs: [
+          'O resultado depende de como você se prepara. Antes de ligar o aparelho, alguns cuidados simples evitam leituras falsas, altas ou baixas.',
+          'O ideal é medir sempre no mesmo ambiente, calmo e com temperatura agradável. Uma sala barulhenta ou uma discussão logo antes podem elevar o número sem que exista doença.',
+        ],
         bullets: [
           'Evite café, cigarro e atividade física nos 30 minutos anteriores',
           'Esvazie a bexiga',
           'Descanse sentado por alguns minutos antes da medição',
+          'Não meça logo depois de uma refeição farta ou de um banho quente',
+          'Se estiver com dor, nervoso ou com sono ruim, anote e repita a medição em outro momento',
         ],
       },
       {
         id: 'durante-a-medicao',
         heading: 'Durante a medição',
+        paragraphs: [
+          'Na hora da medição, a postura e o silêncio mudam o número que aparece na tela. Mantenha sempre o mesmo braço e siga os mesmos passos.',
+          'Fique relaxado e respire normalmente, sem conversar nem segurar o aparelho na mão. Faça as duas medições, espere um minuto e, se quiser mais segurança, faça uma terceira e considere a média do momento.',
+        ],
         bullets: [
           'Sente-se com as costas apoiadas e os pés no chão',
           'Mantenha o braço apoiado na altura do coração',
           'Não fale durante a medição',
           'Faça pelo menos duas medições, com um minuto de intervalo',
+          'Use um manguito do tamanho adequado ao seu braço',
+          'Afrouxe a roupa no braço e evite medir por cima da manga',
+        ],
+      },
+      {
+        id: 'escolher-e-cuidar-do-aparelho',
+        heading: 'Escolher e cuidar do aparelho',
+        paragraphs: [
+          'Dá para medir em casa com segurança, desde que o aparelho seja adequado. Prefira modelos automáticos, de braço, com manguito, e verifique se o produto é validado para uso doméstico. Aparelhos de pulso e de dedo são mais sujeitos a erro e não substituem uma avaliação.',
+          'Cuide do equipamento. Confira a calibração conforme as orientações do fabricante, mantenha as pilhas ou a bateria em bom estado e verifique antes de cada uso se a mangueira e o manguito estão bem ligados. Um aparelho descalibrado entrega números que não servem.',
+          'Na hora de comprar, procure um modelo confiável em vez do mais barato, e não reaproveite um aparelho antigo da família sem conferir se ele está funcionando bem. Um número errado pode levar a decisões erradas.',
+        ],
+        bullets: [
+          'Aparelho validado, com manguito do tamanho certo para o seu braço',
+          'Bateria ou pilhas em bom estado antes de começar',
+          'Calibração conferida conforme o fabricante',
+        ],
+      },
+      {
+        id: 'quando-e-com-que-frequencia-medir',
+        heading: 'Quando e com que frequência medir',
+        paragraphs: [
+'Não basta medir uma vez. O valor que orienta o tratamento sai da média de várias medições feitas em casa, em dias diferentes, de preferência nos mesmos horários, como o profissional orientar. Essa medição residencial da pressão arterial é chamada de MRPA. Quando a média das medidas feitas em casa chega a 130 por 80 mmHg, o resultado já é considerado alterado e confirma a hipertensão. É por isso que um único número fora do comum, medido em um dia de estresse, não decide nada sozinho.',
+          'Para entender como a pressão se comporta ao longo do dia, incluindo o sono, o profissional pode solicitar a MAPA, uma monitorização de 24 horas. Na MAPA, a média também é o que conta: a alteração aparece a partir de 130 por 80 mmHg nas 24 horas, 135 por 85 mmHg na vigília e 120 por 70 mmHg durante o sono.',
+          'Combine com o profissional quantos dias e em quais horários medir, e registre tudo em uma caderneta. O acompanhamento pede várias medidas ao longo dos dias, e não um único registro isolado.',
+        ],
+      },
+      {
+        id: 'erros-comuns',
+        heading: 'Erros comuns na medição em casa',
+        paragraphs: [
+          'Alguns deslizes são tão comuns que dão a impressão de que a pressão subiu do nada. Vale conhecê-los para não cair neles.',
+          'Também não é preciso virar escravo do aparelho. Medir a cada hora aumenta a ansiedade e pode até elevar a pressão na hora da medida; siga a orientação do profissional sobre a frequência.',
+        ],
+        bullets: [
+          'Medir por cima da roupa ou com o braço solto no ar',
+          'Falar, assistir a vídeos ou mexer no celular durante a medição',
+          'Medir logo depois do café, do cigarro ou de subir escadas',
+          'Usar um aparelho antigo, descalibrado ou com manguito apertado',
+          'Anotar de memória e só se lembrar dos números na consulta',
+          'Concluir o diagnóstico sozinho e mexer no remédio por conta própria',
         ],
       },
       {
         id: 'interpretar',
         heading: 'O que fazer com os números',
         paragraphs: [
-          'O aparelho mede um momento, não define diagnóstico. Anote os valores com data e horário e leve o registro para a consulta. A interpretação e a decisão sobre tratamento são do profissional de saúde.',
+'O aparelho mede um momento, não define diagnóstico. Anote os valores com data e horário e leve o registro para a consulta. A interpretação e a decisão sobre tratamento são do profissional de saúde. Levar o registro ajuda muito, mas não mude nada por conta própria: não interrompa a medicação, não dobre a dose e não use o remédio de outra pessoa. O ajuste é feito pelo profissional, que pode combinar classes de medicamentos como diuréticos, IECA, BRA, bloqueadores de canal de cálcio e betabloqueadores conforme o caso.',
+          'E se a pressão vier muito alta, geralmente a partir de 180 por 120 mmHg, acompanhada de dor de cabeça intensa, dor no peito, falta de ar, visão embaçada, tontura, náusea, confusão, zumbido, sangramento nasal ou arritmia, procure atendimento imediatamente. Dor no peito, falta de ar, alterações na visão, confusão ou fraqueza em um lado do corpo são sinais de emergência: procure o pronto atendimento ou ligue para o SAMU 192.',
+          'O tratamento também é gratuito no SUS: os medicamentos de hipertensão são oferecidos nas unidades básicas de saúde e, desde fevereiro de 2025, pelo programa Farmácia Popular. Para retirar, leve um documento de identidade com foto, o CPF e a receita médica dentro do prazo de 120 dias.',
         ],
         cta: {
           label: 'Entenda a hipertensão na página completa',
@@ -1142,7 +1197,7 @@ export const articles: Article[] = [
     ],
     diseaseSlugs: ['hipertensao'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
-    relatedArticleSlugs: ['diabetes-tipo-2-o-que-muda-no-dia-a-dia'],
+    relatedArticleSlugs: ['diabetes-tipo-2-o-que-muda-no-dia-a-dia', 'hipertensao-alimentacao-e-sal', 'hipertensao-posso-parar-o-remedio', 'hipertensao-metas-de-pressao', 'hipertensao-perigo-mesmo-sem-sintomas'],
     references: [
       {
         label: 'Hipertensão arterial: materiais e orientações',
@@ -1159,7 +1214,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -4136,7 +4191,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-19',
-    updatedAt: '2026-10-19',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -4172,7 +4227,7 @@ export const articles: Article[] = [
         paragraphs: [
           'Não. Suspender a alimentação piora o quadro e atrapalha a recuperação. A orientação é manter a alimentação habitual e a amamentação, oferecendo o soro de reidratação oral à parte, em goles pequenos e frequentes ao longo do dia.',
           'O intestino inflamado continua capaz de absorver nutrientes, e é deles que a criança tira a energia para se recuperar. Ficar sem comer prolonga a diarreia e aumenta a perda de peso, sobretudo em quem já está abaixo do peso.',
-          'Na prática, ofereça preparações leves em porções pequenas e mais vezes ao dia, sem forçar. Em bebês, a amamentação deve continuar durante todo o episódio. Se a criança recusar tudo por muitas horas, procure orientação. Veja mais em [o que comer durante a gastroenterite](/artigos/gastroenterite-alimentacao/).',
+          'Na prática, ofereça preparações leves em porções pequenas e mais vezes ao dia, sem forçar. Em bebês, a amamentação deve continuar durante todo o episódio. Se a criança recusar tudo por muitas horas, procure orientação. Recusar uma refeição não é o mesmo que recusar líquido, e é o líquido que não pode faltar em nenhuma hora do dia. Veja mais em [o que comer durante a gastroenterite](/artigos/gastroenterite-alimentacao/).',
         ],
       },
       {
@@ -4181,7 +4236,7 @@ export const articles: Article[] = [
         paragraphs: [
           'Na maioria dos casos, não. A gastroenterite comum é viral ou se resolve sozinha, e o antibiótico só se justifica quando o profissional identifica disenteria, com sangue ou muco nas fezes, ou cólera, sempre com acompanhamento médico.',
           'Usar antibiótico contra uma infecção viral não encurta a diarreia e ainda elimina bactérias que fazem parte da flora intestinal, o que pode agravar o quadro. O uso sem indicação também favorece a resistência dos microrganismos aos medicamentos, um problema que a Organização Mundial da Saúde trata como uma das principais ameaças à saúde pública.',
-          'Quando há suspeita de causa bacteriana, a coleta de fezes é feita antes do antibiótico, para não prejudicar o resultado do exame. Quem começa o remédio por conta própria pode tornar essa investigação mais difícil e atrasar o tratamento correto.',
+          'Quando há suspeita de causa bacteriana, a coleta de fezes é feita antes do antibiótico, para não prejudicar o resultado do exame. Quem começa o remédio por conta própria pode tornar essa investigação mais difícil e atrasar o tratamento correto. Por isso, o exame tem hora certa, e o antibiótico também tem, o que muda a conduta.',
         ],
       },
       {
@@ -4290,7 +4345,7 @@ export const articles: Article[] = [
         paragraphs: [
           'Usar antibiótico sem prescrição não resolve a diarreia e ainda alimenta um problema maior: a resistência dos microrganismos aos antibióticos. A Organização Mundial da Saúde trata a resistência antimicrobiana como uma das principais ameaças à saúde pública.',
           'Cada uso desnecessário seleciona bactérias mais resistentes, que depois circulam entre as pessoas e tornam infecções comuns mais difíceis de tratar. O efeito não fica restrito a quem tomou o remédio: ele passa para a comunidade e para os serviços de saúde.',
-          'O mesmo vale para remédios para parar a diarreia comprados por conta própria. Nada substitui a avaliação de quem consegue distinguir uma diarreia simples de um quadro que exige tratamento específico. Quem tem dúvida sobre um remédio deve perguntar a um profissional antes de tomar.',
+          'O mesmo vale para remédios para parar a diarreia comprados por conta própria. Nada substitui a avaliação de quem consegue distinguir uma diarreia simples de um quadro que exige tratamento específico. Quem tem dúvida sobre um remédio deve perguntar a um profissional antes de tomar. A dúvida se resolve na consulta, não na farmácia.',
         ],
       },
       {
@@ -4402,7 +4457,7 @@ export const articles: Article[] = [
         paragraphs: [
           'Nos bebês, a amamentação deve continuar durante o episódio, pois ajuda na resistência contra as diarreias. Quem usa fórmula pode receber, com orientação do profissional, uma versão com menos lactose durante a diarreia. A troca não deve ser feita por conta própria.',
           'O leite materno repõe água e oferece fatores de proteção que a fórmula não reproduz. Interromper a amamentação justamente durante a diarreia retira da criança o alimento que ela melhor tolera.',
-          'Em crianças, o Ministério da Saúde recomenda o zinco, uma vez ao dia por 10 a 14 dias, o que encurta o episódio e reduz o risco de complicações. O suplemento é indicado pelo profissional e não substitui o soro, e a alimentação segue em paralelo.',
+          'Em crianças, o Ministério da Saúde recomenda o zinco, uma vez ao dia por 10 a 14 dias, o que encurta o episódio e reduz o risco de complicações. O suplemento é indicado pelo profissional e não substitui o soro, e a alimentação segue em paralelo. A amamentação continua, e o soro entra em pequenas quantidades entre as mamadas, para não substituir o leite, que segue sendo o alimento mais completo nessa fase da vida.',
         ],
       },
       {
@@ -4411,7 +4466,7 @@ export const articles: Article[] = [
         paragraphs: [
           'Se a pessoa recusa alimentos, não consegue reter líquidos ou apresenta sinais de desidratação, o cuidado em casa não é suficiente. Nesses casos, procure a unidade de saúde mais próxima; quanto antes a avaliação, menor a chance de precisar de internação.',
           'Vômitos repetidos impedem que a reposição pela boca acompanhe a perda, e a desidratação avança mesmo que a pessoa esteja tentando beber. Sangue nas fezes e diminuição da urina também mudam a conduta. Nenhum desses sinais se resolve com ajuste de dieta.',
-          'Nessa situação, adiar o atendimento só aumenta o risco. A reidratação na unidade, com avaliação do grau de desidratação, é o passo seguinte, e o profissional decide a via e a velocidade da reposição conforme o exame.',
+          'Nessa situação, adiar o atendimento só aumenta o risco. A reidratação na unidade, com avaliação do grau de desidratação, é o passo seguinte, e o profissional decide a via e a velocidade da reposição conforme o exame. Quando nem o soro fica no estômago, a via intravenosa passa a ser a forma de repor o que o corpo perdeu, e a decisão sobre o ritmo é de quem examinou a pessoa.',
         ],
         cta: {
           label: 'Veja a página sobre gastroenterite',
@@ -4471,7 +4526,7 @@ export const articles: Article[] = [
         paragraphs: [
           'A gastroenterite aguda costuma ser autolimitada e se resolver em poucos dias. A maior parte dos episódios é viral e não exige tratamento específico, apenas reposição de líquidos. A maioria das pessoas volta à rotina sem precisar de exame.',
           'Isso não significa que possa ser ignorada. A mesma doença que passa em poucos dias em um adulto saudável pode desidratar rápido uma criança pequena ou uma pessoa idosa, porque a reserva de água e a capacidade de compensar a perda são diferentes. O agente pode ser o mesmo; o corpo, não.',
-          'O que separa os dois cenários não é a agressividade do agente, e sim a velocidade com que o corpo repõe o que perde. Começar a oferecer líquidos cedo é o que mais aproxima um caso do desfecho leve.',
+          'O que separa os dois cenários não é a agressividade do agente, e sim a velocidade com que o corpo repõe o que perde. Começar a oferecer líquidos cedo é o que mais aproxima um caso do desfecho leve. A diferença aparece nas primeiras horas, quando ainda é possível repor em casa sem ajuda e sem esperar o quadro piorar.',
         ],
       },
       {
@@ -4498,7 +4553,7 @@ export const articles: Article[] = [
         paragraphs: [
           'O Ministério da Saúde orienta voltar imediatamente ao serviço de saúde diante de qualquer um destes sinais, mesmo que a pessoa pareça bem, e a orientação vale para crianças e adultos.',
           'Um sinal isolado já basta para procurar atendimento. Cada item da lista indica que a perda de líquidos ou o comprometimento geral passou do que se resolve em casa, e nenhum deles deve ser minimizado por parecer passageiro.',
-          'Se houver mais de um sinal ao mesmo tempo, a urgência aumenta. Em bebês e pessoas idosas, procure atendimento ao primeiro sinal, sem aguardar o próximo, e anote quando cada um apareceu para agilizar a consulta.',
+          'Se houver mais de um sinal ao mesmo tempo, a urgência aumenta. Em bebês e pessoas idosas, procure atendimento ao primeiro sinal, sem aguardar o próximo, e anote quando cada um apareceu para agilizar a consulta. Nenhum desses sinais precisa de exame para ser notado, e é justamente por isso que eles servem de aviso em casa.',
         ],
         bullets: [
           'Piora da diarreia',
@@ -6780,4 +6835,438 @@ export const articles: Article[] = [
       updatedAt: '2026-10-19',
       isPlaceholder: true,
     },
+  {
+    id: 'hipertensao-alimentacao-e-sal',
+    slug: 'hipertensao-alimentacao-e-sal',
+    title: 'Alimentação e consumo de sal no controle da hipertensão',
+    excerpt:
+      'Reduzir o sal e escolher melhor os alimentos ajuda a controlar a pressão. Veja onde o sódio se esconde e o que colocar mais no prato.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'sal-e-pressao',
+        heading: 'Sal e pressão: por que a quantidade importa',
+        paragraphs: [
+'A alimentação é um dos fatores que mais pesam no controle da hipertensão. O Ministério da Saúde aponta o consumo elevado de sal entre os principais fatores de risco para a doença, ao lado do fumo, das bebidas alcoólicas, da obesidade, do estresse, do colesterol alto e da falta de atividade física. Como boa parte desses fatores está ligada ao que se come, ajustar a dieta é uma das mudanças com maior efeito no dia a dia. A Organização Mundial da Saúde recomenda consumir menos de 2 gramas de sódio por dia. Esse número se refere ao sódio total, não apenas ao sal acrescentado no prato. Boa parte do que se consome vem de produtos industrializados, de temperos prontos e de alimentos que nem parecem salgados, e é justamente por isso que a conta costuma passar do limite sem que a pessoa perceba.',
+          'A pressão alta é uma doença crônica e costuma não dar sinal. Na maioria dos casos ela é herdada dos pais, e vai ficando mais comum com a idade. Por isso, cuidar da alimentação não é um detalhe estético: é uma forma concreta de reduzir um dos fatores que empurram a pressão para cima.',
+          'Vale lembrar que o paladar se adapta. Ao reduzir o sal de forma gradual, a comida continua saborosa e, em pouco tempo, os alimentos passam a parecer mais gostosos do que antes. O objetivo não é uma comida sem gosto, e sim uma comida com menos sódio.',
+        ],
+      },
+      {
+        id: 'sodio-escondido',
+        heading: 'O sódio escondido nos alimentos do dia a dia',
+        paragraphs: [
+          'O sódio não está só no saleiro. Ele aparece em muitos itens usados todos os dias na cozinha e à mesa, quase sempre sem chamar atenção.',
+          'Antes de comprar, vale a pena olhar o rótulo e comparar a quantidade de sódio por porção entre produtos parecidos. Duas marcas de um mesmo item podem trazer valores bem diferentes, e essa leitura simples ajuda a escolher a opção menos salgada.',
+          'Refeições prontas de restaurante, comida congelada e entregas por aplicativo também costumam trazer bastante sódio. Quando não for possível evitá-las, reduza a porção, não acrescente mais sal e equilibre as outras refeições do dia com comida mais fresca.',
+        ],
+        bullets: [
+          'Temperos prontos e caldos em cubo: costumam concentrar muito sódio e entram no preparo todos os dias sem que a gente perceba.',
+          'Embutidos como salsicha, presunto, mortadela e linguiça.',
+          'Enlatados, conservas e produtos em conserva, além de molhos e condimentos prontos.',
+          'Salgadinhos, biscoitos salgados e outros petiscos industrializados.',
+        ],
+      },
+      {
+        id: 'o-que-ajuda',
+        heading: 'O que ajuda no prato',
+        paragraphs: [
+          'Uma dieta saudável não é feita só de proibições. Ela é, antes de tudo, trocas: menos produtos prontos e mais comida de verdade.',
+          'Leguminosas como o feijão são uma boa fonte de fibras e fazem parte da tradição alimentar brasileira, o que ajuda a mantê-las na rotina. Combinar arroz e feijão no prato é um jeito simples de melhorar a refeição sem complicar o preparo.',
+        ],
+        bullets: [
+          'Mais frutas e verduras, em maior quantidade e variedade, todos os dias.',
+          'Cereais integrais, como arroz integral e aveia, no lugar das versões refinadas.',
+          'Feijão e outras leguminosas, presença diária na mesa brasileira.',
+          'Castanhas e oleaginosas, em porções pequenas.',
+          'Menos gordura saturada e menos açúcares livres, trocando frituras e doces por preparos mais simples.',
+        ],
+      },
+      {
+        id: 'rotina-diaria',
+        heading: 'Uma rotina realista para o dia a dia',
+        paragraphs: [
+'Não é preciso virar a mesa de uma vez. Comece reduzindo aos poucos o sal que você acrescenta à comida já pronta e passando a temperar com alho, cebola, ervas e limão. Diminuir a quantidade de temperos prontos no preparo já reduz bastante a entrada de sódio ao longo do dia. No mercado, dê preferência, dentro do mesmo tipo de produto, às versões com menos sódio. Em casa, deixe frutas à vista e monte o prato com mais verduras e feijão, reservando os industrializados, os embutidos e os enlatados para ocasiões pontuais, e não para todos os dias.',
+          'Beber água ao longo do dia, cozinhar mais em casa e evitar beliscar salgadinhos também contam. São mudanças pequenas, mas, somadas, mudam o total de sódio que entra no corpo a cada dia.',
+          'Uma boa referência é começar pela refeição principal e, depois, estender as mudanças para o café da manhã e os lanches. Assim, a redução de sódio acontece de forma sustentável, sem virar uma fase que dura poucos dias.',
+        ],
+      },
+      {
+        id: 'alem-da-comida',
+        heading: 'Além da comida: outros hábitos que ajudam',
+        paragraphs: [
+          'A comida é a parte mais lembrada, mas outros hábitos pesam igualmente no controle da pressão.',
+          'Esses hábitos se somam. Reduzir o sal, praticar atividade, parar de fumar e moderar o álcool têm efeito cumulativo sobre a pressão, e nenhum deles precisa ser adotado de uma vez.',
+        ],
+        bullets: [
+          'Praticar pelo menos 150 minutos por semana de atividade física de intensidade moderada.',
+          'Reduzir o consumo de bebidas alcoólicas, respeitando o limite de uma dose por dia para mulheres e duas doses por dia para homens.',
+          'Parar de fumar.',
+          'Medir a pressão com regularidade, porque essa é a única forma de saber como ela está.',
+        ],
+      },
+      {
+        id: 'quando-buscar-ajuda',
+        heading: 'Quando buscar ajuda',
+        paragraphs: [
+'A alimentação ajuda, e muito, mas não substitui o tratamento. Se você usa medicamentos para a pressão, não interrompa por conta própria, não dobre a dose e não use o remédio de outra pessoa. O acompanhamento na Atenção Básica e a retirada gratuita de medicamentos na Farmácia Popular fazem parte do cuidado oferecido pelo SUS. Como a hipertensão costuma não dar sintomas, a única forma de saber como está a pressão é medir com regularidade. A partir dos 20 anos, a recomendação é medir ao menos uma vez por ano e, em quem tem histórico familiar, ao menos duas vezes por ano.',
+          'Quando a pressão sobe muito, geralmente a partir de 180 por 120, e vem acompanhada de sinais como dor de cabeça intensa, dor no peito, falta de ar, visão embaçada ou fraqueza em um lado do corpo, procure atendimento imediato: um pronto atendimento ou o SAMU, no número 192.',
+          'Vale lembrar por que esse cuidado importa: quando não é controlada, a hipertensão aumenta o risco de complicações como angina, infarto, insuficiência cardíaca, arritmia, AVC e insuficiência renal. Cuidar da alimentação e do sal é parte de reduzir esse risco ao longo dos anos.',
+        ],
+        cta: {
+          label: 'Entenda a hipertensão na página completa',
+          href: '/doencas/hipertensao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertensao'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['hipertensao-como-medir-a-pressao-em-casa', 'hipertensao-posso-parar-o-remedio', 'hipertensao-metas-de-pressao', 'hipertensao-perigo-mesmo-sem-sintomas'],
+    references: [
+      {
+        label: 'Hipertensão arterial: materiais e orientações',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipertensao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Hypertension: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hypertension',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Alimentação saudável: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Atividade física: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/physical-activity',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-20',
+    updatedAt: '2026-10-20',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertensao-posso-parar-o-remedio',
+    slug: 'hipertensao-posso-parar-o-remedio',
+    title: 'Posso parar o remédio quando a pressão normaliza?',
+    excerpt:
+      'Quando a pressão volta ao normal, é o remédio que está funcionando, e não sinal de cura. Entenda por que não se deve parar por conta própria e o que fazer diante de efeitos colaterais.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'pressao-controlada-nao-e-cura',
+        heading: 'Pressão normal com remédio não é cura',
+        paragraphs: [
+          'Muita gente começa o tratamento para hipertensão, vê a pressão sempre normal nas medições e pensa que já pode parar. É uma reação compreensível, mas é justamente o engano mais comum. A hipertensão é uma doença crônica e, na imensa maioria dos casos, não desaparece. O que acontece é que o medicamento está funcionando: quando a pressão cai e se mantém em níveis seguros, isso é sinal de que o tratamento está correto, e não de que você pode abrir mão dele.',
+          'A pressão que aparece no aparelho é o resultado de duas coisas juntas: o remédio e os seus hábitos. Quando você suspende o medicamento por conta própria, a pressão tende a voltar a subir com o tempo, muitas vezes de forma silenciosa, sem nenhum sintoma. É essa volta silenciosa que torna a decisão de parar tão perigosa.',
+          'Pense na sua pressão como um número que precisa de ajuda constante para se manter baixo, e não como um problema que se resolve de uma vez. Enquanto o remédio age, as artérias trabalham com menos esforço; sem ele, esse esforço volta a crescer aos poucos. É por isso que a hipertensão pede tratamento contínuo, mesmo quando você se sente bem.',
+        ],
+      },
+      {
+        id: 'por-que-nao-parar-sozinho',
+        heading: 'Por que parar por conta própria é perigoso',
+        paragraphs: [
+          'A hipertensão costuma não avisar. Ela geralmente não dá sintoma nenhum até virar um problema grave. Quando a pressão sobe muito, podem aparecer dor de cabeça, tontura, zumbido no ouvido, fraqueza, visão embaçada ou sangramento nasal, mas usar esses sinais para decidir tomar ou não o remédio é um erro, porque nem sempre eles aparecem.',
+          'Sem o controle da pressão, cresce o risco de complicações como angina, infarto, insuficiência cardíaca, arritmia, AVC e insuficiência renal. No Brasil, 388 pessoas morrem por dia por causa da hipertensão. Nenhuma dessas complicações escolhe hora, e o remédio é o que mantém a sua pressão longe dessa faixa de risco.',
+          'O tratamento da hipertensão não busca apenas um número bonito no aparelho. Ele protege o coração, o cérebro, os rins e os vasos ao longo de anos. Cada dia com a pressão controlada é um dia menos de desgaste para esses órgãos, e é isso que reduz o risco de infarto e de AVC no futuro.',
+        ],
+      },
+      {
+        id: 'efeitos-colaterais',
+        heading: 'Efeitos colaterais: fale com a equipe, não pare sozinho',
+        paragraphs: [
+          'Há quem abandone o remédio por causa de efeitos colaterais, mas essa é a saída errada. Se o medicamento está causando algum incômodo, o caminho certo é conversar com a equipe de saúde. Existem várias classes de medicamentos para a pressão, como diuréticos, IECA, BRA, bloqueadores de canal de cálcio e betabloqueadores, e o profissional pode trocar a substância ou ajustar a dose para encontrar o que funciona melhor para você.',
+          'Nunca dobre a dose por conta própria nem use o remédio de outra pessoa. Cada medicamento e cada dose são pensados para o seu caso, e o mesmo comprimido que ajuda uma pessoa pode não servir para outra. Se um remédio começou a fazer mal, avise quem acompanha você na Atenção Básica, na sua UBS.',
+          'Muitos efeitos colaterais melhoram com o tempo ou com um pequeno ajuste de dose, e há sempre alternativas. Abandonar o remédio sem orientação devolve o risco que o tratamento estava controlando, sem resolver o desconforto da forma certa.',
+        ],
+      },
+      {
+        id: 'tomar-todo-dia',
+        heading: 'Como não esquecer e manter o tratamento',
+        paragraphs: [
+          'Manter o tratamento todos os dias é o que sustenta o controle da pressão. Como a hipertensão costuma não dar sintoma, é justamente quando a pessoa se sente bem que a rotina de tomar o remédio corre o risco de escapar.',
+          'Por isso, vale apoiar-se na rotina em vez de apenas na memória. Alguns ajustes pequenos fazem a dose deixar de ser uma decisão diária:',
+        ],
+        bullets: [
+          'Tome o medicamento sempre no mesmo horário, encaixando-o em algo que já faz parte da sua rotina, como escovar os dentes ou o café da manhã.',
+          'Use uma caixa organizadora semanal ou um alarme no celular para lembrar cada dose.',
+          'Mantenha a receita em dia e leve-a sempre que for retirar o remédio na unidade de saúde.',
+          'Se esquecer uma dose, retome o horário normal. Nunca tome dose dobrada para compensar.',
+          'Não interrompa o tratamento nem ajuste a dose por conta própria, mesmo quando a pressão estiver boa.',
+          'Leve o aparelho de pressão nas consultas e anote os valores para mostrar à equipe.',
+        ],
+      },
+      {
+        id: 'quando-o-medico-ajusta',
+        heading: 'Quando o médico pode mudar ou ajustar o remédio',
+        paragraphs: [
+          'Reduzir, trocar ou até suspender um medicamento é uma decisão que pode existir, mas ela é do médico que acompanha o seu caso, com base nas suas medições e no seu conjunto de riscos. Se você mede a pressão com regularidade, leva os valores ao atendimento e mantém hábitos saudáveis, o tratamento pode ser revisto com segurança.',
+          'A meta de pressão não é igual para todo mundo. Para quem tem doença cardiovascular, diabetes, doença renal crônica ou alto risco, a meta costuma ser abaixo de 130/80 mmHg; para as demais pessoas, abaixo de 140/90 mmHg, que é o mesmo que 14 por 9. Alcançar a meta é o objetivo do tratamento, e não um motivo para interrompê-lo.',
+          'Entre uma consulta e outra, manter os hábitos também faz parte do plano: reduzir o sal, praticar atividade física com regularidade e evitar o fumo ajudam o remédio a funcionar melhor. Assim, é possível que o médico encontre a menor dose eficaz para o seu caso.',
+        ],
+      },
+      {
+        id: 'remedio-gratuito-e-ajuda',
+        heading: 'Onde conseguir o remédio e quando procurar ajuda',
+        paragraphs: [
+          'No Brasil, o tratamento da hipertensão tem apoio do sistema público. O SUS oferece medicamentos gratuitos nas UBS, e o programa Farmácia Popular passou a oferecer gratuitamente, desde fevereiro de 2025, os medicamentos de sua lista para hipertensão. Para retirar, leve documento de identidade com foto, CPF e a receita médica dentro do prazo, que é de 120 dias.',
+          'Tomar o remédio todos os dias e acompanhar a pressão na Atenção Básica é o que mantém uma doença silenciosa sob controle. Nunca interrompa nem ajuste a medicação sozinho; em caso de dúvida, procure a sua unidade de saúde. Mas fique atento: se a pressão estiver muito alta, geralmente a partir de 180/120, e vier acompanhada de dor de cabeça intensa, dor no peito, falta de ar, visão embaçada, tontura, náusea, confusão ou fraqueza em um lado do corpo, procure atendimento imediatamente ou chame o SAMU pelo 192.',
+          'Guardar as receitas, não faltar às consultas de acompanhamento e medir a pressão em casa são atitudes simples que sustentam o controle. Se tiver qualquer dúvida sobre o seu tratamento, a equipe da Atenção Básica é o primeiro lugar a procurar; ela conhece o seu histórico e pode orientar o passo certo, sem que você precise decidir sozinho.',
+        ],
+        cta: {
+          label: 'Entenda a hipertensão na página completa',
+          href: '/doencas/hipertensao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertensao'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['hipertensao-como-medir-a-pressao-em-casa', 'hipertensao-alimentacao-e-sal', 'hipertensao-metas-de-pressao', 'hipertensao-perigo-mesmo-sem-sintomas'],
+    references: [
+      {
+        label: 'Hipertensão arterial: materiais e orientações',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipertensao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Hypertension: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hypertension',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-20',
+    updatedAt: '2026-10-20',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertensao-metas-de-pressao',
+    slug: 'hipertensao-metas-de-pressao',
+    title: 'Hipertensão: até quanto a pressão deve baixar',
+    excerpt:
+      'Cada pessoa tem uma meta de pressão a alcançar, e ela não é igual para todos. Entenda por que o alvo varia, quais valores orientam o tratamento e por que forçar a queda não é o caminho.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-uma-meta',
+        heading: 'O que significa ter uma meta de pressão',
+        paragraphs: [
+          'Tratar a hipertensão não é apenas deixar o número da pressão mais baixo. Existe uma meta, ou seja, um valor que o tratamento deve alcançar e manter para reduzir o risco de infarto, AVC e problemas nos rins. É um alvo a ser perseguido com constância, e não o resultado de uma única medição.',
+          'Esse alvo não é igual para todo mundo e não se resume a decorar um número. Ele depende do risco cardiovascular de cada pessoa, das doenças que já existem e de como o corpo responde ao tratamento. Por isso, a mesma medida registrada em dois pacientes pode ter significados bem diferentes e exigir decisões diferentes.',
+          'Entender o próprio alvo ajuda a participar do tratamento com mais segurança. Saber qual é o objetivo não substitui a consulta, mas torna cada medição mais útil e evita decisões precipitadas tomadas por conta própria.',
+        ],
+      },
+      {
+        id: 'meta-geral',
+        heading: 'A meta geral: abaixo de 140 por 90',
+        paragraphs: [
+          'A referência geral de tratamento é manter a pressão abaixo de 140 por 90 mmHg. É o mesmo valor que caracteriza a doença: a hipertensão é definida quando a pressão nas artérias chega a 140 por 90 mmHg ou mais, aquilo que muita gente chama de \'14 por 9\'.',
+          'Quem não tem outras condições associadas costuma ser acompanhado para permanecer nessa faixa. Alcançar esse patamar já representa uma redução importante do risco, e o objetivo passa a ser manter a estabilidade ao longo dos meses e dos anos, e não apenas durante uma consulta.',
+          'Manter, nesse contexto, é tão importante quanto alcançar. Uma pressão que fica bem em um dia e descontrolada no outro não protege o coração e os vasos de forma consistente, o que reforça a necessidade de acompanhamento contínuo.',
+        ],
+      },
+      {
+        id: 'meta-mais-estrita',
+        heading: 'A meta mais estrita: abaixo de 130 por 80',
+        paragraphs: [
+'Para determinados grupos, o alvo é mais apertado e a pressão deve ficar abaixo de 130 por 80 mmHg, porque o risco de complicações é maior e a diferença entre 140 e 130 pesa.',
+          'Nesses casos, a meta mais estrita protege de forma mais firme órgãos como coração, cérebro e rins.',
+        ],
+        bullets: [
+          'Pessoas com doença cardiovascular já estabelecida',
+          'Pessoas com diabetes',
+          'Pessoas com doença renal crônica',
+          'Pessoas classificadas como de alto risco cardiovascular',
+        ],
+      },
+      {
+        id: 'por-que-a-meta-muda',
+        heading: 'Por que a meta muda de pessoa para pessoa',
+        paragraphs: [
+'A escolha do alvo resulta da soma de vários fatores, e não de uma regra única aplicada a todos. A hipertensão se torna mais frequente com o avanço da idade e é mais comum em pessoas negras e em pessoas com diabetes. Hábitos também pesam nessa conta. Fumo, bebidas alcoólicas, obesidade, estresse, consumo elevado de sal, colesterol alto e falta de atividade física influenciam tanto o risco geral quanto a forma como a pressão responde ao tratamento.',
+          'Por isso a avaliação é sempre individual. O profissional de saúde considera o risco total do paciente, as doenças que já existem e a resposta ao tratamento para decidir o quanto apertar a meta. Nem sempre descer ao menor número possível é o melhor caminho para todos.',
+          'Conhecer o próprio contexto, portanto, ajuda a entender por que a meta de um vizinho não serve de referência para você. Comparar valores entre pessoas diferentes, sem levar em conta o histórico de cada uma, costuma confundir mais do que esclarecer.',
+        ],
+      },
+      {
+        id: 'mais-baixa-sempre-melhor',
+        heading: 'Pressão mais baixa é sempre melhor?',
+        paragraphs: [
+          'Uma dúvida comum, especialmente entre pessoas mais velhas, é se a pressão deve baixar o máximo possível. A resposta não é simples: o objetivo não é o número mais baixo que o aparelho consegue mostrar, mas o alvo definido para cada pessoa, considerando o risco e a tolerância do organismo.',
+          'Forçar a pressão para baixo mais do que o necessário, sem orientação, pode trazer mais mal do que bem. O corpo tem um limite de adaptação, e uma queda exagerada pode deixar a pessoa mal e levar à interrupção do tratamento.',
+          'A decisão sobre quanto baixar pertence ao profissional de saúde, que ajusta o alvo conforme o quadro evolui. O que parece \'o mais baixo possível\' em uma conversa de sala de espera nem sempre corresponde ao que é seguro e sustentável para um paciente específico.',
+        ],
+      },
+      {
+        id: 'baixar-devagar',
+        heading: 'Por que baixar a pressão rápido demais pode fazer mal',
+        paragraphs: [
+'Buscar a meta rapidamente, por conta própria, não é seguro. Dobrar a dose, usar a medicação de outra pessoa ou interromper o remédio sem orientação são atitudes que podem desorganizar a pressão e trazer problemas. A pressão responde melhor quando a mudança é gradual e acompanhada. Quem tenta forçar o resultado sozinho pode oscilar entre valores muito baixos e muito altos, e ainda perde de vista o que de fato funciona para o seu caso.',
+          'O ajuste é feito pelo profissional, que observa como o corpo responde e acrescenta ou troca classes de medicamentos quando é preciso. Diuréticos, inibidores da enzima conversora (IECA), bloqueadores do receptor de angiotensina (BRA), bloqueadores de canal de cálcio e betabloqueadores entram conforme a necessidade de cada caso.',
+          'Vale lembrar que, quando a pressão sobe muito, geralmente a partir de 180 por 120 mmHg, e vem acompanhada de dor de cabeça intensa, dor no peito, falta de ar, visão embaçada, tontura, náusea, confusão ou sangramento nasal, a orientação é procurar atendimento imediatamente. Esse cenário é diferente da busca tranquila por uma meta no dia a dia.',
+        ],
+      },
+      {
+        id: 'como-a-meta-e-acompanhada',
+        heading: 'Como a meta é acompanhada no dia a dia',
+        paragraphs: [
+'Acompanhar a meta exige medir a pressão com regularidade. A medição feita em casa, chamada de MRPA, ajuda muito nesse processo: quando a média das medidas residenciais chega a 130 por 80 mmHg, o resultado já é considerado alterado. Em alguns casos o profissional solicita a MAPA, a monitorização ambulatorial por 24 horas, que mostra como a pressão se comporta ao longo do dia, durante a vigília e também durante o sono. Levar as anotações de casa para a consulta deixa o quadro mais claro.',
+          'Medir com regularidade é a única forma de saber se a pressão está alta. Quem tem mais de 20 anos deve medir pelo menos uma vez por ano, e quem tem histórico familiar, no mínimo duas vezes por ano.',
+          'O acompanhamento acontece na Atenção Básica, nas unidades básicas de saúde (UBS), onde a equipe ajusta o tratamento e tira dúvidas. Desde fevereiro de 2025, o programa Farmácia Popular oferece gratuitamente os medicamentos de sua lista para hipertensão, o que ajuda a manter o tratamento sem interrupção.',
+        ],
+        cta: {
+          label: 'Entenda a hipertensão na página completa',
+          href: '/doencas/hipertensao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertensao'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['hipertensao-como-medir-a-pressao-em-casa', 'hipertensao-alimentacao-e-sal', 'hipertensao-posso-parar-o-remedio', 'hipertensao-perigo-mesmo-sem-sintomas'],
+    references: [
+      {
+        label: 'Hipertensão arterial: materiais e orientações',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipertensao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Hypertension: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hypertension',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-20',
+    updatedAt: '2026-10-20',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertensao-perigo-mesmo-sem-sintomas',
+    slug: 'hipertensao-perigo-mesmo-sem-sintomas',
+    title: 'Pressão alta sem sintomas ainda é perigosa: por que a hipertensão silenciosa preocupa',
+    metaTitle: 'Pressão alta sem sintomas: por que é perigosa',
+    excerpt:
+      'A hipertensão costuma não dar sintoma nenhum, mas segue machucando coração, cérebro, rins e olhos ao longo dos anos. Medir a pressão é a única forma de saber.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'doenca-silenciosa',
+        heading: 'Uma doença que não avisa',
+        paragraphs: [
+'A hipertensão é uma doença crônica: a pressão nas artérias fica alta de forma persistente, igual ou acima de 140 por 90 milímetros de mercúrio. O problema é que, na maior parte do tempo, ela não produz sintoma nenhum. A pessoa se sente bem, trabalha, dorme e não desconfia de nada, mesmo com as artérias sob pressão. Não sentir nada não significa que nada esteja acontecendo. Enquanto a pressão segue alta, o corpo se adapta e o dano se acumula em silêncio, ano após ano. Existe também uma forte herança nesse quadro: em cerca de 9 em cada 10 casos, a hipertensão é herdada dos pais.',
+          'Alguns fatores pesam no aparecimento da doença: fumo, bebidas alcoólicas, obesidade, estresse, consumo elevado de sal, colesterol alto e falta de atividade física. A hipertensão é mais frequente em pessoas negras, em pessoas com diabetes, e aumenta com a idade.',
+          'No mundo, cerca de 1,4 bilhão de adultos de 30 a 79 anos têm hipertensão, o que corresponde a 33% dessa faixa. Quase metade deles, 44%, não sabe que tem a doença. É essa parcela silenciosa que mais preocupa.',
+        ],
+      },
+      {
+        id: 'dano-ao-longo-do-tempo',
+        heading: 'O que a pressão alta faz com o coração, o cérebro, os rins e os olhos',
+        paragraphs: [
+'A pressão elevada empurra o sangue com mais força contra a parede das artérias. Com o tempo, essa sobrecarga desgasta os vasos e obriga o coração a fazer mais esforço para bombear o sangue. É uma conta que o corpo cobra mais tarde. O coração pode aumentar de tamanho e perder eficiência, o que abre caminho para a insuficiência cardíaca. No cérebro, os vasos enfraquecidos aumentam o risco de AVC. Nos rins, a pressão alta compromete aos poucos a capacidade de filtrar o sangue. Nos olhos, um dos sinais possíveis é a visão embaçada, que costuma aparecer quando a pressão sobe muito.',
+          'O ponto central é que nenhuma dessas mudanças costuma doer ou dar aviso prévio. O corpo vai se ajustando à pressão alta sem que a pessoa perceba, e é por isso que a doença costuma ser descoberta tarde, muitas vezes só depois de uma complicação. Por isso a hipertensão é chamada de doença silenciosa: ela age por dentro, sem que a pessoa sinta nada. O preço dessa pressão constante costuma aparecer anos depois, quando o dano já se instalou nos órgãos.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'As complicações que a hipertensão aumenta',
+        paragraphs: [
+          'Além do sofrimento que causam, essas complicações explicam por que a hipertensão é tão grave. No Brasil, 388 pessoas morrem por dia por causa da hipertensão.',
+          'Muitas dessas complicações se desenvolvem devagar e só se manifestam quando já estão avançadas, o que torna o controle da pressão ainda mais importante.',
+        ],
+        bullets: [
+          'Angina, quando o coração recebe menos sangue do que precisa',
+          'Infarto, quando uma artéria do coração é obstruída',
+          'Insuficiência cardíaca, quando o coração perde força para bombear',
+          'Arritmia, quando o ritmo do coração se altera',
+          'AVC, quando um vaso do cérebro entope ou se rompe',
+          'Insuficiência renal, quando os rins perdem a capacidade de filtrar',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta que não podem ser ignorados',
+        paragraphs: [
+          'Quando a pressão sobe muito, geralmente acima de 180 por 120, o corpo pode dar sinais claros. Nesses casos, a orientação é procurar atendimento imediatamente, em um pronto atendimento ou chamando o SAMU pelo número 192, sem esperar que passe em casa.',
+          'Insistimos nesse ponto porque, com a pressão muito alta, esperar que os sintomas passem em casa pode custar caro. O atendimento rápido faz diferença.',
+        ],
+        bullets: [
+          'Dor de cabeça súbita e intensa',
+          'Dor no peito',
+          'Falta de ar',
+          'Visão embaçada ou alterações na visão',
+          'Tontura, náusea ou confusão',
+          'Zumbido no ouvido e sangramento nasal',
+          'Fraqueza em um lado do corpo',
+          'Alteração no ritmo do coração',
+        ],
+      },
+      {
+        id: 'medir-e-a-unica-forma',
+        heading: 'Medir é a única forma de saber',
+        paragraphs: [
+'Como a hipertensão não dá sintoma, nenhuma sensação serve de aviso. A única forma de saber se a pressão está alta é medir. Quem tem mais de 20 anos deve medir a pressão pelo menos uma vez por ano; quem tem histórico familiar deve medir no mínimo duas vezes por ano. A medição repetida é o que confirma o diagnóstico. Na medição feita em casa, a média igual ou acima de 130 por 80 já confirma a hipertensão. Na monitorização de 24 horas, a média também é de 130 por 80, com 135 por 85 durante a vigília e 120 por 70 durante o sono.',
+          'Por isso não adianta esperar sentir algo para procurar ajuda. Quem mede a pressão com regularidade descobre o problema cedo, muitas vezes antes de qualquer complicação.',
+          'O aparelho mostra apenas o valor daquele momento e não faz diagnóstico sozinho. Quem interpreta o resultado e define o tratamento é o profissional de saúde, que também orienta sobre a melhor forma de medir.',
+        ],
+      },
+      {
+        id: 'tratamento-continuo',
+        heading: 'O tratamento contínuo é o que protege',
+        paragraphs: [
+'Depois do diagnóstico, o objetivo é manter a pressão controlada de forma contínua. Para pessoas com doença cardiovascular, diabetes, doença renal crônica ou alto risco, a meta costuma ser abaixo de 130 por 80; para as demais, abaixo de 140 por 90. As mudanças de hábito ajudam, mas muitas vezes não bastam sozinhas. Reduzir o sal para menos de 2 gramas de sódio por dia, praticar 150 minutos de atividade física moderada por semana, limitar o álcool e parar de fumar fazem parte do cuidado. Os medicamentos entram quando são necessários e não devem ser interrompidos por conta própria, nem ter a dose dobrada, nem ser substituídos pelo remédio de outra pessoa.',
+          'No Brasil, o SUS oferece os medicamentos para hipertensão gratuitamente nas unidades básicas de saúde e pelo programa Farmácia Popular. Para retirar, é preciso levar documento de identidade com foto, CPF e receita médica dentro do prazo. O acompanhamento é feito na Atenção Básica.',
+          'A escolha do medicamento e da dose é feita pelo profissional, de acordo com o perfil de cada pessoa. O acompanhamento na Atenção Básica permite ajustar o tratamento para manter a pressão na meta com o passar do tempo. Vale reforçar que a hipertensão não tem cura, mas tem controle. Com medição regular e tratamento contínuo, é possível reduzir bastante o risco de infarto, AVC, insuficiência cardíaca e insuficiência renal.',
+        ],
+        cta: {
+          label: 'Entenda a hipertensão na página completa',
+          href: '/doencas/hipertensao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertensao'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['hipertensao-como-medir-a-pressao-em-casa', 'hipertensao-alimentacao-e-sal', 'hipertensao-posso-parar-o-remedio', 'hipertensao-metas-de-pressao'],
+    references: [
+      {
+        label: 'Hipertensão arterial: materiais e orientações',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipertensao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Hypertension: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hypertension',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Alimentação saudável: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Atividade física: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/physical-activity',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-20',
+    updatedAt: '2026-10-20',
+    isPlaceholder: true,
+  },
 ];

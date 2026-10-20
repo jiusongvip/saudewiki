@@ -63,14 +63,25 @@ description: 为本站已存在的疾病词条派生巴西葡语文章（含繁�
 
 读取并遵守[葡语编辑与质检清单](../_shared/editorial-checklist.md)。
 
-- **篇幅与深度标准**：全文约 **1100 至 1400 词**、每节 **2 至 3 段**。**section 的数量与每节写什么由该篇主题决定**——先判断这个题目讲透需要分几节、每节具体承载哪部分内容，再据此切分和展开，不固定节数，也不要求每个 section 都套「是什么 / 为什么 / 怎么办」三层：每节写什么、写多深，跟着它自己的主题走，只把该节主题说清楚，而不是每节都把三层各凑一段。升级或重写既有文章时按同一标准对齐；只把短缺的部分补齐，不推倒重来。
+- **篇幅与深度标准**：正文 **900 至 1200 词**、每节 **2 至 3 段**。字数口径固定为 body 各 section 的 `paragraphs` 与 `bullets`（标题、导语、各节小标题、`cta` 标签与 `references` 的 label 不计入），交付前由 `check-editorial.mjs` 的 `wordcount` 规则校验。**section 的数量与每节写什么由该篇主题决定**——先判断这个题目讲透需要分几节、每节具体承载哪部分内容，再据此切分和展开，不固定节数，也不要求每个 section 都套「是什么 / 为什么 / 怎么办」三层：每节写什么、写多深，跟着它自己的主题走，只把该节主题说清楚，而不是每节都把三层各凑一段。升级或重写既有文章时按同一标准对齐；只把短缺的部分补齐，不推倒重来。
+- **不设只为挂 CTA 的凑数小节（硬规则）**：不得新开「Onde entender mais sobre a doença」「在哪裡進一步了解此疾病」这类通篇复述疾病页有哪些栏目、只为安置跳转链接的 section。每篇文章只在**最后一个实质内容 section** 上挂一个 `cta`（孪生写 `ctaLabel`）指回疾病页；每个 section 都必须承载本篇主题的实质信息，不得为凑结构、凑节数或凑字数而新增。
 - 各篇必须独立成文，不得把 section 或「相关阅读」条目原样搬过来；同一事实在不同文章中的措辞与侧重要有区分。
 - **零臆造（硬规则）**：文章里每一个具体断言都必须可溯源到疾病词条自身的 section / faq，或已核实并列入 `references` 的来源；核不到就删除或改写为定性表述，不得凭常识或记忆补数字、补政策、补人群。
-- 同时产出 `zh-Hant` 繁体孪生：与 `pt-BR` 同源改写（不是二次翻译），术语与数字必须与 `pt-BR` 一致，语气、标点与用词遵循台湾繁体中文，不使用 `你`，不得出现简体专用字形。
+- 同时产出 `zh-Hant` 繁体孪生：与 `pt-BR` 同源改写（不是二次翻译），术语与数字必须与 `pt-BR` 一致，语气、标点与用词遵循台湾繁体中文，不使用 `你`，不得出现简体专用字形。繁体层每个读者可见字段都必须是繁中，**不得残留葡语原文**——最易漏译的是 `references` 的 `label` 与 `publisher`（整条照抄葡语不会触碰任何结构不变量）；仅巴西专有名词与缩写（`SUS`、`Anvisa`、`Instituto Butantan`、`Farmácia Popular`、`SAMU 192`、`CPF`、`UBS`、`CONITEC`、`MAPA` 等）与 `url` 可原样保留。此项由 `scripts/check-i18n.mjs` 机械强制。
 
 ### 5. 写入站点数据文件
 
 先读 `README.md` 与 `src/types.ts` 确认真实字段，**结构与现有条目保持一致**。
+
+整篇新增或整篇重写时，用 `scripts/draft.mjs` 走「草稿 → 检查 → 写回」，不要手算行号或用脚本替换行区间：
+
+```bash
+node scripts/draft.mjs export <slug...> --out .tmp-content/<疾病>.json   # 已有文章才需要
+node scripts/draft.mjs check  .tmp-content/<疾病>.json                   # 字数、节数、双语结构
+node scripts/draft.mjs apply  .tmp-content/<疾病>.json                   # 写回 articles.ts 与孪生
+```
+
+`apply` 保留既有记录的 `id`、`publishedAt`、`reviewStatus`、`author`、`reviewer`、`isPlaceholder`，只取草稿的正文、接线与当天 `updatedAt`；草稿结构不合格时拒绝写入。局部改句仍可直接编辑数据文件。
 
 `pt-BR` 源：
 
@@ -110,7 +121,8 @@ isPlaceholder: true
 
 **图片**：每篇文章恰好配 1 张照片，做法沿用[疾病 skill 5.6](../disease-encyclopedia-ptbr/SKILL.md)：
 
-- 取图：Unsplash / Pexels 的 `images.unsplash.com` / `images.pexels.com` 可直连，参数固定 `?w=1200&h=800&fit=crop&q=80&fm=jpg`，并行下载并带超时重试；下载前先判断目标文件是否已存在，存在即跳过。检索候选要用浏览器 agent，且逐字复制页面 `<img>` 的 `src`，不得自行拼 URL。
+- 搜索词：由**目标画面主体**决定，写成英文名词短语（器械、身体部位、就诊场景、动作），**不要拿疾病名或文章标题当词**；先按主题词搜，无果再放宽到场景词，Unsplash 与 Pexels 用同一组词。
+- 取图：**图源只限 Unsplash 与 Pexels 两个网站的真实照片，先在 Unsplash 搜索、无果再转 Pexels，两站都无合适照片才回退占位图；不得使用 AI 生成图片**。两者的 `images.unsplash.com` / `images.pexels.com` 可直连，参数固定 `?w=1200&h=800&fit=crop&q=80&fm=jpg`，并行下载并带超时重试；下载前先判断目标文件是否已存在，存在即跳过。检索候选要用浏览器 agent，且逐字复制页面 `<img>` 的 `src`，不得自行拼 URL。
 - 核图（不得跳过）：下载到 `/tmp` 后用 Read 工具**逐张读图**，确认画面与目标相符才可写入。
 - 落盘：统一 `.webp`、宽 1200px，`public/img/artigo-<slug>.webp`；编码用 `sharp`：`sharp(src).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 82 }).toFile(dest)`。
 - 成对登记：`src/lib/images.ts` 的 `articleImages`（`pt-BR` 的 `alt`）与 `src/data/zh-Hant/image-alts.ts`（繁中的 `alt`），key 均为 slug；`alt` 只描述画面内容、**不得含任何形式的破折号**。找不到贴切照片时回退占位图，不要硬凑。
@@ -125,7 +137,7 @@ isPlaceholder: true
 6. 孪生不得新增源没有的 `metaTitle`。
 7. 用到的每个 `categorySlug` 都有孪生标签。
 8. 每个 image slug 都有孪生 `alt`，且孪生 `alt` 不指向没有图片的 slug。
-9. 新建的繁体文本不得出现 `你`（统一用 `您`），不得含简体专用字形。
+9. 新建的繁体文本不得出现 `你`（统一用 `您`），不得含简体专用字形；**也不得残留葡语**——繁体层每个读者可见字段（`references` 的 `label`/`publisher` 最易漏译）都须是繁中，只有巴西专有名词与缩写（`SUS`、`Anvisa`、`Instituto Butantan`、`Farmácia Popular`、`SAMU 192`、`CPF`、`UBS`、`CONITEC`、`MAPA` 等）与 `url` 可原样保留，由 `scripts/check-i18n.mjs` 机械强制。
 10. slug 唯一且为 ASCII kebab；`cta.href` 指向真实存在的根路径。
 11. 不得使用视图已占用的 section id：`perguntas-frequentes`、`artigos-relacionados`、`temas-relacionados`、`outras-doencas`、`correcao`。
 12. 修改既有文章时：不得改动已有 body section 的 `id` 与 `publishedAt`。
@@ -136,12 +148,11 @@ isPlaceholder: true
 
 **硬门禁（先执行，不通过不得进入评分）**
 
-1. **写前记录基线**：运行 `node scripts/check-i18n.mjs`，记下当前已有问题集合（本仓库基线并非全绿，判断标准是差异而不是全绿）。
-2. 写入完成后再次运行 `node scripts/check-i18n.mjs`：**问题集合不得新增，且不得出现引用本次 slug 的问题**。允许只减不增。
-3. 运行 `npm run build`：必须成功，并确认新路由已生成 —— `/artigos/<本次各文章 slug>/`、`/zh-Hant/artigos/<本次各文章 slug>/`（本次未生成文章时跳过文章路由核对）。
-4. 运行 `node scripts/check-editorial.mjs`（或 `npm run check:editorial`）：必须通过与 `scripts/editorial-baseline.json` 的差异比较，只允许减少不允许新增。
-5. 逐条核对上述结构不变量。
-6. 运行 `npm run check:references`（= `node scripts/references.mjs check`）：`references` 的每个 url 都已在共享资料库 `skills/_shared/sources/library.json` 中登记且 host 合规，必须通过。
+1. 运行 `npm run verify -- --prefix <本次文章 slug 前缀>`（或用 `--slug a,b` 指定）：它并行跑 `check-i18n`、`check-editorial`、`check:references`，并补上三道门禁不管的接线自查（疾病 / 主题 / 分类 / 配图 / CTA 是否指向真实条目）与每篇字数、每节段落数。必须以退出码 0 收口；`check-i18n` 的既有问题按差异判断，不得新增，也不得出现引用本次 slug 的问题。`check-i18n` 除结构不变量与繁体字形外，还按字符串检测**繁体层残留葡语**（字符串不含中文字且带葡语虚词或葡语变音即判红；巴西专有名词、缩写与 `url` 除外）。
+2. 逐篇核对 `verify` 打印的字数与节数：正文 900–1200 词、每节 2–3 段，越界即回改到达标。不要用 `split` 或字符数自行估算，口径以 `scripts/lib/article-rules.mjs` 为准。
+3. 运行 `npm run build`：必须成功，并确认新路由已生成 —— `/artigos/<本次各文章 slug>/`、`/zh-Hant/artigos/<本次各文章 slug>/`（本次未生成文章时跳过文章路由核对）。构建只在交付前跑一次，写作期用第 1 步收口。
+4. 逐条核对上述结构不变量。
+5. `check:references` 已由第 1 步覆盖：`references` 的每个 url 都已在共享资料库 `skills/_shared/sources/library.json` 中登记且 host 合规。
 
 **内容检查**
 
@@ -149,7 +160,7 @@ isPlaceholder: true
 - 搜索文件中的中文字符、中国地名、标准、机构、政策与原网站品牌，确认已全部替换或删除。
 - 药物禁忌、危险信号、诊断时间窗、单位和数字是否准确。
 - 是否像母语者创作的巴西葡语，而不是中文翻译腔。
-- 繁体孪生单独复查：术语与 `pt-BR` 一致、用词与标点符合台湾习惯、无简体字形、无 `你`。
+- 繁体孪生单独复查：术语与 `pt-BR` 一致、用词与标点符合台湾习惯、无简体字形、无 `你`、**逐字段无葡语残留**（尤其 `references` 的 `label` 与 `publisher`）。
 - 是否完成**三轮质检**：第一轮医学与安全、第二轮巴西本地事实与本地化、第三轮巴西葡语语言，逐轮打开并对照 [`../_shared/editorial-checklist.md`](../_shared/editorial-checklist.md)。
 
 每次执行都要在交付前进行内部评分；评分维度为医学准确性与安全性、巴西葡语自然度、巴西本地化、搜索结构与可读性、数据结构与 SEO 元数据，每项满分 10 分，综合评分取五项算术平均且必须为 10 分。低于 10 分不得交付：按扣分项修改后**重跑三轮**再复评，循环到达标为止。若存在危险信号错误、用药安全错误、未核实的巴西疫苗政策、中文语境残留、严重葡语歧义、结构不变量违规或明显的 AI 模板化痕迹与翻译腔，即使综合评分达到 10 分也不得判定为合格。

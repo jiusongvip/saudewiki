@@ -23,8 +23,8 @@
 15. 使用巴西用户自然搜索问法的常见问题。
 16. 免责声明不写入数据（本站的数据文件不存放免责声明文本），由视图统一渲染。
 17. H2 落地为 `sections[]` 对象：`id` 用 ASCII 且两语言完全一致，`heading` 是该节标题，正文放 `paragraphs` 或 `bullets`，需要引导阅读时加 `cta`。
-18. 内链写在段落里用 `[label](/path/)`，独立引导用 `cta: { label, href }`，路径均为根路径。
-19. **派生文章的深度标准**：全文约 1100 至 1400 词、每节 2 至 3 段；**section 的数量与每节内容由该篇主题决定**——先看这个题目该分几节、每节具体写什么，再据此组织，不固定节数，也不要求每个 section 都套「是什么 / 为什么 / 怎么办」三层，每节的深浅跟着自身主题走，不是把词条段落换词重排。重写或加厚既有文章时按同一标准对齐。
+18. 内链写在段落里用 `[label](/path/)`，独立引导用 `cta: { label, href }`，路径均为根路径。`cta` 只挂在**最后一个实质内容 section** 上；不得为安置跳转链接而新开一个只复述疾病页有哪些栏目的凑数 section（如「Onde entender mais sobre a doença」／「在哪裡進一步了解此疾病」），也不得为凑节数、凑字数新增无实质信息的 section。
+19. **派生文章的深度标准**：正文 **900 至 1200 词**（口径：只数 body 各 section 的 `paragraphs` 与 `bullets`；标题、导语、各节小标题、`cta` 标签与 `references` 的 label 不计入。`scripts/check-editorial.mjs` 的 `wordcount` 规则对此硬校验）、每节 2 至 3 段；**section 的数量与每节内容由该篇主题决定**——先看这个题目该分几节、每节具体写什么，再据此组织，不固定节数，也不要求每个 section 都套「是什么 / 为什么 / 怎么办」三层，每节的深浅跟着自身主题走，不是把词条段落换词重排。重写或加厚既有文章时按同一标准对齐。
 20. **文章零臆造**：文章里每个具体断言（数字、百分比、剂量、天数、分级或分型、检测时间窗、就医路径、风险人群、操作步骤）都必须能对应到疾病词条自身的 section / faq，或已列入 `references` 的来源；核不到来源的断言一律删除，或改写为不含具体细节的定性表述，不得凭常识或记忆补充。所引来源一律取自共享资料库 `skills/_shared/sources/library.json`（先 `node scripts/references.mjs search` 查库、未命中再取源并 `references.mjs add` 回写），不得引用库外或未核实链接。
 21. **结构体检（终检必做）**：把医典的 8 栏及其正文 H2 子主题与本站 `sections[].id` + `heading` 列成对照表，逐 H2 核对；缺的 H2 一律**新增独立 section**补齐（并同步 `zh-Hant` 孪生），不得并入已有 section 带过；确认 H3/H4 已降为 `bullets`/段落且内容未删、顶层 8 栏未各自成节；确认 section 总数 ≤15，若曾合并则列出被并项与承载 `id`。若某个 H2 的内容当前散落在别节，把它迁移到新节并在原节删除重复，已有 section 的 `id` 保持不变。
 
@@ -219,10 +219,11 @@
 6. 对照「巴西医疗文案编辑的表达准则」逐条检查：语域、指代与并列、患者用语、翻译腔形态、专业度与一致性，以及 AI 模板感的可计数红线；并对照「常见生硬表达与首选改写」表，确认没有可直接替换的生硬搭配，把新发现回写该表。
 7. 完成「本地校准」：对照 1-2 篇巴西权威来源核对语气、称呼和关键搭配。
 8. 确认元描述和标题读起来自然，而不是把搜索意图机械堆叠。
-9. 跑数据门禁：写入前后各运行一次 `node scripts/check-i18n.mjs`，问题集合不得新增（本仓库基线并非全绿，判断标准是差异而不是全绿）；`npm run build` 必须成功，且新路由已经生成（修改模式则确认原路由未被破坏）；`npm run check:references` 必须通过（`references` 的 url 全部在共享资料库中且 host 合规）。
-10. 对照「结构不变量」逐条核对：section `id` 集合一致、逐节 `paragraphs`/`bullets` 数量相等、`ctaLabel` 与源的 `cta` 严格配对、`references` 的 url 集合一致、孪生不新增源没有的 `metaTitle`、无 `你`、无简体专用字形；并确认没有使用视图已占用的 section id（`perguntas-frequentes`、`artigos-relacionados`、`temas-relacionados`、`outras-doencas`、`correcao`）。
-11. 确认成文没有声称自己是翻译、改编、经过医学审核或来自参考页面。
-12. 修改模式额外确认：slug 与已有 section 的 `id` 未变、`publishedAt` 未变、原有锚点与内链仍然有效、孪生已补齐。
+9. 跑数据门禁：写入前后各运行一次 `node scripts/check-i18n.mjs`，问题集合不得新增（本仓库基线并非全绿，判断标准是差异而不是全绿）；该脚本现已把「繁体层残留葡语」一并作为失败项（见第 10 条），新增的葡语残留会直接判红；`npm run build` 必须成功，且新路由已经生成（修改模式则确认原路由未被破坏）；`npm run check:references` 必须通过（`references` 的 url 全部在共享资料库中且 host 合规）。
+10. 对照「结构不变量」逐条核对：section `id` 集合一致、逐节 `paragraphs`/`bullets` 数量相等、`ctaLabel` 与源的 `cta` 严格配对、`references` 的 url 集合一致、孪生不新增源没有的 `metaTitle`、无 `你`、无简体专用字形、**繁体层不残留葡语**；并确认没有使用视图已占用的 section id（`perguntas-frequentes`、`artigos-relacionados`、`temas-relacionados`、`outras-doencas`、`correcao`）。
+11. **繁体层禁残留葡语（逐字段核对）**：繁体层每个读者可见字段都必须是繁中，最易漏译的是 `references` 的 `label` 与 `publisher`——它们不像正文那样有对应的葡语源句可对照，整条照抄葡语也不会触发任何结构不变量。允许原样保留的只有巴西专有名词与缩写（`SUS`、`Anvisa`、`Instituto Butantan`、`Farmácia Popular`、`SAMU 192`、`CPF`、`UBS`、`CONITEC`、`MAPA` 等）与 `url`；其余一律译为繁中。可用 `node scripts/check-i18n.mjs` 机械核验：它按「字符串不含中文字且带葡语特征（葡语虚词或葡语变音）」判定残留葡语。
+12. 确认成文没有声称自己是翻译、改编、经过医学审核或来自参考页面。
+13. 修改模式额外确认：slug 与已有 section 的 `id` 未变、`publishedAt` 未变、原有锚点与内链仍然有效、孪生已补齐。
 
 ## 评分标准（每项满分 10 分，综合评分为平均分）
 
