@@ -1628,6 +1628,15 @@ export const diseases: Disease[] = [
         ],
       },
       {
+        id: 'tipos',
+        heading: 'Quais são os tipos de tuberculose?',
+        paragraphs: [
+          'A tuberculose pode ser classificada de algumas formas. A primeira separa a infecção latente da doença ativa: na infecção latente pelo bacilo, a pessoa carrega a bactéria sem sintomas e sem transmitir; na doença ativa, há sintomas e, quando a forma é pulmonar ou laríngea, transmissão pelo ar. Nem toda pessoa infectada adoece, mas quem tem a infecção latente pode desenvolver a doença se a imunidade cair.',
+          'Outra divisão é pela localização. A forma pulmonar é a mais comum e a que transmite. A forma extrapulmonar atinge órgãos fora do pulmão, como gânglios linfáticos, a pleura, ossos e articulações, rins e as membranas que envolvem o cérebro. Na maioria desses casos não há transmissão, porque o bacilo não é lançado no ar.',
+          'Uma terceira classificação leva em conta a resposta aos medicamentos. Fala-se em tuberculose sensível quando a bactéria responde ao esquema básico, e em tuberculose resistente quando há resistência a um ou mais fármacos. A forma multidrogarresistente (MDR) não responde à rifampicina nem à isoniazida, os dois medicamentos mais importantes, e a resistente à rifampicina (RR) é o grupo mais preocupante. As formas resistentes exigem esquemas mais longos e complexos.',
+        ],
+      },
+      {
         id: 'transmissao',
         heading: 'Como a tuberculose é transmitida?',
         paragraphs: [
@@ -1641,6 +1650,7 @@ export const diseases: Disease[] = [
         heading: 'Quais são os sintomas?',
         paragraphs: [
           'O sintoma mais comum da tuberculose pulmonar é a tosse, que pode ser seca ou com catarro. Com o tempo, ela pode vir acompanhada de secreção com pus ou sangue. Toda pessoa com tosse por três semanas ou mais deve ser examinada para tuberculose, mesmo que os outros sintomas pareçam leves, e em grupos mais vulneráveis a recomendação é investigar a doença mesmo quando a tosse dura menos tempo. Os sinais mais frequentes são:',
+          'Quando a bactéria atinge órgãos fora do pulmão, os sintomas dependem do local afetado. Podem aparecer gânglios aumentados, dor nas costas ou nas articulações, dor de cabeça e rigidez no pescoço quando as membranas que envolvem o cérebro são atingidas, ou alterações ao urinar. Nesses casos, a tosse pode não ser o sinal principal, e a investigação parte do sintoma que chama atenção.',
         ],
         bullets: [
           'Tosse por três semanas ou mais, com ou sem expectoração',
@@ -1712,6 +1722,7 @@ export const diseases: Disease[] = [
           'O tratamento da tuberculose é gratuito e está disponível exclusivamente no Sistema Único de Saúde (SUS). Ele dura no mínimo seis meses; em alguns casos de crianças com a forma sensível e sem gravidade, é possível usar um esquema mais curto, de quatro meses.',
           'O esquema básico reúne quatro medicamentos: rifampicina, isoniazida, pirazinamida e etambutol. Nos dois primeiros meses, os quatro são usados em conjunto, na chamada fase intensiva. Nos quatro meses seguintes, geralmente permanecem a rifampicina e a isoniazida, na fase de manutenção. Em muitos serviços, os comprimidos vêm combinados em uma única apresentação, o que ajuda a tomar a dose certa todos os dias.',
           'Nas primeiras semanas, é comum a pessoa já se sentir melhor, mas isso não quer dizer que a doença esteja curada. Interromper o tratamento ou tomar os remédios de forma irregular pode levar à tuberculose resistente, que é mais difícil de tratar e exige mais tempo. Alguns cuidados com os medicamentos merecem atenção:',
+          'Em situações específicas, o tratamento pode incluir outros recursos. A cirurgia é reservada a casos selecionados, como resistência a medicamentos, lesões extensas, sangramento que não para ou complicações na pleura. Também podem ser usadas medidas de suporte para aliviar sintomas como falta de ar e sangramento. Essas decisões são tomadas por equipes especializadas e nunca substituem os antibióticos.',
         ],
         bullets: [
           'A rifampicina e a isoniazida podem causar inflamação no fígado, às vezes grave; avise a equipe de saúde se a pele ou os olhos ficarem amarelados, se a urina ficar escura ou se aparecerem náusea, vômitos ou dor na barriga',
@@ -1738,6 +1749,15 @@ export const diseases: Disease[] = [
         paragraphs: [
           'Com o tratamento correto até o fim, a maioria das pessoas se recupera bem. Quando a doença não é tratada ou o tratamento é irregular, podem ocorrer complicações, como destruição do pulmão, sangramento e acúmulo de ar na cavidade torácica. Nas formas graves, a doença pode atingir as membranas que envolvem o cérebro; entre pessoas que vivem com HIV e aids, é uma das principais causas de morte por doença infecciosa.',
           'Depois da cura, é possível ter tuberculose de novo. Por isso, quem já teve a doença e volta a apresentar tosse por três semanas ou mais deve procurar avaliação.',
+        ],
+      },
+      {
+        id: 'cuidados-diarios',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'Nas primeiras semanas de tratamento, vale reduzir o contato próximo com outras pessoas. Se for possível, durma em um quarto separado e mantenha as janelas abertas e o ambiente com entrada de sol. Ao dividir espaços fechados, use uma máscara. Depois que o exame do catarro indicar que não há mais transmissão, a rotina de convivência pode voltar ao normal.',
+          'Alguns hábitos ajudam na recuperação. Não fume, porque o cigarro prejudica a defesa dos pulmões e piora a evolução da doença. Evite bebidas alcoólicas, que aumentam o risco de dano ao fígado durante o tratamento. Procure manter uma alimentação adequada, descansar o suficiente e seguir os horários dos medicamentos todos os dias.',
+          'Também faz parte do cuidado acompanhar a própria evolução. Volte às consultas marcadas e faça os exames de controle do catarro nos prazos combinados com a equipe. Avise o serviço de saúde se os sintomas não melhorarem, se voltarem depois de uma melhora ou se surgirem sinais novos, como falta de ar, tosse com sangue ou emagrecimento. Nunca interrompa os remédios por conta própria.',
         ],
       },
       {
@@ -1844,7 +1864,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

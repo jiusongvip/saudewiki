@@ -1944,13 +1944,18 @@ export const articles: Article[] = [
         id: 'o-limite-das-tres-semanas',
         heading: 'O limite das três semanas',
         paragraphs: [
-          'Tosse por três semanas ou mais é o critério que a saúde pública usa para indicar a investigação de tuberculose. Não é um número arbitrário: é o ponto em que tosses por causas banais já deveriam ter passado.',
-          'Vale para tosse com catarro e também para tosse seca, e vale mesmo sem outros sintomas.',
+          'Tosse por três semanas ou mais é o critério que a saúde pública usa para indicar a investigação de tuberculose. Não é um número arbitrário: é o ponto em que tosses por causas banais, como resfriados e viroses, já deveriam ter passado.',
+          'Vale para tosse com catarro e também para tosse seca, e vale mesmo sem outros sintomas. O que muda a suspeita é a duração, não a intensidade. Uma tosse leve, mas que se arrasta por semanas, é mais preocupante do que uma tosse forte que desaparece em poucos dias.',
+          'Por isso, quem tem tosse por três semanas ou mais deve procurar uma unidade de saúde para fazer os exames do escarro. Em grupos mais vulneráveis, como pessoas que vivem com HIV e aids e quem convive com um caso confirmado, a investigação pode começar mesmo com menos tempo de tosse.',
         ],
       },
       {
         id: 'sinais-que-acompanham',
         heading: 'Sinais que costumam acompanhar',
+        paragraphs: [
+          'A tosse raramente vem sozinha. Febre baixa, muitas vezes no fim da tarde, suor noturno que chega a molhar a roupa, perda de peso sem causa aparente, cansaço e falta de apetite são comuns e costumam se instalar aos poucos, ao longo de semanas.',
+          'Sangue no catarro aparece em alguns casos e merece avaliação rápida. Nenhum desses sinais confirma a doença por si só, mas, somados à tosse prolongada, reforçam a necessidade de investigação.',
+        ],
         bullets: [
           'Febre baixa, muitas vezes no fim da tarde',
           'Suor noturno, às vezes com necessidade de trocar de roupa',
@@ -1960,11 +1965,43 @@ export const articles: Article[] = [
         ],
       },
       {
+        id: 'como-a-tuberculose-se-transmite',
+        heading: 'Como a tuberculose se transmite',
+        paragraphs: [
+          'A tuberculose se transmite pelo ar, e não pelo contato com objetos. Quando uma pessoa com a forma pulmonar ativa, sem tratamento, tosse, fala ou espirra, ela lança no ambiente partículas muito pequenas, que podem ficar suspensas por horas. Quem respira essas partículas pode se infectar.',
+          'Por isso, o risco é maior em ambientes fechados e pouco ventilados, onde as partículas se acumulam. O compartilhamento de roupas, lençóis, copos e talheres não tem papel importante na transmissão, porque o bacilo que se deposita nesses itens dificilmente se espalha pelo ar.',
+          'Em uma comunidade, calcula-se que uma pessoa doente sem tratamento consiga infectar, em média, de 10 a 15 pessoas ao longo de um ano. Isso mostra por que tratar cedo protege não apenas o paciente, mas toda a casa.',
+        ],
+      },
+      {
+        id: 'quem-deve-investigar-mais-cedo',
+        heading: 'Quem deve investigar mais cedo',
+        paragraphs: [
+          'Alguns grupos adoecem mais e devem ser avaliados mesmo com menos tempo de tosse. Segundo o Ministério da Saúde, o risco de ter tuberculose é muito maior entre pessoas em situação de rua, pessoas privadas de liberdade e pessoas que vivem com HIV e aids.',
+          'Também merecem atenção crianças pequenas, imigrantes, populações indígenas e quem convive com um caso confirmado, além de pessoas com diabetes ou que usam medicamentos que baixam a imunidade.',
+          'Nesses grupos, a avaliação de quem mora junto e a busca ativa pelos serviços de saúde ajudam a encontrar a doença cedo, quando o tratamento é mais simples e a transmissão pode ser interrompida antes.',
+        ],
+      },
+      {
         id: 'como-e-a-investigacao',
         heading: 'Como é a investigação',
         paragraphs: [
-          'A investigação começa na unidade básica de saúde e inclui exames do escarro, como a baciloscopia e o teste rápido molecular, além de radiografia de tórax quando indicada. Tudo é gratuito no SUS.',
-          'Se houver suspeita, também são avaliadas as pessoas que convivem com o paciente, porque a transmissão acontece pelo ar em ambientes fechados.',
+          'A investigação começa na unidade básica de saúde e inclui exames do escarro, como a baciloscopia e o teste rápido molecular, além da radiografia de tórax quando indicada. Tudo é gratuito no SUS.',
+          'O teste rápido molecular é o exame inicial do escarro e dá o resultado em pouco tempo. Quando é preciso definir melhor o tratamento, a cultura e o teste de sensibilidade mostram se a bactéria é resistente a algum medicamento.',
+          'Se houver um caso confirmado, também são avaliadas as pessoas que convivem com o paciente, porque a transmissão acontece pelo ar em ambientes fechados. Encontrar e tratar esses contatos é uma das formas de interromper a cadeia de transmissão.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre tuberculose',
+          href: '/doencas/tuberculose/',
+        },
+      },
+      {
+        id: 'o-que-esperar-do-atendimento',
+        heading: 'O que esperar do atendimento',
+        paragraphs: [
+          'Ao chegar à unidade de saúde com tosse prolongada, você passará por uma avaliação clínica e por exames do escarro, que são coletados no próprio serviço e não causam dor. Em geral, o resultado do teste rápido molecular sai em pouco tempo, e a radiografia de tórax pode ser solicitada como apoio.',
+          'No Brasil, a tuberculose é uma doença de notificação compulsória: todo caso confirmado é registrado pelo serviço de saúde no sistema de vigilância. Isso não substitui o sigilo do seu atendimento e serve para acompanhar a doença no país e planejar as ações de saúde pública.',
+          'Se o resultado confirmar a doença, o tratamento começa o quanto antes e é gratuito no SUS. Também são avaliadas as pessoas que convivem com você, porque a transmissão acontece pelo ar em ambientes fechados.',
         ],
       },
       {
@@ -1972,18 +2009,16 @@ export const articles: Article[] = [
         heading: 'O que não é sinal de tuberculose',
         paragraphs: [
           'Tosse que dura poucos dias, geralmente ligada a resfriados e viroses, não indica tuberculose. Espirros e coriza também não são sintomas típicos. O que muda a suspeita é a duração.',
+          'Nem toda tosse prolongada é tuberculose. Pneumonia, bronquite e até câncer de pulmão podem causar tosse por semanas, e por isso o exame do escarro é o que esclarece o diagnóstico, evitando que a doença seja tratada como outra infecção ou que outra doença passe despercebida.',
         ],
       },
       {
         id: 'o-que-fazer',
         heading: 'O que fazer',
         paragraphs: [
-          'Procure a unidade de saúde mais próxima, informe há quanto tempo a tosse começou e relate os outros sintomas. O diagnóstico precoce protege você e interrompe a transmissão para quem convive com você.',
+          'Procure a unidade de saúde mais próxima, informe há quanto tempo a tosse começou e relate os outros sintomas. Leve também informações sobre contato com alguém com tuberculose, se houver. A consulta é gratuita e sigilosa.',
+          'O diagnóstico precoce protege você e interrompe a transmissão para quem convive com você. O tratamento é gratuito no SUS e cura a doença quando é seguido até o fim. Adiar a consulta é o que costuma tornar o quadro mais grave. Em caso de dúvida, procure orientação mesmo que os sintomas pareçam leves: tirar a dúvida cedo é sempre melhor do que esperar.',
         ],
-        cta: {
-          label: 'Veja a página completa sobre tuberculose',
-          href: '/doencas/tuberculose/',
-        },
       },
     ],
     diseaseSlugs: ['tuberculose'],
@@ -2005,7 +2040,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -2023,7 +2058,8 @@ export const articles: Article[] = [
         heading: 'Como funciona o tratamento',
         paragraphs: [
           'O tratamento usa uma combinação de antibióticos, em geral por seis meses. A combinação é necessária porque a bactéria pode se tornar resistente se for tratada com um único medicamento.',
-          'Os medicamentos são fornecidos gratuitamente pelo SUS, e o acompanhamento inclui consultas regulares.',
+          'O esquema básico reúne quatro medicamentos: rifampicina, isoniazida, pirazinamida e etambutol. Nos dois primeiros meses, os quatro são usados em conjunto, na chamada fase intensiva. Nos quatro meses seguintes, geralmente permanecem a rifampicina e a isoniazida, na fase de manutenção.',
+          'Em alguns casos de crianças com a forma sensível e sem gravidade, é possível usar um esquema mais curto, de quatro meses. Em muitos serviços, os comprimidos vêm combinados em uma única apresentação, o que ajuda a tomar a dose certa todos os dias. O tratamento é gratuito e está disponível exclusivamente no SUS.',
         ],
       },
       {
@@ -2031,22 +2067,34 @@ export const articles: Article[] = [
         heading: 'Por que não interromper',
         paragraphs: [
           'A interrupção antes do fim é a principal causa de recaída e de resistência. Quando a bactéria se torna resistente, o tratamento passa a ser muito mais longo, mais complexo e com mais efeitos indesejados.',
-          'A sensação de melhora nas primeiras semanas é esperada e não significa que a doença acabou. Ela também não significa que a pessoa já pode parar.',
+          'A sensação de melhora nas primeiras semanas é esperada e não significa que a doença acabou. Ela também não significa que a pessoa já pode parar: tomar os remédios de forma irregular é justamente o que favorece o aparecimento da resistência.',
+          'Por isso, seguir os horários e tomar os remédios todos os dias, até o fim do prazo combinado com a equipe, é tão importante quanto o tipo de medicamento usado. Quando surgir qualquer dificuldade para manter o tratamento, converse com a equipe antes de mudar nada por conta própria.',
         ],
       },
       {
         id: 'transmissao-cai-rapido',
         heading: 'A transmissão cai rápido',
         paragraphs: [
-          'Nas primeiras semanas de tratamento, a transmissão cai muito. Isso protege quem convive com o paciente e mostra por que começar o tratamento cedo protege toda a casa.',
+          'Nas primeiras semanas de tratamento, a transmissão cai muito. Em geral, após cerca de 15 dias o risco de passar a doença para outra pessoa já é bem menor, e isso protege quem convive com o paciente.',
+          'Mesmo assim, até o exame do catarro dar negativo, vale manter a etiqueta da tosse, cobrindo a boca com o antebraço ou um lenço, e deixar os ambientes ventilados e com luz do sol. O bacilo é sensível à luz solar, e a circulação de ar ajuda a dispersar as partículas.',
         ],
       },
       {
         id: 'efeitos-e-apoio',
         heading: 'Efeitos do tratamento e apoio',
         paragraphs: [
-          'Alguns medicamentos podem causar efeitos como náusea, alterações na visão ou desconforto. Informe esses efeitos à equipe de saúde, que pode ajustar o tratamento. E nunca pare por conta própria.',
-          'O apoio da equipe e da família ajuda na adesão, e é parte do tratamento tanto quanto o medicamento.',
+          'É esperada uma cor alaranjada na urina, no suor e nas lágrimas por causa da rifampicina. Isso é normal e não é perigoso, e desaparece depois que o tratamento termina.',
+          'Outros efeitos merecem aviso imediato à equipe: pele ou olhos amarelados, urina escura, náusea, vômitos ou dor na barriga podem indicar inflamação no fígado. Alguns medicamentos também interagem com outros remédios, e os anticoncepcionais, por exemplo, podem ter a eficácia reduzida; por isso conte ao profissional tudo o que você usa. Evite bebidas alcoólicas durante o tratamento, porque o álcool aumenta o risco de dano ao fígado.',
+          'Nunca pare os remédios por conta própria. O apoio da equipe e da família ajuda a manter o tratamento até o fim, e faz parte do cuidado tanto quanto o medicamento.',
+        ],
+      },
+      {
+        id: 'acompanhamento-e-tratamento-observado',
+        heading: 'Acompanhamento e tratamento diretamente observado',
+        paragraphs: [
+          'O tratamento é acompanhado por consultas regulares na unidade de saúde e por exames de controle do catarro, que mostram se a bactéria continua sendo eliminada.',
+          'Uma das principais estratégias de apoio é o tratamento diretamente observado (TDO). Nele, a pessoa toma o medicamento na presença de um profissional de saúde ou de outro profissional capacitado, na unidade de saúde ou até na própria residência.',
+          'Desde 2023, a observação também pode ser feita por meios digitais, como vídeo, foto, chamada de voz ou mensagem com a confirmação da tomada do remédio. O TDO deve acontecer, de preferência, todos os dias úteis da semana, no local e no horário combinados com o serviço de saúde.',
         ],
         cta: {
           label: 'Veja a página completa sobre tuberculose',
@@ -2054,15 +2102,30 @@ export const articles: Article[] = [
         },
       },
       {
+        id: 'o-que-muda-na-rotina',
+        heading: 'O que muda na rotina',
+        paragraphs: [
+          'Durante o tratamento, alguns ajustes na rotina ajudam a proteger quem convive com o paciente. Nas primeiras semanas, reduza o contato próximo, deixe as janelas abertas e use máscara ao dividir espaços fechados; dormir em um quarto separado, quando for possível, também ajuda.',
+          'Vale evitar o cigarro, que prejudica a recuperação dos pulmões, e as bebidas alcoólicas, que aumentam o risco de dano ao fígado durante o tratamento. Procure manter uma alimentação adequada e descansar o suficiente.',
+          'Depois que o exame do catarro indica que não há mais transmissão, a rotina de convivência pode voltar ao normal. Até lá, seguir os horários dos remédios todos os dias é o que garante o melhor resultado.',
+        ],
+      },
+      {
+        id: 'tuberculose-tem-cura',
+        heading: 'A tuberculose tem cura',
+        paragraphs: [
+          'Com o tratamento correto até o fim, a maioria das pessoas se recupera bem e volta à rotina normal. A cura é a regra, e não a exceção.',
+          'Quando a doença não é tratada ou o tratamento é irregular, podem ocorrer complicações, como danos ao pulmão, sangramento e acúmulo de ar na cavidade torácica. Nas formas graves, a doença pode atingir as membranas que envolvem o cérebro, e, entre pessoas que vivem com HIV e aids, é uma das principais causas de morte por doença infecciosa.',
+          'Depois da cura, é possível ter tuberculose de novo. Por isso, quem já teve a doença e volta a apresentar tosse por três semanas ou mais deve procurar avaliação. Cuidar dos contatos e da própria saúde ajuda a interromper esse ciclo.',
+        ],
+      },
+      {
         id: 'infeccao-latente',
         heading: 'E a infecção latente?',
         paragraphs: [
-          'Quem foi infectado sem adoecer pode ter a chamada infecção latente, sem sintomas e sem transmissão. Nesses casos, o serviço de saúde avalia se há indicação de tratamento preventivo, sobretudo em pessoas com maior risco.',
+          'Quem foi infectado sem adoecer pode ter a chamada infecção latente, sem sintomas e sem transmissão. Nem toda pessoa infectada adoece, mas o risco maior de adoecer se concentra nos dois primeiros anos após a infecção.',
+          'Nesses casos, o serviço de saúde avalia se há indicação de tratamento preventivo, sobretudo em pessoas com maior risco, como quem mora com um caso confirmado, crianças e pessoas que vivem com HIV e aids. Diagnosticar e tratar a infecção latente é uma das principais formas de evitar a doença.',
         ],
-        cta: {
-          label: 'Entenda a transmissão da tuberculose',
-          href: '/doencas/tuberculose/',
-        },
       },
     ],
     diseaseSlugs: ['tuberculose'],
@@ -2084,7 +2147,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
