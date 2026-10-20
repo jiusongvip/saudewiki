@@ -29,11 +29,11 @@
  * Draft shape:
  * {
  *   "articles": [{
- *     "pt": { slug, title, excerpt, category, categorySlug, diseaseSlugs,
+ *     "pt": { slug, title, metaTitle?, excerpt, category, categorySlug, diseaseSlugs,
  *             topicSlugs, relatedArticleSlugs, references: [{label,url,publisher}],
  *             body: [{ id, heading, paragraphs: [..], bullets: [..],
  *                      cta: { label, href } }] },
- *     "zh": { title, excerpt, references: [{url,label,publisher}],
+ *     "zh": { title, metaTitle?, excerpt, references: [{url,label,publisher}],
  *             body: [{ id, heading, paragraphs: [..], bullets: [..], ctaLabel }] }
  *   }]
  * }
@@ -178,6 +178,7 @@ function serializePt(article, meta) {
     '  {',
     `${i4}id: ${q(article.slug)},`,
     `${i4}slug: ${q(article.slug)},`,
+    ...(article.metaTitle ? [`${i4}metaTitle: ${q(article.metaTitle)},`] : []),
     `${i4}title: ${q(article.title)},`,
     `${i4}excerpt:`,
     `${i6}${q(article.excerpt)},`,
@@ -236,6 +237,7 @@ function serializeZh(article, twin) {
   return [
     `  '${article.slug}': {`,
     `${i4}title: ${q(twin.title)},`,
+    ...(twin.metaTitle ? [`${i4}metaTitle: ${q(twin.metaTitle)},`] : []),
     `${i4}excerpt:`,
     `${i6}${q(twin.excerpt)},`,
     `${i4}body: [`,

@@ -2156,7 +2156,7 @@ export const articles: Article[] = [
     metaTitle: 'HIV: o que fazer nas primeiras 72 horas',
     title: 'HIV: o que fazer nas primeiras 72 horas após uma situação de risco',
     excerpt:
-      'Existe uma medida de prevenção que precisa começar em até 72 horas depois de uma situação de risco. Quanto mais cedo, maior a chance de funcionar.',
+      'Depois de uma situação de risco, existe uma medida de prevenção que precisa começar em até 72 horas. Quanto mais cedo, maior a chance de funcionar.',
     category: 'Prevenção',
     categorySlug: 'prevencao',
     body: [
@@ -2164,8 +2164,9 @@ export const articles: Article[] = [
         id: 'o-que-e-a-pep',
         heading: 'O que é a profilaxia pós-exposição',
         paragraphs: [
-          'A profilaxia pós-exposição, conhecida como PEP, é o uso de medicamentos antirretrovirais por pessoas que passaram por uma situação de risco de infecção pelo HIV, para impedir que o vírus se estabeleça no organismo.',
-          'Ela não é um tratamento comum nem uma escolha individual: é uma medida de urgência, indicada após avaliação em serviço de saúde.',
+          'A profilaxia pós-exposição, conhecida como PEP, é o uso de medicamentos antirretrovirais por pessoas que passaram por uma situação de risco de infecção pelo HIV. O objetivo é impedir que o vírus se estabeleça no organismo e que a infecção se confirme. A PEP não é um tratamento comum nem uma escolha isolada: é uma medida de urgência, indicada após avaliação em um serviço de saúde.',
+          'A PEP é diferente do tratamento de quem já vive com HIV. O tratamento é contínuo e serve para manter o vírus sob controle ao longo de toda a vida; a PEP, por sua vez, é tomada por tempo determinado, logo depois de uma exposição, para evitar que a infecção aconteça. Ela é indicada somente após uma avaliação profissional, que pesa o tipo de exposição e o tempo decorrido desde o contato.',
+          'Há ainda a PrEP, a profilaxia pré-exposição, usada antes do contato por quem tem risco maior de exposição, de forma contínua ou sob demanda. PrEP e PEP partem da mesma ideia, impedir que o vírus encontre espaço para se multiplicar, mas se aplicam em momentos diferentes: uma antes da exposição, a outra depois dela. Vale conhecer as duas para usar cada uma na hora certa.',
         ],
       },
       {
@@ -2173,16 +2174,22 @@ export const articles: Article[] = [
         heading: 'A janela de 72 horas',
         paragraphs: [
           'A PEP precisa ser iniciada o quanto antes, em até 72 horas depois da exposição. Passado esse prazo, ela deixa de ser indicada, porque a chance de funcionar cai muito.',
-          'Depois de iniciada, o uso precisa continuar por todo o período indicado pelo serviço de saúde, em geral 28 dias. Interromper antes reduz a proteção.',
+          'O tempo é decisivo porque os medicamentos agem bloqueando a multiplicação do vírus nos primeiros momentos após a entrada no corpo. Quanto mais cedo o tratamento começa, maior a probabilidade de o vírus ser contido antes de se espalhar. Por isso, se a exposição aconteceu há poucas horas, não há motivo para esperar: procure o serviço de saúde imediatamente, inclusive à noite ou nos fins de semana.',
+          'Depois de iniciada, a PEP deve ser mantida por todo o período indicado pela equipe de saúde, em geral 28 dias. Interromper o uso antes do fim reduz a proteção, mesmo que a pessoa se sinta bem e não tenha sintoma algum. Se os medicamentos causarem efeitos incômodos, o caminho é conversar com a equipe, que pode ajustar o esquema, e não abandonar o tratamento por conta própria.',
         ],
       },
       {
         id: 'situacoes',
         heading: 'Situações que exigem avaliação imediata',
+        paragraphs: [
+          'Merecem avaliação as situações que envolvem contato com sangue, sêmen, secreções vaginais ou leite materno, mesmo quando a pessoa não tem certeza de que houve risco. Não há motivo para vergonha nem para julgamento: o atendimento é sigiloso e existe justamente para proteger a saúde de quem procura ajuda.',
+          'Na dúvida, vale procurar o serviço de saúde, porque só a avaliação profissional consegue dizer se a PEP está indicada naquele caso. Entre as situações que pedem avaliação imediata estão:',
+        ],
         bullets: [
-          'Relação sexual sem preservativo, ou com preservativo que rompeu, com parceiro de sorologia desconhecida ou que vive com HIV sem tratamento',
-          'Compartilhamento de agulhas ou seringas',
-          'Acidente com material cortante ou perfurante',
+          'Relação sexual sem camisinha, ou em que a camisinha rompeu, com parceiro de sorologia desconhecida ou que vive com HIV sem tratamento',
+          'Compartilhamento de agulhas, seringas ou outros materiais que cortam ou furam',
+          'Acidente com material cortante ou perfurante, como acontece com profissionais de saúde',
+          'Ruptura da camisinha durante a relação sexual',
           'Violência sexual, situação em que a busca por atendimento deve ser imediata',
         ],
       },
@@ -2190,25 +2197,42 @@ export const articles: Article[] = [
         id: 'onde-procurar',
         heading: 'Onde procurar',
         paragraphs: [
-          'A PEP está disponível gratuitamente no SUS, em serviços de urgência e em centros de referência. O atendimento é sigiloso.',
-          'Além da PEP, o serviço avalia a necessidade de outras medidas, como vacinação e testagem para outras infecções.',
+          'A PEP está disponível gratuitamente no SUS, em serviços de urgência e em centros de referência para HIV e aids. O atendimento é sigiloso, e ninguém precisa se identificar para ser avaliado.',
+          'No serviço de saúde, a equipe conversa sobre o que aconteceu, avalia o tipo de exposição e, quando a PEP está indicada, já inicia os medicamentos. Se a exposição foi recente, é importante informar o horário aproximado, porque isso ajuda a definir a conduta. O primeiro atendimento costuma incluir também um teste rápido para o HIV e para outras infecções sexualmente transmissíveis.',
+          'O serviço verifica ainda a necessidade de outras medidas, como a vacinação contra a hepatite B e o apoio em saúde mental, quando houve violência sexual. Vale lembrar que a PEP não substitui a camisinha nem as demais formas de prevenção: ela é uma medida pontual, para uma situação específica.',
+        ],
+      },
+      {
+        id: 'o-que-a-pep-nao-faz',
+        heading: 'O que a PEP não faz',
+        paragraphs: [
+          'A PEP protege contra o HIV naquela exposição específica, mas não é uma solução para todas as situações. Ela não substitui a camisinha nas relações seguintes, não previne outras infecções sexualmente transmissíveis e não deve ser usada de forma repetida como estratégia de rotina.',
+          'Para quem tem exposição frequente ao risco, o mais indicado é a PrEP, pensada para uso contínuo ou sob demanda antes do contato. A PEP, ao contrário, é reservada para situações pontuais, em que houve uma exposição concreta.',
+          'A PEP também não é teste nem cura: ela não confirma se a pessoa foi infectada e não elimina um vírus já instalado no organismo. Por isso, ela caminha sempre junto com a testagem e com o acompanhamento ao longo dos meses seguintes.',
         ],
       },
       {
         id: 'depois',
         heading: 'E depois',
         paragraphs: [
-          'O acompanhamento inclui testes ao longo dos meses seguintes, porque uma infecção recente pode não aparecer nos primeiros exames. Volte para todas as consultas de acompanhamento: elas fazem parte do cuidado.',
+          'Depois de terminar a PEP, é preciso manter o acompanhamento com testes ao longo dos meses seguintes, porque uma infecção recente pode não aparecer nos primeiros exames. Os testes são feitos em momentos definidos pela equipe, para cobrir todo o período da janela imunológica.',
+          'Ir a todas as consultas de acompanhamento é parte do cuidado: elas confirmam se a PEP funcionou. Faltar a uma delas deixa uma dúvida em aberto que poderia ser resolvida com um exame simples.',
+          'Se o resultado se mantiver negativo ao final do acompanhamento, a pessoa pode seguir com as formas de prevenção que fazem sentido para a sua rotina. Se for positivo, o serviço encaminha para o início do tratamento, que é gratuito no SUS e muda o curso da infecção.',
         ],
         cta: {
-          label: 'Leia também: indetectável igual a intransmissível',
-          href: '/artigos/indetectavel-intransmissivel-o-que-significa/',
+          label: 'Veja a página completa sobre HIV e aids',
+          href: '/doencas/hiv-aids/',
         },
       },
     ],
     diseaseSlugs: ['hiv-aids'],
     topicSlugs: ['prevencao', 'doencas-infecciosas'],
-    relatedArticleSlugs: ['indetectavel-intransmissivel-o-que-significa'],
+    relatedArticleSlugs: [
+      'indetectavel-intransmissivel-o-que-significa',
+      'hiv-como-se-transmite-e-o-que-nao-transmite',
+      'hiv-como-e-quando-fazer-o-teste',
+      'hiv-prep-prevencao-antes-da-exposicao',
+    ],
     references: [
       {
         label: 'HIV e aids: prevenção, diagnóstico e tratamento',
@@ -2225,7 +2249,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -2243,22 +2267,25 @@ export const articles: Article[] = [
         heading: 'O que é carga viral',
         paragraphs: [
           'Carga viral é a quantidade de vírus circulando no sangue, medida por um exame. Quando o tratamento antirretroviral funciona bem, essa quantidade cai até o ponto em que o exame não consegue mais detectá-la.',
-          'Esse resultado é chamado de indetectável. Ele não significa que o vírus desapareceu do organismo, e sim que está sob controle.',
+          'Esse resultado é chamado de indetectável. Ele não significa que o vírus desapareceu do organismo, e sim que está sob controle, em quantidade tão baixa que os aparelhos não conseguem medir.',
+          'Para chegar a esse ponto, o tratamento precisa ser tomado todos os dias, sem falhas, e a carga viral precisa ser acompanhada com exames regulares. É essa constância que mantém o resultado estável: um exame medido em um único momento não basta para afirmar que a carga viral está permanentemente indetectável.',
         ],
       },
       {
         id: 'o-que-significa',
         heading: 'O que a frase significa',
         paragraphs: [
-          'Carga viral indetectável, mantida com o tratamento em dia, significa que o HIV não é transmitido por via sexual. Essa é a base do conceito conhecido como indetectável igual a intransmissível.',
-          'É um resultado sustentado por estudos de longo prazo com casais em que um dos parceiros vivia com HIV e o outro não, e nenhuma transmissão sexual ocorreu quando a carga viral estava indetectável.',
+          'Carga viral indetectável, mantida com o tratamento em dia, significa que o HIV não é transmitido por via sexual. É a base do conceito conhecido como indetectável igual a intransmissível.',
+          'A ideia foi confirmada por estudos de longo prazo com casais em que um dos parceiros vivia com HIV e o outro não, e nenhuma transmissão sexual ocorreu quando a carga viral estava indetectável. Os resultados se mantiveram consistentes ao longo de anos de acompanhamento desses casais.',
+          'Na prática, isso mudou o sentido de viver com HIV: o tratamento não serve apenas para a saúde de quem o toma, mas também protege os parceiros sexuais. A informação é hoje divulgada por órgãos de saúde de todo o mundo.',
         ],
       },
       {
         id: 'condicoes',
         heading: 'As condições para que valha',
         paragraphs: [
-          'O conceito vale dentro de condições específicas, e ignorá-las muda tudo:',
+          'O conceito vale dentro de condições bem definidas, e ignorá-las muda completamente o significado. Para que a afirmação se sustente, a carga viral precisa estar indetectável de forma sustentada e o tratamento precisa seguir em uso, sem interrupção.',
+          'Estas são as condições que precisam ser respeitadas:',
         ],
         bullets: [
           'Carga viral indetectável de forma sustentada, confirmada por exames regulares',
@@ -2271,15 +2298,54 @@ export const articles: Article[] = [
         id: 'por-que-importa',
         heading: 'Por que isso importa',
         paragraphs: [
-          'Além do efeito direto na saúde de quem vive com HIV, o conceito tem um efeito importante contra o estigma: ele desfaz a ideia de que viver com HIV significa necessariamente transmitir o vírus.',
-          'Também reforça por que o tratamento é oferecido a todas as pessoas diagnosticadas, independentemente da contagem de células de defesa.',
+          'Além do efeito direto na saúde de quem vive com HIV, o conceito tem um papel importante contra o estigma: ele desfaz a ideia de que viver com HIV significa necessariamente transmitir o vírus.',
+          'A informação também reforça por que o tratamento é oferecido a todas as pessoas diagnosticadas, independentemente da contagem de células de defesa. Não é preciso esperar os sintomas ou a imunidade cair para começar.',
+          'Quando mais pessoas têm acesso ao diagnóstico e ao tratamento, mais a transmissão cai na população como um todo. É por isso que o tratamento é considerado, hoje, uma das principais estratégias de prevenção do HIV.',
         ],
       },
       {
         id: 'o-que-nao-muda',
         heading: 'O que não muda',
         paragraphs: [
-          'Indetectável não é cura e não substitui o acompanhamento. A carga viral precisa continuar sendo monitorada, e a interrupção do tratamento faz o vírus voltar a circular.',
+          'Indetectável não é cura e não substitui o acompanhamento. A carga viral precisa continuar sendo monitorada, e a interrupção do tratamento faz o vírus voltar a circular e a se multiplicar.',
+          'O conceito também não elimina a necessidade de outros cuidados. Ele se refere apenas à transmissão sexual e não cobre a transmissão por sangue, como acontece no compartilhamento de agulhas e seringas.',
+          'Entender o que o indetectável significa, e o que não significa, ajuda a usar a informação com responsabilidade, sem promessas que a ciência não sustenta.',
+        ],
+      },
+      {
+        id: 'testagem-e-tratamento',
+        heading: 'Testagem e tratamento caminham juntos',
+        paragraphs: [
+          'O conceito de indetectável igual a intransmissível só faz sentido para quem conhece a própria situação. Sem o teste, não há como saber se a pessoa vive com HIV e, portanto, não há como iniciar o tratamento que leva à carga viral indetectável.',
+          'A testagem é simples, gratuita e pode ser anônima no SUS. Os testes rápidos usam uma gota de sangue da ponta do dedo e dão o resultado em cerca de 30 minutos. Existe também o autoteste, que a própria pessoa faz quando e onde preferir.',
+          'Descobrir a infecção cedo é o que permite começar o tratamento e alcançar a carga viral indetectável. É esse caminho que sustenta, na prática, a promessa contida na frase: quem se trata de forma contínua não transmite o HIV por via sexual.',
+        ],
+      },
+      {
+        id: 'duvidas-comuns',
+        heading: 'Dúvidas comuns',
+        paragraphs: [
+          'A pergunta mais frequente é se a pessoa pode interromper o tratamento quando a carga viral fica indetectável. A resposta é não: é justamente o uso contínuo que mantém o vírus sob controle. Ao parar, a carga viral volta a subir.',
+          'Outra dúvida é se o conceito vale para qualquer forma de transmissão. Não. A afirmação se refere à transmissão sexual e não cobre a transmissão por sangue, como no compartilhamento de agulhas e seringas.',
+          'Também é comum confundir indetectável com cura. São coisas diferentes: indetectável significa que o vírus está controlado, e não que foi eliminado do organismo.',
+        ],
+      },
+      {
+        id: 'o-que-muda-na-vida-diaria',
+        heading: 'O que muda na vida diária',
+        paragraphs: [
+          'Com a carga viral indetectável e o tratamento em dia, a maior parte da rotina segue normalmente. A pessoa pode trabalhar, estudar, praticar esportes e manter relações sexuais, desde que siga o esquema indicado pela equipe de saúde.',
+          'Divulgar ou não a própria situação é uma escolha pessoal. Ninguém é obrigado a contar o diagnóstico, e o atendimento nos serviços de saúde é sigiloso. Quando a pessoa decide compartilhar, ter informação correta ajuda na conversa.',
+          'O acompanhamento continua sendo parte da rotina, com consultas e exames periódicos. Esses encontros servem para ajustar o esquema, acompanhar a imunidade e resolver dúvidas antes que elas virem problemas.',
+        ],
+      },
+      {
+        id: 'tratamento-como-prevencao',
+        heading: 'Tratamento como prevenção',
+        paragraphs: [
+          'O conceito de indetectável igual a intransmissível é a base do que se chama de tratamento como prevenção: manter a carga viral indetectável reduz a transmissão do HIV na população.',
+          'No Brasil, o tratamento antirretroviral é distribuído gratuitamente pelo SUS a todas as pessoas que vivem com HIV. Isso significa que a prevenção não depende de poder pagar pelos medicamentos: quem precisa do tratamento tem acesso a ele.',
+          'A testagem regular é a porta de entrada para esse cuidado. Quanto mais cedo a infecção é descoberta, mais cedo o tratamento começa e mais cedo a pessoa pode alcançar a carga viral indetectável, protegendo a própria saúde e reduzindo a transmissão.',
         ],
         cta: {
           label: 'Veja a página completa sobre HIV e aids',
@@ -2289,7 +2355,12 @@ export const articles: Article[] = [
     ],
     diseaseSlugs: ['hiv-aids'],
     topicSlugs: ['doencas-infecciosas', 'prevencao'],
-    relatedArticleSlugs: ['hiv-o-que-fazer-nas-primeiras-72-horas'],
+    relatedArticleSlugs: [
+      'hiv-o-que-fazer-nas-primeiras-72-horas',
+      'hiv-como-se-transmite-e-o-que-nao-transmite',
+      'hiv-como-e-quando-fazer-o-teste',
+      'hiv-prep-prevencao-antes-da-exposicao',
+    ],
     references: [
       {
         label: 'HIV e aids: prevenção, diagnóstico e tratamento',
@@ -2306,7 +2377,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -7455,6 +7526,358 @@ export const articles: Article[] = [
       {
         label: 'Atividade física: folha informativa',
         url: 'https://www.who.int/news-room/fact-sheets/detail/physical-activity',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-20',
+    updatedAt: '2026-10-20',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiv-como-se-transmite-e-o-que-nao-transmite',
+    slug: 'hiv-como-se-transmite-e-o-que-nao-transmite',
+    title: 'HIV: como o vírus se transmite e o que não transmite',
+    excerpt:
+      'O HIV passa por fluidos específicos, e não pelo convívio. Conhecer as formas reais de transmissão ajuda a se proteger e a combater o preconceito.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-se-transmite',
+        heading: 'Como o HIV é transmitido',
+        paragraphs: [
+          'O HIV passa de uma pessoa para outra por meio de fluidos específicos: sangue, sêmen, secreções vaginais e leite materno. Para que a transmissão aconteça, esse fluido precisa entrar em contato com uma mucosa ou com uma corrente sanguínea. O vírus não sobrevive fora do corpo e não se espalha pelo ar, pela água ou pelo toque.',
+          'Há três grandes vias de transmissão. Por via sexual, na relação vaginal, anal ou oral sem camisinha; por via sanguínea, no compartilhamento de agulhas e seringas e em acidentes com material cortante; e da mãe para o bebê, durante a gestação, o parto ou a amamentação.',
+          'Algumas práticas concentram mais risco do que outras. A relação anal em que a pessoa recebe o pênis é a prática com maior chance de transmissão, porque a mucosa é mais frágil. Outras infecções sexualmente transmissíveis, quando presentes, também facilitam a entrada do vírus.',
+        ],
+      },
+      {
+        id: 'o-que-nao-transmite',
+        heading: 'O que não transmite HIV',
+        paragraphs: [
+          'Muita gente ainda tem dúvidas sobre o que não oferece risco nenhum. O HIV não sobrevive fora do corpo e não se espalha pelo ar, pela água nem pelo toque. Entender isso ajuda a combater o preconceito: conviver, estudar e trabalhar com quem vive com HIV não oferece risco.',
+          'Estas situações não transmitem o HIV:',
+        ],
+        bullets: [
+          'Beijo no rosto ou na boca, abraço e aperto de mão',
+          'Suor, lágrima, tosse e espirro',
+          'Picada de inseto',
+          'Compartilhar talheres, copos, sabonete, toalha ou lençóis',
+          'Usar ônibus, piscina ou banheiro',
+          'Doar sangue, em serviços que seguem as normas de triagem e testagem',
+        ],
+      },
+      {
+        id: 'fatores-que-aumentam-o-risco',
+        heading: 'Fatores que aumentam o risco',
+        paragraphs: [
+          'O risco não está ligado a um tipo de pessoa, e sim a situações e práticas. Qualquer pessoa pode se infectar, e reconhecer as circunstâncias que ampliam a exposição é o primeiro passo para se proteger.',
+          'Relações sexuais sem camisinha, sobretudo a relação anal receptiva, estão entre as principais. O compartilhamento de seringas e agulhas também é uma via importante. Ter outra infecção sexualmente transmissível aumenta a vulnerabilidade, porque lesões e inflamações abrem caminho para o vírus.',
+          'Transfusão de sangue e transplante de órgãos já foram uma via de transmissão, mas hoje são raros, porque no Brasil todos os doadores passam por testagem. Em profissionais de saúde, acidentes com material biológico pedem atenção especial.',
+        ],
+      },
+      {
+        id: 'como-reduzir-o-risco',
+        heading: 'Como reduzir o risco',
+        paragraphs: [
+          'A prevenção do HIV é pensada de forma combinada, ou seja, somando estratégias de acordo com a necessidade de cada pessoa. A camisinha, disponível gratuitamente no SUS, protege do HIV e também de outras infecções sexualmente transmissíveis.',
+          'A PrEP, tomada antes do contato por quem tem risco maior, e a PEP, usada em até 72 horas depois de uma exposição, completam o conjunto. A testagem regular permite descobrir a infecção cedo, e o tratamento de quem vive com HIV reduz a transmissão.',
+          'Nenhuma estratégia substitui as outras por completo. Combinar camisinha, testagem e profilaxia, conforme a orientação de um serviço de saúde, é o que oferece a proteção mais consistente.',
+        ],
+      },
+      {
+        id: 'situacoes-do-dia-a-dia',
+        heading: 'Situações do dia a dia',
+        paragraphs: [
+          'A maior parte das situações de convivência não envolve risco de transmissão. Trabalhar, estudar, dividir a mesma casa, usar o transporte público e compartilhar refeições estão entre os exemplos seguros.',
+          'Os fluidos que importam para a transmissão são poucos: sangue, sêmen, secreções vaginais e leite materno. Fora do corpo, o HIV não sobrevive, e é por isso que o contato cotidiano não transmite o vírus.',
+          'Reconhecer essas diferenças permite tratar o tema com serenidade. O medo do contato do dia a dia não protege ninguém; ele apenas alimenta o preconceito contra quem vive com HIV.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-apos-uma-exposicao',
+        heading: 'O que fazer após uma exposição',
+        paragraphs: [
+          'Depois de uma situação de risco, como sexo sem camisinha ou um acidente com material cortante, existe uma medida de urgência: a PEP, a profilaxia pós-exposição.',
+          'A PEP precisa começar o quanto antes, em até 72 horas depois da exposição, e dura 28 dias. Ela está disponível gratuitamente no SUS, em serviços de urgência e em centros de referência.',
+          'Uma exposição recente também é um sinal de que a testagem importa. O acompanhamento depois da PEP inclui exames ao longo dos meses seguintes, porque uma infecção recente pode não aparecer de imediato.',
+        ],
+      },
+      {
+        id: 'mitos-frequentes',
+        heading: 'Mitos frequentes',
+        paragraphs: [
+          'Algumas ideias equivocadas sobre a transmissão do HIV continuam circulando e atrapalham tanto a prevenção quanto o convívio. Vale conhecer os erros mais comuns para não repeti-los e para ajudar a corrigi-los quando aparecem numa conversa.',
+          'O erro mais frequente é imaginar que o HIV se transmite pelo contato do dia a dia. Ele não passa por beijo, suor, tosse, picada de inseto nem por compartilhar talheres, copos ou toalhas. Também não existe um tipo de pessoa imune: o risco está nas situações e nas práticas, e não em quem a pessoa é.',
+          'Outra confusão comum é supor que alguém com aparência saudável não tenha o vírus. O HIV pode passar anos sem sintomas, e é justamente por isso que a testagem é o único caminho seguro. Entre as afirmações sem base estão:',
+        ],
+        bullets: [
+          'A ideia de que o HIV se pega pelo beijo, pelo suor ou por dividir talheres',
+          'A crença de que apenas alguns grupos correm risco',
+          'A suposição de que uma pessoa com aparência saudável não tem o vírus',
+          'A noção de que picada de inseto transmite o HIV',
+        ],
+      },
+      {
+        id: 'conviver-sem-medo',
+        heading: 'Conviver sem medo',
+        paragraphs: [
+          'Saber o que transmite e o que não transmite tem um efeito prático: acaba com o medo injustificado do convívio. Abraçar, dividir uma refeição, usar o mesmo banheiro ou trabalhar ao lado de alguém que vive com HIV não oferece risco nenhum.',
+          'O preconceito ainda é um dos maiores obstáculos no enfrentamento do HIV. Ele afasta as pessoas do teste e do tratamento, e é justamente aí que a infecção avança sem ser percebida.',
+          'Falar sobre o tema com informação correta, e não com suposição, protege a saúde de todos e melhora a vida de quem vive com o vírus.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre HIV e aids',
+          href: '/doencas/hiv-aids/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hiv-aids'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'hiv-o-que-fazer-nas-primeiras-72-horas',
+      'indetectavel-intransmissivel-o-que-significa',
+      'hiv-como-e-quando-fazer-o-teste',
+      'hiv-prep-prevencao-antes-da-exposicao',
+    ],
+    references: [
+      {
+        label: 'HIV e aids: prevenção, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hiv-aids',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'HIV and AIDS: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hiv-aids',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-20',
+    updatedAt: '2026-10-20',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiv-como-e-quando-fazer-o-teste',
+    slug: 'hiv-como-e-quando-fazer-o-teste',
+    title: 'HIV: como e quando fazer o teste',
+    excerpt:
+      'O teste de HIV é rápido, gratuito e pode ser anônimo. Entenda como ele funciona, o que é a janela imunológica e onde fazer em segurança.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-fazer-o-teste',
+        heading: 'Por que fazer o teste',
+        paragraphs: [
+          'O HIV pode passar anos sem dar sinal. Uma pessoa pode viver com o vírus, sentir-se bem e transmiti-lo sem saber. O teste é a única forma de confirmar a infecção, porque os sintomas não são confiáveis para isso. Nenhum sinal isolado, por si só, permite dizer se alguém tem ou não o HIV.',
+          'Descobrir a infecção cedo muda o desfecho. Quanto antes o tratamento começa, melhor a resposta do organismo e menor o impacto na saúde. Um diagnóstico tardio, ao contrário, deixa o sistema imunológico mais vulnerável.',
+          'Fazer o teste também protege outras pessoas. Quem conhece a própria situação pode iniciar o tratamento e alcançar a carga viral indetectável, condição em que o HIV não é transmitido por via sexual.',
+        ],
+      },
+      {
+        id: 'como-funciona-o-teste-rapido',
+        heading: 'Como funciona o teste rápido',
+        paragraphs: [
+          'O teste rápido de HIV usa uma gota de sangue da ponta do dedo e dá o resultado em cerca de 30 minutos. Ele é simples, não exige laboratório e está disponível em unidades de saúde e nos Centros de Testagem e Aconselhamento, os CTA.',
+          'O resultado é sigiloso e o atendimento pode ser anônimo: não é preciso se identificar para ser testado. Durante a consulta, a equipe também orienta sobre prevenção e, quando indicado, oferece testes para outras infecções sexualmente transmissíveis.',
+          'Um resultado reagente no teste rápido não fecha o diagnóstico sozinho. Nesse caso, o serviço pede uma confirmação por exame laboratorial, e só depois inicia o acompanhamento do tratamento.',
+        ],
+      },
+      {
+        id: 'janela-imunologica',
+        heading: 'A janela imunológica',
+        paragraphs: [
+          'Os testes buscam anticorpos que o corpo produz contra o HIV. O organismo leva um tempo para formá-los em quantidade detectável, em média de 30 a 60 dias. Esse intervalo é a janela imunológica.',
+          'Quem faz o teste dentro desse período pode receber um resultado negativo mesmo estando infectado. Por isso, depois de uma situação de risco, o ideal é testar e repetir o exame cerca de 30 dias depois, para confirmar o resultado.',
+          'Se a exposição foi muito recente, o serviço pode indicar a PEP, que deve começar em até 72 horas. A janela imunológica explica por que uma única testagem logo após o contato não é suficiente para afastar a infecção.',
+        ],
+      },
+      {
+        id: 'onde-fazer-o-teste',
+        heading: 'Onde fazer o teste',
+        paragraphs: [
+          'No Brasil, o teste de HIV é gratuito e oferecido em unidades básicas de saúde, nos Centros de Testagem e Aconselhamento e em serviços de urgência. O acesso não depende de encaminhamento nem de sintomas.',
+          'Também existe o autoteste, que a própria pessoa faz com fluido oral ou sangue, no momento e no lugar que preferir. Ele é uma alternativa para quem tem dificuldade de procurar um serviço, mas a orientação é buscar ajuda profissional se o resultado for reagente.',
+          'Em qualquer desses caminhos, o sigilo é garantido. Ninguém precisa explicar por que quer testar, e o atendimento existe para acolher, não para julgar.',
+        ],
+      },
+      {
+        id: 'quem-deve-fazer-o-teste',
+        heading: 'Quem deve fazer o teste',
+        paragraphs: [
+          'A recomendação é que o teste de HIV faça parte dos cuidados de rotina. Não é preciso ter sintomas nem pertencer a um grupo específico: qualquer pessoa que já teve relações sexuais sem camisinha deve considerar testar-se.',
+          'Alguns contextos tornam a testagem mais urgente, como uma exposição recente, o início de um novo relacionamento, a gestação ou a presença de outra infecção sexualmente transmissível.',
+          'Repetir o teste de tempos em tempos é uma forma de cuidado, sobretudo para quem tem exposição frequente. O teste não é um julgamento sobre a conduta de ninguém: é uma ferramenta de saúde.',
+        ],
+      },
+      {
+        id: 'duvidas-comuns',
+        heading: 'Dúvidas comuns',
+        paragraphs: [
+          'Uma dúvida frequente é se o teste rápido dispensa o laboratório. Ele é o primeiro passo; quando o resultado é reagente, um exame laboratorial confirma o diagnóstico antes do início do acompanhamento.',
+          'Outra pergunta é sobre o uso da camisinha: ela continua necessária, porque protege também de outras infecções sexualmente transmissíveis. O teste e a camisinha se somam, um não substitui o outro.',
+          'Também é comum querer saber se o resultado negativo é definitivo. Se houve exposição recente, é preciso repetir o exame depois da janela imunológica, que costuma durar de 30 a 60 dias.',
+        ],
+      },
+      {
+        id: 'teste-na-gestacao',
+        heading: 'O teste na gestação',
+        paragraphs: [
+          'A testagem para o HIV faz parte do acompanhamento do pré-natal no Brasil. O teste é oferecido durante a gestação e, quando necessário, também no momento do parto, de forma gratuita pelo SUS. Ele é uma das medidas de rotina do pré-natal, ao lado de outros exames oferecidos à pessoa gestante, e o resultado é confidencial.',
+          'Descobrir a infecção na gestação permite iniciar o tratamento e adotar medidas que reduzem muito a chance de transmissão para o bebê. Com o tratamento e o acompanhamento adequado, o risco de transmissão da mãe para a criança se torna muito baixo, e o bebê tem grandes chances de nascer sem o vírus.',
+          'O teste na gestação não é uma avaliação sobre a conduta da mãe nem uma suspeita sobre a sua vida. É um cuidado de rotina, pensado para proteger tanto a pessoa gestante quanto a criança, e faz parte do conjunto de exames oferecidos no pré-natal em todo o país.',
+        ],
+      },
+      {
+        id: 'depois-do-resultado',
+        heading: 'Depois do resultado',
+        paragraphs: [
+          'Um resultado negativo indica que a infecção não foi detectada no momento do exame. Se houve exposição recente, vale repetir o teste depois do período da janela imunológica e seguir com as formas de prevenção que fizerem sentido.',
+          'Um resultado reagente encaminha para o início do tratamento, que no Brasil é gratuito e oferecido pelo SUS. O tratamento impede a multiplicação do vírus, ajuda a recuperar a imunidade e permite levar uma vida com boa qualidade.',
+          'Em todos os casos, saber a própria situação é melhor do que conviver com a dúvida. O conhecimento abre caminho para decisões de saúde e para a proteção de quem está por perto.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre HIV e aids',
+          href: '/doencas/hiv-aids/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hiv-aids'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'hiv-o-que-fazer-nas-primeiras-72-horas',
+      'indetectavel-intransmissivel-o-que-significa',
+      'hiv-como-se-transmite-e-o-que-nao-transmite',
+      'hiv-prep-prevencao-antes-da-exposicao',
+    ],
+    references: [
+      {
+        label: 'HIV e aids: prevenção, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hiv-aids',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'HIV and AIDS: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hiv-aids',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-20',
+    updatedAt: '2026-10-20',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiv-prep-prevencao-antes-da-exposicao',
+    slug: 'hiv-prep-prevencao-antes-da-exposicao',
+    title: 'HIV: PrEP, a prevenção antes da exposição',
+    excerpt:
+      'A PrEP é um medicamento tomado antes do contato para reduzir o risco de infecção pelo HIV. Entenda para quem ela é indicada e como é usada.',
+    category: 'Prevenção',
+    categorySlug: 'prevencao',
+    body: [
+      {
+        id: 'o-que-e-a-prep',
+        heading: 'O que é a PrEP',
+        paragraphs: [
+          'A PrEP, ou profilaxia pré-exposição, é o uso de medicamentos antirretrovirais por pessoas que ainda não têm o HIV, para reduzir o risco de infecção antes de um possível contato com o vírus. Ela é pensada justamente para quem tem risco maior de exposição.',
+          'Ela funciona como uma proteção contínua, e não como uma medida de emergência. Em vez de agir depois de uma exposição, como a PEP, a PrEP mantém uma barreira no organismo para que o vírus não consiga se estabelecer caso entre em contato.',
+          'No Brasil, a PrEP é oferecida gratuitamente pelo SUS. O acompanhamento inclui consultas periódicas e testagens, para confirmar que a pessoa continua sem o HIV e que o medicamento está sendo bem tolerado.',
+        ],
+      },
+      {
+        id: 'para-quem-e-indicada',
+        heading: 'Para quem é indicada',
+        paragraphs: [
+          'A PrEP é destinada a pessoas com risco maior de exposição ao HIV. Isso não depende de um tipo de pessoa, e sim de situações e práticas que ampliam a chance de contato com o vírus.',
+          'Entre os casos em que a PrEP costuma ser considerada estão pessoas com parceiro que vive com HIV e não está em tratamento, quem tem outras infecções sexualmente transmissíveis com frequência e quem usa a camisinha de forma irregular.',
+          'A indicação é feita após conversa com a equipe de saúde, que avalia o contexto de cada pessoa. A decisão é sempre individual e sigilosa.',
+        ],
+      },
+      {
+        id: 'como-a-prep-e-usada',
+        heading: 'Como a PrEP é usada',
+        paragraphs: [
+          'Existem duas formas principais de uso. Na modalidade diária, o medicamento é tomado todos os dias, o que mantém a proteção de forma contínua para quem tem exposição frequente ao risco. Nesse formato, a proteção depende de não haver falhas na rotina de tomar o remédio.',
+          'Na modalidade sob demanda, o medicamento é usado em torno das relações sexuais, seguindo uma orientação específica de horários. Essa forma se aplica a quem tem exposições menos frequentes e consegue seguir o esquema com precisão.',
+          'Qual das duas é mais adequada depende da rotina e do padrão de exposição, e a escolha é feita junto com o serviço de saúde. Em qualquer caso, a adesão ao esquema é o que garante a proteção.',
+        ],
+      },
+      {
+        id: 'prep-nao-substitui-a-camisinha',
+        heading: 'A PrEP não substitui a camisinha',
+        paragraphs: [
+          'A PrEP protege contra o HIV, mas não contra outras infecções sexualmente transmissíveis. A camisinha continua sendo necessária para reduzir o risco dessas infecções e também como uma proteção adicional contra o HIV.',
+          'Usar as duas estratégias juntas é o que oferece a proteção mais completa. A PrEP não é, portanto, um substituto da camisinha, e sim mais uma peça no conjunto de cuidados.',
+          'É preciso continuar com as testagens periódicas mesmo usando PrEP. Elas servem para detectar cedo qualquer infecção, incluindo o próprio HIV, e para ajustar o acompanhamento.',
+        ],
+      },
+      {
+        id: 'efeitos-e-seguranca',
+        heading: 'Efeitos e acompanhamento',
+        paragraphs: [
+          'A PrEP costuma ser bem tolerada. Como qualquer medicamento, ela pode causar efeitos passageiros nas primeiras semanas, e a equipe de saúde acompanha como cada pessoa responde ao esquema.',
+          'A segurança do uso depende do acompanhamento: testagens para o HIV e para outras infecções verificam se o medicamento continua indicado e se nada mudou desde a última consulta.',
+          'Qualquer dúvida ou desconforto deve ser levado à equipe, que pode orientar e ajustar o esquema. Interromper a PrEP por conta própria reduz a proteção e deixa a pessoa sem cobertura justamente quando precisa dela.',
+        ],
+      },
+      {
+        id: 'prep-e-pep',
+        heading: 'PrEP e PEP se completam',
+        paragraphs: [
+          'PrEP e PEP são duas formas de profilaxia, mas atuam em momentos distintos. A PrEP é tomada antes do contato, de forma contínua ou sob demanda; a PEP é usada depois de uma exposição concreta, por tempo limitado.',
+          'Uma não substitui a outra. Quem usa PrEP não deixa de precisar de PEP se ocorrer uma exposição fora da proteção ou se o esquema não estiver sendo seguido corretamente.',
+          'Juntas, as duas completam o conjunto de prevenção, ao lado da camisinha e da testagem. O serviço de saúde ajuda a definir qual estratégia, ou qual combinação, faz mais sentido para cada pessoa.',
+        ],
+      },
+      {
+        id: 'duvidas-comuns',
+        heading: 'Dúvidas comuns',
+        paragraphs: [
+          'Uma dúvida comum é se a PrEP pode ser usada por qualquer pessoa. Ela é indicada para quem tem risco maior de exposição ao HIV, e a avaliação é feita caso a caso, junto com a equipe de saúde, de forma sigilosa e sem julgamentos. Não existe um perfil único de quem usa PrEP: o que importa é o contexto real de exposição de cada pessoa.',
+          'Outra pergunta frequente é se a PrEP causa efeitos colaterais. Ela costuma ser bem tolerada, e a maioria dos desconfortos, quando aparece, é passageira e melhora nas primeiras semanas. Ainda assim, qualquer sintoma deve ser comunicado à equipe de saúde, que pode orientar e ajustar o esquema. Efeitos graves são raros, e o acompanhamento existe justamente para identificá-los cedo.',
+          'Também é frequente querer saber se a PrEP substitui a camisinha ou a testagem. Ela não substitui: soma-se às outras medidas de prevenção. Cada estratégia cobre partes diferentes do cuidado, e é o conjunto delas que oferece a proteção mais consistente ao longo do tempo.',
+        ],
+      },
+      {
+        id: 'onde-consultar',
+        heading: 'Onde consultar e acompanhar',
+        paragraphs: [
+          'A PrEP está disponível em serviços de saúde do SUS que fazem esse acompanhamento. A avaliação inicial verifica se a pessoa não tem o HIV, analisa o contexto de risco e explica como o medicamento deve ser usado.',
+          'O acompanhamento é feito com consultas regulares, testagens para o HIV e para outras infecções e, quando necessário, ajustes no esquema. Esse contato frequente com a equipe é parte do funcionamento da PrEP.',
+          'Para quem não se encaixa no perfil da PrEP, ou prefere outras formas de proteção, o serviço de saúde orienta sobre camisinha, testagem regular e, quando for o caso, a PEP, que é usada depois de uma exposição.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre HIV e aids',
+          href: '/doencas/hiv-aids/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hiv-aids'],
+    topicSlugs: ['prevencao', 'doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'hiv-o-que-fazer-nas-primeiras-72-horas',
+      'indetectavel-intransmissivel-o-que-significa',
+      'hiv-como-se-transmite-e-o-que-nao-transmite',
+      'hiv-como-e-quando-fazer-o-teste',
+    ],
+    references: [
+      {
+        label: 'HIV e aids: prevenção, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hiv-aids',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'HIV and AIDS: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hiv-aids',
         publisher: 'Organização Mundial da Saúde',
       },
     ],

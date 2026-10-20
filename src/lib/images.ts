@@ -244,6 +244,18 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-indetectavel.webp',
     alt: 'Profissional com luvas azuis ao lado de um microscópio de laboratório',
   },
+  'hiv-como-se-transmite-e-o-que-nao-transmite': {
+    src: '/img/artigo-hiv-como-se-transmite-e-o-que-nao-transmite.webp',
+    alt: 'Amigos reunidos à mesa compartilhando uma refeição',
+  },
+  'hiv-como-e-quando-fazer-o-teste': {
+    src: '/img/artigo-hiv-como-e-quando-fazer-o-teste.webp',
+    alt: 'Mão aplicando uma gota de sangue do dedo sobre uma tira de teste',
+  },
+  'hiv-prep-prevencao-antes-da-exposicao': {
+    src: '/img/artigo-hiv-prep-prevencao-antes-da-exposicao.webp',
+    alt: 'Comprimidos brancos arredondados vistos de perto',
+  },
   'hepatites-virais-quais-tem-vacina': {
     src: '/img/artigo-hepatites-vacina.webp',
     alt: 'Frascos de vacina enfileirados em uma bandeja',

@@ -1884,6 +1884,16 @@ export const diseases: Disease[] = [
           'O HIV é o vírus da imunodeficiência humana, que ataca as células que coordenam a defesa do corpo, chamadas de linfócitos T-CD4+. Ao destruir essas células de forma constante, o HIV enfraquece o sistema imunológico e abre caminho para infecções e tumores que, em condições normais, seriam contidos.',
           'HIV e aids não são a mesma coisa. O HIV é o vírus, e uma pessoa pode viver com ele por anos sem apresentar sintomas. A aids é o estágio mais avançado da infecção, quando a imunidade já está gravemente comprometida e aparecem as chamadas doenças oportunistas.',
           'Descobrir a infecção cedo e iniciar o tratamento muda o curso da doença: hoje, quem faz o tratamento corretamente vive bem e não transmite o vírus por via sexual.',
+          'A infecção pelo HIV segue como um importante problema de saúde pública em todo o mundo. No Brasil, a testagem e o tratamento são oferecidos de forma gratuita pelo SUS a todas as pessoas, o que mudou o cenário da epidemia nas últimas décadas.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Tipos de HIV e fases da infecção',
+        paragraphs: [
+          'Existem dois tipos de HIV: o HIV-1 e o HIV-2. O HIV-1 é o mais comum no mundo inteiro e o principal responsável pela epidemia; o HIV-2 circula sobretudo em algumas regiões da África Ocidental e costuma evoluir de forma mais lenta, com menor capacidade de transmissão e de causar doença.',
+          'Do ponto de vista clínico, a infecção pelo HIV passa por três fases, que se sucedem ao longo de anos: a infecção aguda, a fase assintomática (ou latência clínica) e a aids. Não são três doenças diferentes, e sim momentos de uma mesma infecção, cada um com características próprias.',
+          'Essa classificação ajuda a entender por que o HIV pode passar despercebido por tanto tempo: entre a primeira fase e a aids pode haver anos sem nenhum sinal, enquanto o vírus continua agindo contra as células de defesa.',
         ],
       },
       {
@@ -1898,6 +1908,10 @@ export const diseases: Disease[] = [
           'Da mãe para o bebê, durante a gestação, o parto ou a amamentação',
           'Transfusão de sangue ou transplante de órgãos, algo muito raro hoje, porque no Brasil todos os doadores são testados',
         ],
+        cta: {
+          label: 'Leia também: como o HIV se transmite e o que não transmite',
+          href: '/artigos/hiv-como-se-transmite-e-o-que-nao-transmite/',
+        },
       },
       {
         id: 'nao-transmite',
@@ -1937,6 +1951,10 @@ export const diseases: Disease[] = [
           'Procure um serviço de saúde se você passou por uma situação de risco ou se apresenta sintomas persistentes, como febre prolongada, suores noturnos, diarreia por várias semanas, perda de peso sem explicação ou gânglios inchados por muito tempo. O diagnóstico precoce muda o curso da infecção.',
           'Se você teve uma exposição de risco, como sexo sem camisinha ou um acidente com material cortante, busque atendimento imediatamente. A PEP deve começar o quanto antes, no máximo até 72 horas depois da exposição; quanto mais cedo, melhor. Passado esse prazo, ela não está mais indicada.',
         ],
+        cta: {
+          label: 'Leia também: o que fazer nas primeiras 72 horas após uma exposição',
+          href: '/artigos/hiv-o-que-fazer-nas-primeiras-72-horas/',
+        },
       },
       {
         id: 'grupos-de-risco',
@@ -1972,6 +1990,10 @@ export const diseases: Disease[] = [
           'Contagem de linfócitos T-CD4+, que mostra como está a imunidade',
           'Genotipagem, que identifica mutações do vírus e ajuda a escolher o tratamento',
         ],
+        cta: {
+          label: 'Leia também: como e quando fazer o teste de HIV',
+          href: '/artigos/hiv-como-e-quando-fazer-o-teste/',
+        },
       },
       {
         id: 'diagnostico-diferencial',
@@ -1988,6 +2010,8 @@ export const diseases: Disease[] = [
           'Não existe cura nem vacina para o HIV, mas o tratamento permite viver com boa qualidade de vida por muitos anos. Desde 1996, o Brasil distribui os medicamentos antirretrovirais (ARV) de forma gratuita a todas as pessoas que vivem com HIV e precisam de tratamento.',
           'A recomendação atual é iniciar o tratamento assim que o diagnóstico é confirmado, independentemente de sintomas ou da contagem de T-CD4+. Os medicamentos impedem a multiplicação do vírus no organismo e ajudam a recuperar a imunidade. Muitas pessoas usam hoje um comprimido único que combina lamivudina e dolutegravir, de alta eficácia e boa tolerância.',
           'O ponto central é a adesão: tomar os remédios todos os dias, no horário certo, é o que mantém o vírus sob controle. Quando o tratamento é feito corretamente, a carga viral cai a níveis indetectáveis e a pessoa deixa de transmitir o HIV por via sexual, o que se chama de tratamento como prevenção. Como qualquer medicamento, os ARV podem causar efeitos colaterais, que variam conforme a combinação:',
+          'A profilaxia pós-exposição (PEP) é outra medida, usada por quem passou por uma situação de risco para evitar que o vírus se estabeleça. Ela deve começar o quanto antes, no máximo até 72 horas depois da exposição, e dura 28 dias.',
+          'Quando a imunidade está muito comprometida, pode ser necessário tratar as infecções oportunistas, como tuberculose, pneumonias por agentes oportunistas e infecções por fungos. Esses casos são conduzidos pela equipe de saúde em conjunto com a terapia antirretroviral.',
         ],
         bullets: [
           'Alguns efeitos são passageiros, como náusea e dor de cabeça nas primeiras semanas',
@@ -1998,6 +2022,36 @@ export const diseases: Disease[] = [
           label: 'Leia também: indetectável igual a intransmissível',
           href: '/artigos/indetectavel-intransmissivel-o-que-significa/',
         },
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico e quais complicações podem surgir',
+        paragraphs: [
+          'O HIV não tem cura nem vacina, mas o prognóstico mudou muito com o tratamento. Quem inicia a terapia antirretroviral e mantém a carga viral indetectável tem hoje uma expectativa de vida próxima à da população em geral, com boa qualidade de vida.',
+          'Sem tratamento, porém, o vírus continua destruindo as células de defesa e a infecção progride para a aids, estágio em que surgem as doenças oportunistas e alguns tipos de câncer. Quanto mais tarde o diagnóstico e o início do tratamento, maiores as chances de complicações. Estas são algumas das condições associadas à imunidade gravemente comprometida:',
+        ],
+        bullets: [
+          'Tuberculose, uma das infecções mais frequentes em pessoas que vivem com HIV sem tratamento',
+          'Pneumonias causadas por agentes oportunistas e outras infecções respiratórias',
+          'Infecções por fungos e por parasitas, como a candidíase e a neurotoxoplasmose',
+          'Alguns tipos de câncer, como o sarcoma de Kaposi e os linfomas',
+          'Perda de peso acentuada, diarreia prolongada e febre persistente',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados no dia a dia e acompanhamento',
+        paragraphs: [
+          'O acompanhamento inclui consultas periódicas e exames que mostram se o tratamento está funcionando, como a carga viral e a contagem de T-CD4+. Ir a essas consultas e manter o esquema em dia é o que sustenta o bom resultado ao longo dos anos.',
+          'No dia a dia, viver com HIV em tratamento é, para a maioria das pessoas, uma rotina parecida com a de quem convive com qualquer doença crônica. O cuidado que mais pesa é a constância: tomar o medicamento todos os dias, no mesmo horário. Também contam hábitos que ajudam a manter a imunidade em bom nível; quando ela está muito baixa, alguns cuidados extras reduzem o risco de infecções:',
+        ],
+        bullets: [
+          'Alimentação variada e bem cozida; evite alimentos crus ou pouco cozidos quando a imunidade estiver baixa',
+          'Atividade física regular dentro das suas possibilidades e sono adequado',
+          'Cuidados com a saúde mental; ansiedade e depressão são comuns e merecem apoio profissional',
+          'Não compartilhar seringas, agulhas nem objetos pessoais que possam cortar',
+          'Vacinas conforme a orientação da equipe de saúde, respeitando as recomendações para quem vive com HIV',
+        ],
       },
       {
         id: 'prevencao',
@@ -2013,8 +2067,8 @@ export const diseases: Disease[] = [
           'Tratamento de quem vive com HIV, que reduz a transmissão',
         ],
         cta: {
-          label: 'Leia também: o que fazer nas primeiras 72 horas após uma exposição',
-          href: '/artigos/hiv-o-que-fazer-nas-primeiras-72-horas/',
+          label: 'Leia também: PrEP, a prevenção antes da exposição',
+          href: '/artigos/hiv-prep-prevencao-antes-da-exposicao/',
         },
       },
       {
@@ -2063,7 +2117,13 @@ export const diseases: Disease[] = [
           'Sim. Os medicamentos antirretrovirais são distribuídos gratuitamente pelo SUS a todas as pessoas que vivem com HIV e precisam de tratamento.',
       },
     ],
-    relatedArticleSlugs: ['hiv-o-que-fazer-nas-primeiras-72-horas', 'indetectavel-intransmissivel-o-que-significa'],
+    relatedArticleSlugs: [
+      'hiv-o-que-fazer-nas-primeiras-72-horas',
+      'indetectavel-intransmissivel-o-que-significa',
+      'hiv-como-se-transmite-e-o-que-nao-transmite',
+      'hiv-como-e-quando-fazer-o-teste',
+      'hiv-prep-prevencao-antes-da-exposicao',
+    ],
     relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
     relatedDiseaseSlugs: ['tuberculose', 'hepatites-virais'],
     references: [
@@ -2087,7 +2147,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
