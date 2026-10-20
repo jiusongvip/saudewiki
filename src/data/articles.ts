@@ -1719,45 +1719,81 @@ export const articles: Article[] = [
         id: 'sintomas-iniciais',
         heading: 'Sintomas iniciais',
         paragraphs: [
-          'Os primeiros sintomas da malária costumam aparecer entre sete e trinta dias depois da picada e se parecem com os de uma gripe: febre, dor de cabeça, dor no corpo e cansaço.',
-          'A febre pode vir em episódios, com calafrios e sudorese. Em alguns casos, surgem náusea, vômito e falta de apetite.',
+          'Os primeiros sintomas da malária costumam aparecer entre 10 e 15 dias depois da picada do mosquito, embora esse intervalo possa variar de pessoa para pessoa. No começo, a doença se parece com uma gripe ou com outras febres comuns: febre, dor de cabeça, dores no corpo e cansaço.',
+          'Com o passar dos dias, entram os sinais que mais chamam atenção na malária. A febre vem acompanhada de calafrios e tremores, seguidos de suor intenso. Náusea, vômito, perda de apetite e fraqueza também são frequentes, e a pele pode ficar pálida ou amarelada em alguns casos.',
+          'Em crianças, a febre pode ser o primeiro sinal e, por algum tempo, o único, o que torna a suspeita mais difícil. Em qualquer idade, o conjunto febre e mal-estar em alguém que mora ou esteve na região amazônica já é motivo para investigar.',
+        ],
+      },
+      {
+        id: 'o-ciclo-da-febre',
+        heading: 'O ciclo da febre que se repete',
+        paragraphs: [
+          'Em parte dos casos, os sintomas se organizam em crises que se repetem, chamadas de acessos maláricos. A crise começa com frio intenso e tremores, que duram de alguns minutos a uma hora. Depois vem a fase de calor, com febre alta que pode passar de 40 °C e durar algumas horas. Por fim, vem o suor intenso, quando a temperatura cai e a pessoa fica exausta.',
+          'Nas formas típicas, essas crises se repetem a cada 48 horas na malária por Plasmodium vivax ou a cada 72 horas na malária por P. malariae. Na infecção por P. falciparum, o padrão costuma ser irregular.',
+          'Por isso, não dá para confirmar a malária contando o intervalo das febres. O ciclo ajuda a levantar a suspeita, mas a confirmação depende do exame de sangue.',
         ],
       },
       {
         id: 'regra-de-ouro',
         heading: 'A regra de ouro: febre em área de transmissão',
         paragraphs: [
-          'Em regiões com transmissão de malária, qualquer episódio de febre deve ser investigado no mesmo dia. O exame é simples, feito por gota espessa ou teste rápido, e está disponível no SUS.',
-          'O motivo da urgência é prático: o diagnóstico precoce reduz muito o risco de forma grave. Esperar a febre passar é o erro que mais custa.',
+          'Em regiões com transmissão de malária, qualquer episódio de febre deve ser investigado no mesmo dia. O exame é simples, feito por gota espessa ou teste rápido, e está disponível gratuitamente no SUS.',
+          'O motivo da urgência é prático. Quanto antes o parasita é identificado e o tratamento começa, menor é o risco de a doença evoluir para a forma grave, que pode se instalar em poucas horas.',
+          'Esperar a febre passar por conta própria é o erro que mais custa. Também não vale tomar remédio para baixar a febre e adiar a consulta: aliviar o sintoma não trata a infecção nem substitui o exame.',
         ],
       },
       {
         id: 'sinais-de-gravidade',
         heading: 'Sinais de gravidade',
         paragraphs: [
-          'Alguns sinais indicam que a doença evoluiu para a forma grave. Nesses casos, é emergência: procure atendimento imediato.',
+          'Alguns sinais indicam que a doença evoluiu para a forma grave. Nesses casos, é uma emergência: procure atendimento imediato, sem esperar.',
+          'A malária grave é mais comum na infecção por P. falciparum, mas pode ocorrer em qualquer tipo. Ela pode surgir em poucas horas, mesmo depois de sintomas que pareciam leves.',
         ],
         bullets: [
-          'Confusão mental, sonolência ou convulsões',
+          'Confusão mental, sonolência excessiva ou dificuldade para acordar',
+          'Convulsões',
           'Dificuldade para respirar',
-          'Urinar muito menos que o habitual',
-          'Icterícia intensa ou sangramentos',
+          'Urina escura ou avermelhada',
+          'Pele e olhos amarelados',
+          'Sangramentos',
           'Vômitos persistentes que impedem a hidratação',
-          'Fraqueza extrema, com dificuldade de ficar de pé',
+          'Fraqueza extrema',
         ],
       },
       {
         id: 'por-que-nao-esperar',
         heading: 'Por que não dá para esperar',
         paragraphs: [
-          'A malária causada por Plasmodium falciparum pode evoluir de forma rápida e levar a complicações em poucos dias. Por isso, procure atendimento imediato se tiver febre em área de transmissão: procure atendimento de emergência ou vá a um pronto atendimento, sem tentar tratamento caseiro.',
+          'A malária causada por Plasmodium falciparum é a que mais preocupa, porque pode evoluir de forma rápida. Em poucos dias, a infecção pode comprometer órgãos e levar a complicações graves.',
+          'O tempo é o fator que mais pesa no desfecho. Reconhecer a doença cedo e iniciar o tratamento certo muda o prognóstico, e o tratamento está disponível de graça na rede pública.',
+          'Quanto mais o parasita se multiplica no sangue, mais lenta costuma ser a recuperação, mesmo com o tratamento correto. Nas formas graves, a doença pode atingir o cérebro, os rins e o fígado, e esses casos exigem internação.',
+        ],
+      },
+      {
+        id: 'quem-precisa-de-atencao-extra',
+        heading: 'Quem precisa de atenção extra',
+        paragraphs: [
+          'Algumas pessoas têm mais risco de evoluir para a forma grave da malária. Entre elas estão as crianças, principalmente as menores de 5 anos, as gestantes, as pessoas com a imunidade comprometida, como quem tem HIV ou aids, e quem está infectado pela primeira vez.',
+          'Nesses grupos, os sinais de piora podem aparecer mais rápido, por isso a recomendação é procurar atendimento ao primeiro sinal de febre, sem esperar. Em gestantes, a malária pode causar parto prematuro e baixo peso ao nascer, o que exige acompanhamento cuidadoso.',
+          'Quem mora ou viaja para a região amazônica está mais exposto ao mosquito. Já as pessoas que nunca tiveram malária, ou que chegaram há pouco tempo a uma área de transmissão, têm menos proteção e adoecem com mais facilidade.',
+        ],
+      },
+      {
+        id: 'como-o-diagnostico-e-feito',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'O diagnóstico começa com a avaliação médica e é confirmado por um exame que procura o parasita no sangue. O exame de referência no Brasil é a gota espessa, uma gota de sangue analisada no microscópio.',
+          'A gota espessa identifica o parasita e também a espécie, e é a espécie que define qual tratamento será usado. Em áreas de difícil acesso, usam-se ainda testes rápidos, que dão resultado em cerca de 15 minutos.',
+          'Os dois exames estão disponíveis gratuitamente no SUS, e todo caso suspeito deve ser investigado. A quantidade de parasitas no sangue varia com o tempo, por isso o médico pode repetir o exame ao longo de alguns dias quando o primeiro resultado é negativo e a suspeita continua.',
         ],
       },
       {
         id: 'tratamento-e-seguimento',
         heading: 'Tratamento e seguimento',
         paragraphs: [
-          'O tratamento é gratuito no SUS e depende da espécie do parasito, identificada no exame. Tomar o medicamento pelo tempo indicado é essencial para evitar recaída e resistência.',
+          'O tratamento é gratuito no SUS e depende da espécie do parasita, além do peso, da idade e do fato de a pessoa estar grávida. Por isso, a escolha do medicamento só deve ser feita por um profissional de saúde.',
+          'Tomar o remédio exatamente pelo tempo indicado é essencial. Interromper antes do fim permite que o parasita volte a se multiplicar, favorece as recaídas e contribui para a resistência aos medicamentos.',
+          'Depois do tratamento, os sintomas costumam melhorar em poucos dias quando a recuperação corre como esperado. Voltar à consulta continua importante, e qualquer nova febre nas semanas seguintes deve ser informada à equipe de saúde.',
         ],
         cta: {
           label: 'Veja a página completa sobre malária',
@@ -1784,7 +1820,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -1801,48 +1837,75 @@ export const articles: Article[] = [
         id: 'onde-esta-o-risco',
         heading: 'Onde está o risco',
         paragraphs: [
-          'No Brasil, a transmissão de malária se concentra na Amazônia Legal. O risco é maior em áreas de floresta, de garimpo e de assentamento, sobretudo perto de água limpa e com sombra.',
-          'O mosquito Anopheles, conhecido como mosquito-prego, pica principalmente do entardecer até a noite. Por isso, as medidas de proteção se concentram nesse período.',
+          'No Brasil, a transmissão de malária se concentra na Amazônia Legal, a região que reúne a maior parte dos casos do país. Dentro dela, o risco é maior em áreas de floresta, de garimpo, de assentamento e nas proximidades de rios, igarapés e represas, sobretudo onde há água limpa e sombra.',
+          'O mosquito Anopheles, conhecido no Brasil como mosquito-prego, carapanã ou muriçoca, pica principalmente do entardecer até a noite. Ele costuma atacar tanto dentro quanto ao redor das casas, e se reproduz em água limpa, o que explica por que as medidas de proteção se concentram nesse período e nesses ambientes.',
+          'Viajar para essas áreas não significa que a doença é inevitável, inclusive em viagens curtas. Com as medidas certas, adotadas de forma consistente durante toda a estadia, o risco de infecção cai bastante, tanto para moradores quanto para visitantes.',
         ],
       },
       {
         id: 'antes-da-viagem',
         heading: 'Antes de viajar',
-        bullets: [
-          'Procure um serviço de saúde ou centro de referência em medicina de viagem algumas semanas antes',
-          'Informe o roteiro e o tipo de hospedagem, porque isso muda a avaliação do risco',
-          'Pergunte se há indicação de quimioprofilaxia, que só deve ser usada com orientação profissional',
-          'Leve repelente suficiente para todo o período',
+        paragraphs: [
+          'Quem vai viajar para a região amazônica deve procurar um serviço de saúde ou um centro de referência em medicina de viagem algumas semanas antes da partida. Esse contato é o momento de alinhar as medidas de proteção e de esclarecer dúvidas, por isso não deixe para a véspera: algumas medidas precisam de tempo para serem organizadas.',
+          'Informe o roteiro, o tempo de permanência e o tipo de hospedagem, porque esses detalhes mudam a avaliação do risco. Em alguns casos, o médico pode indicar um medicamento para prevenir a infecção durante a estadia, o que só deve ser feito com orientação profissional.',
+          'Também vale calcular quanto repelente será necessário para todo o período e levar quantidade suficiente, porque o produto pode ser difícil de encontrar em áreas remotas. Levar um estoque extra é uma precaução simples e útil.',
         ],
       },
       {
         id: 'durante-a-viagem',
         heading: 'Durante a viagem',
+        paragraphs: [
+          'Durante a estadia, evitar a picada do mosquito é a medida central. Como o mosquito ataca com mais intensidade do entardecer até a noite, é nesse intervalo que os cuidados precisam ser maiores.',
+          'A proteção para dormir merece reforço. Use mosquiteiro, de preferência impregnado com inseticida, verifique se não há buracos e mantenha telas em portas e janelas quando houver. Espirais e vaporizadores ajudam nos horários de maior atividade do mosquito.',
+          'O repelente deve ser indicado por um profissional de saúde e reaplicado conforme a orientação do fabricante, sobretudo depois de suar, de tomar banho ou de passar muito tempo na água. Guarde o frasco ao alcance durante o dia, para não esquecer a reaplicação.',
+        ],
         bullets: [
-          'Dormir com mosquiteiro impregnado com inseticida',
+          'Dormir sob mosquiteiro impregnado com inseticida',
           'Usar telas em janelas e portas, quando disponíveis',
-          'Aplicar repelente nas áreas expostas, reaplicando conforme a orientação do fabricante',
-          'Usar roupas de manga longa e calça nos horários de maior atividade do mosquito',
+          'Aplicar repelente nas áreas expostas do corpo, reaplicando conforme a orientação do fabricante',
+          'Vestir roupas de manga longa e calça nos horários de maior atividade do mosquito',
           'Evitar permanecer ao ar livre ao entardecer e à noite em áreas de transmissão',
+        ],
+      },
+      {
+        id: 'viagem-com-criancas-e-gestantes',
+        heading: 'Viagem com crianças e gestantes',
+        paragraphs: [
+          'Alguns viajantes precisam de cuidados extras. Crianças, principalmente as menores de 5 anos, e gestantes têm mais risco de evoluir para a forma grave da malária. Por isso, esses grupos devem reforçar a proteção contra a picada do mosquito e procurar atendimento ao primeiro sinal de febre.',
+          'Em gestantes, a malária pode causar parto prematuro e baixo peso ao nascer, o que torna o acompanhamento antes e depois da viagem ainda mais importante. Na dúvida sobre repelentes e outros produtos, converse com um profissional de saúde, porque algumas recomendações mudam nessa fase da vida.',
+          'Quem nunca teve malária também adoece com mais facilidade, porque ainda não tem a proteção adquirida em exposições anteriores. O mesmo vale para quem mora ou viaja para a região amazônica e fica mais exposto ao mosquito, uma atenção que quem visita a área pela primeira vez não deve deixar de lado.',
+        ],
+      },
+      {
+        id: 'protecao-coletiva',
+        heading: 'Proteção coletiva nas áreas de risco',
+        paragraphs: [
+          'A prevenção da malária não depende só do cuidado individual. Nas áreas de transmissão, ela também envolve ações coletivas feitas pelas equipes de saúde, que reduzem a quantidade de mosquitos em toda a comunidade. Quem viaja também se beneficia dessas ações.',
+          'Essas ações incluem a borrifação residual nas casas, a distribuição de mosquiteiros impregnados com inseticida e a drenagem de criadouros. Quando são mantidas de forma contínua, elas diminuem a transmissão na região.',
+          'Quando a equipe de saúde orientar alguma medida na comunidade, seguir a recomendação ajuda a proteger toda a vizinhança, e não apenas quem recebe a orientação.',
         ],
       },
       {
         id: 'depois-da-viagem',
         heading: 'Depois de voltar',
         paragraphs: [
-          'A malária pode se manifestar semanas depois da viagem. Se aparecer febre nas semanas e meses seguintes ao retorno de uma área de transmissão, procure atendimento e informe a viagem recente. Essa informação muda a investigação.',
+          'A malária pode se manifestar semanas depois do retorno. Por isso, se aparecer febre nas semanas e meses seguintes a uma viagem para área de transmissão, procure atendimento e informe a viagem recente, mesmo que os sintomas pareçam leves.',
+          'Essa informação muda a investigação: sabendo onde a pessoa esteve, o profissional de saúde consegue suspeitar de malária e pedir o exame certo, que é gratuito no SUS e está disponível na maioria dos serviços de saúde.',
+          'Não espere a febre passar sozinha nem tente tratamento caseiro. Quanto mais cedo a doença é identificada, menor é o risco de a infecção evoluir para uma forma grave.',
         ],
-        cta: {
-          label: 'Veja os sintomas na página sobre malária',
-          href: '/doencas/malaria/',
-        },
       },
       {
         id: 'o-que-nao-funciona',
         heading: 'O que não funciona',
         paragraphs: [
-          'Vitaminas, chás e repelentes caseiros não substituem as medidas de proteção. Também não existe vacina disponível para uso rotineiro no Brasil, e as vacinas em estudo ainda estão em fase de testes clínicos. A prevenção depende de evitar a picada.',
+          'Vitaminas, chás e repelentes caseiros não substituem as medidas de proteção. Não há comprovação de que essas práticas afastem o mosquito ou impeçam a infecção, por isso não devem ser tratadas como alternativa.',
+          'Também não existe vacina contra a malária disponível para uso rotineiro no Brasil. As vacinas recomendadas pela Organização Mundial da Saúde são usadas em crianças de países africanos, onde a transmissão por P. falciparum é muito alta, e não fazem parte do calendário brasileiro.',
+          'A prevenção depende, portanto, de evitar a picada do mosquito, com mosquiteiro, repelente, roupas adequadas e as ações coletivas de controle. Nenhuma medida isolada resolve tudo: o ideal é combinar várias formas de proteção.',
         ],
+        cta: {
+          label: 'Veja os sintomas na página sobre malária',
+          href: '/doencas/malaria/',
+        },
       },
     ],
     diseaseSlugs: ['malaria'],
@@ -1864,7 +1927,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

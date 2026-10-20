@@ -47,6 +47,7 @@ export const topics: Topic[] = [
       'zika-na-gestacao-o-que-a-infeccao-pode-causar',
       'zika-como-se-proteger-em-areas-com-transmissao',
       'malaria-sintomas-e-quando-buscar-atendimento',
+      'malaria-como-se-prevenir-em-viagens-para-a-amazonia',
       'tuberculose-quando-a-tosse-persistente-e-sinal-de-alerta',
       'tuberculose-o-tratamento-tem-cura-e-e-gratuito',
       'indetectavel-intransmissivel-o-que-significa',

@@ -1398,8 +1398,16 @@ export const diseases: Disease[] = [
         heading: 'O que é malária?',
         paragraphs: [
           'Malária é uma doença infecciosa causada por parasitas (protozoários) do gênero Plasmodium, transmitidos pela picada da fêmea do mosquito Anopheles, conhecido no Brasil como mosquito-prego, carapanã ou muriçoca. Ela provoca febre, calafrios e mal-estar, e no Brasil a transmissão se concentra na região amazônica.',
-          'Duas espécies concentram a maior parte dos casos no Brasil. O Plasmodium vivax é o mais comum e costuma provocar uma forma menos grave, mas com risco de recaídas. O Plasmodium falciparum é o mais perigoso e pode levar à malária grave, com risco de morte. Com menos frequência, ocorrem infecções por P. malariae e P. ovale.',
           'A transmissão acontece quando a fêmea de um mosquito Anopheles infectado pica uma pessoa. O parasita segue para o fígado e depois para o sangue, onde invade e destrói os glóbulos vermelhos. Essa destruição é o que provoca a febre e os demais sintomas.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de malária?',
+        paragraphs: [
+          'Existem cinco espécies de Plasmodium capazes de causar malária em pessoas, mas duas concentram quase todos os casos no Brasil. O tipo é definido pela espécie identificada no exame de sangue, e é essa informação que orienta o tratamento.',
+          'O Plasmodium vivax é o mais comum no país e costuma causar uma forma menos grave. O ponto de atenção é a recaída: parte dos parasitas pode permanecer adormecida no fígado e voltar a provocar a doença semanas ou meses depois, mesmo sem uma nova picada. O Plasmodium falciparum é o mais perigoso, multiplica-se rápido e pode levar à malária grave em poucos dias, por isso é o tipo que exige diagnóstico e tratamento com mais urgência.',
+          'Com menos frequência, ocorrem infecções por Plasmodium malariae e Plasmodium ovale. O P. malariae tende a ser mais brando e não costuma deixar formas adormecidas no fígado. O P. ovale é raro no Brasil e se comporta de maneira parecida com o P. vivax, inclusive com risco de recaída.',
         ],
       },
       {
@@ -1407,7 +1415,7 @@ export const diseases: Disease[] = [
         heading: 'Como a malária é transmitida?',
         paragraphs: [
           'O parasita passa para a pessoa pela picada da fêmea do mosquito Anopheles. Esse mosquito costuma picar ao entardecer e à noite, dentro e ao redor das casas, e se reproduz em água limpa, como igarapés, represas e áreas alagadas, o que explica a concentração de casos em áreas de floresta e de garimpo.',
-          'A malária não passa de uma pessoa para outra pelo contato do dia a dia, como abraço, beijo ou tosse, nem pelo ar. Em situações raras, a transmissão pode ocorrer por transfusão de sangue ou pelo compartilhamento de agulhas e seringas.',
+          'A malária não passa de uma pessoa para outra pelo contato do dia a dia, como abraço, beijo ou tosse, nem pelo ar. Em situações raras, a transmissão pode ocorrer por transfusão de sangue, pelo compartilhamento de agulhas e seringas ou da mãe para o bebê na gravidez ou no parto, o que se chama malária congênita.',
         ],
       },
       {
@@ -1598,7 +1606,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
