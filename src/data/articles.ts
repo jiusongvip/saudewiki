@@ -1314,51 +1314,72 @@ export const articles: Article[] = [
         id: 'por-que-a-dor-e-tao-forte',
         heading: 'Por que a dor articular é tão forte',
         paragraphs: [
-          'Na chikungunya, o vírus provoca uma inflamação intensa nas articulações. É isso que faz da dor a marca registrada da doença: ela costuma ser mais forte e mais localizada do que na dengue, e muitas vezes vem acompanhada de inchaço.',
-          'As articulações mais atingidas são as das mãos, dos pés, dos tornozelos e dos joelhos. Em alguns casos, a dor é tão intensa que dificulta caminhar ou segurar objetos.',
+          'Na chikungunya, o vírus provoca uma inflamação intensa nas articulações. É isso que faz da dor a marca registrada da doença: ela costuma ser mais forte e mais localizada do que na dengue, e muitas vezes vem acompanhada de inchaço e de rigidez.',
+          'As articulações mais atingidas são as das mãos, dos punhos, dos tornozelos e dos pés. Também podem ser afetados joelhos e ombros. Em muitos casos, a dor é intensa o bastante para dificultar movimentos simples, como segurar um objeto, abrir uma porta ou caminhar até a esquina.',
+          'O padrão da dor ajuda a reconhecer o quadro. Ela piora com o esforço e tende a ser mais forte pela manhã, quando a pessoa acorda e sente as articulações travadas. Esse comportamento faz parte da inflamação articular e não indica, por si só, que a doença esteja avançando.',
         ],
       },
       {
         id: 'tres-fases',
         heading: 'As três fases da doença',
         paragraphs: [
-          'A evolução da chikungunya costuma ser descrita em três fases, e isso ajuda a entender por que a recuperação não é igual para todo mundo.',
+          'A evolução da chikungunya costuma ser descrita em três fases. Elas não servem só para organizar o calendário da doença: cada fase muda o tipo de cuidado de que a pessoa precisa e ajuda a entender por que a recuperação não é igual para todo mundo.',
+          'A febre marca a primeira fase e costuma ceder antes da dor. Isso confunde muita gente, porque dá a impressão de que a doença passou quando o termômetro volta ao normal, enquanto a articulação continua inflamada e dolorida.',
+          'Na fase pós-aguda, a febre já foi embora, mas a rigidez costuma incomodar mais do que a dor em si, principalmente pela manhã e depois de períodos parados.',
         ],
         bullets: [
-          'Fase aguda: até 14 dias, com febre alta e dor articular intensa',
-          'Fase pós-aguda: de 15 a 90 dias, quando a febre cede e a dor pode continuar',
-          'Fase crônica: além de 90 dias, quando a dor articular persiste e passa a exigir acompanhamento',
+          'Fase aguda (febril): dura de 5 a 14 dias, com febre alta e dor articular intensa',
+          'Fase pós-aguda: vai do 15º ao 90º dia; a febre cede, e a dor e a rigidez podem continuar',
+          'Fase crônica: ocorre quando os sintomas passam de 90 dias e a dor passa a exigir acompanhamento',
         ],
       },
       {
         id: 'quanto-tempo-dura',
         heading: 'Quanto tempo dura, na prática',
         paragraphs: [
-          'A maioria das pessoas melhora em algumas semanas. Parte das pessoas continua com dor por meses, e uma parcela menor convive com sintomas articulares por mais tempo.',
-          'Não é possível prever de antemão quem vai evoluir para a forma prolongada. Idade mais avançada, dor articular prévia e quadros mais intensos na fase aguda aparecem associados a uma recuperação mais lenta.',
+          'A maioria das pessoas melhora em algumas semanas. A fase aguda, com febre e dor mais forte, costuma durar de 5 a 14 dias; depois dela, muitas ainda sentem dor e rigidez, e uma parcela menor convive com sintomas articulares por muito mais tempo.',
+          'Em mais da metade dos casos, a dor articular se torna crônica, com duração de meses a anos. A dor que continua depois do primeiro mês, portanto, não é uma exceção nem sinal de que o tratamento deu errado: é a forma como a chikungunya costuma se comportar.',
+          'Não é possível prever de antemão quem vai evoluir para a forma prolongada. Idade mais avançada, dor articular prévia e sintomas mais intensos na fase aguda aparecem associados a uma recuperação mais lenta. Como esse risco não dá para medir no início, o acompanhamento com um profissional de saúde vale para todo mundo.',
         ],
       },
       {
         id: 'o-que-ajuda',
         heading: 'O que ajuda na recuperação',
         paragraphs: [
-          'Nas primeiras semanas, o cuidado é o mesmo das outras arboviroses: repouso, hidratação e alívio da dor com orientação de um profissional de saúde. Enquanto a dengue não for descartada, evite aspirina (ácido acetilsalicílico), ibuprofeno e outros anti-inflamatórios: eles aumentam o risco de sangramento.',
-          'Quando a dor persiste, a fisioterapia costuma fazer parte do tratamento, com exercícios graduais que ajudam a manter o movimento e a força da articulação. O tratamento é definido caso a caso.',
+          'Nas primeiras semanas, o cuidado é o mesmo das outras arboviroses: repouso, hidratação e alívio da dor com orientação de um profissional de saúde. Beber líquido ao longo do dia, mesmo sem sede, e escolher alimentos leves ajudam o corpo a se recuperar.',
+          'Para a febre e a dor, o profissional pode indicar dipirona ou paracetamol. Enquanto a dengue não for descartada, evite aspirina (ácido acetilsalicílico), ibuprofeno, diclofenaco, nimesulida e outros anti-inflamatórios, porque aumentam o risco de sangramento. Corticoides também não devem ser usados sem indicação médica.',
+          'Quando a dor persiste, a fisioterapia costuma fazer parte do tratamento, com exercícios graduais que ajudam a manter o movimento e a força da articulação. O plano é definido caso a caso e pode ser revisto ao longo dos meses, conforme a dor responde ao tratamento.',
         ],
-        cta: {
-          label: 'Veja a página completa sobre chikungunya',
-          href: '/doencas/chikungunya/',
-        },
+      },
+      {
+        id: 'o-que-evitar',
+        heading: 'O que evitar enquanto a dor não passa',
+        paragraphs: [
+          'A dor da chikungunya é intensa, o que torna a automedicação tentadora. Vale resistir a ela: como a dengue é transmitida pelo mesmo mosquito e começa de forma parecida, a suspeita de dengue muda o que pode ser usado no alívio da dor.',
+          'Se a dor não cede com o que foi prescrito, o caminho é voltar ao serviço de saúde, e não aumentar a dose por conta própria. Somar medicamentos ou usar um remédio que não foi indicado aumenta o risco de efeitos colaterais sem trazer alívio proporcional.',
+          'Durante a primeira semana, proteja-se de picadas de mosquito. É o período em que há mais vírus circulando no sangue, e evitar a picada impede que o mosquito que pica você transmita a doença para outras pessoas da casa e da vizinhança.',
+        ],
+      },
+      {
+        id: 'quando-o-exame-ajuda',
+        heading: 'Quando o exame ajuda a esclarecer',
+        paragraphs: [
+          'A infecção é confirmada por exame, e o tipo de exame depende do dia da doença. Até o 8º dia do início dos sintomas, pode ser feito o RT-PCR, que detecta o material genético do vírus; a partir do 6º dia, pode ser feita a sorologia para anticorpos IgM. O hemograma pode mostrar alterações leves, como redução de plaquetas e de leucócitos, mas apoia o diagnóstico sem confirmar a doença sozinho.',
+          'Quando a pessoa chega ao serviço de saúde já na fase pós-aguda, com a dor articular se arrastando, a confirmação pode ficar mais difícil, porque a janela dos exames passou. Nesse caso, o histórico de sintomas, o local onde a pessoa mora ou viajou e o exame físico pesam mais na avaliação.',
+          'Vale lembrar que o cuidado da dor que persiste não depende de um exame novo: ele é conduzido pelo que a pessoa relata e pelo exame físico, com ajustes conforme a resposta.',
+        ],
       },
       {
         id: 'quando-voltar',
         heading: 'Quando voltar ao serviço de saúde',
         paragraphs: [
-          'Volte se a dor não melhorar, se houver inchaço importante, se a articulação perder movimento ou se aparecerem sinais de alerta como dor abdominal intensa, vômitos persistentes, sangramento ou sonolência.',
+          'Volte ao serviço de saúde se a dor não melhorar, se houver inchaço importante, se a articulação perder movimento ou se os sintomas piorarem depois de um período de melhora.',
+          'Alguns sinais pedem avaliação no mesmo dia: vômitos persistentes, dor abdominal forte e contínua, sangramento nas gengivas ou no nariz, manchas roxas na pele, confusão mental, sonolência excessiva ou convulsões, fraqueza ou dificuldade para mover um lado do corpo, falta de ar, dor no peito ou palpitações, urinar muito menos que o habitual e pele ou olhos amarelados.',
+          'A melhora da febre nem sempre significa que o quadro está controlado. Os sinais de alerta da dengue são parecidos e vale conhecê-los: [veja os sinais de alerta da dengue](/doencas/dengue/). Se algo mudar para pior, volte para reavaliação, mesmo que a dor pareça igual à do dia anterior.',
         ],
         cta: {
-          label: 'Compare com os sinais da dengue',
-          href: '/doencas/dengue/',
+          label: 'Veja a página completa sobre chikungunya',
+          href: '/doencas/chikungunya/',
         },
       },
     ],
@@ -1381,7 +1402,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -1397,46 +1418,61 @@ export const articles: Article[] = [
         id: 'por-que-confunde',
         heading: 'Por que as duas se confundem',
         paragraphs: [
-          'Dengue e chikungunya são transmitidas pelos mesmos mosquitos, circulam nas mesmas áreas e começam de forma parecida: febre alta de início súbito, dor de cabeça, dor no corpo e mal-estar.',
-          'Por isso, o que diferencia uma da outra raramente é um sintoma isolado. O conjunto de sintomas e a intensidade de cada um é que orientam a suspeita.',
+          'Dengue e chikungunya são transmitidas pelos mesmos mosquitos, circulam nas mesmas áreas e começam de forma parecida: febre alta de início súbito, dor de cabeça, dor no corpo e mal-estar. Quem mora em uma região com transmissão costuma conhecer alguém que teve uma das duas, e a dúvida sobre qual delas é aparece com frequência.',
+          'Por isso, o que diferencia uma da outra raramente é um sintoma isolado. O conjunto de sintomas e a intensidade de cada um é que orientam a suspeita, e mesmo assim a separação nem sempre é possível apenas pelo exame clínico. Não é por falta de conhecimento da equipe: é porque as duas doenças compartilham a maior parte do quadro inicial.',
+          'As duas também aparecem na mesma época do ano, nos meses mais quentes e chuvosos, quando a população de mosquitos cresce. Morar ou ter viajado para uma área com transmissão, portanto, não ajuda a escolher entre elas: serve para levantar a suspeita de que se trata de uma arbovirose, e o mesmo cuidado vale para as duas.',
         ],
       },
       {
         id: 'diferencas',
         heading: 'As diferenças que costumam aparecer',
+        paragraphs: [
+          'Existem diferenças que costumam aparecer e que ajudam a orientar a avaliação. Elas não fecham o diagnóstico sozinhas, mas mudam a prioridade do atendimento e o que se espera do acompanhamento.',
+          'As mais úteis envolvem o comportamento da dor nas articulações, a duração da febre e o momento em que as manchas aparecem na pele.',
+        ],
         bullets: [
-          'A dor articular tende a ser muito intensa e incapacitante na chikungunya; na dengue é comum, mas menos localizada',
+          'A dor articular tende a ser muito intensa e incapacitante na chikungunya; na dengue é frequente, mas menos localizada',
           'O inchaço articular é mais frequente na chikungunya',
-          'As manchas na pele podem aparecer nas duas, em momentos diferentes',
+          'A febre costuma ser mais curta na chikungunya e mais prolongada na dengue',
+          'As manchas na pele podem aparecer nas duas, mas em momentos diferentes do curso da doença',
           'A dor atrás dos olhos é mais característica da dengue',
-          'A dor articular da chikungunya pode se prolongar por semanas ou meses',
+          'A dor articular da chikungunya pode se prolongar por semanas ou meses, o que é raro na dengue',
         ],
       },
       {
         id: 'o-que-nao-serve',
         heading: 'O que não serve para diferenciar',
         paragraphs: [
-          'Sangramento, por si só, não confirma dengue. E a ausência de manchas na pele não descarta nenhuma das duas. Também não é possível diferenciar pelo local onde a pessoa mora ou pela época do ano, já que as duas circulam juntas.',
-          'Só a avaliação em serviço de saúde, com exame clínico e, quando indicado, exames laboratoriais, permite definir a causa.',
+          'Sangramento, por si só, não confirma dengue, e a ausência de manchas na pele não descarta nenhuma das duas. Também não ajuda o fato de a pessoa já ter tido uma delas antes: quem teve dengue ainda pode ter chikungunya, e o contrário também vale.',
+          'Não é possível diferenciar pelo local onde a pessoa mora ou pela época do ano, já que as duas circulam juntas. O modo como os sintomas começaram também não ajuda: nas duas doenças o início é súbito, e é comum a pessoa não conseguir apontar o momento exato em que se sentiu mal.',
+          'Só a avaliação em serviço de saúde, com exame clínico e, quando indicado, exames laboratoriais, permite definir a causa. Os testes têm janela de tempo: na chikungunya, o RT-PCR pode ser feito até o 8º dia de sintomas e a sorologia para IgM a partir do 6º dia; na dengue, os exames também dependem do dia da doença. Por isso, a data em que os sintomas começaram é uma informação que a equipe precisa ouvir na consulta.',
         ],
       },
       {
         id: 'por-que-importa',
         heading: 'Por que a diferença importa',
         paragraphs: [
-          'As duas doenças não têm antiviral específico e o tratamento inicial é parecido. A diferença está no acompanhamento: a dengue exige atenção aos sinais de alerta, que aparecem quando a febre cede, e a chikungunya pode exigir acompanhamento prolongado da dor articular.',
-          'Nos dois casos, evite aspirina (ácido acetilsalicílico), ibuprofeno e outros anti-inflamatórios até que a dengue seja descartada: eles aumentam o risco de sangramento.',
+          'As duas doenças não têm antiviral específico, e o tratamento inicial é parecido: hidratação, repouso e alívio da dor com orientação profissional. A mesma restrição vale para as duas: até que a dengue seja descartada, evite aspirina (ácido acetilsalicílico), ibuprofeno, diclofenaco e outros anti-inflamatórios, porque aumentam o risco de sangramento.',
+          'A diferença está no acompanhamento. Na dengue, a atenção se concentra nas primeiras semanas e nos sinais de alerta, que podem aparecer quando a febre cede: [veja os sinais de alerta da dengue](/doencas/dengue/).',
+          'A chikungunya pede um acompanhamento mais longo. A dor articular pode se estender por meses, e o acompanhamento costuma envolver fisioterapia, revisão do tratamento e ajustes no ritmo das atividades. Para quem tem uma das duas doenças, o que muda o desfecho é parecido: procurar avaliação cedo e manter o retorno marcado.',
         ],
-        cta: {
-          label: 'Entenda os sinais de alerta da dengue',
-          href: '/doencas/dengue/',
-        },
+      },
+      {
+        id: 'como-se-proteger-das-duas',
+        heading: 'Como se proteger das duas',
+        paragraphs: [
+          'Como o mosquito é o mesmo, as medidas de prevenção também são. Reduzir criadouros e evitar picadas protege contra chikungunya, dengue e zika ao mesmo tempo, e é isso que faz da prevenção um trabalho de rotina, e não uma ação isolada.',
+          'Em casa, o trabalho começa pelos reservatórios: manter caixas d’água, tonéis e baldes tampados, não deixar água acumulada em vasos, calhas e ralos, colocar areia nos pratos das plantas, guardar garrafas e pneus virados para baixo ou em local coberto e manter o lixo fechado. Reservar cerca de 10 minutos por semana para vistoriar o quintal é uma recomendação do Ministério da Saúde.',
+          'Vale usar repelente com DEET, IR3535 ou icaridina nas áreas expostas do corpo, seguindo as orientações do fabricante, vestir calças e camisas de manga comprida nos horários de maior atividade do mosquito, instalar telas nas janelas e portas e usar mosquiteiro, principalmente para crianças pequenas, pessoas acamadas e idosos. Para a chikungunya há uma vacina registrada no Brasil, mas a aplicação é uma estratégia piloto em municípios selecionados.',
+        ],
       },
       {
         id: 'o-que-fazer',
         heading: 'O que fazer diante da dúvida',
         paragraphs: [
           'Procure uma unidade de saúde para avaliação, informe onde você mora e para onde viajou nos últimos dias e relate todos os sintomas, inclusive a intensidade da dor nas articulações. Não tente diferenciar em casa nem se automedicar.',
+          'Se a febre ceder e aparecerem vômitos persistentes, dor abdominal forte, sangramento, sonolência excessiva, falta de ar ou urina muito escassa, procure atendimento de urgência no mesmo dia, sem esperar a consulta marcada.',
+          'Levar a lista dos medicamentos que você usa e informar se já teve dengue antes ajuda a equipe a avaliar o caso com mais informações. O mesmo vale para gravidez, doenças crônicas e uso de medicamentos que alteram a coagulação.',
         ],
         cta: {
           label: 'Veja a página sobre chikungunya',
@@ -1466,7 +1502,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

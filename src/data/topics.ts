@@ -126,6 +126,7 @@ export const topics: Topic[] = [
     articleSlugs: [
       'como-prevenir-a-dengue',
       'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue',
+      'chikungunya-e-dengue-como-diferenciar',
       'zika-como-se-proteger-em-areas-com-transmissao',
       'malaria-como-se-prevenir-em-viagens-para-a-amazonia',
       'hiv-o-que-fazer-nas-primeiras-72-horas',

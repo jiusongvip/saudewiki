@@ -294,6 +294,7 @@ export const diseases: Disease[] = [
       'quando-procurar-atendimento-em-caso-de-suspeita-de-dengue',
       'dengue-pode-matar',
       'dengue-segunda-infeccao',
+      'chikungunya-e-dengue-como-diferenciar',
     ],
     relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
     relatedDiseaseSlugs: ['chikungunya', 'zika', 'malaria'],
@@ -1053,7 +1054,22 @@ export const diseases: Disease[] = [
         heading: 'Recuperação e dores articulares que persistem',
         paragraphs: [
           'A maior parte das pessoas se recupera por completo em uma ou duas semanas. A dor e a rigidez nas articulações, no entanto, podem continuar por mais tempo e, em alguns casos, se tornar crônicas, com duração de meses a anos.',
-          'Idade mais avançada e doenças crônicas aumentam a chance de a dor se prolongar. O acompanhamento com fisioterapia e o tratamento adequado da dor ajudam a manter a qualidade de vida durante essa fase. Também podem ocorrer complicações, como problemas oculares, cardíacos e neurológicos, que exigem avaliação médica.',
+          'Idade mais avançada e doenças crônicas aumentam a chance de a dor se prolongar. O acompanhamento com fisioterapia e o tratamento adequado da dor ajudam a manter a qualidade de vida durante essa fase, e quem já convive com doenças crônicas costuma precisar de acompanhamento mais próximo.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir',
+        paragraphs: [
+          'A chikungunya costuma ser leve e se resolver sozinha, mas uma parcela das pessoas desenvolve complicações que exigem avaliação médica e, em alguns casos, internação. Elas podem aparecer na fase aguda, junto com a febre e a dor articular, ou mais tarde, durante a recuperação.',
+          'As complicações atingem vários órgãos e podem agravar doenças que a pessoa já tinha, como diabetes e hipertensão. Quando surgem, costumam vir acompanhadas de algum sinal de alerta, por isso qualquer piora dos sintomas pede reavaliação no serviço de saúde.',
+        ],
+        bullets: [
+          'Neurológicas, como encefalite, meningoencefalite, mielite, síndrome de Guillain-Barré, neuropatias e fraqueza ou paralisia',
+          'Oculares, com inflamação dentro do olho que pode causar dor e alteração da visão',
+          'Cardíacas, como miocardite, pericardite e arritmias',
+          'Renais, respiratórias e digestivas, com alteração da função dos rins e quadros respiratórios ou gastrointestinais',
+          'Descompensação de doenças que já existiam, como diabetes, hipertensão e doenças do coração',
         ],
       },
       {
@@ -1138,7 +1154,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

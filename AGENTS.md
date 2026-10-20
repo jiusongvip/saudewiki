@@ -53,9 +53,7 @@ node scripts/check-i18n.mjs  # 双语结构不变量、繁体字形与繁体层�
 
 ## 五、写作循环：改一次数据只跑一次构建
 
-`npm run build` 是本仓库最慢的一步：整站 253 页，实测 70–80 秒，其中约 40 秒花在 Node 启动时被沙箱 fs 代理逐次拦截的模块解析上，与内容多少无关。因此：
-
-1. **写作期不构建。** 改完 `src/data` 用 `npm run verify -- --prefix <疾病>` 收口，约 1 秒；构建只在交付前跑一次。修改期间反复构建，是这条工作流最大的时间浪费。
+1. **写作期不构建。** 改完 `src/data` 用 `npm run verify -- --prefix <疾病>` 收口，约 1 秒；构建只在交付前跑一次。修改期间反复构建，是这条工作流最大的时间浪费。**执行构建时把沙箱关掉**（AI 工具在沙箱外执行，人开终端本来就是沙箱外）：沙箱 fs 代理是那 60 秒的唯一来源，关掉后构建约 6 秒。
 2. **先给每节定字数，再动笔。** 正文 900–1200 词、每节 2–3 段。先用 `npm run verify -- --budget <节数>` 拿到每节的目标词数（6 节即每节约 175 词），一次写到位；写短了再逐句补，会比一次写准慢数倍。
 3. **整篇替换走 `scripts/draft.mjs`，不要手算行号。** `export` 取出现有文章为 JSON，改完 `check` 看字数与双语结构，`apply` 一次性写回 `articles.ts` 与孪生；`apply` 保留 `id`、`publishedAt`、`reviewStatus` 与署名，只改正文、接线与 `updatedAt`。整块替换不再需要 Python 行范围脚本，也不会再出现替换后括号失衡。
 4. **构建被批量删除守卫拦下时**（`SAFE_DELETE_BULK_CONFIRM_REQUIRED`，`dist/` 清理触发），在命令前加 `CODEBUDDY_SAFE_DELETE_ENABLED=0`，只影响该次构建进程。

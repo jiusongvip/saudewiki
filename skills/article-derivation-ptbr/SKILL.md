@@ -67,7 +67,7 @@ description: 为本站已存在的疾病词条派生巴西葡语文章（含繁�
 - **不设只为挂 CTA 的凑数小节（硬规则）**：不得新开「Onde entender mais sobre a doença」「在哪裡進一步了解此疾病」这类通篇复述疾病页有哪些栏目、只为安置跳转链接的 section。每篇文章只在**最后一个实质内容 section** 上挂一个 `cta`（孪生写 `ctaLabel`）指回疾病页；每个 section 都必须承载本篇主题的实质信息，不得为凑结构、凑节数或凑字数而新增。
 - 各篇必须独立成文，不得把 section 或「相关阅读」条目原样搬过来；同一事实在不同文章中的措辞与侧重要有区分。
 - **零臆造（硬规则）**：文章里每一个具体断言都必须可溯源到疾病词条自身的 section / faq，或已核实并列入 `references` 的来源；核不到就删除或改写为定性表述，不得凭常识或记忆补数字、补政策、补人群。
-- 同时产出 `zh-Hant` 繁体孪生：与 `pt-BR` 同源改写（不是二次翻译），术语与数字必须与 `pt-BR` 一致，语气、标点与用词遵循台湾繁体中文，不使用 `你`，不得出现简体专用字形。繁体层每个读者可见字段都必须是繁中，**不得残留葡语原文**——最易漏译的是 `references` 的 `label` 与 `publisher`（整条照抄葡语不会触碰任何结构不变量）；仅巴西专有名词与缩写（`SUS`、`Anvisa`、`Instituto Butantan`、`Farmácia Popular`、`SAMU 192`、`CPF`、`UBS`、`CONITEC`、`MAPA` 等）与 `url` 可原样保留。此项由 `scripts/check-i18n.mjs` 机械强制。
+- 同时产出 `zh-Hant` 繁体孪生：与 `pt-BR` 同源改写（不是二次翻译），术语与数字必须与 `pt-BR` 一致，语气、标点与用词遵循台湾繁体中文，不使用 `你`，不得出现简体专用字形。繁体层每个读者可见字段都必须是繁中，**不得残留葡语原文**——最易漏译的是 `references` 的 `label` 与 `publisher`（整条照抄葡语不会触碰任何结构不变量）；仅巴西专有名词与缩写（`SUS`、`Anvisa`、`Instituto Butantan`、`Farmácia Popular`、`SAMU 192`、`CPF`、`UBS`、`CONITEC`、`MAPA` 等）与 `url` 可原样保留。此项由 `scripts/check-i18n.mjs` 机械强制。**按 section 成对写（不要整篇串行）**：每写完一个 `pt-BR` 的 section，立刻写它在孪生里的对应 section，不要等整篇葡语写完再回头补繁体；两段同时在上下文里，术语与数字当场对齐，结构不变量里"逐节条数相等"也天然成立。
 
 ### 5. 写入站点数据文件
 
@@ -122,7 +122,7 @@ isPlaceholder: true
 **图片**：每篇文章恰好配 1 张照片，做法沿用[疾病 skill 5.6](../disease-encyclopedia-ptbr/SKILL.md)：
 
 - 搜索词：由**目标画面主体**决定，写成英文名词短语（器械、身体部位、就诊场景、动作），**不要拿疾病名或文章标题当词**；先按主题词搜，无果再放宽到场景词，Unsplash 与 Pexels 用同一组词。
-- 取图：**图源只限 Unsplash 与 Pexels 两个网站的真实照片，先在 Unsplash 搜索、无果再转 Pexels，两站都无合适照片才回退占位图；不得使用 AI 生成图片**。两者的 `images.unsplash.com` / `images.pexels.com` 可直连，参数固定 `?w=1200&h=800&fit=crop&q=80&fm=jpg`，并行下载并带超时重试；下载前先判断目标文件是否已存在，存在即跳过。检索候选要用浏览器 agent，且逐字复制页面 `<img>` 的 `src`，不得自行拼 URL。
+- 取图：**图源只限 Unsplash 与 Pexels 两个网站的真实照片，先在 Unsplash 搜索、无果再转 Pexels，两站都无合适照片才回退占位图；不得使用 AI 生成图片**。两者的 `images.unsplash.com` / `images.pexels.com` 可直连，参数固定 `?w=1200&h=800&fit=crop&q=80&fm=jpg`，并行下载并带超时重试；下载前先判断目标文件是否已存在，存在即跳过。检索候选要用浏览器 agent，且逐字复制页面 `<img>` 的 `src`，不得自行拼 URL。**一次要求它返回 10–15 个候选**，不要每次只要 3 个——搜索页对普通 HTTP 抓取封锁（实测 Unsplash 307、Pexels 403），每一次换词再搜都是一整次浏览器往返，一轮取足可把每张图的往返从 2–4 次压到 1 次。
 - 核图（不得跳过）：下载到 `/tmp` 后用 Read 工具**逐张读图**，确认画面与目标相符才可写入。
 - 落盘：统一 `.webp`、宽 1200px，`public/img/artigo-<slug>.webp`；编码用 `sharp`：`sharp(src).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 82 }).toFile(dest)`。
 - 成对登记：`src/lib/images.ts` 的 `articleImages`（`pt-BR` 的 `alt`）与 `src/data/zh-Hant/image-alts.ts`（繁中的 `alt`），key 均为 slug；`alt` 只描述画面内容、**不得含任何形式的破折号**。找不到贴切照片时回退占位图，不要硬凑。
