@@ -2194,6 +2194,15 @@ export const diseases: Disease[] = [
         ],
       },
       {
+        id: 'causas',
+        heading: 'Por que o fígado inflama',
+        paragraphs: [
+          'A causa é sempre um vírus. Ao entrar no corpo, ele chega ao fígado pela corrente sanguínea e passa a se multiplicar dentro das células do fígado. A inflamação que dá nome à doença é, em boa parte, obra do próprio sistema de defesa: ao reconhecer as células infectadas, os mecanismos de imunidade atacam essas células para conter o vírus, e esse combate deixa o tecido inflamado.',
+          'A intensidade dessa reação é o que explica por que o quadro varia tanto de pessoa para pessoa. Em algumas, o sistema elimina o vírus e a inflamação desaparece; em outras, o vírus escapa ao controle e a inflamação se mantém por anos. Com o tempo, o tecido saudável vai sendo substituído por cicatrizes, a fibrose, que pode evoluir para cirrose.',
+          'Vale separar as coisas: álcool em excesso, gordura acumulada no fígado e reações a medicamentos também inflamam o fígado, mas causam outras formas de hepatite, não as virais. Nas hepatites virais, o agente é sempre um vírus, e é contra ele que se dirigem a vacinação e as demais medidas de prevenção.',
+        ],
+      },
+      {
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
         paragraphs: [
@@ -2277,11 +2286,28 @@ export const diseases: Disease[] = [
       },
       {
         id: 'recuperacao',
-        heading: 'Recuperação, formas crônicas e complicações',
+        heading: 'Recuperação e formas crônicas',
         paragraphs: [
-          'As hepatites A e E costumam se resolver sozinhas e não se tornam crônicas. Já as hepatites B, C e D frequentemente se tornam crônicas, o que significa que o vírus permanece no corpo por mais de seis meses e mantém o fígado inflamado por anos, muitas vezes sem sintomas. A hepatite D é considerada a forma mais grave de hepatite viral, com maior risco de cirrose.',
-          'Quando a infecção crônica avança, o fígado pode desenvolver fibrose e cirrose, o que aumenta o risco de câncer de fígado e pode exigir transplante. Na hepatite C, cerca de 70% dos casos agudos se tornam crônicos, e o risco de cirrose fica entre 15% e 30% em 20 anos.',
-          'Em casos raros, a doença evolui de forma fulminante, com falência rápida do fígado, situação que pode ser fatal. Esse risco é maior em gestantes com hepatite E no segundo ou no terceiro trimestre.',
+          'As hepatites A e E costumam se resolver sozinhas e não se tornam crônicas. Já as hepatites B, C e D frequentemente se tornam crônicas, o que significa que o vírus permanece no corpo por mais de seis meses e mantém o fígado inflamado por anos, muitas vezes sem sintomas.',
+          'A hepatite C tem cura com o tratamento oferecido pelo SUS, e a hepatite B tem tratamento que controla a infecção, ainda que não elimine o vírus. Sem acompanhamento, porém, as formas crônicas podem seguir agredindo o fígado em silêncio, e é aí que aparecem as complicações.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Complicações possíveis',
+        paragraphs: [
+          'Quando a infecção se torna crônica, o fígado permanece inflamado por anos e vai formando cicatrizes. Esse processo leva à cirrose, em que o tecido saudável é substituído por tecido endurecido, e aumenta bastante o risco de câncer de fígado. É por isso que as formas crônicas exigem acompanhamento contínuo, mesmo quando não há sintoma algum.',
+          'O risco varia conforme o vírus. Na hepatite C, cerca de 70% dos casos agudos se tornam crônicos, e o risco de cirrose fica entre 15% e 30% em 20 anos. Na hepatite B, o risco de cronicidade depende da idade: em bebês, a maioria das infecções se torna crônica, enquanto entre adultos o vírus costuma ser eliminado. A hepatite D é considerada a forma mais grave de hepatite viral, com progressão mais rápida para cirrose.',
+          'Em casos raros, a hepatite evolui de forma fulminante, com falência rápida do fígado, situação que pode ser fatal e exige atendimento de urgência. Esse risco é maior em gestantes com hepatite E no segundo ou no terceiro trimestre.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Acompanhamento e cuidados no dia a dia',
+        paragraphs: [
+          'Na fase aguda, o corpo costuma dar conta de eliminar os vírus A e E, e o que ajuda é não sobrecarregar o fígado: repouso, boa hidratação, alimentação leve e nenhuma bebida alcoólica durante a doença e por um período depois. Medicamentos e suplementos sem necessidade devem ser evitados, porque alguns são tóxicos para o fígado.',
+          'Nas formas crônicas, o essencial é a regularidade. As consultas e os exames de acompanhamento permitem medir a carga viral, avaliar a condição do fígado, ajustar o tratamento quando indicado e detectar cedo as complicações. Faltar às consultas ou interromper a medicação por conta própria deixa o fígado desprotegido.',
+          'Alguns cuidados valem para todas as formas: evitar bebida alcoólica, não tomar remédios por conta própria e manter a vacinação em dia, inclusive contra as hepatites que a pessoa ainda não teve. Na hepatite B e na D, o álcool agrava a lesão do fígado; na hepatite C, o cuidado com o fígado continua mesmo depois da cura.',
         ],
       },
       {
@@ -2306,7 +2332,7 @@ export const diseases: Disease[] = [
         paragraphs: [
           'A vacinação é a principal medida de prevenção contra as hepatites A e B. A vacina contra a hepatite B também protege contra a hepatite D, porque o vírus D depende do B para causar infecção.',
           'A vacina contra a hepatite B está disponível gratuitamente no SUS para todas as pessoas que ainda não foram vacinadas, em qualquer idade. Para crianças, o esquema tem quatro doses: ao nascer e aos 2, 4 e 6 meses de idade, sendo as três últimas aplicadas na vacina pentavalente. Para adolescentes, adultos e pessoas idosas, o esquema completo costuma ter três doses.',
-          'A vacina contra a hepatite A faz parte do calendário infantil, em dose única aos 15 meses de idade, podendo ser aplicada entre 12 meses e 4 anos, 11 meses e 29 dias. Também está disponível nos Centros de Referência para Imunobiológicos Especiais (CRIE) para pessoas com condições específicas, como hepatopatias crônicas, pessoas vivendo com HIV e candidatos a transplante.',
+          'A vacina contra a hepatite A faz parte do calendário infantil, em dose única aos 15 meses de idade, podendo ser aplicada entre 12 meses e 4 anos, 11 meses e 29 dias. Também está disponível nos Centros de Referência para Imunobiológicos Especiais (CRIE), em duas doses com intervalo mínimo de 6 meses, para pessoas com mais de 1 ano e condições específicas, como hepatopatias crônicas, pessoas vivendo com HIV e candidatos a transplante.',
           'Quando a mãe tem hepatite B, o recém-nascido recebe a vacina e a imunoglobulina anti-hepatite B nas primeiras 24 horas de vida, medida que previne mais de 90% das transmissões da mãe para o bebê.',
         ],
         cta: {
@@ -2386,7 +2412,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

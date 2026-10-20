@@ -2392,6 +2392,11 @@ export const articles: Article[] = [
       {
         id: 'o-mapa-das-vacinas',
         heading: 'O mapa das vacinas',
+        paragraphs: [
+          'Entre as cinco hepatites virais, apenas duas têm vacina: a A e a B. A vacina contra a hepatite B tem um efeito extra importante: como o vírus D só consegue se estabelecer em quem já tem o vírus B, quem se vacina contra a B fica protegido também contra a D.',
+          'Para as hepatites C e E, não existe vacina disponível no Brasil. Isso não quer dizer que essas infecções fiquem sem proteção: nos dois casos, a prevenção se faz com outros cuidados, que este texto detalha adiante.',
+          'A vacinação é a principal medida de prevenção contra a hepatite A e contra a hepatite B, porque protege antes de qualquer exposição. Nos tipos sem vacina, a proteção depende de reduzir o risco de contato com o vírus, de acordo com a forma de transmissão de cada um.',
+        ],
         bullets: [
           'Contra a hepatite A há vacina, disponível no SUS',
           'Contra a hepatite B há vacina para todas as faixas etárias',
@@ -2404,21 +2409,36 @@ export const articles: Article[] = [
         id: 'por-que-a-b-e-tao-importante',
         heading: 'Por que a vacina contra a hepatite B é tão importante',
         paragraphs: [
-          'Quando a infecção se torna crônica, a hepatite B pode evoluir para cirrose e câncer de fígado. O risco de cronicidade é maior quanto mais cedo a pessoa se infecta: em bebês, a maioria das infecções se torna crônica. A vacina é a principal forma de prevenção e está disponível gratuitamente no SUS.',
-          'Como a hepatite D depende da hepatite B para se estabelecer, vacinar contra a B também elimina o risco da D.',
+          'Quando a infecção pelo vírus B se torna crônica, o fígado permanece inflamado por anos e pode evoluir para cirrose e câncer de fígado, complicações que podem exigir transplante e, em alguns casos, levar à morte. O risco de a infecção se tornar crônica é maior quanto mais cedo a pessoa se infecta: em bebês, a maioria das infecções segue para a forma crônica, enquanto entre adultos o vírus costuma ser eliminado pelo próprio organismo. A inflamação silenciosa vai formando cicatrizes no fígado ao longo dos anos, sem que a pessoa perceba.',
+          'A vacina interrompe esse caminho antes que ele comece. Ela é eficaz e segura, e está disponível gratuitamente no SUS para quem ainda não foi vacinado, em qualquer idade.',
+          'Como a hepatite D depende da hepatite B para se estabelecer, vacinar contra a B elimina também o risco da D. É o único caso em que uma mesma vacina protege contra duas hepatites diferentes.',
+        ],
+      },
+      {
+        id: 'como-funcionam-as-vacinas',
+        heading: 'Como funcionam as vacinas contra as hepatites A e B',
+        paragraphs: [
+          'A vacina contra a hepatite B está disponível gratuitamente no SUS para todas as pessoas que ainda não foram vacinadas, em qualquer idade. Para crianças, o esquema tem quatro doses: ao nascer e aos 2, 4 e 6 meses de idade, sendo as três últimas aplicadas na vacina pentavalente. Para adolescentes, adultos e pessoas idosas, o esquema completo costuma ter três doses.',
+          'A vacina contra a hepatite A faz parte do calendário infantil, em dose única aos 15 meses de idade, e pode ser aplicada entre 12 meses e 4 anos, 11 meses e 29 dias. Pessoas com condições específicas, como hepatopatias crônicas, pessoas vivendo com HIV e candidatos a transplante, podem recebê-la nos Centros de Referência para Imunobiológicos Especiais (CRIE), em duas doses com intervalo mínimo de 6 meses.',
+          'As recomendações por faixa etária e por situação de risco podem mudar com o tempo. Antes de se vacinar, confirme com a unidade de saúde qual é o esquema indicado para a sua idade e para a sua situação. Se você já iniciou o esquema e perdeu a data de uma dose, procure a unidade de saúde: não é preciso recomeçar a série.',
         ],
       },
       {
         id: 'sem-vacina',
         heading: 'O que fazer quando não há vacina',
         paragraphs: [
-          'Para as hepatites C e E, a prevenção depende de outros cuidados. A hepatite E é transmitida por água e alimentos contaminados, o que reforça a importância da higiene e do saneamento.',
-          'A hepatite C é transmitida por sangue, e a prevenção passa por não compartilhar agulhas, seringas, lâminas e objetos que cortam ou perfuram, além do uso de preservativo.',
+          'Para as hepatites C e E, a prevenção depende de outros cuidados, de acordo com a forma de transmissão de cada uma. A hepatite E chega pela via fecal-oral, sobretudo por água e alimentos contaminados, o que reforça a importância da higiene, do saneamento e do cuidado com a água e com o que se come.',
+          'A hepatite C é transmitida por sangue e por material contaminado, e não passa pelo leite materno, pela comida, pela água nem pelo contato do dia a dia, como abraçar ou beijar. A prevenção passa por não compartilhar agulhas, seringas, cachimbos, lâminas de barbear, escovas de dente e alicates de unha, por exigir material esterilizado em tatuagens, piercings e procedimentos odontológicos, e por usar preservativo nas relações sexuais.',
+          'Nas duas formas, a testagem é parte da prevenção: quem conhece o próprio resultado trata quando necessário e evita transmitir o vírus sem saber.',
         ],
       },
       {
         id: 'alem-da-vacina',
         heading: 'Além da vacina',
+        paragraphs: [
+          'A vacinação é o caminho mais direto para evitar as hepatites A e B, mas ela não cobre todos os tipos nem todas as situações. Completam a proteção as medidas que valem para qualquer hepatite:',
+          'Fazer a testagem é gratuito no SUS, e o resultado sai em poucos minutos. Usar preservativo nas relações sexuais, não compartilhar objetos que cortam ou perfuram, exigir material esterilizado em tatuagens, piercings e procedimentos odontológicos e fazer o pré-natal completo são atitudes que reduzem o risco de todas as formas transmitidas por sangue e por via sexual.',
+        ],
         bullets: [
           'Fazer a testagem, disponível gratuitamente no SUS',
           'Usar preservativo nas relações sexuais',
@@ -2426,20 +2446,18 @@ export const articles: Article[] = [
           'Exigir material esterilizado em procedimentos como tatuagem e piercing',
           'Fazer o pré-natal completo, que inclui a testagem',
         ],
-        cta: {
-          label: 'Veja a página completa sobre hepatites virais',
-          href: '/doencas/hepatites-virais/',
-        },
       },
       {
         id: 'onde-vacinar',
         heading: 'Onde se vacinar',
         paragraphs: [
-          'As vacinas estão disponíveis nas unidades básicas de saúde. As recomendações por faixa etária e por situação de risco mudam com o tempo, por isso confirme o calendário vigente na unidade de saúde.',
+          'As vacinas contra as hepatites A e B estão disponíveis nas unidades básicas de saúde do SUS, de forma gratuita, para quem ainda não se vacinou. Também é possível receber as doses em salas de vacina habilitadas e, em situações específicas, nos Centros de Referência para Imunobiológicos Especiais.',
+          'Se você tiver dúvida sobre quais doses já recebeu, a caderneta de vacinação ou o próprio serviço de saúde ajudam a verificar. Vale confirmar o calendário vigente na unidade em que você será atendido, porque as recomendações mudam com o tempo.',
+          'Para entender as formas de transmissão, os sintomas e o tratamento de cada hepatite, veja a página completa sobre hepatites virais.',
         ],
         cta: {
-          label: 'Consulte o calendário de vacinação',
-          href: '/artigos/vacinacao-o-que-e-o-calendario-basico/',
+          label: 'Veja a página completa sobre hepatites virais',
+          href: '/doencas/hepatites-virais/',
         },
       },
     ],
@@ -2453,6 +2471,11 @@ export const articles: Article[] = [
         publisher: 'Ministério da Saúde (Brasil)',
       },
       {
+        label: 'Hepatitis A: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hepatitis-a',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
         label: 'Hepatitis B: fact sheet',
         url: 'https://www.who.int/news-room/fact-sheets/detail/hepatitis-b',
         publisher: 'Organização Mundial da Saúde',
@@ -2462,7 +2485,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -2476,44 +2499,56 @@ export const articles: Article[] = [
     body: [
       {
         id: 'o-que-mudou',
-        heading: 'O que mudou',
+        heading: 'O que mudou no tratamento',
         paragraphs: [
-          'A hepatite C era, até poucos anos atrás, uma doença crônica de tratamento difícil e com efeitos indesejados importantes. O cenário mudou com os antivirais de ação direta, que atuam diretamente na replicação do vírus.',
-          'Hoje a maioria das pessoas tratadas alcança a cura, com esquemas mais curtos e melhor tolerados.',
+          'Até poucos anos atrás, a hepatite C era uma doença crônica de tratamento difícil. O esquema antigo exigia injeções semanais, durava muitos meses e provocava efeitos indesejados importantes, além de curar uma parte menor das pessoas. A doença era, então, uma das principais causas de cirrose e de câncer de fígado no mundo. Muita gente só descobria a infecção quando o fígado já estava comprometido.',
+          'O cenário mudou com os antivirais de ação direta, conhecidos pela sigla DAA. Esses medicamentos atuam diretamente na replicação do vírus e, com eles, a maioria das pessoas tratadas alcança a cura, com esquemas mais curtos, por via oral e muito melhor tolerados do que o tratamento antigo.',
+          'Hoje a hepatite C é considerada uma doença curável em praticamente todos os casos tratados. O tratamento está disponível gratuitamente no SUS, e a cura também interrompe a transmissão do vírus para outras pessoas.',
         ],
       },
       {
         id: 'por-que-tratar',
-        heading: 'Por que tratar, mesmo sem sintomas',
+        heading: 'Por que tratar mesmo sem sintomas',
         paragraphs: [
-          'A hepatite C costuma ser silenciosa por décadas. A ausência de sintomas não significa ausência de dano: a infecção crônica pode evoluir para cirrose e câncer de fígado.',
-          'Tratar cedo interrompe essa progressão. É por isso que a testagem é indicada para todas as pessoas adultas pelo menos uma vez na vida.',
+          'A hepatite C costuma ser silenciosa por décadas. A ausência de sintomas não significa ausência de dano: mesmo sem sentir nada, a infecção crônica mantém o fígado inflamado e pode evoluir para cirrose e câncer de fígado.',
+          'Cerca de 80% das pessoas com hepatite C não apresentam sintomas na fase inicial, e a doença acaba descoberta em exames de rotina ou na doação de sangue. Enquanto isso, o dano ao fígado segue acontecendo: cerca de 70% dos casos agudos se tornam crônicos, e o risco de cirrose fica entre 15% e 30% em 20 anos.',
+          'Tratar interrompe essa progressão. Quanto mais cedo o tratamento começa, antes que a cirrose se instale, maior a chance de preservar a saúde do fígado e de evitar as complicações. É por isso que a testagem é indicada para todas as pessoas adultas pelo menos uma vez na vida.',
         ],
       },
       {
         id: 'como-e-o-tratamento',
         heading: 'Como é o tratamento',
         paragraphs: [
-          'O tratamento é feito com medicamentos por via oral, por um período definido pelo profissional de saúde, e está disponível gratuitamente no SUS.',
-          'O acompanhamento inclui exames para avaliar a resposta ao tratamento e a condição do fígado. A cura é confirmada por exame depois do fim do tratamento.',
+          'O tratamento é feito com medicamentos por via oral, por um período definido pelo profissional de saúde, que costuma ser de 12 ou 24 semanas, conforme o caso. Os antivirais de ação direta eliminam o vírus em mais de 95% das pessoas tratadas.',
+          'O SUS fornece esses medicamentos. Nos casos iniciais, o tratamento pode começar na própria unidade básica de saúde; situações mais complexas, como quem já tem cirrose, são acompanhadas em serviço especializado. Crianças a partir de 3 anos também podem ser tratadas. Quem tem outras doenças ou usa outros medicamentos deve informar o profissional de saúde, porque algumas interações precisam ser avaliadas antes de começar.',
+          'Durante o tratamento, o acompanhamento inclui exames para avaliar a resposta e a condição do fígado. Vale seguir as orientações do profissional que acompanha o caso, tomar a medicação nos horários indicados e evitar bebida alcoólica. A cura é confirmada por um exame feito alguns meses depois do fim do tratamento.',
         ],
       },
       {
         id: 'cura-nao-e-imunidade',
         heading: 'Cura não é imunidade',
         paragraphs: [
-          'Quem se cura não fica protegido contra uma nova infecção. Não existe vacina contra a hepatite C, então a prevenção continua necessária: não compartilhar objetos que cortam ou perfuram e usar preservativo.',
+          'Quem se cura da hepatite C não fica protegido contra uma nova infecção. Diferente de outras doenças, a infecção pelo vírus C não deixa uma memória de defesa duradoura: a pessoa pode se reinfectar em uma nova exposição. Isso vale inclusive para quem se curou há muitos anos.',
+          'Além disso, não existe vacina contra a hepatite C. Por isso, mesmo depois da cura, a prevenção continua necessária: não compartilhar agulhas, seringas e objetos que cortam ou perfuram e usar preservativo nas relações sexuais.',
+          'Depois da cura, o fígado pode se recuperar, mas quem já teve cirrose continua precisando de acompanhamento para vigiar possíveis complicações. E quem se curou também ajuda a impedir novas transmissões: com a testagem, quem tem o vírus descobre antes, trata e deixa de transmiti-lo.',
         ],
-        cta: {
-          label: 'Leia também: quais hepatites têm vacina',
-          href: '/artigos/hepatites-virais-quais-tem-vacina/',
-        },
       },
       {
         id: 'como-descobrir',
-        heading: 'Como descobrir se você tem',
+        heading: 'Como descobrir a infecção',
         paragraphs: [
-          'O diagnóstico é feito por exame de sangue, e há testes rápidos disponíveis nas unidades de saúde. Como a doença é silenciosa, a testagem é o único caminho para descobrir.',
+          'O diagnóstico começa com um exame de sangue. Nas unidades básicas de saúde, o teste rápido para as hepatites B e C é gratuito e o resultado sai em poucos minutos. Qualquer pessoa pode pedir o teste, mesmo sem sintomas.',
+          'A testagem é indicada para todas as pessoas adultas pelo menos uma vez na vida, e também faz parte do pré-natal de todas as gestantes. Quem já viveu situações de risco, como uso de drogas injetáveis ou compartilhamento de objetos que cortam ou perfuram, também deve procurar o teste.',
+          'O primeiro exame procura anticorpos contra o vírus. Quando o resultado é reagente, o médico pede um segundo exame, a carga viral, que confirma se a infecção está ativa e serve para acompanhar o tratamento. Como a hepatite C é silenciosa, a testagem é o único caminho para descobrir a infecção a tempo de evitar as complicações. O teste rápido com resultado reagente é sempre confirmado por exames complementares antes de fechar o diagnóstico.',
+        ],
+      },
+      {
+        id: 'onde-buscar-tratamento',
+        heading: 'Onde buscar tratamento',
+        paragraphs: [
+          'O tratamento da hepatite C é oferecido pelo SUS, sem custo, e começa com o diagnóstico feito na rede pública. Quem recebe um resultado reagente é encaminhado para avaliação e, quando indicado, para o início do tratamento acompanhado por profissional de saúde. Nos casos mais simples, esse acompanhamento pode acontecer na própria unidade básica de saúde; quando há cirrose ou outras complicações, o seguimento é feito em serviço especializado. O encaminhamento é feito pelo próprio serviço que realiza o diagnóstico, sem necessidade de procurar ajuda em outro lugar.',
+          'As gestantes fazem os exames de hepatite B e C no pré-natal, e toda pessoa adulta pode solicitar a testagem ao menos uma vez na vida, mesmo sem sintomas. Depois do fim do tratamento, o acompanhamento continua até a confirmação da cura, e a pessoa recebe orientação para evitar uma nova infecção.',
+          'Para entender o contexto das cinco hepatites, incluindo formas de transmissão, sintomas e prevenção, veja a página completa sobre hepatites virais.',
         ],
         cta: {
           label: 'Veja a página completa sobre hepatites virais',
@@ -2540,7 +2575,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
