@@ -1518,50 +1518,64 @@ export const articles: Article[] = [
         id: 'por-que-a-gestacao-e-diferente',
         heading: 'Por que a gestação é o ponto crítico',
         paragraphs: [
-          'Para a maior parte das pessoas, o zika é uma infecção leve. O problema está na transmissão da gestante para o feto: o vírus pode atingir o sistema nervoso em formação e causar malformações.',
-          'A chamada síndrome congênita do zika reúne um conjunto de alterações que podem aparecer no bebê, incluindo alterações no tamanho e no desenvolvimento do cérebro, problemas de visão e de audição e alterações no desenvolvimento motor.',
+          'Para a maior parte das pessoas, o zika é uma infecção leve, que passa sozinha em poucos dias e muitas vezes não provoca sintoma nenhum. É por isso que a doença costuma ser encarada como um problema menor. O cenário muda quando a infecção acontece durante a gestação: o vírus pode atravessar a placenta e atingir o sistema nervoso em formação do bebê, o que pode deixar consequências para toda a vida.',
+          'Isso não significa que toda gestante infectada terá um bebê com problemas. A maioria das mulheres infectadas não transmite o vírus ao feto, e estima-se que cerca de 26% das gestantes infectadas transmitam a infecção. Mesmo quando há transmissão, a malformação não acontece em todos os casos, e o risco é maior quando a infecção ocorre no primeiro trimestre, quando o sistema nervoso está se formando.',
+          'Por isso, a atenção à infecção na gestação é diferente da que se dá nas outras pessoas. O que, fora da gravidez, seria um quadro leve e passageiro passa a exigir avaliação imediata e um acompanhamento mais próximo, porque as consequências para o bebê podem durar a vida inteira e pedem o apoio de uma equipe multiprofissional ao longo do desenvolvimento.',
+        ],
+      },
+      {
+        id: 'sindrome-congenita',
+        heading: 'O que a infecção pode causar no bebê',
+        paragraphs: [
+          'A infecção pelo vírus zika durante a gestação pode passar para o feto em qualquer trimestre, mesmo quando a gestante não tem sintomas. As alterações causadas pela infecção congênita formam um conjunto chamado síndrome congênita do vírus zika, que varia de intensidade de um caso para outro.',
+          'Essa síndrome pode incluir microcefalia e alterações do sistema nervoso central, problemas de visão e de audição e dificuldades no desenvolvimento neuropsicomotor. As crianças afetadas podem ter deficiências intelectuais, físicas e sensoriais ao longo da vida e precisam de acompanhamento com uma equipe multiprofissional.',
+          'Além da microcefalia, que é a alteração mais conhecida, o acompanhamento busca identificar precocemente outras manifestações, como alterações visuais e auditivas, para que a criança receba estimulação e apoio o quanto antes. O diagnóstico precoce e o seguimento regular fazem diferença no desenvolvimento.',
         ],
       },
       {
         id: 'sintomas-na-gestante',
         heading: 'Sintomas que devem ser avaliados',
         paragraphs: [
-          'Os sintomas na gestante são os mesmos das outras pessoas e podem ser leves: manchas vermelhas na pele com coceira, febre baixa, olhos vermelhos sem secreção, dor nas articulações e dor de cabeça.',
-          'Como a infecção pode ser silenciosa, a orientação é procurar o serviço de saúde diante de qualquer um desses sinais durante a gestação, mesmo que pareçam banais.',
+          'Os sintomas na gestante são os mesmos das outras pessoas e costumam ser leves: manchas vermelhas na pele com coceira, febre baixa ou ausência de febre, olhos vermelhos sem secreção, dor nas articulações, dor de cabeça e cansaço. Eles aparecem, em geral, de 2 a 7 dias depois da picada do mosquito e também desaparecem em poucos dias, sem tratamento específico.',
+          'Como a infecção pode ser silenciosa, a orientação é procurar o serviço de saúde diante de qualquer um desses sinais durante a gestação, mesmo que pareçam banais. Sinais neurológicos, como formigamento, fraqueza nos braços ou nas pernas e alterações na visão, exigem atendimento sem demora, porque podem indicar complicações.',
+          'Na consulta, informe ao profissional de saúde que você está grávida e a data em que os sintomas começaram. Essa informação ajuda a definir qual exame é mais adequado e em que momento ele deve ser coletado, porque o tipo de teste depende do dia da doença e da fase da infecção.',
         ],
       },
       {
         id: 'acompanhamento',
         heading: 'Como é o acompanhamento',
         paragraphs: [
-          'A suspeita durante a gestação muda o pré-natal. O serviço de saúde pode indicar exames para investigar a infecção e um acompanhamento mais próximo, com avaliação do desenvolvimento do bebê em exames de imagem.',
-          'O acompanhamento continua depois do nascimento, com avaliação do desenvolvimento e, quando necessário, encaminhamento para estimulação precoce e outras especialidades.',
+          'A suspeita durante a gestação muda o pré-natal. O serviço de saúde pode indicar exames para investigar a infecção e um acompanhamento mais próximo, com avaliação do desenvolvimento do bebê em exames de imagem, como o ultrassom, para observar o crescimento e o sistema nervoso.',
+          'O Ministério da Saúde recomenda que gestantes com suspeita de zika sejam acompanhadas conforme os protocolos de pré-natal, mesmo quando os sintomas são leves. A confirmação depende de exame laboratorial, porque os sintomas se parecem com os da dengue e da chikungunya, e a sorologia pode apresentar reação cruzada com a dengue.',
+          'O acompanhamento continua depois do nascimento, com avaliação do desenvolvimento e, quando necessário, encaminhamento para estimulação precoce e outras especialidades. Bebês com suspeita de comprometimento neurológico podem precisar de exames de imagem, como ultrassom, tomografia ou ressonância magnética.',
         ],
       },
       {
         id: 'como-reduzir-o-risco',
         heading: 'Como reduzir o risco',
+        paragraphs: [
+          'A prevenção começa em casa, com a eliminação dos criadouros do Aedes aegypti. O mosquito se reproduz em água limpa e parada, em qualquer recipiente, por menor que seja, e vive perto das casas; por isso a eliminação precisa ser contínua, não apenas quando aparecem casos na região.',
+          'Para a gestante, a proteção individual é decisiva. O repelente é considerado seguro na gravidez quando usado conforme as instruções do fabricante; em crianças menores de 2 anos, ele só deve ser usado com orientação médica. Nos horários de maior atividade do mosquito, como o amanhecer e o fim da tarde, o cuidado deve ser redobrado.',
+        ],
         bullets: [
           'Evitar viajar para áreas com transmissão de zika durante a gestação e conversar antes com o serviço de saúde',
-          'Usar repelente, seguindo a orientação do fabricante',
+          'Usar repelente nas áreas expostas do corpo, seguindo a orientação do fabricante',
           'Preferir roupas que cubram braços e pernas',
           'Instalar telas em janelas e portas e usar mosquiteiro para dormir',
           'Usar preservativo nas relações sexuais durante toda a gestação, já que o zika também é transmitido por via sexual',
           'Eliminar criadouros de mosquito em casa e nos arredores',
         ],
-        cta: {
-          label: 'Veja as medidas de proteção na página sobre zika',
-          href: '/doencas/zika/',
-        },
       },
       {
         id: 'parceiros',
         heading: 'O que vale para o parceiro também',
         paragraphs: [
-          'Como o zika pode ser transmitido por via sexual, o cuidado não é só da gestante. O uso de preservativo durante toda a gestação protege a gestante de uma infecção que poderia afetar o bebê.',
+          'Como o zika também é transmitido por via sexual, o cuidado não é só da gestante. O vírus pode permanecer no sêmen por semanas depois do início dos sintomas, e essa via de transmissão não existe na dengue nem na chikungunya, o que torna o zika diferente das outras arboviroses.',
+          'Por isso, o uso de preservativo durante toda a gestação é recomendado, especialmente quando há suspeita ou confirmação de zika no parceiro. A relação protegida reduz o risco de uma infecção que poderia atingir o bebê em qualquer fase da gravidez.',
+          'A orientação também vale para quem está planejando engravidar. Conversar com o serviço de saúde antes de engravidar e manter a proteção durante a gestação ajudam a reduzir o risco de infecção justamente no período em que o impacto sobre o bebê é maior.',
         ],
         cta: {
-          label: 'Entenda a transmissão do zika',
+          label: 'Veja as medidas de proteção na página sobre zika',
           href: '/doencas/zika/',
         },
       },
@@ -1585,7 +1599,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -1601,13 +1615,19 @@ export const articles: Article[] = [
         id: 'sem-vacina',
         heading: 'Sem vacina, a proteção é evitar a picada',
         paragraphs: [
-          'Não há vacina disponível contra o zika, e não existe antiviral específico. Isso significa que evitar a picada do mosquito é o essencial.',
-          'O Aedes aegypti tem hábitos diurnos, com maior atividade no início da manhã e no fim da tarde. Ele se reproduz em água limpa e parada, em qualquer recipiente, por menor que seja.',
+          'Não há vacina disponível contra o zika, e não existe antiviral específico para o vírus. Isso significa que evitar a picada do mosquito é a base de toda a prevenção, e que as medidas precisam ser mantidas enquanto houver transmissão na região, mesmo em períodos com poucos casos registrados.',
+          'O Aedes aegypti tem hábitos diurnos, com maior atividade no início da manhã e no fim da tarde. Ele se reproduz em água limpa e parada, em qualquer recipiente, por menor que seja, e vive muito perto das casas. É esse comportamento que explica por que a doença se espalha com tanta facilidade nas cidades.',
+          'Como o mesmo mosquito transmite dengue, chikungunya e zika, tudo o que reduz a população de Aedes aegypti ajuda a proteger contra as três doenças ao mesmo tempo. Por isso, as ações feitas em casa e na vizinhança têm um efeito coletivo, e não apenas individual.',
         ],
       },
       {
         id: 'criadouros',
         heading: 'Criadouros que costumam passar despercebidos',
+        paragraphs: [
+          'O mosquito se cria em pequenos volumes de água, e é justamente por isso que os focos mais comuns passam despercebidos na rotina. Pratinhos de vasos, calhas entupidas, ralos pouco usados e objetos deixados no quintal acumulam água suficiente para a reprodução.',
+          'A eliminação precisa ser feita toda semana, porque o ciclo de desenvolvimento do mosquito é curto. Tampar os reservatórios, virar os recipientes para baixo e limpar tudo o que acumula água são medidas simples capazes de interromper a reprodução.',
+          'Alguns pontos exigem atenção redobrada, porque acumulam água mesmo em períodos mais secos: caixas d’água e cisternas mal fechadas, calhas entupidas e qualquer recipiente deixado no quintal. Em imóveis fechados ou abandonados, os focos podem passar meses sem ser notados e se tornar uma fonte de mosquitos para toda a vizinhança.',
+        ],
         bullets: [
           'Pratinhos de vasos e qualquer objeto que acumule água',
           'Calhas entupidas e lajes com água empoçada',
@@ -1620,6 +1640,11 @@ export const articles: Article[] = [
       {
         id: 'protecao-pessoal',
         heading: 'Proteção pessoal',
+        paragraphs: [
+          'Enquanto houver mosquito circulando, a proteção individual reduz o risco de picada. Roupas que cubram braços e pernas nos horários de maior atividade, telas nas janelas e mosquiteiro para dormir são barreiras simples e eficazes.',
+          'Essas medidas se somam umas às outras. Nenhuma delas, isolada, é suficiente em áreas com transmissão intensa, por isso o ideal é combiná-las no dia a dia e manter os cuidados ao longo de todo o dia, já que o mosquito também pica fora do período da noite.',
+          'Telas e mosquiteiro protegem sobretudo quem passa mais tempo em casa, como gestantes, crianças pequenas e pessoas que dormem durante o dia. Em viagens para áreas com transmissão, vale levar o repelente e usar roupas adequadas desde o primeiro dia, sem esperar o aparecimento de casos na região.',
+        ],
         bullets: [
           'Usar repelente nas áreas expostas da pele, seguindo a orientação do fabricante',
           'Preferir roupas que cubram braços e pernas nos horários de maior atividade do mosquito',
@@ -1628,21 +1653,30 @@ export const articles: Article[] = [
         ],
       },
       {
+        id: 'repelente-como-usar',
+        heading: 'Como usar o repelente',
+        paragraphs: [
+          'O repelente é uma das medidas mais eficazes para quem vive ou viaja em áreas com transmissão. Os produtos à base de DEET, IR3535 ou icaridina são os mais usados, e devem ser aplicados apenas nas áreas expostas do corpo, seguindo as orientações do fabricante.',
+          'Em gestantes, o repelente é considerado seguro quando usado conforme as instruções do fabricante. Em crianças menores de 2 anos, ele só deve ser usado com orientação médica. Reaplique o produto conforme o tempo de proteção indicado na embalagem, principalmente depois de suar ou de entrar na água.',
+          'O repelente não substitui as outras medidas. Ele deve ser combinado com roupas que cubram o corpo, telas nas janelas e a eliminação dos criadouros, porque nenhuma medida isolada dá conta sozinha em áreas com transmissão intensa. A proteção funciona melhor quando as ações são mantidas de forma contínua, junto com a vizinhança.',
+        ],
+      },
+      {
         id: 'transmissao-sexual',
         heading: 'A via sexual também conta',
         paragraphs: [
-          'Ao contrário da dengue e da chikungunya, o zika também pode ser transmitido por via sexual. O uso de preservativo é parte da prevenção, principalmente para gestantes e para quem pode engravidar.',
+          'Ao contrário da dengue e da chikungunya, o zika também pode ser transmitido por via sexual. O vírus pode permanecer no sêmen por semanas depois do início dos sintomas, e essa é uma via de transmissão que não existe nas outras duas arboviroses.',
+          'O uso de preservativo é parte da prevenção, principalmente para gestantes e para quem pode engravidar. Durante a gestação, a recomendação é manter relações protegidas ao longo de todo o período quando houver suspeita ou confirmação de zika no parceiro.',
+          'A orientação vale também para quem está planejando engravidar. Conversar antes com o serviço de saúde e manter a proteção ajudam a reduzir o risco de uma infecção que poderia afetar o bebê justamente no início da gravidez.',
         ],
-        cta: {
-          label: 'Leia também: zika na gestação',
-          href: '/artigos/zika-na-gestacao-o-que-a-infeccao-pode-causar/',
-        },
       },
       {
         id: 'o-que-nao-funciona',
         heading: 'O que não substitui a prevenção',
         paragraphs: [
-          'Vitaminas, chás e soluções caseiras não previnem a infecção. O controle do mosquito exige eliminar criadouros continuamente, não com medidas isoladas.',
+          'Vitaminas, chás e soluções caseiras não previnem a infecção, e não há remédio que substitua o controle do mosquito. Nenhuma medicação disponível elimina o vírus do corpo, por isso o foco precisa estar em evitar a picada, e não em tratar a infecção depois que ela acontece.',
+          'O controle do mosquito exige eliminar criadouros toda semana, não apenas quando aparecem casos na região. Como o Aedes aegypti se reproduz perto das casas, a participação de toda a vizinhança faz diferença no resultado e ajuda a reduzir a circulação do vírus.',
+          'Se você tem dúvidas sobre repelentes, telas ou sobre o risco de uma área específica, procure a Unidade Básica de Saúde da sua região. A equipe pode orientar sobre as medidas mais adequadas para a sua situação e para o seu bairro.',
         ],
         cta: {
           label: 'Veja o guia de prevenção da dengue, que usa o mesmo mosquito',
@@ -1669,7 +1703,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

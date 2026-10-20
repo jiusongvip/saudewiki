@@ -295,6 +295,7 @@ export const diseases: Disease[] = [
       'dengue-pode-matar',
       'dengue-segunda-infeccao',
       'chikungunya-e-dengue-como-diferenciar',
+      'zika-como-se-proteger-em-areas-com-transmissao',
     ],
     relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
     relatedDiseaseSlugs: ['chikungunya', 'zika', 'malaria'],
@@ -1194,7 +1195,7 @@ export const diseases: Disease[] = [
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
         paragraphs: [
-          'A maioria das pessoas infectadas não apresenta sintomas. Quando eles aparecem, surgem de 2 a 7 dias após a picada e costumam ser leves.',
+          'A maioria das pessoas infectadas não apresenta sintomas. Quando eles aparecem, surgem, em geral, de 3 a 14 dias após a picada e costumam ser leves.',
           'O conjunto dos sintomas dura, em geral, de 2 a 7 dias, e a maioria das pessoas melhora sem tratamento específico. Os sinais mais comuns são:',
         ],
         bullets: [
@@ -1212,7 +1213,7 @@ export const diseases: Disease[] = [
         heading: 'Sinais que exigem avaliação médica',
         paragraphs: [
           'A zika costuma ser leve, mas pode vir acompanhada de complicações neurológicas. Procure atendimento médico sem demora se notar algum destes sinais:',
-          'Esses sinais podem indicar síndrome de Guillain-Barré, encefalite, mielite ou neurite óptica e precisam de investigação. Alterações visuais devem ser avaliadas por um oftalmologista.',
+          'Esses sinais precisam de investigação e podem indicar complicações neurológicas. Alterações visuais devem ser avaliadas por um oftalmologista.',
         ],
         bullets: [
           'Formigamento ou fraqueza nos braços ou nas pernas',
@@ -1277,6 +1278,24 @@ export const diseases: Disease[] = [
           'Não existe antiviral específico contra o vírus Zika. O tratamento alivia os sintomas e inclui repouso, ingestão de líquidos e medicamentos para a dor e a febre.',
           'Para dor e febre, podem ser usados paracetamol ou dipirona, conforme a orientação do profissional de saúde. Não use ácido acetilsalicílico (aspirina) e evite anti-inflamatórios por conta própria, porque aumentam o risco de sangramento enquanto a dengue não é descartada. Quando há coceira intensa, anti-histamínicos podem ser indicados por um profissional de saúde.',
           'Gestantes com suspeita de zika devem seguir as orientações do pré-natal e ser acompanhadas de perto, com avaliação do bebê quando necessário.',
+        ],
+      },
+      {
+        id: 'recuperacao',
+        heading: 'A zika tem cura? Pode voltar?',
+        paragraphs: [
+          'A zika é uma doença autolimitada: na maioria das pessoas, os sintomas desaparecem em cerca de uma semana, sem necessidade de tratamento específico e sem deixar sequelas. Mesmo quando surgem complicações, elas são raras e, em geral, estão ligadas a um quadro mais grave que exige acompanhamento médico.',
+          'Depois de uma infecção, a pessoa costuma ficar protegida contra novas infecções pelo vírus zika, e novos episódios são considerados raros. Essa proteção vale para a zika, mas não para a dengue nem para a chikungunya, que são causadas por outros vírus transmitidos pelo mesmo mosquito.',
+          'Por isso, mesmo quem já teve zika precisa continuar mantendo os cuidados para evitar a picada do Aedes aegypti. A recuperação não elimina o risco de outras arboviroses, e a prevenção segue valendo para toda a família.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir',
+        paragraphs: [
+          'A maioria das pessoas tem uma infecção leve e se recupera sozinha, mas uma parcela menor desenvolve complicações. As mais conhecidas são neurológicas e podem aparecer depois da fase aguda, quando a febre e as manchas já melhoraram.',
+          'A complicação neurológica mais associada ao vírus zika é a síndrome de Guillain-Barré, uma inflamação dos nervos que causa fraqueza progressiva e pode exigir internação. Também foram descritos casos de encefalite, mielite e neurite óptica. Esses quadros exigem avaliação médica imediata.',
+          'Na gestação, as complicações recaem sobre o bebê: a infecção pode causar a síndrome congênita do vírus zika, com microcefalia e outras alterações no desenvolvimento. É por isso que a zika na gravidez recebe um acompanhamento tão cuidadoso, com avaliação do bebê e seguimento após o nascimento.',
         ],
       },
       {
@@ -1361,7 +1380,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
