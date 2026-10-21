@@ -148,6 +148,7 @@ export const topics: Topic[] = [
       'hepatite-c-tem-cura',
       'hipertensao-como-medir-a-pressao-em-casa',
       'asma-como-evitar-crises',
+      'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
       'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
       'infarto-e-avc-fatores-de-risco',
       'faringite-e-amigdalite-prevencao',

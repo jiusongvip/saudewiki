@@ -2725,53 +2725,71 @@ export const diseases: Disease[] = [
         id: 'o-que-e',
         heading: 'O que é DPOC?',
         paragraphs: [
-          'A DPOC, sigla de doença pulmonar obstrutiva crônica, é uma doença crônica que obstrui a passagem do ar nos pulmões e reúne o enfisema e a bronquite crônica.',
-          'A obstrução é progressiva e está ligada sobretudo ao tabagismo, mas não só a ele: a poeira e a fumaça do trabalho e de casa também pesam. É a terceira causa de morte no mundo, segundo a Organização Mundial da Saúde, e costuma se manifestar depois dos 40 anos.',
-        ],
-      },
-      {
-        id: 'sintomas',
-        heading: 'Quais são os sintomas?',
-        paragraphs: [
-          'Os sintomas da DPOC surgem de forma gradual e pioram com o tempo.',
-        ],
-        bullets: [
-          'Chiado no peito, chamado de sibilância',
-          'Falta de ar, que piora com esforço',
-          'Aperto ou pressão no peito',
-          'Tosse, muitas vezes com catarro',
-          'Piora dos sintomas à noite ou no início da manhã',
-          'Cansaço para atividades que antes eram fáceis',
-          'Perda de peso e de apetite nas fases mais avançadas',
+          'A DPOC, sigla de doença pulmonar obstrutiva crônica, é uma doença comum dos pulmões que limita a passagem do ar. Ela reúne duas apresentações que podem ocorrer juntas: o enfisema, que destrói os alvéolos, e a bronquite crônica, que inflama as vias aéreas e aumenta a produção de catarro.',
+          'A obstrução se instala aos poucos e não é totalmente reversível. Costuma se manifestar depois dos 40 anos, em pessoas que fumaram por muito tempo ou conviveram com fumaça, poeira e outros irritantes.',
+          'No mundo, a DPOC é a terceira causa de morte: foram cerca de 3,4 milhões de óbitos em 2023, segundo a Organização Mundial da Saúde. Não existe cura, mas o tratamento controla os sintomas, reduz as crises e permite manter uma vida ativa.',
         ],
       },
       {
         id: 'fatores-de-risco',
         heading: 'O que aumenta o risco?',
         paragraphs: [
-          'O cigarro é o principal fator de risco, e o risco cresce com a quantidade e o tempo de exposição. A fumaça de segunda mão e a fumaça de lenha ou carvão em ambientes fechados também adoecem.',
-          'Outros fatores pesam: a poeira e os vapores químicos no trabalho, a poluição do ar, as infecções respiratórias na infância, a asma e a deficiência de alfa-1 antitripsina, uma condição genética rara.',
+          'O cigarro é o principal fator de risco. Quanto maior o tempo de uso e o número de cigarros por dia, maior a chance de a doença aparecer, e não há quantidade segura. A fumaça de segunda mão, inalada por quem convive com fumantes, também adoece.',
+          'Outros fatores somam risco: poeira, vapores e substâncias químicas no trabalho; fumaça de lenha ou carvão em ambientes fechados; poluição do ar; infecções respiratórias graves na infância; asma; baixo peso ao nascer; história familiar; e a deficiência de alfa-1 antitripsina, uma condição genética rara.',
         ],
         bullets: [
-          'Fumar, em qualquer quantidade, e conviver com quem fuma',
+          'Fumar ou conviver com quem fuma',
           'Trabalhar exposto a poeira, sílica, cimento ou vapores químicos sem proteção',
           'Cozinhar ou aquecer a casa com lenha ou carvão em ambiente sem ventilação',
-          'Ter história familiar, asma de difícil controle ou infecções respiratórias repetidas na infância',
+          'Ter asma, infecções respiratórias repetidas na infância ou história familiar de DPOC',
+        ],
+        cta: {
+          label: 'Leia também: por que parar de fumar muda o quadro',
+          href: '/artigos/dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro/',
+        },
+      },
+      {
+        id: 'gatilhos',
+        heading: 'O que piora os sintomas no dia a dia?',
+        paragraphs: [
+          'Além dos fatores que causam a doença ao longo dos anos, alguns irritantes pioram os sintomas de quem já tem DPOC. A fumaça do cigarro, inclusive a que permanece no ambiente, é o principal deles.',
+          'Poeira, mofo, produtos de limpeza com cheiro forte e poluição do ar também podem apertar a respiração. Infecções respiratórias são outro gatilho frequente: uma gripe ou uma pneumonia costuma anteceder uma crise.',
+        ],
+        bullets: [
+          'Fumaça de cigarro, lenha ou carvão',
+          'Poeira, mofo e produtos de limpeza irritantes',
+          'Poluição do ar e ambientes com pouca ventilação',
+          'Gripe, resfriado e outras infecções respiratórias',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas aparecem devagar e pioram com o tempo. O mais característico é a falta de ar aos esforços, que pode começar apenas nas atividades mais intensas e, depois, limitar tarefas simples como tomar banho ou subir uma escada.',
+          'Tosse crônica, muitas vezes com catarro, chiado no peito e sensação de aperto também são comuns. Nas fases mais avançadas podem surgir cansaço, perda de peso e de apetite.',
+        ],
+        bullets: [
+          'Piora da falta de ar à noite ou ao acordar',
+          'Infecções respiratórias de repetição',
+          'Cansaço e perda de peso nos casos mais avançados',
         ],
       },
       {
         id: 'transmissao',
         heading: 'DPOC é contagiosa?',
         paragraphs: [
-          'Não. A DPOC é uma doença crônica não transmissível. Uma infecção respiratória pode desencadear uma piora, mas a doença em si não passa de uma pessoa para outra.',
+          'A DPOC não é contagiosa. Ela resulta de anos de exposição a fumaça, poeira e outros irritantes, e não passa de uma pessoa para outra pelo ar, pelo contato ou por objetos.',
+          'Uma gripe ou uma pneumonia pode desencadear uma crise em quem já tem a doença, mas isso não significa que a DPOC seja transmitida. O que se transmite é o agente infeccioso responsável pela infecção.',
         ],
       },
       {
         id: 'diagnostico',
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
-          'O diagnóstico começa pela história clínica e pelo exame físico, e é confirmado pela espirometria, um exame que mede como o ar entra e sai dos pulmões. Na DPOC, a obstrução não melhora de forma significativa depois do broncodilatador, o que ajuda a diferenciá-la da asma.',
-          'O critério adotado pelas diretrizes é a relação entre o volume expirado no primeiro segundo (VEF1) e a capacidade vital forçada (CVF) abaixo de 0,70 depois do broncodilatador. A gravidade é classificada a partir do VEF1.',
+          'A investigação começa quando uma pessoa com mais de 40 anos, fumante ou ex-fumante, apresenta falta de ar, tosse ou catarro persistentes. A história clínica e o exame físico levantam a suspeita, e a espirometria confirma o diagnóstico.',
+          'A espirometria mede o volume e a velocidade do ar expirado antes e depois de um broncodilatador. A relação entre o volume expirado no primeiro segundo (VEF1) e a capacidade vital forçada (CVF) abaixo de 0,70 depois do broncodilatador indica obstrução que não se reverte por completo.',
+          'A gravidade é classificada pelo VEF1, mas os sintomas e a frequência das crises também orientam o tratamento. No SUS, o atendimento começa na UBS, que encaminha para espirometria e acompanhamento especializado quando necessário.',
         ],
         cta: {
           label: 'Leia também: como a DPOC é diagnosticada',
@@ -2779,19 +2797,34 @@ export const diseases: Disease[] = [
         },
       },
       {
+        id: 'exames-e-diagnostico-diferencial',
+        heading: 'Exames e diagnóstico diferencial',
+        paragraphs: [
+          'Além da espirometria, a avaliação pode incluir radiografia de tórax, hemograma, oximetria de repouso e, em casos selecionados, eletrocardiograma, ecocardiograma e dosagem de alfa-1 antitripsina.',
+          'A tomografia e a gasometria entram quando há suspeita de outras condições ou necessidade de avaliar a oxigenação. O objetivo é medir a gravidade e afastar doenças que se parecem com a DPOC.',
+        ],
+        bullets: [
+          'Asma, que costuma melhorar mais com o broncodilatador',
+          'Insuficiência cardíaca, que também causa falta de ar',
+          'Bronquiectasias, com tosse e catarro persistentes',
+        ],
+      },
+      {
         id: 'exacerbacao',
         heading: 'O que é uma exacerbação?',
         paragraphs: [
-          'A exacerbação, ou crise, é uma piora súbita dos sintomas que dura dois dias ou mais e não melhora sozinha. A falta de ar aumenta, o catarro fica mais abundante ou mais escuro e pode aparecer febre.',
-          'Na maioria das vezes uma infecção respiratória dispara a crise. O tratamento costuma incluir reforço dos broncodilatadores e, quando indicado, corticoide e antibiótico. Crise grave exige atendimento de emergência.',
+          'A exacerbação é uma piora súbita da falta de ar, da tosse ou do catarro, além do que a pessoa costuma ter no dia a dia. Em geral dura alguns dias e precisa de tratamento extra.',
+          'Infecções respiratórias são o gatilho mais comum. Fumaça, poeira e a interrupção do tratamento também podem iniciar uma crise.',
+          'O tratamento reforça os broncodilatadores e pode incluir corticoide e antibiótico, conforme a avaliação. Falta de ar grave, confusão ou lábios azulados exigem atendimento de emergência.',
         ],
       },
       {
         id: 'tratamento',
         heading: 'Tratamento e cuidados',
         paragraphs: [
-          'O tratamento da DPOC inclui broncodilatadores inalatórios, reabilitação pulmonar e, principalmente, parar de fumar, a medida que mais muda a evolução da doença.',
-          'Usar o inalador do jeito certo é parte do tratamento: a técnica errada faz o medicamento não chegar aos pulmões. Em quem tem baixa de oxigênio no sangue, pode ser indicada a oxigenoterapia em casa, usada por pelo menos 15 horas por dia.',
+          'O tratamento tem como objetivo aliviar os sintomas, melhorar a capacidade de exercício e reduzir as crises. A base são os broncodilatadores inalatórios, de ação curta para alívio e de ação longa para manutenção.',
+          'O corticoide inalatório pode ser associado em pessoas com crises frequentes, eosinofilia no sangue ou histórico de asma. Reabilitação pulmonar, vacinas e cessação do tabagismo completam o cuidado.',
+          'Em quem tem baixa de oxigênio no sangue, a oxigenoterapia domiciliar pode ser indicada após avaliação especializada. A técnica correta do inalador é parte do tratamento, porque o medicamento precisa chegar aos pulmões.',
         ],
         cta: {
           label: 'Leia também: tratamento e cuidados na DPOC',
@@ -2799,15 +2832,72 @@ export const diseases: Disease[] = [
         },
       },
       {
+        id: 'cirurgia-e-intervencoes',
+        heading: 'Cirurgia e procedimentos',
+        paragraphs: [
+          'A cirurgia é reservada a casos graves e selecionados, quando o tratamento clínico não controla os sintomas. Entre os procedimentos está a redução do volume pulmonar, que remove áreas mais destruídas para ajudar o pulmão restante a funcionar melhor.',
+          'Em centros especializados, também podem ser avaliados procedimentos menos invasivos para reduzir o volume pulmonar. Nenhuma dessas opções substitui o tratamento diário, e a decisão passa por uma equipe experiente.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Complicações e outras condições',
+        paragraphs: [
+          'A DPOC raramente vem sozinha. As condições que aparecem junto influenciam o controle da doença e merecem acompanhamento nas mesmas consultas.',
+          'O acompanhamento deve incluir avaliação do risco cardiovascular, do estado nutricional e da saúde mental, além do controle respiratório.',
+        ],
+        bullets: [
+          'Doenças cardiovasculares, como insuficiência cardíaca e arritmias',
+          'Osteoporose, sobretudo em quem usa corticoide com frequência',
+          'Ansiedade e depressão',
+          'Perda de peso e de massa muscular',
+          'Apneia do sono',
+          'Câncer de pulmão, com risco maior em quem fumou por muitos anos',
+          'Diabetes e síndrome metabólica',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Vida diária com DPOC',
+        paragraphs: [
+          'Com tratamento e acompanhamento, a maioria das pessoas mantém uma rotina ativa. Alguns ajustes ajudam a respirar melhor e a gastar menos energia nas tarefas do dia.',
+          'A família também participa do cuidado: ajudar a manter a casa sem fumaça, apoiar a adesão aos medicamentos e reconhecer sinais de piora faz diferença.',
+        ],
+        bullets: [
+          'Manter alimentação equilibrada e peso saudável',
+          'Praticar atividade física adaptada, com orientação profissional',
+          'Treinar a respiração com lábios franzidos e respiração diafragmática',
+          'Deixar a casa ventilada e livre de fumaça, poeira e mofo',
+          'Dividir o esforço das tarefas mais cansativas ao longo do dia',
+        ],
+      },
+      {
+        id: 'monitoramento',
+        heading: 'O que acompanhar nas consultas',
+        paragraphs: [
+          'O acompanhamento regular serve para avaliar sintomas, crises, adesão e tolerância ao tratamento. A espirometria pode não mudar, mas o benefício clínico é medido pela capacidade de caminhar, pela falta de ar e pela frequência das crises.',
+          'Em quem tem doença grave, a oximetria de repouso deve ser medida nas consultas. Se a saturação ficar igual ou abaixo de 92%, o serviço solicita gasometria arterial.',
+          'Quem usa oxigênio em casa precisa seguir as orientações de segurança do serviço de saúde, como manter o equipamento longe de chamas e não alterar a vazão por conta própria.',
+        ],
+        bullets: [
+          'Levar o inalador às consultas para revisar a técnica',
+          'Anotar quantas crises teve e o que as desencadeou',
+          'Revisar vacinas, peso e atividade física',
+          'Não interromper o tratamento nos períodos sem sintomas',
+        ],
+      },
+      {
         id: 'prevencao',
         heading: 'Como reduzir crises e a progressão',
+        paragraphs: [
+          'A medida que mais protege é não fumar e evitar a fumaça do tabaco. Quem já fuma deve procurar apoio para parar, disponível no SUS.',
+          'Vacinas em dia, ambiente ventilado, proteção no trabalho e atividade física regular também reduzem o risco de crises.',
+        ],
         bullets: [
-          'Não fumar e evitar a exposição à fumaça do tabaco, inclusive passiva',
-          'Evitar contato com poeira, fumaça e outros poluentes',
-          'Manter as vacinas em dia, sobretudo contra a gripe, contra a covid-19 e contra o pneumococo',
-          'Seguir o tratamento todos os dias, mesmo nos períodos sem sintomas',
-          'Controlar peso e manter atividade física, com orientação profissional',
-          'Revisar a técnica do inalador nas consultas de acompanhamento',
+          'Não fumar e evitar a fumaça passiva',
+          'Usar proteção respiratória quando o trabalho expõe a poeira',
+          'Manter as vacinas contra gripe, covid-19 e pneumococo em dia',
+          'Seguir o tratamento todos os dias, mesmo sem sintomas',
         ],
         cta: {
           label: 'Leia também: o que ajuda a prevenir as crises',
@@ -2815,38 +2905,11 @@ export const diseases: Disease[] = [
         },
       },
       {
-        id: 'complicacoes',
-        heading: 'Complicações e outras condições',
-        paragraphs: [
-          'A DPOC costuma vir acompanhada de outras condições, que se influenciam entre si e merecem acompanhamento na mesma rotina de consultas.',
-        ],
-        bullets: [
-          'Doenças cardiovasculares, como insuficiência cardíaca e arritmias',
-          'Osteoporose, sobretudo em quem usa corticoide com frequência',
-          'Ansiedade e depressão',
-          'Perda de peso e de massa muscular',
-          'Apneia do sono e, em quem fumou por muitos anos, maior risco de câncer de pulmão',
-        ],
-      },
-      {
-        id: 'vida-diaria',
-        heading: 'Vida diária com DPOC',
-        paragraphs: [
-          'Com tratamento e acompanhamento, a maioria das pessoas consegue manter uma rotina ativa. Alguns ajustes ajudam a viver melhor com a doença.',
-        ],
-        bullets: [
-          'Manter alimentação equilibrada e peso saudável, porque os músculos da respiração também dependem de nutrição adequada',
-          'Praticar atividade física adaptada à condição, com orientação profissional',
-          'Treinar a respiração, como a respiração com os lábios franzidos e a respiração diafragmática',
-          'Deixar a casa ventilada e livre de fumaça, poeira e mofo',
-          'Manter consultas regulares e revisar os medicamentos com a equipe de saúde',
-        ],
-      },
-      {
         id: 'sinais-de-alerta',
         heading: 'Sinais de alerta e quando procurar atendimento',
         paragraphs: [
-          'Uma piora grave é uma emergência. Procure atendimento de emergência ou vá imediatamente a um pronto atendimento, sem esperar melhorar sozinho, se houver:',
+          'Uma piora repentina pode ser uma emergência. Procure atendimento imediatamente se a falta de ar aumentar muito, se houver dificuldade para falar frases completas ou se o medicamento de alívio não resolver.',
+          'Outros sinais graves são uso visível da musculatura do pescoço e das costelas para respirar, lábios ou pontas dos dedos azulados, sonolência e confusão.',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2877,6 +2940,11 @@ export const diseases: Disease[] = [
         question: 'Quem tem DPOC precisa tomar vacinas?',
         answer:
           'Sim. A vacina contra a gripe é recomendada todos os anos, e há outras indicadas, como a do pneumococo e a da covid-19. A equipe de saúde orienta quais são as suas.',
+      },
+      {
+        question: 'Quem nunca fumou também pode ter DPOC?',
+        answer:
+          'Sim. Poeira e produtos químicos no trabalho, fumaça de lenha ou carvão em ambientes fechados, poluição do ar e fatores genéticos raros também podem causar a doença.',
       },
     ],
     relatedArticleSlugs: [
@@ -2914,7 +2982,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {

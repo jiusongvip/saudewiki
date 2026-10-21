@@ -2685,7 +2685,7 @@ export const articles: Article[] = [
     metaTitle: 'DPOC e tabagismo: por que parar',
     title: 'DPOC e tabagismo: por que parar de fumar muda o quadro',
     excerpt:
-      'Na DPOC, parar de fumar é a medida que mais muda a evolução da doença. Entenda o que muda e por que o apoio para parar faz diferença.',
+      'Na DPOC, parar de fumar é a medida que mais muda a evolução da doença. Entenda o que muda, por que a dependência é tratável e como buscar apoio.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     body: [
@@ -2693,35 +2693,40 @@ export const articles: Article[] = [
         id: 'relacao',
         heading: 'A relação entre fumo e DPOC',
         paragraphs: [
-          'A DPOC é uma doença progressiva, que destrói aos poucos as vias aéreas e o tecido dos pulmões. O tabagismo é o principal fator de risco, e o efeito depende de há quanto tempo e em que quantidade a pessoa fumou.',
-          'Não é só o cigarro industrializado: a exposição à fumaça de lenha, de carvão e de outros materiais em ambientes fechados também contribui.',
+          'A DPOC se instala quando fumaça e outros irritantes atingem as vias aéreas e os alvéolos por anos seguidos. O cigarro é o principal fator de risco: quanto maior o tempo fumando e o número de cigarros por dia, maior a chance de a doença aparecer. A inflamação crônica estreita os brônquios, aumenta a produção de catarro e destrói as paredes dos alvéolos. O resultado é a obstrução que limita a passagem do ar. A exposição precisa ser longa para causar dano, mas o corpo não cria tolerância à fumaça. Cada cigarro deposita partículas que mantêm a inflamação ativa e dificultam a limpeza natural das vias aéreas.',
+          'A fumaça de segunda mão também conta. Quem convive com fumantes em casa ou no trabalho inala partículas que irritam as vias aéreas, mesmo sem acender um cigarro. A exposição à lenha e ao carvão em ambientes fechados segue o mesmo caminho. Por isso a DPOC pode aparecer em quem nunca fumou, mas conviveu com fumaça por muito tempo. O risco aumenta com a convivência diária, não apenas com o ato de fumar. Ambientes fechados, como carros e quartos, concentram essas partículas e tornam a exposição mais intensa.',
         ],
       },
       {
         id: 'o-que-muda',
         heading: 'O que muda ao parar',
         paragraphs: [
-          'Parar de fumar não desfaz o dano já existente, mas reduz a velocidade da perda de função pulmonar. Na prática, isso significa menos crises, menos internações e melhor tolerância ao esforço.',
-          'O benefício aparece em qualquer idade e em qualquer estágio da doença. Quanto antes, maior o ganho, mas nunca é tarde para começar.',
+          'Parar de fumar não desfaz o dano que já existe. O que muda é o ritmo: a perda de função pulmonar desacelera, e a pessoa passa a ter menos crises e menos internações. A tolerância ao esforço também melhora, porque as vias aéreas deixam de receber novos irritantes todos os dias. O benefício aparece em qualquer idade e em qualquer estágio da doença. A falta de ar também pode diminuir nas atividades do dia a dia, o que devolve autonomia para trabalhar, cuidar da casa e conviver com a família.',
+          'Quanto antes a pessoa para, maior o ganho, mas nunca é tarde. Quem já tem falta de ar importante também se beneficia, mesmo que a melhora seja gradual. O importante é parar de vez: voltar a fumar desfaz boa parte do que foi conquistado e acelera de novo a queda da função pulmonar. O apoio de familiares e de profissionais de saúde ajuda a atravessar a fase de adaptação. Os sintomas de abstinência costumam ser temporários e podem ser manejados com acompanhamento.',
         ],
       },
       {
         id: 'nao-e-so-vontade',
         heading: 'Não é só questão de vontade',
         paragraphs: [
-          'A dependência da nicotina é uma condição tratável. O SUS oferece apoio para quem quer parar, incluindo acompanhamento e, quando indicado, medicamentos.',
-          'Tentativas anteriores que não deram certo não significam fracasso: a maioria das pessoas que param precisou de mais de uma tentativa.',
+          'A dependência da nicotina é uma condição tratável, não uma falha de caráter. O corpo se acostuma à nicotina e reage à falta dela com irritação, ansiedade e vontade intensa de fumar. O SUS oferece apoio para quem quer parar, com acompanhamento e, quando indicado, medicamentos que reduzem esses sintomas. A orientação da equipe de saúde ajuda a escolher a estratégia mais adequada. O acompanhamento pode ser individual ou em grupo, e muitas unidades básicas oferecem esse serviço. Vale perguntar na UBS como funciona o apoio ao tabagismo.',
+          'Tentativas anteriores que não deram certo não significam fracasso. A maioria das pessoas que consegue parar precisou de mais de uma tentativa, e cada uma ensina algo sobre os gatilhos e sobre o que ajuda. Marcar uma data, retirar os cigarros do alcance e avisar a família são passos simples que aumentam a chance de sucesso. Também ajuda identificar as situações em que a vontade de fumar aparece, como depois do café, durante o trabalho ou em momentos de estresse, e planejar o que fazer no lugar.',
         ],
       },
       {
         id: 'outras-medidas',
         heading: 'Outras medidas que ajudam',
+        paragraphs: [
+          'Além de parar de fumar, outras medidas sustentam o controle da DPOC. Manter as vacinas em dia reduz o risco de infecções que desencadeiam crises. Usar os medicamentos inalatórios todos os dias, com a técnica correta, mantém as vias aéreas mais abertas. A reabilitação pulmonar ensina a respirar e a se exercitar com menos falta de ar. As consultas regulares permitem ajustar o tratamento quando os sintomas mudam.',
+          'Evitar a fumaça de qualquer origem, inclusive a passiva, é parte do tratamento. Em casa, vale manter os ambientes ventilados e evitar lenha, carvão e produtos de limpeza com cheiro forte. No trabalho, o uso de proteção respiratória deve ser orientado pelo serviço de saúde ocupacional. A casa livre de fumaça protege também quem nunca fumou, sobretudo crianças e pessoas idosas.',
+        ],
         bullets: [
           'Manter a vacina contra a gripe em dia, conforme a orientação do serviço de saúde',
           'Usar os medicamentos inalatórios do jeito certo e todos os dias',
           'Participar de reabilitação pulmonar, quando indicada',
           'Evitar a exposição à fumaça de qualquer origem, inclusive passiva',
           'Manter atividade física adaptada à condição, com orientação profissional',
+          'Manter as consultas de acompanhamento mesmo quando estiver se sentindo bem',
         ],
         cta: {
           label: 'Veja a página sobre a DPOC',
@@ -2732,18 +2737,14 @@ export const articles: Article[] = [
         id: 'quando-procurar',
         heading: 'Quando procurar atendimento',
         paragraphs: [
-          'Procure atendimento se houver piora da falta de ar, mudança no catarro, febre ou necessidade de usar o medicamento de alívio com mais frequência. Dificuldade para falar, lábios azulados ou sonolência são emergência: procure atendimento de emergência.',
+          'Procure atendimento se a falta de ar piorar, se o catarro mudar de cor ou de quantidade, se aparecer febre ou se precisar usar o medicamento de alívio com mais frequência. Esses sinais podem indicar uma exacerbação, que precisa de avaliação e, muitas vezes, de tratamento extra. Quanto mais cedo a crise é tratada, menor o risco de internação. Essas pioras não são esperadas e não devem ser tratadas como parte normal da doença. O corpo está pedindo mais apoio do que o tratamento habitual oferece.',
+          'Dificuldade para falar frases completas, lábios azulados, sonolência ou confusão são sinais de emergência. Nesse caso, procure atendimento imediatamente, sem esperar melhorar sozinho. Não aumente por conta própria a dose dos medicamentos nem inicie antibiótico sem orientação. Se você usa oxigênio em casa, leve as orientações do serviço para a consulta. A equipe precisa saber como o equipamento é usado e se houve mudança na necessidade de oxigênio. A recuperação pode levar alguns dias, e o retorno às atividades deve seguir a orientação da equipe.',
         ],
-        cta: {
-          label: 'Leia também: o que fazer em uma crise de asma',
-          href: '/artigos/asma-crise-o-que-fazer-enquanto-espera-atendimento/',
-        },
       },
     ],
     diseaseSlugs: ['dpoc'],
     topicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedArticleSlugs: [
-      'asma-crise-o-que-fazer-enquanto-espera-atendimento',
       'dpoc-sinais-de-alerta-quando-procurar-atendimento',
       'dpoc-como-e-diagnosticada',
       'dpoc-tratamento-e-cuidados',
@@ -2751,7 +2752,7 @@ export const articles: Article[] = [
     ],
     references: [
       {
-        label: 'Chronic obstructive pulmonary disease (COPD): fact sheet',
+        label: 'Doença pulmonar obstrutiva crônica (DPOC): folha informativa',
         url: 'https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)',
         publisher: 'Organização Mundial da Saúde',
       },
@@ -2765,7 +2766,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
@@ -2782,15 +2783,16 @@ export const articles: Article[] = [
         id: 'o-que-e-uma-crise',
         heading: 'O que é uma exacerbação',
         paragraphs: [
-          'A exacerbação da DPOC é uma piora súbita dos sintomas que dura dois dias ou mais e não melhora sozinha. A falta de ar aumenta, o catarro fica mais abundante ou mais escuro e pode aparecer febre.',
-          'Na maioria dos casos, uma infecção respiratória é o gatilho. Também podem disparar uma crise a exposição à fumaça e à poeira, a poluição do ar e a interrupção do tratamento.',
+          'A exacerbação da DPOC é uma piora súbita da falta de ar, da tosse ou do catarro, além do que a pessoa costuma ter no dia a dia. Em geral dura alguns dias e não melhora sozinha. Pode vir acompanhada de chiado, aperto no peito, febre e mais cansaço. A intensidade varia: algumas crises são leves e melhoram com o ajuste da medicação, enquanto outras exigem observação no serviço de saúde. O corpo responde pior quando a infecção se soma à obstrução que já existe. A recuperação completa pode levar mais tempo do que a própria crise.',
+          'Infecções respiratórias são o gatilho mais comum. Fumaça, poeira, poluição e a interrupção do tratamento também podem iniciar uma crise. Reconhecer o que costuma desencadear as crises ajuda a evitá-las e a agir mais rápido quando elas aparecem. Mudanças de tempo e ambientes com muita fumaça também podem coincidir com a piora, embora nem sempre seja possível identificar uma causa única.',
         ],
       },
       {
         id: 'sinais-de-piora',
         heading: 'Sinais de que a doença piorou',
         paragraphs: [
-          'Alguns sinais indicam que a DPOC saiu do controle e merece avaliação:',
+          'O primeiro sinal costuma ser a falta de ar para atividades que antes eram fáceis, como vestir-se ou caminhar até a cozinha. A pessoa pode precisar parar várias vezes para recuperar o fôlego. O uso do medicamento de alívio passa a ser mais frequente, e o efeito parece durar menos. A limitação pode aparecer em tarefas simples, como tomar banho, vestir-se ou preparar uma refeição. Quando a pessoa precisa de ajuda para essas atividades, a crise merece atenção especial.',
+          'Mudanças no catarro também importam. Ele pode ficar mais abundante, mais espesso ou mais escuro. Febre, mais tosse e mais chiado do que o habitual completam o quadro. Anotar esses sinais ajuda a equipe de saúde a avaliar a gravidade e a decidir o tratamento. Se a pessoa mede a saturação em casa, uma queda em relação ao valor habitual é outro motivo de atenção. O aparelho ajuda, mas não substitui a avaliação do serviço de saúde. A informação ajuda a equipe a escolher o melhor tratamento para cada caso.',
         ],
         bullets: [
           'Mais falta de ar para atividades que antes eram fáceis',
@@ -2803,15 +2805,16 @@ export const articles: Article[] = [
         id: 'quando-procurar',
         heading: 'Quando procurar atendimento',
         paragraphs: [
-          'Se a piora durar dois dias ou mais, procure a unidade de saúde onde a doença é acompanhada ou um pronto atendimento. A avaliação precoce evita que a crise se agrave.',
-          'Quanto mais cedo a exacerbação é tratada, menor o risco de internação. O tratamento costuma incluir reforço dos broncodilatadores e, quando indicado, corticoide e antibiótico.',
+          'Se a piora não melhorar ou estiver se agravando, procure a unidade de saúde onde a doença é acompanhada ou um pronto atendimento. A avaliação precoce evita que a crise se agrave e reduz o risco de internação. Leve a lista de medicamentos, o inalador e, se usar, as orientações do oxigênio domiciliar. Não espere a crise passar sozinha. A demora permite que a inflamação e a falta de ar se agravem, o que torna o tratamento mais complexo. A unidade de saúde avalia a gravidade e decide se o tratamento pode ser feito ali ou se é preciso encaminhar para outro serviço. A orientação pode ser feita por telefone antes da ida ao serviço.',
+          'O tratamento costuma incluir reforço dos broncodilatadores e, quando indicado, corticoide e antibiótico. Não use antibiótico guardado de outra ocasião nem aumente a dose por conta própria. A decisão depende do exame e da história de cada pessoa. A equipe também pode avaliar a necessidade de oxigênio e de outros exames. Levar as informações sobre as crises recentes ajuda a decisão. Se os sintomas melhorarem com o tratamento, mantenha a consulta de revisão para avaliar a causa da crise.',
         ],
       },
       {
         id: 'emergencia',
         heading: 'Quando é emergência',
         paragraphs: [
-          'Procure atendimento de emergência imediatamente se houver:',
+          'Alguns sinais indicam que a crise é grave e exige atendimento de emergência imediato. A pessoa não consegue falar frases completas, usa a musculatura do pescoço e das costelas para respirar ou apresenta lábios e pontas dos dedos azulados. Sonolência e confusão também são alarmantes. A respiração rápida e superficial, com esforço visível, é um dos sinais mais claros de gravidade. Quanto antes o atendimento começar, melhor a resposta.',
+          'Nesses casos, chame o SAMU 192 ou vá ao serviço de emergência mais próximo. Não espere a medicação de alívio fazer efeito em casa. Se houver oxigênio domiciliar, siga a orientação do serviço e não altere a vazão por conta própria. Se a pessoa estiver sozinha, peça ajuda a um vizinho ou familiar enquanto aguarda o atendimento. Não dirija por conta própria em uma crise grave.',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2820,6 +2823,14 @@ export const articles: Article[] = [
           'Sonolência ou confusão durante a piora',
           'Falta de resposta ao medicamento de alívio',
           'Piora progressiva apesar do tratamento habitual',
+        ],
+      },
+      {
+        id: 'depois-da-crise',
+        heading: 'Depois que a crise passa',
+        paragraphs: [
+          'Depois que a crise passa, o cuidado continua. É importante retomar o acompanhamento para revisar o tratamento, conferir a técnica do inalador e atualizar as vacinas. A equipe pode ajustar as doses e indicar reabilitação pulmonar, se ainda não estiver em andamento. A revisão do tratamento deve considerar as crises dos últimos meses e a adesão aos medicamentos. A equipe pode simplificar o esquema para facilitar o uso diário. As consultas também servem para orientar a reabilitação pulmonar e o suporte nutricional quando necessário.',
+          'Muitas pessoas conseguem reconhecer os primeiros sinais e agir antes que a crise se agrave. Um plano de ação por escrito, combinado com o serviço de saúde, ajuda a família a saber quando ligar, quando ir à UBS e quando procurar a emergência. Compartilhar o plano com quem convive com a pessoa ajuda a agir rápido e evita decisões improvisadas durante a crise. O plano deve incluir os sinais que indicam emergência, os telefones úteis e o serviço de referência. A família também pode observar a resposta ao tratamento nos primeiros dias.',
         ],
         cta: {
           label: 'Veja a página sobre a DPOC',
@@ -2851,15 +2862,16 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
     id: 'dpoc-como-e-diagnosticada',
     slug: 'dpoc-como-e-diagnosticada',
-    title: 'DPOC: como é feito o diagnóstico',
+    metaTitle: 'DPOC: como é diagnosticada',
+    title: 'DPOC: como a doença é diagnosticada',
     excerpt:
-      'A espirometria é o exame que confirma a DPOC. Entenda como o diagnóstico é feito, o que o exame mede e por que ele é importante.',
+      'A espirometria confirma a DPOC e mede a gravidade da obstrução. Veja quando investigar, como o exame é feito e o que os resultados significam.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     body: [
@@ -2867,42 +2879,51 @@ export const articles: Article[] = [
         id: 'como-e-confirmado',
         heading: 'Como o diagnóstico é confirmado',
         paragraphs: [
-          'O diagnóstico da DPOC não é feito apenas pelos sintomas. Ele se apoia na história clínica, no exame físico e em um exame de função pulmonar chamado espirometria.',
-          'A espirometria é obrigatória para confirmar a doença e é o exame que permite diferenciar a DPOC da asma e de outras condições.',
+          'A suspeita de DPOC surge quando uma pessoa com mais de 40 anos, fumante ou ex-fumante, apresenta falta de ar, tosse ou catarro persistentes. O médico também considera exposição ocupacional, fumaça de biomassa e história familiar. O exame físico pode mostrar chiado, respiração prolongada e sinais de esforço, mas nenhum desses achados confirma a doença sozinho. A história precisa detalhar quando os sintomas começaram, se pioram com esforço ou repouso e se há crises frequentes. Também é importante perguntar sobre outras doenças, como asma, insuficiência cardíaca e bronquiectasias, que podem se confundir com a DPOC.',
+          'A confirmação depende da espirometria. Sem esse exame, o diagnóstico fica incompleto e o tratamento pode ser iniciado de forma inadequada. Em locais onde a espirometria não está disponível naquele momento, a pessoa deve ser encaminhada a um serviço que realize o teste, e o acompanhamento não deve ser interrompido. O exame não deve ser feito apenas para confirmar uma suspeita óbvia. Ele também é útil para acompanhar a evolução e para orientar decisões sobre tratamento e encaminhamento.',
         ],
       },
       {
         id: 'espirometria',
-        heading: 'A espirometria',
+        heading: 'O papel da espirometria',
         paragraphs: [
-          'No exame, a pessoa sopra em um aparelho, com força, depois de uma inspiração profunda. As medidas são repetidas antes e depois de um medicamento broncodilatador.',
-          'Na DPOC, a relação entre o volume expirado no primeiro segundo (VEF1) e a capacidade vital forçada (CVF) continua abaixo de 0,70 depois do broncodilatador. Isso indica uma obstrução que não se reverte completamente e ajuda a afastar a asma, em que a melhora costuma ser maior.',
+          'A espirometria mede a quantidade de ar que a pessoa consegue expirar e a velocidade com que isso acontece. O teste é feito antes e depois da inalação de um broncodilatador, que abre as vias aéreas. A pessoa sopra com força em um aparelho, seguindo as instruções do profissional, e repete o esforço algumas vezes para obter um resultado confiável. O esforço precisa ser máximo, mas o teste é seguro e pode ser repetido. Cansaço durante a prova é esperado e não significa que o exame esteja errado. O profissional observa a qualidade da curva para garantir que o resultado represente a função real.',
+          'O critério diagnóstico é a relação entre o volume expirado no primeiro segundo (VEF1) e a capacidade vital forçada (CVF) abaixo de 0,70 depois do broncodilatador. Esse valor mostra obstrução que não se reverte por completo. O resultado precisa ser interpretado junto com os sintomas e com a história de exposição, porque alterações leves podem passar despercebidas. Valores de VEF1 muito baixos indicam maior risco de crises e de complicações. A interpretação também considera a idade, a altura e o peso, porque os valores de referência variam entre as pessoas. O relatório do exame deve ser guardado para comparações futuras e para o acompanhamento. O histórico dos exames ajuda a comparar.',
+        ],
+      },
+      {
+        id: 'classificacao-da-gravidade',
+        heading: 'Como a gravidade é classificada',
+        paragraphs: [
+          'A gravidade funcional é classificada pelo VEF1 depois do broncodilatador, em quatro estágios: leve, moderado, grave e muito grave. Quanto menor o valor, maior a limitação do fluxo de ar. Essa classificação ajuda a organizar o acompanhamento, mas não define sozinha o tratamento. No estágio leve, o VEF1 fica igual ou acima de 80% do previsto; no moderado, entre 50% e 80%; no grave, entre 30% e 50%; no muito grave, abaixo de 30%. Esses números orientam a intensidade do acompanhamento.',
+          'Os sintomas e a frequência das exacerbações também pesam na decisão. Duas pessoas com o mesmo VEF1 podem precisar de esquemas diferentes se uma tem mais falta de ar ou mais crises. Por isso a avaliação inclui a escala de dispneia, o impacto na vida diária e o número de internações no último ano. Perguntas sobre tosse, catarro, chiado e limitações fazem parte da consulta. A equipe também verifica quantas vezes a pessoa precisou de antibiótico, corticoide ou atendimento de urgência no último ano.',
         ],
       },
       {
         id: 'outros-exames',
-        heading: 'Outros exames que ajudam',
+        heading: 'Outros exames que podem ajudar',
         paragraphs: [
-          'Além da espirometria, outros exames podem ser pedidos para avaliar a gravidade e outras condições:',
+          'A radiografia de tórax pode mostrar hiperinsuflação e ajudar a afastar outras doenças. O hemograma identifica anemia ou policitemia, e a oximetria de repouso indica se a oxigenação está baixa. Em casos selecionados, o médico solicita eletrocardiograma, ecocardiograma e dosagem de alfa-1 antitripsina. A dosagem de alfa-1 antitripsina é especialmente importante em pessoas jovens com doença grave ou com história familiar. O diagnóstico dessa condição genética muda o aconselhamento familiar.',
+          'A tomografia e a gasometria entram quando há suspeita de bronquiectasias, de doença pulmonar intersticial ou de necessidade de avaliar a troca gasosa. O objetivo não é fazer todos os exames em todas as pessoas, mas escolher os que mudam a conduta. Repetir exames sem necessidade aumenta custos e não melhora o cuidado. A escolha deve seguir a suspeita clínica e o que pode mudar a decisão terapêutica.',
         ],
         bullets: [
-          'Radiografia de tórax, para afastar outras doenças',
-          'Tomografia de tórax, quando o quadro sugere outras condições',
-          'Oximetria de pulso e, em casos selecionados, gasometria, para avaliar o oxigênio no sangue',
-          'Testes de esforço ou de caminhada, quando é preciso medir a tolerância ao exercício',
+          'Asma, que costuma melhorar mais com o broncodilatador',
+          'Insuficiência cardíaca, que também causa falta de ar',
+          'Bronquiectasias, com tosse e catarro persistentes',
         ],
       },
       {
         id: 'quando-suspeitar',
-        heading: 'Quando suspeitar e procurar avaliação',
+        heading: 'Quando vale investigar',
         paragraphs: [
-          'Procure avaliação se tiver sintomas respiratórios persistentes e algum fator de risco, como:',
+          'Vale procurar avaliação quem tem mais de 40 anos e fuma ou fumou, mesmo sem queixa respiratória importante. Tosse com catarro por vários meses, falta de ar aos esforços e chiado recorrente são motivos suficientes para investigar. A exposição a poeira, fumaça de lenha ou produtos químicos também conta. Muitas pessoas atribuem a falta de ar ao envelhecimento ou ao sedentarismo e demoram a procurar ajuda. Essa interpretação atrasa o diagnóstico e permite que a doença avance.',
+          'No SUS, a porta de entrada é a UBS. A equipe pode orientar a investigação, solicitar a espirometria quando o serviço oferece o exame ou encaminhar para uma unidade de referência. Quanto antes o diagnóstico é feito, mais cedo começa o tratamento e a prevenção de crises. A equipe também pode orientar sobre hábitos que reduzem o risco, como parar de fumar e evitar a exposição à fumaça. O diagnóstico precoce muda o tratamento e também a trajetória da doença.',
         ],
         bullets: [
-          'Falta de ar que surgiu aos poucos e piora com esforço',
-          'Tosse com catarro por várias semanas ou meses',
-          'História de tabagismo ou de exposição prolongada a poeira e fumaça',
-          'Infecções respiratórias de repetição',
+          'Ter mais de 40 anos e fumar ou ter fumado',
+          'Tosse com catarro por vários meses',
+          'Falta de ar aos esforços ou chiado recorrente',
+          'Trabalhar ou viver exposto a poeira, fumaça ou produtos químicos',
         ],
         cta: {
           label: 'Veja a página sobre a DPOC',
@@ -2934,65 +2955,71 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
     id: 'dpoc-tratamento-e-cuidados',
     slug: 'dpoc-tratamento-e-cuidados',
+    metaTitle: 'DPOC: tratamento e cuidados',
     title: 'DPOC: tratamento e cuidados no dia a dia',
     excerpt:
-      'O tratamento da DPOC combina medicamentos inalatórios, reabilitação pulmonar e mudanças no dia a dia. Veja o que faz parte do cuidado contínuo.',
+      'Broncodilatadores, reabilitação pulmonar, vacinas e oxigênio fazem parte do controle da DPOC. Entenda o que cada parte do tratamento faz.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     body: [
       {
         id: 'tratamento-continuo',
-        heading: 'O tratamento é contínuo',
+        heading: 'Um tratamento contínuo',
         paragraphs: [
-          'A DPOC não tem cura, mas tem tratamento. O objetivo é aliviar os sintomas, melhorar a respiração, reduzir as crises e manter a qualidade de vida.',
-          'O tratamento combina medicamentos, reabilitação pulmonar e mudanças no estilo de vida. Ele é ajustado ao longo do tempo, conforme os sintomas e as crises de cada pessoa.',
+          'O tratamento da DPOC é contínuo e ajustado ao longo do tempo. O objetivo é reduzir sintomas, melhorar a tolerância ao esforço e diminuir o número de crises. A doença não tem cura, mas o controle adequado permite manter atividades, reduzir internações e preservar a qualidade de vida. O plano é revisado conforme os sintomas mudam, e não apenas quando há piora. A constância do cuidado é o que sustenta os resultados ao longo dos anos. As metas são discutidas com a pessoa e ajustadas à rotina dela, para que o plano seja possível de seguir.',
+          'O acompanhamento deve ser regular, mesmo quando a pessoa está bem. Nas consultas, a equipe avalia sintomas, crises, adesão, técnica do inalador e necessidade de ajustes. Vacinas, alimentação, atividade física e saúde mental fazem parte do cuidado. A equipe também pergunta sobre o sono, o apetite e o humor, porque esses aspectos influenciam a adesão e a qualidade de vida. Quando necessário, o encaminhamento para outros profissionais é parte do tratamento.',
         ],
       },
       {
         id: 'medicamentos',
         heading: 'Medicamentos inalatórios',
         paragraphs: [
-          'A base do tratamento são os broncodilatadores por via inalatória. Em situações específicas, a equipe de saúde pode indicar outras classes, como o corticoide inalatório.',
-          'Os medicamentos de manutenção são usados todos os dias, mesmo quando a pessoa está bem. Os medicamentos de alívio servem para episódios de falta de ar e não substituem o tratamento de manutenção.',
+          'Os broncodilatadores inalatórios são a base do tratamento. Os de ação curta aliviam a falta de ar em poucos minutos e servem para resgates; os de ação longa são usados todos os dias para manter as vias aéreas abertas. A escolha depende da frequência dos sintomas e das crises. Muitas pessoas usam mais de um dispositivo, e a diferença entre eles precisa ficar clara. O medicamento de alívio não deve ser usado como substituto da medicação diária. O plano deve ser explicado em linguagem simples, e a pessoa precisa sair da consulta sabendo quando usar cada um.',
+          'O corticoide inalatório pode ser associado em pessoas com crises frequentes, eosinofilia no sangue ou histórico de asma. Ele não substitui o broncodilatador e não deve ser usado sozinho. Antibiótico e corticoide por via oral ficam reservados para exacerbações, com avaliação profissional. O uso prolongado de corticoide oral traz riscos e não é indicado para manutenção. A automedicação com antibiótico também favorece resistência e não trata toda exacerbação. A escolha do dispositivo também considera a habilidade manual e a preferência de cada pessoa.',
         ],
       },
       {
         id: 'tecnica-do-inalador',
         heading: 'A técnica do inalador',
         paragraphs: [
-          'Usar o inalador do jeito certo é decisivo: com a técnica errada, o medicamento não chega aos pulmões.',
+          'A técnica do inalador muda o resultado do tratamento. Se a coordenação entre apertar o dispositivo e inspirar está errada, parte do medicamento fica na boca e não chega aos pulmões. Cada modelo tem instruções próprias, e a equipe deve observar a pessoa usando o seu. Se a pessoa interrompe a inspiração por falta de ar, o medicamento se deposita na garganta. Treinar em consulta, com o dispositivo vazio, ajuda a corrigir o gesto.',
+          'O espaçador ajuda quem tem dificuldade de coordenar os movimentos, sobretudo em crises. Depois de usar corticoide inalatório, enxaguar a boca reduz o risco de candidíase oral. Revisar a técnica em cada consulta evita perda de eficácia. O espaçador também facilita o uso por idosos e por quem tem pouca força para inspirar. A limpeza do dispositivo faz parte do uso correto.',
         ],
         bullets: [
-          'Levar o inalador nas consultas, para revisar a técnica',
-          'Seguir o tempo de espera e o número de inalações indicados para o seu dispositivo',
-          'Usar espaçador, se for orientado, para facilitar a chegada do medicamento',
-          'Enxaguar a boca depois dos inaladores que contêm corticoide',
+          'Ler as instruções do modelo que você usa',
+          'Agitar o dispositivo antes de cada uso, quando indicado',
+          'Expirar devagar, inspirar com o inalador e segurar a respiração',
+          'Aguardar o intervalo entre as doses, conforme a orientação',
+          'Enxaguar a boca após usar corticoide inalatório',
         ],
       },
       {
         id: 'reabilitacao-e-oxigenio',
-        heading: 'Reabilitação e oxigênio',
+        heading: 'Reabilitação pulmonar e oxigênio',
         paragraphs: [
-          'A reabilitação pulmonar inclui exercícios, educação em saúde e apoio para conviver melhor com a falta de ar. Ela melhora a tolerância ao esforço e a qualidade de vida.',
-          'Pessoas com baixa de oxigênio no sangue podem precisar de oxigenoterapia em casa, usada por pelo menos 15 horas por dia. A indicação é feita a partir de exames.',
+          'A reabilitação pulmonar combina exercícios de resistência e força, treino de respiração e educação sobre a doença. O programa melhora a falta de ar, a capacidade de caminhar e a participação nas atividades diárias. Os benefícios aparecem mesmo em quem tem doença avançada. O programa é adaptado à capacidade de cada pessoa e pode incluir caminhada, bicicleta estacionária, exercícios com pesos leves e treino de equilíbrio. A supervisão profissional reduz o risco de esforço excessivo.',
+          'A oxigenoterapia domiciliar é indicada para pessoas com baixa de oxigênio no sangue, após avaliação especializada. O equipamento precisa ser usado conforme a prescrição, e a segurança da casa deve ser revista, com o aparelho longe de chamas. A vazão não deve ser alterada por conta própria. A necessidade de oxigênio é reavaliada periodicamente, porque pode mudar com o tempo. Viagens e situações de emergência exigem planejamento para garantir o fornecimento. A adesão ao programa é mais fácil quando o horário cabe na rotina.',
         ],
       },
       {
         id: 'dia-a-dia',
         heading: 'Cuidados no dia a dia',
-        paragraphs: ['Alguns hábitos fazem parte do cuidado contínuo:'],
+        paragraphs: [
+          'No dia a dia, manter as vacinas em dia reduz o risco de infecções que desencadeiam crises. Atividade física adaptada, alimentação equilibrada e sono regular ajudam a sustentar a energia e a musculatura. Parar de fumar continua sendo a medida de maior impacto. A alimentação deve garantir energia suficiente, e a perda de peso precisa ser acompanhada. O sono de qualidade também ajuda na recuperação. O acompanhamento nutricional pode ser necessário em casos de perda de peso.',
+          'Também vale organizar a casa e a rotina: evitar fumaça, poeira e mofo, manter os ambientes ventilados e dividir as tarefas mais cansativas. Familiares e cuidadores podem ajudar a lembrar horários e a reconhecer sinais de piora. Ter um plano para os dias de piora, com telefones e medicamentos à mão, reduz a ansiedade da família. O cuidado compartilhado facilita a continuidade do tratamento. Pequenos ajustes na casa e na rotina costumam trazer mais conforto do que mudanças radicais. O objetivo é manter uma rotina possível e segura. A equipe pode ajudar nesse planejamento. A rotina deve respeitar o ritmo de cada dia.',
+        ],
         bullets: [
-          'Manter as vacinas em dia, conforme a orientação do serviço de saúde',
-          'Manter atividade física adaptada à condição, com orientação profissional',
-          'Praticar exercícios de respiração, como a respiração com os lábios franzidos',
-          'Manter a casa ventilada e livre de fumaça, poeira e mofo',
-          'Manter as consultas regulares e não abandonar o tratamento nos períodos sem sintomas',
+          'Manter as vacinas contra gripe, covid-19 e pneumococo em dia',
+          'Praticar atividade física adaptada, com orientação profissional',
+          'Evitar fumaça, poeira, mofo e produtos de limpeza irritantes',
+          'Dividir as tarefas cansativas ao longo do dia',
+          'Levar o inalador às consultas para revisar a técnica',
         ],
         cta: {
           label: 'Veja a página sobre a DPOC',
@@ -3024,7 +3051,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
@@ -3033,50 +3060,60 @@ export const articles: Article[] = [
     metaTitle: 'DPOC: como prevenir crises',
     title: 'DPOC: como prevenir crises e o papel das vacinas',
     excerpt:
-      'Vacinas em dia, evitar a fumaça e seguir o tratamento ajudam a reduzir as crises de DPOC. Veja o que está ao seu alcance.',
+      'Vacinas em dia, ambiente sem fumaça e tratamento regular reduzem as crises de DPOC. Veja como montar um plano de ação com a equipe de saúde.',
     category: 'Doenças crônicas',
     categorySlug: 'doencas-cronicas',
     body: [
       {
         id: 'vacinas',
-        heading: 'Vacinas que ajudam',
+        heading: 'Vacinas que ajudam a proteger',
         paragraphs: [
-          'Quem tem DPOC faz parte do grupo prioritário para a vacina contra a gripe, oferecida todos os anos. A infecção pelo vírus influenza aumenta o risco de crises e de complicações.',
-          'Há outras vacinas indicadas, como a do pneumococo e a da covid-19. A equipe de saúde orienta o calendário mais adequado para cada pessoa.',
+          'As vacinas são parte do cuidado porque infecções respiratórias estão entre os principais gatilhos de exacerbação. A vacina contra a gripe é recomendada todos os anos para pessoas com doenças respiratórias crônicas. A composição muda a cada temporada, por isso a atualização anual importa. Quem tem DPOC e contrai gripe apresenta risco maior de exacerbação e de internação. A vacina não impede todos os casos, mas reduz complicações. Pessoas com DPOC também devem manter a vacinação de quem convive com elas em dia, o que reduz a circulação de infecções.',
+          'Outras vacinas podem ser indicadas, como a do pneumococo e a da covid-19. A equipe de saúde avalia o histórico e o momento de cada pessoa. Manter o cartão de vacinação atualizado ajuda a não perder oportunidades. O local de vacinação pode ser a UBS ou um posto específico, e o cartão deve ser levado em todas as consultas. Dúvidas sobre contraindicações devem ser discutidas com a equipe. A proteção diminui com o tempo, e o reforço segue as recomendações vigentes. O calendário pode mudar, por isso vale conferir a recomendação vigente.',
         ],
         bullets: [
-          'Vacina contra a gripe: todos os anos, conforme a campanha nacional',
-          'Vacina contra a covid-19: conforme a orientação local',
-          'Vacina contra o pneumococo: indicada para pessoas com condições respiratórias crônicas',
+          'Vacina contra a gripe todos os anos',
+          'Vacina contra o pneumococo, conforme indicação',
+          'Vacina contra a covid-19, conforme o calendário',
         ],
       },
       {
         id: 'evitar-gatilhos',
         heading: 'Evitar os gatilhos',
         paragraphs: [
-          'Boa parte das crises é disparada por infecções e por irritantes que podem ser evitados:',
+          'Evitar a fumaça do tabaco é a principal medida, inclusive para quem não fuma e convive com fumantes. Em casa, cozinhar ou aquecer com lenha e carvão em ambientes fechados aumenta a exposição a partículas. A ventilação e o uso de equipamentos adequados reduzem esse risco. A fumaça de biomassa é particularmente relevante em áreas rurais e em domicílios que usam fogão a lenha. Melhorar a ventilação e evitar o uso em locais fechados são medidas práticas. A exposição deve ser reduzida também em veículos e em locais de trabalho sem ventilação.',
+          'Poeira, mofo e produtos de limpeza com cheiro forte também podem piorar os sintomas. No trabalho, a proteção respiratória deve ser orientada pelo serviço de saúde ocupacional. Nos períodos de gripe, lavar as mãos e evitar aglomerações ajuda. A limpeza da casa deve evitar produtos com cheiro forte e excesso de poeira. Filtros de ar não substituem a retirada da fonte de poluição. Quando a qualidade do ar está ruim, reduzir o tempo ao ar livre pode ajudar.',
         ],
         bullets: [
-          'Não fumar e evitar a fumaça do tabaco em casa e no trabalho',
-          'Evitar fumaça de lenha, carvão e outros materiais em ambientes fechados',
-          'Reduzir a exposição a poeira, mofo e produtos de limpeza irritantes',
-          'Lavar as mãos com frequência e evitar contato com pessoas gripadas',
+          'Não fumar e evitar a fumaça passiva',
+          'Manter a casa ventilada e livre de mofo',
+          'Evitar lenha ou carvão em ambientes fechados',
+          'Usar proteção respiratória quando o trabalho expõe a poeira',
+          'Lavar as mãos e evitar aglomerações nos períodos de gripe',
         ],
       },
       {
         id: 'tratamento-em-dia',
-        heading: 'Manter o tratamento em dia',
+        heading: 'Tratamento em dia',
         paragraphs: [
-          'Seguir o tratamento todos os dias, mesmo quando não há sintomas, é uma das formas mais eficazes de prevenir crises.',
-          'As consultas de acompanhamento servem para ajustar os medicamentos, revisar a técnica do inalador e checar as vacinas.',
+          'Seguir o tratamento todos os dias, mesmo sem sintomas, é o que mantém o controle. Interromper os medicamentos por conta própria costuma levar a mais falta de ar e mais crises. O alívio rápido não substitui a medicação de manutenção. O medicamento de manutenção precisa ser usado mesmo nos dias bons. Quando a pessoa está bem, é comum esquecer, e essa interrupção favorece a crise. A regularidade importa mais do que a dose isolada.',
+          'Organizar os horários, guardar os inaladores em local acessível e repor antes de acabar evita falhas. Se o esquema parece complicado, a equipe pode simplificar. Anotar as crises e os gatilhos ajuda no ajuste. Um lembrete no celular ou uma caixa organizada por horário pode ajudar. Se houver efeitos adversos, a equipe deve ser consultada antes de qualquer mudança. A equipe pode ajudar a escolher dispositivos mais fáceis de usar. Usar sempre o mesmo horário reduz esquecimentos.',
+        ],
+      },
+      {
+        id: 'plano-de-acao',
+        heading: 'Um plano de ação por escrito',
+        paragraphs: [
+          'Um plano de ação escrito deixa claro o que fazer quando os sintomas pioram. Ele costuma listar os sinais de alerta, quais medicamentos usar e em que momento procurar a UBS ou a emergência. O plano é combinado com a equipe de saúde e revisado nas consultas. O plano deve ser simples e escrito em linguagem acessível. Ele complementa, e não substitui, a orientação recebida na consulta. O plano deve indicar quem chamar e para onde ir.',
+          'O plano também deve ser conhecido pela família ou por quem convive com a pessoa. Em uma crise, saber onde estão os medicamentos, os telefones úteis e o serviço de referência economiza tempo. O SAMU 192 pode ser acionado nos casos graves. Revisar o plano depois de cada crise ajuda a corrigir o que não funcionou. O documento precisa ser atualizado quando o tratamento muda. O plano deve ser revisto sempre que houver mudança de medicamento ou de serviço de referência.',
         ],
       },
       {
         id: 'quando-revisar',
-        heading: 'Quando revisar com a equipe de saúde',
+        heading: 'Quando revisar o tratamento',
         paragraphs: [
-          'Se as crises ficarem mais frequentes ou a falta de ar aumentar, procure o serviço de saúde para reavaliar o tratamento.',
-          'Sintomas novos ou persistentes não devem ser atribuídos apenas à DPOC: outras condições podem precisar de investigação.',
+          'Marque uma consulta se as crises ficarem mais frequentes, se a falta de ar aumentar, se a necessidade do medicamento de alívio crescer ou se surgirem novos sintomas. Também vale revisar o tratamento quando a pessoa deixa de fazer atividades que antes conseguia. A perda de peso, o aparecimento de inchaço nas pernas ou a piora do cansaço também justificam avaliação. Esses sinais podem indicar complicações ou outras doenças. Mudanças no catarro ou na febre também merecem atenção. A avaliação também considera o impacto da doença na família.',
+          'O acompanhamento não termina quando os sintomas melhoram. A revisão periódica permite atualizar vacinas, ajustar doses, reforçar a técnica do inalador e planejar a reabilitação. O objetivo é manter a doença estável pelo maior tempo possível. A periodicidade das consultas depende da gravidade e da estabilidade. Quem tem crises frequentes precisa de acompanhamento mais próximo. A equipe também revisa a necessidade de oxigênio e de outros apoios. O objetivo é evitar atrasos no cuidado. Essa revisão é uma oportunidade para tirar dúvidas. A conversa deve incluir as dúvidas trazidas pela pessoa.',
         ],
         cta: {
           label: 'Veja a página sobre a DPOC',
@@ -3095,7 +3132,7 @@ export const articles: Article[] = [
     references: [
       {
         label: 'Calendário Nacional de Vacinação',
-        url: 'https://www.gov.br/saude/pt-br/vacinacao',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
         publisher: 'Ministério da Saúde (Brasil)',
       },
       {
@@ -3108,7 +3145,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
