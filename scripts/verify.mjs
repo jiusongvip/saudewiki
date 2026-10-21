@@ -102,7 +102,6 @@ const routes = new Set([
   '/',
   '/artigos/',
   '/doencas/',
-  '/temas/',
   '/por-regiao/',
   ...mod.articles.map((a) => `/artigos/${a.slug}/`),
   ...mod.diseases.map((d) => `/doencas/${d.slug}/`),
