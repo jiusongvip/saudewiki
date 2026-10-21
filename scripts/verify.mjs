@@ -171,12 +171,17 @@ for (const article of scope) {
       note(`#${section.id} has ${paragraphs} paragraph(s), checklist asks ${SECTION_PARAGRAPHS.min}-${SECTION_PARAGRAPHS.max}`);
   }
 
-  // one photo per article, with alt text in both languages
-  const image = mod.articleImages[at];
-  if (!image) fail('no entry in articleImages');
-  else {
-    if (!existsSync(`${root}public${image.src}`)) fail(`image file missing (${image.src})`);
-    if (!mod.zhImageAlts[at]) fail('no zh alt text for the image');
+  // one photo per article, with alt text in both languages. A draft is kept
+  // unfinished on purpose, so it is checked only once it leaves that status.
+  if (article.reviewStatus === 'draft') {
+    note('draft: image wiring not required yet');
+  } else {
+    const image = mod.articleImages[at];
+    if (!image) fail('no entry in articleImages');
+    else {
+      if (!existsSync(`${root}public${image.src}`)) fail(`image file missing (${image.src})`);
+      if (!mod.zhImageAlts[at]) fail('no zh alt text for the image');
+    }
   }
 
   if (checkRoutes) {
