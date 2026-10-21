@@ -4197,9 +4197,9 @@ export const diseases: Disease[] = [
       id: 'pneumonia',
       slug: 'pneumonia',
       name: 'Pneumonia',
-      aliases: ['pneumonia adquirida na comunidade', 'pneumonia bacteriana', 'pulmonite', 'infecção pulmonar'],
+      aliases: ['pneumonia adquirida na comunidade', 'pneumonia bacteriana', 'pneumonia hospitalar', 'pulmonite', 'infecção pulmonar'],
       summary:
-        'Infecção que se instala nos pulmões e enche os alvéolos de pus e líquido, dificultando a respiração. A maioria dos casos tem tratamento sem internação, mas queda do oxigênio é sinal de alerta.',
+        'Infecção que enche os alvéolos de pus e líquido e prejudica a troca de oxigênio. A maioria dos casos se trata em casa, mas falta de ar, confusão e saturação baixa pedem atendimento imediato.',
       category: 'Doenças infecciosas',
       categorySlug: 'doencas-infecciosas',
       sections: [
@@ -4207,62 +4207,124 @@ export const diseases: Disease[] = [
           id: 'o-que-e',
           heading: 'O que é pneumonia?',
           paragraphs: [
-            'A pneumonia é uma infecção que se instala nos pulmões, mais precisamente nos alvéolos, os pequenos sacos de ar por onde o oxigênio entra no sangue. Em vez de ar, o alvéolo infectado se enche de pus e de líquido, respirar passa a doer e o corpo recebe menos oxigênio.',
-            'É a maior causa infecciosa de morte no mundo: só em 2019, a pneumonia matou 740.180 crianças com menos de cinco anos, 14% de todas as mortes nessa faixa etária, segundo a Organização Mundial da Saúde. A forma mais comum é a pneumonia adquirida na comunidade, pega no dia a dia, fora do ambiente hospitalar.',
+            'A pneumonia é uma infecção dos pulmões que se instala nos alvéolos, os sacos de ar onde o oxigênio passa para o sangue. O alvéolo infectado se enche de pus e de líquido, a troca de gases fica prejudicada e o corpo recebe menos oxigênio. Por isso a respiração acelera, o peito dói e a pessoa se cansa até em repouso.',
+            'A forma mais comum é a pneumonia adquirida na comunidade, contraída fora do hospital. Quando surge 48 horas ou mais depois de uma internação, ela é chamada de pneumonia hospitalar, costuma envolver bactérias mais resistentes e exige outro esquema de antibiótico. A doença é a principal causa infecciosa de morte em crianças: em 2019, foram 740.180 mortes de menores de cinco anos, 14% do total nessa faixa etária, segundo a Organização Mundial da Saúde. Crianças pequenas e pessoas idosas concentram os casos mais graves.',
           ],
         },
         {
-          id: 'sintomas',
-          heading: 'Quais são os sintomas?',
+          id: 'tipos',
+          heading: 'Quais são os tipos de pneumonia?',
           paragraphs: [
-            'Febre, tosse e falta de ar costumam chegar juntos e de forma relativamente rápida.',
+            'A pneumonia pode ser classificada pelo lugar onde foi adquirida, pelo agente que a provoca e pelo padrão que deixa no pulmão. Essas três chaves orientam o tratamento e ajudam a prever a gravidade.',
           ],
           bullets: [
-            'Febre alta, muitas vezes com calafrios',
-            'Tosse, seca ou com catarro',
-            'Dor no peito que piora ao respirar fundo ou tossir',
-            'Respiração rápida e falta de ar até em repouso',
-            'Cansaço intenso e mal-estar geral',
-            'Em pessoas idosas, confusão súbita ou moleza pode ser o único sinal visível',
+            'Adquirida na comunidade. Aparece fora do hospital e é a forma mais frequente.',
+            'Hospitalar. Começa 48 horas ou mais depois da internação, inclusive em quem usa respirador.',
+            'Bacteriana. O pneumococo é o agente mais comum, seguido pelo Haemophilus influenzae e pelo Staphylococcus aureus.',
+            'Viral. Influenza, vírus sincicial respiratório e outros vírus respiratórios.',
+            'Por agentes atípicos. Micoplasma, clamídia e legionela, com sintomas que fogem do padrão.',
+            'Fúngica. Mais comum em pessoas com a imunidade muito baixa.',
+            'Por aspiração. Acontece quando alimento, líquido ou vômito descem para as vias aéreas.',
+            'Lobar, broncopneumonia ou intersticial. Nomes que descrevem a área e o tipo de tecido atingido.',
           ],
         },
         {
           id: 'transmissao',
           heading: 'Como a pneumonia aparece?',
           paragraphs: [
-            'Vários agentes podem causá-la. Entre as bactérias, o pneumococo é a causa mais comum de pneumonia bacteriana em crianças, seguido do Haemophilus influenzae tipo b (Hib); entre os vírus, o sincicial respiratório lidera.',
-            'Esses microrganismos circulam pelas gotículas da tosse e do espirro, e muita gente os carrega no nariz e na garganta sem adoecer. A pneumonia aparece quando o agente desce até os pulmões e as defesas do corpo não conseguem contê-lo, em geral depois de um resfriado ou em quem está mais vulnerável.',
+            'A pneumonia começa quando um microrganismo vence as defesas do pulmão e se multiplica nos alvéolos. Ele chega pelo ar inspirado, por gotículas aspiradas da boca e da garganta, pela corrente sanguínea ou a partir de uma infecção vizinha. Uma gripe ou um resfriado recente facilita o caminho, porque inflama as vias aéreas e prejudica a limpeza natural do pulmão.',
+            'O que passa de uma pessoa para outra são os microrganismos, não a pneumonia em si. A transmissão acontece sobretudo por gotículas de tosse e espirro, que alcançam cerca de dois metros e se concentram em ambientes fechados. Muita gente carrega esses agentes no nariz e na garganta sem adoecer; a doença aparece quando eles descem até os alvéolos em alguém com as defesas fragilizadas. No hospital, o respirador e as mãos dos profissionais são vias importantes, e por isso a higiene das mãos e o cuidado com os equipamentos fazem parte da prevenção.',
           ],
         },
         {
           id: 'fatores-de-risco',
           heading: 'O que aumenta o risco?',
           paragraphs: [
-            'A pneumonia procura quem tem os pulmões ou as defesas comprometidas, e boa parte desses fatores dá para mudar ou prevenir.',
+            'A pneumonia atinge com mais força quem tem o pulmão ou a imunidade comprometidos. Parte desses fatores não muda, mas vários podem ser controlados.',
           ],
           bullets: [
-            'Ter menos de cinco anos ou mais de 60',
+            'Ter menos de cinco anos ou 65 anos ou mais',
             'Conviver com [asma](/doencas/asma/) ou [DPOC](/doencas/dpoc/) sem controle',
             'Fumar, e cozinhar com lenha ou carvão em ambiente fechado',
-            'Estar com a vacinação contra pneumococo, Hib e influenza incompleta',
-            'Ter a imunidade fragilizada, como na aids e na desnutrição',
-            'Morar em ambiente aglomerado',
+            'Ter a vacinação contra pneumococo, Hib e influenza incompleta',
+            'Imunidade baixa, como em pessoas com HIV, em tratamento contra o câncer ou com desnutrição',
+            'Dificuldade para engolir, que favorece a aspiração de alimento e saliva',
+            'Estar internado, sobretudo em UTI e com respirador',
+            'Viver em casa cheia ou em abrigo coletivo',
           ],
+        },
+        {
+          id: 'primeiros-sinais',
+          heading: 'Quais são os primeiros sinais?',
+          paragraphs: [
+            'A pneumonia raramente avisa com um sinal único. O começo costuma ser parecido com um resfriado que não melhora: coriza, dor de garganta e tosse que, em vez de ceder, ganha força. Algumas situações deixam a pessoa mais perto de adoecer, como ter tido uma gripe recente, usar remédio que baixa a imunidade, conviver com alguém doente, estar acamado ou ter engasgado com alimento.',
+            'A tosse é o sintoma que aparece primeiro na maioria dos casos. Ela pode começar seca e depois vir com catarro, ou já surgir produtiva. Febre, dor no corpo, falta de apetite e cansaço acompanham o início. Em pessoas idosas, a primeira manifestação pode ser diferente: em vez de febre e tosse, surgem confusão, fraqueza e recusa de comida.',
+          ],
+          cta: {
+            label: 'Leia também: pneumonia em idosos, quando a confusão é o primeiro sinal',
+            href: '/artigos/pneumonia-em-idosos/',
+          },
+        },
+        {
+          id: 'sintomas',
+          heading: 'Quais são os sintomas?',
+          paragraphs: [
+            'O trio clássico é febre, tosse e falta de ar, quase sempre com dor no peito ao respirar fundo. A apresentação muda com a idade e com o agente que causa a infecção.',
+            'Quando a infecção é grave, podem aparecer desidratação, vômitos e diarreia, sobretudo em crianças, além de confusão e sonolência. Nos casos mais intensos, o corpo sente o efeito da falta de oxigênio: respiração profunda e rápida, urina escassa, pele fria e pulso acelerado. Esses sinais indicam que a doença saiu do pulmão e passou a comprometer o organismo como um todo.',
+          ],
+          bullets: [
+            'Febre alta, muitas vezes com calafrios',
+            'Tosse, seca no começo e depois com catarro',
+            'Dor no peito que piora ao respirar fundo ou tossir',
+            'Respiração rápida e falta de ar, às vezes em repouso',
+            'Cansaço intenso e mal-estar geral',
+            'Catarro com sangue ou com cor de ferrugem',
+            'Em crianças pequenas, respiração rápida, gemência e o peito puxando para dentro',
+            'Em pessoas idosas, confusão súbita, moleza e queda de apetite',
+          ],
+          cta: {
+            label: 'Leia também: pneumonia em crianças, sinais e quando buscar ajuda',
+            href: '/artigos/pneumonia-em-criancas/',
+          },
         },
         {
           id: 'diagnostico',
           heading: 'Como é feito o diagnóstico?',
           paragraphs: [
-            'O diagnóstico combina a história clínica, o exame físico com o estetoscópio e a saturação de oxigênio medida no oxímetro de pulso, quase sempre com a radiografia de tórax confirmando a área de consolidação, a sombra do tecido onde os alvéolos estão preenchidos.',
-            'Em crianças pequenas, a Organização Mundial da Saúde destaca a contagem da respiração: entre os menores de cinco anos com tosse ou dificuldade para respirar, a respiração rápida ou a retração da parte de baixo do tórax já definem a pneumonia. Distinguir a pneumonia da [tuberculose](/doencas/tuberculose/) também importa: a pneumonia costuma melhorar em poucos dias de tratamento adequado, enquanto a marca da tuberculose é a tosse por três semanas ou mais, com febre de fim de tarde, suor noturno e emagrecimento.',
+            'O médico reconhece a pneumonia pela história, pela ausculta com o estetoscópio e pela saturação de oxigênio medida no oxímetro de pulso. A radiografia de tórax costuma confirmar a área de consolidação, a sombra onde os alvéolos estão cheios. A tomografia entra quando a radiografia não é clara ou quando se suspeita de outra doença.',
+            'Ao mesmo tempo, é preciso medir a gravidade. Frequência respiratória acima de 30 por minuto, saturação abaixo de 90% em ar ambiente, confusão e incapacidade de beber ou comer pesam na decisão de internar; escores como o CURB-65 ajudam a organizar essa avaliação. Em crianças menores de cinco anos, a Organização Mundial da Saúde ensina a contar a respiração e a observar a retração da parte de baixo do tórax.',
+          ],
+          bullets: [
+            'Hemograma: leucócitos altos sugerem infecção bacteriana',
+            'PCR e procalcitonina: ajudam a separar bactéria de vírus e a acompanhar a resposta',
+            'Oximetria em todos; gasometria quando a saturação fica abaixo de 94%',
+            'Cultura de escarro e hemocultura nos casos graves, para escolher o antibiótico',
+            'Radiografia de tórax, com tomografia quando há dúvida',
+          ],
+        },
+        {
+          id: 'diagnostico-diferencial',
+          heading: 'O que pode ser confundido com pneumonia?',
+          paragraphs: [
+            'Nem toda tosse com febre é pneumonia. A [tuberculose](/doencas/tuberculose/) é a principal confusão a evitar: a marca dela é a tosse por três semanas ou mais, com febre no fim da tarde, suor noturno e perda de peso, e o diagnóstico exige exame de escarro. Em quem fuma há muitos anos, pneumonia que volta sempre no mesmo ponto do pulmão pede investigação de câncer.',
+            'A embolia pulmonar causa falta de ar súbita, sem a febre e o catarro típicos, e aparece em quem tem trombose, fez cirurgia recente ou está acamado. Uma crise de [asma](/doencas/asma/) ou de [DPOC](/doencas/dpoc/) também imita a falta de ar, mas costuma responder ao broncodilatador de sempre. Na insuficiência cardíaca, a falta de ar piora ao deitar e vem com inchaço nas pernas. Como o tratamento de cada uma é diferente, a avaliação profissional é o que separa esses cenários.',
+          ],
+        },
+        {
+          id: 'casos-graves',
+          heading: 'Quando a pneumonia é grave',
+          paragraphs: [
+            'Uma parte dos casos evolui para pneumonia grave, com insuficiência respiratória ou choque. Nesse cenário, o tratamento acontece em unidade de terapia intensiva, com monitorização contínua da respiração, da pressão e do ritmo do coração.',
+            'O oxigênio é ajustado para manter a saturação em faixa segura, e a pessoa pode precisar de respiração assistida por aparelho. Quando nem o respirador dá conta, existe a oxigenação por membrana extracorpórea, usada em centros especializados. Antibiótico venoso de amplo espectro começa na hora e é revisto quando sai o resultado da cultura. Corticoides ficam reservados ao choque séptico, e mudanças de posição e fisioterapia ajudam a drenar a secreção.',
           ],
         },
         {
           id: 'tratamento',
-          heading: 'Como se trata?',
+          heading: 'Como é o tratamento?',
           paragraphs: [
-            'Suspeitando-se de pneumonia bacteriana, o antibiótico começa o quanto antes. Nas crianças, a amoxicilina oral é a primeira escolha recomendada pela OMS, e a maior parte dos casos em gente jovem e sem outras doenças se trata em casa.',
-            'Quem decide o local do tratamento é a gravidade, não a febre. Saturação de oxigênio abaixo de 90% em ar ambiente, frequência respiratória acima de 30 incursões por minuto, confusão ou incapacidade de beber e comer empurram a internação, com direito a oxigênio e antibiótico na veia quando necessário.',
+            'O antibiótico começa assim que a suspeita de pneumonia bacteriana é firme, sem esperar a cultura. Nas primeiras 48 a 72 horas, a equipe observa a resposta: febre que cede, respiração mais calma, saturação estável e apetite que volta. Sem melhora, o esquema é revisto e a hipótese de outra doença é retomada.',
+            'Quem melhora pode trocar o antibiótico da veia pela boca e terminar o tratamento em casa, com retorno marcado. O tempo de uso é definido pelo médico e segue até alguns dias depois da melhora da febre; interromper antes favorece a volta da infecção. Repouso, líquidos e alimentação leve completam o cuidado.',
+            'Cirurgia é rara na pneumonia. Ela entra quando se forma um empiema, uma coleção de pus na pleura, que precisa ser drenada. Pessoas muito graves que não conseguem comer podem receber nutrição por sonda. Terapias complementares não substituem o antibiótico nem têm eficácia comprovada para acelerar a cura.',
           ],
           cta: {
             label: 'Leia também: tratamento e recuperação da pneumonia',
@@ -4270,37 +4332,84 @@ export const diseases: Disease[] = [
           },
         },
         {
+          id: 'medicamentos',
+          heading: 'Quais remédios entram no tratamento?',
+          paragraphs: [
+            'O antibiótico é escolhido pelo cenário clínico, não pelo nome da doença. Em adultos sem outras doenças, a amoxicilina costuma ser a primeira opção; quando há suspeita de agente atípico, o médico associa um macrolídeo, como a azitromicina. Em pessoas alérgicas à penicilina ou com outras condições, entram cefalosporinas ou quinolonas respiratórias, sempre com prescrição.',
+            'Para a febre e a dor, antitérmicos e analgésicos comuns aliviam o desconforto. Xaropes que bloqueiam a tosse não ajudam quando há catarro e podem atrapalhar a eliminação da secreção. Nunca se usa sobra de antibiótico de outra ocasião, e qualquer chá ou produto caseiro deve ser discutido com a equipe antes.',
+          ],
+          bullets: [
+            'Amoxicilina: primeira escolha na maioria dos casos de pneumonia bacteriana adquirida na comunidade',
+            'Macrolídeos: cobrem agentes atípicos e são associados quando essa suspeita existe',
+            'Cefalosporinas ou quinolonas respiratórias: alternativa em alergia ou em casos selecionados',
+            'Oseltamivir: reservado à gripe confirmada ou suspeita em pessoas com risco de complicação',
+          ],
+        },
+        {
+          id: 'prognostico',
+          heading: 'A pneumonia tem cura? E o que pode complicar?',
+          paragraphs: [
+            'A maioria das pessoas com pneumonia bacteriana ou viral se recupera por completo quando o tratamento é feito no prazo certo. A melhora chega antes da cura: a febre cede nos primeiros dias, mas a tosse e o cansaço podem durar semanas, e a radiografia demora mais para normalizar. Idosos, pessoas com doenças crônicas e quem precisa de internação têm recuperação mais lenta.',
+            'Em uma minoria, aparecem complicações. A mais comum é o derrame pleural, líquido ou pus entre o pulmão e a parede do tórax, que pode evoluir para empiema. Também podem ocorrer abscesso no pulmão, fuga de ar para a cavidade pleural e, nos casos mais graves, sepse e insuficiência respiratória. Febre que volta, falta de ar nova e piora do estado geral são motivo para reavaliar.',
+          ],
+          bullets: [
+            'Derrame pleural e empiema',
+            'Abscesso pulmonar',
+            'Pneumotórax',
+            'Sepse e insuficiência respiratória',
+          ],
+        },
+        {
+          id: 'cuidados-diarios',
+          heading: 'Cuidados durante a recuperação',
+          paragraphs: [
+            'Em casa, o essencial é completar o antibiótico no prazo e voltar à consulta marcada. Beber líquidos com frequência, comer o que aceitar e dormir bem ajudam a recuperação. Não fume e mantenha a casa ventilada; a fumaça irrita as vias aéreas e atrasa a melhora.',
+            'Vale acompanhar a temperatura, a respiração e o aspecto do catarro. Febre que volta depois de dias de melhora, falta de ar nova, catarro com sangue ou sonolência fora do normal pedem avaliação antes da data marcada. Em pessoas idosas, atenção às mudanças de comportamento e à recusa de comida, que muitas vezes são o primeiro sinal de piora.',
+          ],
+          bullets: [
+            'Tomar o antibiótico até o fim, mesmo depois da febre passar',
+            'Voltar à unidade de saúde na data marcada para reavaliação',
+            'Beber água ao longo do dia e manter as refeições',
+            'Não fumar e evitar fumaça dentro de casa',
+            'Observar febre, respiração e cor do catarro todos os dias',
+            'Procurar atendimento antes da hora se houver piora',
+          ],
+        },
+        {
           id: 'prevencao',
           heading: 'Como prevenir',
           paragraphs: [
-            'Vacina e menos fumaça fazem muita diferença. O Calendário Nacional de Vacinação do SUS oferece gratuitamente as proteções contra as principais causas, e as medidas do cotidiano completam o serviço:',
+            'A vacinação é a medida que mais reduz o risco, e o Calendário Nacional de Vacinação oferece as principais gratuitamente pelo SUS. A proteção se completa com hábitos simples no dia a dia.',
           ],
           bullets: [
-            'Vacina pneumocócica conjugada aos dois e quatro meses de vida, com reforço aos 12 meses',
-            'Vacina pentavalente, que inclui a proteção contra o Hib, aos dois, quatro e seis meses',
-            'Vacina contra a influenza a cada temporada, para crianças a partir de seis meses e pessoas idosas',
-            'Vacinas do sarampo e da coqueluche, que também previnem a pneumonia, uma complicação comum',
-            'Aleitamento materno exclusivo nos primeiros seis meses',
-            'Ambiente sem fumaça de cigarro e sem lenha dentro de casa',
+            'Vacina pneumocócica conjugada: doses aos 2 e 4 meses, com reforço aos 12 meses',
+            'Pentavalente, que protege contra o Hib, aos 2, 4 e 6 meses',
+            'Influenza a cada temporada para crianças de 6 meses a menores de 6 anos, pessoas idosas e grupos de risco',
+            'Sarampo e coqueluche em dia, porque a pneumonia é uma complicação frequente dessas doenças',
+            'Amamentação exclusiva nos primeiros seis meses',
+            'Higiene das mãos e ambientes ventilados',
+            'Controle da asma e do DPOC, e nada de fumo dentro de casa',
           ],
           cta: {
-            label: 'Leia também: o que é o calendário básico de vacinação',
-            href: '/artigos/vacinacao-o-que-e-o-calendario-basico/',
+            label: 'Leia também: quais vacinas protegem contra pneumonia',
+            href: '/artigos/pneumonia-vacina-protecao/',
           },
         },
         {
           id: 'sinais-de-alerta',
           heading: 'Sinais de alerta e quando procurar atendimento',
           paragraphs: [
-            'Falta de ar que aparece ou piora depressa é emergência. Ligue para o SAMU (192) ou vá a um pronto atendimento sem esperar para ver se passa, se houver:',
+            'A maior parte das pneumonias leves pode ser avaliada na UBS, que mede a saturação, ausculta o pulmão e inicia o antibiótico. O pronto atendimento e o hospital entram quando falta oxigênio, há confusão ou a pessoa não consegue comer e beber. Falta de ar que surge ou piora depressa é emergência: ligue para o SAMU (192) ou vá imediatamente ao pronto atendimento se houver:',
           ],
           bullets: [
-            'Dificuldade para respirar em repouso ou para falar frases completas',
+            'Dificuldade para respirar em repouso ou para falar uma frase inteira',
+            'Saturação de oxigênio abaixo de 90% no ar ambiente',
             'Lábios ou pontas dos dedos azulados',
-            'Confusão súbita, moleza ou sonolência, sobretudo em pessoas idosas',
-            'Incapacidade de beber água ou tomar a medicação',
-            'Dor no peito intensa com febre alta que não cede',
-            'Na criança: tórax puxando para dentro ao respirar, gemência ou recusa do peito e do bico',
+            'Confusão, sonolência ou moleza, sobretudo em pessoas idosas',
+            'Incapacidade de beber água ou tomar o remédio',
+            'Febre alta com dor no peito que não cede',
+            'Em crianças: peito puxando para dentro, gemência ou recusa do peito e da mamadeira',
+            'Piora apesar do antibiótico já iniciado',
           ],
           cta: {
             label: 'Leia também: pneumonia, sinais de alerta',
@@ -4312,24 +4421,26 @@ export const diseases: Disease[] = [
         {
           question: 'Pneumonia é contagiosa?',
           answer:
-            'Não de forma direta. O que se transmite de pessoa a pessoa são os microrganismos, pelas gotículas da tosse e do espirro, e quase todo mundo convive com eles sem adoecer. A pneumonia aparece quando esses agentes descem até os pulmões em quem está com as defesas fragilizadas.',
+            'Não de forma direta. O que se transmite de pessoa a pessoa são os microrganismos, pelas gotículas da tosse e do espirro, e muita gente convive com eles sem adoecer. A pneumonia aparece quando esses agentes descem até os alvéolos em quem está com as defesas fragilizadas.',
         },
         {
           question: 'Toda pneumonia precisa internar?',
           answer:
-            'Não. A maioria dos casos em gente jovem e sem outras doenças se trata em casa, com antibiótico oral e retorno marcado. A internação entra quando o oxigênio no sangue cai, quando há confusão ou incapacidade de se alimentar, ou quando outras doenças pesam muito.',
+            'Não. A maioria dos casos em pessoas jovens e sem outras doenças se trata em casa, com antibiótico por via oral e retorno marcado. A internação entra quando o oxigênio no sangue cai, quando há confusão ou incapacidade de se alimentar, ou quando outras doenças pesam muito.',
         },
         {
           question: 'Quanto tempo dura a recuperação?',
           answer:
-            'Com o tratamento certo, a febre e o fôlego começam a melhorar nos primeiros dias, mas a tosse e o cansaço podem acompanhar a pessoa por várias semanas, e a radiografia demora ainda mais para normalizar. Voltar à unidade de saúde para a reavaliação faz parte do cuidado.',
+            'Com o tratamento certo, a febre e o fôlego começam a melhorar nos primeiros dias, mas a tosse e o cansaço podem acompanhar a pessoa por várias semanas, e a radiografia demora mais para normalizar. Voltar à unidade de saúde para a reavaliação faz parte do cuidado.',
         },
       ],
       relatedArticleSlugs: [
         'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
         'pneumonia-tratamento-e-recuperacao',
+        'pneumonia-vacina-protecao',
+        'pneumonia-em-criancas',
+        'pneumonia-em-idosos',
         'tuberculose-quando-a-tosse-persistente-e-sinal-de-alerta',
-        'asma-crise-o-que-fazer-enquanto-espera-atendimento',
       ],
       relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
       relatedDiseaseSlugs: ['asma', 'dpoc', 'tuberculose'],
@@ -4349,12 +4460,17 @@ export const diseases: Disease[] = [
           url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-pulmonares-e-das-vias-respirat%C3%B3rias/pneumonia/considera%C3%A7%C3%B5es-gerais-sobre-pneumonia',
           publisher: 'Manual MSD',
         },
+        {
+          label: 'Pneumonia adquirida na comunidade, edição profissional',
+          url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
+          publisher: 'Manual MSD',
+        },
       ],
       author: 'Equipe editorial Saudewiki',
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-21',
       isPlaceholder: true,
     },
   {
@@ -4372,7 +4488,46 @@ export const diseases: Disease[] = [
           heading: 'O que é insuficiência cardíaca?',
           paragraphs: [
             'Na insuficiência cardíaca, o músculo do coração perde força para bombear. O sangue sai com menos eficiência, o retorno das veias encontra resistência e a pressão dentro delas sobe. O líquido então escapa para os tecidos: aparecem inchaço nos tornozelos e na barriga e, nos casos mais intensos, congestão dentro do pulmão, que é o que dá a sensação de falta de ar.',
-            'A doença costuma ser a etapa final de outras condições que castigam o coração por anos, como a pressão alta, o infarto e o diabetes. Insuficiência cardíaca não quer dizer que o coração parou, e sim que ele bombeia menos do que o corpo precisa e depende de tratamento contínuo. Cálculos internacionais apontam cerca de 23 milhões de pessoas com a condição no mundo; no Brasil, materiais de hospitais da rede Ebserh citam em torno de 2 milhões de pessoas convivendo com ela e mais de 240 mil casos novos por ano.',
+            'A doença costuma ser a etapa final de outras condições que castigam o coração por anos, como a pressão alta, o infarto e o diabetes. Insuficiência cardíaca não quer dizer que o coração parou, e sim que ele bombeia menos do que o corpo precisa e depende de tratamento contínuo.',
+            'O protocolo do Ministério da Saúde estima cerca de 23 milhões de pessoas com a condição no mundo. No Brasil, o Ministério da Saúde fala em aproximadamente 2 milhões de pessoas convivendo com a doença e em 240 mil casos novos por ano. Ela está entre as principais causas de internação por doenças cardiovasculares no país.',
+          ],
+        },
+        {
+          id: 'tipos',
+          heading: 'Quais são os tipos de insuficiência cardíaca?',
+          paragraphs: [
+            'Quando o lado esquerdo falha, o sangue se acumula no pulmão e predomina a falta de ar, inclusive ao deitar. Quando o lado direito falha, o acúmulo é no corpo: inchaço nas pernas, barriga, veias do pescoço mais visíveis e cansaço. Nas formas em que os dois lados falham juntos, os sintomas se somam.',
+            'A doença também pode ser crônica, quando se instala aos poucos sobre um coração já doente, ou aguda, quando aparece de repente por infarto, arritmia grave ou outra agressão ao músculo cardíaco. A forma aguda pode evoluir com falta de ar intensa, pressão baixa e risco de morte, e exige atendimento imediato.',
+            'Outra divisão importante vem do ecocardiograma, que mede a fração de ejeção:',
+          ],
+          bullets: [
+            'Fração de ejeção reduzida: abaixo de 40%, a forma com mais evidências de benefício para os quatro pilares de remédios',
+            'Fração de ejeção levemente reduzida: entre 40% e 49%',
+            'Fração de ejeção preservada: 50% ou mais, comum em pessoas idosas, com pressão alta ou diabetes',
+          ],
+        },
+        {
+          id: 'causas',
+          heading: 'O que causa insuficiência cardíaca?',
+          paragraphs: [
+            'O coração pode adoecer por falta de sangue, por excesso de trabalho ou por doenças que atacam diretamente o músculo. A doença coronariana, com infarto prévio, é uma das causas mais frequentes; a pressão alta sem controle obriga o coração a bombear contra resistência e o desgasta aos poucos.',
+            'No Brasil, a doença de Chagas ainda é uma causa relevante e pode levar a alterações do ritmo e à falência do músculo cardíaco anos depois da infecção inicial. Doenças das válvulas, miocardites, cardiomiopatias, álcool em excesso, algumas quimioterapias e doenças infiltrativas também entram na lista.',
+            'Mais raramente, o problema está no enchimento do coração, e não na força de contração. É o caso de estenose mitral importante, derrame pericárdico volumoso e pericardite constritiva, situações em que o sangue encontra dificuldade para entrar nas câmaras.',
+          ],
+        },
+        {
+          id: 'fatores-de-risco',
+          heading: 'O que provoca uma piora?',
+          paragraphs: [
+            'Quem já tem o coração fraco pode descompensar diante de um esforço extra. Reconhecer esses gatilhos ajuda a evitar a ida à emergência.',
+          ],
+          bullets: [
+            'Infecções respiratórias, como gripes e pneumonias',
+            'Arritmias, sobretudo fibrilação atrial com batimentos rápidos',
+            'Excesso de sal na comida ou de líquidos em pouco tempo',
+            'Parar remédios por conta própria, inclusive os da pressão',
+            'Álcool em excesso em um único dia ou de forma contínua',
+            'Gestação, estresse intenso, hipertireoidismo descompensado e anemia grave',
           ],
         },
         {
@@ -4384,54 +4539,11 @@ export const diseases: Disease[] = [
           bullets: [
             'Falta de ar ao subir escadas, caminhar ou carregar peso',
             'Necessidade de usar mais travesseiros para dormir, por causa da falta de ar deitado',
+            'Falta de ar que acorda a pessoa à noite',
             'Inchaço nos tornozelos, nos pés e na barriga',
             'Cansaço fora do comum e queda de disposição para as tarefas de casa',
             'Ganho de peso rápido, em poucos dias, por retenção de líquido',
             'Tosse noturna e vontade de urinar durante a noite',
-          ],
-        },
-        {
-          id: 'fatores-de-risco',
-          heading: 'O que aumenta o risco?',
-          paragraphs: [
-            'O risco se acumula ao longo dos anos, e as condições que mais levam à insuficiência cardíaca são justamente as mais comuns no país. Quanto mais delas uma pessoa reúne, mais cedo o coração pode se desgastar.',
-          ],
-          bullets: [
-            'Pressão alta sem controle, a causa mais frequente',
-            'Infarto prévio ou doença das artérias do coração',
-            'Diabetes, especialmente associado à pressão alta',
-            'Obesidade, sedentarismo e apneia do sono',
-            'Doenças das válvulas do coração',
-            'Álcool em excesso e alguns medicamentos oncológicos',
-          ],
-        },
-        {
-          id: 'diagnostico',
-          heading: 'Como é feito o diagnóstico?',
-          paragraphs: [
-            'O diagnóstico começa com a história e o exame físico, e é confirmado com exames. A dosagem do BNP ou do NT-proBNP no sangue ajuda a separar uma falta de ar de origem cardíaca de outras causas; quando esses marcadores vêm normais, a chance de insuficiência cardíaca é baixa.',
-            'O exame central é o ecocardiograma, um ultrassom do coração. Ele mostra a fração de ejeção, a porcentagem de sangue que o ventrículo consegue expulsar a cada batimento, e divide a doença em dois grandes grupos: fração de ejeção reduzida e fração de ejeção preservada. A separação importa porque os remédios com comprovada capacidade de mudar o curso da doença foram estudados sobretudo na forma com fração de ejeção reduzida, que é o alvo do protocolo nacional de tratamento.',
-          ],
-        },
-        {
-          id: 'tratamento',
-          heading: 'Como é o tratamento?',
-          paragraphs: [
-            'Na forma com fração de ejeção reduzida, o protocolo aprovado pelo Ministério da Saúde em 2024 reúne quatro classes de medicamentos, chamadas de quatro pilares: o inibidor da enzima de conversão ou a associação sacubitril-valsartana, o betabloqueador, o antagonista da aldosterona (a espironolactona) e o inibidor do SGLT2, como a dapagliflozina. As diretrizes brasileiras recomendam iniciar as quatro classes o mais cedo possível e ajustar as doses em consultas próximas, em vez de esgotar uma antes de começar a outra.',
-            'Os diuréticos, como a furosemida, tiram o líquido acumulado e aliviam a falta de ar e o inchaço, mas não substituem os quatro pilares, que são os remédios ligados à redução de internações e de morte. Quando o quadro permanece grave mesmo com as doses otimizadas, avaliam-se dispositivos como marca-passos especiais e cardiodesfibriladores, cirurgia de válvula ou revascularização, e transplante cardíaco, este último reservado a casos selecionados.',
-            'Parte importante do ajuste do tratamento vem de informação colhida em casa: pesar-se sempre no mesmo horário e anotar o resultado é a maneira mais barata de perceber uma piora antes de ela virar emergência. Ganho de peso em poucos dias, tornozelos mais inchados ou a necessidade de mais travesseiros à noite costumam indicar acúmulo de líquido, e não gordura.',
-          ],
-          cta: {
-            label: 'Leia também: tratamento e vida diária com insuficiência cardíaca',
-            href: '/artigos/insuficiencia-cardiaca-tratamento-e-vida-diaria/',
-          },
-        },
-        {
-          id: 'vida-diaria',
-          heading: 'Dia a dia: sal, líquidos e atividade física',
-          paragraphs: [
-            'Na alimentação, a orientação atual é menos radical do que a fama do sal zero. Dietas muito restritivas em sódio foram associadas a piores desfechos nos estudos que baseiam o protocolo nacional. O caminho prático é reduzir ultraprocessados, temperos prontos e congelados industrializados, que concentram sódio, em vez de comer comida sem graça. A restrição de líquidos não vale para todo mundo: ela é reservada a pacientes com congestão persistente, sintomas importantes ou sódio baixo no sangue, sempre com volume definido pela equipe.',
-            'Quem está estável se beneficia de atividade física aeróbica supervisionada. Os programas de reabilitação cardíaca combinam avaliação médica, exercício prescrito, orientação à família e apoio psicossocial. Há oferta pública, inclusive em equipamentos como as Academias da Saúde e os Núcleos de Apoio à Saúde da Família vinculados à atenção básica, mas a disponibilidade varia muito entre cidades. O passo seguro é pedir à unidade de saúde a indicação para um programa com avaliação antes de começar, principalmente para quem teve internação recente ou tem arritmia.',
           ],
         },
         {
@@ -4442,9 +4554,10 @@ export const diseases: Disease[] = [
           ],
           bullets: [
             'Falta de ar intensa em repouso ou sensação de afogamento',
+            'Tosse com catarro rosado, semelhante a espuma, que pode indicar líquido no pulmão',
             'Dor no peito que não melhora',
             'Desmaio, confusão mental ou dificuldade para despertar',
-            'Lábios, mãos ou pés arroxeados',
+            'Lábios, mãos ou pés arroxeados e pele fria',
             'Palpitações com tontura ou sensação de desmaio iminente',
             'Inchaço que sobe rápido junto de falta de ar crescente e ganho de peso em poucos dias',
           ],
@@ -4454,18 +4567,111 @@ export const diseases: Disease[] = [
           },
         },
         {
+          id: 'diagnostico',
+          heading: 'Como é feito o diagnóstico?',
+          paragraphs: [
+            'A avaliação começa na unidade básica de saúde ou com um clínico geral. Falta de ar súbita e intensa, dor no peito ou desmaio pedem pronto atendimento, e não consulta marcada. O médico examina o pulmão, o coração, o pescoço e as pernas, e pergunta sobre peso, sono e remédios em uso.',
+            'A dosagem do BNP ou do NT-proBNP no sangue ajuda a separar uma falta de ar de origem cardíaca de outras causas. Em quem ainda não usa remédio para o coração, valores abaixo de 35 pg/mL (BNP) ou 125 pg/mL (NT-proBNP) tornam a doença improvável, embora possam subir também na doença renal e na idade avançada.',
+            'O exame central é o ecocardiograma, um ultrassom do coração. Ele mostra o tamanho das câmaras, o funcionamento das válvulas e a fração de ejeção, e separa a forma reduzida da preservada. Eletrocardiograma, radiografia de tórax e exames de sangue completam a investigação e ajudam a identificar a causa e os fatores que agravaram a crise.',
+          ],
+        },
+        {
+          id: 'diagnostico-diferencial',
+          heading: 'O que pode ser confundido com insuficiência cardíaca?',
+          paragraphs: [
+            'Falta de ar, cansaço e inchaço não são exclusivos do coração. A diferença está no conjunto: histórico de doença cardíaca, inchaço que piora ao deitar, veias do pescoço cheias e um exame de sangue ou ecocardiograma alterado apontam para o coração.',
+            'Algumas condições imitam a insuficiência cardíaca e precisam ser afastadas antes de fechar o diagnóstico:',
+          ],
+          bullets: [
+            'Asma e DPOC causam chiado no peito, tosse e têm histórico de doença pulmonar, e o ecocardiograma ajuda a separar',
+            'Insuficiência venosa das pernas causa inchaço, mas sem falta de ar ao deitar nem congestão no pulmão',
+            'Doença renal e cirrose também retêm líquido, porém com alterações próprias nos exames de sangue e de urina',
+            'Doenças do pericárdio, como derrame ou constrição, dificultam o enchimento do coração e aparecem no ecocardiograma',
+          ],
+          cta: {
+            label: 'Leia também: o que pode ser confundido com insuficiência cardíaca',
+            href: '/artigos/insuficiencia-cardiaca-o-que-pode-ser-confundido/',
+          },
+        },
+        {
+          id: 'tratamento-agudo',
+          heading: 'O que fazer na crise aguda?',
+          paragraphs: [
+            'Na emergência, a equipe prioriza o que ameaça a vida: garante a oxigenação, alivia a congestão com diurético e mantém a circulação, enquanto investiga o gatilho, como infarto, arritmia ou infecção.',
+            'Em casa, diante de falta de ar intensa, chame o SAMU (192) e mantenha a pessoa sentada, com as pernas para baixo, para facilitar a respiração. Afrouxe roupas apertadas, abra a janela e não ofereça líquidos nem remédios por conta própria. Se a pessoa perder a consciência e parar de respirar, comece compressões no peito e siga as orientações do atendente.',
+            'Aumentar a dose do diurético sem combinação com a equipe é perigoso: pode desidratar, baixar a pressão e prejudicar os rins. Use apenas a dose de resgate que estiver escrita no plano de cuidado.',
+          ],
+        },
+        {
+          id: 'medidas-gerais',
+          heading: 'Cuidados gerais: sal, líquidos, exercício e vacinas',
+          paragraphs: [
+            'A rotina pesa tanto quanto o remédio. O protocolo brasileiro recomenda pesar todos os dias, em jejum e depois de urinar, e anotar o valor. Também orienta uma dieta com sal normal, em torno de 7 g por dia, sem excesso de ultraprocessados, temperos prontos e embutidos. Restringir muito o sal não traz benefício comprovado e pode piorar o apetite.',
+            'A restrição de líquidos, entre 1,5 e 2 litros por dia, fica reservada a quem tem congestão persistente, classe funcional avançada ou sódio baixo no sangue. Quem está estável e urina bem não precisa beber menos sem orientação.',
+            'O exercício aeróbico supervisionado melhora disposição e capacidade física. Ele é contraindicado durante a descompensação, em arritmia não controlada, em doença valvar grave e em quem está em classe funcional IV. Vacinas anuais contra influenza, pneumococo e covid-19 também fazem parte do cuidado.',
+          ],
+        },
+        {
+          id: 'tratamento',
+          heading: 'Quais remédios são usados?',
+          paragraphs: [
+            'Na forma com fração de ejeção reduzida, o protocolo do Ministério da Saúde de 2024 reúne quatro classes de medicamentos, chamadas de quatro pilares: o inibidor da enzima de conversão (ou a associação sacubitril-valsartana), o betabloqueador, o antagonista da aldosterona (a espironolactona) e o inibidor do SGLT2, como a dapagliflozina. Os critérios de cada um variam, e a troca do inibidor da enzima de conversão pela associação sacubitril-valsartana tem indicações específicas de idade, classe funcional, fração de ejeção e níveis de peptídeos.',
+            'A orientação é começar as quatro classes o mais cedo possível e ajustar as doses em consultas próximas, em vez de esgotar uma antes de iniciar a outra. Os diuréticos, como a furosemida, tiram o líquido acumulado e aliviam falta de ar e inchaço, mas não substituem os pilares. Na forma preservada, o controle da congestão e das doenças associadas é a base, e o inibidor do SGLT2 também pode ser usado.',
+            'Sentir-se melhor não é motivo para suspender remédio. O ajuste exige acompanhamento de potássio, sódio e função renal, e anti-inflamatórios não esteroides podem piorar a retenção de líquido e a função dos rins. Quem apresenta efeitos colaterais deve falar com a equipe em vez de mudar a dose sozinho.',
+          ],
+          cta: {
+            label: 'Leia também: tratamento e vida diária com insuficiência cardíaca',
+            href: '/artigos/insuficiencia-cardiaca-tratamento-e-vida-diaria/',
+          },
+        },
+        {
+          id: 'tratamento-cirurgico',
+          heading: 'Quando são indicados dispositivos e cirurgia?',
+          paragraphs: [
+            'Quando o coração bate de forma dessincronizada, um marca-passo especial chamado ressincronizador pode coordenar os ventrículos e melhorar a disposição. Já o cardiodesfibrilador implantável é indicado a quem tem risco elevado de arritmia fatal, porque identifica o ritmo perigoso e aplica o choque.',
+            'Corrigir a causa também faz parte do tratamento: troca ou reparo de válvula, revascularização quando há artéria obstruída e controle de arritmias. Nos casos avançados, sem resposta ao tratamento otimizado, avalia-se transplante cardíaco, reservado a pacientes selecionados.',
+          ],
+          cta: {
+            label: 'Leia também: transplante cardíaco na insuficiência cardíaca',
+            href: '/artigos/insuficiencia-cardiaca-transplante-cardiaco/',
+          },
+        },
+        {
+          id: 'complicacoes',
+          heading: 'Quais complicações podem aparecer?',
+          paragraphs: [
+            'A congestão que não melhora sobrecarrega os rins e pode levar à piora da função renal, com menos urina e mais inchaço. O líquido no pulmão reduz a oxigenação e piora a falta de ar, sobretudo ao deitar.',
+            'Arritmias são frequentes e podem tanto piorar os sintomas quanto aumentar o risco de morte súbita. O sangue que circula devagar favorece trombose e embolia, e a doença avançada costuma vir acompanhada de perda de apetite, perda de massa muscular e depressão. Com tratamento e acompanhamento regular, muitas dessas complicações podem ser prevenidas ou adiadas.',
+          ],
+        },
+        {
+          id: 'vida-diaria',
+          heading: 'Como é a vida diária com a doença?',
+          paragraphs: [
+            'Tomar os remédios nos horários certos, voltar às consultas e avisar a equipe sobre qualquer mudança são atitudes que reduzem internações. Evitar gripes e resfriados também ajuda: ambientes muito cheios em época de gripe, vacinação em dia e cuidado com a exposição ao frio diminuem o risco de descompensação.',
+            'O peso é o principal termômetro em casa. Um ganho de 2 kg em três dias, ou um inchaço que aumenta, costuma indicar líquido acumulado e pede contato com a unidade de saúde. Medir pressão, controlar a glicemia no diabetes e repetir exames de potássio e função renal conforme a orientação completam o acompanhamento.',
+            'Dormir bem, evitar álcool e não fumar ajudam o coração e o sono. Trabalhar e viajar é possível na maioria dos casos estáveis, desde que o tratamento esteja ajustado. Emoções intensas e noites mal dormidas também pesam no controle da doença e merecem atenção.',
+          ],
+          cta: {
+            label: 'Leia também: os primeiros cuidados depois da alta',
+            href: '/artigos/insuficiencia-cardiaca-apos-alta/',
+          },
+        },
+        {
           id: 'prevencao',
           heading: 'Dá para prevenir?',
           paragraphs: [
-            'Uma parcela relevante dos casos pode ser adiada ou evitada, porque as portas de entrada da doença são controláveis. O Ministério da Saúde e a Organização Mundial da Saúde apontam o mesmo conjunto de cuidados para quem já tem fator de risco.',
+            'Boa parte dos casos pode ser adiada ou evitada, porque as portas de entrada da doença são controláveis. Começar cedo o cuidado com pressão, glicemia, peso e tabagismo protege o coração ao longo dos anos.',
+            'Para quem já tem fator de risco ou doença cardíaca, o acompanhamento regular e a adesão ao tratamento são a melhor prevenção:',
           ],
           bullets: [
             'Manter a pressão arterial na meta e não interromper o remédio receitado',
             'Controlar a glicemia, no caso do diabetes',
-            'Parar de fumar em qualquer idade',
+            'Parar de fumar em qualquer idade e evitar o fumo passivo',
             'Caminhar com regularidade e manter peso saudável',
-            'Reduzir ultraprocessados ricos em sal',
-            'Tratar apneia do sono e doenças de tireoide',
+            'Reduzir ultraprocessados ricos em sal e moderar o álcool',
+            'Tratar apneia do sono, doenças de tireoide e infecções respiratórias',
+            'Manter as vacinas contra influenza, pneumococo e covid-19 em dia',
           ],
         },
       ],
@@ -4473,22 +4679,30 @@ export const diseases: Disease[] = [
         {
           question: 'Insuficiência cardíaca é o mesmo que infarto?',
           answer:
-            'Não. O infarto acontece quando uma artéria entope e um pedaço do músculo do coração morre por falta de sangue. A insuficiência cardíaca é uma possível consequência de um infarto extenso ou de vários infartos ao longo dos anos, mas também decorre de pressão alta, diabetes e doença de válvula. Nem todo infarto deixa o coração fraco, e nem toda insuficiência cardíaca vem de infarto.',
+            'Não. O infarto acontece quando uma artéria entope e um pedaço do músculo do coração morre por falta de sangue. A insuficiência cardíaca é uma possível consequência de um infarto extenso ou de vários infartos ao longo dos anos, mas também decorre de pressão alta, diabetes, doença de Chagas e doença de válvula. Nem todo infarto deixa o coração fraco, e nem toda insuficiência cardíaca vem de infarto.',
         },
         {
           question: 'Estou com os pés inchados. Isso quer dizer que tenho insuficiência cardíaca?',
           answer:
-            'Inchaço nos tornozelos tem muitas causas, como problema de veias nas pernas, calor, ficar muito tempo em pé, doença renal e efeito de alguns remédios. A suspeita de coração fica mais forte quando o inchaço vem junto de falta de ar ao esforço, necessidade de mais travesseiros para dormir e ganho de peso em poucos dias. Na dúvida, procure a unidade básica de saúde: a avaliação clínica e, se necessário, o BNP e o ecocardiograma resolvem a maioria das dúvidas.',
+            'Inchaço nos tornozelos tem muitas causas, como problema de veias nas pernas, calor, ficar muito tempo em pé, doença renal e efeito de alguns remédios. A suspeita de coração fica mais forte quando o inchaço vem junto de falta de ar ao esforço, necessidade de mais travesseiros para dormir e ganho de peso em poucos dias. Na dúvida, procure a unidade básica de saúde: a avaliação clínica e, se necessário, o BNP e o ecocardiograma esclarecem a causa.',
         },
         {
           question: 'Quem tem insuficiência cardíaca pode trabalhar e fazer exercício?',
           answer:
-            'Na maioria dos casos estáveis, sim. Com tratamento ajustado, muitas pessoas seguem trabalhando, viajando e fazendo atividade física, de preferência dentro de um programa de reabilitação cardíaca com avaliação médica prévia. Exercício é contraindicado enquanto houver descompensação, arritmia não controlada ou doença de válvula grave, situações em que a equipe libera a retomada depois do controle do quadro.',
+            'Na maioria dos casos estáveis, sim. Com tratamento ajustado, muitas pessoas seguem trabalhando, viajando e fazendo atividade física, de preferência dentro de um programa de reabilitação cardíaca com avaliação médica prévia. Exercício é contraindicado enquanto houver descompensação, arritmia não controlada ou doença de válvula grave, situações em que a equipe libera a retomada depois do controle da doença.',
+        },
+        {
+          question: 'Insuficiência cardíaca tem cura?',
+          answer:
+            'Não. É uma condição crônica, mas controlável: com remédios ajustados, acompanhamento e cuidado com sal, peso e exercício, muitas pessoas vivem bem por muitos anos, trabalham, viajam e mantêm autonomia. O tratamento não devolve a força perdida do músculo, porém reduz internações, alivia sintomas e melhora a qualidade de vida.',
         },
       ],
       relatedArticleSlugs: [
         'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
         'insuficiencia-cardiaca-tratamento-e-vida-diaria',
+        'insuficiencia-cardiaca-transplante-cardiaco',
+        'insuficiencia-cardiaca-apos-alta',
+        'insuficiencia-cardiaca-o-que-pode-ser-confundido',
       ],
       relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
       relatedDiseaseSlugs: ['infarto-e-avc', 'hipertensao', 'diabetes', 'dpoc'],
@@ -4499,14 +4713,19 @@ export const diseases: Disease[] = [
           publisher: 'Ministério da Saúde (Brasil)',
         },
         {
-          label: 'Diretriz Brasileira de Insuficiência Cardíaca Crônica',
-          url: 'https://www.scielo.br/j/abc/a/XrJZJkL945HZqpd3dZgdPrf/?lang=pt',
-          publisher: 'Sociedade Brasileira de Cardiologia',
+          label: 'Insuficiência cardíaca com fração de ejeção reduzida: protocolo clínico e diretrizes terapêuticas, resumo',
+          url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/PCDTResumidoInsuficinciaCardacafinal.pdf',
+          publisher: 'Ministério da Saúde (Brasil)',
         },
         {
           label: 'Insuficiência cardíaca: especialista explica fatores de risco, sintomas e tratamento',
           url: 'https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-norte/hdt-ufnt/insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento',
           publisher: 'Rede Ebserh e Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Doença de Chagas',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-de-chagas',
+          publisher: 'Ministério da Saúde (Brasil)',
         },
         {
           label: 'Doenças cardiovasculares, folha informativa',
@@ -4518,16 +4737,23 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-21',
       isPlaceholder: true,
     },
   {
       id: 'esteatose-hepatica',
       slug: 'esteatose-hepatica',
       name: 'Esteatose hepática',
-      aliases: ['gordura no fígado', 'esteatose', 'MASLD', 'doença hepática gordurosa', 'esteato-hepatite'],
+      aliases: [
+        'gordura no fígado',
+        'esteatose',
+        'MASLD',
+        'doença hepática esteatótica associada à disfunção metabólica',
+        'MASH',
+        'esteato-hepatite',
+      ],
       summary:
-        'Acúmulo de gordura dentro das células do fígado, quase sempre silencioso no início e ligado ao metabolismo e ao álcool. Tem reversão com mudança de hábitos.',
+        'Acúmulo de gordura dentro das células do fígado, quase sempre silencioso no início e ligado ao metabolismo e ao álcool. Pode regredir com mudança de hábitos, mas também progredir para cirrose quando não é acompanhada.',
       category: 'Doenças crônicas',
       categorySlug: 'doencas-cronicas',
       sections: [
@@ -4535,59 +4761,129 @@ export const diseases: Disease[] = [
           id: 'o-que-e',
           heading: 'O que é esteatose hepática?',
           paragraphs: [
-            'A esteatose hepática, conhecida no dia a dia como gordura no fígado, acontece quando a gordura se acumula dentro das células do órgão. É uma condição comum, quase sempre silenciosa nas fases iniciais, e hoje está entre as principais causas de doença hepática crônica no mundo.',
-            'Por muito tempo, esse quadro foi chamado de doença hepática gordurosa não alcoólica. Em 2023, as sociedades de hepatologia adotaram um nome novo: doença hepática esteatótica associada à disfunção metabólica, a MASLD, em inglês. A mudança destaca que a gordura no fígado está ligada ao metabolismo, e não apenas à ausência de álcool. O fígado é um órgão silencioso, e a esteatose costuma aparecer primeiro em um exame de rotina, antes de causar qualquer queixa.',
+            'A esteatose hepática, conhecida no dia a dia como gordura no fígado, acontece quando a gordura se acumula dentro das células do órgão. Uma pequena quantidade de gordura no fígado é normal, mas quando o acúmulo chega a 5% ou mais, a condição precisa ser acompanhada. O fígado pode aumentar de tamanho e adquirir um aspecto amarelado, e o problema costuma passar despercebido por muito tempo.',
+            'Por muito tempo, esse quadro foi chamado de doença hepática gordurosa não alcoólica. Em 2023, um consenso internacional liderado pelas principais sociedades de hepatologia adotou nomes novos: doença hepática esteatótica associada à disfunção metabólica, a MASLD, e esteato-hepatite associada à disfunção metabólica, a MASH, para a forma inflamatória. A mudança deixou claro que a gordura no fígado é, na maioria dos casos, uma manifestação da síndrome metabólica, e não apenas um problema de quem bebe.',
+            'A MASLD está entre as principais causas de doença hepática crônica no mundo. O crescimento da obesidade e do diabetes tipo 2 explica boa parte desse avanço. Como o fígado não dói, o diagnóstico costuma surgir em uma ultrassonografia pedida por outro motivo, ou em exames de rotina de quem tem fatores de risco.',
           ],
         },
         {
-          id: 'sintomas',
-          heading: 'Quais são os sintomas?',
+          id: 'tipos',
+          heading: 'Quais são os tipos de esteatose hepática?',
           paragraphs: [
-            'A maioria das pessoas com esteatose hepática não sente nada. Quando surgem, os sinais são vagos e costumam ser atribuídos a outras causas:',
+            'A gordura no fígado pode ter origens diferentes. Quando o consumo de álcool é excessivo, regular ou esporádico, fala-se em esteatose alcoólica. Quando não há essa exposição e o que predomina é a disfunção metabólica, o quadro é a MASLD. As duas situações podem coexistir, e por isso a equipe de saúde pergunta sobre álcool antes de definir o diagnóstico.',
+            'Os exames de imagem também classificam o acúmulo de gordura em graus. Essa divisão ajuda a equipe a acompanhar a evolução e a decidir a intensidade do cuidado, embora o grau de gordura não diga sozinho se existe inflamação ou fibrose.',
           ],
           bullets: [
-            'Desconforto ou peso na parte superior direita da barriga',
-            'Cansaço ao longo do dia, sem explicação',
-            'Fraqueza e diminuição do apetite',
+            'Grau 1 (leve): pequeno acúmulo de gordura no fígado',
+            'Grau 2 (moderado): acúmulo intermediário',
+            'Grau 3 (acentuado): grande acúmulo de gordura',
+          ],
+        },
+        {
+          id: 'causas',
+          heading: 'O que causa gordura no fígado?',
+          paragraphs: [
+            'O álcool é uma das causas mais conhecidas. O consumo frequente ou em grandes quantidades sobrecarrega o fígado e favorece o acúmulo de gordura, que com o tempo pode evoluir para inflamação e cirrose. A quantidade e a regularidade do consumo importam, e não apenas o tipo de bebida.',
+            'Na maioria dos casos de MASLD, o que está por trás é o excesso de peso e a resistência à insulina. O sobrepeso e a obesidade respondem por cerca de 60% dos casos de gordura no fígado não alcoólica. Diabetes, alimentação desequilibrada, colesterol alto, pressão alta, sedentarismo, algumas medicações, gravidez e variações muito rápidas de peso também entram na lista.',
+          ],
+          bullets: [
+            'Consumo de álcool frequente ou em grande quantidade',
+            'Excesso de peso e obesidade, sobretudo com gordura acumulada na barriga',
+            'Medicamentos como corticoides, estrogênio, amiodarona, antirretrovirais, diltiazem e tamoxifeno',
+            'Outras condições, como diabetes, alterações do colesterol, hepatites crônicas e gravidez',
           ],
         },
         {
           id: 'fatores-de-risco',
           heading: 'O que aumenta o risco?',
           paragraphs: [
-            'O excesso de peso e a resistência à insulina estão no centro da esteatose metabólica. A condição é frequente em quem tem [diabetes](/doencas/diabetes/) e sobrepeso, e o risco aumenta quanto mais fatores cardiometabólicos a pessoa reúne.',
+            'O risco cresce quando vários fatores metabólicos se somam. Pessoas com obesidade, vida sedentária e consumo de álcool têm mais chance de desenvolver gordura no fígado. Mulheres parecem ter risco maior, porque o estrogênio produzido pelo próprio corpo favorece o acúmulo de gordura. Síndrome dos ovários policísticos, hipotireoidismo, apneia do sono e síndrome metabólica também aparecem associados.',
+            'A condição não é exclusiva de quem está acima do peso. Pessoas magras, sem alterações de colesterol ou glicemia, podem desenvolver esteatose, embora isso seja menos comum. Em crianças pequenas, doenças metabólicas são a causa principal; em crianças maiores e adolescentes, o padrão costuma seguir o dos adultos e estar ligado ao estilo de vida.',
           ],
           bullets: [
-            'Sobrepeso e obesidade, sobretudo com gordura concentrada na barriga',
-            'Glicemia alta ou diabetes tipo 2',
-            'Colesterol e triglicerídeos elevados',
+            'Sobrepeso ou obesidade, com gordura concentrada no abdome',
+            'Diabetes tipo 2 ou níveis elevados de glicemia',
+            'Colesterol ou triglicerídeos altos',
             'Pressão alta',
-            'Alimentação rica em ultraprocessados e vida sedentária',
-            'Uso prolongado de alguns medicamentos, como corticoides',
+            'Sedentarismo e alimentação rica em ultraprocessados',
+            'Síndrome dos ovários policísticos, hipotireoidismo, apneia do sono e síndrome metabólica',
+          ],
+          cta: {
+            label: 'Leia também: causas e mitos sobre a gordura no fígado',
+            href: '/artigos/esteatose-hepatica-causas-e-mitos/',
+          },
+        },
+        {
+          id: 'sintomas',
+          heading: 'Quais são os sintomas?',
+          paragraphs: [
+            'Na maior parte dos casos, a esteatose hepática não causa sintomas. O fígado continua funcionando mesmo com gordura acumulada, e a descoberta costuma acontecer em um exame de imagem feito por outro motivo. Em muitos casos, o próprio exame mostra o fígado aumentado.',
+            'Quando alguma queixa aparece, ela é vaga e pode ser confundida com problemas digestivos ou cansaço comum. Dor ou desconforto no abdome, fraqueza, perda de apetite e sensação de barriga inchada são os relatos mais frequentes. Nenhum desses sinais confirma a doença; o diagnóstico depende de exames.',
+          ],
+          bullets: [
+            'Dor ou desconforto no abdome, sobretudo do lado direito',
+            'Cansaço e fraqueza',
+            'Perda de apetite',
+            'Sensação de barriga inchada',
+            'Aumento do fígado percebido no exame físico',
+            'Dor de cabeça constante',
           ],
         },
         {
-          id: 'tipos',
-          heading: 'Gordura de origem alcoólica e de origem metabólica',
+          id: 'onde-buscar-atendimento',
+          heading: 'Onde buscar atendimento',
           paragraphs: [
-            'Nem toda gordura no fígado tem a mesma origem. Quando o consumo de álcool é intenso e prolongado, fala-se em esteatose alcoólica; sem essa exposição, o quadro é chamado de esteatose metabólica, a MASLD. As duas situações podem conviver na mesma pessoa, e por isso a equipe de saúde sempre pergunta quanto você bebe antes de fechar o diagnóstico.',
-            'Outras condições hepáticas podem somar-se à esteatose e acelerar o dano no órgão, como as [hepatites virais](/doencas/hepatites-virais/) e o [colesterol alto](/doencas/colesterol-alto/). Por isso, o acompanhamento da gordura no fígado costuma incluir também o controle dessas doenças.',
+            'O primeiro passo é procurar a unidade básica de saúde (UBS) de referência. O clínico geral avalia o histórico, o peso, a pressão e os exames de rotina, e decide se é preciso investigar melhor. Pessoas com fatores de risco devem pedir essa avaliação mesmo sem sentir nada.',
+            'Quando há suspeita de inflamação ou fibrose, ou quando o caso exige acompanhamento mais especializado, a pessoa pode ser encaminhada a um gastroenterologista ou a um hepatologista, o médico que cuida especificamente do fígado. O acompanhamento é contínuo, porque a doença é crônica e silenciosa.',
           ],
         },
         {
           id: 'diagnostico',
           heading: 'Como é feito o diagnóstico?',
           paragraphs: [
-            'A esteatose costuma aparecer primeiro em um exame de imagem pedido por outro motivo. A ultrassonografia de abdome mostra o fígado mais claro e muitas vezes aumentado, e as transaminases, enzimas liberadas quando as células hepáticas se lesionam, podem vir levemente elevadas no exame de sangue de rotina.',
-            'Para saber se já houve inflamação ou fibrose, que é a cicatrização progressiva do tecido, o método mais usado é a elastografia transitória, exame indolor que mede a rigidez do fígado. A biópsia hepática fica reservada a casos selecionados, em que a equipe precisa de informação adicional.',
+            'O diagnóstico começa pela conversa sobre álcool, medicamentos, peso e outras doenças, seguida de exame físico. Os exames de sangue ajudam a medir as enzimas do fígado, a glicemia, o colesterol e os triglicerídeos, além de afastar hepatites virais. Alterações leves já merecem atenção.',
+            'A ultrassonografia de abdome é o exame de imagem mais usado para começar. Ela mostra o fígado mais claro e, muitas vezes, aumentado. No entanto, a ultrassonografia perde sensibilidade em casos de gordura leve e em pessoas com obesidade importante; por isso, outros métodos podem ser necessários.',
+            'A elastografia transitória mede a quantidade de gordura e a rigidez do fígado, e é útil para estimar a fibrose sem cortes. Escores calculados com exames de sangue, como o FIB-4, ajudam a triar quem precisa de investigação mais detalhada. A biópsia hepática continua sendo o padrão para confirmar inflamação e lesão das células, mas fica reservada a casos selecionados porque é invasiva.',
+          ],
+          bullets: [
+            'Ultrassonografia de abdome: primeiro exame de imagem, mostra fígado claro e aumentado',
+            'Elastografia: mede gordura e rigidez do fígado',
+            'Exames de sangue: enzimas hepáticas, glicemia, colesterol, triglicerídeos e marcadores de hepatite',
+            'Biópsia hepática: reservada a casos selecionados, quando é preciso confirmar inflamação ou fibrose',
+          ],
+          cta: {
+            label: 'Leia também: descobri gordura no fígado no check-up',
+            href: '/artigos/esteatose-hepatica-descobri-no-check-up/',
+          },
+        },
+        {
+          id: 'diagnostico-diferencial',
+          heading: 'Com quais doenças a esteatose pode ser confundida?',
+          paragraphs: [
+            'Gordura no fígado não é um diagnóstico completo por si só. Outras doenças também podem inflamar o fígado e alterar as enzimas, e a diferença importa porque o tratamento muda. Hepatites virais, principalmente B e C, doença hepática causada pelo álcool e efeitos de medicamentos estão entre as causas que precisam ser afastadas.',
+            'Para separar as possibilidades, o médico pergunta sobre álcool e remédios, pede exames para hepatites virais e revisa outras condições que possam estar inflamando o órgão. Em alguns casos, a biópsia ou exames específicos ajudam a fechar o diagnóstico. Tratar apenas a gordura sem investigar a causa pode atrasar o cuidado certo.',
+          ],
+          bullets: [
+            'Hepatites virais, sobretudo B e C',
+            'Doença hepática causada pelo álcool',
+            'Efeitos de medicamentos e de outras substâncias',
+            'Outras causas de inflamação crônica do fígado',
           ],
         },
         {
           id: 'tratamento',
-          heading: 'Tratamento e mudança de hábitos',
+          heading: 'Tratamento: o que muda a história da doença',
           paragraphs: [
-            'Nas fases iniciais, a esteatose hepática é reversível, e o que faz a diferença é a mudança de hábitos. Perder 5% do peso corporal já reduz a gordura acumulada no fígado; perdas de 10% ou mais se associam à melhora da inflamação e, em muitos casos, também da fibrose.',
-            'Não existe remédio que tire a gordura do fígado sozinho. O manejo combina alimentação equilibrada, atividade física regular e controle das condições que alimentam o acúmulo de gordura, como o [diabetes](/doencas/diabetes/) e o colesterol elevado. Medicamentos entram quando a doença já evoluiu ou quando há outras indicações, sempre com prescrição médica.',
+            'Não existe um tratamento específico para a esteatose hepática. O manejo varia conforme o grau, a causa e as condições de cada pessoa, e tem três pilares: estilo de vida saudável, alimentação equilibrada e prática regular de exercícios. Em casos raros, medicamentos entram como apoio, sempre junto dessas mudanças.',
+            'A perda de peso é a medida com mais evidência. Perder 5% do peso corporal já reduz a gordura no fígado; perdas acima de 10% estão associadas à melhora da inflamação e, em muitos casos, à regressão da esteato-hepatite. O ritmo precisa ser sustentável: dietas radicais, com emagrecimento muito rápido, podem piorar o quadro.',
+            'Quando a doença já avançou para cirrose, o acompanhamento passa a incluir o controle das complicações. Em situações críticas, o transplante de fígado pode ser a única indicação. Casos graves, com falência do fígado, exigem atendimento hospitalar e não devem ser tratados em casa.',
+          ],
+          bullets: [
+            'Emagrecer de forma gradual e sustentada',
+            'Manter uma alimentação equilibrada, com menos ultraprocessados, açúcar e frituras',
+            'Praticar atividade física com regularidade',
+            'Evitar o consumo de álcool',
+            'Controlar diabetes, colesterol e pressão arterial',
           ],
           cta: {
             label: 'Leia também: como a esteatose pode ser revertida com hábitos',
@@ -4595,16 +4891,74 @@ export const diseases: Disease[] = [
           },
         },
         {
-          id: 'complicacoes',
-          heading: 'Possíveis complicações',
+          id: 'tratamento-medicamentoso',
+          heading: 'Quando entram os medicamentos?',
           paragraphs: [
-            'Sem controle, a gordura pode desencadear inflamação persistente, a esteato-hepatite, que ao longo de anos evolui para fibrose e, em alguns casos, para cirrose. A progressão é mais provável em quem tem diabetes e excesso de peso importante.',
+            'Medicamentos são raros no tratamento da esteatose e nunca substituem a mudança de hábitos. Eles podem ajudar em situações específicas, sempre associados a alimentação e atividade física, e precisam ser indicados por um profissional. Não existe uma pílula que retire a gordura do fígado sozinha.',
+            'Entre os fármacos já estudados estão a vitamina E, em casos selecionados de esteato-hepatite com fibrose confirmada por biópsia, e medicamentos usados para diabetes, como metformina e pioglitazona, quando há alteração da glicemia. O orlistat pode auxiliar no controle do peso, e o ômega 3 mostrou benefícios em alguns estudos. Nenhum deles deve ser usado por conta própria.',
           ],
           bullets: [
-            'Cirrose, com perda progressiva da função do fígado',
-            'Maior risco de câncer de fígado',
-            'Piora do controle glicêmico em quem já tem diabetes',
-            'Associação com doenças cardiovasculares, como infarto e AVC',
+            'Vitamina E: apenas em casos selecionados e com indicação médica',
+            'Medicamentos para diabetes: quando há alteração da glicemia',
+            'Orlistat e ômega 3: usados em situações específicas, sem substituir os hábitos',
+          ],
+        },
+        {
+          id: 'cirurgia',
+          heading: 'Cirurgia e transplante',
+          paragraphs: [
+            'A cirurgia não é indicada para retirar a gordura do fígado. O procedimento cirúrgico que aparece no tratamento da esteatose é o transplante de fígado, reservado a casos em que a cirrose avançou e o órgão perdeu função.',
+            'O transplante não é uma opção para a fase inicial nem para quem tem apenas gordura acumulada. A indicação depende de critérios clínicos avaliados em centro especializado, e o acompanhamento continua depois da cirurgia.',
+          ],
+        },
+        {
+          id: 'complicacoes',
+          heading: 'Possíveis complicações e prognóstico',
+          paragraphs: [
+            'Sem acompanhamento, a gordura pode desencadear uma inflamação persistente, a esteato-hepatite. Cerca de 20% dos casos de esteato-hepatite não tratados podem evoluir para cirrose, situação em que o tecido do fígado vai sendo substituído por fibrose e o órgão perde função aos poucos.',
+            'A cirrose é um fator de risco para o câncer de fígado, o carcinoma hepatocelular. Esse câncer pode ocorrer também em pessoas que têm apenas gordura no fígado, sem outras etapas, embora seja mais raro. Por isso, o acompanhamento não olha apenas para o fígado.',
+            'As doenças cardiovasculares estão entre as principais causas de morte em pessoas com MASLD. Infarto, AVC e outras complicações do metabolismo pesam tanto quanto o risco hepático, e o controle de peso, glicemia, colesterol e pressão faz parte do tratamento.',
+          ],
+          bullets: [
+            'Esteato-hepatite, a inflamação do fígado',
+            'Fibrose e cirrose',
+            'Câncer de fígado (carcinoma hepatocelular)',
+            'Doenças cardiovasculares, como infarto e AVC',
+          ],
+          cta: {
+            label: 'Leia também: o que acontece quando a gordura no fígado não é tratada',
+            href: '/artigos/esteatose-hepatica-o-que-acontece-sem-tratamento/',
+          },
+        },
+        {
+          id: 'vida-diaria',
+          heading: 'Vida diária e acompanhamento',
+          paragraphs: [
+            'O tratamento acontece no dia a dia, nas escolhas de compra, nas refeições e na rotina de movimento. Mudanças pequenas e mantidas por meses costumam funcionar melhor do que planos rígidos que duram poucas semanas. A família também pode ajudar a tornar esse ambiente mais favorável.',
+            'A alimentação deve priorizar comida de verdade: frutas, legumes, verduras, feijão, grãos integrais e carnes magras. Vale reduzir frituras, gorduras, doces, refrigerantes e ultraprocessados, e evitar o álcool. Refeições regulares ajudam a controlar a fome e a glicemia.',
+            'O acompanhamento inclui pesar-se, medir a circunferência abdominal e repetir exames de glicemia, colesterol e enzimas do fígado. A ultrassonografia e a elastografia são repetidas conforme a orientação da equipe. Ir às consultas é o que permite ajustar o plano e perceber a evolução.',
+          ],
+          bullets: [
+            'Manter refeições regulares e reduzir ultraprocessados',
+            'Priorizar frutas, legumes, verduras, feijão e grãos integrais',
+            'Praticar atividade física na maioria dos dias da semana',
+            'Evitar bebida alcoólica',
+            'Ir às consultas e repetir os exames conforme a orientação',
+          ],
+        },
+        {
+          id: 'prevencao',
+          heading: 'Como prevenir a esteatose hepática',
+          paragraphs: [
+            'A medida mais eficaz para prevenir a esteatose é emagrecer, quando há excesso de peso. Isso significa uma dieta com menos calorias, menos frituras, gorduras e doces, e mais frutas, legumes, verduras e carnes magras. Dietas radicais, que provocam emagrecimento muito rápido, podem piorar o quadro.',
+            'A prática regular de atividade física, a redução do álcool e o controle de diabetes, colesterol e pressão completam a prevenção. Não é preciso esperar o diagnóstico: quem tem fatores de risco ganha mais ao cuidar disso cedo, quando a gordura ainda pode regredir sem deixar cicatriz.',
+          ],
+          bullets: [
+            'Emagrecer de forma gradual, sem dietas radicais',
+            'Reduzir frituras, gorduras, doces e ultraprocessados',
+            'Aumentar frutas, legumes, verduras, fibras e grãos integrais',
+            'Praticar atividade física com regularidade',
+            'Evitar bebida alcoólica e controlar diabetes, colesterol e pressão',
           ],
         },
         {
@@ -4631,22 +4985,35 @@ export const diseases: Disease[] = [
         {
           question: 'Gordura no fígado é grave?',
           answer:
-            'Na fase inicial, quase sempre não. A esteatose simples costuma ser silenciosa e reversível com mudança de hábitos. O que exige vigilância é a progressão para inflamação e fibrose, mais comum em quem tem diabetes e obesidade relevante.',
+            'Na fase inicial, quase sempre não. A esteatose simples costuma ser silenciosa e pode regredir com mudança de hábitos. O que exige vigilância é a progressão para inflamação e fibrose, mais comum em quem tem diabetes e obesidade relevante.',
         },
         {
           question: 'Emagrecer resolve a esteatose hepática?',
           answer:
-            'Sim, na maior parte dos casos. A perda de 5% do peso já reduz a gordura no fígado, e perdas de 10% ou mais podem reverter a inflamação e melhorar a fibrose. O benefício se mantém quando as mudanças são sustentadas, de preferência com acompanhamento profissional.',
+            'Na maior parte dos casos, ajuda muito. Perder 5% do peso já reduz a gordura no fígado, e perdas acima de 10% podem melhorar a inflamação e a fibrose. O benefício se mantém quando as mudanças são sustentadas, de preferência com acompanhamento profissional.',
         },
         {
           question: 'Existe remédio para tirar a gordura do fígado?',
           answer:
-            'Nas fases iniciais, nenhum medicamento substitui a mudança de hábitos. Remédios podem ser necessários quando há esteato-hepatite avançada, controle difícil do diabetes ou do colesterol, ou outras orientações do hepatologista. Nunca faça uso por conta própria.',
+            'Não existe um medicamento que faça isso sozinho. Em situações específicas, o médico pode indicar remédios para diabetes, vitamina E ou outros fármacos, sempre junto da mudança de hábitos. Nunca use por conta própria.',
+        },
+        {
+          question: 'Quem tem gordura no fígado pode beber álcool?',
+          answer:
+            'O ideal é evitar. O álcool agride diretamente o fígado e favorece o acúmulo de gordura; em quem já tem esteatose, a recomendação é retirar a bebida alcoólica do dia a dia.',
+        },
+        {
+          question: 'A esteatose hepática tem cura?',
+          answer:
+            'Ela pode regredir ou ficar estável com o tratamento adequado, mas o acompanhamento continua. Se o peso voltar a subir, a gordura pode voltar, por isso as mudanças precisam ser mantidas ao longo do tempo.',
         },
       ],
       relatedArticleSlugs: [
         'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
         'esteatose-hepatica-como-reverter-com-habitos',
+        'esteatose-hepatica-descobri-no-check-up',
+        'esteatose-hepatica-o-que-acontece-sem-tratamento',
+        'esteatose-hepatica-causas-e-mitos',
       ],
       relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
       relatedDiseaseSlugs: ['diabetes', 'hepatites-virais', 'colesterol-alto'],
@@ -4654,6 +5021,16 @@ export const diseases: Disease[] = [
         {
           label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
           url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Esteatose hepática: tratamento',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/tratamento',
+          publisher: 'Ministério da Saúde (Brasil)',
+        },
+        {
+          label: 'Esteatose hepática: prevenção',
+          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/prevencao',
           publisher: 'Ministério da Saúde (Brasil)',
         },
         {
@@ -4676,7 +5053,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-21',
       isPlaceholder: true,
     },
   {

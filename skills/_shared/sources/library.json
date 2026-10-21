@@ -47,8 +47,14 @@
       "publisher": "Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde",
       "host": "bvsms.saude.gov.br",
       "lang": "pt",
-      "topics": ["garganta", "amigdalite", "faringite"],
-      "diseases": ["faringite-e-amigdalite"],
+      "topics": [
+        "garganta",
+        "amigdalite",
+        "faringite"
+      ],
+      "diseases": [
+        "faringite-e-amigdalite"
+      ],
       "supports": [
         "定义：amidalite é infecção das amígdalas, órgãos de defesa no fundo da garganta",
         "病毒在儿童更常见，细菌在青少年和成人更常见，可混合感染",
@@ -264,10 +270,17 @@
       "host": "sbhepatologia.org.br",
       "lang": "pt",
       "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "diseases": [
+        "esteatose-hepatica"
+      ],
+      "supports": [
+        "Consenso internacional de 2023 liderado por AASLD, EASL e ALEH",
+        "Nova terminologia MASLD e MASH",
+        "MASLD exige esteatose mais ao menos um critério cardiometabólico",
+        "MASH inclui inflamação lobular e ballooning hepatocelular"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "avc-sintomas-tipos-e-prevencao",
@@ -653,6 +666,25 @@
       "status": "imported"
     },
     {
+      "id": "doenca-de-chagas",
+      "label": "Doença de Chagas",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-de-chagas",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "doença de Chagas"
+      ],
+      "diseases": [
+        "insuficiencia-cardiaca"
+      ],
+      "supports": [
+        "Na fase crônica a doença de Chagas pode causar problemas no coração, incluindo insuficiência cardíaca"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "doenca-renal-cronica-informacao-ao-cidadao",
       "label": "Doença renal crônica, informação ao cidadão",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/drc",
@@ -720,6 +752,25 @@
       "status": "imported"
     },
     {
+      "id": "em-2023-espera-por-transplante-de-coracao-foi-menor-que-30-dias-para-27-5-dos-pacientes",
+      "label": "Em 2023, espera por transplante de coração foi menor que 30 dias para 27,5% dos pacientes",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2023/agosto/em-2023-no-brasil-espera-por-transplante-de-coracao-foi-menor-que-30-dias-para-27-5-dos-pacientes/",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "transplante cardíaco"
+      ],
+      "diseases": [
+        "insuficiencia-cardiaca"
+      ],
+      "supports": [
+        "Sistema Nacional de Transplantes; lista única para SUS e rede privada; assistência integral pelo SUS; 52,3% receberam em até três meses em 2023"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "esteatose-hepatica-o-que-e-causas-sintomas-e-tratamento",
       "label": "Esteatose hepática: o que é, causas, sintomas e tratamento",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica",
@@ -727,10 +778,68 @@
       "host": "www.gov.br",
       "lang": "pt",
       "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "diseases": [
+        "esteatose-hepatica"
+      ],
+      "supports": [
+        "Definição: gordura infiltra as células do fígado; 5% ou mais exige tratamento",
+        "Causas alcoólicas e não alcoólicas; sobrepeso/obesidade respondem por 60% dos casos não alcoólicos",
+        "Fatores de risco: obesidade, sedentarismo, álcool, SOP, hipotireoidismo, síndrome metabólica, apneia do sono, gordura abdominal",
+        "Sintomas leves ausentes; quadros intermediários com dor, cansaço, fraqueza, perda de apetite, barriga inchada, dor de cabeça",
+        "Sinais avançados: ascite, encefalopatia, hemorragias, icterícia, edema",
+        "Diagnóstico por exames laboratoriais e de imagem; elastografia transitória; graus 1 a 3; especialistas clínico geral, gastroenterologista e hepatologista"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "esteatose-hepatica-prevencao",
+      "label": "Esteatose hepática: prevenção",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/prevencao",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "esteatose hepática",
+        "prevenção"
+      ],
+      "diseases": [
+        "esteatose-hepatica"
+      ],
+      "supports": [
+        "Emagrecer é a medida mais eficaz para controlar e prevenir a esteatose",
+        "Dietas radicais com emagrecimento muito rápido podem piorar o quadro",
+        "Evitar bebida alcoólica",
+        "Reduzir frituras, gorduras e doces; aumentar frutas, legumes, verduras e carnes magras",
+        "Preferir carboidratos integrais e incluir fibras",
+        "Praticar atividade física com frequência"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "esteatose-hepatica-tratamento",
+      "label": "Esteatose hepática: tratamento",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/tratamento",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "esteatose hepática",
+        "fígado"
+      ],
+      "diseases": [
+        "esteatose-hepatica"
+      ],
+      "supports": [
+        "Não há tratamento específico; o manejo tem três pilares: estilo de vida saudável, alimentação equilibrada e exercício regular",
+        "Medicamentos são raros e precisam ser associados à mudança de estilo de vida",
+        "Cerca de 20% dos casos de esteato-hepatite não tratados podem evoluir para cirrose",
+        "Em situações críticas, o transplante pode ser a única indicação",
+        "A esteatose pode regredir ou estabilizar com o tratamento adequado"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "febre-reumatica",
@@ -739,8 +848,13 @@
       "publisher": "Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde",
       "host": "bvsms.saude.gov.br",
       "lang": "pt",
-      "topics": ["febre reumática", "complicações"],
-      "diseases": ["faringite-e-amigdalite"],
+      "topics": [
+        "febre reumática",
+        "complicações"
+      ],
+      "diseases": [
+        "faringite-e-amigdalite"
+      ],
       "supports": [
         "定义：发生于治疗不充分的链球菌性扁桃体炎之后的炎症性疾病",
         "可累及关节、心脏和脑，留下严重心脏后遗症，可致死",
@@ -992,6 +1106,25 @@
       "status": "imported"
     },
     {
+      "id": "insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida-protocolo-clinico-e-diretrizes-terapeuticas-resumo",
+      "label": "Insuficiência cardíaca com fração de ejeção reduzida: protocolo clínico e diretrizes terapêuticas, resumo",
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/PCDTResumidoInsuficinciaCardacafinal.pdf",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "insuficiência cardíaca"
+      ],
+      "diseases": [
+        "insuficiencia-cardiaca"
+      ],
+      "supports": [
+        "23 milhões de pessoas com IC no mundo; BNP 35 pg/mL e NT-proBNP 125 pg/mL; classificação NYHA; dieta normossódica cerca de 7 g de sal/dia; restrição de líquidos 1,5 a 2 L/dia apenas em congestão persistente, NYHA III-IV ou hiponatremia; vacinas influenza, pneumococo e covid-19; quatro classes de medicamentos"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento",
       "label": "Insuficiência cardíaca: especialista explica fatores de risco, sintomas e tratamento",
       "url": "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-norte/hdt-ufnt/insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento",
@@ -1116,10 +1249,18 @@
       "host": "sbhepatologia.org.br",
       "lang": "pt",
       "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "diseases": [
+        "esteatose-hepatica"
+      ],
+      "supports": [
+        "Ultrassonografia é o método inicial, com sensibilidade limitada em esteatose leve (<20%) e obesidade significativa",
+        "Elastografia transitória mede CAP e rigidez hepática",
+        "FIB-4 usa idade, AST, ALT e plaquetas",
+        "Biópsia hepática é padrão ouro para inflamação e ballooning",
+        "Rigidez acima de 8 kPa sugere fibrose significativa; acima de 12-14 kPa sugere fibrose avançada ou cirrose"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "modificacao-do-estilo-de-vida-em-masld-mash-fatos-e-evidencias",
@@ -1129,10 +1270,18 @@
       "host": "sbhepatologia.org.br",
       "lang": "pt",
       "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "diseases": [
+        "esteatose-hepatica"
+      ],
+      "supports": [
+        "Perda de 5% do peso reduz significativamente a gordura hepática",
+        "Perdas acima de 10% associadas à melhora histológica e regressão da MASH",
+        "Combinação de dieta e exercício, com acompanhamento, é mais eficaz",
+        "Benefícios podem persistir por até cinco anos com manutenção parcial",
+        "Doenças cardiovasculares estão entre as principais causas de mortalidade"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "otite-media-aguda-na-infancia-tratamento-projeto-diretrizes",

@@ -408,7 +408,7 @@ if (command === 'export') {
     const previous = range
       ? Object.fromEntries(
           [...ptText.slice(range.start, range.end).matchAll(
-            /^\s{4}(author|reviewer|reviewStatus|publishedAt|isPlaceholder): (.+),$/gm
+            /^\s*(author|reviewer|reviewStatus|publishedAt|isPlaceholder): (.+),$/gm
           )].map((m) => [m[1], m[2]])
         )
       : {};

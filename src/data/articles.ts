@@ -5533,570 +5533,662 @@ export const articles: Article[] = [
     isPlaceholder: true,
   },
   {
-      id: 'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
-      slug: 'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
-      metaTitle: 'Pneumonia: quando procurar atendimento',
-      title: 'Pneumonia: sinais de alerta e quando procurar atendimento',
-      excerpt:
-        'Falta de ar, respiração rápida, confusão em idosos e oxigênio abaixo de 90% distinguem a pneumonia que trata em casa da que precisa de hospital. Saiba o que observar em cada idade.',
-      category: 'Doenças infecciosas',
-      categorySlug: 'doencas-infecciosas',
-      body: [
-        {
-          id: 'o-que-importa-observar',
-          heading: 'A gravidade não está na febre',
-          paragraphs: [
-            'Na pneumonia, o termômetro diz menos do que parece. Um adulto pode estar febril e respirando bem, enquanto outro, com temperatura normal, tem o oxigênio caindo sem aviso. Os três sinais que realmente importam são a respiração, o estado de alerta e a saturação de oxigênio, medida em segundos com o oxímetro de pulso.',
-            'A febre alta que não cede, a dor no peito que aumenta e a falta de ar que aparece até em repouso são a combinação que encurta o caminho até o atendimento. Na dúvida entre esperar e ir, a pneumonia recomenda ir.',
-          ],
+    id: 'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
+    slug: 'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
+    metaTitle: 'Pneumonia: quando procurar atendimento',
+    title: 'Pneumonia: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'Falta de ar, respiração rápida, confusão em idosos e oxigênio abaixo de 90% distinguem a pneumonia que trata em casa da que precisa de hospital. Saiba o que observar em cada idade.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-que-importa-observar',
+        heading: 'A gravidade não está na febre',
+        paragraphs: [
+          'Na pneumonia, o termômetro diz menos do que parece. Um adulto pode estar com febre alta e respirar bem, enquanto outro, sem febre nenhuma, tem o oxigênio caindo aos poucos. A temperatura mede a resposta do corpo à infecção, não o quanto o pulmão está comprometido. Olhar apenas para o número do termômetro é o caminho mais curto para deixar passar um caso que precisava de ajuda naquele dia.',
+          'Os sinais que realmente pesam são três: a respiração, o estado de alerta e a saturação de oxigênio. A respiração fica rápida e curta, e falar uma frase inteira passa a exigir esforço. O estado de alerta muda quando falta oxigênio ao cérebro, e a pessoa fica confusa, sonolenta ou estranha. A saturação, medida em segundos no oxímetro de pulso, mostra quanto oxigênio está chegando ao sangue. Os três juntos dão uma ideia melhor da gravidade do que qualquer sintoma isolado.',
+          'Nenhum desses sinais substitui a avaliação profissional, e é justamente por isso que eles servem como critério para procurar ajuda. Uma pneumonia que parecia leve pode mudar em poucas horas, sobretudo em crianças pequenas e em pessoas idosas, que têm menos reserva para enfrentar a queda do oxigênio. Na dúvida entre esperar e ir, a pneumonia recomenda ir.',
+        ],
+      },
+      {
+        id: 'sinais-em-adultos',
+        heading: 'Sinais de alerta em adultos e idosos',
+        paragraphs: [
+          'Em adultos, os critérios objetivos separam o tratamento em casa da internação. Respiração acima de 30 respirações por minuto em repouso, saturação abaixo de 90% no ar ambiente e confusão súbita são os mais usados pelos profissionais. Eles não exigem aparelho sofisticado: um relógio, o oxímetro e uma conversa já mudam a conduta. Uma conversa com quem está doente já mostra se falta ar para terminar a frase ou se a fala saiu confusa.',
+          'Some a isso a capacidade de manter a rotina. Quem não consegue beber água, tomar o remédio ou comer deixa de ter condições de se tratar em casa, porque a desidratação agrava qualquer pneumonia. Dor no peito que aumenta e febre alta que não cede completam o grupo de sinais que pedem atendimento no mesmo dia, sem esperar para ver se melhora sozinho.',
+        ],
+        bullets: [
+          'Respiração acima de 30 respirações por minuto em repouso',
+          'Saturação de oxigênio abaixo de 90% no ar ambiente',
+          'Falta de ar que impede falar uma frase completa',
+          'Confusão súbita, desorientação ou sonolência anormal',
+          'Lábios ou pontas dos dedos arroxeados',
+          'Febre alta persistente com dor no peito que piora',
+        ],
+      },
+      {
+        id: 'sinais-em-criancas',
+        heading: 'Sinais de alerta nas crianças',
+        paragraphs: [
+          'Nos menores de cinco anos, a avaliação é mais simples do que parece. A Organização Mundial da Saúde ensina a reconhecer a pneumonia sem aparelho: contar a respiração e olhar o tórax. A respiração rápida e a parte de baixo do peito puxando para dentro ao inspirar já são pneumonia, e essa observação muda a urgência do atendimento.',
+          'O comportamento da criança ajuda tanto quanto o número. Uma criança que mama bem, brinca e dorme normalmente está em outro patamar de risco de outra que geme, recusa o peito e fica mole no colo. Febre alta isolada, sem esses sinais, pode esperar a consulta do mesmo dia; gemência, tiragem e recusa alimentar não podem.',
+          'O chiado no peito aparece com frequência nas pneumonias virais e pode lembrar uma crise de asma. Como o tratamento das duas é diferente, cabe à avaliação profissional decidir se o chiado responde ao broncodilatador de sempre ou se é sinal de infecção pulmonar.',
+        ],
+        bullets: [
+          'Respirar visivelmente mais rápido que o habitual',
+          'Costelas e região abaixo delas "puxando" a cada ar',
+          'Gemência ao respirar ou respiração pela boca sem parar',
+          'Recusa do peito, da mamadeira ou da água',
+          'Chiado no peito que lembra uma crise de asma',
+          'Qualquer convulsão, moleza excessiva ou dificuldade para despertar',
+        ],
+      },
+      {
+        id: 'idosos-silenciosos',
+        heading: 'Quando a pneumonia chega sem tosse',
+        paragraphs: [
+          'Em pessoas idosas, a pneumonia pode se esconder. O corpo com menos reserva reage de outro jeito: em vez de inflamar e fazer febre, ele se desorganiza. O resultado aparece como confusão, desorientação, uma queda, fraqueza para levantar e recusa de comida, muitas vezes tudo no mesmo dia.',
+          'Por isso, uma mudança súbita de comportamento em quem mora sozinho ou é acompanhado em casa justifica avaliação no mesmo dia. O mesmo vale para quem tem [DPOC](/doencas/dpoc/) ou [asma](/doencas/asma/): uma piora que não responde à medicação de costume pode ser pneumonia por cima da doença de base, e não uma crise comum.',
+          'Quem cuida de uma pessoa idosa pode observar três coisas simples: se ela come e bebe, se consegue ficar em pé como antes e se responde com coerência. A combinação de perda de apetite, fraqueza nova e fala confusa, mesmo sem febre, já é motivo suficiente para buscar avaliação.',
+        ],
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Onde procurar atendimento, e o que não esperar',
+        paragraphs: [
+          'A UBS resolve a maior parte das pneumonias leves: ausculta o pulmão, mede a saturação, inicia o antibiótico e marca o retorno. A UPA e o hospital entram quando falta oxigênio, há confusão, ou a pessoa não consegue beber e tomar a medicação. Falta de ar intensa, lábios azulados ou sonolência anormal são motivo para chamar o SAMU (192).',
+          'Também vale reconhecer o que não é pneumonia. A tosse que dura três semanas ou mais, com febre no fim da tarde, suor noturno e emagrecimento, é o retrato da [tuberculose](/doencas/tuberculose/), com investigação e tratamento próprios, oferecidos de forma integral pelo SUS. Tratar essa tosse como resto de pneumonia apenas adia o diagnóstico certo.',
+          'Se a saturação estiver normal e nenhum sinal de alerta estiver presente, o caminho começa pela UBS, que costuma resolver o caso sem passar pelo hospital. Não vale a pena esperar o fim de semana ou a consulta de rotina para procurar ajuda quando a respiração mudou.',
+        ],
+        cta: {
+          label: 'Veja a página sobre pneumonia',
+          href: '/doencas/pneumonia/',
         },
-        {
-          id: 'sinais-em-adultos',
-          heading: 'Sinais de alerta em adultos e idosos',
-          paragraphs: [
-            'Para adultos, os critérios objetivos mais usados pelos profissionais separam o tratamento caseiro da internação. Vá atrás de atendimento, sem esperar o dia seguinte, se houver:',
-          ],
-          bullets: [
-            'Respiração acima de 30 incursões por minuto em repouso',
-            'Saturação de oxigênio abaixo de 90% no ar ambiente',
-            'Falta de ar que impede falar uma frase completa',
-            'Confusão súbita, desorientação ou sonolência anormal',
-            'Lábios ou pontas dos dedos arroxeados',
-            'Febre alta persistente com dor no peito que piora',
-          ],
-        },
-        {
-          id: 'sinais-em-criancas',
-          heading: 'Sinais de alerta nas crianças',
-          paragraphs: [
-            'Nos menores de cinco anos, a Organização Mundial da Saúde ensina a avaliar a pneumonia sem aparelho: contar a respiração e olhar o tórax. A respiração rápida e a parte de baixo do peito puxando para dentro ao inspirar já são pneumonia.',
-          ],
-          bullets: [
-            'Respirar visivelmente mais rápido que o habitual',
-            'Costelas e região abaixo delas "puxando" a cada ar',
-            'Gemência ao respirar ou respiração pela boca sem parar',
-            'Recusa do peito, da mamadeira ou da água',
-            'Chiado no peito que lembra uma crise de asma',
-            'Qualquer convulsão, moleza excessiva ou dificuldade para despertar',
-          ],
-        },
-        {
-          id: 'idosos-silenciosos',
-          heading: 'Quando a pneumonia chega sem tosse',
-          paragraphs: [
-            'Em pessoas idosas, a pneumonia pode se esconder: nenhuma tosse, febre baixa, e de repente a pessoa fica confusa, desorientada, caída, sem fome. Uma mudança súbita de comportamento em quem mora sozinho ou é acompanhado em casa justifica avaliação no mesmo dia.',
-            'O mesmo vale para quem tem [DPOC](/doencas/dpoc/) ou [asma](/doencas/asma/): uma piora que não responde à medicação de costume pode ser pneumonia por cima da doença de base, e não simples crise.',
-          ],
-        },
-        {
-          id: 'onde-procurar',
-          heading: 'Onde procurar atendimento, e o que não esperar',
-          paragraphs: [
-            'A UBS resolve a maior parte das pneumonias leves: ouve o pulmão, mede a saturação, inicia o antibiótico e marca o retorno. A UPA e o hospital entram quando falta oxigênio, há confusão, ou a pessoa não consegue beber e tomar a medicação. Falta de ar intensa, lábios azulados ou sonolência anormal são motivo para chamar o SAMU (192).',
-            'Uma última linha: a pneumonia típica melhora em dias de tratamento. A tosse que dura três semanas ou mais, com febre de fim de tarde, suor noturno e emagrecimento, é o retrato da [tuberculose](/doencas/tuberculose/), doença de investigação e tratamento diferentes, oferecidos de forma integral pelo SUS.',
-          ],
-          cta: {
-            label: 'Veja a página sobre pneumonia',
-            href: '/doencas/pneumonia/',
-          },
-        },
-      ],
-      diseaseSlugs: ['pneumonia'],
-      topicSlugs: ['doencas-infecciosas'],
-      relatedArticleSlugs: ['pneumonia-tratamento-e-recuperacao'],
-      references: [
-        {
-          label: 'Pneumonia in children: folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/pneumonia',
-          publisher: 'Organização Mundial da Saúde',
-        },
-        {
-          label: 'Pneumonia adquirida na comunidade, edição profissional',
-          url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'Tuberculose: perguntas e sinais',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tuberculose',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['pneumonia'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: ['pneumonia-tratamento-e-recuperacao'],
+    references: [
+      {
+        label: 'Pneumonia in children: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/pneumonia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Pneumonia adquirida na comunidade, edição profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Tuberculose: perguntas e sinais',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tuberculose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
-      id: 'pneumonia-tratamento-e-recuperacao',
-      slug: 'pneumonia-tratamento-e-recuperacao',
-      metaTitle: 'Pneumonia: tratamento e recuperação',
-      title: 'Pneumonia: tratamento, cuidados na recuperação e vacinas',
-      excerpt:
-        'O antibiótico deve começar cedo, e a maioria dos casos se resolve em casa. Veja como funciona o tratamento, por que a tosse demora a ir embora e o que o calendário do SUS oferece de vacina.',
-      category: 'Doenças infecciosas',
-      categorySlug: 'doencas-infecciosas',
-      body: [
-        {
-          id: 'comecar-cedo',
-          heading: 'Por que o tratamento começa logo',
-          paragraphs: [
-            'Quando a avaliação sugere pneumonia bacteriana, o antibiótico é iniciado o quanto antes. Estudos de organização de serviço mostram que tratar cedo reduz complicações, tempo de internação e mortalidade, e é por isso que o médico não espera o resultado de cultura para decidir.',
-            'Nas crianças, a amoxicilina oral é a primeira escolha recomendada pela OMS, e a maioria dos casos leves do adulto também se trata com antibiótico por via oral, em casa, com retorno marcado. Quem decide se o local do tratamento é o domicílio, o hospital ou a UTI é a gravidade medida no atendimento.',
-          ],
+    id: 'pneumonia-tratamento-e-recuperacao',
+    slug: 'pneumonia-tratamento-e-recuperacao',
+    metaTitle: 'Pneumonia: tratamento e recuperação',
+    title: 'Pneumonia: tratamento, cuidados na recuperação e vacinas',
+    excerpt:
+      'O antibiótico deve começar cedo, e a maioria dos casos se resolve em casa. Veja como funciona o tratamento, por que a tosse demora a ir embora e o que o calendário do SUS oferece de vacina.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'comecar-cedo',
+        heading: 'Por que o tratamento começa logo',
+        paragraphs: [
+          'Quando a avaliação sugere pneumonia bacteriana, o antibiótico é iniciado o quanto antes. Tratar cedo reduz complicações, tempo de internação e mortalidade, e é por isso que o médico não espera o resultado da cultura para decidir o primeiro esquema. A cultura ajuda a ajustar a escolha, não a postergar o início.',
+          'Nas crianças, a amoxicilina por via oral é a primeira escolha recomendada pela Organização Mundial da Saúde. A maioria dos casos leves em adultos também se trata com antibiótico oral, em casa, com retorno marcado. Quem decide se o local do tratamento é o domicílio, o hospital ou a UTI é a gravidade medida no atendimento, não a preferência de quem está doente.',
+          'A escolha do antibiótico considera a idade, as doenças de base e o lugar onde a infecção foi adquirida. Quem tem alergia à penicilina recebe outro esquema, e é por isso que a consulta com um profissional é insubstituível.',
+        ],
+      },
+      {
+        id: 'no-hospital',
+        heading: 'Quando é preciso internar',
+        paragraphs: [
+          'A queda do oxigênio no sangue é a principal porta da internação. Saturação abaixo de 90% no ar ambiente pede oxigênio e observação hospitalar. Somam-se a isso a respiração acima de 30 respirações por minuto, a confusão e a incapacidade de beber ou comer.',
+          'Os escores de gravidade, como o CURB-65, ajudam a organizar a decisão, pesando idade, confusão, frequência respiratória alta, pressão baixa e ureia elevada. Choque séptico e insuficiência respiratória que exige ventilação mecânica levam à UTI. Nos demais casos, o antibiótico venoso, a hidratação e o oxigênio fazem o resto do serviço, com troca para a via oral assim que a pessoa estabiliza. O acompanhamento continua depois da alta, com reavaliação para confirmar que a recuperação está no caminho esperado.',
+          'A internação também serve para observar a resposta ao antibiótico nas primeiras 48 a 72 horas. Se a febre não ceder, a respiração não melhorar ou a saturação continuar baixa, a equipe revê o esquema e investiga outras causas.',
+        ],
+      },
+      {
+        id: 'em-casa',
+        heading: 'Os cuidados durante o tratamento em casa',
+        paragraphs: [
+          'O tratamento ambulatorial só funciona com colaboração. O antibiótico precisa ser tomado até o fim do prazo, mesmo depois que a febre some, porque as bactérias que sobraram voltam a se multiplicar quando o remédio é interrompido antes da hora. Voltar à unidade de saúde na data marcada faz parte do tratamento, e não é uma formalidade.',
+          'Para o desconforto, analgésicos e antitérmicos comuns ajudam, sempre conforme a orientação recebida. Xaropes que bloqueiam a tosse não ajudam quando há catarro e podem atrapalhar a saída da secreção. Líquidos ao longo do dia e refeições leves mantêm o corpo hidratado e alimentado, o que pesa na recuperação.',
+          'A família tem um papel prático nessa fase. Ajudar a pessoa a beber água ao longo do dia, lembrar os horários do remédio e observar se a respiração piora são atitudes que mudam o desfecho. Qualquer dúvida sobre a medicação deve ser levada à equipe de saúde, nunca resolvida por conta própria.',
+        ],
+        bullets: [
+          'Tomar o antibiótico pelo tempo receitado, mesmo depois da febre sumir',
+          'Voltar à unidade de saúde na data marcada para reavaliação',
+          'Beber líquidos com frequência e descansar sem abandonar as refeições',
+          'Usar analgésico e antitérmico conforme a orientação, sem se automedicar',
+          'Não reutilizar sobras de antibiótico de caixinhas anteriores',
+          'Procurar atendimento antes da hora se vier falta de ar, confusão ou recusa de líquidos',
+        ],
+      },
+      {
+        id: 'recuperacao-lenta',
+        heading: 'A tosse que fica e o tempo de recuperação',
+        paragraphs: [
+          'A melhora começa antes da cura. A febre cede nos primeiros dias e o fôlego volta aos poucos, mas a tosse e o cansaço podem acompanhar por várias semanas. Até a radiografia demora mais que o corpo: os sinais no exame costumam atrasar a resolução clínica em várias semanas, o que assusta quem espera um exame limpo logo depois da alta.',
+          'Sinais de alerta na convalescença pedem retorno imediato: febre que volta, tosse com sangue, falta de ar nova ou piora do estado geral. E a tosse que se arrasta por três semanas ou mais, com suor noturno e emagrecimento, deve ser investigada para tuberculose, não tratada como resto de pneumonia. Se a tosse vier acompanhada de febre baixa que se arrasta por semanas, a reavaliação não deve ser adiada.',
+          'Retomar as atividades aos poucos, sem voltar de uma vez a toda a rotina, ajuda a evitar o cansaço excessivo nas primeiras semanas. Caminhadas curtas e sono regular costumam ser suficientes até o corpo recuperar o ritmo.',
+        ],
+      },
+      {
+        id: 'vacinas',
+        heading: 'As vacinas que o SUS oferece',
+        paragraphs: [
+          'A vacinação é a medida que mais reduz o risco de pneumonia, e o Calendário Nacional de Vacinação oferece as principais gratuitamente pelo SUS. Ela protege contra as bactérias e os vírus que causam a maior parte dos casos, sobretudo nas faixas de idade em que a doença é mais grave. Quem tem dúvida sobre quais vacinas estão indicadas para a sua idade encontra essa informação na própria UBS, sem custo.',
+          'Adultos com condições de risco devem perguntar na UBS sobre a vacina pneumocócica e sobre a dose anual de influenza. Vacina não substitui o cuidado com a doença já instalada, mas reduz a chance de adoecer e de ter uma forma grave. Manter as demais vacinas em dia também protege, porque pneumonia é complicação frequente de sarampo e coqueluche.',
+        ],
+        bullets: [
+          'Pneumocócica conjugada para crianças, com doses aos 2 e 4 meses e reforço aos 12 meses',
+          'Pentavalente, que inclui a proteção contra o Hib, aos 2, 4 e 6 meses',
+          'Influenza a cada temporada para crianças de 6 meses a menores de 6 anos, pessoas idosas e grupos de risco',
+          'Sarampo e coqueluche em dia, porque a pneumonia é uma complicação comum dessas doenças',
+          'Amamentação exclusiva nos primeiros seis meses',
+          'Higiene das mãos e ambientes ventilados completam a proteção',
+        ],
+        cta: {
+          label: 'Veja a página sobre pneumonia',
+          href: '/doencas/pneumonia/',
         },
-        {
-          id: 'no-hospital',
-          heading: 'Quando é preciso internar',
-          paragraphs: [
-            'A queda do oxigênio no sangue é a principal porta da internação: muitos médicos tratam a hipoxemia como indicação absoluta de internamento, e a saturação abaixo de 90% no ar ambiente pede oxigênio e observação hospitalar.',
-            'Os escores de gravidade, como o CURB-65, ajudam o médico a escolher o local do tratamento, pesando idade, confusão, frequência respiratória alta, pressão baixa e ureia elevada. Choque séptico e insuficiência respiratória que exige ventilação mecânica levam à UTI. Nos demais casos, o antibiótico venoso, a hidratação e o oxigênio fazem o resto do serviço.',
-          ],
-        },
-        {
-          id: 'em-casa',
-          heading: 'Os cuidados durante o tratamento em casa',
-          paragraphs: [
-            'O tratamento ambulatorial só funciona com colaboração. O essencial:',
-          ],
-          bullets: [
-            'Tomar o antibiótico pelo tempo receitado, mesmo depois da febre sumir',
-            'Voltar à unidade de saúde na data marcada para reavaliação',
-            'Beber líquidos com frequência e descansar sem abandonar as refeições',
-            'Usar analgésico e antitérmico conforme a orientação, sem se automedicar',
-            'Não reutilizar sobras de antibiótico de caixinhas anteriores',
-            'Procurar atendimento antes da hora se vier falta de ar, confusão ou recusa de líquidos',
-          ],
-        },
-        {
-          id: 'recuperacao-lenta',
-          heading: 'A tosse que fica e o tempo de recuperação',
-          paragraphs: [
-            'A melhora começa antes do que a cura: a febre cede nos primeiros dias e o fôlego volta aos poucos, mas a tosse e o cansaço podem acompanhar por várias semanas. Até a radiografia demora mais que o corpo: os sinais no exame costumam atrasar a resolução clínica em várias semanas.',
-            'Sinais de alerta na convalescença pedem retorno imediato: febre que volta, tosse com sangue, falta de ar nova ou piora do estado geral. E a tosse que se arrasta por três semanas ou mais, com suor noturno e emagrecimento, deve ser investigada para tuberculose, não tratada como resto de pneumonia.',
-          ],
-        },
-        {
-          id: 'vacinas',
-          heading: 'As vacinas que o SUS oferece',
-          paragraphs: [
-            'A forma mais barata e eficaz de evitar a pneumonia é a vacina contra as bactérias e vírus que a causam com mais frequência. O Calendário Nacional de Vacinação reúne as principais, com acesso gratuito pelo SUS.',
-          ],
-          bullets: [
-            'Pneumocócica conjugada para crianças: doses aos 2 e 4 meses, reforço aos 12 meses',
-            'Pentavalente (que inclui o Hib) aos 2, 4 e 6 meses',
-            'Influenza para crianças a partir de 6 meses e para idosos, uma dose a cada temporada',
-            'Pneumocócica para pessoas idosas, indicada no calendário de vacinação da pessoa idosa',
-            'Sarampo e coqueluche, doenças que preparam o terreno para a pneumonia',
-          ],
-          cta: {
-            label: 'Veja a página sobre pneumonia',
-            href: '/doencas/pneumonia/',
-          },
-        },
-      ],
-      diseaseSlugs: ['pneumonia'],
-      topicSlugs: ['doencas-infecciosas', 'prevencao'],
-      relatedArticleSlugs: ['pneumonia-sinais-de-alerta-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Calendário Nacional de Vacinação',
-          url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Pneumonia adquirida na comunidade, edição profissional',
-          url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'Pneumonia in children: folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/pneumonia',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['pneumonia'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['pneumonia-sinais-de-alerta-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Pneumonia adquirida na comunidade, edição profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Pneumonia in children: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/pneumonia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
-      id: 'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
-      slug: 'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
-      metaTitle: 'Insuficiência cardíaca: sinais de alerta',
-      title: 'Insuficiência cardíaca: sinais de alerta e quando procurar atendimento',
-      excerpt:
-        'A descompensação da insuficiência cardíaca costuma dar avisos dias antes da emergência. Saiba quais sinais vigiar em casa e quando chamar o SAMU.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'a-piora-comeca-devagar',
-          heading: 'A piora costuma avisar antes',
-          paragraphs: [
-            'Na insuficiência cardíaca, o músculo do coração já bombeia com pouca eficiência, e qualquer desequilíbrio aumenta a pressão dentro das veias. O líquido sai dos vasos e se instala onde a gravidade e o próprio pulmão permitem: tornozelos, barriga e, por fim, os espaços entre os alvéolos. É essa sequência que transforma uma semana de inchaço discreto em uma falta de ar que acorda a pessoa à noite.',
-            'Por isso a maioria das internações evitáveis poderia ter sido cortada antes. Os sinais de alarme aparecem dias antes da crise, e a pessoa que os conhece pode avisar a equipe de saúde em vez de esperar a urgência. Estudos usados pelas diretrizes brasileiras tratam a variação de peso em poucos dias como um dos melhores marcadores de acúmulo de líquido.',
-          ],
+    id: 'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
+    slug: 'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
+    metaTitle: 'Insuficiência cardíaca: sinais de alerta',
+    title: 'Insuficiência cardíaca: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'A descompensação da insuficiência cardíaca costuma dar avisos dias antes da emergência. Saiba quais sinais vigiar em casa e quando chamar o SAMU.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'a-piora-comeca-devagar',
+        heading: 'A piora costuma avisar antes',
+        paragraphs: [
+          'Na insuficiência cardíaca, o coração já bombeia com pouca eficiência, e qualquer desequilíbrio aumenta a pressão dentro das veias. O líquido sai dos vasos e se instala onde a gravidade e o próprio pulmão permitem: tornozelos, barriga e, por fim, os espaços entre os alvéolos. É essa sequência que transforma uma semana de inchaço discreto em falta de ar que acorda a pessoa à noite.',
+          'A maioria das internações evitáveis dá aviso dias antes. Quem conhece os sinais pode procurar a equipe de saúde em vez de esperar a crise. O peso medido todos os dias é o marcador mais simples: o ganho de líquido aparece na balança antes de aparecer no pulmão.',
+          'A piora nem sempre é rápida. Pode ser uma tosse seca que surge à noite, um travesseiro a mais, uma caminhada que passa a cansar. Quando esses sinais se acumulam em poucos dias, a chance de descompensação é alta, e o momento de agir é antes do pronto atendimento. Uma ligação para a unidade de saúde no mesmo dia costuma evitar a internação.',
+        ],
+      },
+      {
+        id: 'sinais-para-vigiar-em-casa',
+        heading: 'Sinais para vigiar em casa',
+        paragraphs: [
+          'Alguns sinais não são emergência, mas pedem contato com a equipe que acompanha o coração em até 24 horas. Anote o peso, os sintomas e os remédios em uso antes de ligar, porque essa informação ajuda a decidir se o ajuste pode ser feito à distância.',
+          'Não espere o próximo retorno marcado. Uma consulta antecipada ou uma orientação por telefone costuma resolver o acúmulo de líquido antes que ele chegue ao pulmão.',
+          'Se a pessoa tem dificuldade para falar frases completas, precisa parar no meio de uma caminhada ou não consegue deitar sem se sentir sufocada, a avaliação deve ser no mesmo dia, mesmo sem outros sintomas. A orientação por telefone pode bastar, desde que a equipe consiga acompanhar a evolução do peso e dos sintomas.',
+        ],
+        bullets: [
+          'Ganho de peso em poucos dias, sem mudança na alimentação',
+          'Tornozelos, pernas ou barriga visivelmente mais inchados',
+          'Dormir com mais travesseiros do que de costume',
+          'Falta de ar ao fazer o que antes era rotina',
+          'Tosse nova, sobretudo à noite',
+          'Cansaço desproporcional ou tontura com os remédios em dia',
+        ],
+        cta: {
+          label: 'Veja a página sobre insuficiência cardíaca',
+          href: '/doencas/insuficiencia-cardiaca/',
         },
-        {
-          id: 'sinais-para-vigiar-em-casa',
-          heading: 'Sinais para vigiar em casa',
-          paragraphs: [
-            'Nem todo desconforto exige um pronto atendimento no mesmo minuto. Estes sinais pedem contato com a equipe que acompanha o coração em até 24 horas:',
-          ],
-          bullets: [
-            'Ganho de peso em poucos dias, sem mudança de alimentação',
-            'Tornozelos, pernas ou barriga visivelmente mais inchados',
-            'Dormir com mais travesseiros do que de costume',
-            'Falta de ar ao fazer o que antes era rotina',
-            'Tosse nova, sobretudo à noite',
-            'Cansaço desproporcional ou tontura com os remédios em dia',
-          ],
-          cta: {
-            label: 'Veja a página sobre insuficiência cardíaca',
-            href: '/doencas/insuficiencia-cardiaca/',
-          },
-        },
-        {
-          id: 'quando-e-emergencia',
-          heading: 'Quando é emergência',
-          paragraphs: [
-            'Há sinais que não admitem espera. Ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento se aparecer:',
-          ],
-          bullets: [
-            'Falta de ar intensa em repouso ou sensação de afogamento',
-            'Dor no peito que não alivia',
-            'Desmaio, confusão mental ou sonolência anormal',
-            'Lábios, mãos ou pés arroxeados',
-            'Palpitações com tontura ou sensação de desmaio iminente',
-            'Falta de ar crescente junto de inchaço que sobe rápido',
-          ],
-        },
-        {
-          id: 'enquanto-o-atendimento-chega',
-          heading: 'Enquanto o atendimento chega',
-          paragraphs: [
-            'Sentar a pessoa ereta, com as pernas para baixo, e afrouxar roupas apertadas costuma aliviar a falta de ar. Abra a janela e mantenha a calma: tentar caminhar ou deitar agrava a sensação de afogamento. Não leve a pessoa andando até o hospital se ela estiver muito curta de ar, e não a coloque para dirigir.',
-            'Aumentar a dose do diurético por conta própria é uma decisão que só cabe ao médico que conhece o caso. Alguns protocolos preveem dose extra orientada por telefone, mas sem esse plano escrito combinado com a equipe, o risco de desidratar e prejudicar os rins é real. Se houver medicação receitada de resgate, use exatamente como foi orientado.',
-          ],
-        },
-        {
-          id: 'onde-ser-atendido',
-          heading: 'Onde buscar atendimento',
-          paragraphs: [
-            'Para sinais que preocupam mas não são emergenciais, o caminho é a unidade básica de saúde (UBS) de referência ou, fora do horário, a unidade de pronto atendimento (UPA). Leve a lista de remédios com as doses, a caderneta de peso diário e os exames mais recentes, inclusive a última dosagem de potássio e de função renal, porque esses números guiam o ajuste.',
-            'Quem tem doença avançada, internação recente, fração de ejeção muito baixa ou suspeita de arritmia costuma precisar de serviço com cardiologista e leito de observação. O Sistema Único de Saúde organiza esse percurso por regulação de vagas, então o encaminhamento pode não ser para o hospital mais próximo. Se a pessoa já é acompanhada por um serviço de referência, ligue para ele antes: muitas equipes têm canal para orientar a descompensação e evitar a ida ao pronto atendimento.',
-          ],
-        },
-      ],
-      diseaseSlugs: ['insuficiencia-cardiaca'],
-      topicSlugs: ['doencas-cronicas'],
-      relatedArticleSlugs: ['insuficiencia-cardiaca-tratamento-e-vida-diaria'],
-      references: [
-        {
-          label: 'Insuficiência cardíaca: especialista explica fatores de risco, sintomas e tratamento',
-          url: 'https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-norte/hdt-ufnt/insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento',
-          publisher: 'Rede Ebserh e Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Diretriz Brasileira de Insuficiência Cardíaca Crônica',
-          url: 'https://www.scielo.br/j/abc/a/XrJZJkL945HZqpd3dZgdPrf/?lang=pt',
-          publisher: 'Sociedade Brasileira de Cardiologia',
-        },
-        {
-          label: 'Doenças cardiovasculares, folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'quando-e-emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Há sinais que não admitem espera. Falta de ar em repouso, dor no peito e desmaio são os mais claros. O catarro rosado e espumoso também indica líquido no pulmão e não deve ser tratado como gripe.',
+          'Confusão mental ou sonolência incomum em quem tem insuficiência cardíaca pode indicar queda de oxigenação ou de pressão. Não vá dirigindo até o hospital se estiver muito cansado ou tonto: chamar o SAMU permite começar oxigênio e monitorização no trajeto, e a equipe já chega sabendo que se trata de um paciente cardíaco.',
+          'Ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento se aparecer algum destes sinais:',
+        ],
+        bullets: [
+          'Falta de ar intensa em repouso ou sensação de afogamento',
+          'Catarro rosado e espumoso',
+          'Dor no peito que não alivia',
+          'Desmaio, confusão mental ou sonolência anormal',
+          'Lábios, mãos ou pés arroxeados e pele fria',
+          'Palpitações com tontura ou sensação de desmaio iminente',
+          'Falta de ar crescente junto de inchaço que sobe rápido',
+        ],
+      },
+      {
+        id: 'enquanto-o-atendimento-chega',
+        heading: 'Enquanto o atendimento chega',
+        paragraphs: [
+          'Enquanto o atendimento não chega, sentar a pessoa com as pernas para baixo e afrouxar roupas apertadas costuma aliviar a respiração. Abra a janela, mantenha a calma e evite deitar. Se houver oxigênio em casa com prescrição, use conforme a orientação.',
+          'Não ofereça líquidos nem remédios por conta própria, e não aumente o diurético sem um plano escrito pela equipe. Se a pessoa perder a consciência e parar de respirar, comece compressões no peito e siga as instruções do atendente.',
+          'Deixe à mão a lista de remédios, os exames mais recentes e o telefone do serviço que acompanha o paciente. Em uma emergência, essa organização encurta a conversa com a equipe do SAMU e evita que alguém perca tempo procurando informação dentro de casa.',
+        ],
+      },
+      {
+        id: 'onde-ser-atendido',
+        heading: 'Onde buscar atendimento',
+        paragraphs: [
+          'Sinais que preocupam mas não são emergência podem ser avaliados na unidade básica de saúde (UBS) de referência ou, fora do horário, na unidade de pronto atendimento (UPA). Leve a lista de remédios, a caderneta de peso e os exames recentes, especialmente potássio e função renal, porque esses números guiam o ajuste.',
+          'Quem tem doença avançada, internação recente, fração de ejeção muito baixa ou suspeita de arritmia costuma precisar de um serviço com cardiologista e observação. O SUS organiza esse percurso por regulação de vagas, então o encaminhamento pode não ser para o hospital mais próximo.',
+          'Se a pessoa já é acompanhada por um serviço de referência, ligue para lá antes de sair de casa. Muitas equipes têm canal para orientar a descompensação e evitar uma ida desnecessária à emergência. Essa conversa rápida costuma valer mais do que sair sem saber para onde ir.',
+        ],
+      },
+      {
+        id: 'o-que-nao-fazer',
+        heading: 'Erros que atrasam o atendimento',
+        paragraphs: [
+          'Alguns erros comuns atrasam o atendimento. Um deles é atribuir a falta de ar ao cansaço normal ou à idade. Outro é tomar o diurético a mais por conta própria, o que pode desidratar, baixar a pressão e piorar a função dos rins.',
+          'Também não se deve esperar a consulta marcada quando há ganho de peso rápido ou inchaço crescente. Se houver dúvida sobre a gravidade, ligue para a unidade de saúde: a triagem por telefone existe justamente para separar o que pode esperar do que precisa de atendimento imediato.',
+          'Outra armadilha é tomar remédio para dormir ou para dor sem consultar a equipe. Alguns medicamentos pioram a retenção de líquido, e outros aumentam o risco de queda em quem já está tonto por pressão baixa. Na dúvida, pergunte antes de usar qualquer coisa nova.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['insuficiencia-cardiaca'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['insuficiencia-cardiaca-tratamento-e-vida-diaria'],
+    references: [
+      {
+        label: 'Insuficiência cardíaca com fração de ejeção reduzida: protocolo clínico e diretrizes terapêuticas, resumo',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/PCDTResumidoInsuficinciaCardacafinal.pdf',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Insuficiência cardíaca: especialista explica fatores de risco, sintomas e tratamento',
+        url: 'https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-norte/hdt-ufnt/insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento',
+        publisher: 'Rede Ebserh e Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Doenças cardiovasculares, folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
-      id: 'insuficiencia-cardiaca-tratamento-e-vida-diaria',
-      slug: 'insuficiencia-cardiaca-tratamento-e-vida-diaria',
-      metaTitle: 'Viver com insuficiência cardíaca',
-      title: 'Insuficiência cardíaca: tratamento e vida diária',
-      excerpt:
-        'Os quatro pilares de remédios do protocolo brasileiro, a balança como ferramenta de monitoramento, o sal na prática e a reabilitação cardíaca disponível no SUS.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'os-quatro-pilares',
-          heading: 'Os quatro pilares do tratamento',
-          paragraphs: [
-            'O protocolo nacional para a insuficiência cardíaca com fração de ejeção reduzida, aprovado pelo Ministério da Saúde em 2024, reúne quatro classes de medicamentos. São eles: o inibidor da enzima de conversão ou a associação sacubitril-valsartana; o betabloqueador; o antagonista da aldosterona, que no Brasil é a espironolactona; e o inibidor do SGLT2, como a dapagliflozina, remédio criado para o diabetes e que se mostrou útil no coração.',
-            'As diretrizes recomendam começar as quatro classes o mais cedo possível e subir as doses em consultas próximas, em vez de esgotar uma antes de iniciar a outra. Cada uma atua em um mecanismo diferente do desgaste cardíaco, e o benefício cresce quando elas trabalham juntas. Por isso, sentir-se melhor não é motivo para suspender nenhuma delas por conta própria.',
-          ],
+    id: 'insuficiencia-cardiaca-tratamento-e-vida-diaria',
+    slug: 'insuficiencia-cardiaca-tratamento-e-vida-diaria',
+    metaTitle: 'Viver com insuficiência cardíaca',
+    title: 'Insuficiência cardíaca: tratamento e vida diária',
+    excerpt:
+      'Os quatro pilares de remédios do protocolo brasileiro, a balança como ferramenta de monitoramento, o sal na prática e a reabilitação cardíaca disponível no SUS.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'os-quatro-pilares',
+        heading: 'Os quatro pilares do tratamento',
+        paragraphs: [
+          'O protocolo nacional para a insuficiência cardíaca com fração de ejeção reduzida, aprovado pelo Ministério da Saúde em 2024, reúne quatro classes de medicamentos: o inibidor da enzima de conversão ou a associação sacubitril-valsartana; o betabloqueador; o antagonista da aldosterona, que no Brasil é a espironolactona; e o inibidor do SGLT2, como a dapagliflozina.',
+          'Cada classe atua em um mecanismo diferente do desgaste cardíaco. As diretrizes recomendam começar as quatro o mais cedo possível e subir as doses em consultas próximas, em vez de esgotar uma antes de iniciar a outra. O benefício cresce quando elas trabalham juntas. A ordem de entrada depende da pressão, da função renal, do potássio e dos sintomas, e não de uma receita igual para todos.',
+          'Sentir-se melhor não é motivo para suspender nenhuma delas. O ajuste exige acompanhamento de potássio, sódio e função renal, e anti-inflamatórios não esteroides podem piorar a retenção de líquido.',
+        ],
+      },
+      {
+        id: 'diureticos-e-alivio-de-sintomas',
+        heading: 'Diuréticos aliviam, mas não bastam',
+        paragraphs: [
+          'A furosemida e outros diuréticos trazem alívio rápido: retiram o líquido que congestionou pulmão e pernas. Eles convivem com os quatro pilares, não os substituem. Quem usa só diurético respira melhor por alguns dias e segue exposto às internações que as outras classes ajudam a evitar.',
+          'A dose do diurético costuma mudar conforme o peso e o inchaço, e é comum a equipe orientar um ajuste dentro de uma faixa combinada. Aumentar por conta própria é perigoso; reduzir também, porque o líquido volta.',
+          'Quando o inchaço sobe para a barriga, a roupa aperta e a falta de ar aparece ao deitar, o sinal é de congestão mais intensa. Nesse caso, a equipe pode rever a dose e marcar um retorno em poucos dias. Não espere o fim do estoque de remédio para pedir a reavaliação.',
+        ],
+      },
+      {
+        id: 'sal-e-liquidos-na-pratica',
+        heading: 'Sal e líquidos na prática',
+        paragraphs: [
+          'A orientação atual sobre sal é menos radical do que a fama do sal zero. O protocolo brasileiro recomenda dieta com sal normal, em torno de 7 g por dia, e o caminho prático é reduzir ultraprocessados, temperos prontos, embutidos e congelados industrializados, que concentram sódio, em vez de comer comida sem graça. Rótulos com “light” ou “diet” não são automaticamente mais pobres em sódio, e vale conferir a quantidade por porção antes de comprar.',
+          'A restrição de líquidos, entre 1,5 e 2 litros por dia, fica reservada a quem tem congestão persistente, classe funcional avançada ou sódio baixo no sangue, sempre com volume definido pela equipe.',
+          'Quem está estável e urina bem não precisa beber menos sem orientação. Restringir líquido sem indicação pode piorar a função renal e não traz benefício. Em dias de calor intenso ou febre, a necessidade de água muda, e a equipe deve ser consultada.',
+        ],
+      },
+      {
+        id: 'balanca-como-instrumento',
+        heading: 'A balança como instrumento',
+        paragraphs: [
+          'A balança é o instrumento mais barato de monitoramento. Pesar-se todos os dias, em jejum e depois de urinar, no mesmo horário e com a mesma roupa, mostra o acúmulo de líquido antes que ele apareça como falta de ar. Uma balança simples, desde que seja sempre a mesma, basta para perceber a tendência.',
+          'Anote o valor em uma caderneta ou no celular. Um ganho de 2 kg em três dias pede contato com a unidade de saúde, mesmo que a pessoa se sinta bem. Não espere o inchaço aparecer para agir: a balança avisa antes.',
+          'A pesagem de um único dia não decide nada: o que importa é a tendência. Uma noite com jantar mais salgado pode inflar o número, e uma diarreia pode derrubá-lo. Por isso a caderneta vale mais do que a memória.',
+        ],
+        bullets: [
+          'Pese-se sempre no mesmo horário',
+          'Use a mesma balança e roupa parecida',
+          'Anote o valor todos os dias',
+          'Compare a média da semana, não um dia isolado',
+          'Avise a equipe se ganhar 2 kg em três dias',
+          'Leve a caderneta às consultas',
+        ],
+      },
+      {
+        id: 'movimento-e-reabilitacao',
+        heading: 'Movimento e reabilitação cardíaca',
+        paragraphs: [
+          'Quem está estável se beneficia de atividade física aeróbica supervisionada. Os programas de reabilitação cardíaca combinam avaliação médica, exercício prescrito, orientação à família e apoio psicossocial. Pergunte na unidade de saúde se existe programa na região, porque a disponibilidade varia muito entre cidades.',
+          'O passo seguro é pedir à unidade de saúde a indicação para um programa com avaliação antes de começar. Exercício é contraindicado durante a descompensação, em arritmia não controlada e em doença de válvula grave. Mesmo em programas supervisionados, o esforço deve ser interrompido se surgir dor no peito, tontura ou falta de ar desproporcional.',
+          'Quem nunca se exercitou deve começar com caminhadas curtas e frequentes, aumentando aos poucos conforme a tolerância, sempre com orientação. Caminhar acompanhado e escolher horários mais frescos ajuda a manter a rotina. A meta não é desempenho esportivo, e sim manter autonomia e reduzir o cansaço nas tarefas do dia a dia.',
+        ],
+      },
+      {
+        id: 'acompanhamento-e-acesso',
+        heading: 'Acompanhamento e acesso pelo SUS',
+        paragraphs: [
+          'O acompanhamento não termina quando os sintomas melhoram. As consultas servem para ajustar doses, checar potássio e função renal e revisar vacinas. Levar a lista de remédios e a caderneta de peso a cada visita economiza tempo e evita trocas desnecessárias. Consultas mais próximas no início do tratamento são normais e não significam piora.',
+          'Vacinas anuais contra influenza, pneumococo e covid-19 reduzem o risco de infecções que descompensam o coração. Evitar aglomerações em época de gripe e tratar apneia do sono e doenças de tireoide também fazem parte do cuidado. A equipe da unidade básica pode conferir o calendário vacinal em cada visita.',
+          'Pergunte à equipe quais sinais justificam uma ligação e quais justificam ir direto à emergência. Ter esse plano por escrito, com a dose de resgate do diurético, diminui a ansiedade e evita condutas improvisadas.',
+        ],
+        cta: {
+          label: 'Veja a página sobre insuficiência cardíaca',
+          href: '/doencas/insuficiencia-cardiaca/',
         },
-        {
-          id: 'diureticos-e-alivio-de-sintomas',
-          heading: 'Diuréticos aliviam, mas não bastam',
-          paragraphs: [
-            'A furosemida e outros diuréticos são o remédio que traz alívio rápido: retiram o líquido que congestionou pulmão e pernas. Eles convivem com os quatro pilares, não os substituem. Quem usa só diurético respira melhor por alguns dias e segue exposto às internações que as outras classes ajudam a evitar. A dose do diurético costuma mudar conforme o peso e o inchaço, e é comum a equipe orientar ajuste dentro de uma faixa combinada.',
-          ],
-        },
-        {
-          id: 'balanca-como-instrumento',
-          heading: 'A balança como instrumento de monitoramento',
-          paragraphs: [
-            'Pesar-se todo dia é a forma mais barata de perceber a piora antes da crise. As diretrizes brasileiras usam a variação de peso em poucos dias, somada ao inchaço periférico, como marcador confiável de acúmulo de líquido. O pedido costuma ser simples, e a regularidade vale mais do que a precisão da balança.',
-          ],
-          bullets: [
-            'Pese-se uma vez por dia, sempre no mesmo horário, logo ao acordar',
-            'Vá ao banheiro antes e use a mesma roupa, ou nenhuma',
-            'Anote o número em papel ou aplicativo, sem esquecer o dia',
-            'Observe tornozelos e abdome junto do peso',
-            'Avise a equipe ao notar a mudança que ela definiu como limite',
-            'Leve a caderneta às consultas, inclusive quando estiver tudo bem',
-          ],
-        },
-        {
-          id: 'sal-e-liquidos-na-pratica',
-          heading: 'Sal e líquidos na prática',
-          paragraphs: [
-            'Reduzir sal continua fazendo sentido, mas o extremo de sal zero não é a meta. Dietas muito restritivas em sódio foram associadas a piores resultados nos estudos que sustentam o protocolo brasileiro. O ganho real está em cortar as fontes invisíveis: temperos prontos, macarrão instantâneo, embutidos, congelados industrializados, sopas de pacote e pão de forma comprado fora de casa.',
-            'Temperar com alho, cebola, limão e ervas frescas substitui bem o saleiro. Já a restrição de água não vale para todos: ela é indicada apenas em situações como congestão persistente, sintomas importantes ou sódio baixo no sangue, com volume definido pela equipe. Beber água demais pode piorar a congestão; beber de menos, por ordem médica e sem necessidade, pode desidratar e sobrecarregar os rins.',
-          ],
-        },
-        {
-          id: 'movimento-e-reabilitacao',
-          heading: 'Movimento e reabilitação cardíaca',
-          paragraphs: [
-            'Repouso absoluto ficou para trás. Em pacientes estáveis, o exercício aeróbico supervisionado melhora disposição, capacidade física e adesão ao tratamento, dentro de programas de reabilitação cardíaca que combinam avaliação médica, prescrição de atividade, apoio psicossocial e orientação à família.',
-            'Há oferta pública nesse caminho, incluindo equipamentos vinculados à atenção básica, como as Academias da Saúde e os Núcleos de Apoio à Saúde da Família, além de serviços de reabilitação em hospitais referenciados. A disponibilidade varia bastante entre municípios, e nem toda cidade tem programa pronto. Antes de começar, peça avaliação médica: arritmia não controlada, doença de válvula grave e descompensação atual são contraindicações temporárias ou definitivas para o exercício.',
-          ],
-          cta: {
-            label: 'Veja a página sobre insuficiência cardíaca',
-            href: '/doencas/insuficiencia-cardiaca/',
-          },
-        },
-        {
-          id: 'acompanhamento-e-sus',
-          heading: 'Acompanhamento no SUS',
-          paragraphs: [
-            'A atenção primária é o eixo do cuidado: ajustar remédios, pedir exames de função renal e potássio, encaminhar quando necessário e sustentar o vínculo entre as consultas. A avaliação especializada fica reservada a quem teve internação recente, permanece com sintomas intensos ou precisa avaliar dispositivo cardíaco, cirurgia ou transplante.',
-            'O SUS financia o percurso que vai do exame à cirurgia: consultas, ecocardiograma, os medicamentos do protocolo, implante de dispositivos e transplante cardíaco, coordenado pelo Sistema Nacional de Transplantes. Na prática, o acesso depende de regulação, fila e da rede disponível na região, e o país concentra os serviços de alta complexidade em poucas capitais. Quem mora longe se beneficia de um plano de acompanhamento firmado com a UBS, para não perder as revisões.',
-          ],
-          cta: {
-            label: 'Leia também: como medir a pressão arterial em casa',
-            href: '/artigos/hipertensao-como-medir-a-pressao-em-casa/',
-          },
-        },
-      ],
-      diseaseSlugs: ['insuficiencia-cardiaca'],
-      topicSlugs: ['doencas-cronicas', 'prevencao'],
-      relatedArticleSlugs: ['insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Protocolo Clínico e Diretrizes Terapêuticas de insuficiência cardíaca com fração de ejeção reduzida',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/i/insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Relatório de Recomendação da CONITEC para o protocolo de insuficiência cardíaca',
-          url: 'https://www.gov.br/conitec/pt-br/midias/relatorios/2024/relatorio-de-recomendacao-no-808-pcdt-insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida',
-          publisher: 'CONITEC',
-        },
-        {
-          label: 'Diretriz Brasileira de Insuficiência Cardíaca Crônica',
-          url: 'https://www.scielo.br/j/abc/a/XrJZJkL945HZqpd3dZgdPrf/?lang=pt',
-          publisher: 'Sociedade Brasileira de Cardiologia',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['insuficiencia-cardiaca'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas de insuficiência cardíaca com fração de ejeção reduzida',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/i/insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Insuficiência cardíaca com fração de ejeção reduzida: protocolo clínico e diretrizes terapêuticas, resumo',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/PCDTResumidoInsuficinciaCardacafinal.pdf',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Insuficiência cardíaca: especialista explica fatores de risco, sintomas e tratamento',
+        url: 'https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-norte/hdt-ufnt/insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento',
+        publisher: 'Rede Ebserh e Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
-      id: 'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
-      slug: 'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
-      metaTitle: 'Esteatose hepática: sinais de alerta',
-      title: 'Esteatose hepática: sintomas e quando procurar atendimento',
-      excerpt:
-        'A gordura no fígado costuma ser silenciosa e aparecer em exames de rotina. Saiba queixas que merecem investigação e quais sinais pedem atendimento imediato.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'silenciosa-no-inicio',
-          heading: 'Por que quase não há sintomas',
-          paragraphs: [
-            'A esteatose hepática, a gordura no fígado, raramente dá sinal no começo. O fígado é um órgão silencioso: mesmo acumulando gordura nas suas células, continua trabalhando e não dói. É por isso que a maioria dos diagnósticos vem de um exame pedido por outro motivo.',
-            'Quando os sintomas aparecem, são vagos: desconforto ou peso na parte superior direita da barriga, cansaço ao longo do dia e diminuição do apetite. Nenhuma dessas queixas é exclusiva da esteatose, e por isso só a investigação com exame de sangue e de imagem confirma o quadro.',
-          ],
+    id: 'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
+    slug: 'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
+    metaTitle: 'Esteatose hepática: sinais de alerta',
+    title: 'Esteatose hepática: sintomas e quando procurar atendimento',
+    excerpt:
+      'A gordura no fígado costuma ser silenciosa e aparecer em exames de rotina. Saiba quais queixas merecem investigação e quais sinais pedem atendimento imediato.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'silenciosa-no-inicio',
+        heading: 'Por que quase não há sintomas',
+        paragraphs: [
+          'A esteatose hepática, a gordura no fígado, raramente dá sinal no começo. O fígado é um órgão silencioso: mesmo acumulando gordura nas células, continua trabalhando e não dói. É por isso que a maioria dos diagnósticos vem de uma ultrassonografia pedida por outro motivo, como uma dor abdominal, um check-up ou o acompanhamento de diabetes.',
+          'Quando os sintomas aparecem, são vagos: desconforto ou peso na parte superior direita da barriga, cansaço ao longo do dia e diminuição do apetite. Nenhuma dessas queixas é exclusiva da esteatose, e por isso só a investigação com exames de sangue e de imagem confirma o quadro. A ausência de sintomas não significa que está tudo bem.',
+          'Pessoas com diabetes, excesso de peso, colesterol alto ou histórico de doença hepática formam o grupo que mais se beneficia de uma avaliação precoce. Como a doença é silenciosa, um exame de rotina pode ser a única oportunidade de descobrir o problema antes que a fibrose avance. Não é preciso ter sintomas para investigar.',
+        ],
+      },
+      {
+        id: 'sintomas-que-podem-aparecer',
+        heading: 'Sintomas que podem aparecer',
+        paragraphs: [
+          'Algumas pessoas relatam sensação de barriga inchada, empachamento depois das refeições ou dor de cabeça constante. O fígado aumentado pode ser percebido no exame físico, mas isso não acontece em todos os casos.',
+          'É importante não atribuir todos os sintomas à gordura no fígado. Cansaço e desconforto abdominal têm muitas causas, e a avaliação serve justamente para separar o que vem do fígado do que vem de outra parte do corpo. O diagnóstico não é feito pelo sintoma, e sim pela soma de história, exame físico e exames.',
+          'A intensidade das queixas não mede o grau de gordura nem de fibrose. Há pessoas com doença avançada e poucos sintomas, assim como pessoas com gordura leve e bastante desconforto. Por isso, a avaliação não deve ser guiada apenas pelo que se sente, e sim pelos exames e pelos fatores de risco.',
+        ],
+        bullets: [
+          'Desconforto ou dor no lado direito do abdome',
+          'Cansaço que não melhora com descanso',
+          'Perda de apetite',
+          'Sensação de barriga inchada ou empachamento',
+          'Dor de cabeça constante',
+        ],
+      },
+      {
+        id: 'como-e-descoberta',
+        heading: 'Como a gordura no fígado é descoberta',
+        paragraphs: [
+          'Na rotina, o primeiro indício costuma vir da ultrassonografia de abdome, que mostra o fígado mais claro e, muitas vezes, aumentado. O exame é indolor e amplamente disponível, mas pode não ser sensível o suficiente em casos de gordura leve ou em pessoas com obesidade importante.',
+          'No exame de sangue, as enzimas hepáticas podem vir levemente elevadas, o que levanta a suspeita. Quando há dúvida sobre inflamação ou fibrose, a elastografia mede a rigidez do fígado e ajuda a definir se o caso precisa de acompanhamento mais próximo. Quem tem fatores de risco deve pedir avaliação mesmo sem sintomas.',
+          'O diagnóstico não termina no primeiro exame. Se a ultrassonografia mostrar gordura, a equipe precisa avaliar o metabolismo, o consumo de álcool e a possibilidade de outras doenças do fígado. Essa etapa transforma um achado isolado em um plano de cuidado, com metas realistas e seguimento.',
+        ],
+      },
+      {
+        id: 'sinais-de-piora',
+        heading: 'Sinais de que o fígado piorou',
+        paragraphs: [
+          'A gordura isolada costuma ser estável, mas a inflamação persistente pode, ao longo dos anos, produzir fibrose e cirrose. A progressão é lenta e muitas vezes silenciosa, por isso o acompanhamento regular é mais importante do que esperar sentir algo.',
+          'A fibrose não dá sinais claros enquanto é leve. Por isso, a elastografia e os exames de sangue são mais confiáveis do que os sintomas para acompanhar a evolução. Quem tem diabetes, obesidade ou alterações persistentes nas enzimas do fígado deve manter o seguimento em dia mesmo que se sinta bem, porque a doença pode continuar avançando em silêncio.',
+          'Procure reavaliação se aparecerem queixas que sugerem piora:',
+        ],
+        bullets: [
+          'Cansaço que aumenta e não melhora com descanso',
+          'Dor persistente no lado superior direito do abdome',
+          'Barriga que aumenta de volume de forma progressiva',
+          'Pele e olhos com tom amarelado',
+          'Perda de peso sem esforço e sem explicação',
+          'Confusão mental ou sonolência incomum',
+        ],
+        cta: {
+          label: 'Veja a página sobre a esteatose hepática',
+          href: '/doencas/esteatose-hepatica/',
         },
-        {
-          id: 'como-e-descoberta',
-          heading: 'Como a esteatose costuma ser descoberta',
-          paragraphs: [
-            'Na rotina, o primeiro indício vem da ultrassonografia de abdome, exame de imagem que mostra o fígado mais claro e, em muitos casos, aumentado de tamanho.',
-            'No exame de sangue, as transaminases podem vir levemente elevadas, o que levanta a suspeita e leva a avaliar o fígado com atenção. Quem tem fatores de risco, como [diabetes](/doencas/diabetes/), sobrepeso ou colesterol alto, deve pedir a avaliação mesmo sem sentir nada.',
-          ],
-        },
-        {
-          id: 'sinais-de-piora',
-          heading: 'Sinais de que o fígado piorou',
-          paragraphs: [
-            'A gordura isolada costuma ser estável. O que muda o cenário é a inflamação, que ao longo dos anos pode evoluir para cicatriz, a fibrose. Procure reavaliação se aparecerem:',
-          ],
-          bullets: [
-            'Cansaço que aumenta e não melhora com descanso',
-            'Dor persistente no lado superior direito do abdome',
-            'Sensação de estômago cheio ou estufado quase todo dia',
-            'Pele e olhos com tom amarelado',
-            'Perda de peso sem esforço e sem explicação',
-          ],
-          cta: {
-            label: 'Veja a página sobre a esteatose hepática',
-            href: '/doencas/esteatose-hepatica/',
-          },
-        },
-        {
-          id: 'quando-e-emergencia',
-          heading: 'Quando é emergência',
-          paragraphs: [
-            'Vá a um pronto atendimento ou ligue para o SAMU (192) se, em alguém com doença no fígado, surgirem sinais de complicação grave:',
-          ],
-          bullets: [
-            'Confusão mental, sonolência ou desorientação',
-            'Vômito com sangue ou fezes muito escuras',
-            'Barriga muito inchada e endurecida de repente',
-            'Febre alta com dor intensa no abdome',
-            'Pele e olhos amarelados que aparecem rápido',
-          ],
-        },
-        {
-          id: 'onde-fazer-o-acompanhamento',
-          heading: 'Onde fazer o acompanhamento',
-          paragraphs: [
-            'O primeiro passo é procurar a unidade básica de saúde (UBS) de referência. De lá, quem tem esteatose com fatores de risco pode ser encaminhado a um clínico geral, a um gastroenterologista ou a um hepatologista, o médico que cuida especificamente do fígado.',
-            'O acompanhamento inclui repetir exames de sangue, avaliar o peso e medir a rigidez do fígado com a elastografia, quando indicada. Manter as consultas em dia é o que permite detectar uma progressão cedo, quando ainda dá para reverter.',
-          ],
-        },
-      ],
-      diseaseSlugs: ['esteatose-hepatica'],
-      topicSlugs: ['doencas-cronicas'],
-      relatedArticleSlugs: ['esteatose-hepatica-como-reverter-com-habitos'],
-      references: [
-        {
-          label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Métodos de diagnóstico da esteato-hepatite associada à disfunção metabólica (MASH)',
-          url: 'https://sbhepatologia.org.br/publicacoes/artigos/metodos-de-diagnostico-da-esteato-hepatite-associada-a-disfuncao-metabolica-mash/',
-          publisher: 'Sociedade Brasileira de Hepatologia',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'quando-e-emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Alguns sinais indicam complicação grave e exigem atendimento imediato. Em uma pessoa com doença no fígado, confusão mental, sonolência ou desorientação podem ser sinal de encefalopatia hepática, e não de cansaço comum. Vômito com sangue ou fezes muito escuras também pedem avaliação urgente.',
+          'Esses sinais não são exclusivos da esteatose, mas, em quem já tem doença hepática, precisam de avaliação imediata. Não espere a consulta de rotina: procure o pronto atendimento e leve os exames e a lista de medicamentos. A encefalopatia hepática pode se instalar em pouco tempo e ser confundida com cansaço ou idade.',
+          'Procure um pronto atendimento ou ligue para o SAMU 192 se surgirem:',
+        ],
+        bullets: [
+          'Confusão mental, sonolência ou desorientação',
+          'Vômito com sangue ou fezes muito escuras',
+          'Barriga que incha e endurece de repente',
+          'Febre alta com dor intensa no abdome',
+          'Pele e olhos amarelados que aparecem rápido',
+          'Inchaço súbito nas pernas',
+        ],
+      },
+      {
+        id: 'onde-fazer-o-acompanhamento',
+        heading: 'Onde fazer o acompanhamento',
+        paragraphs: [
+          'O primeiro passo é procurar a unidade básica de saúde (UBS) de referência. O clínico geral avalia o histórico, o peso, a pressão e os exames, e encaminha para gastroenterologia ou hepatologia quando necessário.',
+          'O acompanhamento inclui repetir exames de sangue, avaliar o peso e a circunferência abdominal e, quando indicado, medir a rigidez do fígado com elastografia. Manter as consultas em dia é o que permite detectar uma progressão cedo, quando ainda dá para reverter.',
+          'O acompanhamento não é só de exames. Inclui apoio para alimentação, atividade física e controle do peso, além do tratamento de diabetes, colesterol e pressão. Essas ações fazem parte do cuidado da esteatose e ajudam a evitar que a gordura volte depois de uma melhora. Se houver dificuldade de acesso, vale perguntar na recepção da UBS sobre o fluxo de encaminhamento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['esteatose-hepatica'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'esteatose-hepatica-como-reverter-com-habitos',
+      'esteatose-hepatica-descobri-no-check-up',
+      'esteatose-hepatica-o-que-acontece-sem-tratamento',
+      'esteatose-hepatica-causas-e-mitos',
+    ],
+    references: [
+      {
+        label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Esteatose hepática: tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/tratamento',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Métodos de diagnóstico da esteato-hepatite associada à disfunção metabólica (MASH)',
+        url: 'https://sbhepatologia.org.br/publicacoes/artigos/metodos-de-diagnostico-da-esteato-hepatite-associada-a-disfuncao-metabolica-mash/',
+        publisher: 'Sociedade Brasileira de Hepatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
-      id: 'esteatose-hepatica-como-reverter-com-habitos',
-      slug: 'esteatose-hepatica-como-reverter-com-habitos',
-      title: 'Esteatose hepática: como reverter com hábitos',
-      excerpt:
-        'Perder peso e mexer-se mudam a história da gordura no fígado. Entenda quanto emagrecer faz diferença e como o SUS organiza o acompanhamento desse cuidado.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'o-que-reverte',
-          heading: 'O que faz a gordura regredir',
-          paragraphs: [
-            'A esteatose hepática responde à mudança de hábitos mais do que a qualquer medicamento. Os dois pilares são perder peso e aumentar a atividade física, e o efeito aparece de forma proporcional: quanto maior e mais mantida a perda de peso, maior a redução da gordura no fígado.',
-            'A equipe de saúde costuma usar metas simples. Perder 5% do peso já reduz a gordura acumulada; chegar a 10% ou mais se associa à melhora da inflamação e, em muitos casos, da fibrose. São números que servem de referência, e o ritmo certo cabe a cada pessoa, com orientação profissional.',
-          ],
+    id: 'esteatose-hepatica-como-reverter-com-habitos',
+    slug: 'esteatose-hepatica-como-reverter-com-habitos',
+    title: 'Esteatose hepática: como reverter com hábitos',
+    excerpt:
+      'Perder peso e manter o corpo em movimento mudam a história da gordura no fígado. Entenda quanto emagrecer faz diferença e como o SUS organiza o acompanhamento desse cuidado.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-reverte',
+        heading: 'O que realmente reverte a gordura no fígado',
+        paragraphs: [
+          'A esteatose hepática tem uma característica importante: nas fases iniciais, ela pode regredir. O que faz a diferença não é um remédio isolado, e sim a combinação de alimentação, movimento e perda de peso sustentada. Perder 5% do peso corporal já reduz a gordura no fígado.',
+          'Perdas acima de 10% estão associadas à melhora da inflamação e, em muitos casos, à regressão da esteato-hepatite. O ritmo importa: dietas radicais, com emagrecimento muito rápido, podem piorar o quadro. O objetivo é chegar a um peso possível de manter, não a um número alcançado em poucas semanas.',
+          'O corpo responde à redução de calorias e ao movimento de forma gradual. Não é preciso atingir o peso ideal para começar a ver benefício: cada quilo perdido e mantido já alivia o fígado. O importante é que a mudança seja possível de repetir na vida real, com comida acessível, tempo disponível e apoio da família.',
+        ],
+      },
+      {
+        id: 'alimentacao',
+        heading: 'O que colocar no prato',
+        paragraphs: [
+          'A base da alimentação deve ser comida de verdade: frutas, legumes, verduras, feijão, grãos integrais, ovos, peixes e carnes magras. Fibras ajudam a controlar a velocidade de absorção do açúcar e aumentam a saciedade. Refeições regulares evitam picos de fome e facilitam a escolha de porções menores.',
+          'Vale reduzir frituras, gorduras, doces, refrigerantes e ultraprocessados. O álcool deve ficar fora do dia a dia, porque agride diretamente o fígado. Não é preciso eliminar tudo de uma vez: trocas graduais, como substituir o refrigerante por água e o salgado por uma fruta, costumam durar mais.',
+          'Não é preciso seguir uma dieta com nome próprio. O padrão que mais ajuda é o mesmo que protege o coração: mais comida fresca, menos produtos de pacote, menos açúcar e sal. Planejar as compras e cozinhar em casa facilita essas escolhas e costuma custar menos do que comprar refeições prontas todos os dias.',
+        ],
+        bullets: [
+          'Priorizar frutas, legumes, verduras, feijão e grãos integrais',
+          'Reduzir frituras, gorduras, doces e ultraprocessados',
+          'Evitar refrigerantes e bebidas açucaradas',
+          'Fazer refeições regulares, sem pular o café da manhã',
+          'Evitar bebida alcoólica',
+        ],
+      },
+      {
+        id: 'movimento',
+        heading: 'Movimento que cabe na rotina',
+        paragraphs: [
+          'A atividade física ajuda a reduzir a gordura visceral e melhora a sensibilidade à insulina, mesmo antes de a pessoa emagrecer. Não é necessário começar com treinos intensos: caminhadas, bicicleta, natação ou dança já contam. O importante é escolher algo que caiba na rotina e possa ser repetido.',
+          'Com o tempo, combinar atividade aeróbica com exercícios de força ajuda a preservar massa muscular durante o emagrecimento. Quem tem dor articular, problemas cardíacos ou limitações deve conversar com a equipe de saúde antes de aumentar o esforço. O movimento também melhora o sono e o humor, o que facilita a manutenção da dieta. A regularidade vale mais do que a intensidade de um único dia.',
+          'Quem trabalha sentado pode começar com pausas curtas para caminhar e subir escadas em vez de usar o elevador. Esses minutos somam ao longo da semana e ajudam a reduzir o comportamento sedentário. O ideal é escolher uma atividade que dê prazer, porque a chance de continuar aumenta quando o movimento não parece obrigação.',
+        ],
+      },
+      {
+        id: 'pelo-sus',
+        heading: 'Como organizar o acompanhamento no SUS',
+        paragraphs: [
+          'O acompanhamento começa na unidade básica de saúde (UBS). O clínico geral avalia o peso, a pressão, a glicemia e as enzimas do fígado, e pode encaminhar para nutrição, gastroenterologia ou hepatologia quando necessário. A equipe da UBS pode incluir nutricionista e outros profissionais.',
+          'Manter as consultas em dia e repetir os exames conforme a orientação é parte do tratamento. O acompanhamento permite ajustar o plano, identificar piora da fibrose e tratar diabetes, colesterol e pressão, que contribuem para a gordura no fígado.',
+          'Se houver dificuldade para agendar, vale procurar a recepção da UBS e perguntar sobre o fluxo de acompanhamento. O tratamento da esteatose não depende de exames caros: boa parte do cuidado acontece na consulta, na orientação alimentar e no controle das doenças metabólicas. O profissional também pode ajudar a definir metas possíveis para o peso.',
+        ],
+      },
+      {
+        id: 'o-que-nao-faz-milagres',
+        heading: 'O que não faz milagre',
+        paragraphs: [
+          'Chás detox, suplementos e fórmulas vendidas como limpadores do fígado não substituem o tratamento. Não há comprovação de que esses produtos removam a gordura acumulada, e o uso sem orientação pode trazer riscos. O mesmo vale para medicamentos usados sem indicação.',
+          'Nenhum remédio disponível hoje faz o trabalho que a mudança de hábitos faz nas fases iniciais. Em casos selecionados, o médico pode indicar fármacos para diabetes, vitamina E ou outros, mas sempre dentro de um plano que inclui alimentação e movimento.',
+          'Antes de comprar qualquer suplemento, vale levar a embalagem para a consulta. O profissional pode verificar se há interação com outros medicamentos e se o produto tem alguma indicação real. O dinheiro investido em fórmulas sem comprovação costuma render mais em comida de verdade e acompanhamento regular.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Como saber se está funcionando',
+        paragraphs: [
+          'A melhora não aparece da noite para o dia. Os primeiros sinais costumam ser a redução do peso e da circunferência abdominal, a melhora da glicemia e do perfil lipídico e a queda das enzimas hepáticas. A ultrassonografia e a elastografia podem ser repetidas conforme a orientação.',
+          'Se o peso voltar a subir, a gordura pode voltar. Por isso, o ideal é transformar as mudanças em rotina, com apoio da família e da equipe de saúde. O objetivo não é fazer dieta por alguns meses, e sim construir um jeito de viver que possa ser mantido.',
+          'O acompanhamento também serve para celebrar avanços pequenos e ajustar metas quando a rotina muda. Se o peso estagnar, a equipe pode rever alimentação, atividade e sono em vez de aumentar a cobrança. O cuidado é uma corrida longa, não uma prova de algumas semanas, e recaídas fazem parte do processo.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre a esteatose hepática',
+          href: '/doencas/esteatose-hepatica/',
         },
-        {
-          id: 'alimentacao',
-          heading: 'Alimentação que ajuda o fígado',
-          paragraphs: [
-            'Não há uma dieta única, mas o padrão que mais protege o fígado é o que também protege o coração: menos ultraprocessados, menos açúcar e menos bebida alcoólica, mais comida de verdade.',
-          ],
-          bullets: [
-            'Reduzir refrigerantes, doces e farinhas refinadas, que viram gordura no fígado',
-            'Diminir frituras e alimentos ultraprocessados, ricos em gordura e sal',
-            'Aumentar verduras, legumes, frutas e feijão em cada refeição',
-            'Trocar parte dos cereais refinados por integrais',
-            'Cortar ou reduzir muito o álcool, que agride diretamente o fígado',
-          ],
-        },
-        {
-          id: 'movimento',
-          heading: 'Atividade física mesmo sem emagrecer',
-          paragraphs: [
-            'Mexer-se ajuda o fígado por outro caminho: o exercício melhora a forma como o corpo usa a insulina e a glicose, o que reduz a gordura hepática mesmo antes de o ponteiro da balança cair.',
-            'Para começar, vale o ritmo que dá para manter. Uma caminhada de 30 minutos na maioria dos dias da semana já traz benefício, e somar exercícios de força duas vezes por semana ajuda ainda mais. Quem é sedentário deve aumentar a intensidade de forma gradual.',
-          ],
-        },
-        {
-          id: 'pelo-sus',
-          heading: 'Como o SUS organiza esse cuidado',
-          paragraphs: [
-            'O acompanhamento da esteatose começa na unidade básica de saúde (UBS), onde o clínico geral avalia exames, peso e fatores de risco. Quando é preciso investigar inflamação ou fibrose, a pessoa pode ser encaminhada a um gastroenterologista ou hepatologista.',
-            'Nas consultas de rotina, a equipe ajusta metas de peso, orienta alimentação e atividade física e trata as condições que alimentam a esteatose, como [diabetes](/doencas/diabetes/) e [colesterol alto](/doencas/colesterol-alto/). Revisitar os exames periodicamente é o que permite notar uma melhora ou uma piora a tempo.',
-          ],
-        },
-        {
-          id: 'o-que-nao-faz-milagres',
-          heading: 'O que não existe: pílula que limpa o fígado',
-          paragraphs: [
-            'Detox, chá emagrecedor e suplemento prometendo limpar o fígado não revertem a esteatose, e alguns podem até sobrecarregar o órgão. Antes de tomar qualquer produto, mesmo natural, fale com a equipe de saúde: o que funciona é o que se sustenta ao longo dos meses.',
-          ],
-        },
-        {
-          id: 'acompanhamento',
-          heading: 'Como saber se está funcionando',
-          paragraphs: [
-            'A evolução aparece nos exames e não nos sintomas, justamente porque a esteatose é silenciosa. A transaminase tende a normalizar, e a ultrassonografia pode mostrar o fígado com menos gordura.',
-            'O mais importante é não abandonar o cuidado quando o resultado melhora. Uma parcela das pessoas volta a acumular gordura quando recupera o peso, e por isso o acompanhamento continua mesmo depois da reversão.',
-          ],
-          cta: {
-            label: 'Veja a página completa sobre a esteatose hepática',
-            href: '/doencas/esteatose-hepatica/',
-          },
-        },
-      ],
-      diseaseSlugs: ['esteatose-hepatica'],
-      topicSlugs: ['doencas-cronicas', 'prevencao'],
-      relatedArticleSlugs: ['esteatose-hepatica-sintomas-e-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Modificação do estilo de vida em MASLD/MASH: fatos e evidências',
-          url: 'https://sbhepatologia.org.br/publicacoes/artigos/modificacao-do-estilo-de-vida-em-masld-mash-fatos-e-evidencias/',
-          publisher: 'Sociedade Brasileira de Hepatologia',
-        },
-        {
-          label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['esteatose-hepatica'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
+      'esteatose-hepatica-descobri-no-check-up',
+      'esteatose-hepatica-o-que-acontece-sem-tratamento',
+      'esteatose-hepatica-causas-e-mitos',
+    ],
+    references: [
+      {
+        label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Esteatose hepática: tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/tratamento',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Esteatose hepática: prevenção',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/prevencao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Modificação do estilo de vida em MASLD/MASH: fatos e evidências',
+        url: 'https://sbhepatologia.org.br/publicacoes/artigos/modificacao-do-estilo-de-vida-em-masld-mash-fatos-e-evidencias/',
+        publisher: 'Sociedade Brasileira de Hepatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
       id: 'colesterol-alto-como-detectar-e-quando-procurar-atendimento',
       slug: 'colesterol-alto-como-detectar-e-quando-procurar-atendimento',
@@ -8189,6 +8281,941 @@ export const articles: Article[] = [
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-20',
     updatedAt: '2026-10-20',
+    isPlaceholder: true,
+  },
+  {
+    id: 'esteatose-hepatica-descobri-no-check-up',
+    slug: 'esteatose-hepatica-descobri-no-check-up',
+    title: 'Descobri gordura no fígado no check-up: e agora?',
+    excerpt:
+      'O achado no ultrassom é comum e não significa tratamento imediato. Veja quais exames ajudam a medir o risco e como organizar o acompanhamento.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'achado-comum',
+        heading: 'Um achado comum, quase sempre sem sintomas',
+        paragraphs: [
+          'Receber o resultado de uma ultrassonografia com a frase gordura no fígado é mais comum do que parece. A esteatose costuma ser silenciosa e aparece em exames pedidos por outros motivos, como dor abdominal, check-up ou acompanhamento de diabetes. Na maioria das vezes, não é uma emergência.',
+          'O achado não significa que a pessoa precise começar um remédio no mesmo dia. Significa que existe gordura acumulada no fígado e que vale investigar se há inflamação, fibrose e fatores metabólicos associados. O primeiro passo é entender o contexto, não entrar em pânico. Na rede pública, o primeiro atendimento costuma ser na unidade básica de saúde, que organiza os exames e os encaminhamentos conforme o risco.',
+          'Também vale lembrar que o laudo do ultrassom não substitui a consulta. O médico precisa saber se há diabetes, pressão alta, uso de medicamentos e quanto a pessoa bebe para interpretar o achado e decidir o próximo passo. Levar exames antigos ajuda a comparar a evolução. O laudo deve ser lido junto com a história clínica, e não isoladamente.',
+        ],
+      },
+      {
+        id: 'o-que-o-exame-mostra',
+        heading: 'O que o ultrassom mostra e o que ele não diz',
+        paragraphs: [
+          'A ultrassonografia mostra o fígado mais claro e, muitas vezes, aumentado. Ela também pode sugerir o grau de gordura, mas não consegue dizer se o tecido está inflamado ou se já há fibrose. Em casos de gordura leve ou de obesidade importante, a sensibilidade do exame cai.',
+          'Por isso, um ultrassom normal não descarta a doença, e um ultrassom alterado não mede a gravidade sozinho. O próximo passo depende da história clínica, dos exames de sangue e, em alguns casos, da elastografia.',
+          'O grau descrito no laudo, como leve, moderado ou acentuado, se refere à quantidade de gordura e não à gravidade da doença. Duas pessoas com o mesmo grau podem ter riscos diferentes, dependendo da fibrose e dos fatores metabólicos. Por isso, o número do laudo não deve ser lido como um diagnóstico completo.',
+        ],
+        bullets: [
+          'Mostra gordura e aumento do fígado',
+          'Não confirma inflamação nem fibrose',
+          'Pode ser menos sensível em gordura leve e obesidade',
+          'Não substitui a avaliação clínica',
+        ],
+      },
+      {
+        id: 'confirmar-o-risco',
+        heading: 'Como saber se há inflamação ou fibrose',
+        paragraphs: [
+          'A elastografia transitória mede a rigidez do fígado e a quantidade de gordura, de forma indolor. Valores mais altos de rigidez sugerem fibrose mais avançada, mas a interpretação precisa ser feita pelo profissional, considerando idade, peso e outras condições.',
+          'Exames de sangue e escores como o FIB-4 ajudam a triar quem precisa de investigação mais detalhada. A biópsia hepática, que confirma inflamação e lesão das células, fica reservada para casos selecionados, porque é invasiva.',
+          'Não existe um exame de sangue que substitua a avaliação completa. Os escores ajudam a organizar o risco, mas a decisão de investigar mais depende do conjunto de informações e do acesso aos métodos disponíveis na rede. O acesso à elastografia varia entre os serviços e pode exigir encaminhamento.',
+        ],
+      },
+      {
+        id: 'fatores-que-mudam-o-plano',
+        heading: 'O que muda o plano de acompanhamento',
+        paragraphs: [
+          'Alguns fatores tornam o acompanhamento mais próximo: diabetes ou pré-diabetes, obesidade, hipertensão, colesterol alto, idade e alterações nas enzimas do fígado. Também contam o consumo de álcool, o uso de medicamentos e o histórico familiar de doença hepática.',
+          'Quanto mais fatores, maior a chance de a gordura progredir. O plano pode incluir nutrição, atividade física, controle das doenças metabólicas e exames periódicos. Em alguns casos, o médico avalia medicamentos, mas eles não substituem a mudança de hábitos.',
+          'O histórico familiar também entra na conversa, porque algumas formas de doença hepática têm componente genético. Além disso, a idade e o tempo de exposição aos fatores metabólicos ajudam a estimar o risco acumulado. Quanto mais cedo esses fatores são identificados, mais chance há de intervir antes da fibrose.',
+        ],
+        bullets: [
+          'Diabetes ou pré-diabetes',
+          'Obesidade, sobretudo com gordura abdominal',
+          'Pressão alta e colesterol alto',
+          'Consumo de álcool',
+          'Alterações nas enzimas do fígado',
+        ],
+      },
+      {
+        id: 'primeiros-passos',
+        heading: 'Os primeiros passos depois do diagnóstico',
+        paragraphs: [
+          'Procure a unidade básica de saúde (UBS) com o resultado em mãos. O clínico geral vai revisar o histórico, medir peso e pressão, pedir exames de sangue e decidir se há necessidade de encaminhamento. Leve também a lista de medicamentos em uso.',
+          'Não é preciso esperar a próxima consulta para começar a mudar hábitos. Reduzir bebidas açucaradas, evitar álcool, caminhar na maioria dos dias e diminuir ultraprocessados já ajuda. Mudanças pequenas e sustentadas valem mais do que planos radicais.',
+          'Se a UBS não tiver todos os exames, o encaminhamento para um serviço especializado pode ser necessário. Levar os resultados anteriores e anotar as dúvidas ajuda a aproveitar melhor a consulta e evita repetir pedidos. O profissional também pode orientar sobre o que é possível mudar na rotina desde já.',
+        ],
+        bullets: [
+          'Leve o resultado do exame e a lista de medicamentos',
+          'Informe seu consumo de álcool',
+          'Peça exames de glicemia, colesterol e enzimas do fígado',
+          'Comece com mudanças pequenas e possíveis',
+          'Evite dietas radicais e produtos milagrosos',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Com que frequência voltar',
+        paragraphs: [
+          'A frequência das consultas e dos exames depende do grau de risco. Quem tem apenas gordura, sem inflamação ou fibrose, pode ser acompanhado em intervalos mais longos. Quem tem diabetes, fibrose ou alterações persistentes precisa de acompanhamento mais próximo.',
+          'O importante é não abandonar o seguimento quando os sintomas desaparecem, porque a doença continua silenciosa. O acompanhamento é o que permite perceber a evolução e agir cedo. Manter as consultas em dia permite comparar exames e ajustar o plano antes que a fibrose avance. Isso vale mesmo quando os exames estão normais.',
+          'Anotar os resultados de peso, pressão e exames em um caderno ou no aplicativo da unidade ajuda a enxergar a trajetória. Esses dados tornam a conversa com a equipe mais objetiva e facilitam decisões sobre o tratamento. Se aparecerem sintomas novos, não espere o retorno marcado.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre a esteatose hepática',
+          href: '/doencas/esteatose-hepatica/',
+        },
+      },
+    ],
+    diseaseSlugs: ['esteatose-hepatica'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
+      'esteatose-hepatica-como-reverter-com-habitos',
+      'esteatose-hepatica-o-que-acontece-sem-tratamento',
+      'esteatose-hepatica-causas-e-mitos',
+    ],
+    references: [
+      {
+        label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Métodos de diagnóstico da esteato-hepatite associada à disfunção metabólica (MASH)',
+        url: 'https://sbhepatologia.org.br/publicacoes/artigos/metodos-de-diagnostico-da-esteato-hepatite-associada-a-disfuncao-metabolica-mash/',
+        publisher: 'Sociedade Brasileira de Hepatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'esteatose-hepatica-o-que-acontece-sem-tratamento',
+    slug: 'esteatose-hepatica-o-que-acontece-sem-tratamento',
+    title: 'O que acontece quando a gordura no fígado não é tratada',
+    excerpt:
+      'A progressão é lenta e silenciosa, mas pode chegar à cirrose e ao câncer de fígado. Entenda as etapas e por que o risco cardiovascular também conta.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'progressao-lenta',
+        heading: 'Uma progressão lenta e silenciosa',
+        paragraphs: [
+          'A esteatose hepática não vira cirrose de um dia para o outro. O caminho costuma ser longo: a gordura se acumula, o fígado pode inflamar, surgem cicatrizes e, em uma parte dos casos, a função do órgão se deteriora. Cada etapa pode durar anos.',
+          'Como quase não há sintomas, a pessoa pode passar muito tempo sem saber que a doença está avançando. É por isso que o acompanhamento com exames periódicos importa, sobretudo em quem tem diabetes, obesidade ou histórico de doença hepática. Na prática, isso significa que um exame alterado hoje não deve ser deixado para depois: a avaliação de risco define quando repetir exames e como agir.',
+          'A velocidade varia de pessoa para pessoa. Diabetes mal controlado, obesidade, consumo de álcool e hipertensão podem acelerar o processo, enquanto o controle desses fatores pode estabilizar o quadro. Não existe um prazo único, e é justamente por isso que o seguimento individual é importante. A cada consulta, o plano é revisado e inclui o controle de peso, glicemia, pressão e colesterol.',
+        ],
+      },
+      {
+        id: 'esteato-hepatite',
+        heading: 'Quando a gordura vira inflamação',
+        paragraphs: [
+          'A inflamação é o primeiro ponto de virada. Quando o fígado acumula gordura e sofre lesão celular, o quadro passa a ser chamado de esteato-hepatite. A inflamação pode ser silenciosa e só ser percebida em exames ou na biópsia.',
+          'Nem todo mundo com gordura evolui para inflamação, e nem toda inflamação evolui para cirrose. Ainda assim, a esteato-hepatite aumenta o risco de fibrose e precisa de acompanhamento mais próximo. A presença de inflamação muda a frequência do seguimento e pode indicar a necessidade de avaliação especializada.',
+          'A esteato-hepatite é diagnosticada quando há inflamação e lesão das células do fígado, além da gordura. Em muitos casos, ela não causa sintomas, e o médico só percebe a alteração pelas enzimas ou pela elastografia. A biópsia, quando indicada, confirma o quadro com mais precisão.',
+        ],
+      },
+      {
+        id: 'fibrose-e-cirrose',
+        heading: 'Fibrose e cirrose',
+        paragraphs: [
+          'A fibrose é a cicatriz que se forma quando a inflamação se repete. No começo, o fígado ainda consegue funcionar; com o tempo, o tecido cicatricial substitui o tecido saudável e o órgão perde flexibilidade. A cirrose é o estágio avançado desse processo.',
+          'Cerca de 20% dos casos de esteato-hepatite não tratados podem evoluir para cirrose. Quando a cirrose avança, podem aparecer acúmulo de líquido no abdome, sangramentos, confusão mental e icterícia. Nessa fase, o transplante de fígado pode ser a única opção. O acompanhamento inclui exames de imagem e avaliação da função do fígado, além do tratamento das causas.',
+          'A fibrose pode ser medida de forma indireta pela elastografia, que estima a rigidez do fígado. O acompanhamento permite identificar se a rigidez está aumentando e se o risco de cirrose está subindo. Quanto mais cedo a fibrose é detectada, maior a chance de intervir antes que a cirrose se instale.',
+        ],
+        bullets: [
+          'Esteato-hepatite (inflamação)',
+          'Fibrose (cicatriz)',
+          'Cirrose (estágio avançado)',
+          'Falência do fígado',
+        ],
+      },
+      {
+        id: 'cancer-de-figado',
+        heading: 'Risco de câncer de fígado',
+        paragraphs: [
+          'A cirrose é um fator de risco importante para o carcinoma hepatocelular, o câncer de fígado mais comum. O tumor pode surgir também em pessoas com gordura no fígado sem cirrose, embora seja mais raro.',
+          'Por isso, quem tem fibrose avançada ou cirrose costuma fazer acompanhamento específico, com exames de imagem periódicos. O objetivo é detectar lesões cedo, quando ainda há mais opções de tratamento. Esse calendário é definido pela equipe e deve ser seguido mesmo sem sintomas.',
+          'O risco de câncer não se limita a quem tem cirrose. Pessoas com fibrose avançada e fatores metabólicos também precisam de atenção, e o acompanhamento pode incluir exames de imagem periódicos. O objetivo não é alarmar, mas detectar precocemente quando ainda há tratamento.',
+        ],
+      },
+      {
+        id: 'coracao-e-metabolismo',
+        heading: 'O risco que vai além do fígado',
+        paragraphs: [
+          'A MASLD não é só um problema do fígado. Ela costuma caminhar junto com obesidade, diabetes, pressão alta e alterações de colesterol, condições que aumentam o risco de infarto e AVC.',
+          'As doenças cardiovasculares estão entre as principais causas de morte, e o risco cardíaco pode pesar tanto quanto o hepático. Por isso, o tratamento não se resume a olhar as enzimas do fígado: inclui peso, glicemia, pressão, colesterol, sono e atividade física. Controlar a pressão e o colesterol, parar de fumar e tratar a apneia do sono fazem parte do mesmo cuidado.',
+          'O elo entre fígado e coração passa pela resistência à insulina, pela inflamação crônica e pelo acúmulo de gordura visceral. Melhorar um lado costuma ajudar o outro: perder peso e controlar a glicemia reduz o risco hepático e cardiovascular ao mesmo tempo. Por isso, o plano é único, e não uma soma de tratamentos separados.',
+        ],
+        bullets: [
+          'Infarto e AVC',
+          'Diabetes e piora do controle glicêmico',
+          'Alterações de colesterol e triglicerídeos',
+          'Apneia do sono e outros problemas metabólicos',
+        ],
+      },
+      {
+        id: 'da-para-reverter',
+        heading: 'Ainda dá para reverter',
+        paragraphs: [
+          'A boa notícia é que a doença pode regredir, especialmente antes de a fibrose avançar. Perder 5% do peso reduz a gordura no fígado; perdas acima de 10% podem melhorar a inflamação e a fibrose. O corpo tem capacidade de reparar parte do dano quando o agente agressor é retirado.',
+          'Mesmo quando já existe fibrose, o acompanhamento pode estabilizar o quadro e reduzir o risco de progressão. O momento de agir é agora, independentemente do estágio em que o diagnóstico foi feito. Quanto mais cedo o diagnóstico, maior a chance de estabilizar o quadro.',
+          'A reversão é mais provável quando a fibrose ainda é leve. Mesmo em estágios mais avançados, o acompanhamento pode desacelerar a progressão e reduzir complicações. O tratamento não é uma promessa de cura para todos, mas é a diferença entre um quadro estável e um quadro que piora. Isso reforça a importância do seguimento regular.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre a esteatose hepática',
+          href: '/doencas/esteatose-hepatica/',
+        },
+      },
+    ],
+    diseaseSlugs: ['esteatose-hepatica'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
+      'esteatose-hepatica-como-reverter-com-habitos',
+      'esteatose-hepatica-descobri-no-check-up',
+      'esteatose-hepatica-causas-e-mitos',
+    ],
+    references: [
+      {
+        label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Esteatose hepática: tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/tratamento',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Modificação do estilo de vida em MASLD/MASH: fatos e evidências',
+        url: 'https://sbhepatologia.org.br/publicacoes/artigos/modificacao-do-estilo-de-vida-em-masld-mash-fatos-e-evidencias/',
+        publisher: 'Sociedade Brasileira de Hepatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'esteatose-hepatica-causas-e-mitos',
+    slug: 'esteatose-hepatica-causas-e-mitos',
+    title: 'Gordura no fígado: causas e mitos',
+    excerpt:
+      'Não é só comida gordurosa: álcool, açúcar, peso, diabetes e até remédios entram na conta. Veja por que pessoas magras também podem ter esteatose.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'nao-e-so-gordura',
+        heading: 'Não é só questão de comida gordurosa',
+        paragraphs: [
+          'Um dos mitos mais comuns é que a gordura no fígado vem apenas de comer frituras. A alimentação importa, mas o acúmulo de gordura no fígado é resultado de um conjunto de fatores metabólicos, do consumo de álcool e até de medicamentos. Fatores como resistência à insulina, excesso de peso abdominal e consumo de álcool pesam tanto quanto a quantidade de óleo na comida.',
+          'O corpo produz e transporta gordura de várias formas. Quando há excesso de calorias, resistência à insulina ou alterações no metabolismo, o fígado passa a armazenar mais gordura do que consegue exportar. Por isso, uma pessoa pode comer pouco e ainda assim desenvolver esteatose. O peso na balança, sozinho, não explica o risco metabólico.',
+          'O fígado também recebe gordura produzida pelo próprio corpo, a partir do excesso de carboidratos e da resistência à insulina. Por isso, uma dieta aparentemente pobre em gordura, mas rica em açúcar e ultraprocessados, pode favorecer o acúmulo. Olhar apenas para a quantidade de óleo não conta a história toda.',
+        ],
+      },
+      {
+        id: 'alcool',
+        heading: 'O papel do álcool',
+        paragraphs: [
+          'O álcool é metabolizado no fígado e, em excesso, favorece o acúmulo de gordura e a inflamação. O risco não depende só da quantidade total: beber de forma frequente, mesmo sem grandes quantidades em uma única ocasião, também pode sobrecarregar o órgão.',
+          'Em quem já tem esteatose, a recomendação é eliminar a bebida alcoólica do dia a dia. O álcool pode somar-se a outros fatores e acelerar a progressão, por isso não deve ser tratado como um hábito sem importância. A conversa sobre bebida deve fazer parte da consulta, sem julgamento e com metas realistas.',
+          'O álcool não é a única causa, mas é uma das mais evitáveis. Em pessoas que já têm gordura no fígado, ele pode acelerar a inflamação e a fibrose, mesmo quando o consumo parece social e moderado. Reduzir ou eliminar a bebida é uma das mudanças com maior impacto.',
+        ],
+      },
+      {
+        id: 'metabolismo',
+        heading: 'Peso, açúcar e resistência à insulina',
+        paragraphs: [
+          'O excesso de peso, especialmente a gordura acumulada na barriga, é um dos principais motores da MASLD. O sobrepeso e a obesidade respondem por cerca de 60% dos casos de gordura no fígado não alcoólica. A gordura visceral, aquela que fica em volta dos órgãos, é mais prejudicial do que a gordura localizada em outras partes do corpo.',
+          'Diabetes tipo 2, pré-diabetes, colesterol alto, pressão alta, síndrome dos ovários policísticos, hipotireoidismo e apneia do sono também aumentam o risco. Muitas vezes, esses fatores aparecem juntos, e cada um piora o outro.',
+          'A resistência à insulina faz o corpo produzir mais insulina e favorece o armazenamento de gordura, inclusive no fígado. O excesso de gordura abdominal é um marcador desse processo. Por isso, medir a circunferência da cintura ajuda tanto quanto olhar o peso na balança.',
+        ],
+        bullets: [
+          'Excesso de peso e gordura abdominal',
+          'Diabetes tipo 2 ou pré-diabetes',
+          'Colesterol e triglicerídeos altos',
+          'Pressão alta',
+          'Síndrome metabólica',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Medicamentos e outras causas',
+        paragraphs: [
+          'Alguns medicamentos podem contribuir para a gordura no fígado, como corticoides, estrogênio, amiodarona, antirretrovirais, diltiazem e tamoxifeno. Isso não significa que a pessoa deva parar o remédio por conta própria; a decisão precisa ser conversada com o médico que fez a prescrição. A lista de medicamentos em uso deve ser revista em cada consulta, incluindo fitoterápicos e suplementos.',
+          'Outras condições também entram na lista: hepatites crônicas, gravidez, variações muito rápidas de peso e doenças metabólicas raras, sobretudo em crianças pequenas. Por isso, a investigação não se limita a perguntar sobre alimentação.',
+          'Nenhuma medicação deve ser suspensa sem orientação. Em alguns casos, o médico pode trocar ou ajustar o remédio, mas isso depende do motivo pelo qual ele foi prescrito e das alternativas disponíveis. O histórico de medicações é uma parte essencial da investigação da gordura no fígado.',
+        ],
+        bullets: [
+          'Corticoides e estrogênio',
+          'Amiodarona, diltiazem e tamoxifeno',
+          'Antirretrovirais',
+          'Hepatites crônicas e outras doenças do fígado',
+        ],
+      },
+      {
+        id: 'pessoas-magras',
+        heading: 'Pessoas magras também podem ter',
+        paragraphs: [
+          'A esteatose não é exclusiva de quem está acima do peso. Pessoas magras, sem alterações de colesterol ou glicemia, podem desenvolver a doença, embora isso seja menos comum. Nesses casos, a alimentação, o álcool e alterações metabólicas sutis podem pesar.',
+          'Por isso, o peso normal não dispensa a avaliação quando há sintomas, alterações de exames ou histórico familiar. O diagnóstico é feito com base no conjunto, e não apenas no número da balança. A investigação costuma incluir glicemia, perfil lipídico, enzimas do fígado e avaliação da gordura abdominal.',
+          'Em pessoas magras, a investigação precisa ser ainda mais cuidadosa, porque a aparência pode atrasar o diagnóstico. Alterações sutis de glicemia, gordura abdominal e histórico familiar podem explicar o quadro. O peso normal não deve ser usado como argumento para ignorar exames alterados.',
+        ],
+      },
+      {
+        id: 'o-que-fazer',
+        heading: 'O que fazer com essa informação',
+        paragraphs: [
+          'Entender as causas ajuda a escolher o que mudar. Se o álcool está presente, ele precisa sair. Se há excesso de peso, o foco é emagrecer de forma gradual. Se há diabetes ou colesterol alto, essas condições precisam de tratamento.',
+          'Não existe uma fórmula única, e o plano deve ser ajustado com a equipe de saúde. O importante é não tratar a gordura no fígado como algo inevitável ou inofensivo: ela pode regredir, mas também pode avançar quando é ignorada.',
+          'Começar por uma mudança possível costuma funcionar melhor do que tentar corrigir tudo ao mesmo tempo. Se o álcool é o fator mais presente, ele vem primeiro; se o peso é o principal, o foco inicial é a alimentação e a atividade. A equipe ajuda a definir a ordem e a ajustar o plano ao longo do tempo. O plano pode começar por uma meta pequena e ser ampliado conforme a rotina permite.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre a esteatose hepática',
+          href: '/doencas/esteatose-hepatica/',
+        },
+      },
+    ],
+    diseaseSlugs: ['esteatose-hepatica'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'esteatose-hepatica-sintomas-e-quando-procurar-atendimento',
+      'esteatose-hepatica-como-reverter-com-habitos',
+      'esteatose-hepatica-descobri-no-check-up',
+      'esteatose-hepatica-o-que-acontece-sem-tratamento',
+    ],
+    references: [
+      {
+        label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Esteatose hepática: prevenção',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica/prevencao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Atualização na nomenclatura para doenças hepáticas associadas a esteatose: de NASH para MASH',
+        url: 'https://sbhepatologia.org.br/publicacoes/artigos/atualizacao-na-nomenclatura-para-doencas-hepaticas-associadas-a-esteatose-de-nash-para-mash/',
+        publisher: 'Sociedade Brasileira de Hepatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'pneumonia-vacina-protecao',
+    slug: 'pneumonia-vacina-protecao',
+    title: 'Pneumonia: quais vacinas protegem e quando tomar',
+    excerpt:
+      'Vacinas contra pneumococo, Hib e influenza reduzem o risco de pneumonia e de casos graves. Veja o que o calendário do SUS oferece e quem deve conversar com a equipe.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'protecao-que-comeca-antes',
+        heading: 'Uma proteção que começa antes da doença',
+        paragraphs: [
+          'A vacina não impede toda pneumonia, mas ensina o sistema imunológico a reconhecer agentes que costumam causar a doença. Com isso, o corpo responde mais rápido e o risco de formas graves, internação e morte cai. É uma proteção que começa antes de qualquer sintoma. A proteção é maior quando o esquema é completado nas idades recomendadas, mas atrasos podem ser corrigidos depois.',
+          'No Brasil, o Calendário Nacional de Vacinação reúne as principais vacinas e oferece boa parte delas gratuitamente pelo SUS. A recomendação muda com a idade, a condição de saúde e o histórico de doses. Por isso, a caderneta é o documento que orienta a conversa na unidade básica de saúde. A caderneta também ajuda a identificar vacinas recomendadas para quem convive com doenças crônicas.',
+          'Nenhuma vacina cobre todos os agentes. Vírus, bactérias e fungos podem causar pneumonia, e a proteção contra um grupo não elimina o risco dos demais. Vacinar-se continua sendo o passo com maior impacto, mas convive com higiene, ambientes ventilados e controle das doenças crônicas.',
+        ],
+      },
+      {
+        id: 'pneumococica',
+        heading: 'Vacina pneumocócica: contra o agente mais comum',
+        paragraphs: [
+          'O pneumococo é a bactéria mais frequente na pneumonia adquirida na comunidade. No calendário infantil, a vacina pneumocócica conjugada é aplicada aos 2 e 4 meses, com reforço aos 12 meses. Ela reduz as formas graves e ajuda a proteger quem convive com a criança.',
+          'A vacina não trata a infecção nem substitui o antibiótico. Ela prepara a defesa para quando o pneumococo tenta invadir o pulmão ou a corrente sanguínea. Crianças vacinadas ainda podem ter pneumonia por outros agentes, mas o risco das apresentações mais sérias diminui. Quem já recebeu uma dose não deve repetir sem orientação.',
+          'Adultos e pessoas idosas com fatores de risco devem perguntar na UBS se a vacina pneumocócica está indicada. A resposta depende do calendário vigente, das condições clínicas e das doses já recebidas. Não é uma decisão para tomar por conta própria nem para resolver fora da orientação da equipe. A equipe também verifica se há necessidade de doses adicionais em pessoas com condições específicas.',
+        ],
+      },
+      {
+        id: 'influenza-hib-e-outras',
+        heading: 'Influenza, Hib e outras vacinas do calendário',
+        paragraphs: [
+          'A influenza é outra porta de entrada importante. A vacina é anual para crianças de 6 meses a menores de 6 anos, pessoas idosas e grupos de risco, conforme o calendário. Como o vírus muda de temporada para temporada, a dose precisa ser repetida. A vacina pode ser aplicada junto com outras do calendário, conforme a orientação local.',
+          'A pentavalente protege contra o Hib e é aplicada aos 2, 4 e 6 meses. O Hib é uma bactéria que pode causar pneumonia e outras infecções graves. Manter o esquema completo é parte da proteção contra a pneumonia, mesmo que a vacina não leve esse nome. Quem tem dúvida sobre o próprio esquema deve levar a caderneta à UBS.',
+          'Sarampo e coqueluche também entram nessa conta, porque a pneumonia é uma complicação frequente dessas doenças. A vacinação de rotina, mesmo quando não fala diretamente de pulmão, reduz o caminho para infecções respiratórias. A caderneta mostra quais doses estão atrasadas.',
+        ],
+      },
+      {
+        id: 'quem-deve-procurar-a-ubs',
+        heading: 'Quem deve conversar com a equipe',
+        paragraphs: [
+          'A conversa sobre vacinas é mais importante para crianças menores de cinco anos, pessoas com 65 anos ou mais, quem tem asma ou DPOC sem controle, fumantes e pessoas com imunidade baixa. Também merece atenção quem tem dificuldade para engolir, vive em abrigo coletivo ou já teve pneumonia grave.',
+          'Nesses grupos, a pneumonia tende a ser mais frequente e mais séria. A equipe pode indicar doses adicionais, antecipar esquemas ou explicar por que determinada vacina não se aplica naquele momento. Nada disso substitui a avaliação individual. A decisão é feita caso a caso, com base no que a pessoa já recebeu e no risco atual.',
+          'Levar a caderneta, a lista de remédios e o histórico de internações ajuda. A unidade básica de saúde consegue ver o que falta e orientar o próximo passo. Quem não tem caderneta pode começar o acompanhamento na própria UBS.',
+        ],
+      },
+      {
+        id: 'vacina-nao-e-tudo',
+        heading: 'A vacina reduz o risco, mas não fecha todas as portas',
+        paragraphs: [
+          'Higiene das mãos, ambientes ventilados, amamentação exclusiva nos primeiros seis meses e nada de fumo dentro de casa completam a proteção. Quem convive com asma ou DPOC deve manter o tratamento em dia, porque o pulmão descontrolado adoece com mais facilidade. Essas medidas não exigem receita e podem começar hoje.',
+          'Pessoas vacinadas ainda podem adoecer por outros agentes ou por cepas não cobertas. Por isso, febre que não cede, tosse que piora, falta de ar ou confusão em idosos exigem avaliação. Não se deve usar sobra de antibiótico nem esperar a doença avançar.',
+          'A vacinação é um ato de cuidado coletivo. Quanto mais pessoas protegidas, menor a circulação dos agentes e menor a pressão sobre o sistema de saúde. Para quem tem risco, a conversa com a equipe é o melhor caminho.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre pneumonia',
+          href: '/doencas/pneumonia/',
+        },
+      },
+      {
+        id: 'onde-se-vacinar',
+        heading: 'Onde se vacinar e o que levar',
+        paragraphs: [
+          'As vacinas do calendário estão disponíveis nas unidades básicas de saúde. A aplicação é gratuita pelo SUS e não exige encaminhamento para a maioria das doses. O atendimento segue a agenda local, que pode variar de cidade para cidade.',
+          'Quem perdeu uma dose não precisa recomeçar tudo sem orientação. A equipe avalia o esquema e indica como retomar. Levar um documento e a caderneta facilita o registro e evita doses repetidas. A data da próxima dose pode ser anotada na caderneta.',
+          'Se houver febre alta ou mal-estar no dia da aplicação, a equipe decide se é melhor adiar. Reações leves, como dor no braço e febre baixa, costumam passar sozinhas. Qualquer dúvida deve ser levada à UBS, não resolvida em grupos de mensagem. O registro correto evita que uma dose seja aplicada duas vezes sem necessidade.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['pneumonia'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
+      'pneumonia-tratamento-e-recuperacao',
+      'pneumonia-em-criancas',
+      'pneumonia-em-idosos',
+    ],
+    references: [
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Pneumonia in children: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/pneumonia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Pneumonia adquirida na comunidade, edição profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'pneumonia-em-criancas',
+    slug: 'pneumonia-em-criancas',
+    title: 'Pneumonia em crianças: sinais, cuidados e quando buscar ajuda',
+    excerpt:
+      'Respiração rápida, peito puxando para dentro e recusa de alimento são sinais que mudam a urgência. Saiba o que observar, como tratar e quando ir ao pronto atendimento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-criancas-adoecem-mais',
+        heading: 'Por que crianças adoecem mais',
+        paragraphs: [
+          'As vias aéreas da criança são mais estreitas e a imunidade ainda está em formação. Isso facilita que uma infecção respiratória desça até os alvéolos e provoque pneumonia. Vírus como o sincicial respiratório e bactérias como o pneumococo estão entre os agentes frequentes. Bebês prematuros e crianças com doenças crônicas merecem atenção especial desde os primeiros meses.',
+          'A pneumonia é a principal causa infecciosa de morte em crianças pequenas no mundo. A maioria dos casos, porém, pode ser tratada e evolui bem quando os sinais são reconhecidos cedo. O risco maior está nos menores de cinco anos, sobretudo nos bebês.',
+          'Crianças com asma, prematuridade, desnutrição ou imunidade baixa adoecem com mais facilidade. Conviver com fumaça de cigarro, lenha ou carvão em ambiente fechado também pesa. Reconhecer esses fatores ajuda a família a procurar avaliação sem esperar demais. A caderneta de vacinação e o acompanhamento na UBS ajudam a identificar esses riscos.',
+        ],
+      },
+      {
+        id: 'sinais-que-importam',
+        heading: 'Os sinais que mudam a urgência',
+        paragraphs: [
+          'Nem toda criança com tosse tem pneumonia, mas alguns sinais pedem avaliação imediata. Respiração rápida, peito puxando para dentro, gemência e dificuldade para mamar ou comer são os mais importantes. Em bebês, a respiração pode parecer mais curta e frequente. A contagem deve ser feita com a criança calma, de preferência por um minuto inteiro.',
+          'A febre pode estar presente ou não, e a intensidade não mede a gravidade. O que pesa é o conjunto: criança prostrada, sem energia para brincar, com lábios ou pontas dos dedos arroxeados, ou que não consegue beber água. Esses sinais indicam que o corpo está sofrendo com a falta de oxigênio. A saturação de oxigênio é medida na unidade de saúde.',
+          'A Organização Mundial da Saúde orienta contar a respiração e observar a retração da parte de baixo do tórax em menores de cinco anos. Esse olhar treinado ajuda a separar um resfriado de um quadro que precisa de atendimento. Na dúvida, a unidade de saúde deve ser procurada. Não é preciso esperar piorar para procurar ajuda quando a respiração muda.',
+        ],
+      },
+      {
+        id: 'tosse-nao-vira-pneumonia',
+        heading: 'Tosse não vira pneumonia por si só',
+        paragraphs: [
+          'A pneumonia é causada por um microrganismo que chega ao pulmão, não pela tosse em si. Uma criança com resfriado pode tossir por dias e não desenvolver pneumonia. O que muda o cenário é a infecção se instalar nos alvéolos, com febre, queda do estado geral e dificuldade respiratória. Por isso, tratar apenas a tosse não resolve a infecção que está no pulmão.',
+          'Xaropes que bloqueiam a tosse não ajudam quando há catarro e podem atrapalhar a eliminação da secreção. Em crianças pequenas, muitos desses produtos não são indicados. O mesmo vale para sobras de antibiótico e receitas caseiras sem orientação. A automedicação pode mascarar sinais e atrasar o diagnóstico.',
+          'Crises de asma e bronquiolite também causam chiado, tosse e falta de ar. Elas precisam de avaliação para não serem confundidas com pneumonia. O exame do médico, a saturação de oxigênio e, quando necessário, a radiografia ajudam a separar os quadros.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento',
+        paragraphs: [
+          'Quando a suspeita bacteriana é firme, o antibiótico começa cedo. O esquema e o tempo de uso são definidos pelo médico, e o tratamento deve ser completado mesmo depois que a febre passa. Interromper antes favorece a volta da infecção.',
+          'Nem toda pneumonia precisa de internação. Crianças que respiram bem, conseguem beber e comer e têm saturação adequada podem ser tratadas em casa, com retorno marcado. A internação entra quando falta oxigênio, há confusão, recusa alimentar importante ou piora apesar do tratamento.',
+          'Hidratação, alimentação leve e repouso completam o cuidado. Em casos graves, podem ser necessários oxigênio, hidratação venosa e antibiótico na veia. A equipe também observa complicações como derrame pleural e sepse, que exigem manejo hospitalar. O retorno é importante para confirmar a melhora e ajustar o cuidado.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados em casa e sinais de retorno',
+        paragraphs: [
+          'Em casa, o essencial é oferecer líquidos ao longo do dia e manter a alimentação que a criança aceitar. Não force a comida, mas observe se ela está bebendo e urinando. Um ambiente ventilado e sem fumaça ajuda o pulmão a se recuperar, e ninguém deve fumar dentro de casa. Ventilar os quartos todos os dias também reduz a circulação de vírus.',
+          'Anote a temperatura, a frequência da respiração e o aspecto do catarro. Febre que volta depois de dias de melhora, falta de ar nova, catarro com sangue ou sonolência fora do normal pedem avaliação antes da data marcada. Se a criança estiver muito sonolenta ou não urinar, procure atendimento no mesmo dia.',
+          'A melhora pode ser gradual: a febre cede primeiro, mas a tosse e o cansaço podem durar semanas. A radiografia demora mais para normalizar. Mesmo assim, a criança deve voltar à consulta para que a equipe confirme a recuperação.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como reduzir o risco',
+        paragraphs: [
+          'As vacinas contra pneumococo, Hib e influenza estão no calendário do SUS e reduzem as formas graves. A amamentação exclusiva nos primeiros seis meses, a higiene das mãos e os ambientes ventilados completam a proteção. Nada de fumo dentro de casa.',
+          'Crianças com asma ou outras doenças crônicas devem manter o tratamento em dia. Evitar contato próximo com pessoas doentes e não compartilhar copos ou utensílios também ajuda. Quando há um caso confirmado na turma, a escola e a creche devem ser avisadas e reforçar a ventilação e a higiene das mãos, para reduzir o risco de surtos.',
+          'Reconhecer cedo os sinais e procurar a unidade de saúde é parte da prevenção das formas graves. A vacina reduz o risco, mas não elimina a necessidade de avaliação quando a criança piora. Manter a caderneta de vacinação atualizada é uma tarefa contínua, que acompanha as consultas de rotina.',
+        ],
+        cta: {
+          label: 'Entenda a pneumonia na página da doença',
+          href: '/doencas/pneumonia/',
+        },
+      },
+    ],
+    diseaseSlugs: ['pneumonia'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
+      'pneumonia-tratamento-e-recuperacao',
+      'pneumonia-vacina-protecao',
+      'pneumonia-em-idosos',
+    ],
+    references: [
+      {
+        label: 'Pneumonia in children: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/pneumonia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Pneumonia adquirida na comunidade, edição profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Considerações gerais sobre pneumonia, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-pulmonares-e-das-vias-respirat%C3%B3rias/pneumonia/considera%C3%A7%C3%B5es-gerais-sobre-pneumonia',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'pneumonia-em-idosos',
+    slug: 'pneumonia-em-idosos',
+    title: 'Pneumonia em idosos: quando a confusão é o primeiro sinal',
+    excerpt:
+      'Em pessoas idosas, pneumonia pode começar sem febre, com confusão, fraqueza e recusa de comida. Saiba por que isso acontece e quando procurar atendimento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'sem-febre-nao-e-alivio',
+        heading: 'Sem febre não significa menos grave',
+        paragraphs: [
+          'Em pessoas idosas, a pneumonia pode começar sem o trio clássico de febre, tosse e falta de ar. O primeiro sinal pode ser confusão súbita, fraqueza, sonolência ou recusa de comida. Quem conhece a rotina da pessoa percebe que algo mudou antes de qualquer exame. A família costuma ser a primeira a notar que a pessoa não está como antes.',
+          'Essa apresentação atípica não quer dizer doença leve. Pelo contrário: quanto mais velha e frágil a pessoa, maior o risco de desidratação, queda, piora da função renal e internação. A ausência de febre pode atrasar a busca por ajuda. Por isso, qualquer mudança abrupta merece avaliação, mesmo sem febre.',
+          'Também podem aparecer quedas, tontura, falta de ar aos esforços e piora de uma doença crônica já conhecida. Nenhum desses sinais é exclusivo de pneumonia, mas o conjunto deve levar à avaliação. Não se deve atribuir tudo à idade.',
+        ],
+      },
+      {
+        id: 'por-que-mais-grave',
+        heading: 'Por que a pneumonia pesa mais nessa idade',
+        paragraphs: [
+          'Com o envelhecimento, a resposta imunológica fica menos eficiente e o reflexo de tosse pode ser mais fraco. Isso facilita a entrada de microrganismos e dificulta a eliminação de secreção. Doenças crônicas, como DPOC, diabetes e problemas cardíacos, somam risco. Manter as doenças crônicas controladas reduz a chance de descompensação.',
+          'A dificuldade para engolir é outro ponto importante. Alimento, líquido ou saliva podem descer para as vias aéreas e provocar pneumonia por aspiração. Quem tem AVC, Parkinson ou demência tem risco maior e precisa de cuidado na alimentação. A equipe pode orientar a alimentação e a posição durante as refeições.',
+          'Desnutrição, imunidade baixa e vida em abrigo coletivo também aumentam a exposição. Pessoas acamadas e com úlceras por pressão merecem atenção redobrada. A avaliação não olha apenas o pulmão, mas o corpo inteiro e a rotina. A vacinação e o acompanhamento regular ajudam a reduzir esse risco.',
+        ],
+      },
+      {
+        id: 'confusao-subita',
+        heading: 'Confusão súbita não é “normal da idade”',
+        paragraphs: [
+          'Uma mudança abrupta de comportamento, com desorientação, agitação ou sonolência, pode ser delirium. Na pessoa idosa, o delirium costuma ser a primeira manifestação de infecção, desidratação, efeito de remédio ou dor. Chamar isso de “normal da idade” atrasa o diagnóstico. O delirium é um sinal de alerta e pede avaliação rápida.',
+          'A família deve comparar com o estado habitual: a pessoa está mais confusa do que ontem? Parou de comer? Está urinando menos? Teve febre, tosse ou chiado? Essas informações ajudam muito na consulta e no pronto atendimento. Fotos e informações sobre os remédios ajudam o profissional a comparar.',
+          'A avaliação precisa procurar a causa. Pneumonia, infecção urinária, distúrbios metabólicos e medicamentos podem se apresentar assim. Quanto antes a origem é identificada, menor o risco de complicações. A hidratação e a alimentação também entram na investigação.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'O médico escuta a história, examina o pulmão e mede a saturação de oxigênio. Em pessoas idosas, a ausculta pode ser discreta e a radiografia pode não mostrar tudo de imediato. Por isso, a avaliação clínica e o acompanhamento valem tanto quanto o exame. A oximetria deve ser feita em repouso e, se possível, comparada com valores anteriores.',
+          'A radiografia de tórax costuma confirmar a área de consolidação. A tomografia entra quando há dúvida ou quando se suspeita de outra doença. Exames de sangue ajudam a avaliar gravidade, hidratação e resposta à infecção. A equipe pode repetir o exame se a primeira imagem não explicar o quadro.',
+          'A decisão de internar considera a saturação, a frequência respiratória, a capacidade de beber e comer, a confusão e as doenças de base. Escores clínicos organizam essa avaliação, mas não substituem o olhar para a pessoa e sua rotina. A decisão também considera o suporte disponível em casa, e a família deve levar a lista de remédios e os exames recentes.',
+        ],
+      },
+      {
+        id: 'tratamento-e-recuperacao',
+        heading: 'Tratamento e recuperação',
+        paragraphs: [
+          'O antibiótico é iniciado quando a suspeita bacteriana é firme, sem esperar todos os resultados. A equipe observa a resposta nas primeiras 48 a 72 horas e ajusta o esquema se necessário. Hidratação, alimentação e controle da febre completam o cuidado.',
+          'A recuperação costuma ser mais lenta do que em pessoas jovens. A febre pode ceder antes da tosse e do cansaço, e a radiografia demora a normalizar. A alta não significa que o risco acabou: é preciso manter o retorno e observar mudanças de comportamento. A família deve manter as consultas e observar o comportamento.',
+          'Idosos que não conseguem beber, comer ou tomar o remédio, que têm falta de ar em repouso ou confusão importante precisam de hospital. A internação também entra quando o oxigênio cai ou quando as doenças crônicas descompensam. A decisão é sempre individual. O retorno precoce evita que uma piora passe despercebida.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir',
+        paragraphs: [
+          'A vacina contra a influenza, oferecida a cada temporada para pessoas idosas, é a medida de maior impacto. Manter as demais vacinas em dia conforme a orientação da unidade de saúde, controlar asma e DPOC e evitar fumo dentro de casa também reduz o risco. A higiene das mãos e os ambientes ventilados contam. A orientação vale para quem vive com a pessoa idosa.',
+          'Cuidar da alimentação e da hidratação, tratar a dificuldade para engolir e revisar remédios que causam sonolência ajuda a prevenir aspiração e quedas. A cadeira deve ficar em posição adequada durante as refeições, e a pessoa não deve comer deitada. A refeição deve ser feita com calma e sem distração.',
+          'A família deve conhecer o estado habitual do idoso para reconhecer mudanças cedo. Febre, tosse, falta de ar, confusão ou recusa de comida exigem avaliação. Não espere o quadro avançar para procurar a unidade de saúde. Uma lista de sinais de alerta afixada na geladeira ajuda a família a agir.',
+        ],
+        cta: {
+          label: 'Saiba mais sobre pneumonia',
+          href: '/doencas/pneumonia/',
+        },
+      },
+    ],
+    diseaseSlugs: ['pneumonia'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
+      'pneumonia-tratamento-e-recuperacao',
+      'pneumonia-vacina-protecao',
+      'pneumonia-em-criancas',
+    ],
+    references: [
+      {
+        label: 'Pneumonia adquirida na comunidade, edição profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Considerações gerais sobre pneumonia, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-pulmonares-e-das-vias-respirat%C3%B3rias/pneumonia/considera%C3%A7%C3%B5es-gerais-sobre-pneumonia',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'insuficiencia-cardiaca-transplante-cardiaco',
+    slug: 'insuficiencia-cardiaca-transplante-cardiaco',
+    title: 'Transplante cardíaco: quando a insuficiência cardíaca chega ao fim da linha',
+    excerpt:
+      'O transplante é reservado a casos avançados, sem resposta ao tratamento otimizado. Entenda a avaliação, a lista única do SUS e o que muda depois da cirurgia.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-o-transplante-entra',
+        heading: 'Quando o transplante entra na conversa',
+        paragraphs: [
+          'A insuficiência cardíaca é uma doença crônica e, na maioria dos casos, o tratamento com remédios, dieta e acompanhamento consegue controlar sintomas e internações. O transplante não é a primeira etapa do cuidado. Ele aparece quando o coração já não responde ao tratamento otimizado e a doença limita a vida de forma importante.',
+          'Nessa situação, a cirurgia substitui o coração doente pelo coração de um doador. O objetivo é devolver ao corpo um bombeamento capaz de sustentar as atividades do dia a dia. A indicação é feita por uma equipe especializada, depois de esgotadas as outras possibilidades e de confirmado que o benefício supera os riscos.',
+          'Não se trata de uma decisão tomada apenas pela gravidade dos sintomas. A avaliação olha o coração, os outros órgãos, as infecções, o histórico de saúde e o suporte disponível. Por isso, duas pessoas com o mesmo diagnóstico podem ter indicações diferentes. O histórico de outras doenças e o apoio familiar entram na mesma conversa.',
+        ],
+      },
+      {
+        id: 'quem-e-avaliado',
+        heading: 'Quem é avaliado e o que pesa na decisão',
+        paragraphs: [
+          'A avaliação começa pela confirmação de que a insuficiência cardíaca é avançada e de que o tratamento foi realmente otimizado. Isso inclui as quatro classes de remédios, quando indicadas, e o controle de sal, peso e fatores que descompensam. Só depois dessa etapa a equipe discute o transplante.',
+          'O paciente passa por exames do coração e de outros órgãos. A equipe verifica se há infecções ativas, doenças que contraindicam a cirurgia e condições que possam comprometer a recuperação. Também avalia se a pessoa consegue manter os retornos e seguir o tratamento depois da alta. Exames de imagem e de sangue ajudam a completar esse retrato.',
+          'A decisão é individual e considera o conjunto, não um único exame ou um número isolado. A equipe explica benefícios, riscos e o que muda na rotina. O paciente e a família participam da conversa e precisam entender que o transplante não cura a doença de base, mas troca um coração que falha por outro que precisa de cuidado permanente.',
+        ],
+      },
+      {
+        id: 'a-lista-unica',
+        heading: 'A lista única e os critérios de prioridade',
+        paragraphs: [
+          'No Brasil, a lista de espera é única e vale tanto para pacientes do SUS quanto para os da rede privada. O sistema é informatizado e auditável, e a ordem não depende de escolha pessoal. Os critérios de compatibilidade e de gravidade alimentam o algoritmo que define quem é chamado.',
+          'Entre os critérios de compatibilidade estão o grupo sanguíneo, o peso e a altura. A gravidade também pesa: quem usa circulação extracorpórea ou está com o coração transplantado falhando tem prioridade máxima. Depois vêm os pacientes que usam medicamentos vasoativos por mais de seis meses, os que usam por menos tempo e, por fim, quem espera em casa.',
+          'Essa organização explica por que a posição na lista pode mudar. Uma piora clínica, uma internação ou uma nova necessidade de suporte alteram a prioridade. A equipe do programa de transplante acompanha essa evolução e mantém os dados atualizados no sistema.',
+        ],
+      },
+      {
+        id: 'tempo-de-espera',
+        heading: 'Quanto tempo se espera',
+        paragraphs: [
+          'O tempo de espera varia conforme a compatibilidade, a prioridade e a oferta de doadores. Em 2023, entre janeiro e 27 de agosto, 27,5% dos pacientes transplantados no Brasil receberam o coração em menos de 30 dias. Outros 29% esperaram de 30 a 90 dias, o que significa que mais da metade (52,3%) foi operada em até três meses.',
+          'Esses números mostram que a fila anda, mas não garantem prazo para ninguém. Há pessoas que esperam muito mais, sobretudo quando o grupo sanguíneo, o peso ou a altura tornam a compatibilidade mais difícil. A equipe costuma explicar essa incerteza desde o início para evitar expectativas irreais.',
+          'Enquanto espera, o paciente mantém o tratamento, as vacinas e o acompanhamento. Evitar infecções e reconhecer sinais de piora também faz parte, porque uma descompensação pode antecipar a internação e mudar a prioridade. O contato com a equipe deve ser frequente.',
+        ],
+      },
+      {
+        id: 'o-que-o-sus-cobre',
+        heading: 'O que o SUS cobre',
+        paragraphs: [
+          'Pelo SUS, o paciente recebe assistência integral: exames preparatórios, a cirurgia, o acompanhamento e os medicamentos usados depois do transplante. O atendimento é gratuito e não depende de plano de saúde. A rede pública responde por cerca de 90% das cirurgias de transplante no país.',
+          'O Brasil tem o maior sistema público de transplantes do mundo. No primeiro semestre de 2023, foram realizados 206 transplantes de coração, um aumento de 16% em relação ao mesmo período do ano anterior. Os números são do Sistema Nacional de Transplantes, ligado ao Ministério da Saúde.',
+          'A doação depende da autorização da família. Por isso, falar sobre o desejo de doar ainda em vida é importante: a decisão não pode ser tomada por outra pessoa sem essa conversa. Quem recebe um órgão passa a depender de acompanhamento e de medicamentos, e o sistema cobre esse percurso.',
+        ],
+      },
+      {
+        id: 'depois-da-cirurgia',
+        heading: 'Depois da cirurgia',
+        paragraphs: [
+          'Depois da cirurgia, o acompanhamento continua por toda a vida. O organismo precisa de tempo para se adaptar ao novo coração, e a equipe ajusta os medicamentos conforme os exames. O retorno às atividades é gradual e depende da recuperação e da orientação recebida. As primeiras semanas exigem mais consultas e exames frequentes.',
+          'O uso contínuo dos remédios que controlam a rejeição é parte central do cuidado. Interromper por conta própria é perigoso. Febre, falta de ar, ganho de peso rápido ou qualquer mudança importante devem ser comunicados à equipe, que orienta o que fazer e onde buscar atendimento.',
+          'A rotina depois do transplante inclui consultas, exames e cuidado com infecções. O paciente aprende a reconhecer o próprio estado habitual e a pedir ajuda cedo. O transplante devolve uma oportunidade de vida, mas não dispensa o acompanhamento nem o autocuidado.',
+        ],
+        cta: {
+          label: 'Entenda a insuficiência cardíaca na página da doença',
+          href: '/doencas/insuficiencia-cardiaca/',
+        },
+      },
+    ],
+    diseaseSlugs: ['insuficiencia-cardiaca'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
+      'insuficiencia-cardiaca-tratamento-e-vida-diaria',
+      'insuficiencia-cardiaca-apos-alta',
+      'insuficiencia-cardiaca-o-que-pode-ser-confundido',
+    ],
+    references: [
+      {
+        label: 'Insuficiência cardíaca com fração de ejeção reduzida: protocolo clínico e diretrizes terapêuticas, resumo',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/PCDTResumidoInsuficinciaCardacafinal.pdf',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Em 2023, espera por transplante de coração foi menor que 30 dias para 27,5% dos pacientes',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/noticias/2023/agosto/em-2023-no-brasil-espera-por-transplante-de-coracao-foi-menor-que-30-dias-para-27-5-dos-pacientes/',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas de insuficiência cardíaca com fração de ejeção reduzida',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/i/insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'insuficiencia-cardiaca-apos-alta',
+    slug: 'insuficiencia-cardiaca-apos-alta',
+    title: 'Insuficiência cardíaca: o que fazer nas primeiras semanas depois da alta',
+    excerpt:
+      'Peso diário, sal, líquidos, remédios e sinais de alerta: o período em casa exige um plano claro para evitar nova internação.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'alta-nao-e-fim',
+        heading: 'A alta não é o fim do tratamento',
+        paragraphs: [
+          'A alta hospitalar acontece quando a congestão melhora e a respiração fica mais estável, mas não significa que a doença acabou. As primeiras semanas em casa são um período de ajuste, em que o corpo ainda responde aos remédios e o risco de nova descompensação é real.',
+          'Antes de sair, o paciente deve entender qual é o plano: quais remédios tomar, em que horário, qual dose de resgate foi combinada e quando será o retorno. Também precisa saber quais sinais exigem contato imediato. Dúvidas anotadas evitam que a família improvise em casa. Perguntar sobre os horários e repetir a explicação em voz alta ajuda a fixar o plano.',
+          'A transição entre hospital e casa é parte do tratamento, não o fim dele. Quem sai sem compreender o plano tende a interromper remédios ou a demorar para buscar ajuda. Levar a receita, a lista de exames e o telefone da unidade reduz esse risco.',
+        ],
+      },
+      {
+        id: 'peso-todos-os-dias',
+        heading: 'Pesar todos os dias, sempre do mesmo jeito',
+        paragraphs: [
+          'O peso é o principal termômetro em casa. O protocolo brasileiro recomenda pesar todos os dias, em jejum e depois de urinar, sempre na mesma balança e com roupa parecida. O valor deve ser anotado, porque a tendência ao longo dos dias importa mais do que um número isolado. Pesar-se sempre no mesmo momento do dia evita comparações distorcidas.',
+          'Um ganho de 2 kg em três dias, ou um inchaço que aumenta, costuma indicar líquido acumulado. Nesse caso, a orientação é contatar a unidade de saúde em vez de aumentar o diurético por conta própria. Aumentar a dose sem combinação pode desidratar, baixar a pressão e prejudicar os rins.',
+          'Além do peso, vale observar a falta de ar, a necessidade de mais travesseiros para dormir e o tamanho do inchaço nas pernas. Anotar esses sinais ajuda a equipe a entender a evolução. O diário de peso e sintomas é uma ferramenta simples e útil na consulta.',
+        ],
+      },
+      {
+        id: 'sal-e-liquidos',
+        heading: 'Sal e líquidos: o que vale para cada pessoa',
+        paragraphs: [
+          'A alimentação tem papel direto no controle da congestão. O protocolo brasileiro orienta uma dieta com sal normal, em torno de 7 g por dia, sem excesso de ultraprocessados, temperos prontos e embutidos. Restringir muito o sal não traz benefício comprovado e pode piorar o apetite. Temperos naturais, como alho, cebola e ervas, podem substituir o sal sem perder sabor.',
+          'A restrição de líquidos não vale para todos. Ela fica reservada a quem tem congestão persistente, classe funcional avançada ou sódio baixo no sangue, na faixa de 1,5 a 2 litros por dia. Quem está estável e urina bem não precisa beber menos sem orientação.',
+          'Montar o prato com comida fresca, cozinhar em casa e ler os rótulos ajuda mais do que procurar substitutos milagrosos. O sal escondido em embutidos, molhos e salgadinhos costuma pesar mais do que o saleiro. A família inteira se beneficia quando a cozinha muda junto.',
+        ],
+      },
+      {
+        id: 'remedios-sem-ferias',
+        heading: 'Remédios sem férias',
+        paragraphs: [
+          'Os remédios da insuficiência cardíaca funcionam em conjunto e precisam ser tomados nos horários certos. Nas formas com fração de ejeção reduzida, o protocolo reúne quatro classes: inibidor da enzima de conversão ou sacubitril-valsartana, betabloqueador, espironolactona e inibidor do SGLT2. Cada uma tem um papel.',
+          'Sentir-se melhor não é motivo para suspender nada. O ajuste de dose é feito com exames de potássio, sódio e função renal, e a suspensão por conta própria pode descompensar o coração. Anti-inflamatórios não esteroides também podem piorar a retenção de líquido e a função dos rins.',
+          'Quando aparece um efeito colateral, o caminho é falar com a equipe, não mudar a dose sozinho. O diurético de resgate só deve ser usado na dose escrita no plano de cuidado. Remédios de outras especialidades, fitoterápicos e suplementos precisam ser informados ao médico. Uma lista atualizada de remédios, com doses e horários, deve ficar à vista em casa.',
+        ],
+      },
+      {
+        id: 'movimento-e-vacinas',
+        heading: 'Movimento, vacinas e rotina',
+        paragraphs: [
+          'O exercício aeróbico supervisionado melhora a disposição e a capacidade física, mas não pode começar durante uma descompensação. Ele é contraindicado em arritmia não controlada, doença valvar grave e classe funcional IV. A liberação é feita pela equipe, de preferência dentro de um programa de reabilitação cardíaca. Começar devagar e aumentar conforme a tolerância é mais seguro do que buscar desempenho.',
+          'As vacinas contra influenza, pneumococo e covid-19 fazem parte do cuidado. Infecções respiratórias estão entre os gatilhos de descompensação, e a vacinação reduz esse risco. Ambientes muito cheios em época de gripe e exposição ao frio também merecem atenção.',
+          'Caminhar, manter peso saudável, dormir bem e evitar álcool e cigarro ajudam o coração a trabalhar com menos esforço. A rotina não precisa ser perfeita: pequenos ajustes sustentados ao longo das semanas costumam valer mais do que mudanças radicais que não duram.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Alguns sinais exigem atendimento imediato. Falta de ar intensa em repouso, sensação de afogamento, tosse com catarro rosado e espumoso, dor no peito que não melhora ou desmaio pedem SAMU (192) ou pronto atendimento. Não espere a próxima consulta.',
+          'Confusão mental, dificuldade para despertar, lábios ou extremidades arroxeadas e pele fria também são emergência. Palpitações com tontura e inchaço que sobe rápido junto de falta de ar crescente completam a lista. Na dúvida, ligar para o serviço de emergência é mais seguro do que esperar.',
+          'Entre uma consulta e outra, manter o plano de cuidado, o diário de peso e os remédios em dia é o que sustenta a estabilidade. A família deve saber onde estão a receita, os exames e o telefone da unidade. O retorno não é uma formalidade: é parte do tratamento. Anotar as dúvidas antes da consulta ajuda a aproveitar melhor o tempo com a equipe.',
+        ],
+        cta: {
+          label: 'Conheça a página da insuficiência cardíaca',
+          href: '/doencas/insuficiencia-cardiaca/',
+        },
+      },
+    ],
+    diseaseSlugs: ['insuficiencia-cardiaca'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
+      'insuficiencia-cardiaca-tratamento-e-vida-diaria',
+      'insuficiencia-cardiaca-transplante-cardiaco',
+      'insuficiencia-cardiaca-o-que-pode-ser-confundido',
+    ],
+    references: [
+      {
+        label: 'Insuficiência cardíaca com fração de ejeção reduzida: protocolo clínico e diretrizes terapêuticas, resumo',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/PCDTResumidoInsuficinciaCardacafinal.pdf',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas de insuficiência cardíaca com fração de ejeção reduzida',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/i/insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Insuficiência cardíaca: especialista explica fatores de risco, sintomas e tratamento',
+        url: 'https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-norte/hdt-ufnt/insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento',
+        publisher: 'Rede Ebserh e Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'insuficiencia-cardiaca-o-que-pode-ser-confundido',
+    slug: 'insuficiencia-cardiaca-o-que-pode-ser-confundido',
+    title: 'Falta de ar e inchaço: o que pode ser confundido com insuficiência cardíaca',
+    excerpt:
+      'Asma, DPOC, insuficiência venosa, doença renal e problemas do pericárdio imitam o quadro. Entenda como a avaliação separa cada causa.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'sintomas-compartilhados',
+        heading: 'Sintomas que muitas doenças compartilham',
+        paragraphs: [
+          'Falta de ar, cansaço e inchaço são sintomas comuns a muitas doenças. Sentir o peito apertado ao subir uma escada, por exemplo, pode vir do coração, do pulmão, dos rins ou das pernas. O sintoma isolado não fecha diagnóstico. O mesmo sintoma pode ter causas diferentes em pessoas diferentes.',
+          'A diferença está no conjunto e no contexto. Histórico de doença cardíaca, inchaço que piora ao deitar, necessidade de mais travesseiros e veias do pescoço cheias apontam para o coração. Já chiado, tosse crônica e histórico de fumo apontam para o pulmão.',
+          'O exame físico e os exames complementares organizam essa investigação. O médico escuta o pulmão, examina o coração, o pescoço e as pernas e pergunta sobre peso, sono e remédios. A avaliação inicial não precisa de tecnologia para começar a separar os cenários. A ordem da investigação segue o que é mais frequente, sem esquecer as causas menos comuns.',
+        ],
+      },
+      {
+        id: 'asma-e-dpoc',
+        heading: 'Asma e DPOC',
+        paragraphs: [
+          'Asma e DPOC causam chiado, tosse e falta de ar, e podem ser confundidas com insuficiência cardíaca. Na asma, as crises costumam responder ao broncodilatador habitual. Na DPOC, o histórico de fumo e a tosse crônica são pistas importantes.',
+          'A insuficiência cardíaca também pode dar chiado, sobretudo quando há líquido no pulmão. Por isso, o histórico de doença pulmonar não elimina a suspeita cardíaca. Um episódio de falta de ar que surge de repente e não responde ao tratamento de sempre merece avaliação. A resposta ao broncodilatador de sempre é uma pista, mas não fecha o diagnóstico.',
+          'O ecocardiograma ajuda a separar os quadros ao mostrar o tamanho das câmaras, as válvulas e a fração de ejeção. A radiografia de tórax e o BNP ou NT-proBNP completam a investigação. O tratamento de cada doença é diferente, e tratar a errada atrasa a melhora.',
+        ],
+      },
+      {
+        id: 'inchaco-das-pernas',
+        heading: 'Inchaço nas pernas',
+        paragraphs: [
+          'Inchaço nos tornozelos e nos pés tem muitas causas. A insuficiência venosa das pernas provoca inchaço, mas costuma vir sem falta de ar ao deitar e sem congestão no pulmão. Ficar muito tempo em pé, calor e efeito de alguns remédios também contribuem.',
+          'Na insuficiência cardíaca, o inchaço costuma ser acompanhado de falta de ar aos esforços, necessidade de mais travesseiros e ganho de peso em poucos dias. A barriga inchada e as veias do pescoço mais visíveis reforçam a suspeita. O conjunto pesa mais do que o tornozelo isolado. O ganho de peso em poucos dias é um dos sinais que mais ajudam a diferenciar.',
+          'A avaliação inclui examinar as pernas, o abdome e o pescoço, além de perguntar sobre a rotina e os remédios. Quando a causa não é clara, o ecocardiograma e os exames de sangue ajudam. Tratar o inchaço como se fosse só questão de circulação periférica pode adiar o diagnóstico.',
+        ],
+      },
+      {
+        id: 'rim-e-figado',
+        heading: 'Rins e fígado também retêm líquido',
+        paragraphs: [
+          'Doença renal e cirrose também retêm líquido e causam inchaço. Nos rins, os exames de sangue e de urina mostram alterações próprias, e a urina pode diminuir. Na cirrose, a barriga costuma acumular líquido e há sinais de doença hepática. Os exames de urina e de sangue mostram alterações próprias de cada órgão.',
+          'A confusão acontece porque o coração e os rins dependem um do outro. A congestão que não melhora sobrecarrega os rins e pode piorar a função renal. Por isso, a avaliação de uma pessoa com inchaço inclui olhar o coração e os rins ao mesmo tempo. Por isso, quem tem as duas doenças precisa de acompanhamento conjunto.',
+          'O BNP ou NT-proBNP ajuda a separar a falta de ar de origem cardíaca de outras causas. Em quem ainda não usa remédio para o coração, valores abaixo de 35 pg/mL (BNP) ou 125 pg/mL (NT-proBNP) tornam a doença improvável, embora possam subir na doença renal e na idade avançada. O resultado é interpretado junto com o quadro clínico.',
+        ],
+      },
+      {
+        id: 'pericardio',
+        heading: 'Problemas do pericárdio',
+        paragraphs: [
+          'Doenças do pericárdio, a membrana que envolve o coração, também imitam a insuficiência cardíaca. Um derrame pericárdico volumoso comprime o coração e dificulta o enchimento. A pericardite constritiva deixa a membrana rígida e produz o mesmo efeito ao longo do tempo. O histórico de cirurgia cardíaca ou de inflamação prévia pode levantar a suspeita. O diagnóstico exige essa checagem.',
+          'Nesses casos, falta de ar e cansaço aparecem, mas o músculo cardíaco pode estar preservado. O ecocardiograma é o exame que mostra o derrame e ajuda a identificar a constrição. Sem ele, o quadro pode ser atribuído ao coração fraco por engano.',
+          'A distinção importa porque o tratamento é diferente. Drenar um derrame ou tratar a inflamação não é o mesmo que ajustar os remédios da insuficiência cardíaca. A avaliação especializada define o caminho.',
+        ],
+      },
+      {
+        id: 'como-separa',
+        heading: 'Como a avaliação separa as causas',
+        paragraphs: [
+          'A avaliação começa pela história e pelo exame físico. O médico pergunta sobre falta de ar ao deitar, despertares noturnos, ganho de peso e remédios em uso. Depois examina o pulmão, o coração, as veias do pescoço e as pernas. Perguntar sobre o sono e sobre o número de travesseiros faz parte da entrevista.',
+          'O ecocardiograma é o exame central: mostra o tamanho das câmaras, o funcionamento das válvulas e a fração de ejeção. O BNP ou NT-proBNP ajuda em casos de dúvida. Eletrocardiograma, radiografia e exames de sangue completam a investigação.',
+          'Nenhum exame substitui o olhar para a pessoa e sua rotina. Um resultado normal em um exame isolado não descarta a doença, e um resultado alterado não confirma sozinho. A combinação de história, exame e exames complementares é o que separa a insuficiência cardíaca das imitações. A conversa com quem convive com o paciente também costuma trazer informações úteis.',
+        ],
+        cta: {
+          label: 'Veja como a insuficiência cardíaca é diagnosticada',
+          href: '/doencas/insuficiencia-cardiaca/',
+        },
+      },
+    ],
+    diseaseSlugs: ['insuficiencia-cardiaca'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento',
+      'insuficiencia-cardiaca-tratamento-e-vida-diaria',
+      'insuficiencia-cardiaca-transplante-cardiaco',
+      'insuficiencia-cardiaca-apos-alta',
+    ],
+    references: [
+      {
+        label: 'Insuficiência cardíaca com fração de ejeção reduzida: protocolo clínico e diretrizes terapêuticas, resumo',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/PCDTResumidoInsuficinciaCardacafinal.pdf',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Insuficiência cardíaca: especialista explica fatores de risco, sintomas e tratamento',
+        url: 'https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-norte/hdt-ufnt/insuficiencia-cardiaca-especialista-explica-fatores-de-risco-sintomas-e-tratamento',
+        publisher: 'Rede Ebserh e Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas de insuficiência cardíaca com fração de ejeção reduzida',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/i/insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
 ];

@@ -396,6 +396,18 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-pneumonia-soro.webp',
     alt: 'Bolsa de soro pendurada no pé de infusão em uma sala de hospital',
   },
+  'pneumonia-vacina-protecao': {
+    src: '/img/artigo-pneumonia-vacina-protecao.webp',
+    alt: 'Profissional de saúde com luvas aplicando vacina no braço de um adulto',
+  },
+  'pneumonia-em-criancas': {
+    src: '/img/artigo-pneumonia-em-criancas.webp',
+    alt: 'Médico auscultando o peito de uma criança com estetoscópio',
+  },
+  'pneumonia-em-idosos': {
+    src: '/img/artigo-pneumonia-em-idosos.webp',
+    alt: 'Profissional de cuidado se inclina para ajudar uma idosa em cadeira de rodas',
+  },
   'insuficiencia-cardiaca-sinais-de-alerta-quando-procurar-atendimento': {
     src: '/img/artigo-insuficiencia-cardiaca-rx.webp',
     alt: 'Radiografia de tórax mostrando o contorno alargado do coração',
@@ -404,6 +416,18 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-insuficiencia-cardiaca-balanca.webp',
     alt: 'Pés descalços sobre uma balança digital de banheiro',
   },
+  'insuficiencia-cardiaca-transplante-cardiaco': {
+    src: '/img/artigo-catarata-cirurgia.webp',
+    alt: 'Dois cirurgiões de touca e máscara operando sob as luzes de um centro cirúrgico',
+  },
+  'insuficiencia-cardiaca-apos-alta': {
+    src: '/img/artigo-medir-pressao.webp',
+    alt: 'Esfigmomanômetro com mostrador redondo e braçadeira sobre fundo claro',
+  },
+  'insuficiencia-cardiaca-o-que-pode-ser-confundido': {
+    src: '/img/artigo-asma-diagnostico.webp',
+    alt: 'Médico de braços cruzados segurando um estetoscópio vermelho',
+  },
   'esteatose-hepatica-sintomas-e-quando-procurar-atendimento': {
     src: '/img/artigo-esteatose-ultrassom.webp',
     alt: 'Profissional de luvas pretas segurando o transdutor de um aparelho de ultrassom',
@@ -411,6 +435,18 @@ export const articleImages: Record<string, SiteImage> = {
   'esteatose-hepatica-como-reverter-com-habitos': {
     src: '/img/artigo-esteatose-cozinha.webp',
     alt: 'Pessoa picando legumes numa tábua de cozinha',
+  },
+  'esteatose-hepatica-descobri-no-check-up': {
+    src: '/img/artigo-esteatose-checkup.webp',
+    alt: 'Profissional de saúde medindo a pressão arterial de uma paciente numa consulta',
+  },
+  'esteatose-hepatica-o-que-acontece-sem-tratamento': {
+    src: '/img/artigo-esteatose-figado.webp',
+    alt: 'Médico conversando com uma paciente enquanto segura um prontuário',
+  },
+  'esteatose-hepatica-causas-e-mitos': {
+    src: '/img/artigo-esteatose-causas.webp',
+    alt: 'Prato com salada, legumes e ovo sobre uma mesa de madeira',
   },
   'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento': {
     src: '/img/artigo-parasitoses-crianca.webp',
