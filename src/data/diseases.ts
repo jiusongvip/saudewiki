@@ -2430,8 +2430,8 @@ export const diseases: Disease[] = [
         heading: 'O que é asma?',
         paragraphs: [
           'A asma é uma doença inflamatória crônica das vias aéreas. Essa inflamação deixa as vias mais sensíveis e faz com que elas se estreitem com facilidade em contato com poeira, mofo, fumaça, mudanças de tempo e infecções respiratórias.',
-          'Quando as vias aéreas se estreitam, o ar passa com dificuldade. O resultado é chiado, falta de ar, aperto no peito e tosse, que aparecem em episódios chamados crises e se alternam com períodos de controle.',
-          'A asma atinge cerca de 4,6% dos adultos e 12,1% das crianças no Brasil, segundo o Protocolo Clínico e Diretrizes Terapêuticas da asma do Ministério da Saúde, publicado em 2026. O país registra em média cerca de seis mortes por dia pela doença, a maior parte evitável com tratamento adequado.',
+          'Quando as vias aéreas se estreitam, o ar passa com dificuldade. O resultado é chiado, falta de ar, aperto no peito e tosse, que aparecem em episódios chamados crises e se alternam com períodos de controle. A inflamação, porém, continua mesmo fora das crises, e o tratamento não deve ser interrompido quando os sintomas desaparecem.',
+          'A asma atinge cerca de 4,6% dos adultos e 12,1% das crianças no Brasil, segundo o Protocolo Clínico e Diretrizes Terapêuticas da asma do Ministério da Saúde, atualizado em 2026. O país registra cerca de seis mortes por dia pela doença, a maior parte evitável com tratamento adequado. Quem tem casos de asma, rinite alérgica ou dermatite atópica na família corre risco maior.',
         ],
       },
       {
@@ -2441,17 +2441,18 @@ export const diseases: Disease[] = [
           'A asma é uma só doença, mas pode ser classificada de formas diferentes, e essa classificação ajuda a orientar o tratamento:',
         ],
         bullets: [
-          'Asma alérgica: a forma mais comum, em que as crises são desencadeadas por alérgenos como ácaros, poeira, pelos de animais e mofo.',
-          'Asma não alérgica: as crises são provocadas por outros gatilhos, como infecções respiratórias, fumaça, exercício, ar frio e estresse.',
-          'Asma leve, moderada ou grave: classificação pela frequência dos sintomas e pelo tipo de tratamento necessário para manter a doença controlada.',
-          'Asma ocupacional: surge ou piora por causa de substâncias presentes no ambiente de trabalho, como poeiras, vapores e produtos químicos.',
+          'Asma alérgica: a forma mais comum. As crises são desencadeadas por alérgenos como ácaros, poeira, pelos de animais e mofo, e costumam vir acompanhadas de espirros e coriza.',
+          'Asma induzida por exercício: aparece durante ou logo depois da atividade física, em geral alguns minutos após o início, e melhora com a pausa e com o tratamento.',
+          'Asma por medicamentos: remédios como o ácido acetilsalicílico e outros anti-inflamatórios, ou certos betabloqueadores, podem provocar crises em pessoas sensíveis. Quem tem asma deve avisar sempre ao médico sobre a doença.',
+          'Asma ocupacional: surge ou piora por causa de substâncias presentes no ambiente de trabalho, como poeiras, vapores e produtos químicos, e melhora nos períodos longe do serviço.',
+          'Asma leve, moderada ou grave: classificação pela frequência dos sintomas e pela quantidade de medicamento necessária para manter a doença controlada.',
         ],
       },
       {
         id: 'sintomas',
         heading: 'Quais são os sintomas?',
         paragraphs: [
-          'Os sintomas da asma vão e voltam, e a intensidade varia de pessoa para pessoa e ao longo do tempo. Os mais comuns são:',
+          'Os sintomas da asma vão e voltam, e a intensidade varia de pessoa para pessoa e ao longo do tempo. Muita gente percebe sinais de aviso antes de uma crise, como nariz entupido, espirros seguidos e coceira nos olhos. Os sintomas mais comuns são:',
         ],
         bullets: [
           'Chiado no peito, chamado de sibilância',
@@ -2461,10 +2462,11 @@ export const diseases: Disease[] = [
           'Piora dos sintomas à noite ou no início da manhã',
           'Cansaço para atividades que antes eram fáceis',
           'Acordar durante a noite por falta de ar ou tosse',
+          'Quando a crise é desencadeada por uma infecção respiratória, pode haver febre, dor de garganta e cansaço',
         ],
         cta: {
-          label: 'Leia também: o que fazer em uma crise de asma',
-          href: '/artigos/asma-crise-o-que-fazer-enquanto-espera-atendimento/',
+          label: 'Leia também: sintomas e sinais de alerta da asma',
+          href: '/artigos/asma-sintomas-e-sinais-de-alerta/',
         },
       },
       {
@@ -2476,59 +2478,168 @@ export const diseases: Disease[] = [
         ],
       },
       {
-        id: 'fatores-de-risco',
-        heading: 'O que aumenta o risco de asma?',
+        id: 'causas',
+        heading: 'O que causa a asma?',
         paragraphs: [
-          'Alguns fatores aumentam a chance de desenvolver asma ou de ter crises mais frequentes. Entre eles:',
+          'A asma aparece da combinação de dois fatores: uma tendência herdada a desenvolver alergias e a exposição a substâncias do ambiente. A herança genética não determina sozinha a doença: ela deixa a pessoa mais propensa, e o ambiente funciona como o empurrão que faz a doença se manifestar.',
+          'Quando há casos de asma, rinite alérgica ou dermatite atópica na família, a chance de desenvolver o problema aumenta. Já a parcela ambiental vem de alérgenos e irritantes que a pessoa respira no dia a dia:',
         ],
         bullets: [
-          'História familiar de asma, rinite alérgica ou dermatite atópica',
-          'Exposição à fumaça do tabaco, sobretudo durante a gravidez e na primeira infância',
-          'Contato frequente com ácaros, poeira, mofo e pelos de animais',
-          'Infecções respiratórias de repetição na infância',
-          'Obesidade',
-          'Exposição a substâncias irritantes no ambiente de trabalho',
+          'Dentro de casa: ácaros da poeira, baratas, mofo e pelos de animais',
+          'Ao ar livre: pólen e gramíneas, que variam conforme a estação',
+          'Irritantes: fumaça de cigarro, poluição do ar e produtos químicos no trabalho',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que dispara uma crise?',
+        paragraphs: [
+          'Além de favorecer o aparecimento da doença, alguns fatores disparam as crises em quem já tem asma. Reconhecer os seus é parte central do controle:',
+        ],
+        bullets: [
+          'Mudanças de tempo: ar frio, queda da umidade e variações bruscas de temperatura na troca de estação',
+          'Exercício físico intenso, como corrida, futebol e subida de escada; a natação costuma ser bem tolerada por causa da umidade do ar',
+          'Infecções respiratórias, como resfriados e gripe',
+          'Emoções fortes, como ansiedade, estresse e até riso intenso',
+          'Fumaça de cigarro, poluição e cheiros fortes',
+          'Contato com ácaros, mofo, pelos de animais e baratas',
+          'Alguns medicamentos, como o ácido acetilsalicílico e certos betabloqueadores',
         ],
       },
       {
         id: 'diagnostico',
         heading: 'Como é feito o diagnóstico?',
         paragraphs: [
-          'O diagnóstico começa pela história clínica e pelo exame físico. São valorizados sintomas que vão e voltam, que pioram à noite ou no início da manhã e que aparecem depois do contato com um gatilho.',
+          'O diagnóstico começa pela história clínica e pelo exame físico. São valorizados sintomas que vão e voltam, que pioram à noite ou no início da manhã e que aparecem depois do contato com um gatilho. Durante a crise, o médico pode ouvir chiado nos dois pulmões e notar que a saída do ar fica mais longa.',
           'A confirmação vem da espirometria, um exame que mede como o ar entra e sai dos pulmões e registra o volume expiratório forçado no primeiro segundo, o VEF1. A prova é feita antes e depois do uso de um broncodilatador: um aumento do VEF1 de pelo menos 12% e 200 mL confirma que a obstrução é reversível, característica da asma.',
-          'Em crianças pequenas, a espirometria pode ser difícil de realizar, e o diagnóstico fica apoiado nos sintomas e na resposta ao tratamento. Nesses casos, o médico também precisa descartar outras causas de tosse e chiado, como bronquiolite, rinite alérgica e refluxo.',
+          'Em crianças pequenas, a espirometria pode ser difícil de realizar, e o diagnóstico fica apoiado nos sintomas e na resposta ao tratamento. Nesses casos, o médico também precisa descartar outras causas de tosse e chiado.',
+          'No Brasil, a investigação costuma começar na unidade básica de saúde, com um clínico geral. Quando é preciso aprofundar ou o caso é mais complexo, o paciente é encaminhado a um pneumologista ou a um alergista. Em uma crise, procure um pronto atendimento ou uma UPA.',
         ],
       },
       {
-        id: 'prevencao',
-        heading: 'Como reduzir as crises',
+        id: 'exames',
+        heading: 'Quais exames ajudam no diagnóstico?',
         paragraphs: [
-          'Com o tratamento de controle bem feito e alguns cuidados no dia a dia, é possível reduzir a frequência e a gravidade das crises:',
+          'Além da espirometria, outros exames ajudam a confirmar o diagnóstico, medir a inflamação e acompanhar o tratamento:',
         ],
         bullets: [
-          'Não fumar e evitar a exposição à fumaça do tabaco, inclusive a passiva',
-          'Reduzir o contato com ácaros, poeira, mofo e pelos de animais, mantendo a casa ventilada e sem acúmulo de objetos que juntam pó',
-          'Manter as vacinas em dia, sobretudo contra a gripe: pessoas com asma em uso de corticoide inalatório ou sistêmico, na forma moderada ou grave, estão entre os grupos prioritários da campanha anual de vacinação',
-          'Usar o medicamento de controle todos os dias, mesmo nos períodos sem sintomas',
-          'Reconhecer e evitar os gatilhos pessoais',
-          'Manter atividade física e peso saudável, com orientação profissional',
+          'Radiografia e tomografia: ajudam a afastar outras doenças pulmonares.',
+          'Prova de função pulmonar: reúne os testes de broncoprovocação e de broncodilatação, que mostram a resposta das vias aéreas ao estímulo e ao medicamento.',
+          'Óxido nítrico exalado (FeNO): mede a inflamação das vias aéreas pelo ar expirado e ajuda a orientar o uso do corticoide inalatório.',
+          'Gasometria arterial: mede o oxigênio e o gás carbônico no sangue e indica a gravidade nas crises; queda do oxigênio com aumento do gás carbônico aponta maior gravidade.',
+          'Eosinófilos no escarro: mostra o tipo de inflamação e ajuda a prever a resposta ao corticoide.',
+          'Testes de alergia: por sangue ou na pele, identificam a que substâncias a pessoa é alérgica, o que ajuda a evitar os gatilhos.',
+          'Pico de fluxo expiratório: mede a força com que o ar sai dos pulmões; quedas nos valores ao longo de vários dias ajudam a confirmar a asma e a prever uma piora.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Asma ou outra doença?',
+        paragraphs: [
+          'Vários quadros causam tosse, chiado e falta de ar parecidos com os da asma, e o médico precisa afastá-los antes de fechar o diagnóstico. Entre eles:',
+        ],
+        bullets: [
+          'DPOC e bronquite crônica: comuns em pessoas acima de 40 anos e com histórico de tabagismo. Na DPOC, a obstrução não melhora de forma significativa depois do broncodilatador, o que ajuda a diferenciá-la da asma.',
+          'Câncer de pulmão: a tosse e a falta de ar pioram aos poucos, pode haver sangue no escarro e os sintomas não melhoram com remédio para asma; a tomografia mostra nódulos ou massas.',
+          'Derrame pleural: acúmulo de líquido entre o pulmão e a parede do tórax, em geral por tuberculose, com falta de ar, febre à tarde, suor noturno e dor no peito; a radiografia mostra o líquido.',
+          'Pneumotórax espontâneo: dor súbita e intensa no peito com dificuldade para inspirar, sem chiado na ausculta e sem resposta ao broncodilatador; a radiografia confirma.',
+          'Embolia pulmonar: falta de ar e sensação de sufocamento de início súbito, mais comum em quem ficou acamado, fez cirurgia ou tem trombose nas pernas; exige investigação imediata.',
         ],
       },
       {
         id: 'tratamento',
-        heading: 'Tratamento e cuidados',
+        heading: 'Tratamento e controle',
         paragraphs: [
           'O tratamento da asma tem duas frentes. O medicamento de controle reduz a inflamação das vias aéreas e deve ser usado todos os dias, mesmo quando a pessoa está bem. O medicamento de alívio abre a via aérea durante a crise, mas não substitui o de controle.',
-          'Segundo o Protocolo Clínico e Diretrizes Terapêuticas da asma, do Ministério da Saúde, todo paciente deve ter acesso a um broncodilatador de ação rápida para alívio dos sintomas e, quando os sintomas são frequentes ou há histórico de crises graves, o tratamento de controle começa com um corticosteroide inalatório.',
-          'No SUS, o tratamento é gratuito: beclometasona e salbutamol inalatórios e prednisona estão disponíveis nas unidades de saúde para o controle da asma.',
-          'Usar o inalador do jeito certo é parte do tratamento, porque a técnica errada faz o medicamento não chegar aos pulmões. Vale pedir ao profissional de saúde que observe a sua técnica na próxima consulta.',
+          'Segundo o Protocolo Clínico e Diretrizes Terapêuticas da asma, do Ministério da Saúde, todo paciente deve ter acesso a um broncodilatador de ação rápida para alívio dos sintomas. Quando os sintomas são frequentes ou há histórico de crises graves, o controle começa com um corticosteroide inalatório.',
+          'No SUS, o tratamento é gratuito: beclometasona e salbutamol inalatórios e prednisona estão disponíveis nas unidades de saúde.',
+          'Nas crises leves, o broncodilatador de ação rápida costuma resolver em minutos. Quando a resposta é insuficiente ou a crise é grave, com dificuldade para falar ou lábios arroxeados, é preciso atendimento de emergência, onde podem ser usados corticoide por via oral ou venosa e oxigênio.',
+          'Quem tem asma e precisa operar deve manter a doença controlada antes da cirurgia e avisar a equipe sobre o problema, porque alguns anestésicos e relaxantes musculares podem provocar broncoespasmo.',
+          'Os principais grupos de medicamentos são:',
         ],
+        bullets: [
+          'Corticosteroides inalatórios: base do controle, reduzem a inflamação com pouca ação no resto do corpo.',
+          'Broncodilatadores de ação rápida, como o salbutamol: aliviam a crise em poucos minutos.',
+          'Broncodilatadores de ação prolongada: usados junto com o corticoide inalatório nos quadros moderados e graves.',
+          'Antagonistas dos leucotrienos: alternativa de controle, útil na asma induzida por aspirina e quando há rinite alérgica associada.',
+          'Anticolinérgicos inalatórios, como o ipratrópio: ajudam a relaxar a via aérea, sozinhos ou combinados.',
+          'Anticorpos monoclonais, como o anti-IgE: reservados à asma alérgica grave que não responde ao tratamento habitual.',
+          'Termoplastia brônquica: procedimento para casos graves sem controle com medicamentos; aplica calor controlado à parede das vias aéreas para reduzir a contração do músculo. Não cura a asma, e o paciente segue usando medicamentos.',
+        ],
+        cta: {
+          label: 'Leia também: tratamento e controle da asma no dia a dia',
+          href: '/artigos/asma-tratamento-e-controle/',
+        },
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a asma pode causar?',
+        paragraphs: [
+          'Quando as crises são frequentes e a doença fica fora de controle por muito tempo, podem surgir complicações:',
+        ],
+        bullets: [
+          'Hiperinsuflação pulmonar: a obstrução mantida dificulta a saída do ar e deixa o pulmão inflado; com o tempo, a pressão nas artérias do pulmão sobe e sobrecarrega o lado direito do coração (cor pulmonale).',
+          'Insuficiência respiratória: na crise aguda grave falta oxigênio no sangue; nos quadros crônicos, o gás carbônico se acumula.',
+          'Parada respiratória: a interrupção súbita da respiração é uma das emergências mais graves da asma e exige reanimação imediata.',
+          'Pneumotórax: esforços intensos, como tossir ou carregar peso, podem romper o tecido do pulmão e fazer o ar escapar para o tórax ou para o espaço entre os pulmões.',
+          'Aspergilose alérgica: reação ao mofo do gênero Aspergillus, com cansaço, perda de peso, tosse persistente e suor noturno; o escarro pode vir com placas castanhas.',
+          'Arritmias e queda da pressão: costumam estar ligadas à falta grave de oxigênio ou ao uso incorreto de medicamentos.',
+          'Deformidades do tórax: quem tem asma desde a infância pode desenvolver tórax em barril ou peito de pombo, o que agrava a dificuldade para respirar.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'Alguns cuidados dentro de casa e na rotina ajudam a reduzir o contato com os gatilhos e a manter a asma sob controle:',
+        ],
+        bullets: [
+          'Reduza os ácaros: use capa impermeável no colchão e no travesseiro, lave a roupa de cama com frequência e evite tapetes e objetos que juntam pó',
+          'Cuide dos animais: quem tem alergia a pelos deve evitar criar gato ou cachorro e, se já tem, manter o animal longe do quarto',
+          'Mantenha o ar limpo: não fume dentro de casa, evite produtos de limpeza e perfumes com cheiro forte e deixe os ambientes ventilados',
+          'Observe a alimentação: fique atento a alimentos que disparam sintomas e evite bebidas muito geladas, que podem irritar as vias aéreas',
+          'Exercite-se com orientação: o aquecimento antes do exercício ajuda a prevenir crises',
+          'Use o inalador corretamente: peça orientação na consulta e revise a técnica, porque a forma de usar muda o quanto o remédio chega ao pulmão',
+        ],
+      },
+      {
+        id: 'monitoramento',
+        heading: 'Como acompanhar o controle',
+        paragraphs: [
+          'O acompanhamento regular é o que mantém a asma controlada. As consultas de retorno são periódicas e mais frequentes quando o controle ainda não está bom; depois de uma crise, é importante voltar ao serviço de saúde para reavaliar o tratamento.',
+          'Em casa, medidas simples ajudam a perceber se a doença está sob controle:',
+        ],
+        bullets: [
+          'Medidor de pico de fluxo: aparelho portátil que mostra o quanto de ar sai do pulmão; quedas nos valores ajudam a prever uma piora antes dos sintomas',
+          'Diário de sintomas: anotar os dias com crise, os medicamentos usados e o que a desencadeou ajuda o médico a ajustar o tratamento',
+          'Uso do medicamento de alívio: precisar dele muitas vezes na semana é sinal de que o controle está inadequado e pede revisão',
+          'Teste de controle (ACT): questionário curto, aplicado na consulta, que transforma em nota o quanto a doença está controlada',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir as crises',
+        paragraphs: [
+          'A asma não tem vacina específica. A prevenção reúne evitar os gatilhos, manter o tratamento de controle em dia e cuidar das fases da vida em que o risco é maior:',
+          'Manter as vacinas em dia, sobretudo contra a gripe, faz parte da prevenção, porque as infecções respiratórias estão entre os principais gatilhos de crise. Pessoas com asma em uso de corticoide inalatório ou sistêmico, na forma moderada ou grave, estão entre os grupos prioritários da campanha anual de vacinação.',
+        ],
+        bullets: [
+          'Crianças pequenas: a amamentação é protetora, e reduzir a exposição a ácaros e a pelos de animais nos primeiros anos pode ajudar. Evitar o fumo durante a gestação também diminui o risco de a criança desenvolver asma',
+          'Adultos: o foco é evitar os alérgenos pessoais, parar de fumar, tratar a obesidade quando presente, cuidar da saúde mental e aquecer antes dos exercícios',
+          'Gestação e ciclo menstrual: a asma deve ser acompanhada ao longo de toda a gravidez, e algumas mulheres pioram no período que antecede a menstruação',
+        ],
+        cta: {
+          label: 'Leia também: como evitar crises de asma',
+          href: '/artigos/asma-como-evitar-crises/',
+        },
       },
       {
         id: 'sinais-de-alerta',
         heading: 'Sinais de alerta e quando procurar atendimento',
         paragraphs: [
-          'Uma crise grave é uma emergência. Procure atendimento de emergência ou vá imediatamente a um pronto atendimento, sem esperar a crise melhorar sozinha, se houver:',
+          'Uma crise de asma pode se agravar em pouco tempo. Ajuda reconhecer como a gravidade aumenta antes de chegar ao ponto crítico.',
+          'Na crise leve, a falta de ar aparece só ao caminhar ou subir escadas e o chiado é discreto. Na moderada, a pessoa precisa parar para respirar no meio das frases, o chiado fica mais forte e o coração acelera. Na grave, há dificuldade mesmo em repouso, a fala sai em palavras soltas, a respiração passa de 30 por minuto e os batimentos passam de 120 por minuto. No quadro crítico, a pessoa não consegue falar, fica sonolenta ou confusa e o chiado pode até desaparecer.',
+          'Uma crise grave é uma emergência. Procure um pronto atendimento ou uma UPA, sem esperar a crise melhorar sozinha, se houver:',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2539,6 +2650,10 @@ export const diseases: Disease[] = [
           'Piora progressiva apesar do tratamento habitual',
           'Chiado muito intenso ou, ao contrário, peito silencioso, sem chiado audível, com grande dificuldade para respirar',
         ],
+        cta: {
+          label: 'Leia também: o que fazer em uma crise de asma',
+          href: '/artigos/asma-crise-o-que-fazer-enquanto-espera-atendimento/',
+        },
       },
     ],
     faq: [
@@ -2575,7 +2690,7 @@ export const diseases: Disease[] = [
       },
       {
         label: 'Asma: Protocolo Clínico e Diretrizes Terapêuticas',
-        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma/pcdt',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/asma/view',
         publisher: 'Ministério da Saúde (Brasil)',
       },
       {
@@ -2593,7 +2708,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

@@ -2592,26 +2592,32 @@ export const articles: Article[] = [
         id: 'o-que-e-uma-crise',
         heading: 'O que é uma crise',
         paragraphs: [
-          'Na asma, as vias aéreas inflamadas reagem a gatilhos e se estreitam. A crise é o momento em que esse estreitamento dificulta a passagem do ar e aparecem chiado, falta de ar e aperto no peito.',
-          'Gatilhos comuns incluem poeira, mofo, fumaça, mudanças de tempo, infecções respiratórias e contato com animais.',
+          'Na asma, as vias aéreas ficam inflamadas de forma crônica e reagem com estreitamento a gatilhos como poeira, mofo, fumaça, ar frio e infecções respiratórias. Durante a crise, esse estreitamento se intensifica, o ar passa com dificuldade e surgem chiado, falta de ar, aperto no peito e tosse. A crise pode começar em minutos e evoluir rápido, e é essa velocidade que torna o reconhecimento precoce tão importante para o desfecho.',
+          'Uma crise não significa descuido. Ela pode surgir mesmo em quem usa o medicamento de controle todos os dias, sobretudo durante uma infecção respiratória, numa mudança brusca de tempo ou depois do contato com um alérgeno. O que muda o desfecho é a rapidez com que a pessoa percebe a piora e procura ajuda adequada, sem tentar resolver sozinha uma situação que já saiu do controle.',
+          'Vale conhecer o próprio padrão. Muitas pessoas têm sinais de aviso antes da crise, como nariz entupido, espirros seguidos, coceira nos olhos ou tosse seca que aumenta à noite. Perceber esses sinais permite agir cedo, quando o estreitamento ainda é leve e responde melhor ao medicamento de alívio, evitando que a crise chegue ao ponto de exigir atendimento de emergência.',
         ],
       },
       {
         id: 'primeiros-passos',
         heading: 'Primeiros passos',
+        paragraphs: [
+          'A primeira medida é usar o medicamento de alívio conforme a orientação que você já recebeu no serviço de saúde. Ele abre a via aérea em poucos minutos. Se houver um plano de ação por escrito, siga os passos indicados para o nível de sintomas que está apresentando, sem aumentar a dose por conta própria nem repetir o remédio em intervalos menores do que o combinado, porque o excesso pode causar efeitos indesejados.',
+          'Enquanto espera o efeito do medicamento, sente-se ereto e mantenha a calma. Deitar piora a sensação de falta de ar, porque reduz a expansão do tórax. Afaste-se do gatilho quando ele for identificável, deixe o ambiente ventilado e não fume nem permaneça perto de quem fuma. A calma ajuda a respirar melhor, mas não substitui o atendimento quando há sinais graves.',
+        ],
         bullets: [
-          'Use o medicamento de alívio conforme a orientação que você já recebeu do serviço de saúde',
+          'Use o medicamento de alívio conforme a orientação recebida',
           'Afaste-se do gatilho, se ele for identificável',
-          'Sente-se ereto e mantenha a calma; deitar pode piorar a sensação de falta de ar',
-          'Não fume e não fique em ambiente com fumaça',
-          'Se não houver melhora rápida, procure uma UPA ou um pronto-socorro',
+          'Sente-se ereto e mantenha a calma',
+          'Não fume e evite ambiente com fumaça',
+          'Se não houver melhora em poucos minutos, procure uma UPA ou um pronto-socorro',
         ],
       },
       {
         id: 'sinais-de-gravidade',
         heading: 'Sinais de gravidade',
         paragraphs: [
-          'Estes sinais indicam crise grave. Nesses casos, procure atendimento de emergência ou vá imediatamente a um pronto atendimento:',
+          'A gravidade é medida pelo que a pessoa consegue fazer, e não apenas pelo volume do chiado. Na crise moderada, ela precisa parar para respirar no meio das frases, o chiado fica mais forte e o coração acelera. Na grave, a fala sai em palavras soltas, a respiração passa de 30 por minuto e os batimentos passam de 120 por minuto, mesmo em repouso. No quadro crítico, a pessoa não consegue falar, fica sonolenta ou confusa.',
+          'O desaparecimento do chiado não é sinal de melhora. Quando o ar quase não passa, o som pode sumir e o quadro fica ainda mais grave, situação conhecida como peito silencioso. Diante de qualquer sinal abaixo, procure atendimento de emergência imediatamente, sem esperar a crise passar sozinha. Em caso de dúvida, ligue para o SAMU 192 ou vá à UPA mais próxima, porque o tempo de espera é um fator decisivo nesses casos.',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -2626,15 +2632,18 @@ export const articles: Article[] = [
         id: 'o-que-nao-fazer',
         heading: 'O que não fazer',
         paragraphs: [
-          'O medicamento de alívio não substitui o de controle no dia a dia. São medicamentos com funções diferentes: o de alívio abre a via aérea no momento, e o de controle trata a inflamação ao longo do tempo.',
-          'Também não espere a crise passar sozinha quando há sinais de gravidade.',
+          'O medicamento de alívio não substitui o de controle. As funções são diferentes: o de alívio abre a via aérea no momento da crise, enquanto o de controle trata a inflamação ao longo do tempo. Usar apenas o de alívio com frequência, sem o controle diário, deixa a inflamação intacta e favorece novas crises, muitas vezes mais intensas do que a anterior.',
+          'Não é o momento de testar receitas caseiras, chás ou remédios emprestados. Nenhuma dessas medidas abre a via aérea de forma confiável, e algumas atrasam o atendimento. Se a pessoa usa corticoide inalatório, o uso habitual deve continuar durante a crise; suspender o medicamento por conta própria só piora o quadro e dificulta a recuperação.',
+          'Também não vale insistir em casa quando a resposta ao medicamento de alívio é fraca ou dura pouco. A melhora passageira seguida de nova piora mostra que a crise não está controlada e precisa de avaliação profissional, com possibilidade de corticoide por via oral e oxigênio no serviço de saúde. Nesse cenário, quanto mais cedo a pessoa chega, menor é o risco de complicações.',
         ],
       },
       {
         id: 'depois-da-crise',
         heading: 'Depois da crise',
         paragraphs: [
-          'Uma crise é um sinal de que o controle pode estar inadequado. Leve esse episódio à próxima consulta: muitas vezes há ajuste no tratamento de controle, revisão da técnica de uso do inalador ou identificação de um gatilho que passou despercebido.',
+          'Depois que a crise passa, o episódio merece ser levado à consulta. Ele indica que o controle pode estar inadequado, e essa informação ajuda o profissional a ajustar a dose do medicamento de controle, a revisar a técnica do inalador ou a identificar um gatilho que passou despercebido.',
+          'Volte ao serviço de saúde para a reavaliação, mesmo que já se sinta bem. É comum que a inflamação persista depois do alívio dos sintomas, e o retorno permite corrigir o plano antes da próxima crise. Em caso de crises repetidas, pergunte se há um plano de ação por escrito e como usá-lo no dia a dia.',
+          'A reavaliação não precisa esperar a próxima crise. Marcar a consulta logo após o episódio ajuda a lembrar dos detalhes, como o tempo de melhora e o número de doses usadas, que são justamente as informações mais úteis para ajustar o tratamento e evitar que a situação se repita. Anote também o que aconteceu antes da crise, porque o gatilho nem sempre é evidente.',
         ],
         cta: {
           label: 'Veja a página sobre a asma',
@@ -2643,7 +2652,7 @@ export const articles: Article[] = [
       },
     ],
     diseaseSlugs: ['asma'],
-    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    topicSlugs: ['doencas-cronicas'],
     relatedArticleSlugs: [
       'asma-sintomas-e-sinais-de-alerta',
       'asma-diagnostico-e-exames',
@@ -2667,7 +2676,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -3328,30 +3337,37 @@ export const articles: Article[] = [
         id: 'sintomas',
         heading: 'Quais sintomas indicam asma',
         paragraphs: [
-          'Os sintomas mais comuns da asma são chiado no peito, falta de ar, aperto ou pressão no peito e tosse, muitas vezes seca. Eles aparecem em episódios e podem desaparecer sozinhos ou com tratamento.',
-          'A intensidade varia muito: há quem tenha sintomas leves e espaçados e quem tenha crises frequentes. Também é comum que os sintomas piorem à noite ou no início da manhã.',
+          'Os sintomas da asma vão e voltam, e a intensidade varia de pessoa para pessoa e ao longo do tempo. Os mais comuns são chiado no peito, falta de ar, aperto ou pressão no peito e tosse, muitas vezes seca. Eles aparecem em episódios e podem desaparecer sozinhos ou com tratamento, o que faz muita gente adiar a procura por ajuda e conviver com limitações que poderiam ser evitadas com um tratamento simples e gratuito.',
+          'Muita gente percebe sinais de aviso antes de uma crise, como nariz entupido, espirros seguidos e coceira nos olhos. A piora à noite ou no início da manhã é típica, e acordar por falta de ar ou tosse é um dado importante para o diagnóstico. Cansaço para atividades que antes eram fáceis também conta como sintoma e costuma passar despercebido. O chiado, quando presente, costuma ser mais audível na saída do ar.',
+          'Durante as crises, algumas pessoas apresentam febre, suor excessivo à noite, dor de garganta, cansaço fácil ou inchaço nas pernas. Esses sinais não são exclusivos da asma e podem indicar infecção associada ou outra condição, o que reforça a importância da avaliação profissional em crises mais intensas ou fora do padrão habitual. Quando surgem junto com a falta de ar, precisam de investigação até que a causa seja esclarecida.',
         ],
         bullets: [
           'Chiado no peito, chamado de sibilância',
           'Falta de ar, que piora com esforço',
           'Aperto ou pressão no peito',
           'Tosse seca e persistente, sobretudo à noite',
+          'Piora dos sintomas à noite ou no início da manhã',
           'Acordar durante a noite por falta de ar ou tosse',
+          'Cansaço para atividades que antes eram fáceis',
+          'Durante as crises, febre, suor excessivo à noite, dor de garganta ou inchaço nas pernas',
         ],
       },
       {
         id: 'variacao',
         heading: 'Por que os sintomas vão e voltam',
         paragraphs: [
-          'Na asma, as vias aéreas ficam inflamadas e mais sensíveis. Quando a pessoa entra em contato com um gatilho, elas se estreitam e os sintomas aparecem; quando o gatilho some ou o tratamento está em dia, o quadro melhora.',
-          'Essa variação faz com que muitas pessoas subestimem a doença nos períodos bons. A inflamação continua presente mesmo sem sintomas, e é por isso que o tratamento de controle não deve ser interrompido quando a pessoa se sente bem.',
+          'Na asma, as vias aéreas ficam inflamadas e mais sensíveis de forma permanente. Quando a pessoa entra em contato com um gatilho, elas se estreitam e os sintomas aparecem; quando o gatilho some ou o tratamento está em dia, o quadro melhora. Essa oscilação é a marca da doença e explica por que ela é tão fácil de subestimar nos períodos bons, quando a rotina parece completamente normal e a pessoa chega a duvidar do diagnóstico.',
+          'A inflamação continua presente mesmo sem sintomas. Por isso o medicamento de controle não deve ser interrompido quando a pessoa se sente bem: ele age justamente na inflamação que prepara a próxima crise. Suspender o uso por conta própria é uma das causas mais comuns de retorno dos episódios, e costuma acontecer justamente quando o tratamento parece ter funcionado.',
+          'Reconhecer o próprio padrão ajuda a diferenciar a asma de outras condições. Sintomas que surgem sempre no mesmo contexto, como depois do exercício, ao entrar em ambientes com mofo ou durante infecções respiratórias, apontam para um gatilho identificável e facilitam o controle. Já sintomas que pioram de forma progressiva, sem relação com gatilhos, merecem investigação mais detalhada, porque podem ter outra origem.',
         ],
       },
       {
         id: 'sinais-de-alerta',
         heading: 'Sinais de alerta',
         paragraphs: [
-          'Estes sinais indicam crise grave. Nesses casos, procure atendimento de emergência ou vá imediatamente a um pronto atendimento:',
+          'Alguns sinais mostram que a crise saiu do padrão habitual e exige atendimento imediato. O critério não é apenas a intensidade do chiado: a capacidade de falar, o nível de consciência e a cor dos lábios dizem mais sobre a gravidade do que o som que vem do peito, e podem mudar em poucos minutos.',
+          'Vale observar também como a pessoa respira. O uso visível da musculatura do pescoço e das costelas, conhecido como tiragem, mostra esforço para vencer a obstrução. Uma respiração muito rápida, acima de 30 por minuto, ou a incapacidade de completar frases são indícios de que o quadro está se agravando e de que o atendimento não pode ser adiado. Crianças podem ficar irritadas e recusar alimento antes de apresentarem sinais mais evidentes.',
+          'Diante de qualquer sinal abaixo, procure atendimento de emergência ou vá imediatamente a um pronto atendimento. Não espere a crise melhorar sozinha nem aumente o número de doses do medicamento de alívio por conta própria. Em caso de dúvida, ligue para o SAMU 192, porque a avaliação por telefone também ajuda a decidir o melhor caminho.',
         ],
         bullets: [
           'Dificuldade para falar frases completas',
@@ -3366,8 +3382,9 @@ export const articles: Article[] = [
         id: 'quando-procurar',
         heading: 'Quando procurar atendimento',
         paragraphs: [
-          'Sintomas que aparecem mais de duas vezes por semana, que acordam a pessoa à noite ou que limitam as atividades do dia a dia indicam que o controle está inadequado. Vale levar esse histórico à consulta.',
-          'Não espere uma crise grave para procurar ajuda: o ajuste do tratamento costuma ser simples e muda bastante a qualidade de vida.',
+          'Sintomas que se repetem ao longo da semana, que acordam a pessoa à noite ou que limitam as atividades do dia a dia indicam que o controle está inadequado. Esse histórico é objetivo e ajuda muito na consulta, porque mostra em números o que a memória costuma suavizar. Vale anotar por algumas semanas antes de marcar a consulta, com data e duração de cada episódio.',
+          'Não espere uma crise grave para procurar ajuda. O ajuste do tratamento costuma ser simples, com revisão da dose do corticoide inalatório, correção da técnica do inalador ou identificação de um gatilho que ainda não havia sido percebido, e muda bastante a qualidade de vida, inclusive o sono e a disposição para as tarefas do dia. Muitas pessoas só percebem o quanto estavam limitadas depois de começar o tratamento correto.',
+          'A investigação começa na unidade básica de saúde, com um clínico geral. Quando o caso exige aprofundamento, o paciente é encaminhado a um pneumologista ou a um alergista. Leve à consulta os medicamentos que usa, a frequência das crises e os dias em que precisou do medicamento de alívio, porque esses dados orientam a decisão e evitam que o histórico se perca entre uma consulta e outra.',
         ],
         cta: {
           label: 'Veja a página sobre a asma',
@@ -3399,7 +3416,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -3415,41 +3432,54 @@ export const articles: Article[] = [
         id: 'historia-e-exame',
         heading: 'História clínica e exame físico',
         paragraphs: [
-          'O diagnóstico começa pela conversa com o profissional de saúde e pelo exame físico. São valorizadas queixas que vão e voltam, que pioram à noite ou no início da manhã e que aparecem depois do contato com um gatilho.',
-          'Também entram na avaliação a história de alergias, de rinite e de asma na família, além de fatores como tabagismo e exposição a poeira e mofo.',
+          'O diagnóstico começa pela conversa com o profissional de saúde e pelo exame físico. São valorizadas queixas que vão e voltam, que pioram à noite ou no início da manhã e que aparecem depois do contato com um gatilho. A descrição do que acontece durante as crises ajuda tanto quanto o exame, e vale relatar também a duração dos episódios.',
+          'Também entram na avaliação a história de alergias, de rinite e de asma na família, além de fatores como tabagismo, exposição a poeira e mofo e o ambiente de trabalho. Em crianças, o relato de um adulto próximo costuma ser decisivo, porque a criança pode não conseguir explicar o que sente, e os episódios noturnos são frequentemente percebidos primeiro por quem dorme no mesmo quarto.',
+          'Durante a crise, o médico pode ouvir chiado nos dois pulmões e notar que a saída do ar fica mais longa. Fora da crise, o exame pode ser normal, e isso não descarta a asma. A ausência de achados no momento da consulta é justamente um dos motivos para investigar com exames de função pulmonar, que mostram o que o exame físico não revela.',
         ],
       },
       {
         id: 'espirometria',
         heading: 'Espirometria',
         paragraphs: [
-          'A espirometria é o exame que confirma a obstrução das vias aéreas. Ela mede como o ar entra e sai dos pulmões e registra o volume expiratório forçado no primeiro segundo, o VEF1.',
-          'O exame é repetido depois do uso de um broncodilatador. Um aumento do VEF1 de pelo menos 12% e 200 mL mostra que a obstrução é reversível, o que é característico da asma.',
+          'A espirometria é o exame que confirma a obstrução das vias aéreas. Ela mede como o ar entra e sai dos pulmões e registra o volume expiratório forçado no primeiro segundo, o VEF1. O resultado é comparado com valores de referência para idade, sexo e altura, o que permite interpretar o número em relação ao esperado para aquela pessoa.',
+          'O exame é repetido depois do uso de um broncodilatador. Um aumento do VEF1 de pelo menos 12% e 200 mL mostra que a obstrução é reversível, o que é característico da asma. A reversibilidade distingue a asma de doenças com obstrução fixa, como a DPOC, e ajuda a orientar o tratamento desde o início, porque confirma que a via aérea ainda responde ao medicamento.',
+          'Para o exame ser útil, é preciso soprar com força e de forma coordenada. Quem tem dificuldade pode repetir a prova em outro momento. Um resultado normal fora da crise também não encerra a investigação, porque a asma é variável e pode não se manifestar no dia do teste. Nesse caso, o médico pode solicitar a prova de broncoprovocação.',
         ],
       },
       {
         id: 'outros-exames',
         heading: 'Outros exames que ajudam',
+        paragraphs: [
+          'Quando a espirometria não é conclusiva, outros exames ajudam a confirmar o diagnóstico e a acompanhar o tratamento. A escolha depende da história clínica e da disponibilidade do serviço, e não é preciso realizar todos eles em todos os pacientes, porque cada exame responde a uma pergunta específica.',
+          'Alguns medem a inflamação ou a resposta das vias aéreas, outros servem para afastar doenças com sintomas parecidos, como rinite, refluxo e infecções. O objetivo não é acumular exames, mas chegar a uma resposta com o menor número necessário de testes, respeitando o que a história clínica já indica.',
+          'Vale conversar com o profissional sobre o que cada exame acrescenta antes de fazê-lo. Em alguns casos, o resultado não muda a conduta e pode ser dispensado, o que economiza tempo e evita ansiedade desnecessária para o paciente. O diálogo também ajuda a entender para que serve cada resultado.',
+        ],
         bullets: [
           'Teste de broncoprovocação, quando os sintomas são sugestivos mas a espirometria é normal',
-          'Medida do pico de fluxo expiratório, em alguns casos, para acompanhar o controle',
+          'Medida do pico de fluxo expiratório, para acompanhar o controle em alguns casos',
+          'Óxido nítrico exalado (FeNO), que mede a inflamação das vias aéreas',
           'Testes de alergia, quando é útil identificar os alérgenos envolvidos',
-          'Exames para descartar outras causas, como radiografia de tórax e avaliação da rinite',
+          'Radiografia de tórax, para afastar outras doenças pulmonares',
+          'Avaliação da rinite, que costuma acompanhar a asma',
+          'Gasometria arterial em crises graves, para medir o oxigênio no sangue',
         ],
       },
       {
         id: 'diagnostico-em-criancas',
         heading: 'Diagnóstico em crianças',
         paragraphs: [
-          'Em crianças pequenas, a espirometria pode ser difícil de realizar, porque o exame exige coordenação. Nesses casos, o diagnóstico fica apoiado nos sintomas e na resposta ao tratamento.',
-          'O médico precisa descartar outras causas de tosse e chiado, como bronquiolite, rinite alérgica e refluxo, antes de concluir que se trata de asma.',
+          'Em crianças pequenas, a espirometria pode ser difícil de realizar, porque o exame exige coordenação. Nesses casos, o diagnóstico fica apoiado nos sintomas, na resposta ao tratamento e no acompanhamento ao longo do tempo, com observação cuidadosa do padrão das crises e dos períodos sem sintomas.',
+          'O médico precisa descartar outras causas de tosse e chiado, como bronquiolite, rinite alérgica e refluxo, antes de concluir que se trata de asma. Também observa se há melhora com o uso correto do medicamento de controle e se os sintomas retornam quando o tratamento é suspenso, o que costuma confirmar a suspeita.',
+          'O diagnóstico na infância não é definitivo para toda a vida. Parte das crianças deixa de ter sintomas na adolescência, enquanto outras mantêm a doença. Por isso o acompanhamento continua mesmo em períodos longos sem crises, e a família deve saber reconhecer os sinais de piora para procurar ajuda sem demora.',
         ],
       },
       {
         id: 'depois-do-diagnostico',
         heading: 'Depois do diagnóstico',
         paragraphs: [
-          'Confirmado o diagnóstico, o passo seguinte é montar um plano de tratamento contínuo e aprender a reconhecer os sinais de piora. O acompanhamento regular é o que mantém a asma controlada.',
+          'Confirmado o diagnóstico, o passo seguinte é montar um plano de tratamento contínuo e aprender a reconhecer os sinais de piora. Esse plano inclui o medicamento de controle diário, a orientação sobre o que fazer nas crises e a revisão periódica da técnica do inalador, que costuma ser o elo mais frágil do cuidado e o mais fácil de corrigir.',
+          'O acompanhamento regular é o que mantém a asma controlada. As consultas permitem ajustar a dose para o menor valor que sustente o controle, reduzindo efeitos adversos, e identificar precocemente qualquer mudança no quadro, antes que ela vire uma crise.',
+          'O diagnóstico também serve para afastar dúvidas e reduzir o medo. Entender por que os sintomas aparecem e o que fazer em cada situação costuma melhorar a adesão ao tratamento, que é justamente o fator que mais influencia o controle da doença a longo prazo. Informação clara, dada na consulta, evita que o paciente recorra a soluções sem comprovação.',
         ],
         cta: {
           label: 'Veja a página sobre a asma',
@@ -3473,7 +3503,7 @@ export const articles: Article[] = [
       },
       {
         label: 'Asma: Protocolo Clínico e Diretrizes Terapêuticas',
-        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma/pcdt',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/asma/view',
         publisher: 'Ministério da Saúde (Brasil)',
       },
     ],
@@ -3481,7 +3511,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -3498,7 +3528,7 @@ export const articles: Article[] = [
         heading: 'Medicamento de controle e medicamento de alívio',
         paragraphs: [
           'A asma tem dois tipos de medicamento, com funções diferentes. O de controle reduz a inflamação das vias aéreas e precisa ser usado todos os dias, mesmo quando não há sintomas. O de alívio abre a via aérea durante a crise e não substitui o controle.',
-          'Usar apenas o de alívio com frequência é sinal de que o controle está inadequado, porque ele não trata a inflamação que está por trás dos sintomas. O ajuste da terapêutica busca a menor dose necessária para manter o controle, reduzindo efeitos adversos.',
+          'Usar apenas o de alívio com frequência é sinal de que o controle está inadequado, porque ele não trata a inflamação que está por trás dos sintomas. O ajuste da terapêutica busca a menor dose necessária para manter o controle, reduzindo efeitos adversos e mantendo a proteção ao longo do tempo.',
         ],
         bullets: [
           'Os principais medicamentos de controle são os corticosteroides inalatórios, como a beclometasona.',
@@ -3510,7 +3540,7 @@ export const articles: Article[] = [
         id: 'inalador',
         heading: 'Técnica do inalador',
         paragraphs: [
-          'A técnica de uso do inalador faz parte do tratamento. Quando está errada, boa parte do medicamento fica na boca e na garganta em vez de chegar aos pulmões, e o efeito diminui.',
+          'A técnica de uso do inalador faz parte do tratamento. Quando está errada, boa parte do medicamento fica na boca e na garganta em vez de chegar aos pulmões, e o efeito diminui sem que a pessoa perceba.',
           'Uma sequência comum ajuda: agitar o inalador, expirar até o fim, vedar os lábios no bocal, apertar e inspirar devagar ao mesmo tempo, segurar a respiração por alguns segundos e só então soltar o ar. Quem usa corticoide inalatório costuma enxaguar a boca depois, para evitar rouquidão e aftas.',
         ],
         bullets: [
@@ -3522,13 +3552,17 @@ export const articles: Article[] = [
         id: 'sus',
         heading: 'Tratamento gratuito pelo SUS',
         paragraphs: [
-          'No SUS, o tratamento da asma é gratuito. Desde 2011, o programa Farmácia Popular oferece, sem custo e mediante CPF e receita médica, três medicamentos: a beclometasona e o salbutamol inalatórios e o brometo de ipratrópio. Todos constam do Protocolo Clínico e Diretrizes Terapêuticas da asma.',
-          'Em crises mais intensas, o profissional de saúde pode prescrever corticosteroides em comprimidos, como a prednisona, além dos medicamentos de uso contínuo. A orientação é procurar uma Unidade Básica de Saúde (UBS), onde se recebe o tratamento e o acompanhamento.',
+          'No SUS, o tratamento da asma é gratuito. Segundo o Protocolo Clínico e Diretrizes Terapêuticas do Ministério da Saúde, a beclometasona e o salbutamol inalatórios e a prednisona estão disponíveis nas unidades de saúde, e o acompanhamento é feito na Unidade Básica de Saúde (UBS).',
+          'Em crises mais intensas, o profissional de saúde pode prescrever corticosteroides em comprimidos, como a prednisona, além dos medicamentos de uso contínuo, com reavaliação na sequência. Manter o tratamento sem interrupções depende de retirar os medicamentos com regularidade e de ir às consultas de acompanhamento.',
         ],
       },
       {
         id: 'acompanhamento',
         heading: 'Acompanhamento',
+        paragraphs: [
+          'O acompanhamento regular é o que sustenta o controle. As consultas de retorno são periódicas e mais frequentes quando o controle ainda não está bom; depois de uma crise, é importante voltar ao serviço de saúde para reavaliar o tratamento.',
+          'Entre uma consulta e outra, alguns hábitos ajudam a manter o plano em dia:',
+        ],
         bullets: [
           'Voltar às consultas de acompanhamento, mesmo em períodos sem sintomas.',
           'Manter o medicamento de controle em uso diário, sem interromper por conta própria.',
@@ -3542,7 +3576,7 @@ export const articles: Article[] = [
         heading: 'Plano de ação por escrito',
         paragraphs: [
           'Muitos serviços entregam um plano de ação por escrito, que explica o que fazer no dia a dia, quando os sintomas pioram e quando procurar ajuda. Ele traduz o tratamento em passos claros e reduz a dúvida na hora da crise.',
-          'Guardar esse plano à mão e revisá-lo nas consultas ajuda a reconhecer cedo os sinais de que o controle escapou. Peça esse plano ao profissional de saúde: faz parte do cuidado, não é um extra.',
+          'Guardar esse plano à mão e revisá-lo nas consultas ajuda a reconhecer cedo os sinais de que o controle escapou. Peça esse plano ao profissional de saúde: faz parte do cuidado, não é um extra, e costuma incluir orientações específicas para o seu caso.',
         ],
       },
       {
@@ -3550,7 +3584,7 @@ export const articles: Article[] = [
         heading: 'Quando buscar atendimento com urgência',
         paragraphs: [
           'A asma pode ser grave e, em casos extremos e raros, levar à morte quando a crise não recebe o tratamento correto. Por isso, certos sinais pedem atendimento imediato e não podem esperar a consulta de rotina.',
-          'Ao surgir qualquer um desses sinais, procure atendimento imediatamente: em caso de dúvida, procure atendimento de emergência ou vá ao pronto atendimento mais próximo.',
+          'Ao surgir qualquer um desses sinais, procure atendimento imediatamente: em caso de dúvida, procure atendimento de emergência ou vá ao pronto atendimento mais próximo, sem esperar a consulta agendada nem tentar resolver a situação em casa.',
         ],
         bullets: [
           'Falta de ar intensa, que impede falar frases completas ou deitar.',
@@ -3565,7 +3599,7 @@ export const articles: Article[] = [
         heading: 'Por que a adesão faz a diferença',
         paragraphs: [
           'O medicamento de controle só protege enquanto é usado. Parar por conta própria quando os sintomas sumiram é uma das causas mais comuns de nova crise, porque a inflamação volta silenciosamente antes dos sintomas.',
-          'Manter o uso diário, revisar a técnica e não aumentar a dose sem orientação são atitudes simples que mantêm a asma controlada. Com acompanhamento correto e constante, a maioria das pessoas com asma leva uma vida normal.',
+          'Manter o uso diário, revisar a técnica e não aumentar a dose sem orientação são atitudes simples que mantêm a asma controlada. Com acompanhamento correto e constante, a maioria das pessoas com asma leva uma vida normal, com trabalho, estudo e atividade física sem restrições impostas pela doença.',
         ],
       },
       {
@@ -3582,6 +3616,7 @@ export const articles: Article[] = [
         heading: 'Quando o controle precisa ser revisto',
         paragraphs: [
           'Crises frequentes, despertar à noite e uso repetido do medicamento de alívio indicam que o plano precisa ser revisto. Leve essas informações ao serviço de saúde em vez de aumentar a dose por conta própria.',
+          'A revisão pode incluir mudança de dose, associação de medicamentos ou investigação de gatilhos que ainda não foram identificados. Quanto antes o ajuste é feito, menor o risco de uma crise grave e maior a chance de manter a rotina sem interrupções.',
         ],
         cta: {
           label: 'Veja a página sobre a asma',
@@ -3605,7 +3640,7 @@ export const articles: Article[] = [
       },
       {
         label: 'Asma: Protocolo Clínico e Diretrizes Terapêuticas',
-        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma/pcdt',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/asma/view',
         publisher: 'Ministério da Saúde (Brasil)',
       },
     ],
@@ -3613,7 +3648,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {
@@ -3629,13 +3664,27 @@ export const articles: Article[] = [
         id: 'gatilhos',
         heading: 'Identificar os gatilhos',
         paragraphs: [
-          'Cada pessoa tem gatilhos próprios. Os mais comuns são ácaros e poeira, mofo, pelos de animais, fumaça de cigarro, mudanças de tempo, infecções respiratórias e exercício.',
-          'Anotar quando e onde as crises acontecem ajuda a reconhecer o padrão e a reduzir a exposição aos gatilhos mais frequentes.',
+          'Cada pessoa tem gatilhos próprios, e o conjunto deles muda ao longo da vida. Os mais comuns são ácaros e poeira, mofo, pelos de animais, fumaça de cigarro, mudanças de tempo, infecções respiratórias e exercício. Reconhecer quais afetam você é o primeiro passo para reduzir a exposição e evitar crises repetidas.',
+          'Anotar quando e onde as crises acontecem ajuda a reconhecer o padrão. Um diário simples, com data, local, atividade e sintomas, mostra relações que passariam despercebidas e dá ao profissional informações concretas para ajustar o tratamento, sem depender apenas da memória do paciente.',
+          'Alguns gatilhos são fáceis de evitar, como fumaça de cigarro e cheiros fortes. Outros, como mudanças de tempo e infecções virais, não estão sob controle da pessoa, e é aí que o medicamento de controle diário entra: ele reduz a sensibilidade das vias aéreas para que esses encontros provoquem menos crises.',
+        ],
+        bullets: [
+          'Mudanças de tempo, com ar frio e variações bruscas de temperatura',
+          'Contato com ácaros, mofo, baratas e pelos de animais',
+          'Fumaça de cigarro, poluição e cheiros fortes',
+          'Infecções respiratórias, como resfriados e gripe',
+          'Exercício físico intenso sem aquecimento',
+          'Emoções fortes, como ansiedade, estresse e até riso intenso',
         ],
       },
       {
         id: 'casa',
         heading: 'Cuidados dentro de casa',
+        paragraphs: [
+          'Boa parte dos gatilhos está dentro de casa, e pequenas mudanças na rotina reduzem bastante a exposição. O objetivo não é deixar o ambiente estéril, e sim diminuir o acúmulo de poeira, a umidade e as fontes de fumaça, que são os pontos de maior impacto.',
+          'Quem tem alergia a pelos de animais deve evitar criar gato ou cachorro; se já tem, vale manter o animal longe do quarto e evitar que suba na cama. Capas impermeáveis no colchão e no travesseiro também ajudam a bloquear os ácaros, principalmente no local onde se passa a maior parte da noite.',
+          'Cortinas pesadas, tapetes e bichos de pelúcia guardam poeira e são difíceis de limpar. Trocar por materiais laváveis e arejar os cômodos todos os dias costuma trazer alívio a quem tem rinite associada, quadro que anda de mãos dadas com a asma e serve como sinal de alerta para a família. Em dias muito secos, manter a casa úmida na medida certa também ajuda a reduzir a irritação das vias aéreas.',
+        ],
         bullets: [
           'Manter a casa ventilada e exposta ao sol',
           'Reduzir objetos que acumulam pó, como tapetes, cortinas e bichos de pelúcia',
@@ -3648,23 +3697,27 @@ export const articles: Article[] = [
         id: 'vacinas',
         heading: 'Vacinas em dia',
         paragraphs: [
-          'As infecções respiratórias estão entre os principais gatilhos de crise. Por isso, manter a vacinação em dia faz parte do controle da asma.',
-          'Pessoas com asma em uso de corticoide inalatório ou sistêmico, na forma moderada ou grave, estão entre os grupos prioritários da campanha anual de vacinação contra a gripe.',
+          'As infecções respiratórias estão entre os principais gatilhos de crise. Um resfriado aparentemente simples pode piorar o controle por semanas, porque aumenta a inflamação e estreita ainda mais as vias aéreas. Por isso, manter a vacinação em dia faz parte do controle da asma e não deve ser tratado como medida secundária, sobretudo nos meses de maior circulação de vírus.',
+          'Pessoas com asma em uso de corticoide inalatório ou sistêmico, na forma moderada ou grave, estão entre os grupos prioritários da campanha anual de vacinação contra a gripe. A vacina é segura nesse grupo e reduz o risco de infecção, que costuma desencadear crises. Quem tem asma não precisa adiar a vacina por causa da doença, salvo orientação específica do serviço de saúde.',
+          'A caderneta de vacinação deve ser conferida nas consultas de rotina, e não apenas quando a pessoa procura atendimento por uma crise. Além da gripe, o calendário nacional prevê outras vacinas conforme a idade e a situação de saúde, e o profissional pode indicar o que está pendente e onde se imunizar.',
         ],
       },
       {
         id: 'vida-ativa',
         heading: 'Vida ativa e controle da doença',
         paragraphs: [
-          'A atividade física faz parte do tratamento e melhora a capacidade respiratória. Quando o exercício provoca crises com frequência, o controle pode estar inadequado e o tratamento costuma ser ajustado.',
-          'Manter o peso saudável e o medicamento de controle em uso diário reduz a chance de crises, inclusive as provocadas por esforço.',
+          'A atividade física faz parte do tratamento e melhora a capacidade respiratória. Quando o exercício provoca crises com frequência, o controle pode estar inadequado e o tratamento costuma ser ajustado, em vez de a pessoa abandonar a prática. Parar de se movimentar piora o condicionamento e aumenta a sensação de falta de ar.',
+          'Aquecer antes do exercício e escolher horários com ar mais úmido ajudam quem tem asma induzida por esforço. A natação costuma ser bem tolerada por causa da umidade do ar, mas não é obrigatória: o importante é encontrar uma atividade sustentável e manter a regularidade, com liberação do profissional de saúde quando necessário.',
+          'Manter o peso saudável e o medicamento de controle em uso diário reduz a chance de crises, inclusive as provocadas por esforço. O ganho de condicionamento físico também diminui a sensação de falta de ar nas tarefas do dia a dia, o que melhora o sono, a disposição e a qualidade de vida de forma geral, mesmo em quem tem a forma mais grave da doença.',
         ],
       },
       {
         id: 'plano-de-acao',
         heading: 'Plano de ação por escrito',
         paragraphs: [
-          'Muitos serviços entregam um plano de ação por escrito, que explica o que fazer quando os sintomas pioram e quando procurar ajuda. Vale guardá-lo à mão e revisá-lo nas consultas.',
+          'Muitos serviços entregam um plano de ação por escrito, que explica o que fazer quando os sintomas pioram e quando procurar ajuda. Vale guardá-lo à mão e revisá-lo nas consultas, porque ele orienta a decisão nos momentos em que é difícil pensar com calma, como no meio de uma crise à noite, e evita atrasos que podem agravar o quadro.',
+          'O plano costuma dividir os sintomas em faixas, do controle estável ao quadro grave, e indica o que fazer em cada uma: manter o tratamento, aumentar o medicamento de alívio ou procurar atendimento imediatamente. Essa escala transforma uma situação confusa em passos objetivos.',
+          'Ter esse plano não substitui o tratamento diário, mas organiza a resposta à piora. Se o serviço ainda não oferece, peça na próxima consulta e combine quais sinais indicam aumento do medicamento de alívio e quais exigem atendimento imediato, para que a decisão não dependa de improviso.',
         ],
         cta: {
           label: 'Veja a página sobre a asma',
@@ -3701,7 +3754,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-15',
+    updatedAt: '2026-10-20',
     isPlaceholder: true,
   },
   {

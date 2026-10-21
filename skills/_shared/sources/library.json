@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "allowedHosts": [
     "gov.br",
     "saude.gov.br",
@@ -176,6 +176,29 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "asma-protocolo-clinico-e-diretrizes-terapeuticas-2",
+      "label": "Asma: Protocolo Clínico e Diretrizes Terapêuticas",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/a/asma/view",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "asma",
+        "doenças crônicas"
+      ],
+      "diseases": [
+        "asma"
+      ],
+      "supports": [
+        "prevalência de 4,6% em adultos e 12,1% em crianças no Brasil",
+        "média de 6 mortes por asma por dia",
+        "medicamentos previstos: beclometasona, salbutamol e prednisona",
+        "VEF1 com aumento de 12% e 200 mL após broncodilatador"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "asthma-fact-sheet",
