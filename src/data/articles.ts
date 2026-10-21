@@ -4142,15 +4142,17 @@ export const articles: Article[] = [
         id: 'quadro-habitual',
         heading: 'O que costuma ser esperado',
         paragraphs: [
-          'A dor de garganta viral costuma vir junto com corrimento nasal, tosse e febre baixa, e melhora em poucos dias sem antibiótico.',
-          'A amigdalite bacteriana tende a causar febre mais alta, dor intensa ao engolir e placas de pus nas amígdalas. Mesmo assim, o quadro leve das duas formas se parece, e o que muda a conduta são os sinais de gravidade.',
+          'A maior parte das dores de garganta é causada por vírus e melhora sozinha em poucos dias. Junto com a dor costumam aparecer corrimento nasal, tosse, febre baixa e mal-estar, e a pessoa continua conseguindo comer e beber, ainda que com desconforto. O apetite pode cair, mas a hidratação costuma seguir possível. Em geral, o quadro não impede a rotina por muitos dias e não deixa sequelas quando a causa é viral, mas o desconforto pode atrapalhar o sono e a alimentação.',
+          'Na amigdalite bacteriana, o quadro tende a ser mais intenso: febre alta, dor forte ao engolir, placas de pus nas amígdalas e gânglios do pescoço aumentados. Mesmo assim, nenhum desses sinais confirma a causa sozinho, porque as formas virais também podem cursar com febre e placas, e a aparência da garganta engana. A dúvida sobre a causa é comum e não deve ser resolvida por conta própria, porque o tratamento muda conforme o agente.',
+          'Por isso, o que orienta a decisão de procurar ajuda não é acertar o diagnóstico em casa, e sim reconhecer os sinais de gravidade. Um quadro que segue o padrão esperado pode ser acompanhado na unidade básica; um quadro fora do padrão precisa de avaliação imediata. Na dúvida, procurar atendimento cedo é mais seguro do que esperar. Reconhecer cedo o que foge do habitual é o que evita atraso no atendimento e reduz o risco de complicação.',
         ],
       },
       {
         id: 'sinais-de-alerta',
         heading: 'Sinais que pedem avaliação imediata',
         paragraphs: [
-          'Alguns sinais indicam que a infecção passou dos limites da garganta ou está fechando a passagem de ar, e não podem esperar em casa.',
+          'Alguns sinais indicam que a infecção passou dos limites da garganta ou está fechando a passagem de ar. Eles não podem esperar em casa, mesmo que a dor pareça suportável. Dificuldade para respirar, salivação incontrolável e inchaço em um só lado são os mais importantes. Quando qualquer um deles aparecer, o caminho é o serviço de saúde, não a farmácia, e a avaliação não deve ser adiada por causa do horário.',
+          'Vale olhar também para o comportamento da pessoa: recusa persistente de líquidos, prostração e sonolência são sinais importantes, sobretudo em crianças pequenas. Um adulto que consegue falar e beber pode estar em risco menor do que uma criança apática que parou de aceitar água. A mudança de comportamento costuma ser o primeiro aviso. Se a criança estiver menos ativa ou bebendo menos que o normal, antecipe a avaliação mesmo que a febre seja baixa.',
         ],
         bullets: [
           'Dificuldade para respirar ou sensação de sufocamento',
@@ -4165,16 +4167,27 @@ export const articles: Article[] = [
         id: 'emergencia',
         heading: 'Quando é emergência',
         paragraphs: [
-          'Dificuldade para respirar é emergência. Nesse caso, procure atendimento de emergência imediatamente ou leve a pessoa ao pronto atendimento mais próximo.',
-          'O inchaço em um só lado da garganta com dificuldade para abrir a boca pode indicar um acúmulo de pus ao redor da amígdala, que precisa de avaliação e tratamento no serviço de saúde.',
+          'Dificuldade para respirar é emergência. Nesse caso, procure atendimento de emergência imediatamente ou leve a pessoa ao pronto atendimento mais próximo. Não espere a dor diminuir para sair de casa. Chamar ajuda e manter a pessoa sentada e calma enquanto o atendimento chega ajuda a preservar a passagem de ar.',
+          'O inchaço em um só lado da garganta com dificuldade para abrir a boca pode indicar um acúmulo de pus ao redor da amígdala, que precisa de avaliação e tratamento no serviço de saúde. Esse quadro costuma piorar rápido e pode exigir drenagem. A dor intensa de um lado só, com voz abafada, é outro sinal que costuma acompanhar o acúmulo de pus.',
+          'Em crianças, respiração rápida, retração das costelas e salivação também pedem emergência. Quadros que fecham a passagem de ar evoluem rápido e não devem ser tratados em casa. Nesses casos, o transporte para o hospital não deve atrasar. A calma de quem acompanha também conta: gritar e sacudir a criança piora a respiração e assusta ainda mais.',
         ],
       },
       {
         id: 'prazo',
         heading: 'O prazo que costuma indicar avaliação',
         paragraphs: [
-          'Quando a dor de garganta passa de quatro dias sem nenhuma melhora, ou quando impede comer e beber, a recomendação é procurar atendimento mesmo sem sinal de gravidade.',
-          'Também vale investigar quem tem dor de garganta várias vezes ao ano, porque a repetição pode ter outra causa por trás, como o refluxo gastroesofágico.',
+          'Quando a dor de garganta passa de quatro dias sem nenhuma melhora, ou quando impede comer e beber, a recomendação é procurar atendimento mesmo sem sinal de gravidade. O prazo vale também para quem já usou remédio sintomático sem resposta. Melhora parcial também merece registro, porque o que resta pode indicar outra causa ou uma complicação em curso.',
+          'Também vale investigar quem tem dor de garganta várias vezes ao ano, porque a repetição pode ter outra causa por trás, como o refluxo gastroesofágico, a rinite ou a exposição constante à fumaça. Nesses casos, o antibiótico repetido não resolve e pode atrasar o diagnóstico. Anotar a frequência das crises ao longo do ano ajuda o profissional a decidir o que investigar e o que apenas observar.',
+          'Febre que volta depois de alguns dias de melhora, dor de ouvido e alterações na urina merecem reavaliação, porque podem indicar complicações como otite, sinusite ou inflamação dos rins. O retorno não é sinal de fraqueza: é parte do tratamento. Levar os exames anteriores para a consulta evita repetir o que já foi feito e dá ao profissional uma linha do tempo.',
+        ],
+      },
+      {
+        id: 'criancas-e-idosos',
+        heading: 'Crianças pequenas, idosos e quem tem doença crônica',
+        paragraphs: [
+          'Em crianças pequenas, a avaliação costuma ser mais precoce porque elas desidratam rápido e têm menos reserva. Recusa de líquidos, menos xixi, boca seca e choro sem lágrimas são sinais de alerta mesmo sem febre alta. Oferecer pequenas quantidades de líquido com frequência costuma funcionar melhor do que copos grandes, que assustam a criança.',
+          'Idosos e pessoas com doenças crônicas ou imunidade baixa também merecem atenção antes do prazo habitual. Nesses grupos, a infecção pode avançar sem febre exuberante, e a mudança de comportamento aparece antes dos sintomas clássicos. A febre pode ser baixa ou ausente, e a queda de energia é o sinal mais confiável para perceber que algo piorou.',
+          'Quem usa medicamentos contínuos deve avisar o profissional antes de tomar antitérmicos ou analgésicos por conta própria, porque algumas combinações e alguns quadros exigem cuidado. Levar a lista de remédios para a consulta ajuda. O profissional precisa saber também sobre alergias, gravidez e doenças do rim ou do fígado antes de indicar qualquer remédio.',
         ],
         cta: {
           label: 'Veja a página sobre faringite e amigdalite',
@@ -4201,7 +4214,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-16',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
@@ -4217,36 +4230,45 @@ export const articles: Article[] = [
         id: 'pelo-ar',
         heading: 'Pelo ar, em gotículas',
         paragraphs: [
-          'Ao tossir, espirrar ou falar, a pessoa infectada lança pequenas gotículas com vírus ou bactérias. Quem está perto respira essas gotículas e pode adoecer.',
+          'Ao tossir, espirrar, falar ou beijar, a pessoa infectada lança pequenas gotículas com vírus ou bactérias. Quem está perto respira essas gotículas e pode adoecer. Não é preciso contato íntimo: uma conversa próxima já basta. A proximidade durante uma conversa prolongada em local fechado já é suficiente para o contato com as gotículas. Gotículas maiores caem perto, enquanto as menores podem alcançar quem está a alguns metros na mesma sala.',
+          'A transmissão é mais fácil em ambientes fechados, onde as gotículas ficam mais tempo suspensas e a distância entre as pessoas diminui. Salas pequenas, transporte coletivo e salas de aula concentram esse risco, sobretudo no inverno. Quanto menor o espaço e maior o tempo de permanência, maior a chance de o ar concentrar partículas infecciosas. Em dias frios, as pessoas fecham portas e janelas, e a renovação do ar cai justamente quando deveria aumentar.',
+          'A forma aguda é contagiosa desde o início dos sintomas, quando a dor de garganta e a febre aparecem. Não é preciso esperar o quadro piorar para adotar cuidado com as pessoas próximas. Cobrir a boca e lavar as mãos já reduz a circulação. Arejar a sala por alguns minutos várias vezes ao dia ajuda mais do que abrir a janela uma vez só.',
         ],
       },
       {
         id: 'maos-e-objetos',
         heading: 'Pelas mãos e por objetos compartilhados',
         paragraphs: [
-          'As mãos levam os germes da garganta para copos, talheres, garrafas e escovas de dente. Ao compartilhar esses objetos, a infecção encontra outra pessoa.',
-          'Levar a mão contaminada à boca, ao nariz ou aos olhos também é suficiente para o germe entrar no organismo.',
+          'As mãos levam os germes da garganta para copos, talheres, garrafas e escovas de dente. Ao compartilhar esses objetos, a infecção encontra outra pessoa sem que ninguém tenha tossido perto dela. Uma superfície aparentemente limpa pode carregar gotículas depositadas horas antes, por isso a lavagem importa. Copos usados por várias pessoas na mesma mesa são um exemplo frequente dentro de famílias e no trabalho.',
+          'Levar a mão contaminada à boca, ao nariz ou aos olhos também é suficiente para o germe entrar no organismo. Por isso, lavar as mãos vale mais do que evitar apenas o contato direto com quem está doente. Água e sabão são suficientes na rotina; produtos especiais só são necessários em situações específicas.',
+          'Objetos de uso pessoal não devem circular durante a crise. Copos, talheres e escovas precisam ser individuais, e a louça deve ser lavada com água e sabão depois do uso. Toalhas de rosto também não devem ser compartilhadas. Garrafas e copos usados na mesa devem ser lavados antes de voltar ao armário, e não apenas enxaguados.',
         ],
       },
       {
         id: 'ambientes-fechados',
         heading: 'Ambientes fechados favorecem',
         paragraphs: [
-          'Em locais fechados e aglomerados, as gotículas ficam mais tempo no ar e a distância entre as pessoas diminui. É por isso que as infecções de garganta circulam mais no inverno, quando todos ficam em ambientes fechados.',
-          'Escolas e creches reúnem muitas crianças próximas, e a transmissão cresce nesses espaços.',
+          'Em locais fechados e aglomerados, as gotículas ficam mais tempo no ar e a distância entre as pessoas diminui. É por isso que as infecções de garganta circulam mais no inverno, quando todos ficam em ambientes fechados. Salas de espera, elevadores e veículos com janelas fechadas repetem o mesmo cenário de proximidade e ar parado.',
+          'Escolas e creches reúnem muitas crianças próximas, e a transmissão cresce nesses espaços. Ventilação e afastamento de quem está sintomático reduzem a circulação, e a limpeza de superfícies completa o cuidado. Quando uma criança adoece, avisar a escola ajuda a instituição a reforçar a limpeza e a ventilação. Higienizar mesas e brinquedos compartilhados complementa a ventilação em creches e escolas.',
+          'O ar-condicionado resseca as mucosas e diminui a resistência das amígdalas. Ambientes climatizados e sem renovação de ar juntam dois fatores: ar seco e gente próxima. Abrir janelas e umidificar o ar ajuda enquanto o equipamento estiver ligado. Manter o filtro do ar-condicionado limpo reduz a poeira que também irrita a garganta.',
         ],
       },
       {
-        id: 'nao-e-contagioso',
-        heading: 'O que não é contagioso',
+        id: 'quando-deixa-de-ser-contagioso',
+        heading: 'Quando a dor de garganta não é contagiosa',
         paragraphs: [
-          'A amigdalite de repetição, que volta várias vezes ao ano, costuma ter outras causas, como o refluxo gastroesofágico, e não passa de uma pessoa para outra.',
-          'A dor de garganta também pode vir do ar seco, da fumaça e de outros irritantes, e nesse caso não há infecção para transmitir.',
+          'A amigdalite de repetição, que volta várias vezes ao ano, costuma ter outras causas, como o refluxo gastroesofágico, e não passa de uma pessoa para outra. O mesmo vale para a faringite crônica, que se mantém por irritação e não por contágio. Nesses quadros, o que ajuda é tratar o refluxo e afastar a fumaça, e não evitar o convívio com outras pessoas.',
+          'A dor de garganta também pode vir do ar seco, da fumaça, do uso intenso da voz e de alergias. Nesses casos não há infecção para transmitir, e o tratamento se concentra em afastar o que irrita. A melhora costuma vir quando o irritante é retirado, e não quando se acrescenta mais um remédio à rotina.',
+          'Quando a causa é bacteriana e o antibiótico é iniciado, o risco de transmissão cai, mas isso não dispensa os cuidados com objetos e mãos durante os primeiros dias. A orientação sobre o tempo de afastamento da escola ou do trabalho é do profissional que avalia. Dúvidas sobre o retorno à escola ou ao trabalho devem ser resolvidas com quem acompanha o caso, não por imitação do que aconteceu com outra pessoa. A decisão de afastamento considera febre, estado geral e o tipo de atividade, e não apenas a dor.',
         ],
       },
       {
         id: 'reduzir-em-casa',
         heading: 'Como reduzir a transmissão em casa',
+        paragraphs: [
+          'Dentro de casa, as medidas mais úteis são simples: lavar as mãos com frequência, não compartilhar objetos de uso pessoal, cobrir a boca ao tossir e manter os ambientes ventilados. Nada disso exige gasto ou equipamento especial. Separar um copo e uma toalha para quem está doente é uma medida simples e fácil de manter.',
+          'Quem está doente deve evitar beijos na boca e dormir em ambiente arejado. Essas medidas valem para todos os moradores, não apenas para a pessoa com sintomas, e devem continuar até a melhora clínica. Ventilação cruzada, com duas janelas abertas, renova o ar mais rápido do que uma janela apenas. Isso vale até a febre ceder.',
+        ],
         bullets: [
           'Lavar as mãos com frequência',
           'Não compartilhar copos, talheres e escovas de dente',
@@ -4279,7 +4301,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-16',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
@@ -4296,30 +4318,45 @@ export const articles: Article[] = [
         id: 'consulta',
         heading: 'O exame na consulta',
         paragraphs: [
-          'O diagnóstico começa pela conversa e pelo exame da garganta. Com um abaixador de língua, o profissional observa a cor das amígdalas, a presença de placas de pus e o tamanho dos gânglios do pescoço.',
-          'Febre alta, dor forte ao engolir e placas de pus aumentam a suspeita de bactéria. Tosse e corrimento nasal apontam mais para vírus.',
+          'O diagnóstico começa pela conversa e pelo exame da garganta. Com um abaixador de língua, o profissional observa a cor das amígdalas, a presença de placas de pus e o tamanho dos gânglios do pescoço. O profissional também apalpa o pescoço para sentir gânglios dolorosos e observa se há mau hálito ou dificuldade para abrir a boca. O aspecto da faringe é comparado dos dois lados, porque diferenças de iluminação podem simular placas.',
+          'Febre alta, dor forte ao engolir e placas de pus aumentam a suspeita de bactéria. Tosse e corrimento nasal apontam mais para vírus. Nenhum desses elementos, isolado, fecha o diagnóstico, e a impressão muda quando os sinais são analisados em conjunto. A idade muda a probabilidade: crianças pequenas têm mais quadros virais, e adolescentes e adultos jovens concentram os casos de estreptococo.',
+          'A conversa também investiga tempo de evolução, contato com pessoas doentes, refluxo, alergias, fumo e uso da voz. Essas informações mudam a hipótese e evitam tratar como infecção algo que é irritação. Perguntar sobre remédios já usados também faz parte. Saber se houve contato com alguém com o mesmo quadro ajuda a estimar o risco de transmissão na família ou na escola.',
         ],
       },
       {
         id: 'exames',
-        heading: 'Quando um exame confirma a bactéria',
+        heading: 'Quando um exame ajuda a confirmar',
         paragraphs: [
-          'Como os sintomas se sobrepõem, o profissional pode pedir um exame da secreção da garganta, a cultura ou o teste rápido, para saber se o estreptococo está presente antes de indicar antibiótico.',
-          'Esse exame ajuda a evitar antibiótico desnecessário, que não age sobre vírus e ainda fortalece as bactérias resistentes.',
+          'O hemograma e a proteína C reativa ajudam quando o quadro é duvidoso: alterações compatíveis com bactéria reforçam a suspeita, mas não substituem o exame clínico. O resultado é lido junto com os sintomas, não isoladamente. Um hemograma normal não descarta infecção, e um exame alterado não confirma bactéria sem a leitura do conjunto. A combinação de sintomas e exames é mais confiável do que qualquer número isolado.',
+          'A dosagem de anticorpos antiestreptolisina mostra infecção recente por estreptococo e é usada em situações específicas, como a investigação de febre reumática. Ela não serve para decidir antibiótico em toda dor de garganta, e pedir o exame sem indicação confunde a conduta. Se o resultado não muda a conduta, o exame pode ser dispensado, o que reduz custo e desconforto.',
+          'Exames de urina e de função renal entram quando há suspeita de complicação. Em adolescentes com gânglios muito aumentados e fígado ou baço palpáveis, a pesquisa de Epstein-Barr ajuda a afastar mononucleose. A presença de gânglios muito dolorosos e de cansaço intenso também orienta a investigação de outras causas.',
+        ],
+      },
+      {
+        id: 'teste-rapido',
+        heading: 'O teste rápido e a cultura',
+        paragraphs: [
+          'O teste rápido da secreção da garganta detecta o estreptococo do grupo A em poucos minutos. Quando positivo, confirma a causa bacteriana e justifica antibiótico; quando negativo, torna a bactéria menos provável. O teste deve ser feito antes do antibiótico, porque o medicamento pode tornar o resultado falso negativo. O resultado chega rápido e ajuda a decidir na mesma consulta, o que evita antibiótico desnecessário.',
+          'A cultura é mais lenta, mas identifica o agente e permite testar a sensibilidade aos antibióticos. Ela é útil quando o teste rápido não está disponível ou quando o quadro não responde ao tratamento, porque orienta a troca do medicamento. A escolha entre teste rápido e cultura depende do que está disponível no serviço e da urgência do resultado.',
+          'Um resultado negativo não significa que a dor não exista nem que não precise de cuidado: apenas torna a causa bacteriana menos provável. O profissional decide se repete o teste ou se trata pelos sinais clínicos. Crianças pequenas costumam exigir mais cautela nessa decisão. Em epidemias familiares ou escolares, identificar o agente ajuda a orientar os contatos e a reduzir novos casos.',
         ],
       },
       {
         id: 'nao-da-em-casa',
         heading: 'Por que não dá para decidir em casa',
         paragraphs: [
-          'Olhar a garganta no espelho não permite diferenciar vírus de bactéria, e placas esbranquiçadas podem aparecer nas duas situações. Quem define a causa e a necessidade de antibiótico é a avaliação profissional.',
+          'Olhar a garganta no espelho não permite diferenciar vírus de bactéria, e placas esbranquiçadas podem aparecer nas duas situações. A luz da sala e o ângulo também escondem o que está no fundo da boca. Nem a cor das placas nem o tamanho das amígdalas são critérios suficientes para iniciar antibiótico.',
+          'Fotografias e listas de sintomas na internet também não substituem o exame. Elas podem ajudar a organizar a conversa, mas não a decisão, e muitas descrevem quadros que só o profissional sabe distinguir. Um vídeo gravado em casa pode até mostrar a garganta, mas não substitui a palpação nem a avaliação do conjunto. Descrições genéricas de garganta inflamada não distinguem causas que exigem condutas diferentes.',
+          'Quem define a causa e a necessidade de antibiótico é a avaliação profissional, com exame e, quando indicado, teste da secreção. Chegar com informações sobre o início dos sintomas e os remédios usados acelera essa avaliação. Se a consulta não esclarecer, o profissional pode reavaliar em poucos dias ou encaminhar ao especialista. Reavaliar é melhor do que insistir no mesmo tratamento.',
         ],
       },
       {
         id: 'outras-causas',
         heading: 'Outras causas de dor de garganta',
         paragraphs: [
-          'Nem toda dor de garganta vem de infecção. Ar seco, fumaça, refluxo gastroesofágico e uso intenso da voz também irritam a garganta e podem causar dor, sem agente infeccioso envolvido.',
+          'Nem toda dor de garganta vem de infecção. Ar seco, fumaça, refluxo gastroesofágico e uso intenso da voz também irritam a garganta e podem causar dor, sem agente infeccioso envolvido. O ambiente de trabalho seco e climatizado é um exemplo comum de irritação que parece infecção e não é.',
+          'A rinite e a sinusite mantêm secreção escorrendo pela garganta e provocam pigarro e desconforto constante. Tratar a causa de base muda o resultado, e o alívio sintomático sozinho costuma durar pouco. Quando a rinite é tratada, a secreção diminui e a garganta deixa de ser constantemente irritada.',
+          'Em adultos tabagistas, rouquidão que piora progressivamente precisa de avaliação para afastar tumor de laringe. É um quadro raro, mas que não se resolve com sintomáticos e exige exame especializado. A avaliação especializada também é indicada quando a rouquidão dura semanas, mesmo sem outros sintomas. Fumo e álcool aumentam o risco desses quadros e devem ser discutidos na consulta. O especialista avalia a laringe e pode solicitar biópsia se necessário.',
         ],
         cta: {
           label: 'Veja a página sobre faringite e amigdalite',
@@ -4351,7 +4388,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-16',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
@@ -4367,7 +4404,8 @@ export const articles: Article[] = [
         id: 'cuidados-virais',
         heading: 'Cuidados na infecção viral',
         paragraphs: [
-          'Quando a causa é viral, o corpo resolve a infecção sozinho. O tratamento serve para aliviar os sintomas e manter a pessoa confortável e hidratada.',
+          'Quando a causa é viral, o corpo resolve a infecção sozinho. O tratamento serve para aliviar os sintomas e manter a pessoa confortável e hidratada, sem pressa de voltar à rotina. O objetivo não é cortar a infecção, e sim atravessar os dias de maior sintoma sem desidratar nem perder peso demais. A maioria das pessoas melhora em poucos dias, mas a tosse e o pigarro podem durar mais.',
+          'Repouso, líquidos ao longo do dia e alimentos macios ajudam a passar pelos dias de maior desconforto. Não é preciso forçar alimentação sólida quando a dor ao engolir está intensa, e a hidratação tem prioridade. Sucos, água e caldos ajudam, mas bebidas muito ácidas ou gaseificadas podem arder e devem ser testadas com cautela. Sopas mornas e purês são exemplos práticos, e o sal em excesso deve ser evitado.',
         ],
         bullets: [
           'Beber líquidos ao longo do dia',
@@ -4381,24 +4419,36 @@ export const articles: Article[] = [
         id: 'antibiotico',
         heading: 'Antibiótico na infecção bacteriana',
         paragraphs: [
-          'Na amigdalite bacteriana, o antibiótico é indicado por um profissional e deve ser tomado até a última dose, mesmo depois de a dor passar.',
-          'Parar antes do fim pode deixar bactérias vivas no organismo e permitir complicações, como a febre reumática, que atinge as articulações e pode lesionar o coração, e a inflamação dos rins.',
+          'Na amigdalite bacteriana, o antibiótico é indicado por um profissional e deve ser tomado até a última dose, mesmo depois de a dor passar. O alívio dos sintomas não significa que a bactéria foi eliminada. O horário das doses precisa ser respeitado, e esquecer uma tomada não deve ser compensado dobrando a dose seguinte. Anotar o horário das tomadas ajuda a manter a regularidade, principalmente em tratamentos de vários dias.',
+          'Parar antes do fim pode deixar bactérias vivas no organismo e permitir complicações, como a febre reumática, que atinge as articulações e pode lesionar o coração, e a inflamação dos rins. Essas complicações aparecem semanas depois e podem deixar sequelas. Quando aparecem manchas na pele, urina escura ou inchaço, a avaliação deve ser imediata para investigar essas complicações.',
+          'O profissional escolhe o medicamento e a duração conforme idade, peso e quadro clínico. Receitas antigas e sobras de tratamentos anteriores não devem ser reaproveitadas, porque a dose e o tempo podem não servir para o quadro atual. O profissional também considera alergias prévias e o uso de outros medicamentos antes de definir a prescrição. O farmacêutico também pode esclarecer interações e a melhor forma de tomar o medicamento.',
+        ],
+      },
+      {
+        id: 'medicamentos-sintomaticos',
+        heading: 'Medicamentos para os sintomas',
+        paragraphs: [
+          'Analgésicos e antitérmicos comuns reduzem dor e febre. A escolha e o intervalo dependem da idade, do peso e das condições de saúde de cada pessoa, e a bula deve ser consultada. O alívio sintomático permite comer e beber, o que sustenta a recuperação e evita desidratação. Tomar o analgésico antes das refeições pode facilitar a alimentação quando a dor é intensa. E devem ser usados na dose certa.',
+          'Pastilhas e sprays de garganta aliviam por pouco tempo e não tratam a causa. Gargarejo com água morna e sal pode trazer conforto, mas não substitui a avaliação quando há sinal de gravidade. Não se deve associar vários produtos com o mesmo princípio ativo, porque a dose total pode passar do limite seguro.',
+          'Crianças não devem receber remédios de adulto nem doses calculadas por estimativa. Quem tem alergia a algum medicamento ou usa outros remédios contínuos precisa avisar antes de tomar qualquer coisa, inclusive produtos naturais. Medicamentos vencidos ou guardados sem orientação não devem ser usados, mesmo que a embalagem pareça intacta. A dose infantil é calculada por peso, e não pela idade aparente ou pelo tamanho da criança. Perguntar ao profissional antes de associar produtos é sempre mais seguro.',
         ],
       },
       {
         id: 'nao-ajuda',
         heading: 'O que não ajuda',
         paragraphs: [
-          'Antibiótico por conta própria na dor de garganta viral não acelera a melhora, porque não age sobre vírus, causa efeitos colaterais e aumenta a resistência das bactérias.',
-          'Pastilhas e sprays de garganta aliviam a dor por pouco tempo e não tratam a causa.',
+          'Antibiótico por conta própria na dor de garganta viral não acelera a melhora, porque não age sobre vírus, causa efeitos colaterais e aumenta a resistência das bactérias. O problema não fica só em quem toma: bactérias resistentes circulam na comunidade. Usar antibiótico para um resfriado comum é um dos caminhos mais frequentes para a resistência bacteriana. A resistência torna infecções futuras mais difíceis de tratar, inclusive as que exigem internação.',
+          'Remédios caseiros com substâncias irritantes, como álcool ou pimenta, pioram o desconforto. O mesmo vale para gargarejos muito concentrados, que agridem a mucosa em vez de ajudar. Fumaça e bebida alcoólica também prolongam o desconforto e devem ser evitadas durante a recuperação.',
+          'Não há alimento ou suplemento que elimine a infecção. Uma alimentação variada e a hidratação ajudam no conforto, mas não substituem o tratamento quando ele é indicado. O descanso tem papel real: dormir mal atrasa a recuperação e aumenta a sensação de dor. A recuperação completa exige tempo e não deve ser apressada.',
         ],
       },
       {
         id: 'reavaliacao',
         heading: 'Quando voltar para reavaliação',
         paragraphs: [
-          'Se a dor não melhorar em poucos dias, piorar ou vier com dificuldade para engolir, volte ao serviço de saúde para reavaliação.',
-          'Dificuldade para respirar é emergência e pede ajuda imediata: procure atendimento de emergência.',
+          'Se a dor não melhorar em poucos dias, piorar ou vier com dificuldade para engolir, volte ao serviço de saúde para reavaliação. O retorno permite rever a hipótese e ajustar o tratamento. A reavaliação é especialmente importante em crianças pequenas, idosos e pessoas com doença crônica.',
+          'Febre que retorna depois de dias de melhora, dor de ouvido, manchas no corpo ou urina escura também pedem avaliação, porque podem indicar complicação. Nesses casos, exames complementares podem ser necessários. Levar a lista de medicamentos usados e a data de início dos sintomas facilita a consulta de retorno.',
+          'Dificuldade para respirar é emergência e pede ajuda imediata: procure atendimento de emergência. Não espere a próxima consulta marcada quando houver esse sinal. Se o atendimento inicial foi em uma unidade de pronto atendimento, o retorno pode ser na unidade básica de referência. Sinais de desidratação, como boca seca e pouca urina, também justificam retorno imediato. A lista de sinais de alerta deve ficar visível para a família.',
         ],
         cta: {
           label: 'Veja a página sobre faringite e amigdalite',
@@ -4435,7 +4485,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-16',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {
@@ -4451,7 +4501,8 @@ export const articles: Article[] = [
         id: 'higiene',
         heading: 'Higiene das mãos e dos objetos',
         paragraphs: [
-          'A maior parte dos germes da garganta chega às mãos e aos objetos de uso pessoal antes de chegar à boca de outra pessoa.',
+          'A maior parte dos germes da garganta chega às mãos e aos objetos de uso pessoal antes de chegar à boca de outra pessoa. Por isso, a higiene interrompe o caminho da transmissão em dois pontos. O caminho mais comum é a mão contaminada tocar a boca, o nariz ou os olhos, e não apenas a gotícula aspirada. Campanhas de higiene funcionam melhor quando explicam o porquê, e não apenas a regra.',
+          'Lavar as mãos com água e sabão, principalmente depois de tossir, espirrar ou tocar objetos de uso coletivo, é a medida isolada com melhor resultado. Esfregar as palmas, os dorsos, entre os dedos e as unhas faz diferença. Sabão comum é suficiente; não é preciso produto antisséptico para a rotina doméstica. Álcool em gel ajuda quando não há pia, mas não substitui a lavagem em mãos visivelmente sujas.',
         ],
         bullets: [
           'Lavar as mãos com água e sabão, principalmente depois de tossir, espirrar ou tocar objetos de uso coletivo',
@@ -4463,8 +4514,8 @@ export const articles: Article[] = [
         id: 'ambiente',
         heading: 'Ambientes e hábitos',
         paragraphs: [
-          'Ambientes ventilados e menos aglomerados reduzem a chance de contato com as gotículas de alguém infectado.',
-          'O cigarro, ativo ou passivo, irrita a garganta e aumenta a chance de infecções das amígdalas, por isso ficar longe da fumaça também faz parte da prevenção.',
+          'Ambientes ventilados e menos aglomerados reduzem a chance de contato com as gotículas de alguém infectado. Abrir janelas e renovar o ar é mais útil do que apenas espalhar álcool em superfícies. Um ambiente arejado dilui as partículas e reduz a concentração que uma pessoa próxima respira. Salas cheias com portas fechadas concentram justamente o que se quer evitar.',
+          'O cigarro, ativo ou passivo, irrita a garganta e aumenta a chance de infecções das amígdalas. O ar-condicionado também resseca as mucosas e reduz a resistência local, principalmente quando o aparelho não é limpo com frequência. Cortinas, tapetes e almofadas acumulam poeira e fumaça, e a limpeza periódica ajuda quem tem crises repetidas. Ambientes com fumaça de cigarro devem ser evitados por toda a família, não só por quem tem crises. A limpeza do filtro e das grelhas evita que o aparelho espalhe poeira.',
         ],
         bullets: [
           'Abrir janelas e manter o ar circulando',
@@ -4477,16 +4528,27 @@ export const articles: Article[] = [
         id: 'crises-de-repeticao',
         heading: 'Quem tem crises de repetição',
         paragraphs: [
-          'Em quem apresenta amigdalite várias vezes ao ano, vale investigar fatores que mantêm a inflamação, como o refluxo gastroesofágico e a exposição constante à fumaça.',
-          'Tratar resfriados e quadros alérgicos, como a rinite, ajuda a reduzir as idas ao serviço de saúde por dor de garganta.',
+          'Em quem apresenta amigdalite várias vezes ao ano, vale investigar fatores que mantêm a inflamação, como o refluxo gastroesofágico e a exposição constante à fumaça. Sem tratar esses fatores, as crises voltam mesmo com antibiótico correto. O refluxo pode ser assintomático e ainda assim irritar a garganta durante a noite, por isso a investigação vale a pena. Quando o refluxo é tratado, a irritação noturna diminui e as crises de garganta ficam menos frequentes.',
+          'Tratar resfriados e quadros alérgicos, como a rinite, ajuda a reduzir as idas ao serviço de saúde por dor de garganta. A rinite mantém secreção escorrendo pela garganta e provoca pigarro e irritação constante. Quando a causa alérgica é controlada, o uso de antibióticos e de sintomáticos tende a cair.',
+          'A cirurgia para retirar as amígdalas só é indicada em casos específicos, quando as crises são muito frequentes ou surgem complicações. Mesmo depois da retirada, faringites e laringites continuam possíveis, porque outras estruturas também inflamam. A decisão cirúrgica considera a frequência das crises, o impacto na respiração e o histórico de complicações. A conversa sobre cirurgia deve incluir riscos, benefícios e o que muda depois do procedimento.',
+        ],
+      },
+      {
+        id: 'criancas-na-escola',
+        heading: 'Crianças na escola e na creche',
+        paragraphs: [
+          'Crianças pequenas adoecem mais porque ainda estão construindo defesa contra os vírus comuns e porque ficam próximas em creches e escolas. Cada infecção ensina o sistema imunológico, e a frequência tende a cair com a idade. A creche e a escola são ambientes de aprendizado imunológico, e a maioria das infecções não impede a frequência por muitos dias. A frequência escolar não deve ser sacrificada por precaução excessiva.',
+          'Ensinar a cobrir a boca ao tossir, lavar as mãos e não compartilhar garrafas e talheres reduz a circulação dentro de casa. Esses hábitos precisam ser repetidos com paciência, porque crianças pequenas esquecem a instrução. Reforçar a higiene nas trocas de turno e antes das refeições reduz a transmissão entre as crianças. Ensine pelo exemplo: crianças copiam o comportamento de quem cuida delas.',
+          'Ambientes com muitas crianças exigem ventilação e limpeza frequente de superfícies. Afastar quem está com febre e dor intensa também diminui o número de novos casos, embora a maioria das infecções seja leve. Comunicar casos à escola permite organizar a limpeza e avisar as famílias, sem estigmatizar a criança.',
         ],
       },
       {
         id: 'o-que-nao-previne',
         heading: 'O que não previne',
         paragraphs: [
-          'Gargarejo com sal, vitamina C em dose alta e remédios caseiros não impedem a infecção. Ar frio e sorvete também não causam faringite, porque a causa são vírus e bactérias.',
-          'Higiene das mãos, ventilação e manter distância de quem está doente são as medidas com melhor resultado.',
+          'Gargarejo com sal, vitamina C em dose alta e remédios caseiros não impedem a infecção. Ar frio e sorvete também não causam faringite, porque a causa são vírus e bactérias, e não a temperatura. Não há evidência de que choque térmico ou bebida gelada provoquem inflamação da garganta. Bebidas muito geladas podem incomodar uma garganta já inflamada, mas não são a causa do quadro. O desconforto transitório não indica que a bebida causou a infecção.',
+          'Não existe vacina contra a dor de garganta comum. As vacinas oferecidas pelo sistema público protegem contra outras doenças e não cobrem todos os agentes que causam faringite, por isso a higiene continua sendo central. Manter o calendário vacinal em dia protege contra doenças que podem começar com sintomas de garganta. Quem tem indicação deve manter as doses em dia.',
+          'Higiene das mãos, ventilação e manter distância de quem está doente são as medidas com melhor resultado. Elas custam pouco e podem ser mantidas durante todo o ano, não apenas no inverno. As mesmas medidas servem para quem cuida de crianças, idosos e pessoas com doença crônica.',
         ],
         cta: {
           label: 'Veja a página sobre faringite e amigdalite',
@@ -4513,7 +4575,7 @@ export const articles: Article[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-16',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {

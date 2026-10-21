@@ -47,11 +47,21 @@
       "publisher": "Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde",
       "host": "bvsms.saude.gov.br",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": ["garganta", "amigdalite", "faringite"],
+      "diseases": ["faringite-e-amigdalite"],
+      "supports": [
+        "定义：amidalite é infecção das amígdalas, órgãos de defesa no fundo da garganta",
+        "病毒在儿童更常见，细菌在青少年和成人更常见，可混合感染",
+        "传播：咳嗽、打喷嚏、接吻的飞沫，以及共用杯子、牙刷、水瓶、餐具",
+        "胃食管反流可参与喉炎、咽炎、扁桃体炎和鼻窦炎的发作",
+        "症状：发热、咽痛、食欲差、口臭、吞咽困难、耳痛、颈部与下颌淋巴结肿大；细菌性可见黄色脓点",
+        "多数为病毒性且可自行消退；症状超过 4 天无改善、呼吸困难、疼痛影响进食饮水时应就医",
+        "病毒性用止痛药和单纯抗炎药；细菌性需特定抗生素并完成疗程，否则可致风湿热和肾脏炎症",
+        "慢性者需查明其他原因；手术仅用于治疗无效且每年反复多次的特定病例",
+        "预防：勤洗手、感冒或咽痛时不接吻、远离香烟、避免空调干燥环境、排查反流、多喝液体、不自行用药"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "anaemia-fact-sheet",
@@ -729,11 +739,19 @@
       "publisher": "Ministério da Saúde (Brasil) — Biblioteca Virtual em Saúde",
       "host": "bvsms.saude.gov.br",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": ["febre reumática", "complicações"],
+      "diseases": ["faringite-e-amigdalite"],
+      "supports": [
+        "定义：发生于治疗不充分的链球菌性扁桃体炎之后的炎症性疾病",
+        "可累及关节、心脏和脑，留下严重心脏后遗症，可致死",
+        "5 至 15 岁为最常受累年龄段",
+        "症状通常在咽部感染约两周后出现：发热、关节肿胀和疼痛（膝、肘、踝）",
+        "心脏受累时出现持续疲倦、气短和心悸",
+        "治疗用抗炎药并肌注苄星青霉素，间隔最多 21 天，疗程依心脏损伤程度，至少至 25 岁",
+        "预防依赖对扁桃体炎的规范治疗，单剂苄星青霉素即可"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "geo-helmintiase-o-que-e-sintomas-e-tratamento",

@@ -3278,38 +3278,76 @@ export const diseases: Disease[] = [
         heading: 'O que são faringite e amigdalite?',
         paragraphs: [
           'Faringite é a inflamação da garganta, e amigdalite é a inflamação das amígdalas, duas estruturas de defesa que ficam no fundo da boca. As duas costumam aparecer juntas na mesma infecção, e a dor de garganta está entre os motivos de consulta mais frequentes em qualquer idade.',
-          'A causa mais comum é viral. Segundo o Ministério da Saúde, os vírus predominam nas crianças, enquanto as bactérias, em especial o estreptococo do grupo A, atingem mais os jovens e os adultos. Na maioria das vezes a infecção é leve e passa sozinha em poucos dias, mas a forma bacteriana precisa de antibiótico e de tratamento completo, porque complicações como a febre reumática podem aparecer quando o remédio é interrompido antes do fim.',
+          'A causa mais comum é viral. Segundo o Ministério da Saúde, os vírus predominam nas crianças, enquanto as bactérias, em especial o estreptococo do grupo A, atingem mais os jovens e os adultos. Na maioria das vezes a infecção é leve e passa sozinha em poucos dias.',
+          'A forma bacteriana, porém, precisa de antibiótico e de tratamento completo, porque complicações como a febre reumática podem aparecer quando o remédio é interrompido antes do fim. Quando a dor de garganta volta várias vezes ao ano, o quadro é investigado como crônico e pode ter outras causas além da infecção.',
         ],
       },
       {
-        id: 'sintomas',
-        heading: 'Quais são os sintomas?',
+        id: 'tipos',
+        heading: 'Quais são os tipos?',
         paragraphs: [
-          'Os sintomas se sobrepõem entre as causas virais e bacterianas, e quem distingue é a avaliação profissional.',
-        ],
-        bullets: [
-          'Dor de garganta, pior ao engolir',
-          'Febre, calafrios e mal-estar',
-          'Gânglios do pescoço inchados e doloridos',
-          'Amígdalas vermelhas, por vezes com placas de pus',
-          'Falta de apetite',
-          'Na causa viral, costumam acompanhar tosse e corrimento nasal',
+          'A faringite pode ser aguda ou crônica. A aguda começa de repente, com dor intensa, febre e mal-estar geral. A crônica dura mais tempo e se manifesta por desconforto, secura, sensação de corpo estranho e pigarro, com poucos sintomas gerais.',
+          'A amigdalite também tem as duas formas. Na aguda, as amígdalas ficam vermelhas e inchadas, muitas vezes com placas de pus, e a dor é forte ao engolir. Na crônica, os episódios se repetem, as amígdalas podem ficar aumentadas e a superfície costuma mostrar cicatrizes ou criptas com secreção.',
+          'A classificação ajuda a orientar a investigação, mas não substitui a avaliação. Dor de garganta repetida várias vezes ao ano merece olhar clínico, porque refluxo, rinite e fumaça também mantêm a inflamação.',
         ],
       },
       {
         id: 'transmissao',
         heading: 'É contagiosa? Como se transmite?',
         paragraphs: [
-          'Sim, a forma aguda é contagiosa. Os germes da garganta circulam pelas gotículas que a pessoa infectada libera ao tossir, espirrar ou falar, e também pelos objetos de uso pessoal compartilhados, como copos, talheres e escovas de dente. Ambientes fechados e aglomerados favorecem a transmissão.',
-          'A amigdalite de repetição costuma ter outras causas por trás, como o refluxo gastroesofágico, e nesse caso não é uma infecção que passa de uma pessoa para outra.',
+          'Sim, a forma aguda é contagiosa. Os germes da garganta circulam pelas gotículas que a pessoa infectada libera ao tossir, espirrar, falar ou beijar, e também pelos objetos de uso pessoal compartilhados, como copos, talheres, garrafas e escovas de dente. Ambientes fechados e aglomerados favorecem a transmissão.',
+          'A amigdalite de repetição e a faringite crônica costumam ter outras causas por trás, como o refluxo gastroesofágico, e nesses casos não são uma infecção que passa de uma pessoa para outra.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa faringite e amigdalite?',
+        paragraphs: [
+          'Vírus e bactérias são os agentes mais comuns. Entre os vírus estão os que causam resfriado, gripe e outras infecções respiratórias; entre as bactérias, o estreptococo do grupo A é o mais relevante, porque é o que pode levar à febre reumática. Às vezes os dois agentes aparecem juntos.',
+          'Fumaça de cigarro, poeira, ar seco, ar-condicionado, bebida alcoólica e uso intenso da voz irritam a garganta e facilitam a inflamação. Quem fuma ou convive com fumantes tem mais episódios de infecção nas amígdalas, e o ar-condicionado resseca as mucosas e reduz a resistência local.',
+          'Na forma crônica, o que mantém o problema costuma ser outra condição: refluxo gastroesofágico, rinite, sinusite, respiração pela boca ou baixa resistência geral. Investigar essas causas é parte do tratamento, e repetir antibiótico sem tratar o que sustenta a inflamação não resolve.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas se sobrepõem entre as causas virais e bacterianas, e quem distingue é a avaliação profissional. Na bactéria, costumam pesar febre mais alta, dor intensa ao engolir e placas de pus; no vírus, tosse e corrimento nasal são mais presentes.',
+          'Um ou outro sinal isolado não fecha o diagnóstico, porque as duas formas podem cursar com febre e dor. O conjunto de sintomas, o exame da garganta e, quando indicado, o teste da secreção é que orientam a conduta.',
+        ],
+        bullets: [
+          'Dor de garganta, pior ao engolir',
+          'Febre, calafrios e mal-estar',
+          'Gânglios do pescoço inchados e doloridos',
+          'Amígdalas vermelhas, por vezes com placas de pus',
+          'Falta de apetite, mau hálito e dor de ouvido',
+          'Na causa viral, costumam acompanhar tosse e corrimento nasal',
         ],
       },
       {
         id: 'como-e-diagnosticada',
-        heading: 'Como o profissional diferencia a causa?',
+        heading: 'Como é feito o diagnóstico?',
         paragraphs: [
           'Não dá para saber em casa se a dor de garganta é viral ou bacteriana, porque os sintomas se parecem. O profissional examina a garganta e as amígdalas com um abaixador de língua e observa febre, gânglios do pescoço e a presença de placas de pus.',
-          'Quando a suspeita é de estreptococo, ele pode pedir um exame da secreção da garganta, como a cultura ou o teste rápido, para confirmar a bactéria antes de indicar antibiótico. Tosse e corrimento nasal apontam mais para causa viral, que não responde a antibiótico.',
+          'Em crianças e adolescentes, o pediatra costuma ser o primeiro atendimento; adultos podem procurar a unidade básica ou um clínico geral, e os casos repetidos ou complicados são encaminhados ao otorrinolaringologista. A conversa inicial também investiga refluxo, alergias, fumo e uso da voz.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames podem ser pedidos?',
+        paragraphs: [
+          'O exame começa pela observação da garganta, das amígdalas e dos gânglios do pescoço. Quando a suspeita é de estreptococo, o profissional pode pedir um teste rápido ou uma cultura da secreção da garganta para confirmar a bactéria antes de indicar antibiótico.',
+          'O hemograma e a proteína C reativa ajudam a separar infecção viral de bacteriana quando o quadro é duvidoso. A dosagem de anticorpos antiestreptolisina mostra infecção recente por estreptococo e é usada em situações específicas, não em toda dor de garganta.',
+          'Outros exames entram quando há sinal de complicação ou de outra doença: urina e função renal para investigar inflamação dos rins, e pesquisa de Epstein-Barr em adolescentes com gânglios muito aumentados e fígado ou baço palpáveis. A laringoscopia fica reservada aos quadros que não melhoram ou que levantam suspeita de tumor.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com faringite e amigdalite?',
+        paragraphs: [
+          'Vírus e bactérias são a primeira distinção, mas não a única. Refluxo laringofaríngeo, rinite alérgica, ar seco, fumaça e uso excessivo da voz causam dor ou irritação sem infecção, e o tratamento é outro.',
+          'Entre as causas graves, o abscesso ao redor da amígdala aparece como inchaço em um só lado, dor intensa e dificuldade para abrir a boca. Quadros com dificuldade para respirar e salivação incontrolável também exigem emergência, porque podem fechar a passagem de ar.',
+          'Em adultos tabagistas, rouquidão que piora progressivamente pede avaliação para afastar tumor de laringe. Nenhum desses quadros se resolve com remédio caseiro, e a diferença depende de exame profissional.',
         ],
       },
       {
@@ -3317,6 +3355,7 @@ export const diseases: Disease[] = [
         heading: 'Quando procurar atendimento?',
         paragraphs: [
           'A dor de garganta viral se resolve sozinha em poucos dias. Procure atendimento quando ela durar mais de quatro dias sem sinal de melhora, quando impedir beber líquidos, ou quando vier acompanhada de sinais que pedem avaliação imediata.',
+          'Alguns quadros fogem do padrão e indicam que a infecção passou dos limites da garganta ou está fechando a passagem de ar. Nesses casos, a avaliação precisa ser imediata, e não há motivo para esperar em casa.',
         ],
         bullets: [
           'Dificuldade para respirar ou para engolir a própria saliva',
@@ -3334,9 +3373,9 @@ export const diseases: Disease[] = [
         id: 'tratamento',
         heading: 'Como se trata?',
         paragraphs: [
-          'Na infecção viral, o cuidado é de suporte: repouso, líquidos e analgésicos ou antitérmicos orientados por profissional de saúde. Não há medicamento que encurte muito a duração, e a garganta melhora sozinha.',
+          'Na infecção viral, o cuidado é de suporte: repouso, líquidos, alimentação macia e analgésicos ou antitérmicos orientados por profissional de saúde. Não há medicamento que encurte muito a duração, e a garganta melhora sozinha.',
           'Na amigdalite bacteriana, o antibiótico específico é indicado pelo profissional, e o tratamento precisa ser concluído até o fim, mesmo depois de a dor passar. Interromper o antibiótico antes da hora permite complicações, como a febre reumática, que pode atingir o coração, e a resistência bacteriana, um problema de saúde pública.',
-          'Antibiótico por conta própria em dor de garganta viral não acelera a melhora: ele não age sobre vírus, traz efeitos colaterais e fortalece bactérias resistentes.',
+          'Hábitos simples ajudam no conforto: beber líquidos ao longo do dia, preferir sopas e alimentos macios, manter o ambiente ventilado e evitar cigarro. Gargarejo com água morna e sal e pastilhas aliviam a dor por pouco tempo; nenhum deles substitui a avaliação quando há sinal de gravidade.',
         ],
         cta: {
           label: 'Leia sobre o tratamento e os cuidados em casa',
@@ -3344,10 +3383,47 @@ export const diseases: Disease[] = [
         },
       },
       {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'Os medicamentos se dividem em dois grupos: os que aliviam os sintomas e os que tratam a causa. Analgésicos e antitérmicos comuns reduzem dor e febre, sempre conforme a orientação do serviço de saúde e respeitando as restrições de cada pessoa.',
+          'Antibiótico só tem lugar quando a causa é bacteriana. O profissional escolhe o medicamento e a duração conforme a idade, o peso e o quadro clínico, e o tratamento precisa ser concluído até a última dose. Suspender quando a dor passa deixa bactérias vivas e favorece complicações e resistência.',
+          'Antibiótico por conta própria em dor de garganta viral não acelera a melhora: ele não age sobre vírus, traz efeitos colaterais e fortalece bactérias resistentes. O mesmo vale para sobras de receitas antigas e para remédios indicados por outra pessoa.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Quando a cirurgia é indicada?',
+        paragraphs: [
+          'A retirada das amígdalas é indicada apenas em situações específicas, quando as crises se repetem várias vezes ao ano, quando há complicações como abscessos de repetição ou quando o tamanho das amígdalas atrapalha a respiração e o sono. A decisão é do especialista, depois de avaliar o histórico.',
+          'A cirurgia não é feita durante a fase aguda da infecção. O procedimento é programado para depois que o quadro melhora, e a recuperação segue as orientações do especialista.',
+          'Mesmo depois da retirada, a pessoa continua podendo ter dor de garganta, porque faringites e laringites não dependem das amígdalas. Por isso a cirurgia resolve um problema específico e não elimina toda dor de garganta futura.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'As complicações locais incluem abscesso ao redor da amígdala, otite média, sinusite e aumento doloroso dos gânglios do pescoço. Elas surgem quando a infecção se espalha para estruturas vizinhas e costumam pedir tratamento específico no serviço de saúde.',
+          'Entre as complicações sistêmicas, a febre reumática aparece cerca de duas semanas após uma amigdalite por estreptococo tratada de forma inadequada. Ela atinge principalmente crianças e adolescentes de 5 a 15 anos e pode comprometer articulações, coração e cérebro, deixando sequelas cardíacas.',
+          'A inflamação dos rins é outra complicação possível da infecção por estreptococo, com alterações na urina e na pressão arterial. O seguimento existe para identificar esses quadros cedo, e a reavaliação faz parte do cuidado.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como fica o dia a dia durante e depois da crise?',
+        paragraphs: [
+          'Durante a crise, repouso e hidratação ajudam o corpo a se recuperar. Bebidas mornas, sopas e alimentos macios são mais tolerados do que comidas quentes, duras ou apimentadas, e o ambiente deve ficar ventilado, sem fumaça.',
+          'A higiene da boca e das mãos reduz a circulação de germes: escovar os dentes, lavar as mãos com frequência e não compartilhar copos, talheres e escovas. Quem convive com a pessoa doente deve evitar beijos na boca enquanto houver sintomas.',
+          'Vale acompanhar febre, aceitação de líquidos e disposição. Se a dor piorar, se aparecer dificuldade para respirar ou para engolir a própria saliva, a pessoa precisa de atendimento imediato, e não de mais um dia de espera em casa.',
+        ],
+      },
+      {
         id: 'prevencao',
         heading: 'Dá para prevenir?',
         paragraphs: [
-          'Não existe vacina contra a dor de garganta comum, então a prevenção depende de hábitos que reduzem a circulação dos germes.',
+          'Não existe vacina contra a dor de garganta comum, então a prevenção depende de hábitos que reduzem a circulação dos germes. Lavar as mãos, não compartilhar objetos de uso pessoal e evitar aglomerações fechadas são as medidas com melhor resultado.',
+          'Também faz parte da prevenção cuidar do que irrita a garganta: não fumar, ficar longe do cigarro, umidificar o ar quando estiver muito seco e investigar refluxo ou rinite quando os episódios se repetem.',
         ],
         bullets: [
           'Lavar as mãos com frequência, sobretudo depois de tocar objetos de uso coletivo',
@@ -3388,7 +3464,7 @@ export const diseases: Disease[] = [
       'faringite-e-amigdalite-prevencao',
     ],
     relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
-    relatedDiseaseSlugs: ['infarto-e-avc', 'hiv-aids', 'tuberculose'],
+    relatedDiseaseSlugs: ['gripe', 'pneumonia', 'otite-media-aguda'],
     references: [
       {
         label: 'Amidalite ou amigdalite',
@@ -3405,12 +3481,18 @@ export const diseases: Disease[] = [
         url: 'https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease',
         publisher: 'Organização Mundial da Saúde',
       },
+      {
+        label: 'Antimicrobial resistance: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance',
+        publisher: 'Organização Mundial da Saúde',
+      },
     ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-15',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
   },
   {
     id: 'gastroenterite',
