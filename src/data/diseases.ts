@@ -3002,7 +3002,7 @@ export const diseases: Disease[] = [
           'O infarto agudo do miocárdio, também chamado de ataque cardíaco, acontece quando uma artéria que leva sangue ao coração é obstruída por um coágulo e uma parte do músculo cardíaco fica sem oxigênio.',
           'O AVC, acidente vascular cerebral, acontece quando uma artéria do cérebro é obstruída ou se rompe, e uma região do cérebro deixa de receber sangue.',
           'São eventos diferentes, mas têm o mesmo mecanismo: tecido sem oxigênio começa a morrer em minutos. Por isso os dois são emergências, e o tempo é o fator que mais pesa no desfecho.',
-          'As doenças cardiovasculares são a principal causa de morte no mundo, e o infarto e o AVC respondem pela maior parte dessas mortes.',
+          'As doenças cardiovasculares são a principal causa de morte no mundo, e o infarto e o AVC respondem pela maior parte dessas mortes. No Brasil, estima-se que ocorram de 300 mil a 400 mil casos de infarto por ano, com cerca de uma morte a cada cinco a sete casos.',
         ],
       },
       {
@@ -3012,6 +3012,48 @@ export const diseases: Disease[] = [
           'O AVC tem dois tipos principais. O AVC isquêmico, causado pela obstrução de uma artéria, responde por cerca de 85% dos casos. O AVC hemorrágico, causado pelo rompimento de um vaso, é menos comum, mas costuma levar a quadros mais graves.',
           'No infarto, o que varia entre os casos é o mecanismo da obstrução e o tamanho da área do coração afetada, o que influencia o tratamento e o prognóstico.',
           'Existe ainda o ataque isquêmico transitório, em que os sintomas do AVC desaparecem sozinhos. Ele funciona como sinal de alerta e precisa de avaliação com urgência, porque o risco de AVC aumenta nos dias e meses seguintes.',
+          'No AVC isquêmico, a obstrução pode ter origem aterotrombótica, cardioembólica, por outras causas ou permanecer sem causa identificada após a investigação. Reconhecer esses grupos ajuda a orientar os exames e o tratamento.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Infarto e AVC são contagiosos?',
+        paragraphs: [
+          'Não. São doenças cardiovasculares, ligadas a fatores de risco como pressão alta, diabetes, tabagismo e colesterol elevado, e não se transmitem de uma pessoa para outra.',
+          'O que se transmite são os agentes de infecções respiratórias, não o infarto nem o AVC. Uma gripe ou uma pneumonia pode aumentar o risco de complicações em quem já tem o coração ou o cérebro comprometidos, mas o evento cardiovascular em si não passa de uma pessoa para outra.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quais são os fatores de risco?',
+        paragraphs: [
+          'Boa parte dos fatores de risco é comum aos dois eventos: hipertensão, diabetes, colesterol alto, tabagismo, excesso de peso, alimentação inadequada, sedentarismo, uso excessivo de álcool, idade avançada e histórico familiar. Diabetes e hipertensão aumentam de duas a quatro vezes o risco de infarto.',
+          'No AVC, a fibrilação atrial merece atenção especial: quando o coração bate de forma irregular, um coágulo pode se formar e viajar até uma artéria do cérebro. A pressão alta descontrolada e a ruptura de um aneurisma estão entre as principais causas do AVC hemorrágico.',
+        ],
+        bullets: [
+          'Pressão alta, o principal fator de risco para o AVC',
+          'Diabetes e colesterol alto',
+          'Tabagismo e uso excessivo de álcool',
+          'Excesso de peso e alimentação rica em sal e ultraprocessados',
+          'Sedentarismo',
+          'Fibrilação atrial e outras arritmias',
+          'Idade avançada, histórico familiar e sexo masculino',
+          'Uso de drogas ilícitas',
+        ],
+      },
+      {
+        id: 'gatilhos',
+        heading: 'O que pode precipitar uma crise?',
+        paragraphs: [
+          'Além dos fatores que agem por anos, alguns momentos podem precipitar um infarto em quem já tem artérias comprometidas. Esforço físico intenso, estresse emocional forte, frio, refeições muito volumosas e uso de cocaína estão entre os gatilhos descritos.',
+          'No AVC, o gatilho costuma ser menos identificável. Pressão muito alta, infecções e desidratação podem agravar o quadro, mas o evento costuma resultar da combinação de fatores de risco acumulados. Reconhecer esses momentos ajuda a buscar ajuda sem demora, mas não substitui o controle contínuo.',
+        ],
+        bullets: [
+          'Esforço físico intenso',
+          'Estresse emocional forte',
+          'Frio intenso',
+          'Refeições muito volumosas',
+          'Uso de cocaína',
         ],
       },
       {
@@ -3020,6 +3062,7 @@ export const diseases: Disease[] = [
         paragraphs: [
           'No infarto, o sinal mais comum é a dor ou o aperto no peito, que pode irradiar para o braço esquerdo, o pescoço, a mandíbula ou as costas. A dor costuma vir acompanhada de suor frio, palidez, falta de ar, náusea e sensação de desmaio.',
           'Em pessoas com diabetes e em idosos, o infarto pode se manifestar sem dor intensa, apenas com falta de ar, cansaço ou mal-estar. Nesses casos, a dor pode aparecer no abdômen, parecida com uma gastrite, o que atrasa a busca por atendimento.',
+          'Antes do infarto, algumas pessoas relatam dor no peito que surge com esforço e melhora com repouso, falta de ar ou cansaço incomum nos dias anteriores. Esses sinais não confirmam o evento, mas pedem avaliação.',
           'No AVC, os sinais costumam ser súbitos e atingir apenas um lado do corpo:',
         ],
         bullets: [
@@ -3037,27 +3080,18 @@ export const diseases: Disease[] = [
         },
       },
       {
-        id: 'transmissao',
-        heading: 'Infarto e AVC são contagiosos?',
+        id: 'sinais-de-alerta',
+        heading: 'O que fazer diante de uma suspeita',
         paragraphs: [
-          'Não. São doenças cardiovasculares, ligadas a fatores de risco como pressão alta, diabetes, tabagismo e colesterol elevado, e não se transmitem de uma pessoa para outra.',
-        ],
-      },
-      {
-        id: 'fatores-de-risco',
-        heading: 'Quais são os fatores de risco?',
-        paragraphs: [
-          'Boa parte dos fatores de risco é comum aos dois eventos: hipertensão, diabetes, colesterol alto, tabagismo, excesso de peso, alimentação inadequada, sedentarismo, uso excessivo de álcool, idade avançada e histórico familiar. Diabetes e hipertensão aumentam de duas a quatro vezes o risco de infarto.',
-          'No AVC, a fibrilação atrial merece atenção especial: quando o coração bate de forma irregular, um coágulo pode se formar e viajar até uma artéria do cérebro.',
+          'Chame ajuda imediatamente pelo serviço de emergência local. Se não for possível, leve a pessoa ao serviço de urgência mais próximo. Não espere os sintomas passarem e não leve a pessoa para casa para observar.',
+          'Se a pessoa perder a consciência, mantenha as vias aéreas livres e siga as orientações do serviço de emergência. Não ofereça comida, bebida ou medicamento por conta própria e não deixe a pessoa sozinha.',
         ],
         bullets: [
-          'Pressão alta, que é o principal fator de risco para o AVC',
-          'Diabetes e colesterol alto',
-          'Tabagismo e uso excessivo de álcool',
-          'Excesso de peso e alimentação rica em sal e ultraprocessados',
-          'Sedentarismo',
-          'Fibrilação atrial e outras arritmias',
-          'Idade avançada e histórico familiar',
+          'Anote o horário em que os sintomas começaram',
+          'Não ofereça comida, bebida ou medicamento por conta própria',
+          'Não deixe a pessoa sozinha',
+          'Peça a alguém por perto que chame ajuda',
+          'Se houver perda de consciência, mantenha as vias aéreas livres',
         ],
       },
       {
@@ -3071,10 +3105,81 @@ export const diseases: Disease[] = [
         ],
       },
       {
+        id: 'exames-e-diagnostico-diferencial',
+        heading: 'Exames e diagnóstico diferencial',
+        paragraphs: [
+          'Além do eletrocardiograma e da troponina, o infarto pode exigir ecocardiograma, radiografia de tórax e cateterismo cardíaco. No AVC, a tomografia de crânio é o exame inicial; ressonância, Doppler de carótidas, eletrocardiograma e ecocardiograma ajudam a identificar a causa, sobretudo a fibrilação atrial.',
+          'O diagnóstico diferencial importa porque outras condições imitam os dois eventos. No infarto, angina, dissecção de aorta, embolia pulmonar e problemas digestivos podem causar dor no peito. No AVC, hipoglicemia, crise epiléptica, enxaqueca com aura e infecções podem simular os sintomas. A avaliação profissional é o que separa esses quadros.',
+        ],
+        bullets: [
+          'Angina e dissecção de aorta',
+          'Embolia pulmonar',
+          'Hipoglicemia',
+          'Crise epiléptica',
+          'Enxaqueca com aura',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Tratamento e reabilitação',
+        paragraphs: [
+          'O tratamento começa no atendimento de urgência, com medidas para restabelecer o fluxo de sangue o mais rápido possível. No infarto, a angioplastia primária é o procedimento preferido, e o trombolítico é usado quando essa opção não está disponível no tempo necessário.',
+          'No AVC isquêmico, a trombólise endovenosa pode ser indicada quando iniciada em até 4 horas e meia do começo dos sintomas, conforme os protocolos do SUS. Em alguns centros, a retirada mecânica do coágulo é avaliada.',
+          'No SUS, o AVC é tratado nos Centros de Atendimento de Urgência, os hospitais de referência para esses casos, e o infarto segue a Linha de Cuidado do Infarto Agudo do Miocárdio, que começa no SAMU. Desde setembro de 2026, uma lei ampliou a oferta de medicamentos trombolíticos na rede de urgência e emergência, incluindo as Unidades de Pronto Atendimento (UPAs).',
+          'No atendimento inicial, a equipe controla a dor, oferece oxigênio quando necessário, monitora o ritmo cardíaco e ajusta pressão e glicemia. No infarto, além de abrir a artéria, são usados medicamentos para evitar novos coágulos. No AVC hemorrágico, o foco é controlar a pressão e o sangramento, com cirurgia quando indicada.',
+          'Depois do evento, o acompanhamento inclui medicamentos, reabilitação e mudanças de hábito. No AVC, a fisioterapia e a fonoaudiologia iniciadas cedo fazem diferença na recuperação dos movimentos e da fala, e a reabilitação pode ser feita nos Centros Especializados em Reabilitação (CER).',
+        ],
+      },
+      {
+        id: 'reabilitacao',
+        heading: 'Reabilitação e recuperação',
+        paragraphs: [
+          'Depois da fase aguda, a reabilitação começa o quanto antes e é ajustada às sequelas. No AVC, fisioterapia, terapia ocupacional e fonoaudiologia ajudam a recuperar movimentos, equilíbrio, fala e deglutição; o SUS oferece esses serviços nos Centros Especializados em Reabilitação (CER).',
+          'No infarto, a reabilitação cardíaca combina atividade física supervisionada, orientação nutricional e apoio para parar de fumar. A retomada de esforços, do trabalho e da vida sexual deve ser conversada com a equipe, porque depende da função do coração e do tratamento.',
+        ],
+        bullets: [
+          'Fisioterapia motora',
+          'Terapia ocupacional',
+          'Fonoaudiologia',
+          'Reabilitação cardíaca supervisionada',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Complicações e prognóstico',
+        paragraphs: [
+          'O infarto pode deixar arritmias, insuficiência cardíaca e dano permanente ao músculo cardíaco; nas primeiras horas, o risco de parada cardíaca é maior. O AVC pode deixar fraqueza em um lado do corpo, dificuldade para falar, problemas de deglutição, alterações cognitivas e depressão.',
+          'Quem teve um evento tem risco maior de um segundo. Por isso, o acompanhamento e o tratamento contínuo dos fatores de risco fazem parte do cuidado, e não terminam na alta.',
+        ],
+        bullets: [
+          'Arritmias e insuficiência cardíaca',
+          'Fraqueza e dificuldade para falar',
+          'Dificuldade para engolir',
+          'Depressão e alterações cognitivas',
+          'Risco de um novo evento',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Vida diária e acompanhamento',
+        paragraphs: [
+          'Em casa, a rotina gira em torno de tomar os medicamentos nos horários certos, medir a pressão e a glicose conforme a orientação e voltar às consultas de acompanhamento. A família pode ajudar a organizar os horários e a reconhecer sinais de piora.',
+          'A alimentação deve ser equilibrada, com menos sal e ultraprocessados, e a atividade física precisa ser adaptada à capacidade de cada pessoa. Parar de fumar é a medida de maior impacto. Dirigir, voltar ao trabalho e viajar devem ser discutidos com a equipe.',
+        ],
+        bullets: [
+          'Tomar os medicamentos sem interromper',
+          'Medir pressão e glicose',
+          'Voltar às consultas de acompanhamento',
+          'Parar de fumar',
+          'Atividade física adaptada',
+        ],
+      },
+      {
         id: 'prevencao',
         heading: 'Como prevenir',
         paragraphs: [
           'A [hipertensão](/doencas/hipertensao/) é o principal fator de risco para o AVC e um dos principais para o infarto. Boa parte da prevenção é o controle dos fatores de risco ao longo dos anos.',
+          'A prevenção vale para quem nunca teve um evento e para quem já teve. No primeiro caso, o foco é controlar os fatores de risco; no segundo, o tratamento contínuo e a reabilitação reduzem a chance de um novo episódio.',
         ],
         bullets: [
           'Medir a pressão periodicamente e tratar a hipertensão',
@@ -3090,30 +3195,6 @@ export const diseases: Disease[] = [
           label: 'Leia também: os sinais do infarto e o que fazer',
           href: '/artigos/infarto-quais-sao-os-sinais-e-o-que-fazer/',
         },
-      },
-      {
-        id: 'tratamento',
-        heading: 'Tratamento e reabilitação',
-        paragraphs: [
-          'O tratamento começa no atendimento de urgência, com medidas para restabelecer o fluxo de sangue o mais rápido possível. No infarto, a angioplastia primária é o procedimento preferido, e o trombolítico é usado quando essa opção não está disponível no tempo necessário.',
-          'No AVC isquêmico, a trombólise endovenosa pode ser indicada quando iniciada em até 4 horas e meia do começo dos sintomas, conforme os protocolos do SUS.',
-          'No SUS, o AVC é tratado nos Centros de Atendimento de Urgência, os hospitais de referência para esses casos, e o infarto segue a Linha de Cuidado do Infarto Agudo do Miocárdio, que começa no SAMU. Desde setembro de 2026, uma lei ampliou a oferta de medicamentos trombolíticos na rede de urgência e emergência, incluindo as UPAs.',
-          'Depois do evento, o acompanhamento inclui medicamentos, reabilitação e mudanças de hábito. No AVC, a fisioterapia e a fonoaudiologia iniciadas cedo fazem diferença na recuperação dos movimentos e da fala, e a reabilitação pode ser feita nos Centros Especializados em Reabilitação (CER).',
-        ],
-      },
-      {
-        id: 'sinais-de-alerta',
-        heading: 'O que fazer diante de uma suspeita',
-        paragraphs: [
-          'Chame ajuda imediatamente pelo serviço de emergência local. Se não for possível, leve a pessoa ao serviço de urgência mais próximo. Não espere os sintomas passarem e não leve a pessoa para casa para observar.',
-        ],
-        bullets: [
-          'Anote o horário em que os sintomas começaram: essa informação muda o tratamento',
-          'Não ofereça comida, bebida ou medicamento por conta própria',
-          'Não deixe a pessoa sozinha',
-          'Peça a alguém por perto que chame ajuda, em vez de dirigir você mesmo',
-          'Se houver perda de consciência, mantenha as vias aéreas livres e siga as orientações do serviço de emergência',
-        ],
       },
     ],
     faq: [
@@ -3178,7 +3259,7 @@ export const diseases: Disease[] = [
     reviewer: null,
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-16',
+    updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
   {

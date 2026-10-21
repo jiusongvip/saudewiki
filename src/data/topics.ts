@@ -151,6 +151,8 @@ export const topics: Topic[] = [
       'dpoc-e-tabagismo-por-que-parar-de-fumar-muda-o-quadro',
       'dpoc-como-prevenir-crises-e-o-papel-das-vacinas',
       'infarto-e-avc-fatores-de-risco',
+      'infarto-quais-sao-os-sinais-e-o-que-fazer',
+      'avc-como-reconhecer-os-sinais-e-agir-rapido',
       'faringite-e-amigdalite-prevencao',
       'enxaqueca-tratamento-e-cuidados',
       'otite-media-aguda-tratamento-e-cuidados',
