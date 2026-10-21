@@ -3779,41 +3779,26 @@ export const diseases: Disease[] = [
           ],
         },
         {
-          id: 'sintomas',
-          heading: 'Como é uma crise de enxaqueca?',
+          id: 'tipos-de-enxaqueca',
+          heading: 'Quais são os tipos de enxaqueca?',
           paragraphs: [
-            'A crise típica dura de 4 a 72 horas sem tratamento. Durante a dor é comum haver náusea ou vômito e incômodo marcado com luz e barulho, o que leva a interromper o que estava sendo feito e procurar um quarto escuro e silencioso. Há também sinais que avisam antes e depois: nas horas ou nos um a dois dias que antecedem a crise podem aparecer fadiga, dificuldade de concentração, rigidez no pescoço, visão borrada, bocejos e palidez; depois que a dor passa, cansaço e dificuldade de concentração podem durar até 48 horas.',
-            'Para receber o diagnóstico, a pessoa precisa ter tido pelo menos cinco crises, com dor que reúna ao menos duas destas quatro características:',
-          ],
-          bullets: [
-            'Localização em um lado da cabeça ou atrás de um dos olhos',
-            'Caráter pulsátil',
-            'Intensidade moderada ou forte',
-            'Piora com atividade física rotineira, como caminhar ou subir escadas',
+            'A enxaqueca se divide em três grandes grupos. Na enxaqueca sem aura, a mais comum, a dor vem sem aviso neurológico. Na enxaqueca com aura, sintomas visuais, sensoriais ou de fala precedem a dor e duram de 5 a 60 minutos. A enxaqueca crônica é definida por dor em 15 ou mais dias por mês por mais de três meses, com pelo menos oito dias que preenchem as características da enxaqueca.',
+            'Existem ainda formas raras, que exigem avaliação especializada. A enxaqueca com aura de tronco cerebral provoca sintomas como fala arrastada, vertigem, zumbido, perda parcial de visão e desequilíbrio ao andar, sem fraqueza muscular. A enxaqueca hemiplégica cursa com fraqueza de um lado do corpo e costuma ter componente familiar. A enxaqueca retiniana causa perda visual reversível em um dos olhos, com exame oftalmológico normal. Como essas formas podem imitar um AVC, a primeira crise merece atendimento imediato.',
           ],
         },
         {
-          id: 'aura',
-          heading: 'O que é a aura?',
+          id: 'causas',
+          heading: 'O que causa a enxaqueca?',
           paragraphs: [
-            'Parte das pessoas tem crises precedidas de aura: sintomas neurológicos transitórios e completamente reversíveis, que costumam surgir antes da dor e duram minutos. O tipo mais comum é visual, descrito como um zigue-zague brilhante ou uma mancha que cresce no campo de visão. Vêm em seguida os sintomas sensoriais, um formigueiro que caminha lentamente por um lado do corpo, da face ou da língua e pode deixar dormência no rastro, e com menos frequência a dificuldade com a fala.',
-            'Um sintoma de aura típico se instala devagar, ao longo de 5 minutos ou mais, e cada um costuma durar entre 5 e 60 minutos. Esse ritmo importa para o diagnóstico: o AVC e o ataque isquêmico transitório começam de súbito, e por isso uma aura que aparece pela primeira vez depois dos 40 anos, uma aura prolongada demais ou curta demais, ou feita apenas de perda de visão, precisa de investigação para excluir outras causas. Estudos de base populacional mostram risco duplicado de AVC isquêmico em quem tem enxaqueca com aura, associação que não aparece de forma consistente na enxaqueca sem aura. [Veja como reconhecer os sinais de AVC](/artigos/avc-como-reconhecer-os-sinais-e-agir-rapido/).',
-          ],
-        },
-        {
-          id: 'tipos-de-cefaleia',
-          heading: 'Enxaqueca, dor de cabeça tensional ou outra coisa?',
-          paragraphs: [
-            'A confusão mais comum é com a cefaleia do tipo tensão, descrita como pressão ou aperto, muitas vezes como uma faixa ao redor da cabeça, às vezes vindo do pescoço. Diferente da enxaqueca, ela costuma não piorar com esforço físico e não vem acompanhada de náusea. Sua forma episódica, que ocorre em menos de 15 dias por mês, é relatada por mais de 70% de algumas populações e dura de algumas horas a vários dias. A forma crônica pode ser contínua e é mais incapacitante que a episódica.',
-            'Existe ainda a cefaleia em salvas, rara (menos de 1 em cada 1.000 adultos), de dor intensíssima em torno de um olho, com olho vermelho, lágrima e nariz entupido do mesmo lado, em crises curtas que podem voltar várias vezes ao dia. E existe a cefaleia secundária, causada por outra condição, cujo exemplo mais comum no mundo é a cefaleia por uso excessivo de medicamentos. Um mesmo paciente pode ter dois tipos de cefaleia ao mesmo tempo, e cada tipo merece seu próprio diagnóstico.',
+            'A causa exata da enxaqueca ainda não é conhecida. A hipótese mais aceita envolve a ativação do nervo trigêmeo e a liberação de substâncias inflamatórias ao redor dos nervos e vasos da cabeça. Hormônios também pesam, o que ajuda a explicar por que a doença é mais comum em mulheres e por que as crises mudam ao longo do ciclo menstrual.',
+            'A predisposição genética é importante: cerca de 60% das pessoas com enxaqueca têm histórico familiar. As crises podem começar na infância ou na adolescência, e a frequência costuma aumentar entre os 35 e os 45 anos. Em crianças e adolescentes, a dor dura menos, atinge mais os dois lados da cabeça e os sintomas abdominais aparecem com mais força. Ansiedade e depressão são significativamente mais frequentes em quem tem enxaqueca, e as crises repetidas, junto com o medo da próxima, atingem estudo, trabalho e vida familiar.',
           ],
         },
         {
           id: 'gatilhos-e-fatores-de-risco',
-          heading: 'O que desencadeia e quem tem mais chance',
+          heading: 'O que desencadeia as crises',
           paragraphs: [
-            'A causa exata da enxaqueca ainda não é conhecida; aceita-se que haja liberação de substâncias inflamatórias que produzem dor ao redor dos nervos e dos vasos sanguíneos da cabeça. É mais comum em mulheres, possivelmente pela influência hormonal, e menos de 10% delas têm crises ligadas à maioria dos ciclos menstruais, geralmente mais longas e com náusea mais intensa. Em crianças e adolescentes, as crises podem durar de 2 a 72 horas, a dor é mais frequentemente dos dois lados da cabeça e os sintomas abdominais aparecem com mais força. Ansiedade e depressão são significativamente mais frequentes em quem tem enxaqueca, e as crises repetidas, junto com o medo da próxima, atingem estudo, trabalho e vida familiar.',
-            'Os gatilhos variam de pessoa para pessoa, mas a OMS descreve estes:',
+            'Os gatilhos variam de pessoa para pessoa e podem mudar com o tempo. A OMS descreve estes:',
           ],
           bullets: [
             'Bebida alcoólica',
@@ -3824,19 +3809,53 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'sintomas',
+          heading: 'Como é uma crise de enxaqueca?',
+          paragraphs: [
+            'A crise típica dura de 4 a 72 horas sem tratamento. Durante a dor é comum haver náusea ou vômito e incômodo marcado com a luz e o barulho, o que leva a interromper o que estava sendo feito e procurar um quarto escuro e silencioso. Há também sinais que avisam antes e depois: nas horas ou nos um a dois dias que antecedem a crise podem aparecer fadiga, dificuldade de concentração, rigidez no pescoço, visão borrada, bocejos e palidez; depois que a dor passa, cansaço e dificuldade de concentração podem durar até 48 horas.',
+            'Parte das pessoas tem crises precedidas de aura: sintomas neurológicos transitórios e completamente reversíveis, que costumam surgir antes da dor e duram minutos. O tipo mais comum é visual, descrito como um zigue-zague brilhante ou uma mancha que cresce no campo de visão. Vêm em seguida os sintomas sensoriais, um formigueiro que caminha lentamente por um lado do corpo, da face ou da língua e pode deixar dormência no rastro, e com menos frequência a dificuldade com a fala.',
+            'Um sintoma de aura típico se instala devagar, ao longo de 5 minutos ou mais, e cada um costuma durar entre 5 e 60 minutos. Esse ritmo importa para o diagnóstico: o AVC e o ataque isquêmico transitório começam de súbito, e por isso uma aura que aparece pela primeira vez depois dos 40 anos, uma aura prolongada demais ou curta demais, ou feita apenas de perda de visão, precisa de investigação para excluir outras causas. Estudos de base populacional mostram risco duplicado de AVC isquêmico em quem tem enxaqueca com aura, associação que não aparece de forma consistente na enxaqueca sem aura. [Veja como reconhecer os sinais de AVC](/artigos/avc-como-reconhecer-os-sinais-e-agir-rapido/).',
+            'Para receber o diagnóstico, a pessoa precisa ter tido pelo menos cinco crises, com dor que reúna ao menos duas destas quatro características:',
+          ],
+          bullets: [
+            'Localização em um lado da cabeça ou atrás de um dos olhos',
+            'Caráter pulsátil',
+            'Intensidade moderada ou forte',
+            'Piora com atividade física rotineira, como caminhar ou subir escadas',
+          ],
+        },
+        {
+          id: 'sintomas-associados',
+          heading: 'Quais outros sintomas podem acompanhar a crise?',
+          paragraphs: [
+            'Além da dor, da náusea e do incômodo com luz e barulho, a crise pode trazer palidez, suor frio, vontade frequente de urinar e cansaço geral. Esses sinais costumam aparecer junto com a dor e desaparecer quando ela passa.',
+            'Reconhecer esse conjunto ajuda a diferenciar a enxaqueca de outras dores de cabeça e a explicar por que a pessoa fica prostrada mesmo quando a dor não parece tão intensa. Se esses sintomas fugirem do padrão habitual, principalmente em quem nunca teve crise parecida, vale procurar avaliação.',
+          ],
+        },
+        {
           id: 'diagnostico',
           heading: 'Como é feito o diagnóstico?',
           paragraphs: [
             'O diagnóstico é clínico. Não existe exame de sangue nem de imagem que confirme a enxaqueca: o que resolve é o relato das crises, com duração, frequência, características e o que a pessoa faz para a dor passar. Quando o padrão está confuso, um diário preenchido por algumas semanas desenha a doença e ainda mostra quanto remédio está sendo usado de verdade.',
-            'Exames entram quando há sinal de outra causa ou quando o padrão muda. Vale medir a pressão arterial: o Ministério da Saúde recomenda que toda pessoa com mais de 20 anos faça a aferição pelo menos uma vez por ano, e ela está disponível na unidade básica de saúde (UBS). Pressão alta, diabetes e tabagismo são os fatores que abrem caminho para o AVC, e por isso entram na conta de quem tem dor de cabeça frequente.',
+            'O exame físico é parte da consulta: o médico avalia consciência, fala, movimentos dos olhos, força, sensibilidade e rigidez do pescoço. Na crise típica, muitos desses passos podem ser adiados para não piorar a dor. Exames de sangue não são necessários na enxaqueca típica; entram quando há suspeita de infecção, alteração hormonal ou outra doença.',
+            'A tomografia (CT) ou a ressonância magnética (MRI) é reservada para quando o padrão foge do esperado, há sinal de alerta ou suspeita de causa secundária, como tumor, sangramento, AVC ou infecção. A punção lombar, que analisa o líquido que envolve o cérebro, é usada quando há suspeita de meningite ou hemorragia. Também vale medir a pressão arterial: o Ministério da Saúde recomenda que toda pessoa com mais de 20 anos faça a aferição pelo menos uma vez por ano, e ela está disponível na unidade básica de saúde (UBS).',
+          ],
+        },
+        {
+          id: 'tipos-de-cefaleia',
+          heading: 'Enxaqueca, dor de cabeça tensional ou outra coisa?',
+          paragraphs: [
+            'A confusão mais comum é com a cefaleia do tipo tensão, descrita como pressão ou aperto, muitas vezes como uma faixa ao redor da cabeça, às vezes vindo do pescoço. Diferente da enxaqueca, ela costuma não piorar com esforço físico e não vem acompanhada de náusea. Sua forma episódica, que ocorre em menos de 15 dias por mês, é relatada por mais de 70% de algumas populações e dura de algumas horas a vários dias. A forma crônica pode ser contínua e é mais incapacitante que a episódica.',
+            'Existe ainda a cefaleia em salvas, rara (menos de 1 em cada 1.000 adultos), de dor intensíssima em torno de um olho. As crises duram de 15 minutos a 3 horas e podem ocorrer de dia sim, dia não, até oito vezes por dia, com olho vermelho, lacrimejamento, nariz entupido ou escorrendo e, às vezes, pálpebra caída do mesmo lado. E existe a cefaleia secundária, causada por outra condição, cujo exemplo mais comum no mundo é a cefaleia por uso excessivo de medicamentos. Um mesmo paciente pode ter dois tipos de cefaleia ao mesmo tempo, e cada tipo merece seu próprio diagnóstico.',
           ],
         },
         {
           id: 'tratamento',
-          heading: 'Como tratar a crise e reduzir a frequência',
+          heading: 'Como tratar a crise',
           paragraphs: [
-            'Na crise, o que faz diferença é tomar o analgésico no primeiro sinal de que ela começou, inclusive quando o aviso é a aura, e não esperar a dor se instalar. Antieméticos e medicamentos específicos para enxaqueca, como os triptanos, estão entre as opções que o médico pode escolher para cada caso, assim como os medicamentos preventivos, tomados todos os dias por quem tem muitos dias com dor.',
-            'Antes de escalar remédios, a OMS destaca o que funciona de forma simples: restringir ou eliminar o álcool, beber água ao longo do dia, arrumar o sono e usar um calendário de cefaleia para identificar gatilhos. O acompanhamento médico serve também para revisar a frequência dos analgésicos, porque o uso excessivo é justamente o que transforma uma enxaqueca episódica em dor quase diária.',
+            'Na crise, o que faz diferença é tomar o analgésico assim que ela começa, inclusive quando o aviso é a aura, e não esperar a dor se instalar.',
+            'Para crises leves ou moderadas, os analgésicos simples e os anti-inflamatórios não esteroides, como paracetamol, ibuprofeno, ácido acetilsalicílico e naproxeno, costumam ser a primeira escolha, desde que não haja contraindicação. Quando a dor é moderada ou forte, ou não responde a essas opções, o médico pode indicar um triptano, como sumatriptano ou rizatriptano. Antieméticos são usados quando a náusea e o vômito impedem de engolir até o comprimido.',
+            'Triptanos e ergotamina são contraindicados em quem tem doença cardíaca, hipertensão grave sem controle ou histórico de AVC, e não devem ser usados por mais de dois a três dias por semana. Opioides não são recomendados de rotina pelo risco de dependência. O tratamento é individualizado: a escolha depende do padrão de crises, de outras doenças e dos remédios em uso, e a automedicação com o remédio de outra pessoa raramente funciona.',
           ],
           cta: {
             label: 'Leia também: tratamento e cuidados na enxaqueca',
@@ -3844,11 +3863,44 @@ export const diseases: Disease[] = [
           },
         },
         {
+          id: 'prevencao-medicamentosa',
+          heading: 'Quando usar remédio todos os dias',
+          paragraphs: [
+            'A prevenção medicamentosa é indicada quando a enxaqueca aparece uma vez por semana ou mais e atrapalha a vida, quando o tratamento da crise não funciona ou não pode ser usado, ou em formas que podem causar complicações neurológicas. O objetivo é reduzir a frequência, a intensidade e a duração das crises, e não eliminar a dor de uma hora para outra.',
+            'As classes mais usadas incluem betabloqueadores (como propranolol), bloqueadores de canal de cálcio (como verapamil), antidepressivos (como amitriptilina), anticonvulsivantes (como topiramato e valproato) e, em casos selecionados, anti-inflamatórios como naproxeno no período menstrual. A escolha depende de outras doenças, da gravidez ou da amamentação e dos remédios em uso; alguns desses medicamentos não são indicados nesses períodos. O efeito é gradual, a dose começa baixa e costuma ser ajustada ao longo de semanas. Depois de acertar, o tratamento em geral continua por pelo menos seis meses, com reavaliação periódica.',
+          ],
+        },
+        {
+          id: 'outros-tratamentos',
+          heading: 'Cirurgia, terapias complementares e novas opções',
+          paragraphs: [
+            'A cirurgia não é tratamento de rotina para enxaqueca. Ela é estudada em casos muito selecionados, geralmente quando há um foco de dor identificável e o tratamento clínico falhou, e deve ser discutida em serviço especializado. O mesmo vale para técnicas minimamente invasivas, como bloqueios com anestésico guiados por imagem.',
+            'Práticas complementares, como acupuntura e relaxamento, podem ajudar a lidar com a dor e a ansiedade, mas não há evidência de que curem a enxaqueca, e elas não substituem o tratamento medicamentoso. A psicoterapia, com técnicas de relaxamento, biofeedback e terapia cognitivo-comportamental, é útil para quem tem crises frequentes ou ansiedade e depressão associadas. Novas opções, como neuromodulação, toxina botulínica em casos de enxaqueca crônica e medicamentos que bloqueiam a via do CGRP, estão em estudo ou disponíveis em centros especializados, e a indicação depende de avaliação médica.',
+          ],
+        },
+        {
           id: 'complicacoes',
           heading: 'Quando a dor de cabeça passa a ser quase todo dia',
           paragraphs: [
             'Usar remédio para dor de cabeça com muita frequência tem efeito contrário: a cefaleia por uso excessivo de medicamentos, antes chamada de cefaleia de rebote. Ela aparece como dor em 15 ou mais dias por mês em quem já tinha uma cefaleia e passou a usar medicamento agudo em excesso por mais de três meses. O limite depende do fármaco: 10 ou mais dias por mês para triptanos, ergotamina, opioides e analgésicos combinados, e 15 ou mais dias por mês para analgésicos simples, como paracetamol e anti-inflamatórios. É a cefaleia secundária mais comum do mundo, atinge até 5% de algumas populações, mais mulheres do que homens, e mais da metade das pessoas com dor em 15 ou mais dias por mês tem esse diagnóstico.',
             'A maior parte dessas pessoas melhora quando o uso excessivo é interrompido com acompanhamento, e a resposta ao tratamento preventivo também melhora depois disso. A enxaqueca em si pode cronificar: fala-se em enxaqueca crônica quando há dor em 15 ou mais dias por mês por mais de três meses, com pelo menos oito dias trazendo características de enxaqueca. Uma crise incapacitante que se arrasta por mais de 72 horas é chamada de estado migranoso e pede atendimento médico.',
+            'Outras complicações são raras, mas exigem investigação. A aura persistente sem infarto cerebral é uma aura que dura mais de uma semana, sem lesão isquêmica na imagem. O infarto migranoso ocorre quando a aura dura mais de uma hora e o exame de imagem mostra uma área de isquemia. Em casos raros, a aura pode desencadear uma crise epiléptica durante a aura ou até uma hora depois. Nessas situações, o atendimento especializado não pode esperar.',
+          ],
+        },
+        {
+          id: 'cuidados-diarios',
+          heading: 'Cuidados diários durante e entre as crises',
+          paragraphs: [
+            'Durante a crise, procure um ambiente escuro e silencioso, deite e tente dormir. Uma compressa fria na nuca ou uma leve pressão nos pontos doloridos da cabeça pode trazer alívio. Tenha sempre à mão o remédio indicado para a crise, para usá-lo no primeiro sinal, e evite dirigir ou tomar decisões importantes enquanto a dor estiver forte.',
+            'No dia a dia, mantenha horários regulares de sono e de refeições, reservando de sete a nove horas de sono por noite. Relaxamento muscular, meditação e alongamentos ajudam a reduzir a tensão. O diário de cefaleia é uma ferramenta central: anote data, duração, intensidade, gatilhos e o que tomou, mesmo depois do diagnóstico. Essas anotações mostram o que funciona para você e ajudam o médico a ajustar o plano.',
+          ],
+        },
+        {
+          id: 'prevencao-de-crises',
+          heading: 'Como reduzir a frequência das crises',
+          paragraphs: [
+            'A prevenção começa por uma rotina previsível: horários fixos para dormir, acordar e comer, pausas no trabalho e gerenciamento do estresse. Atividade física regular, como caminhada, natação ou bicicleta, ajuda, desde que haja aquecimento e a intensidade aumente aos poucos; esforço súbito pode desencadear crise. Manter um peso saudável também reduz a frequência.',
+            'Preste atenção aos gatilhos que aparecem no seu diário, como álcool, chocolate, queijos curados, jejum prolongado, pouca água e mudanças bruscas de sono. Se você usa contraceptivo com estrogênio e percebe crises no período menstrual, converse com o médico sobre alternativas. Quem faz prevenção medicamentosa deve tomar o remédio todos os dias, sem aumentar nem interromper por conta própria, e voltar a cada três meses para reavaliar.',
           ],
         },
         {
@@ -3864,7 +3916,7 @@ export const diseases: Disease[] = [
             'Confusão mental, convulsão, dificuldade para despertar ou manchas vermelhas e roxas na pele',
             'Aura diferente das habituais, principalmente a primeira depois dos 40 anos',
             'Dor de cabeça nova que aparece durante esforço físico, tosse forte ou relação sexual',
-            'Dor de cabeça persistente e diferente de tudo que você já sentiu, depois dos 60 anos',
+            'Dor de cabeça persistente e diferente de tudo que você já sentiu, depois dos 50 anos',
           ],
           cta: {
             label: 'Leia também: sinais de alerta na enxaqueca',
@@ -3886,7 +3938,7 @@ export const diseases: Disease[] = [
         {
           question: 'Tomar remédio para dor de cabeça toda semana faz mal?',
           answer:
-            'Sim, e esse é um dos pontos mais sensíveis do cuidado com a enxaqueca. Uso regular e excessivo de analgésicos, triptanos e anti-inflamatórios por mais de três meses pode levar à cefaleia por uso excessivo de medicamentos, que instala dor em quase todos os dias. O padrão de uso deve ser revisado com o médico, e costuma melhorar quando o excesso é interrompido.',
+            'Sim, e esse é um dos pontos mais sensíveis do cuidado com a enxaqueca. Uso regular e excessivo de analgésicos, triptanos e anti-inflamatórios por mais de três meses pode levar à cefaleia por uso excessivo de medicamentos, que faz a dor aparecer em quase todos os dias. O padrão de uso deve ser revisado com o médico, e costuma melhorar quando o excesso é interrompido.',
         },
       ],
       relatedArticleSlugs: [
@@ -3897,7 +3949,7 @@ export const diseases: Disease[] = [
       relatedDiseaseSlugs: ['infarto-e-avc', 'hipertensao'],
       references: [
         {
-          label: 'Cefaleias, folha de dados sobre distúrbios de dor de cabeça',
+          label: 'Migrânea e outras cefaleias, folha de dados',
           url: 'https://www.who.int/news-room/fact-sheets/detail/headache-disorders',
           publisher: 'Organização Mundial da Saúde',
         },
@@ -3926,7 +3978,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-21',
       isPlaceholder: true,
     },
   {
@@ -3948,10 +4000,19 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'tipos',
+          heading: 'Quais são os tipos de otite média aguda?',
+          paragraphs: [
+            'A otite média aguda se divide em dois grandes grupos. A forma supurativa, ou purulenta, é a infecção bacteriana clássica, com dor intensa, febre e, às vezes, pus saindo pelo ouvido quando o tímpano se rompe. A forma não supurativa inclui a otite média secretora, em que líquido se acumula sem infecção ativa, e a otite barotraumática, causada por mudança brusca de pressão, como em um voo ou mergulho.',
+            'A distinção importa para o tratamento. Na forma secretora, o objetivo é acompanhar a audição e resolver a causa do acúmulo de líquido; na forma supurativa, o foco é controlar a infecção e a dor. A otite barotraumática costuma melhorar quando a pressão se equaliza, mas pode romper o tímpano e exigir avaliação.',
+          ],
+        },
+        {
           id: 'sintomas',
           heading: 'Quais são os sintomas?',
           paragraphs: [
-            'O sinal típico é a dor de ouvido de surgimento repentino, que costuma piorar à noite e ao deitar.',
+            'O sinal típico é a dor de ouvido de surgimento repentino, que costuma piorar à noite e ao deitar. Em bebês, o incômodo aparece como irritabilidade, choro fácil, recusa das mamadas e dificuldade para dormir; muitos levam a mão à orelha.',
+            'A febre pode ser alta no início, e a audição fica abafada do lado afetado. Quando o tímpano se rompe, sai líquido ou pus pelo ouvido, e a dor costuma aliviar. Em adultos e crianças maiores, a apresentação é semelhante, só menos frequente.',
           ],
           bullets: [
             'Dor de ouvido, muitas vezes em um lado só',
@@ -3960,14 +4021,15 @@ export const diseases: Disease[] = [
             'Bebês levam a mão à orelha com frequência',
             'Sensação de ouvido tampado e audição abafada',
             'Saída de líquido ou pus pelo ouvido quando o tímpano se fura, que costuma aliviar a dor',
+            'Em quadros mais intensos, vômito e diarreia podem acompanhar a febre',
           ],
         },
         {
-          id: 'transmissao',
-          heading: 'Otite média aguda é contagiosa?',
+          id: 'causas',
+          heading: 'O que causa a otite média aguda?',
           paragraphs: [
-            'Não. A otite em si não passa de uma pessoa para outra. O que circula entre as pessoas é a infecção respiratória que costuma dar origem a ela: os vírus e as bactérias do resfriado e da [faringite e amigdalite](/doencas/faringite-e-amigdalite/).',
-            'Na maioria das vezes, o ouvido médio inflama depois dessas infecções, sem contato direto com alguém doente. Por isso, a criança que pega muitos resfriados tem mais otites.',
+            'A otite média aguda quase sempre nasce de uma infecção respiratória que inflama o nariz e bloqueia a tuba auditiva, o canal que liga o ouvido médio à garganta. Com a passagem fechada, o ar é absorvido, o líquido se acumula e vira meio de cultura para bactérias. Os agentes mais comuns são o pneumococo, o Haemophilus influenzae e o estreptococo.',
+            'A otite em si não passa de uma pessoa para outra. O que circula é o resfriado ou a infecção de garganta que a antecede, transmitido por gotículas e pelas mãos. Em crianças pequenas, a tuba auditiva é curta, horizontal e imatura, o que explica por que elas acumulam líquido com tanta facilidade.',
           ],
         },
         {
@@ -3981,26 +4043,40 @@ export const diseases: Disease[] = [
             'Estar exposto a resfriados com frequência, como quem vive com irmãos maiores ou frequenta creche',
             'Ter alergia respiratória, rinite ou [asma](/doencas/asma/) em crise',
             'Conviver com fumaça de cigarro dentro de casa',
+            'Mamadeira oferecida com a criança deitada ou ausência de aleitamento materno',
+            'Usar chupeta por longos períodos',
           ],
         },
         {
           id: 'diagnostico',
           heading: 'Como é feito o diagnóstico?',
           paragraphs: [
-            'A suspeita nasce da história, e a confirmação vem do exame do ouvido: com um otoscópio, o profissional vê o tímpano vermelho, abaulado e com pouca mobilidade, sinais de que o ouvido médio está cheio de líquido infectado.',
-            'Exames de imagem ou coleta de líquido são reservados a casos complicados ou que não respondem ao tratamento. Em casa, o que orienta a conduta é a evolução da dor e do estado geral nas primeiras 48 a 72 horas.',
+            'O diagnóstico é clínico e depende do exame do ouvido. A combinação que confirma é dor de início recente, geralmente nas últimas 48 horas, com tímpano vermelho e abaulado, pouco móvel, e líquido no ouvido médio. Na maioria dos casos, a crise vem depois de um resfriado.',
+            'O profissional usa um otoscópio e, quando disponível, a otoscopia pneumática, que mostra se o tímpano se move com a pressão. Em crianças pequenas, a avaliação pode exigir paciência e imobilização gentil. Não é preciso exame de imagem para o caso típico.',
           ],
-          cta: {
-            label: 'Leia também: otite média aguda, sinais de alerta',
-            href: '/artigos/otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento/',
-          },
         },
         {
-          id: 'tratamento',
-          heading: 'Como se trata?',
+          id: 'exames',
+          heading: 'Exames e quando procurar o especialista',
           paragraphs: [
-            'A maioria das otites médias agudas melhora sem antibiótico, e por isso a primeira medida é tratar a dor, com analgésicos pela boca, na dose ajustada à idade e ao peso pela equipe de saúde.',
-            'O antibiótico passa a ser necessário quando a criança piora ou não melhora entre 48 e 72 horas do início dos sintomas, e nos casos de maior gravidade, como os de bebê muito pequeno ou com pus escorrendo pelo ouvido. Quando indicado, a amoxicilina é a primeira escolha consagrada nas diretrizes brasileiras. Remédios para alergia e descongestionantes não têm espaço no tratamento: o benefício é pequeno e os efeitos colaterais, reais.',
+            'A otoscopia é o exame central. Quando há dúvida, a timpanometria mede a mobilidade do tímpano e ajuda a confirmar o líquido. A audiometria é reservada para quem continua com audição abafada por semanas ou para crianças com atraso de fala.',
+            'Exames de sangue não são necessários na maioria dos casos; entram quando há febre prolongada, toxemia ou suspeita de complicação. A tomografia de mastoides é reservada a suspeita de mastoidite ou complicação intracraniana. O otorrinolaringologista é acionado em otites de repetição, perfuração persistente, perda auditiva importante ou complicações.',
+          ],
+        },
+        {
+          id: 'diagnostico-diferencial',
+          heading: 'O que pode ser confundido com otite?',
+          paragraphs: [
+            'Nem toda dor de ouvido é otite média. A otite externa, inflamação do canal do ouvido, dói ao puxar o pavilhão ou ao pressionar o trago, e não costuma vir com febre alta. A disfunção da tuba auditiva causa ouvido tampado e desconforto, mas o tímpano não está abaulado.',
+            'Em adultos, líquido persistente de um só lado exige atenção: pode ser sinal de tumor de nasofaringe, e por isso a investigação com o especialista é obrigatória. Também entram na lista a cárie dentária que irradia para o ouvido, a disfunção da articulação temporomandibular e, em casos raros, a fístula de líquido cefalorraquidiano após trauma.',
+          ],
+        },
+        {
+          id: 'tratamento-geral',
+          heading: 'Cuidados gerais e alívio da dor',
+          paragraphs: [
+            'A maioria das otites médias agudas melhora sem antibiótico. O primeiro passo é aliviar a dor com analgésicos pela boca, como paracetamol ou ibuprofeno, na dose ajustada à idade e ao peso pela equipe de saúde. Compressa morna local pode confortar, mas não trata a infecção.',
+            'Manter a hidratação e a alimentação, garantir sono e evitar fumaça de cigarro fazem parte do cuidado. Descongestionantes e anti-histamínicos não ajudam e podem prolongar o líquido no ouvido. Não se deve pingar nada no ouvido sem orientação.',
           ],
           cta: {
             label: 'Leia também: tratamento e cuidados na otite média aguda',
@@ -4008,11 +4084,45 @@ export const diseases: Disease[] = [
           },
         },
         {
-          id: 'complicacoes',
-          heading: 'Otite com líquido, audição e complicações',
+          id: 'tratamento-medicamentoso',
+          heading: 'Quando o antibiótico é necessário',
           paragraphs: [
-            'Depois de uma otite, é comum sobrar líquido no ouvido médio sem infecção ativa. Isso tem nome, otite média secretora, e se manifesta como audição abafada, sem dor nem febre; o líquido pode persistir por semanas a meses e costuma sumir sozinho.',
-            'Quando o líquido não sai ou as otites se repetem, a criança pode ouvir mal por tempo demais, o que atrapalha a fala e a aprendizagem. Nesses casos, a avaliação da audição e o encaminhamento ao otorrinolaringologista se justificam, e a colocação de um pequeno tubo de ventilação no tímpano é opção para situações selecionadas. Complicações graves, como a infecção do osso que fica atrás do ouvido, são raras, mas exigem atendimento imediato.',
+            'A decisão depende da idade, do lado afetado e da gravidade. Bebês com menos de 2 anos, quadros bilaterais, otite com pus saindo pelo ouvido, febre alta ou dor intensa costumam receber antibiótico desde o início. Em crianças maiores com quadro leve e unilateral, é possível observar por 48 a 72 horas e iniciar apenas se não houver melhora.',
+            'Quando indicado, a amoxicilina é a primeira escolha na maioria dos casos, por 7 a 10 dias conforme a orientação. Em quem tem alergia ou não responde, o médico pode trocar para outra classe. O tratamento deve ser completado, e a reavaliação é necessária se não houver melhora em 48 a 72 horas.',
+            'Corticoides não são recomendados de rotina, e os descongestionantes nasais não tratam a infecção. Gotas de ouvido só entram com prescrição e quando há perfuração do tímpano; antes disso, não alcançam o ouvido médio.',
+          ],
+        },
+        {
+          id: 'cirurgia',
+          heading: 'Quando a cirurgia é considerada',
+          paragraphs: [
+            'A cirurgia não é tratamento de rotina da otite média aguda. A punção do tímpano, ou timpanocentese, é usada para colher líquido em casos graves, em bebês pequenos com quadro tóxico ou quando o antibiótico não funciona, e ajuda a identificar a bactéria.',
+            'A abertura do tímpano, ou miringotomia, e a colocação de um tubo de ventilação são reservadas a otites de repetição, líquido persistente com perda auditiva ou complicações. O tubo mantém o ouvido ventilado por meses e costuma sair sozinho; a indicação é sempre do especialista.',
+          ],
+        },
+        {
+          id: 'complicacoes',
+          heading: 'O que pode acontecer depois',
+          paragraphs: [
+            'Depois da crise, é comum sobrar líquido no ouvido médio sem infecção ativa, a otite média secretora. A criança não sente dor nem febre, mas ouve abafado; o líquido pode durar semanas a meses e costuma sumir sozinho. Quando persiste, a audição prejudicada pode atrapalhar a fala e a aprendizagem, e a avaliação com audiometria e otorrinolaringologista se justifica.',
+            'Complicações graves são raras, mas pedem atendimento imediato: mastoidite, quando a infecção atinge o osso atrás do ouvido, com vermelhidão, inchaço e dor; paralisia facial; meningite; e abscessos intracranianos. A perfuração do tímpano costuma fechar sozinha, mas perfurações persistentes merecem avaliação.',
+            'A médio prazo, a inflamação repetida pode levar a aderências entre o tímpano e as estruturas do ouvido médio, a otite adesiva, com perda auditiva permanente. O acompanhamento da audição é a forma de detectar cedo.',
+          ],
+        },
+        {
+          id: 'cuidados-diarios',
+          heading: 'Cuidados em casa durante e depois da crise',
+          paragraphs: [
+            'Durante a crise, ofereça líquidos, mantenha a criança confortável e dê o analgésico conforme a orientação. Não force a limpeza do canal do ouvido nem introduza cotonete; a saída de pus deve ser limpa por fora, com gaze, e avaliada pelo serviço de saúde.',
+            'Depois que a dor passa, observe a audição. Falar alto, pedir para repetir, aumentar a TV e isolar-se podem indicar líquido persistente. Evite piscina, mar e mergulho enquanto houver perfuração ou orientação médica contrária. Fumaça de cigarro em casa aumenta as recidivas e deve ser eliminada.',
+          ],
+        },
+        {
+          id: 'prevencao',
+          heading: 'Como prevenir novos episódios',
+          paragraphs: [
+            'A prevenção começa pelo controle das infecções respiratórias: lavar as mãos, evitar aglomerações no período de maior circulação de vírus e manter a vacinação em dia, incluindo a vacina contra pneumococo e a anual contra gripe quando indicadas.',
+            'Amamentar até os 6 meses, oferecer a mamadeira com a cabeça elevada e evitar a chupeta prolongada reduzem o risco. Não fumar dentro de casa e tratar rinite e asma ajudam a manter a tuba auditiva funcionando. Para quem viaja de avião, mastigar, engolir ou fazer a manobra de equalização durante a decolagem e o pouso alivia a pressão.',
           ],
         },
         {
@@ -4025,6 +4135,8 @@ export const diseases: Disease[] = [
             'Inchaço, vermelhidão e dor no osso atrás do ouvido',
             'Febre alta persistente, vômitos ou criança muito sonolenta',
             'Rigidez no pescoço, confusão ou dificuldade para despertar',
+            'Rosto torto ou fraqueza em um lado da face',
+            'Tontura intensa ou desequilíbrio',
             'Saída de pus pelo ouvido com febre que não cede',
             'Piora apesar do tratamento já iniciado',
           ],
@@ -4054,8 +4166,6 @@ export const diseases: Disease[] = [
       relatedArticleSlugs: [
         'otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento',
         'otite-media-aguda-tratamento-e-cuidados',
-        'faringite-e-amigdalite-sinais-de-alerta',
-        'asma-como-evitar-crises',
       ],
       relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
       relatedDiseaseSlugs: ['faringite-e-amigdalite', 'asma'],
@@ -4080,7 +4190,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-21',
       isPlaceholder: true,
     },
   {

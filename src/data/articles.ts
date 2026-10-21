@@ -5126,341 +5126,412 @@ export const articles: Article[] = [
     isPlaceholder: true,
   },
   {
-      id: 'enxaqueca-sinais-de-alerta-quando-procurar-atendimento',
-      slug: 'enxaqueca-sinais-de-alerta-quando-procurar-atendimento',
-      metaTitle: 'Enxaqueca: sinais de alerta',
-      title: 'Enxaqueca: sinais de alerta e quando procurar atendimento',
-      excerpt:
-        'Quem tem enxaqueca aprende a reconhecer a própria crise. O problema é quando a dor de cabeça muda de padrão ou traz sinais que não pertencem a ela. Veja o que exige atendimento imediato.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'quando-procurar-imediatamente',
-          heading: 'Sinais que pedem atendimento imediato',
-          paragraphs: [
-            'Na enxaqueca conhecida, a crise é incômoda, mas reconhecível: dura de 4 a 72 horas, costuma pulsar em um lado da cabeça, piora com esforço e vem com náusea e incômodo à luz e ao barulho. O sinal de alerta aparece quando algo foge desse roteiro. Nesses casos, não espere a crise passar sozinha: ligue para o SAMU (192) ou vá a um pronto atendimento se notar:',
-          ],
-          bullets: [
-            'Dor de cabeça que explode e atinge a intensidade máxima em menos de um minuto',
-            'Fraqueza ou paralisia de um lado do corpo, boca torta, fala embolada ou perda de visão súbita',
-            'Febre com rigidez no pescoço e dor de cabeça intensa',
-            'Confusão mental, convulsão, dificuldade para despertar ou manchas vermelhas e roxas na pele',
-            'Dor de cabeça que surge durante esforço físico, tosse forte ou relação sexual',
-            'Uma aura diferente do habitual, ou a primeira aura depois dos 40 anos',
-            'Dor de cabeça persistente e inédita depois dos 60 anos',
-          ],
-          cta: {
-            label: 'Veja a página completa sobre enxaqueca',
-            href: '/doencas/enxaqueca/',
-          },
+    id: 'enxaqueca-sinais-de-alerta-quando-procurar-atendimento',
+    slug: 'enxaqueca-sinais-de-alerta-quando-procurar-atendimento',
+    metaTitle: 'Enxaqueca: sinais de alerta',
+    title: 'Enxaqueca: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'Quem tem enxaqueca aprende a reconhecer a própria crise. O problema é quando a dor de cabeça muda de padrão ou traz sinais que não pertencem a ela. Veja o que exige atendimento imediato.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-procurar-imediatamente',
+        heading: 'Sinais que pedem atendimento imediato',
+        paragraphs: [
+          'Na enxaqueca conhecida, a crise é incômoda, mas reconhecível: dura de 4 a 72 horas, costuma pulsar em um lado da cabeça, piora com esforço e vem com náusea e incômodo à luz e ao barulho. O sinal de alerta aparece quando algo foge desse roteiro. Nesses casos, não espere a crise passar sozinha: ligue para o SAMU (192) ou vá a um pronto atendimento se notar:',
+          'Nem toda crise precisa de emergência. O que muda a conduta é o conjunto: uma dor que foge do padrão habitual, que vem com déficit neurológico ou que surge de forma súbita. Se você tem enxaqueca e reconhece a crise de sempre, o manejo pode ser feito em casa, com o plano combinado com seu médico. A dúvida, porém, não é motivo para esperar: na emergência, a avaliação existe justamente para separar a crise habitual de algo novo.',
+        ],
+        bullets: [
+          'Dor de cabeça que explode e atinge a intensidade máxima em menos de um minuto',
+          'Fraqueza ou paralisia de um lado do corpo, boca torta, fala embolada ou perda de visão súbita',
+          'Febre com rigidez no pescoço e dor de cabeça intensa',
+          'Confusão mental, convulsão, dificuldade para despertar ou manchas vermelhas e roxas na pele',
+          'Dor de cabeça que surge durante esforço físico, tosse forte ou relação sexual',
+          'Uma aura diferente do habitual, ou a primeira aura depois dos 40 anos',
+          'Dor de cabeça persistente e inédita depois dos 50 anos',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre enxaqueca',
+          href: '/doencas/enxaqueca/',
         },
-        {
-          id: 'dor-de-cabeca-em-trovoada',
-          heading: 'A dor que explode em segundos',
-          paragraphs: [
-            'Existe um tipo de dor de cabeça com início abrupto, que atinge a intensidade máxima em menos de um minuto e dura mais de cinco minutos. A descrição clássica é de um trovão, e ela é um sinal de urgência: está muitas vezes associada a transtornos vasculares intracranianos graves, sobretudo a hemorragia subaracnóidea, aquela em que um aneurisma rompe e sangra ao redor do cérebro.',
-            'Nesse cenário, a dor de cabeça em trovoada só pode ser chamada de primária depois que as causas orgânicas forem comprovadamente excluídas, o que exige neuroimagem e, em muitos casos, análise do líquido que banha o cérebro. Ou seja: quem sente esse tipo de dor deve fazer a investigação completa, e não se contentar com um analgésico. O mesmo vale para a dor de cabeça que surge pela primeira vez ligada a esforço físico, tosse ou atividade sexual.',
-          ],
-        },
-        {
-          id: 'avc-e-meningite',
-          heading: 'O que o AVC e a meningite têm a ver com a dor de cabeça',
-          paragraphs: [
-            'A dor de cabeça súbita e intensa, sem causa aparente, está na lista de sinais de AVC divulgada pelo Ministério da Saúde, junto com a boca torta, a fala embolada e a fraqueza em um lado do corpo. Como o AVC isquêmico responde pela maior parte dos casos e o tratamento depende do tempo, a regra é acionar o SAMU (192) ou os Bombeiros (193) e ir à emergência o mais rápido possível.',
-            'A meningite é outra emergência que se anuncia com dor de cabeça. Ela costuma vir com febre, rigidez no pescoço, náusea, vômito e sensibilidade à luz, e os sinais de gravidade incluem confusão mental, convulsão, dificuldade para despertar e manchas avermelhadas ou arroxeadas na pele. O Ministério da Saúde informa que todos os exames para diagnosticar a meningite estão disponíveis no Sistema Único de Saúde (SUS).',
-          ],
-        },
-        {
-          id: 'mudanca-de-padrao',
-          heading: 'Quando a dor de cabeça deixa de ser enxaqueca',
-          paragraphs: [
-            'Quem convive com a enxaqueca tem um padrão, e o que deve chamar a atenção é a quebra desse padrão. Uma aura que aparece pela primeira vez depois dos 40 anos, uma aura feita só de perda de campo visual, ou uma aura que se estende muito além de uma hora pede investigação para separar a migrânea do ataque isquêmico transitório. Uma dor de cabeça nova e persistente em pessoa com mais de 60 anos deve fazer pensar em arterite de células gigantes, inflamação de artérias da cabeça que pode causar cegueira e se anuncia muitas vezes com dor ao mastigar e couro cabeludo dolorido.',
-            'A pressão alta também entra nessa conta. Seus sintomas costumam aparecer apenas quando a pressão sobe muito, e incluem dor de cabeça, tontura e visão embaçada. Por isso, medir a pressão antes de concluir que é a crise de sempre é um bom hábito: o Ministério da Saúde recomenda a aferição pelo menos uma vez por ano para maiores de 20 anos, e ela é feita na unidade básica de saúde (UBS). Leia mais em [como medir a pressão arterial em casa](/artigos/hipertensao-como-medir-a-pressao-em-casa/).',
-          ],
-        },
-        {
-          id: 'crise-que-nao-passa',
-          heading: 'Crise que não passa e atendimento de rotina',
-          paragraphs: [
-            'Uma crise de enxaqueca que se arrasta por mais de 72 horas e incapacita tem nome, estado migranoso, e é considerada uma complicação da doença: merece avaliação médica, e não apenas mais comprimidos. O mesmo se aplica a quem passa a ter dor em 15 ou mais dias do mês, quadro em que o uso excessivo de analgésicos costuma estar envolvido e que se resolve quando o excesso é interrompido com acompanhamento.',
-            'Para quem tem crises frequentes, o caminho de rotina começa na UBS, onde a equipe revisa o padrão das crises, mede a pressão, confere os medicamentos em uso e encaminha ao especialista quando é preciso confirmar o diagnóstico ou iniciar prevenção. Levar um registro das crises, com datas, duração e remédios tomados, encurta esse caminho.',
-          ],
-        },
-      ],
-      diseaseSlugs: ['enxaqueca'],
-      topicSlugs: ['doencas-cronicas'],
-      relatedArticleSlugs: ['enxaqueca-tratamento-e-cuidados'],
-      references: [
-        {
-          label: 'Cefaleias, folha de dados sobre distúrbios de dor de cabeça',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/headache-disorders',
-          publisher: 'Organização Mundial da Saúde',
-        },
-        {
-          label: 'AVC: sinais de alerta e o que fazer',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Meningite: sintomas e quando procurar atendimento',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'dor-de-cabeca-em-trovoada',
+        heading: 'A dor que explode em segundos',
+        paragraphs: [
+          'Existe um tipo de dor de cabeça com início abrupto, que atinge a intensidade máxima em menos de um minuto e dura mais de cinco minutos. A descrição clássica é de um trovão, e ela é um sinal de urgência: está muitas vezes associada a transtornos vasculares intracranianos graves, sobretudo a hemorragia subaracnóidea, aquela em que um aneurisma rompe e sangra ao redor do cérebro.',
+          'Nesse cenário, a dor de cabeça em trovoada só pode ser chamada de primária depois que as causas orgânicas forem comprovadamente excluídas, o que exige neuroimagem e, em muitos casos, análise do líquido que banha o cérebro. Ou seja: quem sente esse tipo de dor deve fazer a investigação completa, e não se contentar com um analgésico. O mesmo vale para a dor de cabeça que surge pela primeira vez ligada a esforço físico, tosse ou atividade sexual.',
+        ],
+      },
+      {
+        id: 'avc-e-meningite',
+        heading: 'O que o AVC e a meningite têm a ver com a dor de cabeça',
+        paragraphs: [
+          'A dor de cabeça súbita e intensa, sem causa aparente, está na lista de sinais de AVC divulgada pelo Ministério da Saúde, junto com a boca torta, a fala embolada e a fraqueza em um lado do corpo. Como o AVC isquêmico responde pela maior parte dos casos e o tratamento depende do tempo, a regra é acionar o SAMU (192) ou os Bombeiros (193) e ir à emergência o mais rápido possível.',
+          'A meningite é outra emergência que se anuncia com dor de cabeça. Ela costuma vir com febre, rigidez no pescoço, náusea, vômito e sensibilidade à luz, e os sinais de gravidade incluem confusão mental, convulsão, dificuldade para despertar e manchas avermelhadas ou arroxeadas na pele. O Ministério da Saúde informa que todos os exames para diagnosticar a meningite estão disponíveis no Sistema Único de Saúde (SUS).',
+        ],
+      },
+      {
+        id: 'mudanca-de-padrao',
+        heading: 'Quando a dor de cabeça deixa de ser enxaqueca',
+        paragraphs: [
+          'Quem convive com a enxaqueca tem um padrão, e o que deve chamar a atenção é a quebra desse padrão. Uma aura que aparece pela primeira vez depois dos 40 anos, uma aura feita só de perda de campo visual, ou uma aura que se estende muito além de uma hora pede investigação para separar a migrânea do ataque isquêmico transitório. Uma dor de cabeça nova e persistente em pessoa com mais de 50 anos deve fazer pensar em arterite de células gigantes, inflamação de artérias da cabeça que pode causar cegueira e se anuncia muitas vezes com dor ao mastigar e couro cabeludo dolorido.',
+          'A pressão alta também entra nessa conta. Seus sintomas costumam aparecer apenas quando a pressão sobe muito, e incluem dor de cabeça, tontura e visão embaçada. Por isso, medir a pressão antes de concluir que é a crise de sempre é um bom hábito: o Ministério da Saúde recomenda a aferição pelo menos uma vez por ano para maiores de 20 anos, e ela é feita na unidade básica de saúde (UBS). Leia mais em [como medir a pressão arterial em casa](/artigos/hipertensao-como-medir-a-pressao-em-casa/).',
+        ],
+      },
+      {
+        id: 'o-que-nao-e-emergencia',
+        heading: 'O que costuma ser confundido com emergência',
+        paragraphs: [
+          'Nem toda alteração visual é um AVC. Na aura típica da enxaqueca, o sintoma visual se instala aos poucos, ao longo de cinco minutos ou mais, e costuma durar entre cinco e sessenta minutos. Ele pode ser um zigue-zague brilhante, uma mancha que cresce ou uma área de visão borrada, e geralmente vem antes da dor. Já o AVC começa de repente, com perda de visão em um campo, fraqueza ou alteração da fala que se instala em segundos.',
+          'Em quem já tem diagnóstico de enxaqueca, também não é sinal de alerta a dor que melhora com o remédio habitual dentro do tempo esperado, nem a crise que vem acompanhada de náusea e intolerância à luz, sem outros sintomas neurológicos. O que pede atenção é a quebra do padrão: uma aura que dura mais de uma hora, que aparece pela primeira vez depois dos 40 anos ou que vem acompanhada de fraqueza. Nesses casos, a investigação com neuroimagem pode ser necessária para afastar um ataque isquêmico transitório.',
+        ],
+      },
+      {
+        id: 'crise-que-nao-passa',
+        heading: 'Crise que não passa e atendimento de rotina',
+        paragraphs: [
+          'Uma crise de enxaqueca que se arrasta por mais de 72 horas e incapacita tem nome, estado migranoso, e é considerada uma complicação da doença: merece avaliação médica, e não apenas mais comprimidos. O mesmo se aplica a quem passa a ter dor em 15 ou mais dias do mês, quadro em que o uso excessivo de analgésicos costuma estar envolvido e que se resolve quando o excesso é interrompido com acompanhamento.',
+          'Para quem tem crises frequentes, o caminho de rotina começa na UBS, onde a equipe revisa o padrão das crises, mede a pressão, confere os medicamentos em uso e encaminha ao especialista quando é preciso confirmar o diagnóstico ou iniciar prevenção. Levar um registro das crises, com datas, duração e remédios tomados, encurta esse caminho.',
+        ],
+      },
+      {
+        id: 'o-que-anotar',
+        heading: 'O que anotar antes de procurar ajuda',
+        paragraphs: [
+          'Chegar à consulta com informações organizadas encurta a investigação. Anote a data e a hora do início, quanto tempo a dor durou, se foi de um lado só, se pulsava, se piorou com esforço e quais sintomas vieram junto, como náusea, luz, barulho, visão ou formigamento. Registre também o que você tomou e se funcionou.',
+          'O diário de cefaleia vale por várias semanas e mostra o padrão que uma única consulta não consegue ver: frequência, relação com o ciclo menstrual, sono, álcool e estresse. Ele também revela quantos dias de analgésico você usa por mês, informação que muda a conduta quando há suspeita de cefaleia por uso excessivo de medicamentos. Leve o registro ao pronto atendimento se a dor for diferente do habitual; leve à consulta de rotina para ajustar o plano.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['enxaqueca'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['enxaqueca-tratamento-e-cuidados'],
+    references: [
+      {
+        label: 'Migrânea e outras cefaleias, folha de dados',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/headache-disorders',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'AVC: sinais de alerta e o que fazer',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Meningite: sintomas e quando procurar atendimento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
-      id: 'enxaqueca-tratamento-e-cuidados',
-      slug: 'enxaqueca-tratamento-e-cuidados',
-      title: 'Enxaqueca: tratamento e cuidados no dia a dia',
-      excerpt:
-        'Do momento certo de tomar o analgésico à prevenção diária, passando pelo excesso de remédio que agrava a dor. Um guia prático para organizar o tratamento da enxaqueca na rotina.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'na-crise',
-          heading: 'Na crise, o tempo importa',
-          paragraphs: [
-            'O primeiro princípio do tratamento é agir cedo. A Organização Mundial da Saúde recomenda que o analgésico seja tomado no primeiro sinal da crise, inclusive quando o aviso é a aura, porque esperar a dor se instalar costuma reduzir a resposta ao medicamento. Descansar em ambiente escuro e silencioso e usar compressa fria na cabeça são medidas que ajudam enquanto o remédio faz efeito.',
-            'Quando o analgésico comum não dá conta, o médico dispõe de outras classes: antieméticos para a náusea e o vômito, medicamentos específicos para a enxaqueca, como os triptanos, e, em alguns casos, associações. A escolha depende do seu padrão de crises, de outras doenças e dos remédios que você já usa. Por isso o tratamento da enxaqueca é individualizado, e a bula alheia raramente funciona.',
-          ],
-          cta: {
-            label: 'Entenda a enxaqueca na página da doença',
-            href: '/doencas/enxaqueca/',
-          },
+    id: 'enxaqueca-tratamento-e-cuidados',
+    slug: 'enxaqueca-tratamento-e-cuidados',
+    title: 'Enxaqueca: tratamento e cuidados no dia a dia',
+    excerpt:
+      'Do momento certo de tomar o analgésico à prevenção diária, passando pelo excesso de remédio que agrava a dor. Um guia prático para organizar o tratamento da enxaqueca na rotina.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'na-crise',
+        heading: 'Na crise, o tempo importa',
+        paragraphs: [
+          'O primeiro princípio do tratamento é agir cedo. A Organização Mundial da Saúde recomenda que o analgésico seja tomado no primeiro sinal da crise, inclusive quando o aviso é a aura, porque esperar a dor se instalar costuma reduzir a resposta ao medicamento. Descansar em ambiente escuro e silencioso e usar compressa fria na cabeça são medidas que ajudam enquanto o remédio faz efeito.',
+          'Para crises leves ou moderadas, os analgésicos simples e os anti-inflamatórios não esteroides, como paracetamol, ibuprofeno, ácido acetilsalicílico e naproxeno, costumam ser a primeira escolha, desde que não haja contraindicação. Quando a dor é moderada ou forte, ou não responde a essas opções, o médico pode indicar um triptano, como sumatriptano ou rizatriptano. O antiemético é usado quando a náusea e o vômito impedem de engolir até o comprimido.',
+          'Triptanos e ergotamina não são para todo mundo: são contraindicados em quem tem doença cardíaca, hipertensão grave sem controle ou histórico de AVC. Opioides não são recomendados de rotina pelo risco de dependência, e a automedicação com combinações de analgésicos é um dos caminhos mais rápidos para a cefaleia por uso excessivo. Quem está grávida ou amamentando deve conversar com o médico antes de usar qualquer remédio.',
+        ],
+        cta: {
+          label: 'Entenda a enxaqueca na página da doença',
+          href: '/doencas/enxaqueca/',
         },
-        {
-          id: 'preventivo',
-          heading: 'Prevenção para quem tem muitos dias com dor',
-          paragraphs: [
-            'Existe uma segunda frente de tratamento, feita de medicamento tomado todos os dias, mesmo sem dor, para reduzir frequência, intensidade e duração das crises. Ela entra em cena quando a enxaqueca ocupa muitos dias do mês ou atrapalha demais a vida, e seu efeito é gradual: a resposta é avaliada pelo médico ao longo das semanas, e não na primeira caixa.',
-            'A meta do tratamento é declarada pelo paciente, com base no que ele quer recuperar, e por isso vale levar números para a consulta: quantos dias com dor no mês, quantos dias de trabalho ou estudo perdidos, quantos comprimidos por semana. Aproveite para falar de sono, álcool e também de humor, já que ansiedade e depressão são mais frequentes em quem tem enxaqueca e pioram o quadro quando ficam sem cuidado.',
-          ],
-        },
-        {
-          id: 'excesso-de-remedio',
-          heading: 'O remédio que passa a causar dor',
-          paragraphs: [
-            'Este é o ponto em que muita gente tropeça sem perceber. Usar medicamento agudo em excesso, por mais de três meses, pode transformar a enxaqueca episódica em dor quase diária, a cefaleia por uso excessivo de medicamentos. A referência de excesso, pela classificação internacional das cefaleias, é 10 ou mais dias por mês com triptanos, ergotamina, opioides e analgésicos combinados, e 15 ou mais dias por mês com analgésicos simples, como paracetamol e anti-inflamatórios.',
-            'O diagnóstico importa porque a saída é diferente da que a pessoa está tentando: adicionar remédio costuma piorar, e a suspensão orientada do excesso costuma melhorar a dor e ainda restaurar a resposta ao tratamento preventivo. A própria classificação internacional descreve que apenas informar o paciente sobre esse mecanismo, algo que pode ser feito no atendimento básico, já é parte essencial do manejo.',
-          ],
-        },
-        {
-          id: 'gatilhos-na-rotina',
-          heading: 'Cuidados que reduzem a frequência das crises',
-          paragraphs: [
-            'Medidas simples aparecem nas recomendações da OMS e funcionam como base do tratamento, junto com os medicamentos. Elas só valem se forem sustentáveis, e o diário de cefaleia é o instrumento que mostra o que muda alguma coisa para você:',
-          ],
-          bullets: [
-            'Dormir horários regulares, evitando tanto a privação quanto o excesso',
-            'Restringir ou eliminar a bebida alcoólica',
-            'Beber água ao longo do dia e não pular refeições',
-            'Identificar os alimentos que antecedem suas crises',
-            'Manter atividade física regular, começando devagar nos dias sem dor',
-            'Registrar cada crise, com duração, intensidade e remédio tomado',
-          ],
-        },
-        {
-          id: 'pelo-sus',
-          heading: 'Onde buscar tratamento no SUS',
-          paragraphs: [
-            'O acompanhamento começa na unidade básica de saúde (UBS) de referência, onde a equipe pode confirmar o padrão das crises, medir a pressão, revisar o uso de analgésicos e tratar as condições que pesam no risco cardiovascular, como a [hipertensão](/doencas/hipertensao/). Quando o diagnóstico é difícil, o paciente precisa de prevenção ou há sinal de alerta, o encaminhamento vai ao neurologista ou a um serviço de cefaleia, regulado pela rede.',
-            'Há uma ressalva honesta: a OMS registra que, em muitos países, medicamentos específicos para enxaqueca não estão disponíveis com facilidade, e que a maior parte das pessoas com cefaleia no mundo não recebe diagnóstico nem tratamento adequado. Isso não significa ficar sem opção. Significa que vale perguntar ao médico qual é o melhor entre o que está acessível na rede, revisar o plano a cada consulta e não comprar remédio por conta própria para suprir a lacuna.',
-          ],
-        },
-        {
-          id: 'convivendo',
-          heading: 'No trabalho, na escola e em casa',
-          paragraphs: [
-            'A enxaqueca é episódica, e é justamente isso que faz o público subestimá-la. Muita gente trabalha durante a crise, com rendimento reduzido, e o custo aparece em dias perdidos, tarefas adiadas e irritabilidade no fim do mês. Combinar com a chefia ou com a escola um plano mínimo, com local tranquilo, água e acesso ao remédio no início da crise, costuma resolver boa parte do problema.',
-            'Para crianças e adolescentes, os sinais mudam um pouco: as crises duram menos, a dor pode aparecer dos dois lados da cabeça, e queixas abdominais, náusea e palidez costumam chamar mais atenção que a própria dor. Vale relatar isso ao médico, porque enxaqueca na infância existe e também se trata.',
-          ],
-        },
-      ],
-      diseaseSlugs: ['enxaqueca'],
-      topicSlugs: ['doencas-cronicas', 'prevencao'],
-      relatedArticleSlugs: ['enxaqueca-sinais-de-alerta-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Cefaleias, folha de dados sobre distúrbios de dor de cabeça',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/headache-disorders',
-          publisher: 'Organização Mundial da Saúde',
-        },
-        {
-          label: 'Classificação Internacional das Cefaleias, 3ª edição (ICHD-3), tradução brasileira',
-          url: 'https://sbcefaleia.com.br/images/_ICHD-3-Brazilian-Portuguese-translation_complete-version.pdf',
-          publisher: 'Sociedade Brasileira de Cefaleia',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'preventivo',
+        heading: 'Prevenção para quem tem muitos dias com dor',
+        paragraphs: [
+          'Existe uma segunda frente de tratamento, feita de medicamento tomado todos os dias, mesmo sem dor, para reduzir frequência, intensidade e duração das crises. Ela é indicada quando a enxaqueca ocupa muitos dias do mês ou atrapalha demais a vida, e seu efeito é gradual: a resposta é avaliada pelo médico ao longo das semanas, e não na primeira caixa.',
+          'As classes mais usadas incluem betabloqueadores (como propranolol), bloqueadores de canal de cálcio (como verapamil), antidepressivos (como amitriptilina), anticonvulsivantes (como topiramato e valproato) e, em casos selecionados, anti-inflamatórios como naproxeno no período menstrual. A escolha depende de outras doenças, da gravidez ou da amamentação e dos remédios em uso. A dose começa baixa e é ajustada ao longo de semanas; depois de acertar, o tratamento costuma continuar por pelo menos seis meses.',
+          'A meta do tratamento é definida com o paciente, com base no que ele quer recuperar, e por isso vale levar números para a consulta: quantos dias com dor no mês, quantos dias de trabalho ou estudo perdidos, quantos comprimidos por semana. Aproveite para falar de sono, álcool e também de humor, já que ansiedade e depressão são mais frequentes em quem tem enxaqueca e pioram quando não são tratadas.',
+        ],
+      },
+      {
+        id: 'excesso-de-remedio',
+        heading: 'O remédio que passa a causar dor',
+        paragraphs: [
+          'Este é o ponto em que muita gente tropeça sem perceber. Usar medicamento agudo em excesso, por mais de três meses, pode transformar a enxaqueca episódica em dor quase diária, a cefaleia por uso excessivo de medicamentos. A referência de excesso, pela classificação internacional das cefaleias, é 10 ou mais dias por mês com triptanos, ergotamina, opioides e analgésicos combinados, e 15 ou mais dias por mês com analgésicos simples, como paracetamol e anti-inflamatórios.',
+          'O diagnóstico importa porque a saída é diferente da que a pessoa está tentando: adicionar remédio costuma piorar, e a suspensão orientada do excesso costuma melhorar a dor e ainda restaurar a resposta ao tratamento preventivo. A própria classificação internacional descreve que apenas informar o paciente sobre esse mecanismo, algo que pode ser feito no atendimento básico, já é parte essencial do manejo.',
+        ],
+      },
+      {
+        id: 'o-que-evitar',
+        heading: 'O que não fazer por conta própria',
+        paragraphs: [
+          'Alguns hábitos comuns atrasam o tratamento. Um deles é repetir a dose várias vezes ao dia ou combinar analgésicos diferentes sem orientação, o que aumenta o risco de efeito no estômago e de cefaleia por uso excessivo. Outro é usar opioides ou remédios com cafeína em excesso para crises frequentes. E há quem interrompa a prevenção assim que melhora, sem combinar com o médico, justamente quando o efeito ainda está se estabilizando.',
+          'Também não vale comprar triptano por conta própria nem usar o remédio de outra pessoa: a indicação depende de contraindicações cardíacas e da pressão arterial. Se a crise não cede com o plano combinado, se os efeitos colaterais incomodam ou se você está usando analgésico mais de dois a três dias por semana, volte ao serviço de saúde em vez de aumentar a dose. O ajuste é parte do tratamento, não um sinal de fracasso.',
+        ],
+      },
+      {
+        id: 'gatilhos-na-rotina',
+        heading: 'Cuidados que reduzem a frequência das crises',
+        paragraphs: [
+          'Medidas simples aparecem nas recomendações da OMS e funcionam como base do tratamento, junto com os medicamentos. Elas só valem se forem sustentáveis, e o diário de cefaleia é o instrumento que mostra o que muda alguma coisa para você:',
+          'O diário também mostra se as crises se concentram em períodos de sono curto, álcool, jejum ou estresse. Não é preciso eliminar todos os suspeitos de uma vez: teste um de cada vez, por algumas semanas, e mantenha o que realmente faz diferença. Restrições alimentares amplas costumam durar pouco e não ajudam.',
+        ],
+        bullets: [
+          'Dormir horários regulares, evitando tanto a privação quanto o excesso',
+          'Restringir ou eliminar a bebida alcoólica',
+          'Beber água ao longo do dia e não pular refeições',
+          'Identificar os alimentos que antecedem suas crises',
+          'Manter atividade física regular, começando devagar nos dias sem dor',
+          'Registrar cada crise, com duração, intensidade e remédio tomado',
+        ],
+      },
+      {
+        id: 'pelo-sus',
+        heading: 'Onde buscar tratamento no SUS',
+        paragraphs: [
+          'O acompanhamento começa na unidade básica de saúde (UBS) de referência, onde a equipe pode confirmar o padrão das crises, medir a pressão, revisar o uso de analgésicos e tratar as condições que pesam no risco cardiovascular, como a [hipertensão](/doencas/hipertensao/). Quando o diagnóstico é difícil, o paciente precisa de prevenção ou há sinal de alerta, o encaminhamento vai ao neurologista ou a um serviço de cefaleia, regulado pela rede.',
+          'Há uma ressalva honesta: a OMS registra que, em muitos países, medicamentos específicos para enxaqueca não estão disponíveis com facilidade, e que a maior parte das pessoas com cefaleia no mundo não recebe diagnóstico nem tratamento adequado. Isso não significa ficar sem opção. Significa que vale perguntar ao médico qual é o melhor entre o que está acessível na rede, revisar o plano a cada consulta e não comprar remédio por conta própria para suprir a lacuna.',
+        ],
+      },
+      {
+        id: 'convivendo',
+        heading: 'No trabalho, na escola e em casa',
+        paragraphs: [
+          'A enxaqueca é episódica, e é justamente isso que faz o público subestimá-la. Muita gente trabalha durante a crise, com rendimento reduzido, e o custo aparece em dias perdidos, tarefas adiadas e irritabilidade no fim do mês. Combinar com a chefia ou com a escola um plano mínimo, com local tranquilo, água e acesso ao remédio no início da crise, costuma resolver boa parte do problema.',
+          'Para crianças e adolescentes, os sinais mudam um pouco: as crises duram menos, a dor pode aparecer dos dois lados da cabeça, e queixas abdominais, náusea e palidez costumam chamar mais atenção que a própria dor. Vale relatar isso ao médico, porque enxaqueca na infância existe e também se trata.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['enxaqueca'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['enxaqueca-sinais-de-alerta-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Migrânea e outras cefaleias, folha de dados',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/headache-disorders',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Classificação Internacional das Cefaleias, 3ª edição (ICHD-3), tradução brasileira',
+        url: 'https://sbcefaleia.com.br/images/_ICHD-3-Brazilian-Portuguese-translation_complete-version.pdf',
+        publisher: 'Sociedade Brasileira de Cefaleia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
-      id: 'otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento',
-      slug: 'otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento',
-      metaTitle: 'Otite média aguda: quando procurar atendimento',
-      title: 'Otite média aguda: sinais de alerta e quando procurar atendimento',
-      excerpt:
-        'Dor de ouvido e febre costumam ceder em poucos dias, e a otite nem sempre precisa de antibiótico. Saiba o que observar em casa, a partir de quando a espera deixa de ser segura e quais sinais levam direto ao pronto atendimento.',
-      category: 'Doenças infecciosas',
-      categorySlug: 'doencas-infecciosas',
-      body: [
-        {
-          id: 'curso-esperado',
-          heading: 'O que é esperado nos primeiros dias',
-          paragraphs: [
-            'Na otite média aguda, a dor de ouvido aparece de repente, muitas vezes à noite, acompanhada de febre e irritabilidade. Nos primeiros dois ou três dias, o quadro tende a melhorar: a dor cede, a febre perde força e a criança volta a dormir.',
-            'Essa melhora espontânea não é sorte, é a regra. A maioria das pessoas com otite média aguda melhora sem antibiótico, e o tratamento inicial é contra a dor, com analgésico ajustado à idade e ao peso.',
-          ],
+    id: 'otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento',
+    slug: 'otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento',
+    metaTitle: 'Otite média aguda: quando procurar atendimento',
+    title: 'Otite média aguda: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'A dor de ouvido costuma ceder em dois ou três dias, e a maioria das otites melhora sem antibiótico. Saiba o que observar em casa, quando a espera deixa de ser segura e quais sinais levam direto ao pronto atendimento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'curso-esperado',
+        heading: 'O que é esperado nos primeiros dias',
+        paragraphs: [
+          'A otite média aguda começa com dor de ouvido repentina, muitas vezes à noite ou ao deitar, quando a pressão dentro do ouvido médio aumenta. A febre pode ser alta já no primeiro dia. Em bebês, o quadro aparece como irritabilidade, choro difícil de consolar, recusa das mamadas e a mão indo sempre para a mesma orelha. A dor costuma ser forte e pode acordar a criança várias vezes na mesma noite; não é raro que ela esteja bem durante o dia e piore ao anoitecer.',
+          'O pior costuma ficar nas primeiras 48 horas. Depois disso, a dor cede aos poucos, a febre perde força e a criança volta a dormir e a comer. Essa melhora não é sorte: a maioria das otites médias agudas se resolve sem antibiótico, e o tratamento inicial é contra a dor, com analgésico ajustado à idade e ao peso pela equipe de saúde. Em crianças maiores, o primeiro sinal pode ser apenas a sensação de ouvido tampado e a audição abafada do lado afetado.',
+        ],
+      },
+      {
+        id: 'observar-em-casa',
+        heading: 'O que observar em casa',
+        paragraphs: [
+          'Observar em casa não é o mesmo que ignorar. Enquanto a criança está sendo acompanhada, anote a evolução da dor, da febre e do comportamento, porque esses dados ajudam o profissional a decidir o próximo passo. Ofereça líquidos com frequência, mantenha as refeições habituais sem forçar e garanta o sono possível. Refeições menores e mais frequentes funcionam melhor quando ela está sem apetite.',
+          'Evite fumaça de cigarro dentro de casa, que aumenta o risco de novos episódios, e não pingue nada no ouvido sem orientação. Não há benefício em colocar soro ou qualquer outro líquido no canal: a inflamação está atrás do tímpano, fora do alcance das gotas. O prazo de 48 a 72 horas é o principal marco: dor que continua igual ou pior depois dele, febre que não cede a partir do terceiro dia, pus saindo pelo ouvido ou recusa de líquidos e mamadas pedem avaliação.',
+        ],
+      },
+      {
+        id: 'quando-a-ubs',
+        heading: 'Quando ir à unidade de saúde',
+        paragraphs: [
+          'A unidade básica de saúde é o caminho natural para a maioria das crianças com otite. Ali o profissional examina o ouvido com otoscópio, procura sinais como tímpano vermelho e abaulado e decide se o caso pode seguir sem antibiótico ou se já é hora de prescrever. Se a criança já está em tratamento e não melhora, leve o frasco do remédio e anote os horários das doses.',
+          'Quanto menor a criança, mais cedo a avaliação se justifica. Bebês com menos de seis meses merecem ser vistos rapidamente. Com menos de dois anos, o quadro bilateral e a saída de pus pelo ouvido também pesam a favor do atendimento precoce. Em crianças maiores, com dor leve e um lado só, a observação por 48 a 72 horas costuma ser segura, desde que haja reavaliação combinada. A escolha entre observar e tratar é uma conversa, não uma regra automática: o profissional pesa o risco de esperar contra o custo de um antibiótico desnecessário.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a otite média aguda',
+          href: '/doencas/otite-media-aguda/',
         },
-        {
-          id: 'observar-em-casa',
-          heading: 'O que observar em casa',
-          paragraphs: [
-            'Enquanto espera a melhora, a observação conta tanto quanto o remédio. Anote a evolução da dor, da febre e do comportamento, e procure avaliação se notar:',
-          ],
-          bullets: [
-            'Dor que segue igual ou pior depois de 48 a 72 horas',
-            'Febre que não cede a partir do terceiro dia',
-            'Líquido ou pus escorrendo pelo ouvido',
-            'Criança que não aceita líquidos ou mamada',
-            'Sons abafados e surdez que seguem depois de a dor passar',
-          ],
-        },
-        {
-          id: 'quando-a-ubs',
-          heading: 'Quando ir à unidade de saúde',
-          paragraphs: [
-            'A regra das 48 a 72 horas é o marco que separa a observação segura da consulta necessária. Se a criança piora ou não melhora dentro desse prazo, a unidade de saúde avalia se chegou a vez do antibiótico, que em geral é a amoxicilina.',
-            'Quanto mais nova a criança, mais cedo a avaliação se justifica: bebês pequenos, sobretudo os que ainda não completaram seis meses, merecem ser vistos mais rápido. Sinais de complicação não esperam prazo nenhum.',
-          ],
-        },
-        {
-          id: 'emergencia',
-          heading: 'Quando é emergência',
-          paragraphs: [
-            'Vá a um pronto atendimento sem esperar, e leve a criança para avaliação imediata, se junto com a dor de ouvido aparecer:',
-          ],
-          bullets: [
-            'Inchaço, vermelhidão e dor no osso atrás do ouvido',
-            'Pescoço rigido, confusão, sonolência excessiva ou vômitos que não param',
-            'Febre alta que não cede em bebê muito pequeno',
-            'Rosto torto ou perda de força em um lado da face',
-            'Choro sem lágrima, boca seca e pouca urina, sinais de desidratação',
-          ],
-          cta: {
-            label: 'Veja a página sobre a otite média aguda',
-            href: '/doencas/otite-media-aguda/',
-          },
-        },
-      ],
-      diseaseSlugs: ['otite-media-aguda'],
-      topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
-      relatedArticleSlugs: ['otite-media-aguda-tratamento-e-cuidados'],
-      references: [
-        {
-          label: 'Otite média (aguda), versão saúde para a família',
-          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-aguda',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'Otite média aguda na infância: tratamento, Projeto Diretrizes',
-          url: 'https://amb.org.br/files/_BibliotecaAntiga/otite-media-aguda-na-infancia-tratamento.pdf',
-          publisher: 'Associação Médica Brasileira',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'sinais-de-complicacao',
+        heading: 'Sinais de complicação',
+        paragraphs: [
+          'A complicação mais temida é a mastoidite, quando a infecção atinge o osso atrás do ouvido. O sinal é inchaço, vermelhidão e dor nessa região, às vezes com a orelha projetada para a frente. Não é quadro para observar em casa: pede atendimento no mesmo dia. A mastoidite pode se instalar mesmo sem perfuração do tímpano, por isso a dor atrás da orelha nunca deve ser atribuída apenas a sono ou pancada.',
+          'Outros sinais de que a infecção saiu do ouvido médio são paralisia ou fraqueza de um lado da face, tontura intensa, rigidez de pescoço, confusão e sonolência excessiva. Meningite e abscessos intracranianos são ainda mais raros, mas também se anunciam por febre persistente, dor de cabeça intensa e alteração do estado de consciência. São situações raras, mas mudam a urgência. Quando houver dúvida, procurar atendimento é a escolha mais segura.',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Vá a um pronto atendimento sem esperar se, junto com a dor de ouvido, aparecer inchaço ou vermelhidão atrás da orelha, febre alta que não cede, vômitos que não param ou uma criança muito sonolenta e difícil de acordar. Bebês pequenos podem não ter febre alta e ainda assim estar graves: a recusa alimentar, a respiração rápida e a falta de reação contam tanto quanto o termômetro.',
+          'Também pedem atendimento imediato rigidez de pescoço, confusão, rosto torto ou fraqueza em um lado da face, tontura intensa e saída de pus com febre que não cede. Sinais de desidratação, como choro sem lágrima, boca seca e pouca urina, entram na mesma lista, sobretudo em bebês. Se o atendimento demorar, não administre remédios novos por conta própria nem espere o efeito de uma dose para decidir.',
+        ],
+      },
+      {
+        id: 'antibiotico-ou-espera',
+        heading: 'Antibiótico ou espera',
+        paragraphs: [
+          'A decisão de usar antibiótico depende de idade, lado afetado e gravidade. Bebês com menos de dois anos, otite bilateral, pus saindo pelo ouvido, febre alta ou dor intensa costumam receber o remédio desde o início. A presença de otite nos dois ouvidos pesa mais do que a de um lado só, porque a melhora espontânea é menos provável.',
+          'Nos casos leves de crianças maiores, esperar 48 a 72 horas é aceitável, desde que a família consiga observar e voltar se não houver melhora. Quando indicado, a amoxicilina é a primeira escolha na maioria dos casos, por 7 a 10 dias, e o tratamento deve ser completado. Se a dor e a febre não cederem nesse prazo, a reavaliação é obrigatória. Em caso de alergia à penicilina, a alternativa é definida caso a caso; nunca reaproveite uma receita antiga nem use sobras de outra crise.',
+        ],
+      },
+      {
+        id: 'depois-da-crise',
+        heading: 'O que acompanhar depois da crise',
+        paragraphs: [
+          'Passada a dor, é comum o ouvido médio continuar com líquido por semanas, sem infecção ativa. A criança não tem febre nem dor, mas ouve abafado. Na maior parte das vezes, o líquido some sozinho e a audição volta ao normal. Enquanto estiver ali, o líquido deixa o ouvido mais vulnerável a novas infecções.',
+          'Vale reparar se ela fala mais alto, pede para repetir, aumenta o volume da TV ou se isola. Quando o líquido persiste por meses e atrapalha a fala e a aprendizagem, a avaliação com teste de audição e otorrinolaringologista ajuda a definir a conduta. O exame é simples, indolor e pode ser feito em crianças pequenas com orientação do profissional.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['otite-media-aguda'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: ['otite-media-aguda-tratamento-e-cuidados'],
+    references: [
+      {
+        label: 'Otite média (aguda), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-aguda',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Otite média aguda na infância: tratamento, Projeto Diretrizes',
+        url: 'https://amb.org.br/files/_BibliotecaAntiga/otite-media-aguda-na-infancia-tratamento.pdf',
+        publisher: 'Associação Médica Brasileira',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
-      id: 'otite-media-aguda-tratamento-e-cuidados',
-      slug: 'otite-media-aguda-tratamento-e-cuidados',
-      metaTitle: 'Otite média aguda: tratamento e cuidados',
-      title: 'Otite média aguda: tratamento e cuidados do dia a dia',
-      excerpt:
-        'Na otite, a dor vem de trás do tímpano. Entenda como aliviar a dor, quando o antibiótico vale a pena, o que não funciona e como acompanhar a audição depois que a crise passa.',
-      category: 'Doenças infecciosas',
-      categorySlug: 'doencas-infecciosas',
-      body: [
-        {
-          id: 'dor-antes-de-tudo',
-          heading: 'Tratar a dor é o primeiro passo',
-          paragraphs: [
-            'O incômodo da otite média aguda nasce do líquido acumulado no ouvido médio, pressionando o tímpano por dentro. Por isso, a primeira medida do tratamento é a dor, não a infecção: analgésicos dados pela boca, como paracetamol ou ibuprofeno, conforme a orientação da equipe de saúde, que ajusta a dose à idade e ao peso.',
-            'Entre as opções sem antibiótico, o ibuprofeno tem evidência de alívio da dor na otite. Nada de duplicar remédios por conta própria: dois analgésicos com o mesmo princípio ativo somam risco sem somar benefício.',
-          ],
+    id: 'otite-media-aguda-tratamento-e-cuidados',
+    slug: 'otite-media-aguda-tratamento-e-cuidados',
+    metaTitle: 'Otite média aguda: tratamento e cuidados',
+    title: 'Otite média aguda: tratamento e cuidados do dia a dia',
+    excerpt:
+      'Na otite, a dor vem de trás do tímpano. Entenda como aliviar o desconforto, quando o antibiótico vale a pena, o que não ajuda e como acompanhar a audição depois que a crise passa.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'dor-antes-de-tudo',
+        heading: 'Tratar a dor é o primeiro passo',
+        paragraphs: [
+          'A dor da otite média aguda vem do líquido acumulado no ouvido médio, que pressiona o tímpano por dentro. Por isso, a primeira medida é contra a dor, não contra a infecção. Analgésicos pela boca, como paracetamol ou ibuprofeno, aliviam o desconforto e ajudam a criança a dormir. A dose é ajustada à idade e ao peso pela equipe de saúde. Se a dor não ceder com a dose indicada, não aumente a quantidade por conta própria: procure orientação.',
+          'Compressa morna do lado de fora do ouvido pode trazer conforto, mas não trata a infecção. Nunca some dois remédios com o mesmo princípio ativo por conta própria: isso aumenta o risco de efeitos colaterais sem aliviar mais a dor. Se a criança vomitar ou não conseguir tomar o remédio, procure orientação. O objetivo é que ela consiga comer, brincar e dormir, não que fique completamente sem desconforto.',
+        ],
+      },
+      {
+        id: 'antibiotico-quando',
+        heading: 'Quando o antibiótico entra',
+        paragraphs: [
+          'O critério prático é o tempo e a gravidade. Piora ou falta de melhora entre 48 e 72 horas do início dos sintomas pede antibiótico. Também entram nessa lista bebês com menos de dois anos, otite nos dois ouvidos, pus saindo pelo ouvido, febre alta e dor intensa. A idade é o critério que mais pesa, porque quanto menor a criança, menor a chance de resolução espontânea e maior o risco de complicação.',
+          'Quando indicado, a amoxicilina é a primeira escolha nas diretrizes brasileiras, por 7 a 10 dias. O tratamento deve ser completo, mesmo que a criança melhore antes. Alergia à penicilina ou falta de resposta levam o médico a trocar de classe. Corticoides não são recomendados de rotina. Não interrompa o antibiótico ao primeiro sinal de melhora; se aparecer rash, diarreia intensa ou outro efeito, avise o serviço antes de mudar qualquer coisa.',
+        ],
+      },
+      {
+        id: 'o-que-nao-ajuda',
+        heading: 'O que não ajuda e pode atrapalhar',
+        paragraphs: [
+          'Anti-histamínicos e descongestionantes não têm lugar no tratamento da otite. Eles não desobstruem o ouvido médio, têm efeitos colaterais e os anti-histamínicos podem até prolongar o líquido. Descongestionantes também não previnem a otite e podem irritar o nariz da criança.',
+          'Gota no ouvido sem prescrição é outro erro comum. A dor vem de trás do tímpano, onde o medicamento não chega, e algumas formulações fazem mal quando o tímpano está perfurado. Receita caseira, algodão molhado e sopro no ouvido também ficam de fora. Se alguém recomendar gotas de álcool, óleo ou ervas, lembre-se de que nenhuma delas é indicada para uso dentro do ouvido sem avaliação profissional.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados em casa durante a crise',
+        paragraphs: [
+          'Durante a crise, mantenha a criança hidratada e alimentada, com refeições menores e mais frequentes se ela estiver sem apetite. Garanta o descanso possível e evite fumaça de cigarro, que irrita as vias respiratórias e favorece novos episódios. Não é necessário manter a criança na cama o tempo todo: o repouso relativo, com brincadeiras calmas, costuma bastar. O apetite pode demorar a voltar, e isso não é motivo de alarme se ela estiver bebendo líquidos.',
+          'Não introduza cotonete nem tente limpar o canal do ouvido. Se houver pus escorrendo, limpe apenas a parte externa com gaze e leve a criança para avaliação. Nada deve ser pingado no ouvido sem orientação profissional. A criança pode tomar banho, desde que não entre água com pressão no canal; evite mergulho e piscina enquanto houver perfuração ou até a liberação médica.',
+        ],
+      },
+      {
+        id: 'liquido-que-permanece',
+        heading: 'O líquido que sobra e a audição',
+        paragraphs: [
+          'Depois da crise, o ouvido pode guardar líquido sem infecção ativa por semanas a meses, a chamada otite média secretora. A criança não sente dor, mas ouve abafado, como se o ouvido estivesse entupido. O diagnóstico é feito pela história, pela otoscopia e, quando necessário, pela timpanometria. O líquido pode existir sem que a criança tenha dor, por isso o exame do ouvido é indispensável.',
+          'A maior parte se resolve sozinha. Quando o líquido persiste, a audição fica prejudicada por tempo demais ou as otites se repetem, vale fazer teste de audição e conversar com o otorrinolaringologista. Em casos selecionados, a colocação de um tubo de ventilação no tímpano ajuda a manter o ouvido arejado. O tubo é indicado por especialista e costuma cair sozinho depois de alguns meses; ele não é a primeira medida para todo mundo.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a otite média aguda',
+          href: '/doencas/otite-media-aguda/',
         },
-        {
-          id: 'antibiotico-quando',
-          heading: 'Quando o antibiótico entra',
-          paragraphs: [
-            'O critério prático é o tempo: piora ou falta de melhora entre 48 e 72 horas do início dos sintomas pedem antibiótico, assim como os casos de maior gravidade, como bebê muito pequeno ou pus escorrendo pelo ouvido.',
-            'Quando indicado, a amoxicilina segue como primeira escolha nas diretrizes brasileiras. O tratamento dura o tempo receitado e deve ser completo, e o retorno de avaliação faz parte do cuidado. Se a criança melhora antes do fim do remédio, não é hora de interromper sem orientação.',
-          ],
-        },
-        {
-          id: 'o-que-nao-ajuda',
-          heading: 'O que não ajuda e pode atrapalhar',
-          paragraphs: [
-            'Anti-histamínicos e descongestionantes não têm lugar no tratamento da otite: revisões sistemáticas mostram benefício pequeno e risco real de efeitos colaterais, e os anti-histamínicos ainda prolongam o líquido no ouvido médio. Corticoide em associação com antibiótico também não melhora o resultado.',
-            'Gota no ouvido sem prescrição é outro erro comum: a dor vem de trás do tímpano, onde o líquido medicado não chega, e algumas formulações fazem mal quando o tímpano está perfurado. Receita caseira, algodão molhado e sopro no ouvido ficam de fora.',
-          ],
-        },
-        {
-          id: 'liquido-que-permanece',
-          heading: 'O líquido que sobra e a audição',
-          paragraphs: [
-            'Passada a crise, o ouvido médio pode guardar líquido sem infecção ativa por semanas a meses, a chamada otite média secretora. A criança não sente dor, mas passa a ouvir abafado, como se o ouvido estivesse entupido.',
-            'A maior parte desses casos se resolve sozinha, e a conduta é observar e reavaliar. Quando o líquido persiste, a audição fica prejudicada por tempo demais ou as otites se repetem, vale fazer teste de audição e conversar com o otorrinolaringologista: em situações selecionadas, a colocação de um tubo de ventilação no tímpano ajuda a drenar o ouvido médio.',
-          ],
-          cta: {
-            label: 'Veja a página sobre a otite média aguda',
-            href: '/doencas/otite-media-aguda/',
-          },
-        },
-      ],
-      diseaseSlugs: ['otite-media-aguda'],
-      topicSlugs: ['doencas-infecciosas', 'prevencao'],
-      relatedArticleSlugs: ['otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Otite média (aguda), versão saúde para a família',
-          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-aguda',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'Otite média (serosa), versão saúde para a família',
-          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-serosa',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'Otite média aguda na infância: tratamento, Projeto Diretrizes',
-          url: 'https://amb.org.br/files/_BibliotecaAntiga/otite-media-aguda-na-infancia-tratamento.pdf',
-          publisher: 'Associação Médica Brasileira',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir novos episódios',
+        paragraphs: [
+          'A prevenção começa pelo controle das infecções respiratórias: lavar as mãos, evitar aglomerações nos períodos de maior circulação de vírus e manter a vacinação em dia, incluindo a vacina contra pneumococo e a anual contra gripe quando indicadas. A vacina contra pneumococo reduz parte dos casos, mas não cobre todas as bactérias que causam otite.',
+          'Amamentar até os 6 meses, oferecer a mamadeira com a cabeça elevada e evitar o uso prolongado de chupeta reduzem o risco. Não fumar dentro de casa e tratar rinite e asma também ajudam. Em viagens de avião, mastigar, engolir ou fazer a manobra de equalização durante a decolagem e o pouso alivia a pressão. Manter a amamentação e a vacinação em dia protege mais do que qualquer remédio preventivo vendido sem receita.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando interromper o cuidado em casa',
+        paragraphs: [
+          'O cuidado em casa tem limites. Procure atendimento se a dor não melhorar em dois ou três dias, se a febre não ceder a partir do terceiro dia ou se aparecer pus pelo ouvido com febre persistente. Não espere a próxima consulta marcada se o quadro mudar de forma clara. Febre que volta depois de dias de melhora também merece reavaliação.',
+          'Sinais de complicação não esperam prazo nenhum. Leve a criança para avaliação imediata se aparecer:',
+        ],
+        bullets: [
+          'Inchaço, vermelhidão ou dor no osso atrás do ouvido',
+          'Pescoço rígido, confusão ou sonolência excessiva',
+          'Vômitos que não param',
+          'Rosto torto ou fraqueza em um lado da face',
+          'Tontura intensa ou sinais de desidratação, como choro sem lágrima, boca seca e pouca urina',
+        ],
+      },
+    ],
+    diseaseSlugs: ['otite-media-aguda'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['otite-media-aguda-sinais-de-alerta-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Otite média (aguda), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-aguda',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Otite média (serosa), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-ouvido-m%C3%A9dio/otite-m%C3%A9dia-serosa',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Otite média aguda na infância: tratamento, Projeto Diretrizes',
+        url: 'https://amb.org.br/files/_BibliotecaAntiga/otite-media-aguda-na-infancia-tratamento.pdf',
+        publisher: 'Associação Médica Brasileira',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
   {
       id: 'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
       slug: 'pneumonia-sinais-de-alerta-quando-procurar-atendimento',
