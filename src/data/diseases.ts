@@ -6261,5 +6261,3713 @@ export const diseases: Disease[] = [
       publishedAt: '2026-10-19',
       updatedAt: '2026-10-19',
       isPlaceholder: true,
-    },
+    },  {
+    id: 'epilepsia',
+    slug: 'epilepsia',
+    name: 'Epilepsia',
+    aliases: ['transtorno convulsivo', 'mal epiléptico', 'crise convulsiva', 'epilepsia idiopática'],
+    summary:
+      'Doença crônica do cérebro em que descargas elétricas anormais se repetem e provocam crises. Com tratamento adequado, a maior parte das pessoas consegue controlar as crises e manter a rotina.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é epilepsia?',
+        paragraphs: [
+          'A epilepsia é uma doença crônica do cérebro. O cérebro funciona o tempo todo por meio de descargas elétricas ordenadas, que permitem a comunicação entre os neurônios, a medula, os nervos e os músculos. Quando um grupo de células passa a disparar de forma desorganizada, essa comunicação falha por alguns instantes e aparece a crise convulsiva, também chamada de crise epiléptica. As crises costumam começar de repente, durar de alguns segundos a poucos minutos e terminar sozinhas.',
+          'Nem toda convulsão significa epilepsia. Uma crise provocada por febre alta, queda de glicose no sangue, traumatismo craniano ou reação a um medicamento pode acontecer com qualquer pessoa e costuma não voltar quando o problema que a gerou se resolve. O diagnóstico de epilepsia é feito quando a pessoa tem crises repetidas, não provocadas, e o médico confirma que existe uma alteração duradoura no funcionamento do cérebro.',
+          'É uma condição mais comum do que parece, e pode aparecer em qualquer idade, embora seja mais frequente nas crianças e nas pessoas com mais de 60 anos. Entre uma crise e outra, a maioria das pessoas se sente bem e leva a rotina normal.',
+        ],
+        bullets: [
+          'Segundo a Organização Mundial da Saúde, cerca de 50 milhões de pessoas no mundo têm epilepsia',
+          'Pode começar na infância ou depois dos 60 anos, mas não tem idade fixa',
+          'Uma crise isolada com causa clara, como febre alta, não significa epilepsia',
+        ],
+      },
+      {
+        id: 'quais-sao-os-tipos',
+        heading: 'Quais são os tipos de epilepsia?',
+        paragraphs: [
+          'A classificação ajuda o médico a escolher o tratamento, e por isso não é algo que a pessoa decide sozinha. A forma mais usada no mundo separa as crises pela extensão da descarga elétrica no cérebro: se ela fica restrita a uma região ou se envolve o cérebro todo. Há também quem classifique a epilepsia pela causa, distinguindo os casos com origem conhecida dos casos sem origem identificada.',
+          'Existe ainda um grupo chamado de epilepsia de difícil controle, em que as crises seguem acontecendo mesmo com o tratamento adequado. Nessas situações, o médico pode revisar a medicação, avaliar outros medicamentos ou considerar procedimentos como a cirurgia e a estimulação de um nervo do pescoço.',
+        ],
+        bullets: [
+          'Focal: a descarga fica limitada a uma região do cérebro',
+          'Generalizada: a descarga envolve o cérebro todo desde o início',
+          'Mista: combina crises focais e generalizadas na mesma pessoa',
+          'Não classificada: ainda não é possível definir a extensão da descarga',
+          'Secundária (sintomática): tem uma causa identificável, como lesão, tumor ou infecção',
+          'Idiopática: os exames não mostram uma causa estrutural; pode haver relação com a genética',
+          'Criptogênica: o comportamento sugere causa estrutural, mas ela ainda não foi encontrada',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Quais são as causas da epilepsia secundária?',
+        paragraphs: [
+          'Na epilepsia com causa identificável, a crise nasce de uma alteração real no cérebro. Muitas dessas causas podem ser tratadas, o que muda a conduta: quando o problema de base é resolvido, como a remoção de um tumor ou o tratamento de uma infecção, as crises podem diminuir ou parar.',
+          'A busca pela causa considera a idade e a história da pessoa, pois cada fase da vida tem origens mais prováveis. Abaixo estão as principais causas reconhecíveis, conforme a descrição da epilepsia secundária.',
+        ],
+        bullets: [
+          'Anomalia do desenvolvimento do córtex cerebral, que forma uma área de descarga anormal',
+          'Traumatismo craniano, inclusive lesões antigas e sequelas de cirurgias no cérebro',
+          'Tumor cerebral',
+          'Infecções do sistema nervoso, como meningite e encefalite',
+          'Doenças dos vasos do cérebro, incluindo o AVC, que podem desencadear crises dias depois',
+          'Parasitoses do cérebro, ligadas aos hábitos e à região onde a pessoa vive',
+          'Doenças hereditárias do metabolismo que alteram o funcionamento do cérebro',
+          'Doenças degenerativas do cérebro, que podem se acompanhar de crises em fases avançadas',
+          'Outras situações, como algumas doenças do sistema de defesa do corpo, alterações da glicose e, em casos raros, reações a medicamentos ou vacinas',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que pode desencadear as crises?',
+        paragraphs: [
+          'Além das causas, existem fatores que facilitam uma crise em quem já tem epilepsia. Reconhecê-los ajuda a ajustar a rotina e a evitar episódios, mas não substituem o tratamento. Abaixo estão os grupos de fatores mais descritos.',
+        ],
+        bullets: [
+          'Variações hormonais: algumas mulheres notam mais crises durante a menstruação ou na gravidez',
+          'Sono: noites mal dormidas e viradas de madrugada aumentam a chance de crises, e há quem só as tenha ao dormir',
+          'Genética: em geral o risco de passar a doença para os filhos é baixo, mas alguns medicamentos podem afetar o bebê, por isso quem planeja uma gestação deve conversar com o médico antes',
+          'Idade: algumas formas da infância desaparecem naturalmente na vida adulta',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Como são as crises epilépticas?',
+        paragraphs: [
+          'As crises não são todas iguais, e podem durar de segundos a alguns minutos. Ainda assim, em uma mesma pessoa cada crise costuma se parecer com as anteriores. Algumas começam com um aviso: formigamento nas mãos ou nos pés, palpitações, cheiros ou sons que não existem, ou visão embaçada. Esse sinal de alerta, chamado de aura, pode vir horas ou minutos antes e ajuda a pessoa a se sentar, afastar-se de lugares altos ou perto de água e tomar posição segura.',
+          'As crises generalizadas envolvem o cérebro todo desde o início e costumam vir com perda de consciência. A mais conhecida é a crise tônico-clônica (a chamada grande crise): a pessoa cai, o corpo fica rígido e depois entra em contrações rítmicas, podendo haver mordida na língua, aumento da saliva, parada breve da respiração e perda de urina. Já a crise de ausência (a pequena crise) faz a pessoa parar de repente, ficar com o olhar fixo por segundos e retomar como se nada tivesse acontecido, o que passa despercebido em crianças.',
+          'As crises focais partem de uma região e a pessoa pode continuar consciente, relatando movimentos repetidos de um só lado, sensações estranhas ou gestos automáticos, como mastigar sem comida ou esfregar as mãos. Depois de qualquer crise é comum sentir confusão, sono, dor de cabeça e dor muscular, período que pode durar de minutos a horas e depende do tipo e da intensidade do episódio.',
+        ],
+        bullets: [
+          'Aura: formigamento, palpitações, cheiros ou sons inexistentes e visão embaçada antes da crise',
+          'Crise tônico-clônica: rigidez seguida de contrações, com perda de consciência',
+          'Crise de ausência: parada breve com olhar fixo, comum na infância',
+          'Crise mioclônica: um solavanco súbito e muito curto em uma parte do corpo',
+          'Crise atônica: perda súbita do tônus, com queda da cabeça ou do corpo inteiro',
+          'Crise focal motora: movimento involuntário de um lado do rosto ou de um membro',
+          'Crise focal sensitiva: gosto, cheiro ou som alterados, sem perda de consciência',
+          'Automatismo: mastigar, esfregar as mãos ou abrir e fechar portas sem lembrar depois',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando ligar para o SAMU 192',
+        paragraphs: [
+          'A maioria das crises termina sozinha em poucos minutos e pode ser acompanhada em casa, com segurança. Existem situações, porém, em que a crise deixa de ser um evento passageiro e vira emergência, e nelas se enquadram os episódios que duram mais de cinco minutos sem parar e os que voltam antes da pessoa recuperar a consciência. Esse quadro prolongado exige atendimento imediato, porque pode causar dano ao cérebro.',
+          'No Brasil, o SAMU 192 atende crises convulsivas, com ligação gratuita e funcionamento 24 horas por dia, todos os dias da semana, e o médico regulador orienta os primeiros socorros por telefone enquanto a ambulância é deslocada.',
+        ],
+        bullets: [
+          'Crise que dura mais de cinco minutos sem parar',
+          'Depois que a crise passa, a respiração ou a consciência não voltam ao normal',
+          'Duas ou mais crises seguidas em pouco tempo',
+          'Crise acompanhada de febre alta',
+          'Crise durante a gravidez',
+          'Crise em pessoa com diabetes',
+          'Queda ou ferimento sofrido durante a crise',
+        ],
+        cta: {
+          label: 'Leia também: o que fazer durante uma crise e quando chamar o SAMU',
+          href: '/artigos/epilepsia-crise-o-que-fazer-e-quando-chamar-o-samu/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o médico confirma o diagnóstico?',
+        paragraphs: [
+          'O diagnóstico segue três passos. Primeiro, o médico separa uma crise de epilepsia de um episódio sem repetição, ouvindo com atenção o relato de quem presenciou: se houve queda súbita, se a pessoa estava consciente, se lembra do que aconteceu. Essa descrição, muitas vezes mais precisa que o exame, é a base para confirmar ou descartar a epilepsia. O relato pode vir junto de um eletroencefalograma, que registra a atividade elétrica do cérebro.',
+          'Depois de confirmar que há epilepsia, o médico procura determinar o tipo de crise, etapa importante porque existem muitas formas, algumas que melhoram com o tempo e outras que exigem investigar a causa. Essa classificação é feita pelo neurologista a partir do quadro e dos exames.',
+          'Por fim, quando se suspeita de uma causa estrutural, pedem-se exames para encontrá-la. O eletroencefalograma é o principal exame de apoio e, sendo indolor, usa eletrodos adesivos no couro cabeludo; quando necessário, é repetido em condições específicas para que as alterações apareçam. A escolha dos exames depende da história de cada pessoa.',
+        ],
+        bullets: [
+          'Eletroencefalograma (EEG): registro da atividade elétrica do cérebro, principal exame para a epilepsia',
+          'Eletromiografia (EMG): avalia a função dos músculos e dos nervos, com agulhas finas; usada em situações específicas',
+          'Tomografia do crânio: rápida para procurar sangramento e tumores; evita-se na gestação por usar radiação',
+          'Ressonância magnética: mostra detalhes do tecido cerebral e ajuda a achar lesões pequenas',
+        ],
+      },
+      {
+        id: 'qual-especialidade',
+        heading: 'A qual especialista recorrer?',
+        paragraphs: [
+          'O acompanhamento da epilepsia é feito, em geral, no ambulatório de neurologia, que investiga as crises, define o tipo e organiza o tratamento. Para quem nunca teve crise, a primeira avaliação pode começar pelo médico da atenção básica, que encaminha ao neurologista quando necessário.',
+          'Se a crise não para, volta antes da consciência retornar, ou vem acompanhada de febre, gravidez, diabetes ou ferimento, o caminho é a emergência, diretamente ou pelo SAMU 192.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Com quais condições a epilepsia pode ser confundida?',
+        paragraphs: [
+          'Algumas situações produzem perda de consciência, quedas ou movimentos que se parecem com crises, mas não são epilepsia. Só o médico, com a descrição do episódio e os exames, consegue distingui-las. Conhecer essas condições ajuda a não rotular qualquer perda de consciência como epilepsia.',
+        ],
+        bullets: [
+          'Desmaio (síncope): perde-se a consciência por poucos segundos, costuma ter causa clara e recuperação rápida',
+          'Crises sem origem orgânica (de origem emocional): ligadas a situações de sofrimento, variam muito de um episódio para outro',
+          'Enxaqueca: pode trazer alterações visuais e de sensibilidade, mas costuma acompanhar-se de dor de cabeça intensa',
+          'Tiques: repetem movimentos curtos e controláveis, sem perda de consciência',
+          'Isquemia transitória (AIT): dormência ou fraqueza súbita em idosos hipertensos ou diabéticos, com recuperação em pouco tempo',
+          'Baixa acentuada de glicose: pode causar tremores e confusão que melhoram ao se corrigir o açúcar no sangue',
+        ],
+      },
+      {
+        id: 'crise-aguda',
+        heading: 'O que fazer durante uma crise?',
+        paragraphs: [
+          'Na hora da crise, o mais importante é proteger a pessoa até que a descarga termine sozinha, e não tentar controlá-la com força. As medidas de primeiros socorros evitam quedas, cortes e outras lesões enquanto se observa a duração do episódio.',
+        ],
+        bullets: [
+          'Desapertar a gola, o cinto e o que prender o pescoço, para manter a respiração livre',
+          'Protecer ombros e joelhos com um tecido macio, evitando o atrito com o chão',
+          'Afastar cadeiras e objetos pontiagudos que possam causar esbarrões',
+          'Nunca segurar a pessoa nem pressionar os membros com força, pois isso pode causar fraturas e lesões',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Quais medicamentos são usados no tratamento?',
+        paragraphs: [
+          'O objetivo do tratamento é que a pessoa viva como alguém sem epilepsia: controlar as crises sem causar efeitos ruins com os medicamentos. Quando existe uma causa tratável, cuida-se dela primeiro; quando não existe ou ela não pode ser removida, o controle é feito com medicamentos antiepilépticos.',
+          'Não existe um remédio melhor para todos: a escolha depende do tipo de crise, dos efeitos colaterais, da disponibilidade, do preço, da idade e do sexo de cada pessoa. Por isso, o médico costuma começar com dose baixa e ir aumentando aos poucos, ajustando o plano conforme a resposta. Escolher o medicamento por conta própria pode não funcionar e até piorar as crises, então o uso deve ser sempre orientado por um profissional e em serviço de saúde.',
+          'A notícia é alentadora. Boa parte das pessoas alcança controle das crises com o tratamento adequado, e muitas não precisam usar medicamento a vida inteira. Os efeitos colaterais mais comuns, como tontura, sono e desconforto digestivo, costumam não afetar a sobrevida, mas exigem acompanhamento. No Brasil, medicamentos antiepilépticos são oferecidos pelo Sistema Único de Saúde (SUS), que já incorporou opções como o levetiracetam para pessoas que não respondem a um único anticonvulsivante, inclusive crianças com mais de 6 anos.',
+        ],
+        cta: {
+          label: 'Leia também: tratamento e dia a dia com epilepsia',
+          href: '/artigos/epilepsia-tratamento-e-dia-a-dia/',
+        },
+      },
+      {
+        id: 'cirurgia-e-outros',
+        heading: 'Cirurgia e outras opções de tratamento',
+        paragraphs: [
+          'A cirurgia é indicada para um tipo específico de epilepsia, aquela com uma causa que pode ser alcançada. Quando a crise vem de um tumor, por exemplo, a remoção da lesão costuma melhorar muito as crises. Algumas técnicas mais novas ainda estão em fase de estudo, e seu resultado a longo prazo depende de mais dados.',
+          'Sobre práticas tradicionais, como a fitoterapia, e outras terapias complementares, não há evidência científica moderna que as confirme como tratamento da epilepsia. Se a pessoa quiser usá-las, isso deve acontecer sob orientação de profissional habilitado e em serviço regular, nunca como substituto do tratamento prescrito, e nunca tentando métodos sem comprovação.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados em casa e no dia a dia',
+        paragraphs: [
+          'Em casa, o foco é evitar o agravamento de uma crise: proteger a cabeça e os membros para que a pessoa não se machuque, garantir descanso suficiente depois do episódio e organizar alimentação e atividades durante a recuperação. Quem convive com a pessoa deve saber o que fazer, e isso reduz o risco de acidentes.',
+          'Na rotina, alguns hábitos ajudam a evitar crises. Há também um cuidado específico para quem tem difícil controle: a dieta cetogênica, rica em gordura e pobre em carboidrato, que só deve ser iniciada após avaliação do médico, por nem todas as pessoas podem segui-la.',
+        ],
+        bullets: [
+          'Dormir de 7 a 8 horas por noite, sem emendar noites mal dormidas',
+          'Evitar bebidas alcoólicas',
+          'Dirigir é uma questão à parte e depende da liberação do médico que acompanha o caso',
+          'Evitar atividades de risco sem supervisão, como mergulho, esqui e atividades em altura',
+          'Comer com regularidade e evitar exageros e fadura intensa',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'O que registrar no dia a dia?',
+        paragraphs: [
+          'Um caderno de crises é uma ferramenta simples e muito útil para o médico ajustar o tratamento. Anotar cada episódio ajuda a entender o padrão das crises, a reconhecer o que as antecipa e a avaliar se o tratamento está funcionando.',
+        ],
+        bullets: [
+          'Dia e hora em que a crise aconteceu',
+          'Quanto tempo durou',
+          'Se a pessoa conseguiu lembrar o que ocorreu',
+          'Quantos dias se passaram desde a crise anterior',
+          'Detalhes marcantes da crise, como o lado do corpo que se moveu',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir crises e complicações?',
+        paragraphs: [
+          'A prevenção funciona melhor nos casos com causa conhecida. Boa parte das medidas evita as origens que deixam marca no cérebro: proteger a cabeça em acidentes e esportes reduz a epilepsia pós-traumática; cuidar da saúde dos vasos, controlando pressão alta, glicose e peso, diminui o risco ligado ao AVC; e cuidados com água e alimentos, junto com as vacinas em dia, ajudam a prevenir infecções e parasitoses que atingem o sistema nervoso.',
+          'Para a epilepsia sem causa identificável, ainda não existe um modo seguro de evitar que ela apareça. Quem já recebeu o diagnóstico ganha muito controlando os gatilhos do dia a dia, principalmente dormindo de 7 a 8 horas por noite e mantendo a tranquilidade, pois períodos de ansiedade e de pressão grande costumam facilitar as crises.',
+        ],
+        bullets: [
+          'Não beber água não fervida e não comer alimentos crus ou mal cozidos, para evitar parasitoses',
+          'Mantener a vacinação em dia, para prevenir infecções que atingem o sistema nervoso',
+          'Usar capacete e proteção para a cabeça em esportes e no trabalho',
+          'Dormir de 7 a 8 horas por noite e manter a calma, reduzindo os gatilhos',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Uma crise convulsiva isolada significa que a pessoa tem epilepsia?',
+        answer:
+          'Não. Uma crise provocada por febre alta, queda de glicose, traumatismo ou reação a medicamento pode acontecer sem epilepsia. O diagnóstico é feito quando as crises se repetem sem uma causa imediata que as explique.',
+      },
+      {
+        question: 'Epilepsia é contagiosa ou é doença mental?',
+        answer:
+          'Não é contagiosa e não é doença mental. Ela resulta de descargas elétricas anormais no cérebro e não passa pelo contato, pelo ar ou por objetos. A ideia de que é contagiosa é um dos mitos que afastam as pessoas do tratamento.',
+      },
+      {
+        question: 'Quem tem epilepsia pode trabalhar e estudar normalmente?',
+        answer:
+          'Sim, sobretudo quando as crises estão controladas. Algumas atividades exigem precaução enquanto houver crises, como trabalho em altura, natação sem supervisão e operação de máquinas. O plano de segurança é definido com a equipe de saúde.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'epilepsia-crise-o-que-fazer-e-quando-chamar-o-samu',
+      'epilepsia-tratamento-e-dia-a-dia',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['infarto-e-avc', 'enxaqueca'],
+    references: [
+      {
+        label: 'Epilepsia: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/epilepsy',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Transtornos convulsivos, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-cerebrais-da-medula-espinal-e-dos-nervos/transtornos-convulsivos/transtornos-convulsivos',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'SUS oferece mais um medicamento para o tratamento de epilepsia',
+        url: 'https://www.gov.br/conitec/pt-br/assuntos/noticias/2017/dezembro/sus-oferece-mais-um-medicamento-para-o-tratamento-de-epilepsia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'SAMU 192',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/samu-192',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'glaucoma',
+    slug: 'glaucoma',
+    name: 'Glaucoma',
+    aliases: ['glaucoma de ângulo aberto', 'glaucoma de ângulo fechado', 'pressão alta no olho', 'glaucoma congênito'],
+    summary:
+      'Grupo de doenças dos olhos que lesionam o nervo óptico, quase sempre ligado à pressão ocular elevada. A perda de visão que provoca é irreversível, mas o tratamento diário impede que ela avance.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é glaucoma?',
+        paragraphs: [
+          'Glaucoma é o nome de um conjunto de doenças dos olhos que lesionam de forma progressiva o nervo óptico, a estrutura que conduz as imagens do olho até o cérebro. Na maioria das vezes essa lesão está associada ao aumento da pressão dentro do olho, a pressão intraocular. Ela depende do equilíbrio entre o líquido que o olho produz o tempo todo e o líquido que ele drena: quando a saída encontra resistência, a pressão sobe, comprime as fibras do nervo e o campo visual começa a encolher.',
+          'A característica que mais preocupa é o silêncio. A perda de visão costuma ocorrer tão lentamente que passa despercebida por anos, e quando a pessoa percebe já existe lesão consolidada. Primeiro aparecem pontos cegos na periferia, como se faltasse um pedaço da cena pelos cantos dos olhos; depois vem a dificuldade para ver ao redor, mantendo o centro preservado. Diferente da catarata, a visão perdida pelo glaucoma não volta: por isso ele está entre as principais causas de cegueira irreversível no mundo.',
+          'Os números ajudam a entender a dimensão do problema. Segundo o Ministério da Saúde, com dados da Conitec, o glaucoma já é a segunda maior causa de cegueira no mundo, atrás apenas da catarata, e acomete até 3% da população brasileira acima de 40 anos. O Manual MSD informa que cerca de 70 milhões de pessoas têm glaucoma no mundo, que apenas metade delas sabe que tem a doença, e que a frequência é seis vezes maior depois dos 60 anos.',
+        ],
+        bullets: [
+          'É a segunda maior causa de cegueira no mundo, atrás só da catarata, e a única grande causa de perda visual irreversível',
+          'Cerca de 70 milhões de pessoas têm glaucoma no planeta, e só metade delas sabe que tem a doença',
+          'No Brasil, acomete até 3% das pessoas acima de 40 anos, conforme o Ministério da Saúde',
+          'Depois dos 60 anos a frequência é cerca de seis vezes maior',
+          'Entre uma consulta e outra a pessoa costuma sentir-se bem, e isso é justamente o que atrasa o diagnóstico',
+        ],
+      },
+      {
+        id: 'quais-sao-os-tipos',
+        heading: 'Quais são os tipos de glaucoma?',
+        paragraphs: [
+          'A separação por tipos não é um detalhe acadêmico: é ela que define o tratamento e a pressa do cuidado. O ponto de partida é o ângulo de drenagem, o espaço entre a íris e a córnea por onde o humor aquoso escapa do olho. Quando esse ângulo parece aberto mas a malha por dentro entope devagar, temos o glaucoma de ângulo aberto, o mais comum. Quando o ângulo é estreito e chega a fechar, o líquido para de sair de uma vez e ocorre o glaucoma de ângulo fechado, que pode atacar de repente.',
+          'O outro critério é a causa. Chamamos de primário o glaucoma que nasce do próprio olho, sem outra doença por trás; de secundário o que aparece por causa de um trauma, uma inflamação, uma catarata muito avançada, um medicamento ou uma doença geral, como a diabetes; e de congênito o que vem de um ângulo que não se formou direito no bebê. Há ainda pessoas com pressão na faixa média e nervo óptico lesionado, situação conhecida como glaucoma de pressão normal.',
+        ],
+        bullets: [
+          'Ângulo aberto (primário): o mais frequente, evolui sem dor e sem sinal visível, ao longo de meses ou anos',
+          'Ângulo fechado (primário): mais comum em mulheres e depois dos 40 anos, pode virar crise súbita com dor e vômito',
+          'Secundário: consequência de outra doença do olho ou do corpo, de cirurgia anterior ou de uso de corticoide',
+          'Congênito (da criança): o ângulo não se desenvolveu normalmente ainda no feto ou nos primeiros meses de vida',
+          'Pressão normal: a pressão fica na faixa média e mesmo assim o nervo óptico é lesionado',
+          'Suspeita de glaucoma: pressão alta sem lesão ainda visível, caso que pede acompanhamento próximo, não medicação imediata',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Por que a pressão do olho sobe?',
+        paragraphs: [
+          'O olho produz e drena um líquido transparente, o humor aquoso, o tempo todo. Ele é fabricado pelo corpo ciliar, atrás da íris, atravessa a pupila até a câmara anterior e sai por uma malha de canais chamada trabeculado, no ângulo entre a íris e a córnea, de onde volta à circulação. Enquanto produção e escoamento ficam equilibrados, a pressão ocular se mantém estável. O interior do olho funciona como um ambiente que precisa manter uma pressão firme: se o líquido se acumula, essa pressão ultrapassa o que as estruturas suportam.',
+          'No glaucoma esse escoamento falha. O líquido continua sendo produzido, mas encontra os canais obstruídos, bloqueados ou fechados, e a pressão dentro do olho sobe. Na quase totalidade dos casos o obstáculo está justamente na saída pelo trabeculado. Quando a pressão ultrapassa o que o nervo óptico suporta, as fibras do nervo começam a se lesionar, e é essa lesão que produz a perda de campo visual. A comparação usada pelo Manual MSD é simples: é como uma pia com o ralo entupido e a torneira ainda aberta.',
+          'O mesmo mecanismo explica os grupos de causas descritos abaixo. Em dois deles o problema está na própria anatomia do ângulo: no ângulo aberto a malha de drenagem adoece por dentro, no ângulo fechado o espaço se estreita. Nos outros dois, o obstáculo vem de fora, de uma doença, de um medicamento ou de uma lesão, ou de um ângulo que nunca se formou corretamente.',
+        ],
+        bullets: [
+          'Ângulo aberto: o ângulo parece normal e aberto, mas a malha de drenagem adoece por dentro e o líquido sai devagar',
+          'Ângulo fechado: a câmara anterior é rasa, a córnea pequena e o cristalino mais espesso, o que estreita o ângulo; emoção forte, cansaço, longos períodos no escuro ou muito tempo olhando de perto podem selar a saída e disparar a crise',
+          'Secundário: traumatismo, inflamação, infecção, tumor, catarata muito avançada, cirurgia anterior ou uso de determinados medicamentos atrapalham a circulação do humor aquoso',
+          'Congênito: o ângulo não se formou corretamente ainda no feto, e a drenagem já nasce comprometida',
+          'Pressão normal: o nervo óptico se lesiona mesmo com a pressão medida dentro da faixa média, o que mostra que a resistência do nervo varia de pessoa para pessoa',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco de desenvolver glaucoma?',
+        paragraphs: [
+          'Na maior parte das pessoas a causa exata não é conhecida, mas alguns grupos têm probabilidade maior de desenvolver a doença. Idade acima dos 40 anos e história familiar de glaucoma em pai, mãe ou irmão estão entre os fatores mais importantes, assim como grau alto de miopia (associado ao ângulo aberto) ou de hipermetropia (associado ao ângulo fechado). Ascendência asiática, africana ou hispânica também aparece ligada a formas mais frequentes, o que importa no Brasil, onde a população é muito miscigenada.',
+          'Outros fatores somam risco: uso prolongado de corticosteroides, inclusive colírios e pomadas com corticoide, história de traumatismo ou cirurgia ocular, pressão ocular elevada constatada em exame anterior e córnea fina medida na paquimetria, além de doenças gerais como diabetes, pressão alta, doença cardíaca e anemia falciforme. Vale um esclarecimento sobre a hipertensão ocular: nem toda pressão medida alta vira glaucoma, mas uma parte das pessoas com pressão alta evolui para a doença ao longo de alguns anos, e é por isso que ela entra na lista. Quem se reconhece nesse perfil é justamente quem mais ganha com o exame periódico, porque a doença só causa prejuízo se continuar sem ser tratada.',
+        ],
+        bullets: [
+          'Ter mais de 40 anos, e o risco cresce ainda mais depois dos 60',
+          'Pai, mãe ou irmão com glaucoma',
+          'Ascendência asiática, africana ou hispânica',
+          'Miopia alta ou hipermetropia alta',
+          'Uso prolongado de corticoide, inclusive em colírio ou pomada',
+          'Histórico de lesão ou cirurgia nos olhos',
+          'Pressão ocular medida acima de 21 mmHg em exame anterior',
+          'Córnea fina medida na paquimetria',
+          'Diabetes, pressão alta, doença cardíaca ou anemia falciforme',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais sintomas o glaucoma causa?',
+        paragraphs: [
+          'No glaucoma de ângulo aberto, que é o mais frequente, o início não dá aviso: no começo a pessoa não sente dor nem percebe mudança, e a pressão sobe devagar, sem sinal. O primeiro prejuízo é a visão periférica: surgem pontos cegos que crescem devagar e se juntam, ao longo de meses ou anos. A pessoa pode tropeçar em degraus, perder pedaços de palavras ao ler ou ter dificuldade para perceber carros e pessoas pelos cantos dos olhos, sem entender que a causa é o campo visual. Como a visão central é a última a ser perdida, muita gente mantém a sensação de enxergar bem até um estágio avançado; quando a perda avança aparece a visão tubular, em que se vê perfeitamente o que está à frente e nada ao redor, com piora da visão noturna e facilidade para esbarrar nas coisas. A pressão medida ao longo do dia também tende a oscilar mais do que o normal, o que o médico observa nas consultas.',
+          'O glaucoma de ângulo fechado é o oposto e se anuncia com intensidade. No início também pode não haver queixa alguma, mas quando a íris bloqueia de vez o ângulo o ataque é súbito: dor forte no olho e na cabeça, olho vermelho, visão embaçada como se houvesse véu ou névoa, halos coloridos ao redor das luzes, náusea e vômito, e queda acentuada da visão; o olho fica duro ao toque. O quadro evolui por fases: um período de risco sem crise, o ataque em si, uma trégua em que a pressão volta a cair e os sintomas somem por dias ou até muito mais tempo, e, sem tratamento, a fase crônica, em que o nervo óptico já está lesionado e o campo visual encolhe até a cegueira. Existe ainda a forma de ângulo fechado crônico, que progride devagar, só com embaçamento e perda de campo crescentes, e por isso é facilmente confundida com outros problemas.',
+          'Nas crianças o retrato é diferente. No bebê e na criança pequena, a pressão alta faz o olho aumentar de tamanho, e os dois olhos podem parecer desiguais; surgem aversão à luz, lacrimejamento, piscar frequente e irritabilidade, com a criança escondendo o rosto da luz. Na criança um pouco maior, o olho geralmente não aumenta mais, e o sinal passa a ser a queda lenta da visão, que costuma ser atribuída a miopia e atrasa o diagnóstico. Em qualquer idade, a regra prática é a mesma: mudança de visão, dor ocular com vermelhidão ou halos coloridos pedem avaliação oftalmológica.',
+        ],
+        bullets: [
+          'Ângulo aberto no início: sem dor e sem aviso, com pontos cegos que só aparecem no teste de campo visual',
+          'Ângulo aberto no dia a dia: tropeçar em degraus, perder partes de palavras ao ler, não perceber objetos pelos cantos',
+          'Ângulo aberto avançado: visão tubular, a pessoa vê o centro e nada ao redor, e enxerga pior à noite',
+          'Ângulo fechado em risco: olho com câmara rasa e ângulo estreito, ainda sem crise',
+          'Crise e trégua: na crise, dor intensa no olho e na cabeça, náusea, vômitos, halos coloridos e queda acentuada da visão; depois a pressão volta a baixar e os sintomas desaparecem, o que não significa cura',
+          'Ângulo fechado crônico: embaçamento e perda de campo que aumentam devagar, sem dor',
+          'Criança pequena: fotofobia, lacrimejamento, piscar constante, olho que parece maior e irritabilidade',
+          'Criança em idade escolar: visão que cai aos poucos e é confundida com miopia',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: [
+          'Existe uma situação de glaucoma que não pode esperar consulta agendada. Se você tiver dor intensa em um olho, dor de cabeça forte, visão muito embaçada, olho vermelho, halos coloridos ao redor das luzes e perda súbita de visão, principalmente acompanhados de náusea ou vômito, procure um serviço de urgência imediatamente. O quadro sugere glaucoma de ângulo fechado agudo, e a perda de visão pode se consolidar em poucas horas.',
+          'Também pedem avaliação sem demora a perda de visão em um olho, dor ocular depois de trauma, vermelhidão persistente com baixa visão, e qualquer piora súbita em quem já tem glaucoma diagnosticado. Nos casos crônicos, o sinal mais importante é menos dramático e mais fácil de ignorar: começar a esbarrar nas coisas, tropeçar em degraus ou notar que não vê mais pelos cantos, o que justifica consulta oftalmológica com prioridade. Em bebês, a combinação de incômodo com a luz, lacrimejamento constante e um olho que parece maior que o outro também é motivo para avaliação.',
+        ],
+        bullets: [
+          'Dor intensa em um olho com vermelhidão',
+          'Perda súbita ou muito rápida da visão',
+          'Halos coloridos ao redor das luzes',
+          'Visão embaçada com náusea ou vômito',
+          'Piora súbita do campo visual em quem já tem glaucoma',
+          'Dor ocular depois de pancada ou cirurgia recente',
+          'Em bebê: incômodo com a luz, lacrimejamento e olho que parece maior',
+        ],
+        cta: {
+          label: 'Leia também: como descobrir o glaucoma antes da perda de visão',
+          href: '/artigos/glaucoma-como-descobrir-cedo/',
+        },
+      },
+      {
+        id: 'qual-especialidade',
+        heading: 'A que especialista recorrer?',
+        paragraphs: [
+          'Quem cuida do glaucoma é o oftalmologista, o médico dos olhos. Ele é o único capaz de medir a pressão intraocular, examinar o nervo óptico, testar o campo visual e verificar se o ângulo de drenagem está aberto ou fechado, o conjunto que define o tipo e o tratamento. Um teste de visão de longe, feito em óptica ou em triagem escolar, não detecta a doença, porque a acuidade central costuma continuar boa até um estágio avançado.',
+          'No Sistema Único de Saúde (SUS), o caminho começa na Unidade Básica de Saúde (UBS), que avalia a queixa, registra os fatores de risco e encaminha para a consulta oftalmológica especializada e os exames. Se o episódio for uma crise, com dor intensa, olho vermelho e queda súbita da visão, o destino é o pronto atendimento, e não a espera por uma vaga de consulta.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o médico confirma o diagnóstico?',
+        paragraphs: [
+          'O glaucoma raramente aparece em um exame de visão de longe. O diagnóstico exige avaliação oftalmológica completa, que começa pela medida da pressão intraocular com o tonômetro, um exame indolor. Valores normais costumam variar entre 11 e 21 mmHg, e leituras acima de 21 mmHg são consideradas altas. Mas a pressão sozinha não decide nada: parte das pessoas com glaucoma tem pressão dentro da faixa média, e nem toda pressão alta é glaucoma.',
+          'No ângulo aberto, a confirmação junta pressão elevada, alterações características na papila do nervo óptico, defeito no campo visual e ângulo de drenagem aberto no exame. No ângulo fechado, a história clínica já orienta muito: episódios de halos coloridos, visão como se houvesse névoa e crises de dor com náusea que cedem ao descansar. Quando a pessoa está na fase sem sintomas, o médico observa os traços do olho que predisõem ao fechamento, como a câmara anterior rasa e o ângulo estreito, e pode pedir um teste de provocação. No mais usado, a pressão é medida, a pessoa fica sentada com os olhos abertos em ambiente totalmente escuro por um tempo definido e a pressão é medida de novo; uma elevação importante indica o teste positivo.',
+          'Com esses elementos o oftalmologista confirma o diagnóstico, define o tipo, avalia a gravidade e estabelece a base de comparação para as consultas seguintes. A lista abaixo reúne os exames descritos na avaliação, e nem todos são necessários em toda pessoa: a escolha depende do tipo suspeito de glaucoma e do estágio da doença.',
+        ],
+        bullets: [
+          'Medida da pressão intraocular (tonometria): feito com tonômetro, é o exame que rastreia a pressão alta, valor que acompanha a progressão da doença',
+          'Exame do segmento anterior com lâmpada de fenda: permite ver a córnea, a íris, o cristalino e a profundidade da câmara anterior',
+          'Oftalmoscopia: mostra o aspecto da papila do nervo óptico, onde a lesão aparece',
+          'Gonioscopia: lente especial mostra se o ângulo de drenagem está aberto ou fechado, o que define o tipo de glaucoma',
+          'Tomografia óptica (OCT): mede a espessura das fibras nervosas da retina e ajuda a detectar lesão antes do teste de campo',
+          'Campo visual (campimetria): verifica a capacidade de enxergar pontos de luz em todas as direções e localiza os pontos cegos, que no estágio avançado deixam apenas uma pequena ilha de visão lateral',
+          'Acuidade visual: teste com a tabela padrão, que avalia o quanto a visão de longe já foi comprometida',
+          'Paquimetria: mede a espessura central da córnea, porque córnea muito fina ou muito grossa distorce a leitura da pressão',
+        ],
+      },
+      {
+        id: 'tratamento-agudo',
+        heading: 'O que se faz na crise de glaucoma agudo?',
+        paragraphs: [
+          'O ataque de ângulo fechado é uma emergência. A pressão sobe de repente e precisa ser baixada o mais rápido possível, porque é isso que protege a visão e as estruturas do olho. O atendimento acontece em serviço de urgência, com equipe e medicamentos disponíveis: nenhuma dessas medidas deve ser tentada em casa, e buscar remédio por conta própria enquanto se espera o atendimento apenas retarda o cuidado.',
+          'Controlada a pressão, o mesmo atendimento define como evitar que a crise volte, o que em geral é feito a laser na íris, no próprio olho e, com frequência, no outro, já que ele também costuma ter o ângulo estreito. Quem já teve um episódio de halos coloridos, dor e embaçamento que passou sozinho deve saber que isso não resolve o problema: a trégua antecede novas crises.',
+        ],
+        bullets: [
+          'Colírio que contrai a pupila (pilocarpina), reaplicado várias vezes para abrir caminho ao humor aquoso',
+          'Medicamentos que reduzem a produção de líquido, por via oral ou injetável, para baixar a pressão rapidamente',
+          'Solução concentrada na veia ou por via oral, que ajuda a retirar água de dentro do olho',
+          'Colírio e medicamento anti-inflamatório, inclusive corticoide, quando o olho está muito vermelho ou com excesso de líquido inflamado',
+          'Punção da câmara anterior, com agulha fina, para retirar um pouco de líquido quando os remédios não bastam',
+          'Iridotomia a laser na íris, assim que o olho permite, criando uma nova rota de saída para o humor aquoso',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Quais colírios e medicamentos são usados?',
+        paragraphs: [
+          'O que já foi perdido não volta, e por isso o objetivo do tratamento é outro: baixar a pressão intraocular para impedir novas lesões no nervo óptico. O tratamento é para toda a vida e funciona aumentando a saída do humor aquoso ou reduzindo a produção desse líquido dentro do olho. Quem tem pressão alta sem sinal de lesão do nervo, situação chamada de suspeita de glaucoma, pode ser acompanhado de perto sem começar medicação.',
+          'Não existe um colírio que sirva igualmente para todas as pessoas: como a resposta varia de pessoa para pessoa, a escolha depende do tipo de glaucoma, do estágio da perda de campo, da idade, das outras doenças e dos efeitos colaterais. Por isso o ideal é seguir a prescrição do médico que acompanha o caso e não decidir sozinho. Entre as classes usadas estão os análogos da prostaglandina, os betabloqueadores, como o timolol, os agonistas alfa-adrenérgicos e os inibidores da anidrase carbônica, com as famílias de remédios descritas abaixo. Efeitos colaterais existem e devem ser relatados, porque quase sempre é possível trocar a classe ou ajustar o esquema.',
+          'A regularidade é o que faz o colírio funcionar: ele só protege porque mantém a pressão baixa todos os dias, e faltas repetidas permitem novas lesões do nervo óptico sem que a pessoa perceba. No SUS, o tratamento inicial é orientado pelo Protocolo Clínico e Diretrizes Terapêuticas da doença, com colírios para baixar a pressão intraocular. Quando o colírio não controla a pressão, causa efeito intolerável ou a perda de campo visual já é grave, entram as intervenções a laser ou a cirurgia, descritas na seção seguinte.',
+        ],
+        bullets: [
+          'Betabloqueadores (como o timolol): diminuem a produção de humor aquoso, são uma das classes mais usadas',
+          'Inibidores da anidrase carbônica (como a brinzolamida): reduzem a secreção do líquido pelas células que o fabricam',
+          'Agonistas alfa-adrenérgicos (como a brimonidina): diminuem a produção e favorecem parte da saída',
+          'Mióticos, como a pilocarpina: contraem a pupila e ajudam a abrir o ângulo, facilitando o escoamento',
+          'Análogos da prostaglandina (como o latanoprosta): ampliam a drenagem por uma via alternativa, costumam ser a primeira escolha e dispensam aplicações várias vezes ao dia',
+          'Associações prontas em um único frasco: dois mecanismos no mesmo colírio, o que reforça o efeito e reduz o número de aplicações',
+          'Medicamentos por via oral ou intravenosa: reservados para quando o colírio isolado não controla a pressão',
+        ],
+        cta: {
+          label: 'Leia também: colírios, laser e cirurgia no tratamento do glaucoma',
+          href: '/artigos/glaucoma-tratamento-e-colirios/',
+        },
+      },
+      {
+        id: 'cirurgia-e-outros',
+        heading: 'Laser, cirurgia e outras opções de tratamento',
+        paragraphs: [
+          'O laser pode ser usado em todos os tipos e em todos os estágios do glaucoma, e a cirurgia entra quando o colírio não controla a pressão, causa efeito intolerável ou a perda de campo visual já é grave. As técnicas abaixo diferem pelo ponto do olho onde atuam: algumas abrem uma rota nova para o líquido sair, outras reduzem a quantidade de líquido produzida. A escolha depende do tipo de glaucoma e do resultado dos exames, e é sempre do médico.',
+          'Depois de uma cirurgia filtrante é preciso saber que o olho continua em observação: podem ocorrer queda de visão, pressão baixa demais, cicatriz no caminho de drenagem, vazamento da bolha formada pela cirurgia e inflamação. Nada disso é motivo para abandonar o colírio, e sim para manter os retornos em dia. No Brasil, o Ministério da Saúde incorporou ao SUS uma cirurgia que trata glaucoma e catarata na mesma intervenção, para casos leves e moderados de glaucoma primário de ângulo aberto.',
+          'Há ainda medidas chamadas de proteção do nervo óptico, como medicamentos para a circulação, vitaminas antioxidantes e extratos vegetais, além de pesquisas com células-tronco para reparar o nervo lesionado. Nenhuma delas tem eficácia confirmada, e muitas ainda estão em fase de estudo: baixar a pressão intraocular continua sendo a única proteção comprovada. Por isso nenhum suplemento ou tratamento complementar substitui o colírio prescrito, e qualquer ideia nova deve ser conversada com o oftalmologista antes de começar.',
+        ],
+        bullets: [
+          'Iridotomia a laser: abre um pequeno orifício na íris para restabelecer a saída do líquido; simples, seguro, de recuperação rápida e com resultado duradouro, é o recurso típico do ângulo fechado',
+          'Iridoplastia a laser: aplica o laser na borda da íris para afastá-la do ângulo; útil no ângulo fechado, mas o efeito não é permanente e exige retorno periódico',
+          'Trabeculoplastia a laser: atua sobre a malha de drenagem no ângulo aberto e tem a vantagem de poder ser repetida',
+          'Fotocoagulação ciliar: destrói parte da estrutura que produz humor aquoso, reservada aos glaucomas de difícil controle; pode causar dor, inflamação, pressão baixa demais, sangramento interno e queda da visão',
+          'Trabeculectomia: cria um novo caminho de escoamento para fora do olho e segue sendo a operação mais usada',
+          'Implante de drenagem: um tubo que conduz o líquido até uma área onde ele pode ser absorvido',
+          'Esclerectomia profunda: variante que não atravessa todas as camadas, usada em olhos selecionados',
+          'Técnicas de pequena invasão: opções mais novas já disponíveis na prática clínica, ainda reservadas a casos escolhidos',
+        ],
+      },
+      {
+        id: 'tem-cura',
+        heading: 'O glaucoma tem cura?',
+        paragraphs: [
+          'Não. A lesão do nervo óptico é permanente, e nenhum colírio, laser ou cirurgia devolve a visão já perdida. O que a medicina consegue fazer é controlar a pressão intraocular e, com isso, frear a doença: como um freio que não elimina a estrada inclinada, mas impede que o carro desça acelerado. Com tratamento regular e acompanhamento, a maioria das pessoas conserva visão útil pelo resto da vida.',
+          'O que não se pode fazer é parar. O glaucoma continua existindo depois do diagnóstico, só que sem sintomas, e é justamente aí que mora o perigo: quem interrompe o colírio porque está se sentindo bem permite novas lesões silenciosas. Sem tratamento, a pressão mantém-se elevada, o campo visual encolhe até restar apenas uma pequena ilha de visão e o olho caminha para a cegueira definitiva, irreversível.',
+        ],
+        bullets: [
+          'A visão já perdida não volta com colírio, laser ou cirurgia',
+          'Com tratamento regular, a maioria das pessoas mantém visão útil para ler, trabalhar e dirigir',
+          'Sem tratamento, o campo visual encolhe até a cegueira daquele olho, e isso é irreversível',
+          'A doença costuma atingir os dois olhos, mesmo que um esteja melhor, então ambos precisam de acompanhamento',
+          'Visão periférica reduzida traz riscos concretos: quedas, acidentes e dificuldade para dirigir',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados em casa e no dia a dia',
+        paragraphs: [
+          'Com a pressão controlada, a maioria das pessoas mantém leitura, trabalho, direção e vida social. O ponto central é a regularidade: o colírio só protege porque reduz a pressão de forma contínua, e faltas repetidas permitem novas lesões do nervo óptico sem que a pessoa perceba. Criar um horário fixo, usar lembrete no celular e repor o frasco antes que ele acabe são medidas que evitam buracos no tratamento.',
+          'Quem convive com o paciente precisa ficar atento ao humor. Perder visão desanima, e o desânimo, a irritação e a ansiedade prolongada acabam elevando a pressão, o que realimenta o ciclo. A companhia da família, a conversa aberta sobre o que muda na rotina e, quando o desânimo persiste, o apoio psicológico ou um grupo de pessoas com glaucoma fazem diferença real.',
+          'Algumas situações do cotidiano pedem conversa com o médico. Antes de tomar medicamentos para alergia, resfriado ou insônia que dilatam a pupila, pessoas com ângulo estreito devem ter os olhos avaliados, porque esses fármacos podem bloquear a drenagem. Exercício moderado é bem-vindo; já posições com a cabeça muito abaixada por tempo prolongado e esforço máximo com o ar preso dentro do peito podem elevar a pressão ocular e devem ser discutidos.',
+        ],
+        bullets: [
+          'Cigarro e álcool: parar de fumar e evitar bebida alcoólica',
+          'Colírio: aplicar no horário e na dose combinados, sem aumentar nem cortar por conta própria',
+          'Exercício: caminhada e atividades leves, com a liberação do médico que acompanha o caso',
+          'Sono: elevar um pouco a cabeceira da cama ajuda a manter a pressão ocular mais baixa durante a noite',
+          'Emoções: raiva e ansiedade intensas podem elevar a pressão, e vale pedir apoio quando o desânimo persiste',
+          'Água: beber em pequenas quantidades ao longo do dia, em vez de muitos copos de uma só vez',
+          'Alimentação: verduras, legumes e frutas todos os dias, o que também evita o esforço excessivo ao evacuar; cenoura, frutas cítricas e castanhas são boas fontes de vitamina A, vitamina C, zinco e cobre',
+          'Irritantes e cafeína: pimenta e mostarda em grande quantidade, café, chá forte e refrigerantes de cola, sempre com moderação',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'O que é preciso monitorar no dia a dia?',
+        paragraphs: [
+          'Depois do diagnóstico, o cuidado vira rotina de consultas. O colírio se mantém todos os dias, a volta ao consultório acontece na data marcada, com repetição da medida da pressão ocular, da visão de longe e do campo visual, e a prescrição é ajustada conforme o resultado. Faltas longas são o que mais prejudica, porque a doença não avisa quando volta a crescer. Levar o frasco à consulta permite que a equipe revise a técnica de aplicação, erro comum e fácil de corrigir.',
+          'Há ainda um item fora dos olhos que interfere neles: a pressão arterial. Quando ela sobe, a pressão dentro do olho também tende a subir, de forma indireta. Por isso quem tem hipertensão deve tomar o anti-hipertensivo todos os dias, medir e anotar os valores em casa em horários regulares e levar o registro à consulta. Controlar diabetes e outras doenças de base facilita o acompanhamento oftalmológico.',
+        ],
+        bullets: [
+          'Usar o colírio todos os dias, no mesmo horário, mesmo sem sintoma algum',
+          'Voltar à consulta na data marcada para repetir pressão ocular, visão de longe e campo visual',
+          'Ajustar a medicação conforme os resultados, sempre com o médico, sem trocar de remédio sozinho',
+          'Levar o frasco de colírio à consulta para revisão da técnica de aplicação',
+          'Medir a pressão arterial em casa, em horários regulares, e anotar os valores',
+          'Quem tem hipertensão precisa tomar o anti-hipertensivo diariamente, porque a pressão do corpo influi na pressão do olho',
+          'Manter diabetes e outras doenças de base em tratamento, com a equipe de saúde',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a perda de visão por glaucoma?',
+        paragraphs: [
+          'Não existe forma segura de prevenir o glaucoma primário, mas existe forma eficaz de prevenir a cegueira por glaucoma: encontrá-lo antes da perda de visão. O Manual MSD recomenda que toda pessoa de alto risco faça exame oftalmológico completo a cada um ou dois anos, incluindo a medida da pressão ocular e o teste da visão periférica. Quem tem mais de 40 anos, parente de primeiro grau com glaucoma, miopia ou hipermetropia alta, ou faz uso prolongado de corticoide, está nesse grupo, e o intervalo entre os exames encurta conforme a idade avança.',
+          'Outras medidas reduzem riscos específicos. Proteger os olhos em trabalhos com risco de impacto e em esportes de raquete evita glaucoma secundário a traumatismo. Usar corticoide em colírio ou pomada apenas com orientação médica reduz um fator de pressão alta conhecido. Controlar diabetes e pressão arterial protege a saúde dos vasos do olho e facilita o acompanhamento. Em português claro: exame periódico não é luxo para quem tem risco, é a única etapa do cuidado que recupera visão que ainda não foi perdida, porque nada devolve a que já se perdeu.',
+        ],
+        bullets: [
+          'Exame oftalmológico completo a cada um ou dois anos, se você tem alto risco',
+          'Depois dos 40 anos, fazer o exame mesmo sem queixa, e repetir com mais frequência conforme a idade avança',
+          'Quem tem pai, mãe ou irmão com glaucoma precisa começar mais cedo',
+          'Medir a pressão ocular e testar o campo visual, não só a visão de longe',
+          'Usar corticoide somente com orientação médica',
+          'Proteger os olhos em trabalhos com risco de impacto e em esportes com bola ou raquete',
+          'Manter atividade física aeróbica regular',
+          'Manter diabetes e pressão arterial controlados',
+          'Seguir o colírio receitado para pressão alta, antes que haja lesão do nervo óptico',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'A visão perdida pelo glaucoma pode voltar?',
+        answer:
+          'Não. A lesão do nervo óptico é permanente, e a visão já perdida não é recuperada por colírio, laser ou cirurgia. O tratamento serve para baixar a pressão intraocular e impedir novas perdas, por isso quanto mais cedo o diagnóstico, mais visão se preserva.',
+      },
+      {
+        question: 'Se minha pressão ocular é normal, posso estar sem glaucoma?',
+        answer:
+          'Pressão normal não descarta o diagnóstico. Parte das pessoas com glaucoma tem pressão dentro da faixa média, existe a forma de pressão normal, e a avaliação do nervo óptico e do campo visual é que confirma ou afasta a doença.',
+      },
+      {
+        question: 'Meu pai tem glaucoma. Com que idade devo começar a me examinar?',
+        answer:
+          'História familiar coloca você no grupo de alto risco, e nesse caso o exame oftalmológico completo é recomendado a cada um ou dois anos, com medida da pressão ocular e teste de visão periférica. Converse com a equipe da UBS ou com o oftalmologista sobre o intervalo adequado para o seu caso.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'glaucoma-como-descobrir-cedo',
+      'glaucoma-tratamento-e-colirios',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['catarata', 'diabetes'],
+    references: [
+      {
+        label: 'Glaucoma, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/glaucoma/glaucoma',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'SUS vai oferecer cirurgia que trata glaucoma e catarata ao mesmo tempo',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/sus-vai-oferecer-cirurgia-que-trata-glaucoma-e-catarata-ao-mesmo-tempo',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Cegueira e deficiência visual: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'rinite-alergica',
+    slug: 'rinite-alergica',
+    name: 'Rinite alérgica',
+    aliases: ['rinite alérgica', 'rinoconjuntivite alérgica', 'alergia respiratória', 'rinite crônica', 'poeira no nariz'],
+    summary:
+      'Inflamação alérgica da mucosa do nariz, com crises de espirros, coriza aquosa, coceira e entupimento. Tem gatilhos identificáveis e tratamento que reduz as crises.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é rinite alérgica?',
+        paragraphs: [
+          'A rinite alérgica é a inflamação da membrana mucosa que reveste o nariz. Quando uma pessoa já sensibilizada inala uma substância comum do ambiente, o sistema imune reage a ela como se fosse uma ameaça. O nariz responde inchando, produzindo mais secreção e disparando séries de espirros. O resultado é um conjunto de sintomas bem reconhecível: coriza, entupimento, coceira e perda de conforto para dormir, estudar e trabalhar.',
+          'A condição é crônica, vai e volta ao longo da vida, e não é uma infecção. Por isso não é contagiosa, não melhora com antibiótico e não se resolve em poucos dias como um resfriado. Entre uma crise e outra a pessoa pode ficar totalmente bem, sobretudo quando consegue reduzir o contato com os desencadeadores que provocam os sintomas.',
+          'A rinite alérgica é frequente no Brasil. Um estudo internacional de asma e alergias feito em várias localidades brasileiras encontrou sintomas nasais no último ano em 37,2% das crianças e adolescentes pesquisados, e rinoconjuntivite alérgica em 16,2%. Não existe promessa de cura, mas existe controle: o consenso brasileiro descreve a imunoterapia alergenoespecífica como o único tratamento que modifica a evolução da doença alérgica.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Como a rinite alérgica é classificada?',
+        paragraphs: [
+          'A rinite alérgica pode ser organizada de três maneiras, e cada uma orienta um passo diferente do plano de tratamento. Pelos gatilhos, ela é sazonal quando ligada ao pólen que se espalha em certa época do ano, quadro que já foi chamado de febre do feno, e perene quando presente o ano inteiro e causada sobretudo pelo ácaro da poeira e pelo mofo. Uma forma sazonal pode dar sintomas fora da estação, e uma perene costuma piorar em certos períodos.',
+          'Pelo tempo de aparecimento, a doença é intermitente quando surge em menos de quatro dias por semana ou em menos de quatro semanas por ano, e persistente quando ultrapassa esses marcos. Esse padrão no calendário pesa na decisão: casos intermitentes costumam responder bem ao alívio pontual, enquanto os persistentes pedem controle diário.',
+          'Pela intensidade, a forma é leve quando quase não atrapalha o sono, o trabalho ou a escola, e moderada a grave quando esses prejuízos aparecem. O consenso brasileiro adota a classificação internacional ARIA, que cruza tempo e gravidade em quatro categorias, como intermitente leve ou persistente moderada a grave, para orientar a escolha e a dose do tratamento.',
+        ],
+        bullets: [
+          'Forma sazonal: pólen de árvores e gramíneas, concentrado em certas semanas do ano',
+          'Forma perene: ácaro da poeira, mofo, barata e epitélio de animais, presentes o ano todo',
+          'Forma intermitente: menos de quatro dias por semana ou menos de quatro semanas por ano',
+          'Forma persistente: quatro dias por semana ou mais, ou quatro semanas por ano ou mais',
+          'Forma leve a grave: definida pelo impacto no sono, no trabalho e na escola',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a rinite alérgica?',
+        paragraphs: [
+          'A rinite alérgica é causada por uma reação do sistema imune a um fator ambiental desencadeante. Os mais comuns são poeira, mofo, pólen, ervas, árvores e animais. No Brasil, estudos nacionais apontam os ácaros domésticos como os principais agentes, seguidos pelos alérgenos de barata e pelo epitélio de animais domésticos, e, mais raramente, pelos fungos. Tanto alergias sazonais quanto alergias presentes o ano inteiro podem causar o quadro.',
+          'O processo tem duas etapas. Na primeira exposição, nada aparece: o organismo apenas aprende a reconhecer aquela substância e passa a produzir IgE específica contra ela. Nas exposições seguintes, essa IgE aciona a liberação de mediadores da inflamação, entre eles a histamina, que incham a mucosa, aumentam a secreção e provocam coceira e espirros. É por isso que a crise surge minutos depois de varrer um quarto fechado ou de acariciar um animal.',
+        ],
+        bullets: [
+          'Histórico familiar de asma, rinite ou outras alergias',
+          'Conviver com alguém que fuma dentro de casa ou do automóvel',
+          'Morar em imóvel com infiltração, mofo visível ou umidade',
+          'Dormir em quarto com carpete, bichos de pelúcia e roupas de cama antigas',
+        ],
+      },
+      {
+        id: 'gatilhos',
+        heading: 'O que desencadeia as crises?',
+        paragraphs: [
+          'Gatilho é o que faz a crise aparecer em quem já tem rinite. Trocar de ambiente, apanhar uma caixa guardada há meses, varrer o quarto, dormir em colchão velho ou entrar em contato com um animal são situações típicas. Oscilação brusca de temperatura, banho muito quente e ar-condicionado também derrubam muita gente, e por isso o inverno e as manhãs frias concentram consultas.',
+          'Nas capitais, a poluição do ar e os períodos de maior concentração de pólen pioram o quadro. Quem é alérgico a pólen costuma se beneficiar de janelas fechadas durante o dia, quando a contagem é mais alta. Identificar os próprios gatilhos é a primeira etapa do tratamento: sem essa lista, o medicamento vira tapamento de sintoma e a pessoa continua exposta todos os dias ao que a faz espirrar.',
+        ],
+        bullets: [
+          'Poeira caseira e ácaros de colchão, travesseiro e bichos de pelúcia',
+          'Fumaça de cigarro, incenso e produtos de limpeza de cheiro forte',
+          'Mofo de paredes com infiltração e de banheiros pouco ventilados',
+          'Pólen, poluição do ar e mudanças bruscas de temperatura',
+        ],
+        cta: {
+          label: 'Leia também: como reconhecer os sintomas e descobrir seus gatilhos',
+          href: '/artigos/rinite-alergica-sintomas-e-gatilhos/',
+        },
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A crise de rinite alérgica tem assinatura própria: coceira no nariz e nos olhos, séries de espirros, secreção aquosa e abundante e nariz entupido. Os olhos lacrimejam e coçam. Algumas pessoas apresentam dor de cabeça, pálpebras inchadas, tosse e chiado no peito. O cheiro fica menos nítido nos dias de obstrução intensa, e a voz ganha tom anasalado.',
+          'O entupimento costuma ser pior à noite e ao acordar, o que atrapalha o sono e explica o cansaço e a dificuldade de concentração durante o dia. Em crianças, a obstrução persistente leva à respiração pela boca, quadro que o consenso brasileiro associa a alterações do desenvolvimento craniofacial quando se mantém por muito tempo. Entre uma crise e outra pode não haver sintoma nenhum, o que faz muita gente achar que está curada.',
+        ],
+        bullets: [
+          'Crises de espirros, principalmente ao acordar',
+          'Secreção nasal clara e aquosa',
+          'Obstrução nasal que piora à noite',
+          'Coceira no nariz, na garganta e nos olhos',
+          'Olhos vermelhos, lacrimejando e inchados',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O diagnóstico é clínico e começa pelo histórico: quais sintomas, com que frequência, em que horário, em quais ambientes e se existe alergia na família. O exame costuma mostrar uma mucosa nasal pálida, mole e inchada, diferente da vermelhidão típica de uma infecção. Na maioria dos casos, esse caminho já basta para conduzir o tratamento, e o médico pode diagnosticar a rinite alérgica apenas com base na história dos sintomas.',
+          'Os exames de alergia entram quando os sintomas são crônicos ou recorrentes em certas estações, quando identificar o alérgeno é necessário para orientar controle ambiental e imunoterapia, ou quando o tratamento inicial não funcionou. São testes com prescrição e interpretação profissional, e resultado alterado não substitui a avaliação clínica. Nem todo episódio de congestão e coriza exige avaliação imediata, mas a persistência merece consulta.',
+        ],
+        bullets: [
+          'Testes cutâneos de leitura rápida, feitos no antebraço ou nas costas',
+          'Dosagem de IgE específica no sangue para alérgenos individuais',
+          'Inspeção da mucosa nasal e pesquisa de pólipos com rinoscópio',
+          'Registro de datas, ambientes e horários dos sintomas antes da consulta',
+        ],
+      },
+      {
+        id: 'rinite-ou-resfriado',
+        heading: 'Dá para diferenciar de resfriado e sinusite?',
+        paragraphs: [
+          'Confundir rinite alérgica com resfriado é comum, e a diferença está no detalhe. Na infecção viral, a secreção pode ser aquosa ou espessa, há dor de garganta, mal-estar geral e às vezes febre baixa, e tudo melhora em uma semana. Na alergia, predomina a coceira, a secreção é aquosa, os olhos lacrimejam e coçam, e não há mal-estar nem febre.',
+          'Outro indício é o padrão no tempo. A rinite alérgica reaparece sempre que a pessoa encontra o desencadeador, dura semanas e se repete na mesma estação ou no mesmo ambiente. A sinusite aguda traz secreção cheia de pus, frequentemente de um só lado do nariz, odor desagradável, dor ou sensibilidade no rosto e na testa. Corrimento unilateral com pus ou sangue é sinal de alerta e pede avaliação, e em crianças o médico ainda considera a possibilidade de um objeto introduzido no nariz.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'A rinite alérgica costuma não ser emergência, mas há situações que pedem avaliação naquele dia, e o otorrinolaringologista ou o alergista é quem conduz o caso quando o clínico da UBS encaminha. Procure atendimento quando as crises de espirros, coriza, coceira e entupimento não cedem, quando os remédios para alergia não aliviam ou provocam efeitos que a pessoa não tolera, e quando existe outra doença que piora o quadro, como pólipos nasais, asma ou sinusites de repetição.',
+          'Há sinais que não devem esperar a próxima consulta. Falta de ar, chiado intenso ou aperto no peito podem indicar asma descompensada; inchaço importante ao redor dos olhos, dor facial com febre e secreção purulenta sugerem complicação; e uma reação alérgica geral, com inchaço nos lábios ou na garganta, é urgência. Merecem reavaliação, ainda, a obstrução que não cede com o tratamento de sempre, a perda de olfato que persiste e o sangramento nasal repetido.',
+        ],
+        bullets: [
+          'Crises que não passam, mesmo depois de afastar o gatilho',
+          'Anti-histamínicos que não aliviam ou causam efeitos que a pessoa não tolera',
+          'Doença associada que agrava a rinite, como pólipo nasal, asma ou sinusite de repetição',
+          'Falta de ar, chiado ou aperto no peito',
+          'Inchaço nos lábios ou na garganta, ou reação alérgica geral súbita',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como tratar: medidas gerais e o que fazer na crise forte',
+        paragraphs: [
+          'O primeiro degrau do tratamento é o mais barato e o menos valorizado: reduzir o contato com o gatilho. Quem já sabe a que é alérgico ganha muito ao se proteger. Para pólen, evite sair nos dias de alta concentração, use máscara e óculos ao ar livre e considere barreiras nasais; ao chegar em casa, troque de roupa e tome banho. Para ácaro e mofo, areje o ambiente, mantenha a casa seca e lave a roupa de cama com frequência. Para epitélio de animais, o melhor é não criar o bicho dentro de casa nem deixá-lo no quarto.',
+          'Nessa base entra a lavagem nasal com solução salina, um recurso simples e barato: a água com sal limpa o nariz, retira secreção e crostas, ajuda a recuperar os cílios da mucosa e melhora a ação do medicamento aplicado depois. Ela é uma boa coadjuvante do tratamento, não um substituto.',
+          'Na crise forte, a prioridade muda. Quando o nariz entope a ponto de impedir respirar, quando a rinite desencadeia uma crise de asma, ou quando surge uma reação alérgica geral, a pessoa deve procurar atendimento de urgência. Ajustar o ambiente e iniciar a medicação são passos do dia a dia; o agravamento súbito pede avaliação imediata.',
+        ],
+      },
+      {
+        id: 'tratamento-medicamentoso',
+        heading: 'Que medicamentos são usados?',
+        paragraphs: [
+          'O medicamento depende do tipo e da intensidade dos sintomas, e a escolha é individual: não existe o remédio melhor ou mais rápido para todo mundo, e o ideal é seguir a orientação do profissional. Entre os anti-histamínicos, os de segunda geração são preferidos em todas as idades pelo perfil de segurança e por não dar tanto sono; existem em comprimido, com efeito que cobre o dia, e em spray nasal, que age mais rápido. Eles aliviam espirros, coriza e coceira, mas ajudam pouco o nariz entupido.',
+          'Os corticosteroides em spray nasal são a base do controle nas formas persistentes: atuam sobre a inflamação local, melhoram a obstrução, a coriza, os espirros, a coceira e os sintomas nos olhos, e são seguros para uso prolongado quando usados conforme a prescrição. Para o entupimento pontual, os descongestionantes em spray dão alívio rápido, mas devem durar no máximo cinco a sete dias, porque o uso prolongado provoca congestão de rebote e rinite medicamentosa, e não são indicados antes dos seis anos. Antibiótico não trata rinite alérgica.',
+        ],
+        bullets: [
+          'Anti-histamínicos: comprimidos de segunda geração, de efeito diário, e sprays nasais de ação rápida',
+          'Corticosteroide nasal: base do controle das formas persistentes',
+          'Descongestionantes nasais: alívio rápido, por no máximo cinco a sete dias',
+          'Antagonista de leucotrieno: opção em situações específicas, como na asma associada',
+          'Anti-IgE e estabilizadores: reservados a casos selecionados, com prescrição',
+        ],
+      },
+      {
+        id: 'tratamento-imunoterapia',
+        heading: 'Imunoterapia e outras medidas de longo prazo',
+        paragraphs: [
+          'A imunoterapia alergenoespecífica é o único tratamento que modifica a evolução da doença alérgica, segundo o consenso brasileiro. Ela treina o organismo a tolerar o alérgeno, expondo a pessoa a doses crescentes e controladas, e dura de dois a três anos. É indicada nas formas moderadas a graves e nas persistentes, conduzida por especialista, e tem contraindicações, entre elas a asma não controlada. Há duas vias: a subcutânea, com injeções que exigem observação no local por possível reação, e a sublingual, com comprimido ou líquido sob a língua, de uso em casa e de manejo mais confortável.',
+          'A lavagem nasal com solução salina complementa tudo isso: simples e barata, limpa a mucosa, remove secreção e alérgenos acumulados, ajuda a recuperar os cílios da mucosa e melhora a eficácia do spray nasal aplicado em seguida. Ela é uma boa coadjuvante do tratamento, não um substituto, e pode ser usada conforme a orientação do profissional.',
+        ],
+        bullets: [
+          'Via subcutânea: injeções com doses crescentes e observação no local por possível reação',
+          'Via sublingual: comprimido ou líquido sob a língua, de uso em casa e de manejo mais confortável',
+        ],
+      },
+      {
+        id: 'tratamento-cirurgico',
+        heading: 'Cirurgia e outras abordagens têm lugar?',
+        paragraphs: [
+          'A cirurgia tem um papel limitado e bem específico. Ela é considerada quando o corneto inferior está muito aumentado e mantém o nariz entupido apesar do controle da alergia, e o objetivo é melhorar a passagem de ar. Não existe um padrão único de procedimento: a escolha depende da anatomia do nariz e da gravidade, e a cirurgia não cura a alergia nem dispensa o tratamento clínico.',
+          'Já o espaço para as chamadas terapias complementares, como acupuntura e o uso de chás para reforçar o organismo, é pequeno: a evidência de benefício na rinite alérgica é fraca, e elas não substituem o controle ambiental nem a medicação prescrita. Entre as práticas populares, a lavagem nasal com soro é a que tem mais base e baixo risco, e por isso está no plano; o restante, se a pessoa quiser tentar, deve conversar antes com quem a acompanha, principalmente para não atrasar o que funciona.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'O que a rinite não controlada pode causar?',
+        paragraphs: [
+          'Rinite alérgica mal controlada não fica restrita ao nariz. As principais comorbidades descritas no consenso brasileiro são asma, conjuntivite alérgica, rinossinusite aguda e crônica, otite média com efusão e alterações do desenvolvimento craniofacial em crianças que respiram pela boca, além de apneia e hipopneia obstrutiva do sono, tanto em crianças quanto em adultos. Sono ruim e queda de rendimento diurno são consequência direta dessa lista.',
+          'A relação com a asma é a que mais importa na prática clínica. Nariz e pulmões fazem parte da mesma via aérea, e o Ministério da Saúde reúne asma, rinite alérgica e DPOC no grupo das doenças respiratórias crônicas, citando entre os fatores de risco da asma justamente a exposição a poeira, barata, ácaros e fungos. O controle da rinite reduz o risco de complicações como rinossinusite, otite com efusão e asma, e o uso de corticoide nasal está associado a essa redução.',
+        ],
+        bullets: [
+          'Asma, com chiado, falta de ar e crises de piora',
+          'Rinossinusite crônica, com congestão e redução do olfato',
+          'Otite média com efusão, sobretudo em crianças',
+          'Ronco, apneia do sono e sono de má qualidade',
+          'Queda de rendimento escolar e no trabalho',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Vida diária com rinite alérgica',
+        paragraphs: [
+          'A rotina é onde a rinite se ganha ou se perde. O quarto de dormir concentra a maior parte da exposição, porque é onde a pessoa passa mais tempo e onde o ácaro encontra colchão, travesseiro e tecido favoráveis. Começar por esse cômodo costuma render mais do que trocar de medicamento. Ambientes bem ventilados e ensolarados, sem acúmulo de poeira, mudam a frequência das crises.',
+          'A limpeza merece atenção redobrada: vassoura, espanador e aspirador comum espalham justamente a poeira que a pessoa vai respirar depois, enquanto o pano úmido resolve. Constância também é tratamento. Seguir o medicamento prescrito mesmo nos períodos sem sintomas mantém a inflamação baixa, e levar a lista de gatilhos identificados para a consulta ajuda o profissional a ajustar a conduta.',
+        ],
+        bullets: [
+          'Colchão e travesseiro de espuma, fibra ou látex, com capa impermeável ao ácaro',
+          'Roupas de cama trocadas e lavadas com frequência e secas ao sol ou em temperatura alta',
+          'Pisos laváveis, sem carpete, tapete, cortina pesada ou almofadão',
+          'Banheiro e áreas úmidas sem mofo, com umidade interna controlada',
+          'Animal de estimação fora do quarto e nunca sobre a cama',
+          'Limpeza feita com pano úmido, mantendo a pessoa alérgica fora do ambiente',
+        ],
+        cta: {
+          label: 'Leia também: o que dá para fazer em casa para controlar as crises',
+          href: '/artigos/rinite-alergica-como-controlar-em-casa/',
+        },
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir as crises',
+        paragraphs: [
+          'Não é possível prometer que ninguém desenvolverá rinite alérgica, mas dá para reduzir muito a frequência e a intensidade das crises. A estratégia mais eficiente é a mesma que trata: eliminar colônias de ácaro e mofo de casa, controlar baratas, manter o ambiente sem fumaça e arejado e escolher materiais laváveis para quarto e sala. São medidas domésticas de baixo custo e efeito cumulativo.',
+          'Quem já tem o diagnóstico se beneficia de planejamento sazonal. Antecipar a temporada de pólen, fechar janelas durante o dia e abri-las à noite, evitar exercícios ao ar livre em dias de alta poluição, arejar ambientes fechados por longos períodos antes de entrar e evitar oscilação brusca de temperatura fazem diferença concreta. Manter o tratamento prescrito nos períodos de maior exposição é parte da prevenção, e não sinal de fracasso.',
+        ],
+        bullets: [
+          'Arejar e limpar ambientes fechados há muito tempo pelo menos 24 horas antes de entrar',
+          'Preferir atividades ao ar livre em dias de menor concentração de pólen e poluentes',
+          'Evitar talco, perfume e desodorante em spray e produtos de limpeza de odor forte',
+          'Não fumar e não permitir fumo dentro de casa ou do automóvel',
+          'Acompanhar a asma associada na UBS, onde o SUS oferece o tratamento',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Rinite alérgica é contagiosa?',
+        answer:
+          'Não. A rinite alérgica vem da reação do sistema imune a substâncias do ambiente, como ácaros e pólen, e não de um microrganismo. Ela não passa pelo ar, pelo contato nem por objetos. O que se transmite é o resfriado, que pode causar rinite viral, mas provoca dor de garganta, mal-estar e dura poucos dias.',
+      },
+      {
+        question: 'Rinite alérgica vira asma?',
+        answer:
+          'Não automaticamente, mas as duas doenças convivem com frequência e fazem parte da mesma via aérea. Por isso quem tem rinite deve ser avaliado para asma, e o controle da rinite reduz o risco de complicações, inclusive a asma. O consenso brasileiro também registra que a imunoterapia alergenoespecífica previne o desenvolvimento de asma em alguns casos.',
+      },
+      {
+        question: 'Posso usar spray descongestionante todos os dias?',
+        answer:
+          'Não. O spray descongestionante alivia a obstrução rapidamente, mas o uso prolongado provoca congestão de rebote e pode levar à rinite medicamentosa, de difícil resolução. O consenso brasileiro limita o uso tópico a no máximo cinco a sete dias, e ele não é indicado para crianças menores de seis anos.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'rinite-alergica-sintomas-e-gatilhos',
+      'rinite-alergica-como-controlar-em-casa',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['asma', 'otite-media-aguda', 'dpoc'],
+    references: [
+      {
+        label: 'Rinite, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-nariz-e-dos-seios-paranasais/rinite',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Congestão nasal e coriza, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/sintomas-de-dist%C3%BArbios-do-nariz-e-da-garganta/congest%C3%A3o-nasal-e-coriza',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'IV Consenso Brasileiro sobre Rinites: atualização em rinite alérgica',
+        url: 'https://www.scielo.br/j/bjorl/a/zWmtXTXRn6dtBLwcqRpJH4m/?lang=pt',
+        publisher: 'Revista Brasileira de Otorrinolaringologia (SciELO)',
+      },
+      {
+        label: 'Asma: orientações e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/asma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'bronquiolite',
+    slug: 'bronquiolite',
+    name: 'Bronquiolite',
+    aliases: ['bronquiolite', 'bronquiolite viral aguda', 'BVA', 'chiado no bebê', 'infecção por vírus sincicial respiratório', 'VSR'],
+    summary:
+      'Infecção viral que inflama os bronquíolos, os ramos mais finos das vias aéreas dentro dos pulmões, quase sempre em bebês menores de dois anos. A maioria dos casos melhora em casa, com lavagem nasal, hidratação e observação atenta.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é bronquiolite?',
+        paragraphs: [
+          'A bronquiolite viral aguda é uma infecção das vias aéreas baixas que atinge crianças menores de dois anos, com maior frequência entre os dois e os seis meses de vida. Ela inflama os bronquíolos, os ramos mais finos da árvore respiratória dentro dos pulmões, que têm apenas meio milímetro de diâmetro. Com a inflamação, a parede incha, produz secreção e o ar encontra uma passagem estreita para entrar e sair.',
+          'O quadro costuma começar como um resfriado, com coriza e tosse leve, e só depois de alguns dias aparece a dificuldade para respirar, com respiração rápida, chiado no peito e esforço visível. Na maioria dos bebês os sintomas são leves e a criança continua alerta e mamando bem. Em bebês muito novos, porém, a doença pode exigir oxigênio e internação.',
+          'A bronquiolite é a infecção das vias aéreas inferiores mais comum em crianças pequenas no mundo, e o Ministério da Saúde a descreve como uma das principais causas de Síndrome Respiratória Aguda Grave em crianças pequenas. No Brasil, a circulação do vírus se concentra no inverno: no hemisfério sul, a maior parte dos casos ocorre entre maio e julho.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quais bebês adoecem mais?',
+        paragraphs: [
+          'Alguns bebês correm mais risco de desenvolver forma grave. Prematuros, crianças com menos de dois meses de vida, as que nasceram com baixo peso e as que têm cardiopatia, doença pulmonar de base, como displasia broncopulmonar, malformação congênita das vias aéreas, fibrose cística, doença neuromuscular, imunodeficiência ou síndrome de Down precisam de atenção redobrada. Nos muito novos, a fase mais vulnerável são as primeiras semanas de vida. Nesse grupo, a decisão de internar costuma ser tomada mais cedo, ainda que o desconforto respiratório pareça moderado.',
+          'A fumaça do cigarro é o fator de risco que a família mais consegue controlar: bebês expostos a ela e ao fumo passivo têm infecções mais graves. Amamentação mantida, caderneta de vacinação em dia, ambientes ventilados e evitar aglomerações no inverno completam o que está ao alcance de quem cuida. Casas com umidade visível e mofo também favorecem episódios de chiado em crianças pequenas.',
+        ],
+        bullets: [
+          'Prematuridade e baixo peso ao nascer',
+          'Menos de dois meses de vida',
+          'Cardiopatia, doença pulmonar crônica ou imunodeficiência',
+          'Exposição à fumaça do cigarro dentro de casa',
+          'Malformação das vias aéreas, fibrose cística, doença neuromuscular ou síndrome de Down',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Bronquiolite é contagiosa?',
+        paragraphs: [
+          'O que é contagioso é o vírus, não a bronquiolite. O vírus sincicial respiratório e os demais agentes circulam por gotículas e secreções respiratórias e, em adultos e crianças maiores, costumam provocar apenas um resfriado. A mesma pessoa que chega em casa com uma coriza leve pode levar ao bebê uma infecção que se instala nos bronquíolos e fecha as vias aéreas. Quem contamina transmite o vírus de um a dois dias antes dos primeiros sintomas e por até uma ou duas semanas depois que eles começam.',
+          'Isso faz da visita ao recém-nascido o caminho mais curto para a doença. Quem estiver com tosse, coriza ou febre deve adiar a visita, e todos que pegam o bebê devem lavar as mãos com água e sabão antes. Beija-mão e beijo no rosto merecem pausa durante o inverno. Nada disso significa afastar a família: significa higiene, e é uma das medidas de prevenção listadas pelo Ministério da Saúde.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a bronquiolite?',
+        paragraphs: [
+          'A bronquiolite é causada por vírus, e o principal deles é o vírus sincicial respiratório, o mais frequente, o que mais provoca formas graves e o que costuma causar surtos na comunidade. Outros vírus também provocam a doença, entre eles parainfluenza, influenza, adenovírus, rinovírus, enterovírus e metapneumovírus humano. Mais raramente, Mycoplasma pneumoniae e Chlamydia pneumoniae podem causar o quadro. Como a causa é viral, antibiótico não trata a bronquiolite, e o que se faz nos dias de crise é suporte: nariz limpo, líquido oferecido com frequência e febre controlada.',
+          'A criança se infecta pelo contato com gotículas e secreções de pessoas com resfriado, em tosse, espirro, mão que não foi lavada e objeto compartilhado. Um adulto ou um irmão mais velho pode se infectar com o mesmo vírus e ter apenas um resfriado leve, e é quase sempre assim que ele chega ao bebê. Por isso a doença aparece em surtos no inverno e atinge primeiro quem divide a casa ou a sala de espera com a criança.',
+        ],
+        bullets: [
+          'Vírus sincicial respiratório, o mais frequente',
+          'Parainfluenza e influenza',
+          'Adenovírus e rinovírus',
+          'Enterovírus e metapneumovírus humano',
+          'Mycoplasma pneumoniae e Chlamydia pneumoniae, mais raramente',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A bronquiolite começa com sintomas de resfriado: coriza, espirros, febre baixa e um pouco de tosse. Depois de dois a três dias, parte dos bebês passa a respirar mais rápido e com esforço, e a tosse piora. Aparece então o chiado, um ruído agudo durante a saída do ar, às vezes audível sem estetoscópio, e ele vem junto com a tosse, marca registrada da doença. Obstrução nasal e irritabilidade acompanham o quadro, e muitos bebês regurgitam ou vomitam depois dos acessos de tosse.',
+          'Na maioria dos bebês os sintomas são leves. Mesmo respirando mais rápido e visivelmente congestionado, o bebê continua alerta, ativo e mamando bem, e é esse conjunto que tranquiliza a família e o profissional. Quando a criança fica inquieta, mamando menos, com respiração superficial e uso intenso da musculatura, o quadro mudou de categoria e precisa de avaliação imediata, não de espera.',
+        ],
+        bullets: [
+          'Coriza e obstrução nasal',
+          'Tosse que piora em acessos',
+          'Chiado no peito, junto com a tosse',
+          'Respiração mais rápida que o habitual',
+          'Febre, nem sempre presente',
+          'Regurgitação e vômitos após as mamadas',
+          'Dificuldade para mamar',
+          'Irritabilidade fora do comum',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O diagnóstico da bronquiolite é clínico, baseado na história e no exame físico. O profissional conta a frequência respiratória, observa o esforço para respirar, ouve o chiado e avalia o estado de hidratação do bebê. A saturação de oxigênio é medida com oximetria de pulso, um sensor fixado no dedo da mão ou do pé, e a radiografia de tórax só é realizada quando se suspeita de outra condição. Na maioria das vezes, o atendimento começa com o pediatra da UBS ou do pronto atendimento.',
+          'Os testes para identificar o vírus, como a PCR em amostras respiratórias, ficam reservados a situações específicas, por exemplo bebês internados com Síndrome Respiratória Aguda Grave. Em casa, a observação do comportamento vale tanto quanto o número do oxímetro: mamada, número de fraldas molhadas, cor da pele e resposta ao colo são informações que o profissional precisa ouvir na consulta.',
+        ],
+        bullets: [
+          'Exame físico: respiração superficial e rápida, pulso acelerado, batimento de asa nasal e retração entre as costelas; pele pálida ou arroxeada nos casos mais graves',
+          'Ausculta: chiado, estertores finos e tempo de expiração prolongado',
+          'Radiografia de tórax: sinal de pulmão hiperinsuflado e, às vezes, manchas inflamatórias ou pequenas áreas de colapso do pulmão',
+          'Exames laboratoriais: os glóbulos brancos costumam ser normais; a gasometria é reservada aos bebês graves',
+          'Detecção do vírus: feita em amostra da nasofaringe, apenas quando o resultado muda a conduta',
+          'Oximetria de pulso para medir a saturação de oxigênio',
+        ],
+      },
+      {
+        id: 'diferenciacao',
+        heading: 'Como diferenciar a bronquiolite de outras causas de chiado?',
+        paragraphs: [
+          'O chiado de um bebê pequeno quase sempre tem causa viral, mas o profissional precisa excluir outras situações. O primeiro episódio de chiado com infecção, em crianças menores de dois anos, costuma ser bronquiolite. Quando as crises se repetem e existe histórico familiar de alergia ou asma, a investigação muda de direção e passa a considerar asma.',
+          'Outras condições imitam a bronquiolite por um detalhe ou outro, e a história do início dos sintomas, o exame do coração e a radiografia separam cada uma delas. Um engasgo súbito com alimento ou brinquedo pequeno, sem resfriado antes, aponta para outra causa e precisa de avaliação imediata.',
+        ],
+        bullets: [
+          'Asma: crises repetidas de chiado, com histórico pessoal ou familiar de alergia',
+          'Bronquite aguda: sem obstrução fixa, os ruídos no peito mudam com a tosse e com a posição',
+          'Coqueluche: tosse em acessos típicos, com glóbulos brancos elevados no exame de sangue; a cultura ou a PCR da secreção do nariz ajudam a confirmar',
+          'Insuficiência cardíaca: geralmente em bebê com cardiopatia conhecida, com bulhas abafadas e sombra do coração aumentada na radiografia',
+          'Ingestão de corpo estranho: começo súbito após o engasgo, quase sem chiado; a imagem ajuda a decidir',
+          'Malformação das vias aéreas: ruído ao puxar o ar desde os primeiros dias de vida, sem febre nem infecção',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta no bebê e quando procurar atendimento',
+        paragraphs: [
+          'O Ministério da Saúde orienta que pais e cuidadores busquem atendimento médico imediatamente se o bebê apresentar dificuldade para respirar ou respiração muito rápida, chiado intenso no peito, lábios ou unhas arroxeados, sonolência excessiva ou prostração, dificuldade para mamar ou se alimentar com diminuição da ingestão de líquidos, e febre persistente ou piora dos sintomas de resfriado.',
+          'Já a decisão de internar considera desconforto respiratório que aumenta, oxigênio baixo no sangue, aspecto de mal-estar geral, como cianose, letargia ou fadiga, história de apneia e ingestão oral inadequada ou desidratação. No hospital, a equipe administra oxigênio para manter a saturação acima de 90%, e a intubação fica reservada a apneia recorrente grave ou à hipoxemia que não responde ao oxigênio. Em prematuros, bebês muito novos e crianças com cardiopatia ou doença pulmonar de base, o limiar para buscar atendimento deve ser ainda menor. Em emergência, o SAMU 192 atende situações clínicas de urgência, inclusive respiratórias, e a ligação é gratuita de telefone fixo ou móvel: a central de regulação orienta as primeiras medidas enquanto a ambulância é acionada.',
+        ],
+        bullets: [
+          'Respiração muito rápida ou com esforço visível',
+          'Costelas afundando a cada inspirada e narinas que abrem com o esforço',
+          'Lábios, unhas ou pele arroxeada e acinzentada',
+          'Pausas na respiração durante o sono',
+          'Recusa de mamadas ou ingestão muito baixa de líquidos',
+          'Bebê prostrado, que não responde como de costume',
+          'Poucas fraldas molhadas, boca seca e falta de lágrimas, sinais de desidratação',
+        ],
+        cta: {
+          label: 'Leia também: os sinais de alerta que pedem atendimento no bebê',
+          href: '/artigos/bronquiolite-sinais-de-alerta-no-bebe/',
+        },
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'Não existe tratamento medicamentoso específico para a bronquiolite. O manejo é feito sobre os sinais e os sintomas, com lavagem nasal, controle da febre e hidratação. A lavagem nasal com soro fisiológico merece destaque: o bebê respira pelo nariz, e um nariz entupido atrapalha a mamada, o sono e a oxigenação. Desobstruir o nariz antes de mamar quebra o ciclo de tosse, vômito e recusa alimentar.',
+          'Em casa, o bebê deve receber pequenas quantidades de líquido com frequência, o que na prática significa mamadas mais curtas e mais seguidas. O ambiente precisa ser ventilado e livre de fumaça, e a criança deve ser observada continuamente. Se a mamada não for suficiente, a equipe pode alimentar o bebê por uma sonda nasal enquanto a respiração melhora. Repouso absoluto não é necessário, e nenhuma medida caseira substitui a reavaliação profissional quando a respiração piora ao longo das horas.',
+          'Nos casos graves, a internação serve para administrar oxigênio e manter a hidratação, inclusive por via intravenosa quando o bebê não consegue beber. A maioria das crianças se recupera em casa em três a cinco dias, mas tosse e chiado podem persistir por duas a quatro semanas. Com cuidado adequado e oportuno, o risco de morte é baixo, mesmo entre as crianças que precisam ser internadas.',
+        ],
+        bullets: [
+          'Monitorização: durante o tratamento, a equipe vigia o oxigênio no sangue, as pausas da respiração e os sinais de falência respiratória',
+          'Oxigenoterapia: antes de dar o oxigênio, aspira-se a secreção e ajusta-se a posição do bebê; a concentração é regulada para manter a saturação na faixa segura',
+          'Hidratação: por boca, em pequenas quantidades repetidas; por via intravenosa quando necessário, com controle do volume e da velocidade',
+          'Suporte respiratório: ventilação não invasiva ou mecânica diante de retração que aumenta, saturação que não se mantém mesmo com oxigênio ou pausas respiratórias frequentes',
+        ],
+        cta: {
+          label: 'Leia também: tratamento e cuidados com o bebê em casa',
+          href: '/artigos/bronquiolite-tratamento-e-cuidados-em-casa/',
+        },
+      },
+      {
+        id: 'o-que-nao-ajuda',
+        heading: 'Existem remédios que ajudam na bronquiolite?',
+        paragraphs: [
+          'A expectativa de um xarope, de um antibiótico ou de uma nebulização mágica é compreensível, mas a evidência vai por outro caminho. Broncodilatadores não são uniformemente eficazes na bronquiolite, e não há evidência de que o uso reduza as taxas de internação hospitalar ou de unidade de terapia intensiva, os retornos ao pronto atendimento ou a necessidade de ventilação. Em situações específicas, como bebês prematuros com doença pulmonar de base ou famílias com histórico de asma, o profissional pode propor uma tentativa e observar a resposta: se não houver melhora, o medicamento é suspenso.',
+          'Corticosteroides inalatórios ou sistêmicos não são recomendados no primeiro episódio de bronquiolite; a terapia com corticoide pode fazer sentido depois dos doze meses, em episódios recorrentes de chiado, quando se suspeita de asma. Antibióticos não são indicados no tratamento da bronquiolite, a menos que ocorra infecção bacteriana secundária, o que é uma sequela rara. A ribavirina, antiviral usado em situações muito particulares, também não tem uso rotineiro recomendado. Para recém-nascidos de altíssimo risco existe o palivizumabe, um anticorpo pronto contra o vírus sincicial respiratório, usado apenas com prescrição e indicação restrita.',
+        ],
+        bullets: [
+          'Broncodilatadores: tentativa em casos selecionados, suspensa se não houver resposta',
+          'Corticoides: não recomendados de rotina no primeiro episódio',
+          'Antivirais: a ribavirina fica reservada a situações muito específicas',
+          'Antibióticos: apenas se houver infecção bacteriana associada',
+          'Palivizumabe: anticorpo para prevenção em recém-nascidos de alto risco, sob prescrição',
+        ],
+      },
+      {
+        id: 'tratamento-cirurgico',
+        heading: 'A bronquiolite precisa de cirurgia ou de terapias complementares?',
+        paragraphs: [
+          'Não. A bronquiolite é uma inflamação viral das vias aéreas mais finas do pulmão, e não existe cirurgia para tratá-la. A internação, quando acontece, serve para dar oxigênio e líquido, não para fazer procedimento. Situações que exigem retirada de corpo estranho ou correção de malformação são outros diagnósticos, e é por isso que a avaliação profissional importa tanto.',
+          'Sobre fitoterapia, chás e xaropes caseiros, não há evidência científica consistente de benefício na bronquiolite, e nenhum deles substitui o cuidado de suporte. Em bebês pequenos, qualquer líquido diferente das mamadas só deve ser oferecido com autorização da equipe que acompanha a criança.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais são as complicações?',
+        paragraphs: [
+          'A complicação mais frequente não é respiratória: é a otite média. Mais da metade das crianças entre três e dezoito meses com bronquiolite também desenvolve infecção de ouvido, o que explica choro ao deitar, febre que persiste depois da melhora respiratória e irritabilidade fora do padrão. Toda criança com bronquiolite que piora ou não melhora como se esperava deve ter o ouvido examinado.',
+          'A evolução respiratória é a complicação que assusta. Ela pode chegar à insuficiência respiratória, sobretudo em prematuros e em bebês com menos de dois meses, que apresentam apneia, as pausas da respiração que a família percebe como a criança parar de respirar por alguns segundos durante o sono. Desidratação por vômitos e recusa alimentar é outro problema comum: respirando rápido e mamando pouco, o bebê perde líquido e come menos do que precisa, e a soma dos dois lados dessa conta pode levar a acidose metabólica, tratada no ambiente hospitalar.',
+          'Com bom cuidado, a grande maioria dos bebês fica totalmente bem, sem sequela. Alguns seguem com tosse e chiado repetido nos meses seguintes, e uma parcela desenvolve hiper-reatividade das vias aéreas mais adiante. Em prematuros e em bebês com cardiopatia ou malformação de base, a doença pode evoluir com insuficiência respiratória ou cardíaca, o que reforça a necessidade de atenção redobrada nesse grupo.',
+        ],
+        bullets: [
+          'Otite média, com dor, febre e choro',
+          'Apneia, mais frequente em prematuros e menores de dois meses',
+          'Desidratação por vômitos e dificuldade para mamar',
+          'Síndrome Respiratória Aguda Grave, que exige internação',
+          'Acidose metabólica, associada à perda de líquido e à respiração rápida',
+          'Insuficiência cardíaca, sobretudo em bebês com cardiopatia de base',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados do dia a dia com o bebê doente',
+        paragraphs: [
+          'Nos primeiros dias, o papel da família é observar e registrar. Quantas mamadas, quantas fraldas molhadas, como está a respiração no repouso e como o bebê se comporta durante a amamentação. Menos urina e boca seca são sinais concretos de que a hidratação não está dando conta, e o volume urinário é uma das formas usadas pelo serviço de saúde para monitorar esse nível. Febre, ritmo da respiração, batimentos e o estado geral completam a lista do que vale anotar e relatar em cada reavaliação.',
+          'Nariz entupido atrapalha mamada e sono, então a lavagem nasal antes de mamar e de dormir é provavelmente a medida mais útil do dia. Nos primeiros dias, evite levar o bebê à creche, a shoppings e a visitas. Lavar as mãos de quem pega a criança é simples e reduz o contágio de irmãos e de outros bebês. Manter a casa livre de fumaça de cigarro, incenso e cheiros fortes faz parte do mesmo cuidado, e oferecer líquido em pequenas goladas exige paciência: com o peito ou o copo, devagar, para não provocar engasgo.',
+        ],
+        bullets: [
+          'Lavagem nasal com soro antes das mamadas e de dormir',
+          'Oferecer peito ou líquido em pequenas quantidades e com mais frequência',
+          'Contar as fraldas molhadas ao longo do dia',
+          'Manter a casa livre de fumaça de cigarro, incenso e cheiros fortes',
+          'Adiar visitas de pessoas com tosse ou coriza',
+          'Acompanhar febre, respiração, batimentos, mamadas e o estado geral do bebê',
+        ],
+      },
+      {
+        id: 'isolamento',
+        heading: 'Preciso isolar o bebê doente?',
+        paragraphs: [
+          'Enquanto duram a tosse e a secreção, o bebê doente deve ficar longe de outras crianças, principalmente recém-nascidos, irmãos pequenos e qualquer bebê do grupo de risco. Creche, visitas e ambientes fechados com aglomeração ficam suspensos nos primeiros dias, que são também o período de maior transmissão.',
+          'Isolar não significa prender o bebê num quarto separado, e sim higiene e distância. Quem cuida lava as mãos com água e sabão sempre que tocar nas secreções, limpar o rosto ou trocar fraldas, e faz o mesmo antes de pegar outra criança. Objetos de uso comum, como brinquedos, mamadeiras e copos, não devem ser compartilhados enquanto o quadro durar.',
+        ],
+        bullets: [
+          'Manter o bebê longe de outras crianças enquanto durarem tosse e secreção',
+          'Suspender creche, visitas e aglomerações nos primeiros dias',
+          'Lavar as mãos depois de tocar secreções e trocar fraldas',
+          'Não compartilhar brinquedos, mamadeiras e copos',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a bronquiolite',
+        paragraphs: [
+          'Boa parte das bronquiolites pode ser evitada com medidas que não dependem de medicamento. O Ministério da Saúde lista lavar as mãos com frequência com água e sabão, evitar o contato próximo de bebês com pessoas gripadas ou resfriadas, limpar e desinfetar objetos e superfícies de uso comum, evitar aglomerações, manter os ambientes bem ventilados, evitar a exposição do bebê à fumaça do cigarro, manter o aleitamento materno até dois anos ou mais, sempre que possível, e manter a caderneta de vacinação em dia.',
+          'Para o vírus sincicial respiratório, o SUS oferece vacina para gestantes em dose única a partir da 28ª semana: a gestante produz anticorpos que são transferidos ao bebê pela placenta, o que reduz o risco de formas graves e de internação nos primeiros seis meses de vida. Ainda não há vacina indicada diretamente para bebês contra esse vírus, mas existem anticorpos prontos, chamados de monoclonais. Desde fevereiro de 2026, o nirsevimabe é oferecido pelo SUS a bebês prematuros, nascidos antes de 37 semanas, e a crianças de até 24 meses com condições de maior risco, como cardiopatia congênita e doença pulmonar crônica da prematuridade.',
+        ],
+        bullets: [
+          'Higiene das mãos de quem cuida e de quem visita',
+          'Adiar visitas de quem estiver com resfriado ou gripe',
+          'Limpar objetos e superfícies de uso comum',
+          'Aleitamento materno mantido, que protege contra formas graves',
+          'Vacina contra o vírus sincicial respiratório para gestantes no SUS',
+          'Imunização passiva com nirsevimabe para bebês de maior risco',
+          'Ambiente ventilado e sem fumaça de cigarro',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Bronquiolite é a mesma coisa que asma?',
+        answer:
+          'Não. Na bronquiolite, o chiado vem da inflamação causada por um vírus nos bronquíolos de um bebê pequeno, e o primeiro episódio costuma ficar restrito à infecção. A semelhança com a asma existe, e há sobreposição de sintomas entre bronquiolite e crise de asma desencadeada por vírus, por isso a avaliação clínica diferencia os dois quadros e orienta a conduta.',
+      },
+      {
+        question: 'Antibiótico ajuda na bronquiolite?',
+        answer:
+          'Não. A bronquiolite é causada por vírus, e antibiótico não age contra vírus. Ele só tem indicação quando surge uma infecção bacteriana associada, o que é raro. Também não existe medicamento específico para a doença: o tratamento é feito com lavagem nasal, hidratação e controle da febre, com oxigênio nos casos graves.',
+      },
+      {
+        question: 'Quanto tempo dura a bronquiolite?',
+        answer:
+          'A maioria das crianças se recupera em casa em três a cinco dias. Tosse e chiado podem continuar por duas a quatro semanas, e isso não significa piora. Se em vez de melhorar o bebê piora, fica prostrado ou mama claramente menos, o caso pede atendimento imediato.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'bronquiolite-sinais-de-alerta-no-bebe',
+      'bronquiolite-tratamento-e-cuidados-em-casa',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedDiseaseSlugs: ['asma', 'pneumonia', 'otite-media-aguda'],
+    references: [
+      {
+        label: 'Bronquiolite Viral Aguda',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/b/bronquiolite',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Bronquiolite, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/problemas-de-sa%C3%BAde-infantil/dist%C3%BArbios-respirat%C3%B3rios-em-beb%C3%AAs-e-crian%C3%A7as/bronquiolite',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Bronquiolite, edição para profissionais de saúde',
+        url: 'https://www.msdmanuals.com/pt/profissional/pediatria/dist%C3%BArbios-respirat%C3%B3rios-em-crian%C3%A7as-pequenas/bronquiolite',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Protocolo de uso do nirsevimabe',
+        url: 'https://www.gov.br/conitec/pt-br/midias/relatorios/2026/relatorio-de-recomendacao-no-1-083-protocolo-de-uso-do-nirsevimabe/@@download/file',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'SAMU 192',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/samu-192',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'fibrilacao-atrial',
+    slug: 'fibrilacao-atrial',
+    name: 'Fibrilação atrial',
+    aliases: ['arritmia', 'FA', 'fibrilação auricular', 'alteração do ritmo cardíaco'],
+    summary:
+      'A arritmia sustentada mais comum: as câmaras superiores do coração batem de forma desorganizada. Tem tratamento, e o ponto central é evitar o AVC.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é fibrilação atrial?',
+        paragraphs: [
+          'A fibrilação atrial é o tipo mais comum de arritmia que se mantém ao longo do tempo. Nela, as câmaras superiores do coração, os átrios, deixam de se contrair de maneira organizada: os sinais elétricos que comandam o batimento ficam caóticos, e os átrios apenas tremem.',
+          'Com isso, os ventrículos recebem impulsos desordenados e se contraem em ritmo irregular, quase sempre mais rápido que o normal. Em quem não está em tratamento, a frequência pode chegar a 140 ou 160 batimentos por minuto, contra os 60 a 100 habituais. O pulso fica acelerado e constantemente irregular, e isso dá para perceber ao apoiar dois dedos no pulso.',
+          'O problema mais grave não é o batimento em si, e sim a formação de coágulos dentro dos átrios, que não se esvaziam por completo a cada batida. Um coágulo que se solta pode viajar até o cérebro e obstruir uma artéria. Segundo a Sociedade Brasileira de Cardiologia, a fibrilação atrial aumenta em média quatro vezes a chance de AVC e está associada a maior risco de insuficiência cardíaca e de morte por todas as causas.',
+          'Ela é pouco frequente entre pessoas jovens e bem mais comum depois dos 80 anos, e atinge um pouco mais os homens do que as mulheres; a tendência é de aumento, acompanhando o envelhecimento da população. As estimativas brasileiras citadas na diretriz da Sociedade Brasileira de Cardiologia ficam em torno de 500 a 540 casos por 100 mil habitantes. A condição tem tratamento e controle, e muitas pessoas seguem vidas plenamente ativas depois de ajustar a frequência cardíaca e iniciar a prevenção de coágulos, que é a parte que mais protege.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de fibrilação atrial?',
+        paragraphs: [
+          'A classificação mais usada olha para quanto tempo dura cada episódio e para se ele para sozinho ou precisa de ajuda para parar. Ela importa porque o padrão muda a conduta: uma crise que cessa sem tratamento é cuidada de um jeito, e um ritmo que ficou desorganizado de forma contínua, de outro.',
+          'Há ainda denominações que descrevem o momento em que a arritmia é descoberta ou o que existe por trás dela. Boa parte das pessoas da forma silenciosa só descobre a fibrilação atrial depois de um AVC ou em um eletrocardiograma pedido por outro motivo, o que mostra por que o exame do ritmo entra na investigação de quem teve um evento cerebrovascular.',
+        ],
+        bullets: [
+          'Paroxística: crises que aparecem e desaparecem sozinhas, em geral em horas ou poucos dias',
+          'Persistente: o ritmo desorganizado se instala e não volta sozinho, precisando de tratamento para ser revertido',
+          'De longa data: já são muitos meses de arritmia contínua, mas ainda vale tentar restaurar o ritmo normal',
+          'Permanente: equipe e paciente decidem não tentar mais o ritmo normal e focam em controlar a velocidade dos batimentos',
+          'Primeiro episódio: descoberta na primeira consulta, sem se saber havia quanto tempo a arritmia estava ali',
+          'Não valvar: quando não há doença das válvulas nem válvula artificial por trás da arritmia',
+          'Silenciosa: nada é sentido, e a alteração aparece apenas em um exame feito por outro motivo',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a fibrilação atrial?',
+        paragraphs: [
+          'A arritmia pode aparecer em alguém sem nenhuma outra doença do coração, mas na maioria das vezes está ligada a uma condição que sobrecarrega ou irrita os átrios. A [hipertensão arterial](/doencas/hipertensao/) e as doenças das válvulas, sobretudo as que atingem a válvula mitral e as sequelas de febre reumática, estão entre as causas mais frequentes, porque dilatam os átrios. Também entram nessa conta a doença arterial coronariana, a cardiomiopatia, o espessamento da membrana que envolve o coração e a infecção das válvulas (endocardite).',
+          'Doenças de outros sistemas também desequilibram o ritmo. O hipertireoidismo, a produção exagerada de hormônios pela tireoide, é uma das causas clássicas, e por isso a dosagem hormonal costuma entrar na investigação logo no começo. Problemas pulmonares de longa data, com sobrecarga do lado direito do coração, e uma embolia pulmonar, o coágulo que entope a artéria do pulmão, fazem o mesmo.',
+          'Situações agudas favorecem uma crise: falta de oxigênio (em uma asma grave, por exemplo), acúmulo de gás carbônico na piora de uma doença pulmonar, desequilíbrio dos minerais do sangue depois de diarreia ou vômitos intensos, e uma grande perda de sangue com queda acentuada da pressão. Somam-se a isso os gatilhos do dia a dia, como emoções muito fortes, uma ocasião de bebida em excesso e esforço físico acima do habitual. Parte das pessoas, porém, não encontra nenhum gatilho claro, e uma minoria não tem nenhuma causa identificável.',
+        ],
+        bullets: [
+          'Hipertensão de longa data ou mal controlada',
+          'Doença das válvulas do coração, em especial a mitral',
+          'Doença arterial coronariana',
+          'Cardiomiopatia e inflamação ou espessamento da membrana do coração',
+          'Doença pulmonar crônica e embolia pulmonar',
+          'Tireoide trabalhando acima do normal',
+          'Infecção, desidratação e desequilíbrio dos minerais do sangue',
+          'Bebida em excesso, esforço intenso ou emoção forte como gatilho',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas dependem muito da velocidade com que os ventrículos se contraem. Quando a frequência está normal ou pouco acelerada, abaixo de 120 batimentos por minuto, costuma não haver sintoma nenhum. Nesse caso a fibrilação atrial aparece por acaso, em um eletrocardiograma pedido por outro motivo, ou depois de um AVC.',
+          'Quando a frequência sobe, surgem a percepção incômoda dos batimentos, a palpitação, a falta de ar e a dor no peito. Fraqueza, tontura e desmaio também acontecem, porque o coração passa a bombear menos sangue a cada batida, e há quem tenha a vista embaçada ou desmaie por um instante. Em pessoas com doença cardíaca prévia, uma crise rápida pode apertar a dor no peito, agravar a falta de ar e desencadear insuficiência cardíaca. A vontade de urinar aumenta durante o episódio, porque o corpo reage à mudança na circulação.',
+        ],
+        bullets: [
+          'Palpitação, com sensação de coração descompassado',
+          'Falta de ar durante esforços ou em repouso',
+          'Dor ou aperto no peito',
+          'Fraqueza, tontura ou desmaio',
+          'Cansaço maior para as atividades de sempre',
+          'Vontade de urinar com mais frequência durante a crise',
+          'Forma paroxística: com frequência baixa quase nada é sentido; quando ela sobe, vêm palpitação, falta de ar, irritação e cansaço, o médico ouve batidas sem ritmo e de força variável e conta no pulso menos batidas do que as reais do coração; se a velocidade é extrema, o coração não bombeia, a pressão despenca e pode haver desmaio',
+          'Forma persistente: palpitação e falta de ar contínuos que pioram ao menor esforço, com sangue circulando devagar dentro dos átrios e formando coágulos que podem entupir artérias pelo corpo, risco que é várias vezes maior em quem tem valvopatia reumática',
+          'Coágulo no cérebro: dor de cabeça súbita e intensa, vômitos, confusão ou coma, metade do corpo sem força e engasgo ao beber água',
+          'Coágulo no coração: dor em aperto no peito, que pode virar infarto ou piorar uma insuficiência cardíaca',
+          'Coágulo no intestino: barriga inchada e dolorida, diarreia, sangramento intestinal ou parada dos movimentos do intestino',
+          'Coágulo no pulmão: palidez, suor frio, falta de ar, dor no peito e tosse',
+          'Coágulo no rim: dor lombar, sangue na urina, menos urina e exames renais alterados',
+          'Coágulo no braço ou na perna: dor intensa, pele pálida e fria, pulso que não é encontrado, formigamento e dificuldade para mover o membro',
+        ],
+        cta: {
+          label: 'Leia também: sintomas da fibrilação atrial e o risco de AVC',
+          href: '/artigos/fibrilacao-atrial-sintomas-e-o-risco-de-avc/',
+        },
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Fibrilação atrial com falta de ar intensa, dor no peito, desmaio ou pressão muito baixa é emergência. Nessas situações, ligue para o SAMU 192 ou vá ao serviço de emergência mais próximo. O atendimento pré-hospitalar do SAMU é gratuito, funciona 24 horas por dia e orientação por telefone já começa na ligação.',
+          'O AVC tem sinais que dá para reconhecer em segundos: boca torta, fraqueza ou formigamento em um lado do corpo, dificuldade para falar ou entender, alteração da visão, dor de cabeça súbita e intensa, confusão mental e perda de equilíbrio. Qualquer um deles pede atendimento imediato, porque quanto mais rápido o socorro, maiores as chances de sobrevivência e de recuperação total.',
+          'Fora da emergência, existe um sinal que dá para perceber sozinho: apoiar dois dedos no pulso e contar os batimentos. Quando o ritmo vem acelerado, sem nenhum padrão, vale procurar a UBS e pedir um eletrocardiograma, mesmo que a sensação já tenha passado. Depois de uma ablação ou de uma cirurgia cardíaca, febre, vermelhidão, inchaço ou secreção no local do corte também pedem reavaliação.',
+        ],
+        bullets: [
+          'Boca torta ou fraqueza em um lado do corpo',
+          'Dificuldade para falar ou compreender',
+          'Dor de cabeça súbita e intensa, sem causa aparente',
+          'Confusão mental, sonolência ou desmaio',
+          'Alteração da visão em um ou ambos os olhos',
+          'Falta de ar intensa ou dor no peito que não passa',
+          'Ferida operatória vermelha, quente, inchada ou com secreção, com febre',
+        ],
+        cta: {
+          label: 'Leia também: AVC, sintomas, tipos e prevenção',
+          href: '/artigos/fibrilacao-atrial-sintomas-e-o-risco-de-avc/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O primeiro indício costuma vir do exame físico. Ao escutar o coração, o médico percebe batimentos totalmente sem ritmo e com intensidade variável de uma batida para outra, e ao apalpar o pulso conta menos batidas no punho do que no coração. Esses dois achados levantam a suspeita, mas não confirmam nada.',
+          'O exame que confirma a fibrilação atrial é o eletrocardiograma. Ele registra a corrente elétrica que atravessa o coração durante o batimento e mostra a ausência das ondas normais dos átrios, substituídas por oscilações pequenas e desordenadas, junto de intervalos completamente irregulares entre os batimentos, como uma batida fora de compasso. O traçado que representa a contração dos ventrículos costuma manter a forma normal, mas pode se deformar quando a frequência fica muito alta. Por isso o exame precisa ter sido gravado durante uma crise para servir de prova.',
+          'Como a arritmia pode ir e voltar, um eletrocardiograma feito em um dia bom não descarta a doença, e a equipe pode pedir monitorização mais longa. Confirmado o diagnóstico, o passo seguinte é separar o padrão (se a crise vem e volta ou se ficou) e procurar o que a alimenta, como doença coronariana, valvopatia ou hipertireoidismo. O ecocardiograma, um ultrassom do coração, avalia as válvulas, o tamanho dos átrios e procura coágulos, e exames de sangue verificam a tireoide e outras causas tratáveis.',
+          'No SUS, o caminho começa na UBS, onde a pressão arterial e o pulso são aferidos e o eletrocardiograma é solicitado. Quando o exame confirma a arritmia ou quando o risco de AVC precisa ser calculado, a pessoa é encaminhada ao cardiologista.',
+        ],
+        bullets: [
+          'Eletrocardiograma: registra o ritmo e prova a arritmia; antes do exame, evite cigarro, bebida e esforço',
+          'Ecocardiograma: mede o tamanho das cavidades, a função do músculo, as válvulas e a pressão nas artérias do pulmão',
+          'Radiografia do tórax: procura alteração nos pulmões e nos vasos; retire peças com metal antes do exame',
+          'Função da tireoide e do rim: a dosagem hormonal é pedida na primeira crise, quando a frequência é difícil de controlar ou quando a arritmia volta, e a avaliação renal mostra se o rim foi atingido; alguns remédios interferem no resultado',
+          'Teste ergométrico: mostra como a frequência se comporta durante o esforço na forma persistente, com pausa de comida e de esforço intenso antes',
+          'Estudo transesofágico: ultrassom pela garganta que procura coágulo no átrio esquerdo antes de tentar restaurar o ritmo',
+          'Estudo eletrofisiológico: mapeia a origem dos sinais elétricos anormais quando se planeja a ablação',
+          'Tomografia de crânio: solicitada quando há suspeita de AVC, para ver o alcance do coágulo',
+        ],
+      },
+      {
+        id: 'qual-especialidade',
+        heading: 'A qual especialista recorrer?',
+        paragraphs: [
+          'Quem acompanha a fibrilação atrial no dia a dia é o cardiologista, de preferência com experiência em arritmias. No SUS, o ponto de partida é a UBS, onde a pressão e o pulso são medidos e o eletrocardiograma é solicitado; o encaminhamento à cardiologia acontece quando o exame confirma a arritmia ou quando é preciso calcular o risco de AVC e definir a anticoagulação.',
+          'Como as complicações atingem outros órgãos, outras especialidades entram no cuidado conforme o que aparece. Um evento cerebrovascular, uma embolia pulmonar ou um coágulo em um braço mudam o roteiro de consultas, e a arritmia continua sendo conduzida pelo cardiologista em paralelo.',
+        ],
+        bullets: [
+          'Cardiologia, para o ritmo, a medicação e os procedimentos',
+          'Neurologia em caso de AVC ou de perda de força em um lado do corpo',
+          'Nefrologia quando há doença renal associada',
+          'Pneumologia diante de embolia pulmonar ou de falta de ar importante',
+          'Cirurgia vascular quando um braço ou uma perna fica frio e pálido',
+          'Gastroenterologia diante de dor abdominal e sangue nas fezes',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Com quais outras arritmias ela pode ser confundida?',
+        paragraphs: [
+          'A fibrilação atrial pertence ao grupo das arritmias rápidas, e outras delas produzem a mesma sensação de coração descompassado. A diferença aparece no eletrocardiograma, por isso um traçado gravado durante o sintoma vale mais do que a descrição do que a pessoa sentiu.',
+          'As três pertencem ao grupo das arritmias rápidas e podem dar a mesma sensação de palpitação, mas a conduta é diferente: a fibrilação ventricular é uma parada cardíaca, com perda de consciência imediata e pulso ausente, e exige socorro no mesmo minuto. O flutter tem ritmo rápido porém regular, e as extrassístoles são batimentos adiantados isolados. Só o eletrocardiograma separa as três.',
+        ],
+        bullets: [
+          'Flutter atrial: ondas de mesmo tamanho e forma, em sequência regular; causa palpitação, falta de ar, fraqueza, tontura e às vezes desmaio, e aparece em valvopatia reumática, coronariopatia e hipertireoidismo',
+          'Fibrilação ventricular: perda de consciência, convulsão, pele pálida ou azulada, pulso e batimentos ausentes; é uma parada cardíaca, ligada a intoxicação por digitálicos, miocardite, potássio alto no sangue ou cirurgia',
+          'Extrassístoles: um ou mais batimentos adiantados em relação ao ritmo de base, com palpitação, aperto no peito, fraqueza e tontura; causas funcionais, medicamentosas ou doenças do corpo',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o atendimento inicial, durante uma crise?',
+        paragraphs: [
+          'Quem sente o coração descompassado pela primeira vez precisa de atendimento no mesmo dia, porque só o eletrocardiograma diz o que está acontecendo. Para quem já tem o diagnóstico, a equipe combina com antecedência um plano para as crises, em geral um medicamento de uso imediato, que serve para acalmar o episódio e ganhar tempo até a reavaliação. Isso não vale diante dos sinais de alerta: nesses casos, o caminho é a emergência.',
+          'Na unidade de saúde, o cuidado inicial é de suporte. O ritmo e a pressão arterial ficam monitorados enquanto a crise dura, o oxigênio é oferecido quando a oxigenação do sangue cai, com controle frequente, e o repouso faz parte do protocolo. O objetivo imediato não é necessariamente restaurar o ritmo normal, e sim estabilizar a pessoa e aliviar os sintomas.',
+          'O atendimento também procura e trata o que pode estar alimentando a crise, como infecção, tireoide desregulada, desidratação e desequilíbrio dos minerais do sangue ou pressão muito alta. O apoio emocional conta: a ansiedade que acompanha as crises realimenta a sensação de falta de ar e de palpitação. Internação é decidida pela estabilidade clínica, e não pela arritmia isolada.',
+        ],
+        bullets: [
+          'Monitorização contínua do ritmo e da pressão durante a crise',
+          'Oxigênio quando a oxigenação do sangue está baixa, com controle frequente',
+          'Tratamento do que disparou o episódio, como infecção, tireoide ou desidratação',
+          'Apoio para a ansiedade, que acompanha as crises e realimenta os sintomas',
+          'Reavaliação dos remédios em uso antes da alta, com consulta de retorno marcada',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'Os remédios trabalham em três frentes: impedir a formação de coágulos, controlar a velocidade dos batimentos e tentar restaurar ou manter o ritmo normal. Não existe um esquema válido para todos, e a escolha depende da idade, das outras doenças, do risco de AVC e do risco de sangramento. Por isso o ajuste é feito com a equipe de saúde, e nunca por conta própria.',
+          'A prevenção de coágulos é a frente que mais evita sequelas. Em quem tem doença valvar ou válvula artificial, a varfarina é a opção clássica e exige exame de sangue periódico para ajustar a dose. Na forma sem doença valvar, a decisão usa a pontuação de risco CHA2DS2-VASc, que conta idade, [hipertensão](/doencas/hipertensao/), [diabetes](/doencas/diabetes/), [insuficiência cardíaca](/doencas/insuficiencia-cardiaca/), AVC ou ataque isquêmico prévio, doença nos vasos e sexo feminino: quanto mais fatores presentes, mais claro o benefício do anticoagulante. As opções incluem a varfarina e os anticoagulantes orais diretos, como apixabana, rivaroxabana e dabigatrana, que têm efeito estável, dispensam controle laboratorial rotineiro e tendem a causar menos sangramentos graves.',
+          'Para a velocidade dos batimentos usam-se betabloqueadores, bloqueadores dos canais de cálcio e, em quem já tem cardiopatia ou insuficiência cardíaca, a digoxina. Para tentar manter o ritmo normal há os antiarrítmicos, como propafenona, quinidina, procainamida e amiodarona, e quanto mais recente a crise maior a chance de ela voltar ao normal. A propafenona não é indicada para quem tem doença estrutural do coração, e a amiodarona exige vigilância sobre a pressão, a tireoide e, no uso prolongado, os pulmões.',
+          'O risco desses medicamentos é o sangramento: dose alta demais expõe a isso, dose baixa demais não protege. Antiagregantes plaquetários, como a aspirina, isoladamente não previnem o AVC na fibrilação atrial e não substituem o anticoagulante, decisão que a diretriz brasileira trata com clareza.',
+        ],
+        bullets: [
+          'Varfarina: exame de coagulação regular e atenção à alimentação e a remédios novos',
+          'Anticoagulante oral direto: apixabana, rivaroxabana e dabigatrana, com dose fixa e sem exame rotineiro',
+          'Nunca interrompa por conta própria: parar a anticoagulação abre a janela para a formação de coágulos',
+        ],
+        cta: {
+          label: 'Leia também: tratamento e anticoagulantes na fibrilação atrial',
+          href: '/artigos/fibrilacao-atrial-tratamento-e-anticoagulantes/',
+        },
+      },
+      {
+        id: 'procedimentos',
+        heading: 'Quais são os procedimentos e as cirurgias?',
+        paragraphs: [
+          'Quando os remédios não controlam os sintomas, a alternativa é interferir no circuito que dispara a arritmia. Na ablação por cateter, um cateter introduzido por uma veia da virilha chega até o coração e destrói ou isola os focos de sinal elétrico anormal, que costumam estar perto das veias pulmonares. É o procedimento mais usado, por ser pouco invasivo e de recuperação rápida, e, quando a arritmia volta, uma segunda sessão costuma render mais do que a primeira.',
+          'Depois da ablação, há horas de repouso com compressão no local da punção, o anticoagulante continua por um período definido pela equipe, em procedimentos mais extensos protege-se o esôfago com medicamento, e o eletrocardiograma de controle serve para avaliar o resultado. A cirurgia do labirinto cria linhas de cicatriz nos átrios que impedem a circulação dos sinais desordenados, e por décadas foi o padrão de referência no tratamento cirúrgico da arritmia; é mais indicada quando a pessoa já vai ser operada por outro motivo, como a troca de uma válvula, e exige cirurgia aberta, com recuperação mais lenta e anticoagulação mantida por semanas. Válvulas artificiais pedem anticoagulação permanente.',
+          'A cardioversão elétrica é o choque sincronizado aplicado com sedação para restaurar o ritmo. Ela é indicada em crises com dor no peito e queda de pressão, em sintomas que limitam a vida diária e em quem já se beneficiou dela antes. Quando a arritmia já dura mais de 48 horas, são necessárias pelo menos três semanas de anticoagulante antes do choque, ou a confirmação por ultrassom transesofágico de que não há coágulo no átrio, e a anticoagulação segue por no mínimo quatro semanas depois. Mesmo quando dá certo, a maioria das pessoas continua precisando de medicação para manter o ritmo.',
+        ],
+        bullets: [
+          'Sangramento ou hematoma no local da punção, às vezes com infecção',
+          'Perfuração do coração e acúmulo de líquido ao seu redor, complicação rara mas grave',
+          'Batimentos muito lentos ou piora do fechamento de uma válvula',
+          'Alteração na condução dos impulsos elétricos, com bloqueio atrioventricular, e redução do fluxo de sangue para o próprio músculo cardíaco',
+          'AVC ou sangramento intracraniano durante ou logo depois do procedimento',
+          'Lesão no esôfago, às vezes com comunicação anormal entre o esôfago e as estruturas vizinhas',
+          'Piora da insuficiência cardíaca ou da doença coronariana de base',
+          'Reação a medicamento e infecção no pós-operatório',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'O que pode acontecer com o passar do tempo?',
+        paragraphs: [
+          'Na fibrilação atrial os átrios não se esvaziam por completo. O sangue que fica parado ali pode formar coágulos, principalmente no apêndice atrial esquerdo, uma bolsinha na parede do átrio. Fragmentos se desprendem, seguem pela corrente sanguínea e viram êmbolos capazes de entupir uma artéria menor. Se a artéria estiver no cérebro, o resultado é um AVC isquêmico.',
+          'Em situações incomuns o AVC é o primeiro sinal da arritmia, e a pessoa só descobre a fibrilação atrial depois do evento. Essa é a razão pela qual a investigação de todo AVC isquêmico inclui o monitoramento do ritmo cardíaco.',
+          'Com a frequência alta por muito tempo, os ventrículos não têm tempo de se encher e a quantidade de sangue bombeada cai. Isso pode derrubar a pressão arterial e levar a insuficiência cardíaca. O risco de sangramento também é uma complicação real, sobretudo ligada ao próprio anticoagulante, e por isso a dose nunca deve ser ajustada por conta própria.',
+          'A arritmia tende a voltar, mesmo depois de uma ablação bem-sucedida. A probabilidade de recorrência é maior em quem tem mais de 65 anos, pressão alta ou coração já enfraquecido, excesso de peso, ronco com paradas respiratórias durante o sono, doença renal, crises que se prolongam, átrios aumentados ou com fibrose, ou focos de sinal anormal distribuídos em pontos incomuns. Nos primeiros meses depois de um procedimento, parte dos episódios se resolve só com ajuste de medicação e observação; quando a arritmia se mantém depois desse período, reavalia-se entre repetir o procedimento e controlá-la com remédios, conforme os exames e a vontade da pessoa. A evolução também depende do ponto de partida: quem sai de uma forma passageira para uma forma contínua dentro do primeiro ano passa a ter risco cardiovascular maior, e quem já tem cardiopatia ou idade avançada está mais exposto a complicações graves.',
+        ],
+        bullets: [
+          'AVC isquêmico',
+          'Insuficiência cardíaca',
+          'Queda de pressão arterial',
+          'Sangramento relacionado ao anticoagulante',
+          'Recorrência depois da ablação, mais provável com idade avançada e átrios aumentados',
+          'Mudança de crises passageiras para arritmia contínua, com piora do prognóstico',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Vida diária com fibrilação atrial',
+        paragraphs: [
+          'Com o tratamento ajustado, a rotina segue. O que muda é a necessidade de disciplina com a medicação: os anticoagulantes funcionam porque são tomados todos os dias, e uma pausa por conta própria abre a janela para a formação de coágulos.',
+          'Quem faz uso de varfarina precisa manter os exames de controle em dia e conversar com a equipe antes de iniciar ou suspender qualquer outro medicamento, inclusive os vendidos sem receita. Mudar o tipo de alimento da noite para o dia também exige orientação, porque a varfarina interage com a alimentação.',
+          'A família ajuda mais do que parece: lembrar o horário do remédio, ajudar a evitar bebida em excesso e esforço desmedido, manter a casa tranquila e perceber mudanças de ritmo, reduzindo os estímulos que assustam ou irritam. Cigarro e bebida, esses, pedem suspensão completa e não apenas redução. Aprender sobre a doença faz parte do cuidado, e a pessoa deve medir o pulso todos os dias e manter pressão, glicemia e colesterol controlados. No prato, vale evitar pimenta, café e chá forte, que agravam a palpitação, assim como alimentos muito quentes, muito duros ou que aceleram os batimentos; com pressão alta ou colesterol, prefira pouco sal e pouca gordura, com verduras, legumes e cogumelos no lugar de alimentos ricos em colesterol, como gema de ovo.',
+        ],
+        bullets: [
+          'Tomar a medicação nos mesmos horários, todos os dias',
+          'Manter as consultas de controle do anticoagulante',
+          'Anotar palpitações, tonturas e episódios de falta de ar',
+          'Informar a equipe sobre todo medicamento, fitoterápico ou suplemento em uso',
+          'Reduzir o álcool e controlar peso, pressão e glicemia',
+          'Evitar pimenta, café e chá forte, que agravam a palpitação',
+          'Dormir o suficiente, parar a atividade ao sentir cansaço e evitar dormir sobre o lado esquerdo quando há disfunção cardíaca',
+          'Retomar o trabalho aos poucos, sem carregar peso nas primeiras semanas',
+          'Deixar de lado corrida e esportes de esforço intenso, mantendo atividade leve',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'O que monitorar nas consultas de retorno?',
+        paragraphs: [
+          'O acompanhamento existe para ver o que a pessoa não sente. Nos primeiros tempos depois da alta, as consultas e os exames são mais próximos e vão sendo espaçados conforme a estabilidade; entre eles podem entrar o eletrocardiograma, a radiografia do tórax, o ecocardiograma e a monitorização do ritmo ao longo de um dia inteiro. Quem usa varfarina faz o exame de coagulação com mais frequência no início e depois em intervalos maiores, e mesmo quem está sem sintoma precisa de revisão médica pelo menos uma vez por ano.',
+          'Depois de ablação ou cirurgia, a região do corte ou da punção deve ficar limpa e seca até cicatrizar, e nada de carregar peso por cerca de uma semana. São motivos para voltar ao atendimento antes da hora: vermelhidão, inchaço, calor ou secreção no local, febre, palpitação intensa, falta de ar e qualquer sinal de AVC, como boca torta, fala embaralhada, fraqueza em um lado do corpo, marcha instável, visão embaçada ou perda de consciência.',
+        ],
+        bullets: [
+          'Contar o pulso em casa, no mesmo horário, e registrar os valores',
+          'Levar a lista completa de medicamentos em cada consulta',
+          'Manter o exame de coagulação em dia quando o remédio é a varfarina',
+          'Anotar peso e pressão arterial quando há insuficiência cardíaca associada',
+          'Não faltar à revisão mesmo quando a arritmia parece ter sumido',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como reduzir o risco de crises e de AVC',
+        paragraphs: [
+          'Grande parte do risco pode ser reduzida tratando o que alimenta a arritmia. Manter a pressão arterial controlada, tratar o diabetes, manter um peso saudável e não fumar são medidas que protegem o coração e os vasos, e o [infarto e o AVC](/doencas/infarto-e-avc/) estão do outro lado da mesma conta.',
+          'O álcool merece atenção específica: o uso crônico e excessivo é uma das causas reconhecidas da fibrilação atrial, e reduzir o consumo ajuda quem já tem a arritmia. Tratar o ronco importante e a apneia do sono também faz diferença, porque a análise de exames de sono encontrou proporções maiores de arritmia entre quem tem apneia grave.',
+          'Vale revisar anualmente o coração e a tireoide no exame de rotina, porque ambas as condições alimentam a arritmia e têm tratamento. Remédios comprados sem receita pedem checagem: descongestionantes e xaropes para tosse podem conter substâncias que aceleram os batimentos. Completam o cuidado uma alimentação leve, com fibras e grãos integrais, o equilíbrio emocional, com música ou respiração lenta para aliviar a tensão, e uma rotina de sono sem virar noites, com atividade física adequada ao corpo, como caminhada ou tai chi.',
+        ],
+        bullets: [
+          'Manter a pressão arterial controlada',
+          'Tratar o diabetes e o colesterol alto',
+          'Reduzir ou suspender o consumo de álcool',
+          'Não fumar',
+          'Manter o peso dentro de faixa saudável',
+          'Manter o anticoagulante em dia, sem pausas decididas em casa',
+          'Fazer exame de rotina anual, incluindo coração e tireoide',
+          'Pedir orientação antes de usar descongestionantes e xaropes para tosse',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Dá para perceber a fibrilação atrial no pulso?',
+        answer:
+          'Sim, em parte dos casos. Na fibrilação atrial o pulso costuma estar acelerado e constantemente irregular, e essa irregularidade pode ser sentida com dois dedos sobre o pulso do punho. Sentir o pulso descompassado não substitui o eletrocardiograma, que é o exame que confirma o diagnóstico.',
+      },
+      {
+        question: 'Fibrilação atrial tem cura?',
+        answer:
+          'A arritmia pode voltar ao ritmo normal, sozinha ou com cardioversão, e procedimentos de ablação são opções quando os medicamentos não bastam. Mesmo quando o ritmo é restaurado, porém, o risco de nova crise é alto e a necessidade de anticoagulante precisa ser reavaliada. O controle da doença é o objetivo real, e não uma garantia de cura definitiva.',
+      },
+      {
+        question: 'Quem tem fibrilação atrial precisa tomar anticoagulante para sempre?',
+        answer:
+          'Na vasta maioria das pessoas, sim, sobretudo depois de uma cardioversão e enquanto o risco de AVC existir. A decisão usa fatores como idade, hipertensão, diabetes, insuficiência cardíaca e AVC anterior, e muda ao longo do tempo. Interromper ou trocar de medicamento sem orientação da equipe é o erro mais perigoso dessa rotina.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'fibrilacao-atrial-sintomas-e-o-risco-de-avc',
+      'fibrilacao-atrial-tratamento-e-anticoagulantes',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['hipertensao', 'insuficiencia-cardiaca', 'diabetes', 'infarto-e-avc'],
+    references: [
+      {
+        label: 'Fibrilação atrial e flutter atrial, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/arritmias-card%C3%ADacas/fibrila%C3%A7%C3%A3o-atrial-e-flutter-atrial',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Diretriz Brasileira de Fibrilação Atrial, 2025',
+        url: 'https://www.scielo.br/j/abc/a/jWrKHyPRYYh7dXZR94nJcGp/?lang=pt',
+        publisher: 'Sociedade Brasileira de Cardiologia',
+      },
+      {
+        label: 'AVC: sintomas, tipos e prevenção',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'SAMU 192',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/samu-192',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cirrose-hepatica',
+    slug: 'cirrose-hepatica',
+    name: 'Cirrose hepática',
+    aliases: ['cirrose', 'hepatopatia crônica', 'doença hepática crônica'],
+    summary:
+      'Estágio final de muitas doenças do fígado: o tecido saudável é substituído por cicatriz, e o órgão perde função. Pode ficar anos sem dar sinal, e descobrir a causa é o que muda a história.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é cirrose hepática?',
+        paragraphs: [
+          'A cirrose é a distorção generalizada da estrutura interna do fígado. Ela acontece quando uma grande quantidade de tecido hepático normal é substituída, de forma permanente, por tecido cicatricial, que não desempenha nenhuma função. A cicatriz se forma porque o órgão foi lesionado de maneira repetida ou contínua, ao longo de anos.',
+          'Enquanto a lesão é limitada, o fígado consegue se reparar, produzindo células novas. Com agressões repetidas, o reparo vira fibrose, e quando essa fibrose é disseminada e grave, as faixas de cicatriz destroem a arquitetura do órgão: a essa cicatrização grave se dá o nome de cirrose. Com o tempo o fígado encolhe e fica mais rígido, e o sangue da veia porta encontra cada vez mais dificuldade para atravessá-lo.',
+          'O fígado tem uma margem de segurança enorme. Ele cumpre funções básicas mesmo quando seu funcionamento já está diminuído em 80%. É por essa razão que a cirrose convive tão bem com a ausência de sintomas, e é por isso que os exames de sangue podem vir normais quando a doença já está instalada.',
+          'A cirrose é o desfecho final de doenças hepáticas de longa duração, e não resultado de uma agressão única. Ela aparece com mais frequência em quem convive com hepatite B ou hepatite C crônicas, com consumo prolongado de álcool ou com gordura no fígado associada ao sobrepeso e ao diabetes, e costuma ficar silenciosa até a primeira complicação. No Brasil, essas três causas respondem pela maior parte dos casos, e o diagnóstico costuma chegar tarde, quando a doença já está avançada.',
+          'Cabe aqui uma dúvida muito comum: a cirrose em si não é contagiosa, e ninguém a transmite a outra pessoa. O que pode ser transmitido são os vírus das hepatites B, C, D e, com bem menos frequência, a E, que anos depois podem levar o fígado à cicatrização.',
+        ],
+        bullets: [
+          'Sangue: transfusão sem triagem, compartilhamento de agulhas e seringas, tatuagens e piercings feitos com material não esterilizado.',
+          'Contato sexual: sêmen e secreções vaginais podem carregar o vírus.',
+          'De mãe para filho: o risco maior é no parto, com exposição ao sangue materno.',
+          'Água e alimentos: só acontece com o vírus da hepatite E, por água ou comida contaminada.',
+          'Prevenção: a vacina contra a hepatite B e o teste para a hepatite C fecham esse caminho antes da cirrose.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de cirrose?',
+        paragraphs: [
+          'A mesma doença pode ser classificada de três maneiras: pela causa que a produziu, pelo quanto ela ainda permite que o fígado trabalhe e pelo tamanho dos nódulos de cicatriz que se formam no órgão. As três linguagens se completam, e a descrição de um paciente costuma usar todas elas.',
+          'Pela causa, fala-se em cirrose viral, quando ela vem das hepatites; biliar, quando a bile não escoa e fica retida; alcoólica, pelo consumo prolongado de álcool; autoimune, quando o sistema de defesa ataca as células do fígado ou os ductos biliares; congestiva, quando um problema do coração congestiona o órgão; e criptogênica, quando nenhuma causa aparece mesmo depois de toda a investigação.',
+          'Pelo funcionamento, a divisão é entre cirrose compensada, em que o órgão ainda dá conta do serviço, e descompensada, quando surgem líquido na barriga, sangramento ou confusão mental. Essa diferença define estágio, conduta e perspectiva.',
+        ],
+        bullets: [
+          'Compensada: o fígado mantém suas funções básicas, e a pessoa pode passar anos sem queixa alguma.',
+          'Descompensada: aparecem ascite, sangramento de varizes ou encefalopatia, sinal de que a reserva funcional se esgotou.',
+          'Micronodular: fígado reduzido e endurecido, coberto de nódulos uniformes de até 3 mm, associada ao álcool, à retenção de bile, à sobrecarga de ferro e à congestão cardíaca.',
+          'Macronodular: nódulos desiguais, na maioria maiores que 3 mm, separados por faixas espessas de cicatriz com inflamação; é a forma mais comum nas hepatites B e C crônicas.',
+          'Mista: nódulos grandes e pequenos na mesma proporção, como em doenças genéticas do metabolismo, entre elas a deficiência de alfa-1 antitripsina e a doença de Wilson, e em parte dos casos de hepatite B.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Quais são as causas?',
+        paragraphs: [
+          'As causas mais comuns são o consumo crônico e excessivo de álcool, a hepatite viral crônica pelos vírus C e B (uma infecção que dura pelo menos seis meses) e a esteato-hepatite associada à disfunção metabólica, chamada MASH, nome que substituiu o antigo termo esteato-hepatite não alcoólica, ou NASH. A MASH costuma aparecer em quem tem sobrepeso, [diabetes](/doencas/diabetes/) ou pré-diabetes e colesterol alto.',
+          'Na prática, qualquer distúrbio, medicamento ou toxina capaz de produzir fibrose pode evoluir até a cirrose. Por isso a investigação não se limita às três causas principais: as [hepatites virais](/doencas/hepatites-virais/) e as sobrecargas hereditárias de ferro ou de cobre têm tratamento específico, e identificá-las muda completamente o rumo da doença.',
+          'Cada causa tem um teste que a confirma, e quase todas têm um tratamento próprio. É por isso que a definição da causa vem antes de qualquer outra decisão no cuidado com a cirrose.',
+          'Duas causas pedem menção separada. A esquistossomose, endêmica em várias regiões do Brasil, deposita ovos do parasita nos vasos do fígado, e ao redor deles cresce a fibrose. E entre 5% e 10% das pessoas não têm causa encontrada depois de toda a investigação: é a cirrose criptogênica, cujo diagnóstico exige justamente que tudo o mais tenha sido excluído.',
+          'Além das causas, há fatores que aceleram a fibrose e valem correção: consumo de álcool, obesidade, diabetes, colesterol e triglicerídeos elevados, uso de medicamentos, fitoterápicos ou suplementos por conta própria, e sobrecarga de trabalho com sono ruim. Retirá-los não apaga a cicatriz que já existe, mas desacelera a formação de cicatriz nova.',
+        ],
+        bullets: [
+          'Hepatites virais: as infecções crônicas pelos vírus B, C e D, e ocasionalmente a E, mantêm o fígado inflamado por décadas, e estão entre as causas mais frequentes.',
+          'Álcool: o consumo diário e prolongado é a causa mais comum em muitos países, e a probabilidade de cirrose cresce com a quantidade e com os anos de consumo.',
+          'Gordura no fígado: a MASH é hoje a causa que mais aumenta, e caminha junto com obesidade, diabetes e colesterol alto.',
+          'Bile retida: a colestase de longa duração, seja por doença autoimune dos ductos, seja por obstrução, expõe o fígado a ácidos biliares concentrados, que lesionam as células.',
+          'Medicamentos e toxinas: uso prolongado de fármacos como a isoniazida e os que bloqueiam o ácido fólico, além de exposição industrial a arsênio e tetracloreto de carbono.',
+          'Circulação hepática: quando o sangue não escoa ou chega com pouco oxigênio, como na insuficiência cardíaca, as células morrem e são substituídas por cicatriz.',
+          'Genética e metabolismo: hemocromatose, doença de Wilson, deficiência de alfa-1 antitripsina e tirosinemia acumulam substâncias tóxicas dentro do órgão.',
+          'Sistema imune: hepatite autoimune e colangite esclerosante primária são o sistema de defesa atacando hepatócitos ou ductos biliares, e as duas podem evoluir.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Muitas pessoas com cirrose não têm sintoma nenhum e aparentam estar bem de saúde durante muitos anos. Entre as que estão no estágio compensado, 10% a 20% não sentem absolutamente nada. Quando os sintomas aparecem, costumam ser vagos e atribuídos a qualquer outra coisa: falta de apetite, perda de peso, cansaço, mal-estar generalizado e fezes amolecidas com frequência.',
+          'Conforme a função hepática cai, surgem sinais mais característicos. O fígado deixa de processar a bilirrubina, que se acumula no sangue e se deposita na pele, produzindo a icterícia, a coloração amarelada dos olhos e da pele, com urina escura. Se a absorção de gorduras fica deficiente, as fezes ficam claras, moles, volumosas e oleosas. A coceira pelo corpo todo aparece quando o comprometimento se prolonga.',
+          'Há ainda um conjunto de sinais que o médico reconhece no exame físico e que fala de cirrose mesmo sem queixa: as aranhas vasculares, pequenas manchas vermelhas com fios finos ao redor, a vermelhidão nas laterais da palma da mão, o aumento das mamas no homem, a circulação colateral visível na barriga, o baço palpável e, nas fases avançadas, a sonolência e o tremor das mãos.',
+          'Febre baixa repetida, sem infecção evidente, ocorre em parte dos pacientes e pode indicar tanto infecção quanto atividade da própria doença. No estágio descompensado, a barriga aumenta por causa do líquido, e o paciente percebe que a roupa e o cinto não servem mais. Também podem surgir sangramentos fáceis, como gengiva sangrando ao escovar os dentes, nariz que sangra sem motivo e manchas roxas pelo corpo.',
+        ],
+        bullets: [
+          'Estágios clínicos: no 1 não há varizes nem ascite; no 2 aparecem varizes na endoscopia, ainda sem sangramento; no 3 surge ascite; no 4 há sangramento de varizes; no 5 somam-se infecção grave e síndrome hepatorrenal.',
+          'Compensada: sem ascite e sem sangramento; pode haver apenas fadiga, perda de apetite e fezes amolecidas.',
+          'Descompensada: ascite, sangramento de varizes ou encefalopatia, com sintomas digestivos, hemorrágicos e neurológicos convivendo.',
+          'Cansaço e mal-estar sem explicação',
+          'Falta de apetite e perda de peso',
+          'Pele e parte branca dos olhos amareladas',
+          'Urina escura e fezes claras ou oleosas',
+          'Coceira pelo corpo todo',
+          'Manchas roxas e hematomas com facilidade',
+          'Gengivas e nariz que sangram com facilidade',
+          'Mãos que tremem e sonolência fora do habitual',
+        ],
+        cta: {
+          label: 'Leia também: cirrose hepática, sinais de alerta que não podem esperar',
+          href: '/artigos/cirrose-hepatica-sinais-de-alerta/',
+        },
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Vomitar sangue ou notar sangue nas fezes é emergência, e o mesmo vale para confusão mental e sonolência anormal em quem já tem doença hepática. O sangramento de varizes pode ser rápido e grave a ponto de causar choque, e a encefalopatia hepática sinaliza que toxinas estão atingindo o cérebro. Nessas situações, ligue para o SAMU 192 ou vá ao serviço de emergência mais próximo: o serviço é gratuito, funciona 24 horas por dia e a orientação por telefone já começa na ligação.',
+          'Barriga que infla rapidamente, dor abdominal com febre, dificuldade para respirar, pele muito amarelada e manchas roxas que surgem sem trauma também pedem atendimento no mesmo dia, e não a espera de uma consulta agendada. Em quem já tem cirrose conhecida, qualquer desses achados significa descompensação, e descompensação muda o plano de tratamento.',
+          'Há três situações típicas em que a cirrose anuncia uma emergência. A primeira é o sangramento digestivo: vômito com sangue vivo ou com aspecto de borra de café, e fezes pretas e brilhantes como piche. A segunda é a infecção da ascite: a barriga incha rápido, doi e arde ao toque, com febre. A terceira é a falência dos rins: o paciente urina cada vez menos, quase nada, sobre uma ascite que não cede.',
+          'Mudança de comportamento também é sinal de alerta, e costuma ser percebida primeiro pela família: esquecimento incomum, irritabilidade, inversão do sono, palavras embaralhadas, sonolência difícil de despertar. Sem tratamento, isso pode evoluir para confusão profunda e coma.',
+        ],
+        bullets: [
+          'Vômito de sangue ou sangue nas fezes',
+          'Confusão mental, sonolência ou comportamento estranho',
+          'Barriga inchada e tensa, especialmente se dolorosa',
+          'Febre junto com dor abdominal',
+          'Dificuldade para respirar',
+          'Pele e olhos muito amarelados, de aparecimento rápido',
+          'Tontura intensa, desmaio ou prostração súbita',
+          'Urinar em quantidade muito menor ou deixar de urinar',
+        ],
+        cta: {
+          label: 'Leia também: cirrose hepática, sinais de alerta que não podem esperar',
+          href: '/artigos/cirrose-hepatica-sinais-de-alerta/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O diagnóstico combina história, exame físico e exames, e precisa responder a quatro perguntas: qual é a causa, quanto dano o fígado já sofreu, quanto de função ainda resta e quais complicações já existem. Cada resposta muda a conduta.',
+          'A história procura hepatites, consumo de álcool, medicamentos, transfusões de sangue, comportamento sexual de risco e casos parecidos na família. No exame, o médico percebe sinais típicos de cirrose: baço aumentado, abdômen inchado, icterícia ou as manchas que indicam sangramento na pele. Para a causa, pedem-se provas de função hepática, sorologias para os vírus das hepatites, ceruloplasmina e cobre conforme a suspeita.',
+          'Os exames de sangue avaliam o fígado, mas os resultados são frequentemente normais, porque são relativamente insensíveis. A explicação está na reserva do órgão, que segue funcionando mesmo com 80% da capacidade comprometida. A função que resta é estimada pela presença de encefalopatia e de ascite, somada a bilirrubina, albumina e tempo de protrombina, no escore de Child-Pugh.',
+          'A ultrassonografia, a tomografia e a ressonância magnética conseguem identificar a cirrose avançada, mas geralmente não detectam a inicial. A elastografia transitória, um método indolor parecido com o ultrassom, mede a rigidez do tecido e ajuda na detecção precoce. A biópsia fica reservada para quando o diagnóstico permanece incerto. Confirmada a cirrose, a vigilância de câncer hepático é feita a cada seis meses, e a endoscopia do trato digestivo superior procura varizes.',
+        ],
+        bullets: [
+          'Hemograma, urina e fezes: procuram anemia, plaquetas baixas, infecção, proteína na urina e sangue nas fezes.',
+          'Provas de função hepática: bilirrubina, albumina, coagulação, transaminases, gama-GT, fosfatase alcalina, creatinina, sódio e amônia.',
+          'Alfafetoproteína: pode subir na cirrose ativa e merece atenção quando aumenta sem que as transaminases acompanhem.',
+          'Sorologias e autoanticorpos: identificam hepatites B, C e D e doenças autoimunes do fígado.',
+          'Ceruloplasmina e cobre: investigam a doença de Wilson, sobretudo em pessoas abaixo de 45 anos com lesão hepática sem causa clara.',
+          'Ultrassom, tomografia, ressonância e elastografia: mostram a forma do fígado, o baço, o líquido na barriga, o fluxo da veia porta e a rigidez do tecido.',
+          'Biópsia e punção de ascite: em casos duvidosos, a laparoscopia com biópsia esclarece o diagnóstico, e a punção analisa o líquido acumulado.',
+          'Endoscopia e pressão portal: procuram varizes e medem a pressão dentro da veia porta quando há dúvida sobre a gravidade.',
+        ],
+      },
+      {
+        id: 'qual-especialidade',
+        heading: 'Com qual especialista devo consultar?',
+        paragraphs: [
+          'O primeiro atendimento pode ser na Unidade Básica de Saúde, que encaminha para a hepatologia ou a gastroenterologia. O acompanhamento da cirrose é feito por essas especialidades, com apoio de enfermagem, nutrição e farmácia.',
+          'Quando a doença avança, o caso passa a ser avaliado em um centro de transplante de fígado. O acompanhamento e o transplante fazem parte do Sistema Único de Saúde (SUS). Em emergência, como vômito com sangue ou confusão mental, procure o serviço de urgência ou ligue para o SAMU 192.',
+        ],
+        bullets: [
+          'Primeira consulta: UBS ou clínico geral, com encaminhamento para hepatologia ou gastroenterologia',
+          'Exames: o especialista define a investigação da causa e das complicações',
+          'Transplante: casos avançados são avaliados em centro de transplante de fígado',
+          'Emergência: vômito com sangue, confusão mental ou barriga que infla rápido exigem atendimento imediato',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais pode ser confundido com cirrose?',
+        paragraphs: [
+          'Todos os sinais da cirrose têm outras explicações possíveis, e separá-las faz parte do diagnóstico. O aumento do fígado e do baço pode vir de doenças do sangue ou do metabolismo, e a biópsia resolve os casos em que os exames não bastam.',
+          'A ascite é o exemplo mais comum. O líquido da cirrose tem baixa concentração de proteína e um gradiente de albumina alto entre o soro e o líquido; o da insuficiência cardíaca também tem gradiente alto, mas é rico em proteína; o da tuberculose e o de tumores têm gradiente baixo. A análise do líquido, com contagem de células e cultura, separa os quadros e detecta infecção.',
+        ],
+        bullets: [
+          'Aumento de fígado e baço: doenças do sangue e do metabolismo também causam, e a biópsia ajuda a separar.',
+          'Ascite por cirrose: líquido pobre em proteína, com gradiente de albumina alto entre o soro e o líquido.',
+          'Ascite cardíaca: também tem gradiente alto, mas o líquido é rico em proteína.',
+          'Ascite infecciosa ou tumoral: gradiente baixo, e a análise do líquido pode encontrar células ou bactérias.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Quais são os tratamentos?',
+        paragraphs: [
+          'A melhor abordagem é interromper a cirrose nos estágios iniciais, corrigindo ou tratando a causa. Tratar a causa em geral previne danos adicionais, e às vezes a pessoa melhora. Na esteato-hepatite associada à disfunção metabólica, o melhor tratamento consiste em perder peso, com controle rigoroso do [diabetes](/doencas/diabetes/) e do colesterol alto. Na hepatite viral crônica usam-se medicamentos antivirais, e nas doenças hepáticas autoimunes entram corticosteroides ou outros medicamentos que atuam sobre o sistema imunológico.',
+          'A segunda frente é tratar as complicações conforme surgem. Para o acúmulo de líquido no abdômen, restringe-se o sódio da dieta e usam-se medicamentos que ajudam a eliminar o excesso de líquido, aumentando a produção de urina. Para as varizes que sangram, usam-se betabloqueadores para baixar a pressão nos vasos hepáticos e a aplicação de tiras elásticas por via endoscópica. Para a encefalopatia hepática, medicamentos que ligam as toxinas no intestino, associados a antibióticos que reduzem as bactérias que as produzem. Quando essas medidas não bastam, existe a derivação que desvia parte do sangue do fígado e reduz a pressão na veia porta.',
+          'Completam o cuidado o repouso nos períodos de descompensação, a alimentação com proteína suficiente e sal controlado, a vacinação contra hepatite A e hepatite B e a revisão criteriosa de todo medicamento em uso. Práticas tradicionais, como fitoterapia e acupuntura, podem ser usadas como complemento, desde que avaliadas pela equipe que acompanha o caso, e a pesquisa com células-tronco ainda está em fase de estudo: nenhuma delas substitui o tratamento da causa.',
+        ],
+        bullets: [
+          'Repouso e alimentação: nos períodos de descompensação, repouso e comida de fácil digestão, com sal controlado.',
+          'Vacinação: hepatite A e hepatite B para quem ainda não recebeu, e as vacinas de gripe e pneumonia quando indicadas.',
+          'Revisão de medicamentos: todo remédio, suplemento e fitoterápico deve passar pelo médico, porque o fígado doente processa pior essas substâncias.',
+          'Práticas complementares: fitoterapia, acupuntura e células-tronco em estudo não substituem o tratamento da causa nem o acompanhamento.',
+        ],
+        cta: {
+          label: 'Leia também: cirrose hepática, o que parar e o que muda',
+          href: '/artigos/cirrose-hepatica-o-que-parar-e-o-que-muda/',
+        },
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'Os antivirais tratam a causa quando ela é viral. Na hepatite B crônica, entecavir e tenofovir são os mais usados, com boa supressão do vírus e baixa chance de resistência; em pessoas selecionadas, o interferon ainda pode ser considerado. Na hepatite C, os antivirais de ação direta, como o sofosbuvir combinado ao daclatasvir, são usados em esquemas definidos pelo especialista.',
+          'As complicações pedem outros grupos. A ascite é tratada com diuréticos, em geral espironolactona e furosemida, e com albumina em situações específicas. Infecções, como a peritonite bacteriana espontânea, exigem antibióticos escolhidos pelo médico. Sangramentos por varizes podem receber medicamentos que ajudam a conter a hemorragia, sempre junto do tratamento endoscópico.',
+          'Nenhum desses remédios deve ser iniciado, ajustado ou interrompido por conta própria. Quem usa antiviral para hepatite B não pode parar o tratamento de repente, porque o vírus volta a se multiplicar e pode causar uma crise grave. Analgésicos, calmantes e remédios para dormir também precisam de avaliação, já que muitos são processados pelo fígado.',
+        ],
+        bullets: [
+          'Hepatite B: entecavir ou tenofovir, com acompanhamento da carga viral.',
+          'Hepatite C: esquemas com antivirais de ação direta, definidos pelo especialista.',
+          'Ascite: espironolactona e furosemida, com albumina em situações específicas.',
+          'Infecções: antibióticos escolhidos conforme o foco e o resultado da cultura.',
+          'Sangramento: medicamentos para conter a hemorragia, junto do tratamento por endoscopia.',
+          'Nunca por conta própria: não iniciar, não ajustar e não interromper antivirais sem orientação.',
+        ],
+      },
+      {
+        id: 'procedimentos',
+        heading: 'Quais procedimentos e cirurgias existem?',
+        paragraphs: [
+          'Para algumas pessoas o transplante de fígado é o melhor tratamento, e ele pode salvar a vida de quem tem cirrose avançada ou câncer hepático. A indicação leva em conta a probabilidade de a pessoa morrer sem recebê-lo, e a avaliação é feita em centro especializado.',
+          'Quando a ascite não responde aos medicamentos, a derivação portossistêmica intra-hepática, conhecida como TIPS, desvia parte do sangue do fígado e reduz a pressão na veia porta. O procedimento pode controlar o líquido, mas aumenta o risco de encefalopatia. A retirada do baço, em casos selecionados, melhora a contagem de plaquetas e de células do sangue.',
+          'O sangramento das varizes é contido por endoscopia, com injeção de substância esclerosante, aplicação de tiras elásticas ou cola tecidual. Quando o sangramento é refratário, pode ser indicada uma cirurgia de desconexão. A pesquisa com células-tronco ainda está em fase de estudo e não substitui nenhum desses tratamentos.',
+        ],
+        bullets: [
+          'Transplante de fígado: opção para cirrose avançada e câncer hepático, com avaliação em centro especializado.',
+          'TIPS: derivação que reduz a pressão portal em casos de ascite refratária, com risco de encefalopatia.',
+          'Esplenectomia: retirada do baço em casos selecionados, para melhorar plaquetas e células do sangue.',
+          'Endoscopia terapêutica: esclerosante, tiras elásticas ou cola tecidual para conter o sangramento das varizes.',
+          'Células-tronco: pesquisa em andamento, sem indicação estabelecida fora de estudo.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'A cirrose é reversível?',
+        paragraphs: [
+          'Às vezes a cirrose é reversível, mas ela tende a progredir enquanto a causa não for tratada, e é difícil prever a rapidez dessa progressão. A perspectiva depende da causa, da gravidade, da presença de outros problemas de saúde e da eficácia do tratamento. O dano no fígado, porém, é quase sempre permanente, e é improvável que o órgão volte a ficar normal.',
+          'Duas informações pesam nessa conta. A primeira é encorajadora: parar todo o consumo de álcool impede a formação de mais fibrose cicatricial, mesmo quando o álcool não foi a principal causa do problema hepático. A segunda é séria: quando uma complicação importante ocorre, como vômitos com sangue, acúmulo de líquido na cavidade abdominal ou deterioração da função cerebral, a perspectiva se torna desfavorável. A cirrose foi a 12.ª principal causa de morte no mundo em 2021.',
+          'A mortalidade acompanha o estágio. Na fase inicial ela é baixa, e na doença descompensada pode passar de 60%. O transplante muda esse cenário: cerca de 90% dos transplantados sobrevivem ao primeiro ano e 80% chegam aos cinco anos.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais são as complicações da cirrose?',
+        paragraphs: [
+          'O tecido cicatricial atrapalha o fluxo sanguíneo da veia porta, que traz o sangue do intestino para o fígado. A pressão sobe nesse vaso, e nasce a hipertensão portal, uma complicação séria que se repercute nas veias do estômago, do esôfago, do baço e do reto. Essas veias ficam alargadas e tortas, são as varizes, e por serem frágeis sangram com facilidade: se as varizes do esôfago ou do estômago se rompem, a pessoa pode vomitar grandes quantidades de sangue.',
+          'A hipertensão portal somada à função hepática comprometida leva ao acúmulo de líquido no abdômen, a ascite, que faz a barriga inchar e ficar tensa. Esse líquido pode se infectar, no que se chama peritonite bacteriana espontânea, que costuma trazer desconforto abdominal junto com febre.',
+          'O fígado doente também para de remover substâncias tóxicas do sangue, e elas viajam até o cérebro, afetando o funcionamento dele: é a encefalopatia hepática, que se manifesta como confusão e sonolência. Somam-se o risco maior de infecções, a osteoporose ligada à má absorção de vitaminas, a insuficiência renal e o câncer de fígado, razão pela qual toda cirrose exige vigilância periódica com ultrassom.',
+        ],
+        bullets: [
+          'Varizes do tubo digestivo: veias dilatadas que podem romper e causar hemorragia digestiva.',
+          'Ascite: líquido acumulado na barriga, que pode se infectar e comprimir a respiração.',
+          'Peritonite bacteriana: infecção do líquido ascítico, com febre e dor abdominal.',
+          'Encefalopatia hepática: toxinas que chegam ao cérebro e causam confusão, sonolência e tremor.',
+          'Síndrome hepatorrenal: perda progressiva da função dos rins em quem tem cirrose avançada.',
+          'Câncer de fígado: exige vigilância com ultrassom a cada seis meses.',
+          'Síndrome hepatopulmonar: alteração dos vasos do pulmão que reduz o oxigênio no sangue.',
+          'Cardiomiopatia cirrótica e distúrbios eletrolíticos: alterações do coração e do sódio, do potássio e de outros minerais.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Vida diária com cirrose',
+        paragraphs: [
+          'O que mais muda no dia a dia é a relação com o álcool, que passa a ser zero, e a atenção com medicamentos. O fígado processa boa parte dos remédios que chegam ao corpo, e, menos capaz, ele intensifica efeitos de vários deles: uma dose que antes não fazia nenhum estrago pode passar a provocar reações sérias. Por isso é preciso informar o médico sobre todos os medicamentos em uso, inclusive os vendidos sem receita, os fitoterápicos e os suplementos.',
+          'A rotina também ganha consultas fixas. A ultrassonografia semestral para vigiar o câncer de fígado, os exames de sangue regulares e, quando indicado, a endoscopia periódica fazem parte do acompanhamento, e não são excesso de cuidado: são a maneira de pegar as complicações antes que elas se manifestem.',
+          'A alimentação pede ajustes conforme as complicações. Quem tem varizes deve preferir alimentos macios, mastigar bem e evitar cascas duras, espinhas e ossos que possam ferir a parede do esôfago. O sal fica controlado para não puxar mais líquido para a barriga, e os frutos do mar crus devem ser evitados, porque a imunidade mais baixa facilita infecções. Nada de parar um antiviral por conta própria, e qualquer remédio novo, inclusive para dor, passa antes pelo médico.',
+        ],
+        bullets: [
+          'Suspender completamente o álcool',
+          'Informar o médico sobre todo medicamento, suplemento e fitoterápico',
+          'Não faltar às ultrassonografias de vigilância, feitas a cada seis meses',
+          'Reduzir o sal da comida para limitar o líquido na barriga',
+          'Manter as vacinas contra hepatite A e B em dia',
+          'Comer alimentos macios e mastigar bem quando houver varizes',
+          'Evitar frutos do mar crus e outros alimentos com risco de infecção',
+          'Não interromper por conta própria os antivirais',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a cirrose',
+        paragraphs: [
+          'Quase toda cirrose nasce de uma agressão prolongada e conhecida, o que torna a prevenção bastante concreta. As [hepatites virais](/doencas/hepatites-virais/) são o exemplo mais claro: são infecções silenciosas, que podem evoluir por décadas sem diagnóstico, e o avanço compromete o fígado a ponto de causar fibrose avançada e cirrose. Existe vacina contra a hepatite A e contra a hepatite B, e o tratamento antiviral da hepatite C mudou a história dessa causa.',
+          'A [esteatose hepática](/doencas/esteatose-hepatica/) entra nessa lista pelo lado metabólico: a gordura no fígado costuma se acumular sem sintoma, detectada em ultrassom do abdômen, e pode provocar uma inflamação capaz de evoluir para cirrose e até câncer. Manter peso saudável, tratar o diabetes e o colesterol alto e praticar atividade física são as medidas que atacam essa causa. O álcool merece regra própria: o consumo crônico e excessivo é uma das causas mais frequentes, e a moderação protege.',
+        ],
+        bullets: [
+          'Vacinar-se contra hepatite A e hepatite B',
+          'Fazer o teste para hepatite B e hepatite C',
+          'Tratar a hepatite C quando o teste for positivo',
+          'Manter o peso dentro de faixa saudável',
+          'Controlar diabetes e colesterol alto',
+          'Não exagerar no álcool',
+          'Evitar automedicação, inclusive fitoterápicos e suplementos',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Exame de fígado normal descarta cirrose?',
+        answer:
+          'Não descarta. Os exames de sangue que avaliam o fígado são relativamente insensíveis, e os resultados são frequentemente normais, porque o órgão cumpre funções básicas mesmo com 80% da capacidade comprometida. Por isso o diagnóstico combina história de risco, exame físico, imagem e, quando necessário, elastografia ou biópsia.',
+      },
+      {
+        question: 'Quem tem cirrose pode beber ocasionalmente?',
+        answer:
+          'A recomendação das fontes é suspender todo o consumo de álcool, e não reduzir. Consumir bebidas alcoólicas mesmo em quantidades muito pequenas pode ser muito prejudicial para um fígado que já tem cirrose, e continuar bebendo faz a doença progredir. Vale até para quem a cirrose não foi causada pelo álcool: parar impede a formação de mais fibrose.',
+      },
+      {
+        question: 'Cirrose dá transplante?',
+        answer:
+          'Sim. Para algumas pessoas o transplante de fígado é o melhor tratamento, e ele pode salvar a vida de quem tem cirrose avançada ou câncer hepático. A fila de espera se baseia na probabilidade de a pessoa morrer sem receber o órgão. Nem todo mundo é candidato, e a avaliação é individual.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'cirrose-hepatica-sinais-de-alerta',
+      'cirrose-hepatica-o-que-parar-e-o-que-muda',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['hepatites-virais', 'esteatose-hepatica', 'diabetes', 'colesterol-alto'],
+    references: [
+      {
+        label: 'Cirrose hepática, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/doen%C3%A7as-hep%C3%A1ticas-e-da-ves%C3%ADcula-biliar/fibrose-e-cirrose-hep%C3%A1tica/cirrose-hep%C3%A1tica',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Hepatites virais: prevenção, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hepatites-virais',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Esteatose hepática: o que é, causas, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Atualização na nomenclatura para doenças hepáticas associadas a esteatose: de NASH para MASH',
+        url: 'https://sbhepatologia.org.br/publicacoes/artigos/atualizacao-na-nomenclatura-para-doencas-hepaticas-associadas-a-esteatose-de-nash-para-mash/',
+        publisher: 'Sociedade Brasileira de Hepatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'ulcera-peptica',
+    slug: 'ulcera-peptica',
+    name: 'Úlcera péptica',
+    aliases: ['úlcera', 'úlcera gástrica', 'úlcera duodenal', 'doença ulcerosa péptica'],
+    summary:
+      'Ferida no revestimento do estômago ou do duodeno, causada sobretudo pela bactéria Helicobacter pylori ou pelo uso de anti-inflamatórios. Arde na boca do estômago, pode sangrar e tem cura quando a causa é tratada.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é úlcera péptica?',
+        paragraphs: [
+          'A úlcera péptica, conhecida como úlcera de estômago ou úlcera duodenal, é uma ferida que se abre no revestimento do tubo digestivo. Ela acontece quando o ácido gástrico e as enzimas da digestão vencem a camada que protege a mucosa, o tecido macio que forra o órgão por dentro, e corroem essa camada até um ponto mais profundo. Fumo, infecção e certos medicamentos bastam para quebrar esse equilíbrio, e a parede do estômago ou do duodeno acaba ferida como num atrito, porém em grau maior.',
+          'O problema pode acometer o esôfago, o estômago e o duodeno, a primeira porção do intestino delgado. Os tipos mais comuns são a úlcera gástrica e a duodenal, e todos têm a mesma explicação: o próprio suco digestivo agredindo o órgão que ele deveria apenas atravessar. Em pessoas operadas do estômago ou do intestino, a ferida pode aparecer junto à costura da cirurgia, e em situações muito particulares também se encontra em pontos fora do circuito habitual.',
+          'Para o leitor, o nome importa menos do que a causa. Úlcera gástrica, úlcera duodenal, doença ulcerosa: todas descrevem a mesma mecânica de defesa fragilizada e ataque ácido aumentado, e todas têm tratamento definido, com causa identificável e cicatrização esperada quando o esquema é cumprido.',
+        ],
+        bullets: [
+          'Frequência: entre 5% e 10% das pessoas desenvolvem úlcera péptica em algum momento da vida, e os casos novos a cada ano são uma minoria da população.',
+          'Idade e sexo: pode aparecer em qualquer idade, é mais comum no sexo masculino, e a úlcera duodenal costuma dar o primeiro sinal mais cedo do que a gástrica.',
+          'Tendência dos últimos anos: as consultas por úlcera e por suas complicações vêm diminuindo, o que se atribui à menor circulação do Helicobacter pylori, ao uso mais criterioso dos anti-inflamatórios e às medicações atuais, que cicatrizam bem.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Úlcera gástrica, duodenal, compostas: quais são os tipos?',
+        paragraphs: [
+          'Como a ferida pode se formar em pontos diferentes, com quantidade e tamanho diferentes e em fases da vida diferentes, a úlcera péptica admite várias classificações ao mesmo tempo. Na consulta, o que muda conforme o tipo é a estratégia de tratamento, o prazo de cicatrização e a atenção exigida para as complicações.',
+          'Existe ainda um grupo que foge do comportamento esperado da doença, seja porque não dói, seja porque fura a parede, não cicatriza ou surge de repente depois de um agravo sério de saúde. Conhecer esses formatos interessa ao paciente porque são justamente os que atrasam o diagnóstico.',
+        ],
+        bullets: [
+          'Por localização, a úlcera gástrica surge em qualquer parte do estômago, com preferência pelo ângulo, pelo antro e pela pequena curvatura.',
+          'Por localização, a úlcera duodenal quase sempre se instala no bulbo, a primeira alça do duodeno.',
+          'Pós-bulbar: fica mais adiante no duodeno, perto da região da papila.',
+          'Do canal pilórico: ocupa o canal logo antes da saída do estômago.',
+          'Composta: há ferida no estômago e no duodeno ao mesmo tempo, e em geral a parte duodenal aparece antes.',
+          'Por número e tamanho: a maioria tem uma única ferida, mas alguns pacientes apresentam duas ou mais; as usuais medem menos de 2 cm, e as de 2 cm para cima, chamadas gigantes, são mais vistas em idosos e em quem usa anti-inflamatório.',
+          'Por idade: no idoso os sinais são menos característicos e lembram pouco o quadro do adulto jovem; na infância, o tipo predominante é o duodenal, e a doença é menos frequente que no adulto.',
+          'Outros formatos: sem sintoma algum, descoberta só na endoscopia ou no exame com contraste; penetrante, quando a ferida atravessa a parede e a face anterior derrama conteúdo no abdome, enquanto a face posterior pode aderir a fígado ou pâncreas; refratária, que não cicatriza apesar do tratamento correto ou volta logo depois de fechar; e por estresse, que aparece de súbito depois de cirurgia neurológica, queimadura extensa, trauma grave ou abalo emocional intenso.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Quais são as causas da úlcera péptica?',
+        paragraphs: [
+          'Imagine o revestimento do estômago como o telhado de uma casa e o ácido com as enzimas como uma chuva ácida. Enquanto a telha está íntegra, a chuva passa. Quando algo enfraquece essa barreira e ainda aumenta a acidez, o telhado se corrói e aparece o buraco. É essa perda de equilíbrio entre defesa e agressão que explica a úlcera, e não o contrário.',
+          'A infecção por Helicobacter pylori é a causa mais frequente, sobretudo em locais onde a água tratada e o saneamento ainda são limitados. A bactéria aumenta a agressão do ácido e, ao mesmo tempo, prejudica a capacidade de reparo da mucosa, e está presente na maioria das úlceras gástricas e duodenais. O uso de anti-inflamatórios não esteroides (AINEs), como aspirina e ibuprofeno, é o outro grande caminho para a ferida: esses remédios permanecem mais tempo em contato com a mucosa, agridem o tecido diretamente e reduzem as prostaglandinas, o escudo natural do estômago.',
+          'O terceiro elo é o ácido em excesso. A pepsina, enzima que digere proteínas, só trabalha em meio muito ácido, e quando a produção de ácido sobe ela encontra terreno livre. Poucas vezes existe uma causa adicional, como o gastrinoma, um tumor que manda o estômago produzir ácido em grande quantidade.',
+        ],
+        bullets: [
+          'Infecção por Helicobacter pylori: a causa isolada mais comum, associada à maioria das úlceras gástricas e duodenais.',
+          'Uso prolongado de AINEs: predispõe mais à úlcera gástrica, atrasa a cicatrização e eleva o risco de sangramento e perfuração.',
+          'Secreção ácida exagerada: cria o ambiente de que a pepsina precisa para corroer a mucosa.',
+          'Gastrinoma (síndrome de Zollinger-Ellison): várias úlceras ao mesmo tempo, muitas vezes com diarreia, e resposta insatisfatória ao esquema habitual.',
+          'Combinações de risco: anti-inflamatório junto de corticoide, ou o uso prolongado do analgésico comprado por conta própria, multiplica o perigo.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que aumenta o risco de desenvolver úlcera?',
+        paragraphs: [
+          'Há quem conviva com a bactéria ou tome analgésico e não desenvolva úlcera, e há quem a desenvolva cedo. Os fatores de risco explicam essa diferença: eles não criam a ferida sozinhos, mas enfraquecem a defesa da mucosa, aumentam a acidez, atrasam a cicatrização ou facilitam a volta da doença depois de fechada.',
+          'Algumas doenças crônicas também tornam a úlcera mais provável, em especial a úlcera duodenal. No caso da doença pulmonar obstrutiva crônica, a baixa de oxigênio atrapalha o reparo da mucosa e o tabagismo costuma somar-se ao quadro; na cirrose, o fígado doente deixa de neutralizar substâncias que estimulam a acidez e o fluxo sanguíneo gástrico muda; na doença renal crônica, a gastrina circula mais alta e mantém a produção de ácido acelerada.',
+        ],
+        bullets: [
+          'Tabagismo: quem fuma tem mais úlcera, a ferida demora mais para fechar, a chance de recidiva é maior e cresce o risco de complicações como sangramento e perfuração.',
+          'Estresse e emoções: tensão e ansiedade prolongadas favorecem as crises, um forte abalo psíquico pode fazer voltar uma úlcera duodenal já curada, e depois de cirurgia neurológica ou queimadura extensa podem surgir úlceras por estresse.',
+          'Alimentação: a relação com a úlcera ainda não está totalmente esclarecida; bebida alcoólica, chá forte e café estimulam a secreção ácida, mas não há prova de que causem úlcera por si; o excesso de sal parece aumentar o risco, e alimentos com gorduras de boa qualidade podem ajudar a defesa da mucosa.',
+          'Outras doenças associadas: problema pulmonar crônico, cirrose e doença renal crônica.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Que sintomas a úlcera péptica causa?',
+        paragraphs: [
+          'O retrato mais típico é dor ou queimação na boca do estômago, logo acima do umbigo, acompanhada de azia e de regurgitação ácida, com crises que voltam em intervalos regulares. Há casos, porém, em que a úlcera não dói nada, especialmente os provocados por aspirina e ibuprofeno, que podem evoluir em silêncio até um sangramento. Como gases, má digestão e até câncer de estômago produzem dor parecida, o sintoma isolado não fecha o diagnóstico.',
+          'Local e horário ajudam o médico a desconfiar do tipo. A dor costuma ficar na região epigástrica, um pouco deslocada para a esquerda na úlcera gástrica e para a direita na duodenal, e a ferida da parede posterior do estômago pode irradiar para as costas. As descrições variam entre aperto, distensão, dor surda e queimação, às vezes uma dor de fome que incomoda. A úlcera duodenal dói entre as refeições, antes de comer e de madrugada, e melhora ao comer ou ao tomar medicação; a gástrica costuma aparecer até uma hora depois da refeição, dura de uma a duas horas e some, para voltar na refeição seguinte. Os episódios se agrupam em surtos, mais frequentes nas trocas de estação, e ficam mais prováveis depois de comida muito gordurosa, excesso de bebida alcoólica, período de sobrecarga de trabalho ou ansiedade forte.',
+          'Cada localização imprime um comportamento próprio: a lesão do canal pilórico dói logo depois de comer e responde pouco aos remédios habituais; a do duodeno mais profundo (pós-bulbar) prefere a madrugada e irradia para as costas, com resposta mais lenta e mais sangramento; quem tem ferida nos dois órgãos sente um padrão misto; no idoso, a queixa principal costuma ser outra, e a úlcera silenciosa só aparece na endoscopia ou quando complica.',
+        ],
+        bullets: [
+          'Idosos: muitas vezes sem dor definida, com perda de apetite, vômitos, [anemia](/doencas/anemia-ferropriva/) sem causa aparente e emagrecimento; a ferida tende a ser grande, alta no estômago e exige diferenciação cuidadosa com o câncer.',
+          'Úlceras sem dor: boa parte dos portadores não sente nada, e a proporção é maior entre idosos, entre quem usa anti-inflamatório e entre as recidivas que acontecem durante tratamento mantido.',
+          'Compostas: estômago e duodeno feridos ao mesmo tempo mudam a rotina de dor e pedem atenção redobrada.',
+          'Canal pilórico: dor que chega quase no horário das refeições, antiácido com pouco efeito, mais vômitos por atraso do esvaziamento gástrico e risco maior de hemorragia e perfuração.',
+          'Bulbo e pós-bulbar: dor noturna intensa, por vezes irradiada para as costas, resposta mais modesta aos medicamentos e maior tendência a sangrar.',
+          'Sintomas acompanhantes: azia, arrotos frequentes, sensação de estômago pesado, queimação que sobe pelo peito, náusea e perda de apetite; são sinais comuns a muitos distúrbios digestivos e, sozinhos, não confirmam úlcera.',
+        ],
+        cta: {
+          label: 'Leia também: sintomas e quando o estômago sangra',
+          href: '/artigos/ulcera-peptica-sintomas-e-quando-o-estomago-sangra/',
+        },
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Procure atendimento de emergência se houver vômito com sangue vermelho-vivo ou com material marrom-avermelhado parecido com borra de café, se as fezes ficarem pretas (melena) ou evidentemente com sangue, ou se a pessoa desmaiar. Esses sinais indicam que a úlcera está sangrando.',
+          'Dor abdominal súbita, intensa e contínua, que se espalha pelo abdome e piora com a respiração profunda ou ao mudar de posição, pode indicar perfuração, emergência que exige cirurgia imediata e antibiótico pela veia. Febre nesse contexto sugere infecção na cavidade abdominal. Idosos e pessoas que usam corticoide podem ter sintomas mais leves.',
+        ],
+        bullets: [
+          'Vômito com sangue ou com aspecto de borra de café',
+          'Fezes pretas ou com sangue',
+          'Fraqueza, suor, sede e desmaio',
+          'Dor abdominal súbita, intensa e contínua',
+          'Abdome rígido e sensível ao toque',
+          'Febre associada à dor abdominal intensa',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Com qual médico eu devo ir?',
+        paragraphs: [
+          'O especialista indicado para investigar e tratar a úlcera péptica é o gastroenterologista, o médico do aparelho digestivo. Na rede pública, a unidade básica de saúde pode começar a avaliação, tratar a dor e encaminhar; o Sistema Único de Saúde (SUS) cobre a consulta especializada e a endoscopia digestiva alta quando há indicação.',
+          'Dor persistente ou de repetição na boca do estômago, principalmente com o padrão de aliviar ao comer ou de acordar a pessoa de madrugada, é motivo para buscar avaliação, e não para comprar antiácido indefinidamente. Vômito com sangue, fezes pretas como piche e abdome rígido são motivo para atendimento de emergência, sem esperar consulta marcada. Quem tem dor epigástrica repetida, quadro novo depois dos 60 anos, anemia ou emagrecimento sem causa precisa de avaliação endoscópica, mesmo sem sentir a queixa típica, porque a ferida que não dói só aparece no exame.',
+        ],
+        bullets: [
+          'Primeiro contato: gastroenterologista (clínico de aparelho digestivo), com apoio possível da unidade básica de saúde.',
+          'Emergência: dor súbita e intensa no abdome ou hematêmese pedem pronto atendimento imediato.',
+          'Mesmo sem queixa evidente: crises repetidas de dor epigástrica exigem reavaliação, em vez de apenas esperar que a dor passe.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Quais exames confirmam a úlcera péptica?',
+        paragraphs: [
+          'A investigação começa pela conversa e pelo exame físico. O médico pergunta a idade, a ocupação e a carga de estresse, se você fuma ou bebe em excesso e se teve crises em que a dor aliviava com comida ou voltava de madrugada. São perguntas que servem para separar a úlcera de outras causas de dor alta no abdome.',
+          'O exame que fecha o diagnóstico é a endoscopia digestiva alta, mais confiável do que o estudo com contraste. Ela mostra a ferida, permite dizer se está ativa, em cicatrização ou já fechada em cicatriz, autoriza a coleta de tecido para saber se é benigna e para pesquisar o Helicobacter pylori e, quando há hemorragia, permite tratar o ponto que sangra e calcular o risco de novo sangramento. Antes disso, o histórico e o exame do abdome já orientam a urgência da investigação.',
+          'A infecção pela bactéria também pode ser confirmada sem endoscopia, por teste respiratório ou por pesquisa do antígeno nas fezes. Terminado o tratamento, repete-se o teste para verificar se o Helicobacter pylori foi realmente eliminado.',
+        ],
+        bullets: [
+          'História clínica: idade, ocupação, estresse no trabalho, tabagismo e consumo de álcool.',
+          'Sintomas relatados: dor surda ou queimação na boca do estômago, vômito de material escuro como borra de café, fezes escuras tipo piche e a relação da dor com o comer.',
+          'Exame físico: dor à palpação da região epigástrica; contorno do estômago visível sugere obstrução da saída gástrica; abdome duro como tábua levanta a suspeita de perfuração com peritonite.',
+          'Teste invasivo do H. pylori: feito com fragmento retirado durante a endoscopia, informa sobre a infecção e sobre a lesão ao mesmo tempo.',
+          'Teste não invasivo: prova respiratória ou pesquisa de antígeno nas fezes; diz se há infecção, dispensa a endoscopia, mas não avalia a mucosa.',
+          'Endoscopia digestiva alta: exame de escolha para ver a ferida, classificar a fase, biopsiar e tratar o sangramento.',
+          'Contraste baritado: traça a forma do estômago pelo raio X; se sugerir úlcera, a endoscopia continua necessária para confirmar, e hoje fica reservada a quem não pode fazê-la.',
+          'Com o que se confunde: no início, a úlcera gástrica e o câncer de estômago podem ter aspecto quase igual na endoscopia, por isso se coleta tecido e se exige endoscopia de controle depois do tratamento; já a lesão avançada tem borda alta em cratera de vulcão, fundo irregular e base suja de tecido necrótico, o que facilita a distinção.',
+        ],
+      },
+      {
+        id: 'medidas-gerais',
+        heading: 'Que cuidados ajudam fora dos remédios?',
+        paragraphs: [
+          'O tratamento da úlcera ataca a causa, e a rotina ajuda ou atrapalha esse trabalho. Além da medicação, quatro pontos sustentam a cicatrização e afastam as crises: manter horários regulares de sono e de descanso, sem emendas de madrugada nem tensão contínua; zelar pela higiene dos alimentos; ajustar o analgésico com o médico e cortar o que irrita o estômago durante a crise.',
+          'Como o Helicobacter pylori circula entre as pessoas que comem juntas, a cozinha é um ponto de controle. Quem divide a mesa com pessoa infectada deve usar colheres e garfos de servir, servir porções separadas nos pratos e evitar provar da mesma colher. Reduzir o consumo de sal, preferir alimentos com gorduras de boa qualidade, parar de fumar e suspender a bebida alcoólica durante o tratamento aumentam a chance de cicatrização e diminuem a de recidiva.',
+        ],
+        bullets: [
+          'Rotina: horários constantes para dormir e trabalhar, sem emendas nem estresse prolongado.',
+          'Higiene e convivência: talheres de servir, pratos com porções separadas, talheres e utensílios das crianças fervidos.',
+          'Analgésicos: dose e tipo de anti-inflamatório revistos com o médico, principalmente aspirina e ibuprofeno.',
+          'Na crise: fora pimenta, bebida alcoólica, café e chá forte.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento com medicamentos?',
+        paragraphs: [
+          'O tratamento tem dois objetivos: fechar a ferida e eliminar a causa. A escolha depende do tipo de úlcera, da idade, dos outros problemas de saúde e do uso de outros medicamentos, e por isso não existe uma opção válida para todos. No Brasil, os remédios para a úlcera estão disponíveis no Sistema Único de Saúde (SUS) e nas farmácias comerciais, e o Programa Saúde da Família costuma acompanhar quem precisa de tratamento prolongado.',
+          'O ponto central quando há Helicobacter pylori é a erradicação da bactéria. Uma droga só não resolve: o esquema recomendado combina um inibidor da bomba de prótons, que corta a produção de ácido, um sal de bismuto, que protege a mucosa, e dois antibióticos, a chamada terapia quádrupla, mantida por dez a catorze dias. Parar antes do prazo é um dos motivos mais comuns para a bactéria sobreviver e a úlcera voltar.',
+          'Enquanto isso, a acidez é controlada para permitir a cicatrização, e os casos mais difíceis exigem estratégia própria. Quem usa anti-inflamatório por necessidade, como dor crônica ou proteção cardíaca, não deve interromper o remédio por conta própria: converse com o médico sobre a menor dose eficaz e sobre a proteção gástrica.',
+        ],
+        bullets: [
+          'Supressão de ácido com bloqueador da histamina 2: famotidina e similares cortam o sinal que manda a célula gástrica produzir ácido.',
+          'Inibidor da bomba de prótons: omeprazol, pantoprazol e similares agem na etapa final da produção de ácido, com efeito mais forte e mais duradouro, e são a primeira escolha.',
+          'Proteção da mucosa: nas úlceras do idoso, nas grandes e nas que voltam, associam-se medicamentos que reforçam a barreira do revestimento gástrico.',
+          'Antiácidos: neutralizam o ácido já formado e aliviam a dor na hora, mas cicatrizam pouco e hoje têm papel secundário.',
+          'Úlceras difíceis de fechar: primeiro se apuram as causas, como bactéria não erradicada, câncer, tabagismo ou doença rara; depois se reforça a supressão de ácido e se prolonga o prazo do tratamento.',
+        ],
+        cta: {
+          label: 'Leia também: tratamento e erradicação do Helicobacter pylori',
+          href: '/artigos/ulcera-peptica-tratamento-e-helicobacter/',
+        },
+      },
+      {
+        id: 'tratamento-cirurgico',
+        heading: 'A úlcera péptica precisa de cirurgia?',
+        paragraphs: [
+          'Na maioria dos casos, não. Com a medicação atual, quase todas as úlceras fecham sem operação, e o procedimento endoscópico resolve boa parte dos sangramentos. A cirurgia ficou para duas situações: ferida que se confirmou maligna e complicação grave que não se controla por outros meios.',
+          'Há ainda as emergências. A perfuração aguda e a obstrução da saída do estômago por cicatriz de úlceras antigas pedem operação de urgência. Na hemorragia, a primeira escolha é estancar o ponto que sangra pela endoscopia; quando ela não é possível ou falha, o recurso é a radiologia intervencionista ou a cirurgia. As técnicas clássicas são a secção dos ramos do nervo vago, que reduz o estímulo para produzir ácido, e a retirada parcial do estômago, quando é preciso remover a área doente.',
+        ],
+        bullets: [
+          'Perfuração: parede gástrica ou duodenal furada.',
+          'Obstrução por cicatriz: saída do estômago bloqueada por cicatriz.',
+          'Hemorragia: primeira escolha é a endoscopia para localizar e tratar o ponto que sangra, dentro das primeiras 24 horas.',
+          'Cirurgia de complicação: sangramento importante que não cessa com endoscopia nem com radiologia intervencionista.',
+          'Técnicas usadas: secção dos ramos do nervo vago, que reduz o estímulo de ácido, e retirada parcial do estômago, quando é preciso remover a área doente.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais são as complicações da úlcera péptica?',
+        paragraphs: [
+          'Quatro complicações concentram a atenção do médico: sangramento, perfuração, obstrução da saída do estômago e malignização. A úlcera duodenal sangra com mais frequência do que a gástrica, e as lesões da parede posterior do estômago ou da porção pós-bulbar são as mais perigosas. Com o tratamento atual, a cicatrização é alta e as voltas ficaram menos frequentes, mas o sangramento é uma complicação frequente, e ele pode ser a primeira manifestação da doença, revelando uma úlcera que nunca doeu.',
+          'O quadro depende do calibre do vaso atingido. Artéria mais calibrosa sangra de repente e em grande volume; vasos pequenos e a mucosa ao redor perdem sangue aos poucos, às vezes apenas detectável nos exames, e essa perda lenta, se persistir, acaba em anemia por falta de ferro.',
+          'Na perfuração, a ferida atravessa a parede e pode ser súbita, com dor intensa, evoluir de forma mais branda ou se fechar aos poucos, aderindo a um órgão vizinho. O sangramento é o evento mais comum. A obstrução e a malignização são os desfechos menos prováveis, mas pedem vigilância: a obstrução por inflamação da crise ativa cede com o tratamento clínico, enquanto a obstrução por cicatriz costuma exigir dilatação endoscópica ou cirurgia.',
+        ],
+        bullets: [
+          'Sangramento digestivo: fezes escuras como piche nas perdas pequenas; nas perdas maiores, vômito de sangue vermelho ou de borra de café, com tontura, suor frio e, às vezes, choque; muita gente sente a dor aumentar pouco antes de sangrar e depois aliviar.',
+          'Conduta imediata: fezes pretas ou vômito com sangue exigem atendimento na hora; a endoscopia é feita nas primeiras 24 horas para localizar o ponto que sangra e tratá-lo.',
+          'Perfuração: dor súbita e intensa, abdome rígido e sensível ao toque; é emergência que pede cirurgia.',
+          'Obstrução gástrica: empachamento que piora depois das refeições, vômitos em grande quantidade com resto de comida antiga, dificuldade para se alimentar, fraqueza e desidratação.',
+          'Malignização: a probabilidade de a úlcera gástrica evoluir para câncer é muito baixa, a úlcera duodenal praticamente não se transforma, e a esmagadora maioria das lesões fecha com o tratamento correto, sem motivo para alarme.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como cuidar da úlcera no dia a dia?',
+        paragraphs: [
+          'A úlcera péptica é uma doença crônica que se administra na rotina, e o período de cicatrização pede alguns ajustes. Faça refeições pequenas e mais frequentes ao longo do dia, em vez de três pratos pesados, e capriche em frutas como laranja, kiwi e maçã, além de verduras como espinafre e brócolis, que fornecem vitaminas e fibras. Prefira o copo pequeno de leite apenas momentaneamente para aliviar a dor, e não transforme o leite em remédio: ele acalma a queimação, mas depois estimula a produção de ácido.',
+          'Reduza o consumo de sal e de ultraprocessados, troque parte do arroz branco e do pão por integrais como aveia, e acrescente iogurte natural e alimentos fermentados, que se encaixam bem no plano alimentar. Mantenha atividade física leve, como caminhada, alongamento ou exercício de respiração para a tensão do dia, e procure dormir o suficiente, porque a privação de sono favorece as crises.',
+        ],
+        bullets: [
+          'Álcool: o ideal é suspender durante o tratamento, incluindo cerveja, vinho e destilados.',
+          'Cigarro: a cessação completa, com acompanhamento profissional se necessário, porque o tabagismo atrasa a cicatrização e aumenta o risco de hemorragia e perfuração.',
+          'Refeições: várias porções pequenas ao longo do dia.',
+          'Alimentos que causam crises: pimenta, café, chá forte e bebida alcoólica.',
+          'Água e alimentos crus: lave frutas e verduras em água corrente e cozinhe bem carnes e ovos.',
+          'Sal e ultraprocessados: reduza o tempero pronto e os alimentos muito salgados.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Depois do tratamento, o que monitorar?',
+        paragraphs: [
+          'Grande parte das pessoas cicatriza entre seis e oito semanas de tratamento bem conduzido, mas o fim das doses não encerra o acompanhamento. Terminar o prazo é hora de confirmar a cicatrização, sobretudo na úlcera gástrica, em que a endoscopia de controle serve também para afastar o câncer.',
+          'Depois da cura, o retorno periódico é a forma de pegar uma volta precoce da doença, e a consulta deve ser antecipada diante de dor noturna, empachamento persistente ou fezes escuras. Se você cicatrizou, sentiu melhora e parou o medicamento por conta própria antes do prazo, avise o médico: é o cenário típico de recidiva. E se a crise de dor, o vômito ou a febre aparecerem, procure atendimento na hora.',
+        ],
+        bullets: [
+          'Controle endoscópico: confirma o fechamento da ferida ao fim do tratamento.',
+          'O que aparece com mais frequência exige retorno antecipado: dor que acorda à noite, empachamento que não passa, fezes escuras, perda de peso.',
+          'Retorno mesmo sem queixa: mesmo sem sintomas, o médico pode sugerir revisões periódicas para vigiar a recidiva.',
+          'Antes de repetir o teste do Helicobacter pylori: é preciso aguardar pelo menos duas semanas sem o inibidor da bomba de prótons; tomar o remédio perto do dia do exame pode mascarar o resultado e gerar falso-negativo.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Dá para prevenir a úlcera péptica?',
+        paragraphs: [
+          'Como a maior parte das úlceras está ligada ao Helicobacter pylori, prevenir passa por limitar a circulação dessa bactéria. O que se transmite é a infecção, não a úlcera: ninguém herda uma ferida de outra pessoa. A bactéria se instala na camada que protege o revestimento do estômago e também aparece nas fezes, na saliva e na placa dental, e a chance de passar de uma pessoa para outra cresce quando quem está infectado não lava bem as mãos depois de ir ao banheiro.',
+          'Beijos e o contato próximo também podem levar a bactéria, o que explica por que as infecções costumam se concentrar na mesma família. Na prática, lavando as mãos e usando talheres separados, e completando os tratamentos que reduzem a carga bacteriana, você reduz muito a chance de desenvolver uma úlcera péptica.',
+        ],
+        bullets: [
+          'Para a bactéria não circular: use talheres de servir no lugar das mãos.',
+          'Lave frutas e verduras em água corrente, e ferva os utensílios das crianças.',
+          'Na rua: prefira água tratada ou engarrafada, e alimentos bem cozidos.',
+          'Para a úlcera não voltar: erradicado o Helicobacter pylori, a chance de recidiva cai de forma importante.',
+          'Para não sangrar: idosos, pessoas com doença cardiovascular, quem usa anticoagulante ou já teve hemorragia digestiva precisam de vigilância específica, e o médico pode definir proteção contínua com inibidor da bomba de prótons.',
+          'Cigarro e álcool: pioram a cicatrização e aumentam o risco de hemorragia e perfuração.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Úlcera péptica tem cura?',
+        answer:
+          'Sim. Corrigida a causa, a ferida cicatriza. Quando o tratamento elimina o Helicobacter pylori com sucesso, cerca de 10% das pessoas voltam a ter úlcera; quando a bactéria não é erradicada, a úlcera retorna em cerca de 50% dos casos.',
+      },
+      {
+        question: 'Anti-inflamatório faz mal para o estômago?',
+        answer:
+          'Os anti-inflamatórios não esteroides, como aspirina, ibuprofeno e naproxeno, são uma das duas causas principais de úlcera, porque enfraquecem a barreira que protege o estômago e o duodeno. Quem usa esses medicamentos com frequência deve discutir dose e proteção gástrica com o médico.',
+      },
+      {
+        question: 'Leite e dieta leve ajudam a tratar a úlcera?',
+        answer:
+          'Beber leite ou comer costuma aliviar a dor da úlcera duodenal por duas a três horas, porque neutraliza o ácido. Mas dieta leve não acelera a cicatrização nem evita que a úlcera volte, segundo o Manual MSD. O que faz diferença é o tratamento que reduz o ácido e elimina a causa.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'ulcera-peptica-sintomas-e-quando-o-estomago-sangra',
+      'ulcera-peptica-tratamento-e-helicobacter',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['gastroenterite', 'anemia-ferropriva', 'parasitoses-intestinais'],
+    references: [
+      {
+        label: 'Úlcera péptica',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/%C3%BAlcera-p%C3%A9ptica',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Infecção por Helicobacter pylori',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/infec%C3%A7%C3%A3o-por-helicobacter-pylori',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'V Consenso Brasileiro sobre a infecção por Helicobacter pylori',
+        url: 'https://www.scielo.br/j/ag/a/G9BpZdBB8tHTKdF9b5nmSbp/?lang=pt',
+        publisher: 'Arquivos de Gastroenterologia (SciELO Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipotireoidismo',
+    slug: 'hipotireoidismo',
+    name: 'Hipotireoidismo',
+    aliases: ['hipotireoidismo primário', 'hipofunção da tireoide', 'tireoide hipoativa'],
+    summary:
+      'A tireoide produz hormônio em quantidade menor do que o corpo precisa. Cansaço, sensação de frio, prisão de ventre e pele seca podem ser sinal de hipotireoidismo, que se confirma com um exame de sangue simples e tem tratamento eficaz.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é hipotireoidismo?',
+        paragraphs: [
+          'O hipotireoidismo acontece quando a tireoide, glândula em forma de borboleta situada na parte da frente do pescoço, produz hormônio tireoidiano em quantidade menor do que o organismo precisa. O principal hormônio fabricado pela glândula é a tiroxina, chamada de T4, acompanhada da tri-iodotironina, o T3.',
+          'Sem hormônio suficiente, o corpo funciona mais devagar, em um estado de hipometabolismo. Por isso os sintomas atingem vários sistemas ao mesmo tempo: energia e temperatura, intestino, pele e cabelo, humor, memória e batimentos cardíacos. É uma das doenças endócrinas mais comuns e, por afetar o metabolismo, costuma ser investigada junto de diabetes e colesterol alto.',
+          'A doença evolui devagar: no início, pode haver apenas um cansaço leve, e os sinais completos aparecem meses ou anos depois. A confirmação vem do exame de sangue, com a dosagem de TSH e de T4 livre, e não da intensidade das queixas. A maioria dos casos é primária, ou seja, o problema está na própria tireoide; quando a falha vem da hipófise ou do hipotálamo, estruturas que comandam a glândula, o hipotireoidismo é secundário e exige cuidados diferentes.',
+        ],
+        bullets: [
+          'Sexo: as mulheres desenvolvem hipotireoidismo com muito mais frequência do que os homens.',
+          'Idade e histórico: os casos se concentram depois dos 60 anos e em quem tem parente com a doença ou outra condição autoimune.',
+          'Tendência: com os exames de rotina mais comuns, um número maior de pessoas sem sintoma algum passou a ser diagnosticada.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de hipotireoidismo?',
+        paragraphs: [
+          'O hipotireoidismo é classificado pela origem do problema. Primário, o mais comum, vem da própria tireoide, destruída aos poucos por doença autoimune ou removida por cirurgia ou iodo radioativo. Central, mais raro, nasce de uma falha na hipófise ou no hipotálamo, os centros que comandam a glândula; quando a falha está no hipotálamo, também é chamado terciário, e as causas incluem tumor, cirurgia e radioterapia na região. Existe ainda a resistência aos hormônios tireoidianos: a glândula produz quantidades normais, mas as células não respondem a eles.',
+          'Pela gravidade, distinguem-se o hipotireoidismo clínico, com exames alterados e sintomas evidentes, e o subclínico, forma mais leve e muito mais comum: o TSH sobe, o T4 livre permanece normal, e a pessoa não sente nada ou sente pouco. O subclínico pode se normalizar sozinho, por isso o exame costuma ser repetido antes de qualquer decisão de tratamento, e ele ganha importância em gestantes e em quem pretende engravidar.',
+        ],
+        bullets: [
+          'Pela causa: formas autoimune, medicamentosa, pós-cirúrgica e congênita, entre outras, mudam o prognóstico e o prazo de tratamento.',
+          'Pela idade de início: forma do adulto, forma na infância e na adolescência e forma neonatal, esta detectada na triagem do recém-nascido, que precisa de tratamento nos primeiros dias de vida.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Quais são as causas do hipotireoidismo?',
+        paragraphs: [
+          'A causa mais comum do hipotireoidismo primário é a tireoidite de Hashimoto, uma inflamação autoimune em que o sistema de defesa ataca a tireoide. No início a glândula pode funcionar normalmente, mas a maioria das pessoas acaba apresentando hipotireoidismo. A doença é mais frequente entre mulheres, sobretudo nas idosas, e tende a correr em famílias.',
+          'A segunda causa mais comum é o próprio tratamento de problemas anteriores da tireoide, especialmente a terapia com iodo radioativo e a cirurgia feitas por hipertireoidismo, bócio ou câncer de tireoide. A radioterapia na região do pescoço, usada em linfoma e em câncer de laringe, também deixa hipotireoidismo permanente em parcela alta de quem a recebe, o que justifica medir o TSH a cada seis a doze meses depois do tratamento.',
+        ],
+        bullets: [
+          'Tireoidite de Hashimoto e tireoidite atrófica, as causas autoimunes mais frequentes',
+          'Iodo radioativo ou cirurgia realizados por hipertireoidismo, bócio ou câncer de tireoide',
+          'Radioterapia na região do pescoço',
+          'Medicamentos que afetam a glândula: lítio, amiodarona, interferon, propiltiouracil e inibidores de tirosina quinase usados no câncer',
+          'Doença na hipófise ou no hipotálamo, forma secundária e mais rara',
+          'Fase temporária de hipofunção depois de inflamações da tireoide, como a tireoidite subaguda, a silenciosa e a do pós-parto',
+          'Iodo demais ou de menos: a glândula precisa de iodo, mas o excesso prolongado de suplementos também atrapalha',
+          'Hipotireoidismo consumptivo, raro: tumores como hemangiomas volumosos aceleram a degradação do hormônio',
+          'Depósitos dentro da tireoide, como amiloidose e hemocromatose',
+          'Causas congênitas: glândula mal formada ou defeito na produção de hormônio, geralmente descoberto na triagem do recém-nascido',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais chance de desenvolver?',
+        paragraphs: [
+          'O hipotireoidismo pode aparecer em qualquer idade, mas é particularmente comum em idosos, faixa em que os sintomas ficam tão discretos que passam despercebidos. Depois dos 65 anos, cerca de 10% das mulheres e 6% dos homens têm hipotireoidismo, segundo o Manual MSD. A associação entre hipotireoidismo e anticorpos contra a tireoide mostra nítida predominância do sexo feminino, na ordem de dois para um, e cresce com a idade.',
+          'Certas condições elevam a chance de a glândula falhar, e elas coincidem com os grupos que as diretrizes recomendam investigar: gestantes, mulheres que pretendem engravidar, mulheres acima de 60 anos e pessoas que já tiveram tratamento radioativo ou cirurgia na tireoide. Quem tem outra doença autoimune também entra nessa lista.',
+        ],
+        bullets: [
+          'Ser mulher, principalmente acima dos 60 anos',
+          'Estar gestante ou planejar uma gravidez',
+          'Ter outra doença autoimune, como diabetes tipo 1, vitiligo ou artrite reumatoide',
+          'Ter anemia perniciosa, ligada à falta de vitamina B12',
+          'Ter histórico familiar de tireoidite de Hashimoto ou de outra doença da tireoide',
+          'Ter feito radioterapia no pescoço ou tratamento com iodo radioativo',
+          'Ter sido operado da tireoide, ainda que em parte',
+          'Apresentar bócio ou nódulos descobertos em exame de imagem',
+          'Ter depressão ou outro transtorno psiquiátrico, ou usar lítio, amiodarona e medicamentos contra o câncer de forma contínua',
+          'Descobrir colesterol alto, prolactina elevada ou líquido ao redor do coração em exames de rotina',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas costumam ser discretos e aparecer aos poucos, e no início muitos pacientes não sentem nada: a alteração só aparece no exame de sangue. Os primeiros sinais mais comuns são sensação de frio, cansaço, batimentos mais lentos e perda de apetite, descreve o Manual MSD.',
+          'Com o tempo, a pele fica seca, grossa e descamativa, o cabelo fica ressecado e mais ralo, a voz sai rouca e os batimentos cardíacos diminuem. Muitas pessoas notam prisão de ventre, ganho de peso modesto ligado à retenção de líquidos e ao metabolismo mais lento, tristeza, esquecimentos e menstruação mais intensa. O colesterol costuma ficar elevado, e pode haver anemia.',
+          'Nem todo cansaço vem da tireoide. Em idosos, o quadro se apresenta de forma vaga, com confusão, falta de apetite, quedas e dores musculares, e pode imitar outras condições. Por isso a confirmação depende do exame de sangue, e não do conjunto de sensações.',
+        ],
+        bullets: [
+          'Cansaço e falta de energia',
+          'Sensação de frio fora do comum',
+          'Prisão de ventre',
+          'Pele seca e descamativa, cabelo mais ralo e palmas das mãos amareladas',
+          'Ganho de peso modesto e inchaço ao redor dos olhos, nas mãos e nos pés',
+          'Tristeza, esquecimentos e raciocínio mais lento',
+          'Voz rouca, língua aumentada e audição menos sensível',
+          'Menstruação mais intensa e dificuldade para engravidar',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'O hipotireoidismo raramente vira urgência, mas existe uma forma grave, o coma mixedematoso, que quase sempre aparece em quem já tinha hipotireoidismo longo e sem tratamento. Ele combina sonolência profunda, temperatura do corpo muito baixa, respiração lenta com acúmulo de gás carbônico, reflexos ausentes e convulsões, e pode levar à morte sem atendimento rápido.',
+          'Duas situações pedem pressa mesmo sem urgência. Na gravidez, quem já tem hipotireoidismo e descobre a gestação deve avisar o serviço de saúde, porque a necessidade de hormônio aumenta e a dose costuma precisar de revisão. Em recém-nascidos, o sinal importante não é sintoma, e sim resultado alterado no teste do pezinho: o tratamento precisa começar nos primeiros dias, antes que o desenvolvimento do cérebro seja afetado.',
+        ],
+        bullets: [
+          'Sonolência excessiva, confusão ou dificuldade para acordar',
+          'Sensação de frio intenso com corpo gelado ao toque',
+          'Respiração lenta e dificuldade para respirar',
+          'Batimentos muito lentos ou desmaio',
+          'Inchaço importante no rosto e nas pernas',
+          'Recém-nascido com teste do pezinho alterado para hipotireoidismo congênito',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Com qual médico procurar e quando?',
+        paragraphs: [
+          'O especialista que investiga e trata o hipotireoidismo é o endocrinologista. Na rede pública, a unidade básica de saúde (UBS) pode pedir o exame de sangue e encaminhar, e o Sistema Único de Saúde (SUS) cobre a consulta especializada quando há indicação. Pessoas com diabetes tipo 1, histórico familiar de doença da tireoide ou sintomas sugestivos, assim como mulheres acima de 60 anos, têm benefício em dosar o TSH mesmo sem diagnóstico conhecido.',
+          'Vale marcar avaliação quando o cansaço sem causa explicada, a pele seca, o inchaço no rosto, a prisão de ventre ou a voz rouca começam a atrapalhar a rotina. Quem já faz reposição hormonal precisa de consulta periódica, porque a dose é ajustada conforme o resultado do exame, e o acompanhamento também serve para revisar colesterol e outros exames afetados pela glândula.',
+        ],
+        bullets: [
+          'SUS e UBS: o caminho mais comum para chegar ao exame de tireoide e ao endocrinologista.',
+          'Pronto atendimento: falta de ar, dor no peito, confusão mental ou desmaio pedem atendimento imediato.',
+          'Gestante com diagnóstico ou suspeita: comunicação imediata ao serviço de saúde, porque a dose pode precisar de revisão.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'A confirmação vem do exame de sangue. TSH elevado com T4 livre baixo fecha o diagnóstico de hipotireoidismo primário, explica o Manual MSD; quando o TSH sobe e o T4 livre continua normal, o quadro é chamado de subclínico. Se o T4 estiver baixo com TSH normal ou baixo, a suspeita recai sobre a forma central, e é preciso investigar a hipófise e o hipotálamo. Para a população geral, a faixa de referência tradicional do TSH vai de 0,45 a 4,5 mU/L, e o limite superior aumenta com a idade.',
+          'Um resultado alterado precisa ser repetido, porque o TSH pode subir de forma transitória. Localizada a falha, o médico pesquisa a causa: os anticorpos contra a tireoide, como TPOAb e TgAb, apontam inflamação autoimune quando positivos. A dosagem de T3 não serve para diagnosticar a doença, porque muitos pacientes mantêm o T3 normal mesmo com a glândula deficiente.',
+          'Nem tudo que parece hipotireoidismo é hipotireoidismo. O inchaço da doença, mais firme e que não deixa marca ao dedo, se confunde com edemas sem causa aparente; a anemia, mais frequente em mulheres, pode ser tratada como se não tivesse causa, e a lentidão e a tristeza do idoso acabam atribuídas à idade ou a uma depressão. Nesses casos, a dosagem de TSH resolve a dúvida e evita tratamentos pela direção errada.',
+        ],
+        bullets: [
+          'História e exame físico: uso de outros medicamentos, doenças na família, queixas de memória, humor e atenção, planos de engravidar.',
+          'Painel tireoidiano: TSH, T4 total e T4 livre, as três medidas que separam a forma primária, a subclínica e a central.',
+          'Pesquisa de causa: anticorpos anti-tireoide e, quando há nódulos ou aumento da glândula, ultrassom.',
+          'Com o que se confunde: anemia que pode acompanhar a doença, depressão no idoso, edemas sem causa definida e doença grave recente que derruba o T3 sem alterar tanto o TSH.',
+          'Líquido ao redor do coração: quando o exame de imagem mostra derrame pericárdico, a dosagem de TSH ajuda a explicar o achado.',
+          'Antes da coleta: informe todos os remédios, vitaminas e suplementos que usa, porque alguns interferem no resultado.',
+        ],
+        cta: {
+          label: 'Leia também: sintomas e exame de sangue',
+          href: '/artigos/hipotireoidismo-sintomas-e-exame-de-sangue/',
+        },
+      },
+      {
+        id: 'tratamento-critico',
+        heading: 'Como se trata a forma mais grave?',
+        paragraphs: [
+          'A situação mais temida do hipotireoidismo é o coma mixedematoso: temperatura muito baixa, sonolência profunda que evolui até a perda total de consciência, respiração e coração falhando. Ele quase sempre aparece em quem já tinha hipotireoidismo longo e sem tratamento e exige internação imediata, com alto risco de morte.',
+          'No hospital, o resgate combina medidas, sempre sob supervisão médica:',
+        ],
+        bullets: [
+          'Identificar e tratar o fator que disparou a crise, quase sempre uma infecção',
+          'Repor o hormônio tireoidiano por via intravenosa',
+          'Manter a via respiratória livre, com oxigênio e aquecimento do corpo',
+          'Aplicar corticoide na veia, como a hidrocortisona, enquanto se avalia a produção de cortisol',
+          'Repor soro e líquidos conforme o grau de desidratação',
+          'Sustentar as funções vitais até a reversão do quadro',
+        ],
+      },
+      {
+        id: 'medidas-gerais',
+        heading: 'Que cuidados ajudam fora da reposição hormonal?',
+        paragraphs: [
+          'Repor o hormônio é o centro do tratamento, mas ajustes de causa e de consequências correm junto. Quem usa amiodarona ou lítio, medicamentos que podem frear a tireoide, não deve suspendê-los por conta própria: a decisão de trocar ou ajustar a dose é do médico que acompanha o problema original, em conversa com o endocrinologista.',
+          'Duas situações pedem atenção adicional. Morar em região com deficiência de iodo exige corrigir o consumo pela alimentação, com sal iodado, porque a falta do mineral por si só mantém a glândula produzindo pouco. E quando o hipotireoidismo veio acompanhado de anemia, a reposição de ferro, vitamina B12 ou ácido fólico deve ser orientada pelo médico, que define o que falta a partir dos exames.',
+        ],
+        bullets: [
+          'Revisar com o médico os remédios que afetam a tireoide, como amiodarona e lítio',
+          'Garantir iodo suficiente na alimentação, usando sal iodado',
+          'Tratar a anemia associada, com suplementação orientada, e reavaliar os exames depois',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento repõe o hormônio que a tireoide deixou de produzir, com a levotiroxina, forma sintética do T4, recomendada como droga de escolha pelas diretrizes. O comprimido é tomado uma vez por dia, e a dose é individualizada: depende da idade, do peso, da presença de doença cardíaca e da gravidade do quadro, e é ajustada até o TSH voltar à faixa normal. Nas pessoas idosas ou com doença coronariana, o médico começa com dose baixa e sobe aos poucos.',
+          'Para funcionar, a levotiroxina precisa ser tomada em jejum, com o estômago vazio: o ideal é engolir o comprimido uma hora antes do café da manhã, e quem não consegue pode tomar meia hora antes do café ou na hora de dormir, sempre mantendo o mesmo horário. Ferro, cálcio, antiácidos, proteína de soja e fibras em grande quantidade atrapalham a absorção, e entre o comprimido e esses produtos é preciso deixar um intervalo de cerca de quatro horas. Trocar a marca sem avisar o médico também atrapalha, porque há diferenças de absorção entre preparações.',
+          'O controle é feito com o TSH, medido de seis a oito semanas depois de qualquer mudança de dose e, em seguida, anualmente quando o nível se estabiliza. Quando a causa é a tireoidite de Hashimoto, a reposição costuma ser para a vida toda. A dose não deve ser alterada nem suspensa por conta própria: o excesso de hormônio traz risco, como fibrilação atrial em idosos, e a falta devolve os sintomas, inclusive na gravidez, em que a necessidade de medicamento aumenta e a revisão da dose com o médico faz parte do tratamento.',
+        ],
+        bullets: [
+          'Sinais de dose alta: palpitação, tremor nas mãos, insônia e apetite em excesso pedem reavaliação da dose',
+          'Nunca parar por conta própria: mesmo com melhora, o tratamento costuma ser contínuo',
+          'Esqueceu a dose? No dia seguinte, tome apenas a dose normal, sem dobrar',
+          'Cerca de quatro horas de intervalo entre o comprimido e ferro, cálcio, antiácido, soja e fibras',
+          'Tireoide seca de origem animal: teores variáveis de hormônio e excesso relativo de T3, com palpitações; não é a opção de rotina',
+        ],
+        cta: {
+          label: 'Leia também: tratamento com levotiroxina',
+          href: '/artigos/hipotireoidismo-tratamento-com-levotiroxina/',
+        },
+      },
+      {
+        id: 'complicacoes',
+        heading: 'O hipotireoidismo é grave? Dá para curar?',
+        paragraphs: [
+          'A resposta sobre a cura depende da causa. Quando a tireoide foi destruída por doença autoimune, removida por cirurgia ou atingida por iodo radioativo, a reposição é para a vida toda, e não se fala em cura, e sim em controle. Quando o problema veio de um medicamento ou de uma inflamação passageira da glândula, a função pode voltar ao normal depois do tratamento. Na tireoidite de Hashimoto, a maioria precisa de reposição contínua, e há relatos de melhora espontânea.',
+          'É grave? No início, quase sempre não: existe apenas alteração no exame de sangue. Sem tratamento, porém, a doença alcança vários órgãos, e parte das lesões regride quando o hormônio volta ao normal, enquanto as formas avançadas podem ameaçar a vida. O padrão de quem trata direito é outro: com a dose ajustada, a pessoa leva uma vida normal.',
+          'O que faz a gravidade subir é o tempo sem tratamento: edema generalizado, colesterol alto e as complicações listadas abaixo. Elas concentram o dano onde o metabolismo mais lento pesa: coração, sistema nervoso e fertilidade.',
+        ],
+        bullets: [
+          'Bócio: a glândula é estimulada sem parar para produzir hormônio e pode crescer até apertar o esôfago e a via respiratória, dificultando engolir e respirar.',
+          'Coração e circulação: colesterol alto, maior risco de arteriosclerose e de doença coronariana, líquido ao redor do coração e força de contração reduzida.',
+          'Saúde mental: humor deprimido e, nos quadros mantidos, depressão.',
+          'Nervos periféricos: dormência e formigamento nas mãos e nos pés, como se a pessoa calçasse luvas e meias.',
+          'Coma mixedematoso: o desfecho mais grave, quase sempre disparado por infecção, com hipotermia, queda de consciência e risco de morte.',
+          'Fertilidade e gestação: a ovulação fica irregular e a concepção difícil, e o hipotireoidismo sem controle na mãe aumenta o risco de defeitos congênitos e de atraso no desenvolvimento da criança.',
+          'Anemia que se corrige com o tratamento adequado, às vezes levando de seis a nove meses para desaparecer.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como cuidar do hipotireoidismo no dia a dia?',
+        paragraphs: [
+          'Com a dose certa, a maioria das pessoas leva a vida normalmente e os sintomas desaparecem. O que faz diferença é a regularidade: tomar o comprimido sempre no mesmo horário, com o estômago vazio, e não emendar a dose com ferro, cálcio ou polivitamínico. Em consultas de outras especialidades, informe que você usa levotiroxina, e avise antes de trocar de marca.',
+          'Quem convive com a doença sente mais frio e cansa com mais facilidade, então a rotina precisa compensar: ambiente aquecido, agasalho, meias e luvas nos dias frios, sono regular e atividades leves que não pesam, como a caminhada. O lado emocional também conta: tratamento longo cansa a paciência, e a família, ouvindo e acompanhando, ajuda a manter o ritmo.',
+        ],
+        bullets: [
+          'Fibras no prato, como aveia e pães integrais, para o intestino se mover; pouco sal e pouca gordura.',
+          'Moderação com algas e suplementos de iodo, sobretudo nos casos de Hashimoto, porque podem atrapalhar o controle.',
+          'Nunca tomar suplementos ou fórmulas que prometem hormônio tireoidiano por conta própria.',
+          'Caminhada ou bicicleta em ritmo leve na maioria dos dias, dentro do seu limite.',
+          'Dormir em horário regular e dar-se tempo: a doença é crônica, mas responde bem ao tratamento.',
+          'Agasalho e casa aquecida nos dias frios, com meias e luvas.',
+          'Antes de apelar para laxante, tente água, fibras e movimento para a prisão de ventre.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Depois do tratamento, o que monitorar?',
+        paragraphs: [
+          'O TSH é o número que guia o tratamento. Ele é medido algumas semanas depois de qualquer mudança de dose e, estabilizado o nível, na cadência definida pelo médico. Na gestante em reposição hormonal, os controles são mais frequentes, porque a necessidade de hormônio muda ao longo da gravidez.',
+          'O corpo também dá sinal de que a dose não está certa: friolento, sono excessivo e lentidão voltam quando falta hormônio; palpitação, tremor e insônia aparecem quando sobra. Nos dois casos, é hora de antecipar a consulta e repetir os exames, em vez de ajustar o comprimido por conta.',
+          'Idosos precisam vigiar de perto o coração e o colesterol, que a doença altera. E em qualquer idade, piora do inchaço ou do cansaço pede reavaliação.',
+        ],
+        bullets: [
+          'Inchaço ou cansaço piorando: procurar reavaliação, sem esperar a consulta marcada',
+          'Palpitação, tremor, insônia: sinais de que a dose está alta, e a consulta deve ser antecipada',
+          'Gestante e no pós-parto: a reposição hormonal continua, com exames repetidos em intervalos menores',
+          'Não parar por conta própria: a suspensão traz o quadro de volta',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Dá para prevenir?',
+        paragraphs: [
+          'Quando a causa é autoimune, não há como impedir a tireoidite de Hashimoto. O que se pode evitar é o hipotireoidismo por falta de iodo, e a medida é simples: usar sal iodado. Desde a adoção do sal iodado, a deficiência grave de iodo tornou-se rara na maior parte do mundo, e a Organização Mundial da Saúde recomenda a iodação do sal de consumo humano justamente para eliminar esse problema. Para o iodado valer a pena, o caminho é comer menos sal no total, não mais.',
+          'A outra frente é o diagnóstico precoce. Adultos com sintomas, mulheres acima de 60 anos, gestantes e pessoas com outra doença autoimune se beneficiam da dosagem de TSH. Não se recomenda testar todos os adultos sem sintoma, para evitar tratar alterações laboratoriais leves que não precisariam de terapia, mas todo recém-nascido deve ser testado, porque o hipotireoidismo congênito causa dano irreversível quando não é tratado.',
+        ],
+        bullets: [
+          'Usar sal iodado em casa',
+          'Evitar suplementos de iodo e algas em dose alta por conta própria',
+          'Fazer o teste do pezinho entre o 3º e o 5º dia de vida',
+          'Procurar avaliação se houver cansaço, frio e constipação persistentes',
+          'Repetir o exame quando o médico pedir, antes de iniciar o tratamento',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Hipotireoidismo é a mesma coisa que metabolismo lento?',
+        answer:
+          'Metabolismo lento é a consequência do hipotireoidismo, não um diagnóstico. Cansaço, sensação de frio e ganho de peso modesto têm muitas causas, e os sintomas da doença são descritos como discretos e inespecíficos, sobretudo em idosos. A diferença se resolve com a dosagem de TSH no sangue, e não com a impressão de estar com o metabolismo lento.',
+      },
+      {
+        question: 'O tratamento com levotiroxina precisa continuar para sempre?',
+        answer:
+          'Na maioria dos casos sim, principalmente quando a causa é a tireoidite de Hashimoto: a pessoa precisa tomar hormônio tireoidiano pelo resto da vida. Já o hipotireoidismo provocado por excesso de alguns medicamentos usados contra o hipertireoidismo desaparece quando eles são suspensos, o que deve ser feito com orientação médica.',
+      },
+      {
+        question: 'Posso tomar a levotiroxina com café ou com leite?',
+        answer:
+          'Não junto com a dose. Café, proteína de soja e fibras diminuem a absorção do hormônio, assim como cálcio, presente no leite e nos derivados, e o ferro de suplementos. A recomendação das diretrizes é tomar o comprimido em jejum e esperar cerca de 30 minutos antes do café da manhã; quem não consegue pode, com orientação, tomar a dose à noite.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'hipotireoidismo-sintomas-e-exame-de-sangue',
+      'hipotireoidismo-tratamento-com-levotiroxina',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['diabetes', 'colesterol-alto', 'anemia-ferropriva'],
+    references: [
+      {
+        label: 'Hipotireoidismo',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipotireoidismo',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Hipotireoidismo, edição profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-end%C3%B3crinos-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipotireoidismo',
+        publisher: 'Manual MSD Edição para Profissionais',
+      },
+      {
+        label: 'Considerações gerais sobre a tireoide',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/considera%C3%A7%C3%B5es-gerais-sobre-a-tireoide',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Hipotireoidismo Congênito Primário',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipotireoidismo-congenito-primario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Diretrizes clínicas práticas para o manejo do hipotiroidismo',
+        url: 'https://www.scielo.br/j/abem/a/RyCDtMtQqCKP5vG8hVSwpQC/?lang=pt',
+        publisher: 'Arquivos de Endocrinologia e Metabologia (SciELO Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'infeccao-urinaria',
+    slug: 'infeccao-urinaria',
+    name: 'Infecção urinária (cistite)',
+    aliases: ['infecção do trato urinário', 'ITU', 'cistite', 'pielonefrite', 'infecção na bexiga'],
+    summary:
+      'Infecção causada por bactérias em qualquer ponto do caminho da urina, da bexiga aos rins. É muito mais frequente em mulheres, costuma responder rápido ao tratamento, e pede atenção imediata quando aparecem febre e dor nas costas.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é a infecção urinária?',
+        paragraphs: [
+          'A infecção urinária, ou infecção do trato urinário (ITU), começa quando microrganismos invadem a uretra e se multiplicam ali, provocando inflamação. O trato urinário é formado por rins, ureteres, bexiga e uretra, e a infecção pode ocorrer em qualquer um desses pontos. Os sinais mais conhecidos são ardência ao urinar, vontade repetida de ir ao banheiro, urina turva ou com sangue.',
+          'A causa mais frequente é bacteriana. Vírus, micoplasma e outros agentes também podem infectar o trato urinário, mas, quando alguém fala em infecção urinária, quase sempre está falando de uma infecção bacteriana. Com a parede dos órgãos urinários inflamada, o tecido incha e dói, e o quadro pode subir até os rins, o que muda a gravidade e o tempo de tratamento.',
+          'Depois das gripes e resfriados, a ITU é uma das infecções mais comuns, e o choque de origem urinária está entre as infecções que mais levam a óbito. Segundo o Manual MSD, entre 40% e 50% das mulheres têm pelo menos uma ITU ao longo da vida, contra 5% a 12% dos homens. Na maior parte dos casos, o antibiótico certo resolve em poucos dias.',
+        ],
+        bullets: [
+          'Crianças pequenas e idosos: as defesas mais fracas facilitam a entrada das bactérias, e em meninos pequenos o quadro é mais comum quando existe alteração congênita da uretra',
+          'Mulheres adultas: adoecem muito mais que os homens, porque a uretra feminina é curta e a abertura fica perto da vagina e do ânus',
+          'Mulheres jovens: o risco sobe com a vida sexual, a gravidez e o uso de contraceptivo com espermicida',
+          'Mulheres mais velhas: a infecção fica mais frequente e muitas vezes não dá sintoma nenhum, o que atrasa o diagnóstico',
+          'Homens: caso raro antes da meia-idade, salvo quando há malformação urinária; com o crescimento da próstata, a frequência aumenta',
+          'Quem já teve uma ITU: parte das pessoas tem um episódio novo nos meses seguintes',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de infecção urinária?',
+        paragraphs: [
+          'A infecção urinária é classificada por critérios que mudam a conduta: o local afetado, a presença ou não de sintomas, se o trato urinário é normal e se os episódios se repetem. O tipo define quais exames pedir, qual antibiótico usar e por quanto tempo.',
+          'Na prática, a distinção que mais pesa no atendimento é entre infecção baixa, que fica na bexiga e na uretra, e infecção alta, que chega aos rins. Também importa saber se o episódio é isolado ou de repetição, porque a repetição tem duas explicações diferentes e cada uma pede um plano.',
+        ],
+        bullets: [
+          'Pelo local: infecção das vias baixas (bexiga e uretra), como a cistite, e das vias altas (rins e ureteres), como a pielonefrite',
+          'Pelo sintoma: forma sintomática, com dor e urgência, e forma assintomática, em que a cultura mostra bactéria sem que a pessoa perceba nada',
+          'Pela condição urinária: infecção simples, em vias normais, e complicada, quando existe obstrução, cálculo, imunidade baixa, cateter ou infecção adquirida no hospital',
+          'Pelo histórico: episódio único ou infecções de repetição',
+          'Reinfecção: uma bactéria nova volta a entrar pela uretra depois de o episódio anterior ter sido curado',
+          'Recidiva: a mesma bactéria fica escondida em um cálculo ou na próstata e reativa o quadro',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a infecção urinária?',
+        paragraphs: [
+          'Na imensa maioria dos episódios, um único tipo de bactéria está por trás da infecção. Os microrganismos chegam ao trato urinário por quatro caminhos: subindo da uretra, pela corrente sanguínea, por contiguidade de um órgão vizinho infectado ou pela linfa. A via ascendente, da uretra para a bexiga e por vezes até os rins, é a mais comum, e o fluxo da urina a cada esvaziamento é o que remove boa parte delas.',
+          'A Escherichia coli, que vive no intestino, é a bactéria que mais causa ITU, especialmente nas infecções simples, no primeiro episódio e nas formas sem sintoma. Depois dela vêm outras gram-negativas, como Klebsiella, Proteus e Citrobacter. Os gram-positivos, sobretudo enterococos e estafilococos que não produzem coagulase, explicam uma parcela menor dos casos, que vem crescendo.',
+          'O perfil do germe muda quando a infecção é hospitalar, de repetição ou surge depois de cateterismo e cistoscopia: aí aparecem enterococos, Proteus, Klebsiella e Pseudomonas. O uso crescente de antibióticos e de medicamentos que suprimem a imunidade também ampliou as infecções por fungos e as cepas resistentes. Vírus como o adenovírus podem causar cistite aguda com sangue na urina em crianças e jovens, às vezes em pequenos surtos, e a micobactéria da tuberculose, a clamídia e os fungos também atingem o trato urinário.',
+        ],
+        bullets: [
+          'E. coli: de origem intestinal, responde pela maioria dos casos, inclusive cerca de 80% das pielonefrites fora do ambiente hospitalar',
+          'Klebsiella e outras: Klebsiella, Proteus e Citrobacter são gram-negativas de infecções mais complexas, e o Proteus costuma acompanhar cálculos urinários',
+          'Pseudomonas: aparece com frequência depois de exame instrumentado ou uso de cateter',
+          'Estafilococo dourado: chega ao rim quando existe bactéria circulando no sangue',
+          'Enterococos e outros: ganham espaço depois de vários cursos de antibiótico',
+          'Adenovírus, tuberculose, clamídia e fungos: causas menos frequentes, ligadas a cistite com sangue na urina ou imunidade baixa',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco de desenvolver?',
+        paragraphs: [
+          'O trato urinário saudável tem defesas próprias: o fluxo da urina lava a uretra a cada esvaziamento, e a bexiga costuma estar livre de bactérias. Quando algo atrapalha essa limpeza ou enfraquece a resposta imune, as bactérias encontram espaço para se multiplicar e provocar inflamação.',
+          'As mulheres são as mais atingidas, principalmente durante os anos férteis, e a explicação é anatômica: a uretra feminina é curta e a sua abertura fica perto da vagina e do ânus, regiões onde essas bactérias são comuns. A relação sexual favorece o deslocamento das bactérias até a uretra, e o uso de diafragma com espermicida aumenta o risco, porque o espermicida reduz as bactérias protetoras da vagina. Depois da menopausa, a menor produção de estrogênio afina os tecidos ao redor da uretra e facilita episódios repetidos.',
+        ],
+        bullets: [
+          'Fluxo e esvaziamento: cálculo renal, aumento da próstata, estreitamento da uretra e tumores retêm urina, e segurar a vontade faz o mesmo; no refluxo vesicureteral, a valva entre o ureter e a bexiga falha e a urina volta ao rim carregando bactérias; e a bexiga neurogênica, por lesão da medula ou neuropatia do [diabetes](/doencas/diabetes/), impede o esvaziamento completo, com o cateterismo repetido somando risco',
+          'Gravidez: os ureteres se movem mais devagar, a proteção contra o refluxo diminui e o útero comprime a saída da bexiga',
+          'Imunidade baixa: imunossupressores de uso contínuo, doenças crônicas, [HIV/aids](/doencas/hiv-aids/) e pessoas acamadas',
+          'Malformação urinária: rim pequeno ou malformado, ureter com trajeto alterado, rim policístico e transplante renal',
+          'Anatomia e vida sexual: a uretra feminina é curta e fica próxima à vulva e ao ânus; a relação sexual empurra bactérias para a uretra, e urinar logo depois ajuda; e o espermicida desorganiza a flora vaginal, abrindo espaço para as bactérias causadoras',
+          'Fimose e prepúcio longo: a umidade sob o prepúcio acumula bactérias próximas à abertura da uretra',
+          'Cateter e instrumentação: sondagem e cistoscopia lesionam a mucosa, e quanto mais dias com a sonda colocada, maior o risco',
+          'História familiar: a maior ou menor facilidade para infectar depende também de fatores genéticos',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da infecção urinária?',
+        paragraphs: [
+          'O quadro mais conhecido é o da cistite, a infecção da bexiga. A pessoa vai ao banheiro o tempo todo, urina pouco de cada vez, sente ardência ou dor enquanto a urina sai e uma dor surda no baixo ventre, acima do osso púbico. A vontade pode ser tão intensa que escapa um pouco de urina sem controle, e à noite é preciso levantar várias vezes.',
+          'Na cistite aguda simples, a urina sai turva, quase esbranquiçada, e o exame mostra muitos leucócitos; no final do jato aparece sangue, e em casos mais intensos o sangue surge durante toda a micção, às vezes com coágulos. Febre alta é incomum nesse tipo. Já a cistite de repetição volta várias vezes ao ano, com os mesmos sinais, e pede plano de prevenção.',
+          'Quando a infecção chega ao rim, o caráter muda: além da ardência, aparece dor lombar de um lado ou dos dois, no ponto entre a costela e a coluna, dolorosa à palpação, com calafrios intensos, dor de cabeça, enjoo e febre alta. Cerca de 30% das pessoas com pielonefrite também têm sintomas de cistite. A forma crônica dá sinais vagos, como dor lombar ocasional e mais idas ao banheiro à noite, e pode evoluir para insuficiência renal se não for controlada. Existe ainda a bacteriúria sem sintoma algum, detectada apenas na cultura, e a infecção complicada, que em quem tem cálculo ou diabetes pode ir além da bexiga e chegar à corrente sanguínea.',
+        ],
+        bullets: [
+          'Cistite: urgência e frequência urinárias, ardência ao urinar, dor acima do osso púbico, urina turva e por vezes com sangue',
+          'Cistite de repetição: episódios semelhantes que voltam ao longo do ano',
+          'Pielonefrite aguda: febre alta com calafrios, dor lombar de um lado ou dos dois, enjoo e vômito',
+          'Pielonefrite crônica: dor lombar vaga, mais micções noturnas e mal-estar persistente, com risco de insuficiência renal',
+          'Bacteriúria assintomática: nenhuma queixa, e a cultura encontra bactérias na urina',
+          'Infecção complicada: sintomas variados em quem tem cálculo, obstrução ou diabetes, podendo evoluir para infecção generalizada',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Alguns sinais indicam que a infecção pode ter chegado aos rins ou que a pessoa precisa ser vista no mesmo dia. Febre com calafrios, dor na região lombar, enjoo e vômito que impedem de tomar líquido formam o conjunto mais importante. Em gestantes, qualquer sintoma de infecção urinária pede avaliação imediata, porque a gravidez aumenta o risco de infecção renal.',
+          'Homens com ardência e vontade frequente de urinar também devem ser avaliados sem demora, já que a próstata costuma estar envolvida e o tratamento é mais longo. Em pessoas idosas, a mudança súbita do estado de atenção, a sonolência ou a queda do estado geral podem ser o único sinal de que existe uma infecção urinária.',
+        ],
+        bullets: [
+          'Febre alta acompanhada de calafrios',
+          'Dor nas costas, na região dos rins',
+          'Vômito que impede de tomar líquido ou de usar o medicamento',
+          'Sintomas urinários durante a gravidez',
+          'Confusão mental ou sonolência em pessoa idosa',
+          'Ausência de melhora depois de dias de tratamento',
+        ],
+        cta: {
+          label: 'Leia também: sintomas e quando procurar atendimento',
+          href: '/artigos/infeccao-urinaria-sintomas-e-quando-procurar-atendimento/',
+        },
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Com qual especialista devo consultar?',
+        paragraphs: [
+          'A primeira aparição de urgência, frequência ou dor ao urinar, assim como dor lombar ou febre, já é motivo para buscar avaliação no mesmo dia, e não para esperar que passe. Quem suspeita de infecção urinária deve procurar a urologia; a nefrologia é o caminho quando a questão envolve o rim, e a ginecologia, quando a mulher apresenta também queixas ginecológicas.',
+          'Na consulta, o raciocínio se monta em três partes: a história com as condições já conhecidas, o relato dos sintomas e o exame físico, somados aos exames de urina e de sangue e, quando necessário, à ultrassonografia ou à tomografia. Homens com sintomas urinários, crianças, gestantes e quem tem infecções repetidas merecem investigação da causa, e não apenas o tratamento do episódio.',
+        ],
+        bullets: [
+          'Urologia: especialidade de primeira escolha quando a infecção urinária é suspeitada',
+          'Nefrologia: quando o rim está acometido ou a função renal preocupa',
+          'Ginecologia: para a mulher que apresenta também queixa ginecológica',
+          'Serviço de emergência: febre alta com calafrios, dor lombar intensa, vômito, gravidez ou queda do estado geral',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Quais exames confirmam a infecção?',
+        paragraphs: [
+          'A avaliação começa pelos sintomas e pelo exame físico. Infecção das vias baixas dá urgência, frequência e dor ao urinar; infecção das vias altas dá dor lombar e febre. É preciso lembrar que parte importante das pessoas com sintomas de cistite tem, na verdade, infecção também no rim, e isso aparece quando a investigação é completa.',
+          'A forma de colher a amostra muda o resultado: higieniza-se a abertura da uretra e coleta-se o jato médio da urina, em recipiente limpo, para evitar a contaminação pela pele. Na infecção urinária a urina tende a sair turva e com odor diferente, e o exame mostra leucócitos acima do normal, hemácias ou proteína. Como quase todo caso altera esse exame, ele é central para decidir. A tira reagente pesquisa o nitrito, produzido por bactérias como a E. coli, e a esterase leucocitária, enzima que indica reação do corpo à infecção; o nitrito é bom para esse germe específico, mas deixa escapar outros, por isso funciona como rastreio. A urocultura identifica o microrganismo e mede sua quantidade, e é ela que orienta o antibiótico; quando o resultado é positivo em pessoa sem sintoma, costuma-se repetir a coleta para confirmar.',
+          'No sangue, o hemograma mostra leucócitos e neutrófilos elevados na pielonefrite aguda, com velocidade de hemossedimentação aumentada, e a creatinina sobe quando a infecção crônica já prejudicou a filtração do rim. A imagem entra em cena nas infecções de repetição, nas pielonefrites recorrentes, no sangue na urina sem dor, na suspeita de cálculo ou obstrução e em quem não melhora em 72 horas de antibiótico.',
+        ],
+        bullets: [
+          'Sintomas e sinais: ardência e urgência apontam a bexiga; febre e dor lombar apontam o rim',
+          'Urina tipo 1: turvação, leucócitos, hemácias e proteína acima do normal',
+          'Urocultura com antibiograma: colhida do jato médio após a higiene, define o germe e escolhe o antibiótico',
+          'Tira reagente: nitrito e esterase leucocitária como rastreio rápido',
+          'Hemograma, VHS e creatinina: medem a reação inflamatória e a função do rim',
+          'Ultrassonografia urinária: primeiro exame de imagem, sem dor, para mostrar obstrução, pus e cálculo',
+          'Urografia excretora: evidencia cálculos das vias altas e alterações anatômicas',
+          'Tomografia computadorizada: detalha a lesão quando o diagnóstico precisa ser confirmado',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais pode causar esses sintomas?',
+        paragraphs: [
+          'Nem toda ardência e urgência urinária vem de infecção, e errar aqui significa tratar errado. Em mulheres, vaginite e úlceras da vulva produzem sintomas parecidos; o exame ginecológico, com inspeção das secreções e palpação da pelve, separa as duas origens. Quando há sintomas urinários claros e pus na urina, mas a cultura comum é negativa, a suspeita recai sobre gonococo e clamídia, bactérias de infecção sexualmente transmissível que costumam começar pela uretra e pedem investigação específica em vez de tratamento para cistite.',
+          'Também é preciso pensar em tuberculose do trato urinário quando o antibiótico habitual não faz efeito. Mulher com urgência e frequência sem infecção comprovada pode ter bexiga hiperativa, condição em que o músculo da bexiga se contrai sem relação com bactéria. No homem jovem, a hipótese mais provável é a prostatite; no mais velho, a hiperplasia prostática, e o toque retal com a análise do líquido prostático ajudam a decidir. Em pessoas mais velhas com irritação urinária persistente e nenhuma bactéria encontrada, a cistoscopia com coletas de tecido em áreas suspeitas é o exame que confirma ou afasta o carcinoma in situ da bexiga.',
+        ],
+        bullets: [
+          'Origem ginecológica: vaginite e úlcera de vulva, separadas pelo exame ginecológico e pela palpação pélvica',
+          'Doença sexual transmissível: gonococo e clamídia, quando a uretra é o ponto de partida',
+          'Infecção específica: tuberculose, suspeita com pus na urina, cultura de rotina negativa e antibiótico que não responde',
+          'Bexiga hiperativa: urgência e frequência sem infecção, por contração involuntária do músculo da bexiga',
+          'Próstata: prostatite no homem jovem e hiperplasia prostática no mais velho, avaliadas pelo toque retal e pelo líquido prostático',
+          'Carcinoma in situ da bexiga: irritação urinária persistente sem bactéria, esclarecida por cistoscopia com biópsia',
+        ],
+      },
+      {
+        id: 'tratamento-geral',
+        heading: 'O que fazer nos primeiros dias?',
+        paragraphs: [
+          'Nos dias iniciais, o tratamento se apoia em três pilares: repouso, líquido em abundância e antibiótico usado de forma correta, com dose suficiente e duração completa. A escolha do medicamento segue o resultado da cultura, e o objetivo é eliminar a bactéria, não apenas apagar a ardência. Quem tem episódios de repetição precisa ainda procurar e corrigir o fator que os alimenta.',
+          'Quando a urgência, a frequência e o sangue na urina são intensos, o profissional pode indicar a alcalinização da urina, que alivia a dor ao urinar, atrapalha a multiplicação das bactérias e dificulta a formação de coágulos. Quem usa sulfonamido precisa desse cuidado adicional, porque o medicamento pode formar cristais e lesionar o rim. A cura se mede de duas formas: sintomas desaparecidos e culturas de controle sem crescimento do germe; a persistência da bactéria ou o retorno do mesmo microrganismo no controle indica falha e exige reavaliação.',
+        ],
+        bullets: [
+          'Repouso durante a fase aguda',
+          'Líquidos ao longo de todo o dia, para urinar em volume e lavar a bexiga',
+          'Esvaziar a bexiga sempre que a vontade aparecer, sem segurar',
+          'Alimentação leve e rica em vitaminas quando há febre, com pouca gordura, sal e açúcar',
+          'Alcalinização da urina em casos escolhidos, sempre com orientação profissional, e obrigatória junto com sulfonamido',
+          'Culturas de controle depois do tratamento para confirmar a eliminação da bactéria',
+          'Reavaliação se não houver melhora no prazo combinado ou se surgirem febre e dor lombar',
+        ],
+      },
+      {
+        id: 'tratamento-medicamentoso',
+        heading: 'Como é o tratamento com antibióticos?',
+        paragraphs: [
+          'O antibiótico é escolhido a partir da situação clínica de cada pessoa e, sempre que possível, da urocultura com o teste de sensibilidade. As regras da escolha são: ação contra o germe identificado, concentração suficiente na urina e no tecido renal, toxicidade baixa e associação de mais de um medicamento quando a infecção é complicada, mista ou não responde. Como a reação de cada organismo é diferente, não existe um antibiótico melhor, mais rápido ou mais eficaz de forma absoluta, e a decisão é de quem atende. O prazo do tratamento também depende do tipo de infecção.',
+          'Na cistite simples de mulher na pré-menopausa e fora da gravidez, o curso curto resolve a maior parte dos episódios: três dias com fosfomicina, nitrofurantoína ou fluoroquinolona, enquanto as cefalosporinas de segunda geração pedem um curso um pouco mais longo. A moxifloxacina não é indicada para esse fim, porque não atinge boa concentração na urina. Depois do tratamento, o controle com novo exame de urina faz parte da conduta. Nas infecções mais persistentes, o antibiótico se estende por sete a catorze dias.',
+          'A pielonefrite fora da gravidez pede medicamento que atue também no sangue: oral por uma a duas semanas nos quadros leves, endovenoso nos graves, com troca para a via oral depois que a febre cede. Reavaliar em 72 horas é parte do protocolo, e sem melhora a conduta muda; em homens com envolvimento da próstata, o prazo pode chegar a seis semanas. Febre alta com dor lombar, vômito que impede a via oral, sinais de sepse ou obstrução levam à internação. Nos episódios de repetição existe a opção de dose baixa noturna por período definido, decisão que cabe a quem acompanha o caso.',
+        ],
+        bullets: [
+          'Cistite: curso curto de três dias na pré-menopausa, com controle no fim do tratamento; após a menopausa, o mesmo esquema antibiótico ganha reforço da reposição de estrogênio orientada pelo ginecologista, que recupera a mucosa e reduz recaídas',
+          'Pielonefrite: oral nos quadros leves, endovenoso nos graves, com troca para oral quando a febre cede',
+          'Gravidez: pesquisar bacteriúria assintomática no pré-natal, tratar com base na cultura e repetir o exame para confirmar a eliminação; penicilinas como a amoxicilina, cefalosporinas e fosfomicina são as opções habitualmente seguras, e tetraciclinas, fluoroquinolonas, aminoglicosídeos e vancomicina devem ser evitados na gestação, pelo risco ao feto',
+          'Recaída por reinfecção: antibiótico em dose baixa, à noite, por período definido, com troca programada do medicamento',
+          'Recaída por recidiva: antibiótico mais potente, por prazo maior e, em casos resistentes, por via endovenosa',
+          'Infecção complicada: intensidade do antibiótico conforme a gravidade, além de corrigir cálculo e obstrução e controlar a [diabetes](/doencas/diabetes/); os casos graves pedem internação e suporte nutricional',
+          'Infecção ligada a cateter: retirar a sonda desnecessária o quanto antes, trocar por uma nova quando ela for indispensável e considerar o cateterismo intermitente; oral nos casos leves, endovenoso nos graves e antifúngico quando o germe for fungo, sem prevenção com antibiótico de uso contínuo',
+          'Alívio dos sintomas: existe medicamento para a ardência urinária, mas ele apenas reduz o desconforto até o antibiótico agir',
+        ],
+      },
+      {
+        id: 'outros-tratamentos',
+        heading: 'Há tratamentos além do antibiótico?',
+        paragraphs: [
+          'Há situações em que resolver a infecção não basta, e é preciso corrigir o problema que a alimenta. A cirurgia entra nesses casos, sempre depois de a infecção estar controlada: cálculo no rim ou no ureter, obstrução da saída da bexiga pelo aumento da próstata, malformação como a estenose da junção entre a pelve renal e o ureter, e fimose ou prepúcio longo com infecções repetidas, em que a postectomia resolve.',
+          'Não há comprovação de que chás, fitoterápicos ou acupuntura tratem a infecção urinária, e nenhum deles substitui o antibiótico. Se a pessoa quiser usar alguma dessas práticas como complemento, isso deve ser conversado com quem acompanha o caso, e o tratamento prescrito não pode ser interrompido por conta própria.',
+        ],
+        bullets: [
+          'Cálculo urinário: retirada ou fragmentação da pedra que retém urina e abriga bactéria',
+          'Próstata: cirurgia para o aumento que impede o esvaziamento completo da bexiga',
+          'Malformação: correção da estenose da junção entre o rim e o ureter',
+          'Fimose: postectomia quando o prepúcio longo acompanha infecções repetidas',
+          'Momento da cirurgia: sempre depois de controlar a infecção',
+          'Fitoterápicos e chás: não há comprovação de que curem a infecção',
+          'Acupuntura: não substitui o antibiótico nem o tratamento prescrito',
+          'Transparência: informe à equipe todo produto ou prática que estiver usando',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'Tratada no começo, a infecção urinária raramente deixa sequela, e a maioria das pessoas cura completamente. Uma parcela mantém bactéria na urina ou volta a ter episódios. Quando existe obstrução, cálculo ou alteração do trato urinário, a cura é mais difícil e demorada, e boa parte desses pacientes continua com bacteriúria ou crises repetidas enquanto o problema estrutural não for corrigido. O tratamento com antibiótico por conta própria piora o cenário: o uso indevido e o uso em excesso são um dos principais fatores que geram resistência bacteriana, segundo a Organização Mundial da Saúde, e isso torna infecções futuras mais difíceis de tratar.',
+          'As complicações aparecem mais em quem tem [diabetes](/doencas/diabetes/) descontrolada ou obstrução do fluxo urinário. A necrose papilar é uma das mais graves entre as que atingem o rim: tecido da parte interna morre, em pielonefrite muito intensa ou quando há diabetes ou bloqueio da urina. No abscesso perirrenal, a inflamação atravessa a capa do rim e forma coleção de pus ao redor, causada por gram-negativas, com destaque para a E. coli, e favorecida por diabetes e cálculo. Certas bactérias, como o Proteus, decompõem a ureia e levam ao cálculo infeccioso, que passa a abrigar o microrganismo e a alimentar novas crises.',
+          'A complicação que mais ameaça a vida é a sepse por gram-negativos: a bactéria sai do foco urinário e cai na corrente sanguínea, o que acontece quando a infecção aguda piora de repente ou depois de cistoscopia e de manobra com cateter, e o risco cresce muito em quem mantém a sonda por dias. Em pessoas idosas, em quem usa cateter por muito tempo ou em quem tem bexiga neurogênica, a pielonefrite pode não dar sinal urinário claro e se manifestar como confusão mental ou sepse. O risco aumenta quando o rim já está comprometido por outra causa, como a [doença renal crônica](/doencas/doenca-renal-cronica/), e a pielonefrite crônica com obstrução ou refluxo pode lesionar o rim de forma permanente.',
+        ],
+        bullets: [
+          'Necrose papilar: morte de tecido dentro do rim, ligada a pielonefrite grave, diabetes ou obstrução',
+          'Abscesso perirrenal: pus que atravessa a cápsula do rim, mais provável com diabetes e cálculo',
+          'Cálculo infeccioso: pedra formada pela ação de bactérias que decompõem a ureia, que depois mantém a infecção',
+          'Sepse por gram-negativos: bactéria na corrente sanguínea, com risco maior após instrumentação e cateter de demora',
+          'Pielonefrite crônica: lesão renal permanente quando há obstrução ou refluxo',
+          'Infecções de repetição, internação e limitação da rotina e do sono',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como cuidar no dia a dia?',
+        paragraphs: [
+          'Na fase aguda, o cuidado em casa é simples e faz diferença: repouso suficiente, água ao longo de todo o dia e micção sem segurar. Se há febre, a escolha recai sobre alimentos fáceis de digerir, ricos em vitaminas e nutrientes, como verduras, mingaus de grãos integrais e peixe cozido no vapor, com proteína de qualidade e pouco sal, açúcar e gordura.',
+          'Fora da crise, os hábitos que sustentam a defesa do organismo são os mesmos que reduzem a chance de recidiva: beber água em quantidade, urinar quando a vontade aparece, lavar a região genital externa com água limpa diariamente e manter o local seco, urinar e lavar a região após a relação sexual e praticar atividade física compatível com a própria condição, como caminhada ou natação. A pessoa que tem episódios repetidos deve levar ao profissional a conta de quantas crises houve no ano e o que elas têm em comum.',
+          'Na infecção complicada, a que acompanha diabetes, cálculo ou uso permanente de cateter, o acompanhamento é mais rigoroso: tomar o medicamento nos horários indicados, voltar às consultas de revisão e trocar a sonda no prazo combinado. Durante o tratamento, somam-se três cuidados que dependem apenas da própria pessoa: repouso, hidratação generosa e esvaziamento da bexiga sem demora, além de suspender a atividade sexual até a resolução do episódio.',
+        ],
+        bullets: [
+          'Hidratação: água distribuída ao longo do dia',
+          'Micção: não segurar a urina e esvaziar bem a bexiga',
+          'Higiene: lavar a região genital externa com água limpa e manter seca',
+          'Depois da relação sexual: urinar e lavar a região',
+          'Exercício: caminhada, natação ou outra atividade tolerada',
+          'Cateter: troca no prazo orientado, com consulta de revisão periódica',
+          'Durante o tratamento: repouso, líquido e atividade sexual suspensa até a resolução do quadro',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir as infecções de repetição',
+        paragraphs: [
+          'Boa parte da prevenção está em hábitos que a própria pessoa controla. Beber água em pequenas quantidades várias vezes ao dia, urinando em intervalos regulares, usa a força de limpeza da urina para remover bactérias antes que elas se multipliquem, e essa é uma das medidas com melhor resultado. A limpeza da região do períneo merece atenção extra na menstruação, na gravidez e no pós-parto, e homens com prepúcio longo precisam higienizar o local, com postectomia quando indicada.',
+          'Outras decisões pedem avaliação: cateteres e outros instrumentos só devem ser usados quando indispensáveis, com técnica asséptica, e a cultura de urina faz parte da vigilância durante o uso prolongado desses materiais, com antibiótico antes se houver sinal de infecção; em quem precisa manter a sonda por muito tempo, os primeiros dias de cateter podem ser cobertos por antibiótico, por orientação profissional. Quem tem recaídas ligadas à relação sexual se beneficia de urinar e lavar a região logo depois, com antibiótico preventivo prescrito nos casos indicados. Em quem tem refluxo vesicureteral, o hábito da segunda micção, urinar de novo alguns minutos depois, ajuda a esvaziar a bexiga por completo.',
+        ],
+        bullets: [
+          'Beber água em pequenas quantidades, várias vezes ao dia',
+          'Urinar em intervalos regulares, sem segurar',
+          'Cuidar da higiene do períneo, com atenção na menstruação, na gravidez e no pós-parto',
+          'Higienizar o prepúcio e considerar a postectomia quando há infecções repetidas',
+          'Evitar cateteres e instrumentos invasores, e garantir técnica asséptica quando forem necessários',
+          'Urinar logo após a relação sexual e, se esse for o gatilho, usar antibiótico preventivo prescrito',
+          'Praticar a dupla micção quando existe refluxo entre a bexiga e o ureter',
+        ],
+        cta: {
+          label: 'Leia também: prevenção e cuidados no dia a dia',
+          href: '/artigos/infeccao-urinaria-prevencao-e-cuidados/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Por que as mulheres têm mais infecção urinária?',
+        answer:
+          'Porque a uretra feminina é curta e a sua abertura fica próxima da vagina e do ânus, onde as bactérias são comuns. Relação sexual, uso de diafragma com espermicida, gravidez e a queda de estrogênio depois da menopausa aumentam ainda mais a chance de infecção.',
+      },
+      {
+        question: 'Posso tomar a sobra do antibiótico do último episódio?',
+        answer:
+          'Não. O antibiótico é escolhido a partir da avaliação e, muitas vezes, da urocultura. Usar sobra de tratamento anterior ou o medicamento de outra pessoa pode atingir a bactéria errada, interromper o tratamento antes da hora e acelerar a resistência bacteriana, o que torna as infecções futuras mais difíceis de tratar.',
+      },
+      {
+        question: 'Infecção urinária na gravidez é mais preocupante?',
+        answer:
+          'Sim. A gravidez dificulta o esvaziamento da bexiga e aumenta o risco de pielonefrite, porque o útero comprime os ureteres e facilita o refluxo da urina. Por isso, sintomas urinários na gestação devem ser avaliados de imediato, e o acompanhamento precisa confirmar que a infecção foi tratada.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'infeccao-urinaria-sintomas-e-quando-procurar-atendimento',
+      'infeccao-urinaria-prevencao-e-cuidados',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-da-mulher'],
+    relatedDiseaseSlugs: ['diabetes', 'doenca-renal-cronica', 'hiv-aids'],
+    references: [
+      {
+        label: 'Considerações gerais sobre infecções do trato urinário (ITUs), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/considera%C3%A7%C3%B5es-gerais-sobre-infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Infecção da bexiga (cistite), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-da-bexiga',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Infecção renal (pielonefrite), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-renal',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Antimicrobial resistance: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-pele',
+    slug: 'cancer-de-pele',
+    name: 'Câncer de pele',
+    aliases: ['câncer da pele', 'melanoma', 'carcinoma basocelular', 'carcinoma epidermoide', 'câncer de pele não melanoma'],
+    summary:
+      'Tumor que se forma na própria pele, quase sempre em área exposta ao sol. É o câncer mais frequente no Brasil, tem alta chance de cura quando descoberto cedo, e o melanoma exige atenção imediata por poder se espalhar.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é o câncer de pele?',
+        paragraphs: [
+          'O câncer de pele começa na própria pele. Ele surge quando as células cutâneas passam a se multiplicar sem controle, formando lesões que não cicatrizam, manchas que mudam de aparência ou feridas que avançam devagar. Aparece principalmente nas áreas mais atingidas pelo sol, como rosto, pescoço, couro cabeludo e orelhas, e, quando não tratado de forma adequada, pode destruir essas estruturas.',
+          'Os três tipos mais conhecidos têm comportamentos bem diferentes. O carcinoma basocelular e o carcinoma epidermoide, reunidos sob o nome de câncer de pele não melanoma, costumam ficar no local de origem, crescem devagar e raramente se espalham, por isso a chance de cura é alta quando tratados cedo. O melanoma é menos frequente, porém mais grave, pela alta capacidade de provocar metástase, isto é, a disseminação para outros órgãos. Em pessoas de pele negra, ele aparece com mais frequência em áreas claras, como palmas das mãos e plantas dos pés, justamente onde ninguém costuma olhar.',
+          'O resultado do tratamento depende sobretudo do momento da descoberta. Nos estágios iniciais, a retirada da lesão costuma bastar, e uma lesão pré-cancerosa tratada no início costuma impedir a evolução para o tumor. Os dois tipos são tratados de forma integral e gratuita pelo Sistema Único de Saúde (SUS), e qualquer mudança persistente na pele deve levar a um especialista.',
+        ],
+        bullets: [
+          'Incidência: é o câncer mais frequente no Brasil e no mundo, e o tipo não melanoma responde por cerca de 30% de todos os tumores malignos registrados no País, enquanto o melanoma representa 3% das neoplasias malignas da pele',
+          'Estimativa do INCA: 263.280 novos casos por ano de câncer de pele não melanoma no triênio 2026 a 2028, sendo 136.180 em homens e 127.100 em mulheres, e 9.360 novos casos de melanoma para cada ano do mesmo período, com 4.930 homens e 4.430 mulheres',
+          'Mortes: 3.987 por câncer de pele não melanoma e 2.031 por melanoma, no Atlas de Mortalidade por Câncer do INCA, com dados de 2024',
+          'No mundo: a Organização Mundial da Saúde lista o câncer de pele não melanoma entre os tumores mais diagnosticados, com cerca de 1,1 milhão de casos novos em 2024',
+          'Quem precisa vigiar a pele: pessoas de pele e olhos claros, com muitas pintas, com história pessoal ou familiar de câncer de pele, ou que já tiveram queimaduras de sol graves',
+          'Exposição acumulada: quem trabalha sob o sol, pratica atividade física ao ar livre, gosta de banho de sol ou usa câmeras de bronzeamento artificial, e também quem se expôs muito durante a infância e a adolescência',
+          'Pele já doente: inflamação ou ferida que se arrasta há anos, e pessoas com o sistema imunológico debilitado ou em uso de imunossupressores',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de câncer de pele?',
+        paragraphs: [
+          'Sob o nome de câncer de pele não melanoma agrupam-se tumores de diferentes tipos, e eles são os mais frequentes e os de menor mortalidade. O mais comum é o carcinoma basocelular, que se apresenta como ferida ou nódulo e tem evolução lenta. Ele aparece em formatos variados: uma mancha vermelha que descama, um pequeno relevo de borda definida, uma lesão com áreas escuras ou uma placa endurecida que lembra cicatriz. O detalhe que mais ajuda a reconhecê-lo é a borda levemente levantada, como um cordão de pérolas.',
+          'O carcinoma epidermoide também surge como ferida ou sobre uma cicatriz, principalmente de queimadura, e pode crescer sobre uma área de pele já lesionada por muito tempo. Sua maior gravidade vem da possibilidade de se espalhar para outros órgãos. Apesar da baixa mortalidade, esses tumores podem deixar mutilações bastante expressivas quando não são tratados de forma adequada.',
+          'O melanoma tem origem nas células produtoras de melanina, a substância que dá cor à pele, e é mais frequente em adultos brancos. Pode aparecer em qualquer parte do corpo, na pele ou nas mucosas, na forma de manchas, pintas ou sinais. O prognóstico é bom quando detectado na fase inicial, e a sobrevida melhorou nos últimos anos com o diagnóstico precoce e os novos medicamentos imunoterápicos.',
+        ],
+        bullets: [
+          'Carcinoma basocelular: o mais comum e o menos agressivo, com evolução lenta, ligado ao sol acumulado ao longo da vida',
+          'Carcinoma epidermoide: surge como ferida ou sobre cicatriz e pode dar metástase; aparece com frequência onde a pele já vinha doente ou cicatrizada',
+          'Melanoma: o menos frequente e o mais grave, pela alta capacidade de se espalhar; quanto mais cedo for retirado, maior a chance de cura',
+          'Melanoma em pele negra: mais comum nas áreas claras, como palmas das mãos e plantas dos pés',
+          'Ceratose actínica: mancha áspera causada pelo sol, que é lesão precursora do câncer de pele e por isso deve ser tratada antes',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa o câncer de pele?',
+        paragraphs: [
+          'O fator que mais explica essa doença é a radiação ultravioleta (UV), emitida pelo sol e também pelas câmeras de bronzeamento artificial. A radiação deixa um dano que se acumula ao longo dos anos nas células da pele, e o quadro aparece com mais frequência depois dos 40 anos. Boa parte dessa carga se forma na infância e na adolescência, com exposições prolongadas e repetidas.',
+          'Não é apenas a quantidade de sol de uma tarde que importa: é a soma de muitas exposições ao longo da vida, às vezes somada a outros agentes. Pessoas com doenças cutâneas prévias, com o sistema imunológico debilitado ou em uso de imunossupressores são mais vulneráveis, porque a defesa que costuma conter células alteradas funciona menos.',
+        ],
+        bullets: [
+          'Radiação ultravioleta: o principal responsável, pelo dano repetido ao material genético das células da pele',
+          'Substâncias químicas: contato prolongado com arsênio, óleos minerais e fuligem, agentes que o INCA inclui entre os fatores de risco',
+          'Radiação ionizante: exposição a raios X e radiação gama no trabalho, e áreas que já receberam radioterapia',
+          'Lesão de longa data: ferida crônica, úlcera que não fecha, fístula que se repete e cicatriz antiga, sobretudo de queimadura, sobre as quais o tumor pode aparecer',
+          'Imunidade enfraquecida: uso de imunossupressores, como depois de um transplante, ou sistema imunológico debilitado',
+          'Genética e muitas pintas: predisposição genética, muitas pintas e infecções virais associadas a lesões que podem evoluir',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco?',
+        paragraphs: [
+          'Qualquer pessoa pode desenvolver a doença, mas quem tem pele muito clara, albinismo ou vitiligo, e quem usa imunossupressores, é mais sensível ao sol. O câncer de pele é mais comum depois dos 40 anos e considerado raro em crianças e em pessoas negras, salvo quando existe algum outro problema cutâneo. Ainda assim, a idade média dos casos tem caído, porque pessoas jovens se expõem de forma constante aos raios solares.',
+          'O trabalho é um capítulo à parte. Agricultores, trabalhadores da construção civil, pescadores, carteiros e profissionais de limpeza urbana ficam horas ao sol durante anos, e essa é a principal exposição de risco do tipo não melanoma. Bombeiros têm chance maior de melanoma, associada às substâncias tóxicas das suas atividades, e profissionais de saúde expostos a raios X e a outros tipos de radiação também precisam de proteção.',
+        ],
+        bullets: [
+          'Pele e olhos claros, cabelos ruivos ou loiros, ou albinismo',
+          'História pessoal ou familiar de câncer de pele',
+          'Exposição prolongada e repetida ao sol, inclusive no trabalho e na prática de esportes ao ar livre',
+          'Uso de imunossupressores ou sistema imunológico debilitado',
+          'Doenças cutâneas prévias, como vitiligo',
+          'Exposição a câmeras de bronzeamento artificial',
+          'Idade e histórico: o quadro é mais comum depois dos 40 anos, e quem já teve um tumor de pele tem mais chance de desenvolver outro',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sinais e sintomas?',
+        paragraphs: [
+          'O primeiro indício costuma ser uma lesão na pele que se comporta de modo diferente do resto do corpo. São manchas que coçam, ardem, descamam ou sangram, e feridas que não cicatrizam em até quatro semanas. A lesão aparece na área do rosto, do pescoço ou das orelhas, justamente onde o sol chega primeiro. Na fase inicial, ela quase não dói e quase não coça, e por isso é confundida com um problema de pele comum.',
+          'Cada tipo tem seu jeito de aparecer. O carcinoma basocelular forma um nódulo ou uma ferida que não fecha, com borda levemente elevada e perolada, e cresce devagar. O carcinoma epidermoide costuma ser uma massa endurecida de crescimento mais rápido, sensível ao toque, coberta por crosta que não sai e com depressão central que pode ulcerar. No melanoma, o sinal típico é uma pinta escura de bordas irregulares, acompanhada de coceira e descamação, ou uma pinta que já existia e passa a aumentar de tamanho, mudar de cor e de forma.',
+          'Com o tempo, a lesão pode se complicar. Quando uma bactéria invade a área ulcerada, aparece secreção amarelada, odor forte e dor contínua. Na fase avançada, o tumor ocupa uma área ampla, destrói tecidos do rosto, da orelha ou do nariz e pode atingir gânglios e outros órgãos; nesse caso os sintomas dependem do local alcançado, e a dor costuma ser o que mais chama a atenção.',
+        ],
+        bullets: [
+          'Fase inicial: mancha avermelhada ou leve relevo que descama, parecido com eczema, psoríase, uma inflamação comum ou uma pinta inocente',
+          'Carcinoma basocelular: nódulo ou ferida que não cicatriza, com borda elevada e perolada, de crescimento lento e pouca dor',
+          'Carcinoma epidermoide: massa endurecida de crescimento rápido, com crosta persistente e ulceração central, às vezes com infecção',
+          'Melanoma: mancha de formato irregular e cores misturadas, preta, castanha, azulada ou avermelhada, que aumenta ou surge do nada',
+          'Fase avançada: úlcera ampla, destruição de tecidos, gânglios aumentados e sintomas no órgão atingido à distância',
+          'Infecção sobreposta: secreção amarelada, odor forte e dor contínua no lugar da lesão',
+        ],
+      },
+      {
+        id: 'regra-abcde',
+        heading: 'A regra do ABCDE para observar pintas',
+        paragraphs: [
+          'Para avaliar sinais e pintas, adotou-se internacionalmente a regra do ABCDE, que reúne os achados sugestivos de melanoma. Ela serve para orientar a observação da pele e decidir quando procurar exame, não para dar diagnóstico em casa.',
+          'Na maior parte das vezes, alterações como essas na pele não são causadas por câncer, mas é importante que sejam investigadas por um médico, principalmente quando não melhoram em poucos dias. O diagnóstico precoce aumenta as chances de tratamento e de cura.',
+        ],
+        bullets: [
+          'Assimetria: uma metade do sinal é diferente da outra',
+          'Bordas irregulares: contorno mal definido',
+          'Cor variável: várias cores na mesma lesão, preta, castanha, branca, avermelhada ou azul',
+          'Diâmetro: maior que 6 milímetros',
+          'Evolução: mudança de tamanho, forma ou cor com o tempo',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Há dois achados que não devem esperar: uma ferida que não cicatriza em até quatro semanas e uma pinta que muda de tamanho, de forma ou de cor, sobretudo se ganha bordas irregulares e passa a coçar ou descamar. Nos dois casos, o caminho é procurar rapidamente o dermatologista ou o serviço de saúde, porque o diagnóstico precoce aumenta as chances de tratamento e de cura.',
+          'A observação vale ainda mais para quem tem risco maior: trabalhadores ao ar livre, pessoas de pele e olhos claros, quem já teve câncer de pele, quem tem história familiar da doença e quem usa imunossupressores por causa de um transplante, como ocorre no tratamento da [doença renal crônica](/doencas/doenca-renal-cronica/), ou quem tem o sistema imunológico debilitado, como em casos de [HIV/aids](/doencas/hiv-aids/). Mudanças persistentes na pele, como as manchas que surgem na [hanseníase](/doencas/hanseniase/), também pedem exame, e a consulta serve justamente para distinguir uma coisa da outra.',
+        ],
+        bullets: [
+          'Ferida que não cicatriza em quatro semanas',
+          'Pinta que aumenta, muda de cor ou ganha borda irregular',
+          'Mancha que coça, arde, descama ou sangra',
+          'Lesão que reaparece no lugar já tratado',
+          'Nódulo ou área endurecida que cresce em região exposta ao sol',
+          'Mancha escura na palma da mão ou na planta do pé',
+        ],
+        cta: {
+          label: 'Leia também: sinais na pele que pedem atendimento',
+          href: '/artigos/cancer-de-pele-sinais-na-pele-que-pedem-atendimento/',
+        },
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Com qual especialista devo consultar?',
+        paragraphs: [
+          'Mancha, nódulo ou ferida que persiste, somados a uma pinta que muda de aspecto, já são motivo suficiente para buscar avaliação, e não para esperar que a pele resolva sozinha. O diagnóstico do câncer de pele é feito pelo dermatologista, por meio de exame clínico, de modo que a especialidade é o primeiro caminho.',
+          'Quando o tumor é confirmado, o acompanhamento passa a envolver também a equipe de oncologia, responsável pela cirurgia, pela radioterapia ou pelos medicamentos. Os dois tipos de câncer de pele são tratados de forma integral e gratuita pelo Sistema Único de Saúde (SUS), o que torna o início do cuidado uma questão de agendar a consulta, e não de custeá-la.',
+        ],
+        bullets: [
+          'Dermatologia: primeira escolha para avaliar mancha, pinta que mudou ou ferida que não cicatriza',
+          'Oncologia: acompanha o caso quando o tumor é confirmado e pede cirurgia, radioterapia ou medicamento',
+          'Leve para a consulta: fotos da lesão em datas diferentes, o dia em que ela apareceu, laudos antigos e a lista de medicamentos que usa, inclusive imunossupressores',
+          'Peça avaliação mesmo sem dor: quem tem pele muito clara, história familiar de câncer de pele, transplante ou imunidade debilitada deve examinar a pele com mais frequência',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico é feito pelo dermatologista por meio de exame clínico. Em algumas situações, o profissional usa a dermatoscopia, um aparelho que permite ver camadas da pele não visíveis a olho nu, e em casos mais específicos é necessária a biópsia. A biópsia é o exame que confirma a doença: o material coletado vai para o laboratório de anatomia patológica, que emite o laudo.',
+          'Exames adicionais podem ser necessários para definir o estágio da doença e escolher o tratamento, e é por meio deles que se distingue o melanoma do tipo não melanoma. Vale uma distinção importante: o INCA informa que não há evidência científica de que o rastreamento em pessoas sem sinais nem sintomas traga mais benefícios do que riscos, e por isso ele não é recomendado até o momento. O que se recomenda é a investigação de quem tem sinal ou sintoma, e a atenção de todos a qualquer modificação na pele.',
+          'Existem três situações que não devem esperar para ser examinadas: úlcera que vai e volta, que sara e reabre, ou que sangra ao menor toque; uma ceratose actínica já conhecida que passa a sangrar, a ulcerar ou a formar um relevo de contorno irregular; e o rompimento de uma pele que já recebeu radioterapia ou de uma cicatriz antiga. A esse conjunto soma-se qualquer pinta que muda de cor, de forma ou de tamanho.',
+        ],
+        bullets: [
+          'Exame clínico: o profissional observa a lesão, mede, avalia a consistência e procura gânglios aumentados na região',
+          'Dermatoscopia: aumenta a lesão e mostra camadas da pele não visíveis a olho nu, o que ajuda a separar uma pinta benigna de um melanoma',
+          'Biópsia: o exame que confirma o diagnóstico, feito com amostra pequena, com a remoção de toda a lesão quando se suspeita de profundidade, ou com várias amostras quando a área é extensa',
+          'Ultrassom dos gânglios: verifica se o tumor atingiu os linfonodos próximos',
+          'Exames de imagem: tomografia, ressonância e PET-CT são usados quando é preciso saber se outros órgãos, como pulmão e fígado, foram alcançados',
+          'Exames de sangue: não diagnosticam o tumor de pele, mas avaliam anemia, infecção e o funcionamento do fígado e dos rins antes de uma cirurgia ou de um medicamento',
+          'Laudo de anatomia patológica: define o tipo e a profundidade do tumor e é o que orienta o plano de tratamento',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais pode parecer um câncer de pele?',
+        paragraphs: [
+          'A semelhança é especialmente comum na fase inicial, quando a lesão descama, arde e forma crostas como um problema benigno qualquer. Na maior parte das vezes, alterações desse tipo não são causadas por câncer, mas devem ser investigadas por um médico, principalmente quando não melhoram em poucos dias.',
+          'Algumas lesões benignas imitam um tumor com bastante fidelidade, inclusive as pigmentadas, que parecem melanoma. Por isso a distinção não se faz por descrição ou foto: ela depende do exame clínico com dermatoscopia e, na dúvida, da biópsia, que é o único exame capaz de dar a resposta final.',
+        ],
+        bullets: [
+          'Queratose seborreica: a verrugem da idade, placa acastanhada com aspecto de colada na pele, de contorno bem definido, que não sangra nem ulcera',
+          'Nevo benigno: a pinta comum, redonda, de cor uniforme, que permanece igual há anos',
+          'Lesões de vasos: elevações arroxeadas que lembram sangue preso sob a pele, como os pequenos angiomas, benignas',
+          'Ceratose actínica: mancha áspera provocada pelo sol, que ainda não é câncer, mas é lesão precursora e por isso merece tratamento',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como se trata o câncer de pele?',
+        paragraphs: [
+          'A cirurgia é o tratamento mais indicado, tanto no carcinoma basocelular quanto no epidermoide e no melanoma. Em lesões de estágio inicial, a retirada pode ser feita em nível ambulatorial, sem internação. Em casos mais avançados, e no melanoma, o plano varia conforme o tamanho e o estágio do tumor, e radioterapia e quimioterapia podem somar-se à cirurgia.',
+          'Quando a cirurgia não é possível, pela idade, pelo estado de saúde ou pela localização da lesão, a radioterapia assume o lugar dela ou complementa o que foi retirado, e controla o crescimento do tumor em boa parte dos casos. Esse tratamento exige cuidado contínuo com a pele irradiada: curativos, higiene da área, alívio das reações locais e controle da dor e da infecção nas lesões que ulceram. Para o melanoma já espalhado, o plano é definido pela equipe de oncologia.',
+          'Depois do tratamento, o acompanhamento continua sendo parte dele. No tipo não melanoma corretamente operado a doença costuma estar curada, mas todo sinal de volta da lesão pede novo exame clínico e, se necessário, histopatológico. Quem tem melanoma tem data marcada de retorno conforme o estágio do tumor, porque existe predisposição a desenvolver novos tumores, e as lesões pré-cancerosas precisam ser monitoradas. Nos tratamentos não cirúrgicos, a orientação é procurar o especialista a cada seis meses ou antes, se aparecer sinal de recidiva.',
+        ],
+        bullets: [
+          'Cirurgia de Mohs: o tumor é retirado camada por camada e cada margem é examinada ao microscópico ainda na cirurgia, o que preserva a pele sadia; é a escolha em áreas delicadas como rosto, orelhas e nariz',
+          'Excisão ampliada: retira o tumor com uma margem de pele normal, quando os limites da lesão são bem definidos',
+          'Curetagem e cauterização: raspagem da lesão seguida de cauterização, usada em tumores superficiais',
+          'Radioterapia: alternativa para quem não pode ser operado e apoio em casos de maior risco, com atenção às reações da pele irradiada',
+          'Terapia fotodinâmica: creme fotossensível seguido de fonte de luz, opção para a ceratose actínica, para o carcinoma basocelular superficial e para o carcinoma epidermoide in situ, também chamado de doença de Bowen',
+          'Criocirurgia e imunoterapia: outras possibilidades para lesões escolhidas, todas com indicação precisa feita por especialista experiente',
+          'Reconstrução: lesões maiores podem exigir cirurgia plástica para recompor face, orelha ou nariz e recuperar movimento e expressão',
+          'Práticas complementares: chás, ervas e aplicações locais não tratam o câncer de pele e não substituem a cirurgia nem o tratamento oncológico; qualquer uso deve ser informado à equipe',
+        ],
+      },
+      {
+        id: 'tratamento-medicamentoso',
+        heading: 'Existem medicamentos para tratar o câncer de pele?',
+        paragraphs: [
+          'O medicamento tem dois papéis bem distintos nesse universo. Nas lesões superficiais e nas lesões precursoras, ele é aplicado sobre a pele e pode antecipar ou complementar a cirurgia. Já no melanoma que se espalhou, o tratamento é feito por via sistêmica, com medicamentos que mudaram o cenário da doença nos últimos anos. Como a resposta de cada organismo varia, não existe fórmula válida para todos: a escolha depende do tipo, da profundidade da lesão e do estado de saúde de quem trata, e cabe a quem acompanha o caso.',
+          'Os produtos de aplicação local agem de duas maneiras. A quimioterapia tópica atinge diretamente as células alteradas da superfície; a imunoterapia tópica estimula a defesa da própria pele para que ela destrua a lesão. Ambos provocam reação no local, com vermelhidão, descamação e ferida, sinal de que o tratamento está agindo, mas também motivo de desconforto. Por isso, em regra, esses medicamentos acompanham outra modalidade terapêutica, e não a substituem, e a duração do uso é definida pelo especialista.',
+          'No melanoma com metástase, o tratamento é feito com medicamentos novos, que apresentam altas taxas de sucesso terapêutico. Boa parte dessa melhora vem da imunoterapia, que ativa o sistema imunológico contra o tumor, e dos medicamentos que atingem alterações genéticas específicas dele. São esquemas definidos por exame do próprio tumor e administrados com acompanhamento próximo, porque também podem causar efeitos adversos.',
+        ],
+        bullets: [
+          'Quimioterapia tópica: aplicada sobre lesões superficiais; a pele fica vermelha, descamativa e pode ulcerar durante o uso',
+          'Imunoterapia tópica: ativa a defesa local contra a lesão e, quando a área tratada é extensa, pode trazer cansaço e calafrios',
+          'Tratamento sistêmico no melanoma avançado: medicamentos que estimulam o sistema imunológico ou bloqueiam alterações genéticas do tumor',
+          'Combinação necessária: os produtos de uso local costumam somar-se a outra forma de tratamento, e não substituí-la',
+          'Sinal de retorno antecipado: nova lesão, dor, febre ou piora do aspecto da pele tratada durante o uso do medicamento',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Prognóstico, complicações, sequelas e risco de o tumor voltar',
+        paragraphs: [
+          'A chance de cura é alta no câncer de pele não melanoma quando a retirada é completa: no carcinoma basocelular inicial operado com a técnica de Mohs, a cura em cinco anos supera 95%. No melanoma, o resultado depende do estágio no momento do diagnóstico: lesões superficiais têm grande chance de cura, enquanto a doença que alcança gânglios ou outros órgãos reduz bastante a perspectiva.',
+          'A consequência mais frequente da demora não é a morte, e sim a destruição de tecido. O câncer de pele não melanoma, embora tenha baixa mortalidade, pode destruir as estruturas onde se instalou e deixar mutilações bastante expressivas quando não tratado adequadamente, inclusive no rosto, nas orelhas e no nariz. Lesões grandes exigem cirurgias de maior porte e reconstruções mais complexas. Ainda assim, a gravidade não deve ser minimizada: por ser tumor maligno, qualquer um desses tipos pode levar a óbito quando o tratamento é adiado ou feito fora dos prazos.',
+          'Quando o tumor avança, as células podem atingir os gânglios da região e seguir pelos vasos até outros órgãos. No melanoma, essa capacidade de disseminação é alta, e o prognóstico depende muito da fase em que o tumor é descoberto; o carcinoma epidermoide também pode se espalhar. Já o basocelular raramente chega a outros órgãos, mas causa a destruição local mais severa. As sequelas do próprio tratamento fazem parte do quadro: cicatrizes visíveis, mudança de cor da pele que recebeu radioterapia e dificuldade de movimento ou de expressão quando a remoção foi ampla.',
+          'Existe ainda a possibilidade de o tumor voltar ou de aparecer um segundo. Depois de um câncer de pele, a predisposição a desenvolver novos tumores é real, o que faz do acompanhamento regular parte do tratamento, e não um excesso de precaução. No tipo não melanoma corretamente operado a doença costuma estar curada; nas opções não cirúrgicas, a orientação do INCA é procurar o especialista a cada seis meses ou antes, se surgirem sinais de recidiva. Quem tem melanoma tem data marcada de retorno, porque a cura depende da precocidade do diagnóstico, e é por essa razão que as consultas de revisão não devem ser puladas.',
+        ],
+        bullets: [
+          'Destruição de tecidos do rosto, das orelhas e do nariz',
+          'Mutilações expressivas e cirurgias de reconstrução',
+          'Metástase pelos gânglios: células tumorais alcançam os linfonodos da região e podem seguir adiante',
+          'Metástase pela corrente sanguínea: pode atingir pulmão, fígado, osso e sistema nervoso, com sintomas que dependem do órgão alcançado',
+          'Sequelas do tratamento: cicatriz, alteração da cor da pele irradiada e limitação de movimento ou de expressão',
+          'Novo tumor ou recidiva no lugar já tratado: sinal de que o acompanhamento precisa continuar',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Rotina, cuidados e vigilância depois do diagnóstico',
+        paragraphs: [
+          'O sol continua bom para a saúde, mas, em excesso, provoca envelhecimento precoce, lesões nos olhos e câncer de pele, como recorda o Ministério da Saúde. Para quem já teve a doença, a proteção deixa de ser recomendação de verão e passa a ser parte do tratamento: vale para o trajeto até o trabalho, para a feira da esquina e para a conversa no banco da praça.',
+          'Não existe dieta restrita obrigatória para quem tem câncer de pele. O que importa é manter a alimentação suficiente, sobretudo durante a radioterapia e na recuperação da cirurgia: comida variada, com proteína de qualidade, vitaminas e calorias em quantidade adequada, como peixe, ovos, frutas e legumes, evitando bebida alcoólica e alimentos muito irritantes. Quem emagrece ou perde o apetite deve comunicar a equipe, porque o reforço nutricional pode ser necessário. Atividade física leve e regular, como caminhada, ajuda na recuperação, e o melhor horário é fora do pico de sol, para não somar exposição nem irritar a pele com suor abundante.',
+          'Vale criar o hábito de olhar a própria pele com regularidade, inclusive as áreas menos expostas, porque a detecção precoce depende dessa observação. Examine com boa luz e espelho o couro cabeludo, atrás das orelhas e as áreas cobertas pela roupa, e fotografe a lesão em datas diferentes para comparar no retorno. Tatuagens merecem atenção extra, já que podem esconder uma lesão. Guardar o laudo da biópsia, as datas do tratamento e as orientações do especialista facilita a conversa em cada retorno. O lado emocional também faz parte da rotina: medo de piora e desconforto com a aparência são comuns, especialmente em quem teve lesão no rosto, e conversar com a equipe e com a família ajuda a manter o tratamento em dia.',
+        ],
+        bullets: [
+          'Examinar a pele com regularidade, inclusive as áreas cobertas pela roupa',
+          'Não esquecer couro cabeludo, orelhas e região dos olhos, os pontos mais esquecidos do autoexame',
+          'Anotar data e aspecto de cada lesão nova para comparar no retorno',
+          'Fotografar a lesão sob a mesma luz, para mostrar a mudança ao médico',
+          'No trabalho ao ar livre, usar manga longa, chapéu, óculos e protetor solar',
+          'Guardar o laudo da biópsia e as datas do tratamento',
+          'Alimentação suficiente durante a radioterapia, com proteína, vitaminas e calorias, sem bebida alcoólica',
+          'Buscar apoio para o medo e a tristeza: isso faz parte do tratamento, e não é excesso de preocupação',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o câncer de pele',
+        paragraphs: [
+          'A principal recomendação é evitar a exposição ao sol nos horários em que os raios são mais intensos, entre 10h e 16h, e usar proteção física sempre que der: óculos de sol com proteção UV, roupas que cobrem o corpo, chapéus de abas largas, sombrinhas e guarda-sol. Já existem roupas e acessórios com proteção UV, e procurar áreas cobertas como árvores, marquises e toldos reduz a radiação recebida.',
+          'O filtro solar com fator de proteção (FPS) 15 ou mais é fundamental quando a exposição é inevitável, e o Ministério da Saúde recomenda reaplicá-lo a cada duas horas durante a exposição, assim como após mergulho ou grande transpiração, inclusive nos produtos ditos à prova de água. Há ainda dois pontos que costumam ser esquecidos: em dias nublados a proteção também é necessária, e bebês e crianças pedem cuidados especiais, porque a infância é o período mais suscetível aos efeitos da radiação que aparecem na fase adulta. No trabalho ao ar livre, pode ser preciso reformular jornadas e a organização das tarefas.',
+        ],
+        bullets: [
+          'Evitar o sol entre 10h e 16h',
+          'Procurar sombra em vez de ficar ao sol direto',
+          'Usar chapéu de abas largas, camisa de manga longa e óculos com proteção UV',
+          'Aplicar filtro solar com FPS 15 ou mais antes de se expor, e protetor labial',
+          'Reaplicar o filtro a cada duas horas e após mergulho ou transpiração intensa',
+          'Manter a proteção também em dias nublados',
+          'Não usar câmeras de bronzeamento artificial',
+          'Tratar as lesões precursoras, como a ceratose actínica, e manter as revisões nos prazos indicados pela equipe',
+        ],
+        cta: {
+          label: 'Leia também: prevenção e protetor solar, passo a passo',
+          href: '/artigos/cancer-de-pele-prevencao-e-protetor-solar/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Todo câncer de pele é melanoma?',
+        answer:
+          'Não. A maior parte dos casos é do tipo não melanoma, responsável por cerca de 30% de todos os tumores malignos registrados no Brasil. Ele é mais frequente e tem menor mortalidade, com alta chance de cura quando tratado cedo, mas pode deixar mutilações expressivas. O melanoma responde por apenas 3% das neoplasias malignas da pele e é o mais grave, porque tem alta capacidade de gerar metástase.',
+      },
+      {
+        question: 'Protetor solar com FPS alto basta para ficar o dia todo no sol?',
+        answer:
+          'Não. O filtro solar com FPS 15 ou mais é fundamental quando a exposição é inevitável, mas precisa ser reaplicado a cada duas horas e após mergulho ou transpiração intensa, inclusive nos produtos à prova de água, e a proteção física continua sendo a base: sombra, chapéu de abas largas, roupas que cobrem o corpo e óculos com proteção UV. Em dias nublados a proteção também é necessária.',
+      },
+      {
+        question: 'Devo fazer exame de pele mesmo sem nenhum sintoma?',
+        answer:
+          'O INCA informa que não há evidência científica de que o rastreamento em pessoas sem sinais nem sintomas traga mais benefícios do que riscos, e por isso ele não é recomendado até o momento. Isso não significa ignorar a pele: qualquer modificação persistente deve ser investigada, e quem já teve câncer de pele tem datas de retorno marcadas, porque tem mais chance de desenvolver um novo tumor.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'cancer-de-pele-sinais-na-pele-que-pedem-atendimento',
+      'cancer-de-pele-prevencao-e-protetor-solar',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['hanseniase', 'doenca-renal-cronica', 'hiv-aids'],
+    references: [
+      {
+        label: 'Câncer de pele, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-pele',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Câncer de pele melanoma, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pele-melanoma/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de pele não melanoma, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pele-nao-melanoma/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Estimativas para o triênio 2026-2028',
+        url: 'https://www.scielo.br/j/rbcan/a/ZgsGr7Dw4sKrKYSnLKHk5KF/?lang=pt',
+        publisher: 'Revista Brasileira de Cancerologia (INCA)',
+      },
+      {
+        label: 'Cancer: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cancer',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gota',
+    slug: 'gota',
+    name: 'Gota',
+    aliases: ['gota', 'artrite gotosa', 'hiperuricemia', 'podagra'],
+    summary:
+      'Doença inflamatória causada pelo acúmulo de cristais de ácido úrico nas articulações. A crise começa de madrugada, com dor intensa no dedão do pé, e tem tratamento.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é gota?',
+        paragraphs: [
+          'A gota é uma doença inflamatória das articulações. Ela aparece quando o nível de ácido úrico no sangue fica alto por tempo suficiente para formar cristais com pontas semelhantes a agulhas, que se acumulam dentro da junta e ao redor dela. A reação do organismo a esses cristais é uma inflamação intensa: a região fica vermelha, quente, inchada e muito dolorida.',
+          'O ataque típico surge de madrugada, sem aviso, e a dor é comparada a uma queimadura. As articulações mais atingidas são a do dedão do pé, o joelho e as juntas dos dedos da mão. Com o tempo, o depósito persistente de cristais forma caroços duros sob a pele, chamados tofos, que costumam aparecer na orelha, nos dedos do pé, nos dedos da mão e no cotovelo.',
+          'A origem do problema está no modo como o corpo lida com as purinas, substâncias presentes em carnes e frutos do mar: o organismo processa mal esse material ou o rim passa a eliminar o ácido úrico mais devagar, e o excesso se acumula no sangue. Sem tratamento, além das inflamações repetidas nas articulações, a função dos rins pode ser comprometida, e a junta pode deformar e perder movimento. Também é frequente a coexistência com hipertensão, colesterol alto e diabetes, quadros que precisam ser tratados ao mesmo tempo.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem costuma desenvolver gota?',
+        paragraphs: [
+          'A gota ocorre no mundo inteiro, e a frequência varia conforme a região, a população e os hábitos alimentares. Com o aumento da expectativa de vida e as mudanças na dieta, o número de casos vem crescendo, e a doença tem aparecido em pessoas cada vez mais jovens.',
+          'Conhecida antigamente como a doença dos reis, a gota atinge os homens em proporção muito maior do que as mulheres, e o quadro feminino costuma surgir depois da menopausa. Boa parte das pessoas com gota está com sobrepeso ou obesidade, e o consumo habitual de bebida alcoólica e de alimentos ricos em purina completa o perfil mais comum.',
+        ],
+        bullets: [
+          'Homens na meia-idade, faixa em que as crises são mais frequentes',
+          'Mulheres a partir da menopausa',
+          'Pessoas com sobrepeso ou obesidade',
+          'Consumo habitual de bebida alcoólica e de alimentos ricos em purina',
+        ],
+      },
+      {
+        id: 'tipos-de-gota',
+        heading: 'A gota tem tipos diferentes?',
+        paragraphs: [
+          'Pela origem do ácido úrico elevado, a gota é separada em três categorias. Os sinais são praticamente os mesmos em todas elas, e o que muda é a causa por trás da hiperuricemia.',
+        ],
+        bullets: [
+          'Gota primária: responde pela maior parte dos casos. Está ligada a fatores genéticos e ambientais, quase sempre porque o corpo perdeu capacidade de eliminar o ácido úrico, e é comum haver histórico familiar da doença.',
+          'Gota secundária: aparece como consequência de outra doença ou de seu tratamento, como a enfermidade renal que atrapalha a eliminação do urato, o efeito adverso de medicamentos e as alterações metabólicas provocadas por quimioterapia ou radioterapia.',
+          'Gota idiopática: o mecanismo exato ainda não é conhecido. A pessoa apresenta alteração do metabolismo do ácido úrico sem que se encontre uma causa clara, e o grupo segue sendo objeto de estudo.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a gota?',
+        paragraphs: [
+          'O ácido úrico é o produto final da quebra das purinas, que vêm tanto do próprio organismo quanto da alimentação. Em condições normais, o rim elimina o excesso. Quando há produção a mais ou eliminação a menos, a concentração no sangue sobe, e se instala a hiperuricemia: é ela que torna possível a formação dos cristais de urato.',
+          'Esse valor tem um limite físico. Por volta de 6,8 mg/dL, o urato ultrapassa a solubilidade no sangue e passa a se depositar nos tecidos, sobretudo nas articulações, quando a elevação se mantém por muito tempo. O número isolado, porém, não confirma nada: só uma minoria das pessoas com ácido úrico alto desenvolve gota, e o valor normal durante uma crise também não descarta o diagnóstico.',
+          'Na maior parte dos casos, o problema é a eliminação renal insuficiente; uma parcela menor produz ácido úrico em excesso, e algumas pessoas nascem sem a enzima necessária para processar as purinas. Todos esses cenários pertencem à gota primária. A gota secundária tem causas identificáveis.',
+        ],
+        bullets: [
+          'Doenças genéticas raras, como a síndrome de Lesch-Nyhan e a glicogenose tipo 1, que alteram o metabolismo do ácido úrico',
+          'Doenças do sangue e cânceres tratados com quimioterapia ou radioterapia, situação em que a destruição em massa de células libera purinas',
+          'Doença renal crônica, que reduz a capacidade de eliminar o urato',
+          'Uso prolongado de medicamentos que dificultam a eliminação do ácido úrico, como furosemida, pirazinamida e aspirina',
+        ],
+      },
+      {
+        id: 'gatilhos',
+        heading: 'O que desencadeia uma crise?',
+        paragraphs: [
+          'A crise normalmente acontece sobre um cenário de ácido úrico já elevado, e quase sempre existe um desencadeante que mobiliza os cristais da articulação. Reconhecer esses gatilhos é uma das partes mais úteis do cuidado, porque boa parte deles pode ser evitada.',
+          'A alimentação pesa porque grande parte das purinas chega no prato, e o álcool age em duas frentes: aumenta a produção de ácido úrico e dificulta sua eliminação pelos rins. Bebidas e produtos adoçados com xarope de milho rico em frutose também contribuem para a elevação do nível no sangue.',
+        ],
+        bullets: [
+          'Medicamentos: diuréticos tiazídicos usados na hipertensão, ciclosporina empregada no transplante, pirazinamida e etambutol da tuberculose, niacina para o colesterol, varfarina e aspirina em dose baixa.',
+          'Alimentos ricos em purina: carne vermelha, miúdos como fígado e rim, frutos do mar e moluscos.',
+          'Bebida alcoólica: o excesso de álcool é fator de risco independente para a crise, e a cerveja é a mais envolvida, por carregar grande quantidade de purinas.',
+          'Outras doenças: enfermidade renal, hipertensão, síndrome metabólica, psoríase, obesidade, diabetes, hipotireoidismo e resistência à insulina já alteram o metabolismo do urato. Nesses casos, um exagero na comida ou a exposição ao frio bastam para desencadear a crise.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da gota?',
+        paragraphs: [
+          'A gota evolui por fases, e cada uma tem um comportamento próprio. Na fase sem sintomas, o exame de sangue já mostra o ácido úrico elevado, mas a pessoa não sente absolutamente nada; algumas ficam assim por anos, e há quem nunca tenha uma crise. O risco permanece: é nesse período silencioso que os cristais se formam na articulação.',
+          'A crise de artrite aguda é o quadro clássico. A dor começa de madrugada ou ao acordar, e a intensidade sobe tão depressa que, em poucas horas, a articulação está no auge da dor, vermelha, quente, inchada e sensível a ponto de o contato do lençol incomodar. O primeiro ataque costuma atingir uma junta só, com preferência pela base do dedão do pé, geralmente de um lado apenas. A crise regride em até cerca de duas semanas, e a pele sobre a articulação pode descascar depois que o inchaço some.',
+          'Crises repetidas ao longo dos anos formam os tofos e uma artrite crônica. A junta deformada perde o movimento, os casos graves deixam os dedos das mãos e dos pés rígidos e a função renal pode ser atingida. O ácido úrico também se deposita nos rins e no trato urinário, por isso as queixas fora da articulação merecem a mesma atenção que a dor.',
+        ],
+        bullets: [
+          'Fase sem sintomas: ácido úrico alto no exame, sem nenhuma queixa',
+          'Crise aguda: dor súbita e intensa de madrugada, com vermelhidão, calor, inchaço e limitação do movimento; parte das pessoas apresenta o valor de ácido úrico normal nesse momento',
+          'Intervalo entre as crises: desaparecimento total dos sintomas, com retorno à rotina',
+          'Tofos e artrite crônica: caroços duros amarelados na orelha, no cotovelo e no calcanhar, com pele fina por cima que pode se romper e liberar um material branco semelhante a pó de gesso',
+          'Rins e vias urinárias: doença renal por urato, com necessidade de urinar à noite e espuma na urina, além de cálculo renal, dor lombar intensa e sangue na urina',
+          'Sintomas gerais: febre, batimento cardíaco acelerado, mal-estar e dor muscular durante a crise; calafrios são menos frequentes',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Nem toda dor no pé é gota, e nem toda crise se resolve em casa. Procure reavaliação quando a dor for intensa demais para apoiar o peso do corpo, quando o inchaço aumentar rápido ou se não houver melhora com o tratamento combinado com a equipe de saúde.',
+          'Febre alta com calafrios junto de uma articulação quente e muito dolorosa pede atendimento imediato. Esse conjunto pode indicar infecção na articulação ou outra condição completamente diferente da gota, e exige avaliação urgente. Quem usa medicamento por conta própria, sobretudo com doença renal, cardíaca, úlcera ou gastrite, também deve procurar orientação antes de repetir a dose.',
+        ],
+        bullets: [
+          'Febre com articulação quente e muito dolorosa',
+          'Dor que impede apoiar o peso do pé',
+          'Inchaço que aumenta rápido ou se espalha',
+          'Redução importante da quantidade de urina ou ausência de urina',
+          'Dor lombar intensa com urina avermelhada',
+          'Ausência de melhora com o tratamento indicado',
+        ],
+        cta: {
+          label: 'Leia também: crise de dor no pé e o que fazer',
+          href: '/artigos/gota-crise-de-dor-no-pe-e-o-que-fazer/',
+        },
+      },
+      {
+        id: 'qual-especialista',
+        heading: 'Que especialista trata a gota?',
+        paragraphs: [
+          'O especialista de referência para a gota é o reumatologista, que cuida das doenças inflamatórias das articulações. No SUS, o primeiro contato costuma acontecer na UBS, onde a equipe pode solicitar a dosagem de ácido úrico, orientar o alívio da crise e encaminhar quando as crises se repetem.',
+          'Como a gota convive com frequência com outras condições, o encaminhamento depende da queixa que levou a pessoa ao serviço de saúde.',
+        ],
+        bullets: [
+          'Reumatologista: indicado para crises repetidas, tofos e artrite crônica',
+          'Clínico geral na UBS: primeiro contato, pedido de exames e acompanhamento continuado',
+          'Nefrologista: quando a manifestação principal é o cálculo renal ou a alteração da função dos rins',
+          'Endocrinologista: quando há obesidade, diabetes ou outra alteração metabólica associada',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a gota é diagnosticada?',
+        paragraphs: [
+          'A suspeita nasce da história clínica e do exame da articulação: dor que começou de madrugada, atingiu a base do dedão do pé, veio com vermelhidão e calor, e desapareceu sozinha em dias ou semanas. Quem já teve crises anteriores com esse padrão ajuda a confirmação. A gravidade é avaliada pelas juntas atingidas, pelo comportamento das crises e pela presença de tofos sob a pele.',
+          'O exame que confirma a gota é a pesquisa dos cristais de urato no líquido aspirado da articulação inflamada ou no conteúdo de um tofo. Quando a punção não é possível, a decisão se apoia no conjunto dos sintomas e nos exames de imagem. A dosagem de ácido úrico no sangue ajuda, mas não confirma o diagnóstico isoladamente, porque muita gente mantém o valor elevado sem nunca ter uma crise.',
+        ],
+        bullets: [
+          'Líquido articular ou tofo: melhor exame para confirmar a gota, porque demonstra o cristal de urato',
+          'Ácido úrico no sangue: colhido algumas semanas depois da crise, sem medicação que reduza o urato em uso; como o valor oscila, convém repetir a dosagem e considerar o maior resultado.',
+          'Leitura do exame: o urato só se dissolve até cerca de 6,8 mg/dL no sangue; acima desse ponto considera-se hiperuricemia, e o risco de formar cristais cresce conforme o valor se mantém alto.',
+          'Ácido úrico na urina: a coleta de 24 horas indica produção aumentada quando a eliminação diária é excessiva, o que ajuda a escolher o remédio adequado.',
+          'Ultrassom articular: o sinal da dupla trilha, duas linhas paralelas brilhantes sobre a cartilagem, é característico da gota',
+          'Radiografia e tomografia: a radiografia mostra lesão articular e tofos maiores, e pode ser normal no início; a tomografia comum identifica os tofos, e a de dupla energia reconhece o depósito de cristais de urato',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Qual a diferença entre gota e outras artrites?',
+        paragraphs: [
+          'A gota precisa ser separada de outros quadros que inflamam a articulação: artrite infecciosa, artrite por trauma, artrite reativa e artrite reumatoide. O que resolve a dúvida, na maioria das vezes, é encontrar o cristal de urato no líquido da junta. Sem essa possibilidade, a distinção se faz com o padrão das crises, os exames de sangue e os exames de imagem.',
+          'Vale separar duas situações que as pessoas confundem. A gota é causada por cristais de ácido úrico que se depositam na articulação e disparam a inflamação. A [artrite reumatoide](/doencas/artrite-reumatoide/) pertence a outro grupo: é uma doença autoimune, em que o sistema de defesa agride de forma persistente as próprias articulações. Na prática, a gota costuma atacar uma junta de cada vez, em crises explosivas e com intervalos sem dor, enquanto a artrite reumatoide acomete juntas pequenas das mãos, dos dois lados ao mesmo tempo, com inflamação que não desaparece sozinha e rigidez prolongada pela manhã.',
+        ],
+        bullets: [
+          'Artrite infecciosa: articulação quente, muito dolorida e com febre alta, quadro que exige atendimento imediato',
+          'Artrite por trauma: a inflamação segue um episódio de lesão, sem crises anteriores que cessaram sozinhas',
+          'Artrite reativa: aparece depois de infecção em outro ponto do corpo, com manifestações associadas',
+          'Artrite reumatoide: inflamação persistente e simétrica nas juntas pequenas, com tratamento diferente',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'O que se faz além dos medicamentos?',
+        paragraphs: [
+          'O tratamento da gota trabalha com três objetivos simultâneos: apagar a inflamação e a dor da crise, reduzir a quantidade de ácido úrico no sangue para que novos cristais não se formem, e impedir que o excesso de urato provoque cálculos e lesões definitivas na articulação e nos rins.',
+          'O controle de longo prazo depende do medicamento, mas o resultado também é definido pelo que acontece fora da farmácia. Nas primeiras horas da crise, o repouso da articulação, a aplicação de gelo e a proteção da junta fazem parte do cuidado, e não substituem a prescrição.',
+        ],
+        bullets: [
+          'Medidas gerais: ajustar a alimentação, manter o peso saudável e limitar a bebida alcoólica formam a base do tratamento, e essas mudanças de hábito acompanham o medicamento em todas as fases.',
+          'Cirurgia: indicada quando o tofo compromete a função da articulação ou provoca deformidade importante, para remover o depósito e corrigir o alinhamento da junta. O procedimento não cura a gota, e o tratamento medicamentoso continua depois dele.',
+          'Práticas complementares: não há comprovação de que chás ou fitoterápicos reduzam o ácido úrico, e eles não substituem o medicamento nem o acompanhamento. Qualquer produto usado deve ser informado à equipe, porque algumas plantas podem interagir com os remédios da gota.',
+        ],
+        cta: {
+          label: 'Leia também: tratamento e alimentação na gota',
+          href: '/artigos/gota-tratamento-e-alimentacao/',
+        },
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados na gota?',
+        paragraphs: [
+          'Os remédios da gota se dividem conforme o momento. Existe a fase em que a articulação está inflamada e doendo, e existe a fase silenciosa, em que o alvo é baixar o ácido úrico no sangue para que novos cristais não se formem. Confundir as duas frentes é o erro mais comum no tratamento da doença, porque o remédio da dor não reduz o urato, e o remédio do urato não apaga a crise em curso.',
+          'Quanto mais cedo a crise for tratada, melhor o resultado: com a colchicina, os melhores efeitos aparecem quando ela é iniciada nas primeiras 24 horas depois do início da dor. Anti-inflamatórios, colchicina ou corticoide desligam a inflamação e aliviam a dor, conforme a avaliação da equipe de saúde. A medicação com objetivo específico de diminuir os níveis de ácido úrico deve ser iniciada e mantida a longo prazo, com o cuidado de aguardar a resolução completa da crise aguda para começar. Quem já usa esse medicamento não deve interromper por conta própria durante a dor, porque a oscilação do nível no sangue pode prolongar o episódio.',
+          'A terapia que reduz o urato está indicada para quem tem crises frequentes, artrite crônica ou tofos, e a meta é manter o ácido úrico abaixo de 6,0 mg/dL. Nos primeiros meses, novas crises podem aparecer, já que a variação do nível no sangue mobiliza depósitos já existentes; por isso se associa colchicina em dose baixa por alguns meses, em geral cerca de seis meses, e o medicamento é ajustado aos poucos, com base em exame. Em quem também tem doença renal, a função dos rins é avaliada antes da escolha do remédio.',
+          'A escolha depende da função dos rins, do estômago, do coração e das outras doenças em tratamento, e não existe um remédio que sirva para todas as pessoas. Quando a gota convive com hipertensão e colesterol alto, a seleção dessas medicações também leva o urato em conta: a losartana, preferida no lugar de um diurético, e o fenofibrato, usado para baixar os triglicerídeos, favorecem a eliminação do ácido úrico na urina.',
+        ],
+        bullets: [
+          'Anti-inflamatórios: primeira escolha na crise, com indometacina, ibuprofeno, naproxeno e os chamados coxibs entre os mais usados. Continuam por alguns dias depois que a dor desaparece, para evitar recaída, e pedem cautela em quem tem hipertensão, gastrite, úlcera ou doença renal; nesse caso o médico pode associar um protetor de estômago.',
+          'Colchicina: alternativa para quem não pode usar anti-inflamatório, sempre em dose pequena e a mais cedo possível. Náusea, dor abdominal e diarreia são os efeitos adversos mais conhecidos e limitam o uso.',
+          'Corticoide: usado por curto prazo quando os dois anteriores não funcionam ou são contraindicados, inclusive em quem tem função renal reduzida. Pode ser via oral ou injetado na articulação atingida.',
+          'Medicamentos que reduzem a produção de urato: o alopurinol é o mais usado no Brasil e se toma uma vez por dia; o febuxostate é alternativa quando a função renal está alterada. Os dois pedem atenção a erupções na pele, alterações hepáticas e outros efeitos adversos, e a dose de cada um é definida pelo médico e ajustada com exame.',
+          'Medicamentos que aumentam a eliminação do urato na urina: a benzbromarona e a probenecida pertencem a esse grupo. Eles dependem de função renal adequada e de boa ingestão de líquidos, e a dose é individualizada.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'O que acontece sem tratamento?',
+        paragraphs: [
+          'Depois da primeira crise, a pessoa costuma voltar à vida normal, e isso faz muita gente não procurar ajuda imediata. Uma nova crise pode surgir em meses ou anos, na mesma articulação ou em outra. Sem tratamento, o intervalo entre as crises tende a diminuir e a intensidade, aumentar.',
+          'Com o tempo, os cristais formam depósitos palpáveis sob a pele, chamados tofos, que surgem nos dedos, cotovelos, joelhos, pés e orelhas, e as articulações podem se deformar e perder função. O ácido úrico em excesso também se acumula no trato urinário, com formação de cálculos, dor lombar intensa e sangue na urina.',
+          'Há ainda as consequências renais. Quando o urato se deposita no próprio rim, ao longo dos anos a função renal pode ser prejudicada, e a doença renal crônica, por sua vez, dificulta ainda mais a eliminação do ácido úrico. É um ciclo que se rompe com o controle do nível no sangue.',
+        ],
+        bullets: [
+          'Crises cada vez mais frequentes e mais intensas',
+          'Tofos, depósitos de cristais sob a pele',
+          'Cálculos renais e dor nos rins',
+          'Deformidade e perda de função nas articulações',
+          'Piora da função renal ao longo dos anos',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como cuidar da gota no dia a dia?',
+        paragraphs: [
+          'A gota não é uma doença incapacitante, e quando tratada adequadamente não interfere na qualidade de vida. Com o acompanhamento em dia, a maioria das pessoas mantém rotina de trabalho, atividade física e vida social sem restrição importante.',
+          'Durante a crise, o repouso da articulação é parte do cuidado, e o gelo local ajuda a aliviar a dor. Depois da melhora, retomar a atividade aos poucos faz parte da recuperação. A rotina de quem tem gota se apoia em três eixos: manter o ácido úrico controlado com o tratamento prescrito, beber líquidos suficientes ao longo do dia e ajustar o prato para reduzir a carga de purina.',
+        ],
+        bullets: [
+          'Crise em casa: pare a atividade, deixe a articulação em repouso, aplique gelo e evite apoiar peso; calçado apertado piora a dor no pé.',
+          'Alimentação: prefira verduras, legumes, frutas e carboidratos simples como arroz e batata; use óleos vegetais no lugar de gordura animal, e inclua laticínios com pouca gordura.',
+          'O que limitar: bebida alcoólica, especialmente cerveja; miúdos, frutos do mar, carne vermelha em excesso e pratos defumados; bebidas adoçadas, refrigerantes e sucos industrializados.',
+          'Peso e rotina: mantenha o peso saudável, com atenção à circunferência da cintura, faça as refeições em horários regulares, durma o suficiente e pratique atividade física moderada na maior parte da semana, como caminhada, natação ou bicicleta. Pare de fumar, evitando também o fumo passivo.',
+          'Monitoramento: nas consultas de retorno, a equipe verifica o ácido úrico no sangue, a frequência das crises e a função dos rins, e ajusta a dose a partir desses números; quem também tem diabetes, hipertensão ou doença cardiovascular precisa medir a glicemia e a pressão com regularidade.',
+          'Cuidados especiais: evite esforço físico extenuante e a exposição súbita ao frio, que estão entre os desencadeantes mais citados de crise, e não suspenda o tratamento nos períodos sem sintoma. Leve à consulta a lista completa dos medicamentos em uso, inclusive os de venda livre.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Dá para prevenir uma nova crise?',
+        paragraphs: [
+          'Quem já teve uma crise reduz muito a chance de outra ao manter o ácido úrico controlado com o tratamento prescrito, iniciado depois da resolução completa do episódio agudo e mantido mesmo sem sintomas. Diminuir os desencadeantes conhecidos, sobretudo cerveja, vinho tinto e refeições muito ricas em purina, caminha na mesma direção.',
+          'Evitar dieta hipercalórica também ajuda, porque a obesidade é um fator de risco adicional e o excesso de peso sobrecarrega articulações já inflamadas. Sob tratamento e com os níveis controlados, os alimentos restritos durante a crise podem voltar ao prato sem exagero, o que vale também para a bebida alcoólica.',
+        ],
+        bullets: [
+          'Manter o tratamento de redução do urato sem interrupções',
+          'Moderar ou evitar cerveja e vinho tinto',
+          'Limitar carne vermelha, miúdos e frutos do mar',
+          'Evitar bebidas e produtos adoçados com frutose',
+          'Manter peso saudável e boa ingestão de líquidos',
+          'Cuidar das doenças associadas, como hipertensão e diabetes',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Gota e artrite reumatoide são a mesma doença?',
+        answer:
+          'Não. A gota resulta da deposição de cristais de ácido úrico na articulação e costuma atacar uma junta de cada vez, em crises intensas seguidas de intervalos sem dor. A artrite reumatoide é uma doença autoimune, com inflamação persistente e simétrica. Os tratamentos são diferentes, e a avaliação médica é o que separa os dois quadros.',
+      },
+      {
+        question: 'A crise de gota passa sozinha? Ainda preciso procurar atendimento?',
+        answer:
+          'A crise pode passar sozinha, e isso engana: depois do primeiro ataque a pessoa volta à vida normal e adia a consulta. Sem acompanhamento, porém, as crises tendem a voltar mais próximas e mais fortes. O atendimento serve para confirmar o diagnóstico e definir o tratamento de longo prazo, que protege a articulação.',
+      },
+      {
+        question: 'Quem tem gota pode comer carne e beber cerveja?',
+        answer:
+          'Com o ácido úrico controlado e em tratamento, esses alimentos podem voltar ao prato sem exagero. Durante as crises e com os níveis elevados, vale evitar cerveja, vinho tinto, excesso de carne vermelha, miúdos e frutos do mar. O grau de restrição é definido com a equipe que acompanha o caso.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'gota-crise-de-dor-no-pe-e-o-que-fazer',
+      'gota-tratamento-e-alimentacao',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['artrite-reumatoide', 'doenca-renal-cronica', 'hipertensao', 'diabetes'],
+    references: [
+      {
+        label: 'Gota',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/gota/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+      {
+        label: 'Gota, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/gota-e-artrite-por-pirofosfato-de-c%C3%A1lcio/gota',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Revisão crítica do tratamento medicamentoso da gota no Brasil',
+        url: 'https://www.scielo.br/j/rbr/a/mFvgxkXjD8DqzHkSXxJd8mR/?lang=pt',
+        publisher: 'Revista Brasileira de Reumatologia',
+      },
+      {
+        label: 'Artrite reumatoide: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-falciforme',
+    slug: 'doenca-falciforme',
+    name: 'Doença falciforme',
+    aliases: ['anemia falciforme', 'doença da hemoglobina S', 'hemoglobinopatia', 'doença falciforme (DF)'],
+    summary:
+      'Alteração genética e hereditária do sangue em que os glóbulos vermelhos assumem o formato de foice, entopem os vasos e carregam menos oxigênio. O diagnóstico costuma vir do Teste do Pezinho, e o acompanhamento reduz as crises e suas complicações.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é a doença falciforme?',
+        paragraphs: [
+          'A doença falciforme é uma alteração genética e hereditária do sangue. Ela nasce de uma mutação no gene que produz a hemoglobina, a proteína que transporta o oxigênio dentro dos glóbulos vermelhos. Em vez da hemoglobina comum, chamada de HbA, a pessoa passa a fabricar uma hemoglobina mutante, a hemoglobina S (HbS). A forma mais conhecida, a anemia falciforme, corresponde à combinação HbSS, quando a criança herda duas cópias do gene alterado.',
+          'A transmissão é recessiva: para a doença se manifestar, o gene alterado precisa vir do pai e da mãe. Com a hemoglobina S, os glóbulos vermelhos, que normalmente são redondos e flexíveis, podem ficar rígidos e assumir o formato de meia-lua ou de foice, que dá nome à doença. Nessas células alteradas, o sangue circula com dificuldade: elas se agrupam e entopem os vasos menores, reduzindo a chegada de oxigênio aos tecidos. É por isso que a doença pode atingir quase todos os órgãos e sistemas do corpo, e não apenas o sangue.',
+          'O problema está presente desde o nascimento, mas os sinais costumam aparecer a partir do primeiro ano de vida e acompanham a pessoa por toda a existência. No Brasil, a anemia falciforme é a doença hereditária monogênica mais comum, com maior frequência entre pessoas pretas e pardas, por sua origem africana. No mundo, milhões de pessoas vivem com a doença, e a África subsaariana concentra a maior parte dos casos.',
+        ],
+        bullets: [
+          'Anemia falciforme (HbSS): a forma mais comum e mais grave, que aparece quando a criança herda duas cópias do gene da hemoglobina S, uma de cada progenitor.',
+          'Traço falciforme (HbAS): a pessoa tem uma cópia normal e uma alterada, não desenvolve a doença e tem expectativa de vida normal, mas pode apresentar queixas como sangue na urina e transmite o gene adiante.',
+          'Formas combinadas (HbSC, HbSD, HbSE): outras hemoglobinas mutantes, chamadas C, D e E, que se juntam à S e pertencem ao mesmo grupo de doenças falciformes, com manifestações clínicas e hematológicas parecidas e gravidade variável.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco?',
+        paragraphs: [
+          'Como a origem é genética, o verdadeiro fator de risco é ter herdado uma cópia alterada do gene de cada lado da família. No Brasil, a distribuição do gene é desigual: ele é mais frequente nas regiões Norte e Nordeste, onde cerca de 6% a 10% da população tem o traço falciforme, contra 2% a 3% nas regiões Sul e Sudeste. Estados como Bahia, Distrito Federal e Minas Gerais registram as maiores taxas de novos casos. Fora do país, a condição é mais comum em populações de origem africana e nas Américas.',
+          'Entre 2014 e 2020, a média anual de crianças diagnosticadas pela triagem neonatal foi de 1.087 casos, o equivalente a 3,75 ocorrências para cada 10.000 nascidos vivos. Estima-se que existam entre 60.000 e 100.000 pessoas com a doença no país. Por se tratar de uma condição hereditária, vale investigar irmãos, pais e outros parentes de quem recebeu o diagnóstico, pois podem ter a doença ou apenas o traço.',
+        ],
+        bullets: [
+          'Ter recebido uma cópia alterada do gene de cada progenitor',
+          'Ascendência africana, mais comum em pessoas pretas e pardas',
+          'História familiar de doença falciforme ou de traço falciforme',
+          'Viver em regiões de maior prevalência, como Norte e Nordeste',
+          'Estar no primeiro ano de vida, fase em que os sinais costumam surgir',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a doença?',
+        paragraphs: [
+          'A causa está no DNA. Uma mutação atinge o gene que codifica a hemoglobina e troca um aminoácido da cadeia beta da molécula. O resultado é a hemoglobina S, uma versão mutante que substitui a hemoglobina comum e impede a produção de hemoglobina normal dentro do glóbulo vermelho.',
+          'A hemoglobina S muda o comportamento da célula. Em certas situações ela se agrupa dentro do glóbulo vermelho e forma estruturas alongadas, que deixam a célula rígida e no formato de foice. Essas células não conseguem atravessar os capilares, os vasos mais finos do corpo, e ainda aumentam a viscosidade do sangue.',
+          'O efeito é a obstrução. O vaso entope, o oxigênio deixa de chegar ao tecido daquele território e instala-se a falta de irrigação local. Como os vasos existem em todos os órgãos, o mesmo mecanismo que produz a dor pode atingir quase todos os sistemas do corpo, e não apenas o sangue.',
+        ],
+        bullets: [
+          'Herança: a doença aparece quando o gene alterado vem do pai e da mãe; quem recebe apenas uma cópia tem o traço falciforme.',
+          'Origem do gene: por história de população, a mutação é mais frequente entre pessoas de ascendência africana.',
+          'Não é contagiosa: ninguém adquire a doença por contato, pelo ar ou por objetos compartilhados; ela vem do DNA de cada pessoa.',
+        ],
+      },
+      {
+        id: 'gatilhos',
+        heading: 'O que desencadeia uma crise?',
+        paragraphs: [
+          'A crise de dor quase sempre aparece quando algum fator faz os glóbulos vermelhos assumirem a forma de foice. O Ministério da Saúde descreve as situações mais comuns: esforço físico, estresse, exposição ao frio, traumas, desidratação e infecções. Conhecer esses gatilhos tem valor prático, porque boa parte deles pode ser evitada no dia a dia.',
+          'A lista se completa com outros fatores apontados pela literatura médica: bebida alcoólica, acidose, que é o aumento da acidez do sangue, e o período menstrual podem anteceder os episódios de dor. O padrão é sempre parecido: tudo o que reduz o oxigênio disponível, deixa o sangue mais concentrado ou estressa o organismo favorece a falcização.',
+        ],
+        bullets: [
+          'Infecções: gripe, pneumonia ou qualquer foco infeccioso costumam vir antes da crise, e por isso pedem tratamento precoce.',
+          'Desidratação: vômitos, diarreia, calor intenso ou simplesmente não beber água deixam o sangue mais espesso.',
+          'Frio e esforço físico: exposição ao frio, banho gelado e atividade física extenuante reduzem a oxigenação dos tecidos.',
+          'Estresse e traumatismos: situações de pressão emocional, lesões e o período pós-cirúrgico aparecem entre os desencadeantes descritos pelo Ministério da Saúde.',
+          'Álcool, acidose, menstruação: fatores adicionais associados ao início das crises de dor.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'No começo, a doença pode passar quase despercebida. Os sinais costumam surgir a partir do primeiro ano de vida, e na fase inicial a intensidade é pequena: a criança apenas parece cansar mais depressa do que as outras. Com o tempo tornam-se visíveis a palidez das pálpebras, o amarelamento dos olhos e, em muitos casos, o aumento do baço e do fígado. Quando a doença se instala muito cedo e as crises se repetem, o crescimento e o desenvolvimento podem ficar abaixo do esperado.',
+          'Quase toda pessoa com doença falciforme vive com algum grau de anemia crônica, porque os glóbulos em foice se quebram mais rápido do que o corpo consegue repor. Essa anemia traz cansaço, fraqueza e palidez constantes. Muitas vezes aparece também a icterícia, um leve amarelamento da pele e do branco dos olhos, resultado da destruição das células vermelhas.',
+          'O sintoma que mais leva ao pronto-socorro é a dor. As crises podem surgir nos ossos longos dos braços e das pernas, no tórax ou no abdome, às vezes com febre, e são a manifestação que mais assusta as famílias. Em bebês, um dos primeiros sinais é a síndrome mão-pé, com dor e inchaço nas mãos e nos pés. Há quadros de piora súbita, em que as células ficam presas no baço ou no fígado, o abdome aumenta e a anemia se agrava de uma hora para outra. A intensidade varia muito de pessoa para pessoa, e há quem tenha poucos sintomas entre uma crise e outra.',
+        ],
+        bullets: [
+          'Anemia crônica: cansaço, fraqueza e palidez constantes, em grau variável',
+          'Icterícia: amarelamento discreto da pele e do branco dos olhos',
+          'Crises de dor: episódios intensos nos braços, nas pernas, no tórax ou no abdome, às vezes com febre',
+          'Síndrome mão-pé: inchaço e dor nas mãos e nos pés, um dos primeiros sinais na infância',
+          'Crescimento: ganho de peso e estatura abaixo do esperado em criança com crises frequentes',
+          'Infecções mais frequentes do que o esperado, associadas ao mau funcionamento do baço',
+          'Olhos: sangramento no fundo do olho e descolamento da retina podem prejudicar a visão ao longo dos anos',
+          'Sistema nervoso: quando vasos do cérebro se entopem, o desenvolvimento neurológico e a aprendizagem podem ser afetados',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Alguns sinais pedem atendimento imediato, porque podem indicar uma complicação grave. Febre em criança com doença falciforme nunca deve ser tratada como algo comum, já que a infecção pode evoluir depressa. Dificuldade para respirar, dor no peito e queda da saturação de oxigênio apontam para a síndrome torácica aguda, que é uma emergência.',
+          'Palidez intensa que surge do nada, fraqueza importante e aumento rápido da barriga com dor sugerem sequestro de células no baço ou no fígado, situação em que a anemia piora de repente. Sintomas de AVC, como boca torta, fraqueza em um lado do corpo ou dificuldade para falar, são motivo para acionar o atendimento de emergência sem esperar. Uma ereção prolongada e dolorosa (priapismo) também exige avaliação urgente.',
+          'Vale separar dois níveis de urgência. Sinais de choque, como palidez muito acentuada, pele fria, sonolência, coração acelerado e respiração mais rápida, uma crise de dor súbita e intensa ou o abdome que cresce rápido pedem atendimento imediato. Pálpebras pálidas, olhos amarelados e dores leves no tórax, no abdome ou nas articulações são motivo para buscar avaliação em seguida, mesmo quando a dor parece suportável.',
+        ],
+        bullets: [
+          'Febre em criança com a doença',
+          'Falta de ar, dor no peito ou saturação de oxigênio baixa',
+          'Palidez súbita e fraqueza intensa',
+          'Aumento rápido do volume do abdome, com dor',
+          'Sinais de AVC: boca torta, fraqueza em um lado, fala enrolada',
+          'Ereção dolorosa e prolongada (priapismo)',
+          'Dor intensa que não melhora em casa',
+          'Sinais de choque: pele muito pálida e fria, sonolência, coração acelerado e respiração rápida',
+          'Pálpebras muito pálidas e olhos amarelados, mesmo sem dor intensa, pedem avaliação sem demora',
+        ],
+        cta: {
+          label: 'Leia também: sinais de alerta na criança',
+          href: '/artigos/doenca-falciforme-sinais-de-alerta-na-crianca/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'No Brasil, a maioria dos diagnósticos é feita cedo, ainda na maternidade, pelo Programa Nacional de Triagem Neonatal (PNTN), o Teste do Pezinho, que inclui a triagem para as hemoglobinopatias. Esse exame permite iniciar o acompanhamento antes das primeiras crises e passou a fazer parte do Sistema Único de Saúde (SUS) em 2001.',
+          'Crianças a partir dos quatro meses, jovens e adultos que nunca foram testados podem fechar o diagnóstico com um exame de sangue chamado eletroforese de hemoglobina, disponível no SUS. Na eletroforese, uma corrente elétrica separa os tipos de hemoglobina e revela a presença da forma alterada. O mesmo exame integra a rotina do pré-natal, oferecido a todas as gestantes e também aos parceiros, o que ajuda a identificar casais com risco de ter filhos com a doença.',
+          'A montagem do diagnóstico parte da história e do exame físico: casos na família, origem étnica e regional, e o conjunto de anemia, icterícia, aumento do baço e do fígado e dores no tórax, no abdome e nas articulações. O especialista de referência é o hematologista, do serviço de hematologia. Na rede pública, o caminho costuma começar na unidade de saúde, que solicita o exame de sangue e faz o encaminhamento.',
+          'Duas outras doenças de anemia precisam ser distinguidas da doença falciforme, e a separação se faz com exames. Na anemia aplástica de instalação aguda, há queda rápida de todas as células do sangue, com infecções e sangramentos, e a medula óssea se mostra pouco produtiva, sem história familiar. Na anemia hemolítica autoimune, o corpo produz anticorpos contra os próprios glóbulos vermelhos, com anemia, urina escura e icterícia, mas sem herança familiar, e os exames específicos da hemoglobina falciforme são negativos.',
+        ],
+        bullets: [
+          'História familiar de doença falciforme ou de traço falciforme',
+          'Padrão de população: mais frequente em pessoas pretas e pardas e nas regiões de maior prevalência',
+          'Sinais ao exame: pálpebras pálidas, olhos amarelados, baço e fígado aumentados, dor em tórax, abdome e articulações',
+          'Exame confirmatório: a eletroforese de hemoglobina, disponível no SUS, separa os tipos de hemoglobina e revela a forma alterada',
+          'Anemia aplástica aguda: queda rápida de todas as células do sangue, infecções e sangramentos, medula óssea pouco produtiva e sem história familiar',
+          'Anemia hemolítica autoimune: anemia, urina escura e icterícia por anticorpos contra as próprias hemácias, sem herança familiar e com exames da hemoglobina S negativos',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames entram na investigação?',
+        paragraphs: [
+          'A investigação começa no consultório, com o exame físico. A palidez das pálpebras, o amarelamento da esclera e o baço e o fígado palpáveis abaixo das costelas já dão a medida da anemia e da destruição das hemácias. A partir daí, os exames de sangue servem para demonstrar que a anemia é hemolítica e para identificar qual hemoglobina está presente.',
+          'Os valores mudam conforme o momento. Nos períodos de crise, a hemoglobina pode cair de forma mais acentuada e os demais exames acompanham essa variação, o que exige repetição e reavaliação. Um resultado isolado não substitui o conjunto: é a combinação entre a clínica, a eletroforese e, quando necessária, a análise genética que fecha o diagnóstico.',
+        ],
+        bullets: [
+          'Exame físico: pálpebras pálidas, esclera amarelada, baço e fígado aumentados de volume',
+          'Hemograma e esfregaço: a hemoglobina fica cronicamente baixa e cai ainda mais nas crises graves; no esfregaço, as hemácias variam de tamanho e de forma, com aumento das células em foice; e os reticulócitos ficam elevados, sinal de que a medula tenta repor as células destruídas',
+          'Medula óssea: mostra aumento da linha de produção dos glóbulos vermelhos',
+          'Hemólise: bilirrubina e lactato desidrogenase (LDH) elevadas, com alta mais marcada quando a hemólise se intensifica; a haptoglobina cai e a hemoglobina livre no plasma pode subir; e a vida média das hemácias fica encurtada',
+          'Eletroforese de hemoglobina: a hemoglobina S aparece como componente principal, e a hemoglobina comum não é encontrada',
+          'Teste de falcização: a falcização é positiva e a fragilidade osmótica das hemácias está reduzida',
+          'Exames de imagem: ultrassonografia e tomografia podem mostrar fígado e baço aumentados e dilatação das cavidades do coração',
+          'Exame genético: a identificação da mutação confirma a doença e é útil no aconselhamento da família',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como se trata a doença falciforme?',
+        paragraphs: [
+          'O tratamento tem três objetivos definidos: prevenir as crises, controlar a anemia e aliviar os sintomas. Ele é contínuo, conduzido por serviço de referência, e combina medicamento, proteção contra infecções e observação de perto. Quem acompanha a doença desde o diagnóstico no Teste do Pezinho tem mais chance de atravessar a infância e a adolescência com menos internações.',
+          'Na crise aguda, a equipe busca três coisas ao mesmo tempo: tirar a dor, desfazer o gatilho e vigiar as complicações. Crises intensas podem exigir internação, com oxigênio, soluções pela veia e medicamentos para a dor. Quadros que possam ter desencadeado o episódio, como uma infecção, são tratados em paralelo, porque ignorar o gatilho faz a dor voltar. Situações específicas pedem transfusão imediata, como a retenção de células no baço ou no fígado e as crises mais graves.',
+          'Fora da crise, o cuidado é feito de decisões combinadas com a equipe: o medicamento indicado, as vacinas em dia, a hidratação e a reavaliação periódica com exames. A dose de cada remédio e o momento de mudar de estratégia dependem da resposta de cada pessoa, e por isso não devem ser ajustadas por conta própria. A passagem do acompanhamento da infância para a vida adulta também precisa ser planejada, para que o cuidado não se interrompa.',
+        ],
+        bullets: [
+          'Oxigênio e líquidos: durante a crise, melhoram a oxigenação dos tecidos e a circulação',
+          'Controle da dor: medicamentos escolhidos conforme a intensidade do episódio e a história de cada pessoa',
+          'Transfusão de hemácias: corrige a anemia nas situações definidas clinicamente',
+          'Tratamento do gatilho: infecções e outras condições que dispararam a crise são tratadas ao mesmo tempo',
+          'Repouso e observação: na crise, respiração, oxigenação e dor são monitoradas de perto',
+          'Acompanhamento continuado: consultas, exames de controle e registro das crises no serviço de referência',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'Na infância, a base da prevenção é proteger contra infecções. Crianças com a forma mais grave costumam tomar penicilina por via oral até, no mínimo, os cinco anos, e recebem vacinas contra o pneumococo, o meningococo, a gripe e o Haemophilus influenzae tipo b. A suplementação com folato, a vitamina que ajuda o corpo a fabricar novos glóbulos vermelhos, completa esse cuidado de base.',
+          'Para reduzir a frequência das crises, o medicamento mais conhecido é a hidroxiureia. Ela aumenta a produção de uma forma de hemoglobina encontrada principalmente em fetos, o que diminui a quantidade de glóbulos em foice e reduz as crises falciformes e a síndrome torácica aguda. A indicação, a dose e a continuidade dependem da avaliação da equipe que acompanha o caso, porque o medicamento exige monitoramento das células do sangue e nem sempre é adequado para todas as pessoas.',
+          'Nenhum desses remédios deve ser iniciado, interrompido ou ajustado por conta própria, nem compartilhado com outra pessoa que tenha a mesma doença. Efeitos no estômago, na pele e nos exames de sangue precisam ser observados, e quem planeja engravidar deve discutir o plano de tratamento com a equipe antes da gestação.',
+        ],
+        bullets: [
+          'Penicilina: proteção contínua contra infecções na primeira infância, mantida até no mínimo os cinco anos',
+          'Vacinas: pneumococo, meningococo, gripe e Haemophilus influenzae tipo b, conforme o calendário indicado pela equipe',
+          'Folato (ácido fólico): vitamina que apoia a produção de novos glóbulos vermelhos',
+          'Hidroxiureia: aumenta a hemoglobina de padrão fetal e reduz as crises de dor e a síndrome torácica aguda',
+          'Outros medicamentos: a L-glutamina e o crizanlizumabe são citados como opções que ajudam a controlar sintomas e complicações',
+        ],
+      },
+      {
+        id: 'outros-tratamentos',
+        heading: 'Quando o tratamento envolve transfusão ou transplante?',
+        paragraphs: [
+          'As transfusões têm lugar próprio no tratamento. São usadas para corrigir a anemia quando ela se torna importante, na preparação para uma cirurgia, na falência de vários órgãos e nas complicações graves. O procedimento acontece em serviço de referência, com avaliação antes e acompanhamento durante a infusão. Como o uso repetido ao longo dos anos acumula ferro no corpo, quem recebe muitas transfusões precisa monitorar esse excesso, que pode lesionar órgãos.',
+          'O transplante de células-tronco é o tratamento com potencial de cura: quando as células normais se instalam, a anemia falciforme pode ser curada. Justamente por isso, ele é reservado a casos selecionados, já que os riscos são elevados e as complicações, frequentes, o que exige critérios rigorosos e avaliação especializada. A terapia genética, técnica pela qual se implantam genes funcionais nas células que produzem o sangue, também está disponível.',
+          'A pesquisa avançou em outras frentes. Além das abordagens com célula-tronco e da substituição genética, já demonstradas em modelos de estudo como alternativa às limitações do transplante tradicional, há medicamentos voltados a reduzir as complicações da doença. A disponibilidade de cada um deles depende do serviço e das decisões de incorporação do sistema de saúde, por isso a conversa sobre alternativas acontece com a equipe de referência, e não por iniciativa isolada.',
+        ],
+        bullets: [
+          'Transfusão de hemácias: indicada para anemia acentuada, preparo cirúrgico e falência de múltiplos órgãos',
+          'Monitoramento de ferro: necessário em quem recebe transfusões repetidas, pela sobrecarga que pode danificar órgãos',
+          'Transplante de medula óssea: opção com potencial de cura, com riscos elevados e critérios rigorosos de indicação',
+          'Terapia genética: já descrita como alternativa disponível para casos selecionados',
+          'Medicamentos que reduzem crises e complicações: L-glutamina e crizanlizumabe entre os citados na literatura',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'A doença tem cura e quão grave ela é?',
+        paragraphs: [
+          'A doença falciforme é genética, portanto não desaparece sozinha e não se cura com um ciclo de tratamento. O que se consegue é controlá-la: reduzir crises, corrigir a anemia, prevenir infecções e proteger os órgãos ao longo dos anos. Entre as opções com potencial de cura, o transplante de células-tronco é a mais estabelecida, reservada a casos avaliados por equipe especializada.',
+          'É uma condição de curso longo, que acompanha a pessoa a vida inteira e interfere na qualidade de vida nos dias de crise. Sem acompanhamento, podem aparecer complicações graves, como insuficiência cardíaca, insuficiência renal e quadros de choque, alguns com risco de morte. Esse cenário mudou no Brasil a partir da triagem neonatal: a inclusão da eletroforese de hemoglobina nos testes do recém-nascido marcou o início da mudança da história natural da doença no país, porque permitiu começar o cuidado antes da primeira complicação.',
+          'A gravidade varia muito de pessoa para pessoa. Há quem tenha poucas crises por ano e mantenha estudo e trabalho; há quem precise de internações repetidas. Entre os fatores que mais pesam nessa diferença estão a idade em que o acompanhamento começou, a adesão ao tratamento e à vacinação, e a exposição aos gatilhos que dá para evitar.',
+        ],
+        bullets: [
+          'Curto prazo: as crises respondem ao tratamento, e a maioria das pessoas fica sem sintomas entre um episódio e outro',
+          'Longo prazo: a doença é crônica e pede cuidado contínuo em todas as idades',
+          'O que piora o desfecho: ausência de acompanhamento, infecções tratadas tarde, síndrome torácica aguda e acidente vascular encefálico',
+          'O que melhora o desfecho: diagnóstico pelo Teste do Pezinho, início precoce do cuidado e adesão ao tratamento',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Complicações e riscos ao longo do tempo',
+        paragraphs: [
+          'Como os vasos entupidos reduzem a oxigenação, os mesmos mecanismos que causam dor podem lesionar órgãos ao longo do tempo. O baço, que aprisiona as células em foice, costuma se lesionar na infância e passa a funcionar mal, o que aumenta a vulnerabilidade a infecções. O bloqueio de vasos no cérebro pode provocar acidente vascular encefálico. Nos pulmões, a síndrome torácica aguda é uma complicação grave, com febre, falta de ar e queda da saturação de oxigênio, capaz de levar ao óbito.',
+          'Outras consequências surgem conforme a idade. Podem aparecer cálculos biliares formados a partir do pigmento da destruição das hemácias, úlceras nas pernas, sobretudo perto dos tornozelos, e osteonecrose, em que o quadril é tão lesado que pode exigir a substituição da articulação. Homens jovens podem ter priapismo, ereção prolongada e dolorosa que, quando se repete, lesiona o pênis de forma permanente. Rins e olhos também podem ser atingidos, e a sobrecarga de ferro decorrente de transfusões repetidas é uma complicação tardia que pede acompanhamento.',
+        ],
+        bullets: [
+          'Infecções: maior vulnerabilidade, sobretudo com o baço lesionado na infância',
+          'Crise vaso-oclusiva: o bloqueio dos vasos pela célula em foice, com dor intensa e lesão do tecido daquele território',
+          'Baixa oxigenação dos tecidos: consequência direta da circulação obstruída',
+          'Acidose metabólica: o aumento da acidez do sangue prejudica a oxigenação e favorece novas crises de falcização',
+          'Síndrome torácica aguda, com febre e falta de ar',
+          'Acidente vascular encefálico pelo bloqueio de vasos no cérebro',
+          'Insuficiência renal e insuficiência cardíaca ao longo dos anos',
+          'Cálculos biliares, úlceras nas pernas e osteonecrose do quadril',
+          'Priapismo, com risco de lesão permanente do pênis',
+          'Sobrecarga de ferro em quem recebe muitas transfusões',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'No dia a dia, o mais importante é conhecer os gatilhos que favorecem as crises e evitá-los dentro do possível. Esforço físico intenso, estresse, exposição ao frio, traumas, desidratação e infecções podem fazer os glóbulos vermelhos assumirem a forma de foice. Beber água com regularidade ao longo do dia, agasalhar-se no frio e tratar qualquer infecção cedo ajudam a reduzir os episódios de dor.',
+          'A rotina de quem tem a doença se apoia em poucos eixos: alimentação nutritiva e de fácil digestão, feita em horários regulares e sem exageros; atividade física leve a moderada, com proteção e sem esforço extenuante; sono suficiente e higiene pessoal cuidadosa, para reduzir o risco de infecção. Cuidar do que se consome também conta: a bebida alcoólica aparece entre os desencadeantes das crises, e o tabagismo não ajuda em uma doença que já limita o oxigênio dos tecidos.',
+          'Em casa, o cuidado é simples e constante: agasalhar bem, sobretudo nas trocas de estação, manter a higiene bucal e da pele, ventilar os cômodos e observar reações aos medicamentos, procurando a equipe quando algo parecer diferente. Nos períodos de anemia mais acentuada com falta de ar, o repouso e a posição semi-sentada aliviam o esforço do coração. Um registro das crises, com data, intensidade e o que parecia ter disparado cada uma, muda a conversa na consulta, e sintomas que não cedem ou que pioram pedem reavaliação.',
+        ],
+        bullets: [
+          'Hidratação: beber água ao longo do dia, sem esperar ter sede',
+          'Frio e esforço: evitar exposição intensa ao frio, esforço extenuante e traumatismos',
+          'Alimentação: refeições nutritivas e de fácil digestão, em horários regulares, sem exageros',
+          'Álcool e fumo: evitar bebida alcoólica e cigarro',
+          'Movimento e repouso: atividade física leve a moderada com proteção; na anemia forte com falta de ar, repouso e posição semi-sentada',
+          'Casa e higiene: cuidar da boca e da pele, ventilar os ambientes e observar reações aos medicamentos',
+          'Sono e emoções: rotina regular, sono suficiente e apoio psicológico quando a dor frequente abala o humor e a confiança no tratamento',
+          'Monitoramento: registrar crises e dúvidas, manter vacinas, consultas e exames em dia e procurar a equipe quando os sintomas não cedem',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'O que dá para prevenir',
+        paragraphs: [
+          'A doença falciforme em si não pode ser prevenida, porque já está presente no DNA de quem nasce com ela. O que se previne são as crises e suas complicações. O diagnóstico precoce pelo Teste do Pezinho é a principal dessas medidas: quando a criança é identificada ainda no recém-nascido, dá para iniciar penicilina, vacinas e acompanhamento antes da primeira crise grave.',
+          'Depois do diagnóstico, medidas simples fazem diferença: evitar os gatilhos conhecidos, tratar infecções sem demora, manter as vacinas em dia e acompanhar o caso em serviço especializado. No SUS, a Política Nacional de Atenção Integral às Pessoas com Doença Falciforme e outras Hemoglobinopatias organiza essa rede de cuidado, com diretrizes definidas desde 2005. Para quem tem história familiar e planeja engravidar, o aconselhamento genético e a eletroforese de hemoglobina no pré-natal esclarecem o risco para o bebê.',
+        ],
+        bullets: [
+          'Aconselhamento genético antes de engravidar, para quem tem história familiar da doença',
+          'Diagnóstico pré-natal: a eletroforese de hemoglobina integra a rotina do pré-natal no SUS, oferecida à gestante e ao parceiro',
+          'Teste do Pezinho em todos os recém-nascidos, para iniciar o cuidado antes da primeira crise',
+          'Prevenção de infecções: vacinas em dia, higiene das mãos e tratamento precoce de qualquer foco infeccioso',
+          'Investigação dos irmãos, pais e parentes de quem recebeu o diagnóstico',
+        ],
+        cta: {
+          label: 'Leia também: tratamento e acompanhamento no SUS',
+          href: '/artigos/doenca-falciforme-tratamento-e-acompanhamento-no-sus/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'A doença falciforme é contagiosa ou pode aparecer mais tarde na vida?',
+        answer:
+          'Não é contagiosa. A doença vem da herança genética e está presente desde o nascimento, mas as manifestações clínicas costumam aparecer a partir do primeiro ano de vida e se estendem por toda a existência. Por isso o diagnóstico pelo Teste do Pezinho é feito no recém-nascido, antes mesmo de surgirem os sintomas.',
+      },
+      {
+        question: 'Quem tem traço falciforme tem a doença?',
+        answer:
+          'Não. Quem tem o traço possui apenas uma cópia do gene da hemoglobina S: essa pessoa não desenvolve a doença falciforme e tem expectativa de vida normal, mas pode ter algumas complicações, como sangue na urina, e passa o gene adiante. A doença aparece quando a criança recebe duas cópias, uma de cada progenitor.',
+      },
+      {
+        question: 'O Teste do Pezinho detecta a doença falciforme?',
+        answer:
+          'Sim. No Brasil, o diagnóstico é feito principalmente pelo Programa Nacional de Triagem Neonatal, o Teste do Pezinho, que inclui a triagem para as hemoglobinopatias. Crianças a partir de quatro meses, jovens e adultos que não fizeram o teste podem investigar com a eletroforese de hemoglobina, exame disponível no SUS.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'doenca-falciforme-sinais-de-alerta-na-crianca',
+      'doenca-falciforme-tratamento-e-acompanhamento-no-sus',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao', 'saude-infantil'],
+    relatedDiseaseSlugs: ['anemia-ferropriva', 'pneumonia', 'infarto-e-avc'],
+    references: [
+      {
+        label: 'Doença Falciforme',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-falciforme',
+        publisher: 'Ministério da Saúde do Brasil',
+      },
+      {
+        label: 'Anemia falciforme, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-sangue/anemia/anemia-falciforme',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'A Doença Falciforme no Brasil',
+        url: 'https://portaldeboaspraticas.iff.fiocruz.br/biblioteca/a-doenca-falciforme-no-brasil/',
+        publisher: 'IFF/Fiocruz',
+      },
+      {
+        label: 'Sickle-cell disease: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/sickle-cell-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-21',
+    updatedAt: '2026-10-21',
+    isPlaceholder: true,
+  },
+
 ];

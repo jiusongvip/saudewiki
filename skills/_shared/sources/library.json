@@ -20,6 +20,23 @@
   ],
   "sources": [
     {
+      "id": "a-doenca-falciforme-no-brasil",
+      "label": "A Doença Falciforme no Brasil",
+      "url": "https://portaldeboaspraticas.iff.fiocruz.br/biblioteca/a-doenca-falciforme-no-brasil/",
+      "publisher": "IFF/Fiocruz",
+      "host": "portaldeboaspraticas.iff.fiocruz.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "doenca-falciforme"
+      ],
+      "supports": [
+        "Fiocruz：A Doença Falciforme no Brasil，支撑镰状细胞病词条的巴西照护与政策背景"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "alimentacao-saudavel-folha-informativa",
       "label": "Alimentação saudável, folha informativa",
       "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
@@ -94,6 +111,23 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "anemia-falciforme-versao-saude-para-a-familia",
+      "label": "Anemia falciforme, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-sangue/anemia/anemia-falciforme",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "doenca-falciforme"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Anemia falciforme, versão saúde para a família，支撑镰状细胞病词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "anemia-por-deficiencia-de-ferro-protocolo-clinico-e-diretrizes-terapeuticas",
@@ -296,6 +330,57 @@
       "status": "imported"
     },
     {
+      "id": "bronquiolite-edicao-para-profissionais-de-saude",
+      "label": "Bronquiolite, edição para profissionais de saúde",
+      "url": "https://www.msdmanuals.com/pt/profissional/pediatria/dist%C3%BArbios-respirat%C3%B3rios-em-crian%C3%A7as-pequenas/bronquiolite",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "bronquiolite"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Bronquiolite, edição para profissionais de saúde，支撑毛细支气管炎词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "bronquiolite-versao-saude-para-a-familia",
+      "label": "Bronquiolite, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/problemas-de-sa%C3%BAde-infantil/dist%C3%BArbios-respirat%C3%B3rios-em-beb%C3%AAs-e-crian%C3%A7as/bronquiolite",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "bronquiolite"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Bronquiolite, versão saúde para a família，支撑毛细支气管炎词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "bronquiolite-viral-aguda",
+      "label": "Bronquiolite Viral Aguda",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/b/bronquiolite",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "bronquiolite"
+      ],
+      "supports": [
+        "巴西卫生部：Bronquiolite Viral Aguda，支撑毛细支气管炎词条的官方指南、政策与服务路径"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "calendario-nacional-de-vacinacao",
       "label": "Calendário Nacional de Vacinação",
       "url": "https://www.gov.br/saude/pt-br/vacinacao",
@@ -340,6 +425,74 @@
         "轮状病毒疫苗在巴西国家免疫规划中的接种剂次与月龄"
       ],
       "verifiedAt": "2026-10-19",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-pele-melanoma-versao-para-populacao",
+      "label": "Câncer de pele melanoma, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pele-melanoma/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "cancer-de-pele"
+      ],
+      "supports": [
+        "INCA：Câncer de pele melanoma, versão para população，支撑皮肤癌词条的巴西发病估计、筛查与随访建议"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-pele-nao-melanoma-versao-para-populacao",
+      "label": "Câncer de pele não melanoma, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pele-nao-melanoma/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "cancer-de-pele"
+      ],
+      "supports": [
+        "INCA：Câncer de pele não melanoma, versão para população，支撑皮肤癌词条的巴西发病估计、筛查与随访建议"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-pele-saude-de-a-a-z",
+      "label": "Câncer de pele, saúde de A a Z",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-pele",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "cancer-de-pele"
+      ],
+      "supports": [
+        "巴西卫生部：Câncer de pele, saúde de A a Z，支撑皮肤癌词条的官方指南、政策与服务路径"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-fact-sheet",
+      "label": "Cancer: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "cancer-de-pele"
+      ],
+      "supports": [
+        "WHO：Cancer: fact sheet，支撑皮肤癌词条的全球流行病学与防控要点"
+      ],
+      "verifiedAt": "2026-10-21",
       "status": "verified"
     },
     {
@@ -447,6 +600,23 @@
       "status": "imported"
     },
     {
+      "id": "cirrose-hepatica-versao-saude-para-a-familia",
+      "label": "Cirrose hepática, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/doen%C3%A7as-hep%C3%A1ticas-e-da-ves%C3%ADcula-biliar/fibrose-e-cirrose-hep%C3%A1tica/cirrose-hep%C3%A1tica",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "cirrose-hepatica"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Cirrose hepática, versão saúde para a família，支撑肝硬化词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "classificacao-internacional-das-cefaleias-3-edicao-ichd-3-traducao-brasileira",
       "label": "Classificação Internacional das Cefaleias, 3ª edição (ICHD-3), tradução brasileira",
       "url": "https://sbcefaleia.com.br/images/_ICHD-3-Brazilian-Portuguese-translation_complete-version.pdf",
@@ -493,6 +663,57 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "congestao-nasal-e-coriza-versao-saude-para-a-familia",
+      "label": "Congestão nasal e coriza, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/sintomas-de-dist%C3%BArbios-do-nariz-e-da-garganta/congest%C3%A3o-nasal-e-coriza",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "rinite-alergica"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Congestão nasal e coriza, versão saúde para a família，支撑过敏性鼻炎词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "consideracoes-gerais-sobre-a-tireoide",
+      "label": "Considerações gerais sobre a tireoide",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/considera%C3%A7%C3%B5es-gerais-sobre-a-tireoide",
+      "publisher": "Manual MSD Versão Saúde para a Família",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "hipotireoidismo"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Considerações gerais sobre a tireoide，支撑甲状腺功能减退词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "consideracoes-gerais-sobre-infeccoes-do-trato-urinario-itus-versao-saude-para-a-familia",
+      "label": "Considerações gerais sobre infecções do trato urinário (ITUs), versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/considera%C3%A7%C3%B5es-gerais-sobre-infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "infeccao-urinaria"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Considerações gerais sobre infecções do trato urinário (ITUs), versão saúde para a família，支撑尿路感染词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "consideracoes-gerais-sobre-pneumonia-versao-saude-para-a-familia",
@@ -653,6 +874,23 @@
       "status": "verified"
     },
     {
+      "id": "diretriz-brasileira-de-fibrilacao-atrial-2025",
+      "label": "Diretriz Brasileira de Fibrilação Atrial, 2025",
+      "url": "https://www.scielo.br/j/abc/a/jWrKHyPRYYh7dXZR94nJcGp/?lang=pt",
+      "publisher": "Sociedade Brasileira de Cardiologia",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "fibrilacao-atrial"
+      ],
+      "supports": [
+        "巴西指南/共识：Diretriz Brasileira de Fibrilação Atrial, 2025，支撑心房颤动词条的诊疗要点与本地实践"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "diretriz-brasileira-de-insuficiencia-cardiaca-cronica",
       "label": "Diretriz Brasileira de Insuficiência Cardíaca Crônica",
       "url": "https://www.scielo.br/j/abc/a/XrJZJkL945HZqpd3dZgdPrf/?lang=pt",
@@ -664,6 +902,23 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "diretrizes-clinicas-praticas-para-o-manejo-do-hipotiroidismo",
+      "label": "Diretrizes clínicas práticas para o manejo do hipotiroidismo",
+      "url": "https://www.scielo.br/j/abem/a/RyCDtMtQqCKP5vG8hVSwpQC/?lang=pt",
+      "publisher": "Arquivos de Endocrinologia e Metabologia (SciELO Brasil)",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "hipotireoidismo"
+      ],
+      "supports": [
+        "巴西指南/共识：Diretrizes clínicas práticas para o manejo do hipotiroidismo，支撑甲状腺功能减退词条的诊疗要点与本地实践"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "doenca-de-chagas",
@@ -680,6 +935,23 @@
       ],
       "supports": [
         "Na fase crônica a doença de Chagas pode causar problemas no coração, incluindo insuficiência cardíaca"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "doenca-falciforme",
+      "label": "Doença Falciforme",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-falciforme",
+      "publisher": "Ministério da Saúde do Brasil",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "doenca-falciforme"
+      ],
+      "supports": [
+        "巴西卫生部：Doença Falciforme，支撑镰状细胞病词条的官方指南、政策与服务路径"
       ],
       "verifiedAt": "2026-10-21",
       "status": "verified"
@@ -771,6 +1043,23 @@
       "status": "verified"
     },
     {
+      "id": "epilepsia-folha-informativa",
+      "label": "Epilepsia: folha informativa",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "epilepsia"
+      ],
+      "supports": [
+        "WHO：Epilepsia: folha informativa，支撑癫痫词条的全球流行病学与防控要点"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "esteatose-hepatica-o-que-e-causas-sintomas-e-tratamento",
       "label": "Esteatose hepática: o que é, causas, sintomas e tratamento",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica",
@@ -842,6 +1131,25 @@
       "status": "verified"
     },
     {
+      "id": "estimativas-para-o-trienio-2026-2028",
+      "label": "Estimativas para o triênio 2026-2028",
+      "url": "https://www.scielo.br/j/rbcan/a/ZgsGr7Dw4sKrKYSnLKHk5KF/?lang=pt",
+      "publisher": "Revista Brasileira de Cancerologia (INCA)",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [
+        "epidemiologia"
+      ],
+      "diseases": [
+        "cancer-de-pele"
+      ],
+      "supports": [
+        "Câncer de pele não melanoma: 263.280 casos novos por ano no triênio 2026-2028, sendo 136.180 homens e 127.100 mulheres"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "febre-reumatica",
       "label": "Febre reumática",
       "url": "https://bvsms.saude.gov.br/febre-reumatica/",
@@ -863,6 +1171,23 @@
         "心脏受累时出现持续疲倦、气短和心悸",
         "治疗用抗炎药并肌注苄星青霉素，间隔最多 21 天，疗程依心脏损伤程度，至少至 25 岁",
         "预防依赖对扁桃体炎的规范治疗，单剂苄星青霉素即可"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "fibrilacao-atrial-e-flutter-atrial-versao-saude-para-a-familia",
+      "label": "Fibrilação atrial e flutter atrial, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/arritmias-card%C3%ADacas/fibrila%C3%A7%C3%A3o-atrial-e-flutter-atrial",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "fibrilacao-atrial"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Fibrilação atrial e flutter atrial, versão saúde para a família，支撑心房颤动词条的病因、症状、诊断或治疗事实"
       ],
       "verifiedAt": "2026-10-21",
       "status": "verified"
@@ -905,6 +1230,57 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "glaucoma-versao-saude-para-a-familia",
+      "label": "Glaucoma, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/glaucoma/glaucoma",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "glaucoma"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Glaucoma, versão saúde para a família，支撑青光眼词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "gota",
+      "label": "Gota",
+      "url": "https://www.reumatologia.org.br/doencas-reumaticas/gota/",
+      "publisher": "Sociedade Brasileira de Reumatologia",
+      "host": "www.reumatologia.org.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "gota"
+      ],
+      "supports": [
+        "巴西指南/共识：Gota，支撑痛风词条的诊疗要点与本地实践"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "gota-versao-saude-para-a-familia",
+      "label": "Gota, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/gota-e-artrite-por-pirofosfato-de-c%C3%A1lcio/gota",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "gota"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Gota, versão saúde para a família，支撑痛风词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "hanseniase-sintomas-diagnostico-e-tratamento",
@@ -1013,6 +1389,57 @@
       "status": "verified"
     },
     {
+      "id": "hipotireoidismo",
+      "label": "Hipotireoidismo",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipotireoidismo",
+      "publisher": "Manual MSD Versão Saúde para a Família",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "hipotireoidismo"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Hipotireoidismo，支撑甲状腺功能减退词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "hipotireoidismo-congenito-primario",
+      "label": "Hipotireoidismo Congênito Primário",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipotireoidismo-congenito-primario",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "hipotireoidismo"
+      ],
+      "supports": [
+        "巴西卫生部：Hipotireoidismo Congênito Primário，支撑甲状腺功能减退词条的官方指南、政策与服务路径"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "hipotireoidismo-edicao-profissional",
+      "label": "Hipotireoidismo, edição profissional",
+      "url": "https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-end%C3%B3crinos-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipotireoidismo",
+      "publisher": "Manual MSD Edição para Profissionais",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "hipotireoidismo"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Hipotireoidismo, edição profissional，支撑甲状腺功能减退词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "hiv-and-aids-fact-sheet",
       "label": "HIV and AIDS: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
@@ -1093,6 +1520,40 @@
       "status": "imported"
     },
     {
+      "id": "infeccao-da-bexiga-cistite-versao-saude-para-a-familia",
+      "label": "Infecção da bexiga (cistite), versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-da-bexiga",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "infeccao-urinaria"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Infecção da bexiga (cistite), versão saúde para a família，支撑尿路感染词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "infeccao-por-helicobacter-pylori",
+      "label": "Infecção por Helicobacter pylori",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/infec%C3%A7%C3%A3o-por-helicobacter-pylori",
+      "publisher": "Manual MSD Versão Saúde para a Família",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "ulcera-peptica"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Infecção por Helicobacter pylori，支撑消化性溃疡词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "infeccao-por-oxiuro-versao-saude-para-a-familia",
       "label": "Infecção por oxiúro, versão saúde para a família",
       "url": "https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-nematelmintos-nemat%C3%B3deos/infec%C3%A7%C3%A3o-por-oxi%C3%BAro",
@@ -1104,6 +1565,40 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "infeccao-renal-pielonefrite-versao-saude-para-a-familia",
+      "label": "Infecção renal (pielonefrite), versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-renal",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "infeccao-urinaria"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Infecção renal (pielonefrite), versão saúde para a família，支撑尿路感染词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "insolacao-saude-de-a-a-z",
+      "label": "Insolação, saúde de A a Z",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/insolacao",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "cancer-de-pele"
+      ],
+      "supports": [
+        "巴西卫生部：Insolação, saúde de A a Z，支撑皮肤癌词条的官方指南、政策与服务路径"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida-protocolo-clinico-e-diretrizes-terapeuticas-resumo",
@@ -1149,6 +1644,23 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "iv-consenso-brasileiro-sobre-rinites-atualizacao-em-rinite-alergica",
+      "label": "IV Consenso Brasileiro sobre Rinites: atualização em rinite alérgica",
+      "url": "https://www.scielo.br/j/bjorl/a/zWmtXTXRn6dtBLwcqRpJH4m/?lang=pt",
+      "publisher": "Revista Brasileira de Otorrinolaringologia (SciELO)",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "rinite-alergica"
+      ],
+      "supports": [
+        "巴西指南/共识：IV Consenso Brasileiro sobre Rinites: atualização em rinite alérgica，支撑过敏性鼻炎词条的诊疗要点与本地实践"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "leprosy-fact-sheet",
@@ -1414,6 +1926,26 @@
       "status": "imported"
     },
     {
+      "id": "protocolo-de-uso-do-nirsevimabe",
+      "label": "Protocolo de uso do nirsevimabe",
+      "url": "https://www.gov.br/conitec/pt-br/midias/relatorios/2026/relatorio-de-recomendacao-no-1-083-protocolo-de-uso-do-nirsevimabe/@@download/file",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "prevencao",
+        "saude-infantil"
+      ],
+      "diseases": [
+        "bronquiolite"
+      ],
+      "supports": [
+        "SUS: nirsevimabe para prematuros com menos de 37 semanas e crianças de até 24 meses com comorbidades, nascidas a partir de fevereiro de 2026"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "relatorio-de-recomendacao-da-conitec-para-o-protocolo-de-insuficiencia-cardiaca",
       "label": "Relatório de Recomendação da CONITEC para o protocolo de insuficiência cardíaca",
       "url": "https://www.gov.br/conitec/pt-br/midias/relatorios/2024/relatorio-de-recomendacao-no-808-pcdt-insuficiencia-cardiaca-com-fracao-de-ejecao-reduzida",
@@ -1440,6 +1972,23 @@
       "status": "imported"
     },
     {
+      "id": "revisao-critica-do-tratamento-medicamentoso-da-gota-no-brasil",
+      "label": "Revisão crítica do tratamento medicamentoso da gota no Brasil",
+      "url": "https://www.scielo.br/j/rbr/a/mFvgxkXjD8DqzHkSXxJd8mR/?lang=pt",
+      "publisher": "Revista Brasileira de Reumatologia",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "gota"
+      ],
+      "supports": [
+        "巴西指南/共识：Revisão crítica do tratamento medicamentoso da gota no Brasil，支撑痛风词条的诊疗要点与本地实践"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "rheumatic-heart-disease-fact-sheet",
       "label": "Rheumatic heart disease: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease",
@@ -1451,6 +2000,23 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "rinite-versao-saude-para-a-familia",
+      "label": "Rinite, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/doen%C3%A7as-do-nariz-e-dos-seios-paranasais/rinite",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "rinite-alergica"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Rinite, versão saúde para a família，支撑过敏性鼻炎词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "rotavirus",
@@ -1517,6 +2083,23 @@
       "status": "verified"
     },
     {
+      "id": "sickle-cell-disease-fact-sheet",
+      "label": "Sickle-cell disease: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sickle-cell-disease",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "doenca-falciforme"
+      ],
+      "supports": [
+        "WHO：Sickle-cell disease: fact sheet，支撑镰状细胞病词条的全球流行病学与防控要点"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "sinais-e-sintomas-do-avc-b-e-f-a-s-t",
       "label": "Sinais e sintomas do AVC (B.E. F.A.S.T.)",
       "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
@@ -1556,6 +2139,23 @@
       "status": "imported"
     },
     {
+      "id": "sus-oferece-mais-um-medicamento-para-o-tratamento-de-epilepsia",
+      "label": "SUS oferece mais um medicamento para o tratamento de epilepsia",
+      "url": "https://www.gov.br/conitec/pt-br/assuntos/noticias/2017/dezembro/sus-oferece-mais-um-medicamento-para-o-tratamento-de-epilepsia",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "epilepsia"
+      ],
+      "supports": [
+        "巴西卫生部：SUS oferece mais um medicamento para o tratamento de epilepsia，支撑癫痫词条的官方指南、政策与服务路径"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
       "id": "sus-vai-oferecer-cirurgia-que-trata-glaucoma-e-catarata-ao-mesmo-tempo",
       "label": "SUS vai oferecer cirurgia que trata glaucoma e catarata ao mesmo tempo",
       "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/sus-vai-oferecer-cirurgia-que-trata-glaucoma-e-catarata-ao-mesmo-tempo",
@@ -1580,6 +2180,23 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "transtornos-convulsivos-versao-saude-para-a-familia",
+      "label": "Transtornos convulsivos, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-cerebrais-da-medula-espinal-e-dos-nervos/transtornos-convulsivos/transtornos-convulsivos",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "epilepsia"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Transtornos convulsivos, versão saúde para a família，支撑癫痫词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "tratamento-da-hipoglicemia-baixa-de-acucar-no-sangue",
@@ -1619,6 +2236,40 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "ulcera-peptica",
+      "label": "Úlcera péptica",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/%C3%BAlcera-p%C3%A9ptica",
+      "publisher": "Manual MSD Versão Saúde para a Família",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "ulcera-peptica"
+      ],
+      "supports": [
+        "MSD 家庭/专业版：Úlcera péptica，支撑消化性溃疡词条的病因、症状、诊断或治疗事实"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "v-consenso-brasileiro-sobre-a-infeccao-por-helicobacter-pylori",
+      "label": "V Consenso Brasileiro sobre a infecção por Helicobacter pylori",
+      "url": "https://www.scielo.br/j/ag/a/G9BpZdBB8tHTKdF9b5nmSbp/?lang=pt",
+      "publisher": "Arquivos de Gastroenterologia (SciELO Brasil)",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "ulcera-peptica"
+      ],
+      "supports": [
+        "巴西指南/共识：V Consenso Brasileiro sobre a infecção por Helicobacter pylori，支撑消化性溃疡词条的诊疗要点与本地实践"
+      ],
+      "verifiedAt": "2026-10-21",
+      "status": "verified"
     },
     {
       "id": "vacinacao-contra-a-dengue-municipios-contemplados",

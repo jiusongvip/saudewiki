@@ -36,7 +36,12 @@ export const regions: BodyRegion[] = [
     name: 'Cérebro e nervos',
     description:
       'As doenças que atingem o cérebro, a medula e os nervos, e os sinais súbitos que pedem atendimento imediato.',
-    diseaseSlugs: [ 'infarto-e-avc', 'zika', 'enxaqueca' ],
+    diseaseSlugs: [
+      'infarto-e-avc',
+      'zika',
+      'enxaqueca',
+      'epilepsia',
+    ],
     globalOverview: [
       'No mundo, o AVC é uma das principais causas de morte e de incapacidade permanente, e a enxaqueca e outras cefaleias estão entre as causas mais frequentes de anos vividos com limitação. Epilepsia, demências e neuropatias completam o grupo das doenças neurológicas mais comuns.',
       'A maior parte dessas doenças não aparece de repente: elas acompanham fatores de risco que dão sinal, como pressão alta, diabetes e tabagismo. É por isso que o controle dessas condições faz parte da prevenção do AVC.',
@@ -55,7 +60,15 @@ export const regions: BodyRegion[] = [
     name: 'Olhos',
     description:
       'A visão embaçada que acompanha a pressão alta, a dor atrás dos olhos da dengue e o que a diabetes faz, ao longo dos anos, com os vasos finos do olho.',
-    diseaseSlugs: [ 'diabetes', 'hipertensao', 'dengue', 'zika', 'chikungunya', 'catarata' ],
+    diseaseSlugs: [
+      'diabetes',
+      'hipertensao',
+      'dengue',
+      'zika',
+      'chikungunya',
+      'catarata',
+      'glaucoma',
+    ],
     globalOverview: [
       'No mundo, a catarata continua sendo a maior causa de cegueira evitável, e o glaucoma, a principal causa de cegueira irreversível: a perda de visão ocorre sem dor e sem aviso, por isso o exame periódico é parte do cuidado.',
       'Os erros refrativos não corrigidos, como miopia e astigmatismo, são de longe a queixa visual mais comum do planeta, e a retinopatia diabética é hoje uma das maiores causas de perda de visão em idade produtiva.',
@@ -80,6 +93,7 @@ export const regions: BodyRegion[] = [
       'hiv-aids',
       'chikungunya',
       'otite-media-aguda',
+      'rinite-alergica',
     ],
     globalOverview: [
       'Nessas três portas de entrada, o mundo adoece muito: infecções das vias aéreas superiores, como faringites, amigdalites e sinusites, estão entre os motivos de consulta mais frequentes em qualquer país, e otite média é queixa comum na primeira infância.',
@@ -100,7 +114,13 @@ export const regions: BodyRegion[] = [
     name: 'Pulmões e vias aéreas',
     description:
       'O estreitamento das vias por onde o ar passa e a infecção que se instala no tecido onde o oxigênio entra.',
-    diseaseSlugs: [ 'tuberculose', 'asma', 'dpoc', 'pneumonia' ],
+    diseaseSlugs: [
+      'tuberculose',
+      'asma',
+      'dpoc',
+      'pneumonia',
+      'bronquiolite',
+    ],
     globalOverview: [
       'No mundo, as infecções respiratórias baixas, como a pneumonia, estão entre as principais causas de morte, e a asma atinge centenas de milhões de pessoas, a maioria sem diagnóstico formal.',
       'A DPOC, em geral ligada ao tabagismo, é hoje uma das maiores causas de morte evitável, e o câncer de pulmão tem forte associação com o cigarro e com a poluição do ar interno e externo.',
@@ -119,7 +139,12 @@ export const regions: BodyRegion[] = [
     name: 'Coração e vasos',
     description:
       'Quando uma artéria é obstruída ou se rompe: o infarto no músculo do coração, o AVC no cérebro, e a pressão alta que aumenta o risco dos dois.',
-    diseaseSlugs: [ 'infarto-e-avc', 'hipertensao', 'insuficiencia-cardiaca' ],
+    diseaseSlugs: [
+      'infarto-e-avc',
+      'hipertensao',
+      'insuficiencia-cardiaca',
+      'fibrilacao-atrial',
+    ],
     globalOverview: [
       'As doenças cardiovasculares são a principal causa de morte no mundo, e dentro delas o infarto e o AVC lideram. A hipertensão, presente em cerca de um em cada quatro adultos, é o maior fator de risco isolado e costuma ser silenciosa por anos.',
       'O que faz a diferença na prática é o controle continuado: medir a pressão, tratar quando indicada e não abandonar o medicamento. Nessas condições, infarto e AVC podem ser evitados ou chegam menos graves.',
@@ -138,7 +163,11 @@ export const regions: BodyRegion[] = [
     name: 'Fígado',
     description:
       'Inflamações causadas por vírus, quase sempre silenciosas no início, e o acompanhamento que evita a evolução para cirrose e câncer.',
-    diseaseSlugs: [ 'hepatites-virais', 'esteatose-hepatica' ],
+    diseaseSlugs: [
+      'hepatites-virais',
+      'esteatose-hepatica',
+      'cirrose-hepatica',
+    ],
     globalOverview: [
       'No mundo, as hepatites B e C, o álcool e a gordura no fígado associada à obesidade e ao diabetes estão entre as principais causas de cirrose e de câncer de fígado.',
       'Só o vírus da hepatite B causa infecção crônica em centenas de milhões de pessoas, e boa parte delas não sabe: o fígado é um órgão silencioso, e a doença aparece quando já há dano importante, por isso a testagem é parte da prevenção.',
@@ -162,6 +191,7 @@ export const regions: BodyRegion[] = [
       'hepatites-virais',
       'hiv-aids',
       'parasitoses-intestinais',
+      'ulcera-peptica',
     ],
     globalOverview: [
       'No mundo todo, as infecções intestinais, virais e bacterianas, são a doença mais comum de todas: gastroenterites de curta duração atingem crianças e adultos em qualquer país, e a diarreia segue sendo uma das grandes causas de morte na infância onde o acesso a água tratada é limitado.',
@@ -182,7 +212,11 @@ export const regions: BodyRegion[] = [
     name: 'Pâncreas e metabolismo',
     description:
       'O pâncreas produz a insulina. Quando ela falta ou o corpo deixa de responder bem a ela, a glicose sobe no sangue.',
-    diseaseSlugs: [ 'diabetes', 'colesterol-alto' ],
+    diseaseSlugs: [
+      'diabetes',
+      'colesterol-alto',
+      'hipotireoidismo',
+    ],
     globalOverview: [
       'No mundo, centenas de milhões de pessoas vivem com diabetes, a imensa maioria do tipo 2, e a doença se tornou uma das principais causas de cegueira, diálise e amputação evitáveis.',
       'A pancreatite, em geral ligada a pedra na vesícula ou ao álcool, é a urgência mais comum desse conjunto, e a tireoide, apesar de não ser pâncreas, divide o capítulo metabólico: suas alterações estão entre as endocrinopatias mais frequentes.',
@@ -201,7 +235,13 @@ export const regions: BodyRegion[] = [
     name: 'Rins',
     description:
       'O filtro do corpo. A diabetes pode lesioná-lo com o tempo, e a queda do volume de urina é sinal de alerta em infecção grave.',
-    diseaseSlugs: [ 'diabetes', 'hipertensao', 'dengue', 'doenca-renal-cronica' ],
+    diseaseSlugs: [
+      'diabetes',
+      'hipertensao',
+      'dengue',
+      'doenca-renal-cronica',
+      'infeccao-urinaria',
+    ],
     globalOverview: [
       'No mundo, a doença renal crônica afeta centenas de milhões de pessoas e cresce junto com diabetes e hipertensão, suas duas principais causas. Ela fica silenciosa até fases avançadas: por isso quem tem essas duas condições faz exame de função renal de rotina.',
       'A infecção urinária é uma das queixas mais frequentes entre mulheres, e a pedra no rim atinge parcela relevante da população adulta, com dor típica em cólica que irradia para as costas.',
@@ -227,6 +267,7 @@ export const regions: BodyRegion[] = [
       'hepatites-virais',
       'malaria',
       'hanseniase',
+      'cancer-de-pele',
     ],
     globalOverview: [
       'No mundo, o câncer de pele é o tipo de câncer mais diagnosticado, e a exposição ao sol sem proteção é o principal fator modificável. Dermatites, acne, micoses e escabiose estão entre as causas mais comuns de sofrimento cutâneo no dia a dia.',
@@ -246,7 +287,13 @@ export const regions: BodyRegion[] = [
     name: 'Articulações e músculos',
     description:
       'A dor nas juntas que pode durar semanas, marca da chikungunya, e a dor muscular das outras arboviroses.',
-    diseaseSlugs: [ 'chikungunya', 'dengue', 'zika', 'artrite-reumatoide' ],
+    diseaseSlugs: [
+      'chikungunya',
+      'dengue',
+      'zika',
+      'artrite-reumatoide',
+      'gota',
+    ],
     globalOverview: [
       'No mundo, a dor lombar é a principal causa de anos vividos com incapacidade, e a artrose de joelho e quadril pesa sobretudo depois dos 50 anos, acompanhando o envelhecimento e a obesidade.',
       'A artrite reumatoide, autoimune, é o exemplo clássico de doença que precisa de diagnóstico precoce: tratada cedo, protege a articulação da deformidade; tratada tarde, o dano já está feito.',
@@ -265,7 +312,12 @@ export const regions: BodyRegion[] = [
     name: 'Sangue e defesas',
     description:
       'Doenças do sistema, não de um órgão: o HIV ataca as células de defesa do organismo e o parasita da malária se multiplica no sangue.',
-    diseaseSlugs: [ 'hiv-aids', 'malaria', 'anemia-ferropriva' ],
+    diseaseSlugs: [
+      'hiv-aids',
+      'malaria',
+      'anemia-ferropriva',
+      'doenca-falciforme',
+    ],
     globalOverview: [
       'No mundo, a anemia por falta de ferro é o distúrbio nutricional mais comum e atinge sobretudo crianças e mulheres. As hemoglobinopatias, como a doença falciforme, estão entre as doenças genéticas mais prevalentes, e as coagulopatias, como a hemofilia, exigem tratamento continuado.',
       'O HIV permanece como a infecção crônica mais monitorada do planeta: sem tratamento, derruba a imunidade; com tratamento em dia, permite vida longa e reduz a transmissibilidade a ponto de impedir a transmissão sexual.',

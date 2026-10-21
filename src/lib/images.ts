@@ -26,11 +26,12 @@ export interface SiteImage {
   alt: string;
 }
 /**
- * Illustrated plates, not photographs. Each one shows the mechanism of the
- * disease in cross-section, a clinical sign in the inset at the upper right and
- * the main symptoms as a row of circular badges at the bottom. The captions
- * inside the artwork are in Portuguese, so the picture is the same in both
- * languages and only the `alt` changes.
+ * One picture per disease. The older entries are illustrated plates: each one
+ * shows the mechanism in cross-section, a clinical sign in the inset at the
+ * upper right and the main symptoms as a row of circular badges. Entries added
+ * from the second batch on are Unsplash photographs, per the sourcing rule in
+ * the disease skill. The captions live in the picture, so the file is the same
+ * in both languages and only the `alt` changes.
  */
 export const diseaseImages: Record<string, SiteImage> = {
   dengue: {
@@ -136,6 +137,54 @@ export const diseaseImages: Record<string, SiteImage> = {
   'artrite-reumatoide': {
     src: '/img/doenca-artrite-reumatoide.webp',
     alt: 'Ilustração médica de uma articulação do dedo em corte com a membrana sinovial espessada, vermelha e inflamada corroendo a cartilagem e o osso, com recorte de duas mãos com os nós dos dedos inchados e vermelhos e quatro ícones de rigidez, inchaço, dois lados e dor',
+  },
+  epilepsia: {
+    src: '/img/doenca-epilepsia.webp',
+    alt: 'Modelo anatômico do cérebro humano segurado por uma mão, com o corte mostrando as circunvoluções, o cerebelo e o tronco encefálico',
+  },
+  glaucoma: {
+    src: '/img/doenca-glaucoma.webp',
+    alt: 'Olho humano em close, com a íris azul, a pupila escura e os cílios em detalhe',
+  },
+  'rinite-alergica': {
+    src: '/img/doenca-rinite-alergica.webp',
+    alt: 'Mulher de cabelos claros com os olhos irritados, segurando lenços de papel sobre o nariz',
+  },
+  bronquiolite: {
+    src: '/img/doenca-bronquiolite.webp',
+    alt: 'Mão de adulto segurando a mão pequena de um bebê deitado, com o rosto do bebê desfocado ao fundo',
+  },
+  'fibrilacao-atrial': {
+    src: '/img/doenca-fibrilacao-atrial.webp',
+    alt: 'Monitor de sinais vitais com a curva do eletrocardiograma em verde na tela',
+  },
+  'cirrose-hepatica': {
+    src: '/img/doenca-cirrose-hepatica.webp',
+    alt: 'Mãos com luvas azuis operando um aparelho de ultrassom durante um exame',
+  },
+  'ulcera-peptica': {
+    src: '/img/doenca-ulcera-peptica.webp',
+    alt: 'Modelo anatômico do tronco humano aberto, com pulmões, fígado, estômago e intestinos à mostra',
+  },
+  hipotireoidismo: {
+    src: '/img/doenca-hipotireoidismo.webp',
+    alt: 'Fileira de tubos de coleta de sangue com tampas coloridas em uma estante de laboratório',
+  },
+  'infeccao-urinaria': {
+    src: '/img/doenca-infeccao-urinaria.webp',
+    alt: 'Copo plástico de coleta com líquido avermelhado na base, segurado por uma mão em ambiente clínico',
+  },
+  'cancer-de-pele': {
+    src: '/img/doenca-cancer-de-pele.webp',
+    alt: 'Lupa apoiada sobre a pele do pescoço, ampliando pintas e sinais',
+  },
+  gota: {
+    src: '/img/doenca-gota.webp',
+    alt: 'Pé descalço visto de perto, com os dedos e o peito do pé apoiados em uma superfície clara',
+  },
+  'doenca-falciforme': {
+    src: '/img/doenca-doenca-falciforme.webp',
+    alt: 'Imagem de microscópio com hemácias coradas de rosa distribuídas sobre fundo claro',
   },
 };
 
@@ -495,6 +544,102 @@ export const articleImages: Record<string, SiteImage> = {
   'anemia-ferropriva-tratamento-e-alimentacao': {
     src: '/img/artigo-anemia-alimentacao.webp',
     alt: 'Tigela com grão-de-bico, lentilha, abacate, milho e folhas verdes',
+  },
+  'epilepsia-crise-o-que-fazer-e-quando-chamar-o-samu': {
+    src: '/img/artigo-epilepsia-crise-o-que-fazer-e-quando-chamar-o-samu.webp',
+    alt: 'Equipe do serviço de emergência ao lado de uma ambulância, com a maca preparada',
+  },
+  'epilepsia-tratamento-e-dia-a-dia': {
+    src: '/img/artigo-epilepsia-tratamento-e-dia-a-dia.webp',
+    alt: 'Mão segurando um organizador semanal de comprimidos com cápsulas coloridas',
+  },
+  'glaucoma-como-descobrir-cedo': {
+    src: '/img/artigo-glaucoma-como-descobrir-cedo.webp',
+    alt: 'Lâmpada de fenda e um equipamento de exame oftalmológico em uma sala clara',
+  },
+  'glaucoma-tratamento-e-colirios': {
+    src: '/img/artigo-glaucoma-tratamento-e-colirios.webp',
+    alt: 'Frasco de colírio branco em primeiro plano e óculos desfocados ao fundo',
+  },
+  'rinite-alergica-sintomas-e-gatilhos': {
+    src: '/img/artigo-rinite-alergica-sintomas-e-gatilhos.webp',
+    alt: 'Caixa de lenços de papel sobre fundo amarelo',
+  },
+  'rinite-alergica-como-controlar-em-casa': {
+    src: '/img/artigo-rinite-alergica-como-controlar-em-casa.webp',
+    alt: 'Pessoa com luvas passando o aspirador sobre um colchão',
+  },
+  'bronquiolite-sinais-de-alerta-no-bebe': {
+    src: '/img/artigo-bronquiolite-sinais-de-alerta-no-bebe.webp',
+    alt: 'Bebê deitado com a mão de um adulto ao lado da cabeça, em uma sala clara',
+  },
+  'bronquiolite-tratamento-e-cuidados-em-casa': {
+    src: '/img/artigo-bronquiolite-tratamento-e-cuidados-em-casa.webp',
+    alt: 'Máscara de nebulização transparente conectada ao aparelho, em close',
+  },
+  'fibrilacao-atrial-sintomas-e-o-risco-de-avc': {
+    src: '/img/artigo-fibrilacao-atrial-sintomas-e-o-risco-de-avc.webp',
+    alt: 'Traçado de eletrocardiograma impresso em papel quadriculado',
+  },
+  'fibrilacao-atrial-tratamento-e-anticoagulantes': {
+    src: '/img/artigo-fibrilacao-atrial-tratamento-e-anticoagulantes.webp',
+    alt: 'Mão aberta com vários comprimidos e cápsulas de cores diferentes',
+  },
+  'cirrose-hepatica-sinais-de-alerta': {
+    src: '/img/artigo-cirrose-hepatica-sinais-de-alerta.webp',
+    alt: 'Mãos de um profissional apoiadas sobre a barriga de uma pessoa deitada',
+  },
+  'cirrose-hepatica-o-que-parar-e-o-que-muda': {
+    src: '/img/artigo-cirrose-hepatica-o-que-parar-e-o-que-muda.webp',
+    alt: 'Taças de vinho sobre uma mesa posta, com garrafas e pratos ao fundo',
+  },
+  'ulcera-peptica-sintomas-e-quando-o-estomago-sangra': {
+    src: '/img/artigo-ulcera-peptica-sintomas-e-quando-o-estomago-sangra.webp',
+    alt: 'Mulher com as mãos sobre a barriga, em uma sala clara',
+  },
+  'ulcera-peptica-tratamento-e-helicobacter': {
+    src: '/img/artigo-ulcera-peptica-tratamento-e-helicobacter.webp',
+    alt: 'Frasco de remédio tombado com cápsulas verdes espalhadas sobre uma superfície escura',
+  },
+  'hipotireoidismo-sintomas-e-exame-de-sangue': {
+    src: '/img/artigo-hipotireoidismo-sintomas-e-exame-de-sangue.webp',
+    alt: 'Braço apoiado em uma cama com gaze e fita no local da coleta, tubo conectado e manguito de pressão no braço',
+  },
+  'hipotireoidismo-tratamento-com-levotiroxina': {
+    src: '/img/artigo-hipotireoidismo-tratamento-com-levotiroxina.webp',
+    alt: 'Copo de água sobre uma mesa escura ao lado de dois comprimidos brancos',
+  },
+  'infeccao-urinaria-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-infeccao-urinaria-sintomas-e-quando-procurar-atendimento.webp',
+    alt: 'Mão com luva segurando um tubo de amostra com líquido amarelo',
+  },
+  'infeccao-urinaria-prevencao-e-cuidados': {
+    src: '/img/artigo-infeccao-urinaria-prevencao-e-cuidados.webp',
+    alt: 'Jarra de água e um copo sobre a mesa, com luz do dia ao fundo',
+  },
+  'cancer-de-pele-sinais-na-pele-que-pedem-atendimento': {
+    src: '/img/artigo-cancer-de-pele-sinais-na-pele-que-pedem-atendimento.webp',
+    alt: 'Close da pele de um braço com muitas pintas e sinais castanhos',
+  },
+  'cancer-de-pele-prevencao-e-protetor-solar': {
+    src: '/img/artigo-cancer-de-pele-prevencao-e-protetor-solar.webp',
+    alt: 'Pernas com protetor solar aplicado em formas de sol e coração, ao lado de um tubo de filtro solar',
+  },
+  'gota-crise-de-dor-no-pe-e-o-que-fazer': {
+    src: '/img/artigo-gota-crise-de-dor-no-pe-e-o-que-fazer.webp',
+    alt: 'Pé descalço em close, com os dedos apoiados no chão e luz suave',
+  },
+  'gota-tratamento-e-alimentacao': {
+    src: '/img/artigo-gota-tratamento-e-alimentacao.webp',
+    alt: 'Prato com arroz, feijão, carne, batata frita e legumes',
+  },
+  'doenca-falciforme-sinais-de-alerta-na-crianca': {
+    src: '/img/artigo-doenca-falciforme-sinais-de-alerta-na-crianca.webp',
+    alt: 'Fotografia em preto e branco de um adulto ao lado do berço de hospital onde uma criança está deitada',
+  },
+  'doenca-falciforme-tratamento-e-acompanhamento-no-sus': {
+    src: '/img/artigo-doenca-falciforme-tratamento-e-acompanhamento-no-sus.webp',
+    alt: 'Bolsa de sangue pendurada com o tubo de transfusão e a etiqueta de identificação',
   },
 };
 
