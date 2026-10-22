@@ -26,12 +26,10 @@ export interface SiteImage {
   alt: string;
 }
 /**
- * One picture per disease. The older entries are illustrated plates: each one
- * shows the mechanism in cross-section, a clinical sign in the inset at the
- * upper right and the main symptoms as a row of circular badges. Entries added
- * from the second batch on are Unsplash photographs, per the sourcing rule in
- * the disease skill. The captions live in the picture, so the file is the same
- * in both languages and only the `alt` changes.
+ * One picture per disease. Every entry is an illustrated plate: the mechanism
+ * in cross-section, a clinical sign in the inset at the upper right and the
+ * main symptoms as a row of circular badges. The captions live in the picture,
+ * so the file is the same in both languages and only the `alt` changes.
  */
 export const diseaseImages: Record<string, SiteImage> = {
   dengue: {
@@ -185,6 +183,34 @@ export const diseaseImages: Record<string, SiteImage> = {
   'doenca-falciforme': {
     src: '/img/doenca-doenca-falciforme-v2.webp',
     alt: 'Ilustração médica de um vaso sanguíneo em corte comparando hemácias redondas normais com hemácias em forma de foice que se aglomeram e entopem o vaso, com recorte de uma criança pálida e cansada e quatro ícones de crise de dor, anemia, inchaço e febre',
+  },
+  'sindrome-cardiopulmonar-por-hantavirus': {
+    src: '/img/doenca-sindrome-cardiopulmonar-por-hantavirus.webp',
+    alt: 'Ilustração médica de um corte do tórax com os pulmões inflamados e cheios de nódulos e líquido espumoso, com recorte de um homem deitado no hospital usando máscara de oxigênio e quatro ícones de febre alta, tosse seca, dor muscular e pressão baixa',
+  },
+  elefantiase: {
+    src: '/img/doenca-elefantiase.webp',
+    alt: 'Ilustração médica de um corte da perna com vasos linfáticos dilatados e obstruídos por vermes adultos enrolados, cercados por tecido endurecido e inchaço crônico, com recorte de uma perna muito inchada e pele espessa e quatro ícones de edema, pele espessa, hidrocele e febre',
+  },
+  leishmaniose: {
+    src: '/img/doenca-leishmaniose.webp',
+    alt: 'Ilustração médica de um corte da pele sendo picada por um mosquito palha, com parasitas se multiplicando dentro de macrófagos e formando uma lesão inflamada na derme, com recorte de uma ferida na perna com bordas elevadas e quatro ícones de feridas, lesão nasal, febre e palidez',
+  },
+  esquistossomose: {
+    src: '/img/doenca-esquistossomose.webp',
+    alt: 'Ilustração médica de um fígado com faixas esbranquiçadas de fibrose na superfície e o baço aumentado ao lado dos vasos do sistema portal, com recorte de uma barriga distendida por ascite e quatro ícones de febre, diarreia, sangramento e baço grande',
+  },
+  tracoma: {
+    src: '/img/doenca-tracoma.webp',
+    alt: 'Ilustração médica de um olho em corte com a parte interna da pálpebra vermelha e cheia de pequenos folículos, com recorte de um olho vermelho com secreção amarelada e quatro ícones de coceira, fotofobia, secreção e visão turva',
+  },
+  helmintiases: {
+    src: '/img/doenca-helmintiases.webp',
+    alt: 'Ilustração médica de um intestino delgado em corte com vermes cilíndricos no interior e um verme preso à parede sugando sangue, com recorte de uma criança com o rosto pálido e quatro ícones de cólica, diarreia, anemia e cansaço',
+  },
+  cisticercose: {
+    src: '/img/doenca-cisticercose.webp',
+    alt: 'Ilustração médica de um cérebro em corte com cistos arredondados cheios de líquido no tecido e nos ventrículos, com recorte de uma paciente deitada na cama com os braços rígidos e quatro ícones de cefaleia, náusea, visão turva e confusão',
   },
 };
 
@@ -640,6 +666,66 @@ export const articleImages: Record<string, SiteImage> = {
   'doenca-falciforme-tratamento-e-acompanhamento-no-sus': {
     src: '/img/artigo-doenca-falciforme-tratamento-e-acompanhamento-no-sus.webp',
     alt: 'Bolsa de sangue pendurada com o tubo de transfusão e a etiqueta de identificação',
+  },
+  'hantavirose-sintomas-e-quando-ir-ao-hospital': {
+    src: '/img/artigo-hantavirose-sintomas.webp',
+    alt: 'Dois médicos de jaleco examinando uma radiografia de tórax ao lado de um paciente deitado na maca',
+  },
+  'hantavirose-como-se-transmite-e-como-prevenir': {
+    src: '/img/artigo-hantavirose-transmissao.webp',
+    alt: 'Rato silvestre de pelo castanho caminhando sobre folhas secas e terra',
+  },
+  'elefantiase-sintomas-e-quando-procurar-ajuda': {
+    src: '/img/artigo-elefantiase-sintomas.webp',
+    alt: 'Mãos segurando e apalpando a panturrilha de uma perna para avaliar o inchaço',
+  },
+  'elefantiase-como-se-transmite-e-como-prevenir': {
+    src: '/img/artigo-elefantiase-transmissao.webp',
+    alt: 'Mosquito pousado sobre a pele humana, visto de perto',
+  },
+  'leishmaniose-sintomas-e-quando-procurar-ajuda': {
+    src: '/img/artigo-leishmaniose-sintomas.webp',
+    alt: 'Mão com pequenas feridas de pele já cicatrizando',
+  },
+  'leishmaniose-como-se-transmite-e-como-prevenir': {
+    src: '/img/artigo-leishmaniose-prevencao.webp',
+    alt: 'Janela de casa com cortinas claras nas laterais e a folha da janela fechada',
+  },
+  'esquistossomose-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-esquistossomose-sintomas-e-quando-procurar-atendimento.webp',
+    alt: 'Médico medindo a pulsação de um paciente sentado na maca',
+  },
+  'tracoma-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-tracoma-sintomas-e-quando-procurar-atendimento.webp',
+    alt: 'Menina apoiada em aparelho de exame ocular',
+  },
+  'tracoma-como-se-transmite-e-como-prevenir': {
+    src: '/img/artigo-tracoma-como-se-transmite-e-como-prevenir.webp',
+    alt: 'Médica examinando a garganta de uma criança com lanterna',
+  },
+  'tracoma-tratamento-e-cirurgia': {
+    src: '/img/artigo-tracoma-tratamento-e-cirurgia.webp',
+    alt: 'Pessoa apoiada em lâmpada de fenda durante exame ocular',
+  },
+  'tracoma-pode-causar-cegueira': {
+    src: '/img/artigo-tracoma-pode-causar-cegueira.webp',
+    alt: 'Close do olho de uma pessoa idosa',
+  },
+  'helmintiases-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-helmintiases-sintomas-e-quando-procurar-atendimento.webp',
+    alt: 'Médica de luvas azuis ausculta o tórax de um paciente com estetoscópio',
+  },
+  'helmintiases-como-se-transmite-e-como-prevenir': {
+    src: '/img/artigo-helmintiases-como-se-transmite-e-como-prevenir.webp',
+    alt: 'Adulto e criança lavam as mãos juntos sob a torneira da pia',
+  },
+  'cisticercose-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-cisticercose-sintomas-e-quando-procurar-atendimento.webp',
+    alt: 'Médico examina o olho de uma criança com um oftalmoscópio portátil',
+  },
+  'cisticercose-como-se-transmite-e-como-prevenir': {
+    src: '/img/artigo-cisticercose-como-se-transmite-e-como-prevenir.webp',
+    alt: 'Cortes de carne suína crua sobre tábua de madeira ao lado de uma faca',
   },
 };
 

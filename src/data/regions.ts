@@ -41,6 +41,7 @@ export const regions: BodyRegion[] = [
       'zika',
       'enxaqueca',
       'epilepsia',
+      'cisticercose',
     ],
     globalOverview: [
       'No mundo, o AVC é uma das principais causas de morte e de incapacidade permanente, e a enxaqueca e outras cefaleias estão entre as causas mais frequentes de anos vividos com limitação. Epilepsia, demências e neuropatias completam o grupo das doenças neurológicas mais comuns.',
@@ -68,6 +69,8 @@ export const regions: BodyRegion[] = [
       'chikungunya',
       'catarata',
       'glaucoma',
+      'tracoma',
+      'cisticercose',
     ],
     globalOverview: [
       'No mundo, a catarata continua sendo a maior causa de cegueira evitável, e o glaucoma, a principal causa de cegueira irreversível: a perda de visão ocorre sem dor e sem aviso, por isso o exame periódico é parte do cuidado.',
@@ -120,13 +123,16 @@ export const regions: BodyRegion[] = [
       'dpoc',
       'pneumonia',
       'bronquiolite',
+      'sindrome-cardiopulmonar-por-hantavirus',
+      'esquistossomose',
+      'helmintiases',
     ],
     globalOverview: [
       'No mundo, as infecções respiratórias baixas, como a pneumonia, estão entre as principais causas de morte, e a asma atinge centenas de milhões de pessoas, a maioria sem diagnóstico formal.',
       'A DPOC, em geral ligada ao tabagismo, é hoje uma das maiores causas de morte evitável, e o câncer de pulmão tem forte associação com o cigarro e com a poluição do ar interno e externo.',
     ],
     lusophoneOverview: [
-      'No Brasil, a tuberculose circula sobretudo nos grandes centros urbanos, e a asma é subdiagnosticada: muita gente convive com chiado sem tratamento de controle, quando o SUS oferece ambos gratuitamente. A rede pública de combate ao tabagismo é referência mundial e reduziu de forma sustentada a prevalência de fumantes.',
+      'No Brasil, a tuberculose circula sobretudo nos grandes centros urbanos, e a asma é subdiagnosticada: muita gente convive com chiado sem tratamento de controle, quando o SUS oferece ambos gratuitamente. A rede pública de combate ao tabagismo é referência mundial e reduziu de forma sustentada a prevalência de fumantes. Nas áreas rurais, a hantavirose é uma causa rara mas grave de pneumonia e insuficiência respiratória, ligada ao contato com roedores silvestres.',
       'Em Angola, Moçambique e Guiné-Bissau, a pneumonia mata crianças em número muito maior do que na Europa, e a tosse crônica que acaba revelando tuberculose convive com o HIV, que multiplica o risco de adoecer.',
       'Em Portugal, a DPOC entre fumantes mais velhos e o câncer de pulmão dominam as consultas de pneumologia, e a poluição urbana é um fator que hoje entra nas contas de saúde pública.',
     ],
@@ -167,6 +173,8 @@ export const regions: BodyRegion[] = [
       'hepatites-virais',
       'esteatose-hepatica',
       'cirrose-hepatica',
+      'leishmaniose',
+      'esquistossomose',
     ],
     globalOverview: [
       'No mundo, as hepatites B e C, o álcool e a gordura no fígado associada à obesidade e ao diabetes estão entre as principais causas de cirrose e de câncer de fígado.',
@@ -175,7 +183,7 @@ export const regions: BodyRegion[] = [
     lusophoneOverview: [
       'A África subsaariana tem as maiores prevalências de hepatite B do mundo, e Angola e Moçambique estão nesse grupo. A diferença em relação à Europa é a dose da vacina ao nascer: onde ela é aplicada nas primeiras horas de vida, a infecção crônica na infância cai de forma marcante.',
       'No Brasil, a hepatite B é mais presente na região amazônica, onde a testagem e a vacinação foram priorizadas, e a febre amarela, que ataca o fígado, circula em áreas de mata, com campanhas de vacinação que marcam a rotina de quem vive perto dessas regiões.',
-      'Em Portugal, o peso maior recai sobre o consumo de álcool e sobre a esteatose hepática associada à obesidade, tendência que sobe com o perfil metabólico da população.',
+      'Em Portugal, o peso maior recai sobre o consumo de álcool e sobre a esteatose hepática associada à obesidade, tendência que sobe com o perfil metabólico da população. No Brasil, a leishmaniose visceral é endêmica em várias regiões e também aumenta fígado e baço, exigindo diagnóstico precoce para evitar a forma grave.',
     ],
     spot: { x: 45, y: 33.5 },
     reviewStatus: 'needs_review',
@@ -192,6 +200,9 @@ export const regions: BodyRegion[] = [
       'hiv-aids',
       'parasitoses-intestinais',
       'ulcera-peptica',
+      'esquistossomose',
+      'helmintiases',
+      'cisticercose',
     ],
     globalOverview: [
       'No mundo todo, as infecções intestinais, virais e bacterianas, são a doença mais comum de todas: gastroenterites de curta duração atingem crianças e adultos em qualquer país, e a diarreia segue sendo uma das grandes causas de morte na infância onde o acesso a água tratada é limitado.',
@@ -268,6 +279,9 @@ export const regions: BodyRegion[] = [
       'malaria',
       'hanseniase',
       'cancer-de-pele',
+      'leishmaniose',
+      'elefantiase',
+      'cisticercose',
     ],
     globalOverview: [
       'No mundo, o câncer de pele é o tipo de câncer mais diagnosticado, e a exposição ao sol sem proteção é o principal fator modificável. Dermatites, acne, micoses e escabiose estão entre as causas mais comuns de sofrimento cutâneo no dia a dia.',
@@ -276,7 +290,7 @@ export const regions: BodyRegion[] = [
     lusophoneOverview: [
       'No Brasil, o câncer de pele é o mais frequente de todos os cânceres registrados, com incidência alta nas regiões de sol forte, e a fotoproteção é campanha permanente do Ministério da Saúde no verão.',
       'A hanseníase, doença que compromete pele e nervos, mantém o Brasil entre os países com mais casos no mundo, ao lado de Angola e Moçambique, e o diagnóstico tardio deixa deformidades que a detecção precoce evita.',
-      'A leishmaniose tegumentar, que abre ferida de cura lenta depois da picada do mosquito-palha, circula em áreas de mata do Brasil, e a esporotricose urbana, transmitida por arranhadura ou mordedura de gato, se espalhou pelas capitais brasileiras na última década.',
+      'A leishmaniose tegumentar, que abre ferida de cura lenta depois da picada do mosquito-palha, circula em áreas de mata do Brasil, e a esporotricose urbana, transmitida por arranhadura ou mordedura de gato, se espalhou pelas capitais brasileiras na última década. A elefantíase, hoje sem transmissão no país, deixou sequelas de pele e de membros em quem adoeceu no passado e continua exigindo cuidado.',
     ],
     spot: { x: 27.5, y: 41 },
     reviewStatus: 'needs_review',
@@ -293,6 +307,7 @@ export const regions: BodyRegion[] = [
       'zika',
       'artrite-reumatoide',
       'gota',
+      'cisticercose',
     ],
     globalOverview: [
       'No mundo, a dor lombar é a principal causa de anos vividos com incapacidade, e a artrose de joelho e quadril pesa sobretudo depois dos 50 anos, acompanhando o envelhecimento e a obesidade.',
@@ -317,6 +332,7 @@ export const regions: BodyRegion[] = [
       'malaria',
       'anemia-ferropriva',
       'doenca-falciforme',
+      'helmintiases',
     ],
     globalOverview: [
       'No mundo, a anemia por falta de ferro é o distúrbio nutricional mais comum e atinge sobretudo crianças e mulheres. As hemoglobinopatias, como a doença falciforme, estão entre as doenças genéticas mais prevalentes, e as coagulopatias, como a hemofilia, exigem tratamento continuado.',

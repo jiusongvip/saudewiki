@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-22",
   "allowedHosts": [
     "gov.br",
     "saude.gov.br",
@@ -328,6 +328,30 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "brasil-elimina-transmissao-da-filariose-linfatica-como-problema-de-saude-publica",
+      "label": "Brasil elimina transmissão da filariose linfática como problema de saúde pública",
+      "url": "https://bvsms.saude.gov.br/brasil-elimina-transmissao-da-filariose-linfatica-como-problema-de-saude-publica/",
+      "publisher": "Biblioteca Virtual em Saúde, Ministério da Saúde (Brasil)",
+      "host": "bvsms.saude.gov.br",
+      "lang": "pt",
+      "topics": [
+        "filariose",
+        "eliminação",
+        "Brasil"
+      ],
+      "diseases": [
+        "elefantiase"
+      ],
+      "supports": [
+        "Brasil recebeu certificação da OMS pela eliminação da transmissão como problema de saúde pública",
+        "Desde 2017 não são registrados novos casos no Brasil",
+        "Pacientes crônicos continuam precisando de acompanhamento",
+        "Tratamento em massa com DEC na Região Metropolitana do Recife entre 2003 e 2016"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
     },
     {
       "id": "bronquiolite-edicao-para-profissionais-de-saude",
@@ -1060,6 +1084,36 @@
       "status": "verified"
     },
     {
+      "id": "esquistossomose-o-que-e-sintomas-diagnostico-e-tratamento",
+      "label": "Esquistossomose: o que é, sintomas, diagnóstico e tratamento",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esquistossomose",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "esquistossomose",
+        "saneamento",
+        "doenças infecciosas"
+      ],
+      "diseases": [
+        "esquistossomose"
+      ],
+      "supports": [
+        "Causada pelo Schistosoma mansoni, ligada a saneamento precário",
+        "Transmissão por contato com água doce com caramujos infectados; não há transmissão pessoa a pessoa",
+        "Incubação de duas a seis semanas",
+        "Fase aguda: febre, cefaleia, calafrios, suores, fraqueza, inapetência, mialgia, tosse e diarreia",
+        "Fase crônica: diarreia alternada com constipação, sangue nas fezes, aumento do fígado",
+        "Formas graves: barriga d água, hemorragia digestiva, hipertensão portal e pulmonar",
+        "Diagnóstico por exames de fezes; anticorpos e ultrassonografia nas formas graves",
+        "Tratamento com praziquantel em dose única supervisionada, distribuído pelo Ministério da Saúde",
+        "19 unidades federadas com transmissão, endêmica em AL, BA, PE, RN, PB, SE, ES e MG",
+        "Cerca de 1,5 milhão de pessoas vivem em áreas sob risco"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
       "id": "esteatose-hepatica-o-que-e-causas-sintomas-e-tratamento",
       "label": "Esteatose hepática: o que é, causas, sintomas e tratamento",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esteatose-hepatica",
@@ -1193,17 +1247,62 @@
       "status": "verified"
     },
     {
+      "id": "filariose-linfatica-elefantiase",
+      "label": "Filariose Linfática (Elefantíase)",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/elefantiase",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "filariose",
+        "elefantíase",
+        "Wuchereria bancrofti"
+      ],
+      "diseases": [
+        "elefantiase"
+      ],
+      "supports": [
+        "Causada por Wuchereria bancrofti e transmitida pelo Culex quinquefasciatus",
+        "Manifestações crônicas: edema de membros, seios e bolsa escrotal, hidrocele",
+        "Diagnóstico por exame direto, hemoscopia, ultrassonografia e testes de triagem",
+        "Microfilárias com periodicidade noturna, pico por volta da meia-noite",
+        "Tratamento específico com dietilcarbamazina (DEC)",
+        "Área endêmica restrita à Região Metropolitana do Recife; último caso confirmado em 2017"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
       "id": "geo-helmintiase-o-que-e-sintomas-e-tratamento",
       "label": "Geo-helmintíase: o que é, sintomas e tratamento",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase",
       "publisher": "Ministério da Saúde (Brasil)",
       "host": "www.gov.br",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "geo-helmintíase",
+        "verminose"
+      ],
+      "diseases": [
+        "parasitoses-intestinais",
+        "helmintiases"
+      ],
+      "supports": [
+        "Geo-helmintíases causadas por Ascaris lumbricoides, Trichuris trichiura e ancilostomídeos",
+        "Transmissão de Ascaris e Trichuris pela ingestão de ovos em mãos sujas, alimentos crus mal lavados e água não tratada",
+        "Ancilostomíase por penetração ativa de larvas na pele íntegra ou por via oral",
+        "No Brasil, mais de 80% das infecções por ancilostomídeos são por Necator americanus",
+        "Maioria dos portadores é assintomática; cargas altas causam sintomas",
+        "Sintomas iniciais: febre, suor, fraqueza, palidez, náuseas e tosse",
+        "Formas adultas: desconforto abdominal, cólicas, perda de apetite, diarreia, dores musculares e anemia",
+        "Ascaris em alta carga pode causar déficit nutricional, obstrução intestinal e localizações ectópicas",
+        "Trichuris em infecção maciça pode causar prolapso retal",
+        "Diagnóstico por observação microscópica de ovos nas fezes",
+        "Tratamento com albendazol ou outro anti-helmíntico oral",
+        "Inquérito Nacional 2010-2015: 197.564 escolares examinados, 5.192 casos de ancilostomíase, 11.531 de ascaridíase e 10.654 de tricuríase"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
     },
     {
       "id": "geo-helmintiases-transmitidas-pelo-solo-folha-informativa",
@@ -1212,11 +1311,24 @@
       "publisher": "Organização Mundial da Saúde",
       "host": "www.who.int",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "geo-helmintíase",
+        "verminose"
+      ],
+      "diseases": [
+        "parasitoses-intestinais",
+        "helmintiases"
+      ],
+      "supports": [
+        "Geo-helmintíases são transmitidas por ovos no solo em áreas com saneamento inadequado",
+        "Espécies principais: Ascaris lumbricoides, Trichuris trichiura, Ancylostoma duodenale e Necator americanus",
+        "Crianças são o grupo mais afetado",
+        "Infecções leves podem ser assintomáticas; cargas altas causam anemia, desnutrição e atraso no crescimento",
+        "Tratamento preventivo periódico com albendazol ou mebendazol",
+        "Prevenção inclui saneamento, água segura, higiene e calçados"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
     },
     {
       "id": "giardiase-versao-saude-para-a-familia",
@@ -1307,6 +1419,59 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "hantavirose",
+      "label": "Hantavirose",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hantavirose",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "hantavírus",
+        "zoonose",
+        "roedores"
+      ],
+      "diseases": [
+        "sindrome-cardiopulmonar-por-hantavirus"
+      ],
+      "supports": [
+        "Definição: zoonose viral aguda; no Brasil se apresenta como síndrome cardiopulmonar por hantavírus (SCPH)",
+        "Transmissão por inalação de aerossóis de urina, fezes e saliva de roedores infectados",
+        "Período de incubação médio de 1 a 5 semanas, variando de 3 a 60 dias",
+        "Sintomas iniciais e da fase cardiopulmonar",
+        "Diagnóstico por sorologia em laboratórios de referência",
+        "Não há tratamento específico; suporte clínico",
+        "Notificação compulsória imediata em até 24h",
+        "Prevenção por controle de roedores e proteção individual"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "hantavirus-fact-sheet",
+      "label": "Hantavirus: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/hantavirus",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "hantavírus",
+        "síndrome cardiopulmonar",
+        "roedores"
+      ],
+      "diseases": [
+        "sindrome-cardiopulmonar-por-hantavirus"
+      ],
+      "supports": [
+        "Nas Américas, hantavírus causam síndrome cardiopulmonar por hantavírus (HCPS)",
+        "Letalidade pode chegar a 50% nas Américas, comumente entre 20% e 40%",
+        "Sintomas começam entre uma e oito semanas após a exposição",
+        "Não há antiviral específico licenciado nem vacina",
+        "Prevenção baseada em reduzir contato com roedores"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
     },
     {
       "id": "hepatites-virais-prevencao-diagnostico-e-tratamento",
@@ -1663,6 +1828,108 @@
       "status": "verified"
     },
     {
+      "id": "leishmaniasis",
+      "label": "Leishmaniasis",
+      "url": "https://www.paho.org/en/topics/leishmaniasis",
+      "publisher": "Organização Pan-Americana da Saúde",
+      "host": "www.paho.org",
+      "lang": "pt",
+      "topics": [
+        "leishmaniose",
+        "Américas"
+      ],
+      "diseases": [
+        "leishmaniose"
+      ],
+      "supports": [
+        "Nas Américas, leishmaniose é zoonose transmitida por vetores da família Psychodidae",
+        "Três formas clínicas: cutânea, mucosa/mucocutânea e visceral",
+        "Fatores sociais, ambientais e climáticos influenciam a epidemiologia"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "leishmaniasis-fact-sheet",
+      "label": "Leishmaniasis: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/leishmaniasis",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "leishmaniose",
+        "calazar"
+      ],
+      "diseases": [
+        "leishmaniose"
+      ],
+      "supports": [
+        "Três formas principais: visceral, cutânea e mucocutânea",
+        "Transmissão pela picada de fêmeas de flebotomíneos infectadas",
+        "Leishmaniose visceral é fatal em mais de 95% dos casos sem tratamento",
+        "Estimativa de 700 mil a 1 milhão de novos casos por ano",
+        "Brasil é o principal país endêmico para leishmaniose visceral nas Américas",
+        "Diagnóstico e tratamento dependem da forma e da espécie"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "leishmaniose-tegumentar-lt",
+      "label": "Leishmaniose Tegumentar (LT)",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lt",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "leishmaniose",
+        "leishmaniose tegumentar",
+        "úlcera"
+      ],
+      "diseases": [
+        "leishmaniose"
+      ],
+      "supports": [
+        "Leishmaniose tegumentar é infecciosa, não contagiosa, e provoca úlceras na pele e mucosas",
+        "Sete espécies de Leishmania no Brasil; principais L. amazonensis, L. guyanensis e L. braziliensis",
+        "Transmissão pela picada de fêmeas de flebotomíneos",
+        "Período de incubação médio de 2 a 3 meses, de 2 semanas a 2 anos",
+        "Lesões de pele úlceradas, com bordas elevadas e fundo granuloso, geralmente indolores",
+        "Lesões de mucosa mais frequentes no nariz, boca e garganta",
+        "Diagnóstico parasitológico; diagnóstico diferencial com sífilis, hanseníase e tuberculose",
+        "Tratamento específico e gratuito pelo SUS"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "leishmaniose-visceral",
+      "label": "Leishmaniose Visceral",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leishmaniose-visceral/",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "leishmaniose",
+        "calazar",
+        "flebotomíneo"
+      ],
+      "diseases": [
+        "leishmaniose"
+      ],
+      "supports": [
+        "Leishmaniose visceral é zoonose crônica sistêmica; sem tratamento pode levar a óbito até 90% dos casos",
+        "Transmissão pela picada de fêmeas de flebotomíneos (mosquito palha), principalmente Lutzomyia longipalpis",
+        "Sintomas: febre prolongada, aumento de fígado e baço, perda de peso, fraqueza, anemia",
+        "Diagnóstico imunológico (RIFI e teste rápido) e parasitológico (medula óssea)",
+        "Tratamento gratuito pelo SUS",
+        "Cão é o principal reservatório urbano",
+        "Prevenção por controle do vetor e limpeza ambiental"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
       "id": "leprosy-fact-sheet",
       "label": "Leprosy: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/leprosy",
@@ -1687,6 +1954,55 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "lymphatic-filariasis",
+      "label": "Lymphatic Filariasis",
+      "url": "https://www.paho.org/en/topics/lymphatic-filariasis",
+      "publisher": "Organização Pan-Americana da Saúde",
+      "host": "www.paho.org",
+      "lang": "pt",
+      "topics": [
+        "filariose",
+        "elefantíase",
+        "Américas"
+      ],
+      "diseases": [
+        "elefantiase"
+      ],
+      "supports": [
+        "Nas Américas, Wuchereria bancrofti é a única espécie de filária",
+        "Fases aguda e crônica da doença",
+        "Diagnóstico por gota espessa e testes imunocromatográficos (FTS)",
+        "Manejo do linfedema inclui elevação, lavagem do membro e tratamento de infecções de pele"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "lymphatic-filariasis-fact-sheet",
+      "label": "Lymphatic filariasis: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/lymphatic-filariasis",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "filariose",
+        "elefantíase"
+      ],
+      "diseases": [
+        "elefantiase"
+      ],
+      "supports": [
+        "Filariose linfática é conhecida como elefantíase",
+        "Transmissão por mosquitos Culex, Anopheles e Aedes",
+        "Maioria das infecções é assintomática",
+        "Manifestações crônicas: linfedema, elefantíase e hidrocele",
+        "Tratamento preventivo em massa com DEC, albendazol e ivermectina",
+        "Cuidados de morbidade: higiene, cuidado da pele, exercícios e elevação do membro"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
     },
     {
       "id": "malaria-fact-sheet",
@@ -1793,6 +2109,32 @@
         "Doenças cardiovasculares estão entre as principais causas de mortalidade"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "neurocisticercose",
+      "label": "Neurocisticercose",
+      "url": "https://bvsms.saude.gov.br/bvs/dicas/87neurocis.html",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "bvsms.saude.gov.br",
+      "lang": "pt",
+      "topics": [
+        "cisticercose",
+        "neurocisticercose",
+        "epilepsia"
+      ],
+      "diseases": [
+        "cisticercose"
+      ],
+      "supports": [
+        "Causada por larvas da Taenia adquiridas pela ingestão de alimentos e água contaminados com ovos",
+        "Larvas podem ir para músculos, cérebro, pulmões, olhos e coração",
+        "Sintomas neurológicos: cefaleia, convulsões, dificuldade para andar, cegueira e morte",
+        "Diagnóstico por raios X ou ressonância magnética do cérebro",
+        "Tratamento medicamentoso prescrito por médico",
+        "Prevenção: carne bem cozida, água filtrada ou fervida, verduras lavadas, saneamento, higiene das mãos, criação de porcos longe de esgoto"
+      ],
+      "verifiedAt": "2026-10-22",
       "status": "verified"
     },
     {
@@ -2083,6 +2425,34 @@
       "status": "verified"
     },
     {
+      "id": "schistosomiasis-fact-sheet",
+      "label": "Schistosomiasis: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/schistosomiasis",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "esquistossomose",
+        "doenças tropicais negligenciadas"
+      ],
+      "diseases": [
+        "esquistossomose"
+      ],
+      "supports": [
+        "253,7 milhões de pessoas necessitaram tratamento preventivo em 2024",
+        "Transmissão em 79 países",
+        "S. mansoni na África, Oriente Médio, Caribe, Brasil, Venezuela e Suriname",
+        "Ovos presos nos tecidos causam reação imune e dano progressivo",
+        "Esquistossomose intestinal: dor abdominal, diarreia, sangue nas fezes, hepatomegalia, ascite e esplenomegalia",
+        "Crianças: anemia, baixa estatura e menor capacidade de aprendizagem, reversíveis com tratamento",
+        "Diagnóstico por ovos nas fezes ou urina, anticorpos ou antígenos",
+        "Praziquantel é o tratamento recomendado para todas as formas",
+        "Controle inclui água segura, saneamento, educação em saúde e controle de caramujos"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
       "id": "sickle-cell-disease-fact-sheet",
       "label": "Sickle-cell disease: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/sickle-cell-disease",
@@ -2180,6 +2550,93 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "taeniasis-cysticercosis-fact-sheet",
+      "label": "Taeniasis/cysticercosis: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "cisticercose",
+        "teníase",
+        "epilepsia"
+      ],
+      "diseases": [
+        "cisticercose"
+      ],
+      "supports": [
+        "Teníase é infecção intestinal por Taenia solium, T. saginata e T. asiatica; só T. solium causa problemas maiores",
+        "Teníase por T. solium adquirida ao comer carne suína crua ou mal cozida com cisticercos",
+        "Ovos eliminados nas fezes contaminam o ambiente",
+        "Humanos se infectam com ovos por via fecal-oral ou alimento e água contaminados",
+        "Ovos ingeridos viram larvas nos tecidos; no sistema nervoso causam neurocisticercose, incluindo crises epilépticas",
+        "T. solium causa 30% dos casos de epilepsia em muitas áreas endêmicas, chegando a 70% em comunidades de alto risco",
+        "Neurocisticercose é a causa evitável mais frequente de epilepsia no mundo",
+        "Sintomas: cefaleia crônica, cegueira, convulsões, hidrocefalia, meningite",
+        "Tratamento da teníase com praziquantel, niclosamida ou albendazol",
+        "Neurocisticercose exige tratamento especializado com praziquantel e/ou albendazol, corticosteroides, antiepilépticos e cirurgia",
+        "Prevenção: tratamento da teníase, intervenção em suínos, saneamento, educação em saúde, fiscalização da carne"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "trachoma-fact-sheet",
+      "label": "Trachoma: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/trachoma",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "tracoma",
+        "saúde ocular"
+      ],
+      "diseases": [
+        "tracoma"
+      ],
+      "supports": [
+        "Problema de saúde pública em parte de 29 países",
+        "Cegueira ou deficiência visual de cerca de 1,9 milhão de pessoas",
+        "92 milhões de pessoas vivem em áreas endêmicas, dados de março de 2026",
+        "Transmissão por contato pessoal e por moscas",
+        "Infecções repetidas cicatrizam a pálpebra e causam triquíase",
+        "Estratégia SAFE: cirurgia, antibióticos, limpeza facial e melhoria ambiental",
+        "Em 2025, 98.829 pessoas operadas de triquíase e 47,4 milhões tratadas com antibióticos"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "tracoma-o-que-e-sinais-e-sintomas-diagnostico-e-tratamento",
+      "label": "Tracoma: o que é, sinais e sintomas, diagnóstico e tratamento",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tracoma",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "tracoma",
+        "saúde ocular",
+        "doenças negligenciadas"
+      ],
+      "diseases": [
+        "tracoma"
+      ],
+      "supports": [
+        "Conjuntivite causada pela Chlamydia trachomatis",
+        "Principal causa de cegueira infecciosa; 1,9 milhão de pessoas com prejuízo visual e 450 mil com cegueira irreversível",
+        "190,2 milhões de pessoas vivem em áreas endêmicas",
+        "Sintomas: fotofobia, prurido, sensação de corpo estranho, vermelhidão, secreção, lacrimejamento",
+        "Incubação de 5 a 12 dias",
+        "Diagnóstico clínico-epidemiológico com lupa binocular de 2,5 aumentos",
+        "Tratamento com azitromicina 20 mg/kg em dose única, máximo 1 g, disponível no SUS",
+        "Transmissão por secreções oculares ou nasofaríngeas, objetos contaminados e moscas",
+        "Prevenção: lavagem facial, água e saneamento, não compartilhar objetos pessoais",
+        "Doença sob vigilância nacional com metas de eliminação como problema de saúde pública"
+      ],
+      "verifiedAt": "2026-10-22",
+      "status": "verified"
     },
     {
       "id": "transtornos-convulsivos-versao-saude-para-a-familia",

@@ -18,6 +18,7 @@
 4. **交付门禁**：三轮质检后的综合评分必须为 10 分且不存在关键错误；未达标时按扣分项修改并**重跑三轮**，直到达标。未达标不得交付，也不得用一次自检代替三轮质检。
 5. 第三轮质检与交付门禁都要跑 `node scripts/check-editorial.mjs`（或 `npm run check:editorial`）：它把清单里可机械化的红线变成硬门禁。与 `scripts/editorial-baseline.json` 比对，只允许减少不允许新增；修好旧问题后跑 `--update-baseline` 收缩基线。
 6. **来源先查后写**：Skill A 第 3 步与 Skill B 第 2 步核实事实时，先跑 `node scripts/references.mjs search <疾病或主题>` 查共享资料库；命中即复用（`label`/`url`/`publisher` 原样写进 `references`），未命中才打开官方页核实，并用 `references.mjs add` 回写资料库、记 `supports`；核不到来源的断言一律降调或删除。详见 `skills/source-library-ptbr/SKILL.md`。
+7. **配图分工**：**疾病配图**统一用 `skills/disease-image-generation-ptbr/SKILL.md` 生成医学插画板（3D 解剖剖面 + 右上角临床照片 inset + 4 个症状图标），不再从 Unsplash / Pexels 找照片；**派生文章配图**仍用 Unsplash / Pexels 真实照片搜索，流程见 `skills/article-derivation-ptbr/SKILL.md` 的图片节。两条流程不得互换，也不得用 AI 生成图给文章配图。
 
 ## 二、改文案的两条硬约束
 

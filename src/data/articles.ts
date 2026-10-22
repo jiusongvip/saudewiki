@@ -11768,4 +11768,1489 @@ export const articles: Article[] = [
     updatedAt: '2026-10-21',
     isPlaceholder: true,
   },
+  {
+    id: 'hantavirose-sintomas-e-quando-ir-ao-hospital',
+    slug: 'hantavirose-sintomas-e-quando-ir-ao-hospital',
+    title: 'Hantavirose: sintomas e quando ir ao hospital',
+    excerpt:
+      'A hantavirose começa como uma gripe forte e pode virar falta de ar em poucos dias. Saiba reconhecer as fases da doença e os sinais que exigem atendimento imediato.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'tres-fases',
+        heading: 'Como a doença costuma evoluir',
+        paragraphs: [
+          'A hantavirose começa de repente. Em um ou dois dias, a pessoa passa a ter febre que pode chegar a 38 °C ou mais, calafrios, dor muscular intensa, dor de cabeça e um cansaço que não melhora com repouso. Náusea, vômito, dor abdominal e diarreia aparecem com frequência nessa fase inicial, e é por isso que o quadro é confundido com uma gripe ou com uma infecção gastrointestinal.',
+          'Por volta do segundo ou terceiro dia, começa a fase cardiopulmonar. Surge tosse seca, que evolui rápido para falta de ar importante, respiração acelerada e coração batendo depressa. O líquido se acumula nos pulmões e a oxigenação cai. A pressão pode despencar, com risco de choque e de alterações do ritmo cardíaco. É nessa passagem, de um quadro gripal para uma doença respiratória grave, que o atendimento muda de rotina para emergência.',
+          'Quem atravessa a fase crítica entra em recuperação lenta: a respiração melhora aos poucos, mas a fraqueza costuma durar semanas. Quando a doença leva ao óbito, isso geralmente acontece cerca de uma semana depois do início dos sintomas. Entender essa sequência ajuda a perceber que a melhora da febre, sozinha, não indica que o risco passou.',
+        ],
+      },
+      {
+        id: 'por-que-parece-gripe',
+        heading: 'Por que o início se confunde com uma gripe',
+        paragraphs: [
+          'Os primeiros sinais da hantavirose são comuns a várias doenças febris e respiratórias: gripe, COVID-19, pneumonia viral, leptospirose, dengue e sepse. Nenhum sintoma isolado permite separar esses quadros, e é por isso que o diagnóstico precoce é difícil mesmo para quem atende casos com frequência. O que muda a suspeita não é a aparência do paciente, mas o que ele contou sobre as últimas semanas.',
+          'A história de exposição é o fio que leva ao hantavírus. Trabalho agrícola ou florestal, limpeza de galpões e cabanas que ficaram fechados, acampamento perto de entulho, lenha ou restos de plantação e moradia próxima a áreas de desmatamento entram nessa lista. Como a incubação varia de 3 a 60 dias, com média de 1 a 5 semanas, uma febre que aparece semanas depois da limpeza ainda pode estar ligada ao vírus.',
+          'Não tente decidir em casa se é gripe ou outra coisa. Ao procurar atendimento, diga onde você trabalhou, por onde passou e se viu sinais de roedores no local. Essas informações direcionam a investigação, porque a confirmação depende de exames feitos em laboratório de referência, com sorologia para IgM e IgG e RT-PCR na fase aguda.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que pedem atendimento no mesmo dia',
+        paragraphs: [
+          'A piora pode ocorrer em poucas horas. Quem teve febre e esteve em área com roedores deve procurar atendimento no mesmo dia se aparecer falta de ar, respiração curta ou tosse seca, mesmo que a febre já tenha cedido. Esperar o quadro ficar grave costuma reduzir a margem de tratamento.',
+          'Os sinais abaixo indicam que a doença pode estar na fase cardiopulmonar. Eles pedem avaliação de urgência, não observação em casa:',
+          'Vale lembrar que a febre pode ceder justamente quando a parte respiratória começa. Por isso, a melhora da temperatura não deve ser usada como critério para adiar a avaliação.',
+        ],
+        bullets: [
+          'Falta de ar ou dificuldade para respirar',
+          'Respiração muito rápida ou batimentos acelerados',
+          'Tosse seca que surge depois da febre',
+          'Pressão baixa, tontura intensa ou desmaio',
+          'Confusão mental ou sonolência fora do normal',
+          'Piora do estado geral depois de uma melhora inicial',
+        ],
+        cta: {
+          label: 'Conheça o guia completo da hantavirose',
+          href: '/doencas/sindrome-cardiopulmonar-por-hantavirus/',
+        },
+      },
+      {
+        id: 'onde-buscar-atendimento',
+        heading: 'Onde buscar ajuda',
+        paragraphs: [
+          'Com falta de ar importante, pressão baixa, desmaio ou confusão mental, o caminho é a emergência de um hospital, uma UPA ou o SAMU 192, se o deslocamento não for seguro. Não espere o horário do posto de saúde nem tente resolver com repouso e líquidos em casa.',
+          'O transporte de um paciente com suspeita deve ser acompanhado por profissional habilitado, com garantia de estabilidade hemodinâmica, ventilação adequada e acesso venoso, sem administração excessiva de líquidos. Essas decisões são da equipe de saúde. A quem acompanha o paciente cabe chamar ajuda cedo e não atrasar a saída.',
+          'No atendimento, informe a exposição a roedores e as datas em que ela ocorreu. O caso suspeito é de notificação compulsória imediata: o serviço de saúde comunica a suspeita em até 24 horas às secretarias municipal e estadual e ao Ministério da Saúde. Isso não é burocracia para o paciente. É o que aciona a investigação em laboratório de referência.',
+        ],
+      },
+      {
+        id: 'nao-se-automedicar',
+        heading: 'Por que não tratar a febre por conta própria',
+        paragraphs: [
+          'Antitérmicos e antibióticos não interrompem a hantavirose. Não existe antiviral específico nem vacina contra a doença, e o tratamento é de suporte, feito no hospital, com monitoramento próximo da respiração, do coração e da pressão.',
+          'Além de não tratar a causa, o remédio tomado por conta própria pode disfarçar a piora. A febre cede, o mal-estar parece melhorar, e a falta de ar que surge em seguida acaba atribuída a outra coisa. Esse atraso é justamente o que a avaliação precoce tenta evitar, sobretudo em quem esteve em área com roedores nas semanas anteriores.',
+          'Quando o paciente chega ao hospital, a equipe pode indicar oxigênio, suporte ventilatório e medicamentos para sustentar a circulação, evitando excesso de líquidos. Nenhuma dessas medidas pode ser reproduzida em casa, e nenhuma delas depende de automedicação. O papel de quem está doente é chegar cedo ao serviço certo.',
+        ],
+      },
+      {
+        id: 'depois-da-fase-critica',
+        heading: 'A recuperação depois da fase crítica',
+        paragraphs: [
+          'Quem supera a fase crítica não sai pronta da doença. A respiração se estabiliza e a oxigenação melhora, mas o corpo continua fraco por semanas. O cuidado nessa etapa inclui repouso, alimentação adequada e retorno gradual às atividades, sem cobrança de desempenho.',
+          'A família pode ajudar nas tarefas diárias no início e observar febre, respiração e estado geral. Falta de ar que volta ou piora precisa ser avaliada imediatamente, mesmo semanas depois da alta. Não há um programa específico de reabilitação para a hantavirose; a maioria das pessoas recupera a capacidade funcional com o tempo, e o acompanhamento médico serve para monitorar sintomas persistentes.',
+          'Também é preciso atenção às complicações que podem deixar marcas. A queda prolongada da pressão pode levar ao choque e à falha de vários órgãos, alguns vírus provocam insuficiência renal e arritmias podem surgir nos casos mais graves. Por isso, a alta hospitalar não encerra o cuidado: ela apenas muda o lugar onde ele acontece.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['sindrome-cardiopulmonar-por-hantavirus'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: ['hantavirose-como-se-transmite-e-como-prevenir'],
+    references: [
+      {
+        label: 'Hantavirose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hantavirose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Hantavirus: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hantavirus',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hantavirose-como-se-transmite-e-como-prevenir',
+    slug: 'hantavirose-como-se-transmite-e-como-prevenir',
+    title: 'Hantavirose: como se transmite e como prevenir',
+    excerpt:
+      'O vírus está na urina, nas fezes e na saliva de roedores silvestres. Ventilação, limpeza úmida e proteção individual reduzem o risco em casa e no trabalho.',
+    category: 'Prevenção',
+    categorySlug: 'prevencao',
+    body: [
+      {
+        id: 'de-onde-vem-o-virus',
+        heading: 'De onde vem o vírus',
+        paragraphs: [
+          'A hantavirose é uma zoonose causada por vírus da família Hantaviridae, que circulam entre roedores silvestres. Os animais carregam o vírus por toda a vida sem adoecer e o eliminam pela urina, pelas fezes e pela saliva. O risco, portanto, não está no bicho em si, mas no que ele deixa no ambiente.',
+          'A principal via de infecção é a inalação de aerossóis formados a partir dessas excretas, sobretudo quando estão secas e são levantadas no ar durante a limpeza. Também pode haver contato direto com as mucosas dos olhos, da boca e do nariz por mãos contaminadas, entrada do vírus por ferimentos na pele e, mais raramente, mordida de roedor.',
+          'A doença não passa por alimentos, água ou objetos comuns. O que contamina o ar é a poeira de excretas secas, e é aí que a maioria das medidas de prevenção se concentra. Por isso, uma casa aparentemente limpa pode oferecer risco se o sótão, o galpão ou o depósito ficaram fechados por meses.',
+        ],
+      },
+      {
+        id: 'incubacao-e-ambientes',
+        heading: 'Incubação e ambientes de risco',
+        paragraphs: [
+          'O período de incubação varia de 3 a 60 dias, com média de 1 a 5 semanas, segundo o Ministério da Saúde. Como os sintomas podem surgir semanas depois do contato, fica difícil relacionar a febre a uma limpeza feita há um mês. Esse intervalo é uma das razões pelas quais a exposição precisa ser contada ao profissional de saúde.',
+          'Atividades que aproximam pessoas dos roedores aumentam o risco: trabalho agrícola e florestal, limpeza de galpões e cabanas que ficaram fechados, acampamento perto de entulho, lenha ou restos de plantação. Desmatamento, expansão das cidades para áreas rurais e grandes plantios também favorecem o aumento da população de roedores e o contato com pessoas.',
+          'Trabalhadores rurais, trabalhadores florestais, pessoas que limpam galpões, celeiros ou casas fechadas, pesquisadores de campo e viajantes que acampam em área de mata estão entre os grupos mais expostos. Morar perto de desmatamento, de plantações ou de terrenos com muito entulho acrescenta contato ao cotidiano, mesmo sem trabalho no campo. Reconhecer essa lista ajuda a conversa no atendimento e coloca a hantavirose entre as hipóteses a considerar.',
+        ],
+        cta: {
+          label: 'Veja os sintomas e quando procurar ajuda',
+          href: '/doencas/sindrome-cardiopulmonar-por-hantavirus/',
+        },
+      },
+      {
+        id: 'limpeza-segura',
+        heading: 'Como limpar um lugar fechado sem levantar o vírus',
+        paragraphs: [
+          'Antes de entrar em uma construção que ficou fechada, abra portas e janelas e deixe o local ventilado por pelo menos 30 minutos. Esse intervalo reduz a concentração de partículas no ar antes de qualquer movimento. Entrar e começar a varrer logo na chegada concentra justamente o que se quer evitar.',
+          'Umedeça o piso e as superfícies antes de limpar. Use luvas, máscara e óculos de proteção quando houver risco de contato. Não varra a seco nem passe aspirador sobre fezes, urina ou ninhos, porque as duas coisas colocam partículas contaminadas no ar e aumentam a exposição de quem está no ambiente.',
+          'A ordem importa: ventilar primeiro, molhar depois e só então recolher o material com proteção. Assim, a limpeza deixa de ser o momento de maior exposição e passa a ser uma tarefa controlada. Ao terminar, lave as mãos com água e sabão.',
+        ],
+      },
+      {
+        id: 'protecao-de-quem-trabalha',
+        heading: 'Proteção para quem trabalha em áreas de risco',
+        paragraphs: [
+          'Quem limpa galpões, celeiros, sótãos e casas fechadas faz esse tipo de tarefa com frequência, e a proteção precisa acompanhar a rotina, não aparecer só em situações extraordinárias. Luvas, máscara e óculos de proteção são indicados quando houver risco de contato com excretas ou com poeira contaminada.',
+          'Não se deve tocar em roedores ou em seus ninhos sem proteção. Também vale evitar levantar poeira com ferramentas, vassouras ou jatos de ar antes de umedecer o ambiente. Em galpões e depósitos, a limpeza úmida e a ventilação prévia continuam sendo o centro da proteção.',
+          'Trabalhadores de campo e pesquisadores que atuam em área de mata devem tratar a exposição como parte do trabalho e relatar ao serviço de saúde qualquer febre ou sintoma respiratório que apareça depois. O mesmo vale para quem acampa perto de entulho, lenha ou restos de colheita.',
+        ],
+      },
+      {
+        id: 'casa-e-arredores',
+        heading: 'Cuidados na casa e no terreno',
+        paragraphs: [
+          'Em casa, guarde alimentos em recipientes fechados e à prova de roedores, vede frestas e aberturas por onde os animais possam entrar e mantenha o terreno limpo, sem acúmulo de entulho, lenha e lixo orgânico perto da moradia. Essas medidas afastam os animais e reduzem as oportunidades de contato.',
+          'Não toque em roedores ou em seus ninhos sem proteção. Ao voltar de atividades em área rural ou de mata, lave as mãos com água e sabão. Viajantes que dormem em cabanas, barracas ou abrigos rurais devem seguir as mesmas medidas.',
+        ],
+        bullets: [
+          'Vedar frestas e aberturas usadas pelos roedores para entrar',
+          'Guardar comida em potes fechados, que os animais não consigam abrir',
+          'Abrir o ambiente e molhar as superfícies antes de limpar',
+          'Deixar a vassoura e o aspirador de lado quando houver fezes ou urina',
+          'Usar luvas, máscara e óculos de proteção em áreas de risco',
+          'Lavar as mãos com água e sabão ao voltar do campo',
+        ],
+      },
+      {
+        id: 'nao-passa-de-pessoa-para-pessoa',
+        heading: 'A doença passa de pessoa para pessoa?',
+        paragraphs: [
+          'A hantavirose não passa pelo contato comum entre pessoas. No Brasil, a transmissão entre pessoas não faz parte do padrão da doença, e quem convive com um paciente não corre risco por isso. A exceção conhecida é o vírus Andes, na Argentina e no Chile, com transmissão limitada entre contatos próximos e prolongados.',
+          'Também não existe vacina contra a hantavirose. A prevenção é toda ambiental e comportamental: reduzir roedores, evitar que excretas secas levantem poeira e usar proteção ao limpar locais de risco. Nenhuma dessas medidas depende de isolamento de pacientes.',
+          'Para quem teve exposição, o acompanhamento é observar o corpo. O Ministério da Saúde orienta que trabalhadores com febre ou sintomas respiratórios em até 60 dias após uma exposição de risco procurem assistência médica imediatamente, informando o contato com roedores.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['sindrome-cardiopulmonar-por-hantavirus'],
+    topicSlugs: ['prevencao'],
+    relatedArticleSlugs: ['hantavirose-sintomas-e-quando-ir-ao-hospital'],
+    references: [
+      {
+        label: 'Hantavirose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hantavirose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Hantavirus: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/hantavirus',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'elefantiase-sintomas-e-quando-procurar-ajuda',
+    slug: 'elefantiase-sintomas-e-quando-procurar-ajuda',
+    title: 'Elefantíase: sintomas e quando procurar ajuda',
+    excerpt:
+      'Inchaço que não volta ao normal, pele endurecida e crises de febre com a perna vermelha pedem avaliação. Saiba reconhecer os graus do linfedema e quando ir à UBS.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'tres-graus-do-linfedema',
+        heading: 'Os três graus do linfedema',
+        paragraphs: [
+          'O inchaço da filariose linfática se instala aos poucos e costuma ser classificado em três graus. No grau 1, o edema é mole e melhora quando a perna fica elevada. No grau 2, ele já é mais firme por causa da fibrose e não volta ao normal apenas com a elevação. No grau 3, chamado de elefantíase, o aumento é deformante, a pele fica endurecida e aparecem verrugas e dobras profundas.',
+          'Essa divisão ajuda a entender em que ponto o problema está. No grau 1, o inchaço ainda responde à elevação e ao repouso, o que costuma esconder a gravidade: muita gente trata o sintoma como cansaço e só procura ajuda quando a perna já está firme. No grau 2, a fibrose mostra que a inflamação repetida deixou marcas. No grau 3, as alterações da pele e o volume do membro passam a limitar a caminhada, o trabalho e o cuidado pessoal.',
+          'Chegar a graus mais avançados não é inevitável. O risco e a intensidade das sequelas dependem do tempo de exposição ao mosquito, do número de picadas infectadas e da resposta de cada pessoa. Como as crises agudas repetidas pioram o inchaço e a fibrose, reconhecer o grau 1 e investigar a causa nessa fase muda o percurso.',
+        ],
+      },
+      {
+        id: 'pele-com-aspecto-de-casca-de-elefante',
+        heading: 'Pele espessada e com aspecto de casca de elefante',
+        paragraphs: [
+          'Na fase crônica, a pele do membro afetado fica espessada, áspera e com aspecto de casca de elefante, o que deu nome à doença. O endurecimento não aparece de um dia para o outro: vem da inflamação que se repete ao longo dos anos e da fibrose que se acumula no tecido. No começo, o líquido acumulado no membro é mole; com o tempo, a reação inflamatória transforma esse edema em tecido firme.',
+          'Com a pele endurecida, pequenas feridas cicatrizam devagar e viram porta de entrada para bactérias e fungos. Nos casos mais avançados surgem verrugas, dobras profundas e úlceras, e cada nova infecção acelera o espessamento. Por isso o cuidado com a pele não é estético: lavar, secar bem as dobras e tratar qualquer ferida cedo faz parte do controle da doença.',
+          'O aspecto da perna também pesa no convívio. A deformidade visível costuma provocar estigma e isolamento social, e esse efeito precisa ser levado a sério no atendimento, não tratado como consequência secundária.',
+        ],
+      },
+      {
+        id: 'crises-de-febre-e-inflamacao',
+        heading: 'Crises repetidas de febre e inflamação',
+        paragraphs: [
+          'Na fase aguda, a pessoa tem febre, dor no corpo, dor de cabeça e inflamação dolorosa dos gânglios e dos vasos linfáticos, geralmente nas pernas ou na região genital. Nos homens, pode ocorrer inflamação do testículo e do epidídimo, com dor e aumento local. Esses episódios podem se repetir ao longo da vida e, quando voltam, costumam assustar quem não conhece a doença.',
+          'Uma crise com perna vermelha, quente e dolorida precisa de avaliação no mesmo dia. O quadro pode ser inflamação linfática ou uma infecção bacteriana de pele, que exige antibiótico e não se resolve apenas com repouso em casa. Adiar a consulta aumenta o risco de a infecção se espalhar e de o membro piorar, por isso a orientação é procurar a UBS assim que os sinais aparecem.',
+          'Entre uma crise e outra, a rotina de cuidado conta. Manter a pele íntegra, tratar feridas e micoses cedo e evitar longos períodos sem movimentar a perna reduz as portas de entrada para bactérias. Cada episódio evitado é também menos fibrose no futuro.',
+        ],
+      },
+      {
+        id: 'bolsa-escrotal-e-hidrocele',
+        heading: 'Aumento da bolsa escrotal e hidrocele',
+        paragraphs: [
+          'Nos homens, a bolsa escrotal pode aumentar muito e formar a hidrocele, que é o acúmulo de líquido ao redor do testículo. O volume cresce com o tempo e pode atrapalhar a caminhada e a higiene, além de causar desconforto e constrangimento. Dor intensa nessa região é sinal de alerta e pede avaliação no mesmo dia.',
+          'A hérnia inguinal e a tuberculose do epidídimo também provocam aumento e dor na bolsa escrotal, e separar essas causas exige exame físico e, às vezes, exames complementares. Quando há hidrocele, o líquido coletado também pode ser examinado. Em casos selecionados, com hidrocele importante, a cirurgia pode ser indicada depois da avaliação médica.',
+          'Em alguns casos, a urina pode ficar esbranquiçada pela presença de linfa. É um sinal que ajuda a levantar a suspeita, mas não confirma nada sozinho nem significa que a pessoa transmita a doença pelo contato.',
+        ],
+      },
+      {
+        id: 'quando-procurar-atendimento',
+        heading: 'Quando procurar a UBS ou um serviço especializado',
+        paragraphs: [
+          'Alguns sinais indicam que a situação não pode esperar e pedem avaliação no mesmo dia:',
+          'Esses sinais podem indicar inflamação linfática ou uma infecção bacteriana de pele, que precisa de antibiótico. A porta de entrada na rede pública é a UBS. No atendimento, conte se morou ou permaneceu por muito tempo em área onde a doença ainda existe, porque esse dado orienta a investigação. Casos suspeitos são encaminhados a serviços de referência para confirmar a espécie antes do tratamento específico. O Serviço de Referência Nacional em Filarioses fica no Instituto Aggeu Magalhães, em Pernambuco.',
+        ],
+        bullets: [
+          'Febre com perna ou braço vermelho, quente e dolorido',
+          'Ferida na pele que aumenta, solta pus ou não cicatriza',
+          'Inchaço que piora rapidamente ou vem acompanhado de falta de ar',
+          'Dor intensa na bolsa escrotal',
+          'Calafrios ou mal-estar geral em pessoa com linfedema',
+        ],
+        cta: {
+          label: 'Veja o quadro completo da elefantíase',
+          href: '/doencas/elefantiase/',
+        },
+      },
+      {
+        id: 'inchaco-que-parece-retencao-de-liquido',
+        heading: 'Por que o inchaço inicial parece retenção de líquido',
+        paragraphs: [
+          'No grau 1, o edema é mole e melhora com a perna elevada, comportamento parecido com o de outras causas de retenção de líquido. Por isso é comum atribuir o inchaço ao calor, a ficar muito tempo em pé ou a problemas de circulação, e adiar a investigação. A fase assintomática também contribui: a pessoa pode conviver com o parasito por anos sem nenhum sinal visível.',
+          'O inchaço crônico das pernas tem muitas causas, e a filariose não é a mais comum delas. Linfangite bacteriana, tuberculose do epidídimo, hérnia inguinal e outras condições também provocam aumento de membros, dor e inflamação. O aspecto da perna, sozinho, não separa essas doenças.',
+          'O que ajuda a chegar ao diagnóstico é a soma de informações: o histórico de exposição em área endêmica, o exame físico detalhado e a pesquisa de microfilárias no sangue, que tem maior positividade à noite. Como a transmissão foi interrompida no Brasil, casos suspeitos seguem para serviços de referência. Nenhuma dessas etapas pode ser substituída por autodiagnóstico.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['elefantiase'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: ['elefantiase-como-se-transmite-e-como-prevenir'],
+    references: [
+      {
+        label: 'Filariose Linfática (Elefantíase)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/elefantiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Lymphatic filariasis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/lymphatic-filariasis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Lymphatic Filariasis',
+        url: 'https://www.paho.org/en/topics/lymphatic-filariasis',
+        publisher: 'Organização Pan-Americana da Saúde',
+      },
+      {
+        label: 'Brasil elimina transmissão da filariose linfática como problema de saúde pública',
+        url: 'https://bvsms.saude.gov.br/brasil-elimina-transmissao-da-filariose-linfatica-como-problema-de-saude-publica/',
+        publisher: 'Biblioteca Virtual em Saúde, Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'elefantiase-como-se-transmite-e-como-prevenir',
+    slug: 'elefantiase-como-se-transmite-e-como-prevenir',
+    title: 'Elefantíase: como se transmite e como prevenir',
+    excerpt:
+      'A doença depende da picada de um mosquito infectado e não passa pelo contato. O Brasil eliminou a transmissão em 2024, mas a vigilância e o cuidado com quem já tem sequelas continuam.',
+    category: 'Prevenção',
+    categorySlug: 'prevencao',
+    body: [
+      {
+        id: 'o-mosquito-transmissor',
+        heading: 'O mosquito que transmite a filariose',
+        paragraphs: [
+          'A transmissão da filariose linfática ocorre pela picada da fêmea do Culex quinquefasciatus, o pernilongo ou muriçoca, infectada com larvas do parasito. No Brasil, essa é a principal espécie envolvida. Em outras regiões do mundo, mosquitos dos gêneros Anopheles e Aedes também podem transmitir a doença.',
+          'O mosquito tem hábito noturno e se alimenta sobretudo à noite. Isso explica por que a transmissão se concentra nesse período e por que as microfilárias aparecem no sangue periférico principalmente nesse horário. Também mostra onde a prevenção precisa agir: reduzir a população do vetor e evitar a picada no fim do dia e à noite.',
+          'A doença não passa de uma pessoa para outra pelo contato, pela respiração ou por objetos. Conviver com alguém que tem a doença não representa risco de contágio. Para haver transmissão, é preciso um mosquito infectado picando outra pessoa.',
+        ],
+      },
+      {
+        id: 'microfilarias-e-o-ciclo',
+        heading: 'Microfilárias no sangue e o ciclo dentro do mosquito',
+        paragraphs: [
+          'Quando o mosquito pica uma pessoa infectada, ingere microfilárias, as formas jovens do verme presentes no sangue. Dentro do mosquito, elas se desenvolvem até a forma infectante. Ao picar outra pessoa, o inseto deposita essas larvas na pele, de onde penetram e migram para os gânglios linfáticos.',
+          'Nos vasos linfáticos, as larvas amadurecem e se reproduzem, liberando novas microfilárias na corrente sanguínea. No Brasil, essas formas aparecem no sangue periférico sobretudo à noite, com pico por volta da meia-noite, acompanhando o hábito do mosquito. É por isso que a coleta para diagnóstico é feita nesse intervalo, entre 22 horas e 2 horas da manhã.',
+          'A infecção também pode passar anos sem sintomas. Nessa fase assintomática, a pessoa tem o parasito no sangue, não apresenta sinais visíveis e ainda assim pode transmitir a infecção aos mosquitos. O risco cresce com o tempo prolongado de permanência em área endêmica e com o número de picadas infectadas.',
+        ],
+      },
+      {
+        id: 'brasil-eliminou-a-transmissao',
+        heading: 'O Brasil eliminou a transmissão em 2024',
+        paragraphs: [
+          'O último caso confirmado de transmissão no Brasil foi registrado em 2017. Em 2024, o país recebeu a certificação de eliminação da filariose linfática como problema de saúde pública. A Organização Mundial da Saúde estima que mais de 650 milhões de pessoas em 39 países ainda estejam sob risco e precisem de tratamento preventivo.',
+          'Eliminar a transmissão não significa que todas as sequelas desapareceram. Pessoas que adoeceram no passado continuam precisando de acompanhamento, e casos importados de países endêmicos ainda podem ocorrer. Por isso a vigilância segue ativa, e profissionais de saúde devem notificar os casos importados.',
+          'Antes da interrupção, o Brasil usou o tratamento preventivo em massa com dietilcarbamazina associada ao albendazol na Região Metropolitana do Recife. Essa estratégia é a principal medida de saúde pública em áreas com transmissão ativa e foi mantida por vários anos até que o ciclo fosse interrompido.',
+        ],
+        cta: {
+          label: 'Entenda a doença e o cenário brasileiro',
+          href: '/doencas/elefantiase/',
+        },
+      },
+      {
+        id: 'viajantes-e-areas-endemicas',
+        heading: 'Viajantes e pessoas vindas de áreas endêmicas',
+        paragraphs: [
+          'Quem vem de países onde a doença ainda é endêmica deve ser avaliado se apresentar sintomas compatíveis. O tempo prolongado de permanência nessas áreas é o fator que mais pesa no risco, porque a transmissão depende de picadas repetidas de mosquitos infectados. Uma passagem curta, por si só, não cria o mesmo cenário.',
+          'Como a infecção pode ficar anos sem sinais, a pessoa pode adoecer muito tempo depois de ter deixado a área. Nesse caso, contar o histórico de viagem ou de moradia no atendimento ajuda o profissional a considerar a filariose entre as hipóteses. Sem essa informação, o inchaço pode ser atribuído a outras causas.',
+          'Morar ou ter morado em área endêmica não é motivo para pânico nem para tratamento por conta própria. O risco existe para quem se expôs por longo período, e a avaliação é indicada quando aparecem sintomas compatíveis, como edema persistente ou crises de inflamação. Vale anotar os países visitados e as datas da viagem antes da consulta, porque esses detalhes se perdem quando a conversa acontece com pressa. Isso ajuda o profissional a reconstruir o histórico com precisão.',
+        ],
+      },
+      {
+        id: 'como-evitar-a-picada',
+        heading: 'Como reduzir o risco de picada e de novo ciclo',
+        paragraphs: [
+          'A prevenção depende do controle do mosquito e da interrupção da transmissão na comunidade. Evitar acúmulo de água parada, melhorar o saneamento e manter a limpeza dos quintais reduz os criadouros do Culex. Como o mosquito pica sobretudo à noite, reduzir a exposição nesse período também faz diferença.',
+          'Em áreas onde a transmissão ainda existe, o tratamento preventivo em massa é a principal medida de saúde pública. A participação da comunidade no esquema indicado pelas autoridades de saúde é o que interrompe o ciclo. Medidas individuais ajudam, mas não substituem essa estratégia coletiva.',
+          'No Brasil, com a transmissão eliminada, o foco muda para a vigilância. Profissionais de saúde precisam notificar casos importados, e quem recebe pessoas de áreas endêmicas deve ficar atento a sintomas compatíveis. Identificar um caso cedo evita que o ciclo recomece.',
+        ],
+      },
+      {
+        id: 'cuidado-com-quem-ja-tem-sequelas',
+        heading: 'Cuidado contínuo para quem já tem sequelas',
+        paragraphs: [
+          'Quem já tem linfedema precisa proteger a pele de ferimentos, tratar qualquer infecção cedo e manter o acompanhamento regular para evitar piora. Lavar e secar bem a perna, inclusive as dobras e o espaço entre os dedos, e hidratar a pele são cuidados diários que reduzem rachaduras e infecções.',
+          'Elevar o membro acima do nível do coração ao descansar e ao dormir, fazer exercícios leves de tornozelo e caminhar curtas distâncias ajudam o líquido a circular. Sapatos largos e confortáveis reduzem o risco de ferimentos. O objetivo não é fazer o inchaço desaparecer, e sim evitar que ele piore.',
+          'A infecção ativa pode ser tratada com dietilcarbamazina, que reduz as microfilárias e tem ação contra os vermes adultos. O inchaço já instalado pode não desaparecer completamente, mas o cuidado contínuo melhora o conforto e limita as complicações. Ter a doença ou conviver com alguém que tem não é motivo de isolamento: a filariose não passa pelo contato.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['elefantiase'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['elefantiase-sintomas-e-quando-procurar-ajuda'],
+    references: [
+      {
+        label: 'Filariose Linfática (Elefantíase)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/elefantiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Lymphatic filariasis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/lymphatic-filariasis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Lymphatic Filariasis',
+        url: 'https://www.paho.org/en/topics/lymphatic-filariasis',
+        publisher: 'Organização Pan-Americana da Saúde',
+      },
+      {
+        label: 'Brasil elimina transmissão da filariose linfática como problema de saúde pública',
+        url: 'https://bvsms.saude.gov.br/brasil-elimina-transmissao-da-filariose-linfatica-como-problema-de-saude-publica/',
+        publisher: 'Biblioteca Virtual em Saúde, Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'leishmaniose-sintomas-e-quando-procurar-ajuda',
+    slug: 'leishmaniose-sintomas-e-quando-procurar-ajuda',
+    title: 'Leishmaniose: sintomas e quando procurar ajuda',
+    excerpt:
+      'Feridas que não cicatrizam, nariz entupido com sangramento ou febre que dura semanas podem ser leishmaniose. Veja os sinais de cada forma e quando buscar a UBS.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'feridas-na-pele',
+        heading: 'Feridas na pele que não cicatrizam',
+        paragraphs: [
+          'Na forma cutânea, a leishmaniose aparece como uma ou várias feridas na pele, em geral indolores. A borda é elevada, o fundo é avermelhado ou granuloso e a lesão cresce devagar. Braços, pernas, rosto e orelhas são os locais mais comuns, porque são as áreas que ficam expostas à picada do mosquito-palha. A leishmaniose cutânea é a forma mais comum da doença.',
+          'O que chama atenção é a evolução. Essas feridas não cicatrizam com os cuidados comuns para machucados, como lavar e passar pomada, e podem continuar abertas por semanas. Em alguns casos, em vez de úlcera, surgem nódulos ou placas endurecidas, sem ferida aberta, e mesmo essas alterações precisam de investigação. Algumas pessoas apresentam várias lesões ao mesmo tempo, em pontos diferentes do corpo.',
+          'Mesmo sem dor, a ferida merece avaliação. Quanto mais tempo a lesão fica aberta, maior a chance de infecção secundária e de cicatriz definitiva. Além disso, sífilis, hanseníase e tuberculose cutânea produzem feridas parecidas. Por isso, o diagnóstico é confirmado com exames parasitológicos, como exame direto do material retirado da borda, cultura ou PCR. A avaliação clínica isolada não basta.',
+        ],
+      },
+      {
+        id: 'mucosas-do-nariz-e-da-boca',
+        heading: 'Quando o nariz e a boca são atingidos',
+        paragraphs: [
+          'A forma mucocutânea começa na pele e, mais tarde, alcança as mucosas do nariz, da boca e da garganta. O primeiro sinal costuma ser o entupimento nasal, muitas vezes confundido com rinite ou sinusite. Com o tempo aparecem coriza, crostas, sangramentos e feridas dentro do nariz. Essa forma é mais frequente em algumas regiões da América Latina.',
+          'A doença também pode causar dor ao engolir, rouquidão e tosse. Quando o tratamento demora, a inflamação destrói tecidos e altera a aparência do nariz, da boca e da garganta, com impacto na fala e na respiração. Essa forma exige tratamento prolongado e acompanhamento próximo da equipe de saúde. A recaída pode acontecer, por isso o acompanhamento continua depois da melhora.',
+          'Sangramento nasal que não passa, entupimento com crostas ou rouquidão arrastada não devem ser tratados por conta própria com descongestionantes ou lavagens caseiras. A avaliação precisa considerar a leishmaniose, sobretudo em quem viveu ou passou algum tempo em área de transmissão. Como os sintomas lembram outras doenças respiratórias, o histórico de exposição pesa na investigação.',
+        ],
+        bullets: [
+          'Entupimento nasal persistente',
+          'Coriza e crostas dentro do nariz',
+          'Sangramentos nasais de repetição',
+          'Dor ao engolir, rouquidão e tosse',
+        ],
+      },
+      {
+        id: 'febre-longa-e-abdomen-aumentado',
+        heading: 'Febre prolongada e aumento do abdômen',
+        paragraphs: [
+          'Na forma visceral, também chamada de calazar, o sintoma mais marcante é a febre prolongada e irregular, que dura semanas ou meses. A pessoa perde peso e força, o abdômen fica distendido e o fígado e o baço aumentam. Anemia, palidez, sangramentos nasais ou gengivais e inchaço nas pernas também podem aparecer.',
+          'Essa forma compromete órgãos internos, como fígado, baço e medula óssea. Sem tratamento, pode evoluir para pneumonia, sangramentos, infecções bacterianas graves, desnutrição e falência de órgãos. Por isso, a demora no diagnóstico é o principal fator de risco para um desfecho grave. O hemograma costuma mostrar anemia, redução de leucócitos e de plaquetas.',
+          'Crianças pequenas, pessoas com desnutrição, HIV ou uso de medicamentos imunossupressores adoecem com mais frequência e de forma mais grave. Em áreas urbanas, a presença de cães infectados aumenta o risco de transmissão, o que torna a avaliação precoce ainda mais importante.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e onde procurar atendimento',
+        paragraphs: [
+          'Alguns sinais indicam que a doença pode estar avançando e pedem avaliação sem espera. Febre por mais de duas semanas, sobretudo com aumento do abdômen, perda de peso ou palidez, é o principal deles. Feridas que não cicatrizam, sangramento nasal persistente e rouquidão prolongada também entram na lista.',
+          'A porta de entrada na rede pública é a UBS mais próxima. No atendimento, conte onde mora e por quanto tempo passou em áreas de mata, de desmatamento ou de transmissão, porque esse dado muda a investigação. A leishmaniose é de notificação compulsória no Brasil, e a confirmação precoce orienta o tratamento e o controle do vetor.',
+          'Quem tem HIV ou outra condição que enfraquece a imunidade deve procurar atendimento mais cedo, porque a doença pode evoluir de forma mais grave. O mesmo vale para crianças pequenas e pessoas desnutridas. Não espere a próxima consulta de rotina: procure a UBS assim que os sinais aparecerem.',
+        ],
+        bullets: [
+          'Febre por mais de duas semanas, com perda de peso ou aumento do abdômen',
+          'Palidez intensa, sangramentos ou inchaço progressivo',
+          'Ferida na pele que não cicatriza há várias semanas',
+          'Sangramento nasal, entupimento com crostas ou rouquidão persistente',
+          'Piora rápida em pessoa com HIV ou imunidade baixa',
+        ],
+        cta: {
+          label: 'Veja quando procurar atendimento',
+          href: '/doencas/leishmaniose/',
+        },
+      },
+      {
+        id: 'por-que-nao-esperar',
+        heading: 'Por que não esperar a ferida cicatrizar sozinha',
+        paragraphs: [
+          'Muita gente acredita que a ferida da leishmaniose vai fechar sozinha, porque ela não dói. Só que a lesão não cicatriza com os cuidados comuns e pode crescer lentamente, deixando uma cicatriz maior. Na forma mucocutânea, a demora permite que a inflamação alcance o nariz, a boca e a garganta e destrua tecidos. A forma visceral é a mais grave e pode levar à morte se não for tratada.',
+          'Adiar a avaliação tem custos concretos: maior chance de infecção secundária, cicatriz permanente e, nas formas que atingem as mucosas, alterações na fala e na respiração. Na forma visceral, o atraso no diagnóstico pode levar a complicações graves e à morte. O tempo entre os primeiros sinais e o início do tratamento faz diferença no desfecho.',
+          'O tratamento é gratuito pelo SUS e tem boa chance de cura, sobretudo quando começa cedo. Ele precisa ser completo e acompanhado por exames de controle, porque interromper o medicamento por conta própria aumenta o risco de recaída e de resistência. Repouso e alimentação adequada ajudam na recuperação, mas não substituem o tratamento específico. A recaída pode acontecer, principalmente quando o tratamento não é completado, e deve ser investigada se os sintomas voltarem.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['leishmaniose'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: ['leishmaniose-como-se-transmite-e-como-prevenir'],
+    references: [
+      {
+        label: 'Leishmaniose Visceral',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leishmaniose-visceral/',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leishmaniose Tegumentar (LT)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lt',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leishmaniasis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/leishmaniasis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Leishmaniasis',
+        url: 'https://www.paho.org/en/topics/leishmaniasis',
+        publisher: 'Organização Pan-Americana da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'leishmaniose-como-se-transmite-e-como-prevenir',
+    slug: 'leishmaniose-como-se-transmite-e-como-prevenir',
+    title: 'Leishmaniose: como se transmite e como prevenir',
+    excerpt:
+      'A leishmaniose é transmitida pela picada do mosquito-palha, não pelo contato entre pessoas. Veja o papel dos cães, os criadouros e como reduzir o risco em casa.',
+    category: 'Prevenção',
+    categorySlug: 'prevencao',
+    body: [
+      {
+        id: 'o-mosquito-palha',
+        heading: 'O mosquito-palha e o horário da picada',
+        paragraphs: [
+          'A transmissão acontece quando uma fêmea de flebotomíneo infectada pica uma pessoa. Existem mais de 20 espécies capazes de infectar pessoas, e cada uma tende a produzir um quadro clínico diferente. O inseto é pequeno e recebe nomes diferentes conforme a região: mosquito-palha, asa-dura, tatuquira ou birigui. Ele se contamina ao sugar o sangue de uma pessoa ou de um animal com o parasito e, ao picar outra pessoa, deposita a forma infectante.',
+          'Esses insetos são mais ativos no crepúsculo e à noite. O período entre o fim da tarde e o amanhecer concentra o maior risco, tanto dentro de casa quanto no quintal e nos abrigos de animais. Em áreas de transmissão, permanecer ao ar livre nesse horário sem proteção aumenta a exposição. Dentro de casa, o inseto pode entrar e picar durante a noite, por isso a proteção nas janelas também conta.',
+          'A leishmaniose não passa de uma pessoa para outra pelo contato comum, como abraço, aperto de mão, alimentos ou objetos. Em situações raras, pode haver transmissão da gestante para o feto ou por transfusão de sangue, mas o ciclo habitual envolve animais reservatórios e o inseto vetor. Por isso, a prevenção se dirige ao vetor e, na forma visceral, também ao controle do reservatório canino.',
+        ],
+      },
+      {
+        id: 'caes-e-animais-silvestres',
+        heading: 'Cães e animais silvestres como reservatórios',
+        paragraphs: [
+          'Na leishmaniose visceral, o cão é o principal reservatório em áreas urbanas. O animal infectado serve de fonte para o mosquito, que passa a transmitir o parasito a outras pessoas e a outros cães. Por isso, a presença de cães infectados perto das casas aumenta o risco de transmissão na vizinhança. O controle do cão faz parte das medidas de saúde pública, mas não deve ser a única ação.',
+          'Na leishmaniose tegumentar, os reservatórios são animais silvestres. A doença está ligada ao contato com áreas de mata, ao desmatamento e à ocupação de regiões rurais. Quem trabalha no campo ou entra nessas áreas fica mais exposto ao vetor e deve reforçar a proteção. Moradores de regiões endêmicas e pessoas que vivem perto de florestas ou áreas desmatadas também estão mais expostas.',
+          'A incubação da forma tegumentar varia de cerca de duas semanas a dois anos, com média de dois a três meses. Isso significa que uma ferida pode aparecer muito tempo depois da picada, e a pessoa talvez não relacione o surgimento da lesão ao contato com a mata. Vale contar essa história no atendimento. Por isso, quem teve contato com mata e apresenta ferida prolongada deve informar isso na consulta.',
+        ],
+      },
+      {
+        id: 'quintal-lixo-e-criadouros',
+        heading: 'Quintal, lixo e criadouros do mosquito',
+        paragraphs: [
+          'Manter o quintal limpo reduz a presença do vetor. Folhas, frutos, fezes de animais e matéria orgânica em decomposição criam condições para o mosquito-palha se desenvolver. Dar destino adequado ao lixo e evitar o acúmulo de restos orgânicos faz parte da rotina de prevenção. Essa limpeza precisa ser repetida, porque o acúmulo volta com facilidade.',
+          'A doença é mais comum em locais com moradia precária, saneamento inadequado e acúmulo de matéria orgânica. Essas condições aproximam o inseto das pessoas e dificultam o controle. A limpeza do terreno e a retirada regular do lixo atuam justamente sobre esse ponto, que depende da vizinhança inteira. Quando várias casas mantêm os terrenos limpos ao mesmo tempo, o efeito sobre a população do inseto é maior.',
+          'Em áreas com transmissão intensa, o poder público pode indicar o uso de inseticida nas paredes das casas e nos abrigos de animais. Essa medida é coletiva e não substitui a limpeza do quintal nem a proteção individual. Quando agentes de saúde orientarem a ação, siga as instruções e mantenha os cuidados em casa. A aplicação deve seguir as orientações de segurança da vigilância sanitária.',
+        ],
+      },
+      {
+        id: 'protecao-individual',
+        heading: 'Proteção individual contra a picada',
+        paragraphs: [
+          'Usar roupas de manga longa, calças compridas e repelente nas áreas expostas reduz as picadas, especialmente ao entardecer e à noite. Telas em janelas e mosquiteiros também ajudam, sobretudo em casas próximas a matas ou a abrigos de animais. Em casas com crianças pequenas, o mosquiteiro é uma proteção importante durante o sono.',
+          'Quem mora ou trabalha em área de transmissão deve manter essas medidas na rotina, não apenas quando há casos na vizinhança. Como o inseto é pequeno e costuma picar áreas descobertas, a roupa comprida e o repelente funcionam melhor quando são usados juntos e reaplicados conforme o rótulo.',
+          'Evite permanecer em áreas de mata ou com animais no entardecer e à noite sem proteção. Manter o quintal limpo e sem matéria orgânica acumulada também reduz a presença do vetor ao redor da casa, o que completa o cuidado com o corpo. Nenhuma medida isolada resolve; o conjunto é que reduz a exposição.',
+        ],
+        bullets: [
+          'Usar roupas compridas e repelente ao entardecer e à noite',
+          'Instalar telas e usar mosquiteiros em áreas de transmissão',
+          'Limpar quintais e remover matéria orgânica e lixo acumulado',
+          'Evitar permanecer em áreas de mata ou com animais sem proteção',
+          'Seguir as orientações da vigilância sobre o controle do cão infectado',
+        ],
+      },
+      {
+        id: 'vigilancia-e-tratamento',
+        heading: 'Vigilância, diagnóstico cedo e tratamento gratuito',
+        paragraphs: [
+          'A leishmaniose é de notificação compulsória no Brasil. O diagnóstico precoce orienta o tratamento, permite o controle do vetor e ajuda a vigilância epidemiológica a identificar áreas de transmissão. Notificar não é burocracia: é o que permite à vigilância agir no território.',
+          'O tratamento é gratuito pelo SUS. Na forma tegumentar, a primeira escolha no Brasil é o antimonial pentavalente, conhecido como Glucantime; na visceral, pode ser usado antimonial ou anfotericina B lipossomal, conforme a gravidade, a idade e as condições clínicas. A escolha do esquema e a dose cabem à equipe de saúde. O tratamento precisa ser completo e acompanhado por exames de controle. Interromper o medicamento por conta própria aumenta o risco de recaída e de resistência.',
+          'Na leishmaniose visceral, o controle do cão infectado faz parte das medidas de saúde pública, sempre combinado com outras ações. Cães infectados não devem ser tratados como única forma de controle, porque continuam sendo fonte de infecção para o mosquito. A avaliação e a conduta cabem à vigilância sanitária e ao serviço veterinário. Por isso, a conduta com o animal deve seguir a orientação desses serviços, e não uma decisão isolada do tutor.',
+        ],
+        cta: {
+          label: 'Entenda o tratamento gratuito pelo SUS',
+          href: '/doencas/leishmaniose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['leishmaniose'],
+    topicSlugs: ['prevencao', 'doencas-infecciosas'],
+    relatedArticleSlugs: ['leishmaniose-sintomas-e-quando-procurar-ajuda'],
+    references: [
+      {
+        label: 'Leishmaniose Visceral',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leishmaniose-visceral/',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leishmaniose Tegumentar (LT)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lt',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leishmaniasis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/leishmaniasis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Leishmaniasis',
+        url: 'https://www.paho.org/en/topics/leishmaniasis',
+        publisher: 'Organização Pan-Americana da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'esquistossomose-sintomas-e-quando-procurar-atendimento',
+    slug: 'esquistossomose-sintomas-e-quando-procurar-atendimento',
+    title: 'Esquistossomose: sintomas e quando procurar atendimento',
+    excerpt:
+      'A esquistossomose pode passar anos sem sintoma e, quando aparece, imita outras doenças febris. Conheça as fases da infecção e os sinais que exigem atendimento imediato.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'sintomas-silenciosos',
+        heading: 'Por que a doença pode passar anos sem sintomas',
+        paragraphs: [
+          'A esquistossomose é uma doença parasitária causada pelo Schistosoma mansoni, um verme que vive nos vasos sanguíneos que irrigam o fígado e o intestino. A maior parte das pessoas infectadas não sente nada, e a infecção pode seguir por anos sem dar sinal. Isso acontece porque o dano não vem do verme adulto em si, mas dos ovos que ficam presos nos tecidos.',
+          'Cada ovo retido provoca uma inflamação local. Repetida por muito tempo, essa inflamação forma fibrose, sobretudo no fígado, e aumenta a pressão do sistema portal. É esse processo lento que explica por que alguém pode se sentir bem durante anos e, de repente, descobrir uma forma grave da doença.',
+          'No Brasil, o Ministério da Saúde estima que cerca de 1,5 milhão de pessoas vivem em áreas sob risco, com transmissão em 19 unidades federadas. Quem mora, trabalha ou passa temporadas nessas regiões deve contar ao profissional de saúde se teve contato com rios, córregos, lagoas ou açudes, mesmo sem sintoma.',
+        ],
+      },
+      {
+        id: 'fase-aguda',
+        heading: 'O que aparece duas a seis semanas depois do contato',
+        paragraphs: [
+          'Quando surgem sintomas, eles costumam aparecer entre duas e seis semanas depois do contato com a água contaminada. Esse é o período de incubação descrito pelo Ministério da Saúde. A fase aguda pode se parecer com muitas outras doenças febris e, por isso, passa despercebida com frequência.',
+          'Os sinais mais comuns são febre, dor de cabeça, calafrios, suores, fraqueza, falta de apetite, dor muscular, tosse e diarreia. Em algumas pessoas há aumento e dor no fígado. Nenhum desses sintomas é exclusivo da esquistossomose, o que torna a história de exposição o dado mais valioso da consulta. Também pode haver tosse durante a fase aguda.',
+          'Muitas pessoas não têm nenhum sintoma nessa fase, mesmo com o verme já instalado. Por isso, um quadro de febre e mal-estar depois de um banho de rio em área endêmica merece investigação, em vez de ser tratado como uma virose qualquer. A exposição à água doce é a pista que muda o raciocínio do profissional.',
+        ],
+      },
+      {
+        id: 'fase-cronica',
+        heading: 'Quando a infecção segue por meses ou anos',
+        paragraphs: [
+          'Sem tratamento, a infecção prossegue e entra na fase crônica. A diarreia se torna mais constante e pode alternar com prisão de ventre, às vezes com sangue nas fezes. O desconforto abdominal e a sensação de estômago cheio aparecem com frequência e costumam ser atribuídos a problemas alimentares.',
+          'Outros sinais descritos são tontura, coceira anal, palpitações, impotência, emagrecimento e aumento do fígado. Como são queixas comuns no dia a dia, a pessoa pode conviver com elas por muito tempo sem procurar ajuda. O exame de fezes costuma ser o primeiro passo para esclarecer o quadro e diferenciar de outras causas de diarreia.',
+          'Em crianças com infecção prolongada, anemia, desnutrição e atraso no crescimento são comuns. O parasita compete com uma fase da vida em que o corpo mais precisa de nutrientes, e o efeito aparece no peso e na curva de crescimento. Esse é um motivo a mais para investigar crianças que vivem em área de transmissão.',
+        ],
+      },
+      {
+        id: 'forma-grave',
+        heading: 'Barriga d’água e outras formas graves',
+        paragraphs: [
+          'Na forma grave, o estado geral piora, com emagrecimento, fraqueza intensa e aumento do abdômen por acúmulo de líquido, conhecido como barriga d’água. O fígado endurece e o baço cresce. A pressão nos vasos do sistema portal sobe, e podem surgir varizes no esôfago e no estômago.',
+          'Essas varizes podem sangrar, causando vômito com sangue ou fezes escuras como borra de café. Falta de ar e cansaço aos esforços podem indicar hipertensão pulmonar, uma complicação menos frequente, mas grave. Formas ectópicas também ocorrem quando ovos ou vermes atingem outros órgãos.',
+          'A fibrose instalada pode não desaparecer por completo, mesmo depois de eliminar o parasita. Por isso, o objetivo do acompanhamento nas formas graves é controlar as complicações e evitar que elas progridam, com avaliação especializada e exames periódicos. O acompanhamento também inclui tratar infecções e avaliar procedimentos para aliviar a pressão portal.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que pedem atendimento imediato',
+        paragraphs: [
+          'A maioria dos casos evolui sem urgência, mas alguns sinais indicam complicação e pedem atendimento imediato, sobretudo em área de transmissão. Não espere a consulta marcada se algum deles aparecer.',
+          'O sangramento digestivo e o aumento rápido do abdômen são os mais relacionados à hipertensão portal. Já febre alta com calafrios, confusão e diminuição da urina podem indicar infecção grave ou descompensação do organismo. Na dúvida, procure imediatamente um pronto atendimento.',
+        ],
+        bullets: [
+          'Vômito com sangue ou fezes pretas, escuras como borra de café',
+          'Aumento rápido do abdômen, com falta de ar ou desconforto',
+          'Dor abdominal intensa e contínua',
+          'Febre alta com calafrios e piora do estado geral',
+          'Confusão, sonolência excessiva ou desmaio',
+          'Palpitações, falta de ar ou dor no peito',
+          'Diminuição importante da urina ou inchaço nas pernas',
+        ],
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Onde buscar atendimento e o que esperar da consulta',
+        paragraphs: [
+          'O primeiro atendimento pode ser na unidade básica de saúde. O profissional vai perguntar sobre contato com água doce, sintomas e tempo de exposição. Casos com febre prolongada, dor abdominal, diarreia persistente ou alterações no fígado podem ser encaminhados para infectologia, clínica geral, gastroenterologia ou hepatologia, conforme a estrutura local.',
+          'O exame parasitológico de fezes é a base do diagnóstico, e o laboratório procura ovos do parasita ao microscópio. Exames de sangue podem mostrar eosinofilia e anemia, mas não confirmam a doença sozinhos. A ultrassonografia do abdômen avalia fibrose, aumento do fígado e do baço e acúmulo de líquido.',
+          'O tratamento de escolha é o praziquantel, distribuído gratuitamente pelo Ministério da Saúde, em dose única supervisionada nos casos simples. A dose é calculada pelo profissional conforme peso, idade e estado de saúde. Não existe vacina, e o tratamento não impede uma nova infecção, por isso a prevenção continua necessária.',
+        ],
+        cta: {
+          label: 'Veja a página sobre esquistossomose',
+          href: '/doencas/esquistossomose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['esquistossomose'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [],
+    references: [
+      {
+        label: 'Esquistossomose: o que é, sintomas, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esquistossomose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Schistosomiasis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/schistosomiasis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'tracoma-sintomas-e-quando-procurar-atendimento',
+    slug: 'tracoma-sintomas-e-quando-procurar-atendimento',
+    title: 'Tracoma: sintomas e quando procurar atendimento',
+    excerpt:
+      'O tracoma começa sem chamar atenção e se confunde com conjuntivites comuns. Veja como reconhecer as fases, os sinais de alerta e onde buscar atendimento no SUS.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'inicio-silencioso',
+        heading: 'Um início que passa despercebido',
+        paragraphs: [
+          'O tracoma é uma conjuntivite crônica causada pela bactéria Chlamydia trachomatis. No começo, a inflamação atinge a parte interna da pálpebra e forma pequenos grãos parecidos com areia. Muitas pessoas não percebem nada nessa etapa, e a doença avança devagar, ao longo de meses ou anos. A bactéria se multiplica dentro das células da conjuntiva e provoca inflamação a cada episódio.',
+          'A infecção se repete com frequência em quem vive em áreas sem água tratada e saneamento. Cada episódio dura semanas ou meses, e as cicatrizes se acumulam a cada nova infecção. Crianças são as mais atingidas, e a transmissão costuma circular dentro da mesma casa e da mesma comunidade.',
+          'No mundo, o tracoma é a principal causa infecciosa de cegueira. A Organização Mundial da Saúde estima que cerca de 1,9 milhão de pessoas têm deficiência visual por causa da doença, das quais 450 mil estão cegas. Em março de 2026, 92 milhões de pessoas viviam em áreas endêmicas. Reconhecer os sinais cedo é o que evita esse desfecho.',
+        ],
+      },
+      {
+        id: 'fase-aguda',
+        heading: 'Como é a fase aguda',
+        paragraphs: [
+          'Quando os sintomas aparecem, costumam ser confundidos com uma conjuntivite comum. Os olhos ficam vermelhos, doloridos, com sensação de areia, lacrimejamento, intolerância à luz e secreção amarelada. Os gânglios na frente da orelha podem inchar e doar ao toque. A queixa pode melhorar sozinha por alguns dias e voltar depois.',
+          'Ao virar a pálpebra, o profissional vê folículos e papilas na conjuntiva. Esses grãos são o sinal mais característico da fase ativa, quando a transmissão é mais intensa. O período de incubação, entre a infecção e os primeiros sinais, é de 5 a 12 dias.',
+          'Como outras conjuntivites também formam grãos, o diagnóstico exige exame cuidadoso. O médico considera a idade, a história de exposição, o aspecto das lesões e a presença de cicatrizes. O exame com lupa binocular de 2,5 aumentos é o padrão, e nenhum desses sinais deve ser interpretado pela própria pessoa.',
+        ],
+      },
+      {
+        id: 'fase-cronica',
+        heading: 'O que muda na fase crônica',
+        paragraphs: [
+          'Na fase crônica, o desconforto pode diminuir, mas os grãos continuam. Vasos anormais crescem na córnea e podem embaçar a visão. A inflamação repetida começa a deixar cicatrizes na conjuntiva, que encurtam e endurecem o tecido. Por isso, a pessoa pode achar que a doença passou.',
+          'Com as cicatrizes, a pálpebra pode ficar caída, colada ao olho ou com os cílios virados para dentro. Essas alterações não são apenas estéticas: elas mudam a forma como a pálpebra protege e lubrifica a superfície do olho. Essas mudanças podem piorar com o passar dos anos.',
+          'A classificação de MacCallan descreve quatro fases, da inicial à inativa. Reconhecer em qual delas o paciente está ajuda a definir o tratamento e a prever o risco de cegueira. A fase de cicatrização é o momento em que a inflamação diminui, mas as sequelas começam.',
+        ],
+      },
+      {
+        id: 'fases-tardias',
+        heading: 'Nas fases tardias, os cílios passam a ferir o olho',
+        paragraphs: [
+          'Nas fases tardias, a triquíase causa dor constante, fotofobia intensa e dificuldade para abrir os olhos. Os cílios raspam a córnea a cada piscada, e esse atrito contínuo lesiona a superfície ocular. A pessoa pode evitar a luz e manter os olhos fechados para aliviar o desconforto. A dor pode atrapalhar o sono e as tarefas do dia a dia.',
+          'A córnea pode ficar opaca, e a visão cai de forma irreversível. Mesmo quando a infecção deixa de estar ativa, as cicatrizes continuam a agir. É por isso que o tracoma pode cegar anos depois do último episódio de conjuntivite. Não há colírio caseiro que reverta essa opacidade.',
+          'Pessoas com apenas cicatrizes não transmitem a doença, mas continuam precisando de avaliação. A cirurgia de triquíase pode aliviar a dor e reduzir a lesão da córnea, embora não recupere a visão já perdida. O acompanhamento oftalmológico deve ser mantido.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Procure um serviço de saúde se aparecer algum destes sinais, sobretudo em área com histórico de tracoma. Eles não confirmam a doença, mas indicam que o olho precisa de avaliação especializada. Exames de laboratório não confirmam cada caso, mas ajudam a mostrar se a bactéria circula na comunidade.',
+          'Olho vermelho que não melhora em poucos dias e sensação de areia constante são as queixas mais comuns. Cílios encostando no olho, pálpebra virada para dentro e visão embaçada são sinais de fase avançada e exigem prioridade. Alguns casos exigem avaliação ainda no mesmo dia.',
+        ],
+        bullets: [
+          'Olho vermelho que não melhora em poucos dias',
+          'Sensação de areia ou corpo estranho constante',
+          'Dor ocular intensa ou intolerância à luz',
+          'Secreção amarelada frequente',
+          'Cílios encostando no olho ou pálpebra virada para dentro',
+          'Visão embaçada ou perda de visão',
+          'Olho seco intenso ou lacrimejamento constante',
+          'Inchaço e dor na frente da orelha junto com conjuntivite',
+        ],
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Onde buscar atendimento',
+        paragraphs: [
+          'O tracoma é avaliado por oftalmologista. Na maioria dos municípios, o primeiro atendimento acontece na UBS, que encaminha para consulta especializada e para o tratamento fornecido pelo SUS. O encaminhamento depende da estrutura de cada município, e o exame é feito com lupa binocular de 2,5 aumentos.',
+          'Em áreas com histórico de tracoma, equipes de vigilância fazem busca ativa de casos em escolas, creches e comunidades. Se alguém da casa tem olho vermelho persistente ou cílios encostando no olho, todos os moradores devem ser examinados. A busca ativa costuma incluir crianças em idade escolar, e não é preciso isolar a pessoa.',
+          'O tratamento recomendado é a azitromicina por via oral, em dose única, e o SUS fornece o medicamento gratuitamente. O diagnóstico precoce e o tratamento completo evitam a progressão para as formas que ameaçam a visão. O tratamento não impede novas infecções, por isso a prevenção continua.',
+        ],
+        cta: {
+          label: 'Veja a página sobre tracoma',
+          href: '/doencas/tracoma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['tracoma'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: [
+      'tracoma-como-se-transmite-e-como-prevenir',
+      'tracoma-tratamento-e-cirurgia',
+      'tracoma-pode-causar-cegueira',
+    ],
+    references: [
+      {
+        label: 'Tracoma: o que é, sinais e sintomas, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tracoma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Trachoma: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/trachoma',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'tracoma-como-se-transmite-e-como-prevenir',
+    slug: 'tracoma-como-se-transmite-e-como-prevenir',
+    title: 'Tracoma: como se transmite e como prevenir',
+    excerpt:
+      'A bactéria do tracoma passa pelas secreções dos olhos e do nariz, pelas mãos, por toalhas e por moscas. Veja como quebrar o ciclo em casa e na comunidade.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-a-bacteria-passa',
+        heading: 'Como a bactéria passa de uma pessoa para outra',
+        paragraphs: [
+          'A bactéria do tracoma sai dos olhos e do nariz de uma pessoa infectada por meio de secreções. Outra pessoa se infecta ao levar essas secreções aos próprios olhos, seja pelas mãos, seja por objetos contaminados, como toalhas, lenços e fronhas. A secreção pode passar de uma criança para outra durante a brincadeira. As mãos são o veículo mais comum.',
+          'Moscas também podem transportar a bactéria de forma mecânica, principalmente em ambientes com pouca higiene. Elas pousam nas secreções e depois nos olhos, sem que a bactéria se multiplique no inseto. Por isso, o controle de moscas faz parte da prevenção, e o lixo acumulado favorece o aumento desses insetos.',
+          'Não há transmissão pelo ar nem por contato casual, como um aperto de mão. O que facilita a passagem da bactéria é o contato com secreção contaminada em ambientes onde água e sabão são escassos. Entender esse caminho é o primeiro passo para quebrar o ciclo, e objetos de uso pessoal devem ser lavados com frequência.',
+        ],
+      },
+      {
+        id: 'quando-ha-contagio',
+        heading: 'Quando existe contágio',
+        paragraphs: [
+          'A transmissão só acontece quando existe lesão ativa. Quem já tem apenas cicatrizes não transmite a doença, mesmo que a pálpebra esteja deformada. Essa distinção importa para não afastar pessoas que já passaram pela fase infecciosa, e é por isso que examinar a família inteira faz parte da conduta.',
+          'O período de incubação, entre a infecção e o aparecimento dos primeiros sinais, é de 5 a 12 dias. A suscetibilidade é universal: não há imunidade natural ou adquirida que proteja contra novas infecções. Quem se reinfecta várias vezes acumula cicatrizes, e crianças pequenas são as que mais se reinfectam. A doença não deixa memória imunológica.',
+          'Por isso, um caso ativo na casa é um alerta para toda a família. O recomendado é examinar todos os moradores, tratar quem estiver infectado e reforçar os cuidados de higiene no mesmo período. O tratamento de quem está infectado reduz a circulação da bactéria na casa e na escola. Quem tem apenas cicatrizes não precisa de antibiótico.',
+        ],
+      },
+      {
+        id: 'por-que-circula-em-certas-casas',
+        heading: 'Por que a doença circula em certas casas',
+        paragraphs: [
+          'Ambientes aglomerados, com pouca água disponível e sem saneamento, facilitam a circulação da bactéria. O tracoma costuma atingir várias pessoas da mesma casa e da mesma comunidade. Não é uma questão de falta de cuidado individual, mas de condições de vida. A falta de água obriga a família a racionar o uso e dificulta a higiene diária. As condições de moradia pesam mais do que a vontade individual.',
+          'O tracoma está ligado à pobreza e à dificuldade de acesso a serviços de saúde. Crianças são as mais atingidas, porque estão mais expostas às secreções umas das outras e ainda não têm hábitos de higiene consolidados. A infecção se repete enquanto as condições não melhoram, e a escola também é um lugar de contato próximo entre as crianças.',
+          'No Brasil, a doença segue sob vigilância nacional e tem meta de eliminação como problema de saúde pública. A transmissão persiste em áreas de vulnerabilidade social, sobretudo onde faltam água tratada, esgoto e hábitos de higiene. Melhorar essas condições é uma medida de prevenção, não apenas de conforto, e o acesso a sabão e a água limpa muda a rotina da casa.',
+        ],
+      },
+      {
+        id: 'prevencao-em-casa',
+        heading: 'Prevenção em casa',
+        paragraphs: [
+          'A prevenção começa em casa e depende de gestos simples, repetidos todos os dias. Não existe vacina contra o tracoma. As medidas abaixo reduzem a chance de transmissão e devem ser mantidas mesmo depois do tratamento. A participação de todos os moradores é o que interrompe a transmissão.',
+          'Quem está em tratamento deve usar toalhas, lenços, fronhas e produtos de higiene pessoal só dele. Esses itens devem ser lavados com água quente e sabão e, quando possível, secos ao sol. Evite compartilhar roupas de cama e toalhas com quem está em tratamento.',
+          'As crianças pequenas precisam de ajuda para lavar o rosto, porque ainda não conseguem fazer isso sozinhas. O hábito deve ser incorporado à rotina da manhã e depois das brincadeiras. Toalhas e lenços de uso pessoal não devem circular entre os moradores.',
+        ],
+        bullets: [
+          'Lave o rosto das crianças todos os dias, com água limpa e sabão',
+          'Ensine a não esfregar os olhos com as mãos sujas',
+          'Não compartilhe toalhas, lenços, fronhas, maquiagem ou colírios',
+          'Lave as mãos antes das refeições e depois de usar o banheiro',
+          'Tenha acesso a água tratada e a um destino adequado para o lixo e os dejetos',
+          'Mantenha a casa ventilada e controle moscas com telas e manejo do lixo',
+          'Procure atendimento ao primeiro sinal de conjuntivite prolongada e faça o exame de todos os moradores quando houver um caso',
+        ],
+      },
+      {
+        id: 'agua-saneamento-e-comunidade',
+        heading: 'Água, saneamento e ação comunitária',
+        paragraphs: [
+          'A prevenção combina higiene, água, saneamento e controle de moscas. Ter acesso a água tratada e a um destino adequado para o lixo e os dejetos é a base, porque sem isso os gestos de higiene perdem efeito. O tratamento comunitário é indicado quando a transmissão é intensa e recorrente.',
+          'Em áreas de alta endemicidade, a estratégia inclui tratar toda a comunidade com antibiótico, além de melhorar saneamento, água e educação em saúde. O objetivo é curar a infecção, interromper a transmissão e reduzir a circulação da bactéria. A adesão da comunidade é o que sustenta o resultado da campanha. Crianças são incluídas nas campanhas junto com os adultos.',
+          'Manter a casa ventilada e usar telas e manejo do lixo ajudam a controlar as moscas. Procure atendimento ao primeiro sinal de conjuntivite prolongada e faça o exame de todos os moradores quando houver um caso. A vigilância acompanha os casos e avalia a necessidade de novas rodadas.',
+        ],
+        cta: {
+          label: 'Veja a página sobre tracoma',
+          href: '/doencas/tracoma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['tracoma'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedArticleSlugs: [
+      'tracoma-sintomas-e-quando-procurar-atendimento',
+      'tracoma-tratamento-e-cirurgia',
+      'tracoma-pode-causar-cegueira',
+    ],
+    references: [
+      {
+        label: 'Tracoma: o que é, sinais e sintomas, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tracoma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Trachoma: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/trachoma',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'tracoma-tratamento-e-cirurgia',
+    slug: 'tracoma-tratamento-e-cirurgia',
+    title: 'Tracoma: tratamento e cirurgia',
+    excerpt:
+      'A azitromicina em dose única cura a infecção ativa, mas não apaga cicatrizes. Entenda quando entra a cirurgia de triquíase e o que esperar do acompanhamento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'azitromicina',
+        heading: 'O remédio de primeira escolha',
+        paragraphs: [
+          'O tratamento recomendado pelo Ministério da Saúde é a azitromicina por via oral, na dose de 20 mg por quilo de peso, em dose única, com máximo de 1 grama. O SUS fornece o medicamento gratuitamente. A dose é calculada pelo profissional conforme o peso da pessoa, e o tratamento é feito sem necessidade de internação na maioria dos casos.',
+          'O remédio age contra a bactéria e cura a infecção ativa. Ele pode causar efeitos passageiros, como náusea, dor abdominal ou coceira, que devem ser informados à equipe de saúde. Não há indicação para tomar o antibiótico por conta própria, e a equipe deve saber de outras doenças e remédios em uso.',
+          'Tomar sobras de tratamentos anteriores ou usar o remédio de outra pessoa não é seguro. A dose depende do peso e da idade, e o uso indevido favorece a resistência bacteriana. Só o profissional pode definir o esquema adequado e dizer quando ele deve ser repetido.',
+        ],
+      },
+      {
+        id: 'tratamento-comunitario',
+        heading: 'Por que às vezes se trata a comunidade inteira',
+        paragraphs: [
+          'Em áreas de alta endemicidade, a estratégia não se limita a tratar quem procurou a unidade de saúde. O Ministério da Saúde recomenda tratar toda a comunidade com antibiótico, além de melhorar saneamento, água e educação em saúde. A ação é coletiva e depende da adesão de toda a comunidade.',
+          'O objetivo é curar a infecção, interromper a transmissão e reduzir a circulação da bactéria. Quando apenas uma pessoa é tratada e as condições de higiene continuam as mesmas, a reinfecção é rápida e as cicatrizes continuam a se acumular. Crianças são o principal alvo, porque são as mais infectadas.',
+          'As campanhas comunitárias são conduzidas pela vigilância e pelas equipes locais. Participar delas quando indicado é parte do cuidado, mesmo para quem não tem sintoma no momento. As escolas e creches costumam participar da organização, e a equipe local explica o motivo do tratamento e responde a dúvidas.',
+        ],
+      },
+      {
+        id: 'pomadas-e-colicos',
+        heading: 'Pomadas, colírios e o que não substitui o tratamento',
+        paragraphs: [
+          'Nos casos com inflamação ativa, o médico também pode indicar pomadas ou colírios com tetraciclina, eritromicina ou sulfa. A escolha e o tempo de uso dependem da fase da doença e da idade do paciente. A pomada pode ser mais difícil de aplicar em crianças, o que pesa na decisão.',
+          'Não use colírios, chás, compressas com receitas caseiras ou produtos comprados sem orientação. Essas medidas não eliminam a bactéria e podem atrasar o tratamento correto. Também não compartilhe colírios com outras pessoas, mesmo que os sintomas pareçam iguais, e não use produtos de farmácia sem indicação.',
+          'O uso indevido de antibióticos favorece a resistência e pode mascarar outras doenças oculares. Se o olho continuar vermelho ou dolorido depois do tratamento, volte à unidade de saúde para reavaliação. O profissional pode ajustar o esquema e investigar outras causas. A reavaliação deve acontecer sempre que houver piora.',
+        ],
+      },
+      {
+        id: 'quando-a-cirurgia-entra',
+        heading: 'Quando a cirurgia entra',
+        paragraphs: [
+          'A infecção ativa é tratada com antibiótico, não com cirurgia. A operação entra quando as cicatrizes deformam a pálpebra ou comprometem a córnea. O tratamento não apaga cicatrizes já formadas, e por isso a avaliação cirúrgica pode ser necessária mesmo sem infecção ativa. Não se trata de uma cirurgia estética.',
+          'A cirurgia de correção da triquíase reposiciona a pálpebra e evita que os cílios continuem raspando o olho. Também podem ser feitas correções de entrópio, de aderências entre pálpebra e globo ocular e de obstrução do canal lacrimal. O objetivo é proteger a córnea e aliviar a dor. A cirurgia não substitui o tratamento da infecção quando ela está ativa.',
+          'A indicação depende do estado da pálpebra, da córnea e da superfície ocular. Quem tem apenas cicatrizes leves pode não precisar de operação, mas deve continuar em acompanhamento. Cada caso é decidido com base no exame, e a avaliação cirúrgica é feita por oftalmologista em serviço especializado.',
+        ],
+      },
+      {
+        id: 'depois-da-cirurgia',
+        heading: 'Depois da cirurgia',
+        paragraphs: [
+          'Depois da cirurgia, o acompanhamento continua. A pessoa pode precisar de lubrificantes, controle da inflamação e novas avaliações da pálpebra e da córnea. Os retornos na data marcada são parte do tratamento, não uma formalidade, e esses cuidados podem ser necessários por tempo prolongado. O retorno regular permite detectar problemas antes que piorem.',
+          'Quando a córnea já está opaca, o transplante de córnea pode ser avaliado para recuperar parte da visão. A indicação depende do estado da superfície ocular e do potencial de recuperação. O transplante não é indicado para todos os casos de opacidade e exige acompanhamento prolongado.',
+          'A cirurgia de triquíase melhora a dor e reduz o risco de lesão da córnea, mas não recupera visão já perdida. Por isso, o objetivo principal é chegar à operação antes que a córnea seja danificada de forma irreversível. A opacidade instalada não regride com o tratamento, e a perda de visão é permanente.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Acompanhamento e cuidados durante o tratamento',
+        paragraphs: [
+          'O acompanhamento inclui consultas de rotina e, em áreas endêmicas, novas rodadas de exame e tratamento comunitário. Voltar às consultas permite identificar recidivas, avaliar cicatrizes e ajustar o cuidado. O acompanhamento é mais frequente em quem tem cicatrizes ou triquíase. O intervalo entre as consultas depende de cada caso.',
+          'Durante o tratamento, siga a dose e o tempo indicados pelo profissional. Se aparecerem efeitos colaterais, como náusea, dor abdominal ou coceira, avise a equipe de saúde. Não interrompa o esquema por conta própria, mesmo que os sintomas melhorem rápido.',
+          'Quem convive com a pessoa em tratamento não precisa evitar contato, mas deve reforçar a higiene e não compartilhar toalhas e fronhas. O tracoma tem cura, e o tratamento precoce é o que preserva a visão. A família deve ser orientada sobre os sinais de recidiva, e o retorno à unidade é a oportunidade de tirar dúvidas.',
+        ],
+        cta: {
+          label: 'Veja a página sobre tracoma',
+          href: '/doencas/tracoma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['tracoma'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'tracoma-sintomas-e-quando-procurar-atendimento',
+      'tracoma-como-se-transmite-e-como-prevenir',
+      'tracoma-pode-causar-cegueira',
+    ],
+    references: [
+      {
+        label: 'Tracoma: o que é, sinais e sintomas, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tracoma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Trachoma: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/trachoma',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'tracoma-pode-causar-cegueira',
+    slug: 'tracoma-pode-causar-cegueira',
+    title: 'Tracoma pode causar cegueira?',
+    excerpt:
+      'Sim, quando a infecção se repete por anos e os cílios passam a raspar a córnea. Entenda a cadeia que leva à cegueira e por que o tratamento precoce muda o desfecho.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'a-cadeia',
+        heading: 'A cadeia que leva à cegueira',
+        paragraphs: [
+          'A cegueira por tracoma não acontece de um dia para o outro. Ela é o resultado de infecções repetidas ao longo de anos, que deixam cicatrizes na parte interna da pálpebra. Cada nova infecção soma uma camada de inflamação e de tecido cicatricial, e o olho vai perdendo a capacidade de se recuperar. O processo pode levar décadas.',
+          'As cicatrizes encurtam a conjuntiva e podem virar a pálpebra para dentro. Os cílios passam a raspar a córnea, causando dor, intolerância à luz e lesões contínuas. A cada piscada, o atrito se repete, e a superfície ocular fica cada vez mais machucada. Com o tempo, a córnea fica opaca e a visão cai de forma irreversível.',
+          'Quem tem apenas cicatrizes não transmite a bactéria, mas continua sujeito a essa evolução. Por isso, a avaliação da pálpebra e da córnea deve continuar mesmo depois que a infecção deixa de estar ativa. O exame com lupa binocular de 2,5 aumentos ajuda a identificar as cicatrizes antes que a córnea seja afetada. O acompanhamento oftalmológico permite agir antes desse desfecho.',
+        ],
+      },
+      {
+        id: 'quantas-pessoas',
+        heading: 'Quantas pessoas são afetadas',
+        paragraphs: [
+          'O tracoma é a principal causa infecciosa de cegueira no mundo. A Organização Mundial da Saúde estima que cerca de 1,9 milhão de pessoas têm deficiência visual por causa da doença, das quais 450 mil estão cegas. São números que vêm caindo com as ações de controle, mas ainda representam muita gente. A doença é evitável e também tratável.',
+          'Em março de 2026, 92 milhões de pessoas viviam em áreas endêmicas. A doença está ligada à pobreza, à falta de água e de saneamento e à dificuldade de acesso a serviços de saúde, e atinge sobretudo crianças. Crianças são as mais atingidas porque se infectam repetidamente, e a transmissão persiste onde faltam água tratada, esgoto e hábitos de higiene.',
+          'No Brasil, a doença segue sob vigilância nacional e tem meta de eliminação como problema de saúde pública. O acompanhamento dos casos, o tratamento comunitário e a melhoria das condições de vida fazem parte dessa estratégia. A vigilância identifica áreas onde a transmissão continua, e a meta depende de diagnóstico precoce e de prevenção de novas infecções. Manter as ações de controle é decisivo para sustentar esse resultado.',
+        ],
+      },
+      {
+        id: 'triquiase',
+        heading: 'A triquíase e o papel da cirurgia',
+        paragraphs: [
+          'A triquíase é o nome que se dá aos cílios que encostam no olho. Ela surge quando as cicatrizes puxam a pálpebra para dentro, e provoca dor constante, fotofobia intensa e dificuldade para abrir os olhos. A pessoa pode evitar a luz e viver com os olhos semicerrados, e a dor pode atrapalhar o sono e as tarefas do dia a dia. A fotofobia pode dificultar a exposição ao sol.',
+          'A cirurgia de correção da triquíase reposiciona a pálpebra e evita que os cílios continuem raspando o olho. Ela melhora a dor e reduz o risco de lesão da córnea, mas não recupera a visão já perdida. O alívio dos sintomas costuma ser perceptível já nos primeiros dias após a operação, e o alívio da dor melhora a qualidade de vida.',
+          'Por isso, a operação deve ser avaliada antes que a córnea esteja comprometida. Quem tem cílios encostando no olho precisa de avaliação oftalmológica, mesmo que não sinta dor todos os dias. O exame permite decidir o momento da cirurgia e acompanhar a evolução depois dela. A família deve ser orientada sobre os sinais de piora.',
+        ],
+      },
+      {
+        id: 'cornea-opaca',
+        heading: 'Quando a córnea fica opaca',
+        paragraphs: [
+          'Quando a córnea já está opaca, a perda de visão é irreversível. O transplante de córnea pode ser avaliado para recuperar parte da visão, mas a indicação depende do estado da superfície ocular e do potencial de recuperação. A decisão é individual e exige exames detalhados, e a recuperação varia de pessoa para pessoa.',
+          'Casos leves, sem reinfecção, costumam melhorar em alguns meses com o tratamento. Pode restar uma cicatriz pequena ou nenhuma sequela visível. Quando a pessoa se reinfecta por anos, a doença pode durar décadas e as complicações aparecem mesmo sem infecção ativa. A maioria dos casos leves não chega a esse ponto, e quem tem cicatrizes deve manter as consultas.',
+          'Não há tratamento caseiro que reverta a opacidade. Colírios, chás e compressas não eliminam a bactéria nem recuperam a córnea, e podem atrasar a avaliação especializada. A opacidade da córnea é o resultado de anos de lesão. Nenhum desses produtos substitui o antibiótico ou a cirurgia, e a automedicação pode piorar o quadro. O oftalmologista é quem define a conduta.',
+        ],
+      },
+      {
+        id: 'como-evitar',
+        heading: 'Como evitar a cegueira por tracoma',
+        paragraphs: [
+          'A cegueira por tracoma pode ser evitada com tratamento precoce e prevenção de novas infecções. A infecção ativa tem cura com antibiótico, e o SUS fornece o medicamento gratuitamente. O diagnóstico precoce muda o desfecho e preserva a visão, e o tratamento está disponível na rede pública.',
+          'Em casa, lave o rosto das crianças todos os dias, não compartilhe toalhas e fronhas e procure atendimento ao primeiro sinal de conjuntivite prolongada. Quando há um caso, todos os moradores devem ser examinados. A higiene do rosto deve ser diária, inclusive nas férias, e não compartilhar toalhas e fronhas reduz a transmissão dentro de casa. A higiene das mãos também faz parte do cuidado.',
+          'Quem já tem cicatrizes precisa de acompanhamento e, se houver triquíase, de avaliação cirúrgica. O objetivo é interromper a cadeia antes que os cílios comecem a lesar a córnea. O acompanhamento deve continuar mesmo sem sintomas, e a família deve ser orientada sobre os sinais de recidiva. Quem tem dúvida deve procurar a unidade básica de saúde. O acesso ao tratamento é gratuito pelo SUS.',
+        ],
+        cta: {
+          label: 'Veja a página sobre tracoma',
+          href: '/doencas/tracoma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['tracoma'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: [
+      'tracoma-sintomas-e-quando-procurar-atendimento',
+      'tracoma-como-se-transmite-e-como-prevenir',
+      'tracoma-tratamento-e-cirurgia',
+    ],
+    references: [
+      {
+        label: 'Tracoma: o que é, sinais e sintomas, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tracoma',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Trachoma: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/trachoma',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'helmintiases-sintomas-e-quando-procurar-atendimento',
+    slug: 'helmintiases-sintomas-e-quando-procurar-atendimento',
+    title: 'Helmintíases: sintomas e quando procurar atendimento',
+    excerpt:
+      'A maioria das verminoses não dá sintoma, e os sinais variam conforme o verme e o órgão afetado. Saiba o que observar e quais situações exigem atendimento imediato.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'sintomas-silenciosos',
+        heading: 'Por que muitas verminoses não dão sintoma',
+        paragraphs: [
+          'As helmintíases são infecções causadas por vermes parasitas, e a maioria das pessoas infectadas não sente nada, sobretudo quando a carga de vermes é baixa. O parasita pode viver no intestino, nos vasos do fígado, nos pulmões, no cérebro ou nos músculos sem provocar queixas por meses ou anos.',
+          'A ausência de sintoma não significa ausência de infecção. O verme continua se alimentando, eliminando ovos e provocando inflamação no local onde se instalou. O número de parasitas depende da exposição repetida, e a falta de esgoto mantém essa exposição. Em áreas sem saneamento, a reinfecção frequente aumenta aos poucos a carga de vermes.',
+          'Por isso, a história de exposição vale mais do que a lista de queixas. Morar ou trabalhar em área rural ou periférica sem esgoto, andar descalço em solo contaminado, beber água de córrego ou de poço sem tratamento e comer carne crua ou mal cozida são informações que mudam a investigação, mesmo quando a pessoa se sente bem.',
+        ],
+      },
+      {
+        id: 'sintomas-intestinais',
+        heading: 'Dor abdominal, diarreia e outros sinais no intestino',
+        paragraphs: [
+          'Quando os vermes se instalam no intestino, as queixas mais comuns são dor abdominal, diarreia, gases, náusea, perda de apetite e emagrecimento. A diarreia pode alternar com prisão de ventre, e o desconforto costuma ser atribuído à alimentação, ao estresse ou a uma virose passageira. Em crianças, a falta de apetite pode passar por uma fase normal de pouco interesse pela comida.',
+          'A lombriga em grande quantidade pode causar obstrução intestinal, com dor intensa, vômitos persistentes e parada de eliminar fezes e gases. É uma situação de urgência, especialmente em crianças. O Trichuris, conhecido como verme chicote, pode provocar diarreia com sangue e prolapso retal quando a infecção é intensa.',
+          'Nenhum desses sinais confirma a espécie. Gastrenterite, intolerância alimentar e doença inflamatória intestinal produzem quadros parecidos, e o exame de fezes é o que identifica ovos ou larvas. Usar remédio para verme como teste não resolve: ele pode aliviar parte dos sintomas e atrapalhar o diagnóstico.',
+        ],
+      },
+      {
+        id: 'anemia-e-crescimento',
+        heading: 'Quando o verme suga sangue e afeta o crescimento',
+        paragraphs: [
+          'Alguns vermes se fixam na parede do intestino e sugam sangue. Os ancilostomídeos são o exemplo mais claro. A perda contínua, mesmo pequena, leva a anemia, com cansaço, palidez, falta de ar aos esforços e tontura. O sangramento é lento e pode passar despercebido por muito tempo.',
+          'Em crianças, o efeito aparece também no peso e na curva de crescimento. A infecção repetida compete com uma fase da vida em que o corpo mais precisa de nutrientes, e o resultado é atraso no crescimento e menor desempenho escolar. O tratamento melhora esses indicadores, mas a prevenção da reinfecção é essencial para que o ganho se mantenha.',
+          'Anemia e cansaço têm muitas causas, como falta de ferro, perda de sangue menstrual, úlcera e doenças crônicas. A eosinofilia no hemograma aumenta a suspeita de parasitose, mas não é exclusiva dessas infecções nem confirma o diagnóstico. Por isso, hemograma e exame de fezes costumam ser pedidos juntos.',
+        ],
+      },
+      {
+        id: 'fora-do-intestino',
+        heading: 'Sintomas fora do intestino: pulmão, fígado, olhos e cérebro',
+        paragraphs: [
+          'Quando o parasita atinge outros órgãos, surgem sinais próprios. A esquistossomose pode levar à fibrose do fígado e ao aumento da pressão portal, com barriga d\'água e sangramento digestivo nos casos avançados. A doença pode ficar silenciosa por anos antes disso, e a fibrose instalada exige acompanhamento mesmo após o tratamento.',
+          'Durante a passagem das larvas pelo pulmão, pode aparecer tosse ou falta de ar. Na filariose linfática, transmitida por mosquitos, o inchaço persistente das pernas é o sinal mais visível e pode evoluir para elefantíase. O controle do mosquito é a medida central nesse ciclo.',
+          'Os sinais mais graves aparecem quando o parasita chega ao sistema nervoso ou aos olhos. A neurocisticercose causa convulsões, e a cisticercose ocular provoca alterações de visão, com manchas no campo visual e perda de nitidez. Esses quadros exigem avaliação especializada e não devem ser tratados como uma verminose comum.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que pedem atendimento imediato',
+        paragraphs: [
+          'A maioria das helmintíases evolui sem urgência, mas alguns sinais indicam complicação e pedem atendimento imediato. Eles podem aparecer em quem já sabe que tem verme ou ser a primeira manifestação da infecção. A lista abaixo reúne os sinais que a página da doença destaca como urgentes.',
+          'Não espere a consulta marcada se algum destes sinais surgir. Procure o pronto atendimento mais próximo e conte ao profissional onde você mora, que água bebe e se teve contato com rios, córregos ou lagoas. Essa informação ajuda a equipe a escolher os exames certos.',
+        ],
+        bullets: [
+          'Dor abdominal intensa, vômitos persistentes ou parada de eliminar fezes e gases',
+          'Sangue nas fezes ou vômito com sangue',
+          'Convulsão, confusão ou perda de consciência',
+          'Dor de cabeça intensa com vômitos e visão dupla',
+          'Perda súbita de visão ou visão de manchas escuras',
+          'Inchaço rápido de uma perna, com dor ou vermelhidão',
+          'Febre alta com piora do estado geral',
+          'Palidez intensa, falta de ar ou cansaço extremo',
+        ],
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Onde buscar atendimento e como o diagnóstico começa',
+        paragraphs: [
+          'O primeiro atendimento pode ser na UBS. O profissional vai perguntar sobre moradia, saneamento, água, uso de calçados, alimentação e contato com água doce. Essas respostas orientam quais exames pedir e ajudam a diferenciar a verminose de outras doenças. Nenhum sintoma isolado fecha o diagnóstico.',
+          'O exame parasitológico de fezes é o mais usado e pode ser repetido quando a primeira amostra não mostra o parasita. O hemograma ajuda a identificar anemia e eosinofilia. Em formas que atingem órgãos, podem ser necessários exames de imagem, sorologia ou biópsia.',
+          'Casos com sintomas neurológicos, oculares, hepatobiliares ou anemia importante são encaminhados para especialistas. O tratamento depende da espécie e do órgão afetado, e a escolha do medicamento, da dose e do tempo de uso cabe ao profissional de saúde.',
+        ],
+        cta: {
+          label: 'Veja a página sobre helmintíases',
+          href: '/doencas/helmintiases/',
+        },
+      },
+    ],
+    diseaseSlugs: ['helmintiases'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: ['helmintiases-como-se-transmite-e-como-prevenir'],
+    references: [
+      {
+        label: 'Geo-helmintíase: o que é, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Geo-helmintíases transmitidas pelo solo: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Schistosomiasis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/schistosomiasis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'helmintiases-como-se-transmite-e-como-prevenir',
+    slug: 'helmintiases-como-se-transmite-e-como-prevenir',
+    title: 'Helmintíases: como se transmite e como prevenir',
+    excerpt:
+      'Vermes entram no corpo por quatro vias principais, e cada uma pede um cuidado diferente. Entenda os ciclos e o que reduz o risco de infecção e de reinfecção.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'formas-de-transmissao',
+        heading: 'Não existe uma única forma de pegar verme',
+        paragraphs: [
+          'A transmissão das helmintíases depende da espécie. Não existe uma única forma de contágio, e é por isso que as medidas de prevenção também variam. Um mesmo cuidado, como lavar as mãos, não bloqueia todos os ciclos, porque cada verme tem uma porta de entrada própria.',
+          'Os vermes que afetam pessoas têm ciclos diferentes, e o tratamento muda conforme o grupo envolvido. Saber qual é o parasita ajuda a entender por onde ele entra no corpo e onde se instala.',
+          'Quatro vias resumem a maioria dos casos: ingestão de ovos, penetração de larvas na pele, consumo de carne crua ou mal cozida e picada de mosquito. Uma pessoa pode se expor por mais de uma via ao mesmo tempo, sobretudo em áreas sem saneamento e com criação de animais sem controle.',
+        ],
+      },
+      {
+        id: 'ovos-na-boca',
+        heading: 'Vermes que entram pela boca',
+        paragraphs: [
+          'O Ascaris e o Trichuris chegam pela boca, em mãos sujas, água não tratada ou alimentos crus mal lavados. Os ovos são eliminados nas fezes de uma pessoa infectada e sobrevivem no ambiente, o que explica por que a falta de esgoto mantém a transmissão. Por isso, a infecção é mais frequente onde o esgoto corre a céu aberto ou não existe.',
+          'A Taenia também pode ser adquirida pela ingestão de ovos. Nesse caso, o que se instala no corpo é a larva, e não a tênia adulta no intestino. Essa diferença é importante: a cisticercose, com cistos no cérebro e nos olhos, surge por essa via, enquanto a teníase vem da carne.',
+          'Os ovos não são visíveis a olho nu, e uma lavagem rápida não garante que eles saiam. Água tratada, higiene das mãos e lavagem cuidadosa de frutas, verduras e legumes reduzem a chance de ingestão. Manter as unhas curtas também ajuda, sobretudo em crianças.',
+        ],
+      },
+      {
+        id: 'larvas-na-pele',
+        heading: 'Larvas que atravessam a pele',
+        paragraphs: [
+          'As larvas de ancilostomídeos entram pelo contato com solo contaminado. Andar descalço em áreas rurais, em terrenos de terra batida ou em locais sem esgoto é o principal fator de risco. A larva atravessa a pele e caminha pelo corpo até o intestino, onde amadurece e passa a sugar sangue.',
+          'As cercarias do Schistosoma penetram a pele em água doce. Rios, córregos, lagoas e açudes em regiões com esquistossomose são os pontos de contato. Basta entrar na água, mesmo sem beber, para que a larva atravesse a pele.',
+          'Essa via explica por que calçado e comportamento são tão importantes quanto saneamento. Evitar rios e córregos em área de transmissão e usar calçados em solo contaminado são medidas que interrompem o ciclo antes de o verme chegar ao corpo.',
+        ],
+      },
+      {
+        id: 'carne-e-mosquito',
+        heading: 'Carne mal cozida e picada de mosquito',
+        paragraphs: [
+          'A teníase por Taenia solium é adquirida ao comer carne suína com cisticercos. A Taenia saginata vem da carne bovina. Cozinhar bem a carne e comprar em locais com inspeção sanitária reduz esse risco. A carne mal cozida não causa cisticercose, e sim a tênia adulta no intestino.',
+          'As filárias são transmitidas por mosquitos, e não pelo contato com solo ou água. A Wuchereria bancrofti causa a filariose linfática, com inchaço persistente das pernas. O controle de mosquitos é a medida central nesse ciclo, porque sem o vetor a larva não chega a uma nova pessoa.',
+          'Vale separar as vias com clareza, porque elas pedem cuidados diferentes. Calçado protege contra larvas do solo, cozinhar a carne interrompe a teníase e o controle de vetores limita a filariose. Nenhuma medida isolada cobre todas as helmintíases, mas a combinação sustenta a queda dos casos em uma comunidade.',
+        ],
+      },
+      {
+        id: 'prevencao-em-casa',
+        heading: 'O que reduz o risco no dia a dia',
+        paragraphs: [
+          'A prevenção combina saneamento, água segura, higiene e cuidado com os alimentos. Não existe vacina para a maioria dessas infecções, e o tratamento sozinho não impede uma nova exposição. O remédio elimina o verme que está no corpo, mas não muda o ambiente que permite a reinfecção.',
+          'Em casa, os hábitos mais eficazes são simples e cabem na rotina. Eles reduzem a chance de ingestão de ovos e de contato com larvas, que são as duas portas de entrada mais comuns. A lista abaixo reúne as medidas que a página da doença destaca.',
+        ],
+        bullets: [
+          'Lave as mãos antes das refeições, antes de preparar alimentos e depois de usar o banheiro',
+          'Beba água filtrada, fervida ou tratada',
+          'Lave bem frutas, verduras e legumes crus',
+          'Cozinhe completamente a carne suína e a bovina',
+          'Separe utensílios de carne crua dos de alimentos prontos',
+          'Use calçados em áreas com solo contaminado',
+          'Não defecue ao ar livre e apoie a implantação de esgoto e fossas',
+          'Evite contato com água doce em áreas de esquistossomose',
+          'Controle mosquitos nas áreas com filariose',
+          'Participe de ações de tratamento coletivo quando a equipe local indicar',
+        ],
+      },
+      {
+        id: 'reinfecao',
+        heading: 'Por que a reinfecção é comum e o que fazer',
+        paragraphs: [
+          'Quem vive em área sem saneamento pode se reinfectar pouco depois do tratamento. A reinfecção não significa falha do tratamento. O remédio elimina o verme, mas não muda o ambiente que permite a nova infecção. Por isso, o efeito do tratamento tende a durar menos quando água e esgoto continuam precários, e o ciclo se fecha outra vez.',
+          'Em áreas endêmicas, o tratamento pode ser feito de forma coletiva, com doses periódicas para toda a comunidade. A periodicidade é definida pela equipe local, de acordo com a situação da área. Essa estratégia reduz a carga de vermes e as complicações, mas não substitui saneamento, higiene e controle de vetores.',
+          'A família inteira pode precisar de avaliação, sobretudo quando há crianças com anemia ou atraso de crescimento. O acompanhamento inclui repetir exames quando o profissional pedir e voltar às consultas para ajustar o tratamento. Em alguns casos, o tratamento precisa ser repetido. O acompanhamento deve ser explicado à família.',
+        ],
+        cta: {
+          label: 'Veja a página sobre helmintíases',
+          href: '/doencas/helmintiases/',
+        },
+      },
+    ],
+    diseaseSlugs: ['helmintiases'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['helmintiases-sintomas-e-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Geo-helmintíase: o que é, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Geo-helmintíases transmitidas pelo solo: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Taeniasis/cysticercosis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cisticercose-sintomas-e-quando-procurar-atendimento',
+    slug: 'cisticercose-sintomas-e-quando-procurar-atendimento',
+    title: 'Cisticercose: sintomas e quando procurar atendimento',
+    excerpt:
+      'A cisticercose pode ficar anos sem sintoma e, quando aparece, costuma se manifestar com convulsão. Conheça os sinais por forma da doença e o que exige atendimento imediato.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'cistos-silenciosos',
+        heading: 'Por que a cisticercose pode ficar anos sem sintoma',
+        paragraphs: [
+          'A cisticercose é a infecção causada pela forma larval da Taenia solium, a tênia que parasita o intestino humano. Essa larva, chamada cisticerco, forma pequenas bolsas com líquido nos tecidos, sobretudo no cérebro, nos olhos, na pele e nos músculos. A doença é diferente da teníase, em que a tênia adulta vive no intestino e costuma causar poucos sintomas.',
+          'Muitas pessoas não têm sintomas, especialmente quando há poucos cistos fora do sistema nervoso. Os nódulos sob a pele são descobertos ao acaso, durante um banho ou uma consulta por outro motivo. Já os cistos no cérebro costumam se manifestar quando o parasita começa a morrer. Os cistos podem se alojar em diferentes tecidos, e os sintomas dependem do local e do número de lesões.',
+          'Nesse momento, a resposta inflamatória ao redor do cisto aumenta e o sintoma aparece. Antes disso, o cisto pode conviver com o tecido por anos sem chamar atenção. É por isso que a doença pode ser descoberta muito tempo depois da infecção, às vezes décadas depois. O tempo até o diagnóstico varia muito.',
+        ],
+      },
+      {
+        id: 'convulsao',
+        heading: 'A convulsão é o sinal mais comum',
+        paragraphs: [
+          'Na neurocisticercose, a convulsão é a manifestação mais comum. Ela pode ser o primeiro sinal da doença em uma pessoa que nunca teve crises. Também podem ocorrer dor de cabeça, náusea, vômito, confusão, alterações de comportamento e déficits de movimento ou de sensibilidade. As crises podem se repetir e exigem avaliação médica.',
+          'A neurocisticercose é uma das principais causas de epilepsia adquirida em países onde a tênia circula. Isso significa que uma primeira convulsão em área de risco merece investigação com exame de imagem, e não apenas tratamento sintomático. Muitas pessoas melhoram com o tratamento e voltam à rotina, embora possam precisar de acompanhamento por anos.',
+          'Convulsões e dor de cabeça têm muitas causas, como epilepsia de outra origem, tumor cerebral, abscesso, meningite, acidente vascular cerebral e esclerose múltipla. O exame de imagem é o que ajuda a separar essas possibilidades e a confirmar a presença dos cistos.',
+        ],
+      },
+      {
+        id: 'pressao-intracraniana',
+        heading: 'Quando o cisto aumenta a pressão dentro do crânio',
+        paragraphs: [
+          'Alguns cistos se instalam nos ventrículos, as cavidades por onde circula o líquido que envolve o cérebro. Esse líquido é produzido continuamente, e o bloqueio faz a pressão subir aos poucos. Quando a passagem fica obstruída, o volume se acumula e a pressão dentro do crânio aumenta.',
+          'O resultado é dor de cabeça intensa, vômitos e sonolência. É uma situação de urgência, porque o aumento da pressão pode comprometer o funcionamento do cérebro. Nesses casos, o atendimento precisa ser imediato, com avaliação hospitalar.',
+          'A cirurgia é indicada em situações específicas, como cistos nos ventrículos que bloqueiam o fluxo do líquor e aumento importante da pressão intracraniana. A remoção pode ser feita por endoscopia, e alguns casos exigem uma derivação para drenar o líquido. A decisão é sempre individual.',
+        ],
+      },
+      {
+        id: 'olhos-e-pele',
+        heading: 'Forma ocular, nódulos na pele e músculos',
+        paragraphs: [
+          'Na forma ocular, os cistos se instalam no olho ou nos músculos que movem o olho. Os sintomas incluem manchas no campo de visão, visão embaçada, dor e, em casos avançados, perda importante da visão. Manchas escuras podem ser o primeiro sinal percebido, e a avaliação oftalmológica é indispensável.',
+          'A cisticercose subcutânea aparece como nódulos endurecidos sob a pele, em geral indolores e móveis. A forma muscular costuma ser silenciosa e pode ser confundida com caroços benignos. Só o exame do tecido identifica o cisticerco com certeza, e muitos casos são descobertos por acaso. Muitas vezes, o nódulo é a única pista visível.',
+          'O exame de fundo de olho e a avaliação oftalmológica são obrigatórios antes de começar o tratamento. Essa avaliação procura cistos no olho, que mudam a conduta: o medicamento pode desencadear inflamação grave e perda de visão. Se houver cisto ocular, a cirurgia passa a ser o caminho.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que pedem atendimento imediato',
+        paragraphs: [
+          'Alguns sinais indicam complicação e pedem atendimento imediato. Eles podem ser a primeira manifestação da neurocisticercose, sem que a pessoa saiba que tem a doença. O reconhecimento rápido muda o desfecho, e a lista abaixo reúne os sinais que a página da doença destaca como urgentes. Alguns deles aparecem em poucas horas.',
+          'Não espere a consulta marcada se algum deles aparecer. Procure o pronto atendimento e informe se você já morou em área onde a tênia circula ou se alguém da casa tem teníase. Essa informação ajuda a equipe a considerar a hipótese logo na chegada.',
+        ],
+        bullets: [
+          'Primeira convulsão ou convulsão que dura mais de cinco minutos',
+          'Convulsões repetidas sem recuperação entre elas',
+          'Dor de cabeça intensa e súbita, com vômitos',
+          'Sonolência, confusão ou dificuldade para falar',
+          'Perda de força ou de sensibilidade em um lado do corpo',
+          'Perda súbita de visão ou visão de manchas escuras',
+          'Rigidez de nuca ou febre com dor de cabeça',
+          'Nódulos novos sob a pele acompanhados de sintomas neurológicos',
+        ],
+      },
+      {
+        id: 'diagnostico-e-atendimento',
+        heading: 'Como o diagnóstico começa e onde procurar ajuda',
+        paragraphs: [
+          'O diagnóstico começa pela história clínica: convulsões de início recente, dor de cabeça persistente, nódulos sob a pele e o local onde a pessoa mora ou morou. A exposição anterior a áreas onde a tênia circula ajuda a levantar a suspeita. Essa conversa inicial orienta todos os exames seguintes.',
+          'A tomografia computadorizada e a ressonância magnética identificam cistos, inflamação ao redor deles e sinais de aumento da pressão intracraniana. A sorologia pode apoiar a conclusão, mas não substitui a imagem. Um resultado negativo pode ocorrer quando há apenas um cisto.',
+          'O atendimento inicial pode ocorrer na UBS ou em um pronto atendimento. Casos com convulsão, sinais de hipertensão intracraniana ou sintomas oculares precisam de avaliação especializada, com neurologia ou oftalmologia. A escolha do tratamento depende da forma, do número de cistos e da fase em que eles estão.',
+        ],
+        cta: {
+          label: 'Veja a página sobre cisticercose',
+          href: '/doencas/cisticercose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cisticercose'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: ['cisticercose-como-se-transmite-e-como-prevenir'],
+    references: [
+      {
+        label: 'Neurocisticercose',
+        url: 'https://bvsms.saude.gov.br/bvs/dicas/87neurocis.html',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Taeniasis/cysticercosis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cisticercose-como-se-transmite-e-como-prevenir',
+    slug: 'cisticercose-como-se-transmite-e-como-prevenir',
+    title: 'Cisticercose: como se transmite e como prevenir',
+    excerpt:
+      'A cisticercose não vem da carne de porco mal cozida: ela surge da ingestão de ovos. Entenda o ciclo, por que a casa inteira precisa ser avaliada e o que reduz o risco.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'ovos-e-nao-carne',
+        heading: 'O que causa cisticercose não é a carne de porco',
+        paragraphs: [
+          'A cisticercose é causada pela ingestão de ovos de Taenia solium. No intestino, os ovos liberam embriões que atravessam a parede intestinal e entram na corrente sanguínea. Pelo sangue, esses embriões chegam a diferentes órgãos e se transformam em cisticercos, que podem sobreviver por anos. Os cistos podem se alojar no cérebro, nos olhos, na pele e nos músculos.',
+          'Comer carne de porco mal cozida não causa cisticercose. Essa via leva à teníase, quando a pessoa ingere os cisticercos presentes na carne. A cisticercose só aparece depois da ingestão de ovos, que vêm das fezes de alguém que carrega a tênia adulta.',
+          'A distinção importa para a prevenção. Cozinhar bem a carne protege contra a teníase, mas não impede a cisticercose. Para essa forma, o que conta é a higiene das mãos, da água e dos alimentos, além do saneamento. São cuidados diferentes para o mesmo parasita.',
+        ],
+      },
+      {
+        id: 'caminho-dos-ovos',
+        heading: 'Como os ovos chegam à boca',
+        paragraphs: [
+          'A transmissão começa com uma pessoa que tem a tênia adulta no intestino. Ela elimina ovos nas fezes, e esses ovos podem contaminar água, alimentos, mãos e superfícies. Os ovos resistem no ambiente por longos períodos, e a pessoa pode eliminá-los por muito tempo sem perceber.',
+          'Outra pessoa se infecta ao levar à boca os ovos, seja por mãos sujas, água não tratada, frutas e verduras mal lavadas ou alimentos preparados sem higiene. Não é preciso conviver com quem tem teníase para se infectar, porque os ovos circulam no ambiente. A higiene das mãos é o elo mais fácil de corrigir.',
+          'A cisticercose não é transmitida de uma pessoa para outra pelo convívio. O risco vem da ingestão dos ovos eliminados nas fezes de alguém que carrega a tênia adulta, e não do contato casual com essa pessoa. Beijos, abraços e uso compartilhado de objetos não transmitem a doença. A informação ajuda a família a mudar hábitos.',
+        ],
+      },
+      {
+        id: 'autoinfeccao',
+        heading: 'Quem tem teníase pode infectar a si mesmo',
+        paragraphs: [
+          'Quem já tem teníase pode se infectar com os próprios ovos ao levar a mão à boca após usar o banheiro. Nesse caso, a mesma pessoa pode ter a tênia adulta e desenvolver cisticercose. Essa via é chamada de autoinfecção. A pessoa pode não perceber que está eliminando ovos.',
+          'Isso explica por que o tratamento da teníase é parte da prevenção da cisticercose. Enquanto a tênia adulta estiver no intestino, ela continua eliminando ovos no ambiente, inclusive dentro de casa. O tratamento interrompe a fonte, e o exame de fezes de quem mora na casa ajuda a identificar quem carrega a tênia. O tratamento é simples e interrompe o ciclo.',
+          'A teníase costuma causar poucos sintomas, então a pessoa pode não saber que a tem. Por isso, quando alguém recebe diagnóstico de cisticercose, é comum avaliar e tratar quem mora na mesma casa. A avaliação pode incluir exame de fezes e consulta.',
+        ],
+      },
+      {
+        id: 'casa-e-comunidade',
+        heading: 'Por que a casa inteira precisa ser avaliada',
+        paragraphs: [
+          'O risco está ligado a condições de saneamento e de higiene, além da presença de pessoas com teníase na mesma casa ou comunidade. Falta de água tratada e de esgoto, consumo de alimentos crus ou mal lavados e água de origem desconhecida aumentam a exposição. Essas condições se somam e explicam por que a doença persiste em certas regiões. A falta de esgoto mantém os ovos circulando por anos.',
+          'Trabalhar em criação de porcos sem controle sanitário e a ausência de inspeção sanitária da carne também fazem parte do ciclo. O porco se infecta ao ingerir ovos, e a carne com cisticercos fecha a outra ponta da transmissão.',
+          'Lavar as mãos com pouca frequência, sobretudo antes das refeições, é um dos fatores mais diretos. A medida é simples, mas depende de água disponível e de hábito mantido por toda a família. Crianças pequenas precisam de supervisão nesse cuidado. A escola pode reforçar esse hábito.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Medidas que reduzem o risco',
+        paragraphs: [
+          'A prevenção depende de saneamento, higiene e controle da tênia no intestino humano. Não existe vacina para pessoas, e o tratamento da cisticercose não impede uma nova infecção por ovos. Essas medidas valem para toda a família.',
+          'As medidas abaixo interrompem o ciclo em pontos diferentes. Quanto mais delas estiverem presentes na rotina, menor a chance de os ovos chegarem à boca. A lista segue as orientações da página da doença.',
+        ],
+        bullets: [
+          'Lave as mãos antes das refeições, antes de preparar alimentos e depois de usar o banheiro',
+          'Beba água tratada ou fervida',
+          'Lave bem frutas, verduras e legumes crus',
+          'Cozinhe completamente a carne de porco',
+          'Compre carne apenas em locais com inspeção sanitária',
+          'Trate a teníase o quanto antes, sobretudo em quem convive com casos de cisticercose',
+          'Não defecue ao ar livre e apoie a implantação de esgoto e fossas',
+          'Crie porcos em locais separados das áreas de moradia e sem acesso a fezes humanas',
+        ],
+      },
+      {
+        id: 'saneamento-e-criacao',
+        heading: 'Saneamento, inspeção da carne e criação de porcos',
+        paragraphs: [
+          'O esgoto e a água tratada reduzem a contaminação do ambiente por ovos. Apoiar a implantação de redes e fossas é uma medida coletiva, que protege quem nunca teve teníase. O efeito aparece devagar, mas é o que sustenta a queda dos casos.',
+          'A criação de porcos deve ficar separada das áreas de moradia e sem acesso a fezes humanas. Comprar carne apenas em locais com inspeção sanitária completa o controle, porque identifica a carne com cisticercos antes de ela chegar ao consumo. O criador também precisa de orientação.',
+          'Quem convive com alguém que tem teníase deve buscar avaliação. O tratamento da tênia interrompe a fonte de ovos e protege a casa inteira, inclusive as crianças, que têm mais chance de levar as mãos à boca. A família deve ser orientada em conjunto, sem estigma.',
+        ],
+        cta: {
+          label: 'Veja a página sobre cisticercose',
+          href: '/doencas/cisticercose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cisticercose'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['cisticercose-sintomas-e-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Neurocisticercose',
+        url: 'https://bvsms.saude.gov.br/bvs/dicas/87neurocis.html',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Taeniasis/cysticercosis: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
 ];

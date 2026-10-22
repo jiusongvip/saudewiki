@@ -33,6 +33,8 @@
    npm run build                # 必须成功；新增词条确认新路由已生成，修改模式确认原路由未被破坏
    ```
 
+**配图分工**：疾病配图走 `skills/disease-image-generation-ptbr/SKILL.md` 的医学插画板（AI 生成，不再搜照片）；派生文章配图走 `skills/article-derivation-ptbr/SKILL.md` 的 Unsplash / Pexels 搜图。两条流程不得互换。
+
 ## 三、不触发三轮质检的例外
 
 纯图片替换、`alt` 文字修正或个别字词校正，不构成「新增/修改疾病词条」，按最小改动处理即可，不必走三轮。

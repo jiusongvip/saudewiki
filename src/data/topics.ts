@@ -38,6 +38,10 @@ export const topics: Topic[] = [
       'parasitoses-intestinais',
       'bronquiolite',
       'infeccao-urinaria',
+      'esquistossomose',
+      'tracoma',
+      'helmintiases',
+      'cisticercose',
     ],
     articleSlugs: [
       'sintomas-iniciais-da-dengue',
@@ -83,6 +87,15 @@ export const topics: Topic[] = [
       'bronquiolite-tratamento-e-cuidados-em-casa',
       'infeccao-urinaria-sintomas-e-quando-procurar-atendimento',
       'infeccao-urinaria-prevencao-e-cuidados',
+      'esquistossomose-sintomas-e-quando-procurar-atendimento',
+      'tracoma-sintomas-e-quando-procurar-atendimento',
+      'tracoma-como-se-transmite-e-como-prevenir',
+      'tracoma-tratamento-e-cirurgia',
+      'tracoma-pode-causar-cegueira',
+      'helmintiases-sintomas-e-quando-procurar-atendimento',
+      'helmintiases-como-se-transmite-e-como-prevenir',
+      'cisticercose-sintomas-e-quando-procurar-atendimento',
+      'cisticercose-como-se-transmite-e-como-prevenir',
     ],
     references: [
       {
@@ -150,6 +163,10 @@ export const topics: Topic[] = [
       'cancer-de-pele',
       'gota',
       'doenca-falciforme',
+      'esquistossomose',
+      'tracoma',
+      'helmintiases',
+      'cisticercose',
     ],
     articleSlugs: [
       'como-prevenir-a-dengue',
@@ -208,6 +225,11 @@ export const topics: Topic[] = [
       'cancer-de-pele-prevencao-e-protetor-solar',
       'gota-tratamento-e-alimentacao',
       'doenca-falciforme-tratamento-e-acompanhamento-no-sus',
+      'esquistossomose-sintomas-e-quando-procurar-atendimento',
+      'tracoma-como-se-transmite-e-como-prevenir',
+      'tracoma-tratamento-e-cirurgia',
+      'helmintiases-como-se-transmite-e-como-prevenir',
+      'cisticercose-como-se-transmite-e-como-prevenir',
     ],
     references: [
       {
@@ -366,6 +388,10 @@ export const topics: Topic[] = [
       'parasitoses-intestinais',
       'bronquiolite',
       'doenca-falciforme',
+      'esquistossomose',
+      'tracoma',
+      'helmintiases',
+      'cisticercose',
     ],
     articleSlugs: [
       'vacinacao-o-que-e-o-calendario-basico',
@@ -373,6 +399,11 @@ export const topics: Topic[] = [
       'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento',
       'bronquiolite-sinais-de-alerta-no-bebe',
       'doenca-falciforme-sinais-de-alerta-na-crianca',
+      'tracoma-sintomas-e-quando-procurar-atendimento',
+      'tracoma-como-se-transmite-e-como-prevenir',
+      'tracoma-pode-causar-cegueira',
+      'helmintiases-sintomas-e-quando-procurar-atendimento',
+      'cisticercose-sintomas-e-quando-procurar-atendimento',
     ],
     references: [
       {

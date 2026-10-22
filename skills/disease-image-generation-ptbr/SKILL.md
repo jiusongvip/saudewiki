@@ -1,6 +1,6 @@
 ---
 name: disease-image-generation-ptbr
-description: 为本站 src/data/diseases.ts 里的疾病词条生成统一风格的「医学插画板」配图（AI 生成），覆盖新增疾病首次配图、以及把照片风格或风格不一致的旧图重做为插画板。先用脚本从 diseases.ts 提取该疾病的 summary 与症状 bullets 作为素材，据此确定主图剖面、右上角临床插图与下方四个症状图标，套用固定提示词模板用 ImageGen 生成 1024x768 图，用 sharp 去除生成器水印并转码为 webp，逐张核图后成对登记 pt-BR 与 zh-Hant 两语言层的 alt，并跑通 check-i18n.mjs 门禁。单个疾病可只处理它自己；一批补做时按本文批量执行。不用于文章配图（文章图仍走 disease-encyclopedia-ptbr 5.6 的照片流程），不用于个人诊断。
+description: 为本站 src/data/diseases.ts 里的疾病词条生成统一风格的「医学插画板」配图（AI 生成），覆盖新增疾病首次配图、以及把照片风格或风格不一致的旧图重做为插画板。先用脚本从 diseases.ts 提取该疾病的 summary 与症状 bullets 作为素材，据此确定主图剖面、右上角临床插图与下方四个症状图标，再以既有插画板为版式参照图、套用固定提示词模板用 GenerateImage 生成 2240x1680 图，用 sharp 去除生成器水印（必要时填背景并用 SVG 重画第 4 个标签）并按原比例缩到 1024x768 转码为 webp，逐张核图后成对登记 pt-BR 与 zh-Hant 两语言层的 alt，并跑通 check-i18n.mjs 门禁。单个疾病可只处理它自己；一批补做时按本文批量执行。不用于文章配图（文章图走 article-derivation-ptbr 的 Unsplash / Pexels 搜图流程），不用于个人诊断。
 ---
 
 # 巴西葡语疾病配图（医学插画板）
@@ -10,7 +10,8 @@ description: 为本站 src/data/diseases.ts 里的疾病词条生成统一风格
 ## 与现有 skill 的关系（先读这段）
 
 - 本 skill 是**疾病配图**的唯一权威流程，反映当前实际做法。
-- [疾病医典 skill 5.6](../disease-encyclopedia-ptbr/SKILL.md) 旧条文写的是「图源只限 Unsplash/Pexels 真实照片、禁止 AI 生图」。**该条与现状不符**：自早期疾病词条起，配图就是 AI 生成的医学插画板。执行疾病配图时**以本 skill 为准**；5.6 的照片流程仅保留给**文章配图**。
+- [疾病医典 skill 5.6](../disease-encyclopedia-ptbr/SKILL.md) 现已指向本 skill：疾病配图一律用 AI 生成的医学插画板，不再从 Unsplash / Pexels 找照片。执行疾病配图时**以本 skill 为准**。
+- **文章配图是另一条流程**：每篇派生文章配 1 张 Unsplash / Pexels 真实照片，细则见 [派生文章 skill 的图片节](../article-derivation-ptbr/SKILL.md)；两条流程不得互换，也不得用 AI 生成图给文章配图。
 - 补做/重做配图属于「纯图片替换 + `alt` 文字修正」，按[工作流文档第三节](../disease-article-workflow.md)**不走三轮质检**，只需跑通门禁 `check-i18n.mjs`。只有当改动触及医学表述、数字、危险信号等正文时，才回到疾病医典 skill 的完整流程。
 
 ## 插画板风格规范（每张都必须满足）
@@ -36,48 +37,46 @@ description: 为本站 src/data/diseases.ts 里的疾病词条生成统一风格
 据此为每张定三件事：
 - **主图** = 该病直接受累器官的剖面 + 该病特有的病理视觉点；
 - **右上角 inset** = summary/首节里最直观的外部体征或患者场景；
-- **4 个图标标签** = 症状 `bullets` 里最具代表性的 4 项（用葡语原词或短化）。
+- **4 个图标标签** = 症状 `bullets` 里最具代表性的 4 项，**每个不超过 12 个字符**（超长就短化，如 `Pele espessa`、`Lesão nasal`），`alt` 按短化后的词登记。
 
 ### 2. 拼提示词（固定模板，只换三部分）
 
-英文模板（`[...]` 内按第 1 步替换）：
+先把一张已达标的插画板作为**版式参照图**传给生成器（`doenca-pneumonia.webp` 或 `doenca-dengue.webp`），再用下面的英文模板（`[...]` 内按第 1 步替换）：
 
 ```
-Photorealistic 3D medical illustration plate, 4:3. Main subject on the left filling most of the frame: [疾病剖面主图，含该病特有的病理可视化点] on a soft light-gray studio background. In the upper-right corner, a rounded-rectangle clinical photograph inset of [最易辨认的外部体征/患者场景], with a thin white leader line and a small white dot pointing to [主图对应部位], labeled in Brazilian Portuguese "[葡语体征标注]". In the lower-right corner, four circular line-art icons (thin dark strokes on white discs) in a row, each labeled below in Brazilian Portuguese: "[症状1]", "[症状2]", "[症状3]", "[症状4]". Clean editorial medical infographic style, accurate Portuguese spelling, soft realistic lighting.
+Website medical infographic plate, 4:3. Photorealistic 3D medical illustration in the same clean editorial style and layout as <image 1>: main subject on the left on a soft light-gray studio background; a rounded-rectangle clinical photograph inset in the upper right with a thin white leader line and a small white dot pointing to [主图对应部位], labeled in Brazilian Portuguese "[葡语体征标注]"; four small circular line-art icons (thin dark strokes on white discs) in a single row at the lower right, each with a small one-line Portuguese caption under it. Main subject: [疾病剖面主图，含该病特有的病理可视化点]. Inset: [最易辨认的外部体征/患者场景]. Every Portuguese word must be spelled exactly like this, letter for letter, with the accents: inset caption "[葡语体征标注]"; the four captions "[症状1]", "[症状2]", "[症状3]", "[症状4]". Do not add any other word anywhere. Keep the icon row and captions compact and end them before 85 percent of the image width, leaving the bottom right corner of the frame completely empty background. Clean editorial medical infographic style, soft realistic lighting.
 ```
 
-### 3. 用 ImageGen 生成
+三条硬性补充：
 
-- 调 `ImageGen`，`size` 传 `1024x768`，`name` 用 `plate-<slug>`，`prompt` 用第 2 步拼好的模板。生成器把 png 写到 `C:\Users\<user>\.qoder-cn\vibe_images\`。
+- **拼写锁定段不能删**：直接把 5 个葡语词原文写进提示词，并保留 `letter for letter` 与 `Do not add any other word anywhere`。生成器仍会错拼，这段只是降低概率。
+- **标签必须短**：每个标签控制在 12 个字符内，否则会换行或与相邻标签粘连。用短化写法（如 `Pele espessa` 而不是 `Pele endurecida`，`Lesão nasal` 而不是 `Lesões no nariz`），并在第 6 步按短化后的词登记 `alt`。
+- **右下角留空**：`end them before 85 percent of the image width, leaving the bottom right corner completely empty` 是为了让生成器水印落在空白处，必须保留。
+
+### 3. 用 GenerateImage 生成
+
+- 调 `GenerateImage`，`size` 传 `2240x1680`（`landscape_4_3`），`image_paths` 传版式参照图的绝对路径（第 1 项即模板里的 `<image 1>`），`path` 用 `.tmp-content/plates/v<N>-<slug>`，`prompt` 用第 2 步拼好的模板。**不要传 `1024x768`**：工具要求总像素不少于 3,686,400，直接传小尺寸会失败。
+- 同批图**共用同一张参照图**，否则版式会各写各的。
+- 成图先按原比例缩到 `1024x768`（4:3 到 4:3，不裁不拉伸）。**不要裁底**：裁底会把圆盘压成椭圆、把标签推到底边，正是「和之前效果不一样」的来源。
 - 偶发 `40500` 服务器错误**直接重试即可**（同一 prompt 再跑一次通常成功）。
-- **一次做多个疾病时**，把互不依赖的 `ImageGen` 调用并行发出。
+- **一次做多个疾病时**，把互不依赖的 `GenerateImage` 调用并行发出。
 
 ### 4. 去水印 + 转 webp（sharp）
 
-生成器在图**右下角加「Qoder AI 生成」水印，落位不固定**。写一个 `.tmp-content/plates-to-webp.mjs` 批量转码：
+生成器在图**右下角加「AI 生成」水印，落位不固定，而且往往正好压住第 4 个标签**。**不要再用裁底解决**（裁底会连带削掉标签、并把整图纵向拉伸）。按落位分两种处理（参考实现 `.tmp-content/v6-to-webp.mjs`，临时目录会被清理，按下面步骤重写即可）：
 
-```js
-import sharp from 'sharp'; import path from 'path';
-const SRC = 'C:/Users/<user>/.qoder-cn/vibe_images', OUT = 'public/img', CROP_BOTTOM = 24;
-const map = { '<slug>': { png: '<生成的png名>', webp: 'doenca-<slug>.webp' }, /* ... */ };
-for (const [slug, { png, webp }] of Object.entries(map)) {
-  const m = await sharp(path.join(SRC, png)).metadata();
-  await sharp(path.join(SRC, png))
-    .extract({ left: 0, top: 0, width: m.width, height: m.height - CROP_BOTTOM })
-    .resize({ width: 1024, height: 768, fit: 'fill' })
-    .webp({ quality: 82 }).toFile(path.join(OUT, webp));
-}
-```
-
-- 裁底 24px 足以去掉落在干净底部边缘的水印；**编码只用 `sharp`**（`node_modules` 已有），本机无 `cwebp`/ImageMagick，`sips` 不支持 webp。
-- 目标文件已存在且确认无需重做时**先跳过**，避免重复覆盖。
+1. **水印落在空白背景**：逐行取水印**左侧**干净背景列的像素填充水印矩形。每一行对 y 方向取 11 个采样求**中位数**，否则水印自身的细线会被当成背景色复制成一条横贯画面的亮线。
+2. **水印压住第 4 个标签**（最常见）：先按白色圆盘做连通域，合并出 4 个圆心与半径；用第 3 个标签的暗色像素包围盒确定字号（`高度 / 0.72`）与基线；把「从四个圆盘最低点 + 8px 到画面底、从第 3/4 圆心连线中点到右边缘」的整块区域逐行填成本地背景色；再用 SVG 以 `Helvetica Neue, Helvetica, Arial` 在**第 4 个圆心的正下方**重画该标签，字号与基线对齐第 3 个标签。超过 11 个字符的标签把字号乘 `0.82`，避免和第 3 个标签粘连。
+3. 处理完 `resize({ width: 1024, height: 768, fit: 'fill' })`（源图已是 4:3，不会变形），`webp({ quality: 82 })` 输出到 `public/img/doenca-<slug>.webp`。**注意顺序**：先 resize 出 1024×768 的 png buffer，再单独 `composite([svg])`；把二者放在同一 pipeline 里会报 `Image to composite must have same dimensions or smaller`，SVG 要按 1024 坐标系绘制。
+4. **编码只用 `sharp`**（`node_modules` 已有），本机无 `cwebp`/ImageMagick，`sips` 不支持 webp。目标文件已存在且确认无需重做时**先跳过**，避免重复覆盖。
 
 ### 5. 核图（逐张 Read，不得跳过）
 
 转码后**逐个 Read `public/img/doenca-<slug>.webp` 亲眼确认**：
 1. 构图三要素齐全（主图 / 右上角 inset+引线+葡语标注 / 4 圆形图标+葡语标签），与参照图风格一致；
-2. **4 个葡语标签拼写与变音正确**，且确实对应该病症状；
-3. **无残留水印**。若水印仍压住第 4 个图标/标签（裁底不够干净），**不要加大裁切硬砍**（会削掉标签）——回到第 3 步**重生成该张**，直到水印落在干净底部；必要时在 prompt 里加 `shifted toward the center-left` 与 `keep the bottom-right corner empty` 把图标左移、让出右下角。个别图标签本就偏上、单行，可单独用 `CROP_BOTTOM=48` 重转该张。
+2. **4 个葡语标签确实对应该病症状**；第 4 个标签（重画的那条）拼写与变音必须正确，其余三条逐字核对，明显错拼（如 `Dor mucular`）就重生成或同样用 SVG 重画；
+3. **无残留水印**，且第 4 个标签已被正确重画。按第 4 步处理后仍看到水印压字，**不要加大裁切硬砍**（会削掉标签、把圆盘压成椭圆）——回到第 3 步修正补丁区域重转该张。
+4. **补丁不可见**：在 1024 宽预览下放大右下角，确认补丁矩形**没有可见边界**（无偏亮/偏暗色块）、**没有横贯画面的亮线或接缝**、重画的第 4 标签与第 3 个标签**字号、基线、字重视觉一致**且为单行。
 
 ### 6. 成对登记 alt
 
@@ -97,8 +96,8 @@ node scripts/check-i18n.mjs
 
 ## 常见坑
 
-- **水印落位随机**：一批里约半数会把水印斜压在第 4 个图标上，唯一可靠解法是**重生成那张**直到落位干净，别指望统一裁切。
+- **水印落位随机**：一批里约半数会把水印斜压在第 4 个图标上。按第 4 步做「填背景 + SVG 重画第 4 标签」，不要靠重生成碰运气，也不要统一裁切。
 - **双前缀命名**：slug 已含 `doenca-` 时文件名是 `doenca-doenca-<x>.webp`，登记 `src` 时以 `images.ts` 现值为准，别自行改路径。
-- **葡语拼写**：成图里的葡语标签由模型生成，偶尔错拼/漏变音（如 `Urgência`、`Icterícia`、`Hemácias`），核图时逐字核对。
+- **葡语拼写**：即使把 5 个词逐字写进 prompt 并加 `letter for letter`，生成器**仍会错拼**（实测 `Pena inchánda`、`Feride na pele`、`Paldze`、`Dor mucular`、`Falta de or`、`Pressão balka`）。所以：标签控制在 12 字符内；被水印压住的第 4 个标签一律用 SVG 按正确拼写重画（第 4 步）；其余标签核图时逐字核对，成片缺陷严重就重生成该张。
 - **繁中用字**：避免生僻/错字形（例如把「昏厥」写成「昏蕳」），拿不准就用常见规范繁体词。
 - **范围克制**：只动被点名重做的**疾病插画板**，不牵连文章配图，也不改 `diseases.ts` 正文。
