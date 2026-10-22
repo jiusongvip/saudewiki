@@ -139,51 +139,51 @@ export const diseaseImages: Record<string, SiteImage> = {
     alt: 'Ilustração médica de uma articulação do dedo em corte com a membrana sinovial espessada, vermelha e inflamada corroendo a cartilagem e o osso, com recorte de duas mãos com os nós dos dedos inchados e vermelhos e quatro ícones de rigidez, inchaço, dois lados e dor',
   },
   epilepsia: {
-    src: '/img/doenca-epilepsia.webp',
+    src: '/img/doenca-epilepsia-v2.webp',
     alt: 'Ilustração médica de uma cabeça em corte lateral mostrando o cérebro com um foco de descarga elétrica anormal e faíscas se espalhando, com recorte de uma criança com o olhar fixo e ausente de uma crise de ausência e quatro ícones de convulsão, desmaio, rigidez e aura',
   },
   glaucoma: {
-    src: '/img/doenca-glaucoma.webp',
+    src: '/img/doenca-glaucoma-v2.webp',
     alt: 'Ilustração médica de um globo ocular em corte com o ângulo de drenagem bloqueado, a pressão elevada e o nervo óptico lesionado na parte de trás, com recorte de um olho vermelho e dolorido e quatro ícones de campo visual reduzido, olho vermelho, halos e dor',
   },
   'rinite-alergica': {
-    src: '/img/doenca-rinite-alergica.webp',
+    src: '/img/doenca-rinite-alergica-v2.webp',
     alt: 'Ilustração médica de um nariz em corte lateral mostrando a mucosa nasal inchada e inflamada com ácaros e grãos de pólen, com recorte de uma pessoa espirrando num lenço de papel e quatro ícones de espirros, coriza, coceira e nariz entupido',
   },
   bronquiolite: {
-    src: '/img/doenca-bronquiolite.webp',
+    src: '/img/doenca-bronquiolite-v2.webp',
     alt: 'Ilustração médica de um par de pulmões comparando um bronquíolo aberto e saudável com outro inchado, vermelho e cheio de muco, com recorte de um bebê com esforço para respirar e quatro ícones de chiado, respiração rápida, febre e tosse',
   },
   'fibrilacao-atrial': {
-    src: '/img/doenca-fibrilacao-atrial.webp',
+    src: '/img/doenca-fibrilacao-atrial-v2.webp',
     alt: 'Ilustração médica de um coração em corte mostrando os átrios tremendo com descargas elétricas desorganizadas, com recorte de um monitor com o traçado irregular do eletrocardiograma e quatro ícones de palpitação, falta de ar, fraqueza e tontura',
   },
   'cirrose-hepatica': {
-    src: '/img/doenca-cirrose-hepatica.webp',
+    src: '/img/doenca-cirrose-hepatica-v2.webp',
     alt: 'Ilustração médica de um fígado em corte, encolhido, com a superfície coberta de nódulos e cicatrizes e a vesícula biliar embaixo, com recorte de uma barriga inchada de ascite e quatro ícones de ascite, icterícia, varizes e confusão mental',
   },
   'ulcera-peptica': {
-    src: '/img/doenca-ulcera-peptica.webp',
+    src: '/img/doenca-ulcera-peptica-v2.webp',
     alt: 'Ilustração médica de uma parede do estômago em corte com uma ferida em forma de cratera e bactérias Helicobacter pylori ao lado, com recorte de uma mão pressionando a boca do estômago e quatro ícones de queimação, dor, vômito com sangue e fezes escuras',
   },
   hipotireoidismo: {
-    src: '/img/doenca-hipotireoidismo.webp',
+    src: '/img/doenca-hipotireoidismo-v2.webp',
     alt: 'Ilustração médica de um pescoço em corte mostrando a tireoide diminuída e pouco ativa liberando poucas partículas de hormônio com uma seta para baixo, com recorte de um rosto inchado e cansado e quatro ícones de cansaço, frio, pele seca e ganho de peso',
   },
   'infeccao-urinaria': {
-    src: '/img/doenca-infeccao-urinaria.webp',
+    src: '/img/doenca-infeccao-urinaria-v2.webp',
     alt: 'Ilustração médica de uma bexiga e da uretra em corte com a parede inflamada e bactérias na urina, com recorte de uma mão pressionando o baixo ventre e quatro ícones de ardência, urgência, febre e dor lombar',
   },
   'cancer-de-pele': {
-    src: '/img/doenca-cancer-de-pele.webp',
+    src: '/img/doenca-cancer-de-pele-v2.webp',
     alt: 'Ilustração médica de um bloco de pele em corte por camadas mostrando células atípicas de uma pinta se multiplicando e invadindo a derme, com recorte de uma pinta irregular de cores misturadas e quatro ícones de assimetria, bordas irregulares, cores variadas e crescimento',
   },
   gota: {
-    src: '/img/doenca-gota.webp',
+    src: '/img/doenca-gota-v2.webp',
     alt: 'Ilustração médica de uma articulação do dedão do pé em corte com cristais em forma de agulha depositados dentro dela e a membrana inchada e inflamada, com recorte de um dedão vermelho e inchado e quatro ícones de dor, inchaço, vermelhidão e calor',
   },
   'doenca-falciforme': {
-    src: '/img/doenca-doenca-falciforme.webp',
+    src: '/img/doenca-doenca-falciforme-v2.webp',
     alt: 'Ilustração médica de um vaso sanguíneo em corte comparando hemácias redondas normais com hemácias em forma de foice que se aglomeram e entopem o vaso, com recorte de uma criança pálida e cansada e quatro ícones de crise de dor, anemia, inchaço e febre',
   },
 };
