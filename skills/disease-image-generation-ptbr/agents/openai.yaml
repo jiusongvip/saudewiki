@@ -1,0 +1,4 @@
+interface:
+  display_name: "葡语疾病配图（医学插画板）"
+  short_description: "为疾病词条生成统一风格的 AI 医学插画板配图：从 diseases.ts 提取症状素材定主图/右上插图/四图标，套模板用 ImageGen 出 1024x768 图，sharp 去水印转 webp，成对登记双语 alt 并跑通 check-i18n 门禁"
+  default_prompt: "使用 $disease-image-generation-ptbr 为指定疾病（或一批疾病）生成/重做医学插画板配图。先确认该疾病在 src/data/diseases.ts 中非 draft，并判定 images.ts 里现有 alt 是否已是 Ilustração médica 插画板风格；从该病 summary 与症状 bullets 提取素材，确定主图剖面、右上角临床插图与下方四个症状图标（葡语标签取自真实症状）；套用固定英文模板用 ImageGen 生成 1024x768 图，用 sharp 裁底去「Qoder AI 生成」水印并转码 webp（quality 82，命名 doenca-<slug>.webp）；逐张 Read 核图，确认构图三要素齐全、葡语拼写与变音正确、无残留水印（水印压住图标时重生成该张直到落位干净）；再成对写 images.ts（pt-BR）与 zh-Hant/image-alts.ts（繁中）的 alt（只描述画面、无破折号、繁中无简体字无「你」）；最后跑 node scripts/check-i18n.mjs 必须全绿。构建与部署由用户执行，本 skill 不跑 build/deploy，也不动 diseases.ts 正文与文章配图。"
