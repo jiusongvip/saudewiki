@@ -5911,18 +5911,27 @@ export const diseases: Disease[] = [
           ],
         },
         {
-          id: 'sintomas',
-          heading: 'Quais são os sintomas?',
+          id: 'dados-e-frequencia',
+          heading: 'Quanta gente tem catarata?',
           paragraphs: [
-            'A catarata evolui de forma gradual, e muitos só percebem a perda visual quando ela já atrapalha as atividades do dia a dia.',
+            'A catarata é a principal causa de cegueira evitável no mundo. A Organização Mundial da Saúde estima que cerca de 94 milhões de pessoas vivem com perda visual causada pela doença, e que metade das pessoas com cegueira por catarata precisa de acesso à cirurgia.',
+            'No Brasil, o envelhecimento da população amplia o número de casos, e a fila por cirurgia é um dos gargalos da rede pública. Como a doença progride devagar, o diagnóstico costuma chegar anos depois do início, em consultas motivadas por dificuldade para ler, dirigir ou reconhecer rostos.',
           ],
-          bullets: [
-            'Visão embaçada ou turva, que piora com o tempo',
-            'Cores desbotadas ou amareladas',
-            'Sensibilidade aumentada à luz e ao ofuscamento, sobretudo ao dirigir à noite',
-            'Necessidade de trocar a prescrição dos óculos com frequência',
-            'Visão dupla em um mesmo olho',
-            'Dificuldade para ler ou reconhecer rostos em ambientes com pouca iluminação',
+        },
+        {
+          id: 'tipos-de-catarata',
+          heading: 'Quais são os tipos de catarata?',
+          paragraphs: [
+            'A catarata pode ser classificada pelo ponto do cristalino em que a opacificação começa. Na catarata nuclear, o centro da lente fica amarelado e a visão de perto pode melhorar por um tempo. Na cortical, as opacidades avançam das bordas para o centro e provocam ofuscamento.',
+            'A subcapsular posterior se forma na parte de trás do cristalino e atrapalha a leitura e a visão sob luz forte, às vezes antes de a acuidade visual cair muito. Há ainda a catarata congênita, presente ao nascer, a traumática, depois de uma pancada no olho, e a secundária a diabetes, corticoides ou cirurgias oculares anteriores.',
+          ],
+        },
+        {
+          id: 'causas',
+          heading: 'Por que o cristalino fica opaco?',
+          paragraphs: [
+            'O cristalino é formado por proteínas organizadas que mantêm a transparência e permitem a passagem da luz. Com o tempo, essas proteínas se agregam e perdem a organização, e a lente fica opaca. Esse processo é natural e explica por que a catarata é tão comum depois dos 60 anos.',
+            'Em pessoas mais jovens, a opacificação costuma ter outra origem: doenças oculares inflamatórias, diabetes mal controlada, uso prolongado de corticoides, traumatismos ou predisposição genética. Identificar a causa ajuda a orientar a prevenção e o acompanhamento.',
           ],
         },
         {
@@ -5942,6 +5951,22 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'sintomas',
+          heading: 'Quais são os sintomas?',
+          paragraphs: [
+            'A catarata evolui de forma gradual, e muitos só percebem a perda visual quando ela já atrapalha as atividades do dia a dia.',
+            'Os dois olhos costumam ser atingidos, mas quase nunca no mesmo ritmo. É comum enxergar melhor de um lado e só notar a diferença quando o oftalmologista testa cada olho separadamente. A catarata não dói e não deixa o olho vermelho, o que faz muita gente adiar a consulta.',
+          ],
+          bullets: [
+            'Visão embaçada ou turva, que piora com o tempo',
+            'Cores desbotadas ou amareladas',
+            'Sensibilidade aumentada à luz e ao ofuscamento, sobretudo ao dirigir à noite',
+            'Necessidade de trocar a prescrição dos óculos com frequência',
+            'Visão dupla em um mesmo olho',
+            'Dificuldade para ler ou reconhecer rostos em ambientes com pouca iluminação',
+          ],
+        },
+        {
           id: 'diagnostico',
           heading: 'Como é feito o diagnóstico?',
           paragraphs: [
@@ -5954,12 +5979,28 @@ export const diseases: Disease[] = [
           heading: 'Tratamento e cirurgia',
           paragraphs: [
             'Nas fases iniciais, a troca de óculos e o ajuste da iluminação podem melhorar o conforto visual, mas não impedem a progressão da catarata. Quando a perda visual atrapalha a rotina, a cirurgia está indicada.',
-            'A cirurgia de catarata no Brasil é oferecida pelo SUS e consiste em remover o cristalino opacificado e substituí-lo por uma lente intraocular artificial. O procedimento é breve, indolor e tem alta taxa de sucesso. Nos últimos anos, o Ministério da Saúde ampliou a oferta, inclusive com técnicas que tratam catarata e glaucoma na mesma intervenção.',
+            'Não existe colírio, comprimido ou suplemento capaz de reverter a opacificação. A cirurgia é o único tratamento que devolve a transparência ao cristalino, e a indicação depende do quanto a visão compromete o dia a dia, não do tempo desde o diagnóstico.',
+          ],
+        },
+        {
+          id: 'cirurgia',
+          heading: 'Como é a cirurgia de catarata',
+          paragraphs: [
+            'A técnica mais usada é a facoemulsificação: o oftalmologista faz uma incisão pequena, fragmenta o cristalino opacificado com ultrassom, aspira os fragmentos e implanta uma lente intraocular artificial no mesmo lugar. O procedimento é feito sob anestesia local, dura em média 20 a 30 minutos e não exige internação.',
+            'No Brasil, a cirurgia é oferecida pelo SUS em hospitais credenciados. Nos últimos anos, o Ministério da Saúde ampliou a oferta, inclusive com técnicas que tratam catarata e glaucoma na mesma intervenção. A escolha da lente depende das condições do olho e do serviço, e o oftalmologista explica as opções antes do procedimento.',
           ],
           cta: {
             label: 'Leia também: como funciona a cirurgia de catarata',
             href: '/artigos/catarata-tratamento-e-cirurgia/',
           },
+        },
+        {
+          id: 'prognostico',
+          heading: 'Qual é o prognóstico?',
+          paragraphs: [
+            'Com a cirurgia, a maior parte das pessoas recupera boa parte da visão e volta às atividades habituais. A recuperação costuma ser rápida, e a visão pode oscilar nos primeiros dias, até estabilizar.',
+            'A catarata não tratada pode levar a perda visual permanente e, em formas muito avançadas, se associar a aumento da pressão dentro do olho. Como a doença não dói, adiar a avaliação é o erro mais comum: a perda visual só se recupera com a cirurgia.',
+          ],
         },
         {
           id: 'prevencao',
@@ -6058,7 +6099,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-22',
       isPlaceholder: true,
     },
   {
@@ -6080,10 +6121,19 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'tipos-e-doencas',
+          heading: 'Quais tipos existem e que doenças causam?',
+          paragraphs: [
+            'Os parasitas intestinais se dividem em dois grandes grupos. Os protozoários são organismos de uma célula só, visíveis apenas ao microscópio, como a giárdia e a ameba. Os helmintos são os vermes, maiores e visíveis a olho nu, como a lombriga, o oxiúro, o ancilóstomo e a tênia.',
+            'Cada grupo causa quadros com nomes próprios: ascaridíase (lombriga), oxiuríase (oxiúro), ancilostomíase (amarelão), tricocefalíase (verme-chicote), teníase (tênia), giardíase e amebíase. Reconhecer o nome ajuda a entender o tratamento, porque os remédios e os cuidados variam conforme o agente.',
+          ],
+        },
+        {
           id: 'sintomas',
           heading: 'Quais são os sintomas?',
           paragraphs: [
             'Os sintomas intestinais costumam ser vagos, a ponto de imitar outras causas de barriga irritada, como a [gastroenterite](/doencas/gastroenterite/). O sinal mais fácil de reconhecer é a coceira anal que piora à noite, típica do oxiúro.',
+            'O quadro varia conforme o parasita. A giárdia costuma causar diarreia gordurosa e barriga estufada; o ancilóstomo provoca anemia e cansaço; o oxiúro, coceira noturna; a lombriga, desconforto vago e, em grande quantidade, obstrução intestinal.',
           ],
           bullets: [
             'Dor ou desconforto abdominal espalhado, em cólica leve',
@@ -6108,6 +6158,7 @@ export const diseases: Disease[] = [
           heading: 'O que aumenta o risco?',
           paragraphs: [
             'As parasitoses intestinais acompanham as condições de moradia e a primeira infância, e quase todo fator de risco tem solução conhecida:',
+            'A transmissão depende do ambiente, não apenas de higiene pessoal. Comunidades sem esgoto tratado e com abastecimento irregular mantêm o ciclo mesmo quando as famílias lavam as mãos, por isso saneamento e água tratada são parte da prevenção.',
           ],
           bullets: [
             'Viver sem saneamento básico ou com abastecimento de água irregular',
@@ -6123,6 +6174,14 @@ export const diseases: Disease[] = [
           paragraphs: [
             'O exame padrão é o parasitológico de fezes, que procura ovos, cistos ou larvas dos parasitos ao microscópio. Como a eliminação dos ovos é irregular ao longo dos dias, uma amostra negativa não descarta a infecção: a conduta habitual é colher três amostras em dias alternados antes de concluir.',
             'Para o oxiúro existe um atalho. Quando a coceira anal noturna é o retrato do problema, o médico pode pedir a prova da fita adesiva, pressionada ao redor do ânus ao acordar, antes do banho, para capturar os ovos e identificá-los no microscópio. Exames de sangue ajudam a avaliar as complicações, como a anemia.',
+          ],
+        },
+        {
+          id: 'diagnostico-diferencial',
+          heading: 'Com o que é preciso diferenciar?',
+          paragraphs: [
+            'Diarreia prolongada e dor abdominal têm muitas causas. Além das parasitoses, o profissional considera gastroenterite, intolerância à lactose, doença celíaca, doença inflamatória intestinal e uso recente de antibióticos, que pode favorecer a infecção por Clostridioides difficile.',
+            'Quando o exame de fezes é negativo e os sintomas persistem, a investigação pode incluir hemograma, pesquisa de sangue oculto, exames de imagem ou endoscopia. O objetivo é não atribuir a um verme um problema que precisa de outro tratamento.',
           ],
         },
         {
@@ -6146,10 +6205,19 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'prognostico',
+          heading: 'A parasitose tem cura? Pode voltar?',
+          paragraphs: [
+            'Com o tratamento correto, a maioria das parasitoses intestinais se resolve e a pessoa volta ao normal. No oxiúro, o alívio da coceira costuma chegar em poucos dias, mas a reinfecção é comum quando a família não é tratada junto.',
+            'Não existe vacina disponível contra os principais parasitas intestinais humanos. Por isso a prevenção continua dependendo de água tratada, saneamento e higiene, e a cura não deixa proteção duradoura: quem volta a se expor pode adoecer de novo.',
+          ],
+        },
+        {
           id: 'prevencao',
           heading: 'Como prevenir',
           paragraphs: [
             'Quebrar o ciclo dos ovos e dos cistos passa por medidas de rotina, conhecidas e baratas:',
+            'Em áreas de alta transmissão, o tratamento periódico oferecido pelo SUS reduz a carga parasitária nas crianças e complementa as medidas de casa. A higiene individual sozinha não compensa a falta de saneamento.',
           ],
           bullets: [
             'Lavar as mãos com água e sabão depois de usar o banheiro e antes de comer',
@@ -6164,6 +6232,7 @@ export const diseases: Disease[] = [
           heading: 'Sinais de alerta e quando procurar atendimento',
           paragraphs: [
             'Na maioria das vezes, a parasitose intestinal é problema de consulta marcada, e não de emergência. Há, porém, situações que pedem atendimento imediato:',
+            'A obstrução por lombrigas é a emergência mais típica: o verme forma um novelo que bloqueia a passagem do conteúdo intestinal, a pessoa para de eliminar fezes e gases, sente cólicas fortes e vomita. Quanto antes o atendimento, menor o risco de complicação.',
           ],
           bullets: [
             'Dor abdominal forte e em cólica, com vômitos e interrupção das fezes e dos gases, sugestiva de obstrução intestinal',
@@ -6233,7 +6302,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-22',
       isPlaceholder: true,
     },
   {
@@ -6255,10 +6324,33 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'dados-e-frequencia',
+          heading: 'Quanta gente tem artrite reumatoide?',
+          paragraphs: [
+            'A artrite reumatoide afeta cerca de 1% da população mundial, segundo a Organização Mundial da Saúde. Pode começar em qualquer idade, mas é mais frequente entre os 40 e os 60 anos, e as mulheres são duas a três vezes mais atingidas que os homens.',
+            'No Brasil, a doença está entre as principais causas de encaminhamento ao reumatologista e de afastamento do trabalho por doenças reumáticas. Como os primeiros sintomas são leves, o intervalo entre o início e o diagnóstico ainda é longo em muitos casos.',
+          ],
+        },
+        {
+          id: 'fatores-de-risco',
+          heading: 'O que aumenta o risco?',
+          paragraphs: [
+            'A causa exata da artrite reumatoide não é conhecida. A doença resulta da combinação entre predisposição genética e fatores ambientais que ativam o sistema de defesa contra a própria articulação.',
+            'Ter um familiar com a doença aumenta o risco, e fumar é o fator que mais se consegue mudar: o cigarro piora a inflamação e reduz a resposta ao tratamento.',
+          ],
+          bullets: [
+            'Ser mulher, sobretudo a partir dos 40 anos',
+            'Fumar, ou ter fumado por muitos anos',
+            'Ter caso de artrite reumatoide na família',
+            'Viver com excesso de peso',
+          ],
+        },
+        {
           id: 'sintomas',
           heading: 'Quais são os sintomas?',
           paragraphs: [
-            'Os sintomas costumam aparecer aos poucos, piorar pela manhã e atingir as articulações dos dois lados do corpo.',
+            'Os sintomas costumam aparecer aos poucos, piorar pela manhã e atingir as articulações dos dois lados do corpo. A rigidez matinal é o sinal mais precoce e o que mais motiva a consulta.',
+            'Com o tempo, o inchaço se torna constante e as juntas perdem amplitude de movimento. Cansaço, febre baixa e perda de apetite podem acompanhar os períodos de maior atividade da doença.',
           ],
           bullets: [
             'Rigidez nas juntas ao acordar, que dura mais de meia hora',
@@ -6270,17 +6362,11 @@ export const diseases: Disease[] = [
           ],
         },
         {
-          id: 'fatores-de-risco',
-          heading: 'O que aumenta o risco?',
+          id: 'manifestacoes-extra-articulares',
+          heading: 'A doença vai além das juntas',
           paragraphs: [
-            'A doença pode começar em qualquer idade, mas aparece com mais frequência entre os 40 e os 60 anos. As mulheres são duas a três vezes mais afetadas que os homens, segundo a Organização Mundial da Saúde.',
-            'Ter um familiar com a doença aumenta o risco, e fumar é o fator que mais se consegue mudar: o cigarro piora a inflamação e reduz a resposta ao tratamento.',
-          ],
-          bullets: [
-            'Ser mulher, sobretudo a partir dos 40 anos',
-            'Fumar, ou ter fumado por muitos anos',
-            'Ter caso de artrite reumatoide na família',
-            'Viver com excesso de peso',
+            'A inflamação não fica restrita às articulações. Nódulos firmes podem surgir sob a pele, perto das juntas, e os olhos podem ficar secos ou inflamados. Esses sinais aparecem com mais frequência em quem tem a doença ativa por muito tempo.',
+            'Pulmões, vasos e coração também podem ser afetados, e o risco cardiovascular é maior do que na população geral. Anemia e cansaço acompanham os períodos de atividade. Essas manifestações reforçam a importância do controle da inflamação e do acompanhamento clínico.',
           ],
         },
         {
@@ -6316,6 +6402,14 @@ export const diseases: Disease[] = [
           },
         },
         {
+          id: 'cirurgia',
+          heading: 'Quando a cirurgia é necessária',
+          paragraphs: [
+            'A cirurgia não cura a artrite reumatoide, mas pode recuperar função quando a articulação já está muito destruída. As próteses de quadril e de joelho são as intervenções mais frequentes, e a sinovectomia pode ser indicada em casos selecionados.',
+            'A decisão é tomada em conjunto pelo reumatologista e pelo ortopedista, depois de controlar a inflamação. Antes do procedimento, é preciso afastar infecções e ajustar os medicamentos, porque alguns interferem na cicatrização.',
+          ],
+        },
+        {
           id: 'sinais-de-alerta',
           heading: 'Quando procurar atendimento',
           paragraphs: [
@@ -6334,6 +6428,7 @@ export const diseases: Disease[] = [
           heading: 'Complicações',
           paragraphs: [
             'Sem tratamento, a inflamação contínua vai deformando as articulações e limita gestos simples do dia a dia. A doença também pode atingir outras partes do corpo.',
+            'As complicações se acumulam ao longo dos anos e são mais frequentes quando a inflamação fica ativa por longos períodos. Por isso o controle da doença é avaliado de forma contínua, e não apenas pelos sintomas do momento.',
           ],
           bullets: [
             'Deformidade e perda de função nas mãos, nos punhos e nos pés',
@@ -6343,10 +6438,35 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'prognostico',
+          heading: 'Qual é o prognóstico?',
+          paragraphs: [
+            'Com diagnóstico precoce e tratamento regular, a maioria das pessoas alcança remissão ou atividade baixa da doença e mantém a capacidade de trabalhar e cuidar da casa.',
+            'Quando o tratamento começa tarde, o dano articular já instalado não se recupera, e a deformidade pode limitar movimentos. A adesão ao acompanhamento é o fator que mais influencia o prognóstico a longo prazo.',
+          ],
+        },
+        {
+          id: 'monitoramento',
+          heading: 'Como é o acompanhamento',
+          paragraphs: [
+            'O acompanhamento inclui consultas regulares e exames de sangue que medem a inflamação e vigiam o efeito dos medicamentos sobre o fígado e as células do sangue.',
+            'O reumatologista avalia o número de juntas inchadas e doloridas e ajusta o tratamento conforme a atividade da doença. Febre, infecção ou piora súbita devem ser comunicadas à equipe.',
+          ],
+        },
+        {
+          id: 'prevencao',
+          heading: 'Como reduzir o risco e as crises',
+          paragraphs: [
+            'Não existe forma comprovada de prevenir a artrite reumatoide. O que se pode fazer é reduzir os fatores que pioram a doença e o risco cardiovascular, que é maior nesse grupo.',
+            'Parar de fumar, manter o peso adequado e controlar pressão e colesterol ajudam. Manter as vacinas em dia é importante porque alguns tratamentos reduzem a imunidade.',
+          ],
+        },
+        {
           id: 'vida-diaria',
           heading: 'Vida diária com a doença',
           paragraphs: [
             'Com acompanhamento e tratamento em dia, a maioria das pessoas mantém uma rotina ativa. Alguns cuidados ajudam a poupar as articulações.',
+            'O ritmo da rotina deve alternar atividade e pausa. Longos períodos na mesma posição aumentam a rigidez, e o excesso de esforço em um único dia costuma cobrar no seguinte.',
           ],
           bullets: [
             'Manter atividade física regular, com exercícios de mobilidade e de fortalecimento orientados por profissional',
@@ -6401,7 +6521,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-22',
       isPlaceholder: true,
     },  {
     id: 'epilepsia',

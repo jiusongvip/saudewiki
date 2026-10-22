@@ -7064,519 +7064,639 @@ export const articles: Article[] = [
     isPlaceholder: true,
   },
   {
-      id: 'catarata-sintomas-e-quando-procurar-atendimento',
-      slug: 'catarata-sintomas-e-quando-procurar-atendimento',
-      metaTitle: 'Catarata: sintomas e quando procurar atendimento',
-      title: 'Catarata: sintomas, evolução e quando procurar atendimento',
-      excerpt:
-        'Entenda como a catarata progride, quais são os sinais de que a visão está piorando e em que situação é preciso buscar um oftalmologista com urgência.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'como-a-visao-muda',
-          heading: 'Como a visão muda com a catarata',
-          paragraphs: [
-            'A catarata provoca a opacificação do cristalino, a lente natural do olho. Isso faz a imagem chegar embaçada à retina e a pessoa percebe que está enxergando pior, como se houvesse uma névoa na frente dos olhos.',
-            'No início, o embaçamento é discreto e muitas vezes só notado à noite ou sob luz forte. A progressão é lenta, e na maioria dos casos leva anos até a visão ficar realmente prejudicada. O oftalmologista consegue medir essa perda em cada consulta e indicar o momento certo de intervir.',
-          ],
+    id: 'catarata-sintomas-e-quando-procurar-atendimento',
+    slug: 'catarata-sintomas-e-quando-procurar-atendimento',
+    metaTitle: 'Catarata: sintomas e quando procurar atendimento',
+    title: 'Catarata: sintomas, evolução e quando procurar atendimento',
+    excerpt:
+      'Veja como a catarata muda a visão aos poucos, quais sinais indicam que ela está avançando e em que situação é preciso procurar um oftalmologista com urgência.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'como-a-visao-muda',
+        heading: 'Como a visão muda com a catarata',
+        paragraphs: [
+          'A catarata é a opacificação do cristalino, a lente natural que fica atrás da íris e focaliza a luz na retina. Quando essa lente perde a transparência, a luz entra espalhada e a imagem chega embaçada ao fundo do olho. A pessoa não fica cega de uma hora para outra: passa a enxergar como se olhasse por um vidro fosco, com menos contraste e cores mais apagadas.',
+          'No começo, o incômodo aparece em situações específicas. Ler à noite, reconhecer uma placa de rua contra o sol ou assistir televisão em ambiente claro passa a exigir esforço. Muitas pessoas atribuem a mudança ao cansaço ou à idade e adiam a consulta, embora a avaliação oftalmológica seja rápida, indolor e capaz de medir o quanto a visão já piorou.',
+          'A catarata não dói e não deixa o olho vermelho. A queixa é visual e avança ao longo de meses ou anos. No exame com lâmpada de fenda, o oftalmologista vê o grau de opacificação do cristalino e compara o resultado com exames anteriores, o que ajuda a definir o melhor momento para intervir.',
+        ],
+      },
+      {
+        id: 'sinais-de-piora',
+        heading: 'Sinais de que a catarata está avançando',
+        paragraphs: [
+          'Com a progressão da catarata, alguns sinais ficam evidentes na rotina e mostram que a perda visual já cobra um preço concreto. Eles não substituem o exame, mas ajudam a pessoa a perceber que chegou a hora de marcar uma consulta. Vale anotar quando cada um começou, porque essa sequência ajuda o oftalmologista a comparar a evolução.',
+          'O conjunto desses sinais indica perda funcional, e não apenas um incômodo passageiro. Quem já não consegue ler no celular, evita dirigir à noite ou troca de óculos várias vezes por ano tem motivo suficiente para uma avaliação.',
+        ],
+        bullets: [
+          'Precisar de luz muito forte para ler, costurar ou trabalhar',
+          'Sentir ofuscamento ao dirigir à noite ou ao receber o farol de outro carro',
+          'Ver as cores desbotadas, com tom amarelado ou acinzentado',
+          'Precisar trocar a receita dos óculos a cada poucos meses',
+          'Reconhecer rostos com dificuldade em ambientes pouco iluminados',
+        ],
+      },
+      {
+        id: 'ritmo-da-progressao',
+        heading: 'Em quanto tempo a catarata piora a visão',
+        paragraphs: [
+          'A catarata avança devagar e sem dor, muitas vezes ao longo de anos. Os dois olhos costumam ser afetados, mas quase nunca no mesmo ritmo: é comum enxergar melhor de um lado e só perceber a diferença na consulta, quando o oftalmologista testa cada olho separadamente.',
+          'Há um detalhe que confunde muita gente. Quando a opacificação se forma no centro do cristalino, a mudança no foco pode melhorar a visão de perto por um período, e a pessoa volta a ler sem óculos. Isso não significa que o olho está melhorando, e sim que o grau mudou ao redor da área turva.',
+          'O que não faz parte desse ritmo é a perda súbita. Uma queda de visão em horas ou em poucos dias não é comportamento de catarata e precisa de avaliação no mesmo dia. O mesmo vale para dor ocular forte, que a catarata não provoca.',
+        ],
+      },
+      {
+        id: 'tipos-de-catarata',
+        heading: 'Os tipos de catarata e o jeito de cada um',
+        paragraphs: [
+          'A catarata senil, ligada ao envelhecimento, é a forma mais comum e pode se instalar em diferentes partes do cristalino. Na catarata nuclear, a opacificação começa no centro da lente e tende a deixar a visão amarelada, com certa melhora temporária para perto. Na cortical, as opacidades surgem nas bordas e criam glare, aquele ofuscamento que atrapalha a visão noturna.',
+          'A catarata subcapsular posterior se forma na parte de trás da lente e costuma prejudicar mais a leitura e a visão com luz forte, mesmo quando o exame de acuidade visual parece razoável. Ela pode aparecer mais cedo em pessoas com diabetes ou em uso prolongado de corticoides.',
+          'Existem ainda formas que não dependem da idade: a catarata congênita, presente ao nascimento, a traumática, depois de uma pancada no olho, e a secundária a outras doenças ou cirurgias oculares. O tipo de catarata ajuda o oftalmologista a explicar os sintomas, mas não muda o essencial: quando a visão atrapalha a rotina, a cirurgia é o caminho.',
+        ],
+      },
+      {
+        id: 'nenhum-colirio-resolve',
+        heading: 'Nenhum colírio desfaz a catarata',
+        paragraphs: [
+          'A cirurgia é o único tratamento que cura a catarata. Não existe colírio, comprimido ou exercício capaz de fazer a opacificação do cristalino desaparecer, e a lente turvada não volta a ficar transparente sozinha. Nos estágios iniciais, óculos atualizados e iluminação adequada aliviam o desconforto, mas não interrompem a progressão. É comum que a receita mude a cada consulta, e isso não significa que o problema está sendo resolvido.',
+          'Por isso, produtos que prometem reverter a catarata merecem desconfiança. Além de não cumprirem o que anunciam, podem atrasar uma avaliação que já deveria ter acontecido. Suplementos vitamínicos também não têm efeito comprovado sobre a evolução da doença, e nenhum deles substitui o exame oftalmológico.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Se a visão embaçada está piorando e já atrapalha tarefas do dia a dia, marque uma consulta com oftalmologista. Na unidade básica de saúde, é possível receber o encaminhamento para o serviço de oftalmologia do SUS e tirar dúvidas sobre a fila de espera para a cirurgia.',
+          'A catarata em si não é uma urgência, e a espera pela consulta de rotina não costuma trazer risco. Procure atendimento no mesmo dia, porém, se aparecer perda visual súbita em um olho, dor ocular intensa com náusea ou vômito, manchas escuras que surgem de repente ou visão dupla que não melhora ao fechar um olho. Esses sinais podem indicar outras doenças oculares, que exigem intervenção rápida.',
+        ],
+        bullets: [
+          'Perda de visão em horas ou em poucos dias',
+          'Dor forte no olho, sobretudo com náusea ou vômito',
+          'Manchas escuras flutuantes que aparecem de repente',
+          'Clarões ou alucinações visuais',
+          'Vermelhidão e sensibilidade à luz depois de um trauma ocular',
+        ],
+        cta: {
+          label: 'Conheça a página sobre catarata',
+          href: '/doencas/catarata/',
         },
-        {
-          id: 'sinais-de-piora',
-          heading: 'Sinais de que a catarata está avançando',
-          paragraphs: [
-            'Alguns sinais mostram que a opacificação do cristalino está aumentando e a cirurgia deve ser considerada:',
-          ],
-          bullets: [
-            'Precisar de luz muito forte para conseguir ler ou costurar',
-            'Sentir ofuscamento ao dirigir à noite ou com farol contrário',
-            'Perceber as cores desbotadas, com tom amarelado ou acinzentado',
-            'Ter que trocar a receita dos óculos a cada poucos meses',
-          ],
-        },
-        {
-          id: 'ritmo-da-progressao',
-          heading: 'Em quanto tempo a catarata piora a visão',
-          paragraphs: [
-            'A catarata avança devagar e sem dor, muitas vezes ao longo de anos. Os dois olhos costumam ser afetados, mas quase nunca no mesmo ritmo: é comum enxergar melhor de um lado e só perceber a diferença na consulta.',
-            'Há um detalhe que confunde muita gente. Quando a opacificação se forma no centro do cristalino, a mudança no foco pode melhorar a visão de perto por um período, e a pessoa volta a ler sem óculos. Isso não é o olho melhorando: é o grau mudando ao redor da área turva.',
-            'O que não faz parte desse ritmo é a perda súbita. Uma queda de visão em horas ou em poucos dias não é comportamento de catarata e precisa de avaliação no mesmo dia.',
-          ],
-        },
-        {
-          id: 'nenhum-colirio-resolve',
-          heading: 'Nenhum colírio desfaz a catarata',
-          paragraphs: [
-            'A cirurgia é o único tratamento que cura a catarata. Não há colírio nem medicamento que faça a opacificação do cristalino desaparecer, e a lente turvada não volta a ficar transparente sozinha.',
-            'Por isso, produtos que prometem reverter a catarata merecem desconfiança: além de não cumprirem o que anunciam, podem atrasar uma avaliação que já deveria ter acontecido. Suplementos vitamínicos também não têm efeito comprovado sobre a progressão.',
-          ],
-        },
-        {
-          id: 'quando-procurar',
-          heading: 'Quando procurar atendimento',
-          paragraphs: [
-            'Se você percebe a visão embaçada e o embaçamento está piorando, marque uma consulta com oftalmologista. Na UBS mais próxima, é possível conseguir o encaminhamento para o serviço de oftalmologia do SUS.',
-            'A catarata não é urgência. Porém, se houver perda visual súbita, dor ocular intensa, surgimento de manchas escuras flutuantes ou alucinações visuais, procure atendimento no mesmo dia, pois podem indicar outras condições que exigem intervenção rápida.',
-          ],
-          cta: {
-            label: 'Veja a página sobre a catarata',
-            href: '/doencas/catarata/',
-          },
-        },
-      ],
-      diseaseSlugs: ['catarata'],
-      topicSlugs: ['doencas-cronicas'],
-      relatedArticleSlugs: ['catarata-tratamento-e-cirurgia'],
-      references: [
-        {
-          label: 'Catarata, versão saúde para a família',
-          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/catarata/catarata',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'Cegueira e deficiência visual: folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment',
-          publisher: 'Organização Mundial da Saúde',
-        },
-        {
-          label: 'Metade das pessoas com cegueira por catarata precisa de cirurgia que muda a vida',
-          url: 'https://www.who.int/news/item/11-02-2026-one-in-two-people-facing-cataract-blindness-need-access-to-life-changing-surgery',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['catarata'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['catarata-tratamento-e-cirurgia'],
+    references: [
+      {
+        label: 'Catarata, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/catarata/catarata',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Cegueira e deficiência visual: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Metade das pessoas com cegueira por catarata precisa de cirurgia que muda a vida',
+        url: 'https://www.who.int/news/item/11-02-2026-one-in-two-people-facing-cataract-blindness-need-access-to-life-changing-surgery',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'catarata-tratamento-e-cirurgia',
-      slug: 'catarata-tratamento-e-cirurgia',
-      metaTitle: 'Catarata: tratamento e cirurgia',
-      title: 'Catarata: tratamento cirúrgico, recuperação e acesso pelo SUS',
-      excerpt:
-        'A cirurgia de catarata é segura, eficaz e oferecida pelo SUS. Saiba como funciona o procedimento, o que esperar da recuperação e como acessar o tratamento.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'quando-operar',
-          heading: 'Quando a cirurgia está indicada',
-          paragraphs: [
-            'A cirurgia é recomendada quando a opacificação do cristalino atrapalha atividades diárias, como dirigir, trabalhar, ler ou cuidar da casa. Não existe grau mínimo obrigatório: a indicação é funcional, baseada no impacto que a perda visual causa na vida da pessoa.',
-            'Não é preciso esperar a catarata "amadurecer". Adiar a cirurgia em casos avançados pode tornar o procedimento mais delicado e a recuperação, mais lenta.',
-          ],
+    id: 'catarata-tratamento-e-cirurgia',
+    slug: 'catarata-tratamento-e-cirurgia',
+    metaTitle: 'Catarata: tratamento e cirurgia',
+    title: 'Catarata: tratamento cirúrgico, recuperação e acesso pelo SUS',
+    excerpt:
+      'A cirurgia de catarata é segura e eficaz, e o SUS oferece o procedimento. Entenda quando operar, como é a cirurgia, o que esperar da recuperação e como acessar o tratamento.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-operar',
+        heading: 'Quando a cirurgia está indicada',
+        paragraphs: [
+          'A cirurgia é recomendada quando a opacificação do cristalino atrapalha atividades como dirigir, trabalhar, ler ou cuidar da casa. Não existe um grau mínimo obrigatório: a indicação é funcional e depende do impacto que a perda visual causa na vida da pessoa.',
+          'Não é preciso esperar a catarata amadurecer. Adiar o procedimento em casos avançados pode tornar a cirurgia mais delicada e a recuperação mais lenta. Também não há vantagem em operar antes da hora, enquanto a rotina segue possível sem esforço. A conversa com o oftalmologista deve levar em conta o que a pessoa precisa enxergar para trabalhar e cuidar da família.',
+          'A exceção são situações em que a catarata provoca inflamação dentro do olho ou eleva a pressão intraocular. Nesses casos, o oftalmologista pode recomendar a cirurgia com urgência, mesmo que a visão ainda não esteja muito comprometida.',
+        ],
+      },
+      {
+        id: 'condicoes-cronicas',
+        heading: 'Diabetes e problemas cardíacos impedem a cirurgia?',
+        paragraphs: [
+          'A cirurgia pode ser feita em pessoas de qualquer idade e é considerada segura também em quem tem diabetes ou doença cardíaca, desde que essas condições estejam em acompanhamento. O oftalmologista e o médico que cuida da doença de base conversam antes do procedimento para ajustar medicamentos quando necessário.',
+          'No diabetes, o controle da glicemia ajuda na recuperação e reduz o risco de complicações. Quem usa anticoagulante precisa avisar a equipe cirúrgica, que decide junto com o médico responsável se há necessidade de ajuste. Nenhuma medicação deve ser suspensa por conta própria antes da cirurgia.',
+          'A avaliação pré-operatória também serve para identificar infecções ou inflamações oculares que precisam ser tratadas antes. Quando existe alguma condição ativa, a cirurgia é adiada até que o olho esteja estável, o que protege o resultado. Exames de sangue e avaliação clínica podem ser pedidos conforme a idade e as doenças de base.',
+        ],
+      },
+      {
+        id: 'como-e-a-cirurgia',
+        heading: 'Como funciona o procedimento',
+        paragraphs: [
+          'A técnica mais usada é a facoemulsificação. O oftalmologista faz uma incisão pequena, fragmenta o cristalino opacificado com ultrassom e aspira os fragmentos. No mesmo lugar, implanta uma lente intraocular artificial que devolve a transparência ao eixo visual. A incisão costuma ser tão pequena que não precisa de pontos na maioria dos casos.',
+          'A cirurgia é feita sob anestesia local, dura em média 20 a 30 minutos e não exige internação. O paciente recebe alta no mesmo dia, com orientações por escrito e a prescrição dos colírios. Na rede pública, o procedimento é oferecido pelo SUS em hospitais credenciados. Na maioria dos casos, um olho é operado de cada vez, com algumas semanas de intervalo.',
+          'O Ministério da Saúde tem ampliado a capacidade cirúrgica e atualizado protocolos, inclusive com técnicas que tratam catarata e glaucoma na mesma intervenção. Quem está na fila pode procurar a secretaria de saúde do município para saber como o encaminhamento é organizado na sua região.',
+        ],
+      },
+      {
+        id: 'lente-intraocular',
+        heading: 'A escolha da lente intraocular',
+        paragraphs: [
+          'A lente intraocular substitui o cristalino e fica definitivamente dentro do olho. Existem lentes de diferentes características, e a escolha depende das condições do olho, das atividades da pessoa e do serviço onde a cirurgia será feita. O oftalmologista explica as opções disponíveis antes do procedimento e mede o olho para calcular o grau da lente.',
+          'A lente monofocal oferece boa visão para uma distância principal, em geral a de longe, e costuma exigir óculos para ler. Já as lentes multifocais tentam reduzir a dependência de óculos em várias distâncias, mas podem causar halos e perda de contraste em algumas pessoas.',
+          'Não existe lente ideal para todos. A conversa antes da cirurgia deve incluir o que a pessoa faz no trabalho, se dirige à noite e quanto tempo passa lendo. Expectativas realistas evitam frustração depois da alta, porque nenhuma lente devolve exatamente a visão que se tinha aos 20 anos.',
+        ],
+      },
+      {
+        id: 'recuperacao',
+        heading: 'Recuperação e cuidados no pós-operatório',
+        paragraphs: [
+          'A recuperação costuma ser rápida, e muitos já enxergam melhor em 24 a 48 horas. O oftalmologista prescreve colírios antibiótico e anti-inflamatório para prevenir infecção e controlar a inflamação. A visão pode oscilar nos primeiros dias, o que é esperado.',
+          'Seguir as orientações da equipe faz diferença no resultado. Dormir com o protetor ocular, não esfregar o olho e voltar às consultas de revisão são cuidados simples que protegem a cirurgia.',
+          'Se aparecer dor que não passa com o analgésico indicado, piora da visão, secreção ou vermelhidão intensa, procure o serviço onde foi operado. Esses sinais podem indicar complicações que precisam de tratamento rápido.',
+        ],
+        bullets: [
+          'Não esfregar o olho operado por pelo menos um mês',
+          'Usar o protetor ocular para dormir nos primeiros dias',
+          'Evitar esforço físico intenso e ambientes com poeira enquanto o médico orientar',
+          'Aplicar os colírios nos horários prescritos, sem interromper por conta própria',
+          'Voltar às consultas de acompanhamento para verificar a cicatrização e a acuidade visual',
+        ],
+      },
+      {
+        id: 'a-catarata-volta',
+        heading: 'A catarata volta depois da cirurgia?',
+        paragraphs: [
+          'A catarata em si não volta, porque o cristalino natural foi removido. O que acontece em parte das pessoas operadas é a cápsula fina que sustenta a lente artificial ficar opaca meses ou anos depois. É a chamada catarata secundária, e o resultado se parece com o anterior: a visão volta a ficar embaçada.',
+          'O tratamento não é uma nova cirurgia de catarata. Na maioria dos casos, o oftalmologista usa um laser para abrir um pequeno orifício nessa cápsula e permitir a passagem da luz. O procedimento é rápido, feito no consultório e não exige internação. A visão costuma melhorar em poucos dias.',
+          'Vale lembrar que a cirurgia não impede outras doenças oculares, como o glaucoma ou a degeneração macular. Por isso, as consultas de rotina continuam importantes mesmo depois de recuperar a visão, sobretudo em quem tem diabetes ou histórico familiar de glaucoma.',
+        ],
+        cta: {
+          label: 'Conheça a página sobre catarata',
+          href: '/doencas/catarata/',
         },
-        {
-          id: 'condicoes-cronicas',
-          heading: 'Diabetes e problema cardíaco impedem a cirurgia?',
-          paragraphs: [
-            'A cirurgia de catarata pode ser feita em pessoas de qualquer idade, e é considerada segura também em quem tem diabetes ou doença cardíaca, desde que essas condições estejam em acompanhamento.',
-            'A indicação depende do quanto a visão já atrapalha, não do tempo desde o diagnóstico. Enquanto a rotina segue possível, não há vantagem em operar antes da hora. A exceção é rara: quando a catarata provoca inflamação no olho ou eleva a pressão dentro dele, o oftalmologista pode recomendar cirurgia imediata.',
-          ],
-        },
-        {
-          id: 'como-e-a-cirurgia',
-          heading: 'Como funciona o procedimento',
-          paragraphs: [
-            'A técnica mais usada é a facoemulsificação: o oftalmologista fragmenta o cristalino opacificado por ultrassom e o aspira, substituindo-o por uma lente intraocular artificial que devolve a transparência ao eixo visual.',
-            'A cirurgia é feita sob anestesia local, dura em média 20 a 30 minutos e não exige internação. O paciente recebe alta no mesmo dia. O SUS oferece o procedimento gratuitamente em hospitais credenciados, e o Ministério da Saúde tem ampliado a capacidade cirúrgica, inclusive com protocolos que tratam catarata e glaucoma em uma única intervenção.',
-          ],
-        },
-        {
-          id: 'recuperacao',
-          heading: 'Recuperação e cuidados no pós-operatório',
-          paragraphs: [
-            'A recuperação costuma ser rápida, e muitos já enxergam melhor em 24 a 48 horas. O oftalmologista prescreve colírios antibiótico e anti-inflamatório para evitar infecção e controlar a inflamação:',
-          ],
-          bullets: [
-            'Evitar esfregar o olho operado por pelo menos um mês',
-            'Usar protetor ocular para dormir nos primeiros dias',
-            'Suspender atividades físicas intensas e trabalhos com poeira por orientação médica',
-            'Retornar às consultas de acompanhamento para verificar a cicatrização e a acuidade visual',
-          ],
-        },
-        {
-          id: 'a-catarata-volta',
-          heading: 'A catarata volta depois da cirurgia?',
-          paragraphs: [
-            'A catarata em si não volta, porque o cristalino natural já foi removido. O que acontece, em cerca de uma a cada quatro pessoas operadas, é a cápsula fina que ficou no olho para sustentar a lente artificial ficar opaca meses ou anos depois. É a chamada catarata secundária, e o resultado é parecido com o anterior: a visão volta a ficar embaçada.',
-            'O tratamento não é uma nova cirurgia de catarata. Na maioria dos casos, o oftalmologista usa um laser para abrir um pequeno orifício nessa cápsula e permitir a passagem da luz.',
-          ],
-          cta: {
-            label: 'Veja a página sobre a catarata',
-            href: '/doencas/catarata/',
-          },
-        },
-      ],
-      diseaseSlugs: ['catarata'],
-      topicSlugs: ['doencas-cronicas', 'prevencao'],
-      relatedArticleSlugs: ['catarata-sintomas-e-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Catarata, versão saúde para a família',
-          url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/catarata/catarata',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'SUS vai oferecer cirurgia que trata glaucoma e catarata ao mesmo tempo',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/sus-vai-oferecer-cirurgia-que-trata-glaucoma-e-catarata-ao-mesmo-tempo',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Doenças oculares: orientações e cuidados',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doencas-oculares',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['catarata'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['catarata-sintomas-e-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Catarata, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/catarata/catarata',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'SUS vai oferecer cirurgia que trata glaucoma e catarata ao mesmo tempo',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/sus-vai-oferecer-cirurgia-que-trata-glaucoma-e-catarata-ao-mesmo-tempo',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Doenças oculares: orientações e cuidados',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doencas-oculares',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento',
-      slug: 'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento',
-      metaTitle: 'Parasitoses intestinais: quando procurar atendimento',
-      title: 'Parasitoses intestinais: sinais de alerta e quando procurar atendimento',
-      excerpt:
-        'A maior parte das parasitoses intestinais se resolve com exame de fezes e remédio certo na unidade básica de saúde. O que muda tudo são quatro cenas: obstrução intestinal, sangue nas fezes, desidratação e anemia importante. Saiba reconhecê-las.',
-      category: 'Doenças infecciosas',
-      categorySlug: 'doencas-infecciosas',
-      body: [
-        {
-          id: 'quadro-tranquilo',
-          heading: 'Na maioria das vezes, sem pressa',
-          paragraphs: [
-            'A dor abdominal vaga, as fezes moles de vez em quando e a coceira anal noturna formam o retrato mais comum das parasitoses intestinais, e nada nele exige pronto atendimento. O caminho previsto é a consulta na unidade básica de saúde, o exame de fezes e o remédio adequado ao parasita encontrado.',
-            'O que muda o cenário são algumas cenas específicas, descritas abaixo. Elas envolvem obstrução do intestino, perda de sangue, desidratação e anemia, e nenhuma delas melhora com medida caseira.',
-          ],
+    id: 'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento',
+    slug: 'parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento',
+    metaTitle: 'Parasitoses intestinais: quando procurar atendimento',
+    title: 'Parasitoses intestinais: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'A maior parte das parasitoses intestinais se resolve com exame de fezes e remédio certo na unidade básica de saúde. O que muda tudo são quatro cenas: obstrução intestinal, sangue nas fezes, desidratação e anemia importante. Saiba reconhecê-las.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'quadro-tranquilo',
+        heading: 'Na maioria das vezes, sem pressa',
+        paragraphs: [
+          'A dor abdominal vaga, as fezes moles de vez em quando e a coceira anal noturna formam o retrato mais comum das parasitoses intestinais, e nada nele exige pronto atendimento. O caminho previsto é a consulta na unidade básica de saúde, o exame de fezes e o remédio adequado ao parasita encontrado.',
+          'Boa parte das pessoas infectadas por vermes transmitidos pelo solo não tem sintoma nenhum, ou tem queixas leves que se confundem com outras causas de desconforto intestinal. O organismo convive com o parasita por meses, e a descoberta costuma acontecer num exame pedido por outro motivo, como um check-up ou a investigação de uma anemia.',
+          'O que muda o cenário são algumas cenas específicas, descritas abaixo. Elas envolvem obstrução do intestino, perda de sangue, desidratação e anemia, e nenhuma delas melhora com medida caseira. Reconhecer cedo essas situações evita que um problema tratável vire internação, sobretudo em crianças pequenas e em idosos.',
+        ],
+      },
+      {
+        id: 'observar-em-casa',
+        heading: 'O que observar em casa',
+        paragraphs: [
+          'Enquanto a consulta chega, vale anotar a evolução dos pontos que mostram como o parasita está afetando o conjunto do organismo, e não apenas o intestino. A lista abaixo serve de roteiro para a conversa com o profissional de saúde, e a data de início dos sintomas é o primeiro item a registrar.',
+          'Esse registro ajuda a distinguir uma parasitose simples de um quadro que precisa de investigação mais longa. Ele não substitui o exame de fezes, mas encurta o caminho até o diagnóstico e evita consultas repetidas sem rumo. Fotografar as fezes quando houver alteração também pode ajudar.',
+        ],
+        bullets: [
+          'O apetite e o peso, ou a curva de crescimento na criança',
+          'O aspecto e a frequência das fezes, e se há sangue nelas',
+          'A coceira anal noturna e o sono atrapalhado',
+          'Palidez, cansaço e falta de ar ao brincar ou fazer esforço',
+          'Os episódios de dor abdominal e o que os alivia',
+          'O estado de hidratação, observando lábios, lágrimas e volume de urina',
+        ],
+      },
+      {
+        id: 'sinais-na-crianca',
+        heading: 'Sinais que pedem avaliação nas crianças',
+        paragraphs: [
+          'As crianças pagam o preço maior das parasitoses, porque o parasita compete justamente com a fase da vida em que o corpo mais precisa de alimento. Leve a criança de novo à unidade de saúde, sem esperar o fim do tratamento, se notar os sinais abaixo.',
+          'A escola costuma ser o primeiro lugar onde a diferença aparece: a criança fica mais apática, perde interesse pelas aulas e cai no rendimento. Nada disso é específico de verminose, mas o conjunto justifica uma avaliação com exame de fezes e hemograma. O peso anotado a cada mês é o dado mais objetivo para mostrar ao profissional.',
+        ],
+        bullets: [
+          'Emagrecimento ou parada do ganho de peso ao longo de semanas',
+          'Cansaço, palidez e queda do rendimento escolar',
+          'Diarreia persistente, com fezes gordurosas e barriga estufada, quadro típico da giárdia',
+          'Coceira anal noturna intensa, com criança agitada e dormindo mal',
+          'Crescimento mais lento que o esperado para a idade',
+        ],
+      },
+      {
+        id: 'sinais-de-anemia',
+        heading: 'Quando a parasitose vira anemia',
+        paragraphs: [
+          'O ancilostomídeo, conhecido como amarelão, se fixa na parede do intestino e suga sangue aos poucos. A perda prolongada leva à anemia por falta de ferro, com palidez, cansaço e queda de energia que pioram devagar, sem que a pessoa perceba o motivo. A lombriga também disputa nutrientes e pode agravar a desnutrição em quem já come pouco.',
+          'Por isso, palidez e cansaço que continuam depois do vermífugo merecem um hemograma. Tratar apenas o verme sem repor o ferro deixa a pessoa ainda cansada, e a investigação da anemia é parte do cuidado, não um excesso de exames. A reposição deve ser orientada na unidade de saúde, com dose e duração definidas.',
+        ],
+        bullets: [
+          'Palidez na pele, nas gengivas e na parte interna das pálpebras',
+          'Cansaço fácil, tontura e falta de ar em esforços pequenos',
+          'Unhas quebradiças e queda de cabelo',
+          'Vontade de comer terra ou gelo, sinal de anemia em algumas crianças',
+        ],
+      },
+      {
+        id: 'emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Poucas situações ligam o sinal vermelho, mas elas existem e evoluem rápido. Procure um pronto atendimento sem esperar se aparecer qualquer um dos sinais abaixo.',
+          'A obstrução intestinal por lombrigas é a mais clássica: o verme forma um novelo que bloqueia a passagem do conteúdo intestinal. A pessoa para de eliminar fezes e gases, sente cólicas fortes e vomita. Nesse cenário, o atendimento precisa ser imediato, porque a parede do intestino pode sofrer com a distensão.',
+        ],
+        bullets: [
+          'Dor abdominal forte em cólica, com vômitos e interrupção das fezes e dos gases',
+          'Barriga muito distendida, dura e sensível ao toque',
+          'Sangue nas fezes acompanhado de febre alta',
+          'Sinais de desidratação, como boca seca, choro sem lágrima, pouca urina e moleza excessiva',
+          'Palidez intensa com falta de ar, fraqueza importante ou coração acelerado',
+        ],
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Onde fazer o exame e a consulta',
+        paragraphs: [
+          'A unidade básica de saúde resolve a maior parte dos casos: faz a pergunta certa, pede o parasitológico de fezes, escolhe o remédio conforme o parasita e marca a reavaliação. Em regiões de alta transmissão, o Ministério da Saúde coordena campanhas de tratamento periódico, e quem recebe o diagnóstico em casa não precisa esperar crise para levar as crianças à consulta.',
+          'Leve os exames de volta na data combinada, inclusive quando o resultado negativo não explicar os sintomas, porque uma única amostra pode não ter pego o parasito. Em alguns casos, o profissional pede duas ou três coletas em dias diferentes, sobretudo quando a suspeita é de giárdia.',
+          'Se o quadro for de diarreia com vômitos e desidratação, o cuidado imediato é o da gastroenterite. Já a palidez e o cansaço que persistem depois de tratar os vermes pedem investigação de anemia ferropriva, porque a perda de sangue pode deixar uma deficiência que não some sozinha.',
+        ],
+        cta: {
+          label: 'Veja a página sobre as parasitoses intestinais',
+          href: '/doencas/parasitoses-intestinais/',
         },
-        {
-          id: 'observar-em-casa',
-          heading: 'O que observar em casa',
-          paragraphs: [
-            'Enquanto a consulta chega, vale anotar a evolução dos pontos que mostram como o parasita está afetando o conjunto:',
-          ],
-          bullets: [
-            'O apetite e o peso, ou a curva de crescimento na criança',
-            'O aspecto e a frequência das fezes, e se há sangue nelas',
-            'A coceira anal noturna e o sono atrapalhado',
-            'Palidez, cansaço e falta de ar ao brincar ou fazer esforço',
-            'Os episódios de dor abdominal e o que os alivia',
-            'O estado de hidratação, observando lábios, lágrimas e volume de urina',
-          ],
-        },
-        {
-          id: 'sinais-na-crianca',
-          heading: 'Sinais que pedem avaliação nas crianças',
-          paragraphs: [
-            'As crianças pagam o preço maior das parasitoses, porque o parasita compete justamente com a fase da vida em que o corpo mais precisa de alimento. Leve a criança de novo à unidade de saúde, sem esperar o fim do tratamento, se notar:',
-          ],
-          bullets: [
-            'Emagrecimento ou parada do ganho de peso ao longo de semanas',
-            'Cansaço, palidez e queda do rendimento escolar',
-            'Diarreia persistente, com fezes gordurosas e barriga estufada, quadro típico da giárdia',
-            'Coceira anal noturna intensa, com criança agitada e dormindo mal',
-            'Crescimento mais lento que o esperado para a idade',
-          ],
-        },
-        {
-          id: 'emergencia',
-          heading: 'Quando é emergência',
-          paragraphs: [
-            'Poucas situações ligam o sinal vermelho, mas elas existem. Procure um pronto atendimento sem esperar se aparecer:',
-          ],
-          bullets: [
-            'Dor abdominal forte em cólica, com vômitos e interrupção das fezes e dos gases, sugestiva de obstrução intestinal',
-            'Barriga muito distendida, dura e sensível ao toque',
-            'Sangue nas fezes acompanhado de febre alta',
-            'Sinais de desidratação, como boca seca, choro sem lágrima, pouca urina e moleza excessiva',
-            'Palidez intensa com falta de ar, fraqueza importante ou coração acelerado',
-          ],
-        },
-        {
-          id: 'onde-procurar',
-          heading: 'Onde fazer o exame e a consulta',
-          paragraphs: [
-            'A UBS resolve a maior parte dos casos: faz a pergunta certa, pede o parasitológico de fezes, escolhe o remédio conforme o parasita e marca a reavaliação. Em regiões de alta transmissão, o Ministério da Saúde coordena campanhas de tratamento periódico, e quem recebe o diagnóstico em casa não precisa esperar crise para levar as crianças à consulta.',
-            'Leve os exames de volta na data combinada, inclusive quando o resultado negativo não explicar os sintomas, porque uma única amostra pode não ter pego o parasito. E se o quadro for de diarreia com vômitos e desidratação, o cuidado imediato é o da [gastroenterite](/doencas/gastroenterite/), enquanto a [anemia ferropriva](/doencas/anemia-ferropriva/) explica a palidez e o cansaço que persistem depois de tratar os vermes.',
-          ],
-          cta: {
-            label: 'Veja a página sobre as parasitoses intestinais',
-            href: '/doencas/parasitoses-intestinais/',
-          },
-        },
-      ],
-      diseaseSlugs: ['parasitoses-intestinais'],
-      topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
-      relatedArticleSlugs: ['parasitoses-intestinais-tratamento-e-prevencao'],
-      references: [
-        {
-          label: 'Geo-helmintíase: o que é, sintomas e tratamento',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Geo-helmintíases transmitidas pelo solo: folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
-          publisher: 'Organização Mundial da Saúde',
-        },
-        {
-          label: 'Ascaridíase, versão saúde para a família',
-          url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-nematelmintos-nemat%C3%B3deos/ascarid%C3%ADase',
-          publisher: 'Manual MSD',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['parasitoses-intestinais'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: ['parasitoses-intestinais-tratamento-e-prevencao'],
+    references: [
+      {
+        label: 'Geo-helmintíase: o que é, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Geo-helmintíases transmitidas pelo solo: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Ascaridíase, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-nematelmintos-nemat%C3%B3deos/ascarid%C3%ADase',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'parasitoses-intestinais-tratamento-e-prevencao',
-      slug: 'parasitoses-intestinais-tratamento-e-prevencao',
-      metaTitle: 'Parasitoses intestinais: tratamento e prevenção',
-      title: 'Parasitoses intestinais: tratamento, higiene e prevenção',
-      excerpt:
-        'Cada parasita tem o seu remédio, e o remédio sozinho não resolve: sem higiene e água tratada, o verme volta. Veja como funciona o tratamento, por que a família toda entra no caso do oxiúro e o que quebra o ciclo.',
-      category: 'Doenças infecciosas',
-      categorySlug: 'doencas-infecciosas',
-      body: [
-        {
-          id: 'remedio-para-cada-parasita',
-          heading: 'O remédio depende do parasita',
-          paragraphs: [
-            'Contra os vermes, as opções mais usadas são o albendazol e o mebendazol, em geral em tratamento curto. Contra protozoários como a giárdia e a ameba, funcionam a nitazoxanida e os medicamentos da família do metronidazol, e é aí que a automedicação tropeça: a caixa comprada na farmácia para vermes não elimina protozoários, e o quadro volta sem explicação.',
-            'A dose se define pela idade e pelo peso, e a gravidez muda a escolha do remédio, por isso bebê, criança e gestante merecem avaliação individual. No Brasil, o tratamento das geo-helmintíases está disponível na rede pública, com o albendazol fornecido pelo SUS nas unidades básicas de saúde.',
-          ],
+    id: 'parasitoses-intestinais-tratamento-e-prevencao',
+    slug: 'parasitoses-intestinais-tratamento-e-prevencao',
+    metaTitle: 'Parasitoses intestinais: tratamento e prevenção',
+    title: 'Parasitoses intestinais: tratamento, higiene e prevenção',
+    excerpt:
+      'Cada parasita tem o seu remédio, e o remédio sozinho não resolve: sem higiene e água tratada, o verme volta. Veja como funciona o tratamento, por que a família toda entra no caso do oxiúro e o que quebra o ciclo.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'remedio-para-cada-parasita',
+        heading: 'O remédio depende do parasita',
+        paragraphs: [
+          'Contra os vermes, as opções mais usadas são o albendazol e o mebendazol, em geral em tratamento curto. A lombriga, o ancilostomídeo, o oxiúro e o tricocéfalo costumam responder a uma dose única ou a poucos dias de tratamento, e a repetição pode ser necessária em regiões de alta transmissão.',
+          'Contra protozoários como a giárdia e a ameba, funcionam a nitazoxanida e os medicamentos da família do metronidazol, e é aí que a automedicação tropeça: a caixa comprada na farmácia para vermes não elimina protozoários, e o quadro volta sem explicação. A teníase, por sua vez, tem tratamento próprio, com praziquantel ou albendazol.',
+          'A dose se define pela idade e pelo peso, e a gravidez muda a escolha do remédio, por isso bebê, criança e gestante merecem avaliação individual. No Brasil, o tratamento das geo-helmintíases está disponível na rede pública, com o albendazol fornecido pelo SUS nas unidades básicas de saúde. Nunca use o remédio de uma pessoa para outra, porque a dose depende do peso.',
+        ],
+      },
+      {
+        id: 'diagnostico-antes-do-remedio',
+        heading: 'Por que o exame vem antes do remédio',
+        paragraphs: [
+          'O parasitológico de fezes identifica o parasita e permite escolher o medicamento certo. Tratar às cegas funciona em parte dos casos, mas deixa de fora protozoários e vermes que exigem outro esquema, além de dificultar a reavaliação quando os sintomas não melhoram.',
+          'Como a eliminação de ovos e cistos varia ao longo dos dias, uma amostra negativa não descarta a infecção. Quando a suspeita clínica é forte, o profissional pode pedir coletas seriadas ou um exame específico para giárdia, que nem sempre aparece no exame de rotina.',
+          'Em crianças com diarreia prolongada, o exame também ajuda a afastar outras causas, como intolerância à lactose e doença celíaca, que produzem sintomas parecidos. Essa distinção importa porque o tratamento é completamente diferente.',
+        ],
+      },
+      {
+        id: 'na-pratica',
+        heading: 'Como conduzir o tratamento',
+        paragraphs: [
+          'Feita a prescrição, o resto depende de casa. As orientações abaixo valem para a maioria das parasitoses intestinais e fazem parte do tratamento, não são apenas recomendações de conforto.',
+          'O retorno na data marcada serve para confirmar a cura, revisar sintomas que persistem e investigar anemia quando a palidez não melhora. Se o exame de controle continuar positivo, o esquema pode ser repetido ou trocado. Levar a caixa do remédio usada à consulta ajuda a conferir se a dose foi cumprida.',
+        ],
+        bullets: [
+          'Tomar o medicamento pelo tempo combinado e retornar na data marcada',
+          'No caso do oxiúro, tratar toda a família no mesmo dia, mesmo quem não tem sintoma',
+          'Cortar a reinfecção com higiene: mãos lavadas com sabão, unhas curtas, banho pela manhã',
+          'Lavar roupa íntima, pijama e lençóis com frequência enquanto o oxiúro estiver em casa',
+          'Não repetir sobras de remédio de caixas anteriores',
+          'Voltar antes da hora se palidez e cansaço persistirem, sinal de que falta investigar a anemia',
+        ],
+      },
+      {
+        id: 'quebrar-o-ciclo',
+        heading: 'Por que o verme volta',
+        paragraphs: [
+          'Sem quebrar o ciclo, o remédio limpa hoje e o parasita reentra amanhã. Os ovos dos vermes transmitidos pelo solo amadurecem na terra e voltam à boca pela mão mal lavada, pela verdura crua ou pela água contaminada. Os cistos da giárdia resistem em água mal tratada, e os ovos do oxiúro vivem no lençol, na roupa e nas unhas de quem se coça à noite.',
+          'A reinfecção é o motor da carga parasitária nas crianças, que trocam ovos entre si em casa, na creche e na escola. Por isso o tratamento do oxiúro é da família toda, e por isso a higiene não é detalhe decorativo: é a metade do remédio.',
+          'Em áreas sem rede de esgoto, o esgoto que corre a céu aberto contamina o solo e a água e mantém a transmissão. Nesse cenário, medidas individuais ajudam, mas não substituem saneamento básico e água tratada, que são as intervenções de maior impacto sobre a carga de parasitoses. A transmissão também acontece dentro de casa, quando um morador infectado contamina o ambiente, por isso tratar todos os casos identificados na família ao mesmo tempo reduz a circulação do parasita.',
+        ],
+      },
+      {
+        id: 'agua-e-saneamento',
+        heading: 'Água, esgoto e o limite da ação individual',
+        paragraphs: [
+          'Ferver, filtrar ou clorar a água de consumo reduz o risco de giárdia e de outras infecções transmitidas por água contaminada. Em locais sem tratamento, deixar a água em ebulição por alguns minutos é a forma mais segura de torná-la própria para beber, e o armazenamento precisa ser feito em recipiente limpo e tampado.',
+          'A prevenção coletiva depende de esgoto tratado, coleta de lixo e água encanada. Cobrar essas melhorias do poder público é parte da prevenção, e não um assunto separado da saúde. Enquanto elas não chegam, as medidas de casa continuam valendo.',
+          'Vale observar de onde vem a água usada para beber, cozinhar e lavar alimentos. Poços próximos a fossas e caixas-dágua sem limpeza periódica são fontes comuns de contaminação, e a limpeza da caixa a cada seis meses é uma medida simples de proteção.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Prevenção no dia a dia',
+        paragraphs: [
+          'As medidas que fecham a porta de entrada do parasita são simples, baratas e valem para todos os tipos de parasitose intestinal. Elas protegem inclusive quem já tratou, porque a imunidade contra vermes é curta e a exposição continua.',
+          'Vale ensinar as crianças desde cedo, porque o hábito de lavar as mãos antes de comer é a proteção mais eficaz que existe contra a reinfecção. Em áreas de alta transmissão, participar das campanhas de tratamento periódico oferecidas pelo SUS complementa o cuidado individual. O hábito precisa ser repetido em casa, na escola e na creche para virar rotina.',
+        ],
+        bullets: [
+          'Lavar as mãos com água e sabão depois de usar o banheiro e antes de comer',
+          'Lavar muito bem as frutas, as verduras e os legumes que serão consumidos crus',
+          'Beber só água tratada, fervida ou filtrada',
+          'Usar calçados ao caminhar em terra ou areia',
+          'Manter as unhas curtas e limpas, principalmente nas crianças',
+          'Participar das campanhas de tratamento periódico oferecidas pelo SUS',
+        ],
+        cta: {
+          label: 'Veja a página sobre as parasitoses intestinais',
+          href: '/doencas/parasitoses-intestinais/',
         },
-        {
-          id: 'na-pratica',
-          heading: 'Como conduzir o tratamento',
-          paragraphs: [
-            'Feita a prescrição, o resto depende de casa:',
-          ],
-          bullets: [
-            'Tomar o medicamento pelo tempo combinado e retornar na data marcada',
-            'No caso do oxiúro, tratar toda a família no mesmo dia, mesmo quem não tem sintoma',
-            'Cortar a reinfecção com higiene: mãos lavadas com sabão, unhas curtas, banho pela manhã',
-            'Lavar roupa íntima, pijama e lençóis com frequência enquanto o oxiúro estiver em casa',
-            'Não repetir sobras de remédio de caixas anteriores',
-            'Voltar antes da hora se palidez e cansaço persistirem, sinal de que falta investigar a anemia',
-          ],
-        },
-        {
-          id: 'quebrar-o-ciclo',
-          heading: 'Por que o verme volta',
-          paragraphs: [
-            'Sem quebrar o ciclo, o remédio limpa hoje e o parasita reentra amanhã. Os ovos dos vermes transmitidos pelo solo amadurecem na terra e voltam à boca pela mão mal lavada, pela verdura crua ou pela água contaminada; os cistos da giárdia resistem em água mal tratada; e os ovos do oxiúro vivem no lençol, na roupa e nas unhas de quem se coça à noite.',
-            'A reinfecção é o motor da carga parasitária nas crianças, que trocam ovos entre si em casa, na creche e na escola. Por isso o tratamento do oxiúro é da família toda, e por isso a higiene não é detalhe decorativo: é a metade do remédio.',
-          ],
-        },
-        {
-          id: 'prevencao',
-          heading: 'Prevenção no dia a dia',
-          paragraphs: [
-            'As medidas que fecham a porta de entrada do parasita são simples, baratas e valem para todos os tipos de parasitose intestinal:',
-          ],
-          bullets: [
-            'Lavar as mãos com água e sabão depois de usar o banheiro e antes de comer',
-            'Lavar muito bem as frutas, as verduras e os legumes que serão consumidos crus',
-            'Beber só água tratada, fervida ou filtrada',
-            'Usar calçados ao caminhar em terra ou areia',
-            'Manter as unhas curtas e limpas, principalmente nas crianças',
-            'Em áreas de alta transmissão, participar das campanhas de tratamento periódico oferecidas pelo SUS',
-          ],
-          cta: {
-            label: 'Veja a página sobre as parasitoses intestinais',
-            href: '/doencas/parasitoses-intestinais/',
-          },
-        },
-      ],
-      diseaseSlugs: ['parasitoses-intestinais'],
-      topicSlugs: ['doencas-infecciosas', 'prevencao'],
-      relatedArticleSlugs: ['parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Infecção por oxiúro, versão saúde para a família',
-          url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-nematelmintos-nemat%C3%B3deos/infec%C3%A7%C3%A3o-por-oxi%C3%BAro',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'Giardíase, versão saúde para a família',
-          url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/giard%C3%ADase',
-          publisher: 'Manual MSD',
-        },
-        {
-          label: 'Geo-helmintíases transmitidas pelo solo: folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['parasitoses-intestinais'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['parasitoses-intestinais-sinais-de-alerta-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Infecção por oxiúro, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-nematelmintos-nemat%C3%B3deos/infec%C3%A7%C3%A3o-por-oxi%C3%BAro',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Giardíase, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/giard%C3%ADase',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Geo-helmintíases transmitidas pelo solo: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento',
-      slug: 'artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento',
-      metaTitle: 'Artrite reumatoide: sinais iniciais',
-      title: 'Artrite reumatoide: sinais iniciais e quando procurar atendimento',
-      excerpt:
-        'Rigidez matinal, inchaço simétrico nas juntas das mãos e dor que dura semanas são a pista da artrite reumatoide. Entenda o que observar e quando procurar um reumatologista.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'primeiros-sinais',
-          heading: 'Os primeiros sinais',
-          paragraphs: [
-            'A artrite reumatoide raramente começa de uma vez. Ela vai aparecendo em detalhes que a pessoa aprende a ignorar, e são justamente esses detalhes que o reumatologista procura.',
-          ],
-          bullets: [
-            'Rigidez nas mãos ao acordar, que demora a passar',
-            'Dor e inchaço nos dedos e nos punhos, dos dois lados',
-            'Junta quente e sensível ao apertar',
-            'Dificuldade para abrir um pote ou girar a chave',
-            'Cansaço sem explicação, que aparece antes da dor intensa',
-          ],
+    id: 'artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento',
+    slug: 'artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento',
+    metaTitle: 'Artrite reumatoide: sinais iniciais',
+    title: 'Artrite reumatoide: sinais iniciais e quando procurar atendimento',
+    excerpt:
+      'Rigidez matinal, inchaço simétrico nas juntas das mãos e dor que dura semanas são a pista da artrite reumatoide. Entenda o que observar e quando procurar um reumatologista.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'primeiros-sinais',
+        heading: 'Os primeiros sinais',
+        paragraphs: [
+          'A artrite reumatoide raramente começa de uma vez. Ela vai aparecendo em detalhes que a pessoa aprende a ignorar, e são justamente esses detalhes que o reumatologista procura. O incômodo inicial costuma ser leve, intermitente e fácil de confundir com cansaço ou esforço.',
+          'O primeiro sinal costuma ser a rigidez ao acordar. As mãos demoram a abrir, os dedos parecem inchados e a sensação melhora depois de algum movimento. No começo, dura poucos minutos; com o tempo, pode passar de uma hora e voltar depois de períodos longos sentado. É esse sintoma que mais motiva a consulta nas fases iniciais, mesmo quando a dor ainda é fraca.',
+          'Antes da dor forte, muitas pessoas relatam cansaço, mal-estar e uma sensação de que o corpo está lento. Perda de peso leve e febre baixa podem acompanhar o início e às vezes só são lembradas depois do diagnóstico. Esses sintomas gerais não são específicos, mas, somados ao inchaço das juntas, ajudam a levantar a suspeita.',
+        ],
+        bullets: [
+          'Rigidez nas mãos ao acordar, que demora a passar',
+          'Dor e inchaço nos dedos e nos punhos, dos dois lados',
+          'Junta quente e sensível ao apertar',
+          'Dificuldade para abrir um pote ou girar a chave',
+          'Cansaço sem explicação, que aparece antes da dor intensa',
+        ],
+      },
+      {
+        id: 'padrao-das-juntas',
+        heading: 'Um padrão que ajuda a reconhecer',
+        paragraphs: [
+          'A dor da artrite reumatoide segue um desenho próprio: atinge articulações pequenas, das mãos e dos pés, e quase sempre dos dois lados do corpo ao mesmo tempo. O punho, a base dos dedos e as articulações entre as falanges são lugares típicos. Nos pés, as juntas logo abaixo dos dedos costumam ser as primeiras a inflamar.',
+          'Outra marca é o horário. A rigidez é maior depois do repouso, ao acordar ou após um longo período parado, e melhora quando a pessoa se mexe. Dor que só piora com o uso da junta, ao fim do dia, costuma apontar para artrose, não para artrite reumatoide.',
+          'A simetria não precisa ser perfeita. Pode haver mais inchaço de um lado, mas o padrão de várias juntas pequenas afetadas ao mesmo tempo é o que chama atenção. Juntas grandes, como ombro e joelho, podem ser atingidas, mas raramente são as primeiras. Quando só uma articulação grande incha, a investigação segue outro caminho.',
+        ],
+      },
+      {
+        id: 'rigidez-e-horario',
+        heading: 'Rigidez matinal e sintomas gerais',
+        paragraphs: [
+          'A rigidez matinal é um dos sinais mais úteis na consulta. Quando dura mais de uma hora e melhora com o movimento, levanta a suspeita de inflamação sistêmica. Rigidez de poucos minutos, que some rápido, é mais comum em outras doenças articulares.',
+          'Além das juntas, a inflamação pode causar febre baixa, perda de apetite e anemia leve. Em algumas pessoas surgem nódulos firmes sob a pele, próximos às articulações, e olhos secos ou irritados. Esses sinais mostram que a doença não se limita à articulação e reforçam a necessidade de avaliação.',
+          'A inflamação também pode atingir estruturas fora da articulação. Pulmões, olhos e vasos podem ser afetados em diferentes graus, e por isso a consulta inclui perguntas sobre tosse, falta de ar e olhos secos. O risco cardiovascular também aumenta, o que reforça o controle de pressão, colesterol e tabagismo.',
+        ],
+      },
+      {
+        id: 'duracao-importa',
+        heading: 'Por que a duração importa',
+        paragraphs: [
+          'Uma junta que dói por dois ou três dias, depois de um esforço ou de uma virose, não acende alerta. O sinal que muda a história é a persistência: inflamação que fica seis semanas ou mais, sempre nas mesmas articulações, merece avaliação.',
+          'Esse é também o ponto que separa a artrite reumatoide da dor articular deixada por arboviroses. Depois da [chikungunya](/doencas/chikungunya/) a dor pode durar meses, mas costuma ter começado de forma abrupta, com febre alta, logo após as picadas do mosquito. A [dengue](/doencas/dengue/) dói muito na fase aguda e depois alivia.',
+          'A febre alta no início dos sintomas articulares é mais típica de infecções e arboviroses do que da artrite reumatoide, e exames para essas doenças podem ser pedidos quando há suspeita. A artrite reumatoide, ao contrário, se instala devagar, sem um episódio que marque o início. Essa diferença de ritmo, junto com o exame físico, ajuda o médico a separar as duas situações.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'O primeiro passo é a unidade de saúde de referência, que avalia a persistência do inchaço e encaminha ao reumatologista. A lista de espera por reumatologia nas grandes cidades é longa, e por isso vale buscar o encaminhamento assim que a rigidez matinal se repete por semanas, sem esperar a junta deformar.',
+          'Nem tudo é emergência, mas há situações que pedem atendimento no mesmo dia. Uma única articulação inchada, quente e dolorida, ainda mais com febre, pode ser infecção na junta e precisa ser vista logo. Vermelhidão intensa e calor local também merecem avaliação urgente. Dor que impede de mover a mão, o punho ou o pé também merece avaliação urgente.',
+          'Vale levar à consulta a lista das juntas afetadas, o tempo de rigidez pela manhã e os exames já feitos, além dos medicamentos em uso, porque alguns podem causar dor articular. Quanto mais claro o histórico, mais rápida a definição do encaminhamento e do tratamento.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é confirmado',
+        paragraphs: [
+          'O reumatologista examina as articulações, conta quantas estão inchadas e doloridas e avalia a rigidez. Exames de sangue ajudam: o fator reumatoide e o anti-CCP apoiam o diagnóstico, enquanto a velocidade de hemossedimentação e a proteína C reativa mostram o grau de inflamação.',
+          'Ultrassom e ressonância podem identificar inflamação antes de a radiografia mostrar erosão. O diagnóstico é clínico e baseado no conjunto, e não em um único exame. Quanto mais cedo ele é feito, mais cedo começa o tratamento que protege as juntas.',
+          'O diagnóstico precoce abre a porta para o tratamento que muda o curso da doença. Com os medicamentos disponíveis no SUS, grande parte das pessoas consegue controlar a inflamação e manter as atividades do dia a dia.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a artrite reumatoide',
+          href: '/doencas/artrite-reumatoide/',
         },
-        {
-          id: 'padrao-das-juntas',
-          heading: 'Um padrão que ajuda a reconhecer',
-          paragraphs: [
-            'A dor da artrite reumatoide segue um desenho próprio: atinge articulações pequenas, das mãos e dos pés, e quase sempre dos dois lados do corpo ao mesmo tempo. O punho e a base dos dedos são lugares típicos.',
-            'Outra marca é o horário. A rigidez é maior depois do repouso, ao acordar ou depois de um longo período parado, e melhora quando a pessoa se mexe. Dor que só piora com o uso da junta, ao fim do dia, costuma apontar para artrose, não para artrite reumatoide.',
-          ],
-        },
-        {
-          id: 'duracao-importa',
-          heading: 'Por que a duração importa',
-          paragraphs: [
-            'Uma junta que dói por dois ou três dias, depois de um esforço ou de uma virose, não acende alerta. O sinal que muda a história é a persistência: inflamação que fica seis semanas ou mais, sempre nas mesmas articulações, merece avaliação.',
-            'Esse é também o ponto que separa a artrite reumatoide da dor articular deixada por arboviroses. Depois da [chikungunya](/doencas/chikungunya/) a dor pode durar meses, mas ela costuma ter começado de forma abrupta, com febre alta, logo após as picadas do mosquito. A [dengue](/doencas/dengue/) dói muito na fase aguda e depois alivia.',
-          ],
-        },
-        {
-          id: 'quando-procurar',
-          heading: 'Quando procurar atendimento',
-          paragraphs: [
-            'O primeiro passo é a unidade de saúde de referência, que avalia a persistência do inchaço e encaminha ao reumatologista. A lista de espera por reumatologia nas grandes cidades é longa, e por isso vale buscar o encaminhamento assim que a rigidez matinal se repete por semanas, sem esperar a junta deformar.',
-            'Nem tudo é emergência, mas há situações que pedem atendimento no mesmo dia. Uma única articulação inchada, quente e dolorida, ainda mais com febre, pode ser infecção na junta e precisa ser vista logo. Dor que impede de mover a mão, o punho ou o pé também merece avaliação urgente.',
-          ],
-          cta: {
-            label: 'Veja a página sobre a artrite reumatoide',
-            href: '/doencas/artrite-reumatoide/',
-          },
-        },
-      ],
-      diseaseSlugs: ['artrite-reumatoide'],
-      topicSlugs: ['doencas-cronicas'],
-      relatedArticleSlugs: ['artrite-reumatoide-tratamento-e-cuidados-com-as-juntas'],
-      references: [
-        {
-          label: 'Artrite reumatoide',
-          url: 'https://www.reumatologia.org.br/doencas-reumaticas/artrite-reumatoide/',
-          publisher: 'Sociedade Brasileira de Reumatologia',
-        },
-        {
-          label: 'Artrite reumatoide: folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['artrite-reumatoide'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['artrite-reumatoide-tratamento-e-cuidados-com-as-juntas'],
+    references: [
+      {
+        label: 'Artrite reumatoide',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/artrite-reumatoide/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+      {
+        label: 'Artrite reumatoide: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'artrite-reumatoide-tratamento-e-cuidados-com-as-juntas',
-      slug: 'artrite-reumatoide-tratamento-e-cuidados-com-as-juntas',
-      metaTitle: 'Artrite reumatoide: tratamento',
-      title: 'Artrite reumatoide: tratamento e cuidados com as juntas',
-      excerpt:
-        'Controlar a inflamação cedo protege a articulação da deformidade. Veja como funciona o tratamento da artrite reumatoide e quais cuidados ajudam a poupar as juntas no dia a dia.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'objetivo',
-          heading: 'O objetivo do tratamento',
-          paragraphs: [
-            'O tratamento da artrite reumatoide tem uma meta clara: apagar a inflamação antes que ela danifique a articulação. Alcançada a remissão, a doença fica quieta, a dor recua e a pessoa mantém o uso das juntas.',
-            'Por isso o início precoce é tão decisivo. Nos primeiros meses a inflamação é mais fácil de conter, e cada articulação preservada é função garantida no futuro. Esperar para ver é a pior escolha.',
-          ],
+    id: 'artrite-reumatoide-tratamento-e-cuidados-com-as-juntas',
+    slug: 'artrite-reumatoide-tratamento-e-cuidados-com-as-juntas',
+    metaTitle: 'Artrite reumatoide: tratamento',
+    title: 'Artrite reumatoide: tratamento e cuidados com as juntas',
+    excerpt:
+      'Controlar a inflamação cedo protege a articulação da deformidade. Veja como funciona o tratamento da artrite reumatoide e quais cuidados ajudam a poupar as juntas no dia a dia.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'objetivo',
+        heading: 'O objetivo do tratamento',
+        paragraphs: [
+          'O tratamento da artrite reumatoide tem uma meta clara: apagar a inflamação antes que ela danifique a articulação. Alcançada a remissão, a doença fica quieta, a dor recua e a pessoa mantém o uso das juntas. O controle da inflamação também reduz o risco de complicações fora das juntas, como problemas pulmonares e cardiovasculares.',
+          'Por isso o início precoce é tão decisivo. Nos primeiros meses a inflamação é mais fácil de conter, e cada articulação preservada é função garantida no futuro. Esperar para ver é a pior escolha. Quanto mais tempo a inflamação permanece, maior a chance de erosão e de deformidade.',
+          'A remissão não significa cura. O tratamento continua mesmo quando os sintomas desaparecem, porque a inflamação pode voltar sem dar sinal. A meta é a remissão ou, quando ela não é possível, a menor atividade de doença possível, com o mínimo de efeitos adversos. As consultas de acompanhamento servem justamente para ajustar a dose antes que a doença reacenda, e o retorno deve ser mantido mesmo em fases tranquilas.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'As medicações e o acompanhamento',
+        paragraphs: [
+          'O reumatologista escolhe as medicações e monta a sequência de tratamento conforme as opções disponíveis no serviço, ajustando tudo ao tipo de junta atingida e à resposta de cada pessoa. O SUS mantém um protocolo clínico específico para a artrite reumatoide, que organiza esse caminho. A escolha depende da atividade da doença, das juntas atingidas e de condições associadas.',
+          'O metotrexato costuma ser o primeiro medicamento modificador da doença. Quando não há resposta suficiente, o tratamento pode incluir outros modificadores ou os chamados biológicos, que bloqueiam alvos específicos da inflamação. Os corticoides podem ser usados por pouco tempo para aliviar os sintomas enquanto o restante faz efeito, e a dose é reduzida de forma gradual.',
+          'Vale lembrar que muitos desses medicamentos demoram semanas para mostrar efeito, e o alívio rápido costuma vir de outros recursos usados no início. Nunca mude a dose nem pare por conta própria, e mantenha os exames de acompanhamento, que vigiam o fígado e o sangue durante o tratamento. Leve sempre a lista de medicamentos em uso, inclusive os comprados sem receita, para evitar interações.',
+        ],
+      },
+      {
+        id: 'exames-de-controle',
+        heading: 'Exames de controle e segurança',
+        paragraphs: [
+          'O acompanhamento inclui exames de sangue periódicos para verificar a função do fígado, a contagem de células e o grau de inflamação. Esses exames detectam efeitos adversos antes que virem problema e mostram se a doença está realmente sob controle. A frequência é definida pelo reumatologista conforme o medicamento em uso, e o resultado é revisto a cada consulta.',
+          'Antes de iniciar alguns medicamentos, é preciso afastar infecções como tuberculose e hepatite, e atualizar as vacinas. Durante o tratamento, febre ou infecção persistente devem ser avaliadas com rapidez, porque a imunidade pode estar reduzida.',
+          'Mulheres em idade fértil devem conversar com o reumatologista antes de engravidar, porque alguns medicamentos precisam ser trocados. Esse planejamento evita riscos para a mãe e para o bebê.',
+        ],
+      },
+      {
+        id: 'cuidados',
+        heading: 'Cuidados que poupam as juntas',
+        paragraphs: [
+          'O remédio controla a inflamação, e o cuidado diário poupa a articulação. Alguns hábitos fazem diferença ao lado do tratamento e ajudam a manter a força e a mobilidade. A avaliação de um fisioterapeuta ou terapeuta ocupacional ajuda a adaptar utensílios e a reduzir o esforço nas tarefas.',
+          'A fisioterapia ensina a proteger as juntas nas tarefas de casa e no trabalho. Quando a dor está intensa, o repouso breve alivia, mas ficar parado por muito tempo aumenta a rigidez e piora a função. Órteses para punho e dedos podem ser indicadas em períodos de crise, por tempo limitado.',
+        ],
+        bullets: [
+          'Fazer fisioterapia para manter a mobilidade e fortalecer a musculatura em torno das juntas',
+          'Praticar atividade física de baixo impacto, como caminhada, natação ou bicicleta',
+          'Proteger as juntas: distribuir o peso, usar as duas mãos e evitar torções repetidas',
+          'Aplicar calor morno nas juntas rígidas e compressa fria nas muito inchadas',
+          'Equilibrar esforço e repouso, sem longos períodos na mesma posição',
+        ],
+      },
+      {
+        id: 'habitos',
+        heading: 'Alimentação, tabagismo e peso',
+        paragraphs: [
+          'Não existe dieta que cure a artrite reumatoide, mas alguns hábitos influenciam a inflamação e o risco cardiovascular, que é maior nessa doença. Uma alimentação com frutas, verduras, grãos e peixes ricos em ômega-3 apoia a saúde geral e ajuda no controle do peso. Não há alimento proibido, e restrições rígidas sem orientação podem levar à perda de nutrientes importantes.',
+          'Parar de fumar é uma das medidas mais importantes. O cigarro piora a atividade da doença e reduz a resposta ao tratamento. Manter o peso adequado também diminui a sobrecarga nas juntas dos pés, dos joelhos e dos quadris. O ganho de peso é comum com corticoides, e o acompanhamento ajuda a lidar com esse efeito.',
+          'Suplementos e dietas da moda não substituem o tratamento. Antes de iniciar qualquer produto, converse com o reumatologista, porque algumas substâncias interferem nos medicamentos ou sobrecarregam o fígado.',
+        ],
+      },
+      {
+        id: 'conviver',
+        heading: 'Conviver e acompanhar',
+        paragraphs: [
+          'A artrite reumatoide é crônica, e o acompanhamento é o que mantém a doença controlada ao longo dos anos. Voltar às consultas, mesmo quando tudo vai bem, permite ajustar o tratamento antes de a dor voltar a subir. O apoio da família e o contato com outros pacientes ajudam a lidar com o cansaço e as limitações. O acompanhamento também inclui a saúde dos ossos, porque o uso prolongado de corticoides e a própria doença aumentam o risco de osteoporose.',
+          'Em caso de cirurgia, de infecção ou de febre durante o tratamento, avise o reumatologista antes de tomar qualquer providência. Nunca interrompa os medicamentos por conta própria, porque a interrupção pode desencadear uma crise. Manter a caderneta de vacinas atualizada também protege quem usa remédios que reduzem a imunidade.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a artrite reumatoide',
+          href: '/doencas/artrite-reumatoide/',
         },
-        {
-          id: 'medicamentos',
-          heading: 'As medicações e o acompanhamento',
-          paragraphs: [
-            'O reumatologista escolhe as medicações e monta a sequência de tratamento conforme as opções disponíveis no serviço, ajustando tudo ao tipo de junta atingida e à resposta de cada pessoa. O SUS mantém um protocolo clínico específico para a artrite reumatoide, que organiza esse caminho.',
-            'Vale lembrar que muitos desses medicamentos demoram semanas para mostrar efeito, e o alívio rápido costuma vir de outros recursos usados no início. Nunca mude a dose nem pare por conta própria, e mantenha os exames de acompanhamento, que vigiam o fígado e o sangue durante o tratamento.',
-          ],
-        },
-        {
-          id: 'cuidados',
-          heading: 'Cuidados que poupam as juntas',
-          paragraphs: [
-            'O remédio controla a inflamação, e o cuidado diário poupa a articulação. Alguns hábitos fazem diferença ao lado do tratamento.',
-          ],
-          bullets: [
-            'Fazer fisioterapia para manter a mobilidade e fortalecer a musculatura em torno das juntas',
-            'Praticar atividade física de baixo impacto, como caminhada, natação ou bicicleta',
-            'Proteger as juntas: distribuir o peso, usar as duas mãos e evitar torções repetidas',
-            'Aplicar calor morno nas juntas rígidas e compressa fria nas muito inchadas',
-            'Equilibrar esforço e repouso, sem longos períodos na mesma posição',
-          ],
-        },
-        {
-          id: 'conviver',
-          heading: 'Conviver e acompanhar',
-          paragraphs: [
-            'A artrite reumatoide é crônica, e o acompanhamento é o que mantém a doença controlada ao longo dos anos. Voltar às consultas, mesmo quando tudo vai bem, permite ajustar o tratamento antes de a dor voltar a subir.',
-            'Parar de fumar, manter o peso e cuidar das vacinas recomendadas ajudam o resto do corpo a acompanhar as juntas. Em caso de cirurgia, de infecção ou de febre durante o tratamento, avise o reumatologista antes de tomar qualquer providência.',
-          ],
-          cta: {
-            label: 'Veja a página sobre a artrite reumatoide',
-            href: '/doencas/artrite-reumatoide/',
-          },
-        },
-      ],
-      diseaseSlugs: ['artrite-reumatoide'],
-      topicSlugs: ['doencas-cronicas', 'prevencao'],
-      relatedArticleSlugs: ['artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Protocolo Clínico e Diretrizes Terapêuticas de Artrite Reumatoide',
-          url: 'https://www.gov.br/conitec/pt-br/midias/relatorios/2017/pcdt_ar_final.pdf/@@download/file',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Artrite reumatoide',
-          url: 'https://www.reumatologia.org.br/doencas-reumaticas/artrite-reumatoide/',
-          publisher: 'Sociedade Brasileira de Reumatologia',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['artrite-reumatoide'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['artrite-reumatoide-sinais-iniciais-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas de Artrite Reumatoide',
+        url: 'https://www.gov.br/conitec/pt-br/midias/relatorios/2017/pcdt_ar_final.pdf/@@download/file',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Artrite reumatoide',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/artrite-reumatoide/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
     id: 'hipertensao-alimentacao-e-sal',
     slug: 'hipertensao-alimentacao-e-sal',
