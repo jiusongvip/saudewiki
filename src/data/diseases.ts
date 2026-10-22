@@ -5075,6 +5075,30 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'dados-e-frequencia',
+          heading: 'Quanta gente tem colesterol alto no Brasil?',
+          paragraphs: [
+            'O achado é comum. Estudos de base populacional citados no protocolo brasileiro de dislipidemia apontam prevalência de 43% a 60% entre adultos. Como quase nunca dá sintoma, boa parte dessas pessoas descobre o problema em um exame pedido por outro motivo, na consulta de rotina.',
+            'O número varia conforme a faixa de idade, o sexo e o critério usado para definir o que está alterado, então não serve como estatística exata de uma cidade. O que ele mostra é o tamanho do problema: colesterol alto não é exceção na rotina da atenção básica e costuma vir junto com outros fatores de risco cardiovascular.',
+          ],
+        },
+        {
+          id: 'fatores-de-risco',
+          heading: 'O que aumenta o risco?',
+          paragraphs: [
+            'Herança genética, alimentação e doenças que mexem no metabolismo explicam quase todos os casos. Os fatores se somam: quem acumula vários deles precisa de metas mais rígidas e de acompanhamento mais próximo.',
+          ],
+          bullets: [
+            'Alimentação rica em gordura saturada, ultraprocessados e açúcar',
+            'Sobrepeso, obesidade e sedentarismo',
+            'Diabetes e resistência à insulina',
+            'Pressão alta e doença renal',
+            'Tabagismo e consumo de álcool',
+            'Hipotireoidismo não tratado',
+            'História familiar de colesterol muito alto ou infarto precoce',
+          ],
+        },
+        {
           id: 'sintomas',
           heading: 'Quais são os sintomas?',
           paragraphs: [
@@ -5089,22 +5113,6 @@ export const diseases: Disease[] = [
           ],
         },
         {
-          id: 'fatores-de-risco',
-          heading: 'O que aumenta o risco?',
-          paragraphs: [
-            'Herança genética, alimentação e doenças que mexem no metabolismo explicam quase todos os casos. Estudos de base populacional citados no protocolo brasileiro de dislipidemia apontam prevalências de 43% a 60% entre adultos, o que ajuda a entender por que o achado é tão comum em exame de rotina.',
-          ],
-          bullets: [
-            'Alimentação rica em gordura saturada, ultraprocessados e açúcar',
-            'Sobrepeso, obesidade e sedentarismo',
-            'Diabetes e resistência à insulina',
-            'Pressão alta e doença renal',
-            'Tabagismo e consumo de álcool',
-            'Hipotireoidismo não tratado',
-            'História familiar de colesterol muito alto ou infarto precoce',
-          ],
-        },
-        {
           id: 'diagnostico',
           heading: 'Como é feito o diagnóstico?',
           paragraphs: [
@@ -5115,6 +5123,40 @@ export const diseases: Disease[] = [
             label: 'Leia também: como detectar o colesterol alto e quando procurar atendimento',
             href: '/artigos/colesterol-alto-como-detectar-e-quando-procurar-atendimento/',
           },
+        },
+        {
+          id: 'sinais-de-alerta',
+          heading: 'Sinais de alerta e quando procurar atendimento',
+          paragraphs: [
+            'Colesterol alto por si não é emergência. O que exige atendimento imediato é o que ele provoca, ou o quadro de triglicerídeos muito elevados. Ligue para o SAMU (192) ou vá a um pronto atendimento se aparecer:',
+          ],
+          bullets: [
+            'Dor no peito forte, opressiva, com irradiação para braço, mandíbula ou costas',
+            'Boca torta, fala embolada ou fraqueza súbita em um braço',
+            'Dor abdominal intensa e contínua, acima do umbigo, com vômitos e sem alívio',
+            'Falta de ar súbita aos esforços, em quem trata doença arterial',
+            'Dor na perna ao caminhar que surge do nada e não melhora com descanso',
+          ],
+        },
+        {
+          id: 'tratamento',
+          heading: 'Como baixar o colesterol?',
+          paragraphs: [
+            'O tratamento começa pela alimentação e pelo movimento, mas quem tem risco alto ou doença cardiovascular estabelecida precisa de remédio. A estatina é a primeira linha nas diretrizes brasileiras, com recomendação forte e evidência de nível máximo: ela reduz LDL, eventos cardiovasculares e mortalidade, e o perfil de segurança é bom, com efeitos adversos pouco frequentes. A dose e a meta são definidas pelo risco individual, não por um número fixo para todos.',
+            'As queixas musculares merecem resposta objetiva. A dor muscular por estatina é rara, costuma aparecer entre quatro e doze semanas do início, em grupos musculares grandes e dos dois lados do corpo, e melhora quando a dose é revista; medir a enzima CK de rotina, sem sintoma, não faz parte do acompanhamento. Fígado e glicemia também entram na conversa: as transaminases são pedidas na entrada do tratamento e reavaliadas só se houver queixa, e o pequeno aumento de casos novos de diabetes descrito com estatinas potentes não anula o benefício cardiovascular de quem tem risco alto. Triglicerídeos acima de 500 mg/dL mudam de prioridade: aí o objetivo imediato é evitar a pancreatite, e o protocolo nacional prevê fibratos para essa situação.',
+          ],
+          cta: {
+            label: 'Leia também: tratamento do colesterol alto e mudanças de hábitos',
+            href: '/artigos/colesterol-alto-tratamento-e-mudancas-de-habitos/',
+          },
+        },
+        {
+          id: 'opcoes-alem-da-estatina',
+          heading: 'E quando a estatina não basta?',
+          paragraphs: [
+            'Quando a estatina na dose máxima tolerada não leva o LDL à meta, ou quando a pessoa não tolera a dose necessária, as diretrizes brasileiras preveem associações. A ezetimiba, tomada por via oral, baixa o LDL por outro mecanismo e costuma ser a combinação mais usada nesse cenário.',
+            'Em quem tem risco muito alto ou hipercolesterolemia familiar, entram os inibidores de PCSK9, aplicados por injeção e reservados a quem precisa de uma queda grande e adicional do LDL. Na forma homozigótica, a mais grave da doença genética, a diretriz brasileira também prevê a aférese de LDL, procedimento feito em serviço especializado para retirar o colesterol do sangue. A indicação e o acompanhamento dessas opções ficam com o especialista.',
+          ],
         },
         {
           id: 'complicacoes',
@@ -5131,16 +5173,12 @@ export const diseases: Disease[] = [
           ],
         },
         {
-          id: 'tratamento',
-          heading: 'Como baixar o colesterol?',
+          id: 'prognostico',
+          heading: 'Qual é o prognóstico?',
           paragraphs: [
-            'O tratamento começa pela alimentação e pelo movimento, mas quem tem risco alto ou doença cardiovascular estabelecida precisa de remédio. A estatina é a primeira linha nas diretrizes brasileiras, com recomendação forte e evidência de nível máximo: ela reduz LDL, eventos cardiovasculares e mortalidade, e o perfil de segurança é bom, com efeitos adversos pouco frequentes. A dose e a meta são definidas pelo risco individual, não por um número fixo para todos.',
-            'As queixas musculares merecem resposta objetiva. A dor muscular por estatina é rara, costuma aparecer entre quatro e doze semanas do início, em grupos musculares grandes e dos dois lados do corpo, e melhora quando a dose é revista; medir a enzima CK de rotina, sem sintoma, não faz parte do acompanhamento. Fígado e glicemia também entram na conversa: as transaminases são pedidas na entrada do tratamento e reavaliadas só se houver queixa, e o pequeno aumento de casos novos de diabetes descrito com estatinas potentes não anula o benefício cardiovascular de quem tem risco alto. Triglicerídeos acima de 500 mg/dL mudam de prioridade: aí o objetivo imediato é evitar a pancreatite, e o protocolo nacional prevê fibratos para essa situação.',
+            'Colesterol alto não tem cura, mas tem controle. Quando a meta de LDL é atingida e mantida, o risco de infarto e de AVC cai de forma consistente; o benefício depende de quanto tempo o tratamento é mantido, não de um exame isolado.',
+            'Parar a estatina por conta própria faz o LDL voltar perto do valor anterior, porque o remédio não corrige a causa metabólica, apenas segura o resultado. Por isso a reavaliação é feita com exames seriados, e a decisão de trocar ou suspender é da equipe, não uma escolha tomada no intervalo entre as consultas.',
           ],
-          cta: {
-            label: 'Leia também: tratamento do colesterol alto e mudanças de hábitos',
-            href: '/artigos/colesterol-alto-tratamento-e-mudancas-de-habitos/',
-          },
         },
         {
           id: 'vida-diaria',
@@ -5148,20 +5186,6 @@ export const diseases: Disease[] = [
           paragraphs: [
             'A Organização Mundial da Saúde dá referências claras para a gordura da dieta: no máximo 30% das calorias do dia vindas de gordura, no máximo 10% de gordura saturada, quase nada de gordura trans, e açúcares livres abaixo de 10% das calorias, com menos de 5% sendo ainda melhor. No mesmo pacote entram pelo menos 400 g por dia de frutas e verduras para quem tem mais de dez anos e cerca de 25 g de fibras.',
             'Na prática, o que move o ponteiro é trocar, não só cortar: arroz branco por arroz integral, carne processada por feijão com ovo ou peixe, biscoito recheado por fruta, óleo de fritura por azeite na finalização. Atividade física aeróbica regular ajuda sobretudo no HDL e nos triglicerídeos e no controle do peso, e parar de fumar reduz o risco cardiovascular de forma mais rápida do que qualquer dieta.',
-          ],
-        },
-        {
-          id: 'sinais-de-alerta',
-          heading: 'Sinais de alerta e quando procurar atendimento',
-          paragraphs: [
-            'Colesterol alto por si não é emergência. O que exige atendimento imediato é o que ele provoca, ou o quadro de triglicerídeos muito elevados. Ligue para o SAMU (192) ou vá a um pronto atendimento se aparecer:',
-          ],
-          bullets: [
-            'Dor no peito forte, opressiva, com irradiação para braço, mandíbula ou costas',
-            'Boca torta, fala embolada ou fraqueza súbita em um braço',
-            'Dor abdominal intensa e contínua, acima do umbigo, com vômitos e sem alívio',
-            'Falta de ar súbita aos esforços, em quem trata doença arterial',
-            'Dor na perna ao caminhar que surge do nada e não melhora com descanso',
           ],
         },
         {
@@ -5224,7 +5248,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-22',
       isPlaceholder: true,
     },
   {
@@ -5246,19 +5270,11 @@ export const diseases: Disease[] = [
           ],
         },
         {
-          id: 'sintomas',
-          heading: 'Quais são os sintomas?',
+          id: 'dados-e-frequencia',
+          heading: 'Quantas pessoas têm doença renal crônica?',
           paragraphs: [
-            'Nas primeiras fases, nenhum. Os rins têm margem de reserva grande, e a doença costuma avançar sem queixa alguma; por isso a Organização Mundial da Saúde estima que centenas de milhões de pessoas convivem com o diagnóstico sem saber. Os sintomas aparecem tarde, quando a filtração já caiu muito, e raramente apontam direto para os rins:',
-          ],
-          bullets: [
-            'Cansaço, falta de ar e palidez, pela anemia comum na doença renal',
-            'Inchaço nas pernas, nos pés e ao redor dos olhos',
-            'Coceira generalizada, sem lesão de pele',
-            'Cãibras musculares, sobretudo à noite',
-            'Perda de apetite, náuseas e vômitos',
-            'Sono irregular, sonolência diurna e dificuldade de concentração',
-            'Urinhar muito à noite, ou urinar em pouca quantidade nas fases finais',
+            'A doença renal crônica é uma das doenças crônicas mais frequentes no Brasil e uma das principais causas de diálise. Como evolui sem sintomas durante anos, o diagnóstico costuma chegar tarde, quando a filtração já caiu de forma importante. Nessa situação, a hemodiálise pode ser o primeiro tratamento imediato, enquanto o acompanhamento regular tenta preservar o que ainda resta de função.',
+            'No mundo, a Organização Mundial da Saúde estima que cerca de 674 milhões de pessoas vivem com doença renal crônica, a maior parte em países de baixa e média renda. O número cresce junto com o diabetes, a hipertensão e o envelhecimento da população, o que faz da doença renal um problema de saúde pública também no Brasil.',
           ],
         },
         {
@@ -5283,6 +5299,22 @@ export const diseases: Disease[] = [
             'Histórico de doença coronariana, AVC, doença arterial periférica ou insuficiência cardíaca',
             'História de doença renal na família',
             'Tabagismo e uso frequente de analgésicos e anti-inflamatórios',
+          ],
+        },
+        {
+          id: 'sintomas',
+          heading: 'Quais são os sintomas?',
+          paragraphs: [
+            'Nas primeiras fases, nenhum. Os rins têm margem de reserva grande, e a doença costuma avançar sem queixa alguma; por isso costuma ser descoberta tarde, muitas vezes já em fase avançada. Os sintomas aparecem quando a filtração já caiu muito e raramente apontam direto para os rins:',
+          ],
+          bullets: [
+            'Cansaço, falta de ar e palidez, pela anemia comum na doença renal',
+            'Inchaço nas pernas, nos pés e ao redor dos olhos',
+            'Coceira generalizada, sem lesão de pele',
+            'Cãibras musculares, sobretudo à noite',
+            'Perda de apetite, náuseas e vômitos',
+            'Sono irregular, sonolência diurna e dificuldade de concentração',
+            'Urinar muito à noite, ou urinar em pouca quantidade nas fases finais',
           ],
         },
         {
@@ -5313,11 +5345,33 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'sinais-de-alerta',
+          heading: 'Sinais de alerta e quando procurar atendimento',
+          paragraphs: [
+            'Alguns sintomas pedem avaliação rápida, porque indicam que a doença avançou ou que surgiram complicações. Procure atendimento médico com urgência se aparecer:',
+          ],
+          bullets: [
+            'Falta de ar importante ou inchaço generalizado, que podem indicar acúmulo de líquido nos pulmões ou descompensação do coração',
+            'Queda do volume de urina ou ausência de urina por um dia',
+            'Confusão mental, sonolência excessiva ou convulsão, sinais de encefalopatia urêmica',
+            'Dor no peito, palpitações ou desmaio',
+            'Dor no peito que piora ao respirar ou ao deitar, possível pericardite',
+            'Fraqueza muscular importante, com coração acelerado, que pode indicar potássio muito alto',
+            'Febre com dor lombar e urina turva ou com sangue',
+            'Cólica renal intensa, com vômitos que não passam',
+            'Alterações graves no exame de sangue, como potássio muito alto, que podem levar à indicação de diálise de urgência',
+          ],
+          cta: {
+            label: 'Veja a página sobre doença renal crônica',
+            href: '/doencas/doenca-renal-cronica/',
+          },
+        },
+        {
           id: 'tratamento',
           heading: 'Como é o tratamento?',
           paragraphs: [
             'Nas fases iniciais, o objetivo não é recuperar o que já se perdeu, e sim conter o avanço. Isso se faz controlando a pressão arterial e a glicemia, tratando colesterol e triglicerídeos, ajustando a dieta, mantendo peso saudável, praticando atividade física e parando de fumar. O nefrologista é o especialista que acompanha a doença renal, e a unidade básica de saúde coordena as consultas, os exames e o encaminhamento quando a fase avança.',
-            'Chegar ao estágio 5 não significa começar a diálise no dia seguinte. Existe a fase conservadora e, depois, a pré-diálise, em que a equipe prepara o corpo e o acesso para o tratamento substitutivo. A escolha entre hemodiálise e diálise peritoneal é compartilhada com a pessoa, idealmente planejada no ambulatório, e a indicação urgente só aparece quando há sintomas intratáveis ou alterações de laboratório com risco de vida. O transplante de rim, quando possível, costuma dar mais qualidade de vida do que a diálise, e a fila segue as regras de compatibilidade do Sistema Nacional de Transplantes.',
+            'Alguns medicamentos entram justamente para proteger o rim e o coração. Inibidores da enzima conversora de angiotensina (IECA) ou bloqueadores do receptor de angiotensina (BRA), anti-hipertensivos que também reduzem a albumina na urina; inibidores de SGLT2, usados no diabetes e também na doença renal com albuminúria; eritropoetina ou agentes estimuladores da eritropoese (ESA), quando a anemia da doença renal se instala, sempre com controle do ferro; e quelantes de fósforo, quando o mineral sobe no sangue. Quem tem anemia pode precisar de reposição de ferro, por via oral ou intravenosa. As doses são individuais e ajustadas pela equipe, e nenhum desses remédios deve ser iniciado por conta própria.',
           ],
           cta: {
             label: 'Leia também: tratamento e convivência com a doença renal crônica',
@@ -5325,24 +5379,28 @@ export const diseases: Disease[] = [
           },
         },
         {
-          id: 'sinais-de-alerta',
-          heading: 'Sinais de alerta e quando procurar atendimento',
+          id: 'dialise-e-transplante',
+          heading: 'Diálise e transplante: como funcionam?',
           paragraphs: [
-            'Alguns sintomas pedem avaliação rápida, porque indicam que a doença avançou ou que surgiram complicações. Procure atendimento médico com urgência se aparecer:',
+            'Quando os rins já não dão conta, a terapia renal substitutiva assume a filtragem. A hemodiálise é feita em clínica especializada, em geral três vezes por semana, com o sangue passando por uma máquina que retira as toxinas; a diálise peritoneal usa a membrana que reveste o abdome como filtro e é feita todos os dias em casa, muitas vezes à noite, com trocas de líquido. A escolha entre as duas é compartilhada com a pessoa e a família, e depende da rotina, das outras doenças e do apoio disponível.',
+            'O transplante renal, quando possível, costuma oferecer mais qualidade de vida do que a diálise. O procedimento pode usar rim de doador falecido ou vivo e depende de compatibilidade, avaliação clínica e da lista única do Sistema Nacional de Transplantes; em alguns casos, é feito antes de a pessoa começar a diálise, o chamado transplante preemptivo. O caminho começa na unidade básica de saúde, que encaminha ao nefrologista: nos estágios 1 a 3 o tratamento é conservador, nos estágios 4 e 5 não dialíticos ele se prepara para a terapia substitutiva, e a diálise ou o transplante entram quando indicados. O SUS oferece hemodiálise e diálise peritoneal em clínicas conveniadas e realiza transplantes pela rede de atenção à saúde.',
           ],
-          bullets: [
-            'Falta de ar importante, com inchaço generalizado',
-            'Queda do volume de urina ou ausência de urina por um dia',
-            'Confusão mental, sonolência excessiva ou convulsão',
-            'Dor no peito, palpitações ou desmaio',
-            'Febre com dor lombar e urina turva ou com sangue',
-            'Cólica renal intensa, com vômitos que não passam',
-            'Fraqueza muscular importante, com coração acelerado, que pode indicar potássio alto',
+        },
+        {
+          id: 'prognostico',
+          heading: 'Qual é o prognóstico?',
+          paragraphs: [
+            'A doença renal crônica não tem cura, mas a velocidade com que avança varia muito de pessoa para pessoa. Quem mantém pressão, glicemia, colesterol e peso sob controle, evita remédios que agridem o rim e comparece às consultas pode passar anos nos estágios iniciais sem precisar de diálise; uma parte das pessoas nunca chega ao estágio 5.',
+            'Nos estágios mais avançados, o prognóstico melhora quando o tratamento substitutivo é planejado com antecedência, em vez de começar numa emergência. O transplante renal, quando viável, costuma dar mais qualidade de vida do que a diálise. Quando a diálise ou o transplante não estão disponíveis, não são possíveis ou não são desejados, o cuidado conservador continua sendo uma opção legítima, com foco no controle dos sintomas e na qualidade de vida.',
           ],
-          cta: {
-            label: 'Veja a página sobre doença renal crônica',
-            href: '/doencas/doenca-renal-cronica/',
-          },
+        },
+        {
+          id: 'vida-diaria',
+          heading: 'Vida diária com doença renal',
+          paragraphs: [
+            'Alimentação é parte do tratamento, e não enfeite. Nas fases mais avançadas, entra na conta o controle de sódio (inchaço e pressão), de potássio (frutas como banana, laranja e abacate em excesso podem ser problema) e de fósforo (presente em refrigerantes, lácteos e ultraprocessados). A Sociedade Brasileira de Nefrologia tem uma lista inusitada e importante: a carambola é o único alimento proibido para quem está nos estágios 4 e 5, porque, em pessoas com função renal muito reduzida, pode causar soluços, confusão mental, convulsão e coma.',
+            'A rotina também é feita de atenção simples: pesar-se nos mesmos horários ajuda a perceber a retenção de líquido, anotar a pressão arterial evita consultas no escuro, e comparar o volume de urina ao longo dos dias dá pistas precoces. O acompanhamento ambulatorial regular, incluindo controle da pressão, permite retardar a chegada à diálise e preservar qualidade de vida. O apoio psicológico e a reabilitação são parte do cuidado, sobretudo quando o tratamento substitutivo é planejado com antecedência.',
+          ],
         },
         {
           id: 'prevencao',
@@ -5357,14 +5415,6 @@ export const diseases: Disease[] = [
             'Manter peso saudável e atividade física regular',
             'Tratar infecções urinárias de repetição',
             'Investigar rins e vias urinárias na gestação e na infância, quando indicado',
-          ],
-        },
-        {
-          id: 'vida-diaria',
-          heading: 'Vida diária com doença renal',
-          paragraphs: [
-            'Alimentação é parte do tratamento, e não enfeite. Nas fases mais avançadas, entra na conta o controle de sódio (inchaço e pressão), de potássio (frutas como banana, laranja e abacate em excesso podem ser problema) e de fósforo (presente em refrigerantes, lácteos e ultraprocessados). A Sociedade Brasileira de Nefrologia tem uma lista inusitada e importante: a carambola é o único alimento proibido para quem está nos estágios 4 e 5, porque, em pessoas com função renal muito reduzida, pode causar soluços, confusão mental, convulsão e coma.',
-            'A rotina também é feita de atenção simples: pesar-se nos mesmos horários ajuda a perceber a retenção de líquido, anotar a pressão arterial evita consultas no escuro, e comparar o volume de urina ao longo dos dias dá pistas precoces. O acompanhamento ambulatorial regular, incluindo controle da pressão, permite retardar a chegada à diálise e preservar qualidade de vida. O apoio psicológico e a reabilitação são parte do cuidado, sobretudo quando o tratamento substitutivo é planejado com antecedência.',
           ],
         },
       ],
@@ -5417,7 +5467,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-22',
       isPlaceholder: true,
     },
   {
@@ -5436,6 +5486,28 @@ export const diseases: Disease[] = [
           paragraphs: [
             'A hanseníase é uma doença infecciosa de evolução lenta, causada pela bactéria Mycobacterium leprae, também conhecida como bacilo de Hansen. A doença atinge principalmente a pele e os nervos periféricos, o que explica o aparecimento de manchas com perda de sensibilidade e a dormência nas mãos e nos pés.',
             'A hanseníase tem cura, e o tratamento está disponível gratuitamente no Sistema Único de Saúde (SUS). O diagnóstico precoce é o que evita que a infecção deixe sequelas nos nervos e nas articulações. Segundo a Organização Mundial da Saúde, o Brasil está entre os países que ainda registram o maior número de casos novos no mundo, o que levou o país a manter um programa público permanente de busca ativa, diagnóstico e tratamento.',
+          ],
+        },
+        {
+          id: 'dados-e-frequencia',
+          heading: 'Quantos casos existem no Brasil?',
+          paragraphs: [
+            'A hanseníase continua sendo um problema de saúde pública no Brasil. Segundo a Organização Mundial da Saúde, o país está entre os três que ainda registram mais de 10 mil casos novos por ano, ao lado da Índia e da Indonésia. Por causa disso, o Ministério da Saúde mantém, há décadas, um programa público permanente de busca ativa, diagnóstico e tratamento.',
+            'Dentro do país, a distribuição é desigual. Há registro de casos novos em todas as unidades da federação, mas as maiores concentrações estão nas regiões Centro-Oeste, Norte e Nordeste. A doença se relaciona a condições econômicas, sociais e ambientais desfavoráveis, e não a qualquer característica individual das pessoas acometidas.',
+          ],
+        },
+        {
+          id: 'formas-e-classificacao',
+          heading: 'Formas clínicas e classificação',
+          paragraphs: [
+            'A hanseníase não se manifesta sempre da mesma maneira. A forma clínica depende da resposta imunológica de cada pessoa e pode mudar ao longo do tempo, o que faz dela uma doença de espectro. Além da forma clínica, existe uma divisão operacional adotada pelo Ministério da Saúde e pela Organização Mundial da Saúde, que é a que define o tratamento: casos paucibacilares (PB), com até cinco lesões de pele e sem bacilos visíveis na baciloscopia, e casos multibacilares (MB), com mais de cinco lesões, comprometimento de nervos ou baciloscopia positiva. São os casos multibacilares que transmitem a infecção enquanto não iniciam o tratamento.',
+            'Na prática, são descritas quatro grandes formas clínicas:',
+          ],
+          bullets: [
+            'Indeterminada: forma inicial, com poucas manchas claras e perda discreta de sensibilidade, que pode regredir sozinha ou evoluir para outra forma',
+            'Tuberculoide: poucas manchas bem delimitadas, com perda de sensibilidade acentuada e comprometimento precoce dos nervos',
+            'Dimorfa: forma intermediária e instável, que reúne quadros próximos da tuberculoide e quadros próximos da virchowiana',
+            'Virchowiana: forma mais disseminada, com grande quantidade de bacilos, muitas lesões e comprometimento amplo da pele e dos nervos',
           ],
         },
         {
@@ -5489,6 +5561,21 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'diagnostico-diferencial',
+          heading: 'O que pode ser confundido com hanseníase?',
+          paragraphs: [
+            'Muitas doenças de pele produzem manchas claras, e a maioria delas não causa perda de sensibilidade. É a avaliação dos nervos, com os testes de sensibilidade, que separa a hanseníase de outras causas de mancha.',
+            'Fora das doenças de pele, a hanseníase também entra na lista de causas de neuropatia periférica, ao lado de outras condições que lesionam os nervos, como o diabetes. Quando há comprometimento de nervo sem mancha evidente, a investigação em serviço de referência é o que diferencia os quadros.',
+          ],
+          bullets: [
+            'Vitiligo: manchas brancas, bem delimitadas, sem alteração da sensibilidade, do suor ou da textura da pele',
+            'Pitiríase versicolor: o pano branco, com manchas claras ou amarronzadas, descamação fina e, muitas vezes, coceira',
+            'Tinha do corpo: micose com placas avermelhadas e bordas descamativas, que costuma coçar',
+            'Granuloma anular: placas em forma de anel, com a pele central mais clara e sem dormência',
+            'Dermatite e pitiríase alba: manchas claras que coçam e melhoram com hidratante ou creme com corticoide',
+          ],
+        },
+        {
           id: 'fatores-de-risco',
           heading: 'O que aumenta o risco?',
           paragraphs: [
@@ -5506,13 +5593,44 @@ export const diseases: Disease[] = [
           id: 'tratamento',
           heading: 'Tratamento e cuidados',
           paragraphs: [
-            'O tratamento é feito com a poliquimioterapia (PQT-U), combinação de três antibióticos fornecidos gratuitamente pelo SUS: rifampicina, dapsona e clofazimina. Nas formas paucibacilares, o esquema dura seis meses; nas multibacilares, doze meses. A medicação é distribuída na UBS, sem necessidade de internação.',
-            'Na consulta mensal, a dose do primeiro medicamento é supervisionada por um profissional de saúde, e as demais cartelas são tomadas em casa. Nos primeiros dias de tratamento, a pessoa deixa de transmitir a infecção. Ao completar todas as doses dentro do prazo previsto e passar pela avaliação final, recebe alta por cura.',
+            'O tratamento é feito com a poliquimioterapia (PQT-U), fornecida gratuitamente pelo SUS e distribuída na unidade básica de saúde, sem necessidade de internação. Nos casos paucibacilares, o esquema combina rifampicina e dapsona e dura seis meses. Nos multibacilares, acrescenta a clofazimina e se estende por doze meses.',
+            'Na consulta mensal, a dose do primeiro medicamento é supervisionada por um profissional de saúde, e as demais cartelas são tomadas em casa. Logo no início do tratamento, a pessoa deixa de transmitir a infecção. Ao completar todas as doses dentro do prazo previsto e passar pela avaliação final, recebe alta por cura.',
+            'As reações hansênicas e as neurites podem surgir durante ou depois do tratamento, sem significar falha do esquema. São tratadas pela equipe de referência com medicamentos para controlar a inflamação, e a poliquimioterapia não deve ser interrompida por causa delas.',
           ],
           cta: {
             label: 'Leia também: como funciona o tratamento gratuito no SUS',
             href: '/artigos/hanseniase-tratamento-gratuito-no-sus/',
           },
+        },
+        {
+          id: 'reabilitacao-e-cirurgia',
+          heading: 'Reabilitação e cirurgia',
+          paragraphs: [
+            'O comprometimento dos nervos é o que dá à hanseníase o potencial de causar deficiências e deformidades. Por isso, a prevenção de incapacidades começa no diagnóstico precoce e continua durante e depois do tratamento, mesmo quando as lesões de pele já melhoraram.',
+            'Quando um nervo já sofreu lesão, a pessoa pode ser encaminhada a serviços especializados, que avaliam fisioterapia, adaptações e, em casos selecionados, cirurgia reconstrutiva ou de descompressão de nervos. O objetivo é preservar ao máximo o movimento, a força e a sensibilidade das mãos, dos pés e da face.',
+          ],
+          bullets: [
+            'Exercícios de alongamento e fortalecimento para manter o movimento de mãos, pés e rosto',
+            'Uso de adaptações e de calçados especiais quando já existe perda de força ou de sensibilidade',
+            'Tratamento precoce das reações e das neurites, que agravam a lesão dos nervos',
+            'Reavaliações periódicas da força muscular e da sensibilidade durante o acompanhamento',
+          ],
+        },
+        {
+          id: 'prognostico-e-sequelas',
+          heading: 'Qual é o prognóstico e quais sequelas podem ficar?',
+          paragraphs: [
+            'Com diagnóstico precoce e tratamento regular, a hanseníase tem cura, e a maior parte das pessoas se recupera sem sequelas. Os nervos já lesionados antes do diagnóstico, porém, podem não voltar ao normal, e é essa lesão que deixa marcas permanentes.',
+            'As principais sequelas são a perda de sensibilidade e de força nas mãos, nos pés e na face, as deformidades, as úlceras de repetição nos pés e a dor neuropática. Alterações no fechamento dos olhos também exigem cuidado, porque podem ferir a córnea. Pode ser necessário manter acompanhamento depois da alta por cura, para tratar as reações tardias e evitar que essas complicações avancem.',
+          ],
+        },
+        {
+          id: 'vida-diaria',
+          heading: 'Vida diária durante e depois do tratamento',
+          paragraphs: [
+            'Hanseníase é uma doença infecciosa curável como qualquer outra, e o diagnóstico deve ser recebido sem culpa e sem vergonha. Com tratamento regular, a pessoa continua a trabalhar, estudar e conviver com a família normalmente.',
+            'Gravidez e amamentação não contraindicam o tratamento. Quem faz uso de anticoncepcionais orais deve avisar a equipe, porque a rifampicina pode reduzir a eficácia. As reações e neurites que surgem durante ou depois do tratamento são tratadas pela equipe de referência, e o autocuidado diário com mãos, pés e olhos é o que mais evita as lesões que levam a deformidades.',
+          ],
         },
         {
           id: 'prevencao',
@@ -5526,14 +5644,6 @@ export const diseases: Disease[] = [
             'Submeter à avaliação os familiares, colegas de trabalho e demais contatos próximos',
             'Manter autocuidado diário com mãos, pés e olhos, sobretudo durante o tratamento',
             'Voltar às consultas de acompanhamento para vigiar reações e sinais de neuropatia',
-          ],
-        },
-        {
-          id: 'vida-diaria',
-          heading: 'Vida diária durante e depois do tratamento',
-          paragraphs: [
-            'Hanseníase é uma doença infecciosa curável como qualquer outra, e o diagnóstico deve ser recebido sem culpa e sem vergonha. Com tratamento regular, a pessoa continua a trabalhar, estudar e conviver com a família normalmente.',
-            'Gravidez e amamentação não contraindicam o tratamento. Quem faz uso de anticoncepcionais orais deve avisar a equipe, porque a rifampicina pode reduzir a eficácia. As reações e neurites que surgem durante ou depois do tratamento são tratadas pela equipe de referência, e o autocuidado diário com mãos, pés e olhos é o que mais evita as lesões que levam a deformidades.',
           ],
         },
       ],
@@ -5581,7 +5691,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-22',
       isPlaceholder: true,
     },
   {
@@ -5603,9 +5713,27 @@ export const diseases: Disease[] = [
           ],
         },
         {
+          id: 'dados-e-frequencia',
+          heading: 'Quanta gente tem anemia ferropriva?',
+          paragraphs: [
+            'Segundo a Organização Mundial da Saúde, a anemia é um problema de saúde pública que atinge sobretudo crianças pequenas, gestantes e puérperas e meninas e mulheres em idade fértil. Em estimativas globais, 40% das crianças de 6 a 59 meses, 37% das gestantes e 30% das mulheres de 15 a 49 anos têm anemia, e a deficiência de ferro é a carência nutricional que mais contribui para esses números.',
+            'No Brasil, a deficiência de ferro e a anemia ferropriva aparecem com frequência elevada entre crianças pequenas e mulheres em idade fértil, principalmente nos grupos de menor renda. Por isso o problema é tratado como prioridade da atenção básica, com suplementação e acompanhamento nos serviços de saúde.',
+          ],
+        },
+        {
+          id: 'fatores-de-risco',
+          heading: 'O que causa a anemia ferropriva?',
+          paragraphs: [
+            'A anemia ferropriva surge quando o ferro que entra e é absorvido não acompanha o que o corpo precisa ou perde. As causas se organizam em três grupos: ingestão insuficiente, necessidade aumentada e perda de sangue.',
+            'A ingestão insuficiente aparece em dietas pobres em ferro, com pouca carne, feijão e vegetais de folhas escuras, e em dietas vegetarianas sem planejamento. O mesmo grupo inclui a absorção ruim, depois de cirurgia bariátrica ou em doenças do intestino, e o hábito de tomar muito chá ou café junto das refeições, sem fontes de vitamina C.',
+            'A necessidade aumenta no crescimento da infância e da adolescência, na gravidez, no pós-parto e na amamentação, e em gestações seguidas sem reposição adequada. Já a perda de sangue vem de menstruação volumosa, de sangramentos do aparelho digestivo por úlcera ou hemorroida, de verminoses como a [parasitose intestinal](/doencas/parasitoses-intestinais/) e de hemorragias no parto.',
+          ],
+        },
+        {
           id: 'sintomas',
           heading: 'Quais são os sintomas?',
           paragraphs: [
+            'Muitas pessoas não têm sintomas típicos e descobrem a anemia no hemograma. Em idosos, o quadro pode aparecer apenas como piora de problemas que já existiam, como angina, falta de ar ou confusão mental.',
             'No começo, a anemia ferropriva pode não dar sinal, porque o corpo vai usando o ferro que tinha guardado. Conforme a reserva cai, surgem:',
           ],
           bullets: [
@@ -5613,23 +5741,10 @@ export const diseases: Disease[] = [
             'Palidez, sobretudo no rosto, na gengiva e na parte interna das pálpebras',
             'Falta de ar aos esforços e palpitações',
             'Dor de cabeça, tontura e dificuldade de concentração',
-            'Unhas quebradiças e queda de cabelo mais intensa',
-            'Vontade de comer itens sem valor nutricional, como gelo ou terra',
-          ],
-        },
-        {
-          id: 'fatores-de-risco',
-          heading: 'O que causa e o que aumenta o risco?',
-          paragraphs: [
-            'A anemia ferropriva aparece quando o ferro que entra e é absorvido não acompanha o que o corpo perde ou precisa. Os fatores mais comuns são:',
-          ],
-          bullets: [
-            'Dieta pobre em ferro, com pouca carne, feijão e verduras de folhas escuras',
-            'Maior necessidade de ferro na infância, na adolescência, na gravidez e no pós-parto',
-            'Menstruação volumosa ou sucessivas gestações sem reposição adequada',
-            'Perda de sangue oculta, por úlcera, hemorroida ou outra lesão do trato digestivo',
-            'Verminoses, como a [parasitose intestinal](/doencas/parasitoses-intestinais/), que consomem o ferro do organismo',
-            'Dificuldade de absorção, depois de cirurgia bariátrica ou por doenças do intestino',
+            'Feridas nos cantos da boca (queilite angular) e língua lisa e dolorida (glossite)',
+            'Unhas quebradiças, que nos casos prolongados ficam em forma de colher',
+            'Queda de cabelo mais intensa',
+            'Vontade de comer itens sem valor nutricional, como gelo, terra ou papel',
           ],
         },
         {
@@ -5637,7 +5752,16 @@ export const diseases: Disease[] = [
           heading: 'Como é feito o diagnóstico?',
           paragraphs: [
             'A suspeita nasce do exame clínico somado a um hemograma. A hemoglobina abaixo dos valores de referência para a idade e o sexo indica anemia, e hemácias menores e mais pálidas apontam para a falta de ferro. A ferritina, que reflete o ferro armazenado, costuma vir reduzida nesse tipo de anemia.',
-            'Esses números devem ser lidos pelo médico junto do quadro inteiro, e não isoladamente. Nem toda anemia vem de ferro: na [doença renal crônica](/doencas/doenca-renal-cronica/), por exemplo, o rim produz menos eritropoietina, o hormônio que estimula a produção de hemácias, e a lógica de tratamento é outra. Por isso a reposição por conta própria pode mascarar um diagnóstico que exige investigação, inclusive da origem de perdas de sangue.',
+            'O ferro sérico e a saturação da transferrina podem ajudar, mas não são obrigatórios. Como a ferritina sobe em inflamações e infecções, o médico pode pedir também a proteína C reativa para interpretar o resultado. Em homens e em mulheres depois da menopausa, a perda de sangue oculta pede investigação do aparelho digestivo.',
+            'Esses números devem ser lidos pelo médico junto do quadro inteiro, e não isoladamente. Nem toda anemia vem de ferro: na [doença renal crônica](/doencas/doenca-renal-cronica/), por exemplo, o rim produz menos eritropoietina, o hormônio que estimula a produção de hemácias, e a lógica de tratamento é outra. Por isso a reposição por conta própria pode mascarar um diagnóstico que exige investigação.',
+          ],
+        },
+        {
+          id: 'diagnostico-diferencial',
+          heading: 'O que mais parece anemia ferropriva?',
+          paragraphs: [
+            'Nem toda anemia com hemácias pequenas é falta de ferro. A talassemia, doença hereditária da hemoglobina, também deixa as hemácias pequenas, mas costuma vir com ferritina normal e história familiar; a contagem de hemácias pode estar alta em relação à hemoglobina.',
+            'A anemia da doença crônica acompanha inflamações, infecções e doenças como a [doença renal crônica](/doencas/doenca-renal-cronica/). Nela, o ferro existe, mas fica preso nos estoques, e a ferritina pode estar normal ou alta. Já a anemia sideroblástica é um defeito no uso do ferro pela medula, com ferritina normal ou elevada e alterações nos precursores das hemácias. Diferenciar essas formas muda o tratamento e evita repor ferro sem necessidade.',
           ],
         },
         {
@@ -5645,39 +5769,13 @@ export const diseases: Disease[] = [
           heading: 'Tratamento e cuidados',
           paragraphs: [
             'O tratamento combina a reposição de ferro com a correção da causa. Nos casos leves e moderados, o ferro por via oral é a primeira escolha, e a hemoglobina costuma começar a subir nas primeiras semanas. Sentir-se melhor, porém, não é o fim do caminho: a ferritina ainda está baixa, e os estoques costumam levar de dois a seis meses para se repletar. Por isso o médico mantém o suplemento mesmo depois da melhora e pede novos exames para acompanhar.',
-            'O ferro oral pode causar desconforto estomacal, náusea, intestino preso e fezes mais escuras, efeitos que em geral melhoram com o ajuste da toma orientado pelo profissional. Ingerir a dose junto de alimentos ricos em vitamina C, como um suco de laranja, favorece a absorção. A transfusão de sangue fica reservada para os casos graves ou muito sintomáticos, por exemplo quando há dor no peito, falta de ar em repouso ou perda sanguínea intensa.',
+            'No Brasil, o sulfato ferroso é a apresentação mais usada, e outros sais, como o gluconato e o fumarato, também podem ser prescritos. O ferro deve ser tomado conforme a orientação da equipe, e não em dose definida por conta própria. Um suco de laranja ou outra fonte de vitamina C na mesma hora ajuda na absorção.',
+            'Quando o ferro oral não é tolerado, não é absorvido ou o caso é mais avançado, a equipe pode indicar ferro pela veia, aplicado em serviço de saúde. A transfusão de sangue fica para situações graves, com sintomas intensos ou perda de sangue importante.',
           ],
           cta: {
             label: 'Leia também: como tratar e o que comer',
             href: '/artigos/anemia-ferropriva-tratamento-e-alimentacao/',
           },
-        },
-        {
-          id: 'prevencao',
-          heading: 'Como prevenir',
-          paragraphs: [
-            'Prevenir a anemia ferropriva passa por garantir ferro na dieta e atenção aos períodos de maior necessidade. Algumas medidas ajudam:',
-          ],
-          bullets: [
-            'Incluir carnes, feijões, lentilha e verduras de folhas escuras com regularidade',
-            'Consumir frutas ricas em vitamina C na mesma refeição, o que aumenta a absorção do ferro',
-            'Evitar leite, café ou chá junto das principais refeições, pois reduzem a absorção',
-            'Fazer o acompanhamento pré-natal e usar a reposição de ferro indicada na gestação',
-            'Manter o tratamento das verminoses e investigar sangramentos persistentes',
-          ],
-        },
-        {
-          id: 'complicacoes',
-          heading: 'Possíveis complicações',
-          paragraphs: [
-            'Quando não é tratada, a anemia ferropriva vai além do cansaço. A queda prolongada de oxigênio afeta o desempenho no trabalho e na escola e pesa mais sobre a gravidez e sobre o desenvolvimento das crianças:',
-          ],
-          bullets: [
-            'Prejuízo de atenção, memória e rendimento escolar em crianças e adolescentes',
-            'Maior risco de parto prematuro e de baixo peso ao nascer',
-            'Piora de doenças cardíacas já existentes e, em casos graves, insuficiência cardíaca',
-            'Cansaço intenso que limita a rotina diária e a disposição para atividades físicas',
-          ],
         },
         {
           id: 'sinais-de-alerta',
@@ -5696,6 +5794,50 @@ export const diseases: Disease[] = [
             label: 'Leia também: sintomas e quando procurar atendimento',
             href: '/artigos/anemia-ferropriva-sintomas-e-quando-procurar-atendimento/',
           },
+        },
+        {
+          id: 'complicacoes',
+          heading: 'Possíveis complicações',
+          paragraphs: [
+            'Em crianças pequenas, a falta de ferro prolongada pode prejudicar o crescimento e o desenvolvimento, e parte desse efeito pode não se recuperar totalmente com o tratamento. Na gestação, a anemia se associa a mais risco para a mãe e para o bebê.',
+            'Quando não é tratada, a anemia ferropriva vai além do cansaço. A queda prolongada de oxigênio afeta o desempenho no trabalho e na escola e pesa mais sobre a gravidez e sobre o desenvolvimento das crianças:',
+          ],
+          bullets: [
+            'Prejuízo de atenção, memória e rendimento escolar em crianças e adolescentes',
+            'Maior risco de parto prematuro e de baixo peso ao nascer',
+            'Aumento do coração (hipertrofia ventricular) e, em casos graves, insuficiência cardíaca',
+            'Cansaço intenso que limita a rotina diária e a disposição para atividades físicas',
+          ],
+        },
+        {
+          id: 'cuidados-especiais',
+          heading: 'Cuidados no dia a dia, na infância e na gravidez',
+          paragraphs: [
+            'Café, chá preto e chá mate, leite e derivados atrapalham a absorção do ferro quando consumidos junto das refeições ou do suplemento. O cálcio compete com o ferro, e os taninos do café e do chá formam compostos que o corpo não aproveita. Deixe essas bebidas para longe das refeições principais e do horário do ferro.',
+            'Se o ferro oral causar náusea ou desconforto, a orientação costuma ser tomar durante ou logo após a refeição, em doses menores no início, com aumento gradual. As fezes podem ficar escuras, o que é esperado. Crianças e gestantes merecem atenção especial: nos dois grupos a necessidade de ferro é maior, e a reposição deve seguir o calendário definido pela equipe de saúde.',
+          ],
+        },
+        {
+          id: 'monitoramento',
+          heading: 'Como acompanhar o tratamento',
+          paragraphs: [
+            'O tratamento é acompanhado com exames, porque os sintomas melhoram antes de o estoque se refazer. A resposta costuma ser avaliada com um novo hemograma cerca de um mês depois do início, quando se espera aumento da hemoglobina. A ferritina é repetida até atingir o alvo definido pela equipe, o que em geral leva alguns meses.',
+            'Quando a hemoglobina não sobe como esperado, é preciso investigar perda de sangue persistente, uso irregular do medicamento, diagnóstico incorreto ou outra doença associada. O acompanhamento também serve para decidir quando suspender o ferro, e não apenas quando os sintomas passam.',
+          ],
+        },
+        {
+          id: 'prevencao',
+          heading: 'Como prevenir',
+          paragraphs: [
+            'Prevenir a anemia ferropriva passa por garantir ferro na dieta e atenção aos períodos de maior necessidade. Algumas medidas ajudam:',
+          ],
+          bullets: [
+            'Incluir carnes, feijões, lentilha e verduras de folhas escuras com regularidade',
+            'Consumir frutas ricas em vitamina C na mesma refeição, o que aumenta a absorção do ferro',
+            'Evitar leite, café ou chá junto das principais refeições, pois reduzem a absorção',
+            'Fazer o acompanhamento pré-natal e usar a reposição de ferro indicada na gestação',
+            'Manter o tratamento das verminoses e investigar sangramentos persistentes',
+          ],
         },
       ],
       faq: [
@@ -5747,7 +5889,7 @@ export const diseases: Disease[] = [
       reviewer: null,
       reviewStatus: 'needs_review',
       publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
+      updatedAt: '2026-10-22',
       isPlaceholder: true,
     },
   {

@@ -6190,799 +6190,879 @@ export const articles: Article[] = [
     isPlaceholder: true,
   },
   {
-      id: 'colesterol-alto-como-detectar-e-quando-procurar-atendimento',
-      slug: 'colesterol-alto-como-detectar-e-quando-procurar-atendimento',
-      metaTitle: 'Colesterol alto: como detectar',
-      title: 'Colesterol alto: como detectar e quando procurar atendimento',
-      excerpt:
-        'O distúrbio do metabolismo das gorduras não dói e quase nunca aparece no espelho. Ele é pego no perfil lipídico, e a leitura do exame depende do risco de cada pessoa.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'por-que-e-silencioso',
-          heading: 'Por que o colesterol alto passa despercebido',
-          paragraphs: [
-            'A dislipidemia é um distúrbio do metabolismo das gorduras: o colesterol LDL e os triglicerídeos circulam em excesso, e nada disso produz dor, cansaço ou sinal visível. O depósito acontece por dentro da parede das artérias, devagar, durante anos. As diretrizes brasileiras são diretas ao estimar que, em pelo menos metade das pessoas, a primeira manifestação da doença aterosclerótica é um evento coronário agudo, ou seja, um infarto.',
-            'É por isso que a descoberta legítima do colesterol alto é de laboratório, e não de sintoma. Quem espera sentir alguma coisa para investigar está, na prática, esperando o primeiro evento cardiovascular. Quando o exame é feito a tempo, quase todo o risco medido ali pode ser reduzido com tratamento.',
-          ],
+    id: 'colesterol-alto-como-detectar-e-quando-procurar-atendimento',
+    slug: 'colesterol-alto-como-detectar-e-quando-procurar-atendimento',
+    metaTitle: 'Colesterol alto: como detectar',
+    title: 'Colesterol alto: como detectar e quando procurar atendimento',
+    excerpt:
+      'O distúrbio do metabolismo das gorduras não dói e quase nunca aparece no espelho. Ele é pego no perfil lipídico, e a leitura do exame depende do risco de cada pessoa.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-e-silencioso',
+        heading: 'Por que o colesterol alto passa despercebido',
+        paragraphs: [
+          'A dislipidemia é um distúrbio do metabolismo das gorduras: o colesterol LDL e os triglicerídeos circulam em excesso, e nada disso produz dor, cansaço ou sinal visível. O depósito acontece por dentro da parede das artérias, devagar, durante anos. As diretrizes brasileiras são diretas ao estimar que, em pelo menos metade das pessoas, a primeira manifestação da doença aterosclerótica é um evento coronário agudo, ou seja, um infarto.',
+          'É por isso que a descoberta legítima do colesterol alto é de laboratório, e não de sintoma. Quem espera sentir alguma coisa para investigar está, na prática, esperando o primeiro evento cardiovascular. Quando o exame é feito a tempo, quase todo o risco medido ali pode ser reduzido com tratamento.',
+          'Na prática, isso muda o motivo de fazer o exame: ele não serve para explicar um sintoma, e sim para medir o risco antes que ele apareça. É a mesma lógica de medir a pressão arterial em quem se sente bem, e de repetir a medida quando o primeiro valor vem alterado.',
+        ],
+      },
+      {
+        id: 'o-exame-e-o-jejum',
+        heading: 'O exame, e a mudança na regra do jejum',
+        paragraphs: [
+          'O perfil lipídico mede colesterol total, HDL (o bom), LDL (o ruim) e triglicerídeos, e o custo no setor público é baixo. A parte que mais confunde ainda é o jejum: as diretrizes brasileiras dispensam jejum para colesterol total, HDL, LDL calculado e colesterol não HDL, o que permite colher o exame em qualquer horário do dia. Idosos, pessoas com diabetes, gestantes e crianças são quem mais ganha com essa mudança, porque evitar horas sem comer reduz risco de hipoglicemia e de mal-estar.',
+          'A exceção são os triglicerídeos. Sem jejum, o valor desejável é abaixo de 175 mg/dL; quando a medida vem muito acima disso, a equipe pode repetir a coleta em jejum para interpretar melhor, porque a fórmula usada para calcular o LDL perde confiabilidade com triglicerídeos acima de 400 mg/dL. Se a amostra vier com aparência turva e triglicerídeos muito altos, não ignore o resultado: é o cenário que merece reavaliação rápida.',
+        ],
+      },
+      {
+        id: 'quem-precisa-dosar',
+        heading: 'Quem deve dosar, e com que frequência',
+        paragraphs: [
+          'A dosagem faz parte da rotina de quem já tem fator de risco, e nesses casos o pedido costuma vir junto da consulta de acompanhamento. Pergunte à equipe de saúde se é hora do exame se você se reconhece em alguma destas situações.',
+          'Não é preciso esperar sintoma nem ter todos esses fatores: um único já justifica conversar sobre o exame. O intervalo entre uma dosagem e outra é definido pela equipe, conforme o risco, o resultado anterior e a presença de doenças que pedem controle mais próximo. As situações que pedem dosagem são:',
+        ],
+        bullets: [
+          'Diabetes, pré-diabetes ou resistência à insulina',
+          'Pressão alta, mesmo controlada com remédio',
+          'Infarto, AVC ou angina na família em idade jovem',
+          'Parente próximo com LDL acima de 190 mg/dL',
+          'Sobrepeso relevante, sobretudo com gordura na cintura',
+          'Tabagismo ou consumo frequente de álcool',
+        ],
+      },
+      {
+        id: 'como-ler-o-exame',
+        heading: 'Como ler o exame sem se assustar',
+        paragraphs: [
+          'O número impresso ao lado do LDL não é um veredito. O protocolo brasileiro lembra que não existe valor normal único de LDL: o alvo depende do risco cardiovascular da pessoa, estimado com idade, pressão arterial, tabagismo, diabetes e histórico familiar. Para quem já teve infarto ou AVC, ou para quem tem diabetes com outros fatores, a meta de LDL é bem mais baixa do que para um jovem saudável. O colesterol não HDL (total menos HDL) entra como alvo secundário, útil quando os triglicerídeos estão altos.',
+          'Duas situações mudam o raciocínio e pedem atenção imediata da equipe: LDL a partir de 190 mg/dL em adulto, que por si só já classifica a pessoa como de risco alto e levanta a suspeita de hipercolesterolemia familiar, forma genética que exige investigar pais, irmãos e filhos; e triglicerídeos acima de 500 mg/dL, que colocam risco real de pancreatite aguda, inflamação súbita do pâncreas. Em crianças, valores de LDL acima de 160 mg/dL com história familiar de colesterol alto também merecem investigação.',
+          'Vale guardar os resultados anteriores: comparar dois exames mostra se a mudança veio do tratamento ou se o valor sempre esteve naquele patamar, e essa diferença muda a conversa na consulta.',
+        ],
+        cta: {
+          label: 'Veja a página sobre colesterol alto',
+          href: '/doencas/colesterol-alto/',
         },
-        {
-          id: 'o-exame-e-o-jejum',
-          heading: 'O exame, e a mudança na regra do jejum',
-          paragraphs: [
-            'O perfil lipídico mede colesterol total, HDL (o bom), LDL (o ruim) e triglicerídeos, e o custo no setor público é baixo. A parte que mais confunde ainda é o jejum: as diretrizes brasileiras dispensam jejum para colesterol total, HDL, LDL calculado e colesterol não HDL, o que permite colher o exame em qualquer horário do dia. Idosos, pessoas com diabetes, gestantes e crianças são quem mais ganha com essa mudança, porque evitar horas sem comer reduz risco de hipoglicemia e de mal-estar.',
-            'A exceção são os triglicerídeos. Sem jejum, o valor desejável é abaixo de 175 mg/dL; quando a medida vem muito acima disso, a equipe pode repetir a coleta em jejum para interpretar melhor, porque a fórmula usada para calcular o LDL perde confiabilidade com triglicerídeos acima de 400 mg/dL. Se a amostra vier com aparência turva e triglicerídeos muito altos, não ignore o resultado: é o cenário que merece reavaliação rápida.',
-          ],
-        },
-        {
-          id: 'quem-precisa-dosar',
-          heading: 'Quem deve dosar, e com que frequência',
-          paragraphs: [
-            'A dosagem faz parte da rotina de quem já tem fator de risco, e nesses casos o pedido costuma vir junto da consulta de acompanhamento. Pergunte à equipe de saúde se é hora do exame se você se reconhece em alguma destas situações:',
-          ],
-          bullets: [
-            'Diabetes, pré-diabetes ou resistência à insulina',
-            'Pressão alta, mesmo controlada com remédio',
-            'Infarto, AVC ou angina na família em idade jovem',
-            'Parente próximo com LDL acima de 190 mg/dL',
-            'Sobrepeso relevante, sobretudo com gordura na cintura',
-            'Tabagismo ou consumo frequente de álcool',
-          ],
-        },
-        {
-          id: 'como-ler-o-exame',
-          heading: 'Como ler o exame sem se assustar',
-          paragraphs: [
-            'O número impresso ao lado do LDL não é um veredito. O protocolo brasileiro lembra que não existe valor normal único de LDL: o alvo depende do risco cardiovascular da pessoa, estimado com idade, pressão arterial, tabagismo, diabetes e histórico familiar. Para quem já teve infarto ou AVC, ou para quem tem diabetes com outros fatores, a meta de LDL é bem mais baixa do que para um jovem saudável. O colesterol não HDL (total menos HDL) entra como alvo secundário, útil quando os triglicerídeos estão altos.',
-            'Duas situações mudam o raciocínio e pedem atenção imediata da equipe: LDL a partir de 190 mg/dL em adulto, que por si só já classifica a pessoa como de risco alto e levanta a suspeita de hipercolesterolemia familiar, forma genética que exige investigar pais, irmãos e filhos; e triglicerídeos acima de 500 mg/dL, que colocam risco real de pancreatite aguda, inflamação súbita do pâncreas. Em crianças, valores de LDL acima de 160 mg/dL com história familiar de colesterol alto também merecem investigação.',
-          ],
-          cta: {
-            label: 'Veja a página sobre colesterol alto',
-            href: '/doencas/colesterol-alto/',
-          },
-        },
-        {
-          id: 'quando-procurar-atendimento',
-          heading: 'Quando procurar atendimento',
-          paragraphs: [
-            'Exame alterado sem sintoma não é caso de pronto atendimento. O caminho é a unidade básica de saúde (UBS), com o resultado em mãos, para classificar o risco, repetir o que for preciso e decidir entre mudança de hábitos e medicamento. Procure avaliação com mais urgência se aparecerem sinais de que as artérias já foram afetadas:',
-          ],
-          bullets: [
-            'Dor ou aperto no peito aos esforços, que melhora com repouso',
-            'Falta de ar nova ao caminhar ou subir escada',
-            'Dor na panturrilha ao andar, que obriga a parar',
-            'Ferida no pé que demora a cicatrizar, em quem tem diabetes e colesterol alto',
-            'Manchas amareladas nas pálpebras ou nódulos nos tendões',
-          ],
-        },
-        {
-          id: 'quando-e-emergencia',
-          heading: 'Quando é emergência',
-          paragraphs: [
-            'Ligue para o SAMU (192) ou vá a um pronto atendimento sem esperar, se surgir:',
-          ],
-          bullets: [
-            'Dor no peito intensa, opressiva, com suor, náusea ou irradiação para braço e mandíbula',
-            'Boca torta, fala embolada, fraqueza em um lado do corpo ou perda de visão súbita',
-            'Dor abdominal forte e contínua, acima do umbigo, com vômitos que não aliviam',
-            'Desmaio associado a dor no peito',
-          ],
-        },
-      ],
-      diseaseSlugs: ['colesterol-alto'],
-      topicSlugs: ['doencas-cronicas'],
-      relatedArticleSlugs: ['colesterol-alto-tratamento-e-mudancas-de-habitos'],
-      references: [
-        {
-          label: 'Protocolo Clínico e Diretrizes Terapêuticas de dislipidemia',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/d/dislipidemia',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose',
-          url: 'https://www.scielo.br/j/abc/a/whBsCyzTDzGYJcsBY7YVkWn/?lang=pt',
-          publisher: 'Sociedade Brasileira de Cardiologia',
-        },
-        {
-          label: 'Alimentação saudável, folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'quando-procurar-atendimento',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Exame alterado sem sintoma não é caso de pronto atendimento. O caminho é a unidade básica de saúde (UBS), com o resultado em mãos, para classificar o risco, repetir o que for preciso e decidir entre mudança de hábitos e medicamento. Nesses casos, vale adiantar a conversa com a equipe.',
+          'Esses sinais não confirmam o diagnóstico sozinhos, mas mostram que a investigação não pode esperar a próxima consulta de rotina. Leve o resultado do perfil lipídico e a lista dos remédios em uso, porque pressão arterial, glicemia e tratamentos em curso mudam a interpretação do exame. Procure avaliação com mais urgência se aparecerem sinais de que as artérias já foram afetadas:',
+        ],
+        bullets: [
+          'Dor ou aperto no peito aos esforços, que melhora com repouso',
+          'Falta de ar nova ao caminhar ou subir escada',
+          'Dor na panturrilha ao andar, que obriga a parar',
+          'Ferida no pé que demora a cicatrizar, em quem tem diabetes e colesterol alto',
+          'Manchas amareladas nas pálpebras ou nódulos nos tendões',
+        ],
+      },
+      {
+        id: 'quando-e-emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Alguns quadros exigem atendimento imediato, sem esperar consulta.',
+          'Nesses casos, não espere o resultado de exame nem tente baixar o colesterol por conta própria. O atendimento é para o evento agudo, e o controle dos lipídios entra depois, na consulta de acompanhamento. Ligue para o SAMU (192) ou vá a um pronto atendimento sem esperar, se surgir:',
+        ],
+        bullets: [
+          'Dor no peito intensa, opressiva, com suor, náusea ou irradiação para braço e mandíbula',
+          'Boca torta, fala embolada, fraqueza em um lado do corpo ou perda de visão súbita',
+          'Dor abdominal forte e contínua, acima do umbigo, com vômitos que não aliviam',
+          'Desmaio associado a dor no peito',
+        ],
+      },
+    ],
+    diseaseSlugs: ['colesterol-alto'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['colesterol-alto-tratamento-e-mudancas-de-habitos'],
+    references: [
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas de dislipidemia',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/d/dislipidemia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose',
+        url: 'https://www.scielo.br/j/abc/a/whBsCyzTDzGYJcsBY7YVkWn/?lang=pt',
+        publisher: 'Sociedade Brasileira de Cardiologia',
+      },
+      {
+        label: 'Alimentação saudável, folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'colesterol-alto-tratamento-e-mudancas-de-habitos',
-      slug: 'colesterol-alto-tratamento-e-mudancas-de-habitos',
-      metaTitle: 'Colesterol alto: tratamento e hábitos',
-      title: 'Colesterol alto: tratamento e mudanças de hábitos',
-      excerpt:
-        'Meta de LDL definida pelo risco, estatina sem mito, o que fazer com triglicerídeos muito altos e as trocas alimentares que realmente mudam o exame.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'meta-personalizada',
-          heading: 'Primeiro definir a meta, depois escolher o remédio',
-          paragraphs: [
-            'Tratar colesterol alto não é baixar o LDL até um número genérico de laboratório. O protocolo brasileiro organiza o raciocínio em estratificação de risco: idade, pressão arterial, tabagismo, diabetes, doença renal e histórico de infarto ou AVC na família definem se a pessoa está em risco baixo, intermediário, alto ou muito alto, e cada faixa tem sua meta de LDL. A meta em risco muito alto é bem mais ambiciosa do que a de quem não tem fator de risco.',
-            'Isso explica por que duas pessoas com o mesmo exame recebem condutas diferentes. Quem tem doença cardiovascular estabelecida precisa de medicamento desde o primeiro dia, enquanto uma alteração discreta em pessoa jovem e sem outros fatores pode ser manejada primeiro com mudança de hábitos e reavaliação no tempo combinado com a equipe.',
-          ],
+    id: 'colesterol-alto-tratamento-e-mudancas-de-habitos',
+    slug: 'colesterol-alto-tratamento-e-mudancas-de-habitos',
+    metaTitle: 'Colesterol alto: tratamento e hábitos',
+    title: 'Colesterol alto: tratamento e mudanças de hábitos',
+    excerpt:
+      'Meta de LDL definida pelo risco, estatina sem mito, o que fazer com triglicerídeos muito altos e as trocas alimentares que realmente mudam o exame.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'meta-personalizada',
+        heading: 'Primeiro definir a meta, depois escolher o remédio',
+        paragraphs: [
+          'Tratar colesterol alto não é baixar o LDL até um número genérico de laboratório. O protocolo brasileiro organiza o raciocínio em estratificação de risco: idade, pressão arterial, tabagismo, diabetes, doença renal e histórico de infarto ou AVC na família definem se a pessoa está em risco baixo, intermediário, alto ou muito alto, e cada faixa tem sua meta de LDL. A meta em risco muito alto é bem mais ambiciosa do que a de quem não tem fator de risco.',
+          'Isso explica por que duas pessoas com o mesmo exame recebem condutas diferentes. Quem tem doença cardiovascular estabelecida precisa de medicamento desde o primeiro dia, enquanto uma alteração discreta em pessoa jovem e sem outros fatores pode ser manejada primeiro com mudança de hábitos e reavaliação no tempo combinado com a equipe.',
+        ],
+      },
+      {
+        id: 'estatina-sem-mito',
+        heading: 'Estatina, o pilar com evidência máxima',
+        paragraphs: [
+          'A estatina é a primeira linha nas diretrizes brasileiras, com recomendação de grau máximo e evidência de nível A: ela reduz LDL, infarto, AVC e mortalidade em quem tem risco relevante. Em geral a dose é ajustada para atingir a meta em vez de trocar de remédio a cada resultado, e a medicação tende a ser contínua, porque o metabolismo das gorduras volta ao ponto de partida quando ela é suspensa.',
+          'Sobre os efeitos adversos, o retrato honesto é menos assustador do que a conversa de corredor de academia: eles são pouco frequentes. A queixa muscular costuma surgir entre quatro e doze semanas do início, em músculos grandes e dos dois lados do corpo, como nádegas, coxas, panturrilhas e costas, e é mais comum em quem faz atividade física intensa. Dosar a enzima CK de rotina, sem sintoma, não faz parte do acompanhamento. As transaminases são verificadas na entrada do tratamento e reavaliadas apenas se aparecer sinal de alteração hepática, como pele amarelada, urina escura, dor abdominal ou perda de apetite. Em metanálises, estatinas potentes foram associadas a um pequeno aumento de casos novos de diabetes, efeito que não compensa a redução de eventos cardiovasculares em quem tem risco alto.',
+        ],
+      },
+      {
+        id: 'triglicerideos-e-o-pancreas',
+        heading: 'Triglicerídeos muito altos e o pâncreas',
+        paragraphs: [
+          'Triglicerídeos acima de 500 mg/dL mudam a prioridade do tratamento. Nessa faixa, o risco imediato não é o infarto daqui a dez anos, e sim a pancreatite aguda: o protocolo nacional registra que valores acima de 500 mg/dL podem precipitar ataques de inflamação do pâncreas, e que a hipertrigliceridemia responde por parte dos casos de pancreatite aguda. O objetivo passa a ser tirar rápido esse excesso de gordura do sangue.',
+          'Aí entram o fibrato, incluído no protocolo brasileiro para essa finalidade, a suspensão de álcool, o controle rigoroso da glicemia e uma alimentação pobre em gordura e em açúcar, com ajuste da dieta definido por profissional. Quem tem pancreatite sente dor abdominal intensa e contínua, acima do umbigo, muitas vezes com vômitos, e isso é emergência: vá a um pronto atendimento.',
+        ],
+      },
+      {
+        id: 'alimentacao-que-faz-diferenca',
+        heading: 'Alimentação: trocar em vez de só cortar',
+        paragraphs: [
+          'As referências da Organização Mundial da Saúde para a gordura da dieta são objetivas: no máximo 30% das calorias diárias vindas de gordura total, no máximo 10% de gordura saturada, o mínimo possível de gordura trans e açúcares livres abaixo de 10% das calorias, com menos de 5% sendo ainda melhor. Frutas e verduras em quantidade equivalente a pelo menos 400 g por dia, e cerca de 25 g de fibras, completam o quadro.',
+          'No cardápio brasileiro, o efeito prático vem das trocas. Trocar parte da carne vermelha processada por feijão, ovo, frango sem pele ou peixe; trocar arroz branco por integral ou misturar; trocar biscoito recheado e salgadinho de pacote por fruta e castanha; usar azeite na finalização em vez de margarina e fritura por imersão. Reduzir refrigerante e suco de caixinha ataca os triglicerídeos diretamente, porque o açúcar virado gordura no fígado é parte do problema.',
+        ],
+      },
+      {
+        id: 'movimento-peso-e-cigarro',
+        heading: 'Movimento, peso e cigarro',
+        paragraphs: [
+          'Exercício aeróbico regular melhora o quadro, com efeito mais visível no HDL e nos triglicerídeos e no controle do peso, e ajuda a manter a pressão arterial e a glicemia em faixa melhor. O ganho é maior quando a atividade se soma à alimentação, não quando a substitui.',
+          'Quem está começando pode dividir a atividade em blocos curtos ao longo do dia e escolher algo que consiga manter; o importante é a constância, não a intensidade de uma única sessão. Em quem tem dor no peito, falta de ar ou doença cardiovascular conhecida, o tipo e a intensidade do exercício devem ser definidos antes pela equipe que acompanha o caso.',
+        ],
+        bullets: [
+          'Caminhada, bicicleta ou natação na maioria dos dias da semana',
+          'Aumentar o tempo aos poucos, sem precisar de academia para começar',
+          'Trabalhar força muscular duas a três vezes por semana',
+          'Reduzir tempo sentado, levantando a cada hora',
+          'Parar de fumar: o risco cardiovascular começa a cair em semanas',
+          'Dormir o suficiente, porque privação de sono piora o controle metabólico',
+        ],
+      },
+      {
+        id: 'acompanhamento-e-sus',
+        heading: 'Acompanhamento, exames e o que o SUS oferece',
+        paragraphs: [
+          'O perfil lipídico de controle não serve para discutir a cada três meses se o remédio deve continuar: ele é lido pela equipe para conferir meta e adesão, geralmente depois do tempo de ajuste que a própria equipe define. Entre uma consulta e outra, o que muda o resultado é tomar o remédio todos os dias e sustentar as trocas alimentares. O protocolo nacional de dislipidemia está na rede pública, e as unidades básicas de saúde organizam a investigação da família quando se suspeita de hipercolesterolemia familiar.',
+          'Remédio para colesterol não substitui o tratamento das doenças que andam junto. Quem tem [diabetes](/doencas/diabetes/) ou [pressão alta](/doencas/hipertensao/) precisa das duas coisas, e a soma é o que reduz infarto e AVC. Para quem já teve um evento desses, o texto sobre [fatores de risco de infarto e AVC](/artigos/infarto-e-avc-fatores-de-risco/) detalha como os fatores se combinam.',
+        ],
+        cta: {
+          label: 'Veja a página sobre colesterol alto',
+          href: '/doencas/colesterol-alto/',
         },
-        {
-          id: 'estatina-sem-mito',
-          heading: 'Estatina, o pilar com evidência máxima',
-          paragraphs: [
-            'A estatina é a primeira linha nas diretrizes brasileiras, com recomendação de grau máximo e evidência de nível A: ela reduz LDL, infarto, AVC e mortalidade em quem tem risco relevante. Em geral a dose é ajustada para atingir a meta em vez de trocar de remédio a cada resultado, e a medicação tende a ser contínua, porque o metabolismo das gorduras volta ao ponto de partida quando ela é suspensa.',
-            'Sobre os efeitos adversos, o retrato honesto é menos assustador do que a conversa de corredor de academia: eles são pouco frequentes. A queixa muscular costuma surgir entre quatro e doze semanas do início, em músculos grandes e dos dois lados do corpo, como nádegas, coxas, panturrilhas e costas, e é mais comum em quem faz atividade física intensa. Dosar a enzima CK de rotina, sem sintoma, não faz parte do acompanhamento. As transaminases são verificadas na entrada do tratamento e reavaliadas apenas se aparecer sinal de alteração hepática, como pele amarelada, urina escura, dor abdominal ou perda de apetite. Em metanálises, estatinas potentes foram associadas a um pequeno aumento de casos novos de diabetes, efeito que não compensa a redução de eventos cardiovasculares em quem tem risco alto.',
-          ],
-        },
-        {
-          id: 'triglicerideos-e-o-pancreas',
-          heading: 'Triglicerídeos muito altos e o pâncreas',
-          paragraphs: [
-            'Triglicerídeos acima de 500 mg/dL mudam a prioridade do tratamento. Nessa faixa, o risco imediato não é o infarto daqui a dez anos, e sim a pancreatite aguda: o protocolo nacional registra que valores acima de 500 mg/dL podem precipitar ataques de inflamação do pâncreas, e que a hipertrigliceridemia responde por parte dos casos de pancreatite aguda. O objetivo passa a ser tirar rápido esse excesso de gordura do sangue.',
-            'Aí entram o fibrato, incluído no protocolo brasileiro para essa finalidade, a suspensão de álcool, o controle rigoroso da glicemia e uma alimentação pobre em gordura e em açúcar, com ajuste da dieta definido por profissional. Quem tem pancreatite sente dor abdominal intensa e contínua, acima do umbigo, muitas vezes com vômitos, e isso é emergência: vá a um pronto atendimento.',
-          ],
-        },
-        {
-          id: 'alimentacao-que-faz-diferenca',
-          heading: 'Alimentação: trocar em vez de só cortar',
-          paragraphs: [
-            'As referências da Organização Mundial da Saúde para a gordura da dieta são objetivas: no máximo 30% das calorias diárias vindas de gordura total, no máximo 10% de gordura saturada, o mínimo possível de gordura trans e açúcares livres abaixo de 10% das calorias, com menos de 5% sendo ainda melhor. Frutas e verduras em quantidade equivalente a pelo menos 400 g por dia, e cerca de 25 g de fibras, completam o quadro.',
-            'No cardápio brasileiro, o efeito prático vem das trocas. Trocar parte da carne vermelha processada por feijão, ovo, frango sem pele ou peixe; trocar arroz branco por integral ou misturar; trocar biscoito recheado e salgadinho de pacote por fruta e castanha; usar azeite na finalização em vez de margarina e fritura por imersão. Reduzir refrigerante e suco de caixinha ataca os triglicerídeos diretamente, porque o açúcar virado gordura no fígado é parte do problema.',
-          ],
-        },
-        {
-          id: 'movimento-peso-e-cigarro',
-          heading: 'Movimento, peso e cigarro',
-          paragraphs: [
-            'Exercício aeróbico regular melhora o quadro, com efeito mais visível no HDL e nos triglicerídeos e no controle do peso, e ajuda a manter a pressão arterial e a glicemia em faixa melhor. O ganho é maior quando a atividade se soma à alimentação, não quando a substitui.',
-          ],
-          bullets: [
-            'Caminhada, bicicleta ou natação na maioria dos dias da semana',
-            'Aumentar o tempo aos poucos, sem precisar de academia para começar',
-            'Trabalhar força muscular duas a três vezes por semana',
-            'Reduzir tempo sentado, levantando a cada hora',
-            'Parar de fumar: o risco cardiovascular começa a cair em semanas',
-            'Dormir o suficiente, porque privação de sono piora o controle metabólico',
-          ],
-        },
-        {
-          id: 'acompanhamento-e-sus',
-          heading: 'Acompanhamento, exames e o que o SUS oferece',
-          paragraphs: [
-            'O perfil lipídico de controle não serve para discutir a cada três meses se o remédio deve continuar: ele é lido pela equipe para conferir meta e adesão, geralmente depois do tempo de ajuste que a própria equipe define. Entre uma consulta e outra, o que muda o resultado é tomar o remédio todos os dias e sustentar as trocas alimentares. O protocolo nacional de dislipidemia está na rede pública, e as unidades básicas de saúde organizam a investigação da família quando se suspeita de hipercolesterolemia familiar.',
-            'Remédio para colesterol não substitui o tratamento das doenças que andam junto. Quem tem [diabetes](/doencas/diabetes/) ou [pressão alta](/doencas/hipertensao/) precisa das duas coisas, e a soma é o que reduz infarto e AVC. Para quem já teve um evento desses, o texto sobre [fatores de risco de infarto e AVC](/artigos/infarto-e-avc-fatores-de-risco/) detalha como os fatores se combinam.',
-          ],
-          cta: {
-            label: 'Veja a página sobre colesterol alto',
-            href: '/doencas/colesterol-alto/',
-          },
-        },
-      ],
-      diseaseSlugs: ['colesterol-alto'],
-      topicSlugs: ['doencas-cronicas', 'prevencao'],
-      relatedArticleSlugs: ['colesterol-alto-como-detectar-e-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Protocolo Clínico e Diretrizes Terapêuticas de dislipidemia',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/d/dislipidemia',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose',
-          url: 'https://www.scielo.br/j/abc/a/whBsCyzTDzGYJcsBY7YVkWn/?lang=pt',
-          publisher: 'Sociedade Brasileira de Cardiologia',
-        },
-        {
-          label: 'Alimentação saudável, folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['colesterol-alto'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['colesterol-alto-como-detectar-e-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Protocolo Clínico e Diretrizes Terapêuticas de dislipidemia',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/d/dislipidemia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose',
+        url: 'https://www.scielo.br/j/abc/a/whBsCyzTDzGYJcsBY7YVkWn/?lang=pt',
+        publisher: 'Sociedade Brasileira de Cardiologia',
+      },
+      {
+        label: 'Alimentação saudável, folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento',
-      slug: 'doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento',
-      metaTitle: 'Doença renal crônica: sinais de alerta',
-      title: 'Doença renal crônica: sinais de alerta e quando procurar atendimento',
-      excerpt:
-        'Os rins avisam tarde. Entenda o que observar na urina, no inchaço e no cansaço, e quais sinais levam a uma emergência.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'os-rins-avisam-tarde',
-          heading: 'Por que os rins avisam tarde',
-          paragraphs: [
-            'Cada rim abriga cerca de um milhão de filtros minúsculos, os néfrons, que separam do sangue o que deve virar urina. A doença renal crônica é justamente a perda progressiva e irreversível desses filtros, e o órgão tem margem de reserva: boa parte da função pode se perder antes de qualquer queixa aparecer. É por isso que a Organização Mundial da Saúde estima que a maioria das pessoas com doença renal no mundo não sabe que a tem.',
-            'O que aparece primeiro, quase sempre, não é sintoma e sim exame. A albumina na urina sobe antes da filtração cair, e a creatinina no sangue, convertida em taxa de filtração glomerular estimada (TFGe), revela o que o corpo ainda não reclama. Nos estágios 1, 2 e 3, a pessoa pode levar uma vida inteira sem perceber nada de errado.',
-          ],
+    id: 'doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento',
+    slug: 'doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento',
+    metaTitle: 'Doença renal crônica: sinais de alerta',
+    title: 'Doença renal crônica: sinais de alerta e quando procurar atendimento',
+    excerpt:
+      'Os rins avisam tarde. Entenda o que observar na urina, no inchaço e no cansaço, e quais sinais levam a uma emergência.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'os-rins-avisam-tarde',
+        heading: 'Por que os rins avisam tarde',
+        paragraphs: [
+          'Cada rim abriga cerca de um milhão de filtros minúsculos, os néfrons, que separam do sangue o que deve virar urina. A doença renal crônica é justamente a perda progressiva e irreversível desses filtros, e o órgão tem margem de reserva: boa parte da função pode se perder antes de qualquer queixa aparecer. Como a doença avança em silêncio, muita gente só descobre o problema quando a filtração já caiu bastante.',
+          'O que aparece primeiro, quase sempre, não é sintoma e sim exame. A albumina na urina sobe antes de a filtração cair, e a creatinina no sangue, convertida em taxa de filtração glomerular estimada (TFGe), revela o que o corpo ainda não reclama. Nos estágios 1, 2 e 3, a pessoa pode levar uma vida inteira sem perceber nada de errado. Por isso, quem tem diabetes, pressão alta ou história familiar de doença renal deve fazer creatinina e exame de urina pelo menos uma vez por ano, mesmo sem sintoma.',
+        ],
+      },
+      {
+        id: 'o-que-muda-no-corpo',
+        heading: 'O que muda no corpo quando o rim perde função',
+        paragraphs: [
+          'Quando a filtração cai de verdade, o acúmulo de toxinas, líquido e minerais mexe com o organismo inteiro. Os sinais mais comuns nessa fase são vagos e costumam ser atribuídos a outras causas.',
+          'O que chama atenção não é um sintoma isolado, e sim a soma e a duração deles. Falta de ar vira cansaço do trabalho, a coceira vira pele seca e a perda de apetite passa por estresse. Quando vários desses incômodos persistem por semanas, vale investigar os rins. Em quem tem diabetes, pressão alta ou história familiar de doença renal, essa investigação deve começar mais cedo. Inchaço que aumenta ao longo do dia, urina com espuma e cansaço que não melhora com o descanso são motivos suficientes para marcar uma consulta. Os sinais mais frequentes são:',
+        ],
+        bullets: [
+          'Cansaço, palidez e falta de ar, pela anemia da doença renal',
+          'Inchaço nas pernas, nos pés e ao redor dos olhos',
+          'Coceira generalizada, sem vermelhidão nem lesão de pele',
+          'Cãibras nas pernas, principalmente à noite',
+          'Perda de apetite, náuseas e gosto metálico na boca',
+          'Sono ruim, sonolência durante o dia e dificuldade de concentração',
+        ],
+      },
+      {
+        id: 'sinais-para-procurar-avaliacao',
+        heading: 'Sinais que pedem avaliação',
+        paragraphs: [
+          'Nem tudo vira emergência, mas alguns achados justificam marcar consulta rápido, especialmente em quem tem [diabetes](/doencas/diabetes/) ou [pressão alta](/doencas/hipertensao/).',
+          'Essas alterações costumam aparecer juntas e piorar devagar, o que faz muita gente adiar a consulta. Na avaliação, o clínico geral pode pedir creatinina, urinálise e a relação albumina/creatinina, os exames que medem a função renal e a perda de proteína pela urina. Procure atendimento se você notar:',
+        ],
+        bullets: [
+          'Volume de urina que cai dia após dia',
+          'Espuma persistente na urina, sinal de proteína',
+          'Inchaço novo nos tornozelos ou no rosto, sobretudo de manhã',
+          'Pressão arterial que sai do controle, mesmo com remédio em dia',
+          'Cansaço progressivo, com palidez',
+          'Urinar muito à noite, acordando duas ou mais vezes',
+          'Urina avermelhada ou com cor de coca-cola',
+        ],
+        cta: {
+          label: 'Veja a página sobre doença renal crônica',
+          href: '/doencas/doenca-renal-cronica/',
         },
-        {
-          id: 'o-que-muda-no-corpo',
-          heading: 'O que muda no corpo quando o rim perde função',
-          paragraphs: [
-            'Quando a filtração cai de verdade, o acúmulo de toxinas, líquido e minerais mexe com o organismo inteiro. Os sinais mais comuns nessa fase são vagos e atribuídos a outras causas:',
-          ],
-          bullets: [
-            'Cansaço, palidez e falta de ar, pela anemia da doença renal',
-            'Inchaço nas pernas, nos pés e ao redor dos olhos',
-            'Coceira generalizada, sem vermelhidão nem lesão de pele',
-            'Cãibras nas pernas, principalmente à noite',
-            'Perda de apetite, náuseas e gosto metálico na boca',
-            'Sono ruim, sonolência durante o dia e dificuldade de concentração',
-          ],
-        },
-        {
-          id: 'sinais-para-procurar-avaliacao',
-          heading: 'Sinais que pedem avaliação',
-          paragraphs: [
-            'Nem tudo vira emergência, mas alguns achados justificam marcar consulta rápido, especialmente em quem tem [diabetes](/doencas/diabetes/) ou [pressão alta](/doencas/hipertensao/):',
-          ],
-          bullets: [
-            'Volume de urina que cai dia após dia',
-            'Espuma persistente na urina, sinal de proteína',
-            'Inchaço novo nos tornozelos ou no rosto, sobretudo de manhã',
-            'Pressão arterial que sai do controle, mesmo com remédio em dia',
-            'Cansaço progressivo, com palidez',
-            'Urinhar muito à noite, acordando duas ou mais vezes',
-          ],
-          cta: {
-            label: 'Veja a página sobre doença renal crônica',
-            href: '/doencas/doenca-renal-cronica/',
-          },
-        },
-        {
-          id: 'o-que-a-urina-mostra',
-          heading: 'O que a urina mostra',
-          paragraphs: [
-            'A urina é o exame mais barato disponível, e três observações têm valor. Urina com espuma que não some fala de perda de proteína, e a relação albumina/creatinina (RAC) quantifica isso com precisão; acima de 30 mg/g já é considerado elevado. Urina avermelhada ou cor de coca-cola sugere sangue, que pode vir de cálculo, infecção ou inflamação do rim. Urina turva com febre e dor nas costas costuma indicar infecção urinária alta, que precisa de tratamento imediato.',
-            'A Sociedade Brasileira de Nefrologia recomenda, para quem tem fator de risco, creatinina e urinálise uma vez por ano, além de triagem de idosos, cardiopatas e pessoas com história familiar de doença renal. Se você nunca fez esses exames e se reconhece nos fatores de risco, leve o pedido de exame na próxima consulta e peça que eles entrem na rotina.',
-          ],
-        },
-        {
-          id: 'quando-e-emergencia',
-          heading: 'Quando é emergência',
-          paragraphs: [
-            'Ligue para o SAMU (192) ou vá a um pronto atendimento se, em alguém com doença renal conhecida ou suspeita, aparecer:',
-          ],
-          bullets: [
-            'Falta de ar intensa, com inchaço generalizado',
-            'Ausência de urina por um dia inteiro, ou queda muito brusca do volume',
-            'Confusão mental, sonolência excessiva ou convulsão',
-            'Dor no peito, palpitações ou desmaio',
-            'Fraqueza muscular importante com coração acelerado, possível potássio alto',
-            'Febre alta com dor lombar e urina turva ou com sangue',
-          ],
-        },
-        {
-          id: 'onde-ser-atendido',
-          heading: 'Onde buscar atendimento',
-          paragraphs: [
-            'Fora da emergência, o caminho começa na unidade básica de saúde (UBS), que solicita creatinina, urinálise e cultura de urina quando necessário, ajusta pressão e glicemia, e encaminha ao nefrologista nos estágios mais avançados ou de progressão rápida. O especialista em rins é o nefrologista; urologista é o cirurgião das vias urinárias, e os dois papéis se confundem com frequência.',
-            'A rede brasileira tem uma linha de cuidado específica para doença crônica, e o tratamento dialítico é ofertado pelo Sistema Único de Saúde em clínicas conveniadas. Quem tem estágio 4 ou 5 deve ter acompanhamento programado, com conversa antecipada sobre hemodiálise, diálise peritoneal e transplante, porque a preparação evita a diálise de urgência, feita em pior condição clínica.',
-          ],
-        },
-      ],
-      diseaseSlugs: ['doenca-renal-cronica'],
-      topicSlugs: ['doencas-cronicas'],
-      relatedArticleSlugs: ['doenca-renal-cronica-tratamento-e-convivencia'],
-      references: [
-        {
-          label: 'Como se prevenir: orientações e tratamento em nefropatias',
-          url: 'https://sbn.org.br/publico/orientacoes-e-tratamento/como-se-prevenir/',
-          publisher: 'Sociedade Brasileira de Nefrologia',
-        },
-        {
-          label: 'Renal disease, folha informativa',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/kidney-disease',
-          publisher: 'Organização Mundial da Saúde',
-        },
-        {
-          label: 'Doença renal crônica, informação ao cidadão',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/drc',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'o-que-a-urina-mostra',
+        heading: 'O que a urina mostra',
+        paragraphs: [
+          'A urina é o exame mais barato disponível, e três observações têm valor. Urina com espuma que não some fala de perda de proteína, e a relação albumina/creatinina (RAC) quantifica isso com precisão; acima de 30 mg/g já é considerado elevado. Urina avermelhada ou cor de coca-cola sugere sangue, que pode vir de cálculo, infecção ou inflamação do rim. Urina turva com febre e dor nas costas costuma indicar infecção urinária alta, que precisa de tratamento imediato.',
+          'A Sociedade Brasileira de Nefrologia recomenda, para quem tem fator de risco, creatinina e urinálise uma vez por ano, além de triagem de idosos, cardiopatas e pessoas com história familiar de doença renal. O exame de urina simples também ajuda a afastar infecção e a mostrar sangue que não aparece a olho nu, e vale guardar os resultados para comparar a evolução ao longo dos anos. Se você nunca fez esses exames e se reconhece nos fatores de risco, leve o pedido de exame na próxima consulta e peça que eles entrem na rotina.',
+        ],
+      },
+      {
+        id: 'quando-e-emergencia',
+        heading: 'Quando é emergência',
+        paragraphs: [
+          'Alguns sinais indicam que o excesso de líquido, de potássio ou de toxinas chegou a um nível que o corpo não compensa sozinho. Nesses casos, não espere a consulta agendada e não tente controlar a pressão com remédio de outra pessoa.',
+          'Ligue para o SAMU (192) ou vá a um pronto atendimento se, em alguém com doença renal conhecida ou suspeita, aparecer:',
+        ],
+        bullets: [
+          'Falta de ar intensa, com inchaço generalizado',
+          'Inchaço que piora rápido, com ganho de peso de um dia para o outro',
+          'Ausência de urina por um dia inteiro, ou queda muito brusca do volume',
+          'Confusão mental, sonolência excessiva ou convulsão',
+          'Dor no peito, palpitações ou desmaio',
+          'Fraqueza muscular importante com coração acelerado, possível potássio alto',
+          'Febre alta com dor lombar e urina turva ou com sangue',
+        ],
+      },
+      {
+        id: 'onde-ser-atendido',
+        heading: 'Onde buscar atendimento',
+        paragraphs: [
+          'Fora da emergência, o caminho começa na unidade básica de saúde (UBS), que solicita creatinina, urinálise e cultura de urina quando necessário, ajusta pressão e glicemia, e encaminha ao nefrologista nos estágios mais avançados ou de progressão rápida. O especialista em rins é o nefrologista; urologista é o cirurgião das vias urinárias, e os dois papéis se confundem com frequência.',
+          'A rede brasileira tem uma linha de cuidado específica para doença crônica, e o tratamento dialítico é ofertado pelo Sistema Único de Saúde em clínicas conveniadas. Quem tem estágio 4 ou 5 deve ter acompanhamento programado, com conversa antecipada sobre hemodiálise, diálise peritoneal e transplante, porque a preparação evita a diálise de urgência, feita em pior condição clínica. A avaliação para transplante também pode começar antes de a diálise ser necessária.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['doenca-renal-cronica'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['doenca-renal-cronica-tratamento-e-convivencia'],
+    references: [
+      {
+        label: 'Como se prevenir: orientações e tratamento em nefropatias',
+        url: 'https://sbn.org.br/publico/orientacoes-e-tratamento/como-se-prevenir/',
+        publisher: 'Sociedade Brasileira de Nefrologia',
+      },
+      {
+        label: 'Renal disease, folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/kidney-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Doença renal crônica, informação ao cidadão',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/drc',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'doenca-renal-cronica-tratamento-e-convivencia',
-      slug: 'doenca-renal-cronica-tratamento-e-convivencia',
-      metaTitle: 'Viver com doença renal crônica',
-      title: 'Doença renal crônica: tratamento e convivência',
-      excerpt:
-        'Conter o avanço, evitar remédios que agridem o rim, entender a dieta por estágio e saber como o SUS organiza diálise e transplante.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'conter-o-avanco',
-          heading: 'Conter o avanço é o tratamento',
-          paragraphs: [
-            'O rim já perdido não volta, então o que se faz é desacelerar a perda. O manual da Sociedade Brasileira de Nefrologia reúne um conjunto que tem evidência e está ao alcance da rotina: controlar a pressão arterial, tratar o diabetes, ajustar colesterol e triglicerídeos, manter peso saudável, praticar atividade física, parar de fumar e seguir dieta adequada ao estágio. Em muitos casos, esse pacote é o que separa passar anos no estágio 3 de precisar de diálise.',
-            'A consulta com o nefrologista é a referência da doença renal, e a UBS sustenta o dia a dia. Entre uma consulta e outra, medir a pressão arterial em casa faz diferença, porque valores alterados passam despercebidos e são o principal motor da progressão. Uma dieta ajustada ao estágio e ao peso também faz parte do resultado.',
-          ],
-          cta: {
-            label: 'Leia também: como medir a pressão arterial em casa',
-            href: '/artigos/hipertensao-como-medir-a-pressao-em-casa/',
-          },
+    id: 'doenca-renal-cronica-tratamento-e-convivencia',
+    slug: 'doenca-renal-cronica-tratamento-e-convivencia',
+    metaTitle: 'Viver com doença renal crônica',
+    title: 'Doença renal crônica: tratamento e convivência',
+    excerpt:
+      'Conter o avanço, evitar remédios que agridem o rim, entender a dieta por estágio e saber como o SUS organiza diálise e transplante.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'conter-o-avanco',
+        heading: 'Conter o avanço é o tratamento',
+        paragraphs: [
+          'O rim já perdido não volta, então o que se faz é desacelerar a perda. O manual da Sociedade Brasileira de Nefrologia reúne um conjunto que tem evidência e está ao alcance da rotina: controlar a pressão arterial, tratar o diabetes, ajustar colesterol e triglicerídeos, manter peso saudável, praticar atividade física, parar de fumar e seguir dieta adequada ao estágio. Em muitos casos, esse pacote é o que separa passar anos no estágio 3 de precisar de diálise.',
+          'A consulta com o nefrologista é a referência da doença renal, e a UBS sustenta o dia a dia. Entre uma consulta e outra, medir a pressão arterial em casa faz diferença, porque valores alterados passam despercebidos e são o principal motor da progressão. Uma dieta ajustada ao estágio e ao peso também faz parte do resultado.',
+        ],
+        cta: {
+          label: 'Veja a página sobre doença renal crônica',
+          href: '/doencas/doenca-renal-cronica/',
         },
-        {
-          id: 'remedios-que-o-rim-nao-gosta',
-          heading: 'Remédios que o rim não agradece',
-          paragraphs: [
-            'A Sociedade Brasileira de Nefrologia alerta para os anti-inflamatórios não esteroidais, usados por conta própria para dor de cabeça, dor nas costas e cólica: ibuprofeno, diclofenaco e nimesulida reduzem o fluxo de sangue no rim, e o uso frequente, sobretudo sem orientação, pode acelerar a perda de função, com risco maior em idosos, hipertensos e pessoas com diabetes. O mesmo cuidado vale para chás e suplementos sem procedência, alguns com nefrotóxicos conhecidos.',
-            'Há também medicamentos que a equipe precisa ajustar quando a filtração cai, porque se acumulam no sangue: muitos analgésicos, antibióticos e até o remédio para gastrite têm dose recalculada pela TFGe. Isso não significa suspender o tratamento, e sim ajustar. Leve a lista completa de tudo que você toma, inclusive fitoterápicos, em cada consulta, e evite a farmácia de balcão como fonte de conselho.',
-          ],
-        },
-        {
-          id: 'dieta-estagio-por-estagio',
-          heading: 'Dieta, estágio por estágio',
-          paragraphs: [
-            'No começo, a orientação é a mesma de qualquer dieta protetora do coração: menos sal (com temperos naturais no lugar), peso controlado, poucos ultraprocessados, verduras e frutas em quantidade adequada. A restrição de proteína costuma entrar mais adiante, e sempre calculada por nutricionista, porque proteína demais cansa o rim e de menos tira massa muscular.',
-            'Nos estágios 4 e 5, minerais específicos entram na conta. O potássio, abundante em banana, laranja, abacate, batata e feijão, pode subir demais e provocar arritmia; o fósforo, presente em refrigerantes de cola, lácteos e ultraprocessados, acelera o dano nos ossos e nas artérias; o sódio agrava inchaço e pressão alta. Há ainda uma proibição curiosa e real: a carambola é o único alimento vetado nos estágios avançados, porque a toxina que ela contém, a caramboxina, não é eliminada quando o rim falha, e pode causar soluços persistentes, confusão mental, convulsão e até coma.',
-          ],
-        },
-        {
-          id: 'preparacao-antes-da-decisao',
-          heading: 'Preparação antes de precisar decidir',
-          paragraphs: [
-            'Chegar ao estágio 5 não é começar a diálise no dia seguinte. Existe a fase conservadora, depois a pré-diálise, em que a equipe prepara o corpo, treina a pessoa e a família e cria com antecedência o acesso vascular para hemodiálise ou o cateter para diálise peritoneal. Começar o tratamento com planejamento, em consulta ambulatorial, é muito diferente de começar às pressas por uma emergência, situação associada a pior desfecho.',
-            'A escolha do tratamento substitutivo é compartilhada. Cada opção tem rotina, restrições e vantagens próprias, e a decisão depende do estágio, de outras doenças, da rotina da casa e do apoio disponível. Se você está em estágio 4, pergunte à equipe quando a conversa sobre diálise e transplante deve acontecer, e peça que ela seja registrada no prontuário.',
-          ],
-        },
-        {
-          id: 'hemodialise-e-dialise-peritoneal',
-          heading: 'Hemodiálise e diálise peritoneal',
-          paragraphs: [
-            'A hemodiálise é feita em clínica especializada, em geral três sessões por semana, de quatro a cinco horas cada uma, com o sangue circulando por uma máquina que filtra o que o rim não filtra mais. A diálise peritoneal usa a membrana que reveste a cavidade abdominal como filtro: o líquido é trocado algumas vezes por dia em casa, e à noite pode ser feito por um aparelho, o que libera as manhãs.',
-            'O Sistema Único de Saúde oferta o tratamento renal substitutivo em clínicas conveniadas, o que inclui sessões, insumos, acompanhamento de equipe e avaliação para transplante. Na prática, a disponibilidade de vagas e de unidades depende do estado e do município, e o deslocamento até o serviço é parte do planejamento familiar. Vale perguntar sobre transporte sanitário, horários e apoio social no momento da decisão.',
-          ],
-        },
-        {
-          id: 'transplante',
-          heading: 'Transplante de rim',
-          paragraphs: [
-            'O transplante é a alternativa que mais devolve rotina e qualidade de vida, e pode ser feito a partir de doador falecido ou vivo. O processo depende de compatibilidade de tipo sanguíneo e de tipagem HLA, de avaliação clínica que afaste outras contraindicações e da lista única coordenada pelo Sistema Nacional de Transplantes. Em algumas situações, o rim pode ser transplantado antes de a pessoa começar a diálise, o chamado transplante preemptivo.',
-            'A cirurgia dura em média de duas a três horas, sob anestesia geral, e o novo rim costuma ficar na parte baixa da barriga, não no lugar dos rins originais. Depois, vem a imunossupressão contínua, que exige medicamentos diários, vigilância de infecções e consultas regulares, além de cuidado com sol e com vacinas. Quem está em estágio 4 ou 5 deve perguntar sobre a avaliação para transplante antes de se sentir preparado, porque o processo de entrada na lista leva tempo.',
-          ],
-        },
-        {
-          id: 'convivencia-e-apoio',
-          heading: 'Convivência, anemia e apoio',
-          paragraphs: [
-            'A anemia é parte frequente do quadro, porque o rim doente produz menos eritropoetina, o hormônio que estimula a fabricação de glóbulos vermelhos. Ela traz palidez, fraqueza e mal-estar e pode piorar o coração. O tratamento combina reposição de ferro, por via oral ou na veia, medicação que estimula a produção de sangue e, em situações específicas, transfusão. Em alguns casos, a anemia tem outra causa somada, como a falta de ferro por sangramento digestivo, e a equipe investiga antes de tratar.',
-            'Viver com doença renal crônica mexe com trabalho, sono, apetite, sexualidade e humor, e nada disso é detalhe. A rotina de três sessões de diálise por semana reorganiza a casa inteira, e a reabilitação, o apoio psicológico e os grupos de pacientes ajudam a atravessar a mudança. Fazer perguntas sobre horário de remédios, alimentação fora de casa e viagem é legítimo: quanto mais concreta a conversa com a equipe, menos improvável é o dia a dia.',
-          ],
-        },
-      ],
-      diseaseSlugs: ['doenca-renal-cronica'],
-      topicSlugs: ['doencas-cronicas', 'prevencao'],
-      relatedArticleSlugs: ['doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Manual Pronto para Doença Renal Crônica, 4ª e 5ª edições',
-          url: 'https://sbn.org.br/wp-content/uploads/2024/11/ManualProntoDRC4e5_compressed.pdf',
-          publisher: 'Sociedade Brasileira de Nefrologia',
-        },
-        {
-          label: 'Doença renal crônica, informação ao cidadão',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/drc',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Insuficiência renal: o que é, estágios e tratamento',
-          url: 'https://sbn.org.br/publico/doencas-comuns/insuficiencia-renal/',
-          publisher: 'Sociedade Brasileira de Nefrologia',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'remedios-que-o-rim-nao-gosta',
+        heading: 'Remédios que o rim não agradece',
+        paragraphs: [
+          'A Sociedade Brasileira de Nefrologia alerta para os anti-inflamatórios não esteroidais, usados por conta própria para dor de cabeça, dor nas costas e cólica: ibuprofeno, diclofenaco e nimesulida reduzem o fluxo de sangue no rim, e o uso frequente, sobretudo sem orientação, pode acelerar a perda de função, com risco maior em idosos, hipertensos e pessoas com diabetes. O mesmo cuidado vale para chás e suplementos sem procedência, alguns com nefrotóxicos conhecidos.',
+          'Há também medicamentos que a equipe precisa ajustar quando a filtração cai, porque se acumulam no sangue: muitos analgésicos, antibióticos e até o remédio para gastrite têm dose recalculada pela TFGe. Isso não significa suspender o tratamento, e sim ajustar. Leve a lista completa de tudo que você toma, inclusive fitoterápicos, em cada consulta, e evite a farmácia de balcão como fonte de conselho.',
+        ],
+      },
+      {
+        id: 'dieta-estagio-por-estagio',
+        heading: 'Dieta, estágio por estágio',
+        paragraphs: [
+          'No começo, a orientação é a mesma de qualquer dieta protetora do coração: menos sal (com temperos naturais no lugar), peso controlado, poucos ultraprocessados, verduras e frutas em quantidade adequada. A restrição de proteína costuma entrar mais adiante, e sempre calculada por nutricionista, porque proteína demais cansa o rim e de menos tira massa muscular.',
+          'Nos estágios 4 e 5, minerais específicos entram na conta. O potássio, abundante em banana, laranja, abacate, batata e feijão, pode subir demais e provocar arritmia; o fósforo, presente em refrigerantes de cola, lácteos e ultraprocessados, acelera o dano nos ossos e nas artérias; o sódio agrava inchaço e pressão alta. Há ainda uma proibição curiosa e real: a carambola é o único alimento vetado nos estágios avançados, porque a toxina que ela contém, a caramboxina, não é eliminada quando o rim falha, e pode causar soluços persistentes, confusão mental, convulsão e até coma.',
+        ],
+      },
+      {
+        id: 'preparacao-antes-da-decisao',
+        heading: 'Preparação antes de precisar decidir',
+        paragraphs: [
+          'Chegar ao estágio 5 não é começar a diálise no dia seguinte. Existe a fase conservadora, depois a pré-diálise, em que a equipe prepara o corpo, treina a pessoa e a família e cria com antecedência o acesso vascular para hemodiálise ou o cateter para diálise peritoneal. Começar o tratamento com planejamento, em consulta ambulatorial, é muito diferente de começar às pressas por uma emergência, situação associada a pior desfecho.',
+          'A escolha do tratamento substitutivo é compartilhada. Cada opção tem rotina, restrições e vantagens próprias, e a decisão depende do estágio, de outras doenças, da rotina da casa e do apoio disponível. Se você está em estágio 4, pergunte à equipe quando a conversa sobre diálise e transplante deve acontecer, e peça que ela seja registrada no prontuário.',
+        ],
+      },
+      {
+        id: 'hemodialise-e-dialise-peritoneal',
+        heading: 'Hemodiálise e diálise peritoneal',
+        paragraphs: [
+          'A hemodiálise é feita em clínica especializada, em geral três sessões por semana, de quatro a cinco horas cada uma, com o sangue circulando por uma máquina que filtra o que o rim não filtra mais. A diálise peritoneal usa a membrana que reveste a cavidade abdominal como filtro: o líquido é trocado algumas vezes por dia em casa, e à noite pode ser feito por um aparelho, o que libera as manhãs.',
+          'O Sistema Único de Saúde oferta o tratamento renal substitutivo em clínicas conveniadas, o que inclui sessões, insumos, acompanhamento de equipe e avaliação para transplante. Na prática, a disponibilidade de vagas e de unidades depende do estado e do município, e o deslocamento até o serviço é parte do planejamento familiar. Vale perguntar sobre transporte sanitário, horários e apoio social no momento da decisão.',
+        ],
+      },
+      {
+        id: 'transplante',
+        heading: 'Transplante de rim',
+        paragraphs: [
+          'O transplante é a alternativa que mais devolve rotina e qualidade de vida, e pode ser feito a partir de doador falecido ou vivo. O processo depende de compatibilidade de tipo sanguíneo e de tipagem HLA, de avaliação clínica que afaste outras contraindicações e da lista única coordenada pelo Sistema Nacional de Transplantes. Em algumas situações, o rim pode ser transplantado antes de a pessoa começar a diálise, o chamado transplante preemptivo.',
+          'A cirurgia dura em média de duas a três horas, sob anestesia geral, e o novo rim costuma ficar na parte baixa da barriga, não no lugar dos rins originais. Depois, vem a imunossupressão contínua, que exige medicamentos diários, vigilância de infecções e consultas regulares, além de cuidado com sol e com vacinas. Quem está em estágio 4 ou 5 deve perguntar sobre a avaliação para transplante antes de se sentir preparado, porque o processo de entrada na lista leva tempo.',
+        ],
+      },
+      {
+        id: 'convivencia-e-apoio',
+        heading: 'Convivência, anemia e apoio',
+        paragraphs: [
+          'A anemia é parte frequente do quadro, porque o rim doente produz menos eritropoetina, o hormônio que estimula a fabricação de glóbulos vermelhos. Ela traz palidez, fraqueza e mal-estar e pode piorar o coração. O tratamento combina reposição de ferro, por via oral ou na veia, medicação que estimula a produção de sangue e, em situações específicas, transfusão. Em alguns casos, a anemia tem outra causa somada, como a falta de ferro por sangramento digestivo, e a equipe investiga antes de tratar.',
+          'Viver com doença renal crônica mexe com trabalho, sono, apetite, sexualidade e humor, e nada disso é detalhe. A rotina de três sessões de diálise por semana reorganiza a casa inteira, e a reabilitação, o apoio psicológico e os grupos de pacientes ajudam a atravessar a mudança. Fazer perguntas sobre horário de remédios, alimentação fora de casa e viagem é legítimo: quanto mais concreta a conversa com a equipe, menos improvável é o dia a dia.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['doenca-renal-cronica'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['doenca-renal-cronica-sinais-de-alerta-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Manual Pronto para Doença Renal Crônica, 4ª e 5ª edições',
+        url: 'https://sbn.org.br/wp-content/uploads/2024/11/ManualProntoDRC4e5_compressed.pdf',
+        publisher: 'Sociedade Brasileira de Nefrologia',
+      },
+      {
+        label: 'Doença renal crônica, informação ao cidadão',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/drc',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Insuficiência renal: o que é, estágios e tratamento',
+        url: 'https://sbn.org.br/publico/doencas-comuns/insuficiencia-renal/',
+        publisher: 'Sociedade Brasileira de Nefrologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'hanseniase-sinais-na-pele-quando-procurar-atendimento',
-      slug: 'hanseniase-sinais-na-pele-quando-procurar-atendimento',
-      metaTitle: 'Hanseníase: sinais na pele',
-      title: 'Hanseníase: sinais na pele e quando procurar atendimento',
-      excerpt:
-        'Mancha clara ou amarronzada que não dói, não coça e perde a sensibilidade é o principal sinal da hanseníase. Veja como reconhecer, o que não é hanseníase e onde buscar avaliação.',
-      category: 'Doenças infecciosas',
-      categorySlug: 'doencas-infecciosas',
-      body: [
-        {
-          id: 'o-principal-sinal',
-          heading: 'O principal sinal está na pele',
-          paragraphs: [
-            'A hanseníase se manifesta, quase sempre, por manchas na pele que perdem a sensibilidade. Podem ser claras, avermelhadas, acastanhadas ou amarronzadas, de contorno irregular, e surgem no tronco, nos braços, nas pernas ou no rosto. O que distingue a mancha da hanseníase de qualquer outra mancha é simples: ela não sente direito o toque, o calor, o frio ou a dor.',
-            'Muitas pessoas só percebem a mancha quando alguém chama a atenção, porque ela não coça, não dói e não arde. Também não descama de forma intensa nem melhora com creme comum. Passam meses, às vezes anos, convivendo com a lesão antes de procurar uma unidade de saúde.',
-          ],
+    id: 'hanseniase-sinais-na-pele-quando-procurar-atendimento',
+    slug: 'hanseniase-sinais-na-pele-quando-procurar-atendimento',
+    metaTitle: 'Hanseníase: sinais na pele',
+    title: 'Hanseníase: sinais na pele e quando procurar atendimento',
+    excerpt:
+      'Mancha clara ou amarronzada que não dói, não coça e perde a sensibilidade é o principal sinal da hanseníase. Veja como reconhecer, o que não é hanseníase e onde buscar avaliação.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-principal-sinal',
+        heading: 'O principal sinal está na pele',
+        paragraphs: [
+          'A hanseníase se manifesta, quase sempre, por manchas na pele que perdem a sensibilidade. Podem ser claras, avermelhadas, acastanhadas ou amarronzadas, de contorno irregular, e surgem no tronco, nos braços, nas pernas ou no rosto. As lesões podem ser únicas ou múltiplas, e às vezes ocupam áreas grandes do corpo. O que distingue a mancha da hanseníase de qualquer outra mancha é simples: ela não sente direito o toque, o calor, o frio ou a dor.',
+          'Muitas pessoas só percebem a mancha quando alguém chama a atenção, porque ela não coça, não dói e não arde. Também não descama de forma intensa nem melhora com creme comum. Passam meses, às vezes anos, convivendo com a lesão antes de procurar uma unidade de saúde. Por isso, a consulta precoce faz tanta diferença.',
+        ],
+      },
+      {
+        id: 'testando-a-sensibilidade',
+        heading: 'Como testar a sensibilidade da mancha',
+        paragraphs: [
+          'O teste caseiro serve apenas para levantar a suspeita, nunca para dar o diagnóstico. Em um ambiente bem iluminado, compare a mancha com a pele ao redor e observe se a sensação é diferente. Se ficar em dúvida, anote o que percebeu e leve essa informação para a consulta.',
+          'O que se procura é a perda de sensibilidade, o dado que mais chama a atenção no exame. Para comparar, use objetos que você já tem em casa:',
+        ],
+        bullets: [
+          'Toque a mancha com uma ponta de algodão e pergunte se a sensação é igual à da pele vizinha',
+          'Encoste dois palitos de fósforo, um com a ponta acesa e outro com o lado apagado, morno, e veja se a pessoa distingue quente de frio',
+          'Pressione levemente com a ponta de um grampo aberto e compare com a mesma região do outro lado do corpo',
+          'Repita o teste em diferentes manchas ao longo de algumas semanas; a perda de sensibilidade costuma aumentar',
+        ],
+        cta: {
+          label: 'Veja a página sobre a hanseníase',
+          href: '/doencas/hanseniase/',
         },
-        {
-          id: 'testando-a-sensibilidade',
-          heading: 'Como testar a sensibilidade da mancha',
-          paragraphs: [
-            'Esse teste pode ser feito em casa, com objetos simples, e serve apenas para levantar suspeita, não para dar diagnóstico. Em uma sala bem iluminada, compare a área da mancha com a pele ao redor:',
-          ],
-          bullets: [
-            'Toque a mancha com uma ponta de algodão e pergunte se a sensação é igual à da pele vizinha',
-            'Encoste dois palitos de fósforo, um com a ponta acesa e outro com o lado apagado, morno, e veja se a pessoa distingue quente de frio',
-            'Pressione levemente com a ponta de um grampo aberto e compare com a mesma região do outro lado do corpo',
-            'Repita o teste em diferentes manchas ao longo de algumas semanas; a perda de sensibilidade costuma aumentar',
-          ],
-          cta: {
-            label: 'Veja a página sobre a hanseníase',
-            href: '/doencas/hanseniase/',
-          },
-        },
-        {
-          id: 'o-que-nao-e-hanseniase',
-          heading: 'O que não é hanseníase',
-          paragraphs: [
-            'Nem toda mancha clara na pele é hanseníase. Pano branco (pitiríase versicolor), dermatite, vitiligo e até marcas deixadas por espinhas ou queimaduras são queixas muito mais comuns. Nenhuma dessas condições costuma vir acompanhada de perda de sensibilidade na área da mancha.',
-            'Mancha que coça muito, arde ou descama costuma apontar para outra causa. Da mesma forma, a hanseníase não se transmite pelo beijo, pelo abraço, pelo uso do mesmo banheiro nem pelo compartilhamento de talheres e roupas, e não é hereditária. Nada disso deve atrasar a investigação: se a mancha persiste e perde sensibilidade, a avaliação na UBS é o caminho.',
-          ],
-        },
-        {
-          id: 'quando-procurar-a-ubs',
-          heading: 'Quando procurar a unidade básica de saúde',
-          paragraphs: [
-            'Vale ir à UBS em qualquer um dos cenários abaixo, mesmo sem sintoma geral:',
-          ],
-          bullets: [
-            'Mancha que dura três meses ou mais e não responde a creme ou pomada comum',
-            'Mancha em que a pessoa percebe dormência, formigamento ou redução da sensibilidade ao calor e à dor',
-            'Queda de pelos e diminuição do suor em uma área específica da pele',
-            'Caroço, dor em queimação ou perda de força em uma das mãos, dos pés ou no rosto',
-            'Contato próximo e prolongado com alguém que recebeu diagnóstico de hanseníase',
-          ],
-        },
-        {
-          id: 'na-consulta',
-          heading: 'O que acontece na consulta',
-          paragraphs: [
-            'Na UBS, o profissional examina a pele, testa a sensibilidade das manchas e palpa os troncos nervosos dos braços e das pernas. Não é preciso jejum nem preparo prévio. Se o exame bastar para fechar o diagnóstico, a equipe já explica o esquema de tratamento e o organiza dentro do calendário da unidade.',
-            'Em casos duvidosos, a pessoa é encaminhada a um serviço de referência, que pode solicitar baciloscopia, biópsia de pele ou de nervo e exames eletroneuromiográficos. Todo caso confirmado é notificado às autoridades de saúde, e as pessoas que convivem com o paciente entram na investigação de contatos, mesmo sem apresentar manchas.',
-          ],
-        },
-      ],
-      diseaseSlugs: ['hanseniase'],
-      topicSlugs: ['doencas-infecciosas'],
-      relatedArticleSlugs: ['hanseniase-tratamento-gratuito-no-sus'],
-      references: [
-        {
-          label: 'Hanseníase: sintomas, diagnóstico e tratamento',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Leprosy: fact sheet',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/leprosy',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+      {
+        id: 'o-que-nao-e-hanseniase',
+        heading: 'O que não é hanseníase',
+        paragraphs: [
+          'Nem toda mancha clara na pele é hanseníase. Pano branco, dermatite, vitiligo e até marcas deixadas por espinhas ou queimaduras são queixas muito mais comuns. Nenhuma dessas condições costuma vir acompanhada de perda de sensibilidade na área da mancha.',
+          'Mancha que coça muito, arde ou descama costuma apontar para outra causa. Da mesma forma, a hanseníase não se transmite pelo beijo, pelo abraço, pelo uso do mesmo banheiro nem pelo compartilhamento de talheres e roupas, e não é hereditária. Nada disso deve atrasar a investigação.',
+        ],
+        bullets: [
+          'Pano branco: manchas claras ou amarronzadas, com descamação fina e coceira',
+          'Vitiligo: manchas brancas bem delimitadas, sem alteração da sensibilidade nem do suor',
+          'Dermatite: placas avermelhadas e descamativas, que costumam coçar e melhorar com creme',
+          'Micose: manchas em anel, com borda descamativa e coceira',
+          'Pitiríase alba: manchas claras e descamativas, comuns em crianças, que melhoram com hidratante',
+        ],
+      },
+      {
+        id: 'quando-o-nervo-esta-em-risco',
+        heading: 'Quando o nervo está em risco',
+        paragraphs: [
+          'Além das manchas, a hanseníase ataca os nervos periféricos, e é essa lesão que pode deixar sequelas. Quando um nervo sofre, a pessoa começa a notar dormência, formigamento ou perda de força, geralmente nas mãos, nos pés ou no rosto. Nervos engrossados e doloridos também podem ser percebidos ao toque.',
+          'Alguns sinais indicam que a lesão do nervo está avançando e que a avaliação não pode esperar:',
+        ],
+        bullets: [
+          'Perda de força para segurar objetos, fechar a mão ou mover o pé',
+          'Dor em queimação ao longo de um nervo, no braço ou na perna',
+          'Dormência ou formigamento que pioram rápido',
+          'Olho que não fecha completamente, com ardência ou visão embaçada',
+          'Úlceras nos pés ou feridas que não saram em quem já tem o diagnóstico',
+        ],
+      },
+      {
+        id: 'mancha-anos-depois',
+        heading: 'Por que a mancha pode aparecer anos depois',
+        paragraphs: [
+          'A hanseníase tem um período de incubação longo. Entre o contato com a bactéria e o aparecimento dos primeiros sinais costuma passar, em média, de dois a sete anos, e há registros de períodos ainda maiores. Por isso, é comum que a pessoa não saiba quando nem de quem se infectou.',
+          'Esse intervalo também explica por que a doença pode surgir muito tempo depois de um convívio que já terminou. Como não dá para reconstituir o momento do contágio, o foco do atendimento é examinar a pele e os nervos no presente e avaliar as pessoas que hoje convivem com o caso.',
+        ],
+      },
+      {
+        id: 'quando-procurar-a-ubs',
+        heading: 'Quando procurar a unidade básica de saúde',
+        paragraphs: [
+          'Vale procurar a UBS diante de qualquer mancha que não coça, não dói e persiste por semanas. Não é preciso encaminhamento prévio para ser atendido: a porta de entrada para a avaliação da hanseníase é a própria rede pública.',
+          'Vá à unidade básica de saúde em qualquer um dos cenários abaixo, mesmo sem sintoma geral:',
+        ],
+        bullets: [
+          'Mancha que dura três meses ou mais e não responde a creme ou pomada comum',
+          'Mancha em que a pessoa percebe dormência, formigamento ou redução da sensibilidade ao calor e à dor',
+          'Queda de pelos e diminuição do suor em uma área específica da pele',
+          'Caroço, dor em queimação ou perda de força em uma das mãos, dos pés ou no rosto',
+          'Contato próximo e prolongado com alguém que recebeu diagnóstico de hanseníase',
+        ],
+      },
+      {
+        id: 'na-consulta',
+        heading: 'O que acontece na consulta',
+        paragraphs: [
+          'Na UBS, o profissional examina a pele, testa a sensibilidade das manchas e palpa os troncos nervosos dos braços e das pernas. Não é preciso jejum nem preparo prévio. O exame é indolor e dura poucos minutos, e o profissional explica cada etapa. Se o exame bastar para fechar o diagnóstico, a equipe já explica o esquema de tratamento e o organiza dentro do calendário da unidade.',
+          'Em casos duvidosos, a pessoa é encaminhada a um serviço de referência, que pode solicitar baciloscopia, biópsia de pele ou de nervo e exames eletroneuromiográficos. Todo caso confirmado é notificado às autoridades de saúde, e as pessoas que convivem com o paciente entram na investigação de contatos, mesmo sem apresentar manchas.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['hanseniase'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: ['hanseniase-tratamento-gratuito-no-sus'],
+    references: [
+      {
+        label: 'Hanseníase: sintomas, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leprosy: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/leprosy',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'hanseniase-tratamento-gratuito-no-sus',
-      slug: 'hanseniase-tratamento-gratuito-no-sus',
-      metaTitle: 'Hanseníase: tratamento gratuito no SUS',
-      title: 'Hanseníase: como funciona o tratamento gratuito no SUS',
-      excerpt:
-        'A poliquimioterapia contra a hanseníase é distribuída de graça pelo SUS, cura a doença e dispensa internação. Veja a duração dos esquemas, o cuidado com os contatos e os direitos da pessoa em tratamento.',
-      category: 'Doenças infecciosas',
-      categorySlug: 'doencas-infecciosas',
-      body: [
-        {
-          id: 'como-funciona-a-pqt',
-          heading: 'A poliquimioterapia distribuída pelo SUS',
-          paragraphs: [
-            'O tratamento da hanseníase é feito com a poliquimioterapia (PQT-U), uma combinação de três medicamentos antibióticos fornecidos gratuitamente pelo Sistema Único de Saúde: rifampicina, dapsona e clofazimina. A associação dos três foi desenhada para evitar a resistência do bacilo, o que acontecia quando o tratamento usava apenas uma droga.',
-            'O esquema é tomado em cartelas, na forma de comprimidos, e começa no dia em que o diagnóstico é confirmado na unidade básica de saúde (UBS). A primeira dose do mês é supervisionada por um profissional de saúde; as demais doses são tomadas em casa. O tratamento dispensa internação e não afasta a pessoa do trabalho, da escola ou da rotina familiar.',
-          ],
+    id: 'hanseniase-tratamento-gratuito-no-sus',
+    slug: 'hanseniase-tratamento-gratuito-no-sus',
+    metaTitle: 'Hanseníase: tratamento gratuito no SUS',
+    title: 'Hanseníase: como funciona o tratamento gratuito no SUS',
+    excerpt:
+      'A poliquimioterapia contra a hanseníase é distribuída de graça pelo SUS, cura a doença e dispensa internação. Veja a duração dos esquemas, o cuidado com os contatos e os direitos da pessoa em tratamento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-funciona-a-pqt',
+        heading: 'A poliquimioterapia distribuída pelo SUS',
+        paragraphs: [
+          'A hanseníase é tratada com a poliquimioterapia (PQT-U), fornecida gratuitamente pelo Sistema Único de Saúde (SUS). O esquema reúne antibióticos que agem em conjunto: rifampicina e dapsona nos casos paucibacilares, com a clofazimina acrescentada nos multibacilares.',
+          'A associação de mais de um medicamento foi adotada justamente para evitar a resistência do bacilo, que acontecia quando o tratamento usava uma única droga. Os comprimidos chegam em cartelas na unidade básica de saúde (UBS), sem necessidade de internação, e o tratamento não afasta a pessoa do trabalho, da escola ou da rotina familiar.',
+          'A primeira dose do mês é supervisionada por um profissional de saúde na própria unidade; as demais doses da cartela são tomadas em casa. Esse acompanhamento mensal existe para conferir o uso correto dos comprimidos e identificar cedo qualquer reação ao tratamento. O esquema é seguro e pode ser feito por gestantes e lactantes; quem usa anticoncepcional oral deve avisar a equipe.',
+        ],
+      },
+      {
+        id: 'duracao-dos-esquemas',
+        heading: 'Quanto tempo dura o tratamento',
+        paragraphs: [
+          'A duração do tratamento depende da forma clínica. Na hanseníase paucibacilar, com poucas manchas e menos bacilos, o esquema dura seis meses. Na multibacilar, com mais lesões e maior carga de bacilos, o esquema é de doze meses.',
+          'A alta por cura é dada quando a pessoa toma todas as doses previstas dentro do prazo e passa pela avaliação final. Interromper o tratamento antes do fim é o que pode levar à resistência, uma situação mais difícil de tratar e que exige esquemas substitutivos, também oferecidos de graça pelo SUS.',
+          'Mesmo com a pele já melhorando nas primeiras semanas, o tratamento não deve ser interrompido. É a sequência completa de doses que elimina o bacilo e reduz o risco de recaída. A cartela é retirada mês a mês, e faltar à consulta atrasa o esquema.',
+        ],
+      },
+      {
+        id: 'reacoes-hanssenicas',
+        heading: 'As reações que podem surgir durante o tratamento',
+        paragraphs: [
+          'Durante o tratamento, e às vezes depois da alta, podem surgir reações inflamatórias chamadas hansênicas. Elas não significam que o remédio falhou nem que a doença voltou: são uma resposta do sistema imunológico à presença do bacilo que está sendo eliminado.',
+          'As reações podem se manifestar como manchas avermelhadas novas, nódulos dolorosos, inchaço e dor ao longo dos nervos. Como o principal risco é o agravamento da lesão neural, qualquer sinal desses deve ser avaliado sem demora pela equipe de referência.',
+          'As reações e as neurites são tratadas com medicamentos para controlar a inflamação, sem interromper a poliquimioterapia. Por isso, voltar às consultas de acompanhamento é tão importante quanto tomar os comprimidos todos os dias. Qualquer sinal novo depois da alta também deve ser avaliado.',
+        ],
+      },
+      {
+        id: 'transmissao-cai-no-inicio',
+        heading: 'No início do tratamento, a transmissão cai',
+        paragraphs: [
+          'Logo que a poliquimioterapia começa, a pessoa deixa de eliminar o bacilo pelas vias respiratórias e, portanto, deixa de transmitir a infecção. Não é necessário isolamento, nem afastar o paciente da mesa de jantar, do banheiro ou do convívio com crianças pequenas.',
+          'Esse dado ajuda a desfazer o estigma que ainda cerca a doença: a pessoa em tratamento pode abraçar a família, dividir os mesmos objetos e continuar a rotina. O isolamento não faz parte do tratamento e não ajuda em nada. As primeiras semanas podem trazer reações inflamatórias, que não significam falha do tratamento e devem ser avaliadas pela equipe.',
+        ],
+      },
+      {
+        id: 'quem-convive-com-o-caso',
+        heading: 'Quem convive com a pessoa diagnosticada',
+        paragraphs: [
+          'A investigação de contatos faz parte do protocolo. São avaliadas as pessoas que convivem ou conviveram por período prolongado com o caso confirmado, em casa, no trabalho ou na escola. O exame de pele e dos nervos é feito na UBS, sem custo, e serve para detectar lesões que ainda não deram sinal.',
+          'Entre os contatos, o Ministério da Saúde também recomenda a aplicação da vacina BCG em quem não tem cicatriz vacinal, dentro das regras previstas pela equipe de saúde. A vacina BCG não é específica contra a hanseníase, mas é usada como reforço de proteção. Contatos que apresentam manchas são tratados como caso novo; quem não tem sinal recebe orientação de retorno e permanece vinculado à equipe de saúde.',
+        ],
+      },
+      {
+        id: 'cuidado-com-maos-pes-e-olhos',
+        heading: 'Autocuidado com mãos, pés e olhos',
+        paragraphs: [
+          'A hanseníase pode deixar áreas do corpo sem sensibilidade. Sem dor, um pequeno ferimento passa despercebido e pode evoluir para uma úlcera. Cuidar da pele ressecada e evitar machucados repetidos são as medidas que mais protegem as mãos, os pés e os olhos. Calçados apertados e objetos quentes são as causas mais comuns de feridas nesses locais.',
+          'O autocuidado diário faz parte do tratamento. Veja o que fazer todos os dias:',
+        ],
+        bullets: [
+          'Inspecionar mãos, pés e olhos todos os dias em local bem iluminado',
+          'Hidratar a pele seca para evitar rachaduras',
+          'Evitar água muito quente ao lavar louça ou tomar banho; conferir a temperatura com a parte da pele que ainda sente',
+          'Não andar descalço e usar calçados macios, bem ajustados',
+          'Remover espinhos, pedrinhas ou pedaços de tecido que entrem no pé, mesmo sem dor',
+          'Proteger os olhos se a pálpebra estiver com dificuldade para fechar',
+        ],
+      },
+      {
+        id: 'direitos-e-combate-ao-estigma',
+        heading: 'Direitos e o fim do estigma',
+        paragraphs: [
+          'No dia do diagnóstico, a pessoa recebe a Caderneta de Saúde da Pessoa com Hanseníase, que registra as doses, orienta o autocuidado e descreve os direitos previstos. Quem precisa de afastamento por complicação recebe atestado pela equipe que faz o acompanhamento, e o benefício é tratado como qualquer afastamento por doença, sem qualquer restrição especial ligada ao diagnóstico.',
+          'Hanseníase é uma doença infecciosa como qualquer outra, transmitida por via respiratória apenas em convívio próximo e prolongado, e com cura. Uma pessoa em tratamento não é perigo para a família, para os colegas nem para a escola. Por isso, o diagnóstico não deve ser motivo de afastamento social. Se a equipe de saúde ou o empregador apresentar dúvida, vale mostrar o conteúdo oficial do Ministério da Saúde sobre o assunto.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a hanseníase',
+          href: '/doencas/hanseniase/',
         },
-        {
-          id: 'duracao-dos-esquemas',
-          heading: 'Quanto tempo dura o tratamento',
-          paragraphs: [
-            'A duração depende da forma clínica da doença. Na hanseníase paucibacilar, com poucas manchas e menos bacilos, o esquema dura seis meses. Na hanseníase multibacilar, com mais lesões e maior carga de bacilos, o esquema é de doze meses.',
-            'A alta por cura é dada quando a pessoa toma todas as doses previstas dentro do prazo e passa pela avaliação final. Interromper o tratamento antes do fim é o que pode levar à resistência, uma situação mais difícil de tratar e que exige esquemas substitutivos, também oferecidos de graça pelo SUS.',
-          ],
-        },
-        {
-          id: 'transmissao-cai-no-inicio',
-          heading: 'No início do tratamento, a transmissão cai',
-          paragraphs: [
-            'Logo que a poliquimioterapia começa, a pessoa deixa de eliminar o bacilo pelas vias respiratórias e, portanto, deixa de transmitir a infecção. Não é necessário isolamento, nem afastar o paciente da mesa de jantar, do banheiro ou do convívio com crianças pequenas.',
-            'Esse dado ajuda a desfazer o estigma que ainda cerca a doença: a pessoa em tratamento pode abraçar a família, dividir os mesmos objetos e continuar a rotina. As primeiras semanas podem trazer reações inflamatórias, chamadas reações hansênicas, que não significam falha do tratamento e devem ser avaliadas pela equipe.',
-          ],
-        },
-        {
-          id: 'quem-convive-com-o-caso',
-          heading: 'Quem convive com a pessoa diagnosticada',
-          paragraphs: [
-            'A investigação de contatos faz parte do protocolo. São avaliadas as pessoas que convivem ou conviveram por período prolongado com o caso confirmado, em casa, no trabalho ou na escola. O exame de pele e dos nervos é feito na UBS, sem custo, e serve para detectar lesões que ainda não deram sinal.',
-            'Entre os contatos, o Ministério da Saúde também recomenda a aplicação da vacina BCG em quem não tem cicatriz vacinal, dentro das regras previstas pela equipe de saúde. Contatos que apresentam manchas são tratados como caso novo; quem não tem sinal recebe orientação de retorno e continua sendo acompanhado por alguns anos.',
-          ],
-        },
-        {
-          id: 'cuidado-com-maos-pes-e-olhos',
-          heading: 'Autocuidado com mãos, pés e olhos',
-          paragraphs: [
-            'A hanseníase pode deixar áreas do corpo sem sensibilidade. Sem dor, pequenos ferimentos passam despercebidos e podem evoluir para úlceras. O autocuidado diário é parte do tratamento:',
-          ],
-          bullets: [
-            'Inspecionar mãos, pés e olhos todos os dias em local bem iluminado',
-            'Hidratar a pele seca para evitar rachaduras',
-            'Evitar água muito quente ao lavar louça ou tomar banho; conferir a temperatura com a parte da pele que ainda sente',
-            'Não andar descalço e usar calçados macios, bem ajustados',
-            'Remover espinhos, pedrinhas ou pedaços de tecido que entrem no pé, mesmo sem dor',
-            'Proteger os olhos se a pálpebra estiver com dificuldade para fechar',
-          ],
-        },
-        {
-          id: 'direitos-e-combate-ao-estigma',
-          heading: 'Direitos e o fim do estigma',
-          paragraphs: [
-            'No dia do diagnóstico, a pessoa recebe a Caderneta de Saúde da Pessoa com Hanseníase, que registra as doses, orienta o autocuidado e descreve os direitos previstos. Quem precisa de afastamento por complicação recebe atestado pela equipe que faz o acompanhamento, e o benefício é tratado como qualquer afastamento por doença, sem qualquer restrição especial ligada ao diagnóstico.',
-            'Hanseníase é uma doença infecciosa como qualquer outra, transmitida por via respiratória apenas em convívio próximo e prolongado, e com cura. Uma pessoa em tratamento não é perigo para a família, para os colegas nem para a escola. Se a equipe de saúde ou o empregador apresentar dúvida, vale mostrar o conteúdo oficial do Ministério da Saúde sobre o assunto.',
-          ],
-          cta: {
-            label: 'Veja a página sobre a hanseníase',
-            href: '/doencas/hanseniase/',
-          },
-        },
-      ],
-      diseaseSlugs: ['hanseniase'],
-      topicSlugs: ['doencas-infecciosas', 'prevencao'],
-      relatedArticleSlugs: ['hanseniase-sinais-na-pele-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Hanseníase: sintomas, diagnóstico e tratamento',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Hanseníase: situação epidemiológica',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase/situacao-epidemiologica',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Leprosy: fact sheet',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/leprosy',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['hanseniase'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['hanseniase-sinais-na-pele-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Hanseníase: sintomas, diagnóstico e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Hanseníase: situação epidemiológica',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hanseniase/situacao-epidemiologica',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leprosy: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/leprosy',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'anemia-ferropriva-sintomas-e-quando-procurar-atendimento',
-      slug: 'anemia-ferropriva-sintomas-e-quando-procurar-atendimento',
-      metaTitle: 'Anemia ferropriva: sintomas',
-      title: 'Anemia ferropriva: sintomas e quando procurar atendimento',
-      excerpt:
-        'Cansaço, palidez e falta de ar aos esforços são os primeiros sinais da anemia por falta de ferro. Veja como reconhecê-los, o que mais se parece com anemia e quando procurar uma UBS.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'os-primeiros-sinais',
-          heading: 'Os primeiros sinais costumam ser discretos',
-          paragraphs: [
-            'A anemia por falta de ferro costuma chegar devagar. O corpo começa usando o ferro que estava guardado e só quando essa reserva acaba é que a hemoglobina cai o suficiente para dar sinais. Por isso muitas pessoas convivem semanas com o quadro sem perceber.',
-            'O retrato mais clássico é o cansaço que não combina com o esforço feito, acompanhado de palidez. Esse par de sintomas é tão comum que acaba sendo atribuído a sono ruim ou estresse, mas vale investigar quando persiste.',
-          ],
+    id: 'anemia-ferropriva-sintomas-e-quando-procurar-atendimento',
+    slug: 'anemia-ferropriva-sintomas-e-quando-procurar-atendimento',
+    metaTitle: 'Anemia ferropriva: sintomas',
+    title: 'Anemia ferropriva: sintomas e quando procurar atendimento',
+    excerpt:
+      'Cansaço, palidez e falta de ar aos esforços estão entre os primeiros sinais da anemia por falta de ferro. Veja como reconhecê-los, o que mais se parece com anemia e quando procurar uma UBS.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'os-primeiros-sinais',
+        heading: 'Os primeiros sinais costumam ser discretos',
+        paragraphs: [
+          'A anemia por falta de ferro costuma chegar devagar. O corpo começa usando o ferro que estava guardado e só quando essa reserva acaba é que a hemoglobina cai o suficiente para dar sinais. Por isso muitas pessoas convivem semanas com o problema sem perceber. A deficiência passa por etapas: primeiro caem os estoques, depois surge a deficiência sem anemia e só por último a anemia aparece no hemograma.',
+          'O retrato mais clássico é o cansaço que não combina com o esforço feito, acompanhado de palidez. Esse par de sintomas é tão comum que acaba sendo atribuído a sono ruim ou estresse. Quando persiste, vale investigar, porque cansaço e palidez que não melhoram com o descanso são motivo para procurar a unidade de saúde.',
+          'A palidez fica mais visível no rosto, na gengiva e na parte interna das pálpebras, locais em que a cor do sangue aparece melhor. Em pessoas de pele mais escura, essa comparação com as áreas de mucosa ajuda a perceber a mudança. Falta de ar aos esforços e palpitações costumam acompanhar os quadros mais intensos.',
+        ],
+      },
+      {
+        id: 'sinais-que-passam-despercebidos',
+        heading: 'Sinais que costumam passar despercebidos',
+        paragraphs: [
+          'Além do cansaço e da palidez, a anemia ferropriva traz sinais que muitas pessoas não associam à falta de ferro. A lista é longa porque o ferro participa da produção das células do sangue, do transporte de oxigênio e da saúde da pele, das unhas e dos cabelos.',
+          'Muitos desses sinais aparecem quando a deficiência já dura meses. A língua pode ficar lisa e dolorida, e as feridas nos cantos da boca custam a cicatrizar. Já as unhas em forma de colher surgem nos quadros mais longos. Nenhum deles confirma o diagnóstico sozinho, mas todos ajudam a levantar a suspeita durante a consulta. Os sinais mais frequentes são:',
+        ],
+        bullets: [
+          'Falta de ar ao subir escadas ou ao caminhar em ritmo mais rápido',
+          'Palpitações e tontura ao se levantar',
+          'Dificuldade para se concentrar e queda de rendimento no trabalho ou na escola',
+          'Feridas nos cantos da boca e língua lisa e dolorida',
+          'Unhas quebradiças, que nos casos antigos assumem formato de colher',
+          'Secura e queda de cabelo mais intensas que o habitual',
+          'Vontade de comer gelo, terra ou papel',
+        ],
+      },
+      {
+        id: 'o-que-mais-parece-anemia',
+        heading: 'O que mais se parece com anemia ferropriva',
+        paragraphs: [
+          'Nem todo cansaço vem de anemia, e nem toda anemia é por falta de ferro. Alterações da tireoide, apneia do sono, infecções prolongadas e outros tipos de anemia dão sintomas parecidos. Por isso a confirmação depende de exame de sangue, não da sensação isolada. O hemograma já mostra o tamanho das hemácias e ajuda a separar os grupos.',
+          'Algumas anemias têm hemácias grandes, como as causadas por falta de vitamina B12 ou de ácido fólico, e outras têm hemácias de tamanho normal, como a da doença crônica. A talassemia também deixa as hemácias pequenas, mas costuma vir com ferritina normal. A anemia da doença crônica acompanha inflamações e doenças como a [doença renal crônica](/doencas/doenca-renal-cronica/), e o ferro fica preso nos estoques. A história de sangramentos, a alimentação, os medicamentos em uso e as doenças de base completam o raciocínio. Antes de iniciar ferro por conta própria, é essencial saber qual é o tipo de anemia em jogo.',
+        ],
+      },
+      {
+        id: 'quando-procurar-a-ubs',
+        heading: 'Quando procurar a unidade básica de saúde',
+        paragraphs: [
+          'A UBS resolve a maior parte dos casos, e ir até lá mais cedo faz diferença.',
+          'Também vale procurar a unidade quando a alimentação é pobre em ferro por muito tempo, quando há verminoses de repetição ou quando a pessoa passou por cirurgia bariátrica. Nesses casos, a avaliação ajuda a identificar a causa antes que a anemia se instale. Em crianças, o acompanhamento do crescimento e do ganho de peso também faz parte da consulta, porque a falta de ferro pode interferir nos dois. Procure atendimento quando:',
+        ],
+        bullets: [
+          'O cansaço e a palidez persistem por semanas, sem melhora com o descanso',
+          'Há falta de ar, palpitação ou tontura atrapalhando as atividades do dia',
+          'A menstruação é muito volumosa ou a gravidez veio acompanhada desses sinais',
+          'As fezes ficam pretas ou aparece sangue, indício de perda de sangue',
+          'A pessoa já tem doença cardíaca e nota piora da disposição ou do fôlego',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta que não podem esperar',
+        paragraphs: [
+          'Alguns sinais indicam anemia grave ou sangramento ativo e pedem atendimento imediato, sem esperar a consulta marcada. Alguns aparecem de repente, mesmo em quem nunca teve anemia.',
+          'Nessas situações, o exame de sangue e a avaliação médica não podem esperar. A conduta, incluindo a necessidade de transfusão, é decidida no serviço de saúde conforme a gravidade e a causa. Sangramento digestivo, por exemplo, pode estar por trás da anemia e precisa de investigação. Procure uma emergência ou chame ajuda se houver:',
+        ],
+        bullets: [
+          'Falta de ar em repouso ou ao fazer esforços muito leves',
+          'Dor no peito, palpitações rápidas ou sensação de desmaio',
+          'Palidez muito acentuada acompanhada de confusão mental ou sonolência',
+          'Fezes pretas tipo borra de café ou vômito com sangue',
+          'Anemia conhecida em gestante, em criança pequena ou em pessoa com doença cardíaca que piora rápido',
+        ],
+      },
+      {
+        id: 'na-consulta',
+        heading: 'O que acontece na consulta',
+        paragraphs: [
+          'Na UBS, o profissional avalia a história e o exame físico e solicita o hemograma. Também pergunta sobre alimentação, menstruação, uso de medicamentos, cirurgias prévias e sangramentos. Os valores de hemoglobina e de ferritina, interpretados junto do quadro e da idade e do sexo da pessoa, indicam se a anemia é por falta de ferro e qual a provável causa.',
+          'Se o caso é leve, o acompanhamento pode seguir na própria unidade, com reposição e nova avaliação. Quando a ferritina não é conclusiva, o médico pode repetir o exame depois de tratar uma inflamação ou pedir outros marcadores do ferro. Se há piora rápida, anemia intensa ou doença associada, a pessoa é encaminhada para avaliação especializada. Entender o tipo de anemia é o primeiro passo de um tratamento que funciona.',
+        ],
+        cta: {
+          label: 'Veja a página sobre a anemia ferropriva',
+          href: '/doencas/anemia-ferropriva/',
         },
-        {
-          id: 'sinais-que-passam-despercebidos',
-          heading: 'Sinais que costumam passar despercebidos',
-          paragraphs: [
-            'Além do cansaço e da palidez, a anemia ferropriva traz sinais que muitas pessoas não associam à falta de ferro:',
-          ],
-          bullets: [
-            'Falta de ar ao subir escadas ou caminhar em ritmo mais rápido',
-            'Palpitações e tontura ao se levantar',
-            'Dificuldade para se concentrar e queda de rendimento no trabalho ou na escola',
-            'Unhas quebradiças, que em casos antigos assumem formato de colher',
-            'Secura e queda de cabelo mais intensas que o habitual',
-          ],
-        },
-        {
-          id: 'o-que-mais-parece-anemia',
-          heading: 'O que mais se parece com anemia ferropriva',
-          paragraphs: [
-            'Nem todo cansaço vem de anemia, e nem toda anemia é por falta de ferro. Alterações da tireoide, apneia do sono, infecções prolongadas e outros tipos de anemia dão sintomas parecidos. Por isso a confirmação depende de exame de sangue, não da sensação isolada.',
-            'Há ainda uma diferença que importa: a anemia associada à [doença renal crônica](/doencas/doenca-renal-cronica/) tem outro mecanismo e exige outra abordagem. Antes de iniciar ferro por conta própria, é essencial saber qual é o tipo de anemia em jogo.',
-          ],
-        },
-        {
-          id: 'quando-procurar-a-ubs',
-          heading: 'Quando procurar a unidade básica de saúde',
-          paragraphs: [
-            'A UBS resolve a maior parte dos casos, e ir até lá mais cedo faz diferença. Procure atendimento quando:',
-          ],
-          bullets: [
-            'O cansaço e a palidez persistem por mais de duas ou três semanas',
-            'Há falta de ar, palpitação ou tontura atrapalhando as atividades do dia',
-            'A menstruação é muito volumosa ou a gravidez veio acompanhada desses sinais',
-            'As fezes ficam pretas ou aparece sangue, indício de perda de sangue',
-            'A pessoa já tem doença cardíaca e nota piora da disposição ou do fôlego',
-          ],
-        },
-        {
-          id: 'na-consulta',
-          heading: 'O que acontece na consulta',
-          paragraphs: [
-            'Na UBS, o profissional avalia a história e o exame físico e solicita o hemograma. Os valores de hemoglobina e de ferritina, interpretados junto do quadro e da idade e do sexo da pessoa, indicam se a anemia é por falta de ferro e qual a provável causa. Em alguns casos, o médico investiga a origem da perda de sangue.',
-            'Se o caso é leve, o acompanhamento pode seguir na própria unidade. Se há piora rápida, anemia intensa ou doença associada, a pessoa é encaminhada para avaliação especializada. Entender o tipo de anemia é o primeiro passo de um tratamento que funciona.',
-          ],
-          cta: {
-            label: 'Veja a página sobre a anemia ferropriva',
-            href: '/doencas/anemia-ferropriva/',
-          },
-        },
-      ],
-      diseaseSlugs: ['anemia-ferropriva'],
-      topicSlugs: ['doencas-cronicas'],
-      relatedArticleSlugs: ['anemia-ferropriva-tratamento-e-alimentacao'],
-      references: [
-        {
-          label: 'Anaemia: fact sheet',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/anaemia',
-          publisher: 'Organização Mundial da Saúde',
-        },
-        {
-          label: 'Anemia por deficiência de ferro: protocolo clínico e diretrizes terapêuticas',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/anemia-deficiencia-de-ferro',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['anemia-ferropriva'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['anemia-ferropriva-tratamento-e-alimentacao'],
+    references: [
+      {
+        label: 'Anaemia: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/anaemia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Anemia por deficiência de ferro: protocolo clínico e diretrizes terapêuticas',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/anemia-deficiencia-de-ferro',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
-      id: 'anemia-ferropriva-tratamento-e-alimentacao',
-      slug: 'anemia-ferropriva-tratamento-e-alimentacao',
-      title: 'Anemia ferropriva: tratamento e alimentação',
-      excerpt:
-        'O ferro por via oral resolve a maioria dos casos, mas a duração do tratamento e a forma de comer interferem no resultado. Veja como repor o ferro, melhorar a absorção e acompanhar os exames.',
-      category: 'Doenças crônicas',
-      categorySlug: 'doencas-cronicas',
-      body: [
-        {
-          id: 'como-funciona-o-tratamento',
-          heading: 'Como funciona o tratamento',
-          paragraphs: [
-            'O tratamento da anemia ferropriva tem duas frentes: repor o ferro que falta e corrigir a causa da perda ou do consumo excessivo. Nos casos leves e moderados, o ferro por via oral resolve, e a hemoglobina costuma começar a subir em algumas semanas.',
-            'A melhora do cansaço, porém, não encerra o tratamento. Enquanto a ferritina, que mede o estoque de ferro, não se repletar, a reposição continua; isso costuma levar de dois a seis meses. O tempo exato e a forma de tomar são definidos pelo médico, conforme o caso. A transfusão de sangue fica reservada para as situações graves ou muito sintomáticas.',
-          ],
+    id: 'anemia-ferropriva-tratamento-e-alimentacao',
+    slug: 'anemia-ferropriva-tratamento-e-alimentacao',
+    title: 'Anemia ferropriva: tratamento e alimentação',
+    excerpt:
+      'O ferro por via oral resolve a maioria dos casos, mas a duração do tratamento e a forma de comer interferem no resultado. Veja como repor o ferro, melhorar a absorção e acompanhar os exames.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'como-funciona-o-tratamento',
+        heading: 'Como funciona o tratamento',
+        paragraphs: [
+          'O tratamento da anemia ferropriva tem duas frentes: repor o ferro que falta e corrigir a causa da perda ou do consumo excessivo. As causas mais comuns são dieta pobre em ferro, perda de sangue e aumento da necessidade, e cada uma pede uma conduta própria. Nos casos leves e moderados, o ferro por via oral resolve, e a hemoglobina costuma começar a subir em algumas semanas.',
+          'No Brasil, o sulfato ferroso é a apresentação mais usada, e outros sais, como o gluconato e o fumarato, também podem ser prescritos. A dose e o horário são definidos pela equipe de saúde, e não por conta própria. Tomar o ferro com suco de laranja ou outra fonte de vitamina C ajuda na absorção.',
+          'Quando o ferro oral não é tolerado, não é absorvido ou o caso é mais avançado, a equipe pode indicar ferro pela veia, aplicado em serviço de saúde. A transfusão de sangue fica para situações graves. Como os estoques demoram a se refazer, o tratamento continua mesmo depois que o cansaço melhora, e o acompanhamento define quando o ferro pode ser suspenso.',
+        ],
+      },
+      {
+        id: 'ferro-na-dieta',
+        heading: 'Ferro na dieta',
+        paragraphs: [
+          'A alimentação ajuda na prevenção e durante o tratamento, mas não substitui a reposição quando a anemia já está instalada. Não é preciso comer grandes quantidades: a variedade e a frequência contam mais.',
+          'O ferro da carne, do fígado e dos miúdos é aproveitado com mais facilidade. O ferro dos feijões, das lentilhas e das folhas verdes depende da combinação da refeição, por isso vale caprichar nos acompanhamentos. Para quem não come carne, combinar leguminosas com vitamina C em todas as refeições ajuda a compensar. O farelo de aveia e o tofu entram como alternativas, e a orientação deve considerar a rotina e o orçamento da família. Bons exemplos de alimentos com ferro:',
+        ],
+        bullets: [
+          'Carnes vermelhas, fígado e miúdos, fontes de ferro mais bem aproveitado pelo corpo',
+          'Aves e peixes',
+          'Feijão, lentilha, grão-de-bico e ervilha',
+          'Tofu e farelo de aveia',
+          'Verduras de folhas escuras, como couve, espinafre e rúcula',
+        ],
+      },
+      {
+        id: 'absorcao-a-favor',
+        heading: 'Comer de um jeito que ajuda a absorver',
+        paragraphs: [
+          'A maneira de montar o prato interfere bastante na absorção do ferro. A absorção do ferro da carne é diferente da absorção do ferro vegetal, e misturar os dois no mesmo prato é vantajoso. Algumas escolhas mudam o aproveitamento do ferro.',
+          'As escolhas valem também para o horário do suplemento. Se o ferro for tomado junto de café, leite ou chá, parte dele deixa de ser aproveitada, e o tratamento pode demorar mais para responder. Chá mate e café coado são hábitos comuns no Brasil e, pelo teor de taninos, entram nessa lista. Estratégias simples fazem diferença:',
+        ],
+        bullets: [
+          'Combinar a refeição com fontes de vitamina C, como laranja, limão, acerola ou tomate, que aumentam o aproveitamento do ferro',
+          'Evitar leite e derivados junto das principais refeições, pois o cálcio compete com a absorção',
+          'Deixar café e chá para longe das refeições, já que reduzem o aproveitamento do ferro',
+          'Distribuir as fontes de ferro ao longo do dia, em vez de concentrar em uma só refeição',
+          'Cuidar da alimentação na gestação e na amamentação, fases de maior necessidade',
+        ],
+      },
+      {
+        id: 'efeitos-colaterais',
+        heading: 'Efeitos no estômago e no intestino',
+        paragraphs: [
+          'O ferro oral é seguro, mas pode incomodar. Náusea, desconforto estomacal, intestino preso e fezes mais escuras são queixas frequentes no início. A intensidade varia de pessoa para pessoa e tende a diminuir com o ajuste da dose. O intestino preso pode ser manejado com mais água, fibras e movimento ao longo do dia.',
+          'Tomar o ferro em jejum favorece a absorção, mas aumenta a chance de náusea; por isso muitas equipes preferem o uso junto da refeição. Nada disso é motivo para interromper o tratamento por conta própria. Ajustar o horário da toma, começar com doses menores e aumentar aos poucos ou trocar a apresentação são soluções que o profissional conhece. Fezes escuras são esperadas quando se começa o ferro e não indicam sangramento por si sós. Se o desconforto for intenso ou vier com vômitos persistentes, fale com a equipe antes de mudar qualquer coisa.',
+        ],
+      },
+      {
+        id: 'gravidez-e-criancas',
+        heading: 'Gravidez, infância e adolescência',
+        paragraphs: [
+          'Na gravidez, a necessidade de ferro aumenta junto do volume de sangue e do crescimento do bebê, e o pré-natal costuma prever a suplementação. O ferro também é transferido ao bebê durante a gestação, e a reserva com que ele nasce ajuda nos primeiros meses. O acompanhamento é essencial para reduzir o risco de anemia materna, parto prematuro e baixo peso ao nascer. Quando a gestante já chega com anemia, o tratamento é iniciado e seguido com exames.',
+          'Na infância e na adolescência, o ritmo de crescimento e, entre as meninas, o início da menstruação elevam a exigência de ferro. Crianças com anemia podem ficar mais cansadas, irritadas e com menos rendimento na escola. Adolescentes que fazem dietas restritivas ou treinam muito também merecem atenção. Meninas com menstruação volumosa perdem mais ferro a cada ciclo e podem precisar de acompanhamento mais próximo. A suplementação nessas fases deve seguir a orientação da equipe de saúde.',
+        ],
+      },
+      {
+        id: 'acompanhar-resultados',
+        heading: 'Acompanhar com exames, não apenas com a sensação',
+        paragraphs: [
+          'O tratamento da anemia ferropriva se acompanha com exames, porque os sintomas melhoram antes de o estoque de ferro se repletar. O hemograma mostra a hemoglobina, e a ferritina mostra o estoque; os dois juntos dizem se o tratamento está funcionando.',
+          'A resposta costuma ser avaliada com um novo hemograma cerca de um mês depois do início. Se a hemoglobina não subir como esperado, a equipe investiga perda de sangue, uso irregular do medicamento, diagnóstico incorreto ou outra doença associada. A suplementação por conta própria, sem esses exames, pode esconder a causa e atrasar o diagnóstico. Pontos de atenção no acompanhamento:',
+        ],
+        bullets: [
+          'Repetir hemograma e ferritina nos prazos definidos pelo médico, mesmo depois da melhora',
+          'Manter o ferro pelo tempo indicado, sem interromper assim que o cansaço passa',
+          'Investigar sangramentos persistentes e casos que não respondem à reposição',
+          'Levar os exames anteriores na consulta ajuda a comparar os resultados',
+          'Reavaliar o quadro quando há doença renal ou outra condição que mude a estratégia',
+        ],
+        cta: {
+          label: 'Veja a página sobre a anemia ferropriva',
+          href: '/doencas/anemia-ferropriva/',
         },
-        {
-          id: 'ferro-na-dieta',
-          heading: 'Ferro na dieta',
-          paragraphs: [
-            'A alimentação ajuda na prevenção e durante o tratamento, mas não substitui a reposição quando a anemia já está instalada. Bons exemplos de alimentos com ferro:',
-          ],
-          bullets: [
-            'Carnes vermelhas, fígado e miúdos, fontes de ferro mais bem aproveitado pelo corpo',
-            'Aves e peixes',
-            'Feijão, lentilha, grão-de-bico e ervilha',
-            'Tofu e farelo de aveia',
-            'Verduras de folhas escuras, como couve, espinafre e rúcula',
-          ],
-        },
-        {
-          id: 'absorcao-a-favor',
-          heading: 'Comer de um jeito que ajuda a absorver',
-          paragraphs: [
-            'A maneira de montar o prato interfere bastante na absorção do ferro. Estratégias simples fazem diferença:',
-          ],
-          bullets: [
-            'Combinar a refeição com fontes de vitamina C, como laranja, limão, acerola ou tomate, que aumentam o aproveitamento do ferro',
-            'Evitar leite e derivados junto das principais refeições, pois o cálcio compete com a absorção',
-            'Deixar café e chá para longe das refeições, já que reduzem o aproveitamento do ferro',
-            'Distribuir as fontes de ferro ao longo do dia, em vez de concentrar em uma só refeição',
-            'Cuidar da alimentação na gestação e na amamentação, fases de maior necessidade',
-          ],
-        },
-        {
-          id: 'efeitos-colaterais',
-          heading: 'Efeitos no estômago e no intestino',
-          paragraphs: [
-            'O ferro oral é seguro, mas pode incomodar. Náusea, desconforto estomacal, intestino preso e fezes mais escuras são queixas frequentes no início.',
-            'Nada disso é motivo para interromper o tratamento por conta própria. Ajustar o horário da toma, iniciar com frequência menor ou trocar a apresentação são soluções que o profissional conhece, e que costumam resolver o incômodo sem comprometer o resultado.',
-          ],
-        },
-        {
-          id: 'gravidez-e-criancas',
-          heading: 'Gravidez, infância e adolescência',
-          paragraphs: [
-            'Na gravidez, a necessidade de ferro aumenta junto do volume de sangue e do crescimento do bebê, e o pré-natal costuma prever a suplementação. O acompanhamento é essencial para reduzir o risco de anemia materna, parto prematuro e baixo peso ao nascer.',
-            'Na infância e na adolescência, o ritmo de crescimento e, entre as meninas, o início da menstruação elevam a exigência de ferro. Crianças com anemia podem ficar mais cansadas, irritadas e com menos rendimento na escola. A suplementação nessas fases deve seguir a orientação da equipe de saúde.',
-          ],
-        },
-        {
-          id: 'acompanhar-resultados',
-          heading: 'Acompanhar com exames, não apenas com a sensação',
-          paragraphs: [
-            'O tratamento da anemia ferropriva se acompanha com exames, porque os sintomas melhoram antes de o estoque de ferro se repletar. Pontos de atenção no acompanhamento:',
-          ],
-          bullets: [
-            'Repetir hemograma e ferritina nos prazos definidos pelo médico, mesmo depois da melhora',
-            'Manter o ferro pelo tempo indicado, sem interromper assim que o cansaço passa',
-            'Investigar sangramentos persistentes e casos que não respondem à reposição',
-            'Reavaliar o quadro quando há doença renal ou outra condição que mude a estratégia',
-          ],
-          cta: {
-            label: 'Veja a página sobre a anemia ferropriva',
-            href: '/doencas/anemia-ferropriva/',
-          },
-        },
-      ],
-      diseaseSlugs: ['anemia-ferropriva'],
-      topicSlugs: ['doencas-cronicas', 'prevencao'],
-      relatedArticleSlugs: ['anemia-ferropriva-sintomas-e-quando-procurar-atendimento'],
-      references: [
-        {
-          label: 'Anemia por deficiência de ferro: protocolo clínico e diretrizes terapêuticas',
-          url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/anemia-deficiencia-de-ferro',
-          publisher: 'Ministério da Saúde (Brasil)',
-        },
-        {
-          label: 'Principais questões sobre anemia ferropriva na criança',
-          url: 'https://portaldeboaspraticas.iff.fiocruz.br/atencao-crianca/principais-questoes-sobre-anemia-ferropriva-na-crianca/',
-          publisher: 'Fiocruz',
-        },
-        {
-          label: 'Anaemia: fact sheet',
-          url: 'https://www.who.int/news-room/fact-sheets/detail/anaemia',
-          publisher: 'Organização Mundial da Saúde',
-        },
-      ],
-      author: 'Equipe editorial Saudewiki',
-      reviewer: null,
-      reviewStatus: 'needs_review',
-      publishedAt: '2026-10-19',
-      updatedAt: '2026-10-19',
-      isPlaceholder: true,
-    },
+      },
+    ],
+    diseaseSlugs: ['anemia-ferropriva'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['anemia-ferropriva-sintomas-e-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Anemia por deficiência de ferro: protocolo clínico e diretrizes terapêuticas',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/pcdt/a/anemia-deficiencia-de-ferro',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Principais questões sobre anemia ferropriva na criança',
+        url: 'https://portaldeboaspraticas.iff.fiocruz.br/atencao-crianca/principais-questoes-sobre-anemia-ferropriva-na-crianca/',
+        publisher: 'Fiocruz',
+      },
+      {
+        label: 'Anaemia: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/anaemia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-19',
+    updatedAt: '2026-10-22',
+    isPlaceholder: true,
+  },
   {
       id: 'catarata-sintomas-e-quando-procurar-atendimento',
       slug: 'catarata-sintomas-e-quando-procurar-atendimento',
