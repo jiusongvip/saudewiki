@@ -13253,4 +13253,2679 @@ export const articles: Article[] = [
     updatedAt: '2026-10-22',
     isPlaceholder: true,
   },
+  {
+    id: 'obesidade-sintomas-e-quando-buscar-ajuda',
+    slug: 'obesidade-sintomas-e-quando-buscar-ajuda',
+    title: 'Obesidade: sintomas que pedem avaliação e quando buscar ajuda',
+    excerpt:
+      'A obesidade costuma avançar sem dor. Veja quais sinais indicam que o peso já está afetando a saúde e como é a avaliação na prática.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-a-obesidade-custa-a-aparecer',
+        heading: 'Por que a obesidade demora a dar sinal',
+        paragraphs: [
+          'A obesidade é uma doença crônica em que o excesso de gordura corporal passa a prejudicar a saúde. O problema é que ela raramente avisa. Não dói, não coça e não impede a rotina no começo, então muita gente convive anos com o peso acima do ideal sem se considerar doente.',
+          'Enquanto isso, o tecido adiposo trabalha como um órgão ativo, liberando substâncias que aumentam a inflamação e dificultam a ação da insulina. Pressão, glicose e colesterol vão mudando aos poucos, e o corpo se adapta a valores que já não são saudáveis.',
+          'É por isso que a obesidade aparece com frequência junto de outras doenças. Em 2023, o índice de massa corporal acima do ideal foi associado a 3,7 milhões de mortes no mundo, por meio de doenças cardiovasculares, diabetes e alguns tipos de câncer. O número dá a dimensão do que está em jogo quando o quadro é tratado como questão estética. A conta também aparece em consultas, exames, afastamentos do trabalho e no cuidado de complicações que poderiam ter sido evitadas com acompanhamento mais cedo.',
+        ],
+      },
+      {
+        id: 'sintomas-que-passam-despercebidos',
+        heading: 'Sintomas que costumam passar despercebidos',
+        paragraphs: [
+          'Falta de ar ao subir uma escada, cansaço mais cedo do que os colegas e necessidade de sentar durante tarefas simples são queixas comuns, e muitas pessoas as atribuem apenas ao sedentarismo. Quando o peso é alto, esses sinais podem indicar que o coração e os pulmões estão trabalhando além do necessário. Vale registrar quando isso começou e se piorou nos últimos meses, porque essa informação ajuda o profissional a separar falta de condicionamento de algo que precisa de investigação.',
+          'O ronco merece atenção especial. Ronco alto, pausas na respiração percebidas por quem dorme junto e sonolência durante o dia formam o trio clássico da apneia obstrutiva do sono, condição frequente na obesidade e que piora a pressão arterial e o cansaço. Quem dorme mal por causa da respiração costuma acordar cansado, ter dor de cabeça pela manhã e apresentar pressão mais difícil de controlar, o que cria um ciclo que só melhora quando a apneia é tratada.',
+          'Dor nos joelhos, no quadril e na coluna também é comum, porque essas articulações carregam o peso do corpo a cada passo. Azia e refluxo aparecem pela pressão do abdômen sobre o estômago, e infecções de pele nas dobras são mais frequentes pelo atrito e pela umidade.',
+        ],
+      },
+      {
+        id: 'quando-o-peso-ja-esta-causando-doenca',
+        heading: 'Quando o peso já está causando doença',
+        paragraphs: [
+          'Alguns sinais mostram que o excesso de gordura já não é apenas um fator de risco, e sim parte de um problema instalado. Pressão alta, glicemia de jejum alterada, triglicerídeos elevados e gordura no fígado detectada em ultrassom são exemplos que aparecem em exames de rotina.',
+          'Em mulheres, menstruação irregular e dificuldade para engravidar podem estar ligadas à síndrome dos ovários policísticos, que piora com o ganho de peso e melhora quando ele é reduzido. Em homens, queda de testosterona e disfunção erétil têm relação com a obesidade e com o diabetes que costuma acompanhá-la. Esses quadros não são consequência inevitável do peso, e sim condições que têm tratamento próprio e respondem melhor quando identificadas cedo.',
+          'O impacto emocional não é menor. Vergonha, isolamento, ansiedade e depressão são frequentes e muitas vezes são o motivo que leva alguém a procurar ajuda antes de qualquer exame alterado.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta que não podem esperar',
+        paragraphs: [
+          'Algumas complicações da obesidade são emergências. Dor no peito, falta de ar que piora em horas, desmaio, boca torta ou fraqueza de um lado do corpo pedem atendimento imediato, porque podem ser infarto ou AVC.',
+          'Também exigem avaliação rápida perna inchada, dolorida e quente de um lado só, dor abdominal intensa depois de uma refeição gordurosa, ferida nos pés que não cicatriza e sonolência intensa com pausas na respiração durante o sono.',
+          'Nesses casos, procure um pronto atendimento ou ligue para o SAMU 192. Não espere a consulta de rotina e não tome remédio por conta própria para tentar passar o sintoma. Anote o horário em que os sintomas começaram e os remédios que usa, inclusive os que não foram prescritos, porque essa lista muda a conduta na chegada ao serviço de saúde.',
+        ],
+        bullets: [
+          'Dor no peito com suor frio',
+          'Falta de ar súbita',
+          'Fraqueza de um lado do corpo ou fala embolada',
+          'Perna inchada e quente de um lado só',
+          'Dor abdominal forte após comida gordurosa',
+        ],
+        cta: {
+          label: 'Entenda a obesidade e os sinais de alerta',
+          href: '/doencas/obesidade/',
+        },
+      },
+      {
+        id: 'como-e-a-avaliacao',
+        heading: 'Como é a avaliação na prática',
+        paragraphs: [
+          'A avaliação começa com medidas simples: peso, altura, circunferência da cintura e pressão arterial. Com peso e altura, calcula-se o índice de massa corporal, que indica sobrepeso a partir de 25 e obesidade a partir de 30 em adultos. A cintura entra porque a gordura abdominal tem relação mais forte com risco cardiovascular do que o peso total.',
+          'O profissional também pergunta sobre sono, alimentação, atividade física, medicamentos em uso, histórico familiar e tentativas anteriores de emagrecer. Essas informações mudam a conduta: quem usa corticoide ou tem apneia do sono precisa de um plano diferente de quem não tem.',
+          'Exames são pedidos conforme o risco. Glicemia, hemoglobina glicada, perfil lipídico, enzimas do fígado e, em alguns casos, hormônios da tireoide ajudam a mapear o que já foi afetado. O IMC é o ponto de partida, não a conclusão: ele não distingue músculo de gordura e precisa ser lido junto com o restante. Quando o ganho de peso é rápido, vem com rosto arredondado, estrias largas ou pressão de difícil controle, a investigação de causas endócrinas passa a ter sentido.',
+        ],
+      },
+      {
+        id: 'o-que-esperar-da-consulta',
+        heading: 'O que esperar da consulta e do seguimento',
+        paragraphs: [
+          'Uma boa consulta não termina com uma dieta impressa. Termina com um plano possível, com metas pequenas e verificáveis, e com a definição de quem acompanha o caso: clínico geral, nutricionista, endocrinologista ou uma equipe multiprofissional.',
+          'Perder de 5% a 10% do peso já melhora pressão, glicemia, colesterol, gordura no fígado e dor nas articulações. Para quem pesa 100 kg, isso significa começar com 5 kg a 10 kg, e não com o peso de uma tabela.',
+          'O seguimento importa tanto quanto a primeira consulta. Retornos regulares permitem ajustar o plano, identificar complicações cedo e trocar de estratégia quando algo não funciona. Obesidade é doença crônica, e o cuidado também é. Se o plano não estiver funcionando depois de algumas semanas, isso não é motivo para desistir, e sim informação para ajustar dose, estratégia ou acompanhamento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['obesidade'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['obesidade-como-emagrecer-com-saude'],
+    references: [
+      {
+        label: 'Obesity and overweight: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Obesidade — Manual MSD, versão profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-nutricionais/obesidade-e-s%C3%ADndrome-metab%C3%B3lica/obesidade',
+        publisher: 'MSD Manuals',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'obesidade-como-emagrecer-com-saude',
+    slug: 'obesidade-como-emagrecer-com-saude',
+    title: 'Como emagrecer com saúde quando se tem obesidade',
+    excerpt:
+      'Metas realistas, alimentação que se sustenta, movimento sem dor e o papel de medicamentos e cirurgia no tratamento da obesidade.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'metas-que-fazem-sentido',
+        heading: 'Metas que fazem sentido',
+        paragraphs: [
+          'A primeira decisão de quem quer emagrecer costuma ser escolher um número na balança. Vale trocar a pergunta: em vez de quanto quero pesar, o que quero conseguir fazer? Subir escadas sem parar, dormir sem roncar, reduzir um remédio de pressão. Essas metas são mais úteis porque têm relação direta com saúde. Metas ligadas a função costumam durar mais do que metas de peso, porque continuam valendo mesmo quando a balança trava por algumas semanas.',
+          'Perder de 5% a 10% do peso já melhora pressão arterial, glicemia, colesterol, gordura no fígado e dor nas articulações. Para quem pesa 100 kg, são 5 kg a 10 kg no primeiro ciclo, um objetivo possível e verificável.',
+          'Prazos muito curtos costumam cobrar caro. Dietas radicais até emagrecem rápido, mas a perda costuma vir acompanhada de fome, perda de massa muscular e recuperação do peso depois. O que funciona é o que se sustenta por anos. Um ritmo possível de sustentar costuma ser mais útil do que o mais rápido, e quem tem acompanhamento consegue ajustar esse ritmo sem passar fome.',
+        ],
+      },
+      {
+        id: 'alimentacao-que-se-sustenta',
+        heading: 'Alimentação que se sustenta',
+        paragraphs: [
+          'Não existe uma dieta única para obesidade, e sim princípios que aparecem em quase todas as abordagens eficazes: comer mais comida de verdade, reduzir bebidas açucaradas e ultraprocessados, controlar porções e manter horários regulares. O ponto de partida mais seguro é mudar o que se bebe e o tamanho das porções, antes de mexer em tudo ao mesmo tempo.',
+          'Na prática, isso significa aumentar feijão, lentilha, legumes, verduras, frutas e cereais integrais, que dão saciedade e fibra, e diminuir o que vem em pacote com muita gordura, açúcar e sal. Cozinhar em casa, mesmo que de forma simples, costuma ser o ajuste com maior efeito. Montar o prato com metade de vegetais, um quarto de proteína e um quarto de carboidrato integral é uma referência simples que não exige contar caloria.',
+          'Restrições extremas, como cortar grupos inteiros de alimentos sem orientação, são difíceis de manter e podem causar deficiências. Se a fome for intensa ou houver episódios de comer compulsivo, isso precisa ser tratado, e não apenas disciplinado. Comer devagar, sentar à mesa e evitar beliscar em pé ajuda a perceber a saciedade, que costuma chegar depois de alguns minutos e não no meio da refeição.',
+        ],
+      },
+      {
+        id: 'movimento-sem-dor',
+        heading: 'Movimento sem dor e sem culpa',
+        paragraphs: [
+          'A atividade física é parte do tratamento, não uma punição pelo que se comeu. A Organização Mundial da Saúde recomenda pelo menos 150 minutos por semana de atividade moderada para saúde geral. Para perder e manter peso, as diretrizes de tratamento da obesidade costumam indicar de 300 a 360 minutos semanais. O objetivo inicial não é performance, e sim criar constância e reduzir o tempo sentado ao longo do dia.',
+          'Quem tem muito peso e dor nos joelhos não precisa começar correndo. Caminhada, bicicleta, natação, hidroginástica e aparelhos de baixo impacto protegem as articulações. Duas sessões de força por semana ajudam a preservar massa muscular durante o emagrecimento. Se a dor aparecer durante a atividade e não passar com o repouso, vale conversar com um profissional antes de aumentar a intensidade.',
+          'O melhor exercício é o que cabe na rotina. Descer uma parada antes do ponto, caminhar depois do almoço, usar as escadas em um lance, dançar em casa. Pequenos blocos somam mais do que uma sessão heroica por semana. Contar os minutos de forma realista ajuda: quem faz dez minutos três vezes ao dia já cumpriu meia hora sem precisar de academia.',
+        ],
+      },
+      {
+        id: 'medicamentos-e-cirurgia',
+        heading: 'Quando entram medicamentos e cirurgia',
+        paragraphs: [
+          'Medicamento não substitui alimentação e movimento, e não é indicado para quem quer perder poucos quilos. As indicações usuais são índice de massa corporal acima de 30, ou acima de 27 com alguma condição associada, como diabetes, pressão alta ou apneia do sono. O remédio funciona melhor quando o plano de alimentação e atividade já está em andamento, porque ele potencializa o que a pessoa consegue fazer e não substitui o que ela não faz.',
+          'Entre as opções prescritas estão o orlistato, que reduz a absorção de gordura, e os agonistas do GLP-1, que diminuem o apetite e retardam o esvaziamento do estômago. Náusea, vômito e constipação são comuns no início, e a dose precisa ser ajustada aos poucos. Em dezembro de 2025, a Organização Mundial da Saúde publicou sua primeira diretriz sobre o assunto, recomendando que esses remédios façam parte de um cuidado crônico mais amplo, com alimentação, atividade e acompanhamento.',
+          'A cirurgia metabólica e bariátrica é o tratamento mais eficaz para a obesidade grave. Em adultos, os critérios mais usados são índice de massa corporal de 40 ou mais, ou de 35 ou mais com doenças associadas relevantes, sempre depois de avaliação multiprofissional. Depois do procedimento, suplementação de vitaminas e minerais e retorno regular às consultas fazem parte do resultado. A decisão de operar considera o risco cirúrgico, o tempo de obesidade, as tentativas anteriores e a capacidade de manter o acompanhamento depois.',
+        ],
+        cta: {
+          label: 'Veja o tratamento completo da obesidade',
+          href: '/doencas/obesidade/',
+        },
+      },
+      {
+        id: 'manutencao',
+        heading: 'Manutenção: a parte que decide o resultado',
+        paragraphs: [
+          'A maior parte das pessoas que emagrece volta a ganhar peso em algum momento. Estudos mostram que entre um terço e dois terços recuperam mais do que haviam perdido. Isso não é falha de caráter: é a biologia de um corpo que se adaptou à restrição e responde com mais fome. Saber disso com antecedência ajuda a não interpretar cada oscilação como fracasso e a procurar ajuda no começo da recuperação, quando o ajuste é mais simples.',
+          'Manter o peso exige menos rigor do que perder, mas exige constância. Pesarse uma vez por semana, manter o café da manhã e o almoço estáveis, continuar caminhando e dormir em horário regular são âncoras que sustentam o resultado em semanas difíceis. Ter um plano para viagens, festas e fins de semana prolongados reduz o efeito de períodos em que a rotina muda por completo.',
+          'Recaídas fazem parte. O caminho útil é retomar o plano na refeição seguinte, e não esperar segunda-feira, ano novo ou o próximo aniversário. Quem tem acompanhamento profissional costuma identificar o desvio mais cedo e corrigir com menos esforço. Vale também revisar o tratamento de tempos em tempos: o que funcionou aos 40 anos pode não servir aos 60, com outras doenças e outros remédios em uso.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['obesidade'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['obesidade-sintomas-e-quando-buscar-ajuda'],
+    references: [
+      {
+        label: 'Obesity and overweight: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Obesidade — Manual MSD, versão profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-nutricionais/obesidade-e-s%C3%ADndrome-metab%C3%B3lica/obesidade',
+        publisher: 'MSD Manuals',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gripe-sintomas-e-sinais-de-alerta',
+    slug: 'gripe-sintomas-e-sinais-de-alerta',
+    title: 'Gripe: sintomas, sinais de alerta e quando procurar ajuda',
+    excerpt:
+      'Febre alta de início súbito, tosse e dores no corpo são a marca da gripe. Saiba reconhecer os sinais de que ela está ficando grave.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-a-gripe-comeca',
+        heading: 'Como a gripe começa',
+        paragraphs: [
+          'A gripe não avisa com um dia de coriza. Ela costuma chegar de uma vez: a pessoa está bem pela manhã e, à tarde, tem febre alta, dor no corpo e uma sensação de cansaço que não combina com o que fez naquele dia. Esse início abrupto é uma das diferenças mais claras em relação ao resfriado. Quem já teve gripe reconhece a diferença: o corpo dói como depois de um esforço grande, e a febre vem acompanhada de calafrios e vontade de ficar deitado.',
+          'O tempo entre a infecção e o aparecimento dos sintomas é curto, de um a quatro dias, com média de dois. É por isso que, em uma casa ou em uma sala de aula, vários casos aparecem quase juntos, e não espalhados ao longo de semanas.',
+          'A transmissão acontece por gotículas de saliva e secreção respiratória que saem ao tossir, espirrar ou falar, e também pelas mãos que levam o vírus aos olhos, ao nariz e à boca. Ambientes fechados e cheios aumentam o risco em qualquer época do ano, inclusive no verão. O vírus também pode ficar em superfícies por algumas horas, o que reforça a importância de limpar mesas, maçanetas e aparelhos de uso comum em locais fechados.',
+        ],
+      },
+      {
+        id: 'sintomas-que-diferem-do-resfriado',
+        heading: 'Sintomas que ajudam a diferenciar do resfriado',
+        paragraphs: [
+          'Os sintomas clássicos são febre, tosse seca, dor de garganta, dor de cabeça, dores musculares e nas juntas, calafrios e mal-estar intenso. A febre costuma ser alta e durar alguns dias, e o cansaço é desproporcional ao esforço feito.',
+          'A tosse pode ser forte e persistir por duas semanas ou mais, mesmo depois que a febre passa. Em crianças, são comuns febre mais alta, gânglios aumentados no pescoço, vômito e diarreia. Em idosos, a temperatura pode subir pouco ou nem subir, o que atrasa o reconhecimento e é um dos motivos pelos quais a gripe mata mais nessa faixa. Em bebês, o sinal pode ser apenas recusa alimentar, irritabilidade e febre, sem tosse evidente, o que exige olhar atento de quem cuida.',
+          'O resfriado comum, causado por outros vírus, costuma dar coriza, espirro e dor de garganta leve, com pouco comprometimento do estado geral. Já a covid-19 pode ser indistinguível da gripe, inclusive com perda de olfato e paladar. Na dúvida, o teste orienta a conduta e evita tratar a doença errada.',
+        ],
+      },
+      {
+        id: 'quando-a-gripe-e-grave',
+        heading: 'Quando a gripe deixa de ser uma gripe comum',
+        paragraphs: [
+          'A complicação mais frequente é a pneumonia, que pode ser causada pelo próprio influenza ou por bactérias que se aproveitam da queda de resistência. Ela aparece quando a falta de ar entra em cena, o cansaço piora em vez de melhorar e a febre não cede no prazo esperado. A pneumonia bacteriana costuma aparecer na segunda semana, quando a pessoa parece melhorar e então piora de novo, com febre alta e tosse produtiva.',
+          'Alguns grupos têm risco muito maior de evoluir mal: gestantes em qualquer fase, puérperas até duas semanas após o parto, pessoas com 60 anos ou mais, crianças menores de 5 anos, quem tem doença crônica do coração, pulmão, rim, fígado, sangue ou metabolismo, pessoas imunossuprimidas e adultos com obesidade e índice de massa corporal de 40 ou mais.',
+          'Nesses grupos, a orientação é procurar atendimento cedo, sem esperar a piora. O antiviral funciona melhor nas primeiras 48 horas de sintomas, e esse prazo se perde justamente quando se decide esperar em casa. Reconhecer o próprio grupo de risco ajuda a decidir rápido: quem tem asma, diabetes ou doença cardíaca não deve tratar a gripe como um episódio isolado.',
+        ],
+        bullets: [
+          'Falta de ar ou respiração rápida',
+          'Dor ou pressão no peito',
+          'Lábios ou rosto arroxeados',
+          'Confusão ou sonolência excessiva',
+          'Febre que volta depois de uma melhora',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre gripe',
+          href: '/doencas/gripe/',
+        },
+      },
+      {
+        id: 'o-que-fazer-nas-primeiras-48-horas',
+        heading: 'O que fazer nas primeiras 48 horas',
+        paragraphs: [
+          'Para quem não está em grupo de risco, o cuidado é de suporte: repouso, líquidos ao longo do dia e um antitérmico orientado para febre e dor. Comer o que conseguir, sem forçar, ajuda na recuperação, e o apetite costuma voltar quando a febre cede. A febre alta costuma durar de dois a três dias, e o retorno gradual ao apetite é um bom sinal de recuperação.',
+          'Crianças e adolescentes não devem usar ácido acetilsalicílico durante uma infecção viral, pelo risco de síndrome de Reye, uma complicação rara e grave. Antibiótico não trata gripe e só é indicado quando há infecção bacteriana associada, o que exige avaliação profissional. Antitérmicos comuns aliviam o desconforto, mas não encurtam a infecção, e a dose precisa respeitar peso, idade e outras condições de saúde.',
+          'Ficar em casa é parte do tratamento. O Ministério da Saúde orienta afastamento do trabalho ou da escola por até 24 horas depois que a febre cessa sem uso de antitérmico, e por até sete dias após o início dos sintomas, para reduzir a transmissão.',
+        ],
+      },
+      {
+        id: 'sinais-para-voltar-ao-servico-de-saude',
+        heading: 'Sinais para voltar ao serviço de saúde',
+        paragraphs: [
+          'A maioria das pessoas melhora em uma semana, com cansaço por mais alguns dias. Se a recuperação não vier nesse ritmo, ou se aparecer qualquer sinal de gravidade, o retorno ao serviço de saúde não deve esperar a consulta já marcada. Uma semana é o prazo habitual para a febre e as dores cederem; se isso não acontece, alguma complicação pode estar em curso.',
+          'Vale voltar se a falta de ar surgir, se a tosse piorar muito, se a febre retornar depois de dias sem ela, se houver dor no peito, tontura ao levantar ou urina muito escura e em pouca quantidade. Em crianças, atenção a gemido, recusa de líquidos, prostração e convulsão.',
+          'Quem tem asma, DPOC, insuficiência cardíaca ou diabetes precisa de cuidado redobrado, porque a gripe descompensa essas doenças. Nesses casos, avisar a equipe de acompanhamento cedo costuma evitar internação.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['gripe'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: ['gripe-vacina-e-como-se-proteger'],
+    references: [
+      {
+        label: 'Gripe (influenza)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gripe-influenza',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Influenza (seasonal): fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gripe-vacina-e-como-se-proteger',
+    slug: 'gripe-vacina-e-como-se-proteger',
+    title: 'Vacina da gripe: por que repetir todo ano e como se proteger',
+    excerpt:
+      'A vacina muda a cada ano e a proteção diminui com o tempo. Entenda quem deve se vacinar, o que a dose faz e quais cuidados completam a proteção.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-a-vacina-muda-todo-ano',
+        heading: 'Por que a vacina muda todo ano',
+        paragraphs: [
+          'O vírus influenza sofre mutações constantes, e as cepas que circulam em um ano não são exatamente as do ano anterior. Por isso a composição da vacina é revista a cada temporada, com base nos vírus que circularam no Hemisfério Sul. A vigilância global coleta amostras de pacientes em dezenas de países e compara o que circula com o que a vacina cobre, e essa análise define a troca de cepas.',
+          'A proteção também diminui com o tempo. A imunidade cai ao longo dos meses, e é essa combinação de vírus diferente com imunidade em queda que justifica uma dose por ano, e não uma dose na vida. A recomendação vale para todos os anos, e não apenas para quem tem risco alto.',
+          'A vacina usada no SUS protege contra os três subtipos que mais circularam na temporada anterior. Ela é segura e passa por controle de qualidade antes de ser distribuída, e a rede pública a oferece gratuitamente aos grupos prioritários. Quem se vacina todos os anos mantém uma proteção mais estável do que quem interrompe, porque cada dose atualiza a memória do sistema imunológico para as cepas recentes.',
+        ],
+      },
+      {
+        id: 'quem-tem-prioridade',
+        heading: 'Quem tem prioridade para se vacinar',
+        paragraphs: [
+          'A prioridade não é uma escolha arbitrária: ela segue o risco de complicação. Quem tem mais chance de evoluir para pneumonia, internação e morte recebe a dose primeiro, porque é onde o benefício é maior.',
+          'O grupo inclui gestantes em qualquer idade gestacional, puérperas até duas semanas após o parto, pessoas com 60 anos ou mais, crianças de 6 meses a menores de 6 anos, pessoas com doenças crônicas, imunossuprimidas, profissionais de saúde, indígenas aldeados e pessoas com obesidade e índice de massa corporal de 40 ou mais. Trabalhadores de saúde entram na lista não apenas por se exporem, mas porque podem levar o vírus a pacientes internados, que têm pouca reserva para enfrentar uma infecção respiratória.',
+          'Quem não está nesses grupos pode se vacinar em serviços privados. A recomendação vale especialmente para quem convive com bebês pequenos, idosos ou pessoas em tratamento que reduz a imunidade. A escolha de se vacinar também protege quem não pode receber a vacina, como bebês menores de 6 meses e pessoas em tratamento imunossupressor.',
+        ],
+        bullets: [
+          'Gestantes e puérperas até duas semanas do parto',
+          'Pessoas com 60 anos ou mais',
+          'Crianças de 6 meses a menores de 6 anos',
+          'Doenças crônicas e imunossupressão',
+          'Profissionais de saúde',
+        ],
+      },
+      {
+        id: 'o-que-a-vacina-faz-e-o-que-nao-faz',
+        heading: 'O que a vacina faz e o que ela não faz',
+        paragraphs: [
+          'A vacina reduz o risco de adoecer e, sobretudo, o risco de formas graves, de internação e de morte. Em idosos, a resposta imunológica é menor, e a proteção contra qualquer sintoma pode cair, mas o efeito sobre casos graves se mantém. O benefício maior está justamente em quem tem mais dificuldade de responder à vacina, o que parece contraditório e é o motivo de a dose anual ser mantida nessa faixa.',
+          'Ela não impede todos os casos. Nenhuma vacina é 100% eficaz, e a proteção depende da proximidade entre as cepas da vacina e as que estão circulando. Ainda assim, quem se vacina e adoece costuma ter um quadro mais leve.',
+          'A vacina não causa gripe. As apresentações usadas no Brasil são feitas com vírus inativados, que não podem se replicar e causar a doença. Dor no braço, febre baixa e mal-estar por um ou dois dias são reações esperadas e passageiras. Reações mais intensas, como febre alta ou dor importante, são incomuns e devem ser avaliadas por um profissional, que registra o evento e orienta as próximas doses.',
+        ],
+      },
+      {
+        id: 'medidas-que-completam-a-protecao',
+        heading: 'Medidas que completam a proteção',
+        paragraphs: [
+          'Vacina e higiene funcionam juntas. Lavar as mãos com água e sabão ou usar álcool em gel, cobrir a boca e o nariz ao tossir, usar lenço descartável e manter os ambientes ventilados reduzem a transmissão de qualquer vírus respiratório. A higiene das mãos reduz também a transmissão de outros vírus respiratórios, como o sincicial, que é especialmente grave em bebês pequenos.',
+          'Evitar aglomeração em período de circulação intensa, não compartilhar copos, talheres e garrafas e evitar contato próximo com quem está doente são medidas simples que fazem diferença dentro de casa e no trabalho. Ventilar bem a casa e o local de trabalho por alguns minutos ao dia reduz a concentração de partículas virais no ar.',
+          'Quem está com sintomas deve evitar sair, sobretudo nos primeiros dias, quando a eliminação do vírus é maior. Essa atitude protege colegas, vizinhos e as pessoas vulneráveis com quem se convive. Em casa, quem está doente deve usar máscara quando precisar circular por espaços comuns, sobretudo se houver bebês ou idosos no mesmo ambiente.',
+        ],
+        cta: {
+          label: 'Entenda a gripe e seus sinais de alerta',
+          href: '/doencas/gripe/',
+        },
+      },
+      {
+        id: 'cuidar-de-quem-esta-em-casa',
+        heading: 'Cuidar de quem está em casa',
+        paragraphs: [
+          'Quando alguém adoece, separar copos, pratos e toalhas e lavar as mãos com frequência ajuda a proteger os demais. Manter a janela aberta e evitar dormir no mesmo quarto enquanto houver febre reduz a exposição. Trocar as toalhas de rosto com mais frequência e higienizar o banheiro depois do uso são cuidados que passam despercebidos e ajudam.',
+          'Bebês, gestantes e idosos exigem atenção maior. Nesses casos, procure atendimento ao primeiro sinal de piora, sem esperar o prazo de uma semana, porque a evolução pode ser rápida. Manter água e comida ao alcance de quem está acamado reduz o vai e vem e, com isso, o contato com os demais moradores.',
+          'Quem cuida também precisa se cuidar: dormir, beber água e não abandonar o próprio tratamento de doenças crônicas. A gripe em quem cuida pode interromper o cuidado de quem depende dessa pessoa. Se o cuidador também adoecer, vale pedir apoio a outra pessoa da família antes que a situação se complique para os dois lados.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['gripe'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['gripe-sintomas-e-sinais-de-alerta'],
+    references: [
+      {
+        label: 'Gripe (influenza)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gripe-influenza',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Influenza (seasonal): fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'febre-tifoide-sintomas-e-diagnostico',
+    slug: 'febre-tifoide-sintomas-e-diagnostico',
+    title: 'Febre tifoide: sintomas e como o diagnóstico é confirmado',
+    excerpt:
+      'Febre que sobe dia após dia, dor abdominal e mal-estar intenso. Veja como reconhecer a febre tifoide e quais exames confirmam a infecção.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-a-doenca-comeca',
+        heading: 'Como a febre tifoide começa',
+        paragraphs: [
+          'A febre tifoide é uma infecção bacteriana causada pela Salmonella enterica sorotipo Typhi. A bactéria entra pela boca, atravessa a parede do intestino e alcança a corrente sanguínea, e é essa passagem que explica por que a doença atinge o corpo inteiro e não apenas o aparelho digestivo. A bactéria não fica restrita ao intestino: ela se multiplica nas células de defesa, passa para os gânglios e daí para o sangue, em um percurso que leva dias.',
+          'O início costuma ser arrastado. A febre sobe ao longo dos dias em vez de aparecer de uma vez, e vem acompanhada de dor de cabeça, mal-estar, falta de apetite e dor abdominal difusa. Muita gente descreve a sensação como uma gripe que não passa e piora devagar.',
+          'A doença está ligada a água e alimentos contaminados, e não a contato casual. Por isso, a história de onde a pessoa vive, por onde viajou e o que comeu e bebeu é tão importante quanto o exame físico, sobretudo em regiões com saneamento precário. Surtos costumam ocorrer onde o esgoto corre a céu aberto e a água de beber não recebe tratamento, o que torna a doença um retrato das condições de saneamento de uma região.',
+        ],
+      },
+      {
+        id: 'sinais-que-ajudam-a-reconhecer',
+        heading: 'Sinais que ajudam a reconhecer o quadro',
+        paragraphs: [
+          'Alguns achados são característicos. O pulso pode estar mais lento do que a temperatura alta faria esperar, o baço pode aumentar e surgem manchas rosadas no tronco, que desaparecem quando se pressiona a pele. Nenhum deles está presente em todos os casos, mas juntos aumentam a suspeita. As manchas aparecem em pequenos grupos no tórax e no abdômen, duram poucos dias e raramente são notadas por quem está doente, mas chamam atenção no exame.',
+          'O hábito intestinal muda de formas diferentes conforme a idade. Adultos costumam ter prisão de ventre, enquanto crianças tendem a apresentar diarreia. Tosse seca, dor de cabeça persistente e perda de peso completam o quadro, e a febre alta prolongada é o fio condutor.',
+          'Em idosos e em pessoas com imunidade baixa, a apresentação pode ser atípica, com menos febre e mais confusão. Pessoas que vivem com HIV e aids podem ter doença mais grave e com tendência a recidivas, o que exige acompanhamento mais próximo. Crianças pequenas tendem a ter quadros mais leves que adultos, muitas vezes com diarreia em vez de prisão de ventre, o que atrasa a suspeita.',
+        ],
+        bullets: [
+          'Febre alta e prolongada',
+          'Dor de cabeça e mal-estar intenso',
+          'Manchas rosadas no tronco',
+          'Prisão de ventre ou diarreia',
+          'Aumento do baço e tosse seca',
+        ],
+      },
+      {
+        id: 'quando-procurar-atendimento',
+        heading: 'Quando procurar atendimento sem esperar',
+        paragraphs: [
+          'A complicação mais grave é a hemorragia intestinal, que pode perfurar o intestino e causar peritonite. Ela costuma aparecer na terceira semana de doença, quando a pessoa já está enfraquecida, e pode ser confundida com uma piora qualquer da infecção.',
+          'Dor abdominal súbita e muito intensa, barriga dura e dolorida ao toque, sangue nas fezes ou fezes muito escuras, vômitos que impedem a hidratação e palidez com suor frio são sinais de emergência. Nesses casos, o atendimento precisa ser imediato. A perfuração intestinal é uma urgência cirúrgica e, quanto mais tarde o paciente chega, maior a mortalidade, por isso a dor abdominal intensa nunca deve ser tratada em casa com analgésico.',
+          'Febre prolongada em alguém que veio de área de transmissão já justifica avaliação, mesmo sem esses sinais. Quanto mais cedo a hipótese é levantada, menor o risco de complicação e mais simples o tratamento.',
+        ],
+        cta: {
+          label: 'Leia a página completa sobre febre tifoide',
+          href: '/doencas/febre-tifoide/',
+        },
+      },
+      {
+        id: 'como-o-diagnostico-e-confirmado',
+        heading: 'Como o diagnóstico é confirmado',
+        paragraphs: [
+          'A confirmação vem do isolamento da bactéria em cultura. A hemocultura é o exame mais usado na fase aguda, quando a Salmonella circula no sangue. A cultura de fezes e de urina ajuda em fases mais avançadas e na investigação de pessoas que continuam eliminando a bactéria sem sintomas.',
+          'O aspirado ou a punção de medula óssea é o método mais sensível e fica reservado para situações selecionadas. O hemograma costuma mostrar alterações inespecíficas, e os testes sorológicos têm limitações, porque podem reagir de forma cruzada com outras salmonelas. Quando a cultura não está disponível, o quadro clínico e o histórico de exposição sustentam a decisão de tratar, e o antibiótico não deve ser adiado esperando um resultado que pode levar dias.',
+          'A coleta antes do antibiótico aumenta a chance de o exame identificar o agente. Por isso, quem chega com febre prolongada e suspeita de infecção bacteriana deve informar quais remédios já tomou, para que a equipe escolha o melhor momento e o melhor material para a cultura.',
+        ],
+      },
+      {
+        id: 'depois-do-diagnostico',
+        heading: 'O que muda depois do diagnóstico',
+        paragraphs: [
+          'O tratamento começa assim que o diagnóstico é feito, com antibiótico específico, hidratação e repouso. Na maior parte dos casos, o cuidado é ambulatorial, e a internação fica para quadros graves, complicações ou impossibilidade de manter a hidratação em casa.',
+          'O curso do antibiótico dura em geral cerca de 14 dias e não deve ser interrompido quando a febre cede, porque a bactéria pode permanecer no organismo e a doença voltar. A resistência antimicrobiana é um problema crescente e torna a escolha do remédio mais delicada em algumas regiões. A escolha do antibiótico considera a resistência da região, a idade, a gestação e as doenças de base, e a automedicação com sobras de tratamento anterior é um dos fatores que pioram esse cenário.',
+          'Depois da melhora, o médico pode pedir novos exames para confirmar que a bactéria foi eliminada, sobretudo em quem manipula alimentos. Essa etapa protege a própria pessoa e interrompe a transmissão dentro de casa e no trabalho. Recaídas acontecem em parte dos pacientes semanas depois da melhora e, quando surgem, precisam ser tratadas de novo e investigadas com o mesmo rigor.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['febre-tifoide'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: ['febre-tifoide-como-se-prevenir'],
+    references: [
+      {
+        label: 'Febre Tifoide',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-tifoide',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Typhoid: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/typhoid',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'febre-tifoide-como-se-prevenir',
+    slug: 'febre-tifoide-como-se-prevenir',
+    title: 'Como se prevenir da febre tifoide: água, alimentos e higiene',
+    excerpt:
+      'A febre tifoide se evita com água segura, alimentos bem preparados e mãos limpas. Veja o que funciona na prática e qual é o papel da vacina.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'de-onde-vem-a-transmissao',
+        heading: 'De onde vem a transmissão',
+        paragraphs: [
+          'A Salmonella Typhi vive apenas em seres humanos. Ela sai pelas fezes e pela urina de quem está doente ou carrega a bactéria sem sintomas, e chega a outra pessoa pela boca, em água ou alimento contaminado, ou pelas mãos. Mãos mal lavadas funcionam como ponte entre o banheiro e a cozinha, e é por isso que a higiene de quem prepara comida tem peso tão grande.',
+          'A eliminação da bactéria dura de uma a três semanas, podendo chegar a três meses. Entre 2% e 5% dos pacientes se tornam portadores crônicos e podem transmitir por até um ano, muitas vezes sem saber que carregam a bactéria. Portadores crônicos costumam ter a vesícula como reservatório da bactéria, e é por isso que algumas pessoas precisam de avaliação específica depois do tratamento.',
+          'Isso explica por que a doença persiste onde o esgoto não é tratado e a água não é segura. Não adianta apenas tratar os doentes: é preciso interromper o caminho entre o esgoto e o prato. Saneamento é a medida de maior impacto: onde há coleta e tratamento de esgoto, a doença deixa de circular mesmo sem mudanças individuais.',
+        ],
+      },
+      {
+        id: 'agua-segura-na-pratica',
+        heading: 'Água segura na prática',
+        paragraphs: [
+          'Quando a procedência da água é duvidosa, o Ministério da Saúde orienta filtrar e ferver por cinco minutos, esperando 30 minutos antes de consumir. Outra opção é filtrar e desinfetar com hipoclorito de sódio a 2,5%, usando duas gotas para cada litro de água tratada.',
+          'Em casa, limpar e desinfetar a caixa de água a cada seis meses, ou antes se necessário, é parte da rotina de prevenção. O mesmo vale para instituições, escolas e locais com grande circulação de pessoas. Ferver mata a bactéria, mas não remove sujeira nem resíduos, e por isso a filtração vem antes, com pano limpo ou filtro doméstico.',
+          'Para quem viaja, vale beber apenas água de procedência conhecida, evitar gelo de origem duvidosa e usar água mineral também para escovar os dentes quando a rede local não é confiável. Guardar água tratada em recipiente limpo e tampado evita que ela seja contaminada de novo por mãos, utensílios ou poeira.',
+        ],
+        bullets: [
+          'Filtrar e ferver a água por cinco minutos',
+          'Ou usar duas gotas de hipoclorito a 2,5% por litro',
+          'Limpar a caixa de água a cada seis meses',
+          'Evitar gelo de procedência desconhecida',
+        ],
+      },
+      {
+        id: 'cuidados-com-alimentos',
+        heading: 'Cuidados com os alimentos',
+        paragraphs: [
+          'Frutas, legumes e verduras devem ser lavados e desinfetados antes do consumo. A orientação do Ministério da Saúde é mergulhar os alimentos crus por 30 minutos em uma solução com uma colher de sopa de hipoclorito de sódio a 2,5% para cada litro de água tratada. A desinfecção não substitui a lavagem em água corrente, que remove a sujeira visível antes do mergulho na solução.',
+          'Leite e derivados devem ser pasteurizados, e alimentos congelados ou refrigerados precisam ser bem reaquecidos antes de comer. Frutos do mar retirados de água poluída, consumidos crus ou malcozidos, estão entre os veículos mais associados a surtos. Alimentos de origem animal exigem cozimento completo, e o leite cru deve ser evitado em qualquer preparação caseira.',
+          'Comer em locais com higiene duvidosa aumenta o risco. Preferir comida bem cozida e ainda quente, evitar preparações deixadas horas à temperatura ambiente e lavar as mãos antes de comer são medidas que valem em qualquer cidade. Em viagens, descascar frutas e evitar saladas cruas em locais de higiene incerta é uma forma prática de reduzir a exposição.',
+        ],
+      },
+      {
+        id: 'vacina-e-quem-precisa',
+        heading: 'Vacina: quem precisa e o que esperar',
+        paragraphs: [
+          'A vacina contra a febre tifoide não faz parte do calendário nacional de vacinação no Brasil. Ela tem poder imunogênico limitado e imunidade curta, e por isso é indicada apenas em situações específicas, como pessoas com exposição ocupacional a esgoto ou que vivem em áreas de alta endemicidade. Por isso, ela é discutida caso a caso, e não oferecida como rotina para toda a população.',
+          'A vacina não substitui água segura, saneamento e higiene. Mesmo quem se vacina precisa manter os cuidados com água e alimentos, porque nenhuma vacina oferece proteção completa e a duração da imunidade é limitada. A proteção começa algumas semanas após a aplicação e não dura muitos anos, o que explica a necessidade de reforços em quem mantém o risco.',
+          'Quem vai viajar para áreas de transmissão deve conversar com um serviço de medicina de viagem com antecedência, para avaliar se a vacina faz sentido no seu caso e quais outros cuidados são necessários. A decisão de vacinar não deve atrasar outras medidas, e o viajante precisa saber que o cuidado com água e comida continua sendo o principal.',
+        ],
+        cta: {
+          label: 'Veja sintomas e diagnóstico da febre tifoide',
+          href: '/doencas/febre-tifoide/',
+        },
+      },
+      {
+        id: 'quem-manipula-alimentos',
+        heading: 'Quem manipula alimentos tem um papel central',
+        paragraphs: [
+          'Boa parte dos surtos passa por pessoas que preparam alimentos sem saber que carregam a bactéria. Por isso, quem trabalha com comida deve lavar as mãos com água e sabão depois de usar o banheiro e nunca preparar alimentos se estiver com diarreia ou febre prolongada.',
+          'Depois de tratar a febre tifoide, quem manipula alimentos só deve voltar à função quando os exames mostrarem que a bactéria foi eliminada. Essa checagem é o que evita novos casos na mesma cozinha, escola ou restaurante. O afastamento temporário do trabalho é uma medida de saúde pública, e não uma punição: ele protege dezenas de pessoas que comeriam aquele alimento.',
+          'Superfícies, utensílios e equipamentos usados no preparo precisam ser lavados e desinfetados com frequência, e os alimentos devem ficar protegidos de insetos e animais. São medidas simples, mas são elas que sustentam a prevenção no dia a dia. Treinar a equipe sobre esses pontos rende mais do que fiscalizar apenas no dia da inspeção.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['febre-tifoide'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['febre-tifoide-sintomas-e-diagnostico'],
+    references: [
+      {
+        label: 'Febre Tifoide',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-tifoide',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Typhoid: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/typhoid',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'espondilose-lombar-sintomas-e-quando-procurar-atendimento',
+    slug: 'espondilose-lombar-sintomas-e-quando-procurar-atendimento',
+    title: 'Bico de papagaio: quando a dor lombar desce para a perna',
+    excerpt:
+      'O osteófito na lombar só incomoda quando estreita a passagem do nervo. Entenda o trajeto da dor, o vaivém de quem precisa parar de andar e os sinais que exigem atendimento imediato.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'dor-que-desce',
+        heading: 'Por que a dor lombar desce para a perna',
+        paragraphs: [
+          'A dor que começa nas costas e chega à perna tem um caminho próprio. Quando o canal da coluna ou o espaço por onde sai uma raiz nervosa fica estreito, o nervo passa a receber pressão e a dor deixa de ficar só na lombar. Ela segue o trajeto do nervo, atravessa o glúteo e alcança a coxa, a panturrilha ou o pé.',
+          'Esse trajeto ajuda a separar a dor de origem nervosa da dor muscular. A muscular fica na lombar e nas laterais, piora com movimento e melhora com calor local e repouso. A nervosa desce em linha, vem com formigamento ou queimação e pode deixar a perna pesada, mesmo quando a dor nas costas é pequena.',
+          'Osteófitos que crescem para dentro do canal são uma das causas, não a única. Hérnia de disco, cistos e espessamento de ligamentos produzem o mesmo efeito. A imagem mostra qual estrutura ocupa o espaço, e o exame físico mostra qual nervo está sofrendo. Quando a dor muda de lugar e de intensidade conforme a posição, o exame ganha precisão.',
+        ],
+      },
+      {
+        id: 'vaivem',
+        heading: 'O vaivém de quem precisa parar de andar',
+        paragraphs: [
+          'Quem tem estreitamento importante do canal descreve um padrão repetitivo. A pessoa anda alguns quarteirões, sente a perna ficar pesada, dolorida ou dormente, para, senta ou inclina o tronco para frente e, em poucos minutos, consegue seguir. O ciclo se repete na mesma distância.',
+          'O alívio com a flexão do tronco é a pista. Ao sentar ou se inclinar, o canal se abre um pouco e o nervo deixa de ser comprimido. Na falta de circulação arterial, o alívio vem com o repouso em qualquer posição, e a distância percorrida costuma variar menos de um dia para o outro.',
+          'Descrever esse detalhe ao médico encurta a investigação. Também ajuda registrar em que distância aproximada a dor aparece, se ela muda conforme o dia e se existe dor em repouso ou à noite, porque isso separa quadros que exigem condutas diferentes. Vale anotar também se a dor aparece ao subir ladeira, situação que exige mais da musculatura e do canal.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que não podem esperar',
+        paragraphs: [
+          'Alguns sinais indicam compressão grave de nervos ou outra doença na coluna e pedem atendimento imediato, sem esperar a consulta marcada. Eles podem aparecer em quem nunca teve dor lombar antes e não devem ser tratados em casa com analgésico. Quem tem osteoporose ou usa anticoagulante deve relatar esses dados na chegada ao serviço.',
+          'Procure um pronto atendimento no mesmo dia, ou chame o SAMU pelo 192 se houver dificuldade para se locomover, quando aparecer:',
+        ],
+        bullets: [
+          'Perda de controle da urina ou das fezes, ou retenção urinária',
+          'Dormência no períneo e ao redor do ânus',
+          'Fraqueza que piora rápido em uma ou nas duas pernas',
+          'Febre, calafrio ou ferida recente na coluna',
+          'Dor intensa que piora à noite e não melhora com repouso',
+          'Perda de peso sem explicação ou história de câncer',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'O que o exame precisa mostrar',
+        paragraphs: [
+          'A avaliação começa pela conversa e pelo exame físico. O médico testa força, sensibilidade e reflexos, e faz a elevação da perna estendida, que provoca dor quando há irritação do nervo ciático. Também observa como a pessoa anda e se consegue ficar na ponta dos pés.',
+          'A radiografia mostra alinhamento, altura dos discos e fraturas, mas não vê nervo. A ressonância é o exame que mostra disco, canal e compressão. A tomografia entra quando a ressonância não pode ser feita, e a eletroneuromiografia confirma qual raiz está comprometida quando o quadro não é claro. O laudo precisa responder a uma pergunta clínica, e não apenas descrever achados.',
+          'Exame pedido sem indicação costuma encontrar achados que não explicam a dor, porque osteófito é comum depois dos 50 anos. A investigação muda de rumo quando há déficit neurológico, suspeita de infecção ou tumor, ou dor que não cede ao tratamento bem conduzido.',
+        ],
+      },
+      {
+        id: 'o-que-nao-e',
+        heading: 'O que a dor lombar costuma ser',
+        paragraphs: [
+          'Boa parte da dor lombar não tem relação com osteófito. Sobrecarga muscular, muitas horas sentado e esforço fora do habitual respondem pela maioria dos episódios, que melhoram em dias ou semanas com movimento e ajuste de rotina. Na maior parte das vezes, o exame físico é suficiente para separar as duas situações.',
+          'Hérnia de disco costuma atingir gente mais jovem e piora ao tossir ou ao sentar. A dor de origem vascular aparece ao caminhar e melhora ao parar, sem relação com a posição do tronco. Dor que piora à noite, vem com febre ou perda de peso pede outra linha de investigação.',
+          'Chamar toda dor lombar de bico de papagaio leva a tratar sintoma sem olhar a causa, e às vezes a perder tempo com um problema que precisava de outra conduta. O nome do achado não substitui o diagnóstico.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar ajuda e o que levar',
+        paragraphs: [
+          'Vale procurar ajuda quando a dor dura mais de seis semanas, volta com frequência, limita o trabalho ou vem acompanhada de sintomas na perna. Nessas situações, a avaliação define se existe compressão nervosa e qual tratamento faz sentido para o caso.',
+          'Leve a lista de medicamentos em uso, os exames anteriores e uma descrição do que piora e do que alivia. Informe se já teve câncer, cirurgia na coluna, febre ou perda de peso, porque esses dados mudam a prioridade da investigação. Se houver dificuldade para caminhar, peça ajuda para chegar ao serviço de saúde.',
+          'Na maior parte dos casos, o tratamento começa com atividade orientada, ajuste da rotina e medicação por curto prazo. A cirurgia fica reservada para situações específicas, e não para o achado isolado da radiografia. O objetivo do tratamento é recuperar função, e não apagar a sombra do exame.',
+        ],
+        cta: {
+          label: 'Conheça a espondilose lombar, do diagnóstico ao tratamento',
+          href: '/doencas/espondilose-lombar/',
+        },
+      },
+    ],
+    diseaseSlugs: ['espondilose-lombar'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['espondilose-lombar-exercicios-e-cuidados-no-dia-a-dia'],
+    references: [
+      {
+        label: 'Dor lombar, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/dor-lombar-e-no-pesco%C3%A7o/dor-lombar',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Low back pain: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/low-back-pain',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'espondilose-lombar-exercicios-e-cuidados-no-dia-a-dia',
+    slug: 'espondilose-lombar-exercicios-e-cuidados-no-dia-a-dia',
+    title: 'Bico de papagaio: exercícios e cuidados que sustentam a coluna',
+    excerpt:
+      'Movimento orientado, ajustes na rotina e controle de peso reduzem a dor do desgaste lombar. Veja o que fazer na crise e como evitar que ela volte.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'movimento',
+        heading: 'Por que ficar parado piora',
+        paragraphs: [
+          'A reação natural a uma crise de dor lombar é deitar e esperar passar. O repouso curto alivia, mas o prolongado atrapalha. Ficar na cama por muitos dias enfraquece a musculatura do tronco, aumenta a rigidez e atrasa o retorno às atividades. O corpo se adapta rápido ao repouso: em poucos dias a tolerância ao esforço cai e a volta fica mais difícil.',
+          'O movimento funciona como lubrificante para a coluna. Caminhar, levantar e sentar com frequência mantêm o disco nutrido e a musculatura ativa. O limite é o desconforto: se a dor aumentar muito durante a atividade, ela precisa ser ajustada, não abandonada. Uma caminhada curta e repetida costuma ser melhor tolerada do que um esforço único e longo.',
+          'A recomendação prática é voltar às tarefas habituais o quanto antes, com adaptações. Carregar menos peso, dividir o trabalho em blocos e alternar posições são formas de continuar ativo sem provocar piora. O ritmo importa mais do que a quantidade.',
+        ],
+      },
+      {
+        id: 'exercicios',
+        heading: 'Exercícios que sustentam a coluna',
+        paragraphs: [
+          'O objetivo não é eliminar o osteófito, que não desaparece, e sim dar suporte ao segmento desgastado. Fortalecer abdome, glúteos e músculos ao lado da coluna reduz a carga sobre as articulações e melhora a dor em poucas semanas. A constância vale mais do que a carga usada no exercício. A força também protege o segmento em situações imprevistas, como tropeçar ou carregar uma sacola pesada.',
+          'Comece com movimentos simples e sem carga, duas a três vezes por semana. A progressão deve ser lenta, e a orientação de um fisioterapeuta ajuda a corrigir compensações que passam despercebidas. Dor muscular leve nas primeiras sessões é esperada; dor que desce para a perna não é.',
+        ],
+        bullets: [
+          'Ponte: deitado, joelhos dobrados, elevar o quadril e sustentar por alguns segundos',
+          'Prancha adaptada: apoiar antebraços e joelhos, mantendo a coluna alinhada',
+          'Elevação de perna em quatro apoios, sem arquear a lombar',
+          'Alongamento de posterior de coxa, sem forçar a coluna',
+          'Caminhada de 20 a 30 minutos na maioria dos dias',
+        ],
+      },
+      {
+        id: 'rotina',
+        heading: 'Como ajustar o dia sentado',
+        paragraphs: [
+          'Passar horas na mesma posição sobrecarrega a lombar mesmo sem esforço aparente. Levantar a cada 40 ou 50 minutos, nem que seja para buscar água, muda a distribuição de carga ao longo do dia e costuma render mais do que trocar de cadeira. Duas pausas curtas valem mais do que uma pausa longa no fim do expediente.',
+          'Ajuste a altura da cadeira para que os pés fiquem apoiados no chão e os joelhos na altura do quadril. Um apoio na curva da lombar mantém a coluna em posição neutra. A tela deve ficar na altura dos olhos, para evitar a cabeça projetada para frente. Se o computador é portátil, um suporte e um teclado separado resolvem o problema sem trocar o equipamento.',
+          'Para pegar objetos no chão, agache com os joelhos e mantenha o peso perto do corpo. Dobrar a coluna com as pernas estendidas concentra a força justamente no segmento que já está desgastado. Se o objeto for pesado, peça ajuda em vez de improvisar.',
+        ],
+      },
+      {
+        id: 'peso',
+        heading: 'Peso corporal e carga no trabalho',
+        paragraphs: [
+          'Cada quilo a mais aumenta a carga que a lombar suporta em pé e sentada. Perder peso não reverte o osteófito, mas reduz a dor e melhora a capacidade de caminhar, sobretudo em quem tem sobrepeso associado a outras doenças. Uma perda modesta, mantida ao longo do tempo, já traz benefício.',
+          'No trabalho, a orientação técnica vale mais do que a força. Aproximar a carga do corpo, evitar torções com peso nas mãos e usar ajuda mecânica quando existe são medidas que diminuem o risco de crise. Dividir a carga em duas viagens menores é uma estratégia simples e eficaz.',
+          'O tabagismo também pesa: ele reduz a circulação no disco e atrasa a recuperação. Parar de fumar é uma medida de cuidado com a coluna, não apenas com o pulmão. O sono também participa da recuperação, e noites mal dormidas aumentam a percepção da dor.',
+        ],
+      },
+      {
+        id: 'crise',
+        heading: 'O que fazer na crise',
+        paragraphs: [
+          'Na fase aguda, o objetivo é controlar a dor para voltar a se movimentar. Calor local por 20 minutos, repouso relativo e analgésico ou anti-inflamatório indicado pelo médico ajudam. O calor relaxa a musculatura em contratura e melhora a sensação de rigidez, sem interferir no osso. Anti-inflamatório não deve ser usado por conta própria em quem tem úlcera, doença renal ou risco cardiovascular.',
+          'Se a dor descer para a perna, vier com perda de força ou alteração para urinar, procure atendimento no mesmo dia. Esses sinais fogem do quadro habitual e precisam de avaliação rápida. Anote os sintomas e o horário em que começaram, informação útil na triagem.',
+          'Depois que a crise passa, o trabalho é de manutenção. Retomar os exercícios de forma gradual e manter as pausas no trabalho reduz a chance de um novo episódio nas semanas seguintes. A volta ao exercício não precisa esperar a dor zerar, apenas diminuir.',
+        ],
+      },
+      {
+        id: 'evitar-retorno',
+        heading: 'Como evitar que a dor volte',
+        paragraphs: [
+          'A dor lombar tende a repetir quando a rotina volta ao que era antes. Quem incorpora movimento ao dia, fortalece o tronco e ajusta a forma de carregar peso costuma ter episódios mais espaçados e mais leves. O osteófito continua na imagem, mas deixa de comandar a rotina.',
+          'Vale definir uma rotina mínima possível, porque planos ambiciosos costumam ser abandonados. Duas sessões curtas de exercício por semana e caminhadas frequentes já mudam o curso. Revisar o plano a cada poucos meses ajuda a mantê-lo vivo.',
+        ],
+        bullets: [
+          'Fortalecer o tronco duas a três vezes por semana',
+          'Interromper o tempo sentado com pausas curtas',
+          'Manter o peso corporal adequado',
+          'Aprender a técnica de levantamento de peso no trabalho',
+        ],
+        cta: {
+          label: 'Veja os sintomas e os sinais de alerta da espondilose lombar',
+          href: '/doencas/espondilose-lombar/',
+        },
+      },
+    ],
+    diseaseSlugs: ['espondilose-lombar'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['espondilose-lombar-sintomas-e-quando-procurar-atendimento'],
+    references: [
+      {
+        label: 'Dor lombar, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/dor-lombar-e-no-pesco%C3%A7o/dor-lombar',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Low back pain: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/low-back-pain',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-do-colo-do-utero-sintomas-e-sinais-de-alerta',
+    slug: 'cancer-do-colo-do-utero-sintomas-e-sinais-de-alerta',
+    title: 'Câncer do colo do útero: os primeiros sinais e quando não esperar',
+    excerpt:
+      'O tumor cresce em silêncio por anos e só dá sintoma quando avança. Conheça o sangramento que pede avaliação, os sinais de fase avançada e o caminho do diagnóstico no SUS.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'silencio',
+        heading: 'Por que o câncer do colo demora a dar sintoma',
+        paragraphs: [
+          'O colo do útero é uma estrutura pequena, de poucos centímetros, e o tumor que começa ali cresce devagar. Nas fases iniciais não há dor, não existe caroço que se possa apalpar e não aparece nada que a pessoa consiga perceber no corpo. A doença pode avançar por anos em silêncio.',
+          'Antes do câncer existem as lesões precursoras, alterações de células que ainda não formam tumor. Elas também não dão sintoma e só são vistas no rastreamento. Tratadas nessa fase, impedem o câncer; sem tratamento, progridem ao longo de anos até invadir o tecido ao redor. Nessa fase, o tumor já pode alcançar vasos linfáticos, o que muda o estadiamento e o tratamento.',
+          'Esse intervalo longo é o que torna a prevenção possível. Quem faz os exames na periodicidade indicada tem grande chance de ser tratada antes de a doença se instalar. Quem nunca fez ou interrompeu o seguimento perde justamente a janela em que o tratamento é mais simples e a cura é mais provável. O rastreamento não impede a infecção, mas interrompe a história natural da doença.',
+        ],
+      },
+      {
+        id: 'sangramento',
+        heading: 'O sangramento que aparece fora de hora',
+        paragraphs: [
+          'O primeiro sinal costuma ser sangramento fora do esperado. Ele pode surgir depois da relação sexual, entre duas menstruações ou depois da menopausa. A quantidade varia muito: desde algumas gotas no papel até sangramento que suja a roupa e assusta. O volume não mede a gravidade, e um sangramento pequeno também precisa de explicação.',
+          'Sangramento depois da menopausa merece atenção especial, porque nessa fase qualquer perda de sangue é anormal. Não é preciso esperar dor, corrimento ou piora para procurar avaliação. Quanto antes a causa é identificada, mais simples tende a ser a conduta. Anotar quando o sangramento ocorre ajuda a consulta a ser mais objetiva.',
+          'Nem todo sangramento é câncer. Pólipos, ectopia, infecções e alterações hormonais sangram com facilidade, e a maioria dessas causas é benigna. O exame ginecológico e, quando indicado, a colposcopia separam os quadros e evitam tanto o susto sem motivo quanto o atraso no diagnóstico.',
+        ],
+      },
+      {
+        id: 'corrimento',
+        heading: 'Corrimento, dor e sinais de fase avançada',
+        paragraphs: [
+          'Corrimento com sangue ou com mau cheiro forte é outro sinal que merece investigação. Diferente do corrimento habitual, ele persiste, aumenta de volume e não melhora com o tratamento comum para infecção vaginal. O odor forte e a mudança de cor são pistas que devem ser relatadas na consulta.',
+          'Quando o tumor cresce e alcança estruturas vizinhas, aparecem dor na pelve, dor na parte baixa das costas, cansaço por anemia e inchaço nas pernas. Esses sintomas indicam doença mais avançada e não devem ser atribuídos à idade ou ao excesso de trabalho. Dor que acorda a pessoa à noite merece atenção redobrada.',
+          'Em fases mais avançadas, o tumor pode obstruir o ureter, comprometer o funcionamento do rim, provocar sangramento intenso e levar à perda de peso. São situações que exigem atendimento hospitalar e avaliação especializada com urgência.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais que pedem atendimento sem esperar',
+        paragraphs: [
+          'Alguns sinais fogem do quadro habitual e pedem avaliação no mesmo dia, sobretudo quando o sangramento é abundante ou quando os sintomas pioram rápido. Nesses casos, o pronto atendimento é o caminho, e não a espera pela consulta agendada. Quem tem dificuldade de locomoção deve pedir ajuda para chegar ao serviço.',
+          'Procure um serviço de saúde imediatamente se aparecer:',
+        ],
+        bullets: [
+          'Sangramento vaginal abundante, com coágulos ou que encharca a roupa',
+          'Sangramento depois da menopausa, mesmo em pouca quantidade',
+          'Corrimento com mau cheiro forte e persistente',
+          'Dor pélvica contínua que piora à noite',
+          'Inchaço nas pernas, diminuição da urina ou sangue na urina',
+          'Febre com dor pélvica e corrimento',
+        ],
+      },
+      {
+        id: 'o-que-parece',
+        heading: 'O que costuma se parecer com isso',
+        paragraphs: [
+          'Sangramento e corrimento têm muitas causas. A cervicite por clamídia ou gonococo, a tricomoníase e a candidíase produzem corrimento e sangramento ao contato, e são tratadas com antibiótico ou antifúngico conforme o agente. O tratamento é gratuito e resolve a maior parte dos casos.',
+          'Pólipos e ectopia são benignos e comuns, sobretudo em quem usa anticoncepcional. Lesões precursoras de baixo grau costumam regredir sozinhas, mas exigem seguimento, porque uma parte pode progredir e precisa ser vigiada com exames periódicos. O seguimento costuma ser feito na própria unidade de saúde.',
+          'Metástase de outro tumor no colo é rara e pede investigação própria. A biópsia é o que define o diagnóstico e evita dois erros opostos: tratar demais uma lesão benigna e perder tempo diante de um tumor que já está instalado. Explicar o resultado e o próximo passo faz parte do cuidado.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como se chega ao diagnóstico',
+        paragraphs: [
+          'O caminho começa no rastreamento. O Papanicolau colhe células do colo e identifica alterações que antecedem o câncer. Desde 2024, o SUS incorporou o teste molecular de DNA-HPV, mais sensível, que passa a ser o método principal e permite intervalos maiores entre os exames. O teste detecta o vírus antes de qualquer lesão aparecer.',
+          'Resultado alterado leva à colposcopia, que amplia a imagem do colo e mostra onde está a lesão. Diante de uma área suspeita, o médico retira um fragmento para análise no microscópio. A biópsia confirma o diagnóstico e define o tipo de tumor, informação que orienta o tratamento. O laudo descreve o tipo histológico e o grau de diferenciação.',
+          'Confirmado o câncer, o estadiamento com exame físico e imagem mostra até onde a doença chegou e define se o tratamento será cirúrgico ou baseado em radioterapia e quimioterapia. Todo esse percurso é oferecido pelo SUS, do rastreamento ao seguimento. O tempo entre as etapas depende da rede, e vale cobrar o retorno com o resultado em mãos. Em muitos casos, o resultado da biópsia chega em poucos dias e a consulta de retorno já vem marcada.',
+        ],
+        cta: {
+          label: 'Conheça o câncer do colo do útero, do HPV ao tratamento',
+          href: '/doencas/cancer-do-colo-do-utero/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-do-colo-do-utero'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: ['cancer-do-colo-do-utero-hpv-vacina-e-rastreamento'],
+    references: [
+      {
+        label: 'Câncer do colo do útero, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'HPV',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-do-colo-do-utero-hpv-vacina-e-rastreamento',
+    slug: 'cancer-do-colo-do-utero-hpv-vacina-e-rastreamento',
+    title: 'HPV: vacina, rastreamento e o que realmente protege',
+    excerpt:
+      'A vacina contra o HPV é oferecida em dose única dos 9 aos 14 anos, e o rastreamento mudou com o teste de DNA-HPV. Veja quem deve se vacinar e como fazer os exames na idade certa.',
+    category: 'Prevenção',
+    categorySlug: 'prevencao',
+    body: [
+      {
+        id: 'hpv',
+        heading: 'O vírus que quase todo mundo encontra',
+        paragraphs: [
+          'O HPV é o vírus sexualmente transmissível mais comum no mundo, com mais de 200 tipos identificados. Uma parte causa verrugas genitais, outra está associada a tumores, entre eles o do colo do útero. Os tipos 16 e 18 concentram a maior parte dos casos de câncer. A transmissão ocorre por contato direto com a pele e as mucosas durante a relação sexual, inclusive sem penetração, e o preservativo reduz mas não elimina esse risco.',
+          'A maioria das infecções é eliminada pelo próprio organismo em até dois anos. O risco aparece quando o vírus permanece por anos e o epitélio do colo acumula alterações que podem virar lesão precursora e, depois, tumor.',
+          'Como a infecção é comum e quase sempre silenciosa, não faz sentido tratá-la como marca de comportamento. O que muda o desfecho é prevenção, com vacina, e rastreamento na idade certa. O vírus pode ficar latente por anos, o que explica diagnósticos em relações estáveis. A vacina e o exame periódico são as duas ferramentas que mudam esse cenário.',
+        ],
+      },
+      {
+        id: 'vacina',
+        heading: 'A vacina disponível no SUS',
+        paragraphs: [
+          'A vacina contra o HPV é distribuída gratuitamente pelo Sistema Único de Saúde. Ela é produzida com partículas do vírus, sem material infeccioso, e protege contra os tipos 6, 11, 16 e 18, que respondem pela maior parte dos casos de câncer e das verrugas genitais. A proteção dura por muitos anos e não há indicação de reforço na rotina.',
+          'Desde 2024, o esquema de rotina passou a ser de dose única para crianças e adolescentes de 9 a 14 anos, o que simplifica a adesão e amplia a cobertura. Grupos com condições específicas mantêm esquemas de duas ou três doses.',
+          'A vacina é mais eficaz antes do início da vida sexual, quando a exposição ao vírus ainda não aconteceu. Mesmo assim, quem já iniciou a vida sexual pode se beneficiar conforme a indicação, e a conversa com a equipe de saúde ajuda a definir o melhor momento. O SUS também leva a vacina a escolas e unidades móveis, o que ajuda quem tem dificuldade de chegar ao posto.',
+        ],
+      },
+      {
+        id: 'quem-vacina',
+        heading: 'Quem deve se vacinar',
+        paragraphs: [
+          'A indicação varia conforme a idade e a condição de saúde. Além da rotina de crianças e adolescentes, existem esquemas específicos para quem tem maior risco de infecção persistente ou de progressão. A vacina é segura e bem tolerada; dor no local da aplicação e febre baixa são as reações mais comuns. Quem perdeu o prazo deve procurar a unidade de saúde, porque a avaliação individual pode indicar a vacina mesmo fora da faixa de rotina.',
+          'No SUS, recebem a vacina contra o HPV:',
+        ],
+        bullets: [
+          'Crianças e adolescentes de 9 a 14 anos, em dose única',
+          'Pessoas vivendo com HIV, transplantadas e em tratamento oncológico, de 9 a 45 anos, em três doses',
+          'Vítimas de abuso sexual de 9 a 14 anos, em duas doses',
+          'Vítimas de abuso sexual de 15 a 45 anos, em três doses',
+          'Usuários de profilaxia pré-exposição ao HIV, de 15 a 45 anos, em três doses',
+        ],
+      },
+      {
+        id: 'rastreamento',
+        heading: 'O rastreamento e a mudança do exame',
+        paragraphs: [
+          'O rastreamento é indicado dos 25 aos 64 anos para quem tem colo do útero e já iniciou a vida sexual. Ele encontra lesões antes de virarem tumor, e é por isso que o câncer do colo é um dos poucos tumores que se pode prevenir quase por completo. Em unidades sem o teste molecular, o Papanicolau continua válido e o intervalo de três anos permanece.',
+          'Com o Papanicolau, o intervalo é de três anos depois de dois exames anuais normais. Com o teste de DNA-HPV, incorporado ao SUS em 2024, o intervalo passa a cinco anos após um resultado negativo, e o Papanicolau fica reservado para confirmar os casos em que o teste dá positivo.',
+          'O preparo muda o resultado. Evite relação sexual na véspera, não use creme vaginal ou ducha nas 48 horas anteriores e não faça o exame durante a menstruação. Gestantes podem realizar o exame sem prejuízo para a saúde delas ou do bebê. O exame é rápido, dura poucos minutos e é feito na própria unidade básica, sem custo.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Preservativo, tabagismo e outros cuidados',
+        paragraphs: [
+          'O preservativo reduz o risco de transmissão, mas não elimina, porque o vírus também está em áreas que a camisinha não cobre, como a vulva, a região perineal e a bolsa escrotal. Usar preservativo em todas as relações continua sendo parte da prevenção. O diálogo com o parceiro sobre o uso do preservativo faz parte do cuidado.',
+          'O tabagismo aumenta o risco de progressão da lesão e de câncer. Parar de fumar é uma medida de prevenção que vale para o colo do útero e para outros tumores, e o SUS oferece tratamento para quem quer parar.',
+          'Vacina e rastreamento se completam. A vacina não cobre todos os tipos oncogênicos, e o exame não impede a infecção. Quem foi vacinado continua precisando fazer os exames na idade indicada. Quem tem verrugas genitais deve tratar e manter o seguimento, porque a presença delas indica contato com o vírus.',
+        ],
+      },
+      {
+        id: 'mitos',
+        heading: 'Dúvidas que atrasam a prevenção',
+        paragraphs: [
+          'Algumas ideias atrasam a prevenção. A mais comum é a de que quem tomou a vacina não precisa mais de exame. Outra é a de que HPV significa infidelidade, o que ignora a capacidade do vírus de ficar latente por anos. Perguntar sem medo é o primeiro passo para não adiar o exame.',
+          'Estas são as dúvidas que mais aparecem no consultório:',
+        ],
+        bullets: [
+          'Quem tomou a vacina continua precisando do rastreamento',
+          'HPV pode ficar latente por anos e não indica infidelidade',
+          'Não ter sintoma não dispensa o exame periódico',
+          'Homens transmitem o vírus e também podem se vacinar',
+        ],
+        cta: {
+          label: 'Veja os sintomas e os sinais de alerta do câncer do colo do útero',
+          href: '/doencas/cancer-do-colo-do-utero/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-do-colo-do-utero'],
+    topicSlugs: ['prevencao', 'saude-da-mulher'],
+    relatedArticleSlugs: ['cancer-do-colo-do-utero-sintomas-e-sinais-de-alerta'],
+    references: [
+      {
+        label: 'HPV',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Câncer do colo do útero, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'depressao-sintomas-e-quando-procurar-ajuda',
+    slug: 'depressao-sintomas-e-quando-procurar-ajuda',
+    title: 'Depressão: os sintomas que passam de tristeza e quando procurar ajuda',
+    excerpt:
+      'Tristeza que dura semanas, perda de prazer, sono alterado e cansaço que não passa podem ser depressão. Veja como reconhecer os sintomas e onde buscar atendimento gratuito no SUS.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'nao-e-tristeza',
+        heading: 'O que separa a tristeza da depressão',
+        paragraphs: [
+          'Tristeza é uma emoção normal, com causa identificável e duração limitada. Depressão é outra coisa: o humor deprimido e a perda de interesse ou de prazer se mantêm por pelo menos duas semanas, quase todos os dias, e passam a atrapalhar o trabalho, os estudos e as relações. O que separa uma da outra é a duração, a intensidade e o alcance do prejuízo na vida prática.',
+          'Na rotina, isso aparece como perda de prazer em coisas que antes davam satisfação. O lazer vira obrigação, o convívio com amigos exige um esforço que a pessoa não tem, e tarefas simples passam a ser cumpridas de forma mecânica. Não é falta de força de vontade nem preguiça: é um transtorno clínico com sintomas reconhecíveis e tratamento eficaz.',
+          'O Ministério da Saúde estima que a prevalência de depressão ao longo da vida no Brasil fique em torno de 15,5%. Apesar de comum, muita gente demora anos para procurar ajuda, porque confunde o quadro com cansaço acumulado ou porque teme o julgamento de quem trata sofrimento mental como fraqueza. Esse atraso tem custo: quanto mais tempo sem tratamento, maior o prejuízo funcional.',
+        ],
+      },
+      {
+        id: 'sintomas-do-corpo',
+        heading: 'Como o corpo entra no quadro',
+        paragraphs: [
+          'A depressão não fica restrita ao humor. O sono muda, e a pessoa pode ter insônia com despertar precoce ou dormir muito e acordar sem descanso. O apetite aumenta ou desaparece, com variação de peso em poucas semanas. A energia cai a ponto de atividades banais, como tomar banho ou preparar uma refeição, parecerem grandes tarefas.',
+          'Dores difusas, aperto no peito, dor de cabeça e problemas digestivos são queixas frequentes. Muita gente chega à unidade de saúde por causa do corpo e sai com o diagnóstico de depressão, porque o exame clínico não explica o conjunto. O cansaço que não melhora com repouso é um dos sinais mais incompreendidos por quem está de fora.',
+          'Em pessoas idosas, o quadro aparece com frequência como queixa física e queixa de memória, o que atrasa o reconhecimento. Já em adolescentes, a irritabilidade e a queda no rendimento escolar podem ser a face visível do problema. Reconhecer essas formas de apresentação evita anos de exames sem respostas.',
+        ],
+      },
+      {
+        id: 'sintomas-do-pensamento',
+        heading: 'Pensamento, culpa e desesperança',
+        paragraphs: [
+          'O pensamento fica marcado por autocrítica, culpa e desesperança. A pessoa interpreta pequenos erros como prova de incapacidade, revê o passado com arrependimento e conclui que o futuro não tem saída. Esse filtro negativo é sintoma, e não um retrato fiel da realidade, ainda que pareça evidente para quem está dentro do quadro.',
+          'A concentração cai e a memória falha em tarefas do dia a dia, o que costuma assustar e levanta a suspeita equivocada de demência. Decisões simples, como escolher o que vestir, ficam difíceis. A lentidão para falar e para se mover pode ser intensa nos quadros graves, alternando com crises de agitação.',
+          'A ausência de choro não exclui a doença. Algumas pessoas descrevem sensação de vazio, outras falam de anestesia afetiva, como se tivessem perdido a capacidade de sentir. Há ainda quem relate irritabilidade constante e intolerância a ruídos e a cobranças, quadro que também merece avaliação.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando não dá para esperar',
+        paragraphs: [
+          'A depressão é a condição mais associada ao suicídio. Falar ou escrever sobre querer morrer, dizer que é um peso para a família, isolar-se, distribuir objetos pessoais e se despedir são sinais que precisam ser levados a sério. Tratar essas falas como ameaça ou chantagem afasta a pessoa justamente no momento em que ela pede ajuda da forma que consegue.',
+          'Se você pensa em se matar, ou se alguém perto de você está em risco, procure ajuda agora. O Centro de Valorização da Vida atende de graça, 24 horas por dia, pelo telefone 188. Também é possível ir a um CAPS, a uma UBS, a uma UPA ou a um pronto-socorro. Em situação de risco imediato, chame o SAMU pelo 192.',
+        ],
+        bullets: [
+          'Falar ou escrever sobre querer morrer',
+          'Dizer que é um peso para a família ou que todos estariam melhor sem ele',
+          'Isolar-se e abandonar atividades de que gostava',
+          'Distribuir objetos pessoais e se despedir',
+          'Aumento do uso de álcool ou de outras drogas',
+          'Agitação intensa em quem estava muito lentificado',
+        ],
+      },
+      {
+        id: 'o-que-parece',
+        heading: 'O que se parece com depressão e não é',
+        paragraphs: [
+          'Tristeza e desânimo acompanham muitas situações da vida e nem sempre indicam doença. O luto por uma perda recente, a reação a um diagnóstico grave e o cansaço por privação de sono podem se parecer com depressão. A diferença está na persistência dos sintomas, no prejuízo de função e na ausência de melhora com o passar do tempo.',
+          'Algumas condições clínicas imitam o quadro e precisam ser afastadas com exames simples. O hipotireoidismo causa cansaço, lentidão e desânimo. A anemia provoca falta de energia e dificuldade de concentração. A apneia do sono fragmenta a noite e deixa o dia arrastado. Medicamentos de uso contínuo, como alguns anti-hipertensivos e corticoides, também podem pesar no humor.',
+          'A diferenciação mais importante é com o transtorno bipolar. Nele, o episódio depressivo convive com fases de euforia ou de irritabilidade, e o uso isolado de antidepressivo pode desencadear mania. Por isso a avaliação pergunta sobre períodos de energia alta, pouca necessidade de sono e gastos fora do habitual, mesmo em quem chega apenas com queixa de tristeza.',
+        ],
+      },
+      {
+        id: 'como-buscar-ajuda',
+        heading: 'Onde buscar ajuda no SUS',
+        paragraphs: [
+          'A porta de entrada é a Unidade Básica de Saúde mais próxima. Na consulta, a equipe avalia a duração dos sintomas, o prejuízo na rotina e o risco de suicídio, pede exames quando há suspeita de causa clínica e define se o acompanhamento pode acontecer ali mesmo. O atendimento é gratuito e sigiloso.',
+          'Casos moderados e graves, ou que não respondem ao tratamento inicial, costumam ser encaminhados ao Centro de Atenção Psicossocial. O CAPS funciona em rede com a UBS e oferece atendimento por equipe multiprofissional, com psiquiatra, psicólogo, enfermeiro e assistente social. Em cidades menores, o apoio pode vir por teleconsultoria ou por matriciamento.',
+          'Levar um registro simples dos sintomas ajuda muito: há quanto tempo começaram, como o sono e o apetite mudaram, o que piora e o que alivia, quais remédios são usados. Se houver pensamento de morte, isso precisa ser dito na primeira consulta, sem rodeios. Nomear o risco é o que permite montar um plano de cuidado seguro.',
+        ],
+        cta: {
+          label: 'Conheça a depressão, dos sintomas ao tratamento',
+          href: '/doencas/depressao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['depressao'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['depressao-tratamento-e-como-ajudar-alguem'],
+    references: [
+      {
+        label: 'Depressão',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/depressao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Suicídio: prevenção',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/suicidio',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Depression: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/depression',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'depressao-tratamento-e-como-ajudar-alguem',
+    slug: 'depressao-tratamento-e-como-ajudar-alguem',
+    title: 'Depressão: como é o tratamento e como ajudar quem está perto',
+    excerpt:
+      'Psicoterapia, antidepressivos e acompanhamento na rede pública: entenda as fases do tratamento da depressão, o que esperar do remédio e como apoiar alguém sem minimizar o que ele sente.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'tratamento',
+        heading: 'O que o tratamento inclui',
+        paragraphs: [
+          'O tratamento combina psicoterapia e, nos quadros moderados e graves, medicação. A escolha do antidepressivo considera o tipo de depressão, o histórico de resposta, as doenças associadas e os efeitos colaterais de cada classe. Não existe o melhor remédio para todos, e o ajuste faz parte do processo. O acompanhamento começa na atenção básica e pode ser compartilhado com o CAPS quando o caso pede apoio especializado.',
+          'A psicoterapia ajuda a reconhecer padrões de pensamento, a lidar com perdas e a reconstruir a rotina. Na depressão leve, pode ser suficiente. Nos quadros moderados e graves, funciona melhor junto com a medicação, e a terapia cognitivo-comportamental é a que tem mais evidência de eficácia.',
+          'O plano também inclui o que parece básico e não é: horário regular de sono, alimentação em intervalos previsíveis, atividade física possível e redução do álcool. Nada disso substitui o tratamento indicado, mas tudo isso sustenta o resultado e diminui a chance de recaída.',
+        ],
+      },
+      {
+        id: 'remedio',
+        heading: 'O que esperar do antidepressivo',
+        paragraphs: [
+          'Os antidepressivos levam de duas a quatro semanas para começar a fazer efeito, e a melhora costuma ser gradual. O sono e o apetite geralmente respondem antes do humor. Esse intervalo é a fase em que mais gente abandona o remédio por achar que não está funcionando, justamente quando a persistência importa.',
+          'Os efeitos colaterais mais comuns aparecem nas primeiras semanas e tendem a diminuir: náusea, dor de cabeça, alteração do sono e disfunção sexual. A maioria é manejável com ajuste de dose ou de horário. Nenhum deles deve ser motivo para parar por conta própria, porque a interrupção abrupta provoca sintomas de descontinuação e aumenta o risco de recaída.',
+          'Antidepressivo não causa dependência como o álcool ou os opioides. O que existe é a necessidade de retirada gradual, sempre acompanhada. Se depois de seis a oito semanas não houver resposta, a estratégia é revista, com aumento de dose, troca de medicamento ou associação, decisão que cabe ao profissional que acompanha o caso.',
+        ],
+      },
+      {
+        id: 'tempo',
+        heading: 'Quanto tempo dura o tratamento',
+        paragraphs: [
+          'O tratamento tem fases. A fase aguda busca a remissão dos sintomas e dura em torno de seis a doze semanas. A fase de continuação mantém a mesma dose por quatro a seis meses após a melhora, para consolidar o resultado. A manutenção, por sua vez, pode se estender por dois a três anos em quem tem episódios repetidos.',
+          'Interromper o medicamento por conta própria é a principal causa de recaída. O Ministério da Saúde registra que 90% a 95% das pessoas apresentam remissão dos sintomas com tratamento antidepressivo, o que mostra o peso da adesão no desfecho. A mesma estatística explica por que tanta gente melhora e volta a piorar pouco depois de parar sozinha.',
+          'A recuperação não é linear. Há dias melhores e piores, e o retorno completo da energia costuma vir depois da melhora do humor, o que exige paciência com o próprio ritmo. Sentir-se melhor não é sinal de que o problema acabou, e é comum precisar de ajustes ao longo do caminho.',
+        ],
+      },
+      {
+        id: 'rede',
+        heading: 'Onde tratar na rede pública',
+        paragraphs: [
+          'A Unidade Básica de Saúde resolve boa parte dos casos. A equipe faz o acolhimento, avalia a gravidade, inicia o tratamento quando indicado e acompanha a resposta. Quando há necessidade de apoio especializado, o encaminhamento é feito para o CAPS, que atende por equipe multiprofissional e acompanha os quadros mais complexos.',
+          'O CAPS também funciona como retaguarda para a atenção básica, por meio de discussões de caso e apoio matricial. Em municípios sem o serviço, o cuidado pode ser compartilhado com ambulatórios, policlínicas ou equipes de saúde mental, e a teleconsultoria ajuda a definir conduta à distância.',
+          'Todo o percurso é gratuito pelo SUS, da consulta ao medicamento. Quando o remédio indicado não está disponível na unidade, a equipe orienta sobre o fluxo de dispensação e sobre a alternativa terapêutica. Vale perguntar, na consulta, onde retirar a medicação e quando é o retorno.',
+        ],
+      },
+      {
+        id: 'ajudar',
+        heading: 'Como ajudar alguém com depressão',
+        paragraphs: [
+          'Familiares e amigos têm papel concreto e não precisam de formação para isso. Ouvir sem minimizar já ajuda: frases como “isso vai passar” ou “você precisa se animar” costumam afastar, porque negam o que a pessoa está sentindo. Perguntar como ela está, com interesse real, e oferecer companhia aproxima.',
+          'Apoio prático também conta. Ajudar a marcar consultas e a ir até elas, organizar a medicação em horários fixos, acompanhar uma caminhada curta e dividir tarefas da casa aliviam a sobrecarga de quem está sem energia. Cobrar produtividade, comparar com outras pessoas e atribuir o quadro à falta de fé pioram o isolamento.',
+        ],
+        bullets: [
+          'Ouça sem minimizar e sem comparar com outras pessoas',
+          'Ajude a marcar as consultas e a ir até elas',
+          'Acompanhe o uso regular da medicação, sem vigiar',
+          'Ofereça companhia em atividades simples e curtas',
+          'Não deixe a pessoa sozinha se houver risco de suicídio',
+        ],
+      },
+      {
+        id: 'risco',
+        heading: 'Quando o risco é alto',
+        paragraphs: [
+          'Alguns momentos exigem ação imediata. Se houver fala sobre querer morrer, plano definido, despedida, distribuição de objetos pessoais ou piora súbita com agitação, o caminho é atendimento no mesmo dia, sem esperar a consulta agendada. O risco não diminui por ser anunciado, e pedir ajuda cedo não é exagero. Nessas situações, o CAPS ou o pronto-socorro acolhem a pessoa e definem se há necessidade de internação, decisão que depende do risco e do suporte familiar disponível.',
+          'O Centro de Valorização da Vida atende pelo 188, de graça, 24 horas por dia. Em situação de risco imediato, chame o SAMU pelo 192 ou procure um pronto-socorro. Depois de uma crise, o seguimento precisa ser retomado com prioridade, porque o período seguinte ao atendimento de urgência é de vulnerabilidade.',
+        ],
+        cta: {
+          label: 'Veja também os sintomas e os sinais de alerta da depressão',
+          href: '/artigos/depressao-sintomas-e-quando-procurar-ajuda/',
+        },
+      },
+    ],
+    diseaseSlugs: ['depressao'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['depressao-sintomas-e-quando-procurar-ajuda'],
+    references: [
+      {
+        label: 'Depressão',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/depressao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Suicídio: prevenção',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/suicidio',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Depression: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/depression',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-arterial-coronariana-sintomas-e-sinais-de-infarto',
+    slug: 'doenca-arterial-coronariana-sintomas-e-sinais-de-infarto',
+    title: 'Doença coronariana: os sintomas que antecedem o infarto e quando chamar o SAMU',
+    excerpt:
+      'Angina com esforço, falta de ar e cansaço fora do normal podem indicar artérias coronárias estreitadas. Saiba reconhecer o padrão da dor e os sinais que exigem chamar o 192 imediatamente.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'angina',
+        heading: 'A dor que aparece com esforço',
+        paragraphs: [
+          'O sintoma clássico da doença coronariana é dor ou desconforto no meio do peito, descrito como peso, aperto, queimação ou uma faixa que aperta. Na angina estável, ela surge com esforço e passa em poucos minutos com o repouso. Subir uma ladeira, carregar compras ou caminhar contra o vento podem ser suficientes para desencadear o quadro.',
+          'A dor costuma irradiar para o braço esquerdo, o ombro, a mandíbula, as costas ou a boca do estômago. Muita gente descreve a sensação como se algo estivesse preso na garganta ou como azia que não melhora. A intensidade varia, e o que importa é o padrão: sempre com esforço, sempre parecido, sempre aliviando quando o esforço cessa.',
+          'Falta de ar ao esforço é outro sinal e, às vezes, o único. Palpitações, cansaço desproporcional ao que a tarefa exige e tontura também aparecem. Quando a artéria estreitada não consegue aumentar o fluxo durante a atividade, o músculo do coração reclama por oxigênio, e essa é a origem do desconforto.',
+        ],
+      },
+      {
+        id: 'formas',
+        heading: 'Quando o padrão da dor muda',
+        paragraphs: [
+          'A angina estável é previsível e permite planejamento. Já a angina instável é a que muda de comportamento: aparece em repouso, acorda a pessoa à noite, dura mais tempo ou surge com esforços cada vez menores. Essa mudança indica placa instável e exige avaliação no mesmo dia, porque é ali que o risco de infarto sobe.',
+          'Existe ainda a isquemia silenciosa, em que há obstrução sem dor nenhuma. Ela é comum em pessoas com diabetes, porque a neuropatia compromete a percepção da dor visceral, e em idosos, que podem apresentar apenas cansaço ou falta de ar. Nesses grupos, a doença costuma ser descoberta em um exame feito por outro motivo.',
+          'A forma mais grave é a síndrome coronariana aguda. A placa se rompe, forma-se um coágulo e o fluxo cai de repente. O infarto com supra de ST, que corresponde à obstrução total, é o quadro em que cada minuto de atraso custa músculo cardíaco, e o tratamento precisa ser feito em sala de hemodinâmica.',
+        ],
+      },
+      {
+        id: 'atipicos',
+        heading: 'Mulheres, idosos e diabetes: o infarto sem dor clássica',
+        paragraphs: [
+          'Na mulher, a apresentação costuma ser menos típica. Náusea, dor nas costas, no pescoço ou na mandíbula, falta de ar e cansaço intenso aparecem com mais frequência do que a dor torácica isolada. Como esses sinais são fáceis de atribuir a ansiedade, a má digestão ou à rotina pesada, o infarto feminino tende a ser reconhecido mais tarde.',
+          'Em idosos, o infarto pode se manifestar como confusão mental súbita, queda sem explicação, sudorese ou mal-estar vago. Em pessoas com diabetes, a dor pode estar ausente por causa da neuropatia. Nesses casos, o eletrocardiograma e a troponina são o que separa um quadro banal de uma emergência.',
+          'Reconhecer essas formas de apresentação não é detalhe acadêmico. Elas explicam parte da diferença de mortalidade entre grupos e justificam investigar com mais cuidado quem tem fatores de risco, mesmo quando a queixa não parece cardíaca à primeira vista.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: infarto é emergência',
+        paragraphs: [
+          'Dor no peito que dura mais de alguns minutos, não passa com o repouso e vem acompanhada de suor frio, falta de ar, náusea ou sensação de desmaio é suspeita de infarto. O tempo conta: quanto mais rápido o fluxo é restabelecido, menos músculo cardíaco se perde e maior a chance de sobreviver sem sequela.',
+          'Ligue para o SAMU no 192 imediatamente. A ambulância faz o diagnóstico, inicia o tratamento e leva a pessoa ao hospital adequado, o que é mais seguro do que dirigir até o pronto-socorro por conta própria. Não espere passar, não tome medicamento por conta própria e não peça carona para um serviço que não tem estrutura para atender infarto.',
+        ],
+        bullets: [
+          'Dor no peito com mais de 20 minutos de duração',
+          'Dor no peito com suor frio, náusea ou falta de ar',
+          'Desmaio ou sensação de desmaio iminente',
+          'Palpitação rápida com tontura',
+          'Falta de ar súbita em quem tem doença coronariana',
+          'Dor no peito que retorna em repouso, mais forte que o habitual',
+        ],
+      },
+      {
+        id: 'o-que-parece',
+        heading: 'O que imita a dor no peito',
+        paragraphs: [
+          'A maior parte das dores no peito que chegam ao pronto-socorro não é cardíaca, e isso não diminui a necessidade de avaliação. Refluxo gastroesofágico, espasmo do esôfago e gastrite produzem queimação que confunde. Costuma piorar deitado e depois de comer, mas essa pista sozinha não descarta coronária.',
+          'Problemas de parede torácica, como costocondrite, e crises de ansiedade também entram na lista. A dor da ansiedade tende a vir com formigamento nas mãos, respiração rápida e sensação de aperto que melhora com a distração. Ainda assim, quem tem fatores de risco precisa de eletrocardiograma antes de concluir que é emocional.',
+          'Dor por dissecção de aorta ou embolia pulmonar é rara e grave, com apresentação própria. O ponto prático é que a avaliação inicial não tenta adivinhar a causa pela descrição: ela mede risco, faz eletrocardiograma e, quando indicado, dosa troponina. É esse conjunto que separa o quadro benigno da emergência.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como se confirma a doença coronariana',
+        paragraphs: [
+          'A investigação começa pela história e pelo exame físico, com atenção aos fatores de risco e ao padrão da dor. O eletrocardiograma é o primeiro exame e pode ser normal em repouso em quem tem angina estável, o que não descarta a doença. Por isso, um traçado normal nunca encerra a investigação sozinho.',
+          'Para flagrar isquemia, o cardiologista pode pedir teste ergométrico, ecocardiograma de esforço, cintilografia ou ressonância com estresse farmacológico. A angiotomografia das coronárias mostra a anatomia e é útil em quem tem risco intermediário. A cineangiocoronariografia, com cateter e contraste, mede o grau de estreitamento e permite tratar na mesma sessão.',
+          'Em suspeita de infarto, a troponina e o eletrocardiograma seriados definem a conduta em minutos. O tratamento começa antes do resultado definitivo, porque a janela de tempo é curta. Todo esse percurso é oferecido pelo SUS, e o reconhecimento precoce dos sintomas é o que coloca a pessoa dentro dessa janela.',
+        ],
+        cta: {
+          label: 'Conheça a doença arterial coronariana em detalhe',
+          href: '/doencas/doenca-arterial-coronariana/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-arterial-coronariana'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['doenca-arterial-coronariana-como-prevenir-e-controlar'],
+    references: [
+      {
+        label: 'Infarto: sintomas, fatores de risco e atendimento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Doença arterial coronariana, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/doen%C3%A7a-arterial-coronariana',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Cardiovascular diseases: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-arterial-coronariana-como-prevenir-e-controlar',
+    slug: 'doenca-arterial-coronariana-como-prevenir-e-controlar',
+    title: 'Doença coronariana: como controlar os fatores de risco e evitar o infarto',
+    excerpt:
+      'Pressão, colesterol, glicemia e cigarro respondem por boa parte do risco de infarto. Veja o que os medicamentos fazem, o que muda no prato e como voltar a se movimentar com segurança.',
+    category: 'Prevenção',
+    categorySlug: 'prevencao',
+    body: [
+      {
+        id: 'pilares',
+        heading: 'Os pilares do controle',
+        paragraphs: [
+          'A doença coronariana é crônica e progressiva, mas não é uma sentença. Quatro alvos concentram a maior parte do benefício: pressão arterial, colesterol LDL, glicemia e tabagismo. Tratar esses quatro reduz a progressão da placa e diminui de forma consistente a chance de infarto e de morte. As metas são individuais e mudam conforme a idade, as doenças associadas e o histórico de eventos.',
+          'O controle não depende só de vontade. Pressão e colesterol costumam exigir medicação contínua, e a glicemia pede acompanhamento próprio. O que a rotina faz é dar base para que o tratamento funcione: sono regular, alimentação com menos ultraprocessados, movimento e menos álcool.',
+          'Diabetes e hipertensão multiplicam o risco: quem tem uma das duas condições apresenta de duas a quatro vezes mais chance de sofrer um evento. Por isso, quem convive com as duas precisa de metas mais rígidas e de revisão frequente das doses, e não de um ajuste feito uma única vez.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'O que os remédios fazem',
+        paragraphs: [
+          'As estatinas reduzem o LDL e estabilizam a placa, o que diminui a chance de ruptura. Anti-hipertensivos mantêm a pressão na meta e aliviam o esforço sobre a parede das artérias. O ácido acetilsalicílico em dose baixa reduz a formação de coágulos em quem já tem doença estabelecida, e seu uso é decisão médica, nunca por conta própria.',
+          'Depois de um infarto, entram também os medicamentos que controlam frequência e pressão, como os betabloqueadores, e os que protegem o coração em quem tem queda da função de bombeamento. Cada classe tem indicação e efeito colateral próprios, e a combinação é ajustada ao longo do seguimento.',
+          'Tomar o remédio todos os dias, no mesmo horário, é parte do tratamento e não um detalhe. A interrupção por conta própria, sobretudo do antiagregante após um stent, é uma das causas mais graves de trombose do dispositivo. Quando aparece efeito indesejado, a conduta é falar com a equipe, não parar.',
+        ],
+      },
+      {
+        id: 'alimentacao',
+        heading: 'O que muda no prato',
+        paragraphs: [
+          'Não existe alimento proibido que resolva o problema sozinho, nem dieta que substitua medicação. O que funciona é o padrão de várias semanas: mais comida de verdade, menos ultraprocessado. Feijão, arroz, verduras, legumes, frutas e ovos custam menos do que a comida industrializada e sustentam melhor o controle. A comparação de rótulos ajuda mais do que a lista de proibições, porque mostra a quantidade de sódio, de açúcar e de gordura em cada porção.',
+          'Sal é o ponto mais sensível para a pressão. Embutidos, temperos prontos, caldos em cubo, salgadinhos e refrigerantes concentram sódio sem que a pessoa perceba. Temperar com alho, cebola, ervas e limão reduz a dependência do sal sem deixar a comida sem graça.',
+          'Gordura saturada e gordura trans elevam o LDL. Trocar frituras por assados, reduzir embutidos e evitar biscoitos recheados e produtos com gordura vegetal hidrogenada melhora o perfil lipídico em poucas semanas. Azeite, castanhas e peixes entram no lugar, com porções pequenas, porque também são calóricos.',
+        ],
+      },
+      {
+        id: 'exercicio',
+        heading: 'Movimento com segurança',
+        paragraphs: [
+          'Atividade física regular melhora pressão, glicemia, peso e humor, e reduz mortalidade em quem tem doença coronariana. O ideal é algo em torno de 150 minutos por semana de caminhada ou atividade moderada, distribuídos em dias alternados, com início gradual para quem está parado há anos.',
+          'Quem tem angina estável precisa de orientação antes de começar. Em geral, o exercício é seguro quando a dor é previsível e responde ao repouso, mas a avaliação define limites e, em alguns casos, pede teste de esforço antes. Parar de se movimentar por medo piora o condicionamento e aumenta o risco.',
+          'O sinal de alerta durante a atividade é o mesmo de sempre: dor no peito que não passa, falta de ar desproporcional, tontura ou palpitação. Nesses casos, interromper e procurar atendimento. Caminhar em ritmo confortável, todos os dias, vale mais do que uma sessão intensa por semana.',
+        ],
+      },
+      {
+        id: 'tabagismo',
+        heading: 'Parar de fumar é o que rende mais',
+        paragraphs: [
+          'Entre todas as medidas, parar de fumar é a que produz o maior efeito no menor tempo. O risco de infarto começa a cair nos primeiros meses sem cigarro e continua diminuindo por anos. Não existe quantidade segura, e a exposição à fumaça de segunda mão também adoece quem convive com fumantes.',
+          'O SUS oferece tratamento para cessação, com avaliação, apoio e medicamentos em unidades selecionadas. A combinação de aconselhamento e medicação dobra ou triplica a chance de sucesso, comparada à tentativa solitária. Vale procurar a UBS e perguntar pelo programa, que costuma funcionar em grupo.',
+          'Recaídas fazem parte do processo e não significam fracasso. Quem volta a fumar deve retomar o plano sem esperar o momento perfeito. Cada tentativa ensina quais situações disparam o desejo, e esse aprendizado é o que sustenta a próxima tentativa.',
+        ],
+      },
+      {
+        id: 'depois-do-infarto',
+        heading: 'Depois do infarto: reabilitação e seguimento',
+        paragraphs: [
+          'Sobreviver ao infarto é o começo de outra etapa. A reabilitação cardíaca combina exercício supervisionado, orientação alimentar, apoio para parar de fumar e acompanhamento psicológico. Ela reduz mortalidade e melhora a capacidade funcional, mas ainda é subutilizada no Brasil.',
+          'O seguimento inclui consultas regulares, controle de pressão, colesterol e glicemia, além de ajuste das doses. Quem recebeu stent precisa manter o antiagregante pelo tempo indicado, sem interrupção. Quem fez cirurgia de revascularização segue um plano próprio de recuperação.',
+          'Vale também reconhecer os sinais de que algo mudou: dor que volta com menos esforço, falta de ar nova, cansaço crescente ou palpitação. Esses sinais pedem avaliação antes da próxima consulta marcada, e não devem ser atribuídos à idade ou ao sedentarismo.',
+        ],
+        bullets: [
+          'Manter as consultas e os exames de controle em dia',
+          'Tomar a medicação no horário, sem interromper por conta própria',
+          'Participar de programa de reabilitação cardíaca quando indicado',
+          'Manter atividade física regular e alimentação com menos ultraprocessados',
+          'Procurar atendimento se a dor mudar de padrão',
+        ],
+        cta: {
+          label: 'Reveja os sintomas que antecedem o infarto',
+          href: '/artigos/doenca-arterial-coronariana-sintomas-e-sinais-de-infarto/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-arterial-coronariana'],
+    topicSlugs: ['prevencao'],
+    relatedArticleSlugs: ['doenca-arterial-coronariana-sintomas-e-sinais-de-infarto'],
+    references: [
+      {
+        label: 'Infarto: sintomas, fatores de risco e atendimento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Doença arterial coronariana, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/doen%C3%A7a-arterial-coronariana',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Cardiovascular diseases: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'raiva-mordida-de-animal-quando-procurar-atendimento',
+    slug: 'raiva-mordida-de-animal-quando-procurar-atendimento',
+    title: 'Mordida de animal: quando procurar atendimento e o que fazer',
+    excerpt:
+      'Lavar o ferimento por 15 minutos e buscar avaliação no mesmo dia muda o desfecho. Entenda como o serviço de saúde classifica a exposição e o que acontece depois.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-toda-mordida-importa',
+        heading: 'Por que toda mordida precisa de avaliação?',
+        paragraphs: [
+          'Uma mordida de cão ou de gato pode parecer pequena, mas o risco não se mede pelo tamanho do ferimento. A saliva do animal pode carregar o vírus da raiva, e o vírus caminha pelos nervos até o cérebro. Quanto mais próxima da cabeça e do pescoço estiver a lesão, mais curto tende a ser esse caminho e menor o tempo disponível para agir. Uma marca de dente que quase não sangra pode ser tão séria quanto um ferimento largo na perna.',
+          'No Brasil, a raiva humana transmitida por cães está controlada há uma década, e os casos recentes vêm de morcegos e de primatas não humanos. Isso não elimina o cuidado com cães e gatos. Um animal sem histórico confiável de vacinação continua sendo uma exposição que precisa ser avaliada, mesmo que pareça saudável, esteja bem alimentado e viva dentro de casa. A ausência de sintomas no animal no momento da mordida não afasta o risco.',
+          'A mesma recomendação vale para arranhões, para lambeduras em pele ferida e para o contato de saliva com olho, boca ou nariz. O vírus não atravessa pele íntegra, mas encontra passagem em qualquer solução de continuidade, inclusive em feridas antigas que já não sangram. Por isso, a pergunta que o profissional faz não é apenas onde foi a mordida, e sim se houve contato com saliva em uma área de pele rompida.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-nos-primeiros-minutos',
+        heading: 'O que fazer nos primeiros minutos',
+        paragraphs: [
+          'Lave o ferimento com água corrente e sabão por pelo menos 15 minutos. A lavagem remove saliva e sujeira e é a primeira medida capaz de reduzir a quantidade de vírus no local. Faça isso antes de qualquer outra coisa, inclusive antes de decidir se vai ao hospital. Use água em abundância, sem esfregar com força a ponto de aumentar a lesão, e deixe a água escorrer pela ferida em vez de esfregar a superfície com escova.',
+          'Não aplique álcool, pimenta, café, pasta de dente ou outros produtos caseiros na ferida. Esses hábitos podem irritar o tecido e não substituem a lavagem com água e sabão. Depois de lavar, cubra o local com uma compressa limpa e siga para o atendimento. Se houver sangramento, faça pressão com um pano limpo durante o trajeto e não tente estancar com torniquete improvisado.',
+          'O serviço de saúde aplica um antisséptico e avalia a necessidade de vacina contra raiva, soro antirrábico e vacina contra tétano. Não tente fechar um ferimento profundo em casa e não espere o ferimento cicatrizar para procurar ajuda. O tempo até a primeira avaliação é parte do tratamento, porque a profilaxia funciona melhor quando começa perto do momento da exposição.',
+        ],
+      },
+      {
+        id: 'como-o-servico-avalia-o-risco',
+        heading: 'Como o serviço de saúde avalia o risco',
+        paragraphs: [
+          'A classificação leva em conta o animal, o tipo de contato e o local do corpo. A Organização Mundial da Saúde descreve três categorias. Tocar ou alimentar um animal, com lambedura em pele íntegra, não é considerado exposição e dispensa profilaxia. Arranhão sem sangramento e mordida superficial entram na categoria II e pedem vacina, mesmo quando a lesão parece insignificante para quem foi mordido.',
+          'Mordida que atravessa a pele, arranhão que sangra, contato de saliva com mucosa e qualquer exposição a morcego são categoria III. Nesses casos, além da vacina, pode ser indicada imunoglobulina antirrábica, infiltrada ao redor da lesão. A decisão é do profissional de saúde, que também considera o histórico vacinal da pessoa, o tempo desde a exposição e o estado do animal. Não cabe ao paciente escolher o esquema por conta própria.',
+          'Quando o agressor é um cão ou um gato conhecido, a orientação é observar o animal por 10 dias. Se ele adoecer, desaparecer ou morrer nesse período, o serviço precisa ser informado, porque isso muda a conduta de quem foi mordido. Todo atendimento antirrábico é notificado à vigilância, mesmo quando não há indicação de vacina, e esse registro é o que permite acompanhar casos e identificar mudanças na circulação do vírus.',
+        ],
+      },
+      {
+        id: 'sinais-que-exigem-atendimento-imediato',
+        heading: 'Quais sinais exigem atendimento imediato',
+        paragraphs: [
+          'Procure atendimento no mesmo dia em qualquer mordida ou arranhão que sangre, em contato de saliva com olho, boca ou nariz e em toda exposição a morcego, mesmo sem ferimento visível. Morcegos podem transmitir o vírus sem deixar marca, e esse tipo de contato é tratado como grave. O mesmo vale para mordidas de macacos, raposas e outros mamíferos silvestres, que exigem avaliação rápida.',
+          'Também não espere para buscar ajuda se o animal apresentou mudança de comportamento, se morreu ou desapareceu ou se você não sabe se ele era vacinado. Formigamento, dor ou dormência no local da mordida, febre, confusão, agitação, medo de água ou de vento, salivação intensa e convulsão são sinais tardios e exigem atendimento de emergência. Nessa fase, o cuidado é de suporte e a equipe precisa ser acionada imediatamente.',
+          'Vale lembrar que não existe exame capaz de detectar a raiva antes do início dos sintomas. Por isso, a decisão de tratar se baseia na história de exposição e no risco avaliado, e não em um resultado de laboratório. Esperar um exame ou o aparecimento de sintomas significa perder a janela em que a profilaxia funciona, e essa janela é a diferença entre prevenir e acompanhar uma doença quase sempre fatal.',
+        ],
+        cta: {
+          label: 'Veja na página da raiva todos os sinais de alerta',
+          href: '/doencas/raiva/',
+        },
+      },
+      {
+        id: 'depois-do-atendimento',
+        heading: 'O que esperar depois do atendimento',
+        paragraphs: [
+          'A vacina é aplicada em várias doses ao longo de algumas semanas. O número de doses e o intervalo dependem do protocolo do serviço e do tipo de exposição, e quem já foi vacinado antes pode precisar de menos doses. Em ferimentos graves, o soro é infiltrado ao redor da lesão para neutralizar o vírus antes que ele avance pelos nervos, e a aplicação costuma ser feita no mesmo atendimento em que a vacina é iniciada.',
+          'Volte nas datas marcadas. A proteção depende de completar o esquema, e atrasos reduzem a resposta do organismo. Se aparecer febre, dor intensa, vermelhidão que aumenta ou dificuldade para respirar depois da aplicação, procure atendimento e informe o serviço para que o evento seja notificado. Reações leves, como dor no local e mal-estar passageiro, são esperadas e não justificam interromper o esquema sem orientação.',
+          'Uma nova exposição depois de um esquema completo exige nova avaliação, porque a conduta muda conforme o tempo desde a última dose e o tipo de contato. Pessoas com imunidade comprometida podem precisar de esquema diferente, já que a resposta à vacina é menor. Leve ao atendimento o registro das vacinas anteriores, inclusive cartões antigos e anotações no sistema de saúde, para que o profissional possa decidir com base no histórico real.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['raiva'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'raiva-quais-animais-transmitem-no-brasil',
+      'raiva-vacina-antirrabica-esquema-e-seguranca',
+      'raiva-profilaxia-pos-exposicao-soro-e-vacina',
+      'raiva-como-prevenir-vacinacao-de-caes-e-gatos',
+    ],
+    references: [
+      {
+        label: 'Raiva',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rabies: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rabies',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'raiva-quais-animais-transmitem-no-brasil',
+    slug: 'raiva-quais-animais-transmitem-no-brasil',
+    title: 'Quais animais transmitem raiva no Brasil?',
+    excerpt:
+      'Cães e gatos continuam sob vigilância, mas os morcegos passaram a ser a principal fonte de raiva humana no país. Veja quais contatos exigem profilaxia.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-virus-e-os-mamiferos',
+        heading: 'O vírus circula entre mamíferos',
+        paragraphs: [
+          'A raiva é causada por um vírus que infecta mamíferos. Cães, gatos, morcegos, macacos, raposas, bovinos e cavalos podem adoecer e transmitir. Aves, répteis, anfíbios e peixes não participam da cadeia de transmissão, e roedores não são conhecidos por transmitir a doença, embora mordidas de rato exijam cuidado por outros motivos. A susceptibilidade, porém, não é igual entre as espécies, e o animal que adoece depende do contato que mantém com outros mamíferos infectados.',
+          'O vírus sai principalmente pela saliva e entra no corpo por uma ferida na pele ou por mucosa. Por isso, a mordida é a via mais comum, seguida pelo arranhão e pela lambedura de pele rompida. Contato com pelo, sangue, urina ou fezes não é considerado exposição, mas saliva em olho, boca, nariz ou ferida aberta é.',
+          'Animais silvestres merecem atenção especial porque a doença neles é difícil de reconhecer. Um morcego caído no chão, um macaco que se aproxima de pessoas ou uma raposa que perde o medo não devem ser tocados nem resgatados. A orientação é afastar-se, avisar a vigilância do município e procurar atendimento se houve contato.',
+        ],
+      },
+      {
+        id: 'caes-e-gatos',
+        heading: 'Cães e gatos: controle avançado, risco presente',
+        paragraphs: [
+          'No mundo, cães respondem por cerca de 99% dos casos humanos de raiva, segundo a Organização Mundial da Saúde. No Brasil, a situação é diferente. O país completou uma década sem raiva humana transmitida por cães, resultado de campanhas de vacinação animal e de bloqueios de foco. Ainda assim, cães e gatos sem vacinação continuam sendo a exposição mais frequente nos atendimentos. Manter a cobertura vacinal alta é o que sustenta esse resultado, e uma queda na vacinação pode reabrir a transmissão canina.',
+          'Um cão ou gato saudável pode estar eliminando o vírus pela saliva alguns dias antes de mostrar sinais. Por isso, a observação de 10 dias é usada quando o animal é conhecido e pode ser acompanhado. Se ele permanecer saudável nesse período, o risco para a pessoa diminui. Se adoecer, desaparecer ou morrer, a conduta precisa ser revista com urgência.',
+          'Gatos também transmitem e costumam procurar atendimento por arranhões profundos, que muitas vezes são tratados como ferimentos simples. Todo arranhão que sangra, mesmo de um gato de casa, precisa de avaliação. A vacina antirrábica felina faz parte do calendário de vacinação animal e deve ser mantida em dia.',
+        ],
+      },
+      {
+        id: 'morcegos',
+        heading: 'Morcegos são hoje a principal fonte no Brasil',
+        paragraphs: [
+          'Entre 2010 e junho de 2026, o Brasil registrou 54 casos de raiva humana. Morcegos aparecem como fonte de infecção em 23 deles, seguidos por primatas não humanos, com 12. Cães respondem por 10 casos e gatos por 5. Apenas dois pacientes sobreviveram. Esse conjunto mostra que a transmissão mudou de perfil depois do controle da raiva canina. O número absoluto de casos é pequeno, mas a letalidade altíssima e a dificuldade de reconhecer a exposição fazem cada registro pesar no planejamento da vigilância.',
+          'A forma transmitida por morcegos costuma ser paralítica, sem os sinais dramáticos de hidrofobia que chamam atenção. A pessoa pode ter dor ou formigamento no local da mordida e evoluir com fraqueza progressiva, o que atrasa a suspeita. Como o ferimento pode ser mínimo ou passar despercebido durante o sono, toda exposição a morcego é classificada como grave.',
+          'Morcegos podem carregar o vírus por longos períodos sem sinais aparentes. Nunca toque em um morcego, mesmo que ele esteja caído, imóvel ou aparentemente morto. Se um morcego entrou em casa ou no quarto de alguém que dormia, procure o serviço de saúde para avaliar se houve contato, porque a exposição pode ter ocorrido sem que a pessoa percebesse.',
+        ],
+        cta: {
+          label: 'Entenda a transmissão na página da raiva',
+          href: '/doencas/raiva/',
+        },
+      },
+      {
+        id: 'macacos-e-outros-silvestres',
+        heading: 'Macacos, raposas e outros animais silvestres',
+        paragraphs: [
+          'Primatas não humanos aparecem em segundo lugar entre as fontes de infecção no Brasil. Macacos podem ser atacados por cães, contrair a raiva e transmitir para pessoas que tentam alimentá-los ou segurá-los. Animais usados como mascote ou mantidos em cativeiro irregular aumentam esse risco e também favorecem o tráfico de fauna. A raiva em macacos costuma ser investigada pela vigilância, que testa animais encontrados mortos e orienta quem teve contato com eles.',
+          'Raposas, guaxinins, gambás e outros mamíferos silvestres podem transmitir a doença, embora casos humanos sejam raros. A recomendação é não alimentar, não tocar e não tentar resgatar esses animais por conta própria. Ao encontrar um animal ferido ou com comportamento estranho, acione a vigilância ambiental ou os bombeiros do município.',
+          'Quem trabalha com manejo, captura, vacinação ou pesquisa de animais tem risco ocupacional e deve conversar com o serviço de saúde sobre a profilaxia antes da exposição. A vacinação prévia não substitui o atendimento depois de uma mordida, mas simplifica o esquema e reduz a necessidade de soro, que é um produto escasso.',
+        ],
+      },
+      {
+        id: 'contatos-que-nao-transmitem',
+        heading: 'Contatos que não transmitem raiva',
+        paragraphs: [
+          'Conviver com um animal vacinado, tocar em pelo, abraçar ou beijar o focinho não é considerado exposição, desde que não haja contato com saliva em pele ferida ou mucosa. Também não há transmissão por sangue, urina ou fezes. Essas informações ajudam a evitar atendimentos desnecessários, mas não dispensam a avaliação quando existe dúvida sobre o tipo de contato.',
+          'A transmissão entre pessoas por mordida ou saliva é teoricamente possível e nunca foi confirmada. A transmissão por inalação de aerossóis, consumo de leite cru ou transplante de órgãos é extremamente rara. O risco real, no dia a dia, está no contato com a saliva de um animal infectado por meio de mordida, arranhão ou lambedura de mucosa.',
+          'Se houver dúvida, procure uma unidade de saúde e descreva exatamente o que aconteceu, incluindo o animal, o local do corpo e o tempo decorrido. A avaliação profissional é rápida e evita tanto o risco de subestimar uma exposição grave quanto a aplicação desnecessária de vacina e soro. Explicar o ocorrido com detalhes, sem omitir contatos menores, ajuda o profissional a classificar corretamente a categoria de exposição.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['raiva'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'raiva-mordida-de-animal-quando-procurar-atendimento',
+      'raiva-vacina-antirrabica-esquema-e-seguranca',
+      'raiva-profilaxia-pos-exposicao-soro-e-vacina',
+      'raiva-como-prevenir-vacinacao-de-caes-e-gatos',
+    ],
+    references: [
+      {
+        label: 'Raiva humana',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva/raiva-humana',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rabies: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rabies',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Rabies',
+        url: 'https://www.paho.org/en/topics/rabies',
+        publisher: 'Organização Pan-Americana da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'raiva-vacina-antirrabica-esquema-e-seguranca',
+    slug: 'raiva-vacina-antirrabica-esquema-e-seguranca',
+    title: 'Vacina antirrábica: esquema, indicações e segurança',
+    excerpt:
+      'A vacina contra a raiva é segura e eficaz, mas o esquema muda conforme a exposição e o histórico vacinal. Veja quando ela é indicada e o que esperar.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-a-vacina-protege',
+        heading: 'Como a vacina protege',
+        paragraphs: [
+          'A vacina antirrábica estimula o organismo a produzir anticorpos contra o vírus antes que ele alcance o sistema nervoso central. Ela não mata o vírus que já está no corpo, mas prepara a defesa para bloqueá-lo no caminho. Por isso, quanto antes for aplicada depois da exposição, maior a chance de o sistema imunológico chegar antes do vírus ao cérebro.',
+          'A produção de anticorpos leva alguns dias, e é justamente esse intervalo que a vacina precisa cobrir. Em exposições graves, o soro ou a imunoglobulina entram como proteção imediata, enquanto a vacina constrói a resposta duradoura. As duas medidas se complementam e não competem entre si. Por isso, o primeiro atendimento costuma incluir as duas quando o risco é alto, sem esperar o resultado de exames.',
+          'A vacina é considerada segura e eficaz e é usada há décadas em pessoas de todas as idades. Ela pode ser aplicada depois da exposição, mesmo em quem nunca se vacinou, e também antes da exposição, em pessoas com risco ocupacional ou de viagem. A decisão sobre o momento e o número de doses é sempre do serviço de saúde.',
+        ],
+      },
+      {
+        id: 'quando-a-vacina-e-indicada',
+        heading: 'Quando a vacina é indicada',
+        paragraphs: [
+          'Depois de uma exposição, a vacina é indicada em arranhões sem sangramento, mordidas superficiais e qualquer ferimento que atravesse a pele. Também entra no esquema quando há contato de saliva com mucosa ou exposição a morcego. A avaliação do profissional define se o caso é de vacina isolada ou de vacina combinada com soro.',
+          'Antes da exposição, a profilaxia é indicada a quem tem risco permanente de contato com o vírus. Veterinários, biólogos, profissionais de laboratório, estudantes dessas áreas e pessoas que trabalham com captura, contenção ou vacinação de animais são os grupos mais lembrados. Espeleólogos, guias de ecoturismo e pescadores que atuam em áreas de risco também podem ser avaliados. A indicação considera o tempo de exposição previsto e a facilidade de acesso a atendimento na região visitada.',
+          'A profilaxia prévia não substitui o atendimento depois de uma mordida. Quem já tomou a vacina antes continua precisando de avaliação, mas costuma precisar de menos doses e pode dispensar o soro, que é um produto mais difícil de encontrar. A vacinação prévia é uma vantagem logística, não uma dispensa de cuidado.',
+        ],
+      },
+      {
+        id: 'esquema-e-doses',
+        heading: 'Como é o esquema de doses',
+        paragraphs: [
+          'A vacina é aplicada em várias doses ao longo de algumas semanas. O número exato e o intervalo dependem do protocolo do serviço e do tipo de exposição, e não existe um esquema único para todos os casos. Quem já completou uma série antes pode precisar apenas de doses de reforço, enquanto quem nunca se vacinou começa o esquema do início.',
+          'A Organização Mundial da Saúde recomenda a via intradérmica como alternativa à intramuscular, porque ela reduz a quantidade de vacina necessária e o custo, sem perda de segurança ou eficácia. No Brasil, a rede pública define a apresentação e a via conforme o produto disponível e o protocolo local, e o paciente não escolhe a via por conta própria.',
+          'O esquema precisa ser completado nas datas marcadas. Faltar a uma dose reduz a resposta e pode exigir reinício ou ajuste, conforme a avaliação do serviço. Se não for possível ir à unidade no dia marcado, procure o serviço o quanto antes para receber orientação, em vez de abandonar o esquema. O serviço anota as datas no cartão e no sistema, o que facilita a conduta em uma futura exposição.',
+        ],
+        cta: {
+          label: 'Veja o esquema completo na página da raiva',
+          href: '/doencas/raiva/',
+        },
+      },
+      {
+        id: 'efeitos-colaterais',
+        heading: 'Quais reações podem aparecer',
+        paragraphs: [
+          'As reações mais comuns são locais: dor, vermelhidão e inchaço no ponto da aplicação. Também podem surgir febre baixa, dor de cabeça e mal-estar, que costumam passar em um ou dois dias. Esses efeitos são esperados e não indicam que a vacina não funcionou; eles mostram que o organismo está respondendo.',
+          'Reações graves são raras. Dificuldade para respirar, inchaço no rosto, urticária extensa, tontura intensa ou desmaio depois da aplicação exigem atendimento imediato. O serviço de saúde deve ser informado para que o evento seja notificado e para que a conduta seguinte seja definida com segurança.',
+          'Quem tem alergia grave a algum componente da vacina precisa informar isso antes da aplicação. A decisão de vacinar ou não em situações especiais é individualizada e considera o risco de adoecer. Como a raiva é quase sempre fatal depois dos sintomas, o risco da doença costuma pesar mais na balança do que o risco de uma reação vacinal. Reações leves podem ser tratadas com medidas de conforto indicadas pela própria equipe.',
+        ],
+      },
+      {
+        id: 'duvidas-frequentes',
+        heading: 'Dúvidas frequentes sobre a vacina',
+        paragraphs: [
+          'Muita gente pergunta se ainda vale tomar a vacina dias depois da mordida. A resposta é sim: mesmo com atraso, a profilaxia deve ser avaliada, porque o vírus pode levar semanas para chegar ao cérebro. O ideal é começar o quanto antes, mas perder algumas horas ou dias não torna o atendimento inútil. A profilaxia não é indicada apenas quando há sintomas, e sim a partir da exposição.',
+          'Outra dúvida comum é sobre o animal vacinado. A vacina protege bem, mas nenhuma vacina é totalmente eficaz, e um animal sem histórico confiável ou com mudança de comportamento precisa ser avaliado. Se o cão ou gato é conhecido, a observação de 10 dias ajuda a definir a conduta, mas não substitui a primeira consulta.',
+          'Também é frequente a pergunta sobre interromper o esquema por causa de uma reação leve. Dor local e febre baixa não são motivo para parar sem orientação. Procure o serviço, informe o que aconteceu e deixe a decisão para o profissional que acompanha o caso, que pode ajustar o esquema sem abrir mão da proteção.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['raiva'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'raiva-mordida-de-animal-quando-procurar-atendimento',
+      'raiva-quais-animais-transmitem-no-brasil',
+      'raiva-profilaxia-pos-exposicao-soro-e-vacina',
+      'raiva-como-prevenir-vacinacao-de-caes-e-gatos',
+    ],
+    references: [
+      {
+        label: 'Raiva',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rabies: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rabies',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'raiva-profilaxia-pos-exposicao-soro-e-vacina',
+    slug: 'raiva-profilaxia-pos-exposicao-soro-e-vacina',
+    title: 'Profilaxia da raiva: o que é feito depois da exposição',
+    excerpt:
+      'Lavar o ferimento, vacinar e, nos casos graves, infiltrar soro ao redor da lesão. Entenda por que cada etapa conta e como o risco é classificado.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-que-e-profilaxia',
+        heading: 'O que é a profilaxia pós-exposição',
+        paragraphs: [
+          'A profilaxia pós-exposição é o conjunto de medidas tomadas depois do contato com um animal suspeito, com o objetivo de impedir que o vírus chegue ao sistema nervoso central. Ela começa pela lavagem do ferimento e segue com vacina e, quando indicado, imunoglobulina. Não é um tratamento da doença instalada, e sim uma corrida contra o tempo. Ela é indicada para toda exposição com risco, mesmo quando não há sangramento.',
+          'O vírus caminha pelos nervos em direção ao cérebro. Esse trajeto leva em média 45 dias no ser humano, mas pode ser de dias a anos, e costuma ser mais curto em mordidas na cabeça, no pescoço e em crianças. A profilaxia precisa acontecer dentro dessa janela, antes que o vírus alcance o sistema nervoso central. A demora reduz a margem de segurança, mas não elimina a indicação.',
+          'Depois que os sintomas aparecem, não existe tratamento capaz de curar a raiva. Por isso, a profilaxia é a medida que realmente salva vidas, e ela deve ser iniciada mesmo quando o ferimento parece pequeno ou já está cicatrizando.',
+        ],
+      },
+      {
+        id: 'categorias-de-exposicao',
+        heading: 'As categorias de exposição',
+        paragraphs: [
+          'A Organização Mundial da Saúde classifica a exposição em três categorias, e cada uma tem uma conduta própria. Na categoria I, a pessoa apenas tocou ou alimentou o animal, ou recebeu lambedura em pele íntegra. Não há exposição, e a orientação é lavar a pele, sem profilaxia. A pele íntegra funciona como barreira e não deixa o vírus passar.',
+          'Na categoria II entram arranhões sem sangramento, mordidas superficiais e abrasões. A conduta é lavar o ferimento e iniciar a vacina imediatamente. Na categoria III estão mordidas que atravessam a pele, arranhões que sangram, contato de saliva com mucosa e exposição a morcego. Além da vacina, pode ser necessária a aplicação de imunoglobulina ao redor da lesão. Mordidas profundas, ferimentos no rosto e lesões em crianças exigem atenção redobrada.',
+          'A classificação não é burocrática: ela define quem recebe soro, um produto escasso e de custo alto. Errar para menos deixa a pessoa desprotegida; errar para mais consome um recurso que pode faltar para quem realmente precisa. Por isso, a avaliação deve ser feita por profissional treinado, no mesmo dia da exposição.',
+        ],
+      },
+      {
+        id: 'soro-antirrabico',
+        heading: 'Quando o soro é necessário',
+        paragraphs: [
+          'O soro antirrábico, ou a imunoglobulina, é indicado nas exposições graves, quando o vírus pode entrar em quantidade maior ou atingir rapidamente os nervos. Ele é aplicado ao redor do ferimento para neutralizar o vírus no local antes que ele avance. A maior parte da dose é infiltrada na lesão, e o restante é aplicado por via intramuscular em outra região do corpo. A quantidade depende do peso da pessoa e do tamanho da lesão.',
+          'A aplicação do soro exige técnica e deve ser feita no serviço de saúde. A sutura costuma ser evitada no primeiro atendimento e, quando é indispensável, o soro é infiltrado antes de fechar o ferimento. Fechar a lesão sem essa etapa pode empurrar o vírus para dentro dos tecidos e reduzir a eficácia da profilaxia. O profissional avalia se há necessidade de sutura e como realizá-la com segurança.',
+          'O soro é um produto mais difícil de conseguir do que a vacina, e nem todo serviço mantém estoque permanente. Por isso, a vacinação prévia de pessoas com risco ocupacional é valorizada: quem já tem anticorpos precisa de menos doses e pode dispensar o soro em uma nova exposição, o que simplifica o atendimento.',
+        ],
+        cta: {
+          label: 'Entenda a profilaxia na página da raiva',
+          href: '/doencas/raiva/',
+        },
+      },
+      {
+        id: 'inicio-tardio',
+        heading: 'E quando o atendimento chega atrasado',
+        paragraphs: [
+          'A recomendação é procurar atendimento o quanto antes, mas o atraso não torna a profilaxia inútil. Como o vírus leva tempo para chegar ao cérebro, ainda há chance de proteção dias depois da mordida. O serviço avalia o tempo decorrido, o local da lesão e o animal envolvido para decidir a conduta. Quem chega semanas depois ainda precisa de avaliação, porque o tempo de incubação varia muito.',
+          'Não existe exame capaz de detectar a raiva antes do início dos sintomas. Isso significa que a decisão de tratar não pode esperar um resultado de laboratório. A história de exposição é o principal instrumento de decisão, e ela precisa ser contada com detalhes, mesmo que o contato tenha parecido mínimo. O relato do animal e do local do corpo ajuda a estimar o risco.',
+          'Quem foi mordido e não procurou ajuda na hora deve ir à unidade de saúde assim que perceber o ocorrido. O mesmo vale para quem teve contato com morcego durante o sono ou encontrou o animal dentro de casa sem saber se houve mordida.',
+        ],
+      },
+      {
+        id: 'quem-ja-foi-vacinado',
+        heading: 'Quem já foi vacinado antes',
+        paragraphs: [
+          'Uma nova exposição depois de um esquema completo não dispensa avaliação. O serviço verifica o tempo desde a última dose e o tipo de contato para decidir se basta um reforço ou se é preciso repetir parte do esquema. Também pergunta qual foi o animal envolvido e como ocorreu o contato. Pessoas com imunidade comprometida podem precisar de conduta diferente, porque a resposta à vacina é menor.',
+          'O histórico vacinal é decisivo nessa avaliação. Leve cartões antigos, comprovantes e registros do sistema de saúde. A caderneta de vacinação é o documento mais útil nesse momento. Quando não há comprovação, o profissional tende a tratar como se a pessoa nunca tivesse sido vacinada, o que pode significar mais doses e uso de soro.',
+          'Também é importante avisar sobre doenças que afetam a imunidade, uso de medicamentos imunossupressores e transplantes. Essas informações mudam a interpretação da resposta vacinal e ajudam a definir o esquema mais seguro para cada caso. Quando há dúvida sobre a resposta imunológica, o serviço pode indicar avaliação complementar.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['raiva'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'raiva-mordida-de-animal-quando-procurar-atendimento',
+      'raiva-quais-animais-transmitem-no-brasil',
+      'raiva-vacina-antirrabica-esquema-e-seguranca',
+      'raiva-como-prevenir-vacinacao-de-caes-e-gatos',
+    ],
+    references: [
+      {
+        label: 'Raiva',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rabies: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rabies',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Raiva humana',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva/raiva-humana',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'raiva-como-prevenir-vacinacao-de-caes-e-gatos',
+    slug: 'raiva-como-prevenir-vacinacao-de-caes-e-gatos',
+    title: 'Como prevenir a raiva: vacinar cães e gatos e evitar exposição',
+    excerpt:
+      'A vacinação animal é a medida que interrompe a transmissão na origem. Veja o que depende da rotina em casa, do poder público e de quem tem risco ocupacional.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'vacinar-caes-e-gatos',
+        heading: 'Vacinar cães e gatos é a base da prevenção',
+        paragraphs: [
+          'A vacinação de cães e gatos é a medida mais eficaz para interromper a raiva na origem. Quando a cobertura vacinal é alta, o vírus deixa de circular entre os animais de estimação e deixa de chegar às pessoas. No Brasil, esse esforço explica a ausência de raiva humana transmitida por cães há uma década. A proteção do animal é também uma forma de proteger quem convive com ele.',
+          'A vacina antirrábica animal é oferecida em campanhas e em alguns serviços permanentes. Cães e gatos devem ser vacinados todos os anos, inclusive os que ficam dentro de casa e os que nunca saem para a rua. Um gato que escapa pela janela ou um cão que foge pelo portão podem ter contato com animais infectados sem que a família perceba. A vacina é aplicada por profissional, e o comprovante deve ser guardado.',
+          'Manter a vacinação em dia também facilita o atendimento em caso de mordida. O histórico vacinal do animal ajuda o serviço de saúde a decidir a conduta, e a observação de 10 dias só faz sentido quando o animal pode ser acompanhado. Sem essa informação, a pessoa exposta tende a receber um esquema mais extenso.',
+        ],
+      },
+      {
+        id: 'evitar-contato-com-animais-desconhecidos',
+        heading: 'Evitar contato com animais desconhecidos',
+        paragraphs: [
+          'Não se aproxime de cães e gatos sem dono, principalmente quando estão comendo, com filhotes ou dormindo. Esses são os momentos em que um animal assustado reage com mordida. Ensine as crianças a não correr atrás de animais, não colocar a mão na comida deles e não tentar separar brigas com as mãos. Crianças pequenas devem brincar acompanhadas quando houver animais por perto.',
+          'Nunca toque em morcegos, mesmo os que estão caídos no chão ou parecem mortos. Morcegos podem carregar o vírus sem sinais aparentes, e a exposição é considerada grave mesmo sem ferimento visível. O mesmo cuidado vale para macacos, raposas e outros mamíferos silvestres, que não devem ser alimentados nem resgatados por conta própria. Contato com fezes ou urina não transmite raiva, mas isso não justifica tocar no animal.',
+          'Ao encontrar um animal com comportamento estranho, agressivo ou caído, afaste-se e acione a vigilância ambiental do município. Não tente capturar, cobrir com caixa ou levar para casa. O manejo de animais suspeitos exige equipamento e treinamento, e a tentativa de ajudar pode terminar em exposição.',
+        ],
+        cta: {
+          label: 'Veja as medidas de prevenção na página da raiva',
+          href: '/doencas/raiva/',
+        },
+      },
+      {
+        id: 'profilaxia-antes-da-exposicao',
+        heading: 'Profilaxia antes da exposição',
+        paragraphs: [
+          'Pessoas com risco permanente de contato com o vírus podem fazer a profilaxia antes da exposição. Veterinários, biólogos, profissionais de laboratório, estudantes dessas áreas e trabalhadores que atuam na captura, contenção ou vacinação de animais são os grupos com indicação mais clara. Espeleólogos, guias de ecoturismo e pescadores em áreas de risco também devem ser avaliados. A indicação depende da atividade real de cada pessoa, não apenas do título profissional.',
+          'A vantagem é responder mais rápido a uma exposição futura e precisar de menos doses depois. Em muitos casos, quem já foi vacinado antes pode dispensar o soro, que é um produto mais difícil de encontrar. A vacinação prévia não elimina a necessidade de lavar o ferimento e procurar atendimento, mas simplifica o percurso. O serviço registra essa informação e orienta sobre a necessidade de reforços.',
+          'Viajantes para áreas remotas com acesso limitado a vacina e soro também podem conversar com o serviço de saúde antes da viagem. A indicação é individual e depende do tempo de permanência, das atividades previstas e da disponibilidade de atendimento no destino. Não existe recomendação universal para todo viajante.',
+        ],
+      },
+      {
+        id: 'controle-de-focos-e-vigilancia',
+        heading: 'Controle de focos e vigilância',
+        paragraphs: [
+          'Quando um caso de raiva é confirmado em um animal, a vigilância organiza o bloqueio de foco. A medida inclui vacinar animais na área, orientar moradores e acompanhar pessoas que tiveram contato. Esse trabalho é o que impede que um caso isolado se transforme em transmissão sustentada. A vacinação de bloqueio é feita em um raio definido pela vigilância, que também acompanha os animais da área.',
+          'A notificação de mordidas e arranhões é parte da vigilância. Mesmo quando não há indicação de vacina, o registro permite identificar áreas com maior procura e animais envolvidos. Municípios usam esses dados para planejar campanhas e para decidir onde reforçar a vacinação animal. Os registros também mostram se a procura por atendimento aumentou depois de uma campanha.',
+          'Quem tem um cão ou gato que mordeu alguém deve informar o serviço de saúde e observar o animal por 10 dias. Se ele adoecer, desaparecer ou morrer, a comunicação precisa ser imediata. Esconder o animal ou abandoná-lo depois de uma mordida atrasa a conduta da pessoa exposta e dificulta o controle.',
+        ],
+      },
+      {
+        id: 'o-papel-da-comunidade',
+        heading: 'O papel da comunidade',
+        paragraphs: [
+          'A raiva é uma doença de transmissão local, e a proteção depende de atitudes cotidianas. Não abandonar animais, manter a vacinação em dia e evitar que cães e gatos circulem sem supervisão reduz o contato entre animais e pessoas. A posse responsável é uma medida de saúde pública, não apenas uma questão de bem-estar animal. Animais não devem ser soltos em áreas públicas nem deixados soltos na rua.',
+          'Escolas, unidades de saúde e associações de bairro podem reforçar a informação sobre o que fazer depois de uma mordida. Muita gente ainda lava o ferimento com álcool ou espera o ferimento cicatrizar, o que atrasa a profilaxia. A orientação correta é água e sabão por 15 minutos e atendimento no mesmo dia.',
+          'Em áreas com morcegos, evitar o contato e manter telas em vãos e forros ajuda a reduzir exposições dentro de casa. Quem encontra um morcego no quarto deve procurar o serviço de saúde mesmo sem lembrar de mordida. O acesso à vacina e ao soro pelo SUS é gratuito, e a procura precoce é o que transforma prevenção em resultado. O serviço orienta sobre a necessidade de vacina mesmo quando não há ferimento visível.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['raiva'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'raiva-mordida-de-animal-quando-procurar-atendimento',
+      'raiva-quais-animais-transmitem-no-brasil',
+      'raiva-vacina-antirrabica-esquema-e-seguranca',
+      'raiva-profilaxia-pos-exposicao-soro-e-vacina',
+    ],
+    references: [
+      {
+        label: 'Raiva',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rabies: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rabies',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Rabies',
+        url: 'https://www.paho.org/en/topics/rabies',
+        publisher: 'Organização Pan-Americana da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'ascaridiase-como-saber-se-a-crianca-tem-lombriga',
+    slug: 'ascaridiase-como-saber-se-a-crianca-tem-lombriga',
+    title: 'Como saber se a criança tem lombriga',
+    excerpt:
+      'Barriga dolorida, apetite irregular e crescimento mais lento podem ter outras causas. Veja quando investigar a ascaridíase e como o diagnóstico é feito.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'sinais-pouco-especificos',
+        heading: 'Sintomas que passam despercebidos',
+        paragraphs: [
+          'A maioria das crianças com ascaridíase não apresenta sintoma nenhum. O verme vive no intestino delgado e convive com o organismo sem provocar dor, febre ou qualquer sinal visível. Por isso, a infecção costuma ser descoberta por acaso, em um exame de fezes pedido por outro motivo, ou quando aparecem complicações. O número de casos confirmados costuma ser menor do que o de pessoas infectadas.',
+          'Quando há muitos vermes, os sinais são vagos. A criança pode ter dor abdominal em cólica, diarreia, náusea, perda de apetite e perda de peso. Nenhum desses sintomas é exclusivo da lombriga, e todos podem acompanhar infecções virais, intolerâncias alimentares ou outras parasitoses. A soma de queixas repetidas com um contexto de saneamento precário é o que levanta a suspeita. A duração e a intensidade variam bastante de uma criança para outra.',
+          'Em infecções intensas e repetidas, o crescimento pode ficar mais lento e a criança pode apresentar desnutrição. Esse efeito não acontece de um dia para o outro e costuma aparecer em quem vive em áreas com transmissão alta. A avaliação nutricional faz parte do cuidado, sobretudo quando a curva de peso e altura deixa de acompanhar o esperado.',
+        ],
+      },
+      {
+        id: 'quando-desconfiar',
+        heading: 'Quando vale investigar',
+        paragraphs: [
+          'A investigação é mais produtiva quando existe exposição compatível. Morar em área sem rede de esgoto, beber água não tratada, comer verduras cruas mal lavadas e brincar na terra são fatores que aumentam a chance de infecção. Crianças pequenas têm mais risco porque colocam objetos e as mãos na boca com frequência e nem sempre lavam as mãos antes de comer. Crianças que frequentam creches e escolas em áreas sem saneamento também estão mais expostas.',
+          'A dor abdominal isolada não justifica exame de fezes em toda criança. Vale investigar quando as queixas se repetem, quando há perda de peso, diarreia frequente ou quando a família relata a presença de verme nas fezes. Nesses casos, o exame é simples, barato e capaz de confirmar a infecção.',
+          'Também é importante considerar outras causas. Gastrite, constipação, intolerância à lactose e infecções virais produzem quadros parecidos. O profissional avalia o conjunto de sintomas, o exame do abdome e o contexto da casa antes de pedir exames ou indicar tratamento. Também pergunta se outras pessoas da casa têm queixas parecidas.',
+        ],
+      },
+      {
+        id: 'exame-de-fezes',
+        heading: 'Como o diagnóstico é confirmado',
+        paragraphs: [
+          'O exame principal é a análise das fezes ao microscópio, que identifica os ovos do Ascaris lumbricoides. A coleta é feita em casa ou na unidade de saúde, e o resultado costuma sair em poucos dias. O exame pode ser solicitado pela unidade básica de saúde e não exige preparo especial. Não é necessário repetir o exame em série para começar a investigação, mas o profissional pode pedir nova coleta se a suspeita continuar.',
+          'O resultado pode ser negativo no início da infecção. A fêmea só começa a liberar ovos algumas semanas depois da contaminação, e quando existem apenas vermes machos não há ovos nas fezes. Nesses casos, a história clínica e outros exames ajudam a esclarecer o quadro. Um exame negativo não prova que a criança não tenha vermes. Por isso, a repetição do exame pode ser necessária quando a suspeita permanece.',
+          'Em situações de complicação, a ultrassonografia, os raios X e a tomografia podem mostrar o bolo de vermes, a dilatação do intestino ou a obstrução das vias biliares. O hemograma pode revelar aumento dos eosinófilos, células de defesa que sobem em infecções por parasitas. Esses exames não substituem a avaliação clínica.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando a criança precisa de atendimento imediato',
+        paragraphs: [
+          'A maioria dos casos é leve, mas alguns sinais indicam complicação. Dor abdominal muito intensa e contínua, vômitos repetidos, parada de eliminação de fezes e gases, abdome inchado e dolorido ou febre alta com dor abdominal exigem atendimento imediato. Esses sinais podem indicar obstrução intestinal, a complicação mais temida. Quanto mais cedo a avaliação, menor o risco de o quadro evoluir para cirurgia.',
+          'Pele e olhos amarelados, dor forte no lado direito do abdome e vômitos com verme também são motivos para procurar o pronto atendimento. A obstrução das vias biliares e a pancreatite são quadros graves e precisam de avaliação hospitalar. Esses quadros exigem exames de imagem e avaliação especializada no hospital. Em crianças, perda de peso importante e desnutrição merecem acompanhamento prioritário.',
+          'Ver um verme nas fezes ou no vômito assusta a família, mas não é motivo de pânico por si só. O material deve ser levado ao serviço de saúde para confirmação, e a criança precisa ser avaliada. Se houver dor intensa, vômitos persistentes ou parada de evacuação, a ida ao pronto atendimento não deve esperar.',
+        ],
+        cta: {
+          label: 'Veja os sinais de alerta na página da ascaridíase',
+          href: '/doencas/ascaridiase/',
+        },
+      },
+      {
+        id: 'depois-do-diagnostico',
+        heading: 'O que fazer depois do diagnóstico',
+        paragraphs: [
+          'O tratamento é feito com antiparasitários por via oral, em geral albendazol ou mebendazol, por um a três dias. O medicamento é muito eficaz e costuma eliminar os vermes com poucos efeitos colaterais. A escolha e a dose dependem da idade, do peso e de outras condições de saúde, e não devem ser definidas pela família por conta própria. O tratamento não deve ser repetido sem orientação, mesmo que a família já conheça o remédio.',
+          'Crianças sem sintomas também podem ser tratadas quando o exame confirma a infecção. O objetivo é eliminar os vermes e evitar complicações futuras. Em áreas de transmissão alta, a Organização Mundial da Saúde recomenda tratamento preventivo periódico para grupos de risco, incluindo crianças em idade escolar. O serviço de saúde define se há indicação no caso concreto.',
+          'Depois do tratamento, a criança pode continuar indo à escola. A ascaridíase não passa pelo contato comum entre crianças, e não há motivo para afastamento. O que precisa ser reforçado em casa é a lavagem das mãos, o cuidado com a água e a higiene dos alimentos, porque o tratamento não impede uma nova infecção no mesmo ambiente.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['ascaridiase'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil', 'prevencao'],
+    relatedArticleSlugs: [
+      'ascaridiase-quando-a-lombriga-sai-do-intestino',
+      'ascaridiase-como-prevenir-em-casa',
+      'ascaridiase-tratamento-periodico-de-vermifugos',
+      'ascaridiase-lombriga-passa-de-pessoa-para-pessoa',
+    ],
+    references: [
+      {
+        label: 'Geo-Helmintíase',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Ascariasis',
+        url: 'https://www.cdc.gov/sth/about/ascariasis.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'ascaridiase-quando-a-lombriga-sai-do-intestino',
+    slug: 'ascaridiase-quando-a-lombriga-sai-do-intestino',
+    title: 'Quando a lombriga sai do intestino: as complicações da ascaridíase',
+    excerpt:
+      'Obstrução intestinal, dor no lado direito do abdome e icterícia podem indicar que o verme saiu do lugar. Reconhecer cedo evita cirurgia de urgência.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-o-verme-se-move',
+        heading: 'O que leva o verme a sair do intestino',
+        paragraphs: [
+          'O Ascaris lumbricoides vive no intestino delgado, onde se alimenta e se reproduz. Em geral, ele permanece ali sem causar problemas. Quando existe grande quantidade de vermes, eles podem se enrolar uns nos outros e formar um bolo que dificulta a passagem do conteúdo intestinal. A quantidade de vermes é o principal fator envolvido nesse cenário: um verme isolado raramente obstrui, e o problema aparece quando dezenas deles se acumulam.',
+          'O verme também pode migrar para outros órgãos. A localização ectópica mais grave é a via biliar, por onde ele chega à vesícula e ao pâncreas. Outros destinos menos comuns incluem o apêndice e a parede do intestino, que pode ser perfurada. Cada localização produz um quadro diferente e exige avaliação própria. Sintomas diferentes exigem investigação dirigida ao órgão afetado.',
+          'A migração é mais provável quando há muitos vermes e quando a infecção não é tratada. Por isso, o tratamento de casos confirmados, mesmo sem sintomas, não é exagero: ele reduz a carga de parasitas e o risco de complicação. O tratamento também reduz a chance de contaminação do ambiente, porque cada fêmea elimina milhares de ovos por dia.',
+        ],
+      },
+      {
+        id: 'obstrucao-intestinal',
+        heading: 'Obstrução intestinal',
+        paragraphs: [
+          'A obstrução intestinal é a complicação mais temida. O bolo de vermes bloqueia a passagem e provoca dor abdominal intensa e contínua, vômitos repetidos, abdome inchado e parada de eliminação de fezes e gases. Em crianças, esses sinais podem evoluir rápido e exigem atendimento imediato. Crianças pequenas podem desidratar com rapidez quando vomitam muito.',
+          'O diagnóstico é feito com exame clínico e imagem, que mostra a dilatação do intestino e o bolo de vermes. O tratamento pode começar com medidas clínicas, mas a cirurgia é necessária quando não há melhora ou quando existem sinais de sofrimento do intestino. Quanto mais cedo a avaliação, menor a chance de precisar de cirurgia de urgência. O tempo entre o início dos sintomas e o atendimento faz diferença no prognóstico.',
+          'Depois da cirurgia, o paciente continua o tratamento antiparasitário e precisa de acompanhamento para evitar nova infecção. A família também deve ser orientada sobre saneamento e higiene, porque o ambiente que permitiu a infecção continua o mesmo. O acompanhamento inclui reavaliação clínica e orientação alimentar no pós-operatório.',
+        ],
+        cta: {
+          label: 'Veja as complicações na página da ascaridíase',
+          href: '/doencas/ascaridiase/',
+        },
+      },
+      {
+        id: 'vias-biliares-e-pancreas',
+        heading: 'Vias biliares e pâncreas',
+        paragraphs: [
+          'Quando o verme entra na via biliar, a pessoa sente dor forte no lado direito do abdome, que pode vir com náusea e vômito. A obstrução do fluxo de bile pode deixar a pele e os olhos amarelados. Febre e dor contínua sugerem inflamação associada e pedem avaliação hospitalar. A intensidade da dor varia e pode ser confundida com cálculo na vesícula.',
+          'No pâncreas, o verme pode obstruir o canal e desencadear pancreatite, com dor intensa que irradia para as costas. O quadro é grave e exige internação. O tratamento pode incluir medidas de suporte e remoção do parasita por via endoscópica ou cirúrgica, conforme o caso. O diagnóstico diferencial inclui outras causas de pancreatite e de obstrução biliar.',
+          'A ultrassonografia ajuda a identificar o verme na via biliar e a dilatação dos canais. O diagnóstico precoce evita complicações como infecção da vesícula e pancreatite grave. Quando a obstrução persiste, pode surgir colangite, com febre, dor e icterícia, que exige internação e antibiótico. Dor no lado direito do abdome com icterícia não deve ser tratada em casa com analgésico. O serviço de saúde define a melhor forma de investigar cada caso.',
+        ],
+      },
+      {
+        id: 'apendicite-e-perfuracao',
+        heading: 'Apendicite e perfuração',
+        paragraphs: [
+          'O verme pode entrar no apêndice e provocar apendicite. O quadro se parece com a apendicite comum, com dor no lado direito inferior do abdome, febre e vômito, e o tratamento é cirúrgico. A diferença é que a presença do parasita precisa ser tratada depois, para evitar recidiva. A recuperação depende do tempo até o tratamento e da condição do intestino no momento da cirurgia.',
+          'A perfuração intestinal é rara, mas grave. Ela pode ocorrer quando o verme atravessa a parede do intestino ou quando a obstrução não é tratada. O sinal é dor intensa, abdome rígido, febre e piora rápida do estado geral. É uma emergência cirúrgica. A pressão abdominal e a febre alta são sinais que não devem ser ignorados.',
+          'Essas complicações são incomuns em quem recebe tratamento adequado. A mensagem prática é não deixar uma infecção confirmada sem tratamento e procurar atendimento quando a dor muda de padrão, fica contínua ou vem acompanhada de vômitos e febre. Reconhecer a mudança do padrão da dor é tão importante quanto o exame.',
+        ],
+      },
+      {
+        id: 'prevencao-de-complicacoes',
+        heading: 'Como reduzir o risco de complicação',
+        paragraphs: [
+          'A primeira medida é tratar a infecção confirmada, mesmo quando os sintomas são leves. O antiparasitário é simples, dura de um a três dias e reduz a quantidade de vermes. A dose e o intervalo são definidos pelo profissional que acompanha o caso. Em áreas de transmissão alta, o tratamento periódico indicado pelo serviço de saúde cumpre o mesmo papel em escala coletiva.',
+          'A segunda é melhorar o ambiente. Rede de esgoto, água tratada e destino adequado das fezes reduzem a contaminação do solo e interrompem o ciclo do parasita. Lavar as mãos, cortar as unhas e higienizar os alimentos completam a rotina de prevenção. O acesso à água tratada e à rede de esgoto é a medida de maior impacto coletivo.',
+          'A terceira é reconhecer os sinais de alarme. Dor abdominal muito intensa, vômitos repetidos, parada de eliminação de fezes e gases, icterícia ou febre alta com dor exigem pronto atendimento. Esperar em casa aumenta o risco de obstrução e de cirurgia de urgência. Levar o exame e a receita ao atendimento ajuda a equipe a entender o histórico.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['ascaridiase'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'ascaridiase-como-saber-se-a-crianca-tem-lombriga',
+      'ascaridiase-como-prevenir-em-casa',
+      'ascaridiase-tratamento-periodico-de-vermifugos',
+      'ascaridiase-lombriga-passa-de-pessoa-para-pessoa',
+    ],
+    references: [
+      {
+        label: 'Geo-Helmintíase',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Soil-transmitted helminth infections: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'About Ascariasis',
+        url: 'https://www.cdc.gov/sth/about/ascariasis.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'ascaridiase-como-prevenir-em-casa',
+    slug: 'ascaridiase-como-prevenir-em-casa',
+    title: 'Como prevenir a ascaridíase em casa',
+    excerpt:
+      'Água segura, destino correto das fezes e lavagem das mãos interrompem o ciclo do verme. Veja o que depende da rotina da família e o que depende do poder público.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-o-ovo-chega-ate-a-boca',
+        heading: 'O ovo chega pela boca, não pela pele',
+        paragraphs: [
+          'O Ascaris lumbricoides não entra pela pele nem pelo ar. A infecção acontece quando a pessoa engole ovos que estão no solo, na água ou nos alimentos. Esses ovos só se tornam infectantes depois de amadurecer no ambiente, o que leva cerca de três semanas em condições de calor e umidade. Um ovo recém-eliminado nas fezes ainda não transmite a doença.',
+          'Isso muda o modo de pensar a prevenção. Não é preciso isolar quem está infectado nem evitar o convívio, porque o contágio não acontece de pessoa para pessoa. O que importa é impedir que o ovo chegue à boca. O verme adulto vive no intestino delgado e libera ovos nas fezes, que contaminam o solo quando não há destino adequado.',
+          'A cadeia se fecha em três pontos: fezes no lugar certo, água segura e mãos limpas. Cada ponto depende ao mesmo tempo de infraestrutura e de hábito. Em casa, o que está ao alcance da família é principalmente o hábito; o saneamento depende do poder público e da mobilização da comunidade. O ovo é resistente e sobrevive meses no solo, por isso a melhoria do ambiente tem efeito mais duradouro do que qualquer rodada de tratamento.',
+        ],
+      },
+      {
+        id: 'agua-e-esgoto',
+        heading: 'Água tratada e destino correto do esgoto',
+        paragraphs: [
+          'Rede de esgoto e água tratada são as medidas de maior impacto sobre a ascaridíase. Quando a rede não existe, a fossa precisa ser construída e mantida longe de poços e de cursos d\'água, com tampa e sem vazamento. Esgoto a céu aberto contamina o quintal, a rua e a horta, e a chuva espalha os ovos para as áreas vizinhas. Em condomínios e áreas urbanas, ligações clandestinas de esgoto produzem o mesmo efeito.',
+          'Água de poço, cisterna ou mina deve ser filtrada, fervida ou tratada quando não há garantia de qualidade. Guardar a água em recipiente limpo e tampado evita nova contaminação. A caixa d\'água precisa de tampa firme e limpeza periódica, porque resíduos acumulados no fundo favorecem a proliferação de microrganismos.',
+          'Em áreas rurais, a destinação das fezes também importa. Usar fezes humanas como adubo, sem tratamento, espalha ovos na plantação e mantém o ciclo. O serviço de saúde e a vigilância do município orientam sobre alternativas seguras e sobre como construir e manter a fossa em cada tipo de terreno.',
+        ],
+      },
+      {
+        id: 'higiene-das-maos-e-unhas',
+        heading: 'Mãos, unhas e o hábito de lavar',
+        paragraphs: [
+          'Lavar as mãos com água e sabão reduz a quantidade de ovos que chega à boca. O momento importa mais do que a quantidade de vezes: depois de usar o banheiro, depois de trocar fralda, antes de comer e antes de preparar alimentos. Água corrente e sabão, esfregando palmas, dedos e unhas por pelo menos 20 segundos, é o que remove os ovos.',
+          'Álcool em gel não substitui água e sabão quando as mãos estão sujas de terra. Ele ajuda em outras situações, mas não remove a sujeira que carrega os ovos. Por isso, o lavatório com água corrente precisa existir perto do local onde as refeições são preparadas e servidas, e não apenas no banheiro.',
+          'Nas crianças, as unhas compridas guardam terra e ovos. Manter as unhas curtas e limpas e ensinar a não levar a mão à boca depois de brincar no chão reduz a exposição. O hábito se constrói com repetição e com exemplo: a criança aprende mais vendo o adulto lavar as mãos do que ouvindo a recomendação. Adolescentes e adultos também precisam do hábito, porque podem levar ovos para a cozinha.',
+        ],
+      },
+      {
+        id: 'alimentos-crus-e-verduras',
+        heading: 'Verduras, frutas e água na cozinha',
+        paragraphs: [
+          'Verduras e frutas podem carregar ovos quando são cultivadas em solo contaminado ou lavadas com água imprópria. Lavar folha por folha em água corrente e deixar de molho na solução clorada indicada para alimentos reduz o risco. Frutas consumidas com casca devem ser esfregadas antes de cortar, porque a faca leva para a polpa o que estava na superfície.',
+          'Cozinhar resolve o problema, porque o calor inviabiliza os ovos. Alimentos que serão consumidos crus precisam de higienização cuidadosa e, quando possível, devem ser descascados. Em restaurantes e lanchonetes, a procedência da água usada na lavagem raramente está visível para o cliente, e esse é um limite que não depende de quem come.',
+          'Não é necessário abandonar saladas nem frutas. A recomendação é higienizar sempre e, em áreas com transmissão alta, dar preferência a alimentos cozidos para crianças pequenas, que têm mais chance de reinfecção. A família que já trata a água da torneira não precisa comprar água mineral para lavar alimentos, mas precisa saber de onde vem a água que usa. Vegetais comprados em feiras livres merecem o mesmo cuidado dos que vêm do supermercado.',
+        ],
+      },
+      {
+        id: 'criancas-que-brincam-na-terra',
+        heading: 'Crianças, terra e creche',
+        paragraphs: [
+          'Crianças pequenas brincam no chão, levam objetos à boca e nem sempre lavam as mãos antes de comer. Por isso, a infecção é mais comum nessa faixa etária. Quintais com terra contaminada, areia de obra e terrenos baldios são pontos de exposição frequentes, principalmente em áreas sem rede de esgoto. Terrenos usados como depósito de entulho acumulam água e fezes e viram área de brincadeira.',
+          'Creches e escolas precisam de água, sabão e uma rotina de lavagem antes das refeições. O piso e os brinquedos devem ser lavados com regularidade, e o trocador precisa ser higienizado depois de cada uso. Em casa, oferecer um lavatório acessível e toalha limpa torna o hábito possível, inclusive para quem tem pouca altura.',
+          'Nenhuma medida funciona isolada. Tratar quem está infectado, melhorar o saneamento e manter a higiene precisam caminhar juntos, porque os ovos permanecem viáveis no solo por meses. Quem foi tratado pode se reinfectar no mesmo quintal se o ambiente continuar contaminado.',
+        ],
+        cta: {
+          label: 'Veja as medidas de prevenção na página da ascaridíase',
+          href: '/doencas/ascaridiase/',
+        },
+      },
+    ],
+    diseaseSlugs: ['ascaridiase'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedArticleSlugs: [
+      'ascaridiase-como-saber-se-a-crianca-tem-lombriga',
+      'ascaridiase-quando-a-lombriga-sai-do-intestino',
+      'ascaridiase-tratamento-periodico-de-vermifugos',
+      'ascaridiase-lombriga-passa-de-pessoa-para-pessoa',
+    ],
+    references: [
+      {
+        label: 'Geo-Helmintíase',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Soil-transmitted helminth infections: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'ascaridiase-tratamento-periodico-de-vermifugos',
+    slug: 'ascaridiase-tratamento-periodico-de-vermifugos',
+    title: 'Tratamento periódico de vermífugos: como funciona',
+    excerpt:
+      'Campanhas de vermífugo reduzem a carga de parasitas na comunidade, mas não substituem saneamento. Veja quem é incluído, como a dose é dada e por que repetir por conta própria não ajuda.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-que-e-tratamento-preventivo',
+        heading: 'O que é o tratamento preventivo',
+        paragraphs: [
+          'Em áreas onde a ascaridíase é frequente, o serviço de saúde pode oferecer vermífugo em campanhas periódicas, sem exame de fezes para cada pessoa. A estratégia se chama tratamento preventivo e busca reduzir a quantidade de vermes na população, não apenas resolver casos individuais. A medida é indicada quando a transmissão local justifica a ação coletiva. A decisão de fazer ou não a campanha é do gestor local, com base em dados de prevalência e em recursos disponíveis.',
+          'A lógica é coletiva. Quando muitas pessoas recebem o medicamento na mesma época, a liberação de ovos no ambiente cai e a transmissão diminui. O efeito dura enquanto a cobertura se mantém alta; se a campanha para, a transmissão volta a subir. Por isso, a periodicidade é parte da estratégia, e não um detalhe administrativo. A adesão da comunidade é o que sustenta o resultado.',
+          'A Organização Mundial da Saúde recomenda a medida para grupos de risco em locais com transmissão alta. O intervalo entre as rodadas depende da situação local e é definido pelo serviço de saúde, não pela família. A campanha também não substitui o atendimento de quem tem sintomas.',
+        ],
+      },
+      {
+        id: 'quem-entra-no-grupo-de-risco',
+        heading: 'Quem é incluído',
+        paragraphs: [
+          'Crianças em idade escolar são o grupo mais lembrado, porque têm mais contato com o solo e mais chance de reinfecção. Crianças em idade pré-escolar também podem ser incluídas, conforme a orientação do município e a faixa etária autorizada para o medicamento. A escola e a creche são pontos de encontro que facilitam a aplicação. A aplicação na escola também alcança quem não vai à unidade de saúde com frequência.',
+          'Gestantes precisam de avaliação individual. O tratamento pode ser indicado em alguns casos, mas a decisão é do profissional que acompanha o pré-natal, considerando o período da gestação e o risco de anemia. Nenhuma gestante deve tomar vermífugo por conta própria, mesmo que já tenha usado o remédio antes.',
+          'Adultos com exposição constante, como trabalhadores agrícolas e pessoas que vivem em áreas sem saneamento, podem ser incluídos conforme a situação local. A indicação não é universal: depende da prevalência medida no município e do planejamento da vigilância, que define onde a carga de vermes é maior. O município decide com base no número de casos e na cobertura de saneamento de cada bairro.',
+        ],
+      },
+      {
+        id: 'como-e-feito',
+        heading: 'Como a dose é dada',
+        paragraphs: [
+          'O medicamento mais usado é o albendazol, em dose única de 400 mg, ou o mebendazol, em dose única de 500 mg. A dose é definida conforme a idade e o protocolo do serviço, e a equipe de saúde acompanha a administração. A apresentação pode ser comprimido ou suspensão, conforme o público atendido. O medicamento é o mesmo usado no tratamento individual, o que facilita a logística da campanha.',
+          'A dose única é prática em campanha e tem boa eficácia contra o Ascaris. O comprimido pode ser tomado com água, sem preparo especial e sem necessidade de jejum. Efeitos colaterais são incomuns e, quando aparecem, costumam ser leves, como dor de barriga e náusea passageiras. Não é necessário repetir a dose no dia seguinte, porque o efeito contra o verme adulto já ocorre com a dose única.',
+          'Em crianças muito pequenas, a dose é ajustada conforme o peso e a idade autorizada, ou o tratamento é adiado. A família deve informar alergias e outros medicamentos em uso. Quem está doente no dia da campanha pode receber orientação para tratar em outro momento, sem perder a oportunidade. O registro do que foi tomado deve ficar com a família e com o serviço.',
+        ],
+      },
+      {
+        id: 'tratamento-periodico-nao-substitui-saneamento',
+        heading: 'O remédio não substitui o saneamento',
+        paragraphs: [
+          'O vermífugo elimina os vermes do momento, não os ovos que estão no solo. Sem saneamento e higiene, a reinfecção acontece em semanas ou meses. Por isso, a campanha é uma medida de controle, e não uma solução definitiva: ela reduz o sofrimento agora e compra tempo para as obras de infraestrutura. A queda na eliminação de ovos é o que se mede para avaliar o impacto.',
+          'Investir em rede de esgoto, água tratada e destinação adequada de fezes tem efeito duradouro. A educação em saúde ensina o que fazer no dia a dia e mantém o resultado depois que a campanha termina. Municípios que combinam as duas frentes reduzem a carga de vermes de forma mais estável ao longo dos anos. Obras de saneamento levam anos, e a campanha continua nesse intervalo.',
+          'Quando a transmissão cai muito, o próprio serviço de saúde pode rever a frequência das rodadas. A meta não é eliminar todos os vermes de uma vez, mas impedir que a infecção cause anemia, desnutrição e complicações, sobretudo em crianças e em gestantes. Indicadores de anemia e de crescimento infantil ajudam a acompanhar o resultado.',
+        ],
+        cta: {
+          label: 'Veja como o tratamento é feito na página da ascaridíase',
+          href: '/doencas/ascaridiase/',
+        },
+      },
+      {
+        id: 'duvidas-sobre-repetir-vermifugo',
+        heading: 'Dúvidas sobre repetir o vermífugo',
+        paragraphs: [
+          'Repetir o remédio por conta própria, várias vezes ao ano, não é recomendado. A dose extra não aumenta a proteção e pode mascarar outros problemas de saúde. Em áreas sem campanha, a repetição deve ser discutida com o serviço de saúde, que avalia o risco de cada pessoa. O vermífugo não previne a infecção seguinte; ele trata a atual.',
+          'Também não é preciso tratar toda a família sem orientação só porque uma pessoa teve o diagnóstico. O serviço avalia o risco de cada contato e define quem precisa de tratamento. Crianças pequenas e gestantes merecem avaliação antes de qualquer dose, mesmo em situações de exposição clara. O profissional considera o risco de cada morador e a possibilidade de reinfecção no mesmo ambiente.',
+          'Quem foi tratado e continua com sintomas precisa voltar ao serviço. Dor abdominal persistente, perda de peso e diarreia têm outras causas possíveis e merecem investigação. O exame de fezes pode ser repetido quando a suspeita continuar depois do tratamento. Sintomas que pioram depois do tratamento pedem avaliação no mesmo dia.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['ascaridiase'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedArticleSlugs: [
+      'ascaridiase-como-saber-se-a-crianca-tem-lombriga',
+      'ascaridiase-quando-a-lombriga-sai-do-intestino',
+      'ascaridiase-como-prevenir-em-casa',
+      'ascaridiase-lombriga-passa-de-pessoa-para-pessoa',
+    ],
+    references: [
+      {
+        label: 'Geo-Helmintíase',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Soil-transmitted helminth infections: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'ascaridiase-lombriga-passa-de-pessoa-para-pessoa',
+    slug: 'ascaridiase-lombriga-passa-de-pessoa-para-pessoa',
+    title: 'Lombriga passa de pessoa para pessoa?',
+    excerpt:
+      'A ascaridíase não é contagiosa pelo convívio, mas costuma atingir a família inteira. Entenda por que o ovo precisa do solo e o que realmente transmite a infecção.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'a-resposta-curta',
+        heading: 'A resposta curta',
+        paragraphs: [
+          'Não. A ascaridíase não passa de pessoa para pessoa por contato, abraço, aperto de mão ou pela respiração. Quem tem o verme não elimina formas infectantes nas fezes: elimina ovos que ainda precisam amadurecer no ambiente por cerca de três semanas antes de se tornarem capazes de infectar alguém. Enquanto isso não acontece, o ovo é inofensivo se for engolido. Por isso, visitar alguém com a doença ou cuidar de uma pessoa infectada não exige máscara, luva ou qualquer precaução especial.',
+          'A confusão é comum porque a doença se espalha dentro de casa. Quando várias pessoas da mesma família têm ascaridíase, parece que uma transmitiu para a outra. Na prática, todas se infectaram no mesmo quintal, com a mesma água ou com a mesma horta. O que se compartilha é o ambiente contaminado, não o verme. Duas pessoas com o mesmo diagnóstico podem ter se infectado em meses diferentes, no mesmo local.',
+          'Entender isso muda o que a família faz. Não é preciso separar pratos, talheres ou toalhas, nem afastar a criança da escola. O esforço precisa ir para o que realmente interrompe o ciclo: destino das fezes, água segura, lavagem das mãos e higiene dos alimentos. A notificação de casos à vigilância ajuda a identificar áreas com problema de saneamento.',
+        ],
+      },
+      {
+        id: 'por-que-o-ovo-precisa-do-solo',
+        heading: 'Por que o ovo precisa do solo',
+        paragraphs: [
+          'O ovo do Ascaris lumbricoides sai nas fezes em estágio imaturo. Para se tornar infectante, precisa de tempo, calor e umidade no solo. Em condições favoráveis, esse amadurecimento leva cerca de três semanas. Em locais frios ou secos, esse prazo pode ser ainda maior. É por isso que uma pessoa doente não é uma fonte imediata de contágio.',
+          'O ovo maduro é resistente. Sobrevive meses no solo, em hortas, em terrenos e em locais onde as fezes foram depositadas sem tratamento. Ele não é visível a olho nu e não sai com facilidade de frutas e verduras mal lavadas. A resistência é o motivo pelo qual a melhoria do saneamento tem efeito mais duradouro do que qualquer tratamento isolado. O ovo também resiste a muitos desinfetantes comuns, o que explica por que limpar a casa com produto perfumado não resolve o problema.',
+          'O ciclo se completa quando alguém engole esse ovo maduro. A larva eclode no intestino, atravessa a parede intestinal, passa pelo fígado e pelos pulmões e volta ao intestino, onde se torna adulta. Todo esse trajeto leva semanas e explica por que os sintomas respiratórios podem aparecer antes dos intestinais. Nas crianças, a passagem pelo pulmão pode causar tosse e chiado, sinais que às vezes são confundidos com alergia ou virose.',
+        ],
+      },
+      {
+        id: 'convivencia-com-quem-esta-infectado',
+        heading: 'Convivência com quem está infectado',
+        paragraphs: [
+          'Dormir no mesmo quarto, usar o mesmo banheiro e comer à mesma mesa não transmitem a ascaridíase. O contato cotidiano é seguro. O cuidado necessário é com a higiene do ambiente e das mãos, que vale para todos, e não com o isolamento de quem está doente. O mesmo vale para quem cuida de alguém acamado: não é preciso proteção individual contra o verme.',
+          'Mesmo assim, o banheiro merece atenção. A limpeza frequente, a descarga funcionando e a pia com sabão reduzem a chance de ovos chegarem às mãos e aos alimentos. Em casas sem rede de esgoto, a fossa precisa estar tampada e longe da cozinha e do poço. Trocar a toalha com frequência e manter o lixo fechado completa a rotina do banheiro.',
+          'Crianças com diagnóstico confirmado podem continuar na creche e na escola. A exclusão não protege ninguém e ainda cria constrangimento. O que protege é a rotina de lavar as mãos, lavar os brinquedos e oferecer água tratada. A escola deve ser informada apenas para ajudar na orientação, não para afastar o aluno. Manter a criança em casa por precaução só atrasa a rotina escolar e não reduz o risco de ninguém.',
+        ],
+      },
+      {
+        id: 'por-que-toda-a-familia-adoece',
+        heading: 'Por que toda a família adoece',
+        paragraphs: [
+          'Casos agrupados na mesma casa são frequentes, e o motivo é o ambiente compartilhado. Todos usam o mesmo quintal, a mesma caixa d\'água e, muitas vezes, a mesma horta. Se o solo está contaminado, a exposição é coletiva. Não é sinal de descuido individual. A proximidade dos casos costuma indicar uma fonte comum, e não uma cadeia de transmissão entre pessoas.',
+          'Isso explica também por que o tratamento de uma só pessoa não resolve. Quem foi tratado volta a se infectar se o ambiente continua contaminado. Quando o serviço de saúde identifica vários casos, pode indicar avaliação dos demais moradores e orientar medidas para a casa inteira. A orientação vale para todos os moradores, mesmo os que não têm sintomas.',
+          'Em creches, o mesmo raciocínio se aplica. Um caso confirmado é oportunidade para revisar a higiene do local, e não para procurar um culpado. A investigação olha para a água, o esgoto, a areia e a cozinha. Registrar os casos e comunicar a vigilância ajuda a identificar a origem ambiental.',
+        ],
+        cta: {
+          label: 'Entenda a transmissão na página da ascaridíase',
+          href: '/doencas/ascaridiase/',
+        },
+      },
+      {
+        id: 'o-que-realmente-transmite',
+        heading: 'O que realmente transmite',
+        paragraphs: [
+          'A ascaridíase humana é transmitida pela ingestão de ovos maduros presentes no solo, na água ou nos alimentos. Mãos sujas, verduras mal lavadas, água de poço sem tratamento e terrenos usados como sanitário são as vias mais comuns. Cães e gatos não transmitem o Ascaris lumbricoides; eles têm parasitas próprios, que causam outra doença. A areia de parque infantil e o quintal onde as crianças brincam entram nessa lista quando há fezes no local.',
+          'Também não há transmissão por sangue, saliva, leite materno ou picada de inseto. A amamentação continua indicada, e a mãe com ascaridíase pode amamentar. O tratamento dela é definido pelo profissional de saúde, sem interromper a amamentação por conta própria. Quem está amamentando e precisa de tratamento deve informar essa condição ao profissional.',
+          'A prevenção, portanto, é ambiental e sanitária. Tratar quem está infectado reduz a liberação de ovos, mas o resultado depende de água segura, destino adequado das fezes e higiene. Sem isso, o ciclo recomeça no mesmo lugar, mesmo com remédio eficaz. A meta é reduzir a reinfecção, e não apenas eliminar o verme de uma pessoa.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['ascaridiase'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedArticleSlugs: [
+      'ascaridiase-como-saber-se-a-crianca-tem-lombriga',
+      'ascaridiase-quando-a-lombriga-sai-do-intestino',
+      'ascaridiase-como-prevenir-em-casa',
+      'ascaridiase-tratamento-periodico-de-vermifugos',
+    ],
+    references: [
+      {
+        label: 'Geo-Helmintíase',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Soil-transmitted helminth infections: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'About Ascariasis',
+        url: 'https://www.cdc.gov/sth/about/ascariasis.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'helicobacter-pylori-sintomas-e-quando-investigar',
+    slug: 'helicobacter-pylori-sintomas-e-quando-investigar',
+    metaTitle: 'H. pylori: sintomas e quando investigar',
+    title: 'H. pylori: sintomas e quando a má digestão pede exame',
+    excerpt:
+      'A maioria das pessoas com Helicobacter pylori não sente nada, e a má digestão só vira pista quando aparece com outros sinais. Veja quais sintomas merecem investigação, quais pedem pronto atendimento e quando a endoscopia é indicada.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'a-infeccao-que-costuma-passar-em-silencio',
+        heading: 'A infecção que costuma passar em silêncio',
+        paragraphs: [
+          'Quase todo mundo que carrega o Helicobacter pylori tem inflamação na mucosa do estômago. Ainda assim, a maior parte não sente nada: a gastrite crônica costuma avançar por anos sem dor, sem azia e sem qualquer queixa que leve à consulta. Muitas descobertas acontecem por acaso, em uma endoscopia pedida por outro motivo. A bactéria costuma ser adquirida na infância e permanece no estômago por décadas, o que ajuda a explicar por que a inflamação se torna crônica.',
+          'Esse silêncio não significa que a bactéria seja inofensiva. A inflamação persistente é o que abre caminho para a úlcera e, em parte dos casos, para o câncer gástrico. Também explica por que o sintoma, sozinho, nunca fecha o diagnóstico: ele pode existir sem infecção, e a infecção pode existir sem ele. Na prática, é o teste que define quem carrega a bactéria, e não o relato de dor ou de azia. Por isso, quem tem queixa persistente precisa de avaliação, e quem descobre a bactéria por acaso também precisa de seguimento.',
+        ],
+      },
+      {
+        id: 'sintomas-que-aparecem',
+        heading: 'Quais sintomas costumam aparecer',
+        paragraphs: [
+          'Quando há queixa, ela costuma ser vaga: dor ou desconforto na parte alta do abdome, sensação de estufamento, estar cheio logo no início da refeição, azia, náusea e arrotos frequentes. São sintomas comuns a muitas doenças digestivas, e nenhum deles aponta a bactéria com segurança. O incômodo costuma ser contínuo e mal localizado, e o exame físico quase sempre é normal.',
+          'A úlcera causada pela bactéria tem um comportamento mais característico, embora não exclusivo: a dor pode acordar a pessoa à noite e melhorar ou piorar com a comida, voltando em crises. Já a gastrite crônica raramente dá sinais claros e, muitas vezes, só é vista na endoscopia. Quando a dor retorna sempre que o remédio para azia é suspenso, ou quando o incômodo dura semanas, é melhor investigar do que repetir a medicação por conta própria.',
+        ],
+      },
+      {
+        id: 'quando-a-dor-e-sinal-de-alarme',
+        heading: 'Quando a dor é sinal de alarme',
+        paragraphs: [
+          'Alguns quadros não esperam consulta marcada. Vômito com sangue ou com material escuro parecido com borra de café, fezes pretas como piche ou com sangue, tontura intensa, suor frio e desmaio indicam sangramento digestivo e pedem pronto atendimento. O sangramento pode acontecer sem dor: uma úlcera que sangra nem sempre dói no momento em que sangra, e é por isso que fezes escuras merecem tanta atenção quanto a dor forte.',
+          'Dor abdominal súbita, muito forte e contínua, com a barriga dura e dolorida ao toque, pode ser úlcera perfurada. Perda de peso sem explicação, dificuldade para engolir, vômitos repetidos e anemia em quem tem sintomas gástricos também são sinais de alarme e pedem endoscopia, mesmo sem dor intensa. Idosos, pessoas que usam anticoagulantes e quem toma anti-inflamatórios com frequência sangram com mais facilidade e devem procurar atendimento mais cedo.',
+        ],
+        bullets: [
+          'Sangue no vômito ou vômito escuro',
+          'Fezes pretas ou com sangue',
+          'Tontura forte, suor frio, desmaio',
+          'Barriga rígida com dor que começa de repente',
+          'Emagrecimento que não se explica',
+          'Engolir com dificuldade ou vomitar várias vezes',
+          'Anemia descoberta sem motivo',
+        ],
+      },
+      {
+        id: 'efeitos-fora-do-estomago',
+        heading: 'Efeitos que aparecem fora do estômago',
+        paragraphs: [
+          'A infecção não se limita ao aparelho digestivo. Ela aparece associada à anemia por falta de ferro e à púrpura trombocitopênica imune, um distúrbio em que as plaquetas caem e surgem manchas roxas na pele. Nesses casos, investigar e tratar a bactéria faz parte do tratamento. Na púrpura trombocitopênica imune, a orientação é incluir a pesquisa e a erradicação do H. pylori na investigação inicial, porque parte dos pacientes melhora das plaquetas depois da erradicação.',
+          'Isso não quer dizer que toda anemia tenha relação com o H. pylori. Antes de atribuir a falta de ferro à bactéria, o médico precisa olhar outras causas, como sangramento, alimentação insuficiente e doenças que atrapalham a absorção de nutrientes. O caminho costuma passar por hemograma, dosagem de ferritina e pesquisa de sangue oculto nas fezes, além da avaliação da dieta e da absorção.',
+        ],
+      },
+      {
+        id: 'quando-investigar',
+        heading: 'Quem deve investigar a bactéria',
+        paragraphs: [
+          'Em pessoas com menos de 45 anos, sem sinais de alarme, a estratégia de testar e tratar é aceita pelas diretrizes brasileiras. O raciocínio é simples: o teste é barato, não invasivo e, se positivo, o tratamento elimina a bactéria e reduz o risco de úlcera. A lógica vale para quem tem má digestão e nenhum sinal de alarme, porque evita endoscopias desnecessárias e resolve a causa quando ela está presente.',
+          'A endoscopia entra em outro cenário. Ela é indicada quando há sinais de alarme, em pessoas de 40 anos ou mais com má digestão, quando o tratamento para azia não funciona e em quem tem familiar de primeiro grau com câncer de estômago, a partir dos 30 anos. O exame permite ver a mucosa e colher fragmentos para análise. O corte de idade existe porque o risco de câncer cresce com o tempo e, a partir dos 40 anos, a endoscopia tem mais chance de encontrar algo relevante.',
+        ],
+      },
+      {
+        id: 'o-caminho-ate-o-diagnostico',
+        heading: 'O caminho até o diagnóstico',
+        paragraphs: [
+          'Na rede pública, o percurso costuma começar na UBS, que avalia os sintomas, orienta sobre higiene e encaminha para exames e consulta com gastroenterologista. Quadros de sangramento ou dor muito intensa devem ir direto ao pronto atendimento, sem esperar vaga. O tempo de espera por endoscopia varia muito entre municípios, e é por isso que os casos com sinais de alarme têm prioridade e não entram na fila comum.',
+          'Os testes mais usados não precisam de endoscopia: o teste respiratório com ureia marcada e a pesquisa de antígeno nas fezes. Para não dar falso-negativo, é preciso suspender antibióticos e bismuto quatro semanas antes e o inibidor de bomba de prótons duas semanas antes. O exame de sangue não serve para confirmar cura. Depois do tratamento, a confirmação é feita com um desses testes, pelo menos quatro semanas após o fim dos antibióticos.',
+        ],
+        cta: {
+          label: 'Leia a página completa sobre a infecção por H. pylori',
+          href: '/doencas/infeccao-por-helicobacter-pylori/',
+        },
+      },
+    ],
+    diseaseSlugs: ['infeccao-por-helicobacter-pylori'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'helicobacter-pylori-transmissao-e-prevencao',
+      'helicobacter-pylori-tratamento-e-erradicacao',
+      'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico',
+      'helicobacter-pylori-alimentacao-durante-o-tratamento',
+    ],
+    references: [
+      {
+        label: 'Infecção por Helicobacter pylori',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/infec%C3%A7%C3%A3o-por-helicobacter-pylori',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'V Consenso Brasileiro sobre a infecção por Helicobacter pylori',
+        url: 'https://www.scielo.br/j/ag/a/G9BpZdBB8tHTKdF9b5nmSbp/?lang=pt',
+        publisher: 'Arquivos de Gastroenterologia (SciELO Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'helicobacter-pylori-transmissao-e-prevencao',
+    slug: 'helicobacter-pylori-transmissao-e-prevencao',
+    metaTitle: 'H. pylori: transmissão e prevenção',
+    title: 'H. pylori: como a bactéria passa de pessoa para pessoa',
+    excerpt:
+      'A bactéria sai pelas fezes e pela saliva e se concentra em famílias. Entenda as rotas de transmissão, por que a infecção é tão comum na infância e quais medidas de higiene e saneamento realmente reduzem o risco.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'uma-bacteria-que-se-instala-no-estomago',
+        heading: 'Uma bactéria que se instala no estômago',
+        paragraphs: [
+          'O Helicobacter pylori é uma bactéria em forma de espiral que vive na camada de muco que reveste o estômago. Essa camada a protege do ácido gástrico, e é por isso que ela consegue permanecer ali por anos sem ser eliminada. A infecção é uma das mais comuns do mundo: o consenso brasileiro estima que cerca de 40% da população mundial esteja infectada, com queda nas últimas décadas acompanhando a melhora do saneamento. Ela já foi chamada de Campylobacter pylori, nome que aparece em textos mais antigos.',
+          'No Brasil, a frequência varia muito entre regiões e grupos sociais, e é maior onde faltam água tratada e rede de esgoto. A maior parte das infecções é adquirida na infância, antes dos 10 anos, e tende a persistir por décadas quando não é tratada. Praticamente todos os portadores têm algum grau de gastrite, embora a maioria não sinta nada. A aquisição na infância também ajuda a explicar por que o tratamento costuma ser indicado mesmo em quem não tem queixa, independentemente dos sintomas.',
+        ],
+      },
+      {
+        id: 'como-a-transmissao-acontece',
+        heading: 'Como a transmissão acontece',
+        paragraphs: [
+          'A transmissão é de pessoa para pessoa, por via digestiva. A rota considerada mais relevante é a fecal-oral: a bactéria sai nas fezes e chega à boca pelas mãos, pela água ou por alimentos contaminados. Não é preciso ter sintoma para transmitir: quem carrega a bactéria elimina em fezes e saliva mesmo sem dor ou azia, e é por isso que saneamento e higiene pesam tanto na frequência da infecção. A bactéria é frágil fora do corpo, o que explica por que o contato precisa ser próximo e repetido para que a transmissão aconteça.',
+          'A via oral-oral também é considerada, por meio da saliva, do vômito e da placa dental, o que ajuda a entender por que a infecção se concentra em famílias. Contato próximo e prolongado, como o de pessoas que dormem no mesmo quarto ou compartilham utensílios mal lavados, favorece a passagem da bactéria. Fora de casa, instituições de longa permanência e ambientes com muitas pessoas por espaço também concentram casos. Utensílios bem lavados e secos completam essa barreira.',
+        ],
+      },
+      {
+        id: 'por-que-os-casos-se-concentram-em-familias',
+        heading: 'Por que os casos se concentram em famílias',
+        paragraphs: [
+          'Os casos se agrupam em famílias porque a transmissão exige contato próximo e repetido. A passagem entre mãe e filhos e entre irmãos é frequente, sobretudo quando as crianças ainda são pequenas e levam mãos e objetos à boca. O mesmo vale para quem cuida de uma pessoa acamada ou divide o banheiro com alguém infectado. Crianças que frequentam creches e escolas convivem com mais pessoas e têm mais chance de levar a bactéria para casa.',
+          'Quem mora com uma pessoa infectada tem mais chance de se infectar, e a bactéria tende a circular por anos dentro do mesmo grupo familiar. Por isso, o consenso brasileiro recomenda testar e tratar os moradores de uma casa onde há um caso confirmado. A medida reduz a circulação da bactéria e diminui a chance de reinfecção depois do tratamento.',
+        ],
+      },
+      {
+        id: 'o-que-aumenta-o-risco',
+        heading: 'O que aumenta o risco de infecção',
+        paragraphs: [
+          'A causa é sempre a bactéria; o que muda é a chance de entrar em contato com ela. Saneamento, água tratada, número de pessoas por casa e hábitos de higiene explicam por que a prevalência é tão diferente entre países e até entre bairros de uma mesma cidade. Onde falta rede de esgoto, a contaminação da água e de alimentos se torna mais provável. A prevalência caiu nas últimas décadas em países que ampliaram o saneamento, o que reforça o papel do ambiente.',
+          'Crianças pequenas são as mais expostas, porque dependem do cuidado dos adultos e levam tudo à boca. Morar em área rural, conviver com muitas pessoas no mesmo espaço, ter alguém infectado em casa e a própria idade aumentam o risco. Profissionais de saúde que realizam endoscopia também aparecem com risco maior em revisões sobre o tema. A escolaridade e a renda aparecem associadas ao risco justamente porque acompanham saneamento e moradia.',
+        ],
+      },
+      {
+        id: 'como-prevenir-no-dia-a-dia',
+        heading: 'Como prevenir no dia a dia',
+        paragraphs: [
+          'A prevenção depende de reduzir a transmissão entre pessoas, e isso começa em casa: lavar as mãos com água e sabão depois do banheiro e antes de comer ou cozinhar, beber água tratada e lavar bem frutas, verduras e utensílios. Essas medidas são simples, mas precisam ser constantes para fazer diferença. A constância vale mais do que a intensidade: lavar as mãos sempre que necessário protege mais do que uma limpeza ocasional.',
+          'Evitar compartilhar escova de dentes e talheres sem lavar, manter a cozinha limpa e não oferecer alimentos mastigados por um adulto a crianças completam a lista. Saneamento e água tratada são a camada mais importante e dependem de política pública, mas o efeito sobre a circulação da bactéria é coletivo: quanto melhor a rede, menor a exposição de todos. Nenhuma dessas medidas elimina o risco sozinha, mas o conjunto reduz a exposição de toda a família.',
+        ],
+      },
+      {
+        id: 'quando-investigar-a-familia',
+        heading: 'Quando investigar os moradores da casa',
+        paragraphs: [
+          'Quando alguém recebe o diagnóstico, vale conversar com o serviço de saúde sobre testar os demais moradores. O tratamento conjunto reduz a circulação da bactéria e diminui a chance de reinfecção, que existe, mas é pouco frequente: estudos brasileiros citados pelo consenso apontam cerca de 2% ao ano.',
+          'Quem já foi tratado e volta a ter sintomas ou recebe um novo resultado positivo precisa de avaliação, porque pode ser reinfecção ou falha do primeiro esquema. A distinção muda a conduta: falha pede troca de antibióticos, enquanto a reinfecção costuma responder ao mesmo tipo de tratamento. Em qualquer um dos casos, exames e receita passam pelo médico. Vale lembrar que o teste não deve ser repetido sem indicação: o rastreamento em massa de pessoas sem queixa não é recomendado.',
+        ],
+        cta: {
+          label: 'Leia a página completa sobre a infecção por H. pylori',
+          href: '/doencas/infeccao-por-helicobacter-pylori/',
+        },
+      },
+    ],
+    diseaseSlugs: ['infeccao-por-helicobacter-pylori'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'helicobacter-pylori-sintomas-e-quando-investigar',
+      'helicobacter-pylori-tratamento-e-erradicacao',
+      'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico',
+      'helicobacter-pylori-alimentacao-durante-o-tratamento',
+    ],
+    references: [
+      {
+        label: 'Infecção por Helicobacter pylori',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/infec%C3%A7%C3%A3o-por-helicobacter-pylori',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'V Consenso Brasileiro sobre a infecção por Helicobacter pylori',
+        url: 'https://www.scielo.br/j/ag/a/G9BpZdBB8tHTKdF9b5nmSbp/?lang=pt',
+        publisher: 'Arquivos de Gastroenterologia (SciELO Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'helicobacter-pylori-tratamento-e-erradicacao',
+    slug: 'helicobacter-pylori-tratamento-e-erradicacao',
+    metaTitle: 'H. pylori: tratamento e erradicação',
+    title: 'H. pylori: como é o tratamento e por que terminar o esquema',
+    excerpt:
+      'A bactéria exige combinação de remédios, tomada até o último dia. Veja os esquemas de primeira linha, como lidar com os efeitos colaterais, o que fazer quando o tratamento falha e como confirmar a cura.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-nao-basta-um-antibiotico',
+        heading: 'Por que um antibiótico só não resolve',
+        paragraphs: [
+          'Um antibiótico sozinho não elimina o Helicobacter pylori. A bactéria vive sob a camada de muco, onde a concentração dos remédios é menor, e parte das cepas desenvolve resistência com facilidade. Por isso o tratamento é sempre uma combinação: pelo menos dois antibióticos, associados a um remédio que reduz a acidez do estômago. A escolha depende do histórico de antibióticos, das alergias e do que está disponível na rede de saúde. Esse remédio para a acidez também melhora a ação dos antibióticos no ambiente gástrico e reduz a acidez que protege a bactéria.',
+          'O objetivo tem nome: erradicação. Não basta melhorar a dor ou a azia, é preciso eliminar a bactéria, e o consenso brasileiro trabalha com a meta de sucesso acima de 90%. Quando a erradicação é confirmada, a gastrite melhora, a úlcera cicatriza com mais facilidade e o risco de câncer cai ao longo dos anos. A meta de 90% não é um detalhe: ela orienta a escolha do esquema e explica por que a adesão importa tanto.',
+        ],
+      },
+      {
+        id: 'os-esquemas-de-primeira-linha',
+        heading: 'Quais são os esquemas de primeira linha',
+        paragraphs: [
+          'Entre as opções de primeira linha do consenso brasileiro está a terapia quádrupla com bismuto, que associa um inibidor de bomba de prótons, bismuto, metronidazol e tetraciclina por 10 a 14 dias. É o esquema preferido porque a resistência a esses antibióticos ainda é baixa no país e o bismuto ajuda a proteger a mucosa, além de reduzir a acidez e deixar o ambiente menos favorável à bactéria. O esquema com bismuto também tem a vantagem de não depender da claritromicina, antibiótico com resistência crescente no Brasil.',
+          'O esquema tríplice, com claritromicina e amoxicilina, ainda é usado, mas só quando a resistência à claritromicina é baixa ou quando um teste mostra que a bactéria é sensível. Existe também a alternativa sem bismuto, com amoxicilina em dose alta e inibidor de bomba de prótons por 14 dias, e a terapia com vonoprazana, quando disponível, pode substituir o inibidor de bomba de prótons. A escolha entre as opções depende do que está disponível no serviço, do custo e do perfil de cada pessoa.',
+        ],
+      },
+      {
+        id: 'como-tomar-sem-falhar',
+        heading: 'Como tomar sem falhar',
+        paragraphs: [
+          'Tomar todos os comprimidos até o último dia é o que mais pesa no sucesso. Parar quando a dor melhora favorece a sobrevivência da bactéria e a resistência aos antibióticos. Uma lista com horários, o despertador do celular e os comprimidos organizados por dia ajudam a não pular doses, sobretudo nos esquemas com quatro remédios diferentes. Tomar os remédios sempre nos mesmos horários ajuda o corpo a manter níveis estáveis e reduz o esquecimento.',
+          'Se esquecer uma dose, a orientação é seguir a receita ou perguntar à equipe de saúde, sem dobrar a dose seguinte. Álcool e cigarro atrapalham: o fumo aumenta a chance de o esquema falhar e o álcool piora os efeitos colaterais. Quem usa aspirina, anti-inflamatórios ou anticoagulantes deve avisar o médico antes de começar. Se a pessoa mora com alguém que também está em tratamento, vale organizar os horários juntos.',
+        ],
+      },
+      {
+        id: 'efeitos-colaterais-e-o-que-fazer',
+        heading: 'Efeitos colaterais e o que fazer',
+        paragraphs: [
+          'Náusea, alteração do paladar, diarreia e constipação são os efeitos colaterais mais comuns. O bismuto pode escurecer a língua e as fezes, o que é esperado e reversível, e não significa sangramento. Saber disso antes de começar evita sustos e interrupções desnecessárias no meio do esquema. Diarreia intensa com desidratação, febre alta ou reação alérgica com manchas e inchaço não são esperados e pedem avaliação imediata.',
+          'A maioria dos efeitos passa com o fim do tratamento. O que não se deve fazer é interromper por conta própria, porque a interrupção parcial é uma das principais causas de falha. Se os sintomas forem intensos, a conduta é falar com o serviço de saúde, que pode ajustar a forma de tomar ou trocar a combinação. Anotar os sintomas a cada dia ajuda a equipe a decidir se é efeito esperado ou sinal de algo a ajustar.',
+        ],
+      },
+      {
+        id: 'quando-o-primeiro-esquema-falha',
+        heading: 'Quando o primeiro esquema falha',
+        paragraphs: [
+          'Quando o primeiro esquema falha, o médico troca a combinação em vez de repetir os mesmos antibióticos. Repetir o que já falhou aumenta a resistência e reduz as opções disponíveis. A escolha do novo esquema considera o que foi usado antes, a disponibilidade dos remédios e, quando possível, o resultado da cultura. O histórico de antibióticos usados nos últimos anos é uma informação valiosa nessa conversa.',
+          'A cultura identifica a quais antibióticos a bactéria é sensível e fica reservada para casos selecionados, sobretudo depois de tratamentos que falharam. Testes moleculares também ajudam a detectar resistência. Pessoas alérgicas à penicilina têm alternativas sem amoxicilina, e a conduta é sempre definida pelo gastroenterologista. Em sangramento digestivo ativo, o tratamento é hospitalar. Quando há alergia documentada, o esquema precisa evitar a classe envolvida, e isso deve estar registrado no prontuário.',
+        ],
+      },
+      {
+        id: 'como-confirmar-a-cura',
+        heading: 'Como confirmar a cura',
+        paragraphs: [
+          'O fim do tratamento não é o fim do acompanhamento. É preciso repetir o teste cerca de quatro semanas depois da última dose, com teste respiratório ou pesquisa de antígeno nas fezes. Antes do exame, o paciente deve estar sem antibiótico por quatro semanas e sem inibidor de bomba de prótons por duas semanas, para não haver falso-negativo. O teste antes do prazo pode dar resultado falsamente negativo, porque a bactéria ainda está em quantidade baixa.',
+          'O exame de sangue não serve para confirmar cura, porque os anticorpos continuam positivos por muito tempo depois da eliminação da bactéria. Se o resultado continuar positivo, o médico indica um novo esquema, diferente do primeiro. Quem teve úlcera precisa confirmar a cicatrização, e quem tem atrofia ou metaplasia segue em vigilância endoscópica. O resultado do teste também deve ser guardado, porque ele orienta decisões futuras.',
+        ],
+        cta: {
+          label: 'Leia a página completa sobre a infecção por H. pylori',
+          href: '/doencas/infeccao-por-helicobacter-pylori/',
+        },
+      },
+    ],
+    diseaseSlugs: ['infeccao-por-helicobacter-pylori'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'helicobacter-pylori-sintomas-e-quando-investigar',
+      'helicobacter-pylori-transmissao-e-prevencao',
+      'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico',
+      'helicobacter-pylori-alimentacao-durante-o-tratamento',
+    ],
+    references: [
+      {
+        label: 'Infecção por Helicobacter pylori',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/infec%C3%A7%C3%A3o-por-helicobacter-pylori',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'V Consenso Brasileiro sobre a infecção por Helicobacter pylori',
+        url: 'https://www.scielo.br/j/ag/a/G9BpZdBB8tHTKdF9b5nmSbp/?lang=pt',
+        publisher: 'Arquivos de Gastroenterologia (SciELO Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico',
+    slug: 'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico',
+    metaTitle: 'H. pylori, atrofia e câncer gástrico',
+    title: 'H. pylori: da gastrite atrófica ao câncer gástrico',
+    excerpt:
+      'A infecção crônica pode seguir uma sequência de décadas até o câncer de estômago. Entenda as etapas, quem tem mais risco, por que a endoscopia com biópsia importa e o que muda depois da erradicação.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'a-inflamacao-que-avanca-em-etapas',
+        heading: 'A inflamação que avança em etapas',
+        paragraphs: [
+          'A infecção pelo Helicobacter pylori não vira câncer de um dia para o outro. Ela começa como uma inflamação crônica da mucosa do estômago, a gastrite, que pode permanecer por décadas sem dar sintoma. Em parte das pessoas, essa inflamação provoca perda gradual das glândulas do estômago, a chamada gastrite atrófica. A gastrite associada à bactéria é quase universal entre os portadores, mesmo em quem não tem queixa.',
+          'Depois da atrofia, podem surgir células com aspecto de intestino no revestimento do estômago, a metaplasia intestinal, e alterações mais avançadas, a displasia. É essa sequência — gastrite, atrofia, metaplasia, displasia e, por fim, carcinoma — que explica por que o câncer gástrico associado à bactéria costuma aparecer em idade mais avançada, depois de anos de inflamação. Cada etapa aumenta o risco, mas a progressão é lenta e não acontece com a maioria das pessoas infectadas. A inflamação crônica também pode reduzir a produção de ácido e favorecer a colonização por outras bactérias.',
+        ],
+      },
+      {
+        id: 'quem-tem-mais-risco',
+        heading: 'Quem tem mais risco',
+        paragraphs: [
+          'A maioria das pessoas infectadas nunca terá câncer. O risco se concentra em alguns grupos: quem tem atrofia ou metaplasia na biópsia, quem tem familiar de primeiro grau com câncer de estômago e quem fuma. Dieta com muito sal e alimentos defumados também aparece associada ao câncer gástrico em estudos populacionais. Dieta pobre em frutas e verduras soma risco, e o inverso também vale: uma alimentação variada ajuda na prevenção. O risco cresce com a idade e com o tempo de inflamação.',
+          'O tipo de câncer mais ligado à bactéria é o intestinal, que costuma surgir depois de anos de gastrite atrófica e metaplasia intestinal. O linfoma MALT, um câncer do tecido linfoide do estômago, é menos comum, mas tem relação estreita com a infecção e entra em outra categoria de tratamento. O tipo difuso, mais comum em pessoas jovens, tem menos relação com a bactéria.',
+        ],
+      },
+      {
+        id: 'o-papel-da-endoscopia',
+        heading: 'O papel da endoscopia',
+        paragraphs: [
+          'A endoscopia é o exame que permite ver a mucosa e colher fragmentos para análise. O consenso recomenda pelo menos quatro fragmentos, porque a bactéria e as alterações de atrofia e metaplasia não se distribuem de forma uniforme pelo estômago. Um único fragmento pode não representar o que acontece no restante da mucosa. Fragmentos de locais diferentes, incluindo a pequena curvatura, aumentam a chance de detectar lesões. A endoscopia também permite documentar as lesões para comparar exames futuros.',
+          'Ela é indicada quando há sinais de alarme, em pessoas de 40 anos ou mais com má digestão e em quem tem familiar de primeiro grau com câncer de estômago, a partir dos 30 anos. Quem tem atrofia ou metaplasia precisa manter acompanhamento mesmo depois da cura, com intervalo definido pelo médico. Em serviços com protocolo de rastreamento, a endoscopia pode ser indicada mais cedo em famílias com vários casos. O exame não é confortável, mas é rápido e permite biópsia no mesmo procedimento. Muitos serviços oferecem sedação, o que torna o exame mais confortável.',
+        ],
+      },
+      {
+        id: 'a-erradicacao-reduz-o-risco',
+        heading: 'A erradicação reduz o risco',
+        paragraphs: [
+          'Erradicar a bactéria reduz o risco de câncer. Estudos mostram queda na incidência e na mortalidade por câncer gástrico depois do tratamento, e o efeito tende a ser maior quando a erradicação acontece antes de a mucosa acumular alterações irreversíveis. O benefício é maior quanto mais cedo a bactéria é eliminada, antes que a mucosa acumule dano. A erradicação é considerada uma das poucas medidas capazes de reduzir a incidência de câncer gástrico em escala populacional.',
+          'Isso não significa que a cura encerra o risco. Quem já tem atrofia ou metaplasia segue em vigilância endoscópica, porque a mucosa alterada pode continuar evoluindo mesmo sem a bactéria. A conversa sobre o intervalo dos exames é individual e considera o grau das alterações e o histórico familiar. A decisão de repetir a endoscopia considera o grau de atrofia, a extensão da metaplasia e o histórico familiar. O calendário pode mudar se aparecerem novos sintomas.',
+        ],
+      },
+      {
+        id: 'linfoma-malt',
+        heading: 'O linfoma MALT',
+        paragraphs: [
+          'O linfoma MALT é um câncer do tecido linfoide que se desenvolve no estômago e tem relação estreita com a bactéria. Nesses casos, a erradicação do H. pylori faz parte do tratamento, e parte dos pacientes entra em remissão apenas com o tratamento da infecção. O linfoma MALT é raro, e a maioria dos portadores da bactéria nunca o desenvolve. A resposta costuma ser avaliada com novas endoscopias e biópsias, e o seguimento pode durar anos. O diagnóstico é confirmado por biópsia, e o estadiamento define o tratamento.',
+          'O acompanhamento é feito com endoscopia e biópsia, e o tratamento pode incluir quimioterapia ou radioterapia quando a erradicação não é suficiente. O manejo é sempre conjunto, com hematologista e gastroenterologista, e depende do estágio da doença. Sintomas como saciedade precoce, dor persistente e sangramento podem indicar progressão e pedem avaliação. Quando o linfoma é diagnosticado cedo, o prognóstico costuma ser favorável.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta-e-acompanhamento',
+        heading: 'Sinais de alerta e acompanhamento',
+        paragraphs: [
+          'Perda de peso sem explicação, anemia, dificuldade para engolir, vômitos persistentes e sangramento digestivo são sinais de alarme que pedem endoscopia, mesmo sem dor forte. Em idosos, esses sinais merecem atenção ainda maior, porque o risco de câncer cresce com a idade. Anemia e perda de peso podem ser a primeira manifestação em pessoas idosas, mesmo sem dor. O tabagismo e o consumo frequente de álcool também pesam no risco e devem ser abordados na consulta.',
+          'Depois do tratamento, quem tem mucosa alterada precisa de seguimento, e quem teve úlcera precisa confirmar a cicatrização. O objetivo do acompanhamento não é criar ansiedade, e sim encontrar cedo qualquer mudança que exija uma conduta diferente. Quem tem indicação de seguimento não deve abandonar o acompanhamento quando se sente bem.',
+        ],
+        cta: {
+          label: 'Leia a página completa sobre a infecção por H. pylori',
+          href: '/doencas/infeccao-por-helicobacter-pylori/',
+        },
+      },
+    ],
+    diseaseSlugs: ['infeccao-por-helicobacter-pylori'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'helicobacter-pylori-sintomas-e-quando-investigar',
+      'helicobacter-pylori-transmissao-e-prevencao',
+      'helicobacter-pylori-tratamento-e-erradicacao',
+      'helicobacter-pylori-alimentacao-durante-o-tratamento',
+    ],
+    references: [
+      {
+        label: 'Infecção por Helicobacter pylori',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/infec%C3%A7%C3%A3o-por-helicobacter-pylori',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'V Consenso Brasileiro sobre a infecção por Helicobacter pylori',
+        url: 'https://www.scielo.br/j/ag/a/G9BpZdBB8tHTKdF9b5nmSbp/?lang=pt',
+        publisher: 'Arquivos de Gastroenterologia (SciELO Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'helicobacter-pylori-alimentacao-durante-o-tratamento',
+    slug: 'helicobacter-pylori-alimentacao-durante-o-tratamento',
+    metaTitle: 'H. pylori: alimentação no tratamento',
+    title: 'H. pylori: o que comer durante o tratamento',
+    excerpt:
+      'Não existe alimento que elimine a bactéria, mas a dieta ajuda a tolerar os remédios e a conviver com a azia. Veja o que reduzir, como organizar as refeições e quais interações com o esquema exigem atenção.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'nao-existe-dieta-que-elimina-a-bacteria',
+        heading: 'Não existe dieta que elimina a bactéria',
+        paragraphs: [
+          'Nenhum alimento elimina o Helicobacter pylori. Chás, sucos, aloe vera, mel e suplementos não substituem os antibióticos e não devem atrasar o tratamento. A dieta entra como apoio: ela ajuda a conviver com os sintomas e a tolerar melhor os remédios ao longo do esquema. Ela não cura, não substitui remédio e não tem prazo para fazer efeito: o papel é dar suporte durante as poucas semanas de tratamento. Isso vale para chás, sucos verdes, alho, própolis e qualquer produto vendido como milagroso.',
+          'Quem troca o esquema por receitas caseiras corre o risco de manter a bactéria e a inflamação por mais tempo, além de favorecer a resistência aos antibióticos. O tratamento tem prazo curto, de 10 a 14 dias, e é ele que resolve a infecção. Sem os antibióticos, a bactéria continua na mucosa e a inflamação segue ativa.',
+        ],
+      },
+      {
+        id: 'por-que-a-alimentacao-ainda-importa',
+        heading: 'Por que a alimentação ainda importa',
+        paragraphs: [
+          'Durante o tratamento, o objetivo da alimentação é reduzir o desconforto e evitar que os efeitos colaterais levem ao abandono do esquema. Refeições menores e mais frequentes costumam ser mais bem toleradas do que três refeições grandes, sobretudo quando há náusea. O objetivo não é emagrecer nem fazer dieta restritiva, e sim atravessar o esquema com o mínimo de desconforto. Alimentos frios ou em temperatura ambiente costumam ser mais tolerados quando há náusea, e líquidos ao longo do dia ajudam a evitar desidratação.',
+          'Comer antes de tomar os comprimidos ajuda quem sente enjoo, mas é preciso checar a orientação da receita, porque alguns remédios pedem estômago vazio. Na dúvida, a resposta está na bula ou com a equipe de saúde, e não no que circula em grupos de mensagem. Se o enjoo for constante, vale conversar com a equipe, porque existem ajustes possíveis dentro do próprio esquema.',
+        ],
+      },
+      {
+        id: 'o-que-piora-a-azia',
+        heading: 'O que costuma piorar a azia',
+        paragraphs: [
+          'Alguns itens pioram a azia e o desconforto em quem já tem a mucosa inflamada: café, bebidas alcoólicas, refrigerantes, frituras, embutidos e temperos muito picantes. Não é preciso cortar tudo para sempre, mas vale reduzir o que claramente piora os sintomas de cada pessoa. Não há alimento proibido para todos: o que existe é tolerância individual, e um diário alimentar ajuda a identificar os gatilhos. Frituras e embutidos também costumam retardar o esvaziamento do estômago e aumentar a sensação de peso. Café descafeinado e bebidas gaseificadas também podem incomodar.',
+          'O tabagismo merece uma frase à parte. Fumar aumenta a chance de o esquema falhar e deve ser suspenso durante e depois do tratamento, mesmo que não cause dor imediata. O álcool também atrapalha: além de irritar a mucosa, pode interagir com um dos antibióticos. Reduzir o sal também é uma medida útil, sobretudo para quem tem pressão alta ou retenção de líquido.',
+        ],
+      },
+      {
+        id: 'como-organizar-as-refeicoes',
+        heading: 'Como organizar as refeições',
+        paragraphs: [
+          'Refeições em horários regulares, sem pular o café da manhã, ajudam a evitar longos períodos em jejum, que pioram a azia em parte das pessoas. Mastigar devagar e evitar deitar logo depois de comer também reduzem o refluxo e o desconforto. Chás muito concentrados e bebidas energéticas não substituem água e podem piorar a azia. Refeições muito volumosas à noite pioram os sintomas de quem deita cedo.',
+          'Não é necessário seguir uma dieta restritiva. A ideia é manter uma alimentação equilibrada, com frutas, verduras, legumes, cereais e proteínas, ajustando apenas o que provoca desconforto. Perder peso sem orientação durante o tratamento não é recomendado, porque a restrição alimentar pode piorar o cansaço e a tolerância aos remédios. O que serve à maioria é uma base variada, sem transformar ultraprocessados em rotina. O que não funciona é uma lista longa de proibições que ninguém consegue seguir por duas semanas.',
+        ],
+      },
+      {
+        id: 'cuidados-com-o-esquema',
+        heading: 'Cuidados com os remédios do esquema',
+        paragraphs: [
+          'Alguns cuidados fazem diferença no resultado. O metronidazol pede que se evite álcool durante o tratamento e por alguns dias depois, porque a combinação provoca mal-estar intenso. A tetraciclina não deve ser tomada junto com leite, derivados, cálcio ou ferro, que reduzem a absorção do antibiótico. Ler a bula de cada medicamento antes de começar evita combinações que reduzem o efeito do tratamento. Também vale evitar tomar todos os comprimidos de uma vez: distribuir as doses ao longo do dia reduz o enjoo e melhora a absorção.',
+          'Antiácidos e suplementos também podem interferir na absorção, e o horário de cada um deve ser conferido na receita. Quando há muitos comprimidos, uma tabela com os horários ajuda a distribuir as doses ao longo do dia e a evitar que dois remédios que se atrapalham sejam tomados juntos. Se houver dificuldade para engolir cápsulas, pergunte se existe apresentação alternativa antes de partir o comprimido por conta própria.',
+        ],
+      },
+      {
+        id: 'mitos-e-o-que-fazer-se-a-dor-voltar',
+        heading: 'Mitos e o que fazer se a dor voltar',
+        paragraphs: [
+          'Probióticos aparecem como promessa para reduzir a diarreia causada por antibióticos, mas a evidência não é forte o suficiente para tratá-los como parte obrigatória do esquema. O mesmo vale para sucos detox e cápsulas de alho: não há comprovação de que eliminem a bactéria. Probióticos podem ser conversados com a equipe, mas não são obrigatórios e não substituem nenhum dos antibióticos. Nenhum desses produtos substitui o teste de confirmação nem a consulta de revisão.',
+          'Se a dor voltar durante ou depois do tratamento, o caminho é avaliar com o médico, não aumentar remédios por conta própria. A dor pode ter outra causa, e a confirmação de cura depende do teste feito semanas depois do fim do esquema, com as suspensões que o exame exige. Sentir-se melhor não é prova de cura, e o resultado do teste é o que decide se o esquema funcionou. A consulta de revisão é o momento de tirar dúvidas sobre alimentação e sobre o que mudou nos sintomas.',
+        ],
+        cta: {
+          label: 'Leia a página completa sobre a infecção por H. pylori',
+          href: '/doencas/infeccao-por-helicobacter-pylori/',
+        },
+      },
+    ],
+    diseaseSlugs: ['infeccao-por-helicobacter-pylori'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'helicobacter-pylori-sintomas-e-quando-investigar',
+      'helicobacter-pylori-transmissao-e-prevencao',
+      'helicobacter-pylori-tratamento-e-erradicacao',
+      'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico',
+    ],
+    references: [
+      {
+        label: 'Infecção por Helicobacter pylori',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/infec%C3%A7%C3%A3o-por-helicobacter-pylori',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'V Consenso Brasileiro sobre a infecção por Helicobacter pylori',
+        url: 'https://www.scielo.br/j/ag/a/G9BpZdBB8tHTKdF9b5nmSbp/?lang=pt',
+        publisher: 'Arquivos de Gastroenterologia (SciELO Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
 ];

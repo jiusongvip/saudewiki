@@ -92,7 +92,7 @@ faria o texto pré-renderizado diferir do texto renderizado no cliente.
 | hooks `data-*` soltos | nenhum |
 | artefatos de dev no HTML de produção | 0 |
 
-Comprovado também: `gripe` e `mitos-e-verdades-sobre-dengue` (`draft`) **não existem em `dist/`**, e `/busca/`
+Comprovado também: `mitos-e-verdades-sobre-dengue` (`draft`) **não existe em `dist/`**, e `/busca/`
 está `noindex` e fora do sitemap.
 
 Contraste: todos os pares texto/fundo passam AA. **Pendência de acessibilidade em aberto:** `--color-line`
@@ -121,5 +121,5 @@ bordas de controle. Não aplicada ainda porque muda a aparência do site.
 ## Estado do conteúdo
 
 Todo o conteúdo atual está em `needs_review` e marcado com `isPlaceholder: true`. Existe também uma entrada
-`draft` (`gripe`, `mitos-e-verdades-sobre-dengue`) mantida de propósito, sem link nenhum, para comprovar que o
+`draft` (`mitos-e-verdades-sobre-dengue`) mantida de propósito, sem link nenhum, para comprovar que o
 filtro de status funciona.

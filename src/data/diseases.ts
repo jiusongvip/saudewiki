@@ -9,9 +9,9 @@ import type { Disease } from '../types';
  * the sentence it is attached to is worse than no reference at all.
  *
  * NOTE ON REVIEW STATE: every entry is currently `needs_review`, because no
- * named medical reviewer has signed off. The `gripe` entry is `draft` and is
- * deliberately left unlinked: it exists to prove that draft content is never
- * built, never listed and never added to the sitemap.
+ * named medical reviewer has signed off. The `draft` state is still exercised by
+ * the article `mitos-e-verdades-sobre-dengue`, which proves that draft content
+ * is never built, never listed and never added to the sitemap.
  */
 export const diseases: Disease[] = [
   {
@@ -886,26 +886,246 @@ export const diseases: Disease[] = [
     id: 'gripe',
     slug: 'gripe',
     name: 'Gripe (influenza)',
-    aliases: ['influenza', 'resfriado forte'],
-    summary: 'Infecção respiratória viral. Entrada mantida em rascunho para validar o filtro de status editorial.',
+    aliases: ['influenza', 'gripe', 'gripe A', 'gripe H1N1', 'gripe suína', 'síndrome gripal'],
+    summary:
+      'Infecção respiratória causada pelo vírus influenza, de início súbito, com febre, tosse e dores no corpo. A vacina anual é a principal forma de prevenção.',
     category: 'Doenças infecciosas',
     categorySlug: 'doencas-infecciosas',
     sections: [
       {
         id: 'o-que-e',
         heading: 'O que é gripe?',
-        paragraphs: ['Rascunho editorial. Não deve ser publicado enquanto a revisão não for concluída.'],
+        paragraphs: [
+          'Gripe é uma infecção respiratória aguda causada pelos vírus influenza. Ela começa de repente, com febre, tosse, dor de garganta e dores no corpo, e costuma deixar a pessoa de cama por alguns dias. É diferente do resfriado comum, que evolui devagar e raramente dá febre alta.',
+          'Existem quatro tipos de influenza: A, B, C e D. Os tipos A e B causam as epidemias sazonais, e apenas o tipo A provocou pandemias. Entre os subtipos que circulam em pessoas estão o A(H1N1)pdm09, que causou a pandemia de 2009, e o A(H3N2). O tipo C é raro e costuma ser leve; o tipo D afeta bovinos e não é conhecido por adoecer pessoas.',
+          'A doença é comum no mundo inteiro. A Organização Mundial da Saúde estima cerca de 1 bilhão de casos por ano, com 3 a 5 milhões de casos graves e 290 mil a 650 mil mortes respiratórias. A maior parte das pessoas se recupera sem tratamento, mas a gripe pode ser grave em grupos específicos.',
+          'No Brasil, a vacina contra a gripe é oferecida gratuitamente no SUS para os grupos com maior risco, e a composição é atualizada todos os anos conforme os vírus que circularam no Hemisfério Sul.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a gripe se transmite?',
+        paragraphs: [
+          'A transmissão acontece pelo ar, em gotículas que saem da boca e do nariz quando alguém infectado tosse, espirra ou fala perto de outra pessoa. As mãos também levam o vírus: quem toca em uma superfície contaminada e depois leva a mão aos olhos, ao nariz ou à boca pode se infectar.',
+          'O período de incubação é curto, de um a quatro dias, com média de dois. Isso explica por que a gripe se espalha tão rápido em escolas, ônibus, escritórios e asilos: quando o primeiro caso aparece, boa parte do grupo já foi exposta.',
+          'Em países de clima temperado, as epidemias acontecem sobretudo no inverno. Em regiões tropicais, como boa parte do Brasil, a gripe pode circular o ano inteiro, com surtos irregulares. Ambientes fechados, aglomeração e pouca ventilação aumentam a transmissão em qualquer estação.',
+          'Uma pessoa infectada pode transmitir o vírus desde um dia antes dos sintomas até cerca de cinco a sete dias depois do início deles. Crianças e pessoas com imunidade baixa podem eliminar o vírus por mais tempo.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos e as formas de gripe?',
+        paragraphs: [
+          'A divisão entre A e B importa para a vacina e para a vigilância, porque os dois circulam e mudam com frequência. Os vírus do tipo A são classificados em subtipos pelas proteínas de superfície, a hemaglutinina (H) e a neuraminidase (N). Os do tipo B se dividem em duas linhagens, Yamagata e Victoria.',
+          'Na prática clínica, o que se descreve são formas de apresentação. A gripe leve lembra um resfriado forte, com febre baixa e sintomas que melhoram em poucos dias. A pneumonia viral primária é a forma grave, em que a falta de ar aparece cedo e piora rápido. A síndrome respiratória aguda grave é a apresentação que exige internação e suporte de oxigênio.',
+        ],
+        bullets: [
+          'Gripe leve: febre baixa, tosse e mal-estar que melhoram em poucos dias',
+          'Pneumonia viral primária: falta de ar precoce e progressiva',
+          'Síndrome respiratória aguda grave: necessidade de oxigênio e internação',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco de gripe grave?',
+        paragraphs: [
+          'A causa é sempre a infecção por um vírus influenza. O que muda de uma pessoa para outra é a resposta do organismo: a mesma cepa que causa um resfriado em um adulto saudável pode levar um idoso ou uma gestante à internação.',
+          'Algumas condições aumentam muito o risco de complicação. O Ministério da Saúde inclui nesse grupo gestantes em qualquer idade gestacional, puérperas até duas semanas após o parto, pessoas com 60 anos ou mais, crianças menores de 5 anos, pessoas com doenças crônicas cardíacas, pulmonares, renais, hepáticas, hematológicas, neurológicas ou metabólicas, pessoas imunossuprimidas, indígenas aldeados e adultos com obesidade e IMC de 40 ou mais.',
+          'Ambiente e comportamento também contam. Falta de ventilação, aglomeração, contato próximo com pessoas doentes e não lavar as mãos com frequência aumentam a chance de infecção. Profissionais de saúde têm risco maior por exposição constante e podem levar o vírus a pacientes vulneráveis.',
+        ],
+        bullets: [
+          'Gestantes e puérperas até duas semanas após o parto',
+          'Pessoas com 60 anos ou mais e crianças menores de 5 anos',
+          'Doenças crônicas do coração, pulmão, rim, fígado, sangue, sistema nervoso ou metabolismo',
+          'Imunossupressão, inclusive por HIV, quimioterapia ou uso prolongado de corticoide',
+          'Obesidade com IMC de 40 ou mais em adultos',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da gripe?',
+        paragraphs: [
+          'Os sintomas começam de forma abrupta, em geral um a quatro dias depois da infecção, e duram cerca de uma semana. Febre alta, tosse seca, dor de garganta, dor de cabeça, dores musculares e nas juntas, calafrios e mal-estar são o conjunto mais típico. A tosse pode ser intensa e persistir por duas semanas ou mais.',
+          'Crianças costumam ter febre mais alta, gânglios aumentados no pescoço e, às vezes, sintomas digestivos como vômito e diarreia. Idosos podem ter febre discreta ou nenhuma, o que atrasa o reconhecimento. Em qualquer idade, a piora de uma doença crônica já existente pode ser o primeiro sinal de gripe.',
+          'Não é possível separar gripe de covid-19 ou de outras infecções respiratórias apenas pelos sintomas. Falta de ar, dor no peito, lábios arroxeados, confusão e desidratação são sinais de gravidade e mudam a conduta, independentemente do diagnóstico.',
+        ],
+        bullets: [
+          'Febre alta de início súbito',
+          'Tosse seca, dor de garganta e coriza',
+          'Dor de cabeça, dores musculares e nas juntas',
+          'Calafrios, cansaço intenso e falta de apetite',
+          'Vômito e diarreia, mais comuns em crianças',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'A maioria das pessoas melhora sozinha, mas a gripe pode evoluir para pneumonia e insuficiência respiratória em poucos dias. Procure um serviço de saúde sem esperar se os sintomas piorarem ou se aparecer algum sinal de gravidade.',
+          'Vá a um pronto atendimento ou ligue para o SAMU 192 em caso de:',
+        ],
+        bullets: [
+          'Falta de ar ou respiração rápida e curta',
+          'Dor ou pressão no peito',
+          'Lábios ou rosto arroxeados',
+          'Confusão, sonolência excessiva ou dificuldade para acordar',
+          'Convulsão, sobretudo em crianças',
+          'Vômitos persistentes, boca seca e urina muito escura',
+          'Febre que volta e piora depois de uma melhora inicial',
+          'Piora de uma doença crônica, como falta de ar em quem tem asma ou DPOC',
+        ],
+        cta: {
+          label: 'Leia também: sintomas da gripe e sinais de alerta',
+          href: '/artigos/gripe-sintomas-e-sinais-de-alerta/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a gripe é diagnosticada?',
+        paragraphs: [
+          'Durante uma epidemia, o diagnóstico costuma ser clínico: febre de início súbito com tosse e dores no corpo já bastam para levantar a suspeita. Fora dos períodos de circulação intensa, outros vírus causam sintomas parecidos, e a confirmação laboratorial ajuda a separar os casos.',
+          'O exame mais confiável é a RT-PCR, que detecta o material genético do vírus em uma amostra de secreção respiratória coletada com swab de nariz e garganta. Testes rápidos de antígeno existem e são mais práticos, mas têm sensibilidade menor que a RT-PCR, o que significa que um resultado negativo não descarta a gripe.',
+          'A escolha de testar depende da gravidade, do tempo de sintomas e do contexto. Em casos graves e em pessoas de risco, o tratamento começa antes do resultado, porque o antiviral funciona melhor nas primeiras 48 horas. A avaliação pode ser feita na unidade básica de saúde, em uma UPA ou no pronto-socorro, conforme a intensidade dos sintomas.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Gripe, resfriado ou covid-19: como diferenciar?',
+        paragraphs: [
+          'O resfriado comum é causado por outros vírus, como rinovírus, e costuma dar coriza, espirro e dor de garganta leve, com pouco ou nenhum comprometimento do estado geral. A gripe derruba: febre alta, dor no corpo e cansaço intenso aparecem juntos e de repente.',
+          'A covid-19 pode ser indistinguível da gripe, inclusive na perda de olfato e paladar, que sugere covid mas não confirma. Dengue também causa febre e dores no corpo, e a diferença está na dor atrás dos olhos, nas manchas na pele e na queda de plaquetas. Só a avaliação profissional, com exame quando indicado, separa essas doenças.',
+        ],
+        bullets: [
+          'Resfriado comum',
+          'Covid-19',
+          'Dengue e chikungunya',
+          'Sinusite e otite',
+          'Pneumonia bacteriana',
+          'Faringite por estreptococo',
+        ],
+      },
+      {
+        id: 'tratamento-suporte',
+        heading: 'Tratamento: repouso, líquidos e alívio dos sintomas',
+        paragraphs: [
+          'A maior parte das pessoas se recupera sem remédio específico. O tratamento é de suporte: ficar em casa, descansar, beber líquidos ao longo do dia e tratar a febre e a dor com um antitérmico orientado pelo profissional de saúde. Comer o que conseguir, sem forçar, também ajuda na recuperação.',
+          'Fique em casa enquanto estiver com febre e por até 24 horas depois que ela passar sem uso de antitérmico. O Ministério da Saúde orienta afastamento do trabalho ou da escola nesse período, e por até sete dias após o início dos sintomas, para reduzir a transmissão.',
+          'Crianças e adolescentes com suspeita de gripe não devem usar ácido acetilsalicílico (AAS), porque há risco de síndrome de Reye, uma complicação grave. Antibióticos não funcionam contra vírus e só entram quando há infecção bacteriana associada, como pneumonia, diagnosticada por um profissional.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quando o antiviral é indicado?',
+        paragraphs: [
+          'O oseltamivir é o antiviral usado no Brasil para gripe. Ele não é indicado para todo mundo: o Ministério da Saúde recomenda o tratamento para todos os casos de síndrome respiratória aguda grave e para casos de síndrome gripal em pessoas com condições ou fatores de risco para complicações.',
+          'O tempo importa. O antiviral deve começar, preferencialmente, nas primeiras 48 horas depois do início dos sintomas, quando ainda consegue reduzir a duração e a gravidade. Mesmo depois desse prazo, a orientação é tratar os casos graves e as pessoas de risco, porque ainda pode haver benefício.',
+          'A dose e a duração dependem da idade, do peso e da função renal, e só um profissional pode definir. Náusea e vômito são efeitos colaterais comuns. Remédios caseiros, vitaminas em dose alta e produtos vendidos como imunidade não substituem a avaliação médica quando há sinal de gravidade.',
+        ],
+      },
+      {
+        id: 'outras-abordagens',
+        heading: 'Práticas complementares e o que elas não fazem',
+        paragraphs: [
+          'Chás, xaropes caseiros e suplementos podem aliviar a sensação de garganta seca e ajudar na hidratação, mas não tratam a infecção pelo influenza nem previnem pneumonia. Nenhuma prática complementar substitui a vacina, o antiviral quando indicado ou a avaliação de um profissional.',
+          'Algumas unidades de saúde oferecem práticas integrativas, como acupuntura e técnicas de relaxamento, para sintomas como dor e ansiedade. Elas podem fazer parte do conforto durante a recuperação, desde que não atrasem a busca por atendimento quando aparecem sinais de alerta.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a gripe pode causar?',
+        paragraphs: [
+          'A pneumonia é a complicação mais frequente e a que mais leva à internação. Ela pode ser causada pelo próprio influenza, o que costuma ocorrer em pessoas com doença cardiovascular ou em gestantes, ou por bactérias que se aproveitam da queda de resistência.',
+          'Outras complicações incluem sinusite, otite, desidratação e descompensação de doenças crônicas, como asma, DPOC, insuficiência cardíaca e diabetes. Em crianças e adolescentes que usam ácido acetilsalicílico durante uma infecção viral, existe o risco raro e grave da síndrome de Reye.',
+        ],
+        bullets: [
+          'Pneumonia viral ou bacteriana',
+          'Sinusite e otite média',
+          'Desidratação',
+          'Piora de asma, DPOC, insuficiência cardíaca e diabetes',
+          'Síndrome de Reye em crianças e adolescentes que usam AAS',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados em casa e volta à rotina',
+        paragraphs: [
+          'Em casa, separe copos, talheres e toalhas e lave as mãos com água e sabão com frequência, sobretudo antes de preparar comida. Mantenha o ambiente ventilado, cubra a boca e o nariz ao tossir ou espirrar e descarte os lenços usados. Se possível, durma em outro quarto enquanto estiver com febre.',
+          'A volta ao trabalho ou à escola deve ser gradual. Cansaço por alguns dias é esperado, mas falta de ar, tosse que piora, febre que retorna ou fraqueza intensa pedem reavaliação. Beba líquidos com frequência e observe a cor da urina, que deve ficar clara.',
+          'Quem cuida de alguém com gripe deve redobrar a higiene das mãos e usar máscara quando estiver perto, sobretudo se a pessoa pertence a um grupo de risco. Bebês, gestantes e idosos merecem atenção maior, porque a piora pode ser rápida.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a gripe',
+        paragraphs: [
+          'A vacinação é a forma mais eficaz de prevenção. A vacina é segura, oferecida gratuitamente no SUS para os grupos prioritários e reformulada todos os anos para os três subtipos que mais circularam no Hemisfério Sul. Como a imunidade cai com o tempo e os vírus mudam, a dose precisa ser repetida a cada ano.',
+          'A vacina pode ser menos eficaz em idosos, mas continua importante: ela reduz a chance de formas graves, de internação e de morte. Quem tem alergia grave a algum componente deve conversar com o profissional antes de se vacinar.',
+          'As medidas do dia a dia completam a proteção: lavar as mãos com água e sabão ou usar álcool em gel, ventilar os ambientes, evitar aglomerações em período de circulação intensa, não compartilhar copos e talheres, cobrir a boca ao tossir e evitar contato próximo com quem está doente.',
+        ],
       },
     ],
-    relatedArticleSlugs: [],
-    relatedTopicSlugs: [],
-    relatedDiseaseSlugs: [],
-    references: [],
+    faq: [
+      {
+        question: 'Gripe é a mesma coisa que resfriado?',
+        answer:
+          'Não. A gripe é causada pelo vírus influenza e costuma começar de repente, com febre alta, tosse e dores no corpo. O resfriado é causado por outros vírus, evolui devagar e raramente dá febre alta.',
+      },
+      {
+        question: 'Quanto tempo dura a gripe?',
+        answer:
+          'Os sintomas começam um a quatro dias após a infecção e costumam durar cerca de uma semana. A tosse pode persistir por duas semanas ou mais, mesmo depois que a febre passa.',
+      },
+      {
+        question: 'Gripe pega de outra pessoa?',
+        answer:
+          'Sim. A transmissão ocorre por gotículas de saliva e secreção respiratória eliminadas ao tossir, espirrar ou falar, e também pelas mãos contaminadas que levam o vírus à boca, ao nariz ou aos olhos.',
+      },
+      {
+        question: 'Quando tomar o antiviral?',
+        answer:
+          'O oseltamivir é indicado para casos graves e para pessoas com fatores de risco, de preferência nas primeiras 48 horas dos sintomas. A decisão é médica e não depende apenas do resultado do exame.',
+      },
+      {
+        question: 'Antibiótico serve para gripe?',
+        answer:
+          'Não. Antibióticos combatem bactérias e não têm efeito sobre o vírus influenza. Eles só são usados quando há uma infecção bacteriana associada, como pneumonia, confirmada ou suspeitada por um profissional.',
+      },
+      {
+        question: 'A vacina da gripe pode causar gripe?',
+        answer:
+          'Não. A vacina usada no SUS é feita com vírus inativados e não pode causar a doença. Dor no braço, febre baixa e mal-estar por um ou dois dias são reações esperadas e passageiras.',
+      },
+      {
+        question: 'Quem deve se vacinar contra a gripe?',
+        answer:
+          'A vacina é oferecida gratuitamente no SUS para gestantes, puérperas, pessoas com 60 anos ou mais, crianças de 6 meses a menores de 6 anos, pessoas com doenças crônicas, imunossuprimidas, profissionais de saúde e outros grupos definidos a cada campanha.',
+      },
+      {
+        question: 'Gripe pode matar?',
+        answer:
+          'Sim, embora a maioria dos casos evolua bem. A gripe pode causar pneumonia, insuficiência respiratória e piora de doenças crônicas, e as mortes se concentram entre idosos, crianças pequenas, gestantes e pessoas com doenças graves.',
+      },
+    ],
+    relatedArticleSlugs: ['gripe-sintomas-e-sinais-de-alerta', 'gripe-vacina-e-como-se-proteger'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['pneumonia', 'faringite-e-amigdalite', 'bronquiolite'],
+    references: [
+      {
+        label: 'Gripe (influenza)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gripe-influenza',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Influenza (seasonal): fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
     author: 'Equipe editorial Saudewiki',
     reviewer: null,
-    reviewStatus: 'draft',
+    reviewStatus: 'needs_review',
     publishedAt: '2026-10-13',
-    updatedAt: '2026-10-13',
+    updatedAt: '2026-10-23',
     isPlaceholder: true,
   },
   {
@@ -11799,4 +12019,2415 @@ export const diseases: Disease[] = [
     isPlaceholder: true,
   },
 
+  {
+    id: 'obesidade',
+    slug: 'obesidade',
+    name: 'Obesidade',
+    aliases: ['obesidade', 'excesso de peso', 'sobrepeso', 'obesidade grave', 'obesidade infantil'],
+    summary:
+      'Doença crônica em que o excesso de gordura corporal prejudica a saúde. Perder de 5% a 10% do peso já melhora pressão, glicemia e dores nas articulações.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é obesidade?',
+        paragraphs: [
+          'Obesidade é uma doença crônica em que a quantidade de gordura no corpo passa do ponto em que ela começa a prejudicar a saúde. Não se trata de uma questão de aparência: o excesso de tecido adiposo muda a forma como o organismo regula pressão, glicose, colesterol, sono e inflamação.',
+          'O critério mais usado para identificar a doença é o índice de massa corporal (IMC), calculado dividindo o peso pela altura ao quadrado. Em adultos, a Organização Mundial da Saúde considera sobrepeso a partir de 25 kg/m² e obesidade a partir de 30 kg/m².',
+          'A doença é comum e cresce no mundo inteiro. Em 2024, a OMS estimou 2,6 bilhões de adultos com sobrepeso, dos quais 940 milhões com obesidade, o que corresponde a 45% e 16% dos adultos. Desde 1990, a obesidade mais que dobrou nessa faixa, e entre crianças e adolescentes de 5 a 19 anos ela quadruplicou.',
+          'O número não é abstrato. Em 2023, o IMC acima do ideal foi associado a 3,7 milhões de mortes no mundo, por meio de doenças cardiovasculares, diabetes e alguns tipos de câncer. No Brasil, o excesso de peso aparece em todas as faixas de renda e em todas as idades, e o primeiro atendimento costuma acontecer na unidade básica de saúde.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de obesidade?',
+        paragraphs: [
+          'A classificação mais usada em consulta é pelo grau de excesso de peso. Ela ajuda a orientar a conversa sobre risco e sobre o tipo de tratamento, mas não substitui a avaliação clínica: duas pessoas com o mesmo IMC podem ter riscos bem diferentes.',
+          'Uma divisão mais recente separa a obesidade pré-clínica da obesidade clínica. Na primeira, há excesso de gordura e risco aumentado, sem sinais de que órgãos ou atividades do dia a dia já estejam comprometidos. Na segunda, o excesso de gordura já causa alterações de função ou limitações concretas, como falta de ar em esforços pequenos.',
+          'Também é útil distinguir a obesidade primária da secundária. A primária, muito mais frequente, resulta da combinação entre genética, alimentação, movimento e ambiente. A secundária tem uma causa identificável, como hipotireoidismo, síndrome de Cushing, uso de alguns medicamentos ou uma condição genética rara.',
+        ],
+        bullets: [
+          'Grau I: IMC de 30 a 34,9',
+          'Grau II: IMC de 35 a 39,9',
+          'Grau III: IMC de 40 ou mais',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a obesidade?',
+        paragraphs: [
+          'A obesidade aparece quando o corpo recebe mais energia do que gasta por muito tempo, e essa conta é influenciada por muito mais do que força de vontade. A genética participa de forma importante: estima-se que 40% a 60% da variação do IMC entre pessoas seja herdada. Ela não determina o destino, mas explica por que duas pessoas comem parecido e engordam de formas diferentes.',
+          'O ambiente em que se vive pesa tanto quanto a biologia. Alimentos ultraprocessados, bebidas açucaradas, porções grandes, deslocamento por carro, trabalho sentado e pouco espaço para caminhar tornam o ganho de peso o caminho mais fácil. A OMS trata esse conjunto como ambiente obesogênico e recomenda ações de governo, e não apenas orientação individual.',
+          'Alguns períodos da vida aumentam a vulnerabilidade: gestação, pós-parto, parada de fumar, menopausa, noites mal dormidas e uso de medicamentos como corticoides e alguns antipsicóticos. Doenças endócrinas, como hipotireoidismo e síndrome de Cushing, são causas menos comuns, mas precisam ser consideradas quando o ganho de peso é rápido ou vem acompanhado de outros sinais.',
+        ],
+        bullets: [
+          'Sono curto ou de má qualidade, que altera os hormônios da fome',
+          'Uso de corticoides, alguns antipsicóticos e antidepressivos',
+          'Parar de fumar, pela mudança de apetite e de metabolismo',
+          'Ganho de peso importante na gestação',
+          'Hipotireoidismo, síndrome de Cushing e síndrome dos ovários policísticos',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da obesidade?',
+        paragraphs: [
+          'A obesidade em si costuma não doer. Muita gente convive anos sem sintoma e descobre o problema em uma consulta de rotina ou quando outra doença aparece. Os incômodos mais comuns vêm do esforço que o corpo faz para carregar o peso extra e das complicações que se instalam aos poucos.',
+          'Falta de ar em escadas, cansaço mais cedo, ronco alto e sonolência durante o dia são queixas frequentes e merecem investigação, porque podem indicar apneia obstrutiva do sono. Dor nos joelhos, na coluna e no pé também é comum, assim como azia, refluxo e infecções de pele nas dobras.',
+          'Em mulheres, alterações menstruais e dificuldade para engravidar podem estar ligadas ao excesso de gordura e à síndrome dos ovários policísticos. O impacto emocional não é detalhe: vergonha, isolamento, ansiedade e depressão acompanham a doença com frequência e dificultam o tratamento quando não são acolhidos.',
+        ],
+        bullets: [
+          'Cansaço e falta de ar em esforços pequenos',
+          'Ronco alto, pausas na respiração e sonolência de dia',
+          'Dor nos joelhos, na coluna e nos pés',
+          'Azia, refluxo e infecções de pele nas dobras',
+          'Alterações menstruais e dificuldade para engravidar',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento sem esperar',
+        paragraphs: [
+          'Algumas complicações da obesidade são urgências e não podem aguardar a próxima consulta de rotina. Dor no peito, falta de ar que piora rápido, desmaio ou fraqueza de um lado do corpo pedem atendimento imediato, porque podem ser infarto ou AVC.',
+          'Procure um pronto atendimento ou ligue para o SAMU 192 se aparecer algum destes sinais:',
+        ],
+        bullets: [
+          'Dor no peito, no braço ou na mandíbula, com suor frio',
+          'Falta de ar súbita ou que piora em poucas horas',
+          'Boca torta, fraqueza de um lado do corpo ou fala embolada',
+          'Perna inchada, dolorida e quente, sobretudo de um lado só',
+          'Dor abdominal intensa depois de uma refeição gordurosa',
+          'Sonolência intensa com pausas na respiração durante o sono',
+          'Ferida nos pés ou nas pernas que não cicatriza e aumenta',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a obesidade é diagnosticada?',
+        paragraphs: [
+          'O diagnóstico começa na conversa e na medida. O profissional calcula o IMC, mede a circunferência da cintura e verifica pressão arterial, além de perguntar sobre sono, alimentação, atividade física, medicamentos em uso e histórico familiar. A cintura importa porque a gordura acumulada no abdômen tem relação mais forte com risco cardiovascular do que o peso total.',
+          'O IMC é um ponto de partida, não uma sentença. Ele não distingue músculo de gordura, pode superestimar o problema em quem tem muita massa muscular e subestimar em idosos com perda de massa. Por isso a avaliação considera o conjunto, incluindo sinais de complicações já instaladas.',
+          'No Brasil, a porta de entrada costuma ser a unidade básica de saúde, que pode acompanhar o caso e encaminhar para nutricionista, clínico geral ou endocrinologista quando necessário. A investigação de causas secundárias só é feita quando há suspeita clínica, e não de rotina para todo mundo.',
+        ],
+        bullets: [
+          'Glicemia de jejum, hemoglobina glicada e perfil lipídico',
+          'Pressão arterial e circunferência da cintura a cada consulta',
+          'Enzimas do fígado e ultrassom quando há suspeita de gordura no fígado',
+          'Polissonografia se houver ronco alto, pausas na respiração ou sonolência diurna',
+          'Hormônios da tireoide e outros exames apenas quando há sinal que justifique',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com obesidade?',
+        paragraphs: [
+          'Ganho de peso nem sempre é gordura. Doenças que retêm líquido, como insuficiência cardíaca e doença renal, podem inchar pernas e barriga e ser confundidas com obesidade. O mesmo vale para a ascite, o acúmulo de líquido no abdômen causado por doença do fígado.',
+          'Algumas condições endócrinas também mudam a composição corporal e merecem investigação quando o quadro é atípico: ganho rápido, gordura concentrada no tronco com braços e pernas finos, rosto arredondado, estrias largas ou pressão alta de difícil controle.',
+        ],
+        bullets: [
+          'Hipotireoidismo',
+          'Síndrome de Cushing',
+          'Síndrome dos ovários policísticos',
+          'Inchaço por insuficiência cardíaca ou doença renal',
+          'Ascite por doença hepática',
+          'Efeito de medicamentos como corticoides e antipsicóticos',
+        ],
+      },
+      {
+        id: 'tratamento-estilo-de-vida',
+        heading: 'Tratamento: o que muda com alimentação e movimento',
+        paragraphs: [
+          'A base do tratamento é a mudança de hábitos, e ela funciona mesmo quando a balança se move pouco. Perder de 5% a 10% do peso já melhora pressão arterial, glicemia, colesterol, gordura no fígado e dor nas articulações. Em quem tem 100 kg, isso significa começar com 5 kg a 10 kg, e não com o peso ideal de uma tabela.',
+          'A alimentação que sustenta o resultado é a que a pessoa consegue manter. Reduzir bebidas açucaradas, ultraprocessados e porções, aumentar feijão, legumes, verduras, frutas e cereais integrais e cozinhar mais em casa costuma ser mais eficaz do que dietas muito restritivas, que até emagrecem rápido, mas raramente se sustentam.',
+          'O movimento entra como parte do tratamento, não como punição. A OMS recomenda pelo menos 150 minutos por semana de atividade moderada para saúde geral; para perder e manter peso, as diretrizes de tratamento da obesidade costumam indicar de 300 a 360 minutos semanais, combinando caminhada, bicicleta ou natação com exercícios de força duas vezes por semana. Sono adequado e apoio psicológico completam o cuidado.',
+        ],
+        cta: {
+          label: 'Leia também: como emagrecer com saúde quando se tem obesidade',
+          href: '/artigos/obesidade-como-emagrecer-com-saude/',
+        },
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quando os medicamentos entram no tratamento?',
+        paragraphs: [
+          'Medicamento não substitui alimentação e movimento, e não é indicado para qualquer pessoa que queira emagrecer alguns quilos. As indicações usuais são IMC acima de 30 ou IMC acima de 27 com alguma condição associada, como diabetes, pressão alta ou apneia do sono. A escolha depende de outras doenças, de interações e do que a pessoa consegue tolerar.',
+          'Entre as opções prescritas estão o orlistato, que reduz a absorção de gordura e costuma causar desconforto intestinal, e os agonistas do GLP-1, como liraglutida e semaglutida, que reduzem o apetite e retardam o esvaziamento do estômago. Náusea, vômito e constipação são efeitos comuns no início, e a dose precisa ser ajustada aos poucos. Nenhum deles deve ser usado na gestação.',
+          'Em dezembro de 2025, a OMS publicou sua primeira diretriz sobre o uso de GLP-1 no tratamento da obesidade em adultos, recomendando que esses remédios sejam parte de um cuidado crônico mais amplo, com alimentação, atividade, apoio psicológico e acompanhamento regular. Isso significa que a consulta e o seguimento importam tanto quanto a caneta.',
+          'Cuidado com produtos vendidos como suplemento ou fórmula para emagrecer sem registro sanitário. Eles podem conter substâncias não declaradas, em dose desconhecida, e já foram associados a efeitos graves. Só use o que foi prescrito e avise o profissional sobre tudo o que toma.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Cirurgia bariátrica: quando é indicada',
+        paragraphs: [
+          'A cirurgia metabólica e bariátrica é o tratamento mais eficaz para a obesidade grave e para o diabetes tipo 2 associado a ela. Não é um atalho: é indicada quando o risco do peso supera o risco do procedimento, depois de tentativas de tratamento clínico e de uma avaliação multiprofissional que inclui nutrição, psicologia e clínica.',
+          'Em adultos, os critérios mais usados são IMC de 40 ou mais, ou IMC de 35 ou mais com doenças associadas relevantes, como diabetes de difícil controle e apneia do sono. Em adolescentes com obesidade grave, a avaliação é ainda mais criteriosa e só acontece em serviços preparados para acompanhar essa faixa de idade.',
+          'Depois da cirurgia, o acompanhamento é para a vida toda. A alimentação muda por etapas, a suplementação de vitaminas e minerais se torna necessária e o retorno às consultas é parte do resultado. Sem esse seguimento, a perda de peso pode ser menor e deficiências nutricionais aparecem.',
+        ],
+      },
+      {
+        id: 'outras-abordagens',
+        heading: 'Abordagens complementares e o que está em estudo',
+        paragraphs: [
+          'Práticas complementares podem ajudar no manejo do estresse, da ansiedade e da relação com a comida, mas não substituem o tratamento clínico. Terapia cognitivo-comportamental, grupos de apoio e acompanhamento psicológico têm papel reconhecido no cuidado da obesidade, sobretudo quando há compulsão alimentar.',
+          'A acupuntura é oferecida em alguns serviços públicos como prática integrativa, principalmente para dor e ansiedade. Ela pode fazer parte do cuidado, mas não há comprovação de que emagreça por si só, e nenhuma prática complementar deve ser usada no lugar de alimentação, movimento, medicamento ou cirurgia quando eles estão indicados.',
+          'Novos medicamentos e combinações seguem em estudo, com resultados promissores em pesquisa, mas ainda sem resposta para todas as perguntas sobre efeitos a longo prazo, custo e acesso. Desconfie de promessas de emagrecimento rápido e definitivo: obesidade é doença crônica, e o tratamento também é.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Obesidade tem cura?',
+        paragraphs: [
+          'A obesidade não desaparece para sempre. Ela é uma condição crônica que pode ser controlada, com melhora consistente da saúde enquanto o tratamento se mantém. Quem emagrece e volta aos hábitos antigos tende a recuperar o peso: estudos mostram que entre um terço e dois terços das pessoas recuperam mais do que haviam perdido.',
+          'Isso não significa que o esforço não valha. Cada período de controle conta, e os benefícios sobre pressão, glicemia, fígado e articulações aparecem antes de o peso chegar ao valor desejado. O objetivo realista é saúde sustentada ao longo dos anos, com metas pequenas e verificáveis, não um número na balança alcançado uma vez.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a obesidade traz?',
+        paragraphs: [
+          'O excesso de gordura age como um órgão ativo, liberando substâncias que aumentam inflamação e resistência à insulina. Com o tempo, isso se traduz em doenças que se reforçam entre si: pressão alta, diabetes, gordura no fígado e colesterol alterado costumam aparecer juntos e acelerar o dano às artérias.',
+          'As complicações vão além do coração. A apneia do sono fragmenta a noite e piora a pressão; a gordura no fígado pode evoluir para inflamação e cirrose; o peso extra desgasta joelhos e coluna; e o risco de alguns cânceres, de trombose e de depressão também aumenta. Em gestantes, a obesidade eleva o risco de diabetes gestacional e de complicações no parto.',
+        ],
+        bullets: [
+          'Hipertensão, infarto, AVC e insuficiência cardíaca',
+          'Diabetes tipo 2 e síndrome metabólica',
+          'Apneia obstrutiva do sono e falta de ar',
+          'Gordura no fígado, refluxo e pedras na vesícula',
+          'Osteoartrite de joelhos, quadris e coluna',
+          'Infertilidade e complicações na gestação',
+          'Alguns tipos de câncer, trombose e depressão',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como é o dia a dia de quem trata a obesidade',
+        paragraphs: [
+          'O acompanhamento funciona melhor com medidas simples e registradas. Pesarse uma vez por semana, sempre no mesmo horário, medir a cintura de vez em quando e anotar o que se come em dias alternados ajuda a enxergar padrões que passam despercebidos. O peso oscila de um dia para o outro por retenção de líquido, e por isso a tendência semanal diz mais do que o número isolado.',
+          'Pequenas mudanças que se sustentam valem mais do que reformas radicais. Trocar uma bebida açucarada por água, subir um lance de escada, caminhar depois do almoço, dormir em horário regular e manter a dispensa com opções práticas são decisões que sobrevivem a semanas difíceis. Recaídas fazem parte do processo e não significam fracasso.',
+          'Quem fez cirurgia precisa de cuidados próprios: suplementação orientada, exames periódicos de vitaminas e minerais, atenção à quantidade de comida por refeição e acompanhamento com a equipe. Quem planeja engravidar deve conversar antes com o profissional, sobretudo se usa medicamentos para obesidade.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a obesidade',
+        paragraphs: [
+          'A prevenção começa antes do nascimento. Chegar à gestação com peso saudável, ganhar peso dentro da faixa recomendada e amamentar de forma exclusiva até os 6 meses, mantendo o aleitamento até os 2 anos ou mais, são medidas com efeito duradouro sobre o risco da criança.',
+          'Em casa, o que protege é o conjunto: refeições em família, água no lugar de refrigerante, frutas à vista, menos telas e mais brincadeira ao ar livre, sono com horário. Crianças e adolescentes com obesidade devem ser acolhidos sem culpa e sem dieta restritiva por conta própria, com acompanhamento profissional.',
+          'No nível coletivo, prevenção significa ambiente: rotulagem adequada, regulação da publicidade de ultraprocessados para crianças, espaços seguros para caminhar e andar de bicicleta, acesso a alimentos frescos e políticas escolares de alimentação. A OMS trata a obesidade como responsabilidade compartilhada entre pessoa, comunidade e governo.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Obesidade é doença?',
+        answer:
+          'Sim. A obesidade é reconhecida como doença crônica porque o excesso de gordura corporal prejudica a saúde e aumenta o risco de diabetes, doenças cardiovasculares, gordura no fígado e vários tipos de câncer.',
+      },
+      {
+        question: 'Qual IMC indica obesidade?',
+        answer:
+          'Em adultos, a obesidade começa em 30 kg/m², e o sobrepeso em 25 kg/m². O IMC é calculado dividindo o peso em quilos pela altura em metros ao quadrado, e deve ser interpretado junto com a medida da cintura e a avaliação clínica.',
+      },
+      {
+        question: 'Obesidade tem cura?',
+        answer:
+          'Não existe cura definitiva. A obesidade é uma condição crônica que pode ser controlada com alimentação, atividade física, sono, apoio psicológico e, quando indicado, medicamento ou cirurgia, com acompanhamento ao longo da vida.',
+      },
+      {
+        question: 'Preciso emagrecer muito para melhorar a saúde?',
+        answer:
+          'Não. Perder de 5% a 10% do peso já melhora pressão arterial, glicemia, colesterol, gordura no fígado e dor nas articulações. Metas pequenas e sustentadas trazem mais benefício do que perdas rápidas seguidas de recuperação.',
+      },
+      {
+        question: 'Quando o medicamento para obesidade é indicado?',
+        answer:
+          'Em geral, quando o IMC está acima de 30 ou acima de 27 com alguma condição associada, como diabetes, pressão alta ou apneia do sono. A prescrição depende da avaliação médica, e o remédio funciona junto com alimentação e atividade física.',
+      },
+      {
+        question: 'Cirurgia bariátrica é para qualquer pessoa com obesidade?',
+        answer:
+          'Não. A cirurgia é indicada para obesidade grave, em geral com IMC de 40 ou mais, ou de 35 ou mais com doenças associadas relevantes, depois de avaliação multiprofissional e de tentativas de tratamento clínico.',
+      },
+      {
+        question: 'Obesidade pode voltar depois da cirurgia?',
+        answer:
+          'Pode. A cirurgia ajuda muito, mas não dispensa alimentação adequada, atividade física e acompanhamento. Sem seguimento, parte das pessoas recupera peso e pode ter deficiência de vitaminas e minerais.',
+      },
+      {
+        question: 'Criança com obesidade pode fazer dieta?',
+        answer:
+          'Crianças e adolescentes não devem seguir dietas restritivas por conta própria, porque isso pode atrapalhar o crescimento. O cuidado é feito com acompanhamento profissional, mudanças na família inteira e apoio emocional, sem culpa e sem estigma.',
+      },
+      {
+        question: 'Obesidade aumenta o risco de outras doenças?',
+        answer:
+          'Sim. A obesidade aumenta o risco de hipertensão, infarto, AVC, diabetes tipo 2, apneia do sono, gordura no fígado, osteoartrite, infertilidade, trombose, depressão e alguns tipos de câncer.',
+      },
+    ],
+    relatedArticleSlugs: ['obesidade-sintomas-e-quando-buscar-ajuda', 'obesidade-como-emagrecer-com-saude'],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['diabetes', 'hipertensao', 'esteatose-hepatica', 'colesterol-alto'],
+    references: [
+      {
+        label: 'Obesity and overweight: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Obesidade — Manual MSD, versão profissional',
+        url: 'https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-nutricionais/obesidade-e-s%C3%ADndrome-metab%C3%B3lica/obesidade',
+        publisher: 'MSD Manuals',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'febre-tifoide',
+    slug: 'febre-tifoide',
+    name: 'Febre tifoide',
+    aliases: ['febre tifoide', 'tifoide', 'febre entérica', 'typhoid'],
+    summary:
+      'Infecção bacteriana grave transmitida por água e alimentos contaminados. Causa febre prolongada e pode levar a hemorragia e perfuração intestinal.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é febre tifoide?',
+        paragraphs: [
+          'Febre tifoide é uma infecção bacteriana aguda causada pela Salmonella enterica sorotipo Typhi. A bactéria entra pelo aparelho digestivo, atravessa a parede do intestino e alcança a corrente sanguínea, o que explica a febre alta e o comprometimento de vários órgãos.',
+          'A doença está ligada a saneamento precário, água não tratada e higiene inadequada. Onde o esgoto é coletado e a água é tratada, ela praticamente desaparece. No Brasil, ocorre de forma endêmica em regiões isoladas, sobretudo nas regiões Norte e Nordeste, com surtos localizados onde as condições de vida são mais frágeis.',
+          'Sem tratamento adequado, a febre tifoide pode matar. A complicação mais temida é a hemorragia intestinal, que pode evoluir para perfuração e peritonite. O diagnóstico precoce muda o desfecho, e é por isso que febre prolongada com dor abdominal em alguém que viveu ou viajou para área de transmissão merece investigação.',
+          'A doença não tem sazonalidade marcante. O que determina o risco é o ambiente: acesso à água segura, destino do esgoto, higiene dos alimentos e condições de moradia. Em áreas endêmicas, adolescentes e adultos jovens são os mais atingidos, e a taxa de ataque diminui com a idade.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas de febre tifoide?',
+        paragraphs: [
+          'A febre tifoide não tem subtipos clínicos oficiais, mas a apresentação varia muito de pessoa para pessoa. Reconhecer a forma ajuda a definir onde tratar e com que rapidez.',
+          'A forma típica cursa com febre que sobe ao longo dos dias, dor de cabeça, mal-estar, falta de apetite e dor abdominal, às vezes com prisão de ventre e tosse seca. A forma leve lembra uma infecção viral e passa despercebida, o que favorece a transmissão. A forma grave aparece com complicações intestinais, alteração do estado de consciência e choque, e exige internação.',
+          'Existe ainda a situação do portador. Entre 2% e 5% dos pacientes continuam eliminando a bactéria nas fezes por até um ano depois da melhora, sem sintomas. Essas pessoas podem contaminar alimentos e água e são parte central da cadeia de transmissão.',
+        ],
+        bullets: [
+          'Forma típica: febre progressiva, dor abdominal e mal-estar',
+          'Forma leve: sintomas discretos, fácil de confundir com virose',
+          'Forma grave: hemorragia, perfuração intestinal e choque',
+          'Portador crônico: elimina a bactéria sem sintomas por até um ano',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a febre tifoide é transmitida?',
+        paragraphs: [
+          'A transmissão acontece de duas maneiras. Na forma direta, o contato com as mãos de uma pessoa doente ou portadora leva a bactéria à boca. Na forma indireta, a pessoa ingere água ou alimentos contaminados com fezes ou urina de quem elimina a bactéria.',
+          'A contaminação de alimentos costuma envolver manipuladores que não sabem que carregam a bactéria ou que têm sintomas discretos e continuam trabalhando. Verduras irrigadas com água contaminada, frutos do mar retirados de água poluída e consumidos crus ou malcozidos, leite e derivados não pasteurizados também podem veicular a Salmonella.',
+          'Quem está infectado elimina a bactéria nas fezes e na urina, com ou sem sintomas. A eliminação dura de uma a três semanas, podendo chegar a três meses. Moscas e baratas podem transportar a bactéria mecanicamente e ampliar a contaminação de alimentos expostos.',
+          'A bactéria vive apenas em seres humanos. Não há reservatório animal relevante, o que significa que a interrupção da transmissão depende de identificar e tratar doentes e portadores, garantir água segura e cuidar do esgoto.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco de adoecer?',
+        paragraphs: [
+          'A causa é a ingestão de Salmonella Typhi. A quantidade de bactérias ingeridas influencia o risco: quanto maior a carga, maior a chance de a infecção vencer o ácido do estômago e se instalar.',
+          'Algumas situações ampliam a exposição. Viver ou viajar em regiões com saneamento inadequado, consumir água de origem desconhecida, comer alimentos crus de procedência duvidosa e trabalhar no manejo de esgoto ou em laboratório de microbiologia são os cenários mais frequentes. Familiares de pacientes também precisam de orientação, porque a higiene doméstica é parte do controle.',
+          'A imunidade conta. Pessoas com HIV e aids podem ter doença mais grave e com tendência a recidivas, e a incidência chega a ser de 25 a 60 vezes maior entre pessoas HIV positivas em áreas endêmicas. Crianças pequenas costumam ter quadros menos graves que adultos, muitas vezes com diarreia.',
+        ],
+        bullets: [
+          'Água não tratada ou de procedência desconhecida',
+          'Alimentos crus, malcozidos ou manipulados sem higiene',
+          'Frutos do mar retirados de água poluída',
+          'Leite e derivados não pasteurizados',
+          'Trabalho em contato com esgoto ou em laboratório de microbiologia',
+          'Conviver com alguém doente ou portador',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da febre tifoide?',
+        paragraphs: [
+          'O quadro clássico combina febre alta e persistente, dor de cabeça, mal-estar geral, falta de apetite e dor abdominal. A febre costuma subir ao longo dos dias e se manter alta, diferente do padrão de outras infecções que oscilam.',
+          'Alguns sinais ajudam a reconhecer a doença. O pulso pode estar mais lento do que se esperaria para a temperatura alta, o baço pode aumentar e aparecem manchas rosadas no tronco, que somem quando se pressiona. Prisão de ventre é comum em adultos, enquanto crianças tendem a ter diarreia. Tosse seca também pode estar presente.',
+          'A febre tifoide evolui de forma gradual. Muitas pessoas recebem antibiótico por uma febre de origem desconhecida antes de o diagnóstico ser considerado, o que mascara o quadro e atrasa a identificação. Em idosos e em pessoas imunossuprimidas, a apresentação pode ser atípica e a suspeita precisa ser maior.',
+        ],
+        bullets: [
+          'Febre alta e prolongada',
+          'Dor de cabeça e mal-estar intenso',
+          'Falta de apetite e perda de peso',
+          'Dor abdominal, com prisão de ventre ou diarreia',
+          'Manchas rosadas no tronco',
+          'Pulso lento para a temperatura apresentada',
+          'Aumento do baço',
+          'Tosse seca',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando ir ao hospital',
+        paragraphs: [
+          'A complicação mais grave é a hemorragia intestinal, que pode perfurar o intestino e causar peritonite. Ela costuma surgir na terceira semana de doença, quando a pessoa já está fraca, e pode ser confundida com piora do quadro infeccioso.',
+          'Procure atendimento imediatamente, sem esperar a consulta marcada, se aparecer:',
+        ],
+        bullets: [
+          'Dor abdominal súbita e muito intensa',
+          'Barriga dura, dolorida ao toque e inchada',
+          'Sangue nas fezes ou fezes muito escuras',
+          'Vômitos persistentes que impedem a hidratação',
+          'Palidez, suor frio, tontura ou desmaio',
+          'Confusão, sonolência excessiva ou agitação',
+          'Febre que piora depois de alguns dias de melhora',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a febre tifoide é diagnosticada?',
+        paragraphs: [
+          'O diagnóstico começa pela história clínica: onde a pessoa vive, por onde viajou, o que comeu e bebeu, como é o saneamento da casa e se houve contato com alguém doente. Febre prolongada com dor abdominal e alteração do hábito intestinal nesse contexto levanta a suspeita.',
+          'A confirmação vem do isolamento da bactéria. A hemocultura é o exame mais usado na fase aguda, quando a bactéria circula no sangue. A cultura de fezes e de urina ajuda, sobretudo em fases mais avançadas e na investigação de portadores. O aspirado ou a punção de medula óssea é o método mais sensível, reservado para casos selecionados.',
+          'O hemograma costuma mostrar alterações inespecíficas, e os testes sorológicos têm limitações, porque podem reagir de forma cruzada com outras salmonelas. O atendimento inicial pode ocorrer na unidade básica de saúde, mas casos com sinais de gravidade precisam de avaliação hospitalar e, muitas vezes, de internação.',
+        ],
+        bullets: [
+          'Hemocultura, o exame mais usado na fase aguda',
+          'Coprocultura, útil também para identificar portadores',
+          'Urocultura em situações selecionadas',
+          'Aspirado ou punção de medula óssea, o método mais sensível',
+          'Hemograma e provas de função do fígado e do rim para avaliar gravidade',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Quais doenças podem parecer febre tifoide?',
+        paragraphs: [
+          'Febre prolongada é um sintoma comum a muitas doenças, e a febre tifoide precisa ser separada de outras causas de febre de origem desconhecida. O histórico de exposição, o padrão da febre e os exames ajudam a diferenciar.',
+          'Malária, tuberculose, pneumonia, meningite, endocardite e outras infecções bacterianas entram na lista. Doenças que também aumentam fígado e baço, como leishmaniose visceral e esquistossomose, podem confundir. Em áreas endêmicas, a coleta de hemocultura antes de iniciar antibiótico é o que mais ajuda a esclarecer.',
+        ],
+        bullets: [
+          'Malária',
+          'Tuberculose',
+          'Pneumonia',
+          'Meningite',
+          'Outras infecções por Salmonella',
+          'Leishmaniose visceral e esquistossomose',
+          'Endocardite e outras infecções bacterianas',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Tratamento: antibiótico, hidratação e repouso',
+        paragraphs: [
+          'O tratamento começa assim que o diagnóstico é feito e é feito com antibiótico específico, associado a hidratação e repouso. Na maior parte dos casos, o cuidado é ambulatorial, com reidratação e acompanhamento; a internação fica reservada para quadros graves, complicações ou impossibilidade de manter a hidratação em casa.',
+          'O tratamento dura, em regra, cerca de 14 dias, e pode ser mais longo conforme a gravidade. O antibiótico escolhido depende da resistência local e das condições da pessoa, e a decisão é sempre médica. Não interrompa o uso quando a febre ceder: a bactéria pode permanecer no organismo e a doença voltar.',
+          'A resistência antimicrobiana é um problema crescente e torna o tratamento mais complicado em algumas regiões. Por isso, o uso de antibiótico por conta própria para qualquer febre atrapalha o diagnóstico e favorece a resistência. Em pessoas com cálculos ou alterações das vias biliares que não respondem ao tratamento, a retirada da vesícula pode ser necessária.',
+          'Práticas complementares não substituem o antibiótico. Não há comprovação de que chás, suplementos ou outras terapias eliminem a Salmonella, e usá-los no lugar do tratamento aumenta o risco de complicações. O repouso e a hidratação constante, sim, fazem parte do cuidado e ajudam na recuperação.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Complicações e prognóstico',
+        paragraphs: [
+          'A hemorragia intestinal é a complicação principal e pode levar à perfuração, que exige cirurgia de urgência. Quanto mais tarde o diagnóstico, maior o risco. Outras complicações menos frequentes incluem pneumonia, colecistite, retenção urinária e comprometimento do coração e do sistema nervoso.',
+          'Com tratamento adequado, a maioria das pessoas se recupera por completo. A recuperação é mais difícil em idosos, crianças pequenas e pessoas desnutridas, e o risco cresce quando há perfuração ou hemorragia. Parte dos pacientes apresenta recaída semanas depois da melhora, o que reforça a importância do seguimento.',
+          'Depois do tratamento, o médico pode pedir exames para confirmar que a bactéria foi eliminada, sobretudo em pessoas que manipulam alimentos. Acompanhar esse ponto é o que interrompe a transmissão dentro de casa e no trabalho.',
+        ],
+        bullets: [
+          'Hemorragia intestinal',
+          'Perfuração intestinal e peritonite',
+          'Pneumonia',
+          'Colecistite',
+          'Recaída semanas depois da melhora',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados em casa e durante a recuperação',
+        paragraphs: [
+          'Quem está em tratamento deve lavar bem as mãos com água e sabão depois de usar o banheiro e evitar preparar ou servir alimentos para outras pessoas. Pratos, copos e talheres devem ser lavados separadamente. Essas medidas simples reduzem muito a chance de contaminar quem vive na mesma casa.',
+          'A alimentação deve ser leve e fácil de digerir, com boa oferta de líquidos ao longo do dia. Evite alimentos muito gordurosos, picantes ou ricos em fibras duras enquanto o intestino estiver sensível. Beba com frequência e observe a cor da urina, que deve se manter clara.',
+          'Volte ao serviço de saúde se a febre retornar, se a dor abdominal piorar ou se aparecer sangue nas fezes. A alta não encerra o cuidado: o seguimento e, quando indicado, a confirmação de que não há mais bactéria no organismo são parte do tratamento.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a febre tifoide',
+        paragraphs: [
+          'A prevenção se apoia em saneamento, água segura e higiene. Tratar a água, coletar e tratar o esgoto, lavar as mãos antes de comer e depois de usar o banheiro e higienizar superfícies e utensílios são as medidas com maior impacto. Em casa, limpar a caixa de água a cada seis meses ou antes, se necessário, faz parte da rotina.',
+          'Para quem viaja para áreas de transmissão, vale beber apenas água de procedência conhecida ou filtrada e fervida, evitar gelo de origem duvidosa, consumir alimentos bem cozidos e ainda quentes, preferir frutas que possam ser descascadas e evitar locais com higiene duvidosa.',
+          'A vacina contra a febre tifoide não faz parte do calendário nacional de vacinação. Ela tem poder imunogênico limitado e imunidade curta, sendo indicada apenas em situações específicas, como pessoas com exposição ocupacional ou que vivem em áreas de alta endemicidade. A vacina não substitui água segura, saneamento e higiene.',
+          'Quem manipula alimentos deve ser orientado a procurar atendimento se tiver febre prolongada ou diarreia persistente. Identificar portadores e tratar é uma medida de saúde pública, não apenas individual.',
+        ],
+        bullets: [
+          'Beber água tratada, filtrada ou fervida',
+          'Lavar as mãos antes de comer e depois do banheiro',
+          'Lavar e desinfetar frutas, verduras e utensílios',
+          'Consumir leite e derivados pasteurizados',
+          'Limpar a caixa de água a cada seis meses',
+        ],
+        cta: {
+          label: 'Leia também: como se prevenir da febre tifoide',
+          href: '/artigos/febre-tifoide-como-se-prevenir/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Febre tifoide pega de outra pessoa?',
+        answer:
+          'A transmissão não acontece pelo convívio casual, e sim pela ingestão de água ou alimentos contaminados com fezes ou urina de alguém doente ou portador. O contato com as mãos dessa pessoa também pode transmitir a bactéria.',
+      },
+      {
+        question: 'Febre tifoide tem cura?',
+        answer:
+          'Sim. Com antibiótico adequado, hidratação e repouso, a maioria das pessoas se recupera por completo. O tratamento costuma durar cerca de 14 dias e não deve ser interrompido quando a febre cede.',
+      },
+      {
+        question: 'Quanto tempo a bactéria fica no organismo?',
+        answer:
+          'A eliminação nas fezes costuma durar de uma a três semanas, podendo chegar a três meses. Entre 2% e 5% dos pacientes se tornam portadores crônicos e podem transmitir a doença por até um ano.',
+      },
+      {
+        question: 'Existe vacina contra febre tifoide no Brasil?',
+        answer:
+          'A vacina não faz parte do calendário nacional de vacinação. Ela tem imunidade curta e é indicada apenas em situações específicas, como exposição ocupacional ou permanência em áreas de alta endemicidade.',
+      },
+      {
+        question: 'Qual é o exame que confirma a febre tifoide?',
+        answer:
+          'O isolamento da bactéria em cultura é o que confirma o diagnóstico. A hemocultura é o exame mais usado na fase aguda, e a cultura de fezes ou de urina ajuda em fases posteriores e na identificação de portadores.',
+      },
+      {
+        question: 'Febre tifoide é a mesma coisa que tifo?',
+        answer:
+          'Não. O tifo é causado por outro agente, transmitido por piolhos ou pulgas, e tem apresentação diferente. A febre tifoide é causada pela Salmonella Typhi e está ligada a água e alimentos contaminados.',
+      },
+      {
+        question: 'Quem teve febre tifoide pode ter de novo?',
+        answer:
+          'Pode. A infecção não garante proteção duradoura, e novas exposições à bactéria podem causar a doença outra vez. Por isso, as medidas de higiene e saneamento continuam necessárias.',
+      },
+      {
+        question: 'Pode trabalhar manipulando alimentos durante o tratamento?',
+        answer:
+          'Não. Quem está em tratamento deve evitar preparar ou servir alimentos para outras pessoas até que os exames mostrem que a bactéria foi eliminada, porque a transmissão pode continuar mesmo sem sintomas.',
+      },
+      {
+        question: 'Febre tifoide pode matar?',
+        answer:
+          'Sem tratamento adequado, sim, e as principais causas de morte são a hemorragia e a perfuração intestinal. Procurar atendimento cedo e completar o tratamento com antibiótico reduz muito o risco de forma grave.',
+      },
+    ],
+    relatedArticleSlugs: ['febre-tifoide-sintomas-e-diagnostico', 'febre-tifoide-como-se-prevenir'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['gastroenterite', 'parasitoses-intestinais', 'hepatites-virais'],
+    references: [
+      {
+        label: 'Febre Tifoide',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-tifoide',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Typhoid: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/typhoid',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'espondilose-lombar',
+    slug: 'espondilose-lombar',
+    name: 'Espondilose lombar (bico de papagaio)',
+    aliases: [
+      'bico de papagaio',
+      'osteófitos na lombar',
+      'osteoartrose lombar',
+      'artrose da coluna lombar',
+      'espondiloartrose lombar',
+    ],
+    summary:
+      'Desgaste crônico da coluna lombar que forma projeções ósseas nas bordas das vértebras. Na maioria das pessoas não causa sintoma, mas pode estreitar o canal e comprimir nervos.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é espondilose lombar (bico de papagaio)?',
+        paragraphs: [
+          'Espondilose lombar é o desgaste crônico das estruturas que sustentam a coluna na altura da lombar. Com o tempo, o disco entre uma vértebra e outra perde água e altura, as articulações da parte de trás da coluna passam a receber mais carga e o osso reage formando pequenas projeções nas bordas das vértebras. Essas projeções são os osteófitos, conhecidos no Brasil como bico de papagaio.',
+          'O osteófito não é uma doença em si. Ele faz parte da tentativa do corpo de distribuir melhor o peso quando um segmento da coluna ficou menos estável, parecido com o osso que se espessa ao redor de uma fratura antiga. O problema surge quando esse crescimento estreita o canal por onde passam os nervos ou os espaços por onde eles saem, e aí aparecem dor, dormência e fraqueza na perna.',
+          'Por isso, achar bico de papagaio em uma radiografia não significa que a pessoa tenha dor. Muita gente descobre o achado em um exame pedido por outro motivo e nunca sente nada. O que define a conduta é o conjunto: os sintomas, o exame físico e, quando necessário, uma imagem que mostre compressão de nervo.',
+        ],
+      },
+      {
+        id: 'quem-afeta',
+        heading: 'Quem costuma ter espondilose lombar?',
+        paragraphs: [
+          'A espondilose acompanha o envelhecimento da coluna. Estima-se que cerca de metade das pessoas acima de 60 anos apresente algum grau de osteófito na lombar, e a frequência sobe conforme a idade avança. Não é uma condição exclusiva de quem trabalha com peso: ela aparece também em quem passa o dia sentado.',
+          'A dor lombar, por sua vez, é a principal causa de anos vividos com incapacidade no mundo, segundo a Organização Mundial da Saúde, e atinge gente de todas as idades. A maior parte dos episódios não tem relação com o osteófito: vem de sobrecarga muscular, postura mantida por muito tempo ou esforço fora do habitual.',
+          'Trabalho pesado, jornadas longas sentado, obesidade e pouca força nos músculos do tronco fazem o desgaste aparecer mais cedo. Depois da menopausa, a perda de massa óssea acelera e a mulher passa a ser mais afetada, sobretudo quando a coluna já tem desvios ou fraturas por fragilidade.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de espondilose lombar?',
+        paragraphs: [
+          'A divisão mais usada separa a espondilose que vem com a idade daquela que aparece por uma causa identificável. A distinção importa porque muda a investigação e o momento de começar o cuidado.',
+          'A forma primária é a mais comum e se instala de maneira lenta, sem um fator único por trás. A forma secundária costuma surgir mais cedo, depois de um trauma, de anos de sobrecarga, de escoliose ou de doença inflamatória da coluna, e merece atenção maior porque pode evoluir com compressão nervosa mais extensa.',
+        ],
+        bullets: [
+          'Primária: relacionada à idade, sem causa única identificada, com instalação gradual',
+          'Secundária: aparece mais cedo, após trauma, sobrecarga repetida, desvio da coluna ou inflamação articular',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Por que o osso cresce na borda da vértebra?',
+        paragraphs: [
+          'A coluna funciona como uma pilha de blocos ligados por discos, ligamentos e músculos. Quando o disco perde altura e os ligamentos ficam mais frouxos, o segmento passa a se mover além do que deveria, e a articulação da parte posterior da vértebra recebe uma carga que não foi desenhada para suportar.',
+          'O osso responde a essa sobrecarga depositando material novo nas bordas, o que aumenta a superfície de contato e devolve estabilidade ao segmento. É um mecanismo de reparo, e não um crescimento descontrolado como o de um tumor. O mesmo processo acontece nos joelhos e nos quadris de quem tem artrose.',
+          'Quando o depósito ósseo ocorre para dentro do canal vertebral ou do forame, o nervo perde espaço. A compressão pode ser pequena e não gerar sintoma, ou suficiente para causar dor que desce pela perna, dormência e perda de força. O grau de estreitamento na imagem nem sempre acompanha a intensidade da queixa.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que acelera o desgaste da coluna?',
+        paragraphs: [
+          'Nenhum desses fatores causa a espondilose sozinho. Eles atuam mudando a forma como a carga se distribui na coluna ao longo dos anos, e costumam se somar.',
+          'Alguns podem ser modificados e é neles que vale investir. Outros, como a idade e a predisposição familiar, não mudam, mas ajudam a explicar por que duas pessoas com o mesmo trabalho têm colunas tão diferentes.',
+        ],
+        bullets: [
+          'Idade acima de 50 anos',
+          'Trabalho com levantamento de peso ou vibração',
+          'Muitas horas sentado, sem pausas para levantar',
+          'Excesso de peso corporal',
+          'Escoliose, perna mais curta ou outra alteração que desalinhe a bacia',
+          'Trauma antigo na coluna e cirurgia prévia na lombar',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da espondilose lombar?',
+        paragraphs: [
+          'A maioria das pessoas com osteófito não sente nada. Quando há sintoma, ele costuma começar como dor na parte baixa das costas, com sensação de peso, rigidez ao levantar da cama e incômodo depois de ficar muito tempo na mesma posição. A dor melhora com movimento leve e piora no fim do dia.',
+          'Se o nervo é comprimido, a dor passa a descer pelo glúteo e pela perna, às vezes até o pé, e vem acompanhada de formigamento ou dormência. Pode haver fraqueza para levantar o pé ou para ficar na ponta dos dedos, e câimbra na panturrilha ao caminhar.',
+          'O estreitamento do canal produz um padrão característico: a pessoa anda uma certa distância e precisa parar, porque a perna fica pesada, dormente ou dolorida. Sentar ou inclinar o tronco para frente alivia, e ela consegue seguir. Esse vaivém é chamado de claudicação neurogênica e ajuda a diferenciar o problema da falta de circulação nas pernas.',
+        ],
+        bullets: [
+          'Dor e rigidez na lombar, pior ao acordar e no fim do dia',
+          'Dor que desce para o glúteo, a coxa ou a panturrilha',
+          'Formigamento ou dormência na perna e no pé',
+          'Fraqueza para levantar o pé ou para caminhar longas distâncias',
+          'Necessidade de parar e sentar para aliviar a dor ao andar',
+          'Melhora ao inclinar o tronco para frente ou ao sentar',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: [
+          'Alguns quadros não são espondilose simples e exigem avaliação rápida, porque indicam compressão grave de nervos, infecção ou outra doença na coluna. Reconhecer esses sinais é mais importante do que saber o nome do achado na radiografia.',
+          'Procure um pronto atendimento no mesmo dia, ou chame o SAMU pelo 192 se houver dificuldade para se locomover, se aparecer algum destes sinais:',
+        ],
+        bullets: [
+          'Perda de controle da urina ou das fezes, ou retenção urinária',
+          'Dormência na região entre as pernas, no períneo e ao redor do ânus',
+          'Fraqueza que piora rápido em uma ou nas duas pernas',
+          'Febre, calafrio ou ferida recente na coluna',
+          'Dor intensa que piora à noite e não melhora com o repouso',
+          'Perda de peso sem explicação, ou história de câncer',
+        ],
+        cta: {
+          label: 'Leia também: quando a dor lombar desce para a perna',
+          href: '/artigos/espondilose-lombar-sintomas-e-quando-procurar-atendimento/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a espondilose lombar é diagnosticada?',
+        paragraphs: [
+          'O diagnóstico começa pela conversa e pelo exame físico. O médico pergunta desde quando dói, o que alivia e o que piora, se há dor na perna, formigamento, perda de força e alteração para urinar. Depois examina a coluna, testa os reflexos, a sensibilidade e a força dos membros inferiores e procura sinais de irritação do nervo ciático.',
+          'A imagem só é pedida quando muda a conduta. Em quem tem dor sem sinal de alerta, o quadro costuma melhorar em algumas semanas e o exame não acrescenta nada. A radiografia é útil para ver o alinhamento, a altura dos discos e a presença de fraturas, mas mostra apenas o osso.',
+          'A ressonância magnética é o exame que melhor avalia disco, nervo e canal vertebral, e é indicada quando há déficit neurológico, suspeita de infecção ou tumor, ou dor que não cede ao tratamento. A tomografia ajuda quando a ressonância não pode ser feita. A eletroneuromiografia é reservada para casos em que é preciso confirmar qual raiz nervosa está comprometida.',
+        ],
+        bullets: [
+          'Exame físico com testes de força, sensibilidade, reflexos e elevação da perna estendida',
+          'Radiografia da lombar para alinhamento, disco e fratura',
+          'Ressonância magnética para nervo, disco e canal vertebral',
+          'Tomografia quando a ressonância é inviável',
+          'Eletroneuromiografia em casos selecionados',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode parecer espondilose lombar?',
+        paragraphs: [
+          'Dor lombar com irradiação para a perna tem várias causas, e a espondilose é apenas uma delas. Separar as hipóteses evita tratar como desgaste algo que pede outra conduta.',
+          'A hérnia de disco costuma atingir pessoas mais jovens e provoca dor que piora ao tossir e ao sentar. A artrose das articulações posteriores dá dor que piora ao estender a coluna. A dor de origem vascular aparece ao caminhar e melhora ao parar, sem relação com a posição do tronco, e a dor muscular melhora com repouso e calor local.',
+        ],
+        bullets: [
+          'Hérnia de disco lombar',
+          'Artrose das articulações posteriores da coluna',
+          'Estenose do canal lombar por outras causas',
+          'Doença vascular periférica, com dor ao caminhar',
+          'Contratura muscular e dor miofascial',
+          'Fraturas por fragilidade em quem tem ossos fracos',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a espondilose lombar é tratada?',
+        paragraphs: [
+          'O tratamento começa pelo que não é remédio. Manter atividade dentro do que a dor permite, ajustar a forma de levantar peso, alongar e fortalecer os músculos do tronco e do quadril e corrigir o tempo sentado costumam trazer mais resultado duradouro do que qualquer analgésico. Repouso prolongado na cama piora a rigidez e atrasa a recuperação.',
+          'Para a crise de dor, o médico pode indicar analgésicos simples ou anti-inflamatórios por período curto. Anti-inflamatórios exigem cuidado em quem tem úlcera, doença renal ou risco cardiovascular, e não devem ser usados por conta própria. Relaxantes musculares têm benefício limitado e não são recomendados para idosos.',
+          'A fisioterapia é o centro do tratamento na maioria dos casos, com exercícios de controle motor, fortalecimento e orientação sobre postura. Infiltrações com corticoide podem aliviar uma crise e permitir que a pessoa volte a se movimentar, mas o efeito costuma durar dias ou semanas. Não há comprovação de que suplementos ou aparelhos de tração resolvam o osteófito.',
+        ],
+        bullets: [
+          'Atividade física orientada e fortalecimento do tronco',
+          'Analgésicos e anti-inflamatórios por tempo curto, com avaliação médica',
+          'Fisioterapia com exercícios e educação sobre postura',
+          'Infiltração com corticoide em crises selecionadas',
+          'Perda de peso quando há excesso',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Quando a cirurgia é indicada?',
+        paragraphs: [
+          'A cirurgia é exceção. Ela é considerada quando há compressão nervosa com perda de força que progride, quando a dor e a limitação para caminhar continuam apesar de um tratamento bem conduzido por três meses ou mais, ou quando aparecem sinais de compressão da cauda equina, que é uma urgência.',
+          'A técnica depende do que está comprimindo. Na estenose, o cirurgião retira parte do osso e do ligamento que estreitam o canal. Quando a coluna está instável, acrescenta-se a fusão entre vértebras, com parafusos e enxerto ósseo. A descompressão endoscópica, por incisão pequena, é uma opção em casos selecionados.',
+          'A decisão é sempre individual. Idade avançada, outras doenças e o estado dos ossos pesam na escolha, e vale conversar sobre riscos, tempo de recuperação e expectativa realista antes de operar.',
+        ],
+        bullets: [
+          'Perda de força progressiva ou compressão da cauda equina',
+          'Dor e limitação para caminhar que não melhoram com tratamento clínico',
+          'Estenose grave com qualidade de vida muito afetada',
+          'Instabilidade da coluna que exige fusão',
+        ],
+      },
+      {
+        id: 'recuperacao',
+        heading: 'Recuperação e reabilitação',
+        paragraphs: [
+          'Na maioria das pessoas, a crise melhora em dias ou semanas. Estima-se que oito a nove em cada dez episódios de dor lombar se resolvam em até seis semanas, com ou sem medicação, desde que a pessoa continue se movimentando dentro do possível.',
+          'Depois da cirurgia de descompressão, a internação costuma durar de quatro a cinco dias e o retorno às atividades habituais pode levar de três a quatro meses. Cerca de dois terços dos operados têm melhora importante ou completa da dor nas pernas. O acompanhamento com fisioterapia é o que sustenta o resultado.',
+          'A reabilitação inclui caminhada progressiva, exercícios para glúteos, abdome e paravertebrais, alongamento de posterior de coxa e orientação para levantar peso com a coluna alinhada. O objetivo não é eliminar o osteófito, que não desaparece, e sim recuperar função e evitar novos episódios.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'A rotina é o que mais influencia o desconforto. Levantar a cada 40 ou 50 minutos, apoiar os pés no chão quando estiver sentado, usar uma almofada na altura da lombar e ajustar a tela do computador na altura dos olhos reduz a carga sobre a coluna ao longo do dia.',
+          'Para pegar um objeto no chão, agache com os joelhos e mantenha o peso perto do corpo, em vez de dobrar a coluna. Ao dormir, um travesseiro entre os joelhos, de lado, ou sob os joelhos, de barriga para cima, ajuda a manter a lombar em posição neutra. Colchão muito mole e muito duro atrapalham igualmente.',
+          'O calor local por 20 minutos pode aliviar a contratura, e o gelo é mais útil nas primeiras 48 horas depois de um esforço. Se a dor mudar de padrão, descer para a perna ou vier com perda de força, volte a procurar atendimento em vez de insistir no cuidado caseiro.',
+        ],
+        bullets: [
+          'Levantar e caminhar um pouco a cada hora',
+          'Agachar com os joelhos para pegar peso no chão',
+          'Ajustar cadeira, apoio lombar e altura da tela',
+          'Dormir de lado com travesseiro entre os joelhos',
+        ],
+        cta: {
+          label: 'Veja exercícios e cuidados que sustentam a coluna',
+          href: '/artigos/espondilose-lombar-exercicios-e-cuidados-no-dia-a-dia/',
+        },
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir novos episódios',
+        paragraphs: [
+          'Não existe forma de impedir o envelhecimento da coluna, mas é possível reduzir a sobrecarga que acelera o desgaste e diminuir a chance de a dor voltar. O ponto central é manter a musculatura do tronco ativa e o peso corporal dentro da faixa saudável.',
+          'Quem passa muitas horas sentado deve fazer pausas curtas e frequentes, e não apenas uma longa pausa no meio do dia. Quem levanta peso no trabalho precisa de orientação técnica e, quando possível, de ajuda mecânica. O tabagismo também prejudica a nutrição do disco e vale ser tratado.',
+        ],
+        bullets: [
+          'Fortalecer abdome, glúteos e paravertebrais duas a três vezes por semana',
+          'Manter o peso corporal adequado',
+          'Interromper o tempo sentado com pausas curtas',
+          'Aprender a técnica correta de levantamento de peso',
+          'Tratar o tabagismo e manter o sono regular',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Bico de papagaio tem cura?',
+        answer:
+          'O osteófito não desaparece, porque é osso formado. O que se trata é o sintoma: com atividade orientada, fisioterapia e ajustes na rotina, a maioria das pessoas volta a viver sem dor mesmo mantendo o achado na radiografia.',
+      },
+      {
+        question: 'Bico de papagaio causa dor?',
+        answer:
+          'Nem sempre. Muitas pessoas têm osteófito e nunca sentem nada. A dor aparece quando o crescimento ósseo estreita o canal ou o espaço de saída do nervo, ou quando há sobrecarga muscular associada.',
+      },
+      {
+        question: 'Preciso operar a coluna?',
+        answer:
+          'Na maioria dos casos, não. A cirurgia fica para perda de força progressiva, compressão da cauda equina ou dor e limitação que continuam apesar de tratamento clínico bem feito por três meses ou mais.',
+      },
+      {
+        question: 'Quem tem espondilose pode fazer exercício?',
+        answer:
+          'Pode e deve. Exercícios de fortalecimento e alongamento reduzem a dor e a chance de novos episódios. O ideal é começar com orientação de fisioterapeuta ou educador físico acostumado a trabalhar com dor lombar.',
+      },
+      {
+        question: 'Qual a diferença entre bico de papagaio e hérnia de disco?',
+        answer:
+          'O bico de papagaio é osso formado na borda da vértebra pelo desgaste. A hérnia é o disco que se desloca e comprime o nervo. As duas podem coexistir, e o exame de imagem mostra qual está causando o sintoma.',
+      },
+      {
+        question: 'Cinto ou colete ajuda?',
+        answer:
+          'Pode ajudar por poucos dias, em uma crise intensa ou no pós-operatório. O uso prolongado enfraquece a musculatura e não é recomendado como solução permanente.',
+      },
+      {
+        question: 'Alongar de manhã resolve?',
+        answer:
+          'Ajuda a aliviar a rigidez matinal, mas sozinho não sustenta o resultado. O que muda o curso da dor lombar é a combinação de fortalecimento, movimento ao longo do dia e ajustes na forma de carregar peso.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'espondilose-lombar-sintomas-e-quando-procurar-atendimento',
+      'espondilose-lombar-exercicios-e-cuidados-no-dia-a-dia',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['artrite-reumatoide', 'gota', 'obesidade'],
+    references: [
+      {
+        label: 'Dor lombar, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/dor-lombar-e-no-pesco%C3%A7o/dor-lombar',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Hérnia de disco, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/dor-lombar-e-no-pesco%C3%A7o/h%C3%A9rnia-de-disco',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Low back pain: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/low-back-pain',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-do-colo-do-utero',
+    slug: 'cancer-do-colo-do-utero',
+    name: 'Câncer do colo do útero',
+    aliases: [
+      'câncer cervical',
+      'câncer de colo de útero',
+      'carcinoma do colo uterino',
+      'câncer de colo uterino',
+    ],
+    summary:
+      'Tumor que começa na parte do útero que se abre para a vagina e está ligado à infecção persistente pelo HPV. Cresce devagar, é precedido por lesões que o rastreamento detecta e tem alta chance de cura quando encontrado cedo.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é câncer do colo do útero?',
+        paragraphs: [
+          'O colo do útero é a parte estreita do útero que forma um canal entre o corpo do órgão e a vagina. O câncer do colo começa quando as células dessa região passam a se multiplicar sem controle, em geral depois de anos de infecção pelo papilomavírus humano, o HPV.',
+          'A doença evolui em etapas. Antes do tumor, aparecem lesões precursoras que não dão sintoma e só são vistas no rastreamento. Tratadas nessa fase, elas impedem o câncer. Quando o tumor já se instalou, o crescimento é local por um tempo e só mais tarde alcança gânglios e outros órgãos.',
+          'Essa história natural longa é o que torna o câncer do colo do útero tão prevenível. Vacina contra o HPV e rastreamento periódico atuam em pontos diferentes: a vacina reduz o risco de infecção, e o exame encontra a lesão antes de ela virar tumor. Nenhum dos dois substitui o outro.',
+        ],
+      },
+      {
+        id: 'tipos-e-estagios',
+        heading: 'Quais são os tipos e os estágios?',
+        paragraphs: [
+          'O tipo mais frequente é o carcinoma escamoso, que nasce nas células de revestimento do colo. O adenocarcinoma vem das glândulas do canal cervical e tem crescido em frequência. Existem ainda formas mistas e tipos raros, como o carcinoma de pequenas células, que costumam exigir tratamento mais intenso.',
+          'O estadiamento descreve até onde o tumor chegou e é o que define a estratégia terapêutica. Ele vai do estágio I, restrito ao colo, ao IV, com disseminação para a bexiga, o reto ou órgãos distantes. O estadiamento é clínico e usa exame físico, imagem e, em alguns casos, avaliação de gânglios.',
+        ],
+        bullets: [
+          'Carcinoma escamoso: o tipo mais comum, a partir das células de superfície',
+          'Adenocarcinoma: começa nas glândulas do canal do colo',
+          'Carcinoma adenosecamoso: mistura os dois padrões',
+          'Estágio I: tumor limitado ao colo do útero',
+          'Estágio II: alcança a parte de cima da vagina ou o tecido ao redor do colo',
+          'Estágio III: chega à parede da pelve, à parte de baixo da vagina ou a gânglios',
+          'Estágio IV: invade bexiga, reto ou órgãos à distância',
+        ],
+      },
+      {
+        id: 'hpv-e-transmissao',
+        heading: 'HPV e transmissão: como o vírus chega ao colo',
+        paragraphs: [
+          'O HPV é o vírus sexualmente transmissível mais comum no mundo, com mais de 200 tipos identificados. Uma parte deles causa verrugas genitais e outra está associada a tumores, entre eles o do colo do útero. Os tipos 16 e 18 respondem pela maior parte dos casos de câncer.',
+          'A transmissão acontece por contato sexual com penetração, mas também pelo contato de pele na região genital, o que explica por que o preservativo reduz o risco sem eliminar a transmissão. A camisinha não cobre toda a vulva, a região perineal e a bolsa escrotal.',
+          'A maioria das infecções é eliminada pelo próprio organismo em até dois anos. O problema está na persistência: quando o vírus permanece por anos, o epitélio do colo acumula alterações que podem evoluir para lesão precursora e, depois, para câncer. Por isso a infecção pelo HPV é comum e o câncer não é.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que aumenta o risco de câncer do colo do útero?',
+        paragraphs: [
+          'O fator necessário é a infecção persistente por HPV de alto risco. Sobre ele atuam condições que favorecem a persistência do vírus ou a progressão da lesão.',
+          'Imunidade baixa é o principal agravante: pessoas vivendo com HIV, transplantadas e em tratamento oncológico têm mais chance de infecção persistente e de progressão mais rápida. Tabagismo, início precoce da vida sexual, múltiplos parceiros e uso prolongado de anticoncepcional oral aparecem associados ao maior risco nas séries brasileiras.',
+        ],
+        bullets: [
+          'Infecção persistente por HPV de alto risco, sobretudo os tipos 16 e 18',
+          'Imunidade reduzida, como em pessoas vivendo com HIV ou em uso de imunossupressores',
+          'Tabagismo, incluindo a exposição à fumaça de segunda mão',
+          'Início da vida sexual em idade precoce e múltiplos parceiros',
+          'Uso prolongado de anticoncepcional oral',
+          'Nunca ter feito o exame de rastreamento ou estar com o seguimento atrasado',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'No começo, o câncer do colo do útero não dá sintoma. É por isso que o rastreamento existe: ele encontra a lesão antes de qualquer queixa. Quando o tumor cresce, o sinal mais comum é sangramento fora do período menstrual ou depois da relação sexual.',
+          'Outros sinais incluem sangramento entre as menstruações, sangramento depois da menopausa, corrimento com sangue ou com mau cheiro e dor durante a relação. Nenhum deles confirma câncer, e todos merecem investigação, porque também aparecem em infecções e em lesões benignas.',
+          'Em fases mais avançadas, o tumor comprime estruturas vizinhas e provoca dor na pelve ou na parte baixa das costas, cansaço intenso por anemia, problemas nos rins quando obstrui o ureter, e inchaço nas pernas. Sangramento intenso e perda de peso completam o quadro.',
+        ],
+        bullets: [
+          'Sangramento durante ou depois da relação sexual',
+          'Sangramento entre as menstruações',
+          'Sangramento depois da menopausa',
+          'Corrimento com sangue ou com mau cheiro',
+          'Dor durante a relação sexual',
+          'Dor na pelve ou na parte baixa das costas, cansaço e inchaço nas pernas em fases avançadas',
+        ],
+        cta: {
+          label: 'Leia também: os sintomas e os sinais de alerta do câncer do colo do útero',
+          href: '/artigos/cancer-do-colo-do-utero-sintomas-e-sinais-de-alerta/',
+        },
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Qualquer sangramento vaginal que não seja a menstruação esperada precisa de avaliação, especialmente depois da menopausa ou depois da relação sexual. O mesmo vale para corrimento persistente com mau cheiro que não melhora com o tratamento habitual.',
+          'Procure um serviço de saúde sem esperar a próxima consulta de rotina se aparecer:',
+        ],
+        bullets: [
+          'Sangramento vaginal abundante, com coágulos ou que encharca a roupa',
+          'Sangramento depois da menopausa, mesmo em pequena quantidade',
+          'Corrimento com mau cheiro forte e persistente',
+          'Dor pélvica contínua que piora à noite',
+          'Inchaço nas pernas, diminuição da urina ou sangue na urina',
+          'Febre com dor pélvica e corrimento, que pode indicar infecção',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O caminho começa no rastreamento. O exame de Papanicolau colhe células do colo e identifica alterações que antecedem o câncer. Desde 2024, o SUS incorporou o teste molecular de DNA-HPV, mais sensível, que passa a ser o método principal e permite intervalos maiores entre os exames.',
+          'Quando o rastreamento vem alterado, o próximo passo é a colposcopia, que amplia a imagem do colo e permite ver onde a lesão está. Diante de uma área suspeita, o médico retira um fragmento para análise no microscópio. É a biópsia que confirma o diagnóstico e define o tipo de tumor.',
+          'Confirmado o câncer, o estadiamento usa exame físico, imagem da pelve e do abdome e, conforme o caso, avaliação dos gânglios. Esse conjunto define se o tratamento será cirúrgico ou baseado em radioterapia e quimioterapia, e é a etapa em que se decide também o desejo de preservar a fertilidade.',
+        ],
+        bullets: [
+          'Teste molecular de DNA-HPV ou Papanicolau como rastreamento',
+          'Colposcopia quando há alteração no rastreamento',
+          'Biópsia do colo para confirmar e tipar o tumor',
+          'Exame de imagem para estadiamento',
+          'Avaliação de gânglios conforme o estágio suspeito',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode parecer câncer do colo do útero?',
+        paragraphs: [
+          'Sangramento e corrimento anormal têm muitas causas, e a maioria não é câncer. Lesões benignas do colo, como pólipos e ectopia, sangram com facilidade ao contato e assustam, mas são tratadas de forma simples.',
+          'Infecções também entram na lista, entre elas a cervicite por clamídia, a tricomoníase e a candidíase. Alterações de células benignas no Papanicolau são frequentes e não significam tumor. A biópsia é o que separa os casos e evita tanto o excesso de tratamento quanto o atraso no diagnóstico.',
+        ],
+        bullets: [
+          'Pólipos e ectopia do colo',
+          'Cervicite por clamídia, gonococo ou tricomonas',
+          'Candidíase e vaginose bacteriana',
+          'Lesões precursoras de baixo grau',
+          'Metástase no colo vinda de outro tumor, como o do endométrio',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como o câncer do colo do útero é tratado?',
+        paragraphs: [
+          'O tratamento depende do estágio, do tipo de tumor, da idade e do desejo de engravidar. Lesões precursoras são tratadas com procedimentos que removem ou destroem a área alterada, preservando o útero na maior parte dos casos.',
+          'Nos estágios iniciais, a cirurgia costuma ser suficiente. Em tumores localmente avançados, a combinação de radioterapia com quimioterapia é o padrão, porque o carcinoma escamoso responde bem à radiação. Nos casos metastáticos, entram a quimioterapia sistêmica, a terapia-alvo com bevacizumabe e a imunoterapia.',
+          'O tratamento é oferecido pelo SUS, do diagnóstico ao seguimento, em serviços de referência em oncologia. O acompanhamento com ginecologista e oncologista é parte do cuidado, e a decisão sobre cada etapa deve ser discutida com a equipe que acompanha o caso.',
+        ],
+        bullets: [
+          'Cirurgia para lesões precursoras e tumores iniciais',
+          'Radioterapia combinada com quimioterapia nos tumores localmente avançados',
+          'Quimioterapia sistêmica na doença avançada ou recidivada',
+          'Terapia-alvo e imunoterapia em casos selecionados',
+          'Cuidados paliativos para controle de sintomas quando indicado',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Cirurgia: tipos e recuperação',
+        paragraphs: [
+          'A retirada de uma área pequena do colo, feita por bisturi ou por alça elétrica, trata lesões precursoras e preserva a capacidade de engravidar. Em tumores iniciais, a histerectomia retira o útero e o colo, e pode incluir gânglios da pelve. Para quem deseja ter filhos e tem tumor muito pequeno, existe a traquelectomia radical, que remove o colo e preserva o corpo do útero.',
+          'A recuperação varia com o porte da cirurgia. Após a retirada de uma área pequena, o retorno às atividades costuma ser rápido, e a orientação é evitar relações sexuais por cerca de um mês. Depois da histerectomia, o esforço físico é limitado por algumas semanas, e o tempo exato depende da via cirúrgica e da evolução.',
+          'Complicações possíveis incluem infecção da ferida, sangramento, dificuldade para urinar e trombose nas pernas. A equipe orienta sobre sinais de alerta e sobre a profilaxia de trombose, que pode incluir medicação e movimentação precoce.',
+        ],
+        bullets: [
+          'Conização ou exérese por alça para lesões precursoras',
+          'Histerectomia com ou sem retirada de gânglios',
+          'Traquelectomia radical para preservar a fertilidade em casos selecionados',
+          'Radioterapia pélvica como alternativa à cirurgia em alguns estágios',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Prognóstico: qual a chance de cura?',
+        paragraphs: [
+          'A chance de cura depende sobretudo do estágio no momento do diagnóstico. Quando o tumor é encontrado na fase inicial, as chances de cura chegam a 100%, segundo o Instituto Nacional de Câncer. Nos estágios avançados, o objetivo passa a ser controlar a doença, aliviar sintomas e prolongar a vida com qualidade.',
+          'Alguns tipos histológicos, como o carcinoma de pequenas células e o neuroendócrino, respondem pior ao tratamento e exigem abordagem mais agressiva. O estado geral da pessoa, a presença de outras doenças e a adesão ao tratamento também influenciam o desfecho.',
+          'Mesmo depois do tratamento com intenção curativa, existe risco de recidiva, maior nos primeiros dois anos. É por isso que o seguimento com consultas e exames periódicos é mantido por vários anos.',
+        ],
+      },
+      {
+        id: 'recuperacao',
+        heading: 'Recuperação e complicações do tratamento',
+        paragraphs: [
+          'A radioterapia pélvica costuma provocar cansaço, irritação da pele e desconforto intestinal, que melhoram com o tempo. A quimioterapia pode causar náusea, queda de cabelo e queda das células do sangue, com risco de anemia e infecção. A equipe acompanha esses efeitos e ajusta o suporte conforme necessário.',
+          'Entre as complicações tardias estão a estenose vaginal, que torna a relação sexual dolorosa, a fistula entre a bexiga ou o intestino e a vagina, e a dificuldade para urinar. A dilatação vaginal orientada e o retorno precoce à atividade sexual, quando liberado, ajudam a prevenir a estenose.',
+          'O seguimento após o tratamento costuma ser a cada três ou seis meses nos primeiros anos e, depois, a cada seis ou doze meses. Nesse período, manter alimentação adequada, atividade física, sono regular e acompanhamento de saúde mental faz parte da recuperação.',
+        ],
+        bullets: [
+          'Cansaço e irritação da pele durante a radioterapia',
+          'Náusea e queda das células do sangue durante a quimioterapia',
+          'Estenose vaginal após radioterapia',
+          'Fístulas e alterações urinárias em casos avançados',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Vida diária e seguimento',
+        paragraphs: [
+          'Depois do tratamento, o corpo muda e a rotina precisa de ajustes. A fadiga costuma ser o sintoma mais persistente e melhora com atividade física leve e regular, sono consistente e divisão das tarefas ao longo do dia.',
+          'O acompanhamento é a parte do cuidado que não pode faltar. Voltar às consultas e repetir os exames nos intervalos indicados é o que permite detectar recidiva cedo. Sangramento novo, dor pélvica, corrimento com mau cheiro ou perda de peso devem ser relatados na hora, sem esperar a consulta marcada.',
+          'A sexualidade merece conversa aberta com a equipe. Dor, ressecamento e medo são comuns e têm tratamento, incluindo lubrificantes, fisioterapia do assoalho pélvico e apoio psicológico. Nenhuma dessas dificuldades precisa ser enfrentada em silêncio.',
+        ],
+        bullets: [
+          'Manter as consultas de seguimento nos intervalos indicados',
+          'Relatar sangramento, dor ou corrimento novos',
+          'Fazer atividade física leve de forma regular',
+          'Conversar sobre sexualidade e saúde mental com a equipe',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o câncer do colo do útero',
+        paragraphs: [
+          'A prevenção tem duas frentes que se completam. A vacina contra o HPV reduz a chance de infecção pelos tipos mais associados ao câncer, e o rastreamento encontra lesões antes que virem tumor. Quem foi vacinado continua precisando fazer os exames na idade indicada.',
+          'No SUS, a vacina é oferecida em dose única para crianças e adolescentes de 9 a 14 anos. Pessoas vivendo com HIV, transplantadas e em tratamento oncológico recebem três doses, e há esquemas específicos para vítimas de abuso sexual e para usuários de profilaxia pré-exposição ao HIV. A vacina protege contra os tipos 6, 11, 16 e 18.',
+          'O rastreamento é indicado dos 25 aos 64 anos para quem tem colo do útero e já iniciou a vida sexual. Com o teste de DNA-HPV, o intervalo passa a ser de cinco anos após um resultado negativo. O preservativo reduz o risco de transmissão, sem eliminar a possibilidade, porque o vírus também está em áreas que a camisinha não cobre.',
+        ],
+        bullets: [
+          'Vacina contra o HPV em dose única dos 9 aos 14 anos',
+          'Rastreamento dos 25 aos 64 anos',
+          'Teste de DNA-HPV a cada cinco anos quando o resultado é negativo',
+          'Preservativo em todas as relações, sem substituir a vacina',
+          'Não fumar e tratar o tabagismo',
+        ],
+        cta: {
+          label: 'Veja como funcionam a vacina e o rastreamento',
+          href: '/artigos/cancer-do-colo-do-utero-hpv-vacina-e-rastreamento/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Câncer do colo do útero é contagioso?',
+        answer:
+          'O câncer não se transmite. O que se transmite é o HPV, vírus ligado ao tumor, por contato sexual. A maior parte das infecções é eliminada pelo organismo, e só a persistência por anos favorece o câncer.',
+      },
+      {
+        question: 'Quem tomou a vacina contra o HPV precisa fazer o Papanicolau?',
+        answer:
+          'Sim. A vacina cobre os tipos mais frequentes, mas não todos os que causam câncer. O rastreamento continua indicado dos 25 aos 64 anos, mesmo para quem foi vacinado.',
+      },
+      {
+        question: 'Com que idade começa o rastreamento?',
+        answer:
+          'Aos 25 anos, para quem tem colo do útero e já iniciou a vida sexual. O exame segue até os 64 anos. Com o teste de DNA-HPV, o intervalo é de cinco anos após um resultado negativo.',
+      },
+      {
+        question: 'Sangrar depois da relação sexual é sinal de câncer?',
+        answer:
+          'Não necessariamente. Pólipos, ectopia e infecções também sangram ao contato. Como o sangramento pós-coital é um dos primeiros sinais do tumor, ele precisa ser investigado com exame e colposcopia quando indicada.',
+      },
+      {
+        question: 'É possível engravidar depois do tratamento?',
+        answer:
+          'Em alguns casos, sim. Lesões precursoras tratadas com retirada de uma área pequena preservam o útero. Em tumores iniciais selecionados, a traquelectomia radical remove o colo e mantém o corpo do útero. A possibilidade depende do estágio e deve ser discutida antes do tratamento.',
+      },
+      {
+        question: 'O câncer do colo do útero volta?',
+        answer:
+          'Pode voltar, com maior risco nos primeiros dois anos. Por isso o seguimento com consultas e exames continua por vários anos, mesmo depois de o tratamento terminar.',
+      },
+      {
+        question: 'Homens também podem se vacinar contra o HPV?',
+        answer:
+          'Podem. No SUS, a vacina é oferecida para meninos de 9 a 14 anos na rotina e para grupos específicos, como pessoas vivendo com HIV e transplantadas. A vacinação masculina reduz a circulação do vírus e protege contra outros tumores relacionados ao HPV.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'cancer-do-colo-do-utero-sintomas-e-sinais-de-alerta',
+      'cancer-do-colo-do-utero-hpv-vacina-e-rastreamento',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'saude-da-mulher', 'prevencao'],
+    relatedDiseaseSlugs: ['cancer-de-pele', 'hiv-aids', 'infeccao-urinaria'],
+    references: [
+      {
+        label: 'Câncer do colo do útero, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'HPV',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Cervical cancer: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cervical-cancer',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'depressao',
+    slug: 'depressao',
+    name: 'Depressão',
+    aliases: [
+      'transtorno depressivo',
+      'depressão maior',
+      'episódio depressivo',
+      'transtorno depressivo maior',
+    ],
+    summary:
+      'Transtorno mental que combina tristeza persistente, perda de interesse e alterações de sono, apetite e energia por pelo menos duas semanas. Tem tratamento eficaz e não é sinal de fraqueza.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é depressão?',
+        paragraphs: [
+          'Depressão é um transtorno mental em que o humor deprimido e a perda de interesse ou de prazer se mantêm por pelo menos duas semanas, quase todos os dias, e atrapalham o trabalho, os estudos ou as relações. Não é tristeza passageira nem falta de força de vontade: é uma condição clínica com sintomas reconhecíveis e tratamento.',
+          'O que a distingue de um dia ruim é a duração, a intensidade e o alcance. Na depressão, a pessoa deixa de sentir prazer em coisas que gostava, o sono muda, o apetite muda, a energia cai e a capacidade de concentração diminui. Pensamentos de culpa, de inutilidade e de morte podem aparecer.',
+          'O Ministério da Saúde estima que a prevalência de depressão ao longo da vida no Brasil fique em torno de 15,5%. Apesar de comum, boa parte das pessoas demora anos para procurar ajuda, porque confunde o quadro com cansaço ou porque teme o julgamento. O tratamento existe, é oferecido na rede pública e muda o desfecho.',
+        ],
+      },
+      {
+        id: 'quem-afeta',
+        heading: 'Quem é mais afetado?',
+        paragraphs: [
+          'A depressão pode começar em qualquer idade, mas o período mais comum é o fim da terceira década de vida. Estudos brasileiros mostram prevalência ao longo da vida de até 20% entre mulheres e 12% entre homens, diferença que combina fatores hormonais, sociais e a maior procura masculina por ajuda apenas quando o quadro já está grave.',
+          'A doença é uma das principais causas de anos vividos com incapacidade no mundo, segundo a Organização Mundial da Saúde. Isso significa que ela não pesa apenas no sofrimento individual: afasta do trabalho, reduz o rendimento escolar e sobrecarrega a família.',
+          'Pessoas com doenças crônicas, como diabetes, câncer e dor persistente, apresentam depressão com mais frequência. O inverso também é verdadeiro: a depressão piora o controle dessas doenças, porque reduz o cuidado com a medicação, a alimentação e o sono.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de depressão?',
+        paragraphs: [
+          'A apresentação varia muito. A classificação ajuda a escolher o tratamento e a prever a evolução, mas não transforma a pessoa em um diagnóstico.',
+          'A distimia é mais leve e crônica, com sintomas presentes na maior parte do dia por pelo menos dois anos. A depressão sazonal aparece no outono e no inverno e melhora na primavera. A forma psicótica cursa com delírios ou alucinações e exige cuidado intensivo. A depressão bipolar começa com um episódio depressivo e só se revela quando surge a fase de mania ou hipomania.',
+        ],
+        bullets: [
+          'Episódio depressivo: sintomas por duas semanas ou mais, com prejuízo de função',
+          'Distimia: forma crônica e mais leve, com pelo menos dois anos de sintomas',
+          'Depressão sazonal: começa no outono e no inverno, melhora na primavera',
+          'Depressão psicótica: acompanhada de delírios ou alucinações',
+          'Depressão bipolar: episódio depressivo dentro de um transtorno bipolar',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Por que a depressão aparece?',
+        paragraphs: [
+          'Não existe uma causa única. O que se sabe é que fatores genéticos, biológicos e ambientais se somam, e que a doença não é consequência de uma escolha ou de uma falha de caráter.',
+          'Estudos com famílias, gêmeos e pessoas adotadas indicam um componente genético que responde por cerca de 40% da suscetibilidade. Alterações na regulação de neurotransmissores como serotonina, noradrenalina e dopamina participam do quadro, e é nesse sistema que agem os antidepressivos.',
+          'Eventos de vida têm peso importante. Perdas, violência, desemprego, isolamento e sobrecarga crônica podem desencadear o primeiro episódio em quem já tem predisposição. Alterações do sono, uso de álcool e algumas doenças clínicas também funcionam como gatilho.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quais fatores aumentam o risco?',
+        paragraphs: [
+          'Nenhum fator isolado determina a doença. O risco cresce quando vários se acumulam, e alguns deles podem ser trabalhados com apoio profissional.',
+          'Vale olhar com atenção para quem tem histórico familiar, já teve um episódio depressivo, vive com dor crônica ou doença incapacitante, ou passou por perda recente. Quem teve um episódio tem chance maior de ter outros, e por isso o seguimento depois da melhora é parte do tratamento.',
+        ],
+        bullets: [
+          'História familiar de depressão ou de transtorno bipolar',
+          'Episódio depressivo anterior',
+          'Estresse crônico, luto e eventos traumáticos',
+          'Doenças crônicas, dor persistente e incapacidade',
+          'Uso abusivo de álcool e de outras drogas',
+          'Isolamento social e falta de apoio',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'O núcleo do quadro é o humor deprimido e a perda de interesse ou de prazer. A pessoa descreve tristeza constante, sensação de vazio, ou mesmo a impressão de não sentir mais nada. Atividades que antes davam satisfação passam a ser cumpridas de forma mecânica.',
+          'Junto vêm alterações do corpo: insônia ou sonolência, apetite reduzido ou aumentado, cansaço que não melhora com repouso, dor difusa, aperto no peito e problemas digestivos. A concentração cai, a memória falha e decisões simples ficam difíceis.',
+          'O pensamento fica marcado por autocrítica, culpa e desesperança. Em quadros graves aparecem lentidão motora intensa, agitação, ideias de morte e planos de se matar. Nem toda pessoa apresenta todos os sintomas, e a ausência de choro não exclui a doença.',
+        ],
+        bullets: [
+          'Tristeza persistente ou sensação de vazio',
+          'Perda de interesse e de prazer',
+          'Insônia ou sonolência excessiva',
+          'Cansaço e falta de energia',
+          'Dificuldade de concentração e de memória',
+          'Culpa, autodesvalorização e desesperança',
+          'Pensamentos de morte ou de se matar',
+        ],
+        cta: {
+          label: 'Leia também: os sintomas que passam de tristeza e quando procurar ajuda',
+          href: '/artigos/depressao-sintomas-e-quando-procurar-ajuda/',
+        },
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e risco de suicídio',
+        paragraphs: [
+          'Depressão é a condição mais associada ao suicídio. Falar sobre morte, dizer que é um peso para os outros, se isolar, distribuir objetos pessoais ou se despedir são sinais que precisam ser levados a sério, e não tratados como ameaça ou chantagem.',
+          'Se você pensa em se matar, ou se alguém perto de você está em risco, procure ajuda agora. Ligue para o CVV no 188, que atende de graça, 24 horas por dia, ou vá a um CAPS, a uma UBS, a uma UPA ou a um pronto-socorro. Em situação de risco imediato, chame o SAMU pelo 192.',
+        ],
+        bullets: [
+          'Falar ou escrever sobre querer morrer',
+          'Dizer que é um peso para a família ou que todos ficariam melhor sem ele',
+          'Isolar-se e abandonar atividades de que gostava',
+          'Distribuir objetos pessoais e se despedir',
+          'Aumento do uso de álcool ou de outras drogas',
+          'Agitação intensa em quem estava muito lentificado',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a depressão é diagnosticada?',
+        paragraphs: [
+          'O diagnóstico é clínico. Não existe exame de sangue que confirme depressão. O profissional ouve a história, avalia a duração e a intensidade dos sintomas, o prejuízo na vida diária e o risco de suicídio, e examina o estado mental.',
+          'Instrumentos como o PHQ-9 ajudam a medir a gravidade e a acompanhar a evolução, mas não substituem a avaliação. O médico também precisa descartar causas orgânicas, como hipotireoidismo e anemia, e efeitos de medicamentos que podem simular ou agravar o quadro.',
+          'A avaliação inclui perguntar sobre episódios de euforia, porque o tratamento da depressão bipolar é diferente e o uso isolado de antidepressivo pode desencadear mania. Esse cuidado muda a conduta e evita piora.',
+        ],
+        bullets: [
+          'Entrevista clínica com duração e intensidade dos sintomas',
+          'Avaliação do risco de suicídio em toda consulta',
+          'Exames para afastar hipotireoidismo, anemia e outras causas',
+          'Revisão de medicamentos e de uso de álcool',
+          'Escalas como o PHQ-9 para medir gravidade e seguimento',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com depressão?',
+        paragraphs: [
+          'Tristeza e desânimo acompanham muitas situações e nem sempre são doença. O luto, a resposta a uma doença grave e o cansaço por privação de sono podem se parecer com depressão, e a diferença está na persistência e no prejuízo.',
+          'Algumas condições clínicas imitam o quadro, entre elas o hipotireoidismo, a anemia e a apneia do sono. O transtorno bipolar é a diferenciação mais importante, porque o tratamento é distinto. Quadros psicóticos, uso de substâncias e demências também entram na lista.',
+        ],
+        bullets: [
+          'Transtorno bipolar',
+          'Hipotireoidismo e anemia',
+          'Luto e reação a evento grave',
+          'Uso de álcool e de outras drogas',
+          'Esquizofrenia e outros transtornos psicóticos',
+          'Demências em pessoas idosas',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a depressão é tratada?',
+        paragraphs: [
+          'O tratamento combina psicoterapia e, nos quadros moderados e graves, medicação. A escolha do antidepressivo considera o tipo de depressão, o histórico de resposta, as doenças associadas e os efeitos colaterais de cada classe. Não existe o melhor remédio para todos.',
+          'Os antidepressivos levam de duas a quatro semanas para começar a fazer efeito. Se depois de seis a oito semanas não houver resposta, a estratégia é revista, com troca ou associação. A fase de continuação dura de quatro a seis meses após a melhora, com a mesma dose, e a manutenção pode se estender por dois a três anos em quem tem recorrência.',
+          'Interromper o medicamento por conta própria é a principal causa de recaída. A retirada precisa ser gradual e acompanhada. O Ministério da Saúde registra que 90% a 95% das pessoas apresentam remissão dos sintomas com tratamento antidepressivo, o que mostra o peso da adesão no resultado.',
+        ],
+        bullets: [
+          'Psicoterapia, sobretudo a terapia cognitivo-comportamental',
+          'Antidepressivos nos quadros moderados e graves',
+          'Ajuste de dose e de classe conforme resposta',
+          'Manutenção por tempo prolongado em casos recorrentes',
+          'Acompanhamento na UBS ou no CAPS',
+        ],
+        cta: {
+          label: 'Veja como é o tratamento e como ajudar alguém',
+          href: '/artigos/depressao-tratamento-e-como-ajudar-alguem/',
+        },
+      },
+      {
+        id: 'psicoterapia-e-outras',
+        heading: 'Psicoterapia, estimulação e outros recursos',
+        paragraphs: [
+          'A psicoterapia ajuda a reconhecer padrões de pensamento, a lidar com perdas e a reconstruir a rotina. Na depressão leve, pode ser suficiente. Nos quadros moderados e graves, funciona melhor junto com a medicação.',
+          'A estimulação magnética transcraniana e a eletroconvulsoterapia são recursos para casos que não respondem ao tratamento ou que têm risco elevado. A eletroconvulsoterapia é feita sob anestesia e continua sendo um dos tratamentos mais eficazes em depressão grave com risco de suicídio.',
+          'Atividade física regular tem efeito comprovado sobre o humor e faz parte do plano, assim como cuidar do sono e reduzir o álcool. Práticas complementares podem ajudar no bem-estar, mas não substituem o tratamento quando ele está indicado.',
+        ],
+        bullets: [
+          'Terapia cognitivo-comportamental e terapia interpessoal',
+          'Estimulação magnética transcraniana em casos selecionados',
+          'Eletroconvulsoterapia na depressão grave e resistente',
+          'Exercício físico regular como parte do plano terapêutico',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Prognóstico e risco de recaída',
+        paragraphs: [
+          'Com tratamento adequado, a maioria das pessoas melhora. A recuperação não é linear: há dias melhores e piores, e o retorno completo da energia costuma vir depois da melhora do humor, o que exige paciência com o próprio ritmo.',
+          'A recaída é frequente quando o tratamento é interrompido cedo. Quem já teve três ou mais episódios tem risco alto de novo quadro, e por isso a manutenção prolongada é indicada. O seguimento também serve para ajustar dose e detectar sinais precoces.',
+          'A depressão não tratada piora a qualidade de vida, afeta o controle de doenças crônicas e aumenta o risco de suicídio. Tratada, devolve função e reduz mortalidade, o que faz da busca por ajuda uma decisão clínica, e não um sinal de fraqueza.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'Manter uma rotina possível ajuda mais do que tentar fazer tudo de uma vez. Horários regulares para dormir e acordar, refeições em intervalos previsíveis e uma caminhada curta todos os dias sustentam a recuperação sem exigir energia que a pessoa ainda não tem.',
+          'Familiares e amigos têm papel concreto: ouvir sem minimizar, acompanhar às consultas, ajudar a organizar a medicação e ficar por perto nos momentos difíceis. Frases como "isso vai passar" costumam afastar; perguntar como a pessoa está e oferecer companhia aproxima.',
+          'Álcool e drogas pioram o humor e interagem com os antidepressivos. O uso de cigarros e a privação de sono também atrapalham. Se houver piora súbita, surgimento de ideias de morte ou parada da medicação, procure atendimento no mesmo dia.',
+        ],
+        bullets: [
+          'Manter horários regulares de sono e de refeições',
+          'Fazer atividade física leve todos os dias, se possível',
+          'Tomar a medicação sempre no mesmo horário',
+          'Evitar álcool e outras drogas',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'É possível prevenir?',
+        paragraphs: [
+          'Não existe uma forma garantida de evitar o primeiro episódio, porque as causas são múltiplas. O que se pode fazer é reduzir vulnerabilidades: tratar o estresse crônico, manter vínculos, cuidar do sono e procurar ajuda diante de sintomas que duram semanas.',
+          'Em quem já teve depressão, a prevenção é mais concreta. Completar o tratamento, manter o seguimento, reconhecer os sinais precoces e ter um plano para os momentos de piora reduzem de forma consistente o risco de recaída.',
+        ],
+        bullets: [
+          'Procurar ajuda quando os sintomas duram duas semanas ou mais',
+          'Manter vínculos sociais e apoio familiar',
+          'Cuidar do sono, da alimentação e da atividade física',
+          'Completar o tratamento e manter o seguimento',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Depressão é frescura ou falta de força de vontade?',
+        answer:
+          'Não. Depressão é um transtorno clínico com sintomas definidos, base biológica e tratamento eficaz. A pessoa não escolhe ficar deprimida, e cobrar força de vontade costuma piorar o isolamento e atrasar a busca por ajuda.',
+      },
+      {
+        question: 'Antidepressivo vicia?',
+        answer:
+          'Antidepressivos não causam dependência como o álcool ou os opioides. O que existe é a necessidade de retirada gradual, porque a interrupção abrupta provoca sintomas de descontinuação e aumenta o risco de recaída.',
+      },
+      {
+        question: 'Quanto tempo leva para o remédio fazer efeito?',
+        answer:
+          'Entre duas e quatro semanas para os primeiros efeitos. Se depois de seis a oito semanas não houver resposta, o médico revê a estratégia, trocando ou associando medicamentos.',
+      },
+      {
+        question: 'Preciso tomar remédio para sempre?',
+        answer:
+          'Não necessariamente. O tratamento costuma ter uma fase de continuação de quatro a seis meses após a melhora. Em quem tem episódios repetidos, a manutenção pode durar dois a três anos ou mais, sempre com avaliação médica.',
+      },
+      {
+        question: 'Depressão tem cura?',
+        answer:
+          'A maioria das pessoas melhora com tratamento e volta à vida habitual. Uma parte apresenta novos episódios ao longo da vida, e é por isso que o seguimento e o reconhecimento dos sinais precoces são importantes.',
+      },
+      {
+        question: 'Como ajudar alguém com depressão?',
+        answer:
+          'Ouça sem minimizar, ofereça companhia, ajude a marcar as consultas e a ir até elas e não deixe a pessoa sozinha se houver risco de suicídio. Em emergência, ligue para o CVV no 188 ou para o SAMU no 192.',
+      },
+      {
+        question: 'Exercício físico substitui remédio?',
+        answer:
+          'Não substitui nos quadros moderados e graves. A atividade física ajuda no humor e na qualidade de vida e deve fazer parte do plano, mas não é alternativa ao tratamento indicado pelo profissional.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'depressao-sintomas-e-quando-procurar-ajuda',
+      'depressao-tratamento-e-como-ajudar-alguem',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas'],
+    relatedDiseaseSlugs: ['insuficiencia-cardiaca', 'diabetes', 'enxaqueca'],
+    references: [
+      {
+        label: 'Depressão',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/depressao',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Suicídio: prevenção',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/suicidio',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Depression: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/depression',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-arterial-coronariana',
+    slug: 'doenca-arterial-coronariana',
+    name: 'Doença arterial coronariana',
+    aliases: [
+      'doença coronariana',
+      'coronariopatia',
+      'doença isquêmica do coração',
+      'aterosclerose coronariana',
+    ],
+    summary:
+      'Estreitamento das artérias que levam sangue ao músculo do coração por placas de gordura. Pode causar angina com esforço ou se manifestar de repente como infarto, uma emergência.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é doença arterial coronariana?',
+        paragraphs: [
+          'A doença arterial coronariana é o estreitamento ou a obstrução das artérias que irrigam o músculo do coração. Essas artérias perdem calibre quando placas de colesterol e células inflamatórias se acumulam na parede interna, um processo chamado aterosclerose.',
+          'O coração trabalha sem parar e consome muito oxigênio. Quando uma artéria estreita não consegue aumentar o fluxo durante um esforço, o músculo reclama e surge a dor no peito, a angina. Quando a placa se rompe e um coágulo fecha a artéria de vez, parte do músculo morre: é o infarto.',
+          'A doença é crônica e progressiva, mas não é uma sentença. Controlar pressão, colesterol, glicemia e tabagismo reduz a progressão, e o tratamento medicamentoso bem feito diminui a chance de infarto e de morte. Reconhecer os sintomas cedo é o que separa um caso tratável de uma emergência.',
+        ],
+      },
+      {
+        id: 'quem-afeta',
+        heading: 'Quem é mais afetado?',
+        paragraphs: [
+          'A doença coronariana aparece sobretudo depois dos 40 anos, e o homem tende a adoecer mais cedo do que a mulher. Na mulher, o risco sobe de forma clara depois da menopausa, quando a proteção hormonal desaparece.',
+          'As doenças cardiovasculares são a principal causa de morte no mundo, segundo a Organização Mundial da Saúde, e a doença coronariana lidera esse grupo. No Brasil, o infarto é a maior causa de mortes, com estimativa de 300 mil a 400 mil casos por ano e cerca de um óbito a cada cinco ou sete episódios.',
+          'O perfil de quem chega ao hospital mudou. Pessoas mais jovens, com obesidade, diabetes tipo 2 e vida sedentária, têm apresentado a doença antes dos 50 anos. Quem tem histórico familiar de infarto precoce precisa redobrar a atenção, porque o risco genético não se corrige com estilo de vida.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas da doença coronariana?',
+        paragraphs: [
+          'A divisão prática separa a doença crônica da síndrome coronariana aguda. A primeira permite planejamento; a segunda exige atendimento imediato.',
+          'Na forma crônica, a placa cresce devagar e o sintoma aparece com esforço, de maneira previsível. Na forma aguda, a placa se rompe, forma-se um trombo e o fluxo cai de repente, em repouso ou durante o sono. Existe ainda a isquemia silenciosa, em que há obstrução sem dor, comum em pessoas com diabetes.',
+        ],
+        bullets: [
+          'Angina estável: dor previsível com esforço, aliviada pelo repouso',
+          'Angina instável: dor que surge em repouso ou piora rapidamente',
+          'Infarto sem supra de ST: obstrução parcial, com marcadores de lesão elevados',
+          'Infarto com supra de ST: obstrução total, a forma mais grave',
+          'Isquemia silenciosa: obstrução sem sintoma, frequente no diabetes',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Como a placa se forma na artéria?',
+        paragraphs: [
+          'A aterosclerose começa com uma agressão ao endotélio, a camada que reveste a artéria por dentro. Pressão alta, tabagismo, glicemia elevada e LDL alto lesionam essa camada e permitem que partículas de colesterol entrem na parede.',
+          'O organismo responde com inflamação. Células de defesa chegam ao local, engolem o colesterol e formam uma capa fibrosa sobre o depósito. A artéria perde elasticidade e o canal fica mais estreito. Quando o estreitamento passa de cerca de 70%, o fluxo já não acompanha a demanda durante o esforço.',
+          'O desfecho mais grave depende menos do tamanho da placa do que da sua estabilidade. Uma placa pequena, com capa fina e muita inflamação, pode romper e formar um coágulo que fecha a artéria. É por isso que o infarto às vezes acontece em quem nunca teve sintoma.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quais fatores aumentam o risco?',
+        paragraphs: [
+          'Alguns fatores não podem ser mudados, como idade, sexo e herança genética. A maior parte, no entanto, pode ser tratada, e é aí que o cuidado rende mais.',
+          'Diabetes e hipertensão multiplicam o risco de infarto: quem tem uma das duas condições tem de duas a quatro vezes mais chance de sofrer um evento. Tabagismo, colesterol alto, obesidade, sedentarismo, alimentação pobre em fibras e estresse crônico se somam, e a combinação é pior do que a soma das partes.',
+        ],
+        bullets: [
+          'Tabagismo, incluindo a exposição à fumaça de segunda mão',
+          'Pressão alta',
+          'Colesterol LDL elevado e HDL baixo',
+          'Diabetes e resistência à insulina',
+          'Excesso de peso, sobretudo gordura abdominal',
+          'Sedentarismo',
+          'História familiar de infarto antes dos 55 anos em homem ou 65 em mulher',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'O sintoma clássico é dor ou desconforto no meio do peito, com sensação de peso, aperto ou queimação. Na angina estável, ela aparece com esforço e passa em poucos minutos com o repouso. Pode irradiar para o braço esquerdo, o ombro, a mandíbula, as costas ou o estômago.',
+          'Falta de ar ao esforço é outro sinal, às vezes o único. Palpitações, cansaço desproporcional e tontura também aparecem. Em idosos e em pessoas com diabetes, o infarto pode se manifestar apenas como falta de ar, sudorese ou mal-estar súbito, sem dor nenhuma.',
+          'Na mulher, a apresentação costuma ser menos típica: náusea, dor nas costas, no pescoço ou na mandíbula, cansaço intenso. Como esses sinais são fáceis de atribuir a outras causas, o infarto feminino tende a ser reconhecido mais tarde.',
+        ],
+        bullets: [
+          'Dor ou aperto no peito, sobretudo com esforço',
+          'Dor que irradia para braço, ombro, mandíbula ou costas',
+          'Falta de ar aos esforços ou em repouso',
+          'Sudorese fria e palidez',
+          'Náusea, tontura e mal-estar súbito',
+          'Cansaço desproporcional em idosos e mulheres',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: infarto é emergência',
+        paragraphs: [
+          'Dor no peito que dura mais de alguns minutos, não passa com o repouso e vem acompanhada de suor frio, falta de ar, náusea ou sensação de desmaio é suspeita de infarto. O tempo conta: quanto mais rápido o fluxo é restabelecido, menos músculo cardíaco se perde.',
+          'Ligue para o SAMU no 192 imediatamente. A ambulância faz o diagnóstico, inicia o tratamento e leva a pessoa ao hospital adequado, o que é mais seguro do que dirigir até o pronto-socorro. Não espere passar, nem tome medicamento por conta própria.',
+        ],
+        bullets: [
+          'Dor no peito com mais de 20 minutos de duração',
+          'Dor no peito com suor frio, náusea ou falta de ar',
+          'Desmaio ou sensação de desmaio iminente',
+          'Palpitação rápida com tontura',
+          'Falta de ar súbita em quem tem doença coronariana',
+          'Dor no peito que retorna em repouso, mais forte que o habitual',
+        ],
+        cta: {
+          label: 'Leia também: os sintomas que antecedem o infarto',
+          href: '/artigos/doenca-arterial-coronariana-sintomas-e-sinais-de-infarto/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a doença coronariana é diagnosticada?',
+        paragraphs: [
+          'A investigação começa pela história e pelo exame físico, com atenção aos fatores de risco e ao padrão da dor. O eletrocardiograma é o primeiro exame e pode ser normal em repouso em quem tem angina estável, o que não descarta a doença.',
+          'Para investigar isquemia, o cardiologista pode pedir teste ergométrico, ecocardiograma de esforço, cintilografia ou ressonância com estresse farmacológico. A angiotomografia das coronárias mostra a anatomia e é útil em quem tem risco intermediário.',
+          'A cineangiocoronariografia, com cateter e contraste, é o exame que mede o grau de estreitamento e permite tratar na mesma sessão. Em suspeita de infarto, a troponina e o eletrocardiograma seriados definem a conduta em minutos, e o cateterismo é feito de urgência quando indicado.',
+        ],
+        bullets: [
+          'Eletrocardiograma, que pode ser normal em repouso',
+          'Troponina em suspeita de síndrome coronariana aguda',
+          'Teste ergométrico e ecocardiograma de esforço',
+          'Cintilografia ou ressonância com estresse farmacológico',
+          'Angiotomografia das coronárias',
+          'Cineangiocoronariografia para confirmar e tratar',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais causa dor no peito?',
+        paragraphs: [
+          'Dor no peito tem muitas origens, e a maioria não é coronariana. A diferença raramente está na intensidade: está na relação com o esforço, no tempo de duração e nos fatores que aliviam.',
+          'A dor da parede torácica piora à palpação e com o movimento do tronco. A do refluxo queima, piora deitado e melhora com antiácido. A do pulmão vem com tosse ou falta de ar. A crise de pânico imita o infarto e exige eletrocardiograma para ser afastada, porque o risco de errar é alto.',
+        ],
+        bullets: [
+          'Dor muscular e de parede torácica',
+          'Refluxo gastroesofágico',
+          'Crise de ansiedade e de pânico',
+          'Embolia pulmonar e pneumonia',
+          'Dissecção de aorta, uma emergência',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a doença coronariana é tratada?',
+        paragraphs: [
+          'O tratamento tem dois objetivos: aliviar a angina e reduzir o risco de infarto e morte. O primeiro depende de antianginosos; o segundo, do controle dos fatores de risco e de medicamentos que estabilizam a placa e evitam trombos.',
+          'A aspirina em dose baixa é a base da prevenção na maioria dos casos, e quem tem alergia ou intolerância recebe alternativa. Estatinas reduzem o LDL e estabilizam a placa. Betabloqueadores diminuem a frequência cardíaca e o consumo de oxigênio. Nitratos aliviam a crise, e bloqueadores de cálcio entram quando é preciso associar.',
+          'O controle da pressão, do diabetes e do peso faz parte do tratamento tanto quanto o comprimido. A reabilitação cardíaca, com exercício supervisionado e educação, melhora a capacidade funcional e reduz internações. Nenhum medicamento substitui parar de fumar.',
+        ],
+        bullets: [
+          'Aspirina ou antiagregante alternativo',
+          'Estatina para reduzir o LDL e estabilizar a placa',
+          'Betabloqueador para reduzir o trabalho do coração',
+          'Nitrato para aliviar a crise de angina',
+          'Controle rigoroso de pressão, glicemia e peso',
+        ],
+      },
+      {
+        id: 'revascularizacao',
+        heading: 'Quando é preciso desobstruir a artéria?',
+        paragraphs: [
+          'A desobstrução não é indicada apenas pelo grau de estreitamento. Ela entra quando há sintoma importante apesar do tratamento, quando a área em risco é grande ou quando o paciente chega com infarto.',
+          'A angioplastia com stent é feita por cateter, geralmente pela artéria do punho, e abre a artéria na hora. A cirurgia de revascularização, com ponte de safena ou de artéria mamária, é preferida em obstruções múltiplas e em pessoas com diabetes e doença extensa.',
+          'A escolha depende da anatomia das coronárias, das condições clínicas e da equipe. Nos dois casos, o tratamento medicamentoso continua depois do procedimento, porque a doença aterosclerótica permanece no restante da árvore coronariana.',
+        ],
+        bullets: [
+          'Angina limitante apesar do tratamento otimizado',
+          'Infarto com supra de ST, tratado de urgência',
+          'Doença de múltiplos vasos com área extensa em risco',
+          'Angioplastia com stent ou cirurgia de revascularização conforme a anatomia',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Prognóstico: o que esperar',
+        paragraphs: [
+          'A doença coronariana é crônica, mas o prognóstico mudou muito nas últimas décadas com estatinas, antiagregantes, angioplastia e cirurgia. Muita gente convive com a doença por décadas, com boa qualidade de vida, quando o tratamento é seguido.',
+          'O que mais pesa no desfecho é a adesão. Quem para a medicação, mantém o cigarro e não controla a pressão tem mais infarto, mais internação e mais morte. Quem comparece às consultas e ajusta o plano conforme a vida muda mantém o risco baixo.',
+          'Depois de um infarto, a recuperação depende da extensão da área atingida e da rapidez do atendimento. A reabilitação cardíaca e o controle dos fatores de risco reduzem a chance de um segundo evento.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'A rotina é parte do tratamento. Caminhar 30 minutos na maioria dos dias, evitar longos períodos sentado e manter uma alimentação com verduras, frutas, grãos e peixe ajuda a controlar peso, pressão e colesterol. Sal em excesso e ultraprocessados trabalham contra.',
+          'Quem tem angina deve respeitar os limites do corpo e evitar esforço intenso em jejum, no frio extremo ou logo depois de uma refeição grande, situações que costumam desencadear a dor. Se a dor aparecer, pare a atividade e use a medicação conforme a orientação recebida.',
+          'Guardar a medicação em local acessível, saber o nome do que toma e levar a lista nas consultas evita erro. Familiares devem conhecer o plano e saber ligar para o SAMU em caso de dor prolongada.',
+        ],
+        bullets: [
+          'Caminhar 30 minutos na maioria dos dias',
+          'Manter alimentação com verduras, frutas, grãos e peixe',
+          'Tomar a medicação nos horários certos, sem falhas',
+          'Reconhecer os próprios gatilhos de angina',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a doença coronariana',
+        paragraphs: [
+          'A prevenção começa antes do primeiro sintoma. Parar de fumar é a medida isolada de maior impacto: o risco cai de forma rápida depois da interrupção, e continua caindo com o tempo.',
+          'Controlar a pressão, tratar o diabetes, manter o LDL dentro da meta definida pelo médico, perder peso e praticar atividade física regular completam o conjunto. Quem já tem a doença precisa do mesmo cuidado, com metas mais rigorosas.',
+        ],
+        bullets: [
+          'Parar de fumar e evitar a fumaça de segunda mão',
+          'Medir a pressão com regularidade e tratar quando indicado',
+          'Controlar o colesterol com alimentação e, se preciso, medicação',
+          'Manter glicemia controlada no diabetes',
+          'Praticar 150 minutos de atividade moderada por semana',
+        ],
+        cta: {
+          label: 'Veja como controlar os fatores de risco no dia a dia',
+          href: '/artigos/doenca-arterial-coronariana-como-prevenir-e-controlar/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Angina é infarto?',
+        answer:
+          'Não. A angina é dor por falta de fluxo que melhora com repouso ou medicação. O infarto é a morte de músculo cardíaco por obstrução prolongada. A angina instável, que surge em repouso ou piora rápido, é uma emergência e pode anteceder o infarto.',
+      },
+      {
+        question: 'Doença coronariana tem cura?',
+        answer:
+          'Não tem cura, porque a aterosclerose é crônica. Com tratamento e controle dos fatores de risco, é possível estabilizar a doença, viver sem sintomas e reduzir muito o risco de infarto.',
+      },
+      {
+        question: 'Quem tem stent pode parar a medicação?',
+        answer:
+          'Não. O stent trata o ponto obstruído, mas a doença continua nas outras artérias. A suspensão do antiagregante sem orientação aumenta o risco de trombose no stent, que costuma ser grave.',
+      },
+      {
+        question: 'Infarto sempre dá dor no peito?',
+        answer:
+          'Não. Em idosos e em pessoas com diabetes, o infarto pode aparecer apenas como falta de ar, sudorese, náusea ou mal-estar súbito. Na mulher, cansaço, dor nas costas ou na mandíbula podem ser os sinais principais.',
+      },
+      {
+        question: 'Existe exame para saber se vou ter infarto?',
+        answer:
+          'Não existe um exame que preveja o infarto com certeza. O que existe é a estimativa de risco a partir de fatores como pressão, colesterol, diabetes, tabagismo e histórico familiar, que orienta a intensidade do tratamento.',
+      },
+      {
+        question: 'Posso fazer exercício depois de um infarto?',
+        answer:
+          'Sim, e o exercício faz parte da recuperação. O ideal é começar por um programa de reabilitação cardíaca, com supervisão, e seguir a orientação da equipe sobre intensidade e progressão.',
+      },
+      {
+        question: 'Estatinas fazem mal ao fígado?',
+        answer:
+          'Em alguns casos podem alterar as enzimas do fígado, e por isso o médico acompanha com exames. O benefício de reduzir infarto e morte costuma ser muito maior do que o risco, e a decisão deve ser discutida, não tomada por conta própria.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'doenca-arterial-coronariana-sintomas-e-sinais-de-infarto',
+      'doenca-arterial-coronariana-como-prevenir-e-controlar',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['infarto-e-avc', 'hipertensao', 'colesterol-alto', 'diabetes'],
+    references: [
+      {
+        label: 'Infarto: sintomas, fatores de risco e atendimento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/infarto',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Doença arterial coronariana, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/doen%C3%A7a-arterial-coronariana',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Cardiovascular diseases: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'raiva',
+    slug: 'raiva',
+    name: 'Raiva',
+    aliases: ['raiva humana', 'hidrofobia', 'doença da raiva', 'raiva canina'],
+    summary:
+      'Doença viral grave que inflama o cérebro e é transmitida pela saliva de animais infectados, sobretudo cães e morcegos. Tem vacina e profilaxia eficazes, mas é quase sempre fatal quando os sintomas aparecem, por isso toda mordida ou arranhão de animal precisa ser avaliado com rapidez.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é a raiva?',
+        paragraphs: [
+          'A raiva é uma infecção viral que ataca o sistema nervoso central. O vírus, do gênero Lyssavirus, entra pelo ferimento causado pela mordida ou pelo arranhão de um animal infectado e caminha pelos nervos até o cérebro. Quando chega lá, provoca uma encefalite que quase sempre leva à morte.',
+          'O nome popular hidrofobia vem de um dos sinais mais conhecidos: a pessoa sente sede, mas não consegue engolir água porque os músculos da garganta se contraem. A doença também causa medo de corrente de ar, salivação intensa, agitação e convulsões.',
+          'No Brasil, a raiva humana transmitida por cães está controlada. O país completou uma década sem casos desse tipo, e os registros recentes vêm principalmente de morcegos, macacos e outros animais silvestres. Entre 2010 e junho de 2026 foram 54 casos, e apenas dois pacientes sobreviveram. A prevenção depende de vacinar cães e gatos e de procurar atendimento logo depois de qualquer exposição.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas da raiva?',
+        paragraphs: [
+          'A raiva humana se manifesta de duas formas principais. A forma furiosa é a mais comum, presente em cerca de 80% dos casos: a pessoa fica agitada, tem alucinações, espasmos e os sinais clássicos de hidrofobia e aerofobia.',
+          'A forma paralítica corresponde a cerca de 20% dos casos. Ela começa com dor ou formigamento no local da mordida e evolui com fraqueza progressiva, até a paralisia. Como não tem os sinais dramáticos da forma furiosa, pode ser confundida com outras doenças neurológicas, o que atrasa o diagnóstico.',
+          'A forma paralítica é mais associada a mordidas de morcegos hematófagos nas Américas. Como o ferimento pode ser pequeno e passar despercebido, toda exposição a morcego deve ser avaliada como risco grave.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a raiva?',
+        paragraphs: [
+          'O agente é o vírus da raiva, que infecta mamíferos. A transmissão para pessoas acontece quando a saliva de um animal infectado entra em contato com pele ferida ou mucosa, o que ocorre em mordidas, arranhões e lambeduras.',
+          'Cães respondem por cerca de 99% dos casos humanos no mundo, segundo a Organização Mundial da Saúde. No Brasil, o cenário mudou: depois do controle da raiva canina, os morcegos se tornaram a principal fonte de infecção, seguidos por primatas não humanos.',
+          'O vírus não atravessa pele íntegra. Contato com pelo, sangue, urina ou fezes de animal suspeito não é considerado exposição, mas lambedura em ferida ou em olho, boca e nariz é. Na dúvida, o serviço de saúde avalia o risco e decide se há indicação de profilaxia.',
+        ],
+      },
+      {
+        id: 'sintomas-iniciais',
+        heading: 'Quais são os primeiros sintomas?',
+        paragraphs: [
+          'O período de incubação varia muito. A média no ser humano é de 45 dias, mas pode ser de dias a anos, e costuma ser mais curto quando a mordida é no rosto, na cabeça ou no pescoço, ou quando acontece em crianças.',
+          'Os primeiros sinais lembram os de uma virose: mal-estar, febre baixa, dor de cabeça, náusea, falta de apetite e irritabilidade. Muitas pessoas sentem dor, formigamento ou dormência no local da mordida, mesmo que o ferimento já tenha cicatrizado.',
+          'Essa fase dura em média de 2 a 10 dias. Como os sintomas são inespecíficos, o diagnóstico nesse momento depende da história de exposição: quem foi mordido, arranhado ou lambido por animal suspeito precisa informar isso no atendimento.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Como a raiva evolui?',
+        paragraphs: [
+          'Quando o vírus alcança o sistema nervoso central, a doença progride rápido. Na forma furiosa surgem agitação, confusão, alucinações, espasmos musculares e convulsões. O paciente costuma continuar consciente por boa parte do tempo, o que torna o quadro ainda mais angustiante.',
+          'A hidrofobia é o sinal mais conhecido: ver, ouvir ou tentar beber água provoca contração dolorosa da laringe e da faringe. O mesmo acontece com correntes de ar, luz forte e sons altos. A salivação aumenta porque a pessoa não consegue engolir.',
+          'Na forma paralítica, a fraqueza começa perto da mordida e sobe pelo corpo, com perda de força, dificuldade para urinar e prisão de ventre. A evolução até a parada cardiorrespiratória costuma ocorrer em poucos dias.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: [
+          'Toda exposição deve ser avaliada o quanto antes, mesmo que o ferimento pareça pequeno. A profilaxia funciona melhor quando começa logo, e não há motivo para esperar sintomas.',
+        ],
+        bullets: [
+          'Mordida, arranhão ou lambedura de cão ou gato desconhecido, morcego, macaco, raposa ou outro mamífero silvestre',
+          'Ferimento que sangra, pele rompida ou contato de saliva com olho, boca, nariz ou ferida aberta',
+          'Exposição a morcego, mesmo sem ferimento visível',
+          'Animal que adoeceu, desapareceu ou morreu em até 10 dias depois do contato',
+          'Formigamento, dor ou dormência no local da mordida',
+          'Febre, confusão, agitação, medo de água ou de vento, salivação intensa ou convulsão',
+          'Pessoa que foi mordida e não sabe se o animal era vacinado',
+        ],
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Onde procurar atendimento depois de uma mordida?',
+        paragraphs: [
+          'O atendimento inicial pode ser feito em UBS, UPA ou hospital. Muitos municípios têm serviços de referência para profilaxia antirrábica, e o profissional avalia o tipo de exposição, o animal envolvido e o histórico de vacinação.',
+          'Todo atendimento antirrábico é notificado ao sistema de vigilância, mesmo quando não há indicação de vacina. Quando o animal é um cão ou gato conhecido, a orientação é observá-lo por 10 dias; se ele adoecer, desaparecer ou morrer, o serviço de saúde precisa ser informado.',
+          'Não espere o resultado da observação para lavar o ferimento e buscar orientação. A decisão sobre vacina e soro é do profissional de saúde e depende da categoria de exposição.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'Não existe exame que detecte a raiva antes do início dos sintomas. O diagnóstico começa pela história de exposição e pelo quadro clínico, e a confirmação é laboratorial.',
+          'Em vida, podem ser feitos testes de imunofluorescência em impressão de córnea, raspado de mucosa lingual ou biópsia de pele da região cervical. A sensibilidade desses exames é limitada, e um resultado negativo não descarta a doença.',
+          'A confirmação definitiva costuma vir da autópsia, com exames no tecido nervoso. Quando possível, o animal agressor também é testado, o que ajuda a definir a conduta das pessoas expostas.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais pode parecer raiva?',
+        paragraphs: [
+          'A forma furiosa costuma ser reconhecida com facilidade quando existe a história de mordida e os sinais de hidrofobia. Já a forma paralítica pode ser confundida com outras doenças que causam fraqueza progressiva.',
+          'Entre as condições que precisam ser afastadas estão tétano, síndrome de Guillain-Barré, botulismo, encefalites virais e outros quadros neurológicos. O histórico de exposição e a evolução dos sintomas ajudam a separar os casos.',
+          'Em áreas com circulação de arbovírus, encefalites por dengue, zika ou febre amarela também entram na lista de possibilidades. A investigação é feita no hospital, com exames de imagem e laboratório.',
+        ],
+      },
+      {
+        id: 'profilaxia-pos-exposicao',
+        heading: 'O que é feito depois da exposição?',
+        paragraphs: [
+          'A primeira medida é lavar o ferimento com água corrente e sabão por pelo menos 15 minutos. Depois, o serviço de saúde aplica um antisséptico e avalia se é preciso vacina, soro ou os dois.',
+          'A vacina é aplicada em várias doses ao longo de algumas semanas. O número de doses e o intervalo dependem do protocolo do serviço e do tipo de exposição. Quem já foi vacinado antes pode precisar de menos doses.',
+          'Em ferimentos graves, com sangramento ou pele rompida, além da vacina pode ser indicado o soro antirrábico, infiltrado ao redor do ferimento para neutralizar o vírus. A sutura costuma ser evitada; quando é indispensável, o soro é aplicado antes.',
+        ],
+        bullets: [
+          'Lavar o ferimento com água e sabão por 15 minutos',
+          'Aplicar antisséptico e não fechar o ferimento sem avaliação',
+          'Vacina antirrábica conforme o esquema definido pelo serviço',
+          'Soro antirrábico nos casos graves',
+          'Avaliar a necessidade de vacina contra tétano e de antibiótico',
+        ],
+      },
+      {
+        id: 'reexposicao',
+        heading: 'O que fazer em uma nova exposição?',
+        paragraphs: [
+          'Quem já completou um esquema de vacina e volta a se expor precisa de avaliação novamente. O ferimento deve ser lavado e examinado, e o serviço decide se basta uma dose de reforço ou se é preciso repetir parte do esquema.',
+          'Pessoas com imunidade comprometida podem precisar de conduta diferente, porque a resposta à vacina é menor. O histórico vacinal deve ser levado ao atendimento, inclusive cartão antigo ou registro no sistema de saúde.',
+          'Mesmo quem tomou todas as doses deve procurar atendimento. A proteção não é vitalícia em todos os casos, e a avaliação depende do tempo desde a última dose e do tipo de exposição.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Existe tratamento quando os sintomas aparecem?',
+        paragraphs: [
+          'Depois que os sintomas aparecem, não existe tratamento que cure a raiva. O cuidado é de suporte: internação, controle de convulsões, sedação, hidratação e suporte ventilatório, além de isolamento e ambiente tranquilo.',
+          'Já foram tentados protocolos com coma induzido e antivirais, mas os sobreviventes são raríssimos e muitos ficam com sequelas neurológicas graves. Por isso, a prioridade é sempre a profilaxia antes que a doença se instale.',
+          'A equipe de saúde também precisa proteger os profissionais e orientar a família sobre o risco de contato com saliva e secreções.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'A raiva é quase sempre fatal depois do início dos sintomas. No Brasil, apenas dois pacientes sobreviveram entre todos os casos registrados, e ambos com sequelas.',
+          'A morte costuma ocorrer em poucos dias, por parada cardiorrespiratória ou por complicações da encefalite. O tempo de evolução varia, mas a doença não regride sozinha.',
+          'Quem recebe a profilaxia completa e no tempo certo não desenvolve a doença. É por isso que a avaliação rápida de qualquer mordida é a parte mais importante do cuidado.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a raiva?',
+        paragraphs: [
+          'A vacinação de cães e gatos é a medida mais eficaz para interromper a transmissão. No Brasil, a vacina antirrábica animal é oferecida em campanhas e em alguns serviços permanentes.',
+          'Evite se aproximar de animais desconhecidos, especialmente quando estão comendo, com filhotes ou dormindo. Nunca toque em morcegos, mesmo os que estão caídos no chão, e não tente resgatar animais silvestres sem orientação.',
+          'Pessoas com risco ocupacional, como veterinários, tratadores, pesquisadores e profissionais de laboratório, podem fazer a profilaxia antes da exposição. Viajantes para áreas remotas com difícil acesso a soro e vacina também devem ser avaliados.',
+        ],
+        bullets: [
+          'Vacinar cães e gatos todos os anos',
+          'Não tocar em animais silvestres ou em morcegos',
+          'Lavar o ferimento imediatamente após qualquer mordida',
+          'Procurar atendimento mesmo quando não há sangramento',
+          'Fazer profilaxia pré-exposição quem tem risco ocupacional',
+        ],
+      },
+      {
+        id: 'vacina-seguranca',
+        heading: 'A vacina é segura?',
+        paragraphs: [
+          'A vacina antirrábica é considerada segura e eficaz. As reações mais comuns são dor, vermelhidão e inchaço no local da aplicação, além de febre baixa, dor de cabeça e mal-estar, que costumam passar em um ou dois dias.',
+          'Reações graves são raras, mas qualquer dificuldade para respirar, inchaço no rosto ou desmaio depois da aplicação precisa de atendimento imediato. O serviço de saúde deve ser informado para que o evento seja notificado.',
+          'Quem tem alergia grave a algum componente da vacina deve informar antes da aplicação. A decisão sobre tomar ou não a vacina em situações especiais é sempre individualizada, e o risco de raiva pesa na balança.',
+        ],
+        cta: {
+          label: 'Leia também: vacina antirrábica, esquema e segurança',
+          href: '/artigos/raiva-vacina-antirrabica-esquema-e-seguranca/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Raiva tem cura?',
+        answer:
+          'Não. Depois que os sintomas aparecem, a doença é quase sempre fatal. O tratamento disponível é de suporte, e a prevenção com vacina e soro é o que salva vidas.',
+      },
+      {
+        question: 'Quanto tempo depois da mordida ainda vale tomar a vacina?',
+        answer:
+          'O quanto antes. A profilaxia é mais eficaz quando começa logo, mas mesmo com atraso vale procurar atendimento, porque o vírus pode levar semanas para chegar ao cérebro.',
+      },
+      {
+        question: 'Cachorro vacinado pode transmitir raiva?',
+        answer:
+          'A vacina protege bem, mas nenhuma vacina é totalmente eficaz. Se o animal não tem histórico confiável de vacinação ou apresenta mudança de comportamento, a exposição deve ser avaliada por um profissional de saúde.',
+      },
+      {
+        question: 'Preciso tomar vacina se um morcego encostou em mim?',
+        answer:
+          'Se houve contato direto, sim. Morcegos podem transmitir o vírus sem deixar marca visível, e a exposição a esses animais é tratada como grave. Procure atendimento para avaliação.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'raiva-mordida-de-animal-quando-procurar-atendimento',
+      'raiva-quais-animais-transmitem-no-brasil',
+      'raiva-vacina-antirrabica-esquema-e-seguranca',
+      'raiva-profilaxia-pos-exposicao-soro-e-vacina',
+      'raiva-como-prevenir-vacinacao-de-caes-e-gatos',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['epilepsia', 'cisticercose', 'infarto-e-avc'],
+    references: [
+      {
+        label: 'Raiva',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Raiva humana',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva/raiva-humana',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rabies: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/rabies',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Rabies',
+        url: 'https://www.paho.org/en/topics/rabies',
+        publisher: 'Organização Pan-Americana da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'ascaridiase',
+    slug: 'ascaridiase',
+    name: 'Ascaridíase',
+    aliases: ['ascariose', 'infecção por lombriga', 'lombriga', 'verme redondo', 'ascaridíase intestinal'],
+    summary:
+      'Infecção intestinal causada pelo verme Ascaris lumbricoides, transmitida por ovos presentes em solo contaminado, água não tratada e alimentos mal lavados. Muitas pessoas não têm sintomas, mas infecções intensas podem causar dor abdominal, desnutrição e obstrução do intestino.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é a ascaridíase?',
+        paragraphs: [
+          'A ascaridíase é uma infecção intestinal causada pelo Ascaris lumbricoides, um verme cilíndrico conhecido popularmente como lombriga. O parasita vive no intestino delgado, onde a fêmea pode chegar a cerca de 40 cm de comprimento e libera milhares de ovos por dia.',
+          'A maioria das pessoas infectadas não tem sintomas. Quando há muitos vermes, podem surgir dor abdominal, diarreia, perda de apetite e desnutrição, e em casos graves o bolo de vermes obstrui o intestino.',
+          'A infecção é comum em áreas sem saneamento adequado. A Organização Mundial da Saúde estima que cerca de 1,5 bilhão de pessoas no mundo tenham alguma geo-helmintíase, e o CDC calcula entre 772 e 892 milhões de infectados por Ascaris. No Brasil, o último inquérito nacional, feito entre 2010 e 2015, encontrou 6% de positividade entre escolares, com mais casos no Norte e no Nordeste.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas da ascaridíase?',
+        paragraphs: [
+          'A doença pode ser dividida pelo momento do ciclo do parasita. Na fase de migração larval, os vermes passam pelo pulmão e podem causar tosse e falta de ar. Na fase intestinal, os adultos se instalam no intestino delgado e provocam os sintomas digestivos.',
+          'Quando o verme sai do intestino e alcança outros órgãos, acontece a forma ectópica. As localizações mais graves são as vias biliares e o pâncreas, onde o parasita bloqueia a passagem da bile ou dos sucos digestivos.',
+        ],
+        bullets: [
+          'Forma intestinal: vermes adultos no intestino delgado, com dor abdominal e diarreia',
+          'Forma pulmonar: passagem das larvas pelo pulmão, com tosse e chiado',
+          'Forma biliar: verme nas vias biliares, com dor intensa no lado direito do abdome',
+          'Forma pancreática: obstrução do canal do pâncreas',
+          'Obstrução intestinal: bolo de vermes bloqueia a passagem das fezes',
+          'Apendicite por Ascaris: verme dentro do apêndice',
+          'Perfuração intestinal: complicação rara e grave',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a ascaridíase é transmitida?',
+        paragraphs: [
+          'A transmissão acontece pela ingestão de ovos que já amadureceram no solo. Esses ovos saem nas fezes de uma pessoa infectada e precisam de cerca de três semanas em ambiente úmido e quente para se tornarem infectantes.',
+          'Por isso, a doença não passa de uma pessoa para outra pelo contato direto, nem por fezes frescas. O contágio depende de solo, água ou alimentos contaminados. Crianças que brincam na terra e levam a mão à boca são um grupo especialmente exposto.',
+          'Também há risco ao beber água não tratada e ao comer verduras, legumes e frutas crus mal lavados. Em áreas com saneamento precário, o uso de fezes humanas como adubo aumenta a contaminação do solo.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco de infecção?',
+        paragraphs: [
+          'O que leva à infecção é a falta de saneamento e de higiene. Quando não há separação adequada do esgoto, os ovos chegam ao solo, à água e aos alimentos.',
+          'Crianças pequenas têm mais chance de se infectar porque brincam no chão, colocam objetos na boca e nem sempre lavam as mãos. Morar ou trabalhar em área rural ou na periferia de grandes cidades também aumenta a exposição.',
+          'Clima quente e úmido favorece a maturação dos ovos. Por isso, a doença é mais frequente em regiões tropicais e subtropicais, sobretudo onde falta água tratada e rede de esgoto.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Na fase pulmonar, a pessoa pode ter febre, tosse, chiado e falta de ar. Esses sintomas surgem quando as larvas passam pelos pulmões e costumam durar poucos dias.',
+          'Na fase intestinal, os sinais mais comuns são dor abdominal em cólica, diarreia, náusea, perda de apetite e perda de peso. Crianças com infecção intensa podem crescer mais devagar e ficar desnutridas.',
+          'Quando há complicação, a dor pode ser forte e localizada. Na obstrução intestinal, surgem vômitos e parada de eliminação de fezes e gases. Na via biliar, a dor aparece no lado direito do abdome e pode vir com icterícia.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: [
+          'A maioria dos casos é leve, mas alguns sinais indicam complicação e exigem atendimento imediato.',
+        ],
+        bullets: [
+          'Dor abdominal muito intensa e contínua',
+          'Vômitos repetidos, inclusive com verme',
+          'Parada de eliminação de fezes e gases',
+          'Abdome inchado e dolorido',
+          'Febre alta com dor abdominal',
+          'Pele e olhos amarelados',
+          'Perda de peso importante em criança',
+          'Verme visível nas fezes ou no vômito',
+        ],
+      },
+      {
+        id: 'onde-procurar',
+        heading: 'Onde procurar atendimento?',
+        paragraphs: [
+          'O diagnóstico começa em uma UBS, com a conversa sobre os sintomas, a higiene da casa e o acesso a água e esgoto. O profissional examina o abdome e pede exames conforme a suspeita.',
+          'Casos com dor intensa, vômitos persistentes ou sinais de obstrução precisam de pronto atendimento. O mesmo vale para icterícia, febre alta ou abdome muito dolorido.',
+          'Em crianças, o acompanhamento pode envolver pediatra e nutricionista, sobretudo quando há desnutrição ou crescimento lento.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames confirmam a ascaridíase?',
+        paragraphs: [
+          'O exame principal é a análise das fezes ao microscópio, que identifica os ovos do Ascaris. O resultado pode ser negativo no início, porque a fêmea só começa a liberar ovos cerca de 40 dias depois da infecção.',
+          'Quando só existem vermes machos, também não há ovos nas fezes, e o exame pode ser negativo mesmo com infecção. Nesses casos, a história clínica e outros exames ajudam.',
+          'Em complicações, podem ser usados raios X, ultrassonografia e tomografia para ver o bolo de vermes, a dilatação do intestino ou a obstrução das vias biliares. O hemograma pode mostrar aumento dos eosinófilos, um tipo de célula de defesa que sobe em infecções por parasitas.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais pode parecer ascaridíase?',
+        paragraphs: [
+          'A dor abdominal da ascaridíase pode ser confundida com várias outras doenças. O médico precisa considerar infecções por outros vermes, como o ancilostomídeo, e quadros como gastrite, úlcera, cálculo na vesícula e apendicite.',
+          'Em crianças, a obstrução intestinal precisa ser diferenciada de intussuscepção e de outras causas de vômito e dor. Já a tosse da fase pulmonar pode lembrar asma ou pneumonia.',
+          'O histórico de exposição, o exame de fezes e os exames de imagem costumam esclarecer o diagnóstico.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento é feito com medicamentos antiparasitários por via oral, em geral albendazol ou mebendazol. A duração costuma ser de um a três dias, e o remédio é muito eficaz.',
+          'Pessoas sem sintomas também podem ser tratadas, porque o objetivo é eliminar os vermes e evitar complicações. Em áreas de alta transmissão, a Organização Mundial da Saúde recomenda tratamento preventivo periódico para grupos de risco, como crianças em idade escolar.',
+          'Não use remédio por conta própria nem repita doses sem orientação. A escolha e o intervalo dependem da idade, de outras doenças e do risco de reinfecção.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Quando a cirurgia é necessária?',
+        paragraphs: [
+          'A cirurgia é reservada para complicações. As indicações mais comuns são obstrução intestinal, perfuração, obstrução das vias biliares e apendicite causada pelo verme.',
+          'Na obstrução, o tratamento pode começar com medidas clínicas, mas a cirurgia é necessária quando não há melhora ou quando há sinais de sofrimento do intestino.',
+          'Depois da cirurgia, o paciente continua o tratamento antiparasitário e precisa de acompanhamento para evitar nova infecção.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir?',
+        paragraphs: [
+          'A complicação mais temida é a obstrução intestinal, que acontece quando muitos vermes se enrolam e bloqueiam a passagem. Sem tratamento, pode levar à perfuração e à peritonite.',
+          'Nas vias biliares, o verme pode causar dor intensa, inflamação da vesícula, pancreatite e obstrução do fluxo de bile. Em crianças, a infecção crônica contribui para desnutrição e atraso no crescimento.',
+          'A reinfecção é comum em áreas sem saneamento. Por isso, tratar não basta: é preciso melhorar a higiene e o acesso a água tratada para evitar que o ciclo recomece.',
+        ],
+      },
+      {
+        id: 'cuidados-diarios',
+        heading: 'Quais cuidados diários ajudam a evitar a infecção?',
+        paragraphs: [
+          'Lave as mãos com água e sabão depois de usar o banheiro, antes de comer e antes de preparar alimentos. Corte as unhas curtas e ensine as crianças a não levar a mão à boca depois de brincar na terra.',
+          'Lave bem frutas, verduras e legumes, e prefira descascar ou cozinhar os alimentos que serão consumidos crus. Beba água tratada, filtrada ou fervida quando não houver garantia de qualidade.',
+          'Quem já foi tratado deve manter esses cuidados para não se reinfectar. Em áreas com transmissão intensa, o tratamento periódico pode ser indicado pelo serviço de saúde.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir?',
+        paragraphs: [
+          'A prevenção depende de saneamento básico. Rede de esgoto, água tratada e destinação adequada das fezes reduzem a contaminação do solo e interrompem o ciclo do parasita.',
+          'Não use fezes humanas como adubo. Em comunidades com transmissão alta, o tratamento coletivo periódico de crianças e de outros grupos de risco reduz a carga de vermes.',
+          'Educação em saúde, lavagem das mãos e cuidado com alimentos completam as medidas. O objetivo não é eliminar todos os vermes de uma vez, mas evitar que a infecção cause anemia, desnutrição e complicações.',
+        ],
+        cta: {
+          label: 'Leia também: como prevenir a ascaridíase em casa',
+          href: '/artigos/ascaridiase-como-prevenir-em-casa/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Ascaridíase passa de pessoa para pessoa?',
+        answer:
+          'Não. Os ovos precisam amadurecer no solo por cerca de três semanas antes de se tornarem infectantes, então o contágio depende de ambiente contaminado, não do contato direto.',
+      },
+      {
+        question: 'Como saber se estou com lombriga?',
+        answer:
+          'O diagnóstico é feito pelo exame de fezes. Em infecções intensas, a pessoa pode ver o verme nas fezes ou vomitar um verme, e deve levar o material ao serviço de saúde.',
+      },
+      {
+        question: 'Quanto tempo dura o tratamento?',
+        answer:
+          'Costuma durar de um a três dias, com albendazol ou mebendazol, e é muito eficaz. A reinfecção é possível se a pessoa continuar exposta a solo ou água contaminados.',
+      },
+      {
+        question: 'Criança com lombriga pode ir à escola?',
+        answer:
+          'Sim. A doença não passa pelo contato comum entre crianças. A criança deve ser tratada e a família precisa reforçar a higiene das mãos e dos alimentos.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'ascaridiase-como-saber-se-a-crianca-tem-lombriga',
+      'ascaridiase-quando-a-lombriga-sai-do-intestino',
+      'ascaridiase-como-prevenir-em-casa',
+      'ascaridiase-tratamento-periodico-de-vermifugos',
+      'ascaridiase-lombriga-passa-de-pessoa-para-pessoa',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedDiseaseSlugs: ['helmintiases', 'parasitoses-intestinais', 'esquistossomose'],
+    references: [
+      {
+        label: 'Geo-Helmintíase',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Soil-transmitted helminth infections: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'About Ascariasis',
+        url: 'https://www.cdc.gov/sth/about/ascariasis.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Soil Transmitted Helminthiasis',
+        url: 'https://www.paho.org/en/topics/soil-transmitted-helminthiasis',
+        publisher: 'Organização Pan-Americana da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
+  {
+    id: 'infeccao-por-helicobacter-pylori',
+    slug: 'infeccao-por-helicobacter-pylori',
+    name: 'Infecção por Helicobacter pylori',
+    aliases: ['H. pylori', 'infecção por H. pylori', 'Helicobacter pylori', 'bactéria do estômago'],
+    summary:
+      'Infecção bacteriana que se instala na mucosa do estômago e provoca gastrite crônica, úlcera péptica e, em parte dos casos, câncer gástrico. Muitas pessoas não têm sintomas. O diagnóstico é feito por teste respiratório, exame de fezes ou endoscopia, e o tratamento com antibióticos elimina a bactéria na maioria dos casos.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é a infecção por Helicobacter pylori?',
+        paragraphs: [
+          'A infecção por Helicobacter pylori é causada por uma bactéria em forma de espiral que se instala na camada de muco que protege o revestimento do estômago. Ali ela fica menos exposta ao ácido gástrico, produz amônia para se defender e abre caminho até a mucosa, o que mantém uma inflamação crônica.',
+          'Praticamente todos os portadores da bactéria têm algum grau de gastrite, mas a maioria não sente nada. Em parte dos casos, a inflamação persistente leva a úlcera gástrica ou duodenal, e o risco de câncer de estômago aumenta com o tempo. Encontrar a bactéria, portanto, não é motivo de pânico: é um achado que pede conversa com o médico sobre tratamento.',
+          'A infecção é uma das mais comuns do mundo. O consenso brasileiro sobre o tema estima que cerca de 40% da população mundial esteja infectada, com queda nas últimas décadas acompanhando a melhora do saneamento. No Brasil, a frequência varia bastante entre regiões e grupos sociais, e é maior onde faltam água tratada e rede de esgoto.',
+        ],
+        bullets: [
+          'A bactéria vive na camada de muco do estômago, onde fica protegida do ácido.',
+          'Cerca de 40% da população mundial está infectada, segundo o consenso brasileiro.',
+          'A maioria das pessoas infectadas não terá sintomas, úlcera ou câncer.',
+          'A maioria das úlceras gástricas e duodenais está associada à bactéria.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a bactéria é transmitida?',
+        paragraphs: [
+          'A transmissão é de pessoa para pessoa, por via digestiva. A rota mais relevante é a fecal-oral: a bactéria sai nas fezes e chega à boca pelas mãos, pela água ou por alimentos contaminados. A via oral-oral também é considerada, por meio da saliva, do vômito e da placa dental, o que ajuda a explicar por que a infecção se concentra em famílias.',
+          'A maior parte das infecções acontece na infância, antes dos 10 anos, e tende a permanecer por décadas quando não é tratada. Quem divide a casa com alguém infectado ou mora em local sem saneamento adequado tem mais chance de se infectar.',
+        ],
+        bullets: [
+          'Fecal-oral: mãos, água e alimentos contaminados por fezes.',
+          'Oral-oral: saliva, vômito e placa dental em contato próximo e prolongado.',
+          'Casa: a transmissão entre mãe e filhos e entre irmãos é frequente.',
+          'Infância: a maioria das infecções acontece antes dos 10 anos.',
+          'Endoscopia: profissionais de saúde aparecem com risco maior em revisões sobre o tema.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco de infecção?',
+        paragraphs: [
+          'A causa é a bactéria. O que muda é a chance de entrar em contato com ela. Saneamento, água tratada, número de pessoas por casa e hábitos de higiene explicam por que a prevalência é tão diferente entre países e até entre bairros de uma mesma cidade.',
+          'Crianças pequenas são as mais expostas, porque levam objetos e mãos à boca e dependem do cuidado dos adultos. Morar em área rural, conviver com muitas pessoas no mesmo espaço e ter alguém infectado em casa aumentam o risco. A frequência da infecção também sobe com a idade.',
+        ],
+        bullets: [
+          'Saneamento: locais sem rede de esgoto e água tratada concentram mais casos.',
+          'Convivência: moradores da mesma casa de uma pessoa infectada têm risco maior.',
+          'Infância: crianças pequenas levam mãos e objetos à boca.',
+          'Higiene: lavar as mãos depois do banheiro e antes de comer reduz a exposição.',
+          'Idade: a infecção é mais frequente em adultos mais velhos.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais sintomas a infecção causa?',
+        paragraphs: [
+          'A maioria das pessoas infectadas não tem sintoma nenhum, mesmo convivendo com inflamação no estômago por anos. Quando algo aparece, costuma ser dor ou desconforto na parte alta do abdome, má digestão, sensação de estufamento depois de comer, azia e náusea. São queixas comuns a muitas outras doenças do aparelho digestivo e, sozinhas, não confirmam a infecção.',
+          'A úlcera causada pela bactéria provoca dor na boca do estômago que pode melhorar ou piorar com a comida, acordar a pessoa à noite e voltar em crises. Já a gastrite crônica costuma ser silenciosa e, muitas vezes, é descoberta por acaso em uma endoscopia.',
+          'A infecção também aparece associada a [anemia por falta de ferro](/doencas/anemia-ferropriva/) e a púrpura trombocitopênica imune, um distúrbio que reduz as plaquetas e causa manchas roxas na pele. Nesses casos, investigar e tratar a bactéria faz parte do tratamento.',
+        ],
+        bullets: [
+          'Sem sintomas: a maioria das pessoas infectadas não sente nada.',
+          'Má digestão: dor ou desconforto na boca do estômago, estufamento e sensação de estar cheio logo no início da refeição.',
+          'Gastrite: azia, náusea e arrotos frequentes.',
+          'Úlcera: dor que volta em crises, pode acordar à noite e melhora ou piora com a comida.',
+          'Fora do estômago: anemia por falta de ferro e plaquetas baixas sem outra explicação.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: [
+          'A infecção em si raramente é uma emergência, mas as complicações da úlcera são. Procure pronto atendimento se houver vômito com sangue ou com material escuro parecido com borra de café, fezes pretas como piche ou com sangue, tontura intensa, suor frio ou desmaio.',
+          'Dor abdominal súbita, muito forte e contínua, com a barriga dura e dolorida ao toque, pode indicar úlcera perfurada e também exige atendimento imediato. Perda de peso sem explicação, dificuldade para engolir, vômitos persistentes e anemia em quem tem sintomas gástricos são sinais de alarme que pedem endoscopia, mesmo sem dor forte.',
+        ],
+        bullets: [
+          'Vômito com sangue ou com aspecto de borra de café',
+          'Fezes pretas, pastosas ou com sangue',
+          'Desmaio, suor frio e palidez súbita',
+          'Dor abdominal súbita e intensa, com barriga rígida',
+          'Perda de peso sem explicação',
+          'Dificuldade para engolir ou vômitos repetidos',
+          'Anemia sem causa aparente',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Qual médico procurar e quando investigar?',
+        paragraphs: [
+          'O especialista é o gastroenterologista. Na rede pública, o caminho costuma começar na UBS, que avalia os sintomas, orienta sobre higiene e encaminha para endoscopia e consulta especializada quando há indicação. Quadros de dor muito intensa ou sangramento devem ser vistos em pronto atendimento, sem esperar consulta marcada.',
+          'A endoscopia é indicada quando há sinais de alarme, em pessoas de 40 anos ou mais com sintomas de má digestão, quando o tratamento com remédios para azia não funciona e em quem tem familiar de primeiro grau com câncer de estômago, a partir dos 30 anos. Em pessoas mais jovens, sem sinais de alarme, a estratégia de testar e tratar é uma alternativa aceita pelas diretrizes brasileiras.',
+        ],
+        bullets: [
+          'Consulta: gastroenterologista, com encaminhamento pela UBS.',
+          'Endoscopia: indicada na presença de sinais de alarme, a partir dos 40 anos com má digestão e em familiares de casos de câncer gástrico.',
+          'Emergência: sangramento digestivo ou dor abdominal súbita pedem pronto atendimento.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é confirmado?',
+        paragraphs: [
+          'Existem exames que detectam a bactéria sem precisar de endoscopia. O teste respiratório com ureia marcada é o mais estudado e serve tanto para diagnosticar quanto para confirmar a cura. A pesquisa do antígeno nas fezes, feita com anticorpos monoclonais, é uma alternativa com boa precisão, inclusive em crianças.',
+          'Quando há indicação de endoscopia, o médico coleta fragmentos da mucosa. O teste rápido da urease dá resposta em poucos minutos, e o exame anatomopatológico avalia ao mesmo tempo a inflamação, a presença da bactéria e alterações como atrofia e metaplasia. O exame direto do fragmento, visto ao microscópio, também revela a bactéria. A cultura fica reservada para casos em que é preciso saber a quais antibióticos a bactéria é sensível, sobretudo depois de tratamentos que falharam.',
+          'Alguns cuidados evitam resultado falso-negativo. Antibióticos e bismuto devem ser suspensos quatro semanas antes do teste, e os inibidores de bomba de prótons, duas semanas antes. O exame de sangue não serve para confirmar cura, porque os anticorpos continuam positivos por muito tempo depois da eliminação da bactéria.',
+        ],
+        bullets: [
+          'Teste respiratório: o consenso brasileiro indica a versão com carbono 13, usada antes e depois do tratamento.',
+          'Antígeno fecal: alternativa válida para diagnóstico e controle, sobretudo em crianças.',
+          'Teste rápido da urease: feito durante a endoscopia, mas não serve para confirmar a cura.',
+          'Anatomopatológico: confirma a bactéria e avalia atrofia e metaplasia; o consenso recomenda pelo menos quatro fragmentos.',
+          'Cultura: identifica a sensibilidade aos antibióticos; os testes moleculares ajudam em casos selecionados.',
+          'Sorologia: não distingue infecção ativa de infecção antiga e não serve para controle.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais pode parecer infecção por Helicobacter pylori?',
+        paragraphs: [
+          'A má digestão não é exclusiva da bactéria. A dispepsia funcional, em que os sintomas existem sem lesão visível na endoscopia, é uma das explicações mais comuns, e o diagnóstico só é firmado depois de afastar outras causas. A úlcera causada por anti-inflamatórios também provoca dor parecida, mesmo sem a bactéria.',
+          'Outras doenças do aparelho digestivo entram na lista. Refluxo gastroesofágico, cálculo na vesícula, intolerância à lactose e câncer de estômago podem começar com queixas semelhantes. Em idosos e em quem tem sinais de alarme, a endoscopia com biópsia é o que separa a gastrite benigna do tumor, e perda de peso ou anemia mudam o rumo da investigação.',
+          'Fora do estômago, a infecção pode se confundir com causas de anemia por falta de ferro e de plaquetas baixas. Por isso, o médico avalia o conjunto: sintomas, remédios em uso, exames de sangue e, quando indicado, a endoscopia.',
+        ],
+        bullets: [
+          'Dispepsia funcional: sintomas sem lesão na endoscopia.',
+          'Úlcera por anti-inflamatório: dor parecida, sem a bactéria.',
+          'Refluxo gastroesofágico: azia e queimação que sobe pelo peito.',
+          'Cálculo na vesícula: dor no lado direito, depois de comida gordurosa.',
+          'Câncer de estômago: perda de peso, anemia e sinais de alarme.',
+          'Intolerância à lactose: estufamento e diarreia depois do leite.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento para eliminar a bactéria?',
+        paragraphs: [
+          'O objetivo é erradicar a bactéria, e isso exige uma combinação de medicamentos, porque um antibiótico sozinho não resolve. Entre as opções de primeira linha do consenso brasileiro está a terapia quádrupla com bismuto, que associa um inibidor de bomba de prótons, bismuto, metronidazol e tetraciclina por 10 a 14 dias.',
+          'O esquema tríplice com claritromicina e amoxicilina ainda é usado, mas só quando a resistência à claritromicina é baixa ou quando o teste mostra que a bactéria é sensível. Tomar todos os comprimidos até o último dia é o que mais pesa no sucesso: parar quando a dor melhora favorece a sobrevivência da bactéria e a resistência aos antibióticos.',
+          'Efeitos colaterais comuns incluem náusea, alteração do paladar, diarreia e constipação. O bismuto pode escurecer a língua e as fezes, o que é esperado e reversível. Quando o primeiro esquema falha, o médico troca a combinação em vez de repetir os mesmos antibióticos; pessoas alérgicas à penicilina têm alternativas sem amoxicilina. Em sangramento digestivo ativo, o tratamento é hospitalar, com estabilização, medicação para reduzir a acidez e endoscopia para conter a hemorragia.',
+        ],
+        bullets: [
+          'Primeira linha: terapia quádrupla com bismuto, por 10 a 14 dias.',
+          'Esquema tríplice: reservado para locais com resistência baixa à claritromicina ou para casos com sensibilidade comprovada.',
+          'Adesão: completar o prazo combinado, mesmo quando a dor melhora.',
+          'Alergia à penicilina: existem esquemas sem amoxicilina.',
+          'Falha: trocar a combinação, sem repetir os mesmos antibióticos.',
+          'Sangramento ativo: tratamento hospitalar, com endoscopia para conter a hemorragia.',
+          'Alternativa sem bismuto: amoxicilina em dose alta com inibidor de bomba de prótons, por 14 dias.',
+          'Terapia com vonoprazana: quando disponível, pode substituir o inibidor de bomba de prótons.',
+        ],
+      },
+      {
+        id: 'medidas-gerais',
+        heading: 'O que ajuda além dos remédios?',
+        paragraphs: [
+          'Não existe dieta que elimine a bactéria, e chás, suplementos ou receitas caseiras não substituem os antibióticos. O que ajuda é não atrapalhar o tratamento: evitar bebida alcoólica, reduzir café e alimentos muito condimentados se eles pioram a azia, parar de fumar e manter refeições em horários regulares.',
+          'O cigarro merece destaque, porque aumenta a chance de o esquema falhar. Quem usa anti-inflamatórios, aspirina ou anticoagulantes deve avisar o médico antes de começar, para que a proteção do estômago seja ajustada. Também não convém interromper ou trocar remédios por conta própria durante o tratamento.',
+        ],
+        bullets: [
+          'Não fume durante e depois do tratamento.',
+          'Evite álcool até terminar o esquema.',
+          'Avise o médico sobre aspirina, anti-inflamatórios e anticoagulantes.',
+          'Mantenha refeições regulares e reduza café se a azia piorar.',
+          'Não substitua o esquema por chás, suplementos ou receitas caseiras.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Quando a cirurgia é necessária?',
+        paragraphs: [
+          'A cirurgia não trata a infecção por Helicobacter pylori. Ela entra quando a úlcera causa uma complicação que não se resolve por endoscopia ou medicação, como perfuração, sangramento que não para, obstrução da saída do estômago por cicatriz ou suspeita de câncer.',
+          'A retirada parcial do estômago também pode ser indicada em úlceras que não cicatrizam apesar do tratamento correto, sobretudo quando há dúvida sobre malignidade. Depois da operação, a erradicação da bactéria continua necessária, porque ela reduz o risco de a úlcera voltar.',
+        ],
+        bullets: [
+          'Perfuração: cirurgia de urgência.',
+          'Hemorragia que não cede à endoscopia.',
+          'Obstrução da saída do estômago por cicatriz.',
+          'Úlcera que não cicatriza ou com suspeita de câncer.',
+          'Após a cirurgia, o tratamento da bactéria continua indicado.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'A infecção tem cura? Pode voltar?',
+        paragraphs: [
+          'Sim, a infecção tem cura. Com um esquema bem cumprido, a maioria das pessoas elimina a bactéria, e o consenso brasileiro trabalha com a meta de erradicação acima de 90%. A gastrite melhora, a úlcera cicatriza com mais facilidade e o risco de câncer cai ao longo dos anos.',
+          'A úlcera, porém, pode voltar se a bactéria não for eliminada: o Manual MSD estima recidiva em mais de 50% dos pacientes em três anos nesse cenário, contra menos de 10% quando a erradicação é confirmada. A reinfecção existe, mas é pouco frequente: estudos brasileiros citados pelo consenso apontam cerca de 2% ao ano.',
+          'Quem tem atrofia ou metaplasia na mucosa precisa manter acompanhamento mesmo depois da cura, porque o risco de câncer não desaparece por completo. Nesses casos, o médico define o intervalo das endoscopias de controle.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a infecção pode causar?',
+        paragraphs: [
+          'A complicação mais comum é a [úlcera péptica](/doencas/ulcera-peptica/), que pode sangrar, perfurar ou obstruir a passagem do alimento. O sangramento é a emergência mais frequente e pode ser a primeira manifestação da doença, sobretudo em quem usa anti-inflamatórios ou tem mais idade.',
+          'A infecção crônica também está ligada ao câncer gástrico, sobretudo o de tipo intestinal, que costuma surgir depois de anos de gastrite atrófica e metaplasia intestinal. O linfoma MALT, um câncer do tecido linfoide do estômago, é menos comum, mas tem relação estreita com a bactéria, e a erradicação faz parte do tratamento.',
+          'Fora do estômago, a infecção aparece associada a [anemia por deficiência de ferro](/doencas/anemia-ferropriva/) e à púrpura trombocitopênica imune.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como é a rotina em casa e o acompanhamento depois do tratamento?',
+        paragraphs: [
+          'O tratamento dura poucas semanas, mas pede organização. Use os remédios nos horários prescritos, sem pular doses, e mantenha uma lista do que está tomando para mostrar na consulta. Se esquecer uma dose, siga a orientação da receita ou pergunte à equipe de saúde, sem dobrar a dose seguinte.',
+          'Em casa, lave as mãos com água e sabão depois de usar o banheiro e antes de preparar alimentos. Não compartilhe copos, escovas e talheres sem lavar. Se alguém da família também tem a bactéria, vale conversar com o serviço de saúde sobre testar os demais moradores, porque o tratamento conjunto reduz a circulação da bactéria na casa.',
+          'O fim do tratamento não é o fim do acompanhamento. É preciso repetir o teste cerca de quatro semanas depois da última dose, com teste respiratório ou antígeno fecal. Antes do exame, o paciente deve estar sem antibiótico por quatro semanas e sem inibidor de bomba de prótons por duas semanas.',
+          'Se o resultado continuar positivo, o médico indica um novo esquema, diferente do primeiro. Quem teve úlcera precisa também confirmar a cicatrização, e quem tem atrofia ou metaplasia segue em vigilância endoscópica.',
+        ],
+        bullets: [
+          'Remédios: horários fixos e tratamento até o fim.',
+          'Higiene: mãos lavadas, utensílios limpos e sem compartilhar escova de dentes.',
+          'Casa: testar e tratar os moradores infectados reduz a transmissão.',
+          'Efeitos colaterais: diarreia, náusea e escurecimento das fezes pelo bismuto são esperados; avise se forem intensos.',
+          'Álcool e fumo: suspender durante o esquema.',
+          'Reavaliação: repetir o teste cerca de quatro semanas após o fim do tratamento.',
+          'Controle da úlcera: confirmar a cicatrização ao final do tratamento.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a infecção?',
+        paragraphs: [
+          'A prevenção depende de reduzir a transmissão entre pessoas, e isso começa em casa: lavar as mãos depois do banheiro e antes de comer ou cozinhar, beber água tratada e lavar bem frutas, verduras e utensílios.',
+          'Como a infecção se concentra em famílias, testar e tratar os moradores de uma casa onde há um caso confirmado ajuda a interromper a circulação da bactéria. O mesmo vale para ambientes coletivos, como instituições de longa permanência, onde o contato próximo é constante.',
+          'Saneamento e água tratada são a camada mais importante e dependem de política pública. No dia a dia, evitar compartilhar escova de dentes e utensílios sem lavar, manter a cozinha limpa e não oferecer alimentos mastigados por um adulto a crianças completam as medidas.',
+        ],
+        bullets: [
+          'Lave as mãos após usar o banheiro e antes de comer.',
+          'Beba água tratada e lave bem frutas e verduras.',
+          'Não compartilhe escova de dentes nem utensílios sem lavar.',
+          'Não ofereça comida mastigada por um adulto à criança.',
+          'Trate todos os moradores infectados da mesma casa.',
+          'Apoie saneamento básico, que reduz a circulação da bactéria na comunidade.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Helicobacter pylori é contagioso?',
+        answer:
+          'Sim. A bactéria passa de pessoa para pessoa, sobretudo por via fecal-oral e oral-oral. Por isso, os casos se concentram em famílias e em ambientes com contato próximo e higiene limitada.',
+      },
+      {
+        question: 'Quem tem a bactéria precisa tratar mesmo sem sintomas?',
+        answer:
+          'As diretrizes brasileiras recomendam tratar a infecção em praticamente todos os casos, inclusive em quem não tem sintomas, porque a inflamação no estômago existe mesmo sem dor e o risco de úlcera e câncer aumenta com o tempo. A decisão final é do médico, considerando idade, outras doenças e medicamentos em uso.',
+      },
+      {
+        question: 'Como saber se a bactéria foi eliminada?',
+        answer:
+          'Com teste respiratório ou exame de antígeno nas fezes, cerca de quatro semanas depois do fim do tratamento. É preciso estar sem antibióticos por quatro semanas e sem inibidor de bomba de prótons por duas semanas, para o resultado não dar falso-negativo.',
+      },
+      {
+        question: 'A infecção pode voltar depois da cura?',
+        answer:
+          'Pode, mas é pouco frequente. Estudos brasileiros citados pelo consenso apontam reinfecção em cerca de 2% ao ano. Convivência com pessoas infectadas e falta de saneamento aumentam esse risco.',
+      },
+      {
+        question: 'Helicobacter pylori causa câncer de estômago?',
+        answer:
+          'A infecção prolongada aumenta o risco, e a erradicação reduz a incidência e a mortalidade por câncer gástrico. Ainda assim, a maioria das pessoas infectadas nunca desenvolve câncer.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'helicobacter-pylori-sintomas-e-quando-investigar',
+      'helicobacter-pylori-transmissao-e-prevencao',
+      'helicobacter-pylori-tratamento-e-erradicacao',
+      'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico',
+      'helicobacter-pylori-alimentacao-durante-o-tratamento',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['ulcera-peptica', 'gastroenterite', 'anemia-ferropriva'],
+    references: [
+      {
+        label: 'Infecção por Helicobacter pylori',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/infec%C3%A7%C3%A3o-por-helicobacter-pylori',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'V Consenso Brasileiro sobre a infecção por Helicobacter pylori',
+        url: 'https://www.scielo.br/j/ag/a/G9BpZdBB8tHTKdF9b5nmSbp/?lang=pt',
+        publisher: 'Arquivos de Gastroenterologia (SciELO Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-23',
+    updatedAt: '2026-10-23',
+    isPlaceholder: true,
+  },
 ];

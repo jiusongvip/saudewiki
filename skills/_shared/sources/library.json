@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "allowedHosts": [
     "gov.br",
     "saude.gov.br",
@@ -34,6 +34,31 @@
         "Fiocruz：A Doença Falciforme no Brasil，支撑镰状细胞病词条的巴西照护与政策背景"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "about-ascariasis",
+      "label": "About Ascariasis",
+      "url": "https://www.cdc.gov/sth/about/ascariasis.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "ascaridíase",
+        "geo-helmintíase"
+      ],
+      "diseases": [
+        "ascaridiase"
+      ],
+      "supports": [
+        "Ascaris lumbricoides infecta cerca de 772 a 892 milhões de pessoas no mundo",
+        "Transmissão por ingestão de ovos infectantes presentes em solo contaminado",
+        "Maioria sem sintomas; infecções intensas podem obstruir o intestino e retardar o crescimento em crianças",
+        "Diagnóstico por exame microscópico de ovos nas fezes",
+        "Tratamento medicamentoso dura de um a três dias",
+        "Lavar as mãos, lavar e descascar frutas e verduras e evitar solo ou água contaminados"
+      ],
+      "verifiedAt": "2026-10-23",
       "status": "verified"
     },
     {
@@ -503,6 +528,29 @@
       "status": "verified"
     },
     {
+      "id": "cancer-do-colo-do-utero-versao-para-populacao",
+      "label": "Câncer do colo do útero, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "rastreamento",
+        "HPV"
+      ],
+      "diseases": [
+        "cancer-do-colo-do-utero"
+      ],
+      "supports": [
+        "Estimativa de 19.310 casos novos por ano no Brasil entre 2026 e 2028",
+        "7.493 mortes por câncer do colo do útero registradas em 2024",
+        "Rastreamento com teste DNA-HPV dos 25 aos 64 anos, a cada cinco anos"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
       "id": "cancer-fact-sheet",
       "label": "Cancer: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
@@ -583,6 +631,27 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "cervical-cancer-fact-sheet",
+      "label": "Cervical cancer: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "HPV"
+      ],
+      "diseases": [
+        "cancer-do-colo-do-utero"
+      ],
+      "supports": [
+        "O câncer do colo do útero é causado por infecção persistente por HPV de alto risco",
+        "A vacinação contra o HPV e o rastreamento permitem prevenir a maioria dos casos"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
     },
     {
       "id": "chikungunya-fact-sheet",
@@ -823,6 +892,49 @@
       "status": "verified"
     },
     {
+      "id": "depressao",
+      "label": "Depressão",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/depressao",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "saúde mental",
+        "depressão"
+      ],
+      "diseases": [
+        "depressao"
+      ],
+      "supports": [
+        "Prevalência de depressão ao longo da vida no Brasil em torno de 15,5%",
+        "O diagnóstico é clínico e não existe exame laboratorial específico",
+        "O tratamento é medicamentoso e psicoterápico, oferecido na atenção primária e nos CAPS"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "depression-fact-sheet",
+      "label": "Depression: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "saúde mental",
+        "depressão"
+      ],
+      "diseases": [
+        "depressao"
+      ],
+      "supports": [
+        "A depressão é um transtorno mental comum e uma das principais causas de incapacidade",
+        "Existem tratamentos eficazes, incluindo psicoterapia e medicação"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
       "id": "diabetes-fact-sheet",
       "label": "Diabetes: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
@@ -945,6 +1057,27 @@
       "status": "verified"
     },
     {
+      "id": "doenca-arterial-coronariana-versao-saude-para-a-familia",
+      "label": "Doença arterial coronariana, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/doen%C3%A7a-arterial-coronariana",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "doença coronariana",
+        "angina"
+      ],
+      "diseases": [
+        "doenca-arterial-coronariana"
+      ],
+      "supports": [
+        "A angina estável costuma piorar com esforço e melhorar com repouso",
+        "A síndrome coronariana aguda exige atendimento de emergência"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
       "id": "doenca-de-chagas",
       "label": "Doença de Chagas",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-de-chagas",
@@ -1046,6 +1179,28 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "dor-lombar-versao-saude-para-a-familia",
+      "label": "Dor lombar, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/dor-lombar-e-no-pesco%C3%A7o/dor-lombar",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "lombalgia",
+        "estenose do canal lombar"
+      ],
+      "diseases": [
+        "espondilose-lombar"
+      ],
+      "supports": [
+        "Osteófitos e degeneração do disco podem estreitar o canal lombar e comprimir raízes nervosas",
+        "Sinais de alerta incluem retenção urinária, incontinência e anestesia em sela",
+        "A maioria dos episódios de dor lombar melhora em até seis semanas"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
     },
     {
       "id": "em-2023-espera-por-transplante-de-coracao-foi-menor-que-30-dias-para-27-5-dos-pacientes",
@@ -1526,6 +1681,26 @@
       "status": "imported"
     },
     {
+      "id": "hernia-de-disco-versao-saude-para-a-familia",
+      "label": "Hérnia de disco, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/dor-lombar-e-no-pesco%C3%A7o/h%C3%A9rnia-de-disco",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "lombalgia",
+        "hérnia de disco"
+      ],
+      "diseases": [
+        "espondilose-lombar"
+      ],
+      "supports": [
+        "A hérnia de disco é um dos principais diagnósticos diferenciais da dor lombar com irradiação para a perna"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
       "id": "hipertensao-arterial-materiais-e-orientacoes",
       "label": "Hipertensão arterial: materiais e orientações",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipertensao",
@@ -1631,6 +1806,28 @@
       "status": "imported"
     },
     {
+      "id": "hpv",
+      "label": "HPV",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "HPV",
+        "vacinação"
+      ],
+      "diseases": [
+        "cancer-do-colo-do-utero"
+      ],
+      "supports": [
+        "Vacina contra o HPV disponível no SUS em dose única dos 9 aos 14 anos",
+        "Grupos especiais recebem três doses, incluindo pessoas vivendo com HIV e transplantadas",
+        "Teste molecular de DNA-HPV incorporado ao SUS em 2024 como método de rastreamento"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
       "id": "hypertension-fact-sheet",
       "label": "Hypertension: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
@@ -1710,10 +1907,11 @@
       "lang": "pt",
       "topics": [],
       "diseases": [
-        "ulcera-peptica"
+        "ulcera-peptica",
+        "infeccao-por-helicobacter-pylori"
       ],
       "supports": [
-        "MSD 家庭/专业版：Infecção por Helicobacter pylori，支撑消化性溃疡词条的病因、症状、诊断或治疗事实"
+        "MSD 家庭/专业版：Infecção por Helicobacter pylori，支撑消化性溃疡与幽门螺旋杆菌感染词条的病因、症状、诊断、预后与传播事实"
       ],
       "verifiedAt": "2026-10-21",
       "status": "verified"
@@ -1956,6 +2154,27 @@
       "status": "imported"
     },
     {
+      "id": "low-back-pain-fact-sheet",
+      "label": "Low back pain: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/low-back-pain",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "lombalgia",
+        "dor lombar"
+      ],
+      "diseases": [
+        "espondilose-lombar"
+      ],
+      "supports": [
+        "A dor lombar é a principal causa de incapacidade no mundo e a maioria dos episódios melhora sem cirurgia",
+        "Recomenda-se manter atividade e evitar repouso prolongado"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
       "id": "lymphatic-filariasis",
       "label": "Lymphatic Filariasis",
       "url": "https://www.paho.org/en/topics/lymphatic-filariasis",
@@ -2112,6 +2331,85 @@
       "status": "verified"
     },
     {
+      "id": "ms-febre-tifoide",
+      "label": "Febre Tifoide",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-tifoide",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "febre-tifoide",
+        "doencas-infecciosas"
+      ],
+      "diseases": [
+        "febre-tifoide"
+      ],
+      "supports": [
+        "Doença bacteriana aguda causada por Salmonella enterica sorotipo Typhi, associada a saneamento precário",
+        "No Brasil ocorre de forma endêmica em regiões isoladas, sobretudo Norte e Nordeste",
+        "Transmissão direta pelas mãos e indireta por água ou alimentos contaminados com fezes ou urina",
+        "Eliminação da bactéria por uma a três semanas, podendo chegar a três meses; 2% a 5% tornam-se portadores crônicos",
+        "Sintomas: febre alta, cefaleia, mal-estar, falta de apetite, ritmo cardíaco lento, aumento do baço, manchas rosadas no tronco, constipação ou diarreia, tosse seca",
+        "Complicação principal é a hemorragia intestinal, que pode levar à perfuração",
+        "Diagnóstico por clínica, histórico de exposição e exames de sangue, fezes, urina e aspirado medular",
+        "Tratamento ambulatorial com antibiótico e reidratação, em geral por cerca de 14 dias",
+        "Vacina disponível tem baixo poder imunogênico e imunidade curta, indicada apenas em situações específicas; saneamento, preparo dos alimentos e higiene são as principais medidas"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "ms-gripe-influenza",
+      "label": "Gripe (influenza)",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gripe-influenza",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "influenza",
+        "doencas-infecciosas"
+      ],
+      "diseases": [
+        "gripe"
+      ],
+      "supports": [
+        "Sintomas principais: febre, dor de garganta, tosse, dor no corpo e dor de cabeça, de início súbito",
+        "Complicações mais comuns: pneumonias bacterianas e virais, sinusite, otite, desidratação e piora de doenças crônicas",
+        "Oseltamivir indicado em síndrome respiratória aguda grave e em síndrome gripal com fatores de risco, preferencialmente nas primeiras 48 horas",
+        "Fatores de risco: gestantes, puérperas até duas semanas, 60 anos ou mais, menores de 5 anos, doenças crônicas, imunossupressão, obesidade com IMC 40 ou mais, indígenas aldeados",
+        "Vacina anual gratuita no SUS, reformulada a cada ano para os três subtipos que mais circularam no Hemisfério Sul",
+        "Afastamento do trabalho ou escola até 24 horas após o fim da febre sem antitérmico"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "msd-manuais-obesidade",
+      "label": "Obesidade — Manual MSD, versão profissional",
+      "url": "https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-nutricionais/obesidade-e-s%C3%ADndrome-metab%C3%B3lica/obesidade",
+      "publisher": "MSD Manuals",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "obesidade",
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "obesidade"
+      ],
+      "supports": [
+        "Classificação: sobrepeso 25 a 29,9; obesidade classe I 30 a 34,9; classe II 35 a 39,9; classe III 40 ou mais",
+        "Circunferência abdominal e síndrome metabólica predizem risco cardiometabólico melhor que o IMC",
+        "Complicações por sistema: hipertensão, coronariopatia, AVC, apneia obstrutiva do sono, diabetes, esteatose hepática, osteoartrite, refluxo, colelitíase, infertilidade, alguns cânceres, depressão",
+        "Perda de 5% a 10% do peso já melhora a saúde e reduz risco cardiovascular",
+        "150 minutos por semana de atividade física trazem benefício; 300 a 360 minutos por semana para perder e manter peso",
+        "Medicamento indicado quando IMC acima de 27 com comorbidade ou acima de 30 sem comorbidade",
+        "Cirurgia metabólica é o tratamento mais eficaz na obesidade grave; em adolescentes, IMC 40 ou mais, ou 35 ou mais com complicações relevantes"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
       "id": "neurocisticercose",
       "label": "Neurocisticercose",
       "url": "https://bvsms.saude.gov.br/bvs/dicas/87neurocis.html",
@@ -2135,6 +2433,82 @@
         "Prevenção: carne bem cozida, água filtrada ou fervida, verduras lavadas, saneamento, higiene das mãos, criação de porcos longe de esgoto"
       ],
       "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "oms-influenza-sazonal-fact-sheet",
+      "label": "Influenza (seasonal): fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "en",
+      "topics": [
+        "influenza",
+        "doencas-infecciosas"
+      ],
+      "diseases": [
+        "gripe"
+      ],
+      "supports": [
+        "Cerca de 1 bilhão de casos por ano, 3 a 5 milhões de casos graves e 290 mil a 650 mil mortes respiratórias",
+        "Sintomas começam 1 a 4 dias após a infecção e duram cerca de uma semana",
+        "Transmissão por gotículas ao tossir ou espirrar e por mãos contaminadas",
+        "Grupos de maior risco: gestantes, crianças menores de 5 anos, idosos, pessoas com doenças crônicas e imunossuprimidas, profissionais de saúde",
+        "Vacinação anual é a melhor forma de prevenção porque a imunidade diminui com o tempo",
+        "Antiviral indicado o mais cedo possível para grupos de risco e casos graves"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "oms-obesidade-e-sobrepeso-fact-sheet",
+      "label": "Obesity and overweight: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "en",
+      "topics": [
+        "obesidade",
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "obesidade"
+      ],
+      "supports": [
+        "Em 2024, 2,6 bilhões de adultos com sobrepeso, 940 milhões com obesidade; 45% dos adultos com sobrepeso e 16% com obesidade",
+        "Obesidade em adultos mais que dobrou desde 1990; obesidade em 5 a 19 anos quadruplicou",
+        "IMC de 25 ou mais define sobrepeso e 30 ou mais define obesidade em adultos",
+        "Crianças de 5 a 19 anos: sobrepeso acima de 1 desvio-padrão e obesidade acima de 2 desvios-padrão da mediana da referência de crescimento da OMS",
+        "Em 2023, IMC acima do ideal foi associado a 3,7 milhões de mortes",
+        "Obesidade é doença crônica e exige cuidado crônico multimodal, com apoio a alimentação, atividade física, sono, aconselhamento nutricional, apoio psicológico, medicamentos e cirurgia quando indicado",
+        "Recomenda limitar bebidas açucaradas e alimentos de alta densidade energética e baixo valor nutricional"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "oms-tifoide-fact-sheet",
+      "label": "Typhoid: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/typhoid",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "en",
+      "topics": [
+        "febre-tifoide",
+        "doencas-infecciosas"
+      ],
+      "diseases": [
+        "febre-tifoide"
+      ],
+      "supports": [
+        "Cerca de 9 milhões de casos e 110 mil mortes por ano, estimativa de 2019",
+        "Salmonella Typhi vive apenas em humanos e é transmitida por alimento ou água contaminados",
+        "Sintomas: febre prolongada, fadiga, cefaleia, náusea, dor abdominal, constipação ou diarreia e, em alguns casos, exantema",
+        "Resistência antimicrobiana é comum e complica o tratamento",
+        "Vacina conjugada indicada a partir de 6 meses, com dose única, em países endêmicos",
+        "Acesso a água segura, saneamento e higiene dos manipuladores de alimentos previnem a doença"
+      ],
+      "verifiedAt": "2026-10-23",
       "status": "verified"
     },
     {
@@ -2285,6 +2659,105 @@
         "SUS: nirsevimabe para prematuros com menos de 37 semanas e crianças de até 24 meses com comorbidades, nascidas a partir de fevereiro de 2026"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "rabies",
+      "label": "Rabies",
+      "url": "https://www.paho.org/en/topics/rabies",
+      "publisher": "Organização Pan-Americana da Saúde",
+      "host": "www.paho.org",
+      "lang": "pt",
+      "topics": [
+        "raiva",
+        "Américas"
+      ],
+      "diseases": [
+        "raiva"
+      ],
+      "supports": [
+        "As Américas reduziram cerca de 98% da incidência de raiva humana transmitida por cães",
+        "Morcego hematófago Desmodus rotundus é a principal fonte de transmissão por animais silvestres na região",
+        "Meta de eliminação da raiva humana transmitida por cães nas Américas até 2030"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "rabies-fact-sheet",
+      "label": "Rabies: fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "raiva",
+        "zoonose"
+      ],
+      "diseases": [
+        "raiva"
+      ],
+      "supports": [
+        "Cerca de 99% dos casos humanos são transmitidos por cães",
+        "40% das mortes são em crianças menores de 15 anos",
+        "Incubação típica de 2 a 3 meses, variando de uma semana a um ano",
+        "Forma paralítica corresponde a cerca de 20% dos casos",
+        "Raiva é fatal em 100% dos casos após o início dos sintomas",
+        "Lavar o ferimento com água e sabão por pelo menos 15 minutos e buscar atendimento",
+        "Categoria III exige vacina e imunoglobulina ou anticorpo monoclonal",
+        "Não há ferramenta diagnóstica aprovada pela OMS antes do início dos sintomas"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "raiva",
+      "label": "Raiva",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "raiva",
+        "zoonose",
+        "profilaxia antirrábica"
+      ],
+      "diseases": [
+        "raiva"
+      ],
+      "supports": [
+        "Raiva é causada por Lyssavirus e tem letalidade de aproximadamente 100%",
+        "Transmissão pela saliva de animais infectados, principalmente mordedura, arranhadura e lambedura",
+        "Incubação média de 45 dias no ser humano, podendo ser mais curta em crianças",
+        "Pródromos duram em média 2 a 10 dias; evolução até o óbito em geral 2 a 7 dias",
+        "Diagnóstico ante mortem por imunofluorescência direta em impressão de córnea, raspado de mucosa lingual ou biópsia de pele da região cervical",
+        "Profilaxia pré-exposição indicada para profissionais com risco ocupacional e viajantes avaliados individualmente",
+        "Lavar o ferimento com água e sabão e usar antisséptico; observar cão ou gato por 10 dias"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "raiva-humana",
+      "label": "Raiva humana",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva/raiva-humana",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "raiva",
+        "vigilância epidemiológica"
+      ],
+      "diseases": [
+        "raiva"
+      ],
+      "supports": [
+        "Brasil está há 10 anos sem raiva humana transmitida por cães",
+        "Entre 2010 e 2026 foram 54 casos humanos, sendo 23 por morcegos, 12 por primatas não humanos, 10 por cães, 5 por felinos, 2 por raposas, 1 por bovino e 1 por cervídeo",
+        "Transmissão por morcegos é atualmente a principal fonte de infecção humana no país",
+        "Apenas dois pacientes sobreviveram na história dos casos brasileiros"
+      ],
+      "verifiedAt": "2026-10-23",
       "status": "verified"
     },
     {
@@ -2483,6 +2956,31 @@
       "status": "imported"
     },
     {
+      "id": "soil-transmitted-helminthiasis",
+      "label": "Soil Transmitted Helminthiasis",
+      "url": "https://www.paho.org/en/topics/soil-transmitted-helminthiasis",
+      "publisher": "Organização Pan-Americana da Saúde",
+      "host": "www.paho.org",
+      "lang": "pt",
+      "topics": [
+        "geo-helmintíase",
+        "Américas"
+      ],
+      "diseases": [
+        "ascaridiase",
+        "helmintiases"
+      ],
+      "supports": [
+        "Estima-se que uma em cada três pessoas nas Américas esteja infectada por geo-helmintos",
+        "Cerca de 46 milhões de crianças de 1 a 14 anos estão em risco na região",
+        "Brasil está entre os países com maior presença de helmintíases nas Américas",
+        "Albendazol 400 mg ou mebendazol 500 mg são recomendados em tratamento preventivo",
+        "Tratamento uma vez ao ano quando prevalência acima de 20% e duas vezes ao ano quando acima de 50%"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
       "id": "stroke-fact-sheet",
       "label": "Stroke: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/stroke",
@@ -2494,6 +2992,27 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "suicidio-prevencao",
+      "label": "Suicídio: prevenção",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/suicidio",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "saúde mental",
+        "prevenção do suicídio"
+      ],
+      "diseases": [
+        "depressao"
+      ],
+      "supports": [
+        "Sinais de alerta para risco de suicídio e como agir diante de alguém em risco",
+        "Atendimento pelo CVV no 188, CAPS, UBS, UPA e SAMU 192"
+      ],
+      "verifiedAt": "2026-10-23",
+      "status": "verified"
     },
     {
       "id": "sus-amplia-a-oferta-de-tromboliticos-para-infarto-e-avc",
@@ -2720,10 +3239,11 @@
       "lang": "pt",
       "topics": [],
       "diseases": [
-        "ulcera-peptica"
+        "ulcera-peptica",
+        "infeccao-por-helicobacter-pylori"
       ],
       "supports": [
-        "巴西指南/共识：V Consenso Brasileiro sobre a infecção por Helicobacter pylori，支撑消化性溃疡词条的诊疗要点与本地实践"
+        "巴西指南/共识：V Consenso Brasileiro sobre a infecção por Helicobacter pylori，支撑消化性溃疡与幽门螺旋杆菌感染词条的传播、诊断、根除方案、再感染与适应证"
       ],
       "verifiedAt": "2026-10-21",
       "status": "verified"

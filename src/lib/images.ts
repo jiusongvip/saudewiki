@@ -212,9 +212,73 @@ export const diseaseImages: Record<string, SiteImage> = {
     src: '/img/doenca-cisticercose.webp',
     alt: 'Ilustração médica de um cérebro em corte com cistos arredondados cheios de líquido no tecido e nos ventrículos, com recorte de uma paciente deitada na cama com os braços rígidos e quatro ícones de cefaleia, náusea, visão turva e confusão',
   },
+  obesidade: {
+    src: '/img/doenca-obesidade.webp',
+    alt: 'Ilustração médica de um corte do abdome com camada espessa de gordura subcutânea e gordura visceral em volta do fígado, do estômago e dos intestinos, com recorte de uma fita métrica em volta da cintura e quatro ícones de falta de ar, ronco alto, dor articular e azia',
+  },
+  gripe: {
+    src: '/img/doenca-gripe.webp',
+    alt: 'Ilustração médica de um corte da cabeça e do tórax com a mucosa do nariz, da faringe, da traqueia e dos brônquios vermelha e inchada e partículas do vírus influenza na via aérea, com recorte de uma pessoa febril na cama e quatro ícones de febre alta, tosse seca, dor no corpo e calafrios',
+  },
+  'febre-tifoide': {
+    src: '/img/doenca-febre-tifoide.webp',
+    alt: 'Ilustração médica de um corte do íleo com placas de Peyer aumentadas e ulceradas e bactérias no intestino, com recorte de manchas rosadas no tronco e quatro ícones de febre alta, dor de cabeça, falta de apetite e dor abdominal',
+  },
+  'espondilose-lombar': {
+    src: '/img/doenca-espondilose-lombar.webp',
+    alt: 'Ilustração médica de uma coluna lombar em corte, com osteófitos nas bordas das vértebras, um disco desgastado e uma raiz nervosa vermelha comprimida no forame, com recorte de um homem com a mão na lombar e quatro ícones de dor lombar, dor na perna, formigamento e fraqueza',
+  },
+  'cancer-do-colo-do-utero': {
+    src: '/img/doenca-cancer-do-colo-do-utero.webp',
+    alt: 'Ilustração médica de um útero em corte com uma massa tumoral avermelhada no colo e partículas do HPV ao redor, com recorte de mãos enluvadas segurando um espéculo durante o exame ginecológico e quatro ícones de sangramento, corrimento, dor pélvica e dor ao sexo',
+  },
+  depressao: {
+    src: '/img/doenca-depressao.webp',
+    alt: 'Ilustração médica de um cérebro em corte com metade do córtex em tom azulado, o circuito límbico destacado e sinais neurais enfraquecidos, com recorte de uma mulher sentada na beira da cama com a cabeça baixa e quatro ícones de tristeza, sem prazer, insônia e cansaço',
+  },
+  'doenca-arterial-coronariana': {
+    src: '/img/doenca-doenca-arterial-coronariana.webp',
+    alt: 'Ilustração médica de um coração em corte com uma artéria coronária estreitada por placa amarelada e coágulo e uma área pálida de músculo isquêmico, com recorte de um homem com a mão no peito e quatro ícones de dor no peito, dor no braço, falta de ar e suor frio',
+  },
+  raiva: {
+    src: '/img/doenca-raiva.webp',
+    alt: 'Ilustração médica de um corte da cabeça com o cérebro inflamado e partículas do vírus subindo por um nervo até o sistema nervoso central, com recorte de uma mordida no braço e quatro ícones de hidrofobia, agitação, salivação e convulsão',
+  },
+  ascaridiase: {
+    src: '/img/doenca-ascaridiase.webp',
+    alt: 'Ilustração médica de um corte do intestino delgado com lombrigas enroladas no interior e uma delas obstruindo a passagem, com recorte de uma criança com o abdome distendido e quatro ícones de cólica, diarreia, náusea e tosse',
+  },
+  'infeccao-por-helicobacter-pylori': {
+    src: '/img/doenca-infeccao-por-helicobacter-pylori.webp',
+    alt: 'Ilustração médica de um estômago em corte com a mucosa avermelhada e inflamada, uma úlcera rasa na parte inferior e bactérias Helicobacter pylori em espiral atravessando a camada de muco, com recorte de uma pessoa com a mão sobre a boca do estômago e quatro ícones circulares de azia, estufamento, náusea e falta de apetite',
+  },
 };
 
 export const articleImages: Record<string, SiteImage> = {
+  'obesidade-sintomas-e-quando-buscar-ajuda': {
+    src: '/img/artigo-obesidade-sintomas-e-quando-buscar-ajuda.webp',
+    alt: 'Fita métrica amarela contornando a cintura de uma pessoa',
+  },
+  'obesidade-como-emagrecer-com-saude': {
+    src: '/img/artigo-obesidade-como-emagrecer-com-saude.webp',
+    alt: 'Tábua de madeira com brócolis, pimentão, cenoura, repolho e temperos verdes',
+  },
+  'gripe-sintomas-e-sinais-de-alerta': {
+    src: '/img/artigo-gripe-sintomas-e-sinais-de-alerta.webp',
+    alt: 'Mulher sentada no sofá assoando o nariz com um lenço de papel',
+  },
+  'gripe-vacina-e-como-se-proteger': {
+    src: '/img/artigo-gripe-vacina-e-como-se-proteger.webp',
+    alt: 'Profissional de luvas azuis aplicando uma injeção no braço de uma pessoa',
+  },
+  'febre-tifoide-sintomas-e-diagnostico': {
+    src: '/img/artigo-febre-tifoide-sintomas-e-diagnostico.webp',
+    alt: 'Mãos segurando uma gradil com tubos de coleta de sangue',
+  },
+  'febre-tifoide-como-se-prevenir': {
+    src: '/img/artigo-febre-tifoide-como-se-prevenir.webp',
+    alt: 'Mãos ensaboadas sob água corrente em uma pia branca',
+  },
   'sintomas-iniciais-da-dengue': {
     src: '/img/artigo-sintomas-dengue.webp',
     alt: 'Mosquito em detalhe sobre uma superfície escura',
@@ -726,6 +790,98 @@ export const articleImages: Record<string, SiteImage> = {
   'cisticercose-como-se-transmite-e-como-prevenir': {
     src: '/img/artigo-cisticercose-como-se-transmite-e-como-prevenir.webp',
     alt: 'Cortes de carne suína crua sobre tábua de madeira ao lado de uma faca',
+  },
+  'espondilose-lombar-sintomas-e-quando-procurar-atendimento': {
+    src: '/img/artigo-espondilose-lombar-sintomas-e-quando-procurar-atendimento.webp',
+    alt: 'Médico conversando com uma paciente enquanto segura um prontuário',
+  },
+  'espondilose-lombar-exercicios-e-cuidados-no-dia-a-dia': {
+    src: '/img/artigo-espondilose-lombar-exercicios-e-cuidados-no-dia-a-dia.webp',
+    alt: 'Casal de idosos caminhando de costas por uma alameda arborizada de parque, ao lado de um lago',
+  },
+  'cancer-do-colo-do-utero-sintomas-e-sinais-de-alerta': {
+    src: '/img/artigo-cancer-do-colo-do-utero-sintomas-e-sinais-de-alerta.webp',
+    alt: 'Profissional de saúde medindo a pressão arterial de uma paciente numa consulta',
+  },
+  'cancer-do-colo-do-utero-hpv-vacina-e-rastreamento': {
+    src: '/img/artigo-cancer-do-colo-do-utero-hpv-vacina-e-rastreamento.webp',
+    alt: 'Frascos de vacina enfileirados em uma bandeja',
+  },
+  'depressao-sintomas-e-quando-procurar-ajuda': {
+    src: '/img/artigo-depressao-sintomas-e-quando-procurar-ajuda.webp',
+    alt: 'Mulher de óculos reclinada no sofá, com o rosto cansado',
+  },
+  'depressao-tratamento-e-como-ajudar-alguem': {
+    src: '/img/artigo-depressao-tratamento-e-como-ajudar-alguem.webp',
+    alt: 'Amigos reunidos à mesa compartilhando uma refeição',
+  },
+  'doenca-arterial-coronariana-sintomas-e-sinais-de-infarto': {
+    src: '/img/artigo-doenca-arterial-coronariana-sintomas-e-sinais-de-infarto.webp',
+    alt: 'Traçado de eletrocardiograma impresso em papel',
+  },
+  'doenca-arterial-coronariana-como-prevenir-e-controlar': {
+    src: '/img/artigo-doenca-arterial-coronariana-como-prevenir-e-controlar.webp',
+    alt: 'Salada de alface com tomate-cereja, pepino e cebola-roxa em uma tigela, vista de cima sobre mesa de madeira',
+  },
+  'ascaridiase-como-saber-se-a-crianca-tem-lombriga': {
+    src: '/img/artigo-ascaridiase-como-saber-se-a-crianca-tem-lombriga.webp',
+    alt: 'Mãe com a mão na testa de uma criança deitada no sofá, coberta por um cobertor branco',
+  },
+  'ascaridiase-quando-a-lombriga-sai-do-intestino': {
+    src: '/img/artigo-ascaridiase-quando-a-lombriga-sai-do-intestino.webp',
+    alt: 'Médico ausculta o tórax de um menino em uma sala de atendimento, com a mãe sentada ao lado',
+  },
+  'ascaridiase-como-prevenir-em-casa': {
+    src: '/img/artigo-ascaridiase-como-prevenir-em-casa.webp',
+    alt: 'Mãos com espuma de sabão sendo esfregadas sob a água corrente de uma torneira',
+  },
+  'ascaridiase-tratamento-periodico-de-vermifugos': {
+    src: '/img/artigo-ascaridiase-tratamento-periodico-de-vermifugos.webp',
+    alt: 'Mão segurando um comprimido branco contra um fundo amarelo',
+  },
+  'ascaridiase-lombriga-passa-de-pessoa-para-pessoa': {
+    src: '/img/artigo-ascaridiase-lombriga-passa-de-pessoa-para-pessoa.webp',
+    alt: 'Família reunida em um quintal gramado, com uma mesa posta ao fundo',
+  },
+  'raiva-mordida-de-animal-quando-procurar-atendimento': {
+    src: '/img/artigo-raiva-mordida-de-animal-quando-procurar-atendimento.webp',
+    alt: 'Cão de focinho claro encostando o nariz na mão de uma pessoa',
+  },
+  'raiva-quais-animais-transmitem-no-brasil': {
+    src: '/img/artigo-raiva-quais-animais-transmitem-no-brasil.webp',
+    alt: 'Morcego de pelo escuro pousado em uma superfície de pedra',
+  },
+  'raiva-vacina-antirrabica-esquema-e-seguranca': {
+    src: '/img/artigo-raiva-vacina-antirrabica-esquema-e-seguranca.webp',
+    alt: 'Profissional com luvas verdes segurando o braço de uma pessoa para a aplicação da vacina',
+  },
+  'raiva-profilaxia-pos-exposicao-soro-e-vacina': {
+    src: '/img/artigo-raiva-profilaxia-pos-exposicao-soro-e-vacina.webp',
+    alt: 'Mãos enrolando uma faixa de gaze branca no braço de uma pessoa',
+  },
+  'raiva-como-prevenir-vacinacao-de-caes-e-gatos': {
+    src: '/img/artigo-raiva-como-prevenir-vacinacao-de-caes-e-gatos.webp',
+    alt: 'Veterinário com seringa ao lado de um cão segurado por um voluntário de camiseta azul',
+  },
+  'helicobacter-pylori-sintomas-e-quando-investigar': {
+    src: '/img/artigo-helicobacter-pylori-sintomas-e-quando-investigar.webp',
+    alt: 'Mulher de blusa rosa com as mãos sobre a parte alta da barriga, em fundo claro',
+  },
+  'helicobacter-pylori-transmissao-e-prevencao': {
+    src: '/img/artigo-helicobacter-pylori-transmissao-e-prevencao.webp',
+    alt: 'Mãos cobertas de espuma sendo lavadas sob a torneira de uma pia de aço',
+  },
+  'helicobacter-pylori-tratamento-e-erradicacao': {
+    src: '/img/artigo-helicobacter-pylori-tratamento-e-erradicacao.webp',
+    alt: 'Mão de uma pessoa idosa segurando um comprimido branco perto da boca',
+  },
+  'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico': {
+    src: '/img/artigo-helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico.webp',
+    alt: 'Dois profissionais de saúde de avental cirúrgico e máscara durante um procedimento',
+  },
+  'helicobacter-pylori-alimentacao-durante-o-tratamento': {
+    src: '/img/artigo-helicobacter-pylori-alimentacao-durante-o-tratamento.webp',
+    alt: 'Prato com batata doce assada, couve flor, tomate, feijão e limão sobre uma mesa roxa',
   },
 };
 

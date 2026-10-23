@@ -42,6 +42,7 @@ export const regions: BodyRegion[] = [
       'enxaqueca',
       'epilepsia',
       'cisticercose',
+      'raiva',
     ],
     globalOverview: [
       'No mundo, o AVC é uma das principais causas de morte e de incapacidade permanente, e a enxaqueca e outras cefaleias estão entre as causas mais frequentes de anos vividos com limitação. Epilepsia, demências e neuropatias completam o grupo das doenças neurológicas mais comuns.',
@@ -126,6 +127,7 @@ export const regions: BodyRegion[] = [
       'sindrome-cardiopulmonar-por-hantavirus',
       'esquistossomose',
       'helmintiases',
+      'ascaridiase',
     ],
     globalOverview: [
       'No mundo, as infecções respiratórias baixas, como a pneumonia, estão entre as principais causas de morte, e a asma atinge centenas de milhões de pessoas, a maioria sem diagnóstico formal.',
@@ -150,6 +152,7 @@ export const regions: BodyRegion[] = [
       'hipertensao',
       'insuficiencia-cardiaca',
       'fibrilacao-atrial',
+      'obesidade',
     ],
     globalOverview: [
       'As doenças cardiovasculares são a principal causa de morte no mundo, e dentro delas o infarto e o AVC lideram. A hipertensão, presente em cerca de um em cada quatro adultos, é o maior fator de risco isolado e costuma ser silenciosa por anos.',
@@ -175,6 +178,7 @@ export const regions: BodyRegion[] = [
       'cirrose-hepatica',
       'leishmaniose',
       'esquistossomose',
+      'obesidade',
     ],
     globalOverview: [
       'No mundo, as hepatites B e C, o álcool e a gordura no fígado associada à obesidade e ao diabetes estão entre as principais causas de cirrose e de câncer de fígado.',
@@ -203,6 +207,8 @@ export const regions: BodyRegion[] = [
       'esquistossomose',
       'helmintiases',
       'cisticercose',
+      'ascaridiase',
+      'infeccao-por-helicobacter-pylori',
     ],
     globalOverview: [
       'No mundo todo, as infecções intestinais, virais e bacterianas, são a doença mais comum de todas: gastroenterites de curta duração atingem crianças e adultos em qualquer país, e a diarreia segue sendo uma das grandes causas de morte na infância onde o acesso a água tratada é limitado.',
@@ -227,6 +233,7 @@ export const regions: BodyRegion[] = [
       'diabetes',
       'colesterol-alto',
       'hipotireoidismo',
+      'obesidade',
     ],
     globalOverview: [
       'No mundo, centenas de milhões de pessoas vivem com diabetes, a imensa maioria do tipo 2, e a doença se tornou uma das principais causas de cegueira, diálise e amputação evitáveis.',
@@ -308,6 +315,8 @@ export const regions: BodyRegion[] = [
       'artrite-reumatoide',
       'gota',
       'cisticercose',
+      'obesidade',
+      'espondilose-lombar',
     ],
     globalOverview: [
       'No mundo, a dor lombar é a principal causa de anos vividos com incapacidade, e a artrose de joelho e quadril pesa sobretudo depois dos 50 anos, acompanhando o envelhecimento e a obesidade.',
