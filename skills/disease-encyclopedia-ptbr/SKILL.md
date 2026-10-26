@@ -189,7 +189,7 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 
 #### 5.4 派生文章（由配套 skill 负责）
 
-**不在本 skill 范围内**：派生文章由配套的 [`article-derivation-ptbr`](../article-derivation-ptbr/SKILL.md) skill 生成，其**数量与选题由医典页面的「相关阅读」模块决定**（无该模块不生成；≤5 条按条数；>5 条取 5 篇）。本 skill 只负责疾病词条自身：新建词条时 `relatedArticleSlugs` 置为空数组，由文章 skill 在生成文章后回填。
+**不在本 skill 范围内**：派生文章由配套的 [`article-derivation-ptbr`](../article-derivation-ptbr/SKILL.md) skill 生成，其**数量与选题由医典页面的「相关阅读」模块决定**（无该模块时从词条 section 固定生成 2 篇；≤5 条按条数；>5 条取 5 篇）。本 skill 只负责疾病词条自身：新建词条时 `relatedArticleSlugs` 置为空数组，由文章 skill 在生成文章后回填。
 
 #### 5.5 关系接线（疾病侧）
 
@@ -208,7 +208,7 @@ description: 根据用户输入的疾病名称，优先用脚本查询百度健�
 - `alt` 成对登记：pt-BR 在 `src/lib/images.ts`，繁中在 `src/data/zh-Hant/image-alts.ts`；只描述画面内容，不得含破折号。缺任一即门禁报错。
 - 换图覆盖同名 webp，`src` 不变，只改两语言 `alt`。
 
-**文章配图是另一条流程**：每篇派生文章恰好配 1 张 Unsplash / Pexels 真实照片，由 [派生文章 skill 的图片节](../article-derivation-ptbr/SKILL.md) 负责，**不得套用本节的插画板流程，也不得改用 AI 生成图片**。
+**文章配图是另一条流程**：每篇派生文章恰好配 1 张 Pexels / Unsplash 真实照片（**Pexels 优先**，且须在全部文章写完之后再做），由 [派生文章 skill 的图片节](../article-derivation-ptbr/SKILL.md) 负责，**不得套用本节的插画板流程，也不得改用 AI 生成图片**。
 
 #### 5.7 审校与日期
 

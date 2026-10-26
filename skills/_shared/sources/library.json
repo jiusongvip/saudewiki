@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-26",
   "allowedHosts": [
     "gov.br",
     "saude.gov.br",
@@ -37,6 +37,53 @@
       "status": "verified"
     },
     {
+      "id": "a-hidatidose-humana-no-rio-grande-do-sul-brasil",
+      "label": "A hidatidose humana no Rio Grande do Sul (Brasil)",
+      "url": "https://www.scielo.br/j/rimtsp/a/nXXLGMfSYDz5KXcF5fLYtwj/",
+      "publisher": "Revista do Instituto de Medicina Tropical de São Paulo",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [
+        "hidatidose",
+        "epidemiologia"
+      ],
+      "diseases": [
+        "hidatidose"
+      ],
+      "supports": [
+        "Municípios do Rio Grande do Sul são considerados endêmicos para Echinococcus granulosus",
+        "Estimativa do impacto da hidatidose humana para a saúde pública no Brasil"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "about-amebiasis",
+      "label": "About Amebiasis",
+      "url": "https://www.cdc.gov/amebiasis/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "en",
+      "topics": [
+        "amebíase",
+        "diarreia"
+      ],
+      "diseases": [
+        "amebiase"
+      ],
+      "supports": [
+        "Amebíase causada por Entamoeba histolytica",
+        "Apenas 10% a 20% dos infectados ficam doentes",
+        "Sintomas surgem em 2 a 4 semanas",
+        "Disenteria amebiana causa dor, sangue nas fezes e febre",
+        "Abscesso hepático e disseminação rara para pulmões e cérebro",
+        "Diagnóstico por amostras de fezes de dias diferentes e distinção de Entamoeba dispar",
+        "Prevenção com lavagem das mãos, água segura e alimentos descascados"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
       "id": "about-ascariasis",
       "label": "About Ascariasis",
       "url": "https://www.cdc.gov/sth/about/ascariasis.html",
@@ -62,6 +109,154 @@
       "status": "verified"
     },
     {
+      "id": "about-echinococcosis",
+      "label": "About Echinococcosis",
+      "url": "https://www.cdc.gov/echinococcosis/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "hidatidose",
+        "equinococose"
+      ],
+      "diseases": [
+        "hidatidose"
+      ],
+      "supports": [
+        "Equinococose cística é causada pela larva de Echinococcus granulosus",
+        "Cães são hospedeiros definitivos e ovinos, bovinos, caprinos e suínos intermediários",
+        "Cistos crescem lentamente no fígado, pulmões e outros órgãos e podem passar anos sem sintomas"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "about-giardia-infection",
+      "label": "About Giardia Infection",
+      "url": "https://www.cdc.gov/giardia/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "en",
+      "topics": [
+        "giardíase",
+        "diarreia"
+      ],
+      "diseases": [
+        "giardiase"
+      ],
+      "supports": [
+        "Giardia duodenalis causa diarreia",
+        "Sintomas começam 1 a 2 semanas após a infecção e duram 2 a 6 semanas",
+        "Fezes gordurosas e com mau odor, gases e cólicas",
+        "Transmissão por água, alimentos, superfícies e contato pessoa a pessoa",
+        "Ferver água por pelo menos 1 minuto"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "about-hookworm",
+      "label": "About Hookworm",
+      "url": "https://www.cdc.gov/sth/about/hookworm.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "en",
+      "topics": [
+        "ancilostomíase",
+        "geo-helmintíase"
+      ],
+      "diseases": [
+        "ancilostomiase"
+      ],
+      "supports": [
+        "Ancilostomídeos infectam cerca de 406 a 480 milhões de pessoas no mundo",
+        "Larvas penetram a pele ao andar descalço em solo contaminado",
+        "Coceira e erupção localizada no local de entrada da larva",
+        "Infecção intensa causa dor abdominal, diarreia, perda de apetite, perda de peso, fadiga e anemia",
+        "Ancilostomíase pode retardar o crescimento físico e cognitivo de crianças",
+        "Diagnóstico por ovos nas fezes",
+        "Tratamento dura de um a três dias e suplementação de ferro na anemia"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "about-pinworm-infection",
+      "label": "About Pinworm Infection",
+      "url": "https://www.cdc.gov/pinworm/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "en",
+      "topics": [
+        "oxiuríase",
+        "prurido anal"
+      ],
+      "diseases": [
+        "oxiuriase"
+      ],
+      "supports": [
+        "Enterobius vermicularis causa coceira ao redor do ânus",
+        "Fêmeas depositam ovos à noite na pele ao redor do ânus",
+        "Ovos se tornam infectantes 2 a 3 horas após a postura e sobrevivem 2 a 3 semanas em objetos",
+        "Crianças em idade escolar, instituições e familiares são os mais afetados",
+        "Diagnóstico por visualização 2 a 3 horas após dormir e teste da fita adesiva",
+        "Tratamento em duas doses com duas semanas de intervalo e tratamento de toda a casa"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "about-shigella-infection",
+      "label": "About Shigella Infection",
+      "url": "https://www.cdc.gov/shigella/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "shigelose",
+        "diarreia",
+        "disenteria"
+      ],
+      "diseases": [
+        "shigelose"
+      ],
+      "supports": [
+        "Shigella 分为 4 个种，其中 S. dysenteriae 1 型病情最重",
+        "症状通常在感染后 1 到 2 天出现，持续约 7 天",
+        "5 岁以下儿童、旅行者、男男性行为者与无家可归者风险较高",
+        "感染剂量低，少量细菌即可致病",
+        "预防包括洗手、换尿布后洗手、腹泻期间不游泳与旅行时注意饮食饮水安全"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "about-whipworms",
+      "label": "About Whipworms",
+      "url": "https://www.cdc.gov/sth/about/whipworms.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "en",
+      "topics": [
+        "tricuríase",
+        "geo-helmintíase"
+      ],
+      "diseases": [
+        "tricuriase"
+      ],
+      "supports": [
+        "Trichuris trichiura infecta cerca de 429 a 508 milhões de pessoas no mundo",
+        "Transmissão pela ingestão de ovos presentes em solo contaminado",
+        "Infecções leves costumam ser assintomáticas",
+        "Infecção intensa causa evacuações dolorosas com muco, água e sangue e diarreia com mau odor",
+        "Prolapso retal em infecções intensas",
+        "Crianças com infecção intensa podem ter crescimento lento, anemia grave e prejuízo cognitivo",
+        "Diagnóstico por ovos nas fezes e tratamento de um a três dias"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
       "id": "alimentacao-saudavel-folha-informativa",
       "label": "Alimentação saudável, folha informativa",
       "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
@@ -80,6 +275,26 @@
         "成年人盐摄入应限制在每天 5 克以下（即钠每天 2 克）"
       ],
       "verifiedAt": "2026-10-20",
+      "status": "verified"
+    },
+    {
+      "id": "amebiase",
+      "label": "Amebíase",
+      "url": "https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/ameb%C3%ADase",
+      "publisher": "Manuais MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "amebíase"
+      ],
+      "diseases": [
+        "amebiase"
+      ],
+      "supports": [
+        "Formas intestinal e extraintestinal da amebíase",
+        "Tratamento com nitroimidazol seguido de agente luminal"
+      ],
+      "verifiedAt": "2026-10-26",
       "status": "verified"
     },
     {
@@ -449,11 +664,21 @@
       "publisher": "Ministério da Saúde (Brasil)",
       "host": "www.gov.br",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "vacinação",
+        "PNI"
+      ],
+      "diseases": [
+        "coqueluche"
+      ],
+      "supports": [
+        "Vacina penta (DTP + Hib + hepatite B) 第 1、2、3 剂分别在 2、4、6 月龄接种",
+        "Vacina DTP 第 1 剂加强在 15 月龄接种",
+        "Vacina DTP 第 2 剂加强在 4 岁接种，之后每 10 年一剂 dT",
+        "dTpa 用于医护人员、助产士与在新生儿岗位实习的学生"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
     },
     {
       "id": "calendario-vacinacao-rotavirus",
@@ -820,6 +1045,33 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "coqueluche",
+      "label": "Coqueluche",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/coqueluche",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "coqueluche",
+        "vacinação",
+        "transmissão por gotículas"
+      ],
+      "diseases": [
+        "coqueluche"
+      ],
+      "supports": [
+        "病原为 Bordetella pertussis，主要经咳嗽、打喷嚏的飞沫传播，经物品间接传播少见",
+        "潜伏期平均 5 到 10 天，范围 4 到 21 天，罕见可达 42 天",
+        "病程分卡他期、痉咳期（2 到 6 周）与恢复期",
+        "1 岁以下婴儿，尤其 6 个月以下，易出现呼吸暂停、抽搐与脱水，需住院并采取隔离",
+        "诊断用鼻咽拭子培养或实时 PCR，采样应在使用抗生素前或开始抗生素后最多 3 天内完成",
+        "预防：6 岁 11 个月 29 天以下儿童按国家日历接种，孕妇每次妊娠从 20 周起接种 dTpa，医护人员、助产士与新生儿岗位实习生也应接种",
+        "巴西每 3 到 5 年出现一次发病高峰，再感染通常表现较轻"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
     },
     {
       "id": "dados-e-informacoes-sobre-o-hiv",
@@ -1236,6 +1488,31 @@
         "WHO：Epilepsia: folha informativa，支撑癫痫词条的全球流行病学与防控要点"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "equinococose-folha-informativa",
+      "label": "Equinococose: folha informativa",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/echinococcosis",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "hidatidose",
+        "equinococose"
+      ],
+      "diseases": [
+        "hidatidose"
+      ],
+      "supports": [
+        "Quatro formas: cística, alveolar e duas neotropicais",
+        "Ciclo cão-ovino-cão na equinococose cística",
+        "Cistos mais frequentemente no fígado e nos pulmões, com incubação de muitos anos",
+        "Ultrassonografia é o exame de escolha, complementada por tomografia e ressonância",
+        "Quatro opções de tratamento: PAIR, cirurgia, medicamentos e observação",
+        "Desparasitação de cães com praziquantel ao menos quatro vezes por ano"
+      ],
+      "verifiedAt": "2026-10-26",
       "status": "verified"
     },
     {
@@ -1701,6 +1978,32 @@
       "status": "verified"
     },
     {
+      "id": "hidatidose-humana",
+      "label": "Hidatidose humana",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hidatidose-humana",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "hidatidose",
+        "equinococose",
+        "zoonose"
+      ],
+      "diseases": [
+        "hidatidose"
+      ],
+      "supports": [
+        "No Brasil há hidatidose cística (Echinococcus granulosus sensu lato) e hidatidose neotropical (E. vogeli e E. oligarthra)",
+        "Transmissão por ingestão de ovos eliminados nas fezes ou na pelagem de cães",
+        "Cistos em fígado e pulmões, sintomas por localização e tamanho",
+        "Diagnóstico por imagem (ultrassom, tomografia, ressonância) e sorologia",
+        "Tratamento com benzimidazóis, PAIR ou cirurgia",
+        "Prevenção: não alimentar cães com vísceras cruas e lavar as mãos"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
       "id": "hipertensao-arterial-materiais-e-orientacoes",
       "label": "Hipertensão arterial: materiais e orientações",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipertensao",
@@ -1944,6 +2247,28 @@
         "MSD 家庭/专业版：Infecção renal (pielonefrite), versão saúde para a família，支撑尿路感染词条的病因、症状、诊断或治疗事实"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "infeccoes-por-trematodeos-de-transmissao-alimentar-folha-informativa",
+      "label": "Infecções por trematódeos de transmissão alimentar: folha informativa",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/foodborne-trematode-infections",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "paragonimíase",
+        "trematódeos"
+      ],
+      "diseases": [
+        "paragonimíase"
+      ],
+      "supports": [
+        "Paragonimus usa crustáceos de água doce como segundo hospedeiro",
+        "Diagnóstico por ovos nas fezes ou no escarro e por exames de imagem",
+        "Praziquantel como primeira escolha; triclabendazole como alternativa em alguns países"
+      ],
+      "verifiedAt": "2026-10-26",
       "status": "verified"
     },
     {
@@ -2926,6 +3251,38 @@
       "status": "verified"
     },
     {
+      "id": "shigelose-disenteria-bacilar",
+      "label": "Shigelose (Disenteria Bacilar)",
+      "url": "https://www.msdmanuals.com/pt/profissional/doen%C3%A7as-infecciosas/bacilos-gram-negativos/shigelose",
+      "publisher": "Manual MSD Versão Profissional",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "shigelose",
+        "disenteria bacteriana",
+        "Shigella"
+      ],
+      "diseases": [
+        "shigelose"
+      ],
+      "supports": [
+        "Shigella 分 A、B、C、D 四个亚群，人是唯一自然宿主",
+        "经粪口、污染食物与污染物传播，苍蝇可作媒介，男男性行为者之间可经性传播",
+        "吞入 10 到 100 个细菌即可致病，潜伏期 1 到 4 天",
+        "轻症 4 到 8 天自愈，重症可持续 3 到 6 周",
+        "5 岁以下儿童感染率最高；免疫抑制成人及 2 岁以下儿童可因严重脱水导致循环衰竭与死亡",
+        "溶血性尿毒综合征由 S. dysenteriae 1 型的志贺毒素引起，多在起病约 7 天、最迟 3 周内出现，嗜睡与尿量减少是预警",
+        "可并发菌血症（5 岁以下与 65 岁以上）与反应性关节炎（多见于 HLA-B27）",
+        "诊断靠粪便培养与 PCR，重症或高风险者需做药敏",
+        "鉴别诊断包括肠出血性大肠杆菌、沙门菌、耶尔森菌、弯曲菌、阿米巴病与艰难梭菌感染",
+        "治疗以补液为主，不使用止泻药；抗生素用于儿童、老人、免疫抑制者与中重度患者",
+        "成人可选口服氟喹诺酮、阿奇霉素或静脉头孢曲松；儿童用静脉头孢曲松或口服阿奇霉素",
+        "对氨苄西林、复方磺胺甲噁唑与四环素的耐药常见，耐药谱因地区而异"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
       "id": "sickle-cell-disease-fact-sheet",
       "label": "Sickle-cell disease: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/sickle-cell-disease",
@@ -3186,6 +3543,57 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "treating-shigella-infection",
+      "label": "Treating Shigella Infection",
+      "url": "https://www.cdc.gov/shigella/treatment/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "shigelose",
+        "antibiótico",
+        "antidiarreico"
+      ],
+      "diseases": [
+        "shigelose"
+      ],
+      "supports": [
+        "多数人 5 到 7 天内自行好转",
+        "出现血便或腹泻超过 3 天、剧烈腹痛或压痛时应联系医疗人员",
+        "出现血便时不应使用洛哌丁胺与地芬诺酯",
+        "抗生素可将发热与腹泻病程缩短约 2 天",
+        "环丙沙星与阿奇霉素是两种推荐的口服抗生素",
+        "抗生素必须服完整个疗程"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "treatment-of-pertussis-whooping-cough",
+      "label": "Treatment of Pertussis (Whooping Cough)",
+      "url": "https://www.cdc.gov/pertussis/hcp/clinical-care/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "coqueluche",
+        "antibiótico",
+        "macrolídeo"
+      ],
+      "diseases": [
+        "coqueluche"
+      ],
+      "supports": [
+        "起病 1 到 2 周内、痉咳出现前开始治疗，可减轻症状；后期用药不改变病程也不减少传播",
+        "推荐抗生素为大环内酯类（阿奇霉素、克拉霉素、红霉素）；2 月龄以上可改用复方磺胺甲噁唑",
+        "1 月龄以下婴儿首选阿奇霉素，但需监测肥厚性幽门狭窄",
+        "治疗窗口：1 岁以上在咳嗽起病 3 周内，1 岁以下婴儿与孕妇在咳嗽起病 6 周内",
+        "高风险人群及其密切接触者可做暴露后药物预防"
+      ],
+      "verifiedAt": "2026-10-26",
+      "status": "verified"
     },
     {
       "id": "tuberculose-sintomas-diagnostico-e-tratamento",

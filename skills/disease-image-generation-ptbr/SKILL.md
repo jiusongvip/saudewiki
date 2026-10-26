@@ -1,6 +1,6 @@
 ---
 name: disease-image-generation-ptbr
-description: 为本站 src/data/diseases.ts 里的疾病词条生成统一风格的「医学插画板」配图（AI 生成），覆盖新增疾病首次配图、以及把照片风格或风格不一致的旧图重做为插画板。先用脚本从 diseases.ts 提取该疾病的 summary 与症状 bullets 作为素材，据此确定主图剖面、右上角临床插图与下方四个症状图标，再以既有插画板为版式参照图、套用固定提示词模板用 GenerateImage 生成 2240x1680 图，用 sharp 去除生成器水印（必要时填背景并用 SVG 重画第 4 个标签）并按原比例缩到 1024x768 转码为 webp，逐张核图后成对登记 pt-BR 与 zh-Hant 两语言层的 alt，并跑通 check-i18n.mjs 门禁。单个疾病可只处理它自己；一批补做时按本文批量执行。不用于文章配图（文章图走 article-derivation-ptbr 的 Unsplash / Pexels 搜图流程），不用于个人诊断。
+description: 为本站 src/data/diseases.ts 里的疾病词条生成统一风格的「医学插画板」配图（AI 生成），覆盖新增疾病首次配图、以及把照片风格或风格不一致的旧图重做为插画板。先用脚本从 diseases.ts 提取该疾病的 summary 与症状 bullets 作为素材，据此确定主图剖面、右上角临床插图与下方四个症状图标，再以既有插画板为版式参照图、套用固定提示词模板用 GenerateImage 生成 2240x1680 图，用 sharp 去除生成器水印（必要时填背景并用 SVG 重画第 4 个标签）并按原比例缩到 1024x768 转码为 webp，逐张核图后成对登记 pt-BR 与 zh-Hant 两语言层的 alt，并跑通 check-i18n.mjs 门禁。单个疾病可只处理它自己；一批补做时按本文批量执行。不用于文章配图（文章图走 article-derivation-ptbr 的 Pexels / Unsplash 搜图流程，Pexels 优先），不用于个人诊断。
 ---
 
 # 巴西葡语疾病配图（医学插画板）
@@ -11,7 +11,7 @@ description: 为本站 src/data/diseases.ts 里的疾病词条生成统一风格
 
 - 本 skill 是**疾病配图**的唯一权威流程，反映当前实际做法。
 - [疾病医典 skill 5.6](../disease-encyclopedia-ptbr/SKILL.md) 现已指向本 skill：疾病配图一律用 AI 生成的医学插画板，不再从 Unsplash / Pexels 找照片。执行疾病配图时**以本 skill 为准**。
-- **文章配图是另一条流程**：每篇派生文章配 1 张 Unsplash / Pexels 真实照片，细则见 [派生文章 skill 的图片节](../article-derivation-ptbr/SKILL.md)；两条流程不得互换，也不得用 AI 生成图给文章配图。
+- **文章配图是另一条流程**：每篇派生文章配 1 张 Pexels / Unsplash 真实照片（Pexels 优先，且在全部文章写完之后再做），细则见 [派生文章 skill 的图片节](../article-derivation-ptbr/SKILL.md)；两条流程不得互换，也不得用 AI 生成图给文章配图。
 - 补做/重做配图属于「纯图片替换 + `alt` 文字修正」，按[工作流文档第三节](../disease-article-workflow.md)**不走三轮质检**，只需跑通门禁 `check-i18n.mjs`。只有当改动触及医学表述、数字、危险信号等正文时，才回到疾病医典 skill 的完整流程。
 
 ## 插画板风格规范（每张都必须满足）

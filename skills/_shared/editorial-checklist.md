@@ -139,6 +139,9 @@
 | `o AVC é tratado nos ... e o infarto segue a ...`（被动与主动并列，机构名无解释） | 补同位语并统一句式：`o AVC é tratado nos Centros de Atendimento de Urgência, os hospitais de referência para esses casos, e o infarto segue a ...` |
 | `A doença não é um problema apenas brasileiro`（铺垫式泛化） | 直接限定范围：`A dengue não é um problema só do Brasil` |
 | `É o período de maior quantidade de vírus no sangue`（名词化堆叠） | `É o período em que há mais vírus no sangue` |
+| `a doença aparece de forma esporádica`（框架词 `de forma ...` 冗余） | 改副词：`a doença aparece esporadicamente` |
+| `o congelador nem sempre atinge -20 °C de forma confiável`（`de forma confiável` 直译腔） | 直接限定条件：`o congelador nem sempre chega aos -20 °C indicados` |
+| `cerca de metade das pessoas tratadas procura atendimento...`（把无来源的比例数字写成机构结论） | 回到词条原话的定性表述：`o cisto cresce devagar e pode levar mais de uma década...` |
 
 补充规则：
 

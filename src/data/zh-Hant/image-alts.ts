@@ -69,6 +69,22 @@ export const zhImageAlts: Record<string, string> = {
   ascaridiase: '醫學插畫：小腸剖面內有多條蛔蟲蜷曲，其中一條阻塞腸道，右上角是腹部脹大的兒童，下方圖示為腹痛、腹瀉、噁心與咳嗽',
   'infeccao-por-helicobacter-pylori':
     '醫學插畫：胃部剖面顯示黏膜紅腫發炎，下緣有一處淺潰瘍，螺旋狀的幽門螺旋桿菌穿過黏液層，右上角是一個人把手放在上腹部，下方圖示為胃灼熱、腹脹、噁心與食慾不振',
+  shigelose:
+    '醫學插畫：大腸剖面顯示黏膜發紅發炎，有數處淺潰瘍與出血，腸腔內是帶黏液與血絲的黃色內容物，壁旁可見桿狀的志賀菌，右上角是一個人雙手按住下腹，下方圖示為腹瀉、裡急後重、血便與發燒',
+  coqueluche:
+    '醫學插畫：氣管與支氣管剖面顯示黏膜紅腫發炎，纖毛受損，濃稠黏液堵住部分氣道，壁上可見百日咳桿菌，右上角是一名正在劇烈咳嗽的兒童，下方圖示為乾咳、吸氣性哮聲、嘔吐與呼吸暫停',
+  amebiase:
+    '醫學插畫：大腸剖面顯示黏膜上有多個燒瓶狀的出血潰瘍，潰瘍內可見阿米巴滋養體，右上角是一個人躺著用手按住腹部，下方圖示為腹瀉、血便、絞痛與發燒',
+  giardiase:
+    '醫學插畫：小腸剖面顯示絨毛變平，表面附著多個梨形的賈第蟲滋養體，腸腔內有黃色脂肪滴與發紅的黏膜，右上角是腹部脹大的孩子，下方圖示為腹瀉、脹氣、疲倦與腹脹',
+  ancilostomiase:
+    '醫學插畫：小腸剖面顯示多條鉤蟲以口囊附著在黏膜上，附著處有出血點，右上角是蒼白的手掌與眼結膜，下方圖示為疲倦、蒼白、呼吸急促與頭暈',
+  tricuriase:
+    '醫學插畫：大腸剖面顯示多條前端細、後端粗的鞭蟲鑽入發紅腫脹的黏膜，表面有出血點與黏液，右上角是臉色蒼白的孩子，下方圖示為腹瀉、血便、絞痛與直腸脫垂',
+  oxiuriase:
+    '醫學插畫：直腸與肛管的矢狀切面顯示雌蟲由肛門爬出，肛門周圍皮膚散落著細小蟲卵，右上角是夜裡躺在床上的孩子，下方圖示為肛門搔癢、睡眠不安、煩躁與絞痛',
+  hidatidose:
+    '醫學插畫：肝臟剖面顯示一顆壁厚的棘球蚴囊腫，內含多個子囊，右上角是皮膚與眼白泛黃的臉部，下方圖示為腹痛、乾咳、呼吸急促與蕁麻疹',
 
   'sintomas-iniciais-da-dengue': '深色表面上蚊子的近距離特寫',
   'como-prevenir-a-dengue': '蚊子停在葉片與細枝之間',
@@ -232,4 +248,23 @@ export const zhImageAlts: Record<string, string> = {
   'helicobacter-pylori-tratamento-e-erradicacao': '長者的手拿著白色藥錠靠近嘴邊',
   'helicobacter-pylori-gastrite-atrofica-e-cancer-gastrico': '兩名穿手術衣戴口罩的醫療人員正在進行處置',
   'helicobacter-pylori-alimentacao-durante-o-tratamento': '紫色桌面上的一盤餐點，有烤地瓜、花椰菜、番茄、豆類與檸檬',
+  'shigelose-e-diarreia-como-diferenciar': '淺色浴室牆面金屬架上的一卷白色衛生紙',
+  'shigelose-exame-de-fezes-e-coprocultura': '實驗室試管架上整齊排列著貼有標籤的試管',
+  'shigelose-por-que-nao-parar-a-diarreia': '白色檯面上散著多板不同顏色的藥錠與膠囊',
+  'shigelose-como-se-transmite-e-como-prevenir-em-casa': '雙手在水龍頭流水下冲洗萵苣葉，旁邊擺著蔬菜',
+  'shigelose-em-criancas-febre-alta-sem-diarreia': '躺在床上的女孩口中含著體溫計，一手扶著額頭',
+  'coqueluche-tosse-noturna-que-passa-por-resfriado': '紅髮女孩躺在床上，用衛生紙掩住口鼻',
+  'amebiase-diarreia-com-sangue-quando-investigar': '女子坐在床邊，雙手按住腹部，表情不適',
+  'amebiase-agua-alimentos-e-prevencao': '雙手在水龍頭下沖洗萵苣葉',
+  'giardiase-diarreia-que-nao-passa-exame-de-fezes': '戴手套的檢驗人員正在製作顯微鏡玻片',
+  'giardiase-em-criancas-creche-e-reinfeccao': '兩名孩子在托育機構的地板上玩積木',
+  'ancilostomiase-anemia-por-verme': '醫療人員戴著手套從病人手臂抽血',
+  'ancilostomiase-andar-descalco-e-solo-contaminado': '赤腳踩在深色潮濕的泥土上',
+  'tricuriase-em-criancas-diarreia-persistente': '男童手裡拿著一捲紙坐著，神情疲憊',
+  'tricuriase-saneamento-e-tratamento-periodico': '樹林之間水處理廠的圓形沉澱池俯瞰',
+  'oxiuriase-criancas-coceira-noturna': '女孩在白色床單上睡著，旁邊的檯燈亮著',
+  'oxiuriase-tratar-a-familia-e-limpeza-da-casa': '雙手把乾淨的床單套在枕頭上',
+  'oxiuriase-ou-ascaridiase-como-diferenciar': '穿白袍的女醫師在診間以聽診器為女童檢查',
+  'hidatidose-cisto-descoberto-no-exame': '穿白袍的醫師以超音波探頭在病人腹部檢查，背景的螢幕顯示超音波影像',
+  'hidatidose-caes-ovinos-e-hortas': '一群羊在長滿植物的牧場上吃草，背景是老舊的木屋與樹木',
 };

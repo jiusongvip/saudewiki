@@ -252,6 +252,38 @@ export const diseaseImages: Record<string, SiteImage> = {
     src: '/img/doenca-infeccao-por-helicobacter-pylori.webp',
     alt: 'Ilustração médica de um estômago em corte com a mucosa avermelhada e inflamada, uma úlcera rasa na parte inferior e bactérias Helicobacter pylori em espiral atravessando a camada de muco, com recorte de uma pessoa com a mão sobre a boca do estômago e quatro ícones circulares de azia, estufamento, náusea e falta de apetite',
   },
+  shigelose: {
+    src: '/img/doenca-shigelose.webp',
+    alt: 'Ilustração médica de um corte do intestino grosso com a mucosa vermelha e inflamada, úlceras rasas com sangramento e conteúdo amarelado com muco e sangue, além de bactérias Shigella em forma de bastonete próximas à parede, com recorte de uma pessoa com as duas mãos sobre o abdome e quatro ícones de diarreia, tenesmo, sangue e febre',
+  },
+  coqueluche: {
+    src: '/img/doenca-coqueluche.webp',
+    alt: 'Ilustração médica de um corte da traqueia e dos brônquios com a mucosa vermelha e inflamada, cílios destruídos, muco espesso obstruindo parte da via aérea e bactérias Bordetella pertussis na parede, com recorte de uma criança em crise de tosse e quatro ícones de tosse seca, estridor, vômito e apneia',
+  },
+  amebiase: {
+    src: '/img/doenca-amebiase.webp',
+    alt: 'Ilustração médica de um corte do intestino grosso com a mucosa aberta em úlceras sangrentas em forma de frasco e trofozoítos de Entamoeba histolytica no interior, com recorte de uma pessoa deitada com as mãos no abdome e quatro ícones de diarreia, disenteria, cólica e febre',
+  },
+  giardiase: {
+    src: '/img/doenca-giardiase.webp',
+    alt: 'Ilustração médica de um corte do intestino delgado com as vilosidades achatadas e dezenas de trofozoítos de Giardia presos à superfície, gotículas de gordura no lúmen e mucosa avermelhada, com recorte de uma criança com a barriga inchada e quatro ícones de diarreia, gases, cansaço e inchaço',
+  },
+  ancilostomiase: {
+    src: '/img/doenca-ancilostomiase.webp',
+    alt: 'Ilustração médica de um corte do intestino delgado com ancilostomídeos presos à mucosa pela cápsula bucal e pequenos pontos de sangramento onde se alimentam, com recorte de uma mão e de um olho com palidez e quatro ícones de cansaço, palidez, falta de ar e tontura',
+  },
+  tricuriase: {
+    src: '/img/doenca-tricuriase.webp',
+    alt: 'Ilustração médica de um corte do cólon com tricocéfalos de corpo fino e extremidade espessa mergulhados na mucosa inflamada e avermelhada, com pontos de sangramento e muco, com recorte de uma criança pálida e quatro ícones de diarreia, disenteria, cólica e prolapso',
+  },
+  oxiuriase: {
+    src: '/img/doenca-oxiuriase.webp',
+    alt: 'Ilustração médica de um corte sagital do reto e do canal anal com uma fêmea de oxiúro saindo pelo ânus e ovos minúsculos espalhados na pele ao redor, com recorte de uma criança deitada à noite e quatro ícones de coceira anal, sono agitado, irritação e cólica',
+  },
+  hidatidose: {
+    src: '/img/doenca-hidatidose.webp',
+    alt: 'Ilustração médica de um corte do fígado com um cisto hidático grande de parede espessa contendo cistos filhos, com recorte de um rosto com pele e olhos amarelados e quatro ícones de dor no abdome, tosse seca, falta de ar e urticária',
+  },
 };
 
 export const articleImages: Record<string, SiteImage> = {
@@ -882,6 +914,82 @@ export const articleImages: Record<string, SiteImage> = {
   'helicobacter-pylori-alimentacao-durante-o-tratamento': {
     src: '/img/artigo-helicobacter-pylori-alimentacao-durante-o-tratamento.webp',
     alt: 'Prato com batata doce assada, couve flor, tomate, feijão e limão sobre uma mesa roxa',
+  },
+  'shigelose-e-diarreia-como-diferenciar': {
+    src: '/img/artigo-shigelose-e-diarreia-como-diferenciar.webp',
+    alt: 'Rolo de papel higiênico preso a um suporte de metal na parede clara do banheiro',
+  },
+  'shigelose-exame-de-fezes-e-coprocultura': {
+    src: '/img/artigo-shigelose-exame-de-fezes-e-coprocultura.webp',
+    alt: 'Tubos de ensaio com etiquetas de identificação enfileirados em uma gradela de laboratório',
+  },
+  'shigelose-por-que-nao-parar-a-diarreia': {
+    src: '/img/artigo-shigelose-por-que-nao-parar-a-diarreia.webp',
+    alt: 'Cartelas de comprimidos e cápsulas de cores diferentes espalhadas sobre uma superfície branca',
+  },
+  'shigelose-como-se-transmite-e-como-prevenir-em-casa': {
+    src: '/img/artigo-shigelose-como-se-transmite-e-como-prevenir-em-casa.webp',
+    alt: 'Mãos lavando folhas de alface sob a água corrente da torneira, com legumes na bancada ao lado',
+  },
+  'shigelose-em-criancas-febre-alta-sem-diarreia': {
+    src: '/img/artigo-shigelose-em-criancas-febre-alta-sem-diarreia.webp',
+    alt: 'Menina deitada na cama com um termômetro na boca e a mão sobre a testa',
+  },
+  'coqueluche-tosse-noturna-que-passa-por-resfriado': {
+    src: '/img/artigo-coqueluche-tosse-noturna-que-passa-por-resfriado.webp',
+    alt: 'Menina de cabelos ruivos deitada na cama segurando um lenço de papel sobre o rosto',
+  },
+  'amebiase-diarreia-com-sangue-quando-investigar': {
+    src: '/img/artigo-amebiase-diarreia-com-sangue-quando-investigar.webp',
+    alt: 'Mulher sentada na beira da cama com as mãos sobre o abdome, com expressão de desconforto',
+  },
+  'amebiase-agua-alimentos-e-prevencao': {
+    src: '/img/artigo-amebiase-agua-alimentos-e-prevencao.webp',
+    alt: 'Mãos lavando folhas de alface sob a água corrente da torneira',
+  },
+  'giardiase-diarreia-que-nao-passa-exame-de-fezes': {
+    src: '/img/artigo-giardiase-diarreia-que-nao-passa-exame-de-fezes.webp',
+    alt: 'Profissional de laboratório com luvas preparando uma lâmina para exame ao microscópio',
+  },
+  'giardiase-em-criancas-creche-e-reinfeccao': {
+    src: '/img/artigo-giardiase-em-criancas-creche-e-reinfeccao.webp',
+    alt: 'Duas crianças brincando com blocos de montar no chão de uma sala de creche',
+  },
+  'ancilostomiase-anemia-por-verme': {
+    src: '/img/artigo-ancilostomiase-anemia-por-verme.webp',
+    alt: 'Profissional de saúde coletando sangue do braço de um paciente com luvas descartáveis',
+  },
+  'ancilostomiase-andar-descalco-e-solo-contaminado': {
+    src: '/img/artigo-ancilostomiase-andar-descalco-e-solo-contaminado.webp',
+    alt: 'Pés descalços sobre terra escura e úmida',
+  },
+  'tricuriase-em-criancas-diarreia-persistente': {
+    src: '/img/artigo-tricuriase-em-criancas-diarreia-persistente.webp',
+    alt: 'Menino sentado com um rolo de papel nas mãos, com expressão abatida',
+  },
+  'tricuriase-saneamento-e-tratamento-periodico': {
+    src: '/img/artigo-tricuriase-saneamento-e-tratamento-periodico.webp',
+    alt: 'Vista aérea dos tanques circulares de uma estação de tratamento de água entre árvores',
+  },
+  'oxiuriase-criancas-coceira-noturna': {
+    src: '/img/artigo-oxiuriase-criancas-coceira-noturna.webp',
+    alt: 'Menina dormindo em uma cama de lençóis brancos com o abajur aceso ao lado',
+  },
+  'oxiuriase-tratar-a-familia-e-limpeza-da-casa': {
+    src: '/img/artigo-oxiuriase-tratar-a-familia-e-limpeza-da-casa.webp',
+    alt: 'Mãos colocando roupa de cama limpa em um travesseiro',
+  },
+  'oxiuriase-ou-ascaridiase-como-diferenciar': {
+    src: '/img/artigo-oxiuriase-ou-ascaridiase-como-diferenciar.webp',
+    alt: 'Médica de jaleco branco examinando uma menina com estetoscópio em um consultório',
+  },
+  'hidatidose-cisto-descoberto-no-exame': {
+    src: '/img/artigo-hidatidose-cisto-descoberto-no-exame.webp',
+    alt: 'Profissional de jaleco branco aplicando um transdutor de ultrassom no abdome de uma paciente, com o monitor exibindo a imagem ao fundo',
+  },
+  'hidatidose-caes-ovinos-e-hortas': {
+    src: '/img/artigo-hidatidose-caes-ovinos-e-hortas.webp',
+    alt: 'Grupo de ovelhas pastando em um campo com vegetação alta diante de uma casa de madeira antiga e árvores',
   },
 };
 

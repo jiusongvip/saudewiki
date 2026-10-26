@@ -14430,4 +14430,1865 @@ export const diseases: Disease[] = [
     updatedAt: '2026-10-23',
     isPlaceholder: true,
   },
+  {
+    id: 'shigelose',
+    slug: 'shigelose',
+    name: 'Shigelose (disenteria bacteriana)',
+    aliases: ['disenteria bacteriana', 'disenteria bacilar', 'infecção por Shigella', 'Shigella'],
+    summary:
+      'Infecção intestinal causada pela bactéria Shigella, que provoca diarreia com muco e sangue, febre e dor abdominal em cólica. A maioria dos casos se resolve em uma semana com hidratação, mas crianças pequenas e idosos podem desidratar rápido. O diagnóstico é confirmado pela coprocultura ou por teste molecular.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é shigelose?',
+        paragraphs: [
+          'Shigelose é uma infecção aguda do intestino causada por bactérias do gênero Shigella, que invadem a mucosa do cólon e provocam inflamação e pequenas úlceras. O resultado é uma diarreia que costuma vir com febre, dor abdominal em cólica e uma vontade constante de evacuar que quase não alivia, o chamado tenesmo.',
+          'Diferente da maior parte das diarreias virais, que produzem fezes líquidas e volumosas, a shigelose tende a transformar as fezes em pequenas porções com muco, pus e sangue. É esse conjunto que a medicina chama de disenteria, termo que o Ministério da Saúde usa para classificar a diarreia com muco ou sangue dentro das doenças diarreicas agudas.',
+          'Existem quatro espécies. A Shigella sonnei predomina em países com saneamento consolidado, enquanto a Shigella flexneri é mais comum onde o acesso a água tratada é limitado. A Shigella dysenteriae tipo 1 é a mais grave, porque produz a toxina de Shiga, capaz de desencadear a síndrome hemolítico-urêmica, uma complicação que ataca os rins.',
+          'A bactéria é distribuída no mundo todo. O Manual MSD estima de 80 a 165 milhões de casos e cerca de 600 mil mortes por ano, a maior parte em crianças.',
+        ],
+        bullets: [
+          'Bactéria do gênero Shigella, transmitida por via fecal-oral.',
+          'Quadro típico: febre, cólica, tenesmo e fezes com muco e sangue.',
+          'Quatro espécies: S. dysenteriae, S. flexneri, S. boydii e S. sonnei.',
+          'A S. dysenteriae tipo 1 produz a toxina de Shiga e pode complicar com síndrome hemolítico-urêmica.',
+          'A maioria dos casos evolui para cura sem antibiótico.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a Shigella é transmitida?',
+        paragraphs: [
+          'A transmissão é fecal-oral: a bactéria sai nas fezes de uma pessoa infectada, mesmo sem sintomas, e chega à boca de outra por mãos mal lavadas, água ou alimento contaminado. O ser humano é o único reservatório natural da Shigella, o que significa que a doença não vem de animais de criação nem do ambiente sem passar por alguém.',
+          'A dose infectante é baixa. Basta engolir de 10 a 100 bactérias, quantidade muito menor do que a necessária para a maioria das outras infecções intestinais, e por isso a doença se espalha com facilidade em casas, creches, escolas e instituições de longa permanência.',
+          'Também há transmissão por superfícies e objetos tocados por mãos contaminadas, por alimentos manipulados por alguém doente e por moscas que pousam em fezes e depois na comida. Entre homens que fazem sexo com homens, o contato sexual é uma via reconhecida.',
+          'O período de incubação é de 1 a 4 dias. Quem teve o quadro continua eliminando a bactéria nas fezes por dias depois de melhorar, e portadores sem sintoma também transmitem. Por isso a volta à creche, à escola ou ao trabalho não deve ser decidida apenas pela ausência de diarreia.',
+        ],
+        bullets: [
+          'Fecal-oral: mãos, água e alimentos contaminados por fezes.',
+          'Reservatório humano: só pessoas infectadas transmitem a bactéria.',
+          'Dose baixa: 10 a 100 bactérias já causam doença.',
+          'Objetos, superfícies, alimentos manipulados e moscas também levam a bactéria.',
+          'Contato sexual, sobretudo entre homens que fazem sexo com homens.',
+          'Incubação de 1 a 4 dias; a eliminação continua por dias depois da melhora.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem maior risco de adoecer e de complicar?',
+        paragraphs: [
+          'Qualquer pessoa pode ter shigelose, mas a frequência muda muito conforme a idade e as condições de vida. Crianças menores de 5 anos têm a maior taxa de infecção, e as menores de 2 anos são as que desidratam mais rápido, porque perdem líquido proporcionalmente mais e dependem de um adulto para oferecer água.',
+          'Idosos acima de 65 anos, pessoas com imunidade comprometida, como quem vive com HIV ou faz quimioterapia, e pessoas desnutridas têm mais chance de evoluir para doença grave, com bacteremia e desidratação intensa.',
+          'Morar ou trabalhar em locais com saneamento inadequado, dividir espaço com muitas pessoas e não ter água tratada aumenta a exposição. Quem cuida de crianças pequenas, troca fraldas ou manipula alimentos em ambientes coletivos também se expõe mais. A bactéria é mais comum em viagens para regiões de baixa renda e entre pessoas em situação de rua.',
+        ],
+        bullets: [
+          'Crianças menores de 5 anos, sobretudo abaixo de 2 anos.',
+          'Pessoas com 65 anos ou mais.',
+          'Imunidade comprometida, como HIV, quimioterapia ou uso de imunossupressores.',
+          'Desnutrição e doenças renais.',
+          'Falta de água tratada e de rede de esgoto.',
+          'Viagens, creches, abrigos e locais com muitas pessoas dividindo o mesmo banheiro.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais sintomas a shigelose causa?',
+        paragraphs: [
+          'O primeiro sintoma costuma ser diarreia líquida, acompanhada de febre, náusea, vômito e dor abdominal. Nessa fase, a shigelose é indistinguível de outras diarreias infecciosas, virais ou bacterianas, e é por isso que a avaliação só pelos sintomas erra com tanta frequência.',
+          'Em adultos, a evolução clássica começa com cólicas e urgência para evacuar. Cada evacuação alivia a dor por pouco tempo, e os episódios ficam mais frequentes e mais intensos. As fezes diminuem de volume e passam a conter muco, pus e, com frequência, sangue. O tenesmo intenso pode causar prolapso retal e incontinência fecal.',
+          'Nem todo adulto segue esse roteiro. Há casos sem febre, com diarreia sem sangue e sem muco e com pouca urgência, o que reforça a necessidade de exame quando há dúvida ou quando o quadro se prolonga.',
+          'Em crianças pequenas o início é súbito, com febre alta, irritabilidade ou sonolência, recusa alimentar, vômitos e distensão abdominal. Em cerca de três dias aparecem sangue, pus e muco nas fezes, e o número de evacuações pode passar de 20 por dia, com perda de peso e desidratação intensa.',
+        ],
+        bullets: [
+          'Diarreia líquida no início, com febre, náusea e cólica.',
+          'Tenesmo: vontade constante de evacuar que não alivia.',
+          'Fezes em pequena quantidade, com muco, pus e sangue.',
+          'Casos leves podem não ter febre nem sangue.',
+          'Em crianças: febre alta, sonolência, vômitos e distensão abdominal.',
+          'Em crianças, o sangue costuma aparecer até o terceiro dia.',
+        ],
+        cta: {
+          label: 'Leia também: quando a shigelose aparece sem diarreia na criança',
+          href: '/artigos/shigelose-em-criancas-febre-alta-sem-diarreia/',
+        },
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: [
+          'A complicação que mata na shigelose é a desidratação, e ela avança mais rápido em crianças menores de 2 anos e em pessoas acima de 65 anos. O Ministério da Saúde orienta voltar imediatamente ao serviço de saúde quando a diarreia piora, quando os vômitos se repetem e impedem beber água, quando a sede é muita, quando há recusa de alimentos, quando aparece sangue nas fezes ou quando a urina diminui.',
+          'Sangue nas fezes com febre alta, dor forte ou estado geral comprometido não é caso para esperar em casa. Nessa situação o atendimento precisa ser no mesmo dia, porque a avaliação médica define se há indicação de antibiótico e de hidratação venosa.',
+          'Alguns sinais apontam para as complicações mais graves. Sonolência excessiva e urina escassa ou ausente, sobretudo por volta da primeira semana, quando a diarreia começa a ceder, podem indicar síndrome hemolítico-urêmica. Convulsão, confusão mental, extremidades frias, pele mosqueada e pulso fraco sugerem choque e exigem atendimento de urgência.',
+        ],
+        bullets: [
+          'Diarreia que piora ou não melhora em dois dias',
+          'Vômitos repetidos que impedem a ingestão de líquidos',
+          'Sede intensa e boca muito seca',
+          'Recusa de alimentos e de líquidos',
+          'Sangue ou muco nas fezes',
+          'Urina escassa, escura ou ausente',
+          'Sonolência, confusão, convulsão, extremidades frias ou pele mosqueada',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Qual médico procurar e quando sair de casa',
+        paragraphs: [
+          'Em adultos saudáveis, com diarreia leve, o caminho costuma ser a hidratação em casa e o retorno ao serviço de saúde se não houver melhora em dois dias ou se aparecer qualquer um dos sinais de alerta. A unidade básica de saúde (UBS) é a porta de entrada do SUS, resolve a maior parte dos casos e orienta sobre soro de reidratação oral e zinco.',
+          'Crianças pequenas, idosos, gestantes, pessoas com imunidade comprometida e qualquer pessoa com sangue nas fezes ou sinais de desidratação devem ser avaliadas no mesmo dia. Se houver vômitos persistentes, sonolência, convulsão ou ausência de urina, o atendimento precisa ser de urgência, em pronto-socorro ou unidade de pronto atendimento.',
+          'Na consulta, vale levar informações simples: quando a diarreia começou, quantas vezes por dia, se há muco ou sangue, se houve febre, o que a pessoa comeu e bebeu nos últimos dias, se alguém em casa ou na creche está com o mesmo quadro e quais remédios estão em uso. Quem já começou antibiótico por conta própria deve avisar, porque isso muda o resultado dos exames de fezes.',
+        ],
+        bullets: [
+          'UBS: porta de entrada para a maioria dos casos.',
+          'Pronto atendimento: desidratação, vômitos persistentes, sonolência, convulsão ou sangue nas fezes.',
+          'Especialista: crianças pequenas e pessoas com imunidade comprometida devem ser acompanhadas por pediatra ou infectologista.',
+          'Antes do antibiótico: a coleta para coprocultura precisa ser feita primeiro.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é confirmado?',
+        paragraphs: [
+          'O diagnóstico da shigelose se confirma no laboratório. A coprocultura, também chamada de cultura de fezes, é o exame de referência: identifica a Shigella, permite saber a espécie e testar a sensibilidade aos antibióticos. Em casos graves ou em pessoas de risco, o teste de sensibilidade é parte do exame, porque a resistência é comum.',
+          'Os testes moleculares, como a PCR, dão resultado mais rápido e são mais sensíveis que a cultura, inclusive em painéis que pesquisam vários agentes ao mesmo tempo. São úteis quando o quadro é grave e a decisão terapêutica não pode esperar dois ou três dias.',
+          'A amostra deve ser colhida antes do antibiótico. Quando a pessoa já começou a tomar remédio, a chance de o exame vir negativo aumenta muito, e o diagnóstico fica apenas na suspeita clínica.',
+          'Exames de apoio ajudam a separar diarreia inflamatória de diarreia aquosa. A presença de leucócitos nas fezes, vista ao microscópio com coloração apropriada, sugere invasão da mucosa. No hemograma, o número de leucócitos pode subir ou cair, e a hemoconcentração é comum quando há desidratação.',
+        ],
+        bullets: [
+          'Coprocultura: confirma a bactéria e permite o teste de sensibilidade.',
+          'PCR: mais rápida e sensível, útil em casos graves.',
+          'Coleta antes do antibiótico: essencial para não perder o exame.',
+          'Leucócitos nas fezes: pista de diarreia inflamatória.',
+          'Hemograma: ajuda a avaliar gravidade e hidratação.',
+        ],
+        cta: {
+          label: 'Leia também: como o exame de fezes confirma a shigelose',
+          href: '/artigos/shigelose-exame-de-fezes-e-coprocultura/',
+        },
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais pode parecer shigelose?',
+        paragraphs: [
+          'Nem toda diarreia com sangue é shigelose. Outras bactérias produzem quadro parecido e só o laboratório separa: a Escherichia coli entero-hemorrágica, a Salmonella, a Yersinia e o Campylobacter estão entre as principais. Cada uma tem particularidades de tratamento, e algumas podem complicar com síndrome hemolítico-urêmica.',
+          'A amebíase intestinal entra na lista, sobretudo em quem viajou para áreas endêmicas, e também causa fezes com muco e sangue. A infecção por Clostridioides difficile costuma aparecer depois do uso de antibióticos e deve ser lembrada em pessoas hospitalizadas ou com quadro recorrente.',
+          'As diarreias virais, como as causadas por rotavírus e norovírus, produzem fezes líquidas e volumosas, sem sangue, e são a causa mais comum de [diarreia aguda em crianças](/doencas/gastroenterite/). Doenças inflamatórias intestinais, como a retocolite ulcerativa e a doença de Crohn, e a colite isquêmica em idosos também entram no diagnóstico diferencial quando o quadro se arrasta.',
+          'Vale lembrar que a shigelose não se torna crônica e não é causa de retocolite ulcerativa. Quando os sintomas duram semanas ou voltam em crises, a investigação precisa buscar outra explicação, inclusive [parasitoses intestinais](/doencas/parasitoses-intestinais/) e doenças inflamatórias.',
+        ],
+        bullets: [
+          'E. coli entero-hemorrágica',
+          'Salmonella e Yersinia',
+          'Campylobacter',
+          'Amebíase intestinal',
+          'Clostridioides difficile depois de antibiótico',
+          'Diarreias virais, sem sangue',
+          'Doença inflamatória intestinal e colite isquêmica',
+        ],
+        cta: {
+          label: 'Leia também: disenteria ou diarreia comum?',
+          href: '/artigos/shigelose-e-diarreia-como-diferenciar/',
+        },
+      },
+      {
+        id: 'tratamento-hidratacao',
+        heading: 'O tratamento começa pela hidratação',
+        paragraphs: [
+          'O tratamento começa e, na maioria dos casos, se resume à reposição de líquidos. O Ministério da Saúde organiza o manejo da diarreia em três planos. No plano A, a pessoa hidratada recebe orientação para aumentar a ingestão de água e de soro de reidratação oral (SRO) em casa, manter a alimentação habitual, continuar o aleitamento materno e voltar ao serviço se não melhorar em dois dias ou se surgir algum sinal de alerta.',
+          'No plano B, quem tem desidratação leve ou moderada, mas consegue beber, recebe SRO na unidade de saúde, em pequenos volumes e de forma contínua, até os sinais de desidratação desaparecerem. No plano C, a desidratação é grave e a hidratação é venosa, com reavaliação frequente e transferência para um serviço com mais suporte, se necessário.',
+          'Para crianças, o Ministério da Saúde recomenda zinco uma vez ao dia, por 10 a 14 dias, além do SRO. O zinco reduz a duração e a gravidade dos episódios e diminui a chance de novos quadros nos meses seguintes. Não há motivo para suspender a alimentação: manter a comida habitual e o aleitamento acelera a recuperação.',
+          'O que não se deve fazer é frear o intestino. Remédios como loperamida e difenoxilato aliviam a diarreia à custa de reter a bactéria e o líquido no intestino, e nas infecções invasivas podem piorar o quadro. O CDC orienta explicitamente não usá-los quando há sangue nas fezes.',
+        ],
+        bullets: [
+          'Plano A: SRO e líquidos extras em casa, alimentação mantida, retorno em dois dias se não melhorar.',
+          'Plano B: SRO na unidade de saúde até corrigir a desidratação.',
+          'Plano C: hidratação venosa para desidratação grave.',
+          'Zinco para crianças por 10 a 14 dias.',
+          'Manter alimentação e aleitamento materno.',
+          'Não usar loperamida nem difenoxilato, sobretudo com sangue nas fezes.',
+        ],
+        cta: {
+          label: 'Leia também: por que não usar remédio para parar a diarreia',
+          href: '/artigos/shigelose-por-que-nao-parar-a-diarreia/',
+        },
+      },
+      {
+        id: 'antibioticos',
+        heading: 'Quando o antibiótico é necessário?',
+        paragraphs: [
+          'O antibiótico não é para todo mundo. Em adultos saudáveis com doença leve, a infecção se resolve sozinha e o remédio acrescenta pouco. A indicação aparece quando a diarreia vem com sangue ou muco e há comprometimento do estado geral, conforme o Ministério da Saúde, e também em crianças, idosos, pessoas com imunidade comprometida e quadros moderados a graves.',
+          'Quando indicado, a escolha depende da idade, da gravidade e do perfil de resistência da região. Para adultos, o Manual MSD lista uma fluoroquinolona oral, como a ciprofloxacina, a azitromicina oral e a ceftriaxona intravenosa. Para crianças, a ceftriaxona intravenosa e a azitromicina oral. O CDC cita ciprofloxacina e azitromicina como os dois antibióticos orais recomendados.',
+          'A resistência é um problema crescente. Muitas amostras são resistentes à ampicilina, ao sulfametoxazol-trimetoprima e às tetraciclinas, e o padrão varia conforme o local. Em casos graves, em pessoas de risco ou quando o primeiro tratamento falha, o teste de sensibilidade orienta a troca.',
+          'O antibiótico precisa ser tomado até o último dia prescrito, mesmo que a diarreia tenha passado, porque parar antes favorece a recidiva e a seleção de bactérias resistentes. E ele não substitui a hidratação: mesmo com o remédio, a pessoa continua perdendo líquido pelas fezes.',
+        ],
+        bullets: [
+          'Quando indicar: sangue ou muco nas fezes com comprometimento do estado geral.',
+          'Grupos de risco: crianças, idosos, imunidade comprometida e doença moderada a grave.',
+          'Adultos: fluoroquinolona oral, azitromicina ou ceftriaxona intravenosa.',
+          'Crianças: ceftriaxona intravenosa ou azitromicina oral.',
+          'Resistência frequente à ampicilina, ao sulfametoxazol-trimetoprima e às tetraciclinas.',
+          'Tomar até o fim e manter a hidratação.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a shigelose pode causar?',
+        paragraphs: [
+          'A complicação mais frequente é a desidratação com distúrbio hidroeletrolítico, e é ela que responde pela maior parte das mortes, sobretudo em crianças desnutridas e em pessoas imunodeprimidas.',
+          'A síndrome hemolítico-urêmica é a complicação mais temida. Está ligada à Shigella dysenteriae tipo 1, que produz a toxina de Shiga, e costuma aparecer por volta do sétimo dia de doença, no máximo até a terceira semana, quando a diarreia já está cedendo. Os primeiros sinais são sonolência e redução do volume de urina, e o quadro exige internação.',
+          'A bacteremia ocorre sobretudo em crianças menores de 5 anos e em pessoas acima de 65 anos com doença de base. Úlceras extensas na mucosa podem causar sangramento intestinal significativo. Depois da infecção, algumas pessoas desenvolvem artrite reativa, com artrite, conjuntivite e uretrite, mais comum em quem tem o gene HLA-B27. Convulsões em crianças, miocardite e perfuração intestinal são complicações raras.',
+        ],
+        bullets: [
+          'Desidratação e distúrbio hidroeletrolítico',
+          'Síndrome hemolítico-urêmica, ligada à S. dysenteriae tipo 1',
+          'Bacteremia em crianças pequenas e idosos',
+          'Sangramento intestinal por úlceras extensas',
+          'Artrite reativa em pessoas com HLA-B27',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'A shigelose tem cura? Quanto tempo dura?',
+        paragraphs: [
+          'A maioria das pessoas melhora sem antibiótico. O CDC estima de 5 a 7 dias para a recuperação espontânea, e o Manual MSD descreve casos leves resolvidos em 4 a 8 dias e casos graves que se arrastam por 3 a 6 semanas.',
+          'Quem se infecta por uma espécie desenvolve imunidade àquele sorotipo por vários anos, mas continua suscetível aos outros. Por isso é possível ter shigelose mais de uma vez ao longo da vida, e a vacina, ainda em desenvolvimento, precisaria cobrir múltiplos sorotipos.',
+          'O prognóstico depende menos da bactéria e mais da rapidez com que o líquido é reposto. Crianças que chegam ao serviço de saúde desidratadas, com sonolência ou sem urinar têm risco maior de complicação e de morte, e a hidratação precoce é o que muda esse desfecho.',
+        ],
+        bullets: [
+          'Maioria sem antibiótico: 5 a 7 dias até a melhora.',
+          'Casos leves: 4 a 8 dias. Casos graves: 3 a 6 semanas.',
+          'Imunidade por vários anos, mas apenas para o sorotipo da infecção.',
+          'Hidratação precoce é o fator que mais muda o prognóstico.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados em casa e no convívio com outras pessoas',
+        paragraphs: [
+          'Em casa, o essencial é oferecer líquido em pequenas quantidades e com frequência, inclusive o soro de reidratação oral, depois de cada evacuação. A alimentação habitual deve ser mantida, sem dietas restritivas, e a criança deve continuar no peito. Para crianças, o zinco entra uma vez ao dia por 10 a 14 dias.',
+          'A higiene é o que impede a bactéria de circular pela casa. Lave as mãos com água e sabão depois de usar o banheiro, depois de trocar fraldas e antes de preparar ou servir comida. Não compartilhe toalhas. Roupas de cama, toalhas e roupas íntimas de quem está doente devem ser mergulhadas em água com sabão e desinfetante antes de ir para a máquina, e lavadas em água quente.',
+          'Quem está com diarreia não deve nadar em piscina, rio, lago ou mar enquanto o quadro durar, e o banheiro precisa de limpeza frequente, sobretudo o vaso e a descarga. Crianças não devem voltar à creche antes de as fezes voltarem ao normal, e adultos que manipulam alimentos precisam conversar com o serviço de saúde antes de retomar a atividade.',
+          'Vale acompanhar quatro coisas todos os dias: quantas vezes a pessoa evacua, se há sangue ou muco, quanto líquido está bebendo e quanto está urinando. Piora desses números é motivo para voltar ao serviço de saúde, mesmo sem febre.',
+        ],
+        bullets: [
+          'Líquidos em pequenas quantidades e com frequência, após cada evacuação.',
+          'Manter alimentação habitual e aleitamento materno.',
+          'Zinco para crianças por 10 a 14 dias.',
+          'Lavar as mãos e não compartilhar toalhas.',
+          'Roupas e roupas de cama: sabão e desinfetante antes da máquina, água quente.',
+          'Sem natação enquanto houver diarreia.',
+          'Observar evacuações, sangue, ingestão de líquidos e volume de urina.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a shigelose?',
+        paragraphs: [
+          'A prevenção começa no acesso à água tratada e à rede de esgoto, que são a camada mais eficaz e dependem de política pública. No dia a dia, tratar a água de consumo faz diferença: filtrar e ferver ou usar duas gotas de solução de hipoclorito de sódio a 2,5% por litro, esperando 30 minutos antes de beber. A água tratada deve ser guardada em recipiente limpo, tampado e de boca estreita.',
+          'Alimentos precisam de cuidado redobrado. Lave frutas, verduras e legumes em água corrente e deixe de molho em solução clorada quando a procedência não é confiável. Cozinhe bem carnes, peixes e frutos do mar, evite alimentos crus em locais com higiene duvidosa e guarde o que sobrou na geladeira. Superfícies, utensílios e tábuas usados no preparo devem ser lavados e desinfetados.',
+          'Lavar as mãos é a medida individual mais importante: antes de preparar ou comer, depois do banheiro, depois de trocar fraldas, depois de tocar em animais e ao chegar da rua. Ao trocar fraldas, use uma superfície lavável, descarte a fralda em saco fechado e lave as mãos em seguida. Manter o aleitamento materno aumenta a resistência das crianças contra diarreias, e o lixo deve ficar tampado e longe de insetos.',
+          'Para quem viaja para áreas com saneamento precário, vale beber apenas água engarrafada ou tratada, evitar gelo e alimentos crus e lavar as mãos com álcool em gel quando não houver pia. Não existe vacina disponível contra shigelose; as candidatas em estudo precisam cobrir vários sorotipos, porque a imunidade é específica para cada um.',
+        ],
+        bullets: [
+          'Água: filtrar, ferver ou usar hipoclorito a 2,5%, duas gotas por litro.',
+          'Guardar a água em recipiente limpo, tampado e de boca estreita.',
+          'Lavar frutas e verduras e cozinhar bem carnes, peixes e frutos do mar.',
+          'Lavar as mãos antes de comer e depois do banheiro ou de trocar fraldas.',
+          'Trocar fraldas em superfície lavável e lavar as mãos em seguida.',
+          'Manter o aleitamento materno e o lixo tampado.',
+          'Em viagens, beber água segura e evitar alimentos crus.',
+          'Não há vacina disponível; as candidatas estão em estudo.',
+        ],
+        cta: {
+          label: 'Veja o guia completo: como evitar a shigelose em casa',
+          href: '/artigos/shigelose-como-se-transmite-e-como-prevenir-em-casa/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Shigelose é o mesmo que uma diarreia comum?',
+        answer:
+          'Não. A shigelose é causada pela bactéria Shigella, que invade a mucosa do intestino e provoca fezes com muco e sangue, febre e tenesmo. As diarreias virais mais comuns produzem fezes líquidas e volumosas, sem sangue. Só o exame de fezes confirma a causa.',
+      },
+      {
+        question: 'Quanto tempo dura a shigelose?',
+        answer:
+          'Na maioria das pessoas, de 5 a 7 dias. Casos leves podem se resolver em 4 a 8 dias e casos graves podem se arrastar por 3 a 6 semanas. Crianças pequenas, idosos e pessoas com imunidade comprometida costumam precisar de mais tempo e de acompanhamento.',
+      },
+      {
+        question: 'Todo mundo precisa de antibiótico?',
+        answer:
+          'Não. Em adultos saudáveis com doença leve, a hidratação resolve. O antibiótico é indicado quando há sangue ou muco nas fezes com comprometimento do estado geral, em crianças, idosos, pessoas com imunidade comprometida e casos moderados a graves, sempre com avaliação médica.',
+      },
+      {
+        question: 'Pode tomar remédio para parar a diarreia?',
+        answer:
+          'Não se deve usar loperamida nem difenoxilato, sobretudo quando há sangue nas fezes, porque essas medicações retardam a eliminação da bactéria e podem piorar o quadro. O tratamento é repor líquido e, quando indicado, usar antibiótico.',
+      },
+      {
+        question: 'Pode pegar shigelose mais de uma vez?',
+        answer:
+          'Sim. A imunidade dura vários anos, mas vale apenas para o sorotipo que causou a infecção. Como existem várias espécies e sorotipos, é possível adoecer outras vezes ao longo da vida.',
+      },
+      {
+        question: 'Quando a criança pode voltar à creche?',
+        answer:
+          'Depois que as fezes voltarem ao normal. A bactéria pode continuar sendo eliminada por alguns dias mesmo sem sintomas, por isso vale conversar com o serviço de saúde antes de retomar a rotina, sobretudo se houver outras crianças pequenas em casa.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'shigelose-e-diarreia-como-diferenciar',
+      'shigelose-exame-de-fezes-e-coprocultura',
+      'shigelose-por-que-nao-parar-a-diarreia',
+      'shigelose-como-se-transmite-e-como-prevenir-em-casa',
+      'shigelose-em-criancas-febre-alta-sem-diarreia',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['gastroenterite', 'parasitoses-intestinais', 'febre-tifoide'],
+    references: [
+      {
+        label: 'Doenças diarreicas agudas (DDA)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Shigella Infection',
+        url: 'https://www.cdc.gov/shigella/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Treating Shigella Infection',
+        url: 'https://www.cdc.gov/shigella/treatment/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Shigelose (Disenteria Bacilar)',
+        url: 'https://www.msdmanuals.com/pt/profissional/doen%C3%A7as-infecciosas/bacilos-gram-negativos/shigelose',
+        publisher: 'Manual MSD Versão Profissional',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-26',
+    updatedAt: '2026-10-26',
+    isPlaceholder: true,
+  },
+  {
+    id: 'coqueluche',
+    slug: 'coqueluche',
+    name: 'Coqueluche',
+    aliases: ['tosse comprida', 'pertussis', 'tosse convulsa', 'coqueluche infantil'],
+    summary:
+      'Infecção respiratória causada pela bactéria Bordetella pertussis, marcada por crises de tosse que podem durar semanas. Em bebês pequenos provoca apneia e pneumonia e pode ser fatal. A vacina protege contra as formas graves, mas não impede todos os casos.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é coqueluche?',
+        paragraphs: [
+          'Coqueluche é uma infecção aguda das vias respiratórias causada pela bactéria Bordetella pertussis. Ela se fixa nas células com cílios que revestem a traqueia e os brônquios, libera toxinas e paralisa esse mecanismo de limpeza. O muco se acumula, e o corpo tenta expulsá-lo com acessos de tosse cada vez mais fortes.',
+          'O nome popular em português, tosse comprida, descreve bem o que acontece: as crises duram semanas e podem se arrastar por até três meses. No auge, a pessoa tosse várias vezes seguidas sem conseguir inspirar e termina com um som agudo na entrada de ar, o chamado whoop ou estridor inspiratório.',
+          'Não é uma doença do passado. O Ministério da Saúde registra epidemias a cada três a cinco anos e alerta que adolescentes e adultos também adoecem, muitas vezes com quadro leve, e se tornam fonte de contágio para bebês que ainda não completaram o calendário de vacinação.',
+          'Quem corre o maior risco não são as pessoas com tosse mais intensa, e sim os bebês. Crianças menores de 1 ano, sobretudo abaixo de 6 meses, podem ter apneia, pneumonia e encefalopatia, e são as que morrem pela doença.',
+        ],
+        bullets: [
+          'Bactéria Bordetella pertussis, transmitida por gotículas de tosse e espirro.',
+          'Crises de tosse que duram semanas, com estridor na inspiração.',
+          'Bebês menores de 6 meses são o grupo de maior risco.',
+          'Adolescentes e adultos com quadro leve mantêm a transmissão.',
+          'A vacina reduz gravidade, mas não elimina todos os casos.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a coqueluche é transmitida?',
+        paragraphs: [
+          'A transmissão é por gotículas: a pessoa tosse ou espirra e lança a bactéria no ar, e outra pessoa próxima inspira. Como a bactéria sobrevive pouco fora do corpo, o contato com objetos e superfícies tem papel pequeno. O que importa é a convivência próxima, em casa, na creche, na escola ou em ambientes fechados.',
+          'O período de incubação varia de 4 a 21 dias, em média de 5 a 10 dias, com casos raros chegando a 42 dias. A pessoa transmite desde o início dos sintomas, quando tudo parece um resfriado, e a fase inicial é a de maior contagiosidade.',
+          'É por isso que a doença circula sem ser percebida. Um adulto com tosse seca persistente, sem febre e sem mal-estar importante, pode passar semanas trabalhando, convivendo com um bebê em casa e transmitindo a bactéria. Quem foi vacinado ou já teve coqueluche também pode se infectar de novo, com quadro mais leve, e ainda assim transmitir.',
+          'Quem começa o antibiótico no início da doença deixa de transmitir depois de alguns dias de tratamento. Já o uso tardio, quando a tosse se instalou há semanas, não muda a evolução clínica nem reduz a transmissão, segundo o CDC.',
+        ],
+        bullets: [
+          'Gotículas de tosse e espirro, em contato próximo.',
+          'Objetos e superfícies têm papel pequeno na transmissão.',
+          'Incubação de 4 a 21 dias, em média de 5 a 10 dias.',
+          'Contágio começa na fase de sintomas leves, parecidos com resfriado.',
+          'Adolescentes e adultos com tosse arrastada são fonte importante para bebês.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são as fases da coqueluche?',
+        paragraphs: [
+          'A doença evolui em três fases. A primeira, chamada de catarral, dura de uma a duas semanas e se confunde com qualquer resfriado: coriza, espirros, febre baixa e tosse seca. A diferença é que a tosse não melhora com o passar dos dias, e sim piora.',
+          'Na segunda fase, a paroxística, aparecem as crises características. A pessoa emenda várias tosses seguidas sem conseguir puxar o ar, fica vermelha ou roxa, lacrimeja e termina com um som agudo na inspiração. Muitas vezes a crise termina em vômito ou em eliminação de muco espesso. As crises se repetem várias vezes ao dia e pioram à noite, e essa fase dura de duas a seis semanas.',
+          'A terceira fase é a de convalescença, que pode levar de duas a seis semanas, ou até três meses. As crises ficam mais espaçadas e mais fracas, mas podem voltar por algumas semanas diante de um resfriado, de fumaça ou de esforço físico.',
+          'Bebês pequenos fogem desse roteiro. Neles, a crise pode não ter o som característico e se manifestar como pausa na respiração, lábios arroxeados, engasgo e cansaço para mamar. Uma pausa respiratória em um bebê de poucos meses é sempre um sinal grave.',
+        ],
+        bullets: [
+          'Fase catarral: coriza, febre baixa e tosse seca que só piora.',
+          'Fase paroxística: crises de tosse, estridor inspiratório e vômito.',
+          'Crises mais frequentes à noite e durante esforço.',
+          'Convalescença: tosse residual por semanas a meses.',
+          'Bebês podem ter apneia e cianose sem tosse característica.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: [
+          'Em bebês, a coqueluche pode se apresentar sem tosse característica e evoluir rápido. O Ministério da Saúde destaca que crianças menores de 1 ano, sobretudo abaixo de 6 meses, podem ter pausas na respiração, crises de tosse com dificuldade para respirar, suores e vômitos, além de episódios de apneia, convulsão e desidratação. Esses bebês precisam de hospitalização, isolamento e vigilância contínua.',
+          'Em qualquer idade, alguns sinais indicam que a situação saiu do controle: falta de ar em repouso, lábios ou ponta dos dedos arroxeados, pausa na respiração, confusão mental, convulsão, incapacidade de beber ou urina muito escassa. Nesses casos, o atendimento é de urgência, sem esperar consulta marcada.',
+          'A tosse também cobra um preço indireto. Crises repetidas ao longo do dia e da noite causam vômitos, dificultam a alimentação e levam à perda de peso, sobretudo em crianças. Quando a criança para de ganhar peso ou começa a emagrecer, a avaliação precisa ser antecipada.',
+        ],
+        bullets: [
+          'Pausa na respiração ou apneia em bebê',
+          'Lábios, língua ou ponta dos dedos arroxeados',
+          'Dificuldade para respirar em repouso',
+          'Convulsão, sonolência excessiva ou confusão',
+          'Recusa de líquidos e urina escassa',
+          'Vômitos após cada crise de tosse',
+          'Perda de peso ou parada de ganho de peso em criança',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Qual médico procurar e quando investigar',
+        paragraphs: [
+          'Tosse que dura mais de duas semanas e piora em vez de melhorar merece avaliação, sobretudo quando vem em crises, quando termina em vômito ou quando a pessoa faz um som agudo ao puxar o ar. Num contexto de surto, esse conjunto já levanta a suspeita, mesmo antes de qualquer exame.',
+          'Bebês com menos de 6 meses precisam de avaliação imediata ao primeiro sinal de cansaço respiratório, engasgo, pausa na respiração ou recusa alimentar. A mesma urgência vale para gestantes no fim da gestação e para pessoas com asma, cardiopatia ou imunidade comprometida, que têm mais risco de forma grave.',
+          'Na rede pública, o caminho começa na unidade básica de saúde (UBS), que avalia o caso, orienta sobre isolamento e encaminha para pediatra ou infectologista quando necessário. Adultos com tosse arrastada podem ser avaliados na clínica geral, na pneumologia ou na infectologia. Quadros com falta de ar importante devem ser vistos em pronto-socorro ou unidade de pronto atendimento.',
+          'Vale informar na consulta se a pessoa convive com bebês, se trabalha em creche, escola, maternidade ou serviço de saúde e se há outros casos de tosse parecida em casa ou no trabalho. Essas informações mudam a conduta, porque a prioridade é interromper a transmissão para quem ainda não está protegido.',
+        ],
+        bullets: [
+          'UBS: porta de entrada e primeiro atendimento.',
+          'Pediatra ou infectologista: crianças pequenas e casos com complicação.',
+          'Pronto-socorro: falta de ar, apneia, cianose ou convulsão.',
+          'Sempre avisar: contato com bebês e casos semelhantes em casa ou no trabalho.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é confirmado?',
+        paragraphs: [
+          'O diagnóstico se apoia em três pilares: o quadro clínico, o histórico de contato e a confirmação laboratorial. A coqueluche em fase inicial é difícil de reconhecer, porque se parece com qualquer resfriado, e é justamente nessa fase que o exame tem mais chance de dar positivo.',
+          'O exame de escolha é a coleta de secreção da nasofaringe para cultura ou para reação em cadeia da polimerase, a PCR. A cultura identifica a bactéria e permite estudar a sensibilidade aos antibióticos, mas demora alguns dias e perde sensibilidade depois das primeiras semanas. A PCR detecta o material genético da bactéria e costuma ficar pronta em poucas horas.',
+          'O momento da coleta decide o resultado. A amostra deve ser colhida antes do antibiótico ou, no máximo, até três dias após o início do tratamento, como orienta o Ministério da Saúde. Depois disso, a chance de encontrar a bactéria cai muito.',
+          'Exames de sangue ajudam como apoio. A contagem de leucócitos e de linfócitos costuma subir, e valores muito altos se associam a quadros mais graves. A pesquisa de anticorpos por ELISA serve mais para estudos epidemiológicos e para analisar casos retrospectivamente do que para decidir o tratamento no consultório.',
+        ],
+        bullets: [
+          'Nasofaringe: cultura e PCR são os exames de escolha.',
+          'PCR: resultado em horas, útil no atendimento.',
+          'Cultura: identifica a bactéria e a sensibilidade aos antibióticos.',
+          'Coleta antes do antibiótico ou até três dias após o início.',
+          'Hemograma: linfocitose frequente, mais intensa nos casos graves.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais causa tosse parecida?',
+        paragraphs: [
+          'Em bebês, a confusão mais comum é com a [bronquiolite](/doencas/bronquiolite/), causada pelo vírus sincicial respiratório, que provoca chiado, esforço para respirar e cansaço para mamar. Infecções por adenovírus, o crupe viral e a [pneumonia](/doencas/pneumonia/) também entram na lista, e o exame físico ajuda a separar cada um.',
+          'Em crianças maiores e adultos, a tosse arrastada pode vir de [asma](/doencas/asma/), de infecção por Mycoplasma pneumoniae, de sinusite com secreção posterior, de refluxo gastroesofágico ou de corpo estranho aspirado. Tosse que dura semanas e vem com perda de peso e sudorese noturna também exige investigar [tuberculose](/doencas/tuberculose/), sobretudo em quem tem contato com caso confirmado.',
+          'Existe ainda a coqueluche causada por outras bactérias do mesmo gênero, como a Bordetella parapertussis, que produz quadro mais leve e não é detectada por todos os testes. Em qualquer hipótese, o padrão em crises, o estridor na inspiração e o vômito após a tosse são as pistas que mais aproximam o diagnóstico.',
+        ],
+        bullets: [
+          'Bronquiolite por vírus sincicial respiratório',
+          'Pneumonia e crupe viral',
+          'Asma e tosse de origem alérgica',
+          'Mycoplasma pneumoniae',
+          'Sinusite com gotejamento posterior e refluxo',
+          'Tuberculose em tosse prolongada com perda de peso',
+        ],
+        cta: {
+          label: 'Leia também: a tosse que passa por resfriado',
+          href: '/artigos/coqueluche-tosse-noturna-que-passa-por-resfriado/',
+        },
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento da coqueluche?',
+        paragraphs: [
+          'O tratamento é feito com antibiótico, que elimina a bactéria da garganta e reduz a transmissão. O CDC recomenda os macrolídeos, ou seja, azitromicina, claritromicina e eritromicina. Para pessoas com 2 meses ou mais, o sulfametoxazol-trimetoprima é a alternativa, sobretudo quando há suspeita de resistência aos macrolídeos. Em bebês com menos de 1 mês, a azitromicina continua sendo a escolha, com monitoramento para estenose hipertrófica do piloro.',
+          'O momento de começar importa. Iniciar o antibiótico nas primeiras uma ou duas semanas, antes de as crises se instalarem, pode diminuir a gravidade dos sintomas. Mais tarde, o remédio ainda elimina a bactéria e reduz o contágio para quem está perto, mas não encurta a tosse, porque o dano à mucosa já está feito. O CDC orienta tratar pessoas com 1 ano ou mais dentro de três semanas do início da tosse, e bebês e gestantes dentro de seis semanas.',
+          'Além do antibiótico, o tratamento é de suporte: garantir hidratação, alimentação em pequenas porções, limpeza das secreções e oxigênio quando a saturação cai. Bebês menores de 1 ano costumam precisar de internação, tanto pelo risco de apneia quanto pela necessidade de monitoramento e isolamento.',
+          'Xaropes e remédios para tosse não mudam o curso da doença e não substituem o antibiótico. Em crianças pequenas, o uso por conta própria traz risco e deve ser evitado. A decisão sobre qualquer sintomático é do médico que acompanha o caso.',
+        ],
+        bullets: [
+          'Antibiótico de escolha: macrolídeos, como azitromicina, claritromicina e eritromicina.',
+          'Alternativa a partir dos 2 meses: sulfametoxazol-trimetoprima.',
+          'Tratar cedo reduz a gravidade; tratar tarde interrompe o contágio, mas não encurta a tosse.',
+          'Bebês menores de 1 ano geralmente precisam de internação.',
+          'Suporte: hidratação, alimentação fracionada e oxigênio quando necessário.',
+          'Não usar xarope para tosse por conta própria em crianças pequenas.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados em casa durante as crises',
+        paragraphs: [
+          'A alimentação precisa mudar de ritmo, não de conteúdo. Ofereça porções menores e mais frequentes, e espere a criança se recuperar da crise antes de oferecer comida ou líquido, porque a tosse logo depois de mamar ou comer costuma terminar em vômito. Se a criança vomitar, ofereça líquido em pequenas quantidades logo depois.',
+          'O ambiente faz diferença. Não fume dentro de casa nem perto da criança, evite perfumes, incenso, produtos de limpeza com cheiro forte e fumaça de fogão a lenha. Mantenha o ambiente ventilado, mas sem corrente de ar direto no rosto. Na hora de dormir, elevar um pouco a cabeceira da cama e manter o quarto silencioso ajuda a diminuir a frequência das crises noturnas.',
+          'Durante a crise, o melhor é sentar a pessoa ou colocá-la de lado, inclinada para a frente, e apoiar a cabeça. Não coloque o dedo na boca da criança para tentar limpar a garganta, e não ofereça água no meio da crise, porque aumenta o risco de engasgo.',
+          'A casa precisa de proteção extra quando há um caso confirmado. A pessoa doente deve usar máscara quando estiver perto de bebês e cobrir a boca ao tossir. Toalhas e copos não devem ser compartilhados, e as mãos devem ser lavadas com frequência, sobretudo antes de pegar no bebê.',
+        ],
+        bullets: [
+          'Pequenas porções e mais vezes ao dia.',
+          'Esperar a crise passar antes de oferecer comida ou líquido.',
+          'Ambiente sem fumaça, perfumes e cheiros fortes.',
+          'Cabeceira elevada e quarto silencioso à noite.',
+          'Não oferecer água durante a crise nem tentar limpar a garganta com o dedo.',
+          'Máscara perto de bebês e higiene frequente das mãos.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a coqueluche pode causar?',
+        paragraphs: [
+          'As complicações mais graves atingem bebês. A pneumonia é a mais frequente e a principal causa de morte, e pode ocorrer mesmo em quem está internado. Também são descritos apneia, desidratação por vômitos repetidos, convulsões, encefalopatia e hipertensão pulmonar, além de óbito em lactentes pequenos.',
+          'Fora do pulmão, a tosse intensa provoca uma série de problemas mecânicos: otite média, conjuntivite, hérnia abdominal e inguinal, prolapso retal, incontinência urinária e sangramento sob a conjuntiva. Em adultos, a tosse pode causar fratura de costela, insônia e episódios de desmaio por falta momentânea de ar.',
+          'O impacto nutricional também conta. Crianças que vomitam depois de cada crise comem pior, perdem peso e demoram mais para se recuperar. Por isso a avaliação do peso faz parte do seguimento, e não só o exame do pulmão.',
+        ],
+        bullets: [
+          'Pneumonia, principal causa de morte em bebês',
+          'Apneia e desidratação por vômitos repetidos',
+          'Convulsão e encefalopatia',
+          'Otite média e conjuntivite',
+          'Hérnia, prolapso retal e incontinência urinária',
+          'Perda de peso e desnutrição',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Na maior parte das pessoas, a coqueluche se resolve sozinha, mas devagar. As crises costumam ceder em seis a dez semanas, e a tosse residual pode durar até três meses. Quem já teve a doença não fica com sequela pulmonar permanente, mas o cansaço e a tosse podem voltar por algumas semanas durante um resfriado ou um esforço maior.',
+          'O prognóstico muda de figura nos extremos da vida. Bebês menores de 6 meses, gestantes no fim da gestação e pessoas com doença pulmonar ou cardíaca de base têm mais chance de forma grave, de internação e de morte. Nesses grupos, o tempo entre os primeiros sintomas e o atendimento é o que mais pesa no desfecho.',
+          'Depois da infecção, a proteção não é definitiva. Quem foi vacinado ou já adoeceu pode se infectar de novo anos mais tarde, em geral com quadro mais leve, e continuar transmitindo. É por isso que a vacinação precisa ser reforçada ao longo da vida e repetida em cada gestação.',
+        ],
+        bullets: [
+          'Crises costumam ceder em seis a dez semanas.',
+          'Tosse residual pode durar até três meses.',
+          'Bebês pequenos e pessoas com doença de base têm pior prognóstico.',
+          'A proteção diminui com o tempo e não impede novos casos.',
+        ],
+      },
+      {
+        id: 'vacinacao',
+        heading: 'Como é a vacinação contra a coqueluche no Brasil?',
+        paragraphs: [
+          'A vacina contra a coqueluche é combinada com outras proteções. No calendário do Ministério da Saúde, a vacina penta, que reúne difteria, tétano, coqueluche, hepatite B e Haemophilus influenzae b, é aplicada em três doses, aos 2, 4 e 6 meses. O primeiro reforço com a DTP acontece aos 15 meses e o segundo aos 4 anos. Depois disso, a recomendação é um reforço com dT a cada 10 anos.',
+          'Gestantes têm uma recomendação própria. O Ministério da Saúde orienta a dTpa em cada gestação, a partir da 20ª semana, para que a mãe produza anticorpos e os passe ao bebê nos primeiros meses de vida, quando ele ainda não completou o esquema. Profissionais de saúde, parteiras e estudantes que atuam em unidades com recém-nascidos também devem se vacinar.',
+          'A vacina não impede todos os casos. Ela reduz muito o risco de forma grave, hospitalização e morte, e quem se infecta mesmo vacinado costuma ter quadro mais leve e transmitir menos. Mesmo assim, a proteção cai com o tempo, o que explica a circulação da bactéria entre adolescentes e adultos.',
+          'Crianças com menos de 7 anos que não completaram o esquema devem ser levadas à unidade de saúde para atualização, conforme a idade e as doses já recebidas. A avaliação da caderneta é gratuita no SUS e é o primeiro passo para saber o que falta.',
+        ],
+        bullets: [
+          'Penta aos 2, 4 e 6 meses.',
+          'DTP de reforço aos 15 meses e aos 4 anos.',
+          'dT a cada 10 anos depois da última dose.',
+          'Gestantes: dTpa em cada gestação, a partir da 20ª semana.',
+          'Profissionais de saúde e de unidades com recém-nascidos devem se vacinar.',
+          'Caderneta desatualizada: procurar a UBS para atualizar o esquema.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a transmissão?',
+        paragraphs: [
+          'A primeira medida é afastar quem está doente de quem ainda não está protegido. Bebês devem ficar longe de pessoas com tosse, e quem tem coqueluche deve evitar creches, escolas, trabalho e aglomerações até o médico liberar. Quando o antibiótico é iniciado, a transmissão cai bastante em poucos dias.',
+          'Pessoas que convivem com um caso confirmado podem precisar de antibiótico preventivo. O CDC apoia a quimioprofilaxia para quem tem alto risco de forma grave e para os contatos próximos, e a decisão é tomada pelo serviço de saúde caso a caso.',
+          'No dia a dia, máscara, ventilação dos ambientes e higiene das mãos completam a proteção, sobretudo em casas com recém-nascidos. Cobrir a boca ao tossir, evitar visitas de pessoas com tosse nos primeiros meses do bebê e manter a caderneta de vacinação em dia são medidas simples e eficazes.',
+          'A proteção do bebê depende da proteção de quem está ao redor. É o que a vigilância chama de estratégia do casulo: vacinar mãe, pai, avós e cuidadores para reduzir a chance de a bactéria chegar ao recém-nascido. A vacinação na gestação é a parte mais importante desse conjunto.',
+        ],
+        bullets: [
+          'Afastar bebês de pessoas com tosse.',
+          'Isolar o caso até a liberação médica.',
+          'Quimioprofilaxia para contatos de alto risco, com indicação do serviço de saúde.',
+          'Máscara, ventilação e higiene das mãos.',
+          'Vacinar gestantes e todos os cuidadores próximos.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Coqueluche dura mesmo 100 dias?',
+        answer:
+          'A tosse pode se arrastar por até três meses, e é daí que vem o nome popular. As crises mais intensas costumam durar de duas a seis semanas, e a fase de recuperação pode levar mais algumas semanas, com tosse residual que piora durante resfriados.',
+      },
+      {
+        question: 'Quem foi vacinado pode pegar coqueluche?',
+        answer:
+          'Pode. A vacina protege principalmente contra as formas graves, mas a imunidade cai com o tempo e não impede todos os casos. Quem se infecta mesmo vacinado costuma ter quadro mais leve e transmitir menos.',
+      },
+      {
+        question: 'Adultos também têm coqueluche?',
+        answer:
+          'Sim, e com frequência passam semanas com tosse seca sem saber o que é. Como o adulto circula em casa e no trabalho, ele se torna uma fonte importante de contágio para bebês que ainda não completaram o esquema de vacinação.',
+      },
+      {
+        question: 'Quem está com coqueluche precisa ficar isolado?',
+        answer:
+          'Sim, principalmente longe de bebês e de pessoas com doença pulmonar ou cardíaca. O afastamento de creche, escola e trabalho é decidido pelo médico, e costuma durar até alguns dias depois do início do antibiótico.',
+      },
+      {
+        question: 'Quando a criança pode voltar à escola?',
+        answer:
+          'Quando o médico liberar, o que em geral acontece alguns dias depois do início do antibiótico. Mesmo liberada, a criança pode continuar tossindo por semanas, mas deixa de transmitir a bactéria depois do tratamento.',
+      },
+      {
+        question: 'Gravidez protege o bebê contra coqueluche?',
+        answer:
+          'A vacina dTpa aplicada na gestante, a partir da 20ª semana de cada gestação, faz a mãe produzir anticorpos que passam para o bebê. Essa proteção cobre os primeiros meses de vida, até que a criança complete o próprio esquema de vacinação.',
+      },
+    ],
+    relatedArticleSlugs: ['coqueluche-tosse-noturna-que-passa-por-resfriado'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['pneumonia', 'bronquiolite', 'gripe', 'tuberculose'],
+    references: [
+      {
+        label: 'Coqueluche',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/coqueluche',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Treatment of Pertussis (Whooping Cough)',
+        url: 'https://www.cdc.gov/pertussis/hcp/clinical-care/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-26',
+    updatedAt: '2026-10-26',
+    isPlaceholder: true,
+  },
+  {
+    id: 'amebiase',
+    slug: 'amebiase',
+    name: 'Amebíase',
+    aliases: [
+      'amebíase',
+      'disenteria amebiana',
+      'amebíase intestinal',
+      'infecção por Entamoeba histolytica',
+      'abscesso hepático amebiano',
+    ],
+    summary:
+      'Infecção intestinal causada pelo protozoário Entamoeba histolytica, transmitida por água e alimentos contaminados. A maioria das pessoas infectadas não adoece, mas a doença pode causar diarreia com sangue, dor abdominal e, em casos raros, abscessos no fígado.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é amebíase?',
+        paragraphs: [
+          'Amebíase é a infecção causada pela Entamoeba histolytica, um protozoário que se instala no intestino grosso. Ele existe em duas formas: o cisto, eliminado nas fezes e capaz de sobreviver semanas ou meses no ambiente, e o trofozoíto, forma ativa que invade a parede do intestino e provoca a inflamação.',
+          'A maioria das pessoas infectadas não fica doente. Segundo o CDC, apenas 10% a 20% dos infectados apresentam sintomas, que costumam surgir entre duas e quatro semanas depois da contaminação e podem aparecer mais tarde. Quando aparecem, em geral são leves: diarreia e dor abdominal.',
+          'A doença é mais comum em regiões tropicais com saneamento precário. No Brasil, a transmissão está ligada a água não tratada, alimentos crus mal lavados e más condições de higiene. Não existe vacina.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas da amebíase?',
+        paragraphs: [
+          'A apresentação depende do tempo de evolução e da intensidade da infecção. A forma intestinal é a mais frequente; a extraintestinal, menos comum, aparece quando o parasita alcança outros órgãos pelo sangue.',
+        ],
+        bullets: [
+          'Na infecção assintomática, há cistos nas fezes sem sintomas, mas a pessoa elimina o parasita no ambiente.',
+          'A amebíase intestinal aguda leve causa diarreia, cólica e desconforto abdominal.',
+          'Na disenteria amebiana, as fezes têm muco e sangue, com cólica intensa e febre.',
+          'A amebíase intestinal crônica se arrasta por mais de dois meses, com diarreia recorrente e cansaço.',
+          'O abscesso hepático amebiano é a forma extraintestinal mais comum, com febre e dor no lado direito do abdome.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a amebíase?',
+        paragraphs: [
+          'A infecção começa quando a pessoa engole cistos presentes em água, alimentos ou mãos contaminadas. No intestino delgado, o cisto se rompe e libera os trofozoítos, que descem até o cólon e se fixam na mucosa.',
+          'Saneamento precário, falta de água tratada e higiene inadequada explicam a maior parte dos casos. Também aumentam o risco morar ou trabalhar em locais sem separação adequada do esgoto, consumir verduras cruas mal lavadas e ter contato sexual que envolva a região anal. Pessoas desnutridas ou com a imunidade baixa adoecem com mais facilidade.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A diarreia é o sintoma mais comum, acompanhada de cólica e desconforto no abdome. Em geral, os episódios são leves e podem passar sem tratamento específico, o que atrasa a busca por atendimento.',
+          'Na disenteria amebiana, as fezes têm muco e sangue, a dor é mais forte e pode haver febre. A pessoa também pode ter perda de apetite, náusea e cansaço.',
+          'Quando o parasita chega ao fígado, surgem febre e dor no lado direito do abdome, abaixo das costelas. Em casos raros, ele alcança os pulmões e o cérebro, o que provoca sintomas respiratórios ou neurológicos.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: ['Procure um serviço de urgência se aparecer algum destes sinais:'],
+        bullets: [
+          'Diarreia com sangue ou muco',
+          'Dor abdominal intensa e contínua',
+          'Abdome inchado, duro ou muito dolorido ao toque',
+          'Febre alta com dor abdominal',
+          'Vômitos repetidos ou sinais de desidratação, como boca seca, urina escura e tontura',
+          'Febre com dor no lado direito do abdome, abaixo das costelas',
+          'Confusão, sonolência excessiva ou convulsão',
+          'Diarreia que não melhora depois de uma semana',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O atendimento começa na UBS, com perguntas sobre o tempo da diarreia, a presença de sangue nas fezes, a água que a pessoa bebe e as viagens recentes. O profissional examina o abdome e avalia o estado de hidratação.',
+          'A confirmação depende do exame de fezes. Como o parasita não aparece em todas as amostras, o laboratório costuma pedir material de dias diferentes.',
+          'Casos com dor intensa, febre alta ou sinais de complicação precisam de pronto atendimento. Quando há suspeita de abscesso no fígado, a avaliação segue em serviço com exame de imagem.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames confirmam a amebíase?',
+        paragraphs: [
+          'A microscopia das fezes procura cistos e trofozoítos. O resultado exige cuidado, porque outras células e a Entamoeba dispar, que não causa doença, se parecem com a Entamoeba histolytica.',
+          'Testes de antígeno e de material genético do parasita diferenciam as duas espécies e ajudam quando a microscopia é inconclusiva. A sorologia pode apoiar o diagnóstico, sobretudo no abscesso hepático.',
+          'A ultrassonografia e a tomografia mostram abscessos no fígado e outras lesões. A colonoscopia com coleta de material fica para casos selecionados, quando a suspeita permanece e outras doenças precisam ser afastadas.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Quais doenças podem parecer amebíase?',
+        paragraphs: [
+          'A diarreia com sangue também aparece na shigelose e em outras infecções bacterianas, que costumam começar de forma mais abrupta, com febre alta e fezes em pequeno volume.',
+          'Doenças inflamatórias do intestino, como a retocolite ulcerativa, provocam diarreia prolongada e podem ser confundidas com a forma crônica. Intolerâncias alimentares e infecções virais também entram na lista.',
+          'Dor no lado direito do abdome com febre pode ser abscesso hepático, colecistite ou outra infecção. Exames de imagem e de fezes separam esses quadros. Não use remédio para verme por conta própria como teste.',
+        ],
+      },
+      {
+        id: 'tratamento-inicial',
+        heading: 'Como é o atendimento inicial?',
+        paragraphs: [
+          'O primeiro passo é repor líquidos. A maioria das pessoas melhora com soro de reidratação oral, alimentação leve e repouso, enquanto o diagnóstico é confirmado.',
+          'Desidratação importante, vômitos persistentes, dor intensa ou sinais de complicação exigem hidratação na veia e avaliação hospitalar.',
+          'O tratamento medicamentoso não substitui a hidratação e deve começar só depois da avaliação profissional.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'O tratamento usa antibióticos específicos para o parasita. Quem não tem sintomas recebe um único medicamento, capaz de eliminar os cistos que ficam no intestino.',
+          'Quem está doente costuma receber dois medicamentos em sequência: um para eliminar os trofozoítos nos tecidos e outro para limpar os cistos do intestino. Essa combinação reduz o risco de recaída e de transmissão.',
+          'A escolha, a dose e o tempo de uso cabem ao profissional. Cumpra o esquema completo, mesmo se os sintomas melhorarem, e não beba álcool durante o uso de metronidazol ou tinidazol. Remédio para verme não trata amebíase.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Quando a cirurgia é necessária?',
+        paragraphs: [
+          'A cirurgia é rara e fica reservada para complicações: perfuração do intestino, abscesso hepático extenso que não responde ao tratamento, fístulas e obstrução.',
+          'Nessas situações, o procedimento é feito em hospital e vem junto com o tratamento medicamentoso. A decisão depende do tamanho da lesão, do estado geral e da resposta inicial.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Com o tratamento correto, a maioria das pessoas se recupera por completo. Os sintomas costumam ceder em poucos dias, e o parasita é eliminado.',
+          'A reinfecção é possível enquanto a pessoa continuar exposta a água e alimentos contaminados. Por isso, o tratamento precisa vir com mudanças de higiene e de saneamento.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir?',
+        paragraphs: [
+          'No intestino, a inflamação pode causar sangramento, perfuração, estreitamento e o ameboma, um nódulo que se confunde com tumor. A perfuração leva à peritonite e exige cirurgia.',
+          'Fora do intestino, o abscesso hepático é a complicação mais comum. Com menos frequência, o parasita alcança os pulmões e o cérebro, o que torna o quadro grave.',
+          'Depois de uma perfuração ou de uma cirurgia abdominal, podem ficar aderências e episódios de obstrução. O acompanhamento serve para identificar essas sequelas.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados em casa e acompanhamento',
+        paragraphs: [
+          'Beba líquidos ao longo do dia, prefira alimentos leves e volte às refeições habituais aos poucos. Evite álcool e comidas muito gordurosas enquanto a diarreia não passar.',
+          'Observe a febre, a dor abdominal, o número de evacuações e a presença de sangue. Piora desses sinais exige retorno ao serviço de saúde.',
+          'Quem trabalha com alimentos deve ser avaliado e tratado antes de voltar a manipular comida, porque os cistos eliminados nas fezes podem contaminar o que outras pessoas consomem.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a amebíase?',
+        paragraphs: [
+          'A prevenção começa pela água segura. Ferva por pelo menos um minuto ou use filtro adequado; em locais com saneamento precário, prefira água engarrafada com lacre intacto e evite gelo.',
+          'Lave as mãos com água e sabão depois de usar o banheiro, antes de comer e antes de preparar alimentos. Lave e descasque frutas e verduras e evite comida de rua quando a higiene é duvidosa.',
+          'Saneamento básico e destino adequado do esgoto interrompem a transmissão na comunidade. Não existe vacina contra amebíase.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Amebíase passa de pessoa para pessoa?',
+        answer:
+          'Não pelo convívio casual. A transmissão depende de cistos eliminados nas fezes, que chegam à boca por água, alimentos ou mãos contaminadas.',
+      },
+      {
+        question: 'Amebíase tem cura?',
+        answer:
+          'Sim. O tratamento com antibióticos específicos elimina o parasita na maioria dos casos. A pessoa pode se reinfectar se continuar exposta a água e alimentos contaminados.',
+      },
+      {
+        question: 'Toda infecção por Entamoeba precisa de tratamento?',
+        answer:
+          'Não. A Entamoeba dispar não causa doença e não precisa de tratamento. Já quem tem Entamoeba histolytica deve ser tratado, mesmo sem sintomas, para eliminar os cistos e interromper a transmissão.',
+      },
+      {
+        question: 'Como diferenciar amebíase de uma diarreia comum?',
+        answer:
+          'Só o exame de fezes confirma. Diarreia que dura mais de uma semana, tem sangue ou vem com febre merece avaliação em serviço de saúde.',
+      },
+      {
+        question: 'Quem tem amebíase precisa avisar a família?',
+        answer:
+          'Quem mora na mesma casa deve reforçar a higiene das mãos e o cuidado com a água. Em alguns casos, o serviço de saúde avalia outras pessoas com sintomas parecidos.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'amebiase-diarreia-com-sangue-quando-investigar',
+      'amebiase-agua-alimentos-e-prevencao',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['giardiase', 'shigelose', 'parasitoses-intestinais'],
+    references: [
+      {
+        label: 'About Amebiasis',
+        url: 'https://www.cdc.gov/amebiasis/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Amebíase',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/ameb%C3%ADase',
+        publisher: 'Manuais MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-26',
+    updatedAt: '2026-10-26',
+    isPlaceholder: true,
+  },
+  {
+    id: 'giardiase',
+    slug: 'giardiase',
+    name: 'Giardíase',
+    aliases: [
+      'giardíase',
+      'giardíase intestinal',
+      'infecção por Giardia',
+      'Giardia lamblia',
+      'Giardia duodenalis',
+    ],
+    summary:
+      'Infecção do intestino delgado causada pelo protozoário Giardia duodenalis, transmitida por água, alimentos e superfícies contaminadas. Provoca diarreia que pode durar semanas, gases, cólicas e perda de peso.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é giardíase?',
+        paragraphs: [
+          'Giardíase é a infecção causada pela Giardia duodenalis, um protozoário microscópico que vive no intestino delgado. Ele se fixa na parede do intestino e atrapalha a absorção de nutrientes, o que explica a diarreia e a perda de peso.',
+          'O parasita é eliminado nas fezes e sobrevive semanas ou meses no ambiente, na água, no solo e em superfícies. Basta engolir poucos parasitas para adoecer, e por isso a giardíase está entre as infecções intestinais mais comuns no mundo.',
+          'Existem vários grupos genéticos do parasita, chamados assemblages. Os grupos A e B infectam pessoas e também alguns animais; os grupos C e D afetam cães, e o grupo F, gatos.',
+          'Crianças adoecem mais que adultos. Também têm mais risco quem convive com casos em creches, quem bebe água de rios, lagos ou poços sem tratamento e quem tem a imunidade baixa.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Como acontece a infecção?',
+        paragraphs: [
+          'A infecção começa quando a pessoa engole os cistos, forma resistente do parasita. No intestino delgado, eles se abrem e liberam os trofozoítos, que se multiplicam e aderem à mucosa.',
+          'A transmissão vem da água, inclusive de rios, lagos, poços rasos, piscinas e parques aquáticos; de alimentos lavados com água contaminada; de superfícies e objetos; e do contato direto com fezes, como em creches e durante a troca de fraldas.',
+          'Desnutrição, imunidade baixa e falta de saneamento aumentam o risco. Cães e gatos raramente transmitem o tipo de Giardia que adoece pessoas.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A diarreia costuma ser o primeiro sinal, com duas a cinco evacuações por dia, e vem junto com cansaço crescente. Os sintomas começam uma a duas semanas depois da infecção e duram, em média, de duas a seis semanas.',
+          'As fezes podem ser gordurosas, com mau odor e flutuar na água. Gases, cólicas, náusea e perda de apetite são comuns, e a desidratação aparece nos casos mais intensos.',
+          'Depois da infecção, muitas pessoas passam a ter intolerância à lactose, que pode durar semanas. Em alguns casos, os sintomas se arrastam por meses, com perda de peso e cansaço.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: ['Procure um serviço de urgência se aparecer algum destes sinais:'],
+        bullets: [
+          'Diarreia com sangue ou muco',
+          'Vômitos repetidos e dificuldade para manter líquidos',
+          'Sinais de desidratação, como boca seca, urina escura e tontura',
+          'Febre alta',
+          'Dor abdominal intensa e localizada',
+          'Perda de peso rápida',
+          'Fezes muito claras, pele e olhos amarelados',
+          'Diarreia que não melhora depois de duas semanas',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'A avaliação começa na UBS, com perguntas sobre o tempo da diarreia, a água que a pessoa bebe, viagens, contato com creches e casos parecidos na família.',
+          'O exame de fezes é o principal teste. Como a eliminação do parasita varia de um dia para o outro, o laboratório pode pedir mais de uma amostra.',
+          'Quando o resultado não fecha, testes de antígeno e de material genético aumentam a chance de identificar o parasita. Casos com desidratação, sangue nas fezes ou sintomas prolongados são encaminhados para avaliação especializada.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames podem ser solicitados?',
+        paragraphs: [
+          'Na microscopia, o laboratório procura cistos nas fezes formadas e trofozoítos nas fezes líquidas. O resultado depende da qualidade da amostra e do número de coletas.',
+          'Os testes de antígeno e a reação em cadeia da polimerase detectam o material do parasita e ajudam quando a microscopia é negativa e a suspeita continua.',
+          'Outros exames servem para afastar causas parecidas ou avaliar complicações. Hemograma, provas de função do fígado e ultrassonografia do abdome entram quando há sintomas arrastados ou dor no lado direito.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Quais doenças podem parecer giardíase?',
+        paragraphs: [
+          'A diarreia da giardíase pode ser confundida com infecções por vírus e bactérias, como a shigelose, que costumam ter início mais abrupto, febre alta e sangue nas fezes.',
+          'Doenças inflamatórias do intestino, como a retocolite ulcerativa, e a síndrome do intestino irritável também provocam diarreia recorrente. A intolerância à lactose sem infecção é outra confusão comum.',
+          'Só o exame de fezes separa esses quadros. Não use remédio para verme por conta própria: ele não age sobre todos os parasitas e pode atrasar o diagnóstico.',
+        ],
+      },
+      {
+        id: 'tratamento-inicial',
+        heading: 'O que fazer nos primeiros dias?',
+        paragraphs: [
+          'O primeiro cuidado é repor líquidos e evitar a desidratação. Soro de reidratação oral, água e caldos ajudam enquanto a diarreia dura.',
+          'Comer pouco e várias vezes ao dia, com alimentos leves, costuma funcionar melhor do que passar longos períodos sem comer. Se a intolerância à lactose aparecer, reduza o leite e os derivados por algumas semanas.',
+          'Vômitos persistentes, desidratação importante, dor intensa ou febre alta exigem hidratação na veia e avaliação hospitalar.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'A giardíase é tratada com antiparasitários por via oral, como metronidazol, tinidazol, nitazoxanida ou furazolidona. São medicamentos de prescrição, e a escolha depende do quadro clínico e de tratamentos anteriores.',
+          'Cumpra o esquema completo e evite bebida alcoólica durante o uso de metronidazol ou tinidazol, porque a combinação causa náusea e mal-estar.',
+          'Mesmo sem sintomas, quem tem o diagnóstico confirmado deve ser tratado, porque continua eliminando cistos e pode transmitir a infecção.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Existe indicação de cirurgia?',
+        paragraphs: [
+          'A giardíase não é tratada com cirurgia. A infecção fica no intestino delgado e responde aos antiparasitários, sem necessidade de procedimento cirúrgico em nenhuma fase.',
+          'Dor abdominal intensa, febre alta ou sinais de obstrução em quem tem diarreia prolongada pedem investigação de outra causa, porque esses quadros não são típicos da giárdia. Nesses casos, o serviço de saúde define a sequência do tratamento depois da avaliação.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Com o tratamento correto, a maioria das pessoas melhora em poucos dias. A diarreia pode levar semanas para desaparecer por completo, e a intolerância à lactose pode continuar por algum tempo.',
+          'Em crianças, infecções repetidas estão associadas a crescimento mais lento e a mais faltas na escola. A reinfecção é possível enquanto durar a exposição à água e a alimentos contaminados.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir?',
+        paragraphs: [
+          'A desidratação é a complicação mais frequente, sobretudo em crianças pequenas e em idosos. Emagrecimento e carência de nutrientes aparecem quando a diarreia se prolonga.',
+          'A infecção pode atingir as vias biliares e a vesícula, o que causa dor no lado direito do abdome, náusea e febre.',
+          'Crianças com infecção recorrente podem ter crescimento e desenvolvimento prejudicados. Por isso, sintomas persistentes merecem avaliação.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados em casa e acompanhamento',
+        paragraphs: [
+          'Beba líquidos ao longo do dia e observe a cor da urina. Volte ao serviço de saúde se a diarreia piorar, se houver sangue ou se a pessoa parar de urinar.',
+          'Lave as mãos depois de usar o banheiro, de trocar fraldas e antes de cozinhar. Em creches, a higiene das mãos e a limpeza dos trocadores reduzem surtos.',
+          'Não prepare alimentos para outras pessoas enquanto a diarreia durar. Quem trabalha com comida deve seguir a orientação do serviço de saúde antes de retomar a atividade.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a giardíase?',
+        paragraphs: [
+          'A prevenção depende de água segura. Ferva a água por pelo menos um minuto, filtre ou use água engarrafada quando não houver garantia de tratamento.',
+          'Evite engolir água de piscinas, lagos e rios. Lave e descasque frutas e verduras e mantenha as mãos limpas em casa, na creche e em viagens.',
+          'Saneamento básico e destino correto do esgoto interrompem a transmissão na comunidade. Não existe vacina contra giardíase.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Giardíase pega de outra pessoa?',
+        answer:
+          'Sim. Os cistos eliminados nas fezes chegam à boca por mãos, água, alimentos e superfícies. Em creches e em casas com crianças pequenas, a transmissão é frequente.',
+      },
+      {
+        question: 'Quanto tempo dura a giardíase?',
+        answer:
+          'Sem tratamento, a diarreia costuma durar de duas a seis semanas e pode se arrastar por mais tempo. Com o medicamento correto, a melhora costuma vir em poucos dias.',
+      },
+      {
+        question: 'Giardíase tem cura?',
+        answer:
+          'Sim. O tratamento com antibióticos específicos elimina o parasita na maioria dos casos. A reinfecção acontece quando a pessoa volta a consumir água ou alimentos contaminados.',
+      },
+      {
+        question: 'Por que a diarreia volta depois do tratamento?',
+        answer:
+          'Pode ser reinfecção, intolerância à lactose que surgiu depois da infecção ou outra causa. Voltar ao serviço de saúde e repetir o exame de fezes esclarece o motivo.',
+      },
+      {
+        question: 'Precisa tratar quem não tem sintomas?',
+        answer:
+          'Sim, quando o exame confirma a Giardia. Mesmo sem diarreia, a pessoa elimina cistos e pode transmitir o parasita para outras pessoas.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'giardiase-diarreia-que-nao-passa-exame-de-fezes',
+      'giardiase-em-criancas-creche-e-reinfeccao',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedDiseaseSlugs: ['amebiase', 'parasitoses-intestinais', 'shigelose'],
+    references: [
+      {
+        label: 'About Giardia Infection',
+        url: 'https://www.cdc.gov/giardia/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Giardíase',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/giard%C3%ADase',
+        publisher: 'Manuais MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-26',
+    updatedAt: '2026-10-26',
+    isPlaceholder: true,
+  },
+  {
+    id: 'ancilostomiase',
+    slug: 'ancilostomiase',
+    name: 'Ancilostomíase',
+    aliases: [
+      'ancilostomíase',
+      'amarelão',
+      'infecção por ancilostomídeos',
+      'verme do amarelão',
+      'Necator americanus',
+      'Ancylostoma duodenale',
+    ],
+    summary:
+      'Infecção intestinal causada por ancilostomídeos, vermes que se fixam na parede do intestino delgado e sugam sangue. As larvas entram pela pele em contato com solo contaminado e a infecção pode causar anemia, cansaço e atraso no crescimento de crianças.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é ancilostomíase?',
+        paragraphs: [
+          'Ancilostomíase é a infecção intestinal causada por vermes cilíndricos chamados ancilostomídeos, sobretudo o Necator americanus e o Ancylostoma duodenale. Eles se fixam na parede do intestino delgado e se alimentam de sangue.',
+          'O CDC estima que 406 a 480 milhões de pessoas estejam infectadas no mundo. No Brasil, mais de 80% dos casos são causados pelo Necator americanus, segundo o Ministério da Saúde, e a transmissão acompanha a falta de saneamento.',
+          'A doença faz parte das geo-helmintíases, grupo que inclui a ascaridíase e a tricuríase. A maioria das pessoas tem poucos vermes e não apresenta sintomas; o problema aparece quando a carga é alta ou a infecção se repete.',
+        ],
+        bullets: [
+          'Necator americanus: mais comum no Brasil, com larvas que penetram pela pele',
+          'Ancylostoma duodenale: também pode entrar pela boca, em água ou solo contaminado',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Como acontece a infecção?',
+        paragraphs: [
+          'Os ovos saem nas fezes de uma pessoa infectada e contaminam o solo quando não há esgoto adequado ou quando fezes humanas são usadas como adubo. Em um a dois dias, eclodem e liberam larvas que, em cinco a sete dias, se tornam capazes de atravessar a pele.',
+          'A infecção acontece quando a pessoa anda descalça ou encosta a pele em solo contaminado. O Ancylostoma duodenale também pode entrar pela boca, em água ou em alimentos com terra.',
+          'Saneamento precário, trabalho rural sem calçado, crianças que brincam no chão e uso de fezes como adubo aumentam o risco.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Quando a larva atravessa a pele, pode surgir coceira e uma erupção vermelha no ponto de entrada, que passa em poucos dias.',
+          'Na passagem pelo pulmão, algumas pessoas têm tosse, chiado e falta de ar. Esses sintomas costumam ser leves e durar pouco.',
+          'Com vermes adultos no intestino, aparecem dor abdominal, diarreia, perda de apetite, perda de peso e cansaço. A anemia é o sinal mais característico, porque cada verme suga sangue todos os dias.',
+          'A anemia intensa causa palidez, falta de ar aos esforços e tontura. Crianças podem crescer mais devagar e ter dificuldade de concentração. Gestantes e bebês formam o grupo mais vulnerável.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: ['Procure um serviço de urgência se aparecer algum destes sinais:'],
+        bullets: [
+          'Palidez intensa com falta de ar, mesmo em repouso',
+          'Cansaço extremo ou desmaio',
+          'Dor no peito ou palpitações junto com anemia',
+          'Fezes escuras ou com sangue',
+          'Dor abdominal intensa, vômitos e parada de eliminar gases',
+          'Inchaço nas pernas e no rosto',
+          'Criança com perda de peso e crescimento lento',
+          'Gestante com anemia importante',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'A avaliação começa na UBS, com perguntas sobre o local onde a pessoa mora, o acesso a esgoto e água tratada, o hábito de andar descalço e o contato com terra.',
+          'O exame de fezes confirma a infecção ao encontrar ovos do verme. Como a eliminação pode variar de um dia para o outro, o profissional pode pedir mais de uma amostra.',
+          'Casos com anemia importante, gestação ou sintomas intensos são encaminhados para acompanhamento com exames de sangue e avaliação especializada.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames podem ser solicitados?',
+        paragraphs: [
+          'No hemograma, aparecem anemia por falta de ferro e, em muitos casos, aumento dos eosinófilos, células de defesa que sobem nas parasitoses.',
+          'O exame parasitológico de fezes identifica os ovos. Em infecções leves, o resultado pode ser negativo, e repetir o exame ajuda a confirmar.',
+          'A endoscopia e a colonoscopia ficam reservadas para casos com sangramento, dor persistente ou dúvida diagnóstica. A dosagem de ferro e de ferritina mostra o tamanho da reserva do organismo.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Quais doenças podem parecer ancilostomíase?',
+        paragraphs: [
+          'Anemia e cansaço têm muitas causas: falta de ferro na alimentação, sangramento menstrual, úlcera, doença renal e outras parasitoses.',
+          'A dor abdominal e a diarreia podem ser confundidas com gastrenterite, intolerância alimentar e doenças inflamatórias do intestino.',
+          'A coceira e a erupção na pele lembram dermatite de contato e alergias. O histórico de contato com solo contaminado e o exame de fezes separam os quadros.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento usa anti-helmínticos por via oral, como albendazol ou mebendazol. O esquema costuma durar de um a três dias e é muito eficaz; os vermes são eliminados nas fezes em poucos dias.',
+          'A anemia precisa de tratamento próprio, com alimentação rica em ferro e, quando indicado, suplementação. Repor ferro sem eliminar o verme não resolve, porque a perda de sangue continua.',
+          'Em áreas com transmissão alta, o Ministério da Saúde e a Organização Mundial da Saúde recomendam tratamento periódico para grupos de risco, como crianças em idade escolar. Não use remédio por conta própria, porque a escolha depende da idade, da gestação e de outras doenças.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Com o tratamento, a infecção cura e a anemia melhora em algumas semanas, desde que o ferro seja reposto. Crianças recuperam o crescimento quando a infecção não se repete.',
+          'A reinfecção é comum em áreas sem saneamento, porque o verme não deixa proteção duradoura. Cada nova infecção volta a causar perda de sangue.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados em casa e acompanhamento',
+        paragraphs: [
+          'Use calçado, inclusive em casa e no quintal, quando houver contato com terra em áreas de transmissão. Lave as mãos antes de comer e depois de usar o banheiro.',
+          'Mantenha as unhas curtas e ensine as crianças a não levar a mão à boca depois de brincar no chão. Lave bem frutas, verduras e legumes e beba água tratada.',
+          'Volte às consultas para repetir o hemograma e o exame de fezes. Em famílias com vários casos, o serviço de saúde pode indicar tratamento de todos os moradores.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a ancilostomíase?',
+        paragraphs: [
+          'Saneamento básico é a medida mais eficaz: esgoto, água tratada e destino adequado das fezes impedem que os ovos cheguem ao solo.',
+          'Não use fezes humanas como adubo. Calçado, higiene das mãos e lavagem dos alimentos completam a proteção individual.',
+          'Não existe vacina contra ancilostomíase. Em áreas endêmicas, o tratamento periódico reduz a carga de vermes e previne a anemia.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Ancilostomíase pega de outra pessoa?',
+        answer:
+          'Não pelo contato direto. As larvas chegam pela pele ou pela boca, a partir de solo e água contaminados por fezes de alguém infectado.',
+      },
+      {
+        question: 'Por que a ancilostomíase causa anemia?',
+        answer:
+          'Porque os vermes adultos se fixam no intestino e sugam sangue continuamente. Quando há muitos vermes, a perda supera a capacidade do corpo de repor ferro.',
+      },
+      {
+        question: 'Quanto tempo dura o tratamento?',
+        answer:
+          'O anti-helmíntico costuma ser usado por um a três dias. A anemia pode levar semanas para melhorar e, em alguns casos, precisa de suplementação de ferro.',
+      },
+      {
+        question: 'Dá para prevenir andando sempre calçado?',
+        answer:
+          'O calçado reduz muito o risco, porque impede que a larva atravesse a pele. Saneamento, água tratada e higiene das mãos completam a prevenção.',
+      },
+      {
+        question: 'A infecção volta depois do tratamento?',
+        answer:
+          'Pode voltar. O organismo não cria proteção duradoura, e quem continua em contato com solo contaminado se reinfecta.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'ancilostomiase-anemia-por-verme',
+      'ancilostomiase-andar-descalco-e-solo-contaminado',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedDiseaseSlugs: ['ascaridiase', 'tricuriase', 'helmintiases'],
+    references: [
+      {
+        label: 'About Hookworm',
+        url: 'https://www.cdc.gov/sth/about/hookworm.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Geo-helmintíase: o que é, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Soil-transmitted helminth infections: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-26',
+    updatedAt: '2026-10-26',
+    isPlaceholder: true,
+  },
+  {
+    id: 'tricuriase',
+    slug: 'tricuriase',
+    name: 'Tricuríase',
+    aliases: [
+      'tricuríase',
+      'infecção por Trichuris trichiura',
+      'verme chicote',
+      'tricurose',
+    ],
+    summary:
+      'Infecção intestinal causada pelo Trichuris trichiura, um verme com forma de chicote que vive no intestino grosso. As infecções leves não causam sintomas, mas cargas altas provocam diarreia com sangue, anemia e, em crianças, prejuízo no crescimento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é tricuríase?',
+        paragraphs: [
+          'Tricuríase é a infecção intestinal causada pelo Trichuris trichiura, um verme cilíndrico com forma de chicote. Os adultos vivem no ceco, no apêndice e no início do cólon, onde se fixam na mucosa e se alimentam de sangue.',
+          'O CDC estima que 429 a 508 milhões de pessoas estejam infectadas no mundo. A transmissão acompanha a falta de saneamento e é mais comum em áreas tropicais e subtropicais.',
+          'A maioria das infecções é leve e não causa sintomas. O risco está nas cargas altas, que provocam diarreia com sangue, anemia e, em crianças, prejuízo no crescimento e no aprendizado.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a tricuríase é transmitida?',
+        paragraphs: [
+          'Os ovos são eliminados nas fezes de uma pessoa infectada. Em solo úmido e quente, amadurecem e se tornam infectantes; a partir daí, chegam à boca por mãos sujas, água não tratada, alimentos crus mal lavados ou poeira.',
+          'Não há transmissão direta de uma pessoa para outra pelo contato, porque os ovos precisam amadurecer no solo. Crianças que brincam na terra e levam a mão à boca são o grupo mais exposto.',
+          'Quem mora em áreas sem esgoto, sem água tratada e com uso de fezes como adubo tem mais risco. Idosos e pessoas desnutridas apresentam formas mais graves.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas da tricuríase?',
+        paragraphs: ['A doença é classificada pela duração e pela intensidade dos sintomas.'],
+        bullets: [
+          'Infecção assintomática: ovos nas fezes sem sintomas, com eliminação do parasita no ambiente',
+          'Forma aguda: diarreia, dor abdominal, náusea e vômito em um período curto',
+          'Forma crônica: diarreia intermitente, dor abdominal e má digestão por semanas ou meses',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a tricuríase?',
+        paragraphs: [
+          'A causa é a ingestão de ovos infectantes. No intestino delgado, eles eclodem e liberam larvas que migram para o ceco e o cólon, onde amadurecem.',
+          'Falta de saneamento, água não tratada, alimentos crus e higiene inadequada das mãos explicam a maioria dos casos. Moradia precária e contato frequente com terra aumentam a exposição.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Nas infecções leves, a pessoa pode ter apenas desconforto abdominal, aumento do número de evacuações e cansaço. Muitas vezes não há sintoma nenhum.',
+          'Quando a carga aumenta, a diarreia fica frequente, com fezes aquosas ou com muco e um pouco de sangue. A dor abdominal piora, pode haver febre baixa, quase sempre abaixo de 38 °C, e o estado geral se deteriora.',
+          'Nas formas intensas, a diarreia é persistente e leva à desidratação. As fezes podem ter sangue vivo, e crianças podem apresentar prolapso retal, quando parte do reto sai pelo ânus. Anemia e desnutrição se instalam.',
+          'Coceira anal, náusea e vômito aparecem em parte dos casos. Crianças com infecção intensa podem crescer menos e ter dificuldade de concentração.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento imediato',
+        paragraphs: ['Procure um serviço de urgência se aparecer algum destes sinais:'],
+        bullets: [
+          'Diarreia com sangue ou muco por vários dias',
+          'Prolapso retal, com saída de parte do reto pelo ânus',
+          'Dor abdominal intensa com vômitos e parada de eliminar gases',
+          'Sinais de desidratação, como boca seca, urina escura e tontura',
+          'Palidez intensa, falta de ar e cansaço extremo',
+          'Febre alta com piora do estado geral',
+          'Perda de peso importante em criança',
+          'Abdome inchado e dolorido',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O atendimento começa na UBS, com perguntas sobre diarreia prolongada, dor antes ou depois de evacuar, sangue nas fezes, perda de peso e contato com solo.',
+          'O exame físico avalia palidez, estado nutricional, abdome e, quando indicado, a região anal, em busca de prolapso e de sangramento.',
+          'O diagnóstico é confirmado pelo exame de fezes. Casos com anemia, sangramento ou sinais de obstrução seguem para avaliação especializada.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames podem ser solicitados?',
+        paragraphs: [
+          'O exame parasitológico de fezes procura ovos do verme. Técnicas de concentração, como a centrífugo-flutuação em solução saturada, aumentam a chance de encontrar o parasita em infecções leves.',
+          'O hemograma mostra eosinofilia e anemia por falta de ferro. A contagem de ovos ajuda a estimar a intensidade da infecção em estudos e em programas de controle.',
+          'A colonoscopia e a retossigmoidoscopia permitem ver os vermes e as lesões da mucosa em casos selecionados. O enema opaco raramente é usado e fica para situações de dúvida.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Quais doenças podem parecer tricuríase?',
+        paragraphs: [
+          'A diarreia prolongada com dor abdominal pode ser causada por outras parasitoses, como ascaridíase, ancilostomíase e amebíase, e por doenças inflamatórias do intestino.',
+          'Anemia e cansaço também aparecem em falta de ferro na alimentação, sangramento menstrual e doenças crônicas. A eosinofilia aumenta a suspeita de parasitose, mas não confirma sozinha.',
+          'Mononucleose infecciosa e outras infecções virais podem causar febre e mal-estar parecidos. O exame de fezes e os testes específicos esclarecem o diagnóstico.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento começa pela reposição de líquidos e pela correção da anemia. Alimentação com ferro, proteína e vitaminas, junto com hidratação, ajuda na recuperação.',
+          'Casos com desidratação ou anemia importante precisam de soro e, às vezes, de ferro na veia em ambiente hospitalar.',
+          'Em situações raras, quando o tratamento medicamentoso falha ou há complicações locais, a retirada dos vermes por endoscopia pode ser considerada. O procedimento é feito em serviço especializado e não substitui o remédio.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'Os medicamentos mais usados são albendazol, mebendazol e a combinação de pirantel com oxantel. A escolha depende da idade, da intensidade da infecção e de outras doenças.',
+          'A dose e o tempo de uso cabem ao profissional. Em áreas de transmissão alta, a Organização Mundial da Saúde recomenda tratamento periódico de crianças em idade escolar para reduzir a carga de vermes.',
+          'Não use remédio de farmácia por conta própria. O albendazol e o mebendazol têm restrições em gestantes e em crianças pequenas, e a automedicação pode atrasar o diagnóstico de anemia e de outras doenças.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'A maioria das pessoas se cura com o tratamento e recupera o apetite e o peso. A anemia costuma melhorar em algumas semanas, com alimentação adequada e, quando necessário, suplementação de ferro.',
+          'Em crianças, o crescimento e o aprendizado melhoram quando a infecção é tratada e não se repete. A reinfecção é possível enquanto a pessoa continuar exposta a solo contaminado.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir?',
+        paragraphs: [
+          'A complicação mais característica é o prolapso retal, que aparece em infecções intensas, sobretudo em crianças. Sangramento e anemia também são frequentes nos casos graves.',
+          'A inflamação crônica pode causar estreitamento do intestino e, em situações extremas, obstrução. A desnutrição agrava o quadro e atrasa a recuperação.',
+          'Depois de infecções repetidas, podem ficar alterações no intestino e déficits de atenção e memória ligados à anemia crônica.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados em casa e acompanhamento',
+        paragraphs: [
+          'Beba água tratada e lave as mãos antes de comer e depois de usar o banheiro. Mantenha as unhas curtas e ensine as crianças a fazer o mesmo.',
+          'Lave bem frutas, verduras e legumes e evite alimentos crus em locais sem higiene. Use calçado quando houver contato com terra.',
+          'Volte às consultas para repetir o exame de fezes e o hemograma. Em famílias com vários casos, o serviço de saúde pode indicar tratamento de todos os moradores.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a tricuríase?',
+        paragraphs: [
+          'Saneamento básico, água tratada e destino adequado das fezes interrompem o ciclo do parasita. Não use fezes humanas como adubo.',
+          'Higiene das mãos, lavagem dos alimentos e cuidado com crianças que brincam na terra completam a proteção. O controle de moscas e baratas também ajuda, porque insetos podem carregar ovos.',
+          'Não existe vacina. Em áreas endêmicas, o tratamento periódico de grupos de risco reduz a carga de vermes e previne anemia.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Tricuríase pega de outra pessoa?',
+        answer:
+          'Não pelo contato direto. Os ovos precisam amadurecer no solo antes de se tornarem infectantes, e a contaminação vem de mãos, água e alimentos.',
+      },
+      {
+        question: 'Como saber se tenho tricuríase?',
+        answer:
+          'Só o exame de fezes confirma. Diarreia prolongada, dor abdominal e anemia merecem investigação, sobretudo em áreas sem saneamento.',
+      },
+      {
+        question: 'Tricuríase tem cura?',
+        answer:
+          'Sim. O tratamento com anti-helmínticos elimina os vermes na maioria dos casos, e a anemia melhora com alimentação e, quando necessário, suplementação de ferro.',
+      },
+      {
+        question: 'O que é prolapso retal?',
+        answer:
+          'É a saída de parte do reto pelo ânus, que pode ocorrer nas infecções intensas, principalmente em crianças com diarreia prolongada. É um sinal de gravidade e exige atendimento imediato.',
+      },
+      {
+        question: 'A infecção volta depois do tratamento?',
+        answer:
+          'Pode voltar. Como não existe proteção duradoura, quem continua em contato com solo contaminado se reinfecta.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'tricuriase-em-criancas-diarreia-persistente',
+      'tricuriase-saneamento-e-tratamento-periodico',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-infantil'],
+    relatedDiseaseSlugs: ['ascaridiase', 'ancilostomiase', 'helmintiases'],
+    references: [
+      {
+        label: 'About Whipworms',
+        url: 'https://www.cdc.gov/sth/about/whipworms.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Geo-helmintíase: o que é, sintomas e tratamento',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/geo-helmintiase',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Soil-transmitted helminth infections: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-26',
+    updatedAt: '2026-10-26',
+    isPlaceholder: true,
+  },
+  {
+    id: 'oxiuriase',
+    slug: 'oxiuriase',
+    name: 'Oxiuríase',
+    aliases: ['enterobíase', 'infecção por oxiúro', 'verme branco', 'oxiurose'],
+    summary:
+      'Infecção intestinal causada pelo verme Enterobius vermicularis, conhecido como oxiúro. A fêmea deposita ovos ao redor do ânus à noite, o que provoca coceira intensa e sono agitado. É a verminose mais comum em crianças em idade escolar.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é oxiuríase?',
+        paragraphs: [
+          'Oxiuríase é a infecção intestinal causada pelo Enterobius vermicularis, um verme pequeno e branco conhecido como oxiúro. Os machos medem de 2 a 5 mm e as fêmeas de 8 a 13 mm, e os adultos vivem no cólon e no reto.',
+          'A fêmea grávida sai pelo ânus à noite e deposita milhares de ovos na pele ao redor. Os ovos se tornam infectantes em poucas horas, o que explica por que a doença se espalha tão facilmente dentro de casa e em escolas e creches.',
+          'É a verminose mais comum em crianças em idade escolar em vários países, inclusive nos Estados Unidos, segundo o CDC. No Brasil, aparece com frequência nos atendimentos de pediatria e nas escolas, sobretudo onde várias pessoas dividem o mesmo quarto.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a oxiuríase é transmitida?',
+        paragraphs: [
+          'A transmissão acontece quando alguém engole os ovos. Eles ficam nas mãos depois que a pessoa coça a região anal, e daí passam para a boca, para os alimentos, para os utensílios e para as superfícies.',
+          'Os ovos são muito leves e podem ficar suspensos no ar quando a cama ou a roupa é sacudida. Por isso, também é possível se infectar ao respirar poeira contaminada em ambientes fechados.',
+          'A doença não vem de animais, de solo nem de água. O reservatório é sempre o ser humano, e o contágio depende de ovos que ficam em objetos, roupas de cama, toalhas e brinquedos por até duas ou três semanas.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco?',
+        paragraphs: [
+          'O principal fator de risco é conviver com muitas pessoas em espaço pequeno. Famílias numerosas, creches, escolas, abrigos e dormitórios facilitam a circulação dos ovos entre os moradores.',
+          'Hábitos como roer unhas, chupar o dedo e coçar a região anal sem lavar as mãos depois espalham os ovos. Crianças de 5 a 10 anos são as mais atingidas, e quem cuida delas costuma se infectar também.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'O sintoma mais característico é a coceira ao redor do ânus, que piora à noite, quando a fêmea sai para depositar os ovos. A coceira pode ser intensa e atrapalhar o sono.',
+          'Muitas pessoas infectadas não têm sintoma nenhum. Nesses casos, a doença é descoberta por acaso, quando alguém vê os vermes na roupa íntima, no pijama ou nas fezes, ou quando um caso aparece na família.',
+          'Em crianças, o sono agitado e a coceira podem causar irritabilidade, cansaço durante o dia e queda no rendimento escolar. Em meninas, os vermes podem migrar para a vulva e causar coceira e corrimento.',
+          'Dor abdominal leve, náusea e desconforto ao evacuar aparecem em parte dos casos. A coceira persistente também pode irritar a pele ao redor do ânus, deixando-a avermelhada e dolorida.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: ['A oxiuríase costuma ser leve, mas alguns sinais pedem avaliação médica:'],
+        bullets: [
+          'Coceira anal intensa que não melhora em poucos dias',
+          'Feridas, sangramento ou infecção na pele ao redor do ânus',
+          'Corrimento vaginal ou coceira na região genital em meninas',
+          'Dor abdominal forte, persistente ou localizada',
+          'Perda de peso ou falta de apetite prolongada',
+          'Febre alta com dor abdominal',
+          'Distúrbio do sono que afeta o dia a dia da criança',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O diagnóstico começa pela conversa sobre a coceira noturna, o sono e os casos parecidos na casa. Muitas vezes o próprio paciente ou a família já viu vermes pequenos e brancos na roupa íntima ou nas fezes.',
+          'O profissional examina a região anal e pode orientar a família a fazer a coleta em casa, no momento certo. O exame de fezes comum não é o melhor caminho, porque os ovos ficam na pele e não costumam aparecer nas fezes.',
+          'O atendimento pode ser feito na UBS. Casos com feridas na pele, corrimento vaginal, dor forte ou sinais de infecção secundária seguem para avaliação com pediatra, ginecologista ou coloproctologista.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames confirmam a oxiuríase?',
+        paragraphs: [
+          'O exame mais simples é a inspeção da região anal duas a três horas depois de a pessoa dormir, com uma lanterna. Nesse horário, a fêmea costuma estar na pele ao redor do ânus depositando ovos.',
+          'O teste da fita adesiva é o mais usado quando não se vê o verme. Encosta-se uma fita transparente na pele ao redor do ânus, logo ao acordar, antes de tomar banho ou de ir ao banheiro, e ela é levada ao laboratório para procurar ovos no microscópio.',
+          'Quando o resultado é negativo e a suspeita continua, o teste pode ser repetido em três manhãs seguidas, porque um único exame pode não encontrar os ovos. Em casos de coceira vulvar, pode ser necessário avaliar secreção vaginal.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que mais pode causar coceira anal?',
+        paragraphs: [
+          'A coceira ao redor do ânus tem várias causas. Hemorroidas, fissura anal, dermatite de contato, candidíase e alergia a sabonetes ou papel higiênico podem provocar sintomas parecidos.',
+          'Em crianças, assadura, vermelhidão por umidade e outras parasitoses também entram na lista. A tricuríase causa diarreia e, nos casos graves, prolapso retal, mas não provoca a coceira noturna típica do oxiúro.',
+          'A diferença está no horário da coceira, na presença de vermes visíveis e na ocorrência de casos na mesma casa. O teste da fita adesiva resolve a dúvida quando o exame clínico não é conclusivo.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento é feito com antiparasitários por via oral, em duas doses com duas semanas de intervalo. A segunda dose serve para eliminar os vermes que ainda estavam na forma de larva na primeira tomada.',
+          'O CDC e os manuais de pediatria recomendam tratar todos os moradores da casa ao mesmo tempo, mesmo os que não têm sintomas. Sem isso, a reinfecção é quase certa, porque os ovos continuam em roupas e superfícies.',
+          'A escolha do remédio, a dose e o intervalo dependem da idade e de outras doenças, e ficam a cargo do profissional de saúde. Gestantes e crianças muito pequenas precisam de orientação específica.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir?',
+        paragraphs: [
+          'Na maioria dos casos não há complicação. A coceira intensa e a falta de sono são o principal incômodo e podem afetar o humor, a concentração e o desempenho escolar.',
+          'Quando a pele ao redor do ânus é coçada com força, surgem escoriações que podem infeccionar. Em meninas, a migração dos vermes para a vulva e a vagina causa corrimento e irritação.',
+          'Com menos frequência, os vermes alcançam o apêndice e provocam apendicite, ou atingem a cavidade abdominal. São situações raras, mas exigem atendimento hospitalar.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados em casa e acompanhamento',
+        paragraphs: [
+          'Lave as mãos com água e sabão com frequência, sobretudo depois de usar o banheiro, antes de comer e antes de preparar alimentos. Mantenha as unhas curtas e evite roer unhas.',
+          'Tome banho pela manhã para retirar os ovos depositados durante a noite e troque a roupa íntima e o pijama todos os dias. Lave roupas de cama, toalhas e roupas íntimas em água quente e seque bem.',
+          'Limpe o banheiro com frequência e aspire quartos e estofados. Volte ao serviço de saúde se a coceira continuar depois do tratamento, porque pode ser necessária uma nova dose ou a investigação de outra causa.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a oxiuríase?',
+        paragraphs: [
+          'A prevenção começa pela higiene das mãos e das unhas. Ensine as crianças a lavar as mãos depois de brincar, de usar o banheiro e antes das refeições, e a não coçar a região anal.',
+          'Trocar a roupa de cama com frequência, lavar brinquedos e manter as unhas curtas reduz a quantidade de ovos no ambiente. Em creches e escolas, a orientação vale para toda a equipe.',
+          'Não existe vacina e a proteção não é duradoura. Quem tem contato com uma pessoa infectada pode se reinfectar, e por isso o tratamento da casa inteira faz parte da prevenção.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Oxiuríase pega de outra pessoa?',
+        answer:
+          'Sim. Os ovos passam de uma pessoa para outra por meio das mãos, de objetos e de roupas de cama. Por isso, toda a casa costuma ser tratada junto.',
+      },
+      {
+        question: 'Por que a coceira piora à noite?',
+        answer:
+          'A fêmea sai pelo ânus à noite para depositar os ovos na pele ao redor. Esse movimento e o contato com os ovos provocam a coceira característica.',
+      },
+      {
+        question: 'O exame de fezes encontra o oxiúro?',
+        answer:
+          'Nem sempre. Os ovos ficam na pele ao redor do ânus, e não nas fezes. O teste da fita adesiva e a inspeção noturna são mais confiáveis.',
+      },
+      {
+        question: 'Quanto tempo dura o tratamento?',
+        answer:
+          'São duas doses de remédio com duas semanas de intervalo. A segunda dose é essencial para eliminar os vermes que ainda não estavam maduros na primeira tomada.',
+      },
+      {
+        question: 'É preciso lavar toda a roupa de cama?',
+        answer:
+          'Sim. Lavar roupas de cama, toalhas e roupas íntimas em água quente ajuda a retirar os ovos que ficam nos tecidos por até duas ou três semanas.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'oxiuriase-criancas-coceira-noturna',
+      'oxiuriase-tratar-a-familia-e-limpeza-da-casa',
+      'oxiuriase-ou-ascaridiase-como-diferenciar',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'saude-infantil', 'prevencao'],
+    relatedDiseaseSlugs: ['tricuriase', 'helmintiases', 'parasitoses-intestinais'],
+    references: [
+      {
+        label: 'About Pinworm Infection',
+        url: 'https://www.cdc.gov/pinworm/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Infecção por oxiúro, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-nematelmintos-nemat%C3%B3deos/infec%C3%A7%C3%A3o-por-oxi%C3%BAro',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-26',
+    updatedAt: '2026-10-26',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hidatidose',
+    slug: 'hidatidose',
+    name: 'Hidatidose (equinococose cística)',
+    aliases: [
+      'hidatidose',
+      'equinococose cística',
+      'doença hidática',
+      'cisto hidático',
+      'equinococose',
+    ],
+    summary:
+      'Infecção parasitária causada pela larva da tênia Echinococcus granulosus, que forma cistos de crescimento lento no fígado e nos pulmões. Muitas pessoas passam anos sem sintomas, e a ruptura do cisto pode provocar reação alérgica grave.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é hidatidose?',
+        paragraphs: [
+          'Hidatidose, ou equinococose cística, é a infecção causada pela forma larval da tênia Echinococcus granulosus. O verme adulto vive no intestino de cães e de outros canídeos, e os ovos eliminados nas fezes contaminam o ambiente.',
+          'Quando uma pessoa ingere esses ovos, a larva atravessa o intestino, chega pela corrente sanguínea ao fígado e, com menor frequência, aos pulmões, aos ossos, aos rins e ao cérebro. No órgão afetado, ela se transforma em um cisto de paredes finas que cresce devagar, às vezes por mais de uma década.',
+          'No Brasil, o Ministério da Saúde reconhece duas formas: a hidatidose cística, causada pelo complexo Echinococcus granulosus, e a hidatidose neotropical, causada por Echinococcus vogeli e Echinococcus oligarthra. A primeira é a mais frequente e é o foco desta página.',
+        ],
+      },
+      {
+        id: 'onde-ocorre',
+        heading: 'Onde a hidatidose acontece?',
+        paragraphs: [
+          'A equinococose cística existe em todos os continentes, com mais casos em áreas rurais onde se cria gado e se abatem animais mais velhos. A Organização Mundial da Saúde cita a América do Sul entre as regiões com maior prevalência em rebanhos, e a doença é reconhecida em países produtores de ovinos.',
+          'No Brasil, a hidatidose cística se concentra na Região Sul, sobretudo no Rio Grande do Sul, onde municípios são considerados endêmicos para Echinococcus granulosus. Fora dessa área, os casos são esporádicos e muitos são descobertos por acaso, em exames de imagem pedidos por outro motivo.',
+          'A doença não passa de uma pessoa para outra. O risco depende do contato com cães infectados e da ingestão de água, alimentos ou terra contaminados por fezes de cão.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a hidatidose é transmitida?',
+        paragraphs: [
+          'O ciclo começa quando um cão come vísceras cruas de um animal infectado, como ovelha, boi, cabra ou porco, e passa a eliminar ovos nas fezes. Esses ovos são resistentes no ambiente e podem ficar viáveis por meses em solo úmido e sombreado.',
+          'A pessoa se infecta ao levar à boca mãos sujas de terra, água ou alimentos contaminados. Verduras e frutas cultivadas em hortas visitadas por cães, cisternas abertas e poeira de currais também são vias possíveis. O contato com a pelagem do cão, quando ele está infectado, pode transferir ovos para as mãos.',
+          'Na hidatidose neotropical, o ciclo envolve canídeos e felídeos silvestres e roedores como pacas e cutias. O ser humano entra como hospedeiro acidental, do mesmo modo, ao ingerir ovos presentes no ambiente.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas da hidatidose?',
+        paragraphs: [
+          'A hidatidose cística é causada pelo complexo E. granulosus e produz um ou poucos cistos, de crescimento lento, com uma membrana interna que contém líquido. A hidatidose neotropical, causada por E. vogeli e E. oligarthra, costuma formar vários cistos e crescer de maneira mais agressiva.',
+          'A doença também é classificada pelo órgão atingido. A forma hepática é a mais comum e pode comprimir a via biliar. A forma pulmonar provoca tosse e falta de ar. Ossos, rins, baço e sistema nervoso central são locais menos frequentes, mas capazes de causar danos importantes.',
+          'O tipo de cisto e o órgão afetado mudam o risco de complicações e a escolha do tratamento. Por isso, o diagnóstico precisa de imagem e de avaliação em serviço especializado.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco de hidatidose?',
+        paragraphs: [
+          'A causa é sempre a ingestão de ovos de Echinococcus. Não existe transmissão por contato com o cisto, com o sangue ou com a urina de uma pessoa doente.',
+          'Quem trabalha com criação de ovinos e bovinos, em matadouros ou em propriedades rurais tem mais exposição. Alimentar cães com vísceras cruas, abater animais sem inspeção e deixar cães circularem em hortas mantêm o ciclo ativo perto das casas.',
+          'Crianças que brincam na terra e pessoas que consomem verduras cruas de hortas sem cuidado de higiene também estão mais expostas. O risco cresce em locais sem água tratada e com destino inadequado das fezes dos animais.',
+        ],
+        bullets: [
+          'Morar ou trabalhar em área rural com criação de ovinos e bovinos',
+          'Alimentar cães com vísceras cruas de animais abatidos',
+          'Abate doméstico sem inspeção sanitária',
+          'Hortas e hortaliças acessíveis a cães',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A maioria das pessoas fica sem sintomas por muito tempo, porque o cisto cresce devagar. Em muitos casos, o achado aparece em um ultrassom, em uma radiografia de tórax ou em uma tomografia feita por outro motivo.',
+          'Quando o cisto está no fígado, podem surgir dor no lado direito do abdome, sensação de peso, aumento do fígado e, se houver compressão da via biliar, pele e olhos amarelados. Cistos grandes também podem comprimir a veia porta e aumentar a pressão no sistema venoso.',
+          'No pulmão, os sintomas mais comuns são tosse persistente, dor no peito e falta de ar. Se o cisto se rompe na árvore brônquica, a pessoa pode eliminar um líquido com aspecto de membrana, o que exige atendimento imediato.',
+          'Cistos em ossos podem enfraquecer a estrutura e causar fratura espontânea. No cérebro, provocam dor de cabeça, náusea e crises convulsivas. Febre, urticária e mal-estar podem aparecer quando há ruptura ou infecção secundária do cisto.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'A ruptura de um cisto pode desencadear reação alérgica grave. Procure o pronto atendimento ou ligue para o SAMU 192 se aparecerem sinais de choque ou de dificuldade respiratória.',
+        ],
+        bullets: [
+          'Dor abdominal ou no peito que começa de repente, com urticária, palidez e desmaio',
+          'Falta de ar intensa ou chiado que piora em poucos minutos',
+          'Vômito com sangue ou tosse com grande quantidade de líquido',
+          'Pele e olhos amarelados acompanhados de febre e dor abdominal',
+          'Crise convulsiva, confusão mental ou fraqueza em um lado do corpo',
+          'Febre alta com dor persistente no fígado ou no pulmão',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a hidatidose é diagnosticada?',
+        paragraphs: [
+          'O diagnóstico começa pela história clínica. O profissional pergunta sobre procedência, trabalho com animais, contato com cães, consumo de água de cisterna e hortas perto de casa. Esse contexto ajuda a interpretar um cisto encontrado em exame de imagem.',
+          'A ultrassonografia é o exame de escolha para cistos no abdome. A tomografia e a ressonância completam a avaliação e mostram a relação do cisto com vasos, vias biliares e outros órgãos.',
+          'A confirmação pode incluir sorologia e exame do material do cisto quando há cirurgia ou punção. Um resultado negativo não descarta a doença, e um resultado positivo precisa ser interpretado junto com a imagem, porque outras parasitoses podem causar reação cruzada.',
+        ],
+        cta: {
+          label: 'Leia também: cisto no fígado descoberto no ultrassom',
+          href: '/artigos/hidatidose-cisto-descoberto-no-exame/',
+        },
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames podem ser solicitados?',
+        paragraphs: [
+          'Além da ultrassonografia, da tomografia e da ressonância, o serviço pode pedir radiografia de tórax quando há sintomas respiratórios. A imagem mostra o tamanho, a localização e as características do cisto, o que orienta a conduta.',
+          'Os exames de sangue podem mostrar eosinofilia, sobretudo quando há ruptura ou infecção do cisto. A sorologia procura anticorpos contra Echinococcus e ajuda nos casos em que a imagem não é típica, mas não distingue infecção antiga de recente.',
+          'Quando o cisto é removido ou puncionado, o material pode ser examinado para identificar as estruturas do parasita. Esse estudo confirma o diagnóstico e afasta outras lesões císticas.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Quais doenças podem parecer hidatidose?',
+        paragraphs: [
+          'No fígado, o cisto simples é a principal confusão. Ele costuma ser assintomático, tem paredes finas e não provoca reação na sorologia. Abscesso hepático e tumores também entram na lista.',
+          'No pulmão, a hidatidose pode ser confundida com tuberculose, pneumonia de repetição, bronquiectasias e neoplasias. A tosse crônica e a imagem com cavidade ou cisto pedem investigação dirigida.',
+          'No cérebro, cistos de outra natureza e tumores podem se parecer. A combinação de imagem, sorologia e história de exposição é o que separa os diagnósticos.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento depende do tamanho, da localização e do estágio do cisto, além das condições clínicas da pessoa. A decisão é tomada em conjunto por equipe especializada, muitas vezes com cirurgião, infectologista e radiologista.',
+          'Cistos pequenos e inativos podem apenas ser acompanhados com exames de imagem. Cistos ativos costumam ser tratados com medicamentos benzimidazólicos, como albendazol ou mebendazol, ou com cirurgia e punção, conforme o caso.',
+          'O tratamento medicamentoso pode durar meses e exige acompanhamento para avaliar resposta e efeitos adversos. Não use remédio por conta própria, porque a quebra do cisto sem controle pode causar reação alérgica grave e espalhar o parasita.',
+        ],
+      },
+      {
+        id: 'cirurgia-e-pair',
+        heading: 'Cirurgia e punção do cisto',
+        paragraphs: [
+          'A cirurgia é indicada quando o cisto é grande, está em local acessível e provoca sintomas ou risco de ruptura. O objetivo é retirar o cisto inteiro, protegendo o campo cirúrgico para evitar que o líquido se espalhe.',
+          'A técnica PAIR combina punção, aspiração do líquido, injeção de substância escolicida e nova aspiração, guiada por ultrassonografia. É usada em cistos hepáticos selecionados e exige equipe treinada e acompanhamento.',
+          'Em alguns casos, o medicamento é iniciado antes e mantido depois do procedimento para reduzir o risco de disseminação e de recidiva. A escolha entre cirurgia, PAIR e tratamento apenas com remédio não é padronizada para todas as pessoas.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem surgir?',
+        paragraphs: [
+          'A ruptura do cisto é a complicação mais temida. O líquido liberado pode causar choque anafilático e espalhar o parasita pelo peritônio ou pela pleura, formando novos cistos.',
+          'No fígado, a compressão ou a comunicação com a via biliar provoca icterícia, colangite e fístulas biliares. No pulmão, pode haver derrame pleural, empiema e eliminação de conteúdo do cisto pelas vias aéreas.',
+          'Mesmo com tratamento adequado, uma parcela dos casos recidiva. A Organização Mundial da Saúde estima recidiva em cerca de 6,5% dos casos após uma intervenção. O acompanhamento com imagem por vários anos é parte do cuidado.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados em casa e acompanhamento',
+        paragraphs: [
+          'Depois do tratamento, o retorno às consultas e aos exames de imagem é o que mostra se o cisto diminuiu, se ficou estável ou se voltou. Não interrompa o medicamento nem falte às reavaliações.',
+          'Enquanto o cisto estiver em observação, evite traumas no abdome e no tórax, como quedas, esportes de contato e esforço que comprima a região. Avise o profissional se aparecer dor nova, febre ou urticária.',
+          'A alimentação equilibrada e o descanso ajudam na recuperação após cirurgia ou tratamento prolongado. Pessoas com cistos no cérebro ou nos ossos podem precisar de reabilitação e de cuidados específicos.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a hidatidose?',
+        paragraphs: [
+          'A prevenção depende de interromper o ciclo entre cães e animais de produção. Não alimente cães com vísceras cruas, mantenha o abate sob inspeção e destrua as vísceras infectadas de forma adequada.',
+          'A desparasitação periódica dos cães, orientada por médico-veterinário, reduz a eliminação de ovos. A OMS recomenda tratar cães com praziquantel pelo menos quatro vezes por ano em áreas endêmicas.',
+          'Lave as mãos antes de manipular alimentos, lave bem frutas e verduras e evite que cães entrem em hortas e plantações. Em áreas endêmicas, crianças não devem brincar em locais com fezes de cão. Não existe vacina para pessoas.',
+        ],
+        cta: {
+          label: 'Leia também: cães, ovinos e a horta',
+          href: '/artigos/hidatidose-caes-ovinos-e-hortas/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Hidatidose passa de uma pessoa para outra?',
+        answer:
+          'Não. A transmissão depende de ovos eliminados por cães infectados. O contato com uma pessoa doente, com o cisto ou com o sangue dela não transmite a doença.',
+      },
+      {
+        question: 'Como se pega hidatidose?',
+        answer:
+          'Ao ingerir ovos do parasita presentes em água, alimentos, terra ou mãos contaminadas por fezes de cão. Alimentar cães com vísceras cruas mantém o ciclo perto das casas.',
+      },
+      {
+        question: 'Todo cisto precisa de cirurgia?',
+        answer:
+          'Não. Cistos pequenos e inativos podem ser apenas acompanhados. A indicação de cirurgia, punção ou medicamento depende do tamanho, da localização e do estágio do cisto.',
+      },
+      {
+        question: 'A hidatidose pode voltar?',
+        answer:
+          'Pode. Uma parte dos casos recidiva depois do tratamento, e a reinfecção é possível enquanto a pessoa continuar exposta a ovos no ambiente. Por isso o acompanhamento com imagem é prolongado.',
+      },
+      {
+        question: 'Existe vacina contra hidatidose?',
+        answer:
+          'Não há vacina para pessoas. Existe uma vacina veterinária para ovinos, usada em programas de controle em alguns países, que não substitui as medidas de higiene e de manejo dos cães.',
+      },
+    ],
+    relatedArticleSlugs: ['hidatidose-cisto-descoberto-no-exame', 'hidatidose-caes-ovinos-e-hortas'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['cisticercose', 'esquistossomose', 'helmintiases'],
+    references: [
+      {
+        label: 'Hidatidose humana',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hidatidose-humana',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Equinococose: folha informativa',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/echinococcosis',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'About Echinococcosis',
+        url: 'https://www.cdc.gov/echinococcosis/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'A hidatidose humana no Rio Grande do Sul (Brasil)',
+        url: 'https://www.scielo.br/j/rimtsp/a/nXXLGMfSYDz5KXcF5fLYtwj/',
+        publisher: 'Revista do Instituto de Medicina Tropical de São Paulo',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-26',
+    updatedAt: '2026-10-26',
+    isPlaceholder: true,
+  },
 ];

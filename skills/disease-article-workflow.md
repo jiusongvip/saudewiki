@@ -20,8 +20,8 @@
    （第 0 步先判**新增**还是**修改** → 定位来源 → 建立事实清单 → 核实 → 写入 `pt-BR` 与 `zh-Hant` 两层 → 主题、分类、图片接线）。
 2. **派生文章**：读 `skills/article-derivation-ptbr/SKILL.md`
    - 先确认目标疾病词条**已存在**（不存在则回到第 1 步）；
-   - 再读医典「相关阅读」模块，按条目数决定篇数：**无该模块不生成；1–5 条按条数；大于 5 条取 5 篇**；
-   - 核实事实后写文，写入 `src/data/articles.ts` 及对应孪生，完成主题、图片与双向接线。
+   - 再读医典「相关阅读」模块，按条目数决定篇数：**无该模块时从词条 section 固定生成 2 篇；1–5 条按条数；大于 5 条取 5 篇**；
+   - 核实事实后写文，**先把本次全部篇目（含孪生）写完并写入** `src/data/articles.ts` 及对应孪生，完成主题与双向接线，**全部写完后再统一定配图**。
    - 用户只要词条且明确不需要文章时，可跳过本步。
 3. **三轮质检**：两个 skill 都读 `skills/_shared/qc-workflow.md`，走满三轮
    （第一轮医学与安全、第二轮巴西本地事实与本地化、第三轮巴西葡语语言），每轮逐条对照 `skills/_shared/editorial-checklist.md` 的对应章节。
@@ -33,7 +33,7 @@
    npm run build                # 必须成功；新增词条确认新路由已生成，修改模式确认原路由未被破坏
    ```
 
-**配图分工**：疾病配图走 `skills/disease-image-generation-ptbr/SKILL.md` 的医学插画板（AI 生成，不再搜照片）；派生文章配图走 `skills/article-derivation-ptbr/SKILL.md` 的 Unsplash / Pexels 搜图。两条流程不得互换。
+**配图分工**：疾病配图走 `skills/disease-image-generation-ptbr/SKILL.md` 的医学插画板（AI 生成，不再搜照片）；派生文章配图走 `skills/article-derivation-ptbr/SKILL.md` 的图片节，**在全部文章写完之后**执行，图源 **Pexels 优先、Unsplash 兜底**。两条流程不得互换。
 
 ## 三、不触发三轮质检的例外
 
