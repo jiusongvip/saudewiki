@@ -1,9 +1,11 @@
 ---
 import Icon from './Icon.astro';
 import { ui } from '../i18n/ui';
+import { fill } from '../lib/i18n';
 import { contentFor } from '../lib/content';
 import { imageForDisease } from '../lib/images';
 import ImageSlot from './ImageSlot.astro';
+import SensitiveImage from './SensitiveImage.astro';
 import type { Disease, Locale } from '../types';
 
 interface Props {
@@ -20,11 +22,26 @@ const urls = contentFor(lang).urls;
 const image = imageForDisease(disease.slug, lang);
 ---
 
-<a
-  href={urls.disease(disease.slug)}
-  class="card card-link group flex flex-col overflow-hidden"
->
-  <ImageSlot src={image?.src} alt={image?.alt ?? ''} ratio={ratio} eager={eager} />
+<!--
+  The card is not an anchor any more. A plate that has to be opened needs a
+  button inside the picture, and a button cannot live inside a link; the link is
+  now a sibling stretched over the whole card (`card-hit`), while the cover sits
+  above it, so a press on the picture reveals it instead of navigating.
+-->
+<article class="card card-link group relative flex flex-col overflow-hidden">
+  {
+    image?.sensitive && image.src ? (
+      <SensitiveImage
+        lang={lang}
+        src={image.src}
+        alt={image.alt}
+        ratio={ratio}
+        eager={eager}
+      />
+    ) : (
+      <ImageSlot src={image?.src} alt={image?.alt ?? ''} ratio={ratio} eager={eager} />
+    )
+  }
 
   <div class="flex flex-1 flex-col p-5 sm:p-6">
     <span class="eyebrow">{disease.category}</span>
@@ -38,4 +55,10 @@ const image = imageForDisease(disease.slug, lang);
       />
     </span>
   </div>
-</a>
+
+  <a
+    href={urls.disease(disease.slug)}
+    class="card-hit"
+    aria-label={fill(t.common.seeDiseaseAria, { name: disease.name })}
+  ></a>
+</article>

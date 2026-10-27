@@ -24,6 +24,12 @@ import { zhImageAlts } from '../data/zh-Hant/image-alts';
 export interface SiteImage {
   src: string;
   alt: string;
+  /**
+   * Set when the picture may not be shown until the reader opens it. Absent
+   * means the picture is shown as it is, which is the case for every article
+   * photograph outside an operating room. See `SensitiveImage`.
+   */
+  sensitive?: boolean;
 }
 /**
  * One picture per disease. Every entry is an illustrated plate: the mechanism
@@ -1017,6 +1023,16 @@ export const topicImages: Record<string, SiteImage> = {
 };
 
 /**
+ * Article photographs that are covered too: the two taken inside an operating
+ * room. Everything else in `articleImages` is a room, a hand, a plate of food or
+ * a test tube, and is shown as it is.
+ */
+const surgicalArticleImages = new Set([
+  'catarata-tratamento-e-cirurgia',
+  'insuficiencia-cardiaca-transplante-cardiaco',
+]);
+
+/**
  * Resolve by slug with a deliberate fallback. A missing picture must degrade
  * to the halftone placeholder rather than throwing at build time, because a
  * new content entry should never be blocked on an image.
@@ -1028,11 +1044,24 @@ export const topicImages: Record<string, SiteImage> = {
 const withAlt = (image: SiteImage | undefined, slug: string, lang: Locale): SiteImage | undefined =>
   image && lang !== 'pt-BR' && zhImageAlts[slug] ? { src: image.src, alt: zhImageAlts[slug] } : image;
 
-export const imageForDisease = (slug: string, lang: Locale): SiteImage | undefined =>
-  withAlt(diseaseImages[slug], slug, lang);
+/**
+ * A disease plate is always covered.
+ *
+ * Every plate is a clinical illustration: a cross-section with vessels and
+ * blood, a sign in the inset, a row of symptom badges. Which of those a reader
+ * wants to meet unasked is not a judgement the resolver should make per file, so
+ * it makes none: the flag is set here, once, and the templates only read it.
+ * That also means a new plate cannot be published uncovered by forgetfulness.
+ */
+export const imageForDisease = (slug: string, lang: Locale): SiteImage | undefined => {
+  const image = withAlt(diseaseImages[slug], slug, lang);
+  return image ? { ...image, sensitive: true } : undefined;
+};
 
-export const imageForArticle = (slug: string, lang: Locale): SiteImage | undefined =>
-  withAlt(articleImages[slug], slug, lang);
+export const imageForArticle = (slug: string, lang: Locale): SiteImage | undefined => {
+  const image = withAlt(articleImages[slug], slug, lang);
+  return image && surgicalArticleImages.has(slug) ? { ...image, sensitive: true } : image;
+};
 
 export const imageForTopic = (slug: string, lang: Locale): SiteImage | undefined =>
   withAlt(topicImages[slug], slug, lang);

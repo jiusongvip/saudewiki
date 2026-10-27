@@ -78,6 +78,8 @@ const pt = {
     readArticle: 'Ler artigo',
     readArticleAria: 'Ler artigo: {title}',
     seeDisease: 'Conhecer a doença',
+    /** Names the card's stretched link, which carries no text of its own. */
+    seeDiseaseAria: 'Abrir o verbete: {name}',
     seeAllArticles: 'Ver todos os artigos',
     seeAllDiseases: 'Ver todas as doenças',
     sendCorrection: 'Enviar correção',
@@ -116,6 +118,22 @@ const pt = {
      */
     medicationWarning:
       'Não comece, não suspenda e não altere a dose de nenhum medicamento por conta própria. Só um profissional de saúde pode indicar o tratamento adequado ao seu caso.',
+  },
+
+  /**
+   * The cover in front of a clinical image.
+   *
+   * One notice for every plate: the encyclopedia shows illustrations of organs in
+   * cross-section, vessels full of blood, wounds in an inset and surgical fields,
+   * and none of that is something to meet unasked. The note names the whole range
+   * instead of promising a harmless one, and the text never suggests the picture
+   * is pleasant.
+   */
+  imageGate: {
+    title: 'Conteúdo sensível',
+    note: 'Imagem médica realista: cortes anatômicos, feridas, sangue ou procedimento.',
+    reveal: 'Ver imagem',
+    hide: 'Ocultar',
   },
 
   search: {
@@ -391,6 +409,8 @@ const zh: UI = {
     readArticle: '閱讀文章',
     readArticleAria: '閱讀文章：{title}',
     seeDisease: '認識這種疾病',
+    /** Names the card's stretched link, which carries no text of its own. */
+    seeDiseaseAria: '開啟詞條：{name}',
     seeAllArticles: '查看所有文章',
     seeAllDiseases: '查看所有疾病',
     sendCorrection: '送出更正',
@@ -420,6 +440,22 @@ const zh: UI = {
     disclaimerLink: '閱讀完整的醫療免責聲明',
     medicationWarning:
       '請勿自行開始、停用或調整任何藥物的劑量。只有醫療專業人員能針對您的狀況決定合適的治療方式。',
+  },
+
+  /**
+   * The cover in front of a clinical image.
+   *
+   * One notice for every plate: the encyclopedia shows illustrations of organs in
+   * cross-section, vessels full of blood, wounds in an inset and surgical fields,
+   * and none of that is something to meet unasked. The note names the whole range
+   * instead of promising a harmless one, and the text never suggests the picture
+   * is pleasant.
+   */
+  imageGate: {
+    title: '敏感內容',
+    note: '寫實的醫學畫面：剖面、傷口、血液或醫療處置。',
+    reveal: '查看圖片',
+    hide: '收起',
   },
 
   search: {

@@ -1,0 +1,70 @@
+---
+/**
+ * A picture behind a cover the reader has to open.
+ *
+ * Every plate in the encyclopedia is a clinical illustration: a cross-section
+ * with vessels and blood, a sign in the inset, a row of symptom badges. Any of
+ * those is medical imagery a reader should meet on purpose, so all of them are
+ * covered, and the cover says the same thing over each one. This is the site's
+ * version of the warning a social network puts over sensitive media: the picture
+ * is there, blurred, the cover says why, and one press shows it.
+ *
+ * Nothing is hidden from a search engine or from a reader who never presses.
+ * The `img` keeps its `src`, its `alt` and its place in the document; only the
+ * pixels wait, so the image is still indexed and still described out loud.
+ *
+ * Why one button and not a cover plus a separate "hide" control: opening the
+ * picture would destroy whichever element had the focus, and a keyboard reader
+ * would land back on the document body. Here the same button stays mounted, so
+ * the focus stays on it, `aria-expanded` flips, and its visible text changes
+ * from "Ver imagem" to "Ocultar" — the accessible name follows the text because
+ * the other half is `display: none`. When open it collapses into a pill in the
+ * corner, which is also the way back to a blurred picture.
+ *
+ * The blur itself is CSS driven by `data-gate-state` on the wrapper, so the
+ * markup decides the state and a script only flips an attribute. With scripting
+ * off, the `<noscript>` block in `BaseLayout` removes the cover entirely: a
+ * cover nobody can open is worse than no cover.
+ *
+ * The button is a sibling of the picture, never a child of a link. Cards carry
+ * a stretched link over their whole surface, so a cover nested inside it would
+ * be invalid markup and would navigate instead of revealing.
+ */
+import Icon from './Icon.astro';
+import ImageSlot from './ImageSlot.astro';
+import { ui } from '../i18n/ui';
+import type { Locale } from '../types';
+
+interface Props {
+  lang: Locale;
+  src?: string;
+  alt?: string;
+  /** CSS aspect-ratio, e.g. "4 / 3". */
+  ratio?: string;
+  class?: string;
+  eager?: boolean;
+}
+
+const { lang, src, alt = '', ratio = '4 / 3', class: klass = '', eager = false } = Astro.props;
+
+const copy = ui[lang].imageGate;
+---
+
+<div class:list={['gate', klass]} data-gate-state="closed">
+  <ImageSlot src={src} alt={alt} ratio={ratio} eager={eager} />
+
+  <button type="button" class="gate-toggle" data-gate-toggle aria-expanded="false">
+    <span class="gate-shut">
+      <span class="gate-badge">
+        <Icon name="tabler:alert-triangle" class="h-4 w-4" />
+      </span>
+      <span class="gate-title">{copy.title}</span>
+      <span class="gate-note">{copy.note}</span>
+      <span class="gate-cta">{copy.reveal}</span>
+    </span>
+    <span class="gate-open">
+      <Icon name="tabler:eye" class="h-3.5 w-3.5" />
+      <span>{copy.hide}</span>
+    </span>
+  </button>
+</div>

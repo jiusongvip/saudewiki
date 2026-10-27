@@ -229,6 +229,33 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
         }, 2500);
       })();
     </script>
+
+    <!--
+      The covers in front of clinical images are opened by an inline listener
+      rather than by the bundle below, because a bundle that fails to load would
+      leave every plate covered with a button that does nothing. With scripting
+      off entirely, the cover is removed instead: a picture nobody can reach is
+      worse than a picture shown without a warning.
+    -->
+    <noscript>
+      <style>
+        .gate[data-gate-state='closed'] .media img {
+          filter: var(--img-filter);
+          transform: none;
+          opacity: 1;
+        }
+        .gate-toggle {
+          display: none;
+        }
+        .tile-veil[data-gate-state='closed'] img {
+          filter: var(--img-filter);
+        }
+        .tile-veil-layer,
+        .tile-reveal {
+          display: none;
+        }
+      </style>
+    </noscript>
   </head>
   <body class="flex min-h-[100dvh] flex-col bg-canvas text-ink antialiased">
     <a
@@ -247,6 +274,27 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
     <Footer lang={lang} />
 
     <BackToTop lang={lang} />
+
+    <!--
+      One listener for every cover on the page.
+
+      Delegation, not one handler per plate: a list page mounts dozens of them and
+      the attribute is what carries the state, so the handler only flips it. The
+      same element stays focused while it changes from the cover into the small
+      "Ocultar" pill, which is why the toggle is a single button.
+    -->
+    <script is:inline>
+      document.addEventListener('click', function (event) {
+        var trigger = event.target.closest('[data-gate-toggle]');
+        if (!trigger) return;
+        var gate = trigger.closest('[data-gate-state]');
+        if (!gate) return;
+        event.preventDefault();
+        var open = gate.getAttribute('data-gate-state') !== 'open';
+        gate.setAttribute('data-gate-state', open ? 'open' : 'closed');
+        trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    </script>
 
     <script>
       // Bundled (not is:inline) so the observer is defined once per page rather

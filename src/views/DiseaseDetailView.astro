@@ -9,7 +9,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import DiseaseCard from '../components/DiseaseCard.astro';
 import TopicCard from '../components/TopicCard.astro';
 import InlineText from '../components/InlineText.astro';
-import ImageSlot from '../components/ImageSlot.astro';
+import SensitiveImage from '../components/SensitiveImage.astro';
 import Icon from '../components/Icon.astro';
 import { SITE } from '../data/site';
 import { ui } from '../i18n/ui';
@@ -39,9 +39,16 @@ const breadcrumbs = [
 ];
 
 const tocItems = disease.sections.map((section) => ({ id: section.id, heading: section.heading }));
-/* The plate belongs to the opening "what is it" section, which every disease
-   record lists first; it is lazy so it cannot become the largest contentful
-   paint on a page whose header already carries the title and the summary. */
+/*
+  The plate belongs to the opening "what is it" section, which every disease
+  record lists first; it is lazy so it cannot become the largest contentful paint
+  on a page whose header already carries the title and the summary.
+
+  It is also always covered: a plate is a clinical illustration, usually with
+  vessels, blood or a sign in an inset, so the page never puts one in front of a
+  reader who did not ask for it. `imageForDisease` sets the flag; the copy comes
+  from `ui.imageGate`.
+*/
 const plate = imageForDisease(disease.slug, lang);
 const pageId = `${SITE.url}${c.urls.disease(disease.slug)}`;
 
@@ -114,8 +121,9 @@ const title = `${disease.metaTitle ?? fill(t.diseasePage.titlePattern, { name: d
                 {
                   index === 0 &&
                   plate && (
-                    <ImageSlot
-                                            src={plate.src}
+                    <SensitiveImage
+                      lang={lang}
+                      src={plate.src}
                       alt={plate.alt}
                       ratio="4 / 3"
                       class="my-6 rounded-xl border border-line"

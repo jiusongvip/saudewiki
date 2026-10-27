@@ -255,6 +255,250 @@ html[lang^="zh"] .prose-editorial {
 }
 
 /* ---------------------------------------------------------------------------
+   Sensitive media — a picture the reader opens
+
+   The wrapper owns the state (`data-gate-state`), the picture only reacts to it,
+   so opening a plate is an attribute flip with no layout work. The blur is
+   deliberately heavy enough that no shape of a wound survives it at thumbnail
+   size, and the cover carries the same explanation in words.
+--------------------------------------------------------------------------- */
+
+.gate {
+  position: relative;
+  overflow: hidden;
+  /* Above the stretched link a card puts over its own surface, so pressing the
+     cover opens the picture instead of following the link. */
+  z-index: 2;
+}
+
+.gate .media img {
+  transition: filter 0.4s ease, transform 0.5s ease-out, opacity 0.3s ease;
+}
+
+/*
+   The colour token is deliberately not composed into these two filters.
+   `--img-filter` is `none` in both colour schemes, and a `none` sitting next to
+   a function invalidates the whole declaration, so the picture kept its detail
+   and only the dark tint arrived — the cover looked applied but was not.
+*/
+.gate[data-gate-state='closed'] .media img {
+  filter: blur(30px) saturate(0.55);
+  transform: scale(1.12);
+  opacity: 0.9;
+}
+
+.gate-toggle {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem;
+  color: #fff;
+  background: rgba(16, 16, 19, 0.66);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.gate-toggle:hover {
+  background: rgba(16, 16, 19, 0.55);
+}
+
+.gate-shut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  max-width: 32ch;
+  text-align: center;
+}
+
+.gate-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+}
+
+.gate-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.gate-note {
+  font-size: 0.74rem;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.gate-cta {
+  margin-top: 0.2rem;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.gate-open {
+  display: none;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.gate[data-gate-state='open'] .gate-toggle {
+  inset: 0.5rem 0.5rem auto auto;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(16, 16, 19, 0.78);
+}
+
+.gate[data-gate-state='open'] .gate-shut {
+  display: none;
+}
+
+.gate[data-gate-state='open'] .gate-open {
+  display: inline-flex;
+}
+
+.gate-toggle:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -3px;
+}
+
+/* Once the cover is a pill, the focus ring has to sit outside it. */
+.gate[data-gate-state='open'] .gate-toggle:focus-visible {
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gate .media img {
+    transition: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   The same warning on a composed tile — a tint, not a cover
+
+   The home mosaic writes the entry's name straight onto the picture, so an
+   opaque cover would hide the only words that say which entry a tile opens.
+   Here the plate keeps its place and loses its detail: dulled and darkened,
+   with the type above it and one chip in the corner that lifts the veil.
+--------------------------------------------------------------------------- */
+
+/*
+   The blur is judged against the tile, not as an absolute number: these plates
+   are shown at 300 to 500 CSS pixels, where 9px still left the drawing and its
+   inset legible. 22px plus a 10% magnification is past the point where a wound
+   or an inset can be read, and the magnification is what stops the blur from
+   leaving a pale halo where the tile clips it. It is a separate `scale` rather
+   than part of `transform` because the featured tile's panning script writes its
+   own inline `transform`, which a stylesheet cannot extend.
+
+   The `[data-wg-img]` half of the selector is what makes the featured tile work:
+   the window grid's own rule (`.wg [data-window] img`, same specificity as
+   `.tile-veil[data-gate-state='closed'] img`) sits further down this file, so on
+   an equal footing it won and the big tile stayed sharp while the three small
+   ones blurred. One attribute more puts the veil back on top.
+*/
+.tile-veil img {
+  scale: 1;
+  transition: filter 0.4s ease, scale 0.4s ease;
+}
+
+.tile-veil[data-gate-state='closed'] img,
+.tile-veil[data-gate-state='closed'] [data-wg-img] {
+  filter: blur(22px) saturate(0.7);
+  scale: 1.1;
+}
+
+.tile-veil-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: rgba(16, 16, 19, 0.3);
+  transition: opacity 0.3s ease;
+}
+
+.tile-veil[data-gate-state='open'] .tile-veil-layer {
+  opacity: 0;
+}
+
+.tile-reveal {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.7rem;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  max-width: calc(100% - 1.4rem);
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(16, 16, 19, 0.72);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  /* One line, or nothing: a pill that wraps reads as a box. */
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Separates the warning from the action on the graphic level. */
+.tile-reveal-sep {
+  width: 1px;
+  height: 0.8rem;
+  background: currentColor;
+  opacity: 0.35;
+}
+
+.tile-reveal:hover {
+  background: rgba(16, 16, 19, 0.86);
+}
+
+.tile-reveal:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.tile-reveal-shut,
+.tile-reveal-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.tile-reveal-open {
+  display: none;
+}
+
+.tile-veil[data-gate-state='open'] .tile-reveal-shut {
+  display: none;
+}
+
+.tile-veil[data-gate-state='open'] .tile-reveal-open {
+  display: inline-flex;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tile-veil img,
+  .tile-veil-layer {
+    transition: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
    Surfaces — card edges are control edges, not decoration
 --------------------------------------------------------------------------- */
 
@@ -276,6 +520,26 @@ html[lang^="zh"] .prose-editorial {
 
 .card-link:hover .media img {
   transform: scale(1.035);
+}
+
+/*
+ * The card's link, stretched over the card instead of wrapping it.
+ *
+ * Wrapping was what made a cover impossible: the picture, the cover and the
+ * text all lived inside one anchor, and a button cannot sit inside a link. A
+ * sibling anchor at `inset: 0` keeps the whole card pressable, keeps the markup
+ * valid, and lets the cover (z-index 2) take the press on the picture.
+ */
+.card-hit {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.card-hit:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -3px;
 }
 
 .media img {

@@ -5,6 +5,7 @@ import BodyMap from '../components/BodyMap.astro';
 import RegionTiles from '../components/RegionTiles.astro';
 import WindowGrid from '../components/WindowGrid.astro';
 import ImageSlot from '../components/ImageSlot.astro';
+import TileVeil from '../components/TileVeil.astro';
 import MedicalDisclaimer from '../components/MedicalDisclaimer.astro';
 import Icon from '../components/Icon.astro';
 import { SITE } from '../data/site';
@@ -204,9 +205,16 @@ const schemaNodes: Record<string, unknown>[] = [
     </div>
 
     <div class="grid min-h-0 flex-1 grid-cols-1 gap-1.5 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2 md:gap-2">
-      <a
-        href={c.urls.disease(featured.slug)}
-        class="relative col-span-1 flex min-h-[320px] flex-col overflow-hidden rounded-2xl sm:col-span-2 md:col-span-1 md:row-span-2 md:min-h-0"
+      <!--
+        A disease tile is a composition, not a card: the category, the name and
+        the one-line summary sit on the picture. It is therefore a `div` with a
+        stretched link instead of an anchor, so the veil's chip can be a button
+        without nesting inside a link — a press on the chip lifts the veil, a
+        press anywhere else, including on the words, follows the link.
+      -->
+      <div
+        class="tile-veil relative col-span-1 flex min-h-[320px] flex-col overflow-hidden rounded-2xl sm:col-span-2 md:col-span-1 md:row-span-2 md:min-h-0"
+        data-gate-state={featuredImage?.sensitive ? 'closed' : undefined}
       >
         <WindowGrid
           src={featuredImage?.src ?? PHOTO.collage}
@@ -233,7 +241,8 @@ const schemaNodes: Record<string, unknown>[] = [
         </WindowGrid>
 
         <span class="scrim-bottom pointer-events-none absolute inset-0" aria-hidden="true" />
-        <div class="absolute inset-x-5 bottom-5 md:inset-x-6 md:bottom-6">
+        {featuredImage?.sensitive && <TileVeil lang={lang} />}
+        <div class="pointer-events-none absolute inset-x-5 bottom-5 z-[3] md:inset-x-6 md:bottom-6">
           <p class="text-[0.66rem] font-bold uppercase tracking-wider text-white/90">
             {featured.category}
           </p>
@@ -244,15 +253,21 @@ const schemaNodes: Record<string, unknown>[] = [
           </h3>
           <p class="mt-3 max-w-[42ch] text-sm leading-relaxed text-white/85">{featured.summary}</p>
         </div>
-      </a>
+
+        <a
+          href={c.urls.disease(featured.slug)}
+          class="card-hit"
+          aria-label={fill(t.common.seeDiseaseAria, { name: featured.name })}
+        ></a>
+      </div>
 
       {
         rest.map((disease) => {
           const image = imageForDisease(disease.slug, lang);
           return (
-            <a
-              href={c.urls.disease(disease.slug)}
-              class="relative min-h-[200px] overflow-hidden rounded-2xl md:min-h-0"
+            <div
+              class="tile-veil relative min-h-[200px] overflow-hidden rounded-2xl md:min-h-0"
+              data-gate-state={image?.sensitive ? 'closed' : undefined}
             >
               <!-- Pinned to the box rather than `h-full`: below the md breakpoint
                    the card's height comes only from `min-h-[200px]`, which is not
@@ -266,7 +281,8 @@ const schemaNodes: Record<string, unknown>[] = [
                 decoding="async"
               />
               <span class="scrim-bottom pointer-events-none absolute inset-0" aria-hidden="true" />
-              <div class="absolute inset-x-4 bottom-4 md:inset-x-5 md:bottom-5">
+              {image?.sensitive && <TileVeil lang={lang} />}
+              <div class="pointer-events-none absolute inset-x-4 bottom-4 z-[3] md:inset-x-5 md:bottom-5">
                 <p class="text-[0.66rem] font-bold uppercase tracking-wider text-white/90">
                   {disease.category}
                 </p>
@@ -275,7 +291,13 @@ const schemaNodes: Record<string, unknown>[] = [
                 </h3>
                 <p class="mt-2 text-[0.78rem] leading-snug text-white/85">{disease.summary}</p>
               </div>
-            </a>
+
+              <a
+                href={c.urls.disease(disease.slug)}
+                class="card-hit"
+                aria-label={fill(t.common.seeDiseaseAria, { name: disease.name })}
+              ></a>
+            </div>
           );
         })
       }
