@@ -17793,4 +17793,2238 @@ export const articles: Article[] = [
     updatedAt: '2026-10-26',
     isPlaceholder: true,
   },
+  {
+    id: 'febre-amarela-vacina-para-quem-vai-viajar',
+    slug: 'febre-amarela-vacina-para-quem-vai-viajar',
+    title: 'Vacina da febre amarela: quem precisa tomar antes de viajar?',
+    excerpt:
+      'Dose única, proteção que começa em cerca de dez dias e restrições que mudam a indicação. Entenda como avaliar o risco da viagem e o que fazer quando a vacina é contraindicada.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-vacinar',
+        heading: 'Por que a vacina importa tanto',
+        paragraphs: [
+          'A febre amarela é uma infecção viral transmitida pela picada de mosquitos que circulam em áreas de mata. A maioria das pessoas melhora em poucos dias, mas cerca de 15% evoluem para a forma grave, com icterícia, hemorragias e falência de órgãos. Entre esses casos, a letalidade fica entre 20% e 50%.',
+          'Não existe antiviral contra o vírus. O tratamento é de suporte, feito em hospital, e a chance de sobreviver depende muito da rapidez do atendimento. A vacina é a única forma eficaz de prevenção e transforma uma doença potencialmente fatal em um risco praticamente eliminado para quem está protegido.',
+          'Para quem viaja, isso significa incluir a vacina no planejamento, e não na véspera. A proteção não é imediata: o organismo leva em torno de dez dias para desenvolver a resposta imune. Uma viagem marcada para a próxima semana pede uma conversa rápida com o serviço de saúde, porque ainda é possível se proteger, mas o ideal é antecipar.',
+        ],
+      },
+      {
+        id: 'quem-deve-tomar',
+        heading: 'Quem deve se vacinar',
+        paragraphs: [
+          'A vacina é indicada para quem mora ou viaja para áreas com recomendação de vacinação. No Brasil, essas áreas incluem boa parte das regiões Norte e Centro-Oeste e municípios de vários estados do Sudeste, do Sul e do Nordeste, sobretudo em regiões de mata e de transição. A lista é atualizada pelo Ministério da Saúde e deve ser consultada antes de fechar o roteiro.',
+          'A indicação não depende só do estado de destino, mas do tipo de viagem. Quem vai ficar em capital e não pretende entrar em área rural ou de mata tem risco menor do que quem faz trilha, visita cachoeira, acampa ou trabalha em campo. Esse detalhe muda a conversa no posto de saúde e deve ser dito com clareza.',
+          'Viagens internacionais para países da América do Sul e da África com transmissão também exigem avaliação. Alguns destinos pedem o Certificado Internacional de Vacinação ou Profilaxia na entrada, e o documento só é emitido depois da aplicação. O certificado vale para toda a vida e não precisa ser renovado.',
+        ],
+      },
+      {
+        id: 'dose-unica',
+        heading: 'Dose única, sem reforço a cada dez anos',
+        paragraphs: [
+          'Desde 2017, o Brasil adota o esquema de dose única para adultos. Antes, recomendava-se um reforço a cada dez anos, prática que foi abandonada depois que os estudos mostraram que uma aplicação garante imunidade duradoura, provavelmente por toda a vida.',
+          'Quem tomou a vacina há muitos anos, mesmo no esquema antigo, não precisa de nova dose para viajar. A exceção são as crianças: o calendário brasileiro prevê a primeira dose aos 9 meses e uma dose de reforço aos 4 anos. Quem não consegue comprovar o histórico deve ser avaliado no serviço de saúde.',
+          'Para quem tem apenas uma dose registrada na caderneta, a orientação atual é considerar o esquema completo. Não é preciso repetir a aplicação a cada viagem nem fazer exames para medir anticorpos antes de embarcar.',
+        ],
+      },
+      {
+        id: 'quem-nao-pode-tomar',
+        heading: 'Quem não pode tomar a vacina',
+        paragraphs: [
+          'A vacina é feita com vírus vivo atenuado, e por isso tem contraindicações bem definidas. Não deve ser aplicada em crianças menores de 9 meses, em pessoas com alergia grave à proteína do ovo, em quem tem alterações do timo e em pessoas com imunossupressão importante, como quem faz quimioterapia, usa doses altas de corticoide ou tem HIV com imunidade comprometida.',
+          'Gestantes e mulheres que amamentam bebês menores de 6 meses devem conversar com o serviço de saúde antes de qualquer aplicação. Na maioria das situações, a vacina é adiada, e a viagem é reorganizada ou o risco é reduzido com outras medidas. A decisão é individual e considera o risco real de exposição.',
+          'Quem está com febre alta ou doença aguda deve esperar a melhora para se vacinar. Já quem doou sangue precisa respeitar um intervalo de 28 dias após a aplicação, orientação que também vale para quem precisa doar com urgência.',
+        ],
+      },
+      {
+        id: 'efeitos-colaterais',
+        heading: 'Reações esperadas e eventos raros',
+        paragraphs: [
+          'A maioria das pessoas não sente nada além de uma dor local. Quando aparecem reações, as mais comuns são febre baixa, dor de cabeça e dor no corpo, que costumam surgir entre o quinto e o décimo segundo dia depois da aplicação e passam sozinhas em um ou dois dias.',
+          'Eventos graves são raros e ocorrem sobretudo em idosos, em pessoas com imunossupressão não identificada e em quem nunca teve contato com o vírus. Reações alérgicas imediatas existem, e por isso a aplicação é feita em local preparado para atendimento. O risco, ainda assim, é muito menor do que o de adoecer em uma área de transmissão.',
+          'Quem apresenta febre alta que não cede, inchaço no rosto, dificuldade para respirar ou urticária depois da aplicação deve procurar atendimento. Reações leves podem ser tratadas com antitérmicos comuns, mas qualquer sintoma incomum nas primeiras horas ou nos dias seguintes merece avaliação, sobretudo em idosos.',
+        ],
+      },
+      {
+        id: 'protecao-alem-da-vacina',
+        heading: 'O que fazer além da vacina',
+        paragraphs: [
+          'Quem está na área de risco deve usar repelente nas partes expostas, repetindo a aplicação conforme o produto, e preferir roupas de manga longa e calça comprida, principalmente no fim da tarde, quando os mosquitos ficam mais ativos. Telas nas janelas e mosquiteiros ajudam em hospedagens rústicas.',
+          'Vale aproveitar a consulta para revisar outras vacinas da viagem, como hepatite A, febre tifoide e tríplice viral, e para checar se o destino tem exigência de certificado. Levar a caderneta e anotar as datas evita perrengue no aeroporto e facilita a decisão em caso de exposição.',
+          'Antes de embarcar, também vale saber onde fica o serviço de saúde mais próximo do lugar em que você vai ficar e como chegar até ele. Febre alta nos dias seguintes à volta da viagem deve ser motivo de consulta, com a informação do roteiro e das áreas visitadas.',
+        ],
+        cta: {
+          label: 'Veja os sintomas e sinais de alerta da febre amarela',
+          href: '/doencas/febre-amarela/',
+        },
+      },
+    ],
+    diseaseSlugs: ['febre-amarela'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['febre-amarela-forma-grave-sinais-de-alarme'],
+    references: [
+      {
+        label: 'Febre amarela',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-amarela',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Yellow fever',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/yellow-fever',
+        publisher: 'World Health Organization (WHO)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'febre-amarela-forma-grave-sinais-de-alarme',
+    slug: 'febre-amarela-forma-grave-sinais-de-alarme',
+    title: 'Febre amarela: como reconhecer a forma grave a tempo',
+    excerpt:
+      'A doença começa como uma gripe e melhora em poucos dias para a maioria das pessoas. Cerca de 15% pioram de repente, e é nesse momento que a rapidez do atendimento decide o desfecho.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-comeca',
+        heading: 'Um início parecido com outras viroses',
+        paragraphs: [
+          'O período de incubação varia de três a seis dias. Depois disso, a febre amarela começa de forma abrupta, com febre alta, calafrios, dor de cabeça intensa, dores musculares, náusea e falta de apetite. A pessoa fica prostrada e, muitas vezes, com batimentos lentos para o quanto está febril.',
+          'Nessa fase, nada diferencia a doença de tantas outras viroses comuns. Nem sempre há icterícia, e a pele amarelada costuma aparecer só mais tarde. Por isso o histórico de viagem ou de residência em área de transmissão é a informação que muda a suspeita e deve ser dita ao profissional de saúde.',
+          'Em áreas com transmissão, qualquer febre alta sem causa clara nas duas semanas seguintes a uma viagem para mata ou zona rural merece investigação. O mesmo vale para quem mora perto de fragmentos de floresta ou trabalha em campo, mesmo sem ter saído da cidade.',
+        ],
+      },
+      {
+        id: 'a-melhora-que-engana',
+        heading: 'A melhora que engana',
+        paragraphs: [
+          'Entre o terceiro e o quarto dia, a maioria das pessoas começa a melhorar. A febre cede, o mal-estar diminui e o quadro parece caminhar para a recuperação. Esse é o desfecho da maioria das pessoas, que passam pela forma leve e se recuperam sem entrar na fase grave.',
+          'Em cerca de 15% das pessoas, porém, a melhora dura poucas horas e a doença volta com força, com febre alta de novo, icterícia, dor abdominal e vômitos. Essa fase costuma se instalar entre o terceiro e o sexto dia e progride rápido, às vezes em menos de 24 horas. Não é raro o paciente relatar que estava se sentindo bem pela manhã e piorar à noite.',
+          'Como não existe exame rápido que afaste a forma grave em casa, qualquer piora depois de uma melhora inicial merece avaliação imediata. Esse é o ponto em que a decisão de procurar o serviço de saúde muda o prognóstico.',
+        ],
+      },
+      {
+        id: 'sinais-de-alarme',
+        heading: 'Quais sinais indicam a forma grave',
+        paragraphs: [
+          'A pele e a parte branca dos olhos amareladas, a urina escura como café e o sangramento pela gengiva, pelo nariz ou no vômito são os sinais mais conhecidos. Dor abdominal intensa, vômitos persistentes, confusão, sonolência e a diminuição da quantidade de urina indicam comprometimento de órgãos.',
+          'Esses sinais não aparecem todos juntos nem seguem uma ordem fixa. Um deles já basta para buscar atendimento imediato. Em crianças e idosos, a piora pode ser mais discreta, com fraqueza e recusa alimentar antes dos sinais clássicos.',
+          'O quadro grave envolve falência do fígado e dos rins, hemorragias e choque. É por isso que qualquer pessoa com suspeita de febre amarela e sinais de gravidade precisa ser avaliada em serviço com capacidade de internação e suporte intensivo.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'Na primeira semana de sintomas, a biologia molecular detecta o material genético do vírus no sangue. Depois desse período, o teste mais útil é a pesquisa de anticorpos, porque o vírus já pode ter saído da circulação. Como a vacina recente pode interferir na sorologia, a data da última dose é uma informação importante.',
+          'O diagnóstico não pode atrasar o atendimento. Em áreas com transmissão, o paciente com febre alta, icterícia e sangramento deve ser tratado como caso grave desde a chegada, e a confirmação laboratorial serve para orientar a vigilância e as medidas de controle do mosquito.',
+          'A notificação é obrigatória no Brasil, e a equipe aciona a vigilância para investigar onde a infecção ocorreu. Essa informação orienta a vacinação de quem mora na mesma região e ajuda a bloquear novos casos.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'O tratamento é de suporte',
+        paragraphs: [
+          'Não há remédio que elimine o vírus. O atendimento inclui hidratação cuidadosa, controle da dor e da febre, correção dos distúrbios de coagulação e, nos casos mais graves, diálise e ventilação mecânica. O paciente fica internado, em geral em unidade de terapia intensiva.',
+          'Medicamentos como ácido acetilsalicílico, ibuprofeno e diclofenaco devem ser evitados, porque aumentam o risco de sangramento. Antitérmicos mais seguros são escolhidos pelo médico, que também avalia a necessidade de transfusão e de suporte para as funções do fígado e dos rins.',
+          'A recuperação dos sobreviventes costuma ser lenta, com cansaço e alterações dos exames que se normalizam ao longo de semanas. O acompanhamento depois da alta é parte do tratamento e serve para identificar sequelas.',
+        ],
+      },
+      {
+        id: 'diferenca-de-outras-febres',
+        heading: 'Por que não confundir com malária ou dengue',
+        paragraphs: [
+          'Malária, dengue, leptospirose e hepatites virais também causam febre depois de uma viagem para área rural ou de mata, e todas podem ser graves. A malária costuma vir com calafrios e sudorese em ciclos, enquanto a dengue traz dor atrás dos olhos e manchas na pele. Nenhuma dessas pistas, porém, substitui a avaliação profissional.',
+          'O ponto prático é não esperar o quadro se definir sozinho. Informar o roteiro, o tipo de exposição e a data da vacina da febre amarela permite que a equipe peça os exames certos e comece o tratamento específico de cada doença sem atraso.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como não chegar a esse ponto',
+        paragraphs: [
+          'A vacina continua sendo a forma mais segura de evitar a doença. Quem mora ou vai viajar para áreas de transmissão deve se vacinar com antecedência e manter repelente, roupas compridas e cuidados com o ambiente em que dorme.',
+          'Quem apresenta febre alta depois de voltar de uma área de risco deve informar a viagem no primeiro atendimento, mesmo que o quadro pareça leve. Esse detalhe permite que a equipe investigue febre amarela, malária e outras doenças febris transmitidas por mosquitos de forma mais rápida.',
+          'Reduzir os criadouros do mosquito nas cidades não impede a transmissão silvestre, que depende de mosquitos que vivem na mata, mas ajuda no controle de outras arboviroses. Em áreas de risco, o cuidado com o corpo e com o ambiente em que se dorme continua valendo.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre febre amarela',
+          href: '/doencas/febre-amarela/',
+        },
+      },
+    ],
+    diseaseSlugs: ['febre-amarela'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['febre-amarela-vacina-para-quem-vai-viajar'],
+    references: [
+      {
+        label: 'Febre amarela',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-amarela',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Yellow fever',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/yellow-fever',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'varicela-crianca-pode-voltar-a-escola',
+    slug: 'varicela-crianca-pode-voltar-a-escola',
+    title: 'Catapora: quando a criança pode voltar à escola?',
+    excerpt:
+      'Sete dias de afastamento a partir do início das manchas e retorno só quando todas as lesões viram crosta. Entenda como contar os dias e o que fazer se a escola pedir atestado.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'quando-comeca-a-transmitir',
+        heading: 'A criança transmite antes de aparecer a bolha',
+        paragraphs: [
+          'A catapora começa a ser transmitida um a dois dias antes do aparecimento das bolhas, quando ainda parece um resfriado com febre baixa. Nesse momento a criança continua indo à escola e brincando com os colegas, o que explica por que os surtos se espalham tão rápido em creches e escolas.',
+          'Entre crianças sem imunidade que convivem com um caso, a transmissão chega a 90%. O vírus passa pelo contato com o líquido das bolhas, pela saliva e pelas gotículas de tosse e espirro, e também por objetos contaminados, como toalhas e brinquedos.',
+          'A transmissão só termina quando todas as lesões estão em fase de crosta, o que costuma levar de uma a duas semanas. É por isso que a data de retorno não deve ser calculada pela melhora da febre, e sim pelo estado da pele.',
+        ],
+      },
+      {
+        id: 'por-que-sete-dias',
+        heading: 'Por que o afastamento é de sete dias',
+        paragraphs: [
+          'O Ministério da Saúde orienta afastar a criança da creche ou da escola por sete dias a partir do início das manchas, e liberar o retorno apenas quando todas as lesões estiverem em crosta. O prazo tem uma lógica prática: reduzir a circulação do vírus no período de maior eliminação.',
+          'Sete dias é o mínimo, não uma autorização automática. Se a criança ainda tem bolhas abertas no oitavo dia, ela continua transmitindo e deve permanecer em casa. Quem confirma essa condição é o serviço de saúde que acompanha o caso, e não a data no calendário. Por isso a checagem da pele antes de sair de casa vale mais do que qualquer estimativa.',
+          'Adultos devem seguir a mesma lógica. Quem está com catapora precisa evitar o trabalho e locais públicos durante o período de transmissão, sobretudo se convive com gestantes, bebês ou pessoas com imunidade baixa.',
+        ],
+      },
+      {
+        id: 'como-contar-os-dias',
+        heading: 'Como contar os dias na prática',
+        paragraphs: [
+          'O primeiro dia é o dia em que as primeiras manchas ou bolhas apareceram, mesmo que tenham sido poucas. Não conta a febre, nem o dia em que a criança começou a passar mal, porque as lesões podem surgir dois dias depois desses primeiros sintomas.',
+          'Se as manchas apareceram em uma segunda-feira, o sétimo dia cai no domingo seguinte. A volta às aulas depende, porém, do estado das lesões nessa data. Vale fotografar as lesões a cada dois dias para acompanhar a evolução e mostrar ao serviço de saúde se houver dúvida.',
+          'Quando a contagem não fecha, o melhor caminho é levar a criança à unidade básica de saúde para que um profissional avalie as lesões. Essa conferência evita tanto a volta precoce, que mantém o vírus circulando, quanto o afastamento desnecessário, que atrapalha a rotina da família.',
+        ],
+      },
+      {
+        id: 'escola-e-atestado',
+        heading: 'O que combinar com a escola',
+        paragraphs: [
+          'Avisar a escola assim que o diagnóstico for feito ajuda a instituição a observar outras crianças e a reforçar a limpeza de brinquedos e superfícies. Muitas escolas pedem atestado médico para registrar a ausência e liberar o retorno, e o documento costuma indicar a data de início das lesões.',
+          'Se houver casos na mesma turma, a escola pode acionar a vigilância sanitária. Em situações de surto, a vacinação pós-exposição pode ser indicada para crianças suscetíveis, desde que dentro do prazo definido pelo serviço de saúde.',
+          'Também vale combinar quem vai buscar a criança na saída e como as tarefas serão enviadas durante o afastamento. Manter o contato com a escola evita que a volta vire um recomeço difícil, sobretudo nas turmas de educação infantil.',
+        ],
+      },
+      {
+        id: 'risco-para-gestantes-e-bebes',
+        heading: 'O risco para gestantes e bebês',
+        paragraphs: [
+          'A catapora é mais grave em gestantes, recém-nascidos e pessoas com imunidade baixa. Uma criança em fase de transmissão não deve visitar uma casa com bebê recém-nascido nem conviver com gestante suscetível, mesmo que esteja se sentindo bem.',
+          'Gestantes sem histórico de catapora nem de vacina devem informar o contato ao pré-natal. O serviço de saúde avalia a necessidade de imunoglobulina específica e de acompanhamento, porque a doença no fim da gestação e no período neonatal pode evoluir de forma grave.',
+          'Quem já teve catapora ou tem o esquema de vacina completo tem proteção para a varicela e pode conviver com a criança sem risco de adoecer, embora ainda possa desenvolver herpes-zóster mais tarde, pela reativação do vírus que ficou no corpo.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados durante o afastamento',
+        paragraphs: [
+          'Corte as unhas e mantenha as mãos limpas, porque a coceira intensa leva a criança a coçar e a abrir as lesões, o que favorece infecção bacteriana e cicatrizes. Não estoure as bolhas nem retire as crostas. Banho com água morna e sabão neutro e compressas frias aliviam o desconforto.',
+          'Ofereça líquidos com frequência e refeições leves, principalmente se houver bolhas na boca. Para febre e dor, use apenas o que o médico ou o farmacêutico indicarem: o ácido acetilsalicílico é contraindicado pelo risco de síndrome de Reye.',
+          'Procure atendimento se aparecer febre que volta depois de dias de melhora, lesões muito vermelhas, dor intensa, dificuldade para respirar ou sonolência excessiva. Esses sinais podem indicar infecção bacteriana secundária ou complicações, como pneumonia e encefalite, e justificam uma consulta no mesmo dia.',
+        ],
+      },
+      {
+        id: 'vacinacao',
+        heading: 'Como evitar o próximo episódio',
+        paragraphs: [
+          'A vacina está no calendário aos 15 meses e aos 4 anos, e é a forma mais eficaz de prevenir formas graves. Crianças vacinadas que ainda adoecem costumam ter poucas lesões e quadro mais leve, o que reduz também a transmissão na escola.',
+          'Quem nunca teve catapora nem foi vacinado pode se infectar em qualquer idade, e a doença tende a ser mais intensa em adolescentes e adultos. Conferir a caderneta na unidade básica de saúde é gratuito e resolve a dúvida antes do próximo surto.',
+          'Em surtos em creches e escolas, a vacinação pós-exposição pode ser indicada para crianças suscetíveis, quando aplicada dentro do prazo definido pelo serviço de saúde. A medida não substitui o afastamento de quem já está doente.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre catapora',
+          href: '/doencas/varicela/',
+        },
+      },
+    ],
+    diseaseSlugs: ['varicela'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: ['varicela-em-adultos-e-gestantes'],
+    references: [
+      {
+        label: 'Catapora (varicela)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/v/varicela-catapora',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chickenpox',
+        url: 'https://www.cdc.gov/chickenpox/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'varicela-em-adultos-e-gestantes',
+    slug: 'varicela-em-adultos-e-gestantes',
+    title: 'Catapora em adultos e gestantes: por que o risco é maior',
+    excerpt:
+      'Em adultos, a catapora costuma ser mais intensa e com mais complicações. Na gestação e no período neonatal, qualquer suspeita precisa de avaliação no mesmo dia.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-e-mais-grave',
+        heading: 'Por que a doença pesa mais no adulto',
+        paragraphs: [
+          'Em crianças saudáveis, a catapora costuma se resolver em uma a duas semanas, com poucas complicações. Em adolescentes, adultos e pessoas com imunidade baixa, o quadro tende a ser mais intenso, com febre mais alta, mais lesões e recuperação mais lenta.',
+          'A complicação mais temida é a pneumonia, que aparece com mais frequência em adultos, gestantes e fumantes. Ela pode se instalar enquanto as lesões ainda estão surgindo, com tosse, falta de ar e febre que não cede, e exige avaliação imediata.',
+          'Infecção bacteriana das lesões, encefalite, ataxia cerebelar e otite média também ocorrem. Como as lesões ficam em regiões visíveis e coçam muito, a higiene das mãos e a resistência a estourar as bolhas fazem diferença real na prevenção dessas complicações, que são mais frequentes quando a pele é manipulada.',
+        ],
+      },
+      {
+        id: 'sintomas-no-adulto',
+        heading: 'Os sintomas costumam começar antes das bolhas',
+        paragraphs: [
+          'No adulto, os sintomas iniciais são mais marcados do que na criança. Febre alta, dor de cabeça, mal-estar e dores no corpo podem aparecer dois dias antes das lesões, e muita gente confunde com gripe. As bolhas surgem depois, em ondas, com coceira intensa.',
+          'O período de transmissão começa um a dois dias antes das bolhas e vai até todas as lesões virarem crosta, o que costuma levar de uma a duas semanas. Durante esse intervalo, o adulto deve evitar trabalho presencial e contato com gestantes, bebês e pessoas imunossuprimidas.',
+          'A febre costuma durar de dois a três dias, mas a queda de energia e a falta de apetite podem se arrastar por mais tempo. Como a doença em adulto tem mais chance de complicar, vale procurar avaliação já nas primeiras lesões, sobretudo se houver tosse ou falta de ar.',
+        ],
+      },
+      {
+        id: 'gestacao',
+        heading: 'Catapora na gestação',
+        paragraphs: [
+          'A catapora na gestação preocupa por dois motivos: a doença pode ser mais grave para a mãe e pode atingir o bebê. Quando ocorre no fim da gestação e no período neonatal, o risco de forma grave é maior, e o recém-nascido precisa de acompanhamento desde o nascimento.',
+          'A gestante deve procurar o serviço de saúde assim que houver suspeita, sem esperar a próxima consulta de pré-natal. A equipe avalia a necessidade de antiviral e de imunoglobulina específica, além de definir o acompanhamento e o local do parto.',
+          'A vacina é de vírus vivo e não pode ser aplicada durante a gestação. A orientação é vacinar depois do parto, o que protege a mulher em gestações futuras e reduz o risco de transmissão para o bebê. Esse lembrete deve estar no cartão de pré-natal, porque a alta hospitalar é o momento mais fácil de resolver a pendência.',
+        ],
+      },
+      {
+        id: 'recem-nascido',
+        heading: 'O recém-nascido e o bebê pequeno',
+        paragraphs: [
+          'A varicela neonatal é uma forma grave da doença. Bebês cuja mãe teve catapora nos dias anteriores ou posteriores ao parto precisam de avaliação e, muitas vezes, de tratamento hospitalar com imunoglobulina e antiviral, mesmo que pareçam bem nas primeiras horas.',
+          'Em casa, qualquer bebê com catapora deve ser acompanhado de perto, com atenção à alimentação, à hidratação e ao estado de alerta. Febre, recusa alimentar, gemido, sonolência ou lesões que se espalham rápido são motivos para buscar atendimento.',
+          'Como o bebê não consegue dizer que está com coceira, a irritabilidade e o choro durante a mamada podem ser os únicos sinais. Manter as unhas curtas e usar luvas de algodão durante o sono ajuda a evitar que ele abra as lesões.',
+        ],
+      },
+      {
+        id: 'imunossuprimidos',
+        heading: 'Quem tem imunidade baixa',
+        paragraphs: [
+          'Pessoas em quimioterapia, transplantados, quem usa doses altas de corticoide e pessoas vivendo com HIV com imunidade comprometida têm risco maior de catapora grave, com pneumonia, encefalite e infecção disseminada. A avaliação deve ser feita rapidamente após o contato ou o início dos sintomas.',
+          'Nesses casos, o antiviral pode ser indicado mesmo antes do aparecimento das lesões, como prevenção depois de um contato comprovado. A decisão é sempre do serviço de saúde, porque depende do tipo de imunossupressão e do tempo de exposição.',
+          'Quem convive com pessoa imunossuprimida deve avisar o serviço de saúde assim que aparecer catapora em casa. Em alguns casos, a equipe orienta afastar o doente do convívio e acompanhar os contatos por algumas semanas.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Quando o antiviral é necessário',
+        paragraphs: [
+          'Em crianças saudáveis, o tratamento é de suporte, com hidratação, controle da febre e cuidado com a pele. O antiviral não é indicado para todos: ele é reservado a grupos com risco de forma grave, como adultos, gestantes, recém-nascidos e pessoas imunossuprimidas, sempre com prescrição médica.',
+          'Antibiótico não trata catapora e só entra quando há infecção bacteriana secundária, identificada por lesões muito inflamadas, dor intensa, pus ou febre que retorna. Quem precisa de internação são os casos com pneumonia, encefalite ou dificuldade para manter a hidratação.',
+          'O antiviral funciona melhor quando começa cedo, por isso a avaliação não deve esperar o quadro piorar. Em casa, o foco é manter a hidratação, controlar a coceira e observar sinais que indiquem complicação.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como se proteger antes do contato',
+        paragraphs: [
+          'Quem nunca teve catapora nem foi vacinado e convive com risco de exposição deve conversar com o serviço de saúde sobre a vacina. Ela é contraindicada na gestação e em pessoas com imunossupressão grave, situações em que a proteção depende de evitar o contato.',
+          'Em casa, separar copos, toalhas e roupas de cama, lavar as mãos com frequência e ventilar os ambientes reduz a transmissão. Gestantes e pessoas imunossuprimidas não devem visitar uma casa onde há alguém com catapora em fase de transmissão.',
+          'Quem já teve a doença não precisa se preocupar com novo episódio de varicela, mas continua sujeito ao herpes-zóster, que pode ser transmitido a quem nunca teve catapora por contato com as bolhas. Nesse caso, as mesmas regras de afastamento se aplicam.',
+        ],
+        cta: {
+          label: 'Veja como afastar a criança da escola com segurança',
+          href: '/doencas/varicela/',
+        },
+      },
+    ],
+    diseaseSlugs: ['varicela'],
+    topicSlugs: ['doencas-infecciosas', 'saude-da-mulher'],
+    relatedArticleSlugs: ['varicela-crianca-pode-voltar-a-escola'],
+    references: [
+      {
+        label: 'Catapora (varicela)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/v/varicela-catapora',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chickenpox',
+        url: 'https://www.cdc.gov/chickenpox/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'sarampo-sintomas-e-manchas-como-reconhecer',
+    slug: 'sarampo-sintomas-e-manchas-como-reconhecer',
+    title: 'Sarampo: como reconhecer os sintomas e as manchas',
+    excerpt:
+      'Febre alta, tosse, coriza e olhos vermelhos antes das manchas que descem do rosto para o corpo. Reconhecer essa sequência ajuda a procurar atendimento no tempo certo.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-comeco-parece-gripe',
+        heading: 'O começo parece uma gripe forte',
+        paragraphs: [
+          'O sarampo começa como uma gripe intensa. Depois de um período de incubação de 7 a 14 dias, surgem febre alta, tosse seca, coriza, olhos vermelhos e lacrimejando, mal-estar e falta de apetite. A febre costuma passar de 38,5 °C e não cede com facilidade. Diferente do resfriado, não há coriza aquosa leve nem melhora rápida em dois ou três dias, e a pessoa fica abatida por mais tempo.',
+          'Essa fase inicial dura em média três a quatro dias e é justamente quando a pessoa mais transmite o vírus. Como os sintomas são comuns a várias viroses, é fácil tratar como resfriado e continuar circulando, o que mantém a transmissão em escolas, ônibus e salas de espera.',
+          'A conjuntivite do sarampo chama atenção pela intensidade: os olhos ficam vermelhos, lacrimejam e incomodam com a luz. Junto com a tosse e a coriza, ela forma o conjunto que os profissionais de saúde chamam de pródromo e que já permite levantar a suspeita.',
+        ],
+      },
+      {
+        id: 'manchas-de-koplik',
+        heading: 'As manchas brancas dentro da boca',
+        paragraphs: [
+          'Um a dois dias antes das manchas na pele podem aparecer pequenos pontos brancos na parte interna das bochechas, as manchas de Koplik. Elas somem rápido e nem sempre são vistas, mas quando identificadas confirmam a suspeita clínica antes do exantema.',
+          'Como ficam dentro da boca, passam despercebidas na maioria dos casos. Não é preciso procurar por elas em casa. A informação serve para entender por que uma consulta detalhada, com exame da boca, ajuda a diferenciar o sarampo de outras doenças febris.',
+          'As manchas de Koplik são mais um indício do que uma prova. Quando o profissional as encontra em alguém com febre, tosse e conjuntivite, a probabilidade de sarampo aumenta muito, e a investigação laboratorial segue o fluxo da vigilância.',
+        ],
+      },
+      {
+        id: 'como-as-manchas-descem',
+        heading: 'As manchas descem pelo corpo',
+        paragraphs: [
+          'O exantema do sarampo tem uma ordem característica: começa atrás das orelhas e no rosto, desce para o tronco e depois para os braços e as pernas. As manchas são vermelhas, irregulares e ficam próximas umas das outras, formando áreas confluentes no rosto e no tronco.',
+          'Junto com as manchas, a febre costuma subir de novo. Esse é um ponto que confunde as famílias, que esperam melhora quando a pele fica marcada. No sarampo, a piora da febre nesse momento é esperada e faz parte da evolução.',
+          'A pele descama de forma fina e clara depois que as manchas desaparecem, em alguns dias. O desaparecimento completo não significa que o período de transmissão acabou: ele vai até quatro dias depois do início do exantema.',
+        ],
+      },
+      {
+        id: 'quando-a-febre-volta',
+        heading: 'Quando a febre voltar a subir, o que observar',
+        paragraphs: [
+          'Febre que sobe junto com as manchas é esperada. O que não é esperado é febre que retorna depois de dias de melhora, dor no peito, falta de ar ou sonolência excessiva, porque esses sinais apontam para complicações como pneumonia, otite e encefalite.',
+          'Crianças pequenas, gestantes e pessoas com imunidade baixa precisam de observação mais atenta, porque evoluem com mais frequência para quadros graves. Em crianças, a recusa de líquidos e a diminuição da urina são sinais de alerta que aparecem antes de outros.',
+          'Vale anotar as datas de início da febre e das manchas. Essas informações ajudam o profissional a entender em que fase a doença está e quando o período de transmissão termina, o que define o afastamento e o acompanhamento dos contatos.',
+        ],
+      },
+      {
+        id: 'sinais-de-alarme',
+        heading: 'Sinais que exigem atendimento imediato',
+        paragraphs: [
+          'Falta de ar, respiração rápida, chiado no peito, sonolência excessiva, confusão, convulsão, rigidez de nuca e vômitos persistentes exigem atendimento imediato. Esses sinais podem indicar pneumonia, encefalite ou desidratação, complicações que aparecem no curso do sarampo.',
+          'A avaliação deve ser feita no mesmo dia, mesmo que a pessoa pareça bem no momento da ligação. Quem está com sarampo e convive com gestantes, bebês ou pessoas imunossuprimidas deve avisar o serviço de saúde para que os contatos sejam acompanhados.',
+          'Como a doença pode piorar rápido, quem mora longe de um serviço de saúde deve se organizar para não depender de transporte improvisado em uma emergência. O plano vale também para famílias com crianças pequenas, porque a piora pode acontecer à noite e exigir deslocamento rápido.',
+        ],
+      },
+      {
+        id: 'o-que-diferenciar',
+        heading: 'O que parece sarampo e não é',
+        paragraphs: [
+          'Rubéola, exantema súbito, dengue, escarlatina e alergias a medicamentos também causam febre com manchas. Na rubéola, as manchas são mais claras e os gânglios do pescoço ficam aumentados. No exantema súbito, a febre desaparece justamente quando a erupção aparece.',
+          'A tosse intensa, a conjuntivite e a direção em que as manchas se espalham são as pistas mais úteis. Como o sarampo exige isolamento e notificação, a dúvida deve ser resolvida por um profissional, e não pela comparação de fotos na internet.',
+          'Mesmo dentro de uma epidemia, nem toda febre com manchas é sarampo. A avaliação profissional permite confirmar o diagnóstico, notificar o caso e orientar as medidas de isolamento e vacinação dos contatos.',
+        ],
+      },
+      {
+        id: 'o-que-fazer',
+        heading: 'O que fazer ao suspeitar',
+        paragraphs: [
+          'Procure a unidade de saúde e informe se houve contato com alguém com sarampo ou viagem para área com circulação do vírus. Leve a caderneta de vacinação, porque o histórico de doses ajuda na investigação e na decisão sobre os contatos. Se não tiver o registro em mãos, informe o que lembra e onde se vacinou.',
+          'Enquanto o diagnóstico não é definido, evite visitas e mantenha distância de gestantes, bebês e pessoas com imunidade baixa. Hidrate-se com frequência e evite ácido acetilsalicílico em crianças e adolescentes, pelo risco de síndrome de Reye.',
+          'Não é preciso esperar o resultado dos exames para começar os cuidados em casa: repouso, líquidos e controle da febre são o que alivia o desconforto nesse período, e a vigilância dos sinais de alerta é o que garante segurança.',
+        ],
+        cta: {
+          label: 'Veja os sinais de alerta do sarampo',
+          href: '/doencas/sarampo/',
+        },
+      },
+    ],
+    diseaseSlugs: ['sarampo'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: ['sarampo-vacina-e-bloqueio-em-surtos'],
+    references: [
+      {
+        label: 'Sarampo',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sarampo',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Measles',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/measles',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'sarampo-vacina-e-bloqueio-em-surtos',
+    slug: 'sarampo-vacina-e-bloqueio-em-surtos',
+    title: 'Vacina do sarampo: duas doses e o bloqueio em surtos',
+    excerpt:
+      'Duas doses no calendário, vacinação até os 59 anos e uma dose extra para bebês de 6 a 11 meses durante surtos. Entenda como funciona o bloqueio vacinal.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-a-vacina-decide',
+        heading: 'Por que a vacina decide o controle da doença',
+        paragraphs: [
+          'O sarampo é uma das doenças mais transmissíveis que existem. Em uma população sem imunidade, uma pessoa doente pode infectar até 18 outras, e o vírus permanece ativo no ar por até duas horas. Sem vacinação, o controle depende apenas de isolamento, o que chega tarde demais na maioria dos casos e deixa escolas e serviços de saúde vulneráveis a surtos sucessivos.',
+          'A vacina é de vírus vivo atenuado e induz uma resposta imune potente. Duas doses garantem proteção para quase todas as pessoas vacinadas, e é essa cobertura alta que interrompe a circulação do vírus em um território.',
+          'Quando a cobertura cai, a doença volta. Foi o que aconteceu no Brasil, que perdeu o certificado de eliminação em 2019 e o recuperou em novembro de 2024, depois de um trabalho de intensificação da vacinação e de vigilância de casos.',
+        ],
+      },
+      {
+        id: 'duas-doses',
+        heading: 'As duas doses do calendário',
+        paragraphs: [
+          'A primeira dose da vacina tríplice viral é aplicada aos 12 meses, e a segunda aos 15 meses, quando pode ser usada a tetraviral, que também protege contra varicela. Quem não tem registro do esquema completo pode se vacinar até os 59 anos.',
+          'Vale conferir a caderneta: quem tem apenas uma dose deve completar o esquema, e quem não tem registro deve se vacinar. Quem já completou as duas doses não precisa repetir a aplicação a cada viagem.',
+          'Profissionais de saúde têm indicação independentemente da idade e devem manter o esquema em dia, porque o contato com casos suspeitos é frequente no atendimento.',
+        ],
+      },
+      {
+        id: 'quem-pode-tomar',
+        heading: 'Quem pode tomar a vacina',
+        paragraphs: [
+          'A vacina é indicada para crianças a partir de 12 meses, adolescentes e adultos até 59 anos sem comprovação de duas doses. Também é usada em bloqueio de surtos e em pessoas que vão viajar para áreas com circulação do vírus.',
+          'A aplicação é gratuita nos postos de saúde e pode ser feita junto com outras vacinas do calendário. Quem tem febre alta ou doença aguda deve adiar a vacinação até melhorar, para não confundir os sintomas com reações da vacina.',
+          'Quem perdeu a caderneta não precisa recomeçar o esquema do zero. O serviço de saúde avalia o histórico disponível, e a orientação em geral é completar as duas doses quando não há comprovação do esquema completo.',
+        ],
+      },
+      {
+        id: 'quem-nao-pode',
+        heading: 'Quem não pode tomar',
+        paragraphs: [
+          'Gestantes não podem receber a vacina, porque ela é de vírus vivo. A orientação é vacinar depois do parto, de preferência ainda no hospital, para proteger a mãe e reduzir o risco em gestações futuras. Quem amamenta pode se vacinar sem restrição.',
+          'Pessoas com imunossupressão grave, como quem faz quimioterapia, usa doses altas de corticoide ou tem HIV com imunidade comprometida, precisam de avaliação individual. Alergia grave a componentes da vacina também é contraindicação e deve ser discutida com o serviço de saúde.',
+          'Essas restrições não são um detalhe burocrático: elas evitam complicações em quem tem defesas baixas. Para esses grupos, a proteção vem da vacinação das pessoas ao redor, que reduz a circulação do vírus na comunidade.',
+        ],
+      },
+      {
+        id: 'bloqueio-em-surto',
+        heading: 'Como funciona o bloqueio vacinal',
+        paragraphs: [
+          'Quando um caso é confirmado, a vigilância investiga quem conviveu com a pessoa doente no período de transmissão e verifica a situação vacinal de cada contato. Quem não tem o esquema completo é vacinado o quanto antes, dentro do prazo definido pela vigilância para o bloqueio. A lista de contatos inclui colegas de sala, moradores da mesma casa e profissionais que atenderam o paciente sem proteção adequada.',
+          'O bloqueio não impede a doença em quem já está incubando o vírus, mas reduz a chance de novos casos na mesma comunidade. Por isso a rapidez da notificação importa tanto: quanto antes o caso é comunicado, mais gente é alcançada pela vacina em tempo útil.',
+          'A vacinação de bloqueio é feita em unidades de saúde, escolas e outros pontos definidos pela vigilância, escolhidos conforme a rotina dos contatos para que ninguém precise se deslocar longe da própria casa. Quem recebe a dose no bloqueio deve guardar o registro, porque ele passa a fazer parte do histórico vacinal e evita doses repetidas sem necessidade.',
+        ],
+      },
+      {
+        id: 'bebe-de-seis-meses',
+        heading: 'A dose extra para bebês de 6 a 11 meses',
+        paragraphs: [
+          'Em situações de surto ou de viagem para área com circulação do vírus, a vigilância pode indicar uma dose extra para crianças de 6 a 11 meses. Essa dose protege o bebê em um momento de risco, mas não substitui as doses do calendário, que continuam aos 12 e aos 15 meses.',
+          'A decisão não é automática e depende da avaliação do serviço de saúde, que considera o risco de exposição e as contraindicações. Quem recebeu a dose extra deve manter o registro para que o esquema seja completado nas idades corretas.',
+          'Essa dose é uma exceção temporária, pensada para proteger bebês em situações de maior risco. Fora desses cenários, a recomendação continua sendo esperar 12 meses para a primeira dose do calendário.',
+        ],
+      },
+      {
+        id: 'eliminacao',
+        heading: 'O que significa ser um país livre do sarampo',
+        paragraphs: [
+          'A certificação de eliminação significa que o vírus não circula de forma sustentada no território, e não que a doença desapareceu do mundo. Casos importados continuam chegando, e um único caso pode gerar um surto se a cobertura vacinal estiver baixa. A vigilância precisa identificar rapidamente cada caso suspeito para interromper a cadeia de transmissão.',
+          'Manter o certificado depende de vacinação constante, vigilância rápida e investigação de cada caso suspeito. Para quem viaja, isso também significa conferir a caderneta antes de embarcar e, se necessário, adiantar a segunda dose conforme orientação do serviço de saúde.',
+          'A eliminação é, portanto, um resultado que precisa ser sustentado todos os anos. Cobertura vacinal alta e investigação de cada caso suspeito são o que impedem que um caso importado se transforme em transmissão local.',
+        ],
+        cta: {
+          label: 'Veja a página completa sobre sarampo',
+          href: '/doencas/sarampo/',
+        },
+      },
+    ],
+    diseaseSlugs: ['sarampo'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['sarampo-sintomas-e-manchas-como-reconhecer'],
+    references: [
+      {
+        label: 'Sarampo',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sarampo',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'PAHO re-verifies Brazil as a measles-free country',
+        url: 'https://www.paho.org/en/news/12-11-2024-paho-re-verifies-brazil-measles-free-country',
+        publisher: 'Pan American Health Organization (PAHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'tetano-ferimento-e-vacina-quando-procurar',
+    slug: 'tetano-ferimento-e-vacina-quando-procurar',
+    title: 'Tétano: ferimento, vacina e quando procurar atendimento',
+    excerpt:
+      'Um corte com terra ou um prego no pé podem abrir a porta para a bactéria do tétano. Entenda quais ferimentos exigem avaliação e como conferir o reforço da vacina.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'bacteria-do-solo',
+        heading: 'A bactéria vive no solo, não na pessoa',
+        paragraphs: [
+          'Tétano não passa de uma pessoa para outra. A bactéria Clostridium tetani vive no solo, na poeira e nas fezes de animais, e entra no corpo quando existe uma solução de continuidade na pele. O histórico que importa não é o contato com alguém doente, e sim o ferimento que a pessoa sofreu. Por isso, a primeira pergunta no atendimento costuma ser sobre o tipo de ferida, e não sobre convivência com outras pessoas.',
+          'Os esporos dessa bactéria resistem por anos no ambiente, inclusive em terrenos secos e ensolarados. Isso significa que qualquer terreno pode oferecer risco, e não apenas a lama ou o esgoto. Quintais, hortas, obras e terrenos baldios entram nessa lista.',
+          'Dentro de uma ferida sem oxigênio, o esporo se transforma na forma ativa e passa a produzir a toxina que atinge o sistema nervoso. Feridas profundas e com tecido morto criam exatamente esse ambiente, e é por isso que elas concentram o maior risco.',
+        ],
+      },
+      {
+        id: 'ferimentos-que-exigem-atencao',
+        heading: 'Quais ferimentos merecem atenção',
+        paragraphs: [
+          'Pisar em prego, cair sobre pedra, cortar o pé em vidro enterrado, sofrer mordida de animal, queimadura, unha encravada ou fratura exposta são situações que pedem avaliação. A profundidade e a sujeira contam mais do que o tamanho aparente do corte.',
+          'Ferimentos com terra, fezes, saliva animal ou tecido escuro têm risco maior. Objetos que penetram fundo, como pregos, farpas e espinhos, também preocupam porque levam a sujeira para camadas profundas, onde a limpeza feita em casa não alcança.',
+          'Nem todo arranhão precisa de atendimento, mas todo ferimento precisa de lavagem. A dificuldade está em reconhecer quando a lesão é mais séria do que parece, e essa avaliação cabe ao profissional de saúde, não a quem está em casa.',
+        ],
+      },
+      {
+        id: 'cuidados-imediatos',
+        heading: 'O que fazer com o ferimento em casa',
+        paragraphs: [
+          'Lave o local com água corrente e sabão por alguns minutos, retirando areia e sujeira visíveis. Se houver sangramento, pressione com pano limpo. Cobrir a área com gaze ajuda a protegê-la até a avaliação no serviço de saúde.',
+          'Não use álcool, água sanitária, pomadas caseiras, pó de café ou fumo dentro da ferida. Essas substâncias irritam o tecido, atrapalham a cicatrização e não eliminam os esporos. Também não tente retirar objetos profundos por conta própria.',
+          'Procure atendimento se o ferimento for profundo, se houver sujeira que não sai, se a pele estiver muito machucada, se o local ficar dormente ou se a pessoa não tiver a vacina em dia. Nessas situações, a avaliação muda a conduta.',
+        ],
+      },
+      {
+        id: 'ferimentos-na-rotina',
+        heading: 'Ferimentos comuns na rotina brasileira',
+        paragraphs: [
+          'Trabalho rural, construção civil, jardinagem e reformas em casa estão entre as atividades que mais produzem ferimentos com terra. Enxada, foice, arame farpado, pregos em madeira reaproveitada e telhas quebradas aparecem com frequência nos atendimentos de urgência.',
+          'Acidentes de moto e de bicicleta também merecem atenção, porque a queda em estrada de terra leva sujeira para dentro da lesão. Crianças que brincam descalças em quintal, praia ou terreno baldio podem se machucar em vidro, prego e espinho sem que a família perceba na hora.',
+          'Quem trabalha nessas atividades deve manter a vacina em dia como parte do cuidado com o próprio corpo, do mesmo jeito que usa luva e calçado fechado. A conferência do cartão pode ser feita em qualquer unidade básica de saúde, sem custo e sem precisar de encaminhamento.',
+        ],
+      },
+      {
+        id: 'vacina-no-atendimento',
+        heading: 'O que o atendimento costuma definir',
+        paragraphs: [
+          'No serviço de saúde, a equipe avalia o tipo de ferida e o histórico vacinal. Dependendo do caso, indica apenas a limpeza, aplica o reforço da vacina ou associa a imunoglobulina antitetânica, que neutraliza a toxina já presente. Nenhuma dessas medidas substitui a limpeza bem feita do ferimento.',
+          'A decisão depende de duas informações: a gravidade do ferimento e o número de doses que a pessoa já recebeu. Quem não lembra do histórico deve levar a caderneta ou informar onde se vacinou, porque o registro pode ser recuperado na unidade básica.',
+          'A limpeza cirúrgica é indicada quando existe tecido morto, sujeira profunda ou coleção de pus. Esse procedimento, feito no serviço de saúde, reduz a quantidade de bactérias no local e melhora a cicatrização.',
+        ],
+      },
+      {
+        id: 'reforco-cada-dez-anos',
+        heading: 'Por que o reforço é a cada dez anos',
+        paragraphs: [
+          'A vacina protege por tempo limitado, e a queda da imunidade é gradual. Por isso o calendário brasileiro prevê reforço da dupla adulto a cada dez anos, mesmo em quem completou o esquema na infância. A proteção diminui sem que a pessoa perceba.',
+          'Na infância, a proteção contra o tétano vem na pentavalente, aos 2, 4 e 6 meses, e nos reforços com a DTP aos 15 meses e aos 4 anos. A partir dos 14 anos, a dupla adulto entra no calendário e segue com reforços a cada dez anos.',
+          'Gestantes recebem a dTpa a partir da 20ª semana de cada gestação, o que protege a mãe e o bebê nos primeiros meses. Quem trabalha com terra, jardinagem, construção ou agropecuária deve conferir o reforço com mais frequência, porque a exposição a ferimentos é maior no dia a dia.',
+        ],
+      },
+      {
+        id: 'vacina-atrasada',
+        heading: 'Ferimento em quem está com a vacina atrasada',
+        paragraphs: [
+          'Atraso não significa que a pessoa esteja sem proteção. A equipe verifica quantas doses existem no registro e quando foi a última aplicação, e então define se basta o reforço ou se é necessário associar a imunoglobulina.',
+          'Em ferimentos de maior risco, a imunoglobulina é aplicada junto com a vacina, em locais diferentes do corpo. Ela oferece proteção imediata enquanto o organismo constrói a resposta própria, que leva alguns dias para se completar.',
+          'Quem nunca se vacinou deve iniciar o esquema, mesmo depois do ferimento. Ter tétano não garante imunidade futura, porque a quantidade de toxina produzida durante a doença não é suficiente para proteger contra novos episódios. O esquema completo leva três doses, com intervalos definidos pela equipe de saúde.',
+        ],
+        cta: {
+          label: 'Veja como o tétano é tratado',
+          href: '/doencas/tetano/',
+        },
+      },
+    ],
+    diseaseSlugs: ['tetano'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['tetano-sintomas-e-tratamento'],
+    references: [
+      {
+        label: 'Tétano acidental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tetano-acidental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Tetanus',
+        url: 'https://www.cdc.gov/tetanus/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'tetano-sintomas-e-tratamento',
+    slug: 'tetano-sintomas-e-tratamento',
+    title: 'Tétano: o sintoma que começa na mandíbula e o tratamento',
+    excerpt:
+      'A dificuldade para abrir a boca costuma ser o primeiro sinal, seguida de rigidez e espasmos dolorosos. Entenda por que o tétano exige internação e como é a recuperação.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'trismo-primeiro-sinal',
+        heading: 'A dificuldade para abrir a boca',
+        paragraphs: [
+          'O primeiro sinal costuma ser a dificuldade para abrir a boca, chamada de trismo. A pessoa percebe que não consegue mastigar direito e que a mandíbula está travada. O quadro surge entre 3 e 21 dias depois do ferimento, em média de 5 a 15 dias.',
+          'Quanto mais cedo os sintomas aparecem, mais grave tende a ser a doença. Isso acontece porque uma incubação curta indica que a toxina percorreu o caminho até o sistema nervoso rapidamente e em maior quantidade.',
+          'No início, o trismo pode ser confundido com problema dentário, disfunção da articulação da mandíbula ou estresse. A diferença é que ele não melhora com repouso e costuma vir acompanhado de rigidez no pescoço e desconforto para engolir. Quem tem esse sinal junto de um ferimento recente deve procurar atendimento sem esperar.',
+        ],
+      },
+      {
+        id: 'rigidez-e-espasmos',
+        heading: 'Rigidez, espasmos e a postura arqueada',
+        paragraphs: [
+          'Depois aparecem rigidez de nuca, contratura dos músculos do abdome e espasmos dolorosos. Os espasmos podem ser desencadeados por estímulos simples, como luz forte, ruído, toque ou uma tentativa de mudar de posição.',
+          'Em casos graves, o corpo se arqueia para trás, postura conhecida como opistótono. A pessoa permanece consciente durante as crises, o que torna o quadro angustiante tanto para ela quanto para a família. O espasmo pode ser tão intenso que impede a fala e a deglutição por alguns instantes.',
+          'Febre, suor intenso, pressão alta e batimentos acelerados podem acompanhar as crises. Quando os músculos da garganta e do tórax participam dos espasmos, a respiração fica comprometida e a obstrução da via aérea vira risco imediato.',
+        ],
+      },
+      {
+        id: 'por-que-e-urgencia',
+        heading: 'Por que é sempre uma emergência',
+        paragraphs: [
+          'Tétano é sempre uma emergência, mesmo quando os sintomas parecem leves no começo. A progressão pode ser rápida, e a única forma de reduzir o risco de morte é iniciar o tratamento hospitalar antes que os espasmos comprometam a respiração. Quem chega cedo tem mais chance de passar pela fase aguda sem precisar de suporte respiratório prolongado.',
+          'Quem tem ferimento recente e dificuldade para abrir a boca, rigidez no pescoço ou espasmos deve ir ao pronto atendimento imediatamente. Ligar para o serviço de saúde ajuda a organizar o transporte, mas não substitui a avaliação presencial.',
+          'Não espere febre alta ou espasmos fortes para procurar ajuda. Os sinais iniciais são discretos, e é justamente nesse momento que a internação consegue evitar as complicações mais graves. Anteceder a avaliação custa menos do que esperar a piora.',
+        ],
+      },
+      {
+        id: 'diagnostico-clinico',
+        heading: 'Não existe exame que confirme o tétano',
+        paragraphs: [
+          'O diagnóstico do tétano é clínico. Não existe exame de sangue, de imagem ou de líquor que confirme a doença, e as culturas raramente identificam a bactéria, porque ela fica em pequena quantidade na ferida e desaparece rápido do local. Quem chega ao serviço com os sintomas típicos recebe tratamento sem esperar resultado de laboratório.',
+          'O que sustenta a suspeita é a combinação de ferimento recente com trismo, rigidez e espasmos. Histórico de vacinação incompleto ou desconhecido aumenta a probabilidade, e a ausência de febre alta no começo não afasta o quadro, porque a toxina age sobre os nervos e não sobre a temperatura.',
+          'Antes de fechar o diagnóstico, a equipe afasta outras causas de rigidez e espasmo, como reação a medicamentos contra náusea, intoxicação, meningite e raiva. Essa investigação acontece no hospital, em paralelo ao início do tratamento, e não atrasa a primeira dose de imunoglobulina.',
+        ],
+      },
+      {
+        id: 'tratamento-no-hospital',
+        heading: 'Como é o tratamento no hospital',
+        paragraphs: [
+          'O tratamento começa pela imunoglobulina antitetânica, que neutraliza a toxina circulante, e pela limpeza cirúrgica do ferimento para retirar tecido morto e sujeira. Antibióticos combatem a bactéria e a vacina é aplicada durante a internação.',
+          'O controle dos espasmos exige ambiente com pouca luz e ruído, sedação e relaxantes musculares. Muitos pacientes precisam de terapia intensiva e de ventilação mecânica por semanas, até que a toxina deixe de agir sobre o sistema nervoso.',
+          'A alimentação costuma ser feita por sonda enquanto a deglutição está comprometida. A equipe também previne complicações do imobilismo, como trombose e úlceras por pressão, com mudanças de posição e medidas de proteção. A visita da família é controlada para evitar estímulos que desencadeiem novas crises.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Complicações que mudam o prognóstico',
+        paragraphs: [
+          'Os espasmos podem ser fortes o bastante para fraturar vértebras e outros ossos. A obstrução da via aérea e a aspiração de secreções levam à pneumonia, e a imobilidade prolongada favorece trombose e embolia pulmonar. São complicações que costumam aparecer durante a internação, mas podem deixar marcas duradouras.',
+          'A instabilidade do sistema nervoso autônomo, com pressão e batimentos oscilando muito, é uma das principais causas de morte. Nos Estados Unidos, cerca de 1 em cada 10 casos é fatal, e o risco é maior entre idosos e pessoas sem vacinação atualizada.',
+          'Idade avançada, diabetes, imunidade comprometida e uso de drogas injetáveis aparecem entre os fatores que pioram a evolução. Reconhecer esses fatores ajuda a equipe a definir a intensidade dos cuidados desde a admissão. Quem tem 80 anos ou mais concentra o maior risco de morte pela doença.',
+        ],
+      },
+      {
+        id: 'recuperacao',
+        heading: 'Recuperação lenta e acompanhamento',
+        paragraphs: [
+          'A internação costuma durar semanas, e a alta não significa volta imediata à rotina. Fraqueza muscular, cansaço e rigidez residual são comuns e melhoram com fisioterapia motora e respiratória, que deve começar ainda durante a internação, quando o quadro permite.',
+          'A retomada das atividades deve ser gradual, respeitando o condicionamento de cada pessoa. Em alguns casos, o suporte de fonoaudiologia e de nutrição continua depois da alta, sobretudo em quem permaneceu muito tempo internado e perdeu peso durante a fase aguda.',
+          'A vacinação precisa ser completada após a doença, porque ter tétano não protege contra novos episódios. A conferência do esquema deve fazer parte da alta hospitalar e da consulta de acompanhamento, porque a proteção só se completa com as três doses.',
+        ],
+        cta: {
+          label: 'Veja os sinais de alerta do tétano',
+          href: '/doencas/tetano/',
+        },
+      },
+    ],
+    diseaseSlugs: ['tetano'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['tetano-ferimento-e-vacina-quando-procurar'],
+    references: [
+      {
+        label: 'Tétano acidental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tetano-acidental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Tetanus',
+        url: 'https://www.cdc.gov/tetanus/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'meningite-meningococica-sintomas-e-sinais-de-alerta',
+    slug: 'meningite-meningococica-sintomas-e-sinais-de-alerta',
+    title: 'Meningite meningocócica: sintomas e sinais de alerta',
+    excerpt:
+      'Febre, dor de cabeça e rigidez de nuca aparecem juntas, mas em bebês os sinais são outros. Entenda como reconhecer a meningite e por que cada hora conta.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'febre-com-rigidez-de-nuca',
+        heading: 'Febre que vem com rigidez de nuca',
+        paragraphs: [
+          'A apresentação clássica da meningite bacteriana reúne febre, dor de cabeça intensa e rigidez de nuca. A pessoa sente o pescoço travado e tem dificuldade para encostar o queixo no peito. Náuseas, vômitos e incômodo com a luz costumam acompanhar o quadro.',
+          'Esses sinais nem sempre aparecem todos ao mesmo tempo, e é aí que o diagnóstico se torna difícil. Em algumas pessoas, a febre vem primeiro e a rigidez surge horas depois, o que faz a família esperar em casa um quadro que já é grave.',
+          'A dor de cabeça da meningite costuma ser muito mais forte do que as crises habituais e não melhora com analgésico comum. Quando ela vem junto de febre e mal-estar geral, a avaliação médica deve acontecer no mesmo dia, sem esperar por consulta agendada.',
+        ],
+      },
+      {
+        id: 'manchas-que-nao-somem',
+        heading: 'As manchas que não somem ao apertar',
+        paragraphs: [
+          'Na meningococcemia, a bactéria circula no sangue e lesa os vasos, o que provoca manchas vermelhas ou arroxeadas na pele. Elas não desaparecem quando se pressiona o local com o dedo ou com um copo transparente, e esse é um sinal de gravidade. A cor varia do vermelho vivo ao roxo escuro, e as lesões podem se juntar em áreas maiores.',
+          'Junto com as manchas aparecem mãos e pés frios, respiração rápida, pressão baixa e sonolência. O quadro pode evoluir para falência de órgãos em poucas horas, por isso a presença dessas lesões exige atendimento imediato. Em crianças pequenas, a progressão costuma ser ainda mais rápida.',
+          'Manchas por outras causas, como alergias, costumam desaparecer quando a pele é pressionada e não vêm acompanhadas de queda do estado geral. Na dúvida, o teste feito com um copo não substitui a avaliação no serviço de saúde.',
+        ],
+      },
+      {
+        id: 'bebes-e-criancas',
+        heading: 'Em bebês, os sinais são outros',
+        paragraphs: [
+          'Bebês não conseguem dizer que a cabeça dói e raramente apresentam rigidez de nuca. Nessa faixa de idade, os sinais são irritabilidade intensa, choro difícil de consolar, recusa alimentar, vômitos e moleira estufada.',
+          'Sonolência excessiva, gemido constante e palidez também entram na lista. Muitas mães e pais percebem que o bebê está diferente antes de qualquer sinal específico, e essa percepção merece ser ouvida no atendimento. O exame inclui a palpação da moleira e a observação do padrão de choro.',
+          'Crianças menores de 5 anos, especialmente as menores de 1 ano, concentram a maioria dos casos de meningite bacteriana no Brasil. Por isso, febre em bebê com qualquer um desses sinais precisa de avaliação no mesmo dia.',
+        ],
+      },
+      {
+        id: 'o-que-parece-meningite',
+        heading: 'O que parece meningite e não é',
+        paragraphs: [
+          'Meningite viral, dengue, gripe, sinusite e enxaqueca também causam febre e dor de cabeça. Na meningite viral, o quadro costuma ser mais leve, com alterações discretas no líquor e recuperação sem necessidade de antibiótico.',
+          'A dengue chama atenção pela dor atrás dos olhos, dor no corpo e queda de plaquetas. Já a rigidez de nuca acompanhada de febre e alteração de consciência é o conjunto que mais preocupa, porque aponta para inflamação das meninges.',
+          'Como a forma bacteriana piora em horas, a dúvida não deve ser resolvida em casa. Comparar sintomas em páginas da internet atrasa a decisão, e o exame que diferencia esses quadros só existe no hospital.',
+        ],
+      },
+      {
+        id: 'evolucao-em-horas',
+        heading: 'Por que a doença evolui em horas',
+        paragraphs: [
+          'A meningite bacteriana pode matar em menos de 24 horas. A bactéria se multiplica rapidamente nas meninges e na corrente sanguínea, e a resposta inflamatória do organismo contribui para a lesão dos tecidos. Por isso, a janela entre o primeiro sintoma e o atendimento é curta.',
+          'Cerca de 1 em cada 6 pacientes com meningite bacteriana morre, e 1 em cada 5 sobreviventes fica com sequelas graves. No Brasil, a letalidade média dos casos bacterianos fica entre 20% e 30%, número mais alto em crianças pequenas e em idosos.',
+          'Essa evolução explica por que a suspeita clínica já basta para internar e iniciar antibiótico. Esperar o resultado dos exames em casa ou comparar sintomas pela internet são decisões que atrasam o único tratamento capaz de mudar o desfecho. Em meningite, chegar cedo ao hospital importa mais do que ter o diagnóstico confirmado cedo.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito no hospital',
+        paragraphs: [
+          'No hospital, a equipe examina o paciente e colhe o líquor por punção lombar, além de culturas de sangue. A análise do líquor mostra o tipo de inflamação e permite identificar a bactéria responsável. A coleta é rápida e feita no pronto atendimento, sem necessidade de internação prévia para o procedimento.',
+          'Quando a suspeita é forte, o antibiótico é iniciado antes do resultado. A punção lombar nunca deve atrasar o tratamento, e em pacientes instáveis a coleta pode acontecer depois da primeira dose. Quando necessário, a equipe repete exames para acompanhar a resposta ao antibiótico.',
+          'Exames de imagem entram quando há dúvida diagnóstica ou suspeita de complicações, como aumento da pressão dentro do crânio. Todos os exames necessários estão disponíveis no Sistema Único de Saúde.',
+        ],
+      },
+      {
+        id: 'o-que-fazer',
+        heading: 'O que fazer antes de chegar ao hospital',
+        paragraphs: [
+          'Não espere o dia seguinte. Se houver febre com rigidez de nuca, manchas que não somem, confusão mental, convulsão ou sonolência excessiva, procure atendimento imediato e informe há quanto tempo os sintomas começaram. Anotar os horários ajuda a equipe a entender a velocidade da evolução.',
+          'Não ofereça medicamentos para baixar a febre antes da avaliação sem orientação, porque isso pode mascarar a evolução. Também não tente tratar em casa com hidratação ou repouso quando existem sinais meníngeos. O atendimento presencial é a única forma de excluir a forma bacteriana.',
+          'Avise o serviço de saúde se a pessoa convive com alguém com meningite confirmada, porque os contatos próximos precisam de acompanhamento e de antibiótico preventivo. Essa informação ajuda a vigilância a agir mais rápido. Quanto antes o aviso chega, mais cedo os contatos são avaliados.',
+        ],
+        cta: {
+          label: 'Veja os sinais de alerta da meningite',
+          href: '/doencas/meningite-meningococica/',
+        },
+      },
+    ],
+    diseaseSlugs: ['meningite-meningococica'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: ['meningite-meningococica-vacina-e-contatos'],
+    references: [
+      {
+        label: 'Meningite',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Meningitis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/meningitis',
+        publisher: 'World Health Organization (WHO)',
+      },
+      {
+        label: 'About Meningococcal Disease',
+        url: 'https://www.cdc.gov/meningococcal/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'meningite-meningococica-vacina-e-contatos',
+    slug: 'meningite-meningococica-vacina-e-contatos',
+    title: 'Meningite meningocócica: vacinas e cuidados com os contatos',
+    excerpt:
+      'O SUS oferece a meningocócica C e a ACWY em idades definidas, e os contatos próximos precisam de antibiótico preventivo. Veja como funciona a proteção.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'vacinas-do-calendario',
+        heading: 'As vacinas do calendário infantil',
+        paragraphs: [
+          'A vacina meningocócica C é aplicada aos 3 e aos 5 meses, e a meningocócica ACWY aos 12 meses e entre 11 e 14 anos. A ACWY amplia a proteção para os sorogrupos A, C, W e Y e foi incorporada ao calendário para reduzir a circulação dessas variantes.',
+          'As duas vacinas são gratuitas nas unidades básicas de saúde e podem ser aplicadas no mesmo dia de outras vacinas. Quem perdeu a data deve procurar a unidade com a caderneta, porque o esquema pode ser retomado sem reiniciar as doses já feitas. A idade em que a dose é aplicada fica registrada no sistema.',
+          'O objetivo do calendário é proteger antes da fase de maior risco. Como bebês e crianças pequenas concentram a maior parte dos casos, começar cedo e completar as doses é o que garante a proteção no período mais vulnerável, quando a doença evolui mais rápido e deixa mais sequelas.',
+        ],
+      },
+      {
+        id: 'outras-vacinas',
+        heading: 'Outras vacinas que também previnem meningite',
+        paragraphs: [
+          'A meningite tem várias causas bacterianas, e o calendário brasileiro inclui vacinas contra algumas delas. A BCG protege contra as formas graves da tuberculose, incluindo a meníngea, e é aplicada ao nascer.',
+          'A vacina pneumocócica previne doenças invasivas causadas pelo pneumococo, e a penta protege contra Haemophilus influenzae tipo b, outro agente de meningite bacteriana em crianças. Nenhuma delas substitui a outra, e todas precisam ser aplicadas nas idades previstas no calendário.',
+          'Completar o esquema é mais importante do que a ordem das vacinas. Famílias que se mudaram de estado ou de país devem levar o registro, porque o calendário pode variar e a equipe precisa saber o que já foi aplicado. Sem a caderneta, a unidade pode repetir doses desnecessárias.',
+        ],
+      },
+      {
+        id: 'indicacao-ampliada',
+        heading: 'Quem tem indicação ampliada',
+        paragraphs: [
+          'Alguns grupos precisam de doses além do calendário habitual. Adolescentes, pessoas com imunidade comprometida, quem não tem o baço ou tem o baço comprometido e viajantes para áreas com surto entram nessa lista.',
+          'Profissionais que trabalham diretamente com amostras da bactéria em laboratório também têm indicação específica. A avaliação é feita no serviço de saúde, que verifica o histórico e a situação de risco de cada pessoa. A escolha da vacina depende do sorogrupo e da idade.',
+          'Quem vai viajar para regiões com surto deve procurar a unidade básica com pelo menos duas semanas de antecedência. Esse prazo permite completar o esquema e garante que a proteção esteja estabelecida antes da exposição. Quem tem a caderneta incompleta deve levar o registro e informar as doses que já recebeu.',
+        ],
+      },
+      {
+        id: 'antibiotico-para-contatos',
+        heading: 'Antibiótico preventivo para contatos',
+        paragraphs: [
+          'Quem mora com o paciente ou teve contato íntimo com a saliva deve receber antibiótico preventivo, porque o risco de adoecer é maior nos primeiros dias após o caso ser identificado. A medida é rápida e costuma ser organizada pela própria equipe que atendeu o paciente.',
+          'A indicação é da equipe de saúde ou da vigilância epidemiológica, que avalia o tipo de contato e define quem precisa da medida. Colegas de trabalho e colegas de classe em geral não entram nessa lista, a menos que o contato tenha sido próximo e prolongado. A profilaxia não substitui a vacinação de rotina.',
+          'A vacinação dos contatos também pode ser indicada, dependendo do sorogrupo identificado e do histórico de cada pessoa. A orientação completa vem da vigilância, que acompanha o caso e informa os próximos passos. A dose aplicada é registrada na caderneta e passa a contar como parte do esquema.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'A transmissão exige contato próximo',
+        paragraphs: [
+          'A bactéria é transmitida por gotículas e secreções da garganta, em situações de contato próximo ou prolongado. Beijar, compartilhar copos e escovas de dentes ou morar na mesma casa são exemplos de exposição relevante.',
+          'Cerca de 1 em cada 10 pessoas carrega a bactéria na garganta sem adoecer. Esse estado de portador é comum, mantém a circulação da bactéria na comunidade e raramente evolui para doença.',
+          'A meningite meningocócica é menos contagiosa do que a gripe e o resfriado. Conversar com alguém por poucos minutos em um ônibus não costuma ser suficiente para transmitir, mas aglomerações prolongadas, como alojamentos e festivais, aumentam o risco.',
+        ],
+      },
+      {
+        id: 'creches-e-escolas',
+        heading: 'Creches, escolas e alojamentos',
+        paragraphs: [
+          'Ambientes com muitas pessoas próximas por muitas horas favorecem a transmissão de secreções respiratórias. Creches, alojamentos, quartéis e festivais aparecem com mais frequência nos surtos, porque reúnem contato próximo e prolongado.',
+          'Quando um caso é confirmado em uma escola, a vigilância orienta a limpeza dos ambientes, a ventilação das salas e a observação dos colegas por alguns dias. Na maioria das vezes, as aulas continuam e não é necessário fechar a instituição, porque a transmissão exige contato próximo e prolongado.',
+          'A comunicação com as famílias é parte da resposta. Informar quais sinais devem levar a criança ao serviço de saúde e reforçar a higiene das mãos reduz a chance de novos casos e evita que o medo atrapalhe a rotina escolar. A escola não precisa divulgar o nome do paciente.',
+        ],
+      },
+      {
+        id: 'depois-da-alta',
+        heading: 'Depois da alta: sequelas e acompanhamento',
+        paragraphs: [
+          'Quem sobrevive à meningite bacteriana precisa de acompanhamento. A perda auditiva atinge até 1 em cada 10 sobreviventes e pode ser permanente, por isso a avaliação da audição deve acontecer ainda no hospital ou logo após a alta, com exame específico.',
+          'Entre 10% e 20% dos pacientes ficam com sequelas neurológicas, como convulsões, atraso no desenvolvimento e dificuldades cognitivas. Fisioterapia, fonoaudiologia e acompanhamento com especialistas ajudam a reduzir o impacto dessas sequelas.',
+          'A prevenção continua depois da doença. Manter as vacinas em dia, lavar as mãos com frequência, ventilar os ambientes e não compartilhar copos e talheres reduz a transmissão de secreções respiratórias dentro de casa. Esses cuidados valem para toda a família, não apenas para quem adoeceu. Quem convive com pessoas imunossuprimidas deve redobrar a atenção.',
+        ],
+        cta: {
+          label: 'Entenda a meningite meningocócica',
+          href: '/doencas/meningite-meningococica/',
+        },
+      },
+    ],
+    diseaseSlugs: ['meningite-meningococica'],
+    topicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedArticleSlugs: ['meningite-meningococica-sintomas-e-sinais-de-alerta'],
+    references: [
+      {
+        label: 'Meningite',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Meningococcal Disease',
+        url: 'https://www.cdc.gov/meningococcal/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gonorreia-como-prevenir',
+    slug: 'gonorreia-como-prevenir',
+    title: 'Gonorreia: como se prevenir e evitar a reinfecção',
+    excerpt:
+      'Preservativo em todas as relações, testagem sem esperar sintomas e tratamento das parcerias são o que interrompe a transmissão da gonorreia.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-prevenir',
+        heading: 'Por que a prevenção importa',
+        paragraphs: [
+          'A gonorreia é causada pela bactéria Neisseria gonorrhoeae e passa de uma pessoa para outra pelo contato entre mucosas durante a relação sexual. Como boa parte das pessoas infectadas não tem sintoma, quem transmite muitas vezes não sabe que está doente.',
+          'A infecção tem cura com antibiótico, mas deixar o tratamento para depois abre espaço para complicações. Nas mulheres, a inflamação pode atingir as trompas e causar dor crônica, infertilidade e gravidez ectópica; nos homens, pode inflamar o epidídimo, a estrutura que fica ao lado do testículo.',
+          'A prevenção se apoia em três medidas que funcionam juntas: preservativo, testagem regular e tratamento das parcerias. Nenhuma delas resolve sozinha, e é por isso que os serviços de saúde insistem nas três.',
+        ],
+      },
+      {
+        id: 'preservativo',
+        heading: 'Preservativo em todas as relações',
+        paragraphs: [
+          'O preservativo externo, usado do começo ao fim da relação, reduz de forma consistente a transmissão da gonorreia. Ele precisa ser colocado antes de qualquer contato entre mucosas, porque a bactéria está nas secreções e não apenas na ejaculação.',
+          'A camisinha interna, também chamada de feminina, é uma alternativa para quem prefere esse método. O SUS distribui as duas versões gratuitamente nas unidades básicas de saúde, sem necessidade de receita ou de cadastro.',
+          'O preservativo também protege contra outras infecções que costumam acompanhar a gonorreia, como clamídia, sífilis e HIV. Manter o método em todas as formas de sexo, inclusive oral e anal, evita que a bactéria circule entre garganta, reto e uretra. Quem tem alergia ao látex não precisa abrir mão da proteção: existem versões de poliuretano e de poli-isopreno, e o lubrificante deve ser à base de água, porque os oleosos enfraquecem o material.',
+        ],
+      },
+      {
+        id: 'testagem',
+        heading: 'Testagem sem esperar sintomas',
+        paragraphs: [
+          'Quem tem vida sexual ativa deve incluir a testagem de IST na rotina, mesmo sem sintomas. A gonorreia pode ficar meses sem dar sinal, sobretudo no colo do útero e na garganta, e o exame é a única forma de descobrir a infecção nesses casos.',
+          'O teste é rápido, gratuito no SUS e não exige preparo. Dependendo do serviço, a amostra é a primeira parte da urina ou um material colhido com cotonete fino da mucosa, e o resultado ajuda a definir o antibiótico.',
+          'A frequência depende da exposição. Quem tem parceria fixa e usa preservativo pode testar uma vez por ano; quem tem várias parcerias ou já teve outra IST deve conversar com a equipe sobre intervalos mais curtos. Gestantes fazem o teste no pré-natal. A equipe também define o que investigar a partir da conversa sobre práticas sexuais, porque a gonorreia pode estar na garganta ou no reto e passar longe do exame de urina.',
+        ],
+      },
+      {
+        id: 'parcerias',
+        heading: 'Tratar as parcerias sexuais',
+        paragraphs: [
+          'Tratar só a pessoa que procurou o serviço não interrompe a transmissão. As parcerias sexuais dos últimos meses precisam ser testadas e tratadas, mesmo que não tenham sintoma, porque podem carregar a bactéria e devolvê-la na próxima relação.',
+          'A conversa é desconfortável para muita gente, e os serviços de saúde podem ajudar. Em geral a equipe orienta como avisar, oferece atendimento às parcerias e, em algumas situações, entrega a medicação sem exigir uma nova consulta.',
+          'Enquanto o tratamento não termina, o casal deve evitar relações sexuais. Retomar antes do fim do esquema, sem preservativo, é uma das razões mais comuns de reinfecção e de novos episódios em pouco tempo.',
+        ],
+      },
+      {
+        id: 'gestacao',
+        heading: 'Gestação e parto',
+        paragraphs: [
+          'A gestante com gonorreia pode transmitir a bactéria ao bebê na passagem pelo canal de parto, o que causa conjuntivite com secreção purulenta nos primeiros dias de vida. Sem tratamento rápido, a infecção pode lesar a córnea e comprometer a visão.',
+          'O teste faz parte do pré-natal e deve ser repetido no terceiro trimestre nas gestantes com maior risco. Identificar e tratar a infecção antes do parto protege o bebê e reduz a chance de complicações para a mãe, como parto prematuro.',
+          'A parceria da gestante também precisa ser testada e tratada. Sem isso, ela pode ser reinfectada durante a gravidez, e o risco para o bebê volta a existir mesmo quando o primeiro tratamento foi feito corretamente.',
+        ],
+      },
+      {
+        id: 'depois-do-diagnostico',
+        heading: 'Depois do diagnóstico',
+        paragraphs: [
+          'Quem recebe o diagnóstico deve tomar o antibiótico exatamente como foi indicado, sem interromper o esquema nem reaproveitar sobras de tratamentos antigos. O gonococo acumula resistência a várias classes de antibióticos, e um esquema incompleto deixa a infecção pela metade.',
+          'Se os sintomas não melhorarem em poucos dias, volte ao serviço de saúde. A equipe pode repetir o exame, pedir cultura para testar a sensibilidade aos antibióticos e trocar o esquema quando o resultado mostrar resistência.',
+          'O diagnóstico é também uma oportunidade para ampliar a investigação. Vale testar HIV, sífilis e hepatites B e C na mesma visita, porque a exposição sem preservativo que transmitiu a gonorreia pode ter transmitido outras infecções, muitas delas sem sintoma. Tratada cedo, a infecção não deixa sequela; já a inflamação que passou meses sem tratamento pode deixar aderências nas trompas, e essas alterações não desaparecem com o antibiótico.',
+        ],
+      },
+      {
+        id: 'o-que-nao-protege',
+        heading: 'O que não protege',
+        paragraphs: [
+          'Assento de vaso sanitário, piscina, toalha e copo não transmitem gonorreia, porque a bactéria é frágil fora do corpo humano. Também não existe vacina disponível contra a infecção, e quem já teve pode se infectar de novo a qualquer momento.',
+          'Coito interrompido, lavar a região depois da relação e colocar a camisinha apenas no final não reduzem o risco de forma confiável. A proteção depende de o preservativo permanecer durante todo o contato entre mucosas.',
+          'Tomar antibiótico por conta própria depois de uma relação desprotegida também não funciona como prevenção. Além de não garantir proteção, o uso sem indicação favorece a resistência da bactéria e pode mascarar uma infecção que precisaria de tratamento específico.',
+        ],
+        cta: {
+          label: 'Conheça os sintomas e o tratamento da gonorreia',
+          href: '/doencas/gonorreia/',
+        },
+      },
+    ],
+    diseaseSlugs: ['gonorreia'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [],
+    references: [
+      {
+        label: 'Infecções Sexualmente Transmissíveis (IST)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'IST: diagnóstico',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist/diagnostico',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Gonorrhoea',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/gonorrhoea',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'leptospirose-sintomas-e-sinais-de-alerta',
+    slug: 'leptospirose-sintomas-e-sinais-de-alerta',
+    title: 'Leptospirose: sintomas e sinais de alerta',
+    excerpt:
+      'A leptospirose começa como uma gripe e pode evoluir em poucos dias para icterícia, insuficiência renal e hemorragia. Reconhecer a fase grave é o que salva.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é leptospirose',
+        paragraphs: [
+          'A leptospirose é uma infecção causada por bactérias do gênero Leptospira, que vivem nos rins de roedores e de outros animais e saem pela urina. A pessoa se infecta quando essa urina, diluída em água ou misturada à lama, entra em contato com a pele ou com as mucosas.',
+          'A doença é mais comum em áreas urbanas com saneamento incompleto e em períodos de chuva forte, quando a água das enchentes se espalha por ruas, quintais e dentro das casas. Também aparece em trabalhadores rurais, em quem cuida de animais e em quem frequenta rios e represas.',
+          'No Brasil, os casos se concentram nos meses de chuva, entre dezembro e março, sobretudo em bairros com esgoto a céu aberto. Como o quadro inicial se parece com dengue e gripe, o relato de contato com água de enchente é o que costuma direcionar a investigação.',
+        ],
+      },
+      {
+        id: 'como-a-infeccao-comeca',
+        heading: 'Como a infecção começa',
+        paragraphs: [
+          'A bactéria entra pela pele com ferimentos, por arranhões e picadas, pelas mucosas dos olhos, do nariz e da boca e até pela pele íntegra que fica muito tempo mergulhada em água contaminada. Engolir água suja também é uma via possível, embora menos frequente.',
+          'O período de incubação varia de um a 30 dias, na maioria das vezes entre sete e 14 dias. Isso significa que os sintomas podem aparecer duas semanas depois da enchente, quando a pessoa já nem relaciona o quadro à água que pisou.',
+          'A bactéria não passa de uma pessoa para outra pelo convívio diário, nem pelo contato com sangue ou secreção de alguém doente. O que importa é o ambiente: água e lama contaminadas por urina de animais continuam sendo fonte de risco por semanas depois de a chuva parar.',
+        ],
+      },
+      {
+        id: 'primeiros-sintomas',
+        heading: 'Os primeiros sintomas',
+        paragraphs: [
+          'A fase inicial dura cerca de uma semana e se parece com muitas outras infecções: febre alta de início súbito, dor de cabeça, dor no corpo, fraqueza e falta de apetite. A dor muscular costuma ser intensa e característica na panturrilha e na região lombar.',
+          'Náusea, vômito e diarreia aparecem em parte dos casos, e algumas pessoas têm tosse seca, dor de garganta e olhos vermelhos sem secreção. Esse conjunto de sinais é fácil de confundir com dengue, gripe ou uma virose passageira, e é por isso que a informação sobre contato com água de enchente muda a investigação.',
+          'Nessa fase, muitos casos se resolvem sozinhos em poucos dias. O problema é que uma parcela das pessoas piora justamente quando a febre começa a ceder, e a melhora aparente pode enganar quem está acompanhando o quadro.',
+        ],
+      },
+      {
+        id: 'forma-grave',
+        heading: 'Quando a doença fica grave',
+        paragraphs: [
+          'Cerca de 15% dos casos evoluem para a forma grave, conhecida como síndrome de Weil. Nela, a pele e os olhos ficam amarelados por causa da inflamação no fígado, a urina diminui e os exames mostram perda rápida da função dos rins.',
+          'A forma grave também pode causar sangramentos, inclusive hemorragia nos pulmões, arritmias e inflamação do músculo do coração. Nesses casos, a internação é obrigatória e a letalidade pode chegar a 40% quando o atendimento é tardio.',
+          'O risco de forma grave é maior em idosos, em crianças pequenas, em gestantes e em pessoas com doenças crônicas. Ainda assim, adultos jovens e saudáveis também podem evoluir mal, e por isso a febre depois do contato com água contaminada nunca deve ser tratada como assunto menor.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta',
+        paragraphs: [
+          'Procure atendimento imediatamente se aparecer pele e olhos amarelados, urina escura como refrigerante de cola, redução importante do volume de urina, sangramento pelo nariz ou pelas gengivas, falta de ar ou dor no peito.',
+          'Também são sinais de alerta confusão mental, sonolência excessiva, queda da pressão, tosse com sangue e dor abdominal intensa. Nesses casos, avise no atendimento que houve contato com água de enchente, lama ou esgoto, porque essa informação acelera a suspeita e o início do antibiótico.',
+          'Como os sinais de alarme podem aparecer em qualquer idade, vale combinar com a família um plano simples: quem tiver febre depois da enchente procura uma unidade de saúde, e quem já está em acompanhamento volta antes se a urina diminuir ou a pele amarelar.',
+        ],
+        bullets: [
+          'Febre que volta ou não cede depois de alguns dias',
+          'Pele e olhos amarelados',
+          'Urina escura e volume de urina muito menor',
+          'Sangramento sem causa aparente',
+          'Falta de ar, tosse com sangue ou dor no peito',
+        ],
+      },
+      {
+        id: 'diagnostico-e-tratamento',
+        heading: 'Diagnóstico e tratamento',
+        paragraphs: [
+          'O diagnóstico é confirmado por exames de sangue que detectam anticorpos contra a bactéria ou o material genético dela. Como esses resultados demoram, o tratamento é iniciado pela suspeita clínica, sem esperar o laudo.',
+          'O antibiótico é mais eficaz quando começa na primeira semana de sintomas. Nos casos leves, pode ser feito por via oral em casa; nas formas graves, exige internação, hidratação cuidadosa, suporte para os rins e acompanhamento em unidade com terapia intensiva quando necessário.',
+          'A leptospirose é de notificação obrigatória no Brasil, o que ajuda a vigilância a identificar surtos depois de enchentes e a orientar medidas de prevenção na região.',
+        ],
+      },
+      {
+        id: 'recuperacao',
+        heading: 'Recuperação',
+        paragraphs: [
+          'Quem recebe tratamento cedo costuma se recuperar por completo. Os rins e o fígado se regeneram com o tempo, embora a recuperação possa levar semanas e exigir acompanhamento com exames.',
+          'Cansaço e fraqueza prolongados são comuns depois da forma grave, e algumas pessoas ficam com inflamação nos olhos que precisa de avaliação especializada. Retomar as atividades aos poucos, com orientação da equipe, é mais seguro do que voltar à rotina completa de uma vez.',
+          'A leptospirose não deixa imunidade duradoura: quem teve a doença pode se infectar de novo na enchente seguinte, e as mesmas medidas de proteção continuam valendo. A alta hospitalar costuma incluir retorno para reavaliar a função dos rins, e ir a essas consultas faz parte do tratamento.',
+        ],
+        cta: {
+          label: 'Veja como se prevenir em época de enchente',
+          href: '/artigos/leptospirose-como-se-prevenir-em-enchentes/',
+        },
+      },
+    ],
+    diseaseSlugs: ['leptospirose'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['leptospirose-como-se-prevenir-em-enchentes'],
+    references: [
+      {
+        label: 'Leptospirose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leptospirosis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/leptospirosis',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'leptospirose-como-se-prevenir-em-enchentes',
+    slug: 'leptospirose-como-se-prevenir-em-enchentes',
+    title: 'Leptospirose: como se prevenir em época de enchentes',
+    excerpt:
+      'Água de enchente, lama e esgoto concentram a bactéria da leptospirose. Estes cuidados com água, alimentos, pele e casa reduzem o risco depois da chuva forte.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-a-chuva-aumenta-o-risco',
+        heading: 'Por que a chuva forte aumenta o risco',
+        paragraphs: [
+          'A bactéria da leptospirose sai na urina de ratos e de outros animais e sobrevive por semanas em água parada e em lama úmida. Quando chove muito, o esgoto se mistura à água da rua e a bactéria se espalha por lugares onde ninguém esperaria encontrá-la.',
+          'O contato costuma acontecer sem que a pessoa perceba: pisar na água para chegar em casa, limpar o quintal, ajudar um vizinho a retirar móveis ou brincar na poça que sobrou. Quanto mais tempo a pele fica mergulhada, maior a chance de a bactéria atravessar pequenas rachaduras e ferimentos.',
+          'O risco não termina quando a água baixa. A lama que sobra no chão, nos móveis e nas calçadas mantém a bactéria viva por semanas, e é durante a limpeza da casa que muita gente se infecta, muitas vezes descalça, sem luva e sem perceber nenhum ferimento na pele.',
+        ],
+      },
+      {
+        id: 'agua-e-alimentos',
+        heading: 'Água e alimentos',
+        paragraphs: [
+          'A água para beber deve ser filtrada, fervida ou tratada com cloro. Se a rede de abastecimento foi interrompida ou houve mistura com esgoto, o alerta da companhia de saneamento indica por quanto tempo essa precaução é necessária. Se não for possível ferver, a água sanitária pode ser usada na diluição indicada pela vigilância sanitária, respeitando o tempo de descanso recomendado.',
+          'Alimentos que ficaram em contato com a água da enchente devem ser descartados, mesmo os embalados, porque a lama penetra em frestas e tampas. Frutas, verduras e legumes também precisam ser descartados quando ficaram submersos. O mesmo vale para o gelo e para as bebidas preparadas com água da rede, que devem ser evitados enquanto o abastecimento não estiver normalizado.',
+          'Na dúvida, prefira alimentos cozidos e água tratada. Lavar as mãos com água e sabão antes de comer e depois de mexer com lama ou lixo é uma medida simples que reduz a transmissão de várias doenças ao mesmo tempo. Essa rotina vale enquanto durar o período de risco definido pela vigilância sanitária do município.',
+        ],
+      },
+      {
+        id: 'protecao-do-corpo',
+        heading: 'Proteção do corpo',
+        paragraphs: [
+          'Quem precisa entrar na água ou na lama deve usar botas de borracha e luvas, e cobrir cortes e arranhões com curativo impermeável antes de sair de casa. Calça comprida e camisa de manga longa ajudam a reduzir o contato da pele. Calçados comuns absorvem a água e mantêm o pé molhado por horas, o que aumenta o tempo de exposição à bactéria.',
+          'Crianças não devem brincar em água de enchente nem em lama acumulada. O corpo pequeno fica mais tempo submerso, e a brincadeira costuma envolver boca, olhos e mãos, que são justamente as portas de entrada da bactéria. Nos dias seguintes à enchente, as brincadeiras ao ar livre devem ficar restritas a áreas secas e limpas.',
+          'Quem trabalha na limpeza da cidade, na coleta de lixo ou em obras de drenagem deve seguir as orientações do empregador sobre equipamento de proteção e sobre vacinação, quando indicada para o grupo ocupacional. Sempre que possível, o trabalho deve ser feito em equipe, para que ninguém fique sozinho em área alagada.',
+        ],
+      },
+      {
+        id: 'casa-depois-da-agua-baixar',
+        heading: 'A casa depois que a água baixa',
+        paragraphs: [
+          'A limpeza deve começar pela retirada da lama, com pá, vassoura e botas, e não com jato de água, que espalha respingos contaminados. Depois, lave as superfícies com água e sabão e finalize com solução de água sanitária na diluição indicada no rótulo. Ambientes fechados e úmidos precisam ser arejados, e a limpeza deve ser feita com luvas mesmo quando parece simples.',
+          'Colchões, travesseiros e alimentos perecíveis que ficaram molhados devem ser descartados. Roupas e utensílios podem ser lavados com água e sabão e, quando possível, deixados secar ao sol.',
+          'O lixo acumulado precisa ser colocado em sacos fechados e retirado pela coleta o quanto antes. Entulho e restos de móveis servem de abrigo para roedores e prolongam o risco na vizinhança. Sacolas abertas ou lixo espalhado atraem ratos em poucos dias, então o ideal é retirar os resíduos no mesmo dia da limpeza.',
+        ],
+      },
+      {
+        id: 'roedores-e-lixo',
+        heading: 'Roedores e lixo',
+        paragraphs: [
+          'O controle de ratos é parte da prevenção. Guardar o lixo em recipientes fechados, não deixar restos de comida expostos e manter terrenos limpos reduz a presença dos animais que eliminam a bactéria na urina. Ralos e frestas também merecem atenção, porque servem de passagem entre o esgoto e a casa.',
+          'Não se deve tocar em roedores mortos com a mão desprotegida nem varrer fezes e urina a seco, porque a poeira também pode carregar a bactéria. Use luvas, umedeça a área antes de limpar e lave as mãos com água e sabão ao terminar.',
+          'Quando há muitos ratos na vizinhança, vale acionar a prefeitura: o controle depende da coleta regular de lixo, da limpeza de terrenos e da manutenção das galerias de esgoto. As medidas dentro de casa ajudam, mas não substituem o saneamento do bairro.',
+        ],
+      },
+      {
+        id: 'depois-do-contato',
+        heading: 'Depois do contato com a água',
+        paragraphs: [
+          'Quem pisou ou entrou na água de enchente deve lavar as áreas expostas com água e sabão assim que possível e observar se aparecem feridas na pele. Não é preciso tomar remédio por conta própria, porque o antibiótico só é indicado quando há suspeita clínica.',
+          'Fique atento nos dias seguintes. Febre, dor de cabeça e dor no corpo depois de uma enchente merecem avaliação em uma unidade de saúde, com a informação de que houve contato com água ou lama. O diagnóstico precoce é o que evita a forma grave.',
+          'Pessoas com feridas abertas nas pernas, diabetes ou doença que afete a circulação devem redobrar o cuidado e buscar orientação antes de entrar na água, porque essas condições aumentam a chance de a bactéria entrar e de a infecção evoluir para a forma grave.',
+        ],
+        cta: {
+          label: 'Conheça os sintomas e os sinais de alerta da leptospirose',
+          href: '/doencas/leptospirose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['leptospirose'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['leptospirose-sintomas-e-sinais-de-alerta'],
+    references: [
+      {
+        label: 'Leptospirose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leptospirosis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/leptospirosis',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'sifilis-sintomas-e-estagios',
+    slug: 'sifilis-sintomas-e-estagios',
+    title: 'Sífilis: sintomas e estágios da doença',
+    excerpt:
+      'A ferida da sífilis desaparece sozinha e a bactéria continua no corpo. Conhecer os quatro estágios explica por que o tratamento não pode esperar o próximo sintoma.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é sífilis',
+        paragraphs: [
+          'A sífilis é uma infecção sexualmente transmissível causada pela bactéria Treponema pallidum, que só infecta seres humanos e não sobrevive por muito tempo fora do corpo. Ela tem cura, evolui em quatro estágios e alterna feridas visíveis com fases inteiras sem nenhum sintoma perceptível.',
+          'O que mais confunde é o comportamento da doença. As lesões desaparecem sozinhas em poucas semanas, mesmo sem tratamento, e a maioria das pessoas conclui que está curada. A bactéria continua se multiplicando, e é essa falsa melhora que explica por que tanta gente descobre a sífilis em um exame de rotina, anos depois do contágio.',
+          'Entender os estágios não é curiosidade médica. É o que define quantas doses de penicilina serão necessárias, de quanto em quanto tempo os exames devem ser repetidos e qual é o risco de transmitir a infecção para uma parceria ou, no caso de gestantes, para o bebê durante a gestação.',
+        ],
+      },
+      {
+        id: 'primeiros-sinais',
+        heading: 'O primeiro sinal: o cancro duro',
+        paragraphs: [
+          'A sífilis primária começa com uma ferida única no lugar por onde a bactéria entrou, como pênis, vulva, vagina, colo do útero, ânus, reto, boca ou até os dedos. Ela aparece entre 10 e 90 dias depois do contágio, recebe o nome de cancro duro e concentra grande quantidade de bactérias.',
+          'O cancro duro tem bordas endurecidas e não dói, não coça, não arde e não solta pus. Como não incomoda, passa despercebido, sobretudo quando fica escondido no colo do útero, no reto ou na garganta, locais que a pessoa não consegue enxergar sozinha. Podem surgir ínguas na virilha, que também costumam ser indolores.',
+          'Depois de algumas semanas, a ferida desaparece sem deixar cicatriz, mesmo sem nenhum remédio. Isso não significa cura: a bactéria já circula pelo organismo, e a pessoa continua capaz de transmitir a infecção pelo contato sexual sem preservativo, inclusive pela boca.',
+        ],
+      },
+      {
+        id: 'sifilis-secundaria',
+        heading: 'A fase das manchas no corpo',
+        paragraphs: [
+          'A sífilis secundária aparece entre seis semanas e seis meses depois da ferida inicial, às vezes quando ela ainda está presente. O sinal mais característico são manchas avermelhadas ou acobreadas na pele, que geralmente não coçam e costumam atingir o tronco, os braços, as pernas e as costas.',
+          'O detalhe que ajuda no diagnóstico é a localização: as manchas aparecem também nas palmas das mãos e nas solas dos pés, o que é incomum em outras doenças de pele. Podem surgir placas úmidas e muito contagiosas nas dobras do corpo, falhas no cabelo e nas sobrancelhas, febre baixa e mal-estar parecido com o de uma virose.',
+          'Essa é a fase de maior transmissibilidade, porque as lesões estão cheias de bactérias. Como as manchas desaparecem em algumas semanas sem tratamento, é comum que a pessoa atribua o quadro a uma alergia, a uma micose ou ao calor e não procure o serviço de saúde.',
+        ],
+      },
+      {
+        id: 'fase-latente',
+        heading: 'A fase sem nenhum sintoma',
+        paragraphs: [
+          'Quando as lesões da fase secundária desaparecem, a doença entra na fase latente. Não há ferida, mancha nem sintoma, e o único vestígio da infecção é o exame de sangue reagente. A bactéria permanece no corpo e pode reativar o quadro meses ou anos mais tarde.',
+          'A latente é dividida em recente, quando a infecção tem até um ano, e tardia, quando passou desse prazo. A divisão tem efeito prático no tratamento, porque a latente recente costuma ser tratada com uma dose de penicilina benzatina, enquanto a tardia exige três doses semanais.',
+          'É nessa fase que o diagnóstico costuma acontecer por acaso, em exames de pré-natal, de triagem para doação de sangue ou de investigação de outra infecção. Na gestação, a latente não é um achado menor, porque a bactéria atravessa a placenta e pode atingir o bebê em qualquer momento da gravidez.',
+        ],
+      },
+      {
+        id: 'sifilis-terciaria',
+        heading: 'A fase tardia e as complicações',
+        paragraphs: [
+          'A sífilis terciária pode surgir de um a 40 anos depois do contágio. As formas mais temidas são as que atingem o coração, a aorta e o sistema nervoso, com lesões que não regridem depois do antibiótico e que exigem tratamento especializado.',
+          'Na pele e nos ossos aparecem nódulos e ulcerações que destroem tecido. No coração, a inflamação da aorta pode dilatar o vaso e levar à insuficiência cardíaca. No sistema nervoso, a neurossífilis provoca alterações de memória e de comportamento, dificuldade para caminhar, dor intensa nas pernas e perda de visão ou de audição.',
+          'A progressão não é inevitável. Tratar a infecção em qualquer estágio anterior interrompe a evolução, e é por isso que um teste rápido feito na hora certa vale mais do que qualquer exame sofisticado depois que os danos aparecem.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'O teste rápido é a porta de entrada do diagnóstico no SUS. Ele usa uma gota de sangue retirada da ponta do dedo, fica pronto em até 30 minutos e detecta anticorpos contra a bactéria, com resultado entregue na mesma consulta e sem necessidade de preparo.',
+          'Em gestantes, em pessoas que sofreram violência sexual, em quem nunca foi testado e em quem apresenta ferida ou manchas típicas, o tratamento pode começar apenas com esse resultado. Nos demais casos, a confirmação vem de um exame de sangue colhido no mesmo dia do início do tratamento.',
+          'Quem já teve sífilis pode manter o teste rápido reagente para sempre, mesmo curado. Por isso a avaliação leva em conta o histórico e usa testes não treponêmicos, como o VDRL, para medir a atividade da infecção e acompanhar a resposta ao tratamento ao longo dos meses seguintes.',
+        ],
+      },
+      {
+        id: 'quando-procurar-ajuda',
+        heading: 'Quando procurar uma unidade de saúde',
+        paragraphs: [
+          'Procure atendimento se aparecer uma ferida indolor na região genital, anal ou na boca, ou manchas no corpo que atinjam as palmas das mãos e as solas dos pés. O exame é gratuito, sigiloso e não exige preparo nem encaminhamento de outro serviço.',
+          'Também vale procurar a unidade depois de uma relação sem preservativo com parceria de situação desconhecida, mesmo sem nenhum sintoma. A sífilis pode ficar meses silenciosa, e o tratamento precoce é o que evita as formas tardias e a transmissão para outras pessoas.',
+        ],
+        cta: {
+          label: 'Veja como funciona o teste rápido e o tratamento da sífilis',
+          href: '/artigos/sifilis-teste-rapido-e-tratamento/',
+        },
+      },
+    ],
+    diseaseSlugs: ['sifilis'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['sifilis-teste-rapido-e-tratamento', 'sifilis-parcerias-e-reinfeccao'],
+    references: [
+      {
+        label: 'Sífilis',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Syphilis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/syphilis',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'sifilis-teste-rapido-e-tratamento',
+    slug: 'sifilis-teste-rapido-e-tratamento',
+    title: 'Sífilis: teste rápido e tratamento com penicilina',
+    excerpt:
+      'O teste rápido fica pronto em 30 minutos e, em muitos casos, a penicilina é aplicada na mesma consulta. Entender o esquema e o acompanhamento evita recaídas.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-funciona-o-teste-rapido',
+        heading: 'Como funciona o teste rápido',
+        paragraphs: [
+          'O teste rápido para sífilis é um teste de triagem que usa uma gota de sangue retirada da ponta do dedo, parecido com o de glicemia capilar. O resultado sai em até 30 minutos, na própria unidade de saúde, sem jejum, sem preparo e sem necessidade de retornar em outro dia para buscá-lo.',
+          'Ele detecta anticorpos que o corpo produz contra a bactéria, e não a bactéria em si. Por isso, um resultado reagente indica que houve contato com o Treponema pallidum em algum momento da vida, sem informar quando isso aconteceu nem se a infecção está ativa naquele momento.',
+          'A grande vantagem é encurtar o caminho entre o diagnóstico e o tratamento. Quem recebe o resultado reagente sai da consulta com a penicilina aplicada ou com a data marcada, e esse intervalo menor reduz a chance de a bactéria seguir transmitindo para outras pessoas. O resultado nunca substitui a conversa sobre sintomas, parcerias e exposições anteriores.',
+        ],
+      },
+      {
+        id: 'resultado-reagente',
+        heading: 'O que significa um resultado reagente',
+        paragraphs: [
+          'Um teste reagente não é sinônimo de infecção recente. Quem já tratou sífilis pode continuar reagente por toda a vida, porque o teste registra a memória do sistema imunológico e não a presença da bactéria viva. O histórico e um exame de sangue quantitativo separam os dois cenários.',
+          'No primeiro atendimento, a equipe colhe também uma amostra para o VDRL, que mede a quantidade de anticorpos e serve de referência para comparar a resposta ao tratamento. Sem essa coleta inicial, não há como saber, meses depois, se os títulos caíram como esperado.',
+          'Quando há dúvida sobre tratamentos anteriores, a conduta mais segura é tratar novamente. Uma dose extra de penicilina não causa dano relevante, enquanto a infecção que segue sem tratamento pode atingir o coração, os vasos e o sistema nervoso anos depois. Quando o serviço não tem o resultado, a pessoa sai com a dose aplicada e com o retorno marcado.',
+        ],
+      },
+      {
+        id: 'tratamento-com-penicilina',
+        heading: 'O esquema com penicilina',
+        paragraphs: [
+          'O tratamento de escolha é a penicilina benzatina, aplicada por via intramuscular na unidade de saúde. Na sífilis primária, na secundária e na latente recente, o esquema é de uma única dose de 2,4 milhões de unidades internacionais, e a pessoa permanece em observação por alguns minutos após a aplicação.',
+          'Na latente tardia, na sífilis de duração ignorada e na terciária sem comprometimento neurológico, são três doses semanais, com intervalo de sete dias entre elas. Atrasos maiores que esse intervalo obrigam a equipe a reavaliar o esquema, e é por isso que as datas das aplicações precisam ser anotadas e cumpridas. Não existe versão oral da penicilina benzatina, e a aplicação é feita por profissional de saúde, na região glútea.',
+          'Quem tem alergia à penicilina deve informar a equipe antes da aplicação. Em gestantes, o caminho é a dessensibilização em ambiente hospitalar, porque os outros antibióticos não atravessam a placenta de forma confiável e não protegem o bebê.',
+        ],
+      },
+      {
+        id: 'reacao-de-jarisch-herxheimer',
+        heading: 'A reação das primeiras 24 horas',
+        paragraphs: [
+          'Nas primeiras 24 horas depois da dose inicial, é comum aparecer febre, calafrios, dor de cabeça, dor no corpo e piora passageira das lesões. Esse conjunto é chamado de reação de Jarisch-Herxheimer e resulta da morte rápida das bactérias, não de alergia ao medicamento.',
+          'O quadro costuma ceder sozinho em um dia e pode ser aliviado com analgésico e antitérmico indicados pela equipe. Ele não contraindica as doses seguintes nem significa que o tratamento falhou, e interromper o esquema por causa dele é um dos erros mais comuns. Vale avisar a equipe se a reação vier acompanhada de falta de ar ou de inchaço no rosto, sinais que já apontam para alergia e exigem outra avaliação.',
+          'Na gestação, a reação merece atenção porque pode provocar contrações e sofrimento fetal. A orientação é aplicar a dose em serviço com condições de avaliação e acompanhar a gestante nas horas seguintes, com repouso, hidratação e retorno imediato se houver sangramento ou dor forte.',
+        ],
+      },
+      {
+        id: 'acompanhamento-com-vdrl',
+        heading: 'O acompanhamento com VDRL',
+        paragraphs: [
+          'Depois do tratamento, a pessoa volta ao serviço para repetir o VDRL em intervalos definidos conforme o estágio e a resposta inicial. O que importa não é um resultado isolado, mas a trajetória dos títulos ao longo dos meses de acompanhamento. Cada coleta deve ser feita no mesmo laboratório, quando possível, porque a comparação entre métodos diferentes distorce a leitura da queda.',
+          'Espera-se queda progressiva. Se os valores não caem ou voltam a subir, a equipe avalia três hipóteses principais: reinfecção por uma nova exposição sem preservativo, tratamento incompleto por doses perdidas e, em alguns casos, comprometimento do sistema nervoso que exige outra abordagem.',
+          'Quem muda de cidade deve levar o registro das doses e dos exames, porque o histórico altera a interpretação do próximo resultado. O acompanhamento também é o momento de revisar as parcerias e de repetir a testagem para HIV e hepatites, infecções que podem ter sido transmitidas na mesma exposição.',
+        ],
+      },
+      {
+        id: 'o-que-muda-na-rotina',
+        heading: 'O que muda na rotina',
+        paragraphs: [
+          'A sífilis não se transmite por assento de vaso sanitário, piscina, toalha, copo ou abraço. Também não permanece no corpo depois da cura nem reaparece sozinha: uma nova infecção só acontece com uma nova exposição sem preservativo, e quem já teve a doença não fica imune.',
+          'Durante o tratamento, o preservativo continua necessário, e o serviço orienta quando é possível retomar as relações sexuais com segurança. Tratar a parceria faz parte do processo, porque sem isso a bactéria volta na próxima relação e o esquema precisa ser repetido.',
+          'A notificação da sífilis adquirida, da sífilis em gestante e da sífilis congênita é obrigatória no Brasil, e o registro não expõe a pessoa: os dados alimentam a vigilância e ajudam a organizar o rastreamento de quem teve contato com o caso. Recusar o teste por medo de exposição é uma preocupação compreensível, mas o sigilo faz parte do atendimento.',
+        ],
+        cta: {
+          label: 'Conheça os sintomas e os estágios da sífilis',
+          href: '/doencas/sifilis/',
+        },
+      },
+    ],
+    diseaseSlugs: ['sifilis'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['sifilis-sintomas-e-estagios', 'sifilis-parcerias-e-reinfeccao'],
+    references: [
+      {
+        label: 'Sífilis',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'IST: diagnóstico',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist/diagnostico',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Syphilis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/syphilis',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'sifilis-na-gestacao-e-sifilis-congenita',
+    slug: 'sifilis-na-gestacao-e-sifilis-congenita',
+    title: 'Sífilis na gestação e sífilis congênita',
+    excerpt:
+      'O teste no pré-natal e a penicilina na hora certa evitam que a bactéria chegue ao bebê. Entenda o calendário da testagem e o que acontece depois do parto.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-a-gestante-preocupa',
+        heading: 'Por que a sífilis na gestação preocupa',
+        paragraphs: [
+          'A sífilis na gestação é uma das poucas situações em que o tratamento da mãe muda completamente o desfecho do bebê. A bactéria atravessa a placenta em qualquer fase da gravidez e alcança o feto, sobretudo quando a infecção nunca foi tratada ou quando o esquema foi interrompido antes do fim.',
+          'As consequências são graves e frequentes: abortamento, parto prematuro, baixo peso ao nascer, malformações, surdez, alterações ósseas e morte do bebê antes ou depois do parto. Quanto mais tarde o tratamento começa, maior a chance de o feto já estar comprometido, e por isso cada semana conta. Sem o teste, a infecção passa despercebida até o parto, quando parte das sequelas já está instalada.',
+          'A maioria das gestantes com sífilis está na fase latente, sem nenhuma ferida visível e sem queixa alguma. É justamente por isso que a testagem de todas as gestantes é obrigatória no pré-natal brasileiro, e não um exame opcional reservado a quem apresenta sintoma ou refere exposição de risco.',
+        ],
+      },
+      {
+        id: 'testagem-no-pre-natal',
+        heading: 'Quando a gestante deve ser testada',
+        paragraphs: [
+          'O teste rápido deve ser feito na primeira consulta de pré-natal, o mais cedo possível, e repetido no terceiro trimestre, por volta da 28ª semana de gestação. Ele também é oferecido no momento do parto, do abortamento e da curetagem, para cobrir os casos em que a infecção surgiu ao longo da gravidez.',
+          'O exame usa uma gota de sangue retirada da ponta do dedo e fica pronto em até 30 minutos, o que permite resolver o resultado na mesma consulta, sem devolver a gestante para casa sem resposta. Um resultado negativo no início, porém, não dispensa a repetição, porque a exposição pode ter acontecido semanas depois.',
+          'A testagem da gestante precisa vir acompanhada da testagem da parceria sexual. Sem esse passo, a mulher tratada pode ser reinfectada nas semanas seguintes, e o bebê volta a ficar exposto mesmo quando o primeiro tratamento foi feito corretamente e no prazo.',
+        ],
+      },
+      {
+        id: 'tratamento-da-gestante',
+        heading: 'O tratamento da gestante',
+        paragraphs: [
+          'O único tratamento reconhecido para a gestante é a penicilina. Não existe esquema alternativo que garanta a proteção do feto, porque os outros antibióticos não atravessam a placenta em quantidade suficiente para eliminar a bactéria no bebê, mesmo quando limpam a infecção na mãe.',
+          'Quem tem alergia à penicilina é submetida à dessensibilização, feita em ambiente hospitalar, com doses crescentes até que o organismo tolere o medicamento. Depois disso, o esquema é aplicado e a gestante permanece em observação, porque a reação de Jarisch-Herxheimer pode provocar contrações e sofrimento fetal.',
+          'O número de doses depende do estágio da doença e do histórico de tratamentos anteriores. O cartão de pré-natal deve registrar a data de cada aplicação, porque essa informação é o que permite avaliar, na sala de parto, se o tratamento recebido foi adequado para proteger o recém-nascido.',
+        ],
+      },
+      {
+        id: 'sifilis-congenita-no-bebe',
+        heading: 'Como a sífilis congênita se manifesta',
+        paragraphs: [
+          'A sífilis congênita acontece quando a bactéria passa da gestante para o feto durante a gestação. A maior parte dos recém-nascidos afetados não apresenta nenhum sinal na primeira avaliação, e é por isso que a comparação entre os exames da mãe e do bebê é essencial para definir a conduta.',
+          'Quando há sintomas, eles podem incluir manchas na pele, coriza persistente, aumento do fígado e do baço, icterícia, anemia e alterações nos ossos, visíveis na radiografia. Sem tratamento, a criança pode desenvolver surdez, problemas de visão, deformidades dentárias e atraso no desenvolvimento.',
+          'O recém-nascido passa por exame clínico, teste sorológico e, conforme o caso, exames de imagem e análise do líquido que envolve o cérebro e a medula. Se o tratamento da mãe foi inadequado ou desconhecido, a criança é tratada mesmo sem sintoma, e o seguimento inclui consultas e exames periódicos até os 18 meses. O seguimento é mais longo quando a mãe não completou o esquema ou quando o bebê apresenta alguma alteração ao nascer.',
+        ],
+      },
+      {
+        id: 'parceria-da-gestante',
+        heading: 'A parceria sexual da gestante',
+        paragraphs: [
+          'A parceria sexual da gestante deve ser testada e tratada na mesma visita, mesmo que não tenha nenhum sintoma e mesmo que o teste tenha dado negativo há pouco tempo. Esse passo é o que evita a reinfecção durante a gravidez, e muitos serviços organizam o atendimento sem exigir uma nova consulta ou novo agendamento.',
+          'Durante o tratamento, o casal precisa manter o preservativo em todas as relações. Retomar as relações sem proteção antes de concluir o esquema é a causa mais comum de reinfecção na gestação, e cada nova infecção reinicia a contagem de risco para o feto.',
+          'Quando a parceria não pode ou não quer se tratar, a gestante deve informar a equipe do pré-natal. O serviço registra a situação, reforça as orientações e mantém a testagem repetida, porque o risco para o bebê aumenta quando a parceria permanece sem diagnóstico e sem tratamento.',
+        ],
+      },
+      {
+        id: 'pos-parto-e-acompanhamento',
+        heading: 'Depois do parto',
+        paragraphs: [
+          'Depois do parto, a mulher repete o exame de sangue para confirmar a resposta ao tratamento. O bebê tem acompanhamento próprio, com avaliações clínicas e testes sorológicos periódicos, mesmo quando nasce saudável, sem alteração no exame físico e com exames normais na maternidade.',
+          'Amamentar não transmite sífilis e deve ser mantido. A única exceção são as lesões ativas na mama, situação em que a ordenha e o oferecimento do leite em outro recipiente são orientados até a cicatrização completa da ferida, sem interromper a amamentação por tempo prolongado. Manter as consultas em dia é o que garante que qualquer sinal tardio seja percebido cedo.',
+          'A sífilis congênita é de notificação obrigatória no Brasil, e o registro não expõe a família: os dados orientam a vigilância e ajudam a garantir que a criança continue em acompanhamento. Faltar às consultas de seguimento é o principal motivo de atraso no diagnóstico das formas tardias.',
+        ],
+        cta: {
+          label: 'Conheça os sintomas e os estágios da sífilis',
+          href: '/doencas/sifilis/',
+        },
+      },
+    ],
+    diseaseSlugs: ['sifilis'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-da-mulher'],
+    relatedArticleSlugs: ['sifilis-teste-rapido-e-tratamento', 'sifilis-parcerias-e-reinfeccao'],
+    references: [
+      {
+        label: 'Sífilis congênita',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis/sifilis-congenita',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Sífilis',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Syphilis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/syphilis',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'sifilis-parcerias-e-reinfeccao',
+    slug: 'sifilis-parcerias-e-reinfeccao',
+    title: 'Sífilis: parcerias, aviso e reinfecção',
+    excerpt:
+      'Tratar só quem procurou o serviço não interrompe a transmissão. Avisar as parcerias e repetir os exames é o que evita a reinfecção e o recomeço do tratamento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-tratar-as-parcerias',
+        heading: 'Por que tratar as parcerias',
+        paragraphs: [
+          'Tratar apenas a pessoa que procurou o serviço não interrompe a cadeia de transmissão da sífilis. A bactéria vive nas mucosas de quem está infectado, e uma parceria sem nenhum sintoma pode devolvê-la dias depois do fim do tratamento, o que reinicia todo o processo do zero.',
+          'As parcerias sexuais dos últimos meses precisam ser testadas e tratadas, mesmo quando o teste rápido dá negativo e mesmo quando não há ferida, mancha ou queixa. A janela entre a exposição e o resultado reagente existe, e a avaliação clínica define quem recebe tratamento por precaução.',
+          'O serviço de saúde costuma atender as parcerias sem exigir que a pessoa conte detalhes da relação. Em muitos casos a medicação é aplicada no mesmo dia do teste, e o sigilo faz parte do atendimento, o que reduz o constrangimento de procurar ajuda e aumenta a chance de o ciclo ser interrompido. Ninguém precisa saber com quem se infectou para receber o tratamento.',
+        ],
+      },
+      {
+        id: 'como-avisar',
+        heading: 'Como avisar sem constrangimento',
+        paragraphs: [
+          'Avisar a parceria é desconfortável, mas existem caminhos menos expostos do que parece. Muitos serviços oferecem o aviso anônimo, em que a equipe entra em contato sem dizer quem indicou o nome, ou entregam um bilhete com a orientação de procurar a unidade de saúde.',
+          'A conversa fica mais fácil quando o assunto é tratado como saúde, e não como acusação. Dizer que fez um teste de rotina e que o resultado deu reagente, sem tentar descobrir quem transmitiu, evita discussões que não mudam o tratamento e apenas atrasam o cuidado dos dois lados. Quando a relação já terminou, a mensagem escrita pode ser a única via possível, e o importante é que a informação chegue.',
+          'Quem tem várias parcerias deve avisar todas as que tiveram contato nos últimos meses, porque não há como saber qual delas transmitiu a bactéria. O serviço pode ajudar a listar os contatos e a combinar, junto com a pessoa, a forma de aviso que ela consegue cumprir.',
+        ],
+      },
+      {
+        id: 'parceria-com-teste-negativo',
+        heading: 'Quando a parceria testa negativo',
+        paragraphs: [
+          'Um teste negativo na parceria não encerra o assunto. Se o contato foi recente, o corpo pode ainda não ter produzido anticorpos suficientes para o resultado reagente, e o exame precisa ser repetido depois de algumas semanas para que a resposta faça sentido.',
+          'Nessa situação, a equipe pode optar por tratar a parceria mesmo com o teste negativo, sobretudo quando há dificuldade de retorno ao serviço ou quando a pessoa relata outras exposições sem preservativo. A decisão considera o tempo do contato, o histórico e a possibilidade real de acompanhamento.',
+          'A mesma lógica explica por que a testagem de rotina precisa ser repetida. Um resultado negativo hoje indica apenas que não havia anticorpos detectáveis naquele dia, e não que a pessoa esteja livre da infecção de forma permanente. Repetir o exame não é desconfiança, é parte do protocolo de acompanhamento.',
+        ],
+      },
+      {
+        id: 'reinfeccao',
+        heading: 'Reinfecção: por que acontece',
+        paragraphs: [
+          'Quem já teve sífilis não desenvolve imunidade. Uma nova relação sem preservativo com parceria infectada provoca uma nova infecção, que precisa de um novo tratamento completo, com as mesmas doses e o mesmo acompanhamento do primeiro episódio.',
+          'A reinfecção é comum e costuma aparecer como uma nova ferida, manchas na pele ou apenas um exame reagente com títulos que voltam a subir. O acompanhamento existe justamente para identificar esse retorno antes de a doença avançar para as formas tardias, que já não regridem. O preservativo continua necessário depois da cura, porque a proteção vem da barreira física e não do tratamento que já terminou.',
+          'Prevenir a reinfecção faz parte do tratamento. Isso significa preservativo em todas as relações, testagem das parcerias e repetição dos exames conforme a orientação do serviço, sem esperar o aparecimento de sintomas para voltar à unidade. Reinfecções repetidas não deixam o corpo mais resistente: cada nova infecção reinicia o relógio da doença e aumenta o risco de formas tardias, inclusive neurológicas.',
+        ],
+      },
+      {
+        id: 'preservativo-e-outras-ist',
+        heading: 'Preservativo e outras infecções',
+        paragraphs: [
+          'O preservativo externo e o interno, usados do começo ao fim da relação, reduzem de forma consistente a transmissão da sífilis. O SUS distribui os dois gratuitamente nas unidades básicas de saúde, sem receita, sem cadastro e sem necessidade de agendamento prévio. Quem tem alergia ao látex encontra versões de poliuretano e de poli-isopreno, e o lubrificante deve ser à base de água.',
+          'A proteção vale para todas as formas de sexo, porque a bactéria está nas mucosas da boca, do ânus, do reto e da genitália. Preservativo apenas na penetração, ou colocado no fim, deixa de fora justamente o contato que transmite a infecção com mais eficiência.',
+          'Quem recebe diagnóstico de sífilis deve aproveitar a consulta para testar HIV e hepatites B e C. Essas infecções compartilham as mesmas vias de transmissão, muitas vezes não dão sintoma, e o tratamento precoce muda o prognóstico de todas elas.',
+        ],
+      },
+      {
+        id: 'estigma-e-vida-cotidiana',
+        heading: 'Estigma e vida cotidiana',
+        paragraphs: [
+          'A sífilis não se transmite por assento de vaso sanitário, piscina, toalha, talheres, copo ou abraço. Também não permanece no corpo depois da cura e não reaparece sozinha, o que ajuda a desfazer o medo de quem convive com alguém que já teve a infecção.',
+          'O estigma é a principal razão pela qual muita gente adia o teste e só descobre a doença em uma fase mais avançada. Vale lembrar que a sífilis é uma infecção bacteriana comum, com tratamento gratuito e eficaz, e que o sigilo do atendimento é garantido a todas as pessoas atendidas no SUS.',
+          'Vale procurar a unidade também quando a parceria recebeu o diagnóstico e não sabe como avisar. A equipe orienta o caminho e conduz a conversa sem julgamento, porque o objetivo é tratar quem está infectado e impedir que a bactéria continue circulando entre as pessoas da mesma rede de contatos. Guardar o comprovante de tratamento e as datas das doses ajuda a equipe a interpretar exames futuros, porque a sorologia pode permanecer positiva por anos mesmo depois da cura.',
+        ],
+        cta: {
+          label: 'Veja os sintomas e os estágios da sífilis',
+          href: '/doencas/sifilis/',
+        },
+      },
+    ],
+    diseaseSlugs: ['sifilis'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['sifilis-sintomas-e-estagios', 'sifilis-teste-rapido-e-tratamento'],
+    references: [
+      {
+        label: 'Infecções Sexualmente Transmissíveis (IST)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Sífilis',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'neurossifilis-sintomas-e-sinais-de-alerta',
+    slug: 'neurossifilis-sintomas-e-sinais-de-alerta',
+    title: 'Neurossífilis: sintomas e sinais de alerta',
+    excerpt:
+      'Quando a sífilis chega ao sistema nervoso, os sinais vão de dor de cabeça e perda de visão a alterações de memória. Reconhecer cedo muda o prognóstico.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é neurossífilis',
+        paragraphs: [
+          'A neurossífilis é o comprometimento do sistema nervoso pela bactéria Treponema pallidum. Ela pode acontecer em qualquer estágio da doença, inclusive nos primeiros meses após o contágio, e não é uma complicação exclusiva das fases tardias como muita gente imagina. O quadro é mais frequente em quem nunca tratou a sífilis ou tratou de forma incompleta.',
+          'A bactéria chega ao cérebro e à medula pelo sangue, ainda durante a fase de disseminação do organismo. Na maioria das pessoas o sistema imunológico consegue conter essa invasão sem sintoma, mas em uma parte delas a inflamação persiste e progride ao longo de meses ou anos.',
+          'O diagnóstico depende de exames específicos, porque os sintomas imitam muitas outras doenças neurológicas. Tratar cedo interrompe a evolução; deixar para depois permite que lesões já instaladas deixem sequelas permanentes de memória, marcha, visão e audição.',
+        ],
+      },
+      {
+        id: 'formas-e-sintomas',
+        heading: 'As formas de apresentação',
+        paragraphs: [
+          'A forma meníngea aparece nos primeiros meses ou anos e lembra uma meningite: dor de cabeça persistente, rigidez de nuca, febre baixa, náusea e alterações de nervos cranianos, que podem causar visão dupla, paralisia facial e perda auditiva. É a apresentação mais fácil de reconhecer quando há contexto de sífilis recente.',
+          'A forma meningovascular provoca inflamação dos vasos que irrigam o cérebro e pode causar um acidente vascular cerebral em adulto jovem, sem os fatores de risco habituais. Já a forma parenquimatosa atinge o tecido nervoso: a paralisia geral cursa com alterações de comportamento, irritabilidade, delírios e perda de memória, e a tabes dorsalis causa dor intensa nas pernas e dificuldade para caminhar.',
+          'Existem ainda a sífilis ocular e a otossífilis, que atingem olhos e ouvidos. A ocular provoca uveíte, embaçamento e perda de visão, às vezes sem outros sintomas. A auditiva causa perda de audição que piora em semanas, zumbido e vertigem, e costuma ser confundida com outras causas de surdez súbita.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta',
+        paragraphs: [
+          'Procure atendimento imediato se houver perda de visão ou de audição que se instala em dias, dor de cabeça intensa e contínua, febre com rigidez de nuca ou fraqueza súbita de um lado do corpo. Nesses casos, a informação de que houve sífilis no passado ou de que existe teste reagente muda a investigação.',
+          'Também merecem avaliação mudanças de personalidade e de memória em pessoa jovem, dificuldade progressiva para caminhar, dor em pontada nas pernas, incontinência urinária de início recente e tremores nas mãos. Esses sinais podem ser atribuídos a estresse, envelhecimento ou problemas ortopédicos e passar meses sem investigação adequada.',
+          'A avaliação neurológica não substitui o teste para sífilis nem o contrário. Os dois caminhos se complementam, e o exame do líquido que envolve o cérebro e a medula é o que confirma o comprometimento do sistema nervoso quando a suspeita existe.',
+        ],
+        bullets: [
+          'Perda de visão ou de audição em poucos dias',
+          'Dor de cabeça intensa com febre e rigidez de nuca',
+          'Fraqueza ou paralisia súbita de um lado do corpo',
+          'Alterações de memória e de comportamento em adulto jovem',
+          'Dor em pontada nas pernas ou dificuldade para caminhar',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é confirmado',
+        paragraphs: [
+          'A confirmação vem da análise do líquido cefalorraquidiano, colhido por punção lombar. Esse exame avalia o número de células, a quantidade de proteína e a presença de anticorpos contra a bactéria no líquido, o que indica inflamação dentro do sistema nervoso central.',
+          'A punção é feita em ambiente ambulatorial ou hospitalar, com anestesia local, e dura poucos minutos. Antes do procedimento, a equipe verifica se há sinais de pressão elevada dentro do crânio, situação em que o exame precisa de outra programação e de avaliação especializada.',
+          'Todo paciente com diagnóstico de neurossífilis deve fazer o teste para HIV, porque a imunossupressão altera a evolução e a resposta ao tratamento. Exames de imagem do crânio e da medula ajudam a descartar outras causas e a identificar lesões vasculares ou inflamatórias.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'O tratamento',
+        paragraphs: [
+          'A neurossífilis é tratada em ambiente hospitalar, com penicilina em doses altas por via intravenosa, aplicada em intervalos regulares ao longo de cerca de duas semanas. A internação permite manter o esquema sem falhas e observar reações, que são mais intensas quando a quantidade de bactérias é grande.',
+          'Quem tem alergia à penicilina passa por dessensibilização antes do tratamento, porque não existe substituto com a mesma eficácia para a forma neurológica. A reação de Jarisch-Herxheimer pode ser intensa nesses casos, com febre, calafrios e piora transitória dos sintomas neurológicos nas primeiras horas.',
+          'Depois da alta, o acompanhamento inclui avaliação clínica e repetição do exame do líquido em intervalos definidos pela equipe. A queda da inflamação é o que mostra que a infecção está sendo controlada, e o tratamento pode precisar ser repetido quando a resposta não é a esperada.',
+        ],
+      },
+      {
+        id: 'sequelas-e-acompanhamento',
+        heading: 'Sequelas e acompanhamento',
+        paragraphs: [
+          'O antibiótico elimina a bactéria, mas não desfaz o tecido já lesado. Quem é tratado cedo costuma recuperar boa parte das funções; quando o diagnóstico demora, podem restar déficits de memória, alterações de marcha, visão reduzida ou perda auditiva que exigem reabilitação e acompanhamento de longo prazo. O trabalho com uma equipe multidisciplinar é o que permite ajustar expectativas e metas a cada etapa da recuperação.',
+          'A dor da tabes dorsalis e as alterações de sensibilidade podem melhorar lentamente, e o tratamento da dor costuma exigir medicamentos específicos para dor neuropática. Fisioterapia, terapia ocupacional e apoio psicológico ajudam na retomada das atividades e no manejo das mudanças de comportamento.',
+          'Prevenir a neurossífilis é tratar a sífilis em qualquer estágio, com o esquema completo e o acompanhamento previsto. Quem já teve a infecção deve continuar usando preservativo e repetindo os testes, porque a nova exposição reabre todo o risco, inclusive o de comprometimento neurológico.',
+        ],
+        cta: {
+          label: 'Conheça os sintomas e os estágios da sífilis',
+          href: '/doencas/sifilis/',
+        },
+      },
+    ],
+    diseaseSlugs: ['sifilis'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['sifilis-sintomas-e-estagios', 'sifilis-teste-rapido-e-tratamento'],
+    references: [
+      {
+        label: 'Sífilis',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Syphilis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/syphilis',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'covid-19-sintomas-e-sinais-de-alerta',
+    slug: 'covid-19-sintomas-e-sinais-de-alerta',
+    title: 'Covid-19: sintomas e sinais de alerta',
+    excerpt:
+      'A covid-19 começa como um resfriado e piora, quando piora, na segunda semana. Saber quais sinais indicam falta de oxigênio é o que define a hora de buscar ajuda.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-a-doenca-comeca',
+        heading: 'Como a doença começa',
+        paragraphs: [
+          'O SARS-CoV-2 entra pelo nariz e pela boca, se multiplica nas vias aéreas e pode descer até os pulmões, onde atrapalha a passagem do oxigênio para o sangue. O período entre a exposição e os primeiros sintomas varia de 1 a 10 dias, com média de 3 a 4 dias depois que a variante ômicron passou a predominar.',
+          'O início costuma ser parecido com o de um resfriado: dor de garganta, coriza, tosse seca, febre baixa e dor no corpo. Muita gente consegue trabalhar e cuidar da casa nos primeiros dias, o que reforça a impressão de que se trata de algo simples e atrasa o cuidado com os sinais que aparecem depois.',
+          'A evolução típica da covid-19 tem um padrão que ajuda a entender o risco. A piora, quando acontece, costuma surgir na segunda semana de sintomas, e não nas primeiras 48 horas, porque é nesse momento que a resposta inflamatória do corpo se intensifica dentro dos pulmões.',
+        ],
+      },
+      {
+        id: 'sintomas-comuns',
+        heading: 'Os sintomas mais comuns',
+        paragraphs: [
+          'Febre ou calafrios, tosse, cansaço, falta de apetite, dor no corpo e dor de cabeça são as queixas mais frequentes. Dor de garganta, coriza e congestão nasal aparecem com frequência e se confundem com um resfriado comum, o que torna o teste importante quando há circulação do vírus na comunidade.',
+          'A falta de ar merece atenção separada, porque muda a conduta. Quem consegue falar frases inteiras, come, bebe e mantém a saturação acima de 94% pode ser acompanhado em casa, com retorno imediato se qualquer um desses pontos mudar ao longo do dia.',
+          'A febre costuma ceder em três a cinco dias e pode voltar. Cansaço e tosse seca frequentemente duram mais tempo, às vezes por semanas, e não indicam, por si só, que a doença está piorando. O que sinaliza gravidade é a falta de ar associada à queda de saturação.',
+        ],
+      },
+      {
+        id: 'sintomas-menos-tipicos',
+        heading: 'Sintomas menos típicos',
+        paragraphs: [
+          'Perda de olfato e de paladar, diarreia, náusea, olhos vermelhos e confusão mental também fazem parte do quadro, embora apareçam em menor proporção dos casos. Quando a perda de olfato vem isolada e sem coriza, ela levanta a suspeita de covid-19 com mais força do que a maioria dos outros sintomas.',
+          'Em idosos, a apresentação pode ser atípica: sonolência, recusa de comida, desorientação e queda do estado geral podem ser o primeiro sinal, mesmo sem febre alta e sem tosse. Essa apresentação silenciosa é uma das razões pelas quais a doença ainda surpreende famílias que convivem com pessoas idosas.',
+          'Crianças e adolescentes costumam ter formas leves, com febre, tosse e mal-estar. Ainda assim, podem desenvolver semanas depois uma resposta inflamatória tardia e grave, que exige internação e se manifesta por febre persistente, manchas na pele, dor abdominal e prostração.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta',
+        paragraphs: [
+          'Falta de ar em repouso ou ao falar, saturação abaixo de 94% no ar ambiente, lábios ou rosto azulados e pressão no peito que não passa são sinais de que a doença saiu do trato respiratório superior. Nesses casos, não espere o resultado de um exame: procure o pronto atendimento ou ligue para o SAMU no 192.',
+          'Confusão mental, sonolência excessiva, desmaio e febre que volta depois de dias de melhora também indicam avaliação imediata. Em crianças, respiração rápida, peito puxando, gemido ao respirar e recusa de líquidos são sinais de gravidade e não devem ser observados em casa por muito tempo.',
+          'Cerca de 15% dos casos evoluem para a forma grave e 5% para a crítica, segundo o Ministério da Saúde. A proporção é menor hoje do que nos primeiros anos da pandemia, mas o risco continua concentrado em idosos, pessoas com doenças crônicas e pessoas com a imunidade comprometida.',
+        ],
+        bullets: [
+          'Falta de ar em repouso ou ao falar',
+          'Saturação de oxigênio abaixo de 94%',
+          'Lábios ou rosto azulados',
+          'Pressão ou dor no peito que não passa',
+          'Confusão, sonolência excessiva ou desmaio',
+        ],
+      },
+      {
+        id: 'quem-piora-mais',
+        heading: 'Quem tem mais risco de piorar',
+        paragraphs: [
+          'A idade é o fator isolado mais importante, e o risco sobe de forma contínua a partir dos 60 anos. Diabetes, hipertensão, doenças do coração e do pulmão, doença renal crônica, obesidade, demência e câncer também aumentam a chance de a infecção evoluir para falta de ar e internação.',
+          'Pessoas com a imunidade comprometida, gestantes e puérperas, tabagistas e quem não completou a vacinação entram no mesmo grupo de atenção. Na gestação, o risco é maior acima dos 35 anos, na obesidade e quando existe diabetes gestacional ou pré-eclâmpsia.',
+          'Ter um fator de risco não significa evoluir mal, e não ter nenhum também não garante forma leve. O que muda o desfecho é a combinação entre vacinação em dia, reconhecimento precoce dos sinais de alerta e atendimento no momento certo. A vacinação atualizada é o fator que mais altera esse cenário.',
+        ],
+      },
+      {
+        id: 'quando-voltar-a-rotina',
+        heading: 'Quando voltar à rotina',
+        paragraphs: [
+          'A maioria das pessoas melhora em cerca de uma semana e pode retomar as atividades aos poucos, começando por tarefas leves e aumentando o esforço conforme a tolerância. Tosse residual e cansaço podem durar mais tempo e não impedem o retorno, desde que não haja falta de ar aos esforços.',
+          'Vale procurar a unidade de saúde se os sintomas passarem de quatro semanas, se o cansaço impedir as atividades do dia a dia ou se surgirem palpitações, dor no peito, alterações de memória e de sono. Essas queixas podem fazer parte do que se chama de condição pós-covid.',
+          'Quem trabalha com atendimento ao público ou cuida de pessoas idosas deve redobrar o cuidado no retorno, mantendo a máscara nos primeiros dias e evitando contato próximo com quem tem maior risco de forma grave. O afastamento do trabalho segue a orientação do serviço de saúde e as regras da empresa.',
+        ],
+        cta: {
+          label: 'Saiba o que fazer quando o teste dá positivo',
+          href: '/artigos/covid-19-teste-positivo-o-que-fazer/',
+        },
+      },
+    ],
+    diseaseSlugs: ['covid-19'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['covid-19-teste-positivo-o-que-fazer', 'covid-19-covid-longa-sintomas-e-recuperacao'],
+    references: [
+      {
+        label: 'Covid-19',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'covid-19-como-se-transmite-e-como-se-proteger',
+    slug: 'covid-19-como-se-transmite-e-como-se-proteger',
+    title: 'Covid-19: como se transmite e como se proteger',
+    excerpt:
+      'O vírus circula pelo ar em ambientes fechados. Ventilação, máscara e vacina em dia continuam sendo o que mais reduz a transmissão e o risco de forma grave.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'gotículas-e-aerossóis',
+        heading: 'Gotículas, aerossóis e mãos',
+        paragraphs: [
+          'A transmissão acontece por três caminhos que se somam. O primeiro são as gotículas de saliva e secreções que saem quando alguém tosse, espirra ou fala perto de outra pessoa, alcançando distâncias curtas. O segundo são os aerossóis, partículas menores que ficam suspensas no ar e se espalham por um ambiente fechado.',
+          'O terceiro é o contato das mãos com superfícies contaminadas, levadas depois à boca, ao nariz ou aos olhos. Esse caminho é menos importante do que se pensava no início da pandemia, mas continua existindo, sobretudo em ambientes onde muitas pessoas tocam os mesmos objetos.',
+          'Quem não tem sintoma também transmite, e esse é o ponto que explica por que a doença se espalhou tão rápido. A transmissão começa antes do aparecimento dos sinais, o que significa que uma pessoa pode contaminar outras em uma reunião de família ou no transporte sem saber que estava infectada. A quantidade de vírus inalada também influencia a chance de adoecer e a gravidade do quadro.',
+        ],
+      },
+      {
+        id: 'ambientes-fechados',
+        heading: 'Por que o ambiente fechado pesa tanto',
+        paragraphs: [
+          'Em um lugar fechado, mal ventilado e com muitas pessoas, os aerossóis se acumulam no ar e permanecem por mais tempo. Uma sala com janelas abertas renova o ar e reduz a concentração de partículas, o que diminui a chance de alguém inalar uma quantidade capaz de causar infecção. Um ambiente pequeno, cheio e sem janela aberta concentra mais partículas do que uma sala ampla e arejada.',
+          'Abrir janelas e portas é a medida mais simples e barata, e vale para casa, trabalho, escola e transporte coletivo. Ventilador e ar-condicionado não substituem a renovação do ar, e aparelhos que apenas recirculam o ar do ambiente podem ajudar a distribuir as partículas em vez de eliminá-las. Em dias de chuva ou frio, deixar uma fresta aberta já mantém alguma renovação do ar.',
+          'Em períodos de circulação intensa do vírus, evitar aglomerações em locais fechados reduz o risco de forma significativa. Quando a permanência é inevitável, a máscara bem ajustada ao rosto funciona como barreira para quem está perto. Um indicador prático é a ventilação: salas com janelas abertas e ar renovado dispersam as partículas virais com muito mais eficiência do que um ambiente com ar parado.',
+        ],
+      },
+      {
+        id: 'mascara-quando-usar',
+        heading: 'Quando a máscara é recomendada',
+        paragraphs: [
+          'A recomendação atual é de uso para quem tem sintomas respiratórios, para casos confirmados, para pessoas imunossuprimidas e para idosos, além de locais fechados e aglomerados. Em unidades de saúde, o uso continua obrigatório para profissionais e visitantes.',
+          'A máscara funciona melhor quando cobre nariz e boca e se ajusta bem ao rosto, sem folgas nas laterais. Máscaras cirúrgicas e respiradores do tipo PFF2 ou N95 oferecem proteção maior do que tecidos simples, especialmente para quem está no grupo de risco.',
+          'Usar a máscara só ao entrar em um lugar e retirá-la para conversar anula boa parte do efeito. O uso precisa cobrir o período de permanência no ambiente, e a máscara deve ser trocada quando ficar úmida ou suja. Máscaras com válvula de expiração não são indicadas em serviços de saúde, porque liberam o ar sem filtro.',
+        ],
+      },
+      {
+        id: 'higiene-e-superficies',
+        heading: 'Higiene das mãos e superfícies',
+        paragraphs: [
+          'Lavar as mãos com água e sabão por cerca de 20 segundos ou usar álcool em gel continua sendo uma medida útil, principalmente antes de comer e depois de usar transporte público. A higiene reduz a transmissão por contato e também protege contra outras infecções respiratórias e intestinais.',
+          'A limpeza de superfícies muito tocadas, como maçanetas, corrimãos e mesas, deve ser feita com álcool ou detergente, sobretudo quando alguém com sintomas vive no mesmo espaço. Não é necessário desinfetar embalagens de compras nem calçados.',
+          'Etiqueta respiratória completa o conjunto: tossir e espirrar cobrindo nariz e boca com o antebraço, usar lenço descartável e lavar as mãos em seguida. São gestos simples que reduzem a quantidade de vírus lançada no ambiente. Álcool em gel com concentração entre 60% e 70% é o mais indicado para as mãos.',
+        ],
+      },
+      {
+        id: 'vacina-e-protecao',
+        heading: 'O papel da vacina',
+        paragraphs: [
+          'A vacina é a medida que mais reduz o risco de forma grave, internação e morte, e o Programa Nacional de Imunizações oferece vacinas autorizadas pela Anvisa e avaliadas pelo Instituto Nacional de Controle de Qualidade em Saúde. Mesmo sem impedir todo contágio, ela treina o organismo a reagir rápido quando o vírus aparece.',
+          'O esquema é atualizado conforme a circulação do vírus e a orientação vigente, e a unidade de saúde informa quem precisa de reforço naquele momento. Pessoas com mais de 60 anos e imunossuprimidas costumam ter prioridade nas doses de reforço. A proteção cai com o tempo e com novas variantes, o que explica a necessidade de doses periódicas.',
+          'Vacinar-se não elimina as outras medidas, e as outras medidas não substituem a vacina. A combinação é o que sustenta a proteção de quem convive com pessoas idosas ou com doenças crônicas em casa.',
+        ],
+      },
+      {
+        id: 'convivio-com-caso-confirmado',
+        heading: 'Convivência com um caso confirmado',
+        paragraphs: [
+          'Quem está com sintomas respiratórios deve evitar contato próximo com outras pessoas enquanto estiver sintomático, usar máscara quando precisar circular pela casa e manter os ambientes ventilados. Copos, talheres e toalhas não devem ser compartilhados durante esse período.',
+          'O ideal é separar um quarto e, quando possível, um banheiro para a pessoa com sintomas, e limpar as áreas comuns com frequência. Mesmo em apartamentos pequenos, abrir as janelas e manter distância nas refeições reduz de forma relevante a transmissão dentro de casa.',
+          'Depois do período sintomático, a volta ao convívio é gradual. Manter a máscara por alguns dias, evitar refeições compartilhadas e continuar ventilando a casa são cuidados simples que protegem quem tem maior risco de forma grave, sobretudo em casas com idosos. Há situações em que o distanciamento não é possível, como cuidar de uma criança doente. Nesses casos, redobrar a máscara e a higiene das mãos funciona melhor do que abandonar os cuidados por achar que já houve exposição.',
+        ],
+        cta: {
+          label: 'Veja o que fazer depois de um teste positivo',
+          href: '/artigos/covid-19-teste-positivo-o-que-fazer/',
+        },
+      },
+    ],
+    diseaseSlugs: ['covid-19'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['covid-19-vacina-e-doses-de-reforco', 'covid-19-teste-positivo-o-que-fazer'],
+    references: [
+      {
+        label: 'Covid-19',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Covid-19: esquemas vacinais',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/esquemas-vacinais',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'covid-19-teste-positivo-o-que-fazer',
+    slug: 'covid-19-teste-positivo-o-que-fazer',
+    title: 'Covid-19: teste positivo, o que fazer',
+    excerpt:
+      'Resultado positivo exige cuidado em casa, atenção aos sinais de alerta e máscara no convívio. Veja o passo a passo dos primeiros dias e quando voltar ao serviço.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'resultado-positivo',
+        heading: 'O resultado positivo',
+        paragraphs: [
+          'Um teste positivo confirma a infecção pelo SARS-CoV-2, seja ele de antígeno, seja molecular. A conduta não depende do tipo de exame: o que define onde a pessoa será acompanhada é o quadro clínico, e não a marca do teste nem a intensidade da linha que apareceu no dispositivo.',
+          'A partir do resultado, a primeira providência é avisar as pessoas com quem houve contato próximo nos dois dias anteriores ao início dos sintomas. Esse aviso permite que elas se testem e evitem visitas a pessoas idosas ou imunossuprimidas antes de saber se também foram infectadas.',
+          'Quem tem 65 anos ou mais ou convive com imunossupressão deve procurar atendimento mesmo com sintomas leves, porque existe tratamento disponível no SUS e ele precisa começar cedo. A avaliação também é indicada para gestantes, puérperas e pessoas com doenças crônicas descompensadas. Obesidade, diabetes descompensado e doença pulmonar crônica também pesam na decisão de procurar atendimento cedo.',
+        ],
+      },
+      {
+        id: 'isolamento-e-convivio',
+        heading: 'Isolamento e convívio',
+        paragraphs: [
+          'A orientação é evitar contato próximo com outras pessoas enquanto houver sintomas respiratórios. Na prática, isso significa dormir em quarto separado quando possível, usar máscara ao circular pela casa, manter as janelas abertas e não compartilhar copos, talheres e toalhas. A máscara deve ser usada também ao receber visitas e ao usar o banheiro compartilhado.',
+          'O tempo de afastamento depende da evolução do quadro e das regras do serviço de saúde e do trabalho. Não é necessário repetir o teste para encerrar o período: exames de antígeno podem continuar positivos por semanas, mesmo quando a pessoa já não transmite.',
+          'Quem não pode se isolar por completo deve redobrar os cuidados com os moradores de maior risco, mantendo distância nas refeições, higienizando as mãos com frequência e usando máscara de boa qualidade quando estiver perto deles. Lençóis e roupas de cama da pessoa doente devem ser lavados separadamente, com água e sabão, e não precisam de produtos especiais.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados em casa',
+        paragraphs: [
+          'Repouso, hidratação frequente e antitérmicos para a febre são a base do tratamento dos casos leves, sempre respeitando as orientações recebidas no atendimento. Alimentar-se bem, mesmo com pouco apetite, ajuda na recuperação, e sopas, frutas e líquidos são boas escolhas nos dias de maior mal-estar. Bebidas alcoólicas e cigarro atrapalham a recuperação e devem ser evitados durante a fase aguda.',
+          'Vale anotar a temperatura e, se houver oxímetro em casa, a saturação ao longo do dia. A medida deve ser feita em repouso, com o dedo aquecido e sem esmalte, porque esmalte e mãos frias distorcem o resultado e geram alarme sem motivo.',
+          'Em idosos, mudança de comportamento, sonolência e recusa de comida podem ser o primeiro sinal de piora, mesmo sem febre alta. Quem cuida de alguém nessa faixa de idade deve observar a disposição e a respiração ao longo do dia, e não apenas a temperatura. Ter um oxímetro em casa ajuda, mas o aparelho não substitui a avaliação clínica: o que orienta a conduta é o conjunto de sintomas.',
+        ],
+      },
+      {
+        id: 'quando-procurar-ajuda',
+        heading: 'Quando procurar ajuda',
+        paragraphs: [
+          'Falta de ar em repouso ou ao falar, saturação abaixo de 94%, lábios azulados e dor no peito que não passa indicam necessidade imediata de atendimento. Nesses casos, a orientação é procurar o pronto atendimento ou ligar para o SAMU no 192, sem esperar o resultado de novos exames.',
+          'Confusão mental, desmaio, sonolência excessiva, febre que retorna depois de dias de melhora e incapacidade de beber líquidos também são motivos para buscar ajuda no mesmo dia. Em crianças, respiração rápida, peito puxando e recusa de alimentos pedem avaliação ainda mais cedo.',
+          'A piora costuma acontecer na segunda semana de sintomas, e é comum que a pessoa se sinta melhor antes de piorar. Esse intervalo engana, e por isso a recomendação de manter a observação até o fim da primeira quinzena continua valendo mesmo quando a febre já passou. O retorno ao trabalho deve ser gradual, com tarefas mais leves nas primeiras semanas quando a atividade exige esforço físico.',
+        ],
+      },
+      {
+        id: 'tratamento-e-o-que-evitar',
+        heading: 'Tratamento e o que evitar',
+        paragraphs: [
+          'Para pessoas com 65 anos ou mais e para imunossuprimidos, o SUS oferece a associação de nirmatrelvir e ritonavir, indicada em casos leves e moderados com diagnóstico confirmado e iniciada nos primeiros cinco dias de sintomas, sempre com prescrição médica e atenção às interações com outros remédios.',
+          'Antibiótico não trata covid-19 e só deve ser usado quando há suspeita de infecção bacteriana associada. Corticoides também não são indicados em casos leves, porque nessa fase podem atrapalhar a resposta do organismo e aumentar o risco de complicação.',
+          'Remédios sem comprovação científica contra o vírus não devem ser usados por conta própria, nem como prevenção. Além de não haver evidência de benefício, alguns deles causam efeitos adversos sérios, e o uso sem indicação atrasa a busca por atendimento quando a doença começa a piorar. Antes de usar qualquer remédio caseiro, vale conversar com a equipe, porque algumas plantas e chás interferem em medicamentos de uso contínuo.',
+        ],
+      },
+      {
+        id: 'depois-da-doenca',
+        heading: 'Depois da fase aguda',
+        paragraphs: [
+          'A maioria das pessoas melhora em cerca de uma semana, mas tosse e cansaço podem durar mais tempo. Um teste negativo não é exigência para voltar a circular, desde que a febre tenha desaparecido e os sintomas estejam em melhora, seguindo a orientação do serviço que acompanhou o caso.',
+          'Se o cansaço persistir por semanas, se houver falta de ar aos esforços, palpitações, dor no peito ou dificuldade de concentração, vale procurar a unidade básica de saúde. Esses sintomas podem fazer parte da condição pós-covid e precisam de avaliação individual. Anotar os sintomas em um caderno ajuda a equipe a entender o padrão e a indicar os exames certos.',
+        ],
+        cta: {
+          label: 'Entenda a covid longa e a recuperação',
+          href: '/artigos/covid-19-covid-longa-sintomas-e-recuperacao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['covid-19'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['covid-19-sintomas-e-sinais-de-alerta', 'covid-19-covid-longa-sintomas-e-recuperacao'],
+    references: [
+      {
+        label: 'Covid-19',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'covid-19-vacina-e-doses-de-reforco',
+    slug: 'covid-19-vacina-e-doses-de-reforco',
+    title: 'Covid-19: vacina e doses de reforço',
+    excerpt:
+      'A vacina reduziu internações e mortes, mas a proteção cai com o tempo. Entenda quem precisa de reforço, quais reações são esperadas e o que fazer depois da dose.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-vacinar',
+        heading: 'Por que a vacina continua importante',
+        paragraphs: [
+          'A vacina é a medida que mais reduz o risco de forma grave, internação e morte por covid-19. Ela não impede todo contágio, mas treina o organismo a reconhecer o vírus e a reagir rápido, o que encurta a doença e diminui a chance de complicação pulmonar. Vacinar-se também reduz a circulação do vírus em casa, protegendo quem não pode se vacinar por contraindicação médica.',
+          'O Programa Nacional de Imunizações oferece vacinas autorizadas pela Anvisa e avaliadas pelo Instituto Nacional de Controle de Qualidade em Saúde, com monitoramento contínuo de segurança. O esquema é atualizado conforme a circulação do vírus e a orientação vigente para cada faixa de idade.',
+          'Quem tem mais de 60 anos, quem convive com doenças crônicas e quem tem a imunidade comprometida é justamente quem mais se beneficia. Nesses grupos, a infecção ainda pode evoluir para falta de ar e internação mesmo em pessoas que levam vida ativa.',
+        ],
+      },
+      {
+        id: 'esquema-e-reforco',
+        heading: 'Esquema e doses de reforço',
+        paragraphs: [
+          'O esquema completo inclui as doses recomendadas para a idade e o histórico vacinal, e as doses de reforço são acrescentadas conforme a orientação vigente. Como o calendário muda com a circulação do vírus, a unidade de saúde é a fonte mais confiável para saber o que falta no cartão. O cartão registra também o fabricante e o lote, informação útil em caso de reação adversa.',
+          'Idosos, pessoas imunossuprimidas, gestantes, puérperas, profissionais de saúde e pessoas com comorbidades costumam ter prioridade e intervalos mais curtos entre as doses. Quem recebeu apenas parte do esquema não precisa recomeçar: basta completar o que falta. A dose de reforço pode ser de fabricante diferente da aplicação anterior, combinação considerada segura pela autoridade sanitária.',
+          'Levar o cartão de vacinação em todas as consultas ajuda a evitar atrasos e doses repetidas. Quem perdeu o cartão pode recuperar o histórico na unidade onde se vacinou ou pelo registro do sistema de informação do programa.',
+        ],
+      },
+      {
+        id: 'efeitos-comuns',
+        heading: 'Reações esperadas',
+        paragraphs: [
+          'Dor no local da aplicação, vermelhidão, febre, cansaço, dor de cabeça e dor no corpo são as reações mais comuns e costumam passar em um a três dias. Elas indicam que o sistema imunológico está respondendo, e não que a vacina fez mal. Dor intensa que dura mais de uma semana, febre alta persistente e inchaço importante no braço merecem avaliação.',
+          'Compressa fria no braço, hidratação e analgésico ou antitérmico indicados pela equipe aliviam o desconforto. A segunda dose pode causar reação mais intensa do que a primeira, o que não é motivo para interromper o esquema.',
+          'Reações graves são raras. Falta de ar, inchaço nos lábios ou na garganta, urticária generalizada e desmaio exigem atendimento imediato, e a equipe que aplicou a dose deve ser informada para que o caso seja registrado e a próxima dose seja avaliada com cuidado. A anafilaxia é tratada no próprio local, e as unidades de vacinação estão preparadas para isso.',
+        ],
+      },
+      {
+        id: 'gestacao-e-criancas',
+        heading: 'Gestação, infância e adolescência',
+        paragraphs: [
+          'A vacinação é recomendada na gestação e no puerpério, em qualquer trimestre, porque a covid-19 aumenta o risco de complicações nesse período. Os anticorpos produzidos pela gestante também passam para o bebê e ajudam a protegê-lo nos primeiros meses de vida. Quem engravidou depois de completar o esquema deve verificar com a equipe se há dose indicada para o período gestacional.',
+          'Crianças e adolescentes seguem o calendário definido para cada faixa de idade, com doses e intervalos próprios. A decisão de vacinar deve ser conversada com a equipe de saúde, que pode esclarecer dúvidas sobre composição, reações e benefícios para cada idade.',
+          'Quem tem histórico de alergia grave a algum componente da vacina deve informar a equipe antes da aplicação. Em muitos casos, a avaliação permite vacinar com segurança em ambiente preparado, e a contraindicação só existe quando o risco é real.',
+        ],
+      },
+      {
+        id: 'duracao-da-protecao',
+        heading: 'Quanto tempo dura a proteção',
+        paragraphs: [
+          'A proteção contra a forma grave se mantém por mais tempo do que a proteção contra a infecção, e cai gradualmente com os meses e com o surgimento de novas variantes. É por isso que as doses de reforço são necessárias de tempos em tempos, sobretudo nos grupos de maior risco. Dados de efetividade mostram que a proteção contra hospitalização permanece alta por vários meses após o reforço.',
+          'Ter tido covid-19 não substitui a vacinação. A imunidade adquirida pela infecção é variável e não protege de forma confiável contra variantes diferentes, enquanto a vacina oferece uma resposta mais previsível e pode ser aplicada depois do período de recuperação.',
+          'A recomendação prática é simples: manter o cartão em dia, seguir a orientação da unidade de saúde sobre a próxima dose e não esperar um surto para procurar o posto. A vacina leva algumas semanas para produzir a resposta desejada. O calendário nacional é revisado periodicamente, e a orientação pode mudar conforme a situação epidemiológica. Quem perdeu a data da última dose pode consultar o registro no aplicativo ou na própria unidade, que recupera o histórico pelo cartão do SUS.',
+        ],
+      },
+      {
+        id: 'onde-vacinar',
+        heading: 'Onde se vacinar',
+        paragraphs: [
+          'As doses estão disponíveis nas unidades básicas de saúde, em salas de vacinação e em campanhas organizadas pelo município, gratuitamente e sem necessidade de prescrição. Basta levar um documento com foto e, se tiver, o cartão de vacinação. Em municípios pequenos, a vacinação costuma acontecer na própria unidade de saúde, em dias definidos de campanha.',
+          'Quem está com sintomas respiratórios ou com diagnóstico recente de covid-19 deve adiar a dose até melhorar, para não confundir as reações da vacina com a evolução da doença. A equipe orienta o melhor momento para retomar o esquema. Quem usa imunossupressores deve conversar com o médico que acompanha o caso sobre o melhor momento da dose. Municípios com baixa cobertura costumam ampliar horários e levar a vacinação a escolas e unidades móveis, e a lista de locais é atualizada pela secretaria de saúde local.',
+        ],
+        cta: {
+          label: 'Veja como a covid-19 se transmite',
+          href: '/artigos/covid-19-como-se-transmite-e-como-se-proteger/',
+        },
+      },
+    ],
+    diseaseSlugs: ['covid-19'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['covid-19-como-se-transmite-e-como-se-proteger', 'covid-19-sintomas-e-sinais-de-alerta'],
+    references: [
+      {
+        label: 'Covid-19: esquemas vacinais',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/esquemas-vacinais',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Covid-19',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'covid-19-covid-longa-sintomas-e-recuperacao',
+    slug: 'covid-19-covid-longa-sintomas-e-recuperacao',
+    title: 'Covid longa: sintomas e recuperação',
+    excerpt:
+      'Cansaço, falta de ar e dificuldade de concentração podem durar meses depois da infecção, inclusive em casos leves. O acompanhamento na atenção básica organiza a recuperação.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é covid longa',
+        paragraphs: [
+          'Covid longa, ou condição pós-covid, é o conjunto de sintomas que continuam semanas ou meses depois da infecção pelo SARS-CoV-2, ou que aparecem pela primeira vez nesse período. Não existe um exame único que confirme o quadro, e o diagnóstico é feito pela história clínica e pela exclusão de outras causas.',
+          'Os sintomas podem ser persistentes, quando seguem desde a fase aguda, ou novos, quando surgem depois de um intervalo em que a pessoa se sentiu bem. Em ambos os casos, o que caracteriza a condição é a duração e o impacto na vida diária, e não a gravidade que a infecção teve no início.',
+          'A condição pode afetar vários sistemas ao mesmo tempo, o que explica a variedade de queixas. Cansaço, falta de ar, palpitações, alterações de memória e de sono costumam aparecer juntos, e o conjunto costuma ser mais incapacitante do que cada sintoma isolado. Por isso, o relato de quem convive com o paciente ajuda tanto quanto os exames: é ele que mostra se a pessoa deixou de fazer o que fazia antes da infecção.',
+        ],
+      },
+      {
+        id: 'sintomas-mais-comuns',
+        heading: 'Os sintomas mais comuns',
+        paragraphs: [
+          'Cansaço intenso, que piora depois de pequenos esforços, é a queixa mais frequente. Atividades que antes passavam despercebidas, como subir uma escada ou carregar compras, podem exigir pausas, e a recuperação depois do esforço passa a levar dias em vez de horas.',
+          'Falta de ar aos esforços, tosse persistente, dor de cabeça, dificuldade de concentração e esquecimentos também são comuns. Palpitações, dor no peito, alterações do sono, ansiedade e queda do humor completam a lista e frequentemente se confundem com quadros de estresse ou de ansiedade pré-existentes.',
+          'Perda de olfato e de paladar pode permanecer por meses e alterar a alimentação, com perda de peso e aversão a cheiros que antes eram agradáveis. Alterações do ciclo menstrual, queda de cabelo e dores nas articulações também foram descritas e merecem avaliação individual. É comum que as queixas mudem de intensidade de um dia para o outro, com períodos de melhora seguidos de recaídas, e esse vaivém faz parte do quadro.',
+        ],
+      },
+      {
+        id: 'quem-e-afetado',
+        heading: 'Quem é afetado',
+        paragraphs: [
+          'A covid longa pode aparecer em qualquer idade e depois de casos leves, moderados ou graves, inclusive em pessoas que não precisaram de internação. A gravidade da infecção inicial não prevê a duração dos sintomas, e esse é um dos pontos que mais surpreendem quem acompanha o quadro.',
+          'Quem teve a forma grave e passou por internação prolongada pode ter também as consequências da própria hospitalização: perda de massa muscular, fraqueza, dificuldade para respirar profundamente e alterações de memória ligadas ao período de internação. Nesses casos, a reabilitação começa antes da alta.',
+          'Mulheres, pessoas com doenças crônicas e profissionais de saúde aparecem com mais frequência nos relatos, mas a condição já foi descrita em todos os grupos. Ter tido a infecção sem sintoma não exclui a possibilidade de sintomas tardios. Não há um perfil que permita prever quem vai manter as queixas por mais tempo, o que reforça a importância de ouvir cada relato sem descartá-lo de saída.',
+        ],
+      },
+      {
+        id: 'avaliacao',
+        heading: 'Como a avaliação é feita',
+        paragraphs: [
+          'A avaliação começa na unidade básica de saúde, com a história dos sintomas, a data da infecção e o impacto nas atividades. A equipe verifica também se existem outras causas prováveis, como anemia, alterações da tireoide, diabetes descompensado, depressão e doenças do coração ou do pulmão.',
+          'Exames de sangue, radiografia de tórax e eletrocardiograma são solicitados conforme as queixas. Nem sempre os resultados mostram alterações, e isso não significa que o sintoma não exista: significa que a causa não aparece nos exames de rotina e que o acompanhamento clínico continua.',
+          'Quando há falta de ar importante, palpitações ou dor no peito, a avaliação cardiológica e pneumológica entra mais cedo. Já as queixas de memória e de concentração podem exigir avaliação neuropsicológica, sobretudo quando interferem no trabalho e nos estudos. Vale levar à consulta uma lista com a data de início de cada queixa e os remédios em uso, porque esse histórico encurta o caminho até o exame certo.',
+        ],
+      },
+      {
+        id: 'reabilitacao',
+        heading: 'Tratamento e reabilitação',
+        paragraphs: [
+          'O tratamento é dirigido aos sintomas, e a reabilitação é a parte central. Programas de exercício gradual, começando por caminhadas curtas e aumentando o tempo conforme a tolerância, ajudam a recuperar a capacidade física sem provocar piora. O ritmo é individual e não deve seguir comparações com outras pessoas.',
+          'Fisioterapia respiratória auxilia quem ficou com falta de ar e tosse, e a fisioterapia motora ajuda a recuperar força e equilíbrio. Terapia ocupacional organiza a rotina para que as tarefas sejam distribuídas ao longo do dia, e o apoio psicológico é indicado quando há ansiedade, insônia ou queda do humor.',
+          'O retorno ao trabalho deve ser planejado com a equipe, com possível adaptação de horário e de tarefas. Voltar de uma vez, no mesmo ritmo de antes, costuma levar a recaídas de cansaço que atrasam a recuperação em semanas. Metas pequenas, medidas a cada poucas semanas, ajudam a manter a constância sem transformar a recuperação em mais uma cobrança.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar ajuda',
+        paragraphs: [
+          'Vale procurar a unidade de saúde quando qualquer sintoma durar mais de quatro semanas depois da infecção, quando o cansaço impedir as atividades do dia a dia ou quando surgirem palpitações, dor no peito, desmaios e falta de ar aos pequenos esforços. Quanto mais cedo a avaliação, mais rápida costuma ser a organização do cuidado.',
+          'A vacinação completa e as doses de reforço reduzem o risco de a infecção evoluir para formas graves e continuam recomendadas depois da recuperação. Manter o acompanhamento com a equipe, anotar os sintomas e respeitar o próprio ritmo são as atitudes que mais ajudam na volta gradual à rotina. A rede pública oferece esse acompanhamento na atenção básica, e é a partir dela que saem os encaminhamentos para fisioterapia, cardiologia e saúde mental.',
+        ],
+        cta: {
+          label: 'Reveja os sintomas e os sinais de alerta da covid-19',
+          href: '/artigos/covid-19-sintomas-e-sinais-de-alerta/',
+        },
+      },
+    ],
+    diseaseSlugs: ['covid-19'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: ['covid-19-sintomas-e-sinais-de-alerta', 'covid-19-teste-positivo-o-que-fazer'],
+    references: [
+      {
+        label: 'Condições pós-covid',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/condicoes-pos-covid',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Covid-19',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
 ];

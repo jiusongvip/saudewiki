@@ -85,6 +85,24 @@ export const zhImageAlts: Record<string, string> = {
     '醫學插畫：直腸與肛管的矢狀切面顯示雌蟲由肛門爬出，肛門周圍皮膚散落著細小蟲卵，右上角是夜裡躺在床上的孩子，下方圖示為肛門搔癢、睡眠不安、煩躁與絞痛',
   hidatidose:
     '醫學插畫：肝臟剖面顯示一顆壁厚的棘球蚴囊腫，內含多個子囊，右上角是皮膚與眼白泛黃的臉部，下方圖示為腹痛、乾咳、呼吸急促與蕁麻疹',
+  'febre-amarela':
+    '醫學插畫：肝臟的切面裡有三處受損區域與病毒顆粒，右上角是眼白泛黃的眼睛，其下為停在皮膚上的蚊子，下方圖示為高燒、身體痠痛、噁心與深色尿液',
+  varicela:
+    '醫學插畫：皮膚的三層剖面，表層依序有一處紅斑、一顆水泡與一片乾燥的結痂，右上角是布滿水泡的兒童背部，其下為皮膚結痂的特寫，下方圖示為搔癢、輕微發燒、水泡與紅疹',
+  sarampo:
+    '醫學插畫：氣道剖開後可見內側黏膜泛紅，管腔裡飄著病毒顆粒，右上角是兩頰布滿紅疹的兒童，其下為發紅的眼睛，下方圖示為高燒、乾咳、結膜炎與疹子',
+  tetano:
+    '醫學插畫：下顎骨上方的咀嚼肌緊繃，神經末梢旁有毒素顆粒，右上角是沾了泥土的腿部傷口，下方圖示為嘴巴張不開、僵硬、抽搐與呼吸困難',
+  'meningite-meningococica':
+    '醫學插畫：大腦的剖面外層包著增厚的腦膜，其間有一層淡黃綠色的腦脊液，右上角是手臂上的紫紅色斑點，其下為檢查頸部僵硬的動作，下方圖示為高燒、噁心、頸部僵硬與斑點',
+  'covid-19':
+    '醫學插畫：肺臟剖面顯示肺泡內積液與氣道上的病毒顆粒，右上角是夾在手指上的血氧機，下方圖示為乾咳、發燒、呼吸急促與疲倦',
+  leptospirose:
+    '醫學插畫：腎臟剖面顯示外層、帶有放射狀紋理的髓質、發炎區塊與螺旋狀細菌，右上角是涉水而過的雙腿，下方圖示為發燒、肌肉痠痛、黃疸與疲倦',
+  sifilis:
+    '醫學插畫：皮膚剖面顯示一處邊緣較硬的淺潰瘍與組織中的螺旋狀細菌，右上角是戴手套操作快速檢驗的手，下方圖示為硬下疳、疹子、淋巴結腫大與沒有症狀',
+  gonorreia:
+    '醫學插畫：尿道剖面顯示發紅的黏膜、分泌物與附著在表面的圓形細菌，右上角是戴手套拿著尿液杯的手，下方圖示為灼熱感、分泌物、下腹痛與出血',
 
   'sintomas-iniciais-da-dengue': '深色表面上蚊子的近距離特寫',
   'como-prevenir-a-dengue': '蚊子停在葉片與細枝之間',
@@ -219,6 +237,19 @@ export const zhImageAlts: Record<string, string> = {
   'doencas-cronicas': '淺色檯面上散落的圓形藥錠',
   'saude-infantil': '戴帽嬰兒在大人腿上伸手碰綠葉',
   'saude-da-mulher': '孕婦靠著牆，雙手放在腹部上',
+  'gonorreia-como-prevenir': '雙手捧著裝有保險套的鋁箔包裝，坐在床上',
+  'leptospirose-sintomas-e-sinais-de-alerta': '蓋著毯子躺在床上的病人手持數位體溫計',
+  'leptospirose-como-se-prevenir-em-enchentes': '大雨過後積水的街道',
+  'sifilis-sintomas-e-estagios': '一隻手在抓撓前臂',
+  'sifilis-teste-rapido-e-tratamento': '指尖採血後的血滴',
+  'sifilis-na-gestacao-e-sifilis-congenita': '孕婦雙手放在肚子上',
+  'sifilis-parcerias-e-reinfeccao': '坐在沙發上交談的一對伴侶',
+  'neurossifilis-sintomas-e-sinais-de-alerta': '戴眼鏡的男子用手按著額頭，神情像頭痛',
+  'covid-19-sintomas-e-sinais-de-alerta': '女子坐在沙發上用面紙擤鼻涕',
+  'covid-19-como-se-transmite-e-como-se-proteger': '在戶外戴著拋棄式口罩的女性',
+  'covid-19-teste-positivo-o-que-fazer': '一隻手拿著抗原快篩試劑',
+  'covid-19-vacina-e-doses-de-reforco': '醫護人員雙手握著裝有藥液的注射器',
+  'covid-19-covid-longa-sintomas-e-recuperacao': '雙手抱頭、神情疲憊的男子坐在椅子上',
   'obesidade-sintomas-e-quando-buscar-ajuda': '黃色皮尺繞過一個人的腰圍',
   'obesidade-como-emagrecer-com-saude': '木砧板上擺著花椰菜、甜椒、胡蘿蔔、高麗菜與綠色香草',
   'gripe-sintomas-e-sinais-de-alerta': '一名女子坐在沙發上用紙巾擤鼻涕',
@@ -267,4 +298,14 @@ export const zhImageAlts: Record<string, string> = {
   'oxiuriase-ou-ascaridiase-como-diferenciar': '穿白袍的女醫師在診間以聽診器為女童檢查',
   'hidatidose-cisto-descoberto-no-exame': '穿白袍的醫師以超音波探頭在病人腹部檢查，背景的螢幕顯示超音波影像',
   'hidatidose-caes-ovinos-e-hortas': '一群羊在長滿植物的牧場上吃草，背景是老舊的木屋與樹木',
+  'febre-amarela-vacina-para-quem-vai-viajar': '戴藍色手套的雙手把針劑打進穿淺紫色上衣的人的手臂',
+  'febre-amarela-forma-grave-sinais-de-alarme': '醫院病房裡並排的空床，床邊掛著點滴與設備',
+  'varicela-crianca-pode-voltar-a-escola': '孩子們坐在教室課桌前上課',
+  'varicela-em-adultos-e-gestantes': '穿淺綠色連身裙的孕婦站在戶外，雙手放在腹部',
+  'sarampo-sintomas-e-manchas-como-reconhecer': '戴口罩的女性在客廳沙發上用額溫槍替孩子量體溫',
+  'sarampo-vacina-e-bloqueio-em-surtos': '戴綠色手套的雙手扶著一個人的手臂進行醫療處置',
+  'tetano-ferimento-e-vacina-quando-procurar': '兩個人用白色紗布替一名男子的手包紮',
+  'tetano-sintomas-e-tratamento': '加護病房的病床，旁邊有監測器、呼吸器與隔簾',
+  'meningite-meningococica-sintomas-e-sinais-de-alerta': '戴紅色聽診器的女醫師正在為一名兒童檢查',
+  'meningite-meningococica-vacina-e-contatos': '穿白袍的醫療人員舉著一支針頭朝上的注射器',
 };

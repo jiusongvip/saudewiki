@@ -16291,4 +16291,2089 @@ export const diseases: Disease[] = [
     updatedAt: '2026-10-26',
     isPlaceholder: true,
   },
+  {
+    id: 'febre-amarela',
+    slug: 'febre-amarela',
+    name: 'Febre amarela',
+    aliases: ['febre amarela silvestre', 'febre amarela urbana', 'vacina da febre amarela'],
+    summary:
+      'Infecção viral transmitida pela picada de mosquitos, com febre alta, dor no corpo e, nas formas graves, pele amarelada e sangramentos. A vacina em dose única, oferecida pelo SUS, é a principal forma de prevenção.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é febre amarela?',
+        paragraphs: [
+          'Febre amarela é uma infecção viral aguda causada por um flavivírus transmitido pela picada de mosquitos infectados. A maioria das pessoas tem sintomas leves e se recupera em poucos dias. Cerca de 15% evoluem para uma forma grave, com icterícia, hemorragias e falência de órgãos, e entre 20% e 50% desses pacientes morrem.',
+          'O vírus circula em dois ciclos. No ciclo silvestre, mosquitos dos gêneros Haemagogus e Sabethes transmitem o vírus entre primatas não humanos, e a pessoa entra nesse ciclo quando visita ou trabalha em áreas de mata. No ciclo urbano, o Aedes aegypti faz a transmissão entre pessoas. No Brasil, os últimos casos urbanos foram registrados em 1942, e todos os casos confirmados desde então vêm do ciclo silvestre.',
+          'Por isso a doença aparece em surtos ligados a áreas de mata e de transição, e pode se aproximar de cidades quando encontra macacos e mosquitos suscetíveis. Quem mora, trabalha ou viaja para essas áreas precisa manter a vacinação em dia.',
+        ],
+        bullets: [
+          'Doença viral transmitida por mosquito, não de pessoa para pessoa.',
+          'Cerca de 15% das pessoas infectadas desenvolvem a forma grave.',
+          'Entre 20% e 50% dos pacientes com a forma grave morrem.',
+          'No Brasil, a transmissão atual ocorre no ciclo silvestre.',
+          'A vacina está disponível no SUS em dose única.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a febre amarela é transmitida?',
+        paragraphs: [
+          'A transmissão acontece pela picada de uma fêmea de mosquito infectada. Não há transmissão de pessoa para pessoa, nem por contato, alimentos ou água. Só as fêmeas picam, porque precisam do sangue para maturar os ovos.',
+          'No ciclo silvestre, os mosquitos Haemagogus e Sabethes vivem na copa das árvores e picam durante o dia, o que explica casos em quem entra na mata sem proteção. Macacos são hospedeiros amplificadores e sentinelas: eles adoecem e morrem antes dos casos humanos, e por isso a morte de macacos é usada como alerta. Os macacos não transmitem a doença para pessoas; quem transmite é o mosquito.',
+          'O período de incubação varia de 3 a 6 dias, podendo chegar a 10. Uma pessoa infectada tem vírus no sangue por poucos dias, no início da doença, e nesse intervalo pode contaminar mosquitos que a picam. Isso importa em áreas onde o Aedes aegypti circula, porque é o caminho para a doença voltar a circular nas cidades.',
+        ],
+        bullets: [
+          'Transmissão pela picada de mosquito infectado, nunca entre pessoas.',
+          'Incubação de 3 a 6 dias, podendo chegar a 10 dias.',
+          'No ciclo silvestre, os vetores são Haemagogus e Sabethes.',
+          'O Aedes aegypti é o vetor do ciclo urbano.',
+          'Macacos são sentinelas e não transmitem a doença.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da febre amarela?',
+        paragraphs: [
+          'A doença começa de repente, com febre alta, calafrios, dor de cabeça intensa, dor no corpo e nas costas, náuseas e vômitos, além de cansaço e fraqueza. Nessa fase, os sintomas se confundem com dengue, malária, leptospirose e outras infecções, e só o contexto de exposição ajuda a levantar a suspeita.',
+          'A maioria melhora em três a quatro dias. Cerca de 15% das pessoas passam por um intervalo de poucas horas a um dia sem sintomas e então pioram: a febre volta, surge icterícia, com pele e olhos amarelados, dor abdominal, vômitos persistentes, urina escura, diminuição do volume de urina e sangramentos.',
+          'A fase grave pode evoluir com hemorragia digestiva, choque e falência de múltiplos órgãos. Nem todo mundo passa por todas as etapas, e a melhora inicial não garante que a doença acabou. Quem teve febre em área de risco e volta a piorar precisa de avaliação imediata.',
+        ],
+        bullets: [
+          'Febre alta de início súbito, com calafrios e dor no corpo.',
+          'Dor de cabeça intensa, náuseas e vômitos.',
+          'Melhora aparente seguida de piora em cerca de 15% dos casos.',
+          'Pele e olhos amarelados, urina escura e sangramentos na forma grave.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento de emergência',
+        paragraphs: [
+          'Febre amarela pode matar em poucos dias. Se você está em uma área com circulação do vírus ou esteve nela nos últimos 15 dias e apresenta algum destes sinais, procure um pronto atendimento ou ligue para o SAMU 192. Não espere a consulta marcada.',
+        ],
+        bullets: [
+          'Pele e olhos amarelados, urina escura ou diminuição importante do volume de urina.',
+          'Sangramento pelo nariz, pela gengiva, vômito com sangue ou fezes escuras.',
+          'Vômitos que não param, dor abdominal intensa ou incapacidade de beber líquidos.',
+          'Confusão, sonolência, irritabilidade ou desmaio.',
+          'Febre alta que volta depois de uma breve melhora.',
+          'Informe ao médico onde você esteve nos últimos 15 dias, se viu mortes de macacos e se tomou a vacina.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a febre amarela é diagnosticada?',
+        paragraphs: [
+          'O diagnóstico começa pela história clínica: febre de início súbito em quem mora, trabalha ou viajou para área com circulação viral nos 15 dias anteriores. A doença é de notificação compulsória imediata, o que significa que o serviço de saúde deve comunicar o caso suspeito às autoridades em até 24 horas.',
+          'A confirmação é laboratorial. Na fase inicial, a RT-PCR detecta o material genético do vírus no sangue. Depois dos primeiros dias, a sorologia por ELISA ou a prova de neutralização identifica anticorpos, com a ressalva de que outras flaviviroses, como dengue e zika, podem dar reação cruzada.',
+          'A vacinação recente também interfere na interpretação dos exames e precisa ser informada ao laboratório. Em áreas com transmissão, a vigilância acompanha mortes de primatas para antecipar o alerta.',
+        ],
+        bullets: [
+          'Suspeita clínica com histórico de exposição em área de risco.',
+          'RT-PCR na fase inicial da doença.',
+          'Sorologia por ELISA ou neutralização em fase posterior.',
+          'Notificação compulsória em até 24 horas.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames avaliam a gravidade?',
+        paragraphs: [
+          'Os exames servem para confirmar a infecção e, principalmente, para medir a gravidade. O hemograma costuma mostrar leucopenia e plaquetas baixas. As transaminases sobem, em geral com AST maior que ALT, e a bilirrubina pode aumentar muito quando há icterícia.',
+          'A avaliação de função renal, eletrólitos e coagulação mostra o quanto o fígado e os rins foram afetados. A urina pode ter proteína e sangue. Quando há suspeita de comprometimento cardíaco, o eletrocardiograma e a troponina ajudam a identificar miocardite e arritmias.',
+        ],
+        bullets: [
+          'Hemograma com leucopenia e plaquetopenia.',
+          'Transaminases elevadas, com AST maior que ALT.',
+          'Bilirrubina, creatinina e eletrólitos.',
+          'Coagulograma e urina tipo 1.',
+          'Eletrocardiograma e troponina quando há sinais cardíacos.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Com quais doenças a febre amarela se confunde?',
+        paragraphs: [
+          'Nas primeiras horas, febre amarela se parece com dengue, chikungunya, zika, malária e leptospirose. A malária tem ciclos de febre e calafrios e é confirmada por exame de sangue para o parasita. A leptospirose costuma vir depois do contato com água contaminada e pode causar dor na panturrilha e icterícia.',
+          'Hepatites virais, febre tifoide, outras febres hemorrágicas e intoxicações também entram na lista quando há icterícia e sangramento. Como o tratamento e a vigilância são diferentes, a testagem para os agentes mais prováveis na região faz parte da investigação.',
+        ],
+        bullets: [
+          'Dengue, chikungunya e zika.',
+          'Malária, confirmada por exame de sangue.',
+          'Leptospirose, após contato com água contaminada.',
+          'Hepatites virais e febre tifoide.',
+          'Outras febres hemorrágicas.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'Não existe antiviral específico. O tratamento é de suporte e depende da gravidade: repouso, hidratação, controle da febre e monitorização. Casos leves podem ser acompanhados, e casos com icterícia ou sinais de falência de órgãos precisam de internação, muitas vezes em unidade de terapia intensiva.',
+          'Medicamentos como ácido acetilsalicílico (AAS) e anti-inflamatórios não esteroides devem ser evitados, porque aumentam o risco de sangramento. Para febre e dor, o serviço de saúde orienta o analgésico e a dose adequados. Sangramentos, alterações de coagulação e falência renal exigem suporte específico no hospital.',
+          'Nenhum tratamento caseiro substitui a avaliação. Se a pessoa está em área de risco e apresenta sinais de gravidade, o atendimento precisa ser imediato, e a equipe decide se há necessidade de transferência para um serviço com UTI.',
+        ],
+        bullets: [
+          'Não há antiviral específico; o tratamento é de suporte.',
+          'Casos graves exigem internação e, muitas vezes, UTI.',
+          'Evite AAS e anti-inflamatórios pelo risco de sangramento.',
+          'Hidratação e controle da febre orientados pelo serviço de saúde.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a febre amarela pode causar?',
+        paragraphs: [
+          'A forma grave compromete vários órgãos ao mesmo tempo. A insuficiência hepática aparece com icterícia intensa, alterações de coagulação e encefalopatia. Nos rins, a lesão provoca redução do volume de urina e, em alguns casos, necessidade de diálise.',
+        ],
+        bullets: [
+          'Fígado: icterícia intensa, coagulação alterada e encefalopatia.',
+          'Rins: lesão aguda, urina escura e redução do volume urinário.',
+          'Coração: miocardite, arritmias e queda da pressão.',
+          'Sangue: plaquetas baixas, hemorragias digestivas e choque.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'A maior parte das pessoas se recupera por completo. A fase de recuperação dura de duas a quatro semanas, com fraqueza que pode persistir por mais tempo. A icterícia e as transaminases elevadas podem levar meses para normalizar.',
+          'Nas formas graves, a mortalidade fica entre 20% e 50%, e a morte costuma ocorrer entre o sétimo e o décimo dia de doença. Quem sobrevive à fase aguda costuma recuperar a função dos órgãos, mas o seguimento clínico é necessário para acompanhar fígado e rins.',
+          'A vacinação segue indicada para quem não teve a doença e vive ou viaja para áreas de risco, porque a proteção vacinal é duradoura e não exige reforço.',
+        ],
+        bullets: [
+          'A maioria se recupera por completo.',
+          'Fraqueza pode durar semanas após a fase aguda.',
+          'Entre 20% e 50% dos casos graves morrem.',
+          'A morte costuma ocorrer entre o sétimo e o décimo dia.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados em casa durante a recuperação',
+        paragraphs: [
+          'Em casa, o foco é hidratação e repouso. Ofereça água, soro caseiro ou soluções de reidratação em pequenas quantidades ao longo do dia, principalmente se houver vômito. Evite bebidas alcoólicas e comidas pesadas enquanto houver febre.',
+          'Quem está doente deve evitar ser picado por mosquitos nos primeiros dias, quando há vírus no sangue. Use repelente, roupas de manga longa e telas, e durma em ambiente protegido. Isso reduz a chance de um mosquito contaminado levar o vírus adiante.',
+          'Observe a evolução. Se a febre passar e voltar, se a pele amarelar, se aparecer sangramento ou se a pessoa parar de urinar, procure atendimento sem esperar. Não use AAS nem anti-inflamatórios por conta própria.',
+        ],
+        bullets: [
+          'Beba líquidos em pequenas quantidades ao longo do dia.',
+          'Mantenha repouso enquanto houver febre.',
+          'Evite picadas de mosquito nos primeiros dias de doença.',
+          'Não use AAS nem anti-inflamatórios por conta própria.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a febre amarela?',
+        paragraphs: [
+          'A vacina é a medida mais eficaz. O SUS oferece a vacina para toda a população, em dose única, e a proteção começa cerca de 10 dias após a aplicação. Quem vai viajar para área com circulação viral deve se vacinar pelo menos 10 dias antes da viagem.',
+          'Evite a picada: use repelente nas áreas expostas, prefira roupas de manga longa e calça, evite horários de maior atividade dos mosquitos em áreas de mata e use tela ou mosquiteiro quando possível. Em situações de surto, a vigilância pode recomendar vacinação em massa e restrição de acesso a determinadas áreas.',
+          'A morte de macacos é um sinal de alerta e deve ser comunicada à vigilância sanitária do município ou do estado; o registro também pode ser feito pelo aplicativo SISS-Geo. Não mate nem manipule macacos doentes ou mortos.',
+        ],
+        bullets: [
+          'Vacine-se antes de viajar para áreas de risco.',
+          'Use repelente e roupas que cubram braços e pernas.',
+          'Evite áreas de mata em período de surto.',
+          'Comunique mortes de macacos à vigilância sanitária.',
+        ],
+      },
+      {
+        id: 'vacinacao',
+        heading: 'Como funciona a vacinação no Brasil?',
+        paragraphs: [
+          'A vacina utilizada no Brasil é a de vírus atenuado, aplicada por via subcutânea em dose única. Desde 2017 o país adota o esquema de uma dose para toda a vida, alinhado à recomendação da Organização Mundial da Saúde. Crianças menores de 9 meses, pessoas com imunossupressão grave, pessoas com alergia grave ao ovo e mulheres que amamentam crianças menores de 6 meses não devem se vacinar; nesses casos, o serviço de saúde avalia risco e alternativas.',
+          'A indicação de rotina começa aos 9 meses, com reforço aos 4 anos, segundo o Calendário Nacional de Vacinação. Adultos que nunca foram vacinados e vão para áreas de risco devem receber a dose. Acima de 60 anos, a relação entre risco e benefício precisa ser avaliada.',
+          'Quem tomou a vacina deve esperar 28 dias para doar sangue. O comprovante internacional de vacinação pode ser exigido por alguns países na entrada, e precisa ser emitido por serviço autorizado.',
+        ],
+        bullets: [
+          'Dose única, disponível no SUS, com proteção duradoura.',
+          'Rotina a partir dos 9 meses, com reforço aos 4 anos.',
+          'Contraindicada em menores de 9 meses e em imunossupressão grave.',
+          'Quem amamenta criança menor de 6 meses não deve se vacinar.',
+          'Viajantes devem se vacinar pelo menos 10 dias antes.',
+          'Doação de sangue liberada 28 dias após a vacina.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Febre amarela passa de pessoa para pessoa?',
+        answer:
+          'Não. A transmissão só acontece pela picada de um mosquito infectado. Não há contágio por contato, abraço, alimento ou água, e por isso não é preciso isolar a pessoa doente de familiares.',
+      },
+      {
+        question: 'Quem já tomou a vacina precisa repetir a dose?',
+        answer:
+          'Não. Desde 2017 o Brasil adota uma dose única para toda a vida, seguindo a recomendação da Organização Mundial da Saúde. Quem tem comprovante da dose não precisa de reforço na vida adulta.',
+      },
+      {
+        question: 'Os macacos transmitem febre amarela?',
+        answer:
+          'Não. Os macacos são vítimas da doença e servem como sentinela: quando morrem, indicam que o vírus está circulando na região. Quem transmite é o mosquito, e matar macacos só atrapalha a vigilância.',
+      },
+      {
+        question: 'Quanto tempo depois da picada aparecem os sintomas?',
+        answer:
+          'O período de incubação costuma ser de 3 a 6 dias, podendo chegar a 10 dias. A febre começa de repente e, em boa parte das pessoas, os sintomas melhoram em três a quatro dias.',
+      },
+      {
+        question: 'Quem tem alergia a ovo pode se vacinar?',
+        answer:
+          'A vacina é contraindicada em caso de alergia grave ao ovo. Quem tem esse histórico deve informar o serviço de saúde, que vai avaliar a situação e orientar sobre a conduta mais adequada.',
+      },
+      {
+        question: 'A vacina protege em quanto tempo?',
+        answer:
+          'A proteção começa cerca de 10 dias após a aplicação, e por isso quem vai viajar para área de risco deve se vacinar com antecedência mínima de 10 dias. Depois de 30 dias, a proteção ultrapassa 99% das pessoas vacinadas.',
+      },
+    ],
+    relatedArticleSlugs: ['febre-amarela-vacina-para-quem-vai-viajar', 'febre-amarela-forma-grave-sinais-de-alarme'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['dengue', 'malaria', 'hepatites-virais', 'febre-tifoide'],
+    references: [
+      {
+        label: 'Febre amarela',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-amarela',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Yellow fever',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/yellow-fever',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'varicela',
+    slug: 'varicela',
+    name: 'Varicela (catapora)',
+    aliases: ['catapora', 'varicela', 'varicela zoster', 'herpes-zóster por reativação'],
+    summary:
+      'Infecção viral muito contagiosa, conhecida como catapora, que causa bolhas e coceira pelo corpo. Em crianças costuma ser leve; em adultos, gestantes e pessoas com imunidade baixa pode ser grave e exigir avaliação médica.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é varicela?',
+        paragraphs: [
+          'Varicela, conhecida popularmente como catapora, é uma infecção causada pelo vírus varicela-zóster. É uma das doenças mais contagiosas da infância: entre pessoas não imunes que convivem com um caso, a transmissão chega a 90%.',
+          'A marca da doença é a erupção que mistura lesões em estágios diferentes: manchas, pápulas, bolhas com líquido claro, pústulas e crostas, tudo na mesma região do corpo, com coceira intensa. Em crianças, a doença costuma ser benigna e durar de quatro a sete dias.',
+          'Depois da infecção, o vírus não vai embora. Ele permanece latente nos nervos e pode reativar anos depois, causando herpes-zóster, conhecido como cobreiro. Por isso a varicela na infância não é só um episódio isolado: ela deixa o vírus no corpo para o resto da vida.',
+        ],
+        bullets: [
+          'Causada pelo vírus varicela-zóster.',
+          'Altamente contagiosa entre pessoas não imunes.',
+          'Lesões em estágios diferentes ao mesmo tempo.',
+          'Em crianças costuma ser leve e autolimitada.',
+          'O vírus fica latente e pode causar herpes-zóster depois.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a catapora é transmitida?',
+        paragraphs: [
+          'A transmissão acontece pelo contato com o líquido das bolhas, pela tosse, pelo espirro e pela saliva, além de objetos contaminados por secreções. O contato direto com uma pessoa doente também transmite, e ambientes fechados, como creches e escolas, favorecem surtos.',
+          'O período de incubação é de 4 a 16 dias, segundo o Ministério da Saúde, e os sintomas aparecem em geral entre 10 e 21 dias após o contágio. A pessoa transmite de um a dois dias antes do aparecimento das lesões e continua transmitindo até que todas as lesões estejam em fase de crosta.',
+          'Quem nunca teve catapora nem foi vacinado pode se infectar em qualquer idade. Quem já teve a doença tem proteção para a varicela, mas não para o herpes-zóster, que é a reativação do mesmo vírus.',
+        ],
+        bullets: [
+          'Contato com o líquido das bolhas e com secreções respiratórias.',
+          'Objetos contaminados podem levar o vírus.',
+          'Incubação de 4 a 16 dias, com sintomas em 10 a 21 dias.',
+          'Transmissão começa 1 a 2 dias antes das lesões.',
+          'Contágio dura até todas as lesões virarem crostas.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da varicela?',
+        paragraphs: [
+          'Em crianças, a erupção costuma ser o primeiro sinal. Antes dela, alguns pacientes têm febre baixa, dor de cabeça, mal-estar, perda de apetite e, às vezes, vômito. Em adultos, esses sintomas iniciais são mais intensos e a febre tende a ser mais alta e prolongada.',
+          'As lesões começam no rosto, no couro cabeludo ou no tronco e se espalham. Cada uma passa de mancha a pápula, depois a bolha cheia de líquido claro e, em poucos dias, a crosta. Como surgem em surtos, é comum ver lesões em fases diferentes ao mesmo tempo, o que ajuda a diferenciar a catapora de outras erupções.',
+          'A coceira é marcante e pode levar a infecção bacteriana quando a pessoa coça até abrir a pele. Bolhas também podem aparecer na boca e na garganta, dificultando a alimentação. A febre costuma durar de dois a três dias, e as crostas caem em uma a duas semanas.',
+        ],
+        bullets: [
+          'Bolhas e manchas vermelhas que evoluem para crostas.',
+          'Lesões em estágios diferentes ao mesmo tempo.',
+          'Coceira intensa.',
+          'Febre baixa, dor de cabeça e mal-estar.',
+          'Em adultos o quadro costuma ser mais intenso.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento de emergência',
+        paragraphs: [
+          'A maioria dos casos é leve, mas algumas complicações aparecem sem que a erupção pareça grave. Se a pessoa com catapora apresentar algum destes sinais, procure atendimento no mesmo dia, e ligue para o SAMU 192 se houver dificuldade para respirar ou rebaixamento de consciência.',
+        ],
+        bullets: [
+          'Bolhas que ficam vermelhas, quentes, doloridas ou com pus, ou febre que volta depois do terceiro dia.',
+          'Tosse, falta de ar, dor no peito ou respiração rápida.',
+          'Sonolência, confusão, convulsão, tremores ou dificuldade para andar.',
+          'Bebê com menos de 1 mês, gestante, recém-nascido ou pessoa com imunidade baixa que teve contato com a doença.',
+          'Vômitos persistentes, recusa de líquidos ou diminuição do volume de urina.',
+          'Nunca dê ácido acetilsalicílico para quem tem catapora, pelo risco de síndrome de Reye.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a varicela é diagnosticada?',
+        paragraphs: [
+          'Na maioria dos casos, o diagnóstico é clínico: o médico reconhece a erupção com lesões em fases diferentes e a história de contato com alguém doente. Não é necessário fazer exames para confirmar ou descartar casos típicos em pessoas saudáveis.',
+          'Quando o quadro é grave, atípico ou acontece em pessoa com imunidade baixa, o teste molecular por PCR é o padrão para confirmar a infecção. Sorologias e cultura também podem ser usadas, mas levam mais tempo e têm disponibilidade limitada.',
+        ],
+        bullets: [
+          'O diagnóstico costuma ser clínico.',
+          'PCR é o padrão ouro nos casos graves ou atípicos.',
+          'Sorologia e cultura podem ajudar em situações específicas.',
+          'Em casos típicos de criança saudável, não é preciso exame.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames podem ser necessários?',
+        paragraphs: [
+          'Para a maioria das crianças saudáveis, nenhum exame é pedido. A investigação laboratorial fica reservada a casos graves, a pessoas imunossuprimidas e a situações em que é preciso diferenciar a varicela de outras doenças de pele.',
+          'Quando há suspeita de complicação, o hemograma e os marcadores de inflamação ajudam a avaliar infecção bacteriana secundária. Radiografia de tórax e avaliação neurológica entram quando há sintomas respiratórios ou neurológicos.',
+        ],
+        bullets: [
+          'PCR do líquido da vesícula.',
+          'Sorologia em situações específicas.',
+          'Hemograma se houver suspeita de infecção bacteriana.',
+          'Radiografia de tórax na suspeita de pneumonia.',
+          'Avaliação neurológica na suspeita de encefalite.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Com quais doenças a varicela se confunde?',
+        paragraphs: [
+          'O impetigo causa lesões crostosas parecidas, mas sem o aspecto de bolha em fases diferentes. A dermatite herpetiforme também tem bolhas pequenas, porém muito agrupadas e com coceira intensa. A doença mão-pé-boca, causada por coxsackie, tem bolhas em mãos, pés e boca, sem o padrão disseminado da varicela.',
+          'Outras doenças de pele e quadros febris com erupção também entram na diferença, como erupção variceliforme de Kaposi, riquetsioses e infecções bacterianas da pele. A varíola foi erradicada, mas segue como referência histórica de diagnóstico diferencial.',
+        ],
+        bullets: [
+          'Impetigo e outras infecções bacterianas da pele.',
+          'Dermatite herpetiforme.',
+          'Doença mão-pé-boca por coxsackie.',
+          'Erupção variceliforme de Kaposi.',
+          'Riquetsioses e outras erupções febris.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento da catapora?',
+        paragraphs: [
+          'O tratamento é sintomático. Analgésicos e antitérmicos aliviam a febre e o desconforto, e antialérgicos ajudam com a coceira. Compressas frias e banhos com água e sabão também trazem alívio. O ácido acetilsalicílico é contraindicado pelo risco de síndrome de Reye, uma complicação grave que afeta fígado e cérebro.',
+          'Pessoas com maior risco de forma grave, como adultos, gestantes, recém-nascidos e imunossuprimidos, podem precisar de antiviral, sempre com indicação médica. Antibiótico só entra quando há infecção bacteriana secundária, e não existe indicação de usar antibiótico para tratar a varicela em si.',
+          'A pessoa doente deve ficar afastada de creche, escola ou trabalho até que todas as lesões tenham virado crostas. O retorno antes disso mantém a transmissão em creches e escolas.',
+        ],
+        bullets: [
+          'Tratamento sintomático com analgésico, antitérmico e antialérgico.',
+          'Ácido acetilsalicílico é contraindicado.',
+          'Antiviral em grupos de risco, com indicação médica.',
+          'Antibiótico apenas se houver infecção bacteriana secundária.',
+          'Afastamento até todas as lesões formarem crostas.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a varicela pode causar?',
+        paragraphs: [
+          'A complicação mais comum é a infecção bacteriana das lesões, sobretudo por estreptococos e estafilococos, favorecida pela coceira. Pneumonia é mais frequente em adultos e em pessoas com imunidade baixa, e pode ser grave. A encefalite, inflamação do cérebro, é rara, mas pode deixar sequelas ou levar à morte se não for tratada.',
+          'Recém-nascidos e gestantes merecem atenção especial. A varicela no fim da gestação e no período neonatal pode evoluir de forma grave, e por isso qualquer contato deve ser comunicado ao serviço de saúde.',
+        ],
+        bullets: [
+          'Infecção bacteriana das lesões de pele.',
+          'Pneumonia, mais frequente em adultos.',
+          'Encefalite e ataxia cerebelar.',
+          'Otite média.',
+          'Síndrome de Reye em quem usa ácido acetilsalicílico.',
+          'Varicela neonatal e em gestantes.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Em crianças saudáveis, a varicela costuma se resolver sozinha em uma a duas semanas, sem sequelas. As crostas caem e podem deixar manchas claras temporárias ou pequenas cicatrizes, principalmente quando houve infecção bacteriana.',
+          'Em adolescentes, adultos e pessoas com imunidade baixa, o quadro tende a ser mais intenso, com febre mais alta e mais complicações. A pneumonia é a causa mais temida nesses grupos, sobretudo em gestantes e fumantes.',
+          'A infecção confere imunidade para a varicela, mas o vírus permanece no corpo e pode reativar como herpes-zóster décadas depois, sobretudo em idosos e em pessoas com imunidade reduzida.',
+        ],
+        bullets: [
+          'Crianças saudáveis costumam se recuperar em uma a duas semanas.',
+          'Adultos e imunossuprimidos têm mais complicações.',
+          'Cicatrizes podem permanecer no local das lesões.',
+          'O vírus fica latente e pode reativar como herpes-zóster.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados em casa e afastamento da escola',
+        paragraphs: [
+          'Corte as unhas e mantenha as mãos limpas para reduzir o risco de infecção pela coceira. Não estoure as bolhas nem retire as crostas. Roupas leves e folgadas, banho com água morna e sabão neutro e compressas frias ajudam a aliviar o desconforto.',
+          'O Ministério da Saúde orienta afastar a criança da creche ou da escola por sete dias a partir do início das manchas, e só liberar o retorno quando todas as lesões estiverem em fase de crosta. Adultos devem evitar trabalho e locais públicos pelo mesmo período.',
+          'Quem está com catapora deve ficar longe de recém-nascidos, gestantes e pessoas com imunidade baixa. Copos, toalhas e roupas de cama não devem ser compartilhados, e as mãos precisam ser lavadas com frequência, sobretudo depois de tocar nas lesões.',
+        ],
+        bullets: [
+          'Mantenha as unhas curtas e as mãos limpas.',
+          'Não estoure bolhas nem retire crostas.',
+          'Afastamento de sete dias do início das manchas.',
+          'Só retornar quando todas as lesões virarem crosta.',
+          'Evite contato com gestantes, recém-nascidos e imunossuprimidos.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a varicela?',
+        paragraphs: [
+          'A vacina é a principal forma de prevenção e reduz muito o risco de formas graves. Como o vírus circula com facilidade, lavar as mãos, ventilar os ambientes e cobrir a boca ao tossir também ajudam a limitar surtos em creches, escolas e serviços de saúde.',
+          'Em surtos hospitalares, a vacinação pode ser indicada para pessoas suscetíveis expostas, até cinco dias após o contato. A decisão é da equipe de saúde, que avalia o risco individual e as contraindicações.',
+        ],
+        bullets: [
+          'Vacinação como principal medida de prevenção.',
+          'Higiene das mãos e ventilação dos ambientes.',
+          'Afastamento de quem está doente até as crostas.',
+          'Vacinação pós-exposição em surtos hospitalares, quando indicada.',
+        ],
+      },
+      {
+        id: 'vacinacao',
+        heading: 'Quem deve se vacinar no Brasil?',
+        paragraphs: [
+          'No Calendário Nacional de Vacinação, a vacina contra varicela é aplicada aos 15 meses e aos 4 anos. Quando a vacina monovalente está indisponível, a tetraviral, que também protege contra sarampo, caxumba e rubéola, pode ser usada.',
+          'Além do calendário infantil, o Ministério da Saúde indica a vacina para grupos específicos: povos indígenas a partir de 4 anos, profissionais de saúde e cuidadores suscetíveis em contato com pessoas de alto risco, pacientes com doença renal crônica, pessoas com HIV, pessoas com doenças dermatológicas graves e quem usa ácido acetilsalicílico de forma crônica.',
+          'A vacina é de vírus vivo, e a indicação em gestantes e em pessoas com imunossupressão grave é avaliada individualmente pelo serviço de saúde. Quem tem dúvida sobre o próprio histórico deve levar a caderneta à UBS para conferir o esquema.',
+        ],
+        bullets: [
+          'Primeira dose aos 15 meses e segunda aos 4 anos.',
+          'A tetraviral pode substituir a monovalente quando necessário.',
+          'Grupos especiais têm indicação ampliada.',
+          'Gestantes e imunossuprimidos precisam de avaliação individual.',
+          'A conferência da caderneta é gratuita na UBS.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Catapora e varicela são a mesma coisa?',
+        answer:
+          'Sim. Catapora é o nome popular da varicela, infecção causada pelo vírus varicela-zóster. O nome técnico aparece em documentos de saúde e nos registros de vacinação.',
+      },
+      {
+        question: 'Quanto tempo a pessoa com catapora transmite?',
+        answer:
+          'A transmissão começa um a dois dias antes do aparecimento das bolhas e dura até que todas as lesões estejam em fase de crosta, o que costuma levar de uma a duas semanas.',
+      },
+      {
+        question: 'Quando a criança pode voltar à escola?',
+        answer:
+          'O Ministério da Saúde orienta afastamento de sete dias a partir do início das manchas, com retorno apenas quando todas as lesões tiverem virado crosta. Quem decide o momento exato é o serviço de saúde que acompanha o caso.',
+      },
+      {
+        question: 'Pode dar antitérmico comum?',
+        answer:
+          'Analgésicos e antitérmicos aliviam o desconforto, mas o ácido acetilsalicílico é contraindicado pelo risco de síndrome de Reye. Informe ao médico ou ao farmacêutico que a pessoa está com catapora antes de usar qualquer remédio.',
+      },
+      {
+        question: 'Quem já teve catapora pode ter de novo?',
+        answer:
+          'A varicela raramente acontece duas vezes. O vírus, porém, permanece no corpo e pode reativar anos depois como herpes-zóster, que é uma doença diferente, com bolhas em uma faixa da pele.',
+      },
+      {
+        question: 'Gestante com catapora precisa de atendimento imediato?',
+        answer:
+          'Sim. A varicela na gestação pode ser grave para a mãe e para o bebê. A gestante deve procurar o serviço de saúde assim que houver suspeita, para avaliação e orientação sobre o acompanhamento.',
+      },
+    ],
+    relatedArticleSlugs: ['varicela-crianca-pode-voltar-a-escola', 'varicela-em-adultos-e-gestantes'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'saude-infantil', 'saude-da-mulher'],
+    relatedDiseaseSlugs: ['sarampo', 'pneumonia', 'bronquiolite', 'gripe'],
+    references: [
+      {
+        label: 'Catapora (varicela)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/v/varicela-catapora',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chickenpox',
+        url: 'https://www.cdc.gov/chickenpox/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'sarampo',
+    slug: 'sarampo',
+    name: 'Sarampo',
+    aliases: ['sarampo', 'sarampo em crianças', 'febre com manchas vermelhas'],
+    summary:
+      'Infecção viral transmitida pelo ar, muito contagiosa, que começa como uma gripe forte e evolui com manchas avermelhadas na pele. A vacina é a única forma de prevenção e o Brasil recuperou em 2024 o certificado de país livre da doença.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é sarampo?',
+        paragraphs: [
+          'Sarampo é uma infecção respiratória causada por um vírus da família dos paramixovírus. É uma das doenças transmissíveis mais contagiosas que existem: em uma população sem imunidade, uma pessoa doente pode infectar até 18 outras.',
+          'O quadro começa parecido com uma gripe forte, com febre alta, tosse, coriza e olhos avermelhados. Dias depois surgem as manchas vermelhas que se espalham pelo corpo. Boa parte do contágio acontece nessa fase inicial, quando a pessoa ainda não sabe que está com sarampo.',
+          'A doença pode ser grave, sobretudo em crianças pequenas, gestantes e pessoas com a imunidade comprometida. Não existe remédio que elimine o vírus, e o tratamento serve para aliviar os sintomas e evitar complicações. Por isso a vacinação continua sendo a medida mais importante.',
+        ],
+        bullets: [
+          'Causado por um vírus, não por bactéria.',
+          'Transmissão pelo ar, em qualquer ambiente compartilhado.',
+          'Febre alta, tosse e manchas vermelhas que descem pelo corpo.',
+          'Doença de notificação compulsória no Brasil.',
+          'A vacina protege de forma duradoura.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como o sarampo é transmitido?',
+        paragraphs: [
+          'A transmissão acontece pelo ar. Quando a pessoa doente tosse, espirra ou apenas conversa, pequenas gotículas com o vírus ficam suspensas no ambiente. O vírus consegue se manter ativo no ar por até duas horas, o que explica surtos em escolas, ônibus e salas de espera.',
+          'Não é preciso contato íntimo para se infectar. Permanecer no mesmo ambiente fechado de alguém com sarampo já é suficiente. Quem está com a doença transmite desde seis dias antes do aparecimento das manchas até quatro dias depois, e é justamente nesse intervalo que a maioria das pessoas circula normalmente.',
+          'Quem já teve sarampo ou completou o esquema de vacinação está protegido. Quem não tem certeza do próprio histórico deve conferir a caderneta na unidade básica de saúde antes de viajar ou de conviver com um caso confirmado.',
+        ],
+        bullets: [
+          'Pelo ar, por gotículas de tosse e espirro.',
+          'O vírus permanece ativo no ambiente por até duas horas.',
+          'Transmissão de seis dias antes a quatro dias depois das manchas.',
+          'Ambientes fechados e aglomerações aumentam o risco.',
+          'Quem já teve a doença ou foi vacinado está protegido.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas do sarampo?',
+        paragraphs: [
+          'O período de incubação varia de 7 a 14 dias. A fase inicial dura em média três a quatro dias e se parece com uma gripe intensa: febre alta, acima de 38,5 °C, tosse seca, coriza, olhos vermelhos e lacrimejantes, mal-estar e perda de apetite. Nessa etapa a pessoa já transmite o vírus.',
+          'Um sinal característico aparece um a dois dias antes das manchas: pequenos pontos brancos na parte interna das bochechas, conhecidos como manchas de Koplik. Eles somem rápido e nem sempre são vistos, mas ajudam o profissional de saúde a reconhecer a doença.',
+          'As manchas vermelhas começam atrás das orelhas e no rosto, descem para o tronco e depois para os braços e as pernas. A febre costuma subir de novo junto com o exantema e cai aos poucos, enquanto a pele descama de forma fina.',
+        ],
+        bullets: [
+          'Febre alta, tosse seca e coriza.',
+          'Olhos vermelhos, lacrimejando e sensíveis à luz.',
+          'Manchas brancas na parte interna das bochechas.',
+          'Manchas vermelhas que começam no rosto e descem pelo corpo.',
+          'Mal-estar, irritabilidade e perda de apetite.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando o sarampo é sinal de emergência?',
+        paragraphs: [
+          'A maioria das pessoas se recupera, mas o sarampo pode evoluir rápido para quadros graves. Procure atendimento imediato se algum destes sinais aparecer, principalmente em crianças menores de 5 anos, gestantes e pessoas com imunidade baixa.',
+        ],
+        bullets: [
+          'Falta de ar, respiração rápida ou chiado no peito.',
+          'Sonolência excessiva, confusão ou convulsão.',
+          'Rigidez de nuca, vômitos persistentes ou dor de cabeça intensa.',
+          'Recusa total de líquidos ou sinais de desidratação.',
+          'Febre que volta depois de dias de melhora ou que não cede.',
+          'Piora do estado geral, com palidez ou manchas escuras na pele.',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem tem mais risco de forma grave?',
+        paragraphs: [
+          'Crianças menores de 5 anos, sobretudo as que ainda não completaram 1 ano, concentram o maior número de casos graves. Gestantes, adultos com mais de 20 anos, pessoas desnutridas e quem tem imunidade comprometida também evoluem com mais frequência para complicações.',
+          'A desnutrição e a deficiência de vitamina A aumentam o risco de pneumonia e de morte por sarampo. Em pessoas com HIV, câncer ou em uso de medicamentos que reduzem a imunidade, a doença pode ser prolongada e atípica, o que exige acompanhamento desde o início.',
+        ],
+        bullets: [
+          'Crianças menores de 1 ano.',
+          'Gestantes sem vacinação completa.',
+          'Pessoas desnutridas ou com deficiência de vitamina A.',
+          'Pessoas imunossuprimidas, incluindo quem vive com HIV.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o sarampo é diagnosticado?',
+        paragraphs: [
+          'O diagnóstico começa pela avaliação clínica. Febre alta, tosse, coriza, conjuntivite e manchas que descem do rosto para o corpo formam um conjunto muito sugestivo, ainda mais quando existe um caso confirmado próximo ou circulação da doença na região.',
+          'Todo caso suspeito precisa ser notificado à vigilância epidemiológica, mesmo antes do resultado dos exames. A confirmação laboratorial é feita em laboratório de referência, e a coleta oportuna muda o manejo de quem convive com o paciente.',
+        ],
+        bullets: [
+          'Avaliação clínica com histórico de exposição.',
+          'Notificação compulsória de todo caso suspeito.',
+          'Confirmação por exame específico em laboratório de referência.',
+          'Investigação dos contatos para bloqueio vacinal.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames confirmam o sarampo?',
+        paragraphs: [
+          'A pesquisa de anticorpos IgM no sangue é o exame mais usado e pode ser feita do primeiro ao 30º dia do aparecimento das manchas. Quando há dúvida, uma segunda amostra de sangue é coletada entre 15 e 25 dias depois da primeira para comparar os resultados.',
+          'A biologia molecular, feita em secreção respiratória, urina ou sangue, identifica o material genético do vírus e é mais útil nos primeiros sete dias de manchas. Além de confirmar o caso, esse teste permite saber qual linhagem do vírus está circulando, informação que orienta as ações de vigilância.',
+        ],
+        bullets: [
+          'IgM no sangue do 1º ao 30º dia das manchas.',
+          'Segunda amostra entre 15 e 25 dias, quando necessário.',
+          'Biologia molecular mais indicada nos primeiros sete dias.',
+          'Amostras de secreção respiratória, urina ou sangue.',
+          'Resultados ajudam a vigilância a acompanhar a circulação do vírus.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Com quais doenças o sarampo se confunde?',
+        paragraphs: [
+          'Rubéola, exantema súbito, dengue, escarlatina e algumas reações alérgicas a medicamentos também causam febre com manchas vermelhas. Na rubéola, as manchas são mais claras e os gânglios do pescoço ficam aumentados; no exantema súbito, a febre desaparece justamente quando a erupção aparece.',
+          'A tosse intensa, a conjuntivite e o sentido de progressão das manchas ajudam a diferenciar o sarampo das outras doenças. Como o tratamento e as medidas de isolamento mudam conforme o diagnóstico, a avaliação profissional é necessária sempre que houver dúvida.',
+        ],
+        bullets: [
+          'Rubéola, com gânglios aumentados e manchas mais apagadas.',
+          'Exantema súbito, típico de crianças pequenas.',
+          'Dengue, com dor no corpo e queda de plaquetas.',
+          'Escarlatina, com língua de aspecto avermelhado.',
+          'Alergia a medicamentos, sem febre alta persistente.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como o sarampo é tratado?',
+        paragraphs: [
+          'Não existe antiviral específico para o sarampo. O tratamento é de suporte: hidratação, alimentação leve, repouso, controle da febre e limpeza dos olhos com soro fisiológico. Analgésicos e antitérmicos comuns aliviam o desconforto, sempre com orientação profissional.',
+          'O Ministério da Saúde recomenda vitamina A para crianças com sarampo, em duas doses em dias consecutivos. A dose depende da idade: 50.000 UI para menores de 6 meses, 100.000 UI de 6 a 11 meses e 200.000 UI a partir de 12 meses. A suplementação é feita no serviço de saúde.',
+          'Antibiótico não trata o sarampo e só é indicado quando surge uma infecção bacteriana, como pneumonia ou otite. Ácido acetilsalicílico deve ser evitado em crianças e adolescentes pelo risco de síndrome de Reye. Casos graves, com dificuldade para respirar ou alteração de consciência, precisam de internação.',
+        ],
+        bullets: [
+          'Não há remédio que elimine o vírus.',
+          'Hidratação, repouso e controle da febre.',
+          'Vitamina A em duas doses, conforme a idade.',
+          'Antibiótico apenas se houver infecção bacteriana.',
+          'Evite ácido acetilsalicílico em crianças e adolescentes.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações o sarampo pode causar?',
+        paragraphs: [
+          'As complicações mais frequentes são pneumonia, otite média e diarreia. A pneumonia atinge cerca de 1 em cada 20 pessoas com sarampo e é a principal causa de morte, sobretudo em crianças pequenas. A otite aparece em aproximadamente 1 em cada 10 casos.',
+          'A encefalite, inflamação do cérebro, ocorre em 1 a 4 casos a cada 1.000 e mata cerca de 10% de quem desenvolve o quadro, além de deixar sequelas neurológicas em parte dos sobreviventes. De forma geral, o sarampo mata de 1 a 3 pessoas a cada 1.000 infectadas. Anos depois, uma complicação rara e progressiva, a panencefalite esclerosante subaguda, pode se manifestar.',
+        ],
+        bullets: [
+          'Pneumonia, em cerca de 1 a cada 20 casos.',
+          'Otite média, em cerca de 1 a cada 10 casos.',
+          'Diarreia e desidratação.',
+          'Encefalite em 1 a 4 casos a cada 1.000.',
+          'Morte em 1 a 3 casos a cada 1.000.',
+          'Panencefalite esclerosante subaguda, rara e tardia.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados em casa e afastamento da escola',
+        paragraphs: [
+          'Quem está com sarampo deve ficar em casa durante todo o período de transmissão, que vai de seis dias antes a quatro dias depois do início das manchas. Evite visitas e mantenha distância de gestantes, bebês e pessoas com imunidade baixa, que têm maior risco de forma grave.',
+          'Ofereça líquidos com frequência e refeições leves em pequenas porções. A febre alta e a falta de apetite favorecem a desidratação, então vale observar a quantidade de xixi, a boca seca e o estado de alerta da criança. Limpar os olhos com soro fisiológico ajuda no desconforto da conjuntivite.',
+          'Avise a escola ou o local de trabalho para que a vigilância sanitária possa acompanhar os contatos. A volta às atividades deve ser definida pelo serviço de saúde que acompanha o caso, depois de encerrado o período de transmissão.',
+        ],
+        bullets: [
+          'Isolamento durante todo o período de transmissão.',
+          'Distância de gestantes, bebês e imunossuprimidos.',
+          'Líquidos frequentes e refeições leves.',
+          'Observar sinais de desidratação.',
+          'Avisar a escola e seguir a orientação da vigilância.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o sarampo?',
+        paragraphs: [
+          'A vacina é a única forma eficaz de prevenção e a razão pela qual o Brasil conseguiu interromper a circulação do vírus. Manter o esquema em dia protege a pessoa e reduz a chance de surtos em creches, escolas e serviços de saúde.',
+          'Durante um surto, a vigilância pode indicar vacinação de bloqueio para contatos suscetíveis, incluindo crianças de 6 a 11 meses, que recebem uma dose extra fora do calendário. Ventilar ambientes e lavar as mãos ajudam, mas não substituem a vacina.',
+        ],
+        bullets: [
+          'Vacinação em dia como principal medida.',
+          'Vacinação de bloqueio para contatos durante surtos.',
+          'Crianças de 6 a 11 meses podem receber dose extra em surto.',
+          'Ambientes ventilados e higiene das mãos como apoio.',
+        ],
+      },
+      {
+        id: 'vacinacao',
+        heading: 'Quem deve se vacinar no Brasil?',
+        paragraphs: [
+          'No Calendário Nacional de Vacinação, a vacina tríplice viral é aplicada aos 12 meses e a segunda dose aos 15 meses, quando pode ser usada a tetraviral. Quem não tem o esquema completo pode se vacinar até os 59 anos, e profissionais de saúde têm indicação independentemente da idade.',
+          'A vacina é de vírus vivo e não pode ser aplicada em gestantes nem em pessoas com imunossupressão grave. A gestante deve ser orientada a se vacinar depois do parto, ainda no hospital ou na primeira visita à unidade básica.',
+          'Em novembro de 2024, o Brasil voltou a receber da Organização Pan-Americana da Saúde o certificado de país livre do sarampo, perdido em 2019. Manter esse status depende de cobertura vacinal alta e constante, por isso a conferência da caderneta é importante em qualquer idade.',
+        ],
+        bullets: [
+          'Primeira dose aos 12 meses e segunda aos 15 meses.',
+          'Vacinação disponível até os 59 anos para quem não completou o esquema.',
+          'Profissionais de saúde têm indicação em qualquer idade.',
+          'Gestantes não podem receber a vacina e devem ser imunizadas após o parto.',
+          'O país é certificado livre do sarampo desde 2024.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Sarampo é contagioso antes das manchas aparecerem?',
+        answer:
+          'Sim. A transmissão começa cerca de seis dias antes do aparecimento das manchas e vai até quatro dias depois. Por isso uma pessoa pode transmitir sem saber que está doente.',
+      },
+      {
+        question: 'Quem já teve sarampo precisa se vacinar?',
+        answer:
+          'Não. Quem teve sarampo confirmado fica protegido para o resto da vida e não precisa receber a vacina. Na dúvida sobre o diagnóstico anterior, o serviço de saúde pode orientar a conduta.',
+      },
+      {
+        question: 'Sarampo tem tratamento com remédio específico?',
+        answer:
+          'Não existe antiviral contra o vírus do sarampo. O tratamento alivia os sintomas, mantém a hidratação e, em crianças, inclui vitamina A conforme a idade. Antibiótico só é usado se houver infecção bacteriana associada.',
+      },
+      {
+        question: 'A vacina do sarampo causa a doença?',
+        answer:
+          'Não. A vacina é feita com vírus atenuado, incapaz de causar sarampo. Pode surgir febre leve e manchas discretas alguns dias depois, o que não significa infecção e não exige tratamento específico.',
+      },
+      {
+        question: 'Gestante pode tomar a vacina?',
+        answer:
+          'Não. A vacina é de vírus vivo e é contraindicada na gestação. A orientação é vacinar depois do parto, preferencialmente ainda no hospital, para proteger a mãe e o bebê.',
+      },
+      {
+        question: 'Bebê de 6 meses pode tomar a vacina em surto?',
+        answer:
+          'Sim, em situações de surto ou de viagem para área com circulação do vírus a vigilância pode indicar uma dose extra a partir dos 6 meses. Essa dose não substitui as doses do calendário, que continuam aos 12 e aos 15 meses.',
+      },
+    ],
+    relatedArticleSlugs: ['sarampo-sintomas-e-manchas-como-reconhecer', 'sarampo-vacina-e-bloqueio-em-surtos'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'saude-infantil', 'prevencao'],
+    relatedDiseaseSlugs: ['varicela', 'gripe', 'pneumonia', 'bronquiolite'],
+    references: [
+      {
+        label: 'Sarampo',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sarampo',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Measles',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/measles',
+        publisher: 'World Health Organization (WHO)',
+      },
+      {
+        label: 'PAHO re-verifies Brazil as a measles-free country',
+        url: 'https://www.paho.org/en/news/12-11-2024-paho-re-verifies-brazil-measles-free-country',
+        publisher: 'Pan American Health Organization (PAHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'tetano',
+    slug: 'tetano',
+    name: 'Tétano',
+    aliases: ['tétano', 'tétano acidental', 'tétano do ferimento'],
+    summary:
+      'Infecção grave causada por uma bactéria que vive no solo e entra pelo ferimento. Provoca rigidez e espasmos musculares intensos, exige internação e mata cerca de 1 em cada 10 pessoas. A vacina protege por dez anos.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é tétano?',
+        paragraphs: [
+          'Tétano é uma infecção causada pela bactéria Clostridium tetani, que vive no solo, na poeira e nas fezes de animais. Ela entra no corpo por um ferimento na pele e libera uma toxina que ataca o sistema nervoso, provocando contrações musculares que a pessoa não consegue controlar.',
+          'A doença não é comum, mas é uma emergência médica. A primeira manifestação costuma ser a dificuldade para abrir a boca, conhecida como trismo, seguida de rigidez no pescoço e no corpo. Sem tratamento em hospital, o quadro pode evoluir para insuficiência respiratória e morte.',
+          'A boa notícia é que o tétano é totalmente evitável pela vacinação. Quem mantém o reforço a cada dez anos raramente adoece, mesmo depois de um ferimento com terra. Um corte aparentemente pequeno, como pisar em um prego, já pode ser porta de entrada.',
+        ],
+        bullets: [
+          'Causado pela bactéria Clostridium tetani.',
+          'Entra por ferimentos na pele.',
+          'A toxina provoca rigidez e espasmos musculares.',
+          'É uma emergência médica com necessidade de internação.',
+          'A vacina com reforço a cada dez anos previne a doença.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como se pega tétano?',
+        paragraphs: [
+          'Tétano não passa de uma pessoa para outra. A infecção acontece quando os esporos da bactéria, presentes no ambiente, entram por uma solução de continuidade na pele, como corte, queimadura, mordida de animal, unha encravada ou fratura exposta.',
+          'Feridas profundas, com terra, fezes ou tecido morto têm mais risco, porque criam um ambiente sem oxigênio onde a bactéria se multiplica. Ainda assim, ferimentos pequenos e até lesões por espinho também podem transmitir a doença, por isso todo ferimento merece lavagem com água e sabão.',
+        ],
+        bullets: [
+          'Não é transmitido de pessoa para pessoa.',
+          'Os esporos ficam no solo, na poeira e nas fezes de animais.',
+          'A entrada é por cortes, queimaduras e feridas profundas.',
+          'Feridas com terra ou tecido morto têm risco maior.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas do tétano?',
+        paragraphs: [
+          'Os sintomas aparecem entre 3 e 21 dias depois do ferimento, em média de 5 a 15 dias. Quanto mais cedo começam, mais grave costuma ser o quadro. A primeira queixa frequente é a dificuldade para abrir a boca e mastigar.',
+          'Depois surgem rigidez de nuca, dificuldade para engolir, contratura dos músculos do abdome e espasmos dolorosos que podem ser desencadeados por luz, ruído ou toque. Em casos graves, o corpo se arqueia para trás, postura conhecida como opistótono.',
+          'A pessoa permanece consciente durante as crises, o que torna o quadro ainda mais angustiante. Febre, sudorese, pressão alta e batimentos acelerados podem acompanhar os espasmos, e a respiração fica comprometida quando os músculos da garganta e do tórax se contraem.',
+        ],
+        bullets: [
+          'Dificuldade para abrir a boca e mastigar.',
+          'Rigidez de nuca e do abdome.',
+          'Espasmos dolorosos provocados por luz, som ou toque.',
+          'Dificuldade para engolir e para respirar.',
+          'Febre, suor e alterações de pressão e frequência cardíaca.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando o tétano é uma emergência?',
+        paragraphs: [
+          'Tétano é sempre uma emergência. Qualquer pessoa com ferimento e rigidez para abrir a boca, espasmos ou dificuldade para engolir precisa ser levada imediatamente a um serviço de urgência, sem esperar o quadro piorar.',
+        ],
+        bullets: [
+          'Dificuldade para abrir a boca ou engolir.',
+          'Rigidez no pescoço ou no corpo.',
+          'Espasmos musculares dolorosos.',
+          'Dificuldade para respirar ou fala alterada.',
+          'Ferimento profundo, com terra, sujeira ou tecido morto.',
+          'Ferida em pessoa com vacinação incompleta ou desatualizada.',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem tem mais risco de tétano?',
+        paragraphs: [
+          'Quem nunca se vacinou ou está com o reforço atrasado tem risco maior. Pessoas com 80 anos ou mais, pessoas com diabetes, com imunidade comprometida e quem usa drogas injetáveis também adoecem com mais frequência e evoluem pior.',
+          'Recém-nascidos de mães não vacinadas e pessoas que trabalham em contato com terra, como agricultores e profissionais da construção, merecem atenção especial. Quem sofre acidentes com objetos enferrujados ou material orgânico deve revisar a caderneta de vacinação.',
+        ],
+        bullets: [
+          'Pessoas sem vacinação ou com reforço atrasado.',
+          'Idosos com 80 anos ou mais.',
+          'Pessoas com diabetes ou imunidade comprometida.',
+          'Trabalhadores rurais e da construção civil.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o tétano é diagnosticado?',
+        paragraphs: [
+          'O diagnóstico é clínico. O médico reconhece o tétano pela história de ferimento e pelo conjunto de sinais, como trismo, rigidez de nuca e espasmos provocados por estímulos. Não é preciso esperar resultado de exame para começar o tratamento.',
+          'A avaliação também busca a porta de entrada, que pode ser uma lesão antiga ou pequena que passou despercebida. Em idosos e em pessoas com imunidade baixa, o quadro pode ser confundido com outras doenças, o que reforça a importância de atendimento especializado.',
+        ],
+        bullets: [
+          'Diagnóstico baseado em sinais clínicos.',
+          'Busca do ferimento que deu origem à infecção.',
+          'Não depende de exame laboratorial.',
+          'Tratamento iniciado sem esperar confirmação.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Existe exame que confirma o tétano?',
+        paragraphs: [
+          'Nenhum exame de laboratório confirma tétano. A bactéria raramente é encontrada em culturas, e a presença dela em uma ferida não prova que a toxina esteja agindo. Por isso o diagnóstico é feito pelo quadro clínico.',
+          'Os exames servem para acompanhar as complicações e afastar outras doenças. Hemograma, eletrólitos, gasometria, radiografia de tórax e, quando necessário, avaliação cardíaca ajudam a conduzir o paciente internado, sobretudo se houver necessidade de ventilação mecânica.',
+        ],
+        bullets: [
+          'Nenhum exame confirma a doença.',
+          'Cultura da ferida tem pouco valor prático.',
+          'Exames acompanham complicações e desequilíbrios.',
+          'Radiografia e gasometria orientam o suporte respiratório.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Com quais doenças o tétano se confunde?',
+        paragraphs: [
+          'Meningite, acidente vascular cerebral, intoxicação por estricnina, raiva, reação distônica a medicamentos e crises de ansiedade podem causar rigidez ou espasmos. A diferença é que, no tétano, a rigidez é constante e os espasmos são desencadeados por estímulos mínimos.',
+          'A história de ferimento e a ausência de febre alta no início ajudam a separar o tétano da meningite. Como o tratamento precisa começar rápido, a investigação de outras causas não deve atrasar o atendimento em casos suspeitos.',
+        ],
+        bullets: [
+          'Meningite, com febre e rigidez de nuca.',
+          'Acidente vascular cerebral, com déficit focal.',
+          'Intoxicação por estricnina, com espasmos semelhantes.',
+          'Reação a medicamentos que causam distonia.',
+          'Crises de ansiedade e tetania por alterações do cálcio.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como o tétano é tratado?',
+        paragraphs: [
+          'O tratamento é feito em hospital e começa pela neutralização da toxina com imunoglobulina específica, além da limpeza cirúrgica do ferimento para retirar tecido morto e sujeira. Antibióticos ajudam a eliminar a bactéria, e a vacina é aplicada durante a internação.',
+          'O controle dos espasmos inclui ambiente com pouca luz e ruído, sedação e relaxantes musculares. Muitos pacientes precisam de unidade de terapia intensiva e de ventilação mecânica por semanas, até que a toxina deixe de agir.',
+          'A alimentação pode ser feita por sonda enquanto a deglutição estiver comprometida. A recuperação é lenta e exige reabilitação, com fisioterapia para recuperar força e movimento. Mesmo depois da alta, a vacinação precisa ser completada.',
+        ],
+        bullets: [
+          'Internação imediata em hospital.',
+          'Imunoglobulina antitetânica e limpeza cirúrgica da ferida.',
+          'Antibióticos e vacina durante a internação.',
+          'Controle dos espasmos e suporte respiratório.',
+          'Fisioterapia e acompanhamento após a alta.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações o tétano pode causar?',
+        paragraphs: [
+          'Os espasmos podem ser fortes o suficiente para fraturar vértebras e outros ossos. A obstrução da via aérea e a aspiração de secreções levam à pneumonia, e a imobilidade favorece trombose e embolia pulmonar.',
+          'Alterações do sistema nervoso autônomo, com pressão e batimentos muito instáveis, são uma causa importante de morte. Nos Estados Unidos, cerca de 1 em cada 10 casos é fatal, e o risco é maior entre idosos e pessoas sem vacinação atualizada.',
+        ],
+        bullets: [
+          'Fraturas por espasmos intensos.',
+          'Pneumonia por aspiração.',
+          'Trombose e embolia pulmonar.',
+          'Espasmo das cordas vocais e obstrução da via aérea.',
+          'Cerca de 1 em cada 10 casos evolui para morte.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Recuperação e cuidados depois do tétano',
+        paragraphs: [
+          'A internação costuma durar semanas. Durante esse período, a equipe mantém o ambiente silencioso, controla a dor e previne úlceras por pressão e trombose com mudanças de posição e medidas de proteção.',
+          'Depois da alta, a musculatura ainda está fraca e a pessoa pode precisar de fisioterapia motora e respiratória. Cansaço, rigidez residual e dificuldade para retomar as atividades são comuns e melhoram aos poucos.',
+          'Ter tétano não garante proteção para o futuro, porque a quantidade de toxina produzida costuma ser insuficiente para gerar imunidade duradoura. A vacinação completa depois da doença é obrigatória e deve ser conferida na alta hospitalar.',
+        ],
+        bullets: [
+          'Internação longa, em média de semanas.',
+          'Fisioterapia motora e respiratória após a alta.',
+          'Retomada gradual das atividades.',
+          'Ter tétano não imuniza contra novos episódios.',
+          'Esquema vacinal deve ser concluído após a doença.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o tétano?',
+        paragraphs: [
+          'A vacinação é a proteção mais importante. Lavar ferimentos com água e sabão, remover sujeira e procurar atendimento quando a lesão é profunda, foi causada por objeto sujo ou tem tecido morto também reduz o risco de infecção.',
+          'Em ferimentos de maior risco, o médico avalia a necessidade de imunoglobulina e de reforço da vacina. Não use álcool, pomadas caseiras ou pó de café na ferida, e não tente retirar corpos estranhos profundos em casa.',
+        ],
+        bullets: [
+          'Manter a vacina em dia é a principal prevenção.',
+          'Lavar ferimentos com água e sabão.',
+          'Procurar atendimento em feridas profundas ou sujas.',
+          'Não aplicar substâncias caseiras na ferida.',
+        ],
+      },
+      {
+        id: 'vacinacao',
+        heading: 'Quem deve se vacinar no Brasil?',
+        paragraphs: [
+          'Na infância, a proteção contra o tétano vem na vacina pentavalente, aplicada aos 2, 4 e 6 meses, e nos reforços com a DTP aos 15 meses e aos 4 anos. A partir dos 14 anos, a dupla adulto (dT) é aplicada e repetida a cada dez anos.',
+          'Gestantes devem receber a dTpa a partir da 20ª semana de cada gestação, o que protege a mãe e o bebê nos primeiros meses de vida. Quem vai viajar para áreas rurais ou trabalhar com terra deve conferir se o reforço está em dia antes de partir.',
+          'Em caso de ferimento, a equipe de saúde avalia o histórico vacinal e indica reforço ou imunoglobulina quando necessário. Quem não lembra quando tomou a última dose deve procurar a unidade básica de saúde com a caderneta.',
+        ],
+        bullets: [
+          'Pentavalente aos 2, 4 e 6 meses.',
+          'Reforços com DTP aos 15 meses e aos 4 anos.',
+          'Dupla adulto a partir dos 14 anos, com reforço a cada dez anos.',
+          'Gestantes recebem dTpa a partir da 20ª semana.',
+          'A caderneta deve ser conferida após qualquer ferimento.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Tétano pega de outra pessoa?',
+        answer:
+          'Não. O tétano não é transmitido de pessoa para pessoa. A bactéria está no ambiente e só causa a doença quando entra por um ferimento na pele.',
+      },
+      {
+        question: 'Quanto tempo depois do ferimento aparecem os sintomas?',
+        answer:
+          'O período de incubação varia de 3 a 21 dias, com média de 5 a 15 dias. Quanto mais rápido os sintomas começam, mais grave tende a ser o quadro.',
+      },
+      {
+        question: 'Pisar em prego enferrujado sempre causa tétano?',
+        answer:
+          'Não, mas é um ferimento de risco e exige avaliação. O médico vai limpar a ferida e verificar se a vacinação está em dia, indicando reforço ou imunoglobulina quando necessário.',
+      },
+      {
+        question: 'A vacina do tétano dura quanto tempo?',
+        answer:
+          'Cada dose protege por cerca de dez anos. Por isso o reforço com a dupla adulto deve ser repetido a cada dez anos, e antes disso em caso de ferimento de maior risco.',
+      },
+      {
+        question: 'Quem teve tétano precisa se vacinar depois?',
+        answer:
+          'Sim. A doença não garante imunidade duradoura, e o esquema vacinal precisa ser completado durante ou após a internação, conforme orientação da equipe de saúde.',
+      },
+      {
+        question: 'Dá para tratar tétano em casa?',
+        answer:
+          'Não. O tétano exige internação, controle dos espasmos e suporte respiratório. Qualquer suspeita deve ser levada imediatamente a um serviço de urgência.',
+      },
+    ],
+    relatedArticleSlugs: ['tetano-ferimento-e-vacina-quando-procurar', 'tetano-sintomas-e-tratamento'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['meningite-meningococica', 'sarampo', 'varicela', 'febre-amarela'],
+    references: [
+      {
+        label: 'Tétano acidental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tetano-acidental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Tetanus',
+        url: 'https://www.cdc.gov/tetanus/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'meningite-meningococica',
+    slug: 'meningite-meningococica',
+    name: 'Meningite meningocócica',
+    aliases: ['meningite', 'meningite bacteriana', 'doença meningocócica', 'meningococcemia'],
+    summary:
+      'Infecção bacteriana das membranas que envolvem o cérebro e a medula, transmitida por secreções respiratórias. Evolui em horas e exige antibiótico imediato. A letalidade média no Brasil fica entre 20% e 30%.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é meningite meningocócica?',
+        paragraphs: [
+          'Meningite é a inflamação das meninges, as membranas que envolvem e protegem o cérebro e a medula espinhal. Ela pode ser causada por vírus, bactérias, fungos ou parasitas, e as formas bacterianas são as mais graves.',
+          'A meningite meningocócica é causada pela bactéria Neisseria meningitidis, o meningococo. A infecção pode se limitar às meninges ou atingir a corrente sanguínea, quadro chamado de meningococcemia, que é ainda mais grave e pode levar à falência de órgãos em poucas horas.',
+          'A doença é endêmica no Brasil, com casos ao longo de todo o ano, e as bacterianas são mais frequentes no outono e no inverno. Crianças pequenas são as mais afetadas, mas adolescentes e adultos jovens também adoecem. O atendimento precisa ser imediato.',
+        ],
+        bullets: [
+          'Inflamação das membranas que envolvem o cérebro e a medula.',
+          'Causada pela bactéria Neisseria meningitidis.',
+          'Pode atingir as meninges ou a corrente sanguínea.',
+          'Doença endêmica no Brasil, com casos durante todo o ano.',
+          'É uma emergência médica.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a meningite meningocócica é transmitida?',
+        paragraphs: [
+          'A transmissão acontece por gotículas e secreções da garganta, como saliva e catarro, em contato próximo ou prolongado. Beijar, compartilhar copos e escovas de dentes ou morar na mesma casa são situações de risco. Conversar com alguém por alguns minutos em um ônibus não costuma ser suficiente.',
+          'Cerca de 1 em cada 10 pessoas carrega a bactéria na garganta sem adoecer. Esse estado de portador é comum e ajuda a manter a circulação da bactéria na comunidade, mas raramente evolui para doença.',
+          'A meningite meningocócica é menos contagiosa do que a gripe ou o resfriado. Ambientes aglomerados, como alojamentos, creches, quartéis e festivais, aumentam a chance de transmissão porque favorecem o contato próximo e prolongado.',
+        ],
+        bullets: [
+          'Por gotículas e secreções da garganta.',
+          'Exige contato próximo ou prolongado.',
+          'Cerca de 1 em cada 10 pessoas é portadora sem sintomas.',
+          'Aglomerações e moradia compartilhada aumentam o risco.',
+          'É menos contagiosa que gripes e resfriados.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas da meningite?',
+        paragraphs: [
+          'Os sintomas mais comuns são febre, dor de cabeça intensa, rigidez no pescoço, náuseas, vômitos e sensibilidade à luz. A rigidez de nuca pode dificultar encostar o queixo no peito e é um dos sinais mais conhecidos da doença.',
+          'Em bebês e crianças pequenas, os sinais são diferentes: irritabilidade, choro persistente e difícil de consolar, recusa alimentar, vômitos e moleira estufada. Nessa faixa de idade não espere a rigidez de nuca aparecer para procurar atendimento.',
+          'Na meningococcemia, a bactéria circula no sangue e lesa os vasos. Surgem mãos e pés frios, respiração rápida, pressão baixa e manchas vermelhas ou arroxeadas na pele que não desaparecem quando se pressiona o local.',
+        ],
+        bullets: [
+          'Febre alta e dor de cabeça intensa.',
+          'Rigidez de nuca e sensibilidade à luz.',
+          'Náuseas e vômitos.',
+          'Irritabilidade e moleira estufada em bebês.',
+          'Manchas vermelhas ou arroxeadas na pele.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando a meningite é uma emergência?',
+        paragraphs: [
+          'Meningite bacteriana pode matar em menos de 24 horas. Febre com rigidez de nuca, manchas na pele ou alteração de consciência exige atendimento imediato, sem esperar o dia seguinte e sem tentar tratar em casa.',
+        ],
+        bullets: [
+          'Febre com rigidez de nuca ou dor de cabeça intensa.',
+          'Manchas vermelhas ou roxas que não somem ao pressionar.',
+          'Confusão mental, sonolência excessiva ou dificuldade para acordar.',
+          'Convulsão.',
+          'Mãos e pés frios, respiração rápida ou pressão baixa.',
+          'Bebê com irritabilidade intensa, moleira estufada ou recusa de alimentação.',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem tem mais risco de meningite?',
+        paragraphs: [
+          'Crianças menores de 5 anos, especialmente bebês, e adolescentes e adultos jovens concentram a maioria dos casos. Pessoas com imunidade comprometida, incluindo quem vive com HIV, e quem não tem o baço ou tem o baço comprometido também adoecem com mais frequência.',
+          'Viver em alojamentos, dormitórios ou outras moradias coletivas, viajar para regiões com surtos e trabalhar diretamente com pacientes, como profissionais de saúde, são fatores que aumentam a exposição à bactéria.',
+        ],
+        bullets: [
+          'Crianças menores de 5 anos.',
+          'Adolescentes e adultos jovens.',
+          'Pessoas com imunidade comprometida.',
+          'Quem vive em alojamentos ou moradia coletiva.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como a meningite é diagnosticada?',
+        paragraphs: [
+          'O diagnóstico começa pela avaliação clínica. Febre, dor de cabeça, rigidez de nuca e alteração do estado mental formam o quadro clássico, mas nem sempre todos os sinais estão presentes, sobretudo em bebês.',
+          'A confirmação vem do exame do líquor, obtido por punção lombar, e de culturas de sangue. Identificar o agente é essencial para escolher o antibiótico e orientar as ações de vigilância, e todos os exames necessários estão disponíveis no Sistema Único de Saúde.',
+        ],
+        bullets: [
+          'Avaliação clínica detalhada.',
+          'Punção lombar para analisar o líquor.',
+          'Culturas de sangue e do líquor.',
+          'Identificação do agente orienta o tratamento.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames são feitos?',
+        paragraphs: [
+          'A análise do líquor mostra o tipo de inflamação e permite pesquisar a bactéria. Hemocultura, exames de imagem e provas inflamatórias completam a investigação e ajudam a avaliar complicações, como aumento da pressão dentro do crânio.',
+          'Quando há forte suspeita de meningite bacteriana, o antibiótico é iniciado antes do resultado dos exames. A punção lombar nunca deve atrasar o tratamento: se o paciente está instável, a coleta pode ser feita depois da primeira dose.',
+        ],
+        bullets: [
+          'Análise do líquor, com contagem de células e cultura.',
+          'Hemocultura para identificar a bactéria no sangue.',
+          'Exames de imagem quando há dúvida ou complicação.',
+          'Antibiótico iniciado antes do resultado em casos suspeitos.',
+          'Todos os exames estão disponíveis no SUS.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Com quais doenças a meningite se confunde?',
+        paragraphs: [
+          'Meningite viral, encefalite, dengue, malária e abscessos cerebrais podem causar febre e dor de cabeça. Na meningite viral, o líquor costuma ter alterações mais leves e a evolução é benigna na maioria dos casos.',
+          'Infecções de garganta, sinusite e otite também causam febre e rigidez, mas sem os sinais meníngeos típicos. Como a meningite bacteriana piora rápido, a dúvida diagnóstica é resolvida no hospital, e não em casa.',
+        ],
+        bullets: [
+          'Meningite viral, em geral mais leve.',
+          'Encefalite, com alteração de consciência e convulsão.',
+          'Dengue, com dor no corpo e queda de plaquetas.',
+          'Abscesso cerebral, com sinais focais.',
+          'Infecções de garganta, sinusite e otite.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a meningite meningocócica é tratada?',
+        paragraphs: [
+          'Todo caso suspeito é internado e recebe antibiótico específico pela veia assim que a doença é identificada. O tratamento não espera exames e pode incluir corticosteroide, como a dexametasona, administrado junto com a primeira dose do antibiótico para reduzir a inflamação e o risco de sequelas.',
+          'O suporte inclui controle da pressão, hidratação cuidadosa, oxigênio e, em casos graves, ventilação mecânica e medicamentos para sustentar a circulação. Quando há morte de tecido, pode ser necessária cirurgia para retirar a área comprometida.',
+          'A duração do antibiótico varia conforme a bactéria e a evolução clínica. A alta depende da melhora do quadro e do resultado dos exames, e o acompanhamento depois da internação é parte do tratamento.',
+        ],
+        bullets: [
+          'Internação imediata em todos os casos suspeitos.',
+          'Antibiótico pela veia sem esperar exames.',
+          'Corticosteroide junto com a primeira dose, quando indicado.',
+          'Suporte circulatório e respiratório em casos graves.',
+          'Cirurgia em áreas com morte de tecido.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações e sequelas podem ficar?',
+        paragraphs: [
+          'Cerca de 1 em cada 6 pessoas com meningite bacteriana morre, e 1 em cada 5 sobreviventes fica com sequelas graves. No Brasil, a letalidade média da meningite bacteriana fica entre 20% e 30%, mais alta em crianças menores de 5 anos e em idosos.',
+          'A perda auditiva atinge até 1 em cada 10 sobreviventes e pode ser permanente. Entre 10% e 20% ficam com sequelas neurológicas, como convulsões, atraso no desenvolvimento e dificuldades cognitivas. Pneumonia é uma complicação frequente, e a meningococcemia grave pode exigir amputação de membros.',
+        ],
+        bullets: [
+          'Cerca de 1 em cada 6 pacientes morre.',
+          '1 em cada 5 sobreviventes tem sequelas graves.',
+          'Letalidade média no Brasil entre 20% e 30%.',
+          'Perda auditiva em até 1 em cada 10 sobreviventes.',
+          'Sequelas neurológicas em 10% a 20%.',
+          'Pneumonia e amputações em casos graves.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Contatos próximos e recuperação',
+        paragraphs: [
+          'Quem mora com o paciente ou teve contato íntimo com a saliva deve receber antibiótico preventivo, porque o risco de adoecer é maior nos primeiros dias. A decisão sobre quem precisa da profilaxia é da equipe de saúde ou da vigilância epidemiológica.',
+          'Depois da alta, muitas pessoas precisam de avaliação auditiva, acompanhamento neurológico e fisioterapia. Sequelas motoras, de equilíbrio e de memória podem melhorar com reabilitação, e o retorno gradual às atividades depende da avaliação de cada caso.',
+          'Lavar as mãos com frequência, ventilar os ambientes e evitar compartilhar copos e talheres são cuidados úteis para reduzir a transmissão de secreções respiratórias entre pessoas da mesma casa.',
+        ],
+        bullets: [
+          'Contatos próximos recebem antibiótico preventivo.',
+          'Avaliação auditiva e neurológica depois da alta.',
+          'Reabilitação para sequelas motoras e cognitivas.',
+          'Retorno gradual às atividades.',
+          'Não compartilhar copos, talheres e escovas de dentes.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a meningite?',
+        paragraphs: [
+          'A vacinação é a principal forma de proteção contra os tipos bacterianos mais frequentes. Lavar as mãos, manter os ambientes ventilados e seguir a etiqueta respiratória, cobrindo a boca ao tossir e espirrar, reduzem a disseminação.',
+          'Em famílias e instituições com um caso confirmado, a vigilância organiza a profilaxia dos contatos e acompanha a ocorrência de novos casos. Durante surtos, a vacinação pode ser ampliada para grupos com maior risco.',
+        ],
+        bullets: [
+          'Vacinação como principal medida de prevenção.',
+          'Higiene das mãos e ambientes ventilados.',
+          'Cobrir a boca ao tossir e espirrar.',
+          'Profilaxia organizada pela vigilância em contatos.',
+        ],
+      },
+      {
+        id: 'vacinacao',
+        heading: 'Quais vacinas o SUS oferece?',
+        paragraphs: [
+          'A vacina meningocócica C é aplicada aos 3 e aos 5 meses, e a meningocócica ACWY aos 12 meses e entre 11 e 14 anos. A ACWY amplia a proteção para os sorogrupos A, C, W e Y e foi incorporada ao calendário para reduzir a circulação dessas variantes.',
+          'Outras vacinas do calendário também previnem formas de meningite: a BCG protege contra as formas graves da tuberculose, incluindo a meníngea; a pneumocócica previne doenças invasivas; e a penta protege contra Haemophilus influenzae tipo b. Completar o esquema é mais importante do que a ordem das vacinas.',
+          'Adolescentes, pessoas com imunidade comprometida, quem não tem o baço e viajantes para áreas de surto podem ter indicação ampliada de vacina, avaliada no serviço de saúde. A caderneta deve ser conferida sempre que houver dúvida sobre a proteção.',
+        ],
+        bullets: [
+          'Meningocócica C aos 3 e aos 5 meses.',
+          'Meningocócica ACWY aos 12 meses e entre 11 e 14 anos.',
+          'BCG, pneumocócica e penta também previnem meningites.',
+          'Grupos especiais podem ter indicação ampliada.',
+          'A conferência da caderneta é gratuita na UBS.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Meningite pega pelo ar?',
+        answer:
+          'A transmissão acontece por gotículas e secreções da garganta em contato próximo ou prolongado, como beijar, dividir copos ou morar na mesma casa. A doença é menos contagiosa que a gripe e o resfriado.',
+      },
+      {
+        question: 'Quanto tempo a meningite bacteriana leva para se manifestar?',
+        answer:
+          'Os sintomas costumam aparecer poucos dias após a exposição, e o quadro pode piorar em horas. Por isso, febre com rigidez de nuca ou manchas na pele exige atendimento imediato.',
+      },
+      {
+        question: 'As manchas da meningite somem ao apertar?',
+        answer:
+          'As manchas da meningococcemia não desaparecem quando se pressiona o local. Esse sinal indica gravidade e aparece junto com mãos e pés frios e respiração rápida, exigindo atendimento imediato.',
+      },
+      {
+        question: 'Quem convive com um paciente precisa tomar remédio?',
+        answer:
+          'Contatos próximos, especialmente quem mora na mesma casa, deve receber antibiótico preventivo, porque o risco de adoecer é maior nos primeiros dias. A indicação é feita pela equipe de saúde ou pela vigilância.',
+      },
+      {
+        question: 'Meningite deixa sequelas?',
+        answer:
+          'Pode. Cerca de 1 em cada 5 sobreviventes fica com sequelas graves, como perda auditiva, convulsões e dificuldades cognitivas. A avaliação e a reabilitação precoces ajudam a reduzir o impacto.',
+      },
+      {
+        question: 'Existe vacina contra meningite no SUS?',
+        answer:
+          'Sim. O calendário inclui a meningocócica C aos 3 e aos 5 meses e a ACWY aos 12 meses e entre 11 e 14 anos, além da BCG, da pneumocócica e da penta, que também previnem formas de meningite.',
+      },
+    ],
+    relatedArticleSlugs: ['meningite-meningococica-sintomas-e-sinais-de-alerta', 'meningite-meningococica-vacina-e-contatos'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'saude-infantil'],
+    relatedDiseaseSlugs: ['tetano', 'sarampo', 'varicela', 'pneumonia'],
+    references: [
+      {
+        label: 'Meningite',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Calendário Nacional de Vacinação',
+        url: 'https://www.gov.br/saude/pt-br/vacinacao/calendario',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Meningitis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/meningitis',
+        publisher: 'World Health Organization (WHO)',
+      },
+      {
+        label: 'About Meningococcal Disease',
+        url: 'https://www.cdc.gov/meningococcal/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'covid-19',
+    slug: 'covid-19',
+    name: 'Covid-19',
+    aliases: ['COVID-19', 'infecção por SARS-CoV-2', 'coronavírus', 'covid longa'],
+    summary:
+      'Infecção respiratória causada pelo coronavírus SARS-CoV-2. A maioria das pessoas melhora em casa, mas falta de ar, saturação baixa e confusão pedem atendimento imediato.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é covid-19?',
+        paragraphs: [
+          'A covid-19 é a infecção respiratória aguda causada pelo coronavírus SARS-CoV-2. O vírus entra pelo nariz e pela boca, se multiplica nas vias aéreas e pode descer até os pulmões, onde prejudica a troca de oxigênio. A doença vai de casos sem sintoma nenhum a pneumonia grave com necessidade de respirador.',
+          'A maioria das pessoas se recupera em casa. As formas graves se concentram em idosos, em quem convive com doenças crônicas e em pessoas com a imunidade comprometida. Reconhecer cedo o momento de procurar ajuda é o que mais reduz o risco de complicação.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como o coronavírus se transmite',
+        paragraphs: [
+          'A transmissão acontece por gotículas de saliva e secreções que saem quando alguém tosse, espirra ou fala, por aerossóis que ficam suspensos no ar em ambientes fechados e mal ventilados, e pelo contato das mãos com superfícies contaminadas levadas à boca, ao nariz ou aos olhos.',
+          'Quem não tem sintoma também transmite. Depois que a variante ômicron passou a predominar, o intervalo entre a exposição e os primeiros sintomas ficou entre 1 e 10 dias, com média de 3 a 4 dias. A reinfecção é possível, em geral depois de 90 dias da infecção anterior.',
+        ],
+      },
+      {
+        id: 'formas-e-gravidade',
+        heading: 'Quais são as formas da doença?',
+        paragraphs: [
+          'Os serviços de saúde classificam a covid-19 pela gravidade, e essa classificação define onde a pessoa deve ser atendida e quais exames são necessários.',
+          'Cerca de 15% dos casos evoluem para a forma grave e 5% para a crítica, segundo o Ministério da Saúde. A piora costuma aparecer na segunda semana, e não no primeiro dia de febre.',
+        ],
+        bullets: [
+          'Assintomática: teste positivo sem nenhum sintoma.',
+          'Leve: tosse, dor de garganta, coriza, febre, dor no corpo ou diarreia, sem falta de ar.',
+          'Moderada: os mesmos sintomas, com saturação de oxigênio igual ou acima de 94% no ar ambiente.',
+          'Grave: falta de ar, pressão no peito que não passa, saturação abaixo de 94% ou lábios e rosto azulados.',
+          'Crítica: síndrome do desconforto respiratório agudo, sepse, choque ou falência de vários órgãos.',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem tem mais risco de adoecer gravemente',
+        paragraphs: [
+          'A idade é o fator isolado mais importante: o risco sobe de forma contínua a partir dos 60 anos. Doenças crônicas também pesam, como diabetes, hipertensão, doenças do coração e do pulmão, doença renal crônica, obesidade, demência e câncer.',
+          'Também entram nesse grupo pessoas com a imunidade comprometida, gestantes e puérperas, tabagistas e quem não completou a vacinação. Na gestação, o risco é maior acima dos 35 anos, na obesidade e quando existe diabetes gestacional ou pré-eclâmpsia.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas mais comuns são febre ou calafrios, tosse, cansaço, falta de apetite, dor no corpo, dor de cabeça e falta de ar. Dor de garganta, coriza e congestão nasal também aparecem com frequência e se confundem com um resfriado comum.',
+          'Perda de olfato e de paladar, diarreia, náusea, olhos vermelhos e confusão mental entram como sintomas menos típicos. Crianças e adolescentes costumam ter formas mais leves, mas podem desenvolver uma resposta inflamatória tardia e grave, que exige internação.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Falta de ar é o sinal que muda a conduta. Quem consegue falar frases inteiras, come, bebe e mantém a saturação acima de 94% pode ser acompanhado em casa, com retorno se piorar. O pronto atendimento entra quando falta oxigênio ou quando o estado geral piora rápido.',
+          'Em qualquer um desses sinais, ligue para o SAMU (192) ou procure o pronto atendimento mais próximo. Não espere o resultado de um exame para buscar ajuda.',
+        ],
+        bullets: [
+          'Falta de ar em repouso ou ao falar',
+          'Saturação de oxigênio abaixo de 94% no ar ambiente',
+          'Lábios ou rosto azulados',
+          'Pressão ou dor no peito que não passa',
+          'Confusão, sonolência ou desmaio',
+          'Febre que volta depois de dias de melhora',
+          'Em crianças: respiração rápida, peito puxando ou recusa de líquidos',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'O diagnóstico é confirmado por teste de antígeno ou por exame molecular do tipo RT-PCR, feitos com amostra do nariz e da garganta. O teste de antígeno é rápido e funciona melhor nos primeiros dias de sintoma, quando há mais vírus nas vias aéreas.',
+          'Em quem precisa de internação, entram radiografia ou tomografia de tórax, hemograma, exames de função do fígado e dos rins e gasometria. Um teste negativo no começo dos sintomas não descarta a doença, e o médico pode repetir o exame.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com covid-19',
+        paragraphs: [
+          'Gripe, resfriado, infecção pelo vírus sincicial respiratório e outras viroses respiratórias produzem febre, tosse e dor no corpo muito parecidas. Dengue e outras arboviroses também entram na lista quando há febre alta, dor atrás dos olhos e manchas na pele.',
+          'Sinusite, amigdalite e pneumonia bacteriana podem começar do mesmo jeito. O teste para SARS-CoV-2 é o que separa os casos, e a avaliação clínica define se há necessidade de antibiótico.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a covid-19 é tratada',
+        paragraphs: [
+          'A maioria dos casos é tratada em casa, com antitérmicos para a febre, analgésicos para a dor, bastante líquido e repouso. Antibiótico por conta própria não ajuda: ele não age sobre vírus e ainda pode causar efeitos colaterais.',
+          'Para quem tem 65 anos ou mais e para pessoas imunossuprimidas, o SUS oferece a associação de nirmatrelvir e ritonavir. O remédio é indicado em casos leves e moderados, com diagnóstico confirmado, e precisa começar nos primeiros cinco dias de sintomas, sempre com prescrição médica.',
+        ],
+      },
+      {
+        id: 'tratamento-grave',
+        heading: 'Quando a internação é necessária',
+        paragraphs: [
+          'Na forma grave, o tratamento é hospitalar e inclui oxigênio, controle da hidratação e monitoramento contínuo. Corticoide é usado em quem precisa de oxigênio suplementar, e não em casos leves, porque nessa fase pode atrapalhar a resposta do corpo ao vírus.',
+          'Na UTI, entram ventilação mecânica, medicamentos para sustentar a pressão, prevenção de trombose e tratamento de infecções secundárias. A recuperação depois de uma internação longa costuma exigir fisioterapia e acompanhamento.',
+        ],
+      },
+      {
+        id: 'pos-covid',
+        heading: 'Covid longa e recuperação',
+        paragraphs: [
+          'Algumas pessoas continuam com sintomas semanas ou meses depois da infecção, ou desenvolvem sintomas novos. Cansaço, falta de ar aos esforços, dor de cabeça, dificuldade de concentração, palpitações e alterações do sono são as queixas mais comuns.',
+          'As condições pós-covid podem aparecer em qualquer idade e também depois de casos leves ou assintomáticos. O acompanhamento na UBS ajuda a afastar outras causas, organizar a reabilitação e tratar cada sintoma.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Cuidados em casa',
+        paragraphs: [
+          'Quem está com sintomas respiratórios deve evitar contato próximo com outras pessoas enquanto estiver sintomático, usar máscara quando precisar circular pela casa e manter os ambientes ventilados. Copos, talheres e toalhas não devem ser compartilhados.',
+          'Vale anotar a temperatura e, se houver oxímetro, a saturação ao longo do dia. Em idosos, mudança de comportamento, sonolência e recusa de comida podem ser o primeiro sinal de piora, mesmo sem febre alta.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir',
+        paragraphs: [
+          'A vacina é a medida que mais reduz o risco de forma grave, internação e morte. O Programa Nacional de Imunizações oferece vacinas autorizadas pela Anvisa e avaliadas pelo Instituto Nacional de Controle de Qualidade em Saúde, e o esquema é atualizado conforme a circulação do vírus.',
+          'Máscara, higiene das mãos, etiqueta respiratória e ventilação dos ambientes completam a proteção. Em unidades de saúde, o uso de máscara continua obrigatório para profissionais e visitantes.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Covid-19 ainda pode ser grave?',
+        answer:
+          'Sim. A maior parte dos casos é leve, mas parte das pessoas desenvolve falta de ar e precisa de internação. Idosos, pessoas com doenças crônicas e imunossuprimidos concentram as formas graves.',
+      },
+      {
+        question: 'Quanto tempo a doença dura?',
+        answer:
+          'A maioria melhora em cerca de uma semana. Tosse e cansaço podem durar mais tempo, e algumas pessoas mantêm sintomas por semanas ou meses, o que se chama de condição pós-covid.',
+      },
+      {
+        question: 'Quem já teve covid-19 pode pegar de novo?',
+        answer:
+          'Sim. A imunidade cai com o tempo e novas variantes circulam. A reinfecção é possível, em geral depois de 90 dias da infecção anterior.',
+      },
+      {
+        question: 'Quando devo fazer o teste?',
+        answer:
+          'O ideal é testar nos primeiros dias de sintomas, quando a quantidade de vírus nas vias aéreas é maior. Antígeno e RT-PCR funcionam nessa fase, e um resultado negativo precoce pode precisar de repetição.',
+      },
+      {
+        question: 'Crianças correm risco?',
+        answer:
+          'A maioria tem formas leves. Ainda assim, crianças podem desenvolver a síndrome inflamatória multissistêmica, uma complicação tardia que exige internação. Febre que não passa depois da covid merece avaliação.',
+      },
+      {
+        question: 'Máscara ainda é recomendada?',
+        answer:
+          'Sim, para quem tem sintomas respiratórios, casos confirmados, pessoas imunossuprimidas, idosos e em locais fechados e aglomerados. Em unidades de saúde, o uso é obrigatório.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'covid-19-sintomas-e-sinais-de-alerta',
+      'covid-19-como-se-transmite-e-como-se-proteger',
+      'covid-19-teste-positivo-o-que-fazer',
+      'covid-19-vacina-e-doses-de-reforco',
+      'covid-19-covid-longa-sintomas-e-recuperacao',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['gripe', 'pneumonia', 'bronquiolite', 'tuberculose'],
+    references: [
+      {
+        label: 'Covid-19',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Covid-19: esquemas vacinais',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/esquemas-vacinais',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Condições pós-covid',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/condicoes-pos-covid',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'leptospirose',
+    slug: 'leptospirose',
+    name: 'Leptospirose',
+    aliases: ['doença do rato', 'febre dos pântanos', 'síndrome de Weil', 'leptospirose icterohemorrágica'],
+    summary:
+      'Infecção causada por uma bactéria presente na urina de ratos e de outros animais, comum depois de enchentes. Febre com dor na panturrilha e contato com água de alagamento pedem avaliação rápida.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é leptospirose?',
+        paragraphs: [
+          'A leptospirose é uma infecção febril aguda causada por bactérias do gênero Leptospira. Ela circula entre animais, principalmente roedores, e chega às pessoas pelo contato com urina contaminada, presente em água, lama ou solo úmido.',
+          'A bactéria entra pela pele com ferimentos, pela pele íntegra que fica muito tempo mergulhada em água contaminada ou pelas mucosas. A maioria dos casos é leve e se confunde com uma virose, mas uma parte evolui para icterícia, insuficiência renal e hemorragia, quadro que exige internação.',
+        ],
+      },
+      {
+        id: 'como-se-pega',
+        heading: 'Como se pega leptospirose',
+        paragraphs: [
+          'Os ratos eliminam a bactéria pela urina e contaminam água, lama, esgoto e alimentos. Enchentes e alagamentos espalham o microrganismo e favorecem surtos, porque muita gente entra em contato com a água suja ao limpar a casa ou ao se deslocar.',
+          'A bactéria também pode entrar por cortes na pele, por mucosas e, mais raramente, por ingestão de água contaminada. O período de incubação varia de 1 a 30 dias, e na maioria dos casos os sintomas aparecem entre 7 e 14 dias após a exposição.',
+        ],
+      },
+      {
+        id: 'formas-da-doenca',
+        heading: 'Quais são as formas da doença?',
+        paragraphs: [
+          'A leptospirose costuma ser dividida em duas fases. A fase precoce dura cerca de uma semana e reúne febre, dor no corpo e dor de cabeça. A fase tardia começa depois desse período e é quando surgem as complicações, em cerca de 15% dos pacientes.',
+          'As formas graves se manifestam de duas maneiras principais. Na síndrome de Weil aparecem icterícia, insuficiência renal e sangramentos. Na síndrome de hemorragia pulmonar, a tosse seca evolui para falta de ar e eliminação de sangue pelas vias aéreas.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A fase inicial se parece com muitas outras infecções: febre, falta de apetite, dor de cabeça, náusea, vômito e dor muscular. A dor na panturrilha é o sintoma mais característico e ajuda a levantar a suspeita quando a pessoa esteve em área alagada.',
+          'Olhos vermelhos sem secreção, sensibilidade à luz, dor nos olhos, tosse e diarreia também podem aparecer. Aumento do fígado e do baço e gânglios inchados são menos comuns. Febre que cede por um ou dois dias e volta mais forte é um sinal de que a doença está avançando.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta e quando procurar atendimento',
+        paragraphs: [
+          'Toda pessoa com febre que mora ou trabalha em área de enchente, ou que teve contato com água e lama contaminadas, deve contar essa exposição ao profissional de saúde. O antibiótico é mais eficaz quando começa na primeira semana, e o diagnóstico rápido muda o desfecho.',
+          'Procure o pronto atendimento no mesmo dia se aparecer algum destes sinais:',
+        ],
+        bullets: [
+          'Pele e olhos amarelados',
+          'Diminuição importante da urina ou urina muito escura',
+          'Falta de ar, tosse com sangue ou dor no peito',
+          'Sangramento pelo nariz, gengiva ou em outros locais sem causa aparente',
+          'Sonolência, confusão ou desmaio',
+          'Febre alta que não melhora ou volta depois de uma trégua',
+          'Vômitos que impedem de beber água',
+        ],
+      },
+      {
+        id: 'grupos-de-risco',
+        heading: 'Quem tem mais risco',
+        paragraphs: [
+          'O risco acompanha a exposição. Moradores de áreas sem saneamento e sujeitas a alagamento, trabalhadores da limpeza de ruas e de bueiros, catadores, agricultores, pescadores e criadores de animais estão mais expostos. Quem participa do resgate e da limpeza depois de enchentes também entra nesse grupo.',
+          'A forma grave é mais frequente em adultos e em pessoas com doenças crônicas. Crianças costumam ter quadros mais leves, mas qualquer pessoa pode evoluir para a síndrome de Weil.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'A suspeita começa pela história de exposição somada aos sintomas. Na primeira semana, os exames buscam a própria bactéria, por cultura, exame direto ou pela detecção do material genético com PCR. Depois da primeira semana, entram os testes que detectam anticorpos, como ELISA-IgM e a microaglutinação.',
+          'Esses exames são feitos nos Laboratórios Centrais de Saúde Pública da rede pública. Hemograma, exames de ureia, creatinina, bilirrubinas e enzimas do fígado, radiografia de tórax e eletrocardiograma mostram a extensão do comprometimento e orientam a internação.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com leptospirose',
+        paragraphs: [
+          'Na fase inicial, dengue, influenza, malária, febre tifoide, toxoplasmose e outros quadros febris produzem sintomas semelhantes. Por isso a pergunta sobre enchente, lama ou contato com animais faz tanta diferença na consulta.',
+          'Na fase tardia, a icterícia e a insuficiência renal aproximam a leptospirose de hepatites virais, febre amarela, malária grave e de outras causas de lesão no fígado e nos rins. O conjunto dos exames separa essas doenças.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a leptospirose é tratada',
+        paragraphs: [
+          'O antibiótico é iniciado assim que a suspeita é levantada, sem esperar o resultado dos exames. Nos casos leves, o tratamento pode ser feito em casa; nos graves, a internação é imediata, com hidratação e suporte para os órgãos acometidos.',
+          'Na fase precoce, os serviços usam doxiciclina ou amoxicilina. Na fase tardia, entram penicilina cristalina, ampicilina, ceftriaxona ou cefotaxima, conforme o caso. A automedicação não é indicada, e a decisão sobre o esquema é sempre do profissional de saúde.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Complicações e sequelas',
+        paragraphs: [
+          'As complicações mais temidas são a hemorragia pulmonar, a insuficiência renal aguda e a lesão hepática. Em casos graves pode haver síndrome do desconforto respiratório agudo, choque e comprometimento de vários órgãos. A letalidade pode chegar a 40% nas formas graves.',
+          'Quem sobrevive costuma se recuperar por completo dos rins e do fígado, que se regeneram com o tempo. Cansaço e fraqueza podem durar semanas. Algumas pessoas desenvolvem inflamação nos olhos depois da fase aguda, e a visão deve ser avaliada se houver dor, vermelhidão ou perda de nitidez.',
+        ],
+      },
+      {
+        id: 'cuidados-e-recuperacao',
+        heading: 'Cuidados durante a recuperação',
+        paragraphs: [
+          'Em casa, o essencial é tomar o antibiótico até o fim e voltar ao serviço de saúde na data combinada. Beber líquido ao longo do dia, comer o que aceitar e evitar esforço físico nas primeiras semanas ajuda o corpo a se recuperar.',
+          'Depois de uma enchente, a lama que fica em móveis e paredes também transmite a bactéria. A limpeza deve ser feita com luvas e botas de borracha, retirando a lama e desinfetando o local com solução de hipoclorito de sódio. Crianças não devem nadar nem brincar nessa água.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir',
+        paragraphs: [
+          'A prevenção combina saneamento, controle de roedores e proteção individual. O lixo deve ser guardado em recipientes fechados e recolhido com frequência, os alimentos ficam em locais vedados e as caixas de água permanecem tampadas. Frestas em portas e paredes devem ser fechadas.',
+          'Em áreas alagadas, use botas e luvas de borracha, lave as mãos com água e sabão e trate a água de consumo com filtro, cloro ou fervura. Depois do contato com água contaminada, procure o serviço de saúde e informe a exposição, mesmo sem sintomas.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Leptospirose pega de pessoa para pessoa?',
+        answer:
+          'Não. A transmissão acontece pelo contato com a urina de animais infectados, presente em água, lama ou solo. Uma pessoa doente não transmite a bactéria para outra.',
+      },
+      {
+        question: 'Quanto tempo depois da enchente os sintomas aparecem?',
+        answer:
+          'O período de incubação vai de 1 a 30 dias, e na maioria dos casos fica entre 7 e 14 dias após o contato com água ou lama contaminadas.',
+      },
+      {
+        question: 'Toda leptospirose é grave?',
+        answer:
+          'Não. A maior parte dos casos é leve e se parece com uma virose. Cerca de 15% evoluem para as formas graves, com icterícia, insuficiência renal ou hemorragia, geralmente depois da primeira semana.',
+      },
+      {
+        question: 'Precisa de exame para começar o tratamento?',
+        answer:
+          'Não. O antibiótico começa assim que há suspeita clínica, porque a eficácia é maior na primeira semana. Os exames confirmam o diagnóstico depois e ajudam a acompanhar as complicações.',
+      },
+      {
+        question: 'Água com cloro mata a bactéria?',
+        answer:
+          'A água de consumo deve ser filtrada, fervida ou tratada com cloro. Isso reduz o risco de ingestão da bactéria, mas a principal forma de contaminação continua sendo o contato da pele com água e lama contaminadas.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'leptospirose-sintomas-e-sinais-de-alerta',
+      'leptospirose-como-se-prevenir-em-enchentes',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['dengue', 'febre-tifoide', 'hepatites-virais', 'malaria'],
+    references: [
+      {
+        label: 'Leptospirose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Leptospirosis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/leptospirosis',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'sifilis',
+    slug: 'sifilis',
+    name: 'Sífilis',
+    aliases: ['sífilis adquirida', 'cancro duro', 'sífilis congênita', 'neurossífilis'],
+    summary:
+      'Infecção sexualmente transmissível causada por uma bactéria e curável com penicilina. A ferida inicial some sozinha, e é justamente por isso que muita gente só descobre a doença em exames.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é sífilis?',
+        paragraphs: [
+          'A sífilis é uma infecção sexualmente transmissível causada pela bactéria Treponema pallidum. Ela é exclusiva do ser humano, tem cura e se manifesta em estágios, com períodos de feridas visíveis e longas fases sem nenhum sintoma.',
+          'O problema é que os sinais desaparecem sozinhos, mesmo sem tratamento, e muita gente conclui que está curada quando a bactéria continua no corpo. Sem tratamento, a doença pode atingir o coração, os vasos e o sistema nervoso anos depois.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a sífilis se transmite',
+        paragraphs: [
+          'A transmissão acontece principalmente por relação sexual oral, vaginal ou anal sem preservativo, pelo contato direto com as feridas da sífilis primária ou com as lesões de pele da fase secundária. Essas lesões concentram grande quantidade de bactérias.',
+          'A sífilis também passa da gestante para o bebê durante a gestação ou no parto, o que é chamado de transmissão vertical. A transfusão de sangue contaminado é uma via rara hoje em dia, porque o sangue doado passa por triagem.',
+        ],
+      },
+      {
+        id: 'primeiros-sinais',
+        heading: 'Quais são os primeiros sinais?',
+        paragraphs: [
+          'O primeiro sinal costuma ser uma ferida única no local por onde a bactéria entrou: pênis, vulva, vagina, colo do útero, ânus, boca ou pele. Ela aparece entre 10 e 90 dias após o contágio e recebe o nome de cancro duro.',
+          'O cancro duro não dói, não coça, não arde e não tem pus, o que faz muita gente ignorá-lo. Pode vir com ínguas na virilha. Depois de alguns dias, a ferida desaparece sozinha, mesmo sem tratamento, e a bactéria continua se multiplicando no organismo.',
+        ],
+      },
+      {
+        id: 'estagios',
+        heading: 'Quais são os estágios da doença?',
+        paragraphs: [
+          'A sífilis é classificada em quatro estágios, e cada um tem um tempo próprio de aparecimento. Reconhecer em qual fase a pessoa está define quantas doses de penicilina serão necessárias e como será o acompanhamento.',
+          'A fase secundária e a latente são as mais silenciosas. Na secundária as lesões desaparecem em algumas semanas, e na latente não há nenhum sintoma, embora exames de sangue continuem reagentes.',
+        ],
+        bullets: [
+          'Sífilis primária: ferida única e indolor no local de entrada da bactéria, com alta transmissibilidade.',
+          'Sífilis secundária: manchas no corpo que geralmente não coçam, inclusive nas palmas das mãos e nas solas dos pés, entre seis semanas e seis meses após a ferida inicial.',
+          'Sífilis latente: fase sem sintomas, dividida em recente, até um ano da infecção, e tardia, acima de um ano.',
+          'Sífilis terciária: lesões na pele, nos ossos, no coração e no sistema nervoso, que podem surgir de um a 40 anos após o início da infecção.',
+        ],
+      },
+      {
+        id: 'sifilis-congenita',
+        heading: 'Sífilis na gestação e sífilis congênita',
+        paragraphs: [
+          'Quando a gestante tem sífilis sem tratamento ou com tratamento incompleto, a bactéria atravessa a placenta e atinge o bebê. Isso pode causar abortamento, parto prematuro, natimorto, malformações e morte do recém-nascido.',
+          'O teste rápido faz parte do pré-natal e deve ser repetido no terceiro trimestre, além de ser oferecido no momento do parto. O tratamento da gestante com penicilina protege o bebê, e as parcerias sexuais também precisam ser testadas e tratadas para evitar uma nova infecção.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'O teste rápido para sífilis é gratuito no SUS e o resultado fica pronto em até 30 minutos. Ele detecta anticorpos contra a bactéria e, em gestantes, vítimas de violência sexual, pessoas sem diagnóstico prévio e pessoas com sinais da fase primária ou secundária, o tratamento pode começar só com esse resultado.',
+          'Nos demais casos, um exame de sangue confirma o diagnóstico. A coleta deve ser feita no mesmo dia do início do tratamento, porque esse resultado serve de base para comparar a resposta nas reavaliações. Quem já teve sífilis pode manter o teste rápido reagente para sempre, e por isso o histórico é levado em conta.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames complementam a investigação?',
+        paragraphs: [
+          'Além do exame físico, o médico pode colher material da ferida para visualizar a bactéria ao microscópio. Os testes de sangue se dividem em dois grupos: os treponêmicos, que confirmam o contato com a bactéria, e os não treponêmicos, como o VDRL, usados para medir a atividade da doença e acompanhar a cura.',
+          'Quando há sinais neurológicos, alterações de visão ou de audição, ou quando o tratamento não responde como esperado, pode ser necessário analisar o líquido que envolve o cérebro e a medula. Exames de imagem ajudam a avaliar comprometimento do coração, dos vasos e do sistema nervoso.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com sífilis',
+        paragraphs: [
+          'A ferida da fase primária se confunde com herpes genital, cancro mole, donovanose e lesões por trauma. Já as manchas da fase secundária podem ser confundidas com alergias, psoríase, micose e outras doenças que causam erupções na pele.',
+          'O comprometimento do sistema nervoso entra na lista de outras causas de meningite, demência e alterações de visão. O teste sorológico e a avaliação clínica são o que separam a sífilis dessas condições.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a sífilis é tratada',
+        paragraphs: [
+          'O tratamento de escolha é a penicilina benzatina, aplicada na unidade de saúde. O número de doses depende do estágio da doença, e a avaliação profissional define o esquema. Quem tem alergia à penicilina precisa informar a equipe antes de começar.',
+          'As parcerias sexuais também devem ser testadas e tratadas, mesmo sem sintomas, para interromper a transmissão e evitar a reinfecção. Durante o tratamento, o preservativo continua necessário, e a pessoa deve seguir a orientação do serviço sobre quando retomar as relações sexuais.',
+        ],
+      },
+      {
+        id: 'cura',
+        heading: 'A sífilis tem cura?',
+        paragraphs: [
+          'Sim. A sífilis tem cura quando o tratamento é feito no estágio adequado e a pessoa completa o esquema indicado. Nas fases primária e secundária, a resposta costuma ser boa; na fase tardia, o tratamento controla a infecção, mas não reverte lesões já instaladas no coração, nos vasos ou no sistema nervoso.',
+          'Quem já teve sífilis não fica imune. Uma nova exposição sem preservativo pode causar reinfecção, e por isso a testagem de rotina deve continuar: pelo menos uma vez por ano para pessoas sexualmente ativas e conforme o protocolo no pré-natal.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações a sífilis pode causar?',
+        paragraphs: [
+          'Na fase terciária, a bactéria pode provocar lesões graves na pele, nos ossos, no fígado e nos vasos. O comprometimento da aorta é uma das formas mais sérias e pode se manifestar décadas depois da infecção inicial.',
+          'A neurossífilis pode causar dor de cabeça persistente, alterações de memória e de comportamento, dificuldade para caminhar e perda de visão ou de audição. Na gestação, a falta de tratamento leva à sífilis congênita, com risco de morte do bebê.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Acompanhamento e vida cotidiana',
+        paragraphs: [
+          'Depois do tratamento, a pessoa volta ao serviço de saúde para repetir os exames de sangue. A queda dos títulos mostra que a infecção está sendo controlada; se os valores não caem como esperado, a equipe avalia a necessidade de repetir o esquema.',
+          'A vida cotidiana não muda: sífilis não se pega pelo uso de banheiro, piscina, copos ou abraços. O cuidado principal é manter o preservativo nas relações, avisar as parcerias para que também se tratem e voltar às consultas de acompanhamento.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir',
+        paragraphs: [
+          'O uso regular do preservativo externo ou interno em todas as relações é a medida mais importante, e o SUS distribui preservativos gratuitamente nas unidades de saúde. Testar-se com regularidade também faz parte da prevenção, mesmo sem sintomas.',
+          'No pré-natal, a testagem da gestante e da parceria protege o bebê. Em caso de exposição sexual sem preservativo, procure uma unidade de saúde para avaliar a necessidade de testes para sífilis, HIV e hepatites.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Qualquer ferida na região genital, anal ou na boca, ou qualquer mancha que apareça nas palmas das mãos e nas solas dos pés, pede uma avaliação. O mesmo vale para quem teve relação sem preservativo e para quem recebeu o diagnóstico de outra IST.',
+          'Procure atendimento sem esperar se aparecerem dor de cabeça que não passa, alterações de visão ou de audição, fraqueza em um lado do corpo ou mudança de comportamento. Na gestação, o teste deve ser feito no pré-natal e repetido conforme a orientação da equipe.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Sífilis pega pelo vaso sanitário?',
+        answer:
+          'Não. A bactéria não sobrevive fora do corpo humano e a transmissão acontece por contato sexual ou da gestante para o bebê. Banheiro, piscina e copos não transmitem sífilis.',
+      },
+      {
+        question: 'A ferida desaparecer sem tratamento significa cura?',
+        answer:
+          'Não. A ferida inicial desaparece sozinha, mas a bactéria continua no corpo e a doença pode avançar para os estágios seguintes. Só o tratamento com penicilina elimina a infecção.',
+      },
+      {
+        question: 'Quanto tempo depois da relação o teste fica positivo?',
+        answer:
+          'Os testes de sangue costumam reagir algumas semanas após a exposição. Se o resultado for negativo e a dúvida continuar, a equipe de saúde orienta repetir o exame após o período estimado para a resposta do organismo.',
+      },
+      {
+        question: 'Parceiro sem sintomas precisa tratar?',
+        answer:
+          'Sim. Parcerias sexuais de quem tem sífilis devem ser testadas e tratadas, mesmo sem sintomas, para interromper a transmissão e evitar a reinfecção.',
+      },
+      {
+        question: 'É possível engravidar depois da cura?',
+        answer:
+          'Sim. A sífilis tratada não impede a gravidez. O que protege o bebê é a testagem no pré-natal e o tratamento completo da gestante e da parceria.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'sifilis-sintomas-e-estagios',
+      'sifilis-teste-rapido-e-tratamento',
+      'sifilis-na-gestacao-e-sifilis-congenita',
+      'sifilis-parcerias-e-reinfeccao',
+      'neurossifilis-sintomas-e-sinais-de-alerta',
+    ],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-da-mulher'],
+    relatedDiseaseSlugs: ['hiv-aids', 'hepatites-virais', 'gonorreia', 'tuberculose'],
+    references: [
+      {
+        label: 'Sífilis',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Sífilis congênita',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis/sifilis-congenita',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Infecções Sexualmente Transmissíveis (IST)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Syphilis',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/syphilis',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'gonorreia',
+    slug: 'gonorreia',
+    name: 'Gonorreia',
+    aliases: ['blenorragia', 'infecção por gonococo', 'gonorreia genital'],
+    summary:
+      'Infecção sexualmente transmissível causada por uma bactéria que atinge uretra, colo do útero, reto, garganta e olhos. Muitas pessoas não têm sintomas, e sem tratamento a infecção pode levar à infertilidade.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é gonorreia?',
+        paragraphs: [
+          'A gonorreia é uma infecção sexualmente transmissível causada pela bactéria Neisseria gonorrhoeae, também chamada de gonococo. Ela atinge as mucosas do aparelho genital, do reto, da garganta e dos olhos, e o ser humano é o único reservatório da bactéria.',
+          'É uma das IST mais comuns no mundo e pode ser prevenida com preservativo. O tratamento correto elimina a infecção, mas não deixa proteção: quem já teve pode se infectar de novo a qualquer momento.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a gonorreia se transmite',
+        paragraphs: [
+          'A transmissão acontece por relação sexual oral, vaginal ou anal sem preservativo, pelo contato da mucosa com secreções infectadas. A bactéria é frágil fora do corpo humano, e por isso não se considera que objetos de uso comum, piscinas ou assentos sanitários sejam uma via relevante de contágio.',
+          'A gestante com gonorreia pode transmitir a bactéria ao bebê durante o parto, o que causa conjuntivite com secreção purulenta no recém-nascido, condição que exige atendimento imediato. Em adultos, os olhos também podem ser contaminados quando a secreção genital chega às mãos e depois à região ocular.',
+        ],
+      },
+      {
+        id: 'formas-e-sintomas',
+        heading: 'Formas da doença e sintomas',
+        paragraphs: [
+          'Os sintomas dependem do local infectado e do sexo. Na uretra causam ardor ao urinar e corrimento com pus; no colo do útero, muitas vezes não há queixa nenhuma. A maior parte das mulheres infectadas não percebe nada, e é por isso que o diagnóstico chega tarde em tantos casos.',
+          'A infecção no reto pode causar dor, coceira, sangramento e secreção. Na garganta, quase sempre passa sem sintoma. Nos olhos, provoca vermelhidão e secreção abundante, e é uma urgência porque pode lesar a córnea.',
+        ],
+        bullets: [
+          'Homens: ardor ao urinar, corrimento amarelado ou esverdeado e dor nos testículos.',
+          'Mulheres: corrimento vaginal, ardor ao urinar, sangramento fora do período menstrual e dor na relação.',
+          'Reto: dor, coceira, sangramento e secreção.',
+          'Garganta: em geral sem sintomas, com dor discreta em alguns casos.',
+          'Olhos: vermelhidão, inchaço e secreção purulenta.',
+          'Forma disseminada: febre, dor nas articulações e lesões de pele, quando a bactéria entra na corrente sanguínea.',
+        ],
+      },
+      {
+        id: 'causas-e-fatores',
+        heading: 'Por que algumas pessoas têm mais risco',
+        paragraphs: [
+          'O risco aumenta com relação sexual sem preservativo, com várias parcerias ou com uma parceria que tenha gonorreia. Quem já teve outra IST, como sífilis ou clamídia, também se infecta com mais facilidade, porque a mucosa inflamada abre caminho para a bactéria.',
+          'Jovens sexualmente ativos, pessoas que usam drogas ilícitas e pessoas privadas de liberdade estão entre os grupos com mais casos. Gestantes precisam de testagem porque a infecção sem sintomas é comum e o bebê pode ser contaminado no parto.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Procure uma unidade de saúde se aparecer corrimento pela uretra, pela vagina ou pelo ânus, ardor ao urinar, dor nos testículos, sangramento fora do período menstrual ou dor na relação sexual. O mesmo vale para quem teve relação sem preservativo com uma parceria com IST.',
+          'Dor forte no baixo ventre com febre, dor e inchaço em um testículo, ou febre com dor nas articulações e manchas na pele pedem atendimento no mesmo dia. Em recém-nascidos, olhos vermelhos com secreção purulenta são emergência.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'A avaliação começa pela conversa sobre a vida sexual e pelo exame físico da região genital, do ânus e da garganta quando há queixa. A confirmação depende de exame laboratorial, porque outras bactérias causam corrimento parecido.',
+          'A coleta é rápida e não exige internação. No homem, pode ser feita com a primeira parte da urina; na mulher e nos casos de infecção retal ou de garganta, o profissional colhe material com um cotonete fino. Em muitos serviços o exame é feito na própria unidade de saúde, e o sigilo do atendimento é garantido.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames confirmam a infecção',
+        paragraphs: [
+          'O exame mais usado hoje é o teste de biologia molecular, que identifica o material genético da bactéria na urina ou em material colhido da mucosa. Ele é sensível e não depende de a bactéria continuar viva no material.',
+          'A cultura, que faz a bactéria crescer em laboratório, demora mais, mas permite testar a sensibilidade aos antibióticos. Ela ganha importância quando o tratamento não funciona, porque a resistência do gonococo aumentou no mundo todo. A observação do material ao microscópio ajuda nos casos com secreção abundante, mas não confirma o diagnóstico sozinha.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com gonorreia',
+        paragraphs: [
+          'A principal confusão é com a infecção por clamídia, que costuma causar corrimento mais claro e discreto, muitas vezes sem dor. As duas bactérias podem estar presentes ao mesmo tempo, e por isso o tratamento normalmente cobre as duas.',
+          'Também entram na lista infecção urinária, tricomoníase, candidíase e inflamações causadas por outras bactérias. Corrimento e ardor não confirmam gonorreia, e o autodiagnóstico leva a tratamento errado e ao aumento da resistência.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a gonorreia é tratada',
+        paragraphs: [
+          'O tratamento é feito com antibióticos em dose única, aplicados ou orientados no serviço de saúde. O esquema mais usado combina uma injeção de ceftriaxona com um antibiótico oral, e a escolha segue o protocolo vigente do Ministério da Saúde, que muda quando a resistência aumenta.',
+          'Não se trate por conta própria nem use sobra de receita antiga. O gonococo desenvolveu resistência a várias classes de antibióticos, e um esquema incompleto seleciona bactérias mais difíceis de eliminar. As parcerias sexuais também precisam de tratamento, mesmo sem sintomas.',
+        ],
+      },
+      {
+        id: 'cura',
+        heading: 'A gonorreia tem cura?',
+        paragraphs: [
+          'Sim. Com o esquema correto e completo, a infecção é eliminada e a pessoa deixa de transmitir. As parcerias precisam ser tratadas ao mesmo tempo para evitar que a bactéria volte.',
+          'A cura não deixa proteção. Uma nova relação sem preservativo com uma parceria infectada causa nova infecção, e cada episódio aumenta o risco de complicações. Em alguns casos, o serviço pede um novo teste depois do tratamento para confirmar que a bactéria desapareceu.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer',
+        paragraphs: [
+          'Nas mulheres, a bactéria pode subir do colo do útero para as trompas e causar doença inflamatória pélvica, com dor, febre e secreção. A inflamação deixa cicatrizes nas trompas e está entre as principais causas de infertilidade e de gravidez ectópica.',
+          'Nos homens, a infecção pode atingir o epidídimo, com dor e inchaço no testículo, e, mais raramente, estreitar a uretra. A forma disseminada provoca febre, lesões de pele e artrite séptica, e exige tratamento hospitalar. Em recém-nascidos, a conjuntivite gonocócica pode causar cegueira quando não é tratada rápido.',
+        ],
+      },
+      {
+        id: 'cuidados-e-rotina',
+        heading: 'Cuidados durante e depois do tratamento',
+        paragraphs: [
+          'Enquanto o tratamento não termina, evite relações sexuais, inclusive orais, para não transmitir a bactéria. Avise as parcerias dos últimos meses para que também sejam testadas e tratadas, mesmo que não tenham sintomas.',
+          'Não é preciso separar roupas, toalhas ou louças, e a pessoa pode manter o trabalho e a rotina normal. Voltar ao serviço se os sintomas não sumirem em poucos dias é parte do cuidado, porque pode ser necessário trocar o esquema ou investigar resistência.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir',
+        paragraphs: [
+          'O preservativo externo ou interno, usado do começo ao fim de toda relação oral, vaginal ou anal, é a medida mais eficaz, e o SUS distribui preservativos nas unidades de saúde. Reduzir o número de parcerias e conversar sobre testagem também diminui o risco.',
+          'Testar-se com regularidade, mesmo sem sintomas, interrompe a cadeia de transmissão. Gestantes devem fazer o teste no pré-natal, e quem recebeu diagnóstico de gonorreia deve aproveitar o atendimento para testar também HIV, sífilis e hepatites.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Gonorreia pega pelo vaso sanitário?',
+        answer:
+          'Não. A bactéria é frágil fora do corpo humano e a transmissão acontece por contato sexual. Assento sanitário, piscina e toalha não transmitem gonorreia.',
+      },
+      {
+        question: 'Dá para ter gonorreia sem sintomas?',
+        answer:
+          'Sim, e isso é comum, sobretudo nas mulheres. Mesmo sem sintomas a pessoa transmite a bactéria e pode ter complicações mais tarde.',
+      },
+      {
+        question: 'Quanto tempo depois da relação aparecem os sintomas?',
+        answer:
+          'Costumam aparecer poucos dias após a exposição. Como muitas pessoas não têm sintoma nenhum, a testagem é a única forma de saber se houve infecção.',
+      },
+      {
+        question: 'Posso usar um remédio que sobrou de outra vez?',
+        answer:
+          'Não. O gonococo é resistente a vários antibióticos, e um esquema errado não cura a infecção e ainda seleciona bactérias mais difíceis de tratar.',
+      },
+      {
+        question: 'Quem já teve gonorreia pode ter de novo?',
+        answer:
+          'Sim. A infecção não deixa imunidade, e uma nova relação sem preservativo com uma parceria infectada causa nova infecção.',
+      },
+    ],
+    relatedArticleSlugs: ['gonorreia-como-prevenir'],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedDiseaseSlugs: ['sifilis', 'hiv-aids', 'hepatites-virais', 'infeccao-urinaria'],
+    references: [
+      {
+        label: 'Infecções Sexualmente Transmissíveis (IST)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'IST: diagnóstico',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist/diagnostico',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Gonorrhoea',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/gonorrhoea',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
 ];

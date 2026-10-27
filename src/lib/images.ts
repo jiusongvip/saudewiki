@@ -290,9 +290,97 @@ export const diseaseImages: Record<string, SiteImage> = {
     src: '/img/doenca-hidatidose.webp',
     alt: 'Ilustração médica de um corte do fígado com um cisto hidático grande de parede espessa contendo cistos filhos, com recorte de um rosto com pele e olhos amarelados e quatro ícones de dor no abdome, tosse seca, falta de ar e urticária',
   },
+  'febre-amarela': {
+    src: '/img/doenca-febre-amarela.webp',
+    alt: 'Ilustração médica de um fígado em corte, com três áreas lesionadas e partículas virais, com recorte de olhos com a parte branca amarelada e detalhe de um mosquito Aedes pousado na pele, e quatro ícones de febre alta, dor no corpo, náuseas e urina escura',
+  },
+  varicela: {
+    src: '/img/doenca-varicela.webp',
+    alt: 'Ilustração médica de um bloco de pele em três camadas com uma mancha vermelha, uma vesícula de líquido claro e uma crosta seca na superfície, com recorte das costas de uma criança com bolhas e detalhe de crostas na pele, e quatro ícones de coceira, febre baixa, bolhas e manchas',
+  },
+  sarampo: {
+    src: '/img/doenca-sarampo.webp',
+    alt: 'Ilustração médica de uma via aérea aberta em corte, com a mucosa avermelhada e partículas virais no interior, com recorte do rosto de uma criança com manchas nas bochechas e detalhe de um olho vermelho, e quatro ícones de febre alta, tosse seca, conjuntivite e manchas',
+  },
+  tetano: {
+    src: '/img/doenca-tetano.webp',
+    alt: 'Ilustração médica de uma mandíbula com o músculo da mastigação tenso e partículas de toxina junto a uma terminação nervosa, com recorte de um ferimento com terra na perna, e quatro ícones de boca travada, rigidez, espasmos e falta de ar',
+  },
+  'meningite-meningococica': {
+    src: '/img/doenca-meningite-meningococica.webp',
+    alt: 'Ilustração médica de um cérebro em corte com a membrana que o envolve espessada e uma fina camada de líquor, com recorte de manchas roxas no antebraço e detalhe do exame de rigidez de nuca, e quatro ícones de febre alta, náusea, nuca rígida e manchas',
+  },
+  'covid-19': {
+    src: '/img/doenca-covid-19.webp',
+    alt: 'Ilustração médica de um par de pulmões com o pulmão direito aberto em corte, mostrando os alvéolos cheios de líquido e partículas de vírus na via aérea, com recorte de um dedo com oxímetro, e quatro ícones de tosse seca, febre, falta de ar e cansaço',
+  },
+  leptospirose: {
+    src: '/img/doenca-leptospirose.webp',
+    alt: 'Ilustração médica de um rim aberto em corte, com a camada externa escura, o miolo com estrias claras, áreas inflamadas e bactérias em espiral, com recorte de pernas dentro de água de enchente, e quatro ícones de febre, dor muscular, icterícia e cansaço',
+  },
+  sifilis: {
+    src: '/img/doenca-sifilis.webp',
+    alt: 'Ilustração médica de um bloco de pele em corte com uma ferida rasa de borda endurecida e bactérias em espiral no tecido, com recorte de mãos com teste rápido, e quatro ícones de cancro duro, manchas, ínguas e ausência de sintomas',
+  },
+  gonorreia: {
+    src: '/img/doenca-gonorreia.webp',
+    alt: 'Ilustração médica de um trecho de uretra aberto em corte, com a mucosa avermelhada, secreção clara e bactérias redondas na superfície, com recorte de mãos com pote de urina, e quatro ícones de ardor, corrimento, dor pélvica e sangramento',
+  },
 };
 
 export const articleImages: Record<string, SiteImage> = {
+  'gonorreia-como-prevenir': {
+    src: '/img/artigo-gonorreia-como-prevenir.webp',
+    alt: 'Mãos segurando uma cartela com preservativos sobre o colo',
+  },
+  'leptospirose-sintomas-e-sinais-de-alerta': {
+    src: '/img/artigo-leptospirose-sintomas-e-sinais-de-alerta.webp',
+    alt: 'Pessoa deitada sob cobertores segurando um termômetro digital',
+  },
+  'leptospirose-como-se-prevenir-em-enchentes': {
+    src: '/img/artigo-leptospirose-como-se-prevenir-em-enchentes.webp',
+    alt: 'Rua alagada com água acumulada sobre o asfalto',
+  },
+  'sifilis-sintomas-e-estagios': {
+    src: '/img/artigo-sifilis-sintomas-e-estagios.webp',
+    alt: 'Mão coçando o antebraço',
+  },
+  'sifilis-teste-rapido-e-tratamento': {
+    src: '/img/artigo-sifilis-teste-rapido-e-tratamento.webp',
+    alt: 'Gota de sangue na ponta do dedo após a picada',
+  },
+  'sifilis-na-gestacao-e-sifilis-congenita': {
+    src: '/img/artigo-sifilis-na-gestacao-e-sifilis-congenita.webp',
+    alt: 'Gestante com as mãos sobre a barriga',
+  },
+  'sifilis-parcerias-e-reinfeccao': {
+    src: '/img/artigo-sifilis-parcerias-e-reinfeccao.webp',
+    alt: 'Casal conversando sentado no sofá',
+  },
+  'neurossifilis-sintomas-e-sinais-de-alerta': {
+    src: '/img/artigo-neurossifilis-sintomas-e-sinais-de-alerta.webp',
+    alt: 'Homem de óculos com a mão na testa, com expressão de dor de cabeça',
+  },
+  'covid-19-sintomas-e-sinais-de-alerta': {
+    src: '/img/artigo-covid-19-sintomas-e-sinais-de-alerta.webp',
+    alt: 'Mulher assoando o nariz com um lenço de papel no sofá',
+  },
+  'covid-19-como-se-transmite-e-como-se-proteger': {
+    src: '/img/artigo-covid-19-como-se-transmite-e-como-se-proteger.webp',
+    alt: 'Mulher usando máscara descartável ao ar livre',
+  },
+  'covid-19-teste-positivo-o-que-fazer': {
+    src: '/img/artigo-covid-19-teste-positivo-o-que-fazer.webp',
+    alt: 'Mão segurando um teste rápido de antígeno',
+  },
+  'covid-19-vacina-e-doses-de-reforco': {
+    src: '/img/artigo-covid-19-vacina-e-doses-de-reforco.webp',
+    alt: 'Mãos de profissional de saúde segurando uma seringa',
+  },
+  'covid-19-covid-longa-sintomas-e-recuperacao': {
+    src: '/img/artigo-covid-19-covid-longa-sintomas-e-recuperacao.webp',
+    alt: 'Homem sentado com as mãos na cabeça, com expressão de cansaço',
+  },
   'obesidade-sintomas-e-quando-buscar-ajuda': {
     src: '/img/artigo-obesidade-sintomas-e-quando-buscar-ajuda.webp',
     alt: 'Fita métrica amarela contornando a cintura de uma pessoa',
@@ -996,6 +1084,46 @@ export const articleImages: Record<string, SiteImage> = {
   'hidatidose-caes-ovinos-e-hortas': {
     src: '/img/artigo-hidatidose-caes-ovinos-e-hortas.webp',
     alt: 'Grupo de ovelhas pastando em um campo com vegetação alta diante de uma casa de madeira antiga e árvores',
+  },
+  'febre-amarela-vacina-para-quem-vai-viajar': {
+    src: '/img/artigo-febre-amarela-vacina-para-quem-vai-viajar.webp',
+    alt: 'Mãos com luvas azuis aplicam uma injeção no braço de uma pessoa de camiseta lilás',
+  },
+  'febre-amarela-forma-grave-sinais-de-alarme': {
+    src: '/img/artigo-febre-amarela-forma-grave-sinais-de-alarme.webp',
+    alt: 'Enfermaria de hospital com camas vazias, frascos de soro e equipamentos ao lado de cada leito',
+  },
+  'varicela-crianca-pode-voltar-a-escola': {
+    src: '/img/artigo-varicela-crianca-pode-voltar-a-escola.webp',
+    alt: 'Crianças sentadas em carteiras escolares durante uma aula',
+  },
+  'varicela-em-adultos-e-gestantes': {
+    src: '/img/artigo-varicela-em-adultos-e-gestantes.webp',
+    alt: 'Gestante de vestido verde claro em pé ao ar livre, com as mãos sobre a barriga',
+  },
+  'sarampo-sintomas-e-manchas-como-reconhecer': {
+    src: '/img/artigo-sarampo-sintomas-e-manchas-como-reconhecer.webp',
+    alt: 'Mulher de máscara mede a temperatura do filho com um termômetro infravermelho no sofá de casa',
+  },
+  'sarampo-vacina-e-bloqueio-em-surtos': {
+    src: '/img/artigo-sarampo-vacina-e-bloqueio-em-surtos.webp',
+    alt: 'Mãos com luvas verdes seguram o braço de uma pessoa durante um atendimento',
+  },
+  'tetano-ferimento-e-vacina-quando-procurar': {
+    src: '/img/artigo-tetano-ferimento-e-vacina-quando-procurar.webp',
+    alt: 'Duas pessoas enrolam gaze branca na mão de um homem',
+  },
+  'tetano-sintomas-e-tratamento': {
+    src: '/img/artigo-tetano-sintomas-e-tratamento.webp',
+    alt: 'Leito de unidade de terapia intensiva com monitor cardíaco, respirador e cortinas ao lado',
+  },
+  'meningite-meningococica-sintomas-e-sinais-de-alerta': {
+    src: '/img/artigo-meningite-meningococica-sintomas-e-sinais-de-alerta.webp',
+    alt: 'Médica de jaleco branco com estetoscópio vermelho examina uma criança de costas',
+  },
+  'meningite-meningococica-vacina-e-contatos': {
+    src: '/img/artigo-meningite-meningococica-vacina-e-contatos.webp',
+    alt: 'Profissional de saúde de jaleco branco segura uma seringa com a agulha para cima',
   },
 };
 

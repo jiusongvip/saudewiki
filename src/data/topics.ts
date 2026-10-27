@@ -55,6 +55,10 @@ export const topics: Topic[] = [
       'tricuriase',
       'oxiuriase',
       'hidatidose',
+      'covid-19',
+      'leptospirose',
+      'sifilis',
+      'gonorreia',
     ],
     articleSlugs: [
       'sintomas-iniciais-da-dengue',
@@ -147,6 +151,19 @@ export const topics: Topic[] = [
       'oxiuriase-ou-ascaridiase-como-diferenciar',
       'hidatidose-cisto-descoberto-no-exame',
       'hidatidose-caes-ovinos-e-hortas',
+      'gonorreia-como-prevenir',
+      'leptospirose-sintomas-e-sinais-de-alerta',
+      'leptospirose-como-se-prevenir-em-enchentes',
+      'sifilis-sintomas-e-estagios',
+      'sifilis-teste-rapido-e-tratamento',
+      'sifilis-na-gestacao-e-sifilis-congenita',
+      'sifilis-parcerias-e-reinfeccao',
+      'neurossifilis-sintomas-e-sinais-de-alerta',
+      'covid-19-sintomas-e-sinais-de-alerta',
+      'covid-19-como-se-transmite-e-como-se-proteger',
+      'covid-19-teste-positivo-o-que-fazer',
+      'covid-19-vacina-e-doses-de-reforco',
+      'covid-19-covid-longa-sintomas-e-recuperacao',
     ],
     references: [
       {
@@ -232,6 +249,10 @@ export const topics: Topic[] = [
       'tricuriase',
       'oxiuriase',
       'hidatidose',
+      'covid-19',
+      'leptospirose',
+      'sifilis',
+      'gonorreia',
     ],
     articleSlugs: [
       'como-prevenir-a-dengue',
@@ -322,6 +343,10 @@ export const topics: Topic[] = [
       'oxiuriase-tratar-a-familia-e-limpeza-da-casa',
       'hidatidose-cisto-descoberto-no-exame',
       'hidatidose-caes-ovinos-e-hortas',
+      'gonorreia-como-prevenir',
+      'leptospirose-como-se-prevenir-em-enchentes',
+      'covid-19-como-se-transmite-e-como-se-proteger',
+      'covid-19-vacina-e-doses-de-reforco',
     ],
     references: [
       {
@@ -550,6 +575,7 @@ export const topics: Topic[] = [
       'anemia-ferropriva',
       'infeccao-urinaria',
       'cancer-do-colo-do-utero',
+      'sifilis',
     ],
     articleSlugs: [
       'zika-na-gestacao-o-que-a-infeccao-pode-causar',
@@ -557,6 +583,8 @@ export const topics: Topic[] = [
       'infeccao-urinaria-sintomas-e-quando-procurar-atendimento',
       'cancer-do-colo-do-utero-sintomas-e-sinais-de-alerta',
       'cancer-do-colo-do-utero-hpv-vacina-e-rastreamento',
+      'sifilis-na-gestacao-e-sifilis-congenita',
+      'sifilis-teste-rapido-e-tratamento',
     ],
     references: [
       {

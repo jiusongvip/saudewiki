@@ -43,6 +43,7 @@ export const regions: BodyRegion[] = [
       'epilepsia',
       'cisticercose',
       'raiva',
+      'sifilis',
     ],
     globalOverview: [
       'No mundo, o AVC é uma das principais causas de morte e de incapacidade permanente, e a enxaqueca e outras cefaleias estão entre as causas mais frequentes de anos vividos com limitação. Epilepsia, demências e neuropatias completam o grupo das doenças neurológicas mais comuns.',
@@ -72,6 +73,8 @@ export const regions: BodyRegion[] = [
       'glaucoma',
       'tracoma',
       'cisticercose',
+      'leptospirose',
+      'gonorreia',
     ],
     globalOverview: [
       'No mundo, a catarata continua sendo a maior causa de cegueira evitável, e o glaucoma, a principal causa de cegueira irreversível: a perda de visão ocorre sem dor e sem aviso, por isso o exame periódico é parte do cuidado.',
@@ -130,6 +133,7 @@ export const regions: BodyRegion[] = [
       'helmintiases',
       'ascaridiase',
       'hidatidose',
+      'covid-19',
     ],
     globalOverview: [
       'No mundo, as infecções respiratórias baixas, como a pneumonia, estão entre as principais causas de morte, e a asma atinge centenas de milhões de pessoas, a maioria sem diagnóstico formal.',
@@ -155,6 +159,7 @@ export const regions: BodyRegion[] = [
       'insuficiencia-cardiaca',
       'fibrilacao-atrial',
       'obesidade',
+      'sifilis',
     ],
     globalOverview: [
       'As doenças cardiovasculares são a principal causa de morte no mundo, e dentro delas o infarto e o AVC lideram. A hipertensão, presente em cerca de um em cada quatro adultos, é o maior fator de risco isolado e costuma ser silenciosa por anos.',
@@ -183,6 +188,7 @@ export const regions: BodyRegion[] = [
       'obesidade',
       'amebiase',
       'hidatidose',
+      'leptospirose',
     ],
     globalOverview: [
       'No mundo, as hepatites B e C, o álcool e a gordura no fígado associada à obesidade e ao diabetes estão entre as principais causas de cirrose e de câncer de fígado.',
@@ -269,6 +275,7 @@ export const regions: BodyRegion[] = [
       'dengue',
       'doenca-renal-cronica',
       'infeccao-urinaria',
+      'leptospirose',
     ],
     globalOverview: [
       'No mundo, a doença renal crônica afeta centenas de milhões de pessoas e cresce junto com diabetes e hipertensão, suas duas principais causas. Ela fica silenciosa até fases avançadas: por isso quem tem essas duas condições faz exame de função renal de rotina.',
@@ -299,6 +306,7 @@ export const regions: BodyRegion[] = [
       'leishmaniose',
       'elefantiase',
       'cisticercose',
+      'sifilis',
     ],
     globalOverview: [
       'No mundo, o câncer de pele é o tipo de câncer mais diagnosticado, e a exposição ao sol sem proteção é o principal fator modificável. Dermatites, acne, micoses e escabiose estão entre as causas mais comuns de sofrimento cutâneo no dia a dia.',
@@ -327,6 +335,7 @@ export const regions: BodyRegion[] = [
       'cisticercose',
       'obesidade',
       'espondilose-lombar',
+      'gonorreia',
     ],
     globalOverview: [
       'No mundo, a dor lombar é a principal causa de anos vividos com incapacidade, e a artrose de joelho e quadril pesa sobretudo depois dos 50 anos, acompanhando o envelhecimento e a obesidade.',

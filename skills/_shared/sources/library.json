@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-27",
   "allowedHosts": [
     "gov.br",
     "saude.gov.br",
@@ -109,6 +109,29 @@
       "status": "verified"
     },
     {
+      "id": "about-chickenpox",
+      "label": "About Chickenpox",
+      "url": "https://www.cdc.gov/chickenpox/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "exantema",
+        "vacinação"
+      ],
+      "diseases": [
+        "varicela"
+      ],
+      "supports": [
+        "Contagioso de 1 a 2 dias antes da erupção até todas as lesões formarem crostas",
+        "Incubação de 10 a 21 dias",
+        "Doença dura cerca de 4 a 7 dias",
+        "Vírus permanece latente e pode reativar como herpes-zóster"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "about-echinococcosis",
       "label": "About Echinococcosis",
       "url": "https://www.cdc.gov/echinococcosis/about/index.html",
@@ -181,6 +204,28 @@
       "status": "verified"
     },
     {
+      "id": "about-meningococcal-disease",
+      "label": "About Meningococcal Disease",
+      "url": "https://www.cdc.gov/meningococcal/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "meningite",
+        "vacinação"
+      ],
+      "diseases": [
+        "meningite-meningococica"
+      ],
+      "supports": [
+        "Cerca de 1 em 10 pessoas carrega a bactéria na garganta sem adoecer",
+        "Transmissão por secreções respiratórias e saliva em contato próximo",
+        "Contatos próximos devem receber antibiótico preventivo"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "about-pinworm-infection",
       "label": "About Pinworm Infection",
       "url": "https://www.cdc.gov/pinworm/about/index.html",
@@ -228,6 +273,29 @@
         "预防包括洗手、换尿布后洗手、腹泻期间不游泳与旅行时注意饮食饮水安全"
       ],
       "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "about-tetanus",
+      "label": "About Tetanus",
+      "url": "https://www.cdc.gov/tetanus/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "ferida",
+        "vacinação"
+      ],
+      "diseases": [
+        "tetano"
+      ],
+      "supports": [
+        "Sintomas entre 3 e 21 dias após a exposição, média de 8 dias",
+        "Primeiro sinal costuma ser espasmo da mandíbula",
+        "Complicações: laringoespasmo, fratura, pneumonia por aspiração",
+        "Cerca de 1 em 10 casos evolui para óbito"
+      ],
+      "verifiedAt": "2026-10-27",
       "status": "verified"
     },
     {
@@ -819,6 +887,30 @@
       "status": "imported"
     },
     {
+      "id": "catapora-varicela",
+      "label": "Catapora (varicela)",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/v/varicela-catapora",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "exantema",
+        "vacinação"
+      ],
+      "diseases": [
+        "varicela"
+      ],
+      "supports": [
+        "Transmissão por secreções respiratórias e líquido das vesículas",
+        "Incubação de 4 a 16 dias e sintomas em 10 a 21 dias",
+        "Afastamento da escola por 7 dias do início das manchas",
+        "AAS contraindicado pelo risco de síndrome de Reye",
+        "Complicações: encefalite, pneumonia e infecções de pele e ouvido"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "catarata-versao-saude-para-a-familia",
       "label": "Catarata, versão saúde para a família",
       "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-oftalmol%C3%B3gicos/catarata/catarata",
@@ -983,6 +1075,27 @@
       "status": "imported"
     },
     {
+      "id": "condicoes-pos-covid",
+      "label": "Condições pós-covid",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/condicoes-pos-covid",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "covid longa",
+        "pos-covid",
+        "sequelas"
+      ],
+      "diseases": [
+        "covid-19"
+      ],
+      "supports": [
+        "新冠长期症状可影响多系统，程度与初始病情严重度无关"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "congestao-nasal-e-coriza-versao-saude-para-a-familia",
       "label": "Congestão nasal e coriza, versão saúde para a família",
       "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-ouvido-nariz-e-garganta/sintomas-de-dist%C3%BArbios-do-nariz-e-da-garganta/congest%C3%A3o-nasal-e-coriza",
@@ -1071,6 +1184,56 @@
         "巴西每 3 到 5 年出现一次发病高峰，再感染通常表现较轻"
       ],
       "verifiedAt": "2026-10-26",
+      "status": "verified"
+    },
+    {
+      "id": "covid-19",
+      "label": "Covid-19",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "covid-19",
+        "SARS-CoV-2",
+        "transmissao",
+        "pos-covid"
+      ],
+      "diseases": [
+        "covid-19"
+      ],
+      "supports": [
+        "Covid-19：SARS-CoV-2 引起的急性呼吸道感染，经接触、飞沫与气溶胶传播",
+        "Covid-19：奥密克戎流行后潜伏期为 1 至 10 天，平均 3 至 4 天",
+        "Covid-19：轻型为上呼吸道症状无呼吸困难；重型为呼吸困难或室内空气下 SpO2 ≤94% 或口唇发绀",
+        "Covid-19：约 15% 病例可重型、5% 危重型；60 岁以上与有合并症者风险更高",
+        "Covid-19：口罩建议用于有呼吸道症状者、确诊病例、免疫抑制者、老年人及封闭拥挤环境；医疗机构内强制",
+        "Covid-19：SUS 纳入 nirmatrelvir/ritonavir，用于 65 岁以上或免疫抑制的轻中度确诊者，需症状出现 5 天内使用",
+        "Covid-19：病后症状持续或新发称为新冠长期症状，可影响任何年龄与任何严重程度的病例"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
+      "id": "covid-19-esquemas-vacinais",
+      "label": "Covid-19: esquemas vacinais",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19/esquemas-vacinais",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "covid-19",
+        "vacinacao",
+        "PNI"
+      ],
+      "diseases": [
+        "covid-19"
+      ],
+      "supports": [
+        "Covid-19 疫苗：PNI 提供的疫苗获 Anvisa 授权并经 INCQS/Fiocruz 质量评估，对重症仍有效",
+        "Covid-19 疫苗：完整接种含推荐加强剂次对维持保护很重要"
+      ],
+      "verifiedAt": "2026-10-27",
       "status": "verified"
     },
     {
@@ -1636,6 +1799,31 @@
       "status": "verified"
     },
     {
+      "id": "febre-amarela",
+      "label": "Febre amarela",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-amarela",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "arbovirose",
+        "vacinação",
+        "viajante"
+      ],
+      "diseases": [
+        "febre-amarela"
+      ],
+      "supports": [
+        "Ciclos silvestre e urbano; no Brasil só ciclo silvestre desde 1942",
+        "Sintomas iniciais e forma grave em cerca de 15%",
+        "Letalidade de 20% a 50% nas formas graves",
+        "Vacina em dose única desde 2017, ofertada pelo SUS",
+        "Contraindicações da vacina e intervalo de 28 dias para doação de sangue"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "febre-reumatica",
       "label": "Febre reumática",
       "url": "https://bvsms.saude.gov.br/febre-reumatica/",
@@ -1790,6 +1978,29 @@
         "MSD 家庭/专业版：Glaucoma, versão saúde para a família，支撑青光眼词条的病因、症状、诊断或治疗事实"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "gonorrhoea",
+      "label": "Gonorrhoea",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/gonorrhoea",
+      "publisher": "World Health Organization (WHO)",
+      "host": "www.who.int",
+      "lang": "en",
+      "topics": [
+        "gonorreia",
+        "IST",
+        "resistencia antimicrobiana"
+      ],
+      "diseases": [
+        "gonorreia"
+      ],
+      "supports": [
+        "WHO：淋病由淋病奈瑟菌引起，经性接触传播，许多感染者（尤其女性）无症状",
+        "WHO：未治疗可致盆腔炎、不孕与异位妊娠；新生儿可经产道感染致眼炎",
+        "WHO：淋球菌耐药性上升，治疗需按国家指南"
+      ],
+      "verifiedAt": "2026-10-27",
       "status": "verified"
     },
     {
@@ -2272,6 +2483,32 @@
       "status": "verified"
     },
     {
+      "id": "infeccoes-sexualmente-transmissiveis-ist",
+      "label": "Infecções Sexualmente Transmissíveis (IST)",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "IST",
+        "gonorreia",
+        "clamidia",
+        "preservativo"
+      ],
+      "diseases": [
+        "sifilis",
+        "gonorreia"
+      ],
+      "supports": [
+        "IST：SUS 免费诊断与治疗，优先在初级卫生保健提供",
+        "IST：部分感染无症状，需主动检测",
+        "IST：分泌物见于淋病、衣原体与滴虫感染；盆腔炎主要由未治疗的淋病与衣原体感染引起",
+        "IST：全程使用安全套（口交、肛交、阴道交）是最有效的预防措施，SUS 免费提供男用与女用安全套"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "insolacao-saude-de-a-a-z",
       "label": "Insolação, saúde de A a Z",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/insolacao",
@@ -2332,6 +2569,28 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "ist-diagnostico",
+      "label": "IST: diagnóstico",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist/diagnostico",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "IST",
+        "diagnostico",
+        "testagem"
+      ],
+      "diseases": [
+        "sifilis",
+        "gonorreia"
+      ],
+      "supports": [
+        "IST 诊断：病史、脆弱性评估与体检是核心，按指征采集生物标本做实验室或快速检测"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
     },
     {
       "id": "iv-consenso-brasileiro-sobre-rinites-atualizacao-em-rinite-alergica",
@@ -2466,6 +2725,52 @@
       "status": "imported"
     },
     {
+      "id": "leptospirose",
+      "label": "Leptospirose",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leptospirose",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "leptospirose",
+        "enchentes",
+        "zoonose"
+      ],
+      "diseases": [
+        "leptospirose"
+      ],
+      "supports": [
+        "Leptospirose：与感染动物（主要是鼠类）尿液接触传播，潜伏期 1 至 30 天，通常 7 至 14 天",
+        "Leptospirose：早期症状为发热、肌肉痛（尤其小腿）、头痛、恶心呕吐；约 15% 进展为重症，Weil 综合征为黄疸、肾衰竭与出血三联征",
+        "Leptospirose：重症病死率可达 40%；洪水后易暴发",
+        "Leptospirose：早期用多西环素或阿莫西林，晚期用青霉素、氨苄西林、头孢曲松等；疑似即开始治疗",
+        "Leptospirose：洪水淤泥清理需戴橡胶靴与手套，淤泥用 2.5% 次氯酸钠溶液消毒"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
+      "id": "leptospirosis",
+      "label": "Leptospirosis",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/leptospirosis",
+      "publisher": "World Health Organization (WHO)",
+      "host": "www.who.int",
+      "lang": "en",
+      "topics": [
+        "leptospirose",
+        "zoonose"
+      ],
+      "diseases": [
+        "leptospirose"
+      ],
+      "supports": [
+        "WHO：钩端螺旋体病为人畜共患病，全球分布，暴发常与洪水相关",
+        "WHO：重症可致肾衰竭、黄疸、出血与呼吸衰竭"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "linha-de-cuidados-em-avc-na-rede-de-atencao-as-urgencias-e-emergencias",
       "label": "Linha de cuidados em AVC na rede de atenção às urgências e emergências",
       "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt-cuidados-avc.pdf",
@@ -2588,6 +2893,49 @@
       "status": "imported"
     },
     {
+      "id": "measles",
+      "label": "Measles",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+      "publisher": "World Health Organization (WHO)",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "exantema",
+        "vacinação"
+      ],
+      "diseases": [
+        "sarampo"
+      ],
+      "supports": [
+        "Sintomas começam 7 a 14 dias após a exposição",
+        "Uma pessoa infectada pode gerar até 18 casos secundários",
+        "Vírus permanece ativo no ar por até 2 horas",
+        "Duas doses da vacina são necessárias"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
+      "id": "meningite-saiba-mais",
+      "label": "Meningite: saiba mais",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite/saiba-mais",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "meningite"
+      ],
+      "diseases": [
+        "meningite-meningococica"
+      ],
+      "supports": [
+        "Meningococcemia: mãos e pés frios, respiração rápida e manchas vermelhas",
+        "Sintomas de meningite bacteriana e sinais de gravidade"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "meningite-sintomas-e-quando-procurar-atendimento",
       "label": "Meningite: sintomas e quando procurar atendimento",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/meningite",
@@ -2599,6 +2947,30 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "meningitis",
+      "label": "Meningitis",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/meningitis",
+      "publisher": "World Health Organization (WHO)",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "meningite",
+        "vacinação"
+      ],
+      "diseases": [
+        "meningite-meningococica"
+      ],
+      "supports": [
+        "Cerca de 1 em 6 pessoas com meningite bacteriana morre",
+        "1 em 5 sobreviventes fica com sequelas graves",
+        "Transmissão por partículas respiratórias e secreções da garganta",
+        "Punção lombar não deve atrasar o antibiótico",
+        "Quimioprofilaxia para contatos próximos"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
     },
     {
       "id": "metade-das-pessoas-com-cegueira-por-catarata-precisa-de-cirurgia-que-muda-a-vida",
@@ -2874,6 +3246,26 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "paho-re-verifies-brazil-as-a-measles-free-country",
+      "label": "PAHO re-verifies Brazil as a measles-free country",
+      "url": "https://www.paho.org/en/news/12-11-2024-paho-re-verifies-brazil-measles-free-country",
+      "publisher": "Pan American Health Organization (PAHO)",
+      "host": "www.paho.org",
+      "lang": "pt",
+      "topics": [
+        "sarampo",
+        "eliminação"
+      ],
+      "diseases": [
+        "sarampo"
+      ],
+      "supports": [
+        "Brasil reverificado como país livre do sarampo em novembro de 2024"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
     },
     {
       "id": "pneumonia-adquirida-na-comunidade-edicao-profissional",
@@ -3223,6 +3615,30 @@
       "status": "verified"
     },
     {
+      "id": "sarampo",
+      "label": "Sarampo",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sarampo",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "exantema",
+        "vacinação"
+      ],
+      "diseases": [
+        "sarampo"
+      ],
+      "supports": [
+        "Transmissão aérea e contágio de 6 dias antes a 4 dias depois do exantema",
+        "Sintomas e manchas de Koplik",
+        "Complicações: pneumonia 1 em 20, otite 1 em 10, encefalite 1 a 4 em 1.000",
+        "Tratamento de suporte e vitamina A por faixa etária",
+        "Coleta de IgM entre o 1º e o 30º dia e RT-PCR até o 7º dia"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "schistosomiasis-fact-sheet",
       "label": "Schistosomiasis: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/schistosomiasis",
@@ -3297,6 +3713,56 @@
         "WHO：Sickle-cell disease: fact sheet，支撑镰状细胞病词条的全球流行病学与防控要点"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "sifilis",
+      "label": "Sífilis",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "sifilis",
+        "IST",
+        "teste rapido",
+        "gestacao"
+      ],
+      "diseases": [
+        "sifilis"
+      ],
+      "supports": [
+        "Sífilis：Treponema pallidum 引起、可治愈、仅感染人类",
+        "Sífilis：一期硬下疳在感染后 10 至 90 天出现，无痛无痒、可自行消失但不代表痊愈",
+        "Sífilis：二期皮疹多在感染后 6 周至 6 个月出现，可累及手掌与脚底",
+        "Sífilis：潜伏期分近期（一年内）与晚期（超过一年）；三期在感染后 1 至 40 年出现，可累及皮肤、骨骼、心血管与神经系统",
+        "Sífilis：快速检测在 SUS 免费、30 分钟内出结果，孕妇等可直接据快速检测开始治疗",
+        "Sífilis：首选苄星青霉素，剂次数按分期决定；性伴侣需同时检测与治疗",
+        "Sífilis：治愈后不产生免疫，可再次感染；建议性活跃者至少每年检测一次",
+        "Sífilis：获得性梅毒、孕期梅毒与先天梅毒均为七日报告病"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
+      "id": "sifilis-congenita",
+      "label": "Sífilis congênita",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis/sifilis-congenita",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "sifilis congenita",
+        "gestacao",
+        "pre-natal"
+      ],
+      "diseases": [
+        "sifilis"
+      ],
+      "supports": [
+        "先天梅毒：由未治疗或治疗不充分的孕妇传给胎儿，可致流产、早产、死胎与新生儿死亡"
+      ],
+      "verifiedAt": "2026-10-27",
       "status": "verified"
     },
     {
@@ -3415,6 +3881,26 @@
       "status": "imported"
     },
     {
+      "id": "syphilis",
+      "label": "Syphilis",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/syphilis",
+      "publisher": "World Health Organization (WHO)",
+      "host": "www.who.int",
+      "lang": "en",
+      "topics": [
+        "sifilis",
+        "IST"
+      ],
+      "diseases": [
+        "sifilis"
+      ],
+      "supports": [
+        "WHO：梅毒由 Treponema pallidum 引起，可治愈；未治疗可致严重并发症与母婴传播"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "tabagismo-orientacoes-e-tratamento",
       "label": "Tabagismo: orientações e tratamento",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tabagismo",
@@ -3456,6 +3942,30 @@
         "Prevenção: tratamento da teníase, intervenção em suínos, saneamento, educação em saúde, fiscalização da carne"
       ],
       "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "tetano-acidental",
+      "label": "Tétano acidental",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tetano-acidental",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "ferida",
+        "vacinação"
+      ],
+      "diseases": [
+        "tetano"
+      ],
+      "supports": [
+        "Doença não contagiosa causada por Clostridium tetani",
+        "Incubação de 3 a 21 dias, em média de 5 a 15 dias",
+        "Sintomas: contraturas, trismo, rigidez abdominal",
+        "Diagnóstico clínico e diagnóstico diferencial",
+        "Tratamento com soro antitetânico, imunoglobulina, debridamento e suporte em UTI"
+      ],
+      "verifiedAt": "2026-10-27",
       "status": "verified"
     },
     {
@@ -3699,6 +4209,29 @@
         "腹泻期间饮食指导与低乳糖配方（Pocket Book 儿童腹泻治疗章节）"
       ],
       "verifiedAt": "2026-10-19",
+      "status": "verified"
+    },
+    {
+      "id": "yellow-fever",
+      "label": "Yellow fever",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/yellow-fever",
+      "publisher": "World Health Organization (WHO)",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "arbovirose",
+        "vacinação"
+      ],
+      "diseases": [
+        "febre-amarela"
+      ],
+      "supports": [
+        "Incubação de 3 a 6 dias",
+        "Cerca de 15% evoluem para forma grave e metade morre em 7 a 10 dias",
+        "Dose única confere imunidade por toda a vida",
+        "Diagnóstico por RT-PCR na fase inicial e sorologia depois"
+      ],
+      "verifiedAt": "2026-10-27",
       "status": "verified"
     },
     {
