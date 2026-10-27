@@ -225,6 +225,7 @@ export const regions: BodyRegion[] = [
       'ancilostomiase',
       'tricuriase',
       'oxiuriase',
+      'doenca-do-refluxo-gastroesofagico',
     ],
     globalOverview: [
       'No mundo todo, as infecções intestinais, virais e bacterianas, são a doença mais comum de todas: gastroenterites de curta duração atingem crianças e adultos em qualquer país, e a diarreia segue sendo uma das grandes causas de morte na infância onde o acesso a água tratada é limitado.',
@@ -336,6 +337,7 @@ export const regions: BodyRegion[] = [
       'obesidade',
       'espondilose-lombar',
       'gonorreia',
+      'osteoporose',
     ],
     globalOverview: [
       'No mundo, a dor lombar é a principal causa de anos vividos com incapacidade, e a artrose de joelho e quadril pesa sobretudo depois dos 50 anos, acompanhando o envelhecimento e a obesidade.',

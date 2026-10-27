@@ -3081,6 +3081,51 @@
       "status": "verified"
     },
     {
+      "id": "msd-manuais-drge",
+      "label": "Doença do refluxo gastroesofágico (DRGE) — Manual MSD, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/dist%C3%BArbios-esof%C3%A1gicos-e-de-degluti%C3%A7%C3%A3o/doen%C3%A7a-do-refluxo-gastroesof%C3%A1gico-drge",
+      "publisher": "Manual MSD Versão Saúde para a Família",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "doenca-do-refluxo-gastroesofagico"
+      ],
+      "supports": [
+        "DRGE ocorre em cerca de 13% das pessoas no mundo",
+        "Azia é o sintoma mais evidente, acompanhada de regurgitação",
+        "Fatores: obesidade, tabagismo, alimentos gordurosos, bebidas cafeinadas e gasosas, álcool, alguns medicamentos",
+        "Complicações: esofagite, úlcera esofágica, estenose, esôfago de Barrett",
+        "Diagnóstico é clínico; endoscopia e pHmetria quando necessário",
+        "Tratamento inicial: perda de peso, parar de fumar, evitar comer antes de dormir, elevar a cabeceira, IBPs",
+        "Fundoplicatura é opção cirúrgica; elevar a cabeceira cerca de 15 cm"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
+      "id": "msd-manuais-exames-acido-refluxo",
+      "label": "Exames relacionados ao ácido e ao refluxo — Manual MSD, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/diagn%C3%B3stico-de-dist%C3%BArbios-digestivos/exames-relacionados-ao-%C3%A1cido-e-ao-refluxo",
+      "publisher": "Manual MSD Versão Saúde para a Família",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "doenca-do-refluxo-gastroesofagico"
+      ],
+      "supports": [
+        "pHmetria esofágica mede a acidez no esôfago por 24 horas e relaciona sintomas ao refluxo",
+        "Manometria avalia a pressão do esfíncter esofágico inferior e a força de contração do esôfago"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
       "id": "msd-manuais-obesidade",
       "label": "Obesidade — Manual MSD, versão profissional",
       "url": "https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-nutricionais/obesidade-e-s%C3%ADndrome-metab%C3%B3lica/obesidade",
@@ -3104,6 +3149,32 @@
         "Cirurgia metabólica é o tratamento mais eficaz na obesidade grave; em adolescentes, IMC 40 ou mais, ou 35 ou mais com complicações relevantes"
       ],
       "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "msd-manuais-osteoporose",
+      "label": "Osteoporose — Manual MSD, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/osteoporose/osteoporose",
+      "publisher": "Manual MSD Versão Saúde para a Família",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "doencas-cronicas",
+        "prevencao"
+      ],
+      "diseases": [
+        "osteoporose"
+      ],
+      "supports": [
+        "Osteoporose é redução da densidade óssea que torna os ossos suscetíveis a fratura",
+        "Afeta cerca de 1 em 5 mulheres e 1 em 20 homens a partir dos 50 anos",
+        "DXA é o exame mais útil; T-score de -2,5 ou menos define osteoporose",
+        "Fraturas por fragilidade ocorrem no punho, quadril e coluna",
+        "Bifosfonatos são geralmente os primeiros medicamentos; devem ser tomados em jejum, sem deitar por 30 a 60 minutos",
+        "Recomenda-se 1.000 mg de cálcio por dia, e 1.200 a 1.500 mg em pós-menopausa e idosos",
+        "Exercícios com sustentação de peso aumentam a densidade óssea; natação não aumenta massa óssea mas melhora equilíbrio"
+      ],
+      "verifiedAt": "2026-10-27",
       "status": "verified"
     },
     {
@@ -3634,6 +3705,28 @@
         "Complicações: pneumonia 1 em 20, otite 1 em 10, encefalite 1 a 4 em 1.000",
         "Tratamento de suporte e vitamina A por faixa etária",
         "Coleta de IgM entre o 1º e o 30º dia e RT-PCR até o 7º dia"
+      ],
+      "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
+      "id": "sbr-osteoporose",
+      "label": "Osteoporose — Sociedade Brasileira de Reumatologia",
+      "url": "https://www.reumatologia.org.br/doencas-reumaticas/osteoporose/",
+      "publisher": "Sociedade Brasileira de Reumatologia",
+      "host": "www.reumatologia.org.br",
+      "lang": "pt",
+      "topics": [
+        "doencas-cronicas",
+        "prevencao"
+      ],
+      "diseases": [
+        "osteoporose"
+      ],
+      "supports": [
+        "Osteoporose atinge todos os ossos e pode quebrar aos mínimos esforços",
+        "Tipos: pós-menopausa, senil e secundária",
+        "Fatores de risco: menopausa, envelhecimento, hereditariedade, dieta pobre em cálcio, fumo e álcool, imobilização prolongada, corticoides"
       ],
       "verifiedAt": "2026-10-27",
       "status": "verified"
@@ -4188,6 +4281,27 @@
         "Municípios selecionados por alta transmissão e porte populacional"
       ],
       "verifiedAt": "2026-10-19",
+      "status": "verified"
+    },
+    {
+      "id": "who-musculoskeletal-conditions",
+      "label": "Musculoskeletal conditions — fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "en",
+      "topics": [
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "osteoporose"
+      ],
+      "supports": [
+        "Cerca de 1,71 bilhão de pessoas vivem com condições musculoesqueléticas no mundo",
+        "Osteoporose e fraturas por fragilidade estão entre as condições ósseas que compõem esse grupo",
+        "As condições musculoesqueléticas são a maior contribuição global para a necessidade de reabilitação"
+      ],
+      "verifiedAt": "2026-10-27",
       "status": "verified"
     },
     {

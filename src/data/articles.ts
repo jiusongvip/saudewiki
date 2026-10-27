@@ -20027,4 +20027,964 @@ export const articles: Article[] = [
     updatedAt: '2026-10-27',
     isPlaceholder: true,
   },
+  {
+    id: 'osteoporose-sem-sintomas-quando-fazer-densitometria',
+    slug: 'osteoporose-sem-sintomas-quando-fazer-densitometria',
+    title: 'Osteoporose sem sintomas: quando fazer a densitometria óssea',
+    excerpt:
+      'A perda de massa óssea não dói e não avisa. Veja quem deve medir a densidade dos ossos, o que o escore T significa e por que o exame precisa chegar antes da fratura.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'doenca-silenciosa',
+        heading: 'Uma doença que não dá sinal',
+        paragraphs: [
+          'A osteoporose não dói. O osso perde densidade aos poucos, sem inflamação, sem inchaço e sem nenhum sinal que a pessoa consiga perceber. Dá para conviver dez ou vinte anos com o esqueleto enfraquecendo e não sentir nada até o dia em que um pé escorrega no banheiro e o punho quebra.',
+          'Por isso a doença é chamada de silenciosa, e por isso o primeiro sintoma costuma ser a própria fratura. Quando alguém quebra o quadril ao cair da própria altura, ou uma vértebra ao tossir, o diagnóstico já está feito: isso é fratura por fragilidade, e fragilidade é o nome clínico da osteoporose em atividade.',
+          'A consequência prática é que esperar o sintoma significa esperar a fratura. A única forma de descobrir a tempo é medir a densidade óssea em quem tem risco, antes que o osso quebre. E como o osso não avisa, a conversa sobre risco precisa acontecer antes de qualquer sintoma.',
+        ],
+      },
+      {
+        id: 'quem-deve-medir',
+        heading: 'Quem deve medir a densidade óssea',
+        paragraphs: [
+          'A indicação mais objetiva é a idade. Todas as mulheres a partir dos 65 anos devem fazer a densitometria, mesmo sem queixa. Homens também são avaliados, sobretudo depois dos 70 anos ou mais cedo quando têm fatores de risco. A recomendação vale mesmo para quem se sente bem e se mantém ativa, porque o esqueleto pode estar frágil sem que a rotina mude.',
+          'Antes disso, o exame é indicado para mulheres na pós-menopausa que somam fatores: menopausa antes dos 45 anos, baixo peso, tabagismo, uso de corticoide por mais de três meses, histórico de fratura de quadril nos pais e doença que sabidamente enfraquece o osso. Qualquer pessoa que já fraturou um osso num impacto pequeno entra nessa lista, independentemente da idade.',
+          'Existe ainda um grupo que costuma escapar: quem faz tratamento prolongado com corticoide para asma, artrite ou doença inflamatória intestinal, e quem tem doença renal crônica, hipertireoidismo ou recebeu transplante. Essas pessoas devem conversar sobre o exame com quem acompanha o tratamento.',
+        ],
+      },
+      {
+        id: 'como-e-o-exame',
+        heading: 'Como a densitometria é feita',
+        paragraphs: [
+          'A densitometria por dupla emissão de raios X, a DXA, mede a quantidade de mineral em duas regiões: coluna lombar e quadril. É indolor, usa uma dose muito baixa de radiação e leva cerca de 10 a 15 minutos. A pessoa deita numa maca e o aparelho passa por cima, sem túnel fechado e sem contraste.',
+          'O resultado vem em escore T, que compara a densidade medida com a de um adulto jovem saudável do mesmo sexo. Um T de -2,5 ou menos define osteoporose. Valores entre -1 e -2,5 indicam osteopenia, uma perda menor que já aumenta o risco de fratura sem fechar o diagnóstico. O exame é repetível e comparável, e é essa comparação que mostra se o osso está perdendo densidade com o tempo.',
+          'Crianças, mulheres antes da menopausa e homens com menos de 50 anos são lidos pelo escore Z, que compara com pessoas da mesma idade. Nesses casos, um Z muito baixo levanta a suspeita de causa secundária e pede investigação.',
+        ],
+      },
+      {
+        id: 'o-que-o-resultado-muda',
+        heading: 'O que o resultado muda na prática',
+        paragraphs: [
+          'Um exame normal não encerra a conversa para sempre, e um exame alterado não é uma sentença. O resultado entra numa conta que inclui idade, fraturas anteriores, quedas e doenças associadas. Em quem tem osteopenia, o médico pode calcular o FRAX, uma estimativa de risco de fratura em dez anos, para decidir se o tratamento começa agora ou se basta acompanhar.',
+          'A decisão muda quando já houve fratura por fragilidade. Nesse caso, o diagnóstico está feito mesmo com densidade normal, e o tratamento começa. É uma exceção importante, porque parte das pessoas que fraturam tem escore T acima do ponto de corte.',
+          'A densitometria mede a quantidade de mineral, não a qualidade da arquitetura óssea. Duas pessoas com o mesmo escore podem ter riscos diferentes, e o histórico de fratura pesa mais que o número isolado na hora de decidir.',
+        ],
+      },
+      {
+        id: 'exames-complementares',
+        heading: 'O que mais entra na investigação',
+        paragraphs: [
+          'Junto com a densitometria, o médico pede exames de sangue para afastar causas que têm tratamento próprio: cálcio, vitamina D, função renal, hormônios da tireoide e da paratireoide. Anemia, cálcio alto e alteração da função renal mudam a investigação e podem apontar para outra doença.',
+          'A radiografia da coluna é solicitada quando há dor nas costas ou perda de altura, porque muitas fraturas vertebrais não doem e só aparecem na imagem. Em casos selecionados, a ressonância ajuda a datar a fratura e a diferenciar de outras causas de dor.',
+          'Quando o cálcio aparece alto ou a função renal está alterada, a investigação muda de rumo e pode chegar a outro diagnóstico, como hiperparatireoidismo. Nesses casos, tratar só o osso não resolve, porque a causa continua ativa por trás da perda de massa.',
+        ],
+      },
+      {
+        id: 'proximo-passo',
+        heading: 'O que fazer com o resultado',
+        paragraphs: [
+          'Com o exame em mãos, o próximo passo é montar um plano que junte cálcio e vitamina D suficientes, exercício com peso, revisão dos remédios que causam tontura e, quando indicado, medicamento para o osso. O acompanhamento é longo, e a densitometria se repete a cada um ou dois anos.',
+          'Vale guardar o resultado e levar nas consultas. Comparar dois exames feitos no mesmo aparelho mostra se a densidade está estável, caindo ou melhorando, e é isso que orienta o ajuste do tratamento.',
+          'Se o resultado mostrar osteopenia e nenhum outro fator de risco, é possível que a orientação seja repetir o exame em alguns anos, sem remédio. Isso não é adiar cuidado: é evitar tratar quem não vai se beneficiar e reservar o medicamento para quem tem risco real de fratura. O exame também serve para mostrar, anos depois, que o tratamento está funcionando, e essa informação costuma pesar na decisão de manter o remédio.',
+        ],
+        cta: {
+          label: 'Veja como a osteoporose é diagnosticada e tratada',
+          href: '/doencas/osteoporose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['osteoporose'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'osteoporose-primeira-fratura-e-o-risco-de-outra',
+      'osteoporose-calcio-vitamina-d-e-alimentacao',
+      'osteoporose-coluna-curva-e-perda-de-altura',
+      'osteoporose-mitos-e-verdades-sobre-os-ossos',
+    ],
+    references: [
+      {
+        label: 'Osteoporose — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/osteoporose/osteoporose',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Osteoporose',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/osteoporose/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+      {
+        label: 'Musculoskeletal conditions — fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'osteoporose-primeira-fratura-e-o-risco-de-outra',
+    slug: 'osteoporose-primeira-fratura-e-o-risco-de-outra',
+    title: 'A primeira fratura muda o risco: como evitar a segunda',
+    excerpt:
+      'Quem quebra um osso por fragilidade tem muito mais chance de quebrar outro. Veja o que muda no cuidado depois da primeira fratura e por que o tratamento não pode esperar.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-muda',
+        heading: 'A fratura que separa duas histórias',
+        paragraphs: [
+          'Antes da primeira fratura, a osteoporose é uma previsão. Depois dela, vira um fato com data. Quem quebra o punho numa queda da própria altura não teve azar: teve um osso que não resistiu ao impacto que qualquer pessoa levaria sem consequência.',
+          'Essa primeira fratura é o melhor aviso que existe. Quem já fraturou por fragilidade tem risco muito maior de fraturar de novo, e o segundo evento costuma ser mais grave que o primeiro. O punho quebra aos 60, o quadril quebra aos 75, e é o quadril que tira a autonomia.',
+          'Por isso a fratura não deve ser tratada apenas como um osso quebrado. Ela é o momento em que o diagnóstico de osteoporose se confirma e o tratamento deveria começar, ainda no pronto atendimento. Na prática, o pronto atendimento que trata a fratura e não investiga o osso perde a melhor oportunidade de prevenção que aquele paciente vai ter.',
+        ],
+      },
+      {
+        id: 'por-que-o-risco-sobe',
+        heading: 'Por que o risco aumenta depois da fratura',
+        paragraphs: [
+          'Três coisas acontecem ao mesmo tempo. A primeira é que o osso frágil continua frágil: a fratura revelou a doença, não a criou. A segunda é que a imobilidade do tratamento reduz o estímulo mecânico que mantém o osso, e a perda de massa acelera justamente nas semanas seguintes. A fratura também costuma vir junto com uma queda que ninguém investigou, e a causa daquela queda continua presente no dia seguinte.',
+          'A terceira é o risco de cair de novo. Quem caiu uma vez tende a cair outra vez, sobretudo quando o medo da queda leva a reduzir a atividade, o que piora o equilíbrio e a força. Esse ciclo é o que transforma uma fratura isolada em uma sequência.',
+          'Existe ainda o efeito da própria fratura sobre a sobrevida. A fratura de quadril está associada a perda de independência e a menor sobrevida, e boa parte desse impacto vem das complicações do período imóvel, não só do osso.',
+        ],
+      },
+      {
+        id: 'fraturas-silenciosas',
+        heading: 'As fraturas que passam despercebidas',
+        paragraphs: [
+          'Nem toda fratura por fragilidade chega ao hospital. Nas vértebras, a compressão pode acontecer sem dor nenhuma ou com uma dor nas costas que a pessoa atribui a esforço e trata com analgésico. Meses depois, o que se nota é a altura que diminuiu e a postura que mudou. A dor lombar de quem tem 70 anos raramente é levada a sério como possível fratura, e o exame só aparece quando a deformidade já está instalada.',
+          'Perder mais de três centímetros de altura, ficar mais curvado ou notar que as roupas ficaram longas sem emagrecer são pistas de fraturas vertebrais antigas. Elas contam na conta do risco, mesmo que nunca tenham sido diagnosticadas, e mudam a decisão de tratar.',
+          'A radiografia da coluna resolve a dúvida em quem tem dor ou perda de altura. Não é preciso esperar uma fratura nova para olhar.',
+        ],
+      },
+      {
+        id: 'tratamento-depois-da-fratura',
+        heading: 'O tratamento que começa na fratura',
+        paragraphs: [
+          'Depois de uma fratura por fragilidade, a combinação de cálcio, vitamina D, exercício e medicamento para o osso deixa de ser opcional. O objetivo é reduzir o risco da próxima fratura, e o efeito aparece na densidade e na queda real do número de fraturas. Começar cedo importa: o maior ganho na redução de fraturas acontece nos primeiros anos de tratamento, quando o risco ainda está alto.',
+          'O controle da dor é parte do plano, mas não pode virar repouso prolongado. Ficar deitado acelera a perda óssea e piora o equilíbrio. Em fraturas vertebrais dolorosas, o médico pode indicar procedimentos para estabilizar a vértebra, e na fratura de quadril a cirurgia precoce costuma ser o caminho.',
+          'O medicamento escolhido depende do risco, da função renal e de doenças do esôfago. Quem tem dificuldade para engolir ou esofagite não deve usar bifosfonato oral, e existem alternativas aplicadas na veia ou sob a pele.',
+        ],
+      },
+      {
+        id: 'prevencao-de-quedas',
+        heading: 'Evitar a queda é metade do trabalho',
+        paragraphs: [
+          'Nenhum remédio protege alguém que cai toda semana. Por isso a prevenção de quedas entra no mesmo plano do tratamento do osso, com a mesma prioridade. Tapetes soltos, banheiro sem barra de apoio, pouca luz no corredor e calçado escorregadio são riscos que se resolvem em uma tarde. Uma boa avaliação de queda pergunta onde, como e a que horas ela aconteceu, porque o padrão aponta a correção necessária.',
+          'Vale revisar os medicamentos com o médico. Alguns remédios para dormir, para pressão e para ansiedade causam tontura e sonolência, e a soma de vários deles aumenta muito a chance de queda em quem tem mais de 70 anos.',
+          'Visão e audição também contam. Trocar o grau dos óculos e tratar a catarata reduz tropeços, e um fisioterapeuta pode treinar equilíbrio e força com exercícios simples, feitos em casa ou na unidade de saúde.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'O seguimento depois da fratura',
+        paragraphs: [
+          'A fratura não encerra o tratamento, ela o inicia. O seguimento inclui densitometria a cada um ou dois anos, revisão da adesão ao remédio e reavaliação do risco de queda a cada consulta.',
+          'Muita gente interrompe o medicamento por conta própria ao sentir-se bem, e é justamente aí que o risco volta. O tratamento da osteoporose é de longo prazo, e a interrupção sem orientação desfaz boa parte do ganho.',
+          'Vale combinar com o serviço de saúde quem vai conduzir esse seguimento. Muitas vezes o clínico geral ou a equipe da unidade básica resolvem o acompanhamento de rotina, e o especialista entra nos casos de fratura recorrente, causa secundária ou dúvida sobre o medicamento. O intervalo entre as consultas depende do risco, mas ninguém deveria passar mais de um ano sem reavaliação quando já houve fratura por fragilidade. Quem tem dificuldade de acesso deve pedir que a unidade básica assuma esse seguimento, em vez de interromper o remédio por falta de retorno.',
+        ],
+        cta: {
+          label: 'Conheça os sinais de alerta da osteoporose',
+          href: '/doencas/osteoporose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['osteoporose'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'osteoporose-sem-sintomas-quando-fazer-densitometria',
+      'osteoporose-calcio-vitamina-d-e-alimentacao',
+      'osteoporose-coluna-curva-e-perda-de-altura',
+      'osteoporose-mitos-e-verdades-sobre-os-ossos',
+    ],
+    references: [
+      {
+        label: 'Osteoporose — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/osteoporose/osteoporose',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Osteoporose',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/osteoporose/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'osteoporose-calcio-vitamina-d-e-alimentacao',
+    slug: 'osteoporose-calcio-vitamina-d-e-alimentacao',
+    title: 'Cálcio e vitamina D: o que a comida resolve e o que exige suplemento',
+    excerpt:
+      'Quanto de cálcio por dia, por que a vitamina D depende do sol e em que momento o suplemento passa a ser necessário. O que a mesa cobre e o que ela não cobre.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quanto-de-calcio',
+        heading: 'Quanto de cálcio o corpo precisa por dia',
+        paragraphs: [
+          'O corpo não fabrica cálcio. Tudo o que existe no osso veio da alimentação ou de suplemento, e o que não vem precisa ser retirado do próprio esqueleto para manter as funções básicas do organismo funcionando. Essa é a razão pela qual uma dieta pobre em cálcio, mantida por anos, cobra a conta no osso.',
+          'A recomendação geral é de pelo menos 1.000 mg por dia para adultos. Mulheres na pós-menopausa, homens idosos, gestantes e adolescentes em fase de crescimento podem precisar de 1.200 a 1.500 mg, porque a absorção cai ou a demanda sobe. São valores altos, e é justamente por isso que a conta do dia precisa ser pensada, não improvisada.',
+          'Na prática, três porções de laticínio distribuídas ao longo do dia cobrem boa parte da meta. Um copo de leite no café, um pote de iogurte no lanche da tarde e uma fatia de queijo no jantar já rendem bastante, e o restante vem de vegetais verdes, tofu e peixes pequenos comidos com espinha.',
+        ],
+      },
+      {
+        id: 'fontes-na-mesa',
+        heading: 'Onde o cálcio está de verdade',
+        paragraphs: [
+          'Leite, iogurte e queijo são as fontes mais conhecidas e as mais fáceis de dosar. Entre os vegetais, couve, brócolis, mostarda e outras folhas verdes escuras contribuem bem, desde que sejam consumidas em quantidade razoável. O tofu preparado com sal de cálcio também entra na lista, e a sardinha em conserva, comida com a espinha, é uma das fontes mais concentradas que existem.',
+          'Alguns alimentos atrapalham. Espinafre, beterraba e cacau têm cálcio, mas também oxalatos, que se ligam ao mineral e reduzem a absorção. Farelos e cereais integrais em excesso trazem fitatos com efeito parecido. Isso não significa banir nada: significa não contar com essas fontes para fechar a conta do dia.',
+          'A vitamina D merece capítulo separado porque quase não aparece na comida. Ela está em peixes gordos, na gema do ovo e em alimentos fortificados, mas as quantidades são modestas. Para a maioria das pessoas, a maior parte da vitamina D vem da pele, não do prato.',
+        ],
+      },
+      {
+        id: 'vitamina-d-e-sol',
+        heading: 'A vitamina D depende do sol, e o sol depende da pele',
+        paragraphs: [
+          'A vitamina D é o que permite ao intestino absorver o cálcio dos alimentos e fixá-lo no osso. Sem ela, o cálcio circula pouco e o corpo intensifica a retirada de mineral do esqueleto. É por isso que repor cálcio sem cuidar da vitamina D costuma render menos do que se espera.',
+          'A produção na pele cai com a idade, com o uso de protetor solar em excesso, com a pele mais escura e com a pouca exposição ao ar livre. Quem mora em apartamento, trabalha dentro de casa ou tem mobilidade reduzida costuma ser justamente quem mais precisa e menos produz.',
+          'Expor braços e pernas ao sol por 15 a 30 minutos, nos horários de menor intensidade, é a orientação mais comum. Não é preciso ficar horas nem se expor ao sol forte do meio-dia. Em quem tem osteoporose, o suplemento costuma ser necessário mesmo com sol, na faixa de 400 a 800 unidades por dia, com dose maior quando o exame mostra deficiência.',
+        ],
+      },
+      {
+        id: 'suplemento-quando',
+        heading: 'Quando o suplemento passa a ser necessário',
+        paragraphs: [
+          'O suplemento entra quando a comida não fecha a conta, e isso acontece com mais frequência do que se imagina. Dietas sem laticínio, intolerância à lactose, cirurgia bariátrica, doença celíaca e uso prolongado de remédio que reduz o ácido do estômago diminuem a absorção e tornam o reforço necessário.',
+          'Existem duas formas comuns de cálcio no mercado. O carbonato precisa de ácido para se dissolver e deve ser tomado com a refeição. O citrato é absorvido em qualquer situação e costuma ser preferido por quem usa remédio para reduzir o ácido gástrico ou fez cirurgia de redução do estômago.',
+          'Mais não é melhor. Doses muito altas de cálcio de uma vez são mal absorvidas e aumentam a eliminação pela urina, o que favorece a formação de pedra nos rins. O suplemento deve ser orientado por profissional de saúde, em dose dividida ao longo do dia, e não por conta própria.',
+        ],
+      },
+      {
+        id: 'o-que-a-comida-nao-resolve',
+        heading: 'O que cálcio e vitamina D não resolvem',
+        paragraphs: [
+          'Cálcio e vitamina D são matéria-prima. Eles garantem que o osso tenha com o que trabalhar, mas não mandam o osso se reconstruir. Quando a osteoporose já está instalada, com densidade baixa ou fratura, é o medicamento específico que reduz o risco de nova fratura.',
+          'Isso explica uma cena comum: pessoas que tomam cálcio há anos, comem bem e mesmo assim fraturam. A reposição estava correta, mas faltava o tratamento da doença. A confusão entre prevenção nutricional e tratamento é uma das razões pelas quais tantos casos chegam tarde.',
+          'O contrário também merece atenção. Quem recebeu indicação de remédio para o osso não deve abandoná-lo achando que a alimentação basta. As duas coisas trabalham juntas, e nenhuma substitui a outra.',
+        ],
+      },
+      {
+        id: 'rotina-possivel',
+        heading: 'Uma rotina que caiba no dia',
+        paragraphs: [
+          'Fechar a conta do cálcio todos os dias é mais fácil quando a fonte está na rotina, e não na intenção. Ter iogurte na geladeira, queijo fatiado disponível e uma receita fixa de salada com couve resolve mais do que qualquer plano que dependa de disciplina heroica.',
+          'Para a vitamina D, vale escolher um horário fixo de exposição solar e associá-lo a um hábito que já existe, como a caminhada do fim da tarde. Quem tem pele clara e mora em região de sol intenso precisa de menos tempo, e não de mais.',
+          'Reavaliar a dose a cada consulta é parte do cuidado. Necessidade muda com a idade, com a estação do ano, com a dieta e com novos remédios, e uma dose que servia há dois anos pode não servir hoje. Uma anotação simples na agenda do celular, repetida a cada consulta, resolve o esquecimento sem depender de memória.',
+        ],
+        cta: {
+          label: 'Veja o tratamento completo da osteoporose',
+          href: '/doencas/osteoporose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['osteoporose'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'osteoporose-sem-sintomas-quando-fazer-densitometria',
+      'osteoporose-primeira-fratura-e-o-risco-de-outra',
+      'osteoporose-coluna-curva-e-perda-de-altura',
+      'osteoporose-mitos-e-verdades-sobre-os-ossos',
+    ],
+    references: [
+      {
+        label: 'Osteoporose — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/osteoporose/osteoporose',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Osteoporose',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/osteoporose/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'osteoporose-coluna-curva-e-perda-de-altura',
+    slug: 'osteoporose-coluna-curva-e-perda-de-altura',
+    title: 'Coluna curva e altura que diminui: o que a osteoporose faz com a postura',
+    excerpt:
+      'O encurvamento que aparece com a idade costuma ser fratura vertebral, não apenas postura. Entenda por que a coluna muda, o que isso afeta e o que dá para fazer.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-a-coluna-muda',
+        heading: 'Por que a coluna entorta',
+        paragraphs: [
+          'As vértebras são feitas por dentro de osso esponjoso, uma trama de traves finas que sustenta o peso do tronco. É o tipo de osso que perde densidade mais cedo na osteoporose, e por isso a coluna costuma ser o primeiro lugar onde a doença aparece. A perda de altura das vértebras é silenciosa: não há hematoma visível nem imobilização, e por isso a fratura passa anos sem nome.',
+          'Quando uma vértebra perde resistência, ela cede e assume a forma de cunha: a parte da frente afunda mais que a de trás. Uma vértebra em cunha muda pouco a silhueta. Várias, ao longo dos anos, inclinam o tronco para a frente e produzem aquela curvatura que muita gente associa apenas ao envelhecimento.',
+          'Cada vértebra que afunda reduz a altura do corpo em alguns milímetros. Somadas, cinco ou seis fraturas não diagnosticadas explicam a perda de vários centímetros que aparece entre uma foto antiga e o espelho de hoje. Comparar a altura medida hoje com a de um documento antigo, ou com a marca de lápis na parede, é uma forma simples de perceber o que os exames vão confirmar.',
+        ],
+      },
+      {
+        id: 'sinais-de-fratura-vertebral',
+        heading: 'Como reconhecer uma fratura vertebral',
+        paragraphs: [
+          'A fratura por compressão pode doer muito ou não doer nada. Quando dói, a dor costuma surgir de repente, ficar localizada numa faixa das costas e piorar ao levantar e ao andar, melhorando com o repouso. Em geral, cede ao longo de algumas semanas, mas pode durar meses.',
+          'Quando não dói, o sinal é indireto: a altura que diminuiu, a postura que mudou, a roupa que ficou comprida. Perder cerca de três centímetros de estatura em pouco tempo, ou notar que o corpo ficou mais baixo em relação a uma referência fixa, é motivo para investigar. Medir a altura em pé, encostado na parede, uma vez por ano, dá um número objetivo para acompanhar.',
+          'Em quem tem mais de 50 anos e dor nas costas nova, vale desconfiar antes de atribuir a esforço ou a má postura. A radiografia simples resolve a dúvida e é um exame barato. A dor que piora à noite, sem relação com movimento, merece outra linha de investigação.',
+        ],
+      },
+      {
+        id: 'o-que-a-curvatura-causa',
+        heading: 'O que a curvatura provoca no corpo',
+        paragraphs: [
+          'A primeira consequência é a dor. A musculatura das costas trabalha fora do eixo para manter o tronco erguido, e isso gera tensão e cansaço que se acumulam ao longo do dia. A dor crônica, por sua vez, reduz a atividade, o que piora a massa óssea e o equilíbrio.',
+          'A segunda é mecânica. Com o tronco inclinado, o abdome é comprimido e o espaço para os pulmões diminui. Daí vêm a sensação de saciedade precoce, o intestino preso e a falta de ar aos esforços, queixas frequentemente tratadas como problemas separados. A compressão do abdome também piora o refluxo e a sensação de empachamento depois das refeições.',
+          'Há ainda o efeito sobre a pele e sobre a autoestima. As dobras cutâneas nas costas acumulam umidade e favorecem irritação e infecção, e a mudança de silhueta costuma pesar mais do que os exames mostram. Conversar sobre isso na consulta ajuda, porque a queixa costuma ser tratada como vaidade quando na verdade afeta a vida social.',
+        ],
+      },
+      {
+        id: 'como-confirmar',
+        heading: 'Como confirmar o que está acontecendo',
+        paragraphs: [
+          'A radiografia da coluna mostra a deformidade e o número de vértebras afetadas. A densitometria mede a densidade e fecha o diagnóstico de osteoporose. Os dois exames se completam: um mostra o dano, o outro mostra a doença por trás dele.',
+          'Em alguns casos, a ressonância ajuda a diferenciar uma fratura recente de uma antiga e a afastar outras causas de dor. Exames de sangue entram para checar cálcio, vitamina D, função renal e, quando há suspeita, investigar mieloma ou metástase.',
+          'Vale desconfiar de diagnósticos apressados. Dor que não melhora com repouso, perda de peso, febre ou anemia pedem outra investigação antes de atribuir tudo à osteoporose. A densitometria deve ser repetida depois do tratamento iniciado, para documentar a resposta.',
+        ],
+      },
+      {
+        id: 'tratamento-e-alivio',
+        heading: 'Tratamento da fratura e alívio da dor',
+        paragraphs: [
+          'O controle da dor combina analgésicos, calor local e retomada gradual do movimento. Repouso absoluto por semanas é contraproducente: acelera a perda óssea e aumenta o risco de nova fratura, além de favorecer pneumonia e trombose em pessoas idosas. Caminhar curtas distâncias várias vezes ao dia costuma ser mais seguro e mais eficaz que uma única saída longa.',
+          'O tratamento da osteoporose precisa começar ou ser reforçado nesse momento. É a oportunidade de reduzir a chance de a próxima vértebra ceder, e o efeito do medicamento é justamente esse. A escolha do medicamento segue o mesmo raciocínio do tratamento sem fratura, com atenção maior ao risco de queda.',
+          'Em fraturas muito dolorosas que não cedem, o médico pode indicar procedimentos para estabilizar a vértebra. A indicação é individual e depende do tipo de fratura, do tempo de evolução e do estado clínico.',
+        ],
+      },
+      {
+        id: 'reabilitacao-e-postura',
+        heading: 'Reabilitação e cuidado com a postura',
+        paragraphs: [
+          'A fisioterapia tem papel central. Exercícios de extensão da coluna, fortalecimento dos músculos das costas e treino de equilíbrio ajudam a sustentar o tronco e a prevenir quedas. Movimentos de flexão profunda e torção devem ser evitados em quem já tem fratura vertebral. O programa deve ser revisto a cada três ou seis meses, porque a resposta varia.',
+          'Órteses podem ser usadas por um período para aliviar a dor e lembrar a postura correta, mas não substituem o exercício e não devem ser mantidas indefinidamente sem reavaliação.',
+          'Em casa, ajustes simples reduzem o esforço da coluna: apoiar os braços ao levantar da cadeira, evitar carregar peso junto ao corpo em posição inclinada e manter os objetos de uso diário na altura da cintura. Corrimão nos dois lados da escada e uma luz de vigília no corredor custam pouco e evitam quedas noturnas.',
+        ],
+        cta: {
+          label: 'Conheça os sinais de alerta da osteoporose',
+          href: '/doencas/osteoporose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['osteoporose'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'osteoporose-sem-sintomas-quando-fazer-densitometria',
+      'osteoporose-primeira-fratura-e-o-risco-de-outra',
+      'osteoporose-calcio-vitamina-d-e-alimentacao',
+      'osteoporose-mitos-e-verdades-sobre-os-ossos',
+    ],
+    references: [
+      {
+        label: 'Osteoporose — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/osteoporose/osteoporose',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Osteoporose',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/osteoporose/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'osteoporose-mitos-e-verdades-sobre-os-ossos',
+    slug: 'osteoporose-mitos-e-verdades-sobre-os-ossos',
+    title: 'Cinco ideias erradas sobre osteoporose que atrasam o tratamento',
+    excerpt:
+      'Só mulher tem, só idoso tem, cálcio resolve, exercício quebra o osso. As crenças que mais adiam o diagnóstico e o que os dados mostram sobre cada uma.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'so-mulheres',
+        heading: 'A ideia de que osteoporose é coisa de mulher',
+        paragraphs: [
+          'A osteoporose é mais comum em mulheres, mas não é exclusiva delas. Cerca de um em cada vinte homens a partir dos 50 anos tem a doença, e a proporção cresce depois dos 70. O impacto também é maior neles: depois de uma fratura de quadril, homens morrem mais do que mulheres no período seguinte. A diferença de frequência não deve ser lida como proteção, e sim como motivo para investigar homens que fraturam sem trauma.',
+          'Em homens, a queda do estrogênio também conta, porque o hormônio participa da saúde óssea nos dois sexos. A testosterona baixa, o alcoolismo, o tabagismo e o uso de corticoide somam risco, e a investigação costuma ser menos frequente justamente porque ninguém pensa em osteoporose diante de um homem.',
+          'O resultado é diagnóstico tardio. Muitos homens descobrem a doença só quando quebram o quadril, e a fratura de quadril é o desfecho que mais se quer evitar. Em homens, a fratura de quadril costuma vir acompanhada de mais comorbidades, o que complica a recuperação.',
+        ],
+      },
+      {
+        id: 'so-idosos',
+        heading: 'A ideia de que só idoso precisa se preocupar',
+        paragraphs: [
+          'A densidade óssea cresce até cerca de 30 anos e depois começa a cair. Isso significa que o osso de quem tem 40 anos já depende do que foi construído antes, e uma fratura por fragilidade nessa idade não é normal, é sinal de investigação. Por isso a prevenção tem uma janela que fecha: o osso construído até os trinta anos é o que sustenta o resto da vida.',
+          'Existem formas de osteoporose que aparecem cedo. A menopausa precoce, a cirurgia de retirada dos ovários, o uso prolongado de corticoide, o hipertireoidismo, a doença celíaca e o diabetes tipo 1 enfraquecem o osso muito antes dos 65 anos. Há ainda a forma idiopática, que atinge mulheres antes da menopausa e homens com menos de 50 anos sem causa aparente.',
+          'Adiar a conversa para a terceira idade é perder a fase em que a intervenção rende mais. Quem tem fator de risco deve medir a densidade quando o fator aparece, não quando a idade chega. A idade da última menstruação e as cirurgias ginecológicas deveriam fazer parte de qualquer consulta de rotina nessa faixa.',
+        ],
+      },
+      {
+        id: 'calcio-resolve',
+        heading: 'A ideia de que cálcio resolve a osteoporose',
+        paragraphs: [
+          'Cálcio é necessário, mas não é tratamento. Ele fornece matéria-prima para o osso se reconstruir; o que manda o osso se reconstruir é o medicamento específico, quando a doença já está instalada. Com o osso já frágil, o mineral sozinho não reverte a perda.',
+          'A confusão tem consequência prática. Pessoas que tomam cálcio há anos e fraturam concluem que o cálcio falhou, quando na verdade faltou o diagnóstico e o remédio. Outras abandonam o medicamento por acreditar que o suplemento basta. Vale pedir ao médico que explique o papel de cada item do esquema, para não confundir suplemento com tratamento.',
+          'O inverso também é um erro. Medicamento sem cálcio e vitamina D adequados rende menos, e a reposição é parte do esquema, não um detalhe opcional. A adesão ao remédio costuma cair justamente quando a pessoa se sente bem, e é aí que o risco volta.',
+        ],
+      },
+      {
+        id: 'exercicio-faz-mal',
+        heading: 'A ideia de que exercício quebra o osso',
+        paragraphs: [
+          'Ossos respondem a carga. Caminhar, subir escadas e treinar com pesos estimulam a formação óssea e são recomendados em quem tem osteoporose, com progressão lenta e orientação profissional quando necessário. O estímulo precisa ser progressivo, e a orientação profissional evita lesões em quem tem ossos frágeis.',
+          'Existe um cuidado específico, e ele não é evitar exercício. Em quem já tem fratura vertebral, flexões profundas e torções do tronco aumentam a carga sobre a vértebra e devem ser evitadas. Isso é diferente de parar de se movimentar.',
+          'O medo de cair também merece ser tratado. Quem reduz a atividade por medo perde força e equilíbrio, e passa a cair mais. Natação e hidroginástica não aumentam densidade óssea, mas melhoram equilíbrio e confiança, e têm lugar no plano. Programas de exercício em grupo, oferecidos em unidades de saúde, ajudam a manter a constância.',
+        ],
+      },
+      {
+        id: 'leite-e-suficiente',
+        heading: 'A ideia de que leite todos os dias basta',
+        paragraphs: [
+          'Um copo de leite ajuda, mas não fecha a conta de 1.000 a 1.200 mg por dia sozinho. Quem toma apenas um copo e não consome queijo, iogurte, vegetais verdes ou tofu costuma ficar bem abaixo da meta sem perceber.',
+          'Quem tem intolerância à lactose não precisa abandonar o cálcio. Iogurte e queijos curados têm menos lactose e costumam ser tolerados, e existem versões sem lactose, bebidas vegetais fortificadas, tofu e vegetais verdes como alternativas reais. Queijos mais curados, como o parmesão, têm pouco lactose e boa quantidade de cálcio por porção.',
+          'E o leite não resolve a vitamina D, que vem sobretudo da pele. Uma dieta rica em cálcio, sem exposição solar nem suplementação, ainda deixa o osso sem a chave para absorver o mineral. Ler o rótulo das bebidas vegetais ajuda: nem todas são fortificadas com cálcio.',
+        ],
+      },
+      {
+        id: 'o-que-fazer',
+        heading: 'Como sair das crenças e chegar ao exame',
+        paragraphs: [
+          'A pergunta que muda o rumo é simples: eu tenho algum fator de risco para osteoporose. Histórico de fratura por queda pequena, uso de corticoide, menopausa precoce, baixo peso, tabagismo, doença que enfraquece o osso ou idade acima de 65 anos contam como sim.',
+          'Se a resposta for sim, o caminho é procurar a unidade de saúde e pedir avaliação. O exame é simples, indolor e está disponível na rede, e o tratamento, quando indicado, reduz de forma consistente o risco de fratura. Levar uma lista dos próprios fatores de risco e dos remédios em uso encurta a consulta e melhora a avaliação.',
+          'Também merece desconfiança qualquer solução milagrosa. Nenhum alimento isolado, chá ou exercício substitui o diagnóstico correto e o tratamento orientado por profissional de saúde.',
+        ],
+        cta: {
+          label: 'Veja quem tem indicação de medir a densidade óssea',
+          href: '/doencas/osteoporose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['osteoporose'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'osteoporose-sem-sintomas-quando-fazer-densitometria',
+      'osteoporose-primeira-fratura-e-o-risco-de-outra',
+      'osteoporose-calcio-vitamina-d-e-alimentacao',
+      'osteoporose-coluna-curva-e-perda-de-altura',
+    ],
+    references: [
+      {
+        label: 'Osteoporose — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/osteoporose/osteoporose',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Osteoporose',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/osteoporose/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+      {
+        label: 'Musculoskeletal conditions — fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'refluxo-dor-no-peito-refluxo-ou-infarto',
+    slug: 'refluxo-dor-no-peito-refluxo-ou-infarto',
+    title: 'Dor no peito: refluxo ou infarto? Como diferenciar',
+    excerpt:
+      'As duas dores nascem em órgãos diferentes e chegam ao cérebro pelo mesmo caminho. Veja quais pistas apontam para o refluxo, quais sintomas exigem atendimento imediato e por que o antiácido não serve de teste.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-confunde',
+        heading: 'Por que as duas dores se confundem',
+        paragraphs: [
+          'A dor do refluxo e a dor do infarto nascem em órgãos diferentes, mas chegam ao cérebro pelo mesmo caminho. As fibras nervosas que saem do esôfago e as que saem do coração convergem para a medula na mesma altura do tórax, e o cérebro não consegue dizer com precisão de onde veio o sinal. O resultado é que as duas dores podem ser sentidas atrás do esterno, no meio do peito.',
+          'Somam-se características parecidas. As duas podem irradiar para o braço, o pescoço, as costas ou o maxilar, as duas podem vir com suor e náusea, e as duas assustam. Além disso, o refluxo é muito mais frequente do que o infarto, o que faz com que boa parte das pessoas com dor no peito tenha, de fato, doença do refluxo.',
+          'O erro perigoso é o inverso. Como a azia é comum e costuma melhorar sozinha, quem já teve episódios parecidos tende a atribuir uma dor nova ao estômago e esperar. O infarto não espera. Em qualquer dor no peito nova, forte ou diferente do habitual, o primeiro passo é descartar a causa cardíaca.',
+        ],
+      },
+      {
+        id: 'o-que-fala-a-favor-do-refluxo',
+        heading: 'O que fala a favor do refluxo',
+        paragraphs: [
+          'Alguns detalhes ajudam a suspeitar de refluxo. A dor costuma aparecer depois de comer, piora ao deitar ou ao abaixar o tronco, melhora com arroto ou com antiácido e vem acompanhada de gosto ácido na boca. Pode durar horas e tem relação clara com o que foi ingerido.',
+          'A dor do infarto costuma surgir com esforço, em aperto, queimação ou peso, e melhorar com o repouso. Pode descer para o braço esquerdo ou para o maxilar e vir com falta de ar, suor frio e enjoo. Nenhuma dessas pistas, porém, é decisiva isoladamente, e o infarto é frequentemente atípico em mulheres, idosos e pessoas com diabetes.',
+          'Existe ainda a situação em que os dois explicam a dor. Quem tem doença coronariana e refluxo pode apresentar as duas coisas ao mesmo tempo, e uma crise de refluxo pode até servir de gatilho para angina. Por isso, em quem tem fator de risco cardíaco, investigar o estômago não substitui investigar o coração.',
+        ],
+      },
+      {
+        id: 'o-que-pede-socorro',
+        heading: 'O que pede atendimento imediato',
+        paragraphs: [
+          'Dor no peito com falta de ar, suor frio, náusea, tontura ou sensação de desmaio pede atendimento imediato. O mesmo vale para dor que aperta, que dura mais de quinze minutos sem aliviar, que vem com palpitação ou que se espalha para o braço, as costas, o pescoço ou a mandíbula.',
+          'No Brasil, o caminho é ligar para o 192 e pedir orientação, ou procurar um pronto atendimento. Não se deve dirigir sozinho nem esperar passar. Se houver histórico de infarto, angina ou stent, a urgência é ainda maior, e o antiácido não deve ser usado como teste.',
+          'Há também sinais digestivos que pedem avaliação rápida, ainda que fora da emergência: dificuldade para engolir, dor ao engolir, vômito com sangue, fezes escuras como borra de café, perda de peso sem explicação e anemia. Esses achados mudam a investigação e podem indicar estreitamento, úlcera ou outra lesão que precisa de endoscopia. A endoscopia com sedação é rápida e costuma esclarecer a causa em poucos dias.',
+        ],
+      },
+      {
+        id: 'como-e-feito-o-diagnostico',
+        heading: 'Como o médico separa as duas',
+        paragraphs: [
+          'No pronto atendimento, o primeiro passo é o eletrocardiograma, feito em geral em menos de dez minutos, acompanhado de exame de sangue para marcadores de lesão do coração. Se esses exames afastam a causa cardíaca, a investigação segue para o aparelho digestivo.',
+          'No consultório, o médico usa o padrão dos sintomas, a resposta a um teste com inibidor de bomba de prótons por duas a quatro semanas e, quando necessário, a endoscopia. A pHmetria de 24 horas fica reservada para os casos em que o diagnóstico continua duvidoso ou em que se planeja cirurgia. O resultado do exame também orienta a dose do medicamento e o tempo de tratamento.',
+          'O teste com o medicamento não serve para tranquilizar em uma dor aguda. Ele é útil no quadro crônico, com sintomas típicos, e nunca substitui a avaliação de urgência quando a apresentação é de risco.',
+        ],
+      },
+      {
+        id: 'quem-chega-ao-lugar-errado',
+        heading: 'Quem procura o especialista errado',
+        paragraphs: [
+          'Muita gente com refluxo chega primeiro ao cardiologista, e isso não é um erro: é o caminho correto diante de dor no peito. O problema aparece quando, depois de o coração ser afastado, a pessoa fica sem encaminhamento e passa anos tratando um diagnóstico que ninguém fechou.',
+          'Outro desvio comum é começar pelo otorrinolaringologista, por causa da rouquidão e do pigarro, ou pelo pneumologista, por causa da tosse seca. Nesses casos, o sintoma que leva à consulta é o que menos parece digestivo, e a investigação do refluxo acaba ficando para depois.',
+          'O caminho mais curto costuma ser a unidade básica de saúde. O clínico ou o generalista consegue organizar a história, pedir os exames iniciais e encaminhar ao gastroenterologista quando o quadro é refratário, atípico ou exige endoscopia. Quando o acesso é difícil, a teleconsulta pode iniciar a organização da história.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-na-duvida',
+        heading: 'O que fazer quando a dúvida aparece',
+        paragraphs: [
+          'A regra prática é simples: dor nova, forte ou diferente, com sinal de alarme, é emergência, mesmo em quem tem refluxo conhecido. Dor recorrente, que já aconteceu outras vezes do mesmo jeito e tem relação com alimentação e posição, pode ser investigada na rotina, sem pressa, mas sem abandonar. A mesma dor que já passou antes pode, em outra ocasião, ser outra coisa.',
+          'Anotar o que precede a dor, o que alivia, quanto tempo dura e o que ela impede de fazer. Essa descrição ajuda mais o médico a separar as duas hipóteses do que qualquer exame isolado.',
+          'E não use antiácido como prova. Se a dor passar com o remédio, isso não confirma refluxo nem exclui infarto. A conclusão vem da avaliação clínica e dos exames, feita por quem examinou a pessoa.',
+        ],
+        cta: {
+          label: 'Veja como o refluxo é investigado e tratado',
+          href: '/doencas/doenca-do-refluxo-gastroesofagico/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-do-refluxo-gastroesofagico'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'refluxo-omeprazol-por-conta-propria',
+      'refluxo-alimentos-que-pioram-a-azia',
+      'refluxo-como-dormir-melhor-com-azia',
+      'refluxo-barrett-e-risco-de-cancer',
+    ],
+    references: [
+      {
+        label: 'Doença do refluxo gastroesofágico (DRGE) — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/dist%C3%BArbios-esof%C3%A1gicos-e-de-degluti%C3%A7%C3%A3o/doen%C3%A7a-do-refluxo-gastroesof%C3%A1gico-drge',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Exames relacionados ao ácido e ao refluxo — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/diagn%C3%B3stico-de-dist%C3%BArbios-digestivos/exames-relacionados-ao-%C3%A1cido-e-ao-refluxo',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'refluxo-omeprazol-por-conta-propria',
+    slug: 'refluxo-omeprazol-por-conta-propria',
+    title: 'Omeprazol por conta própria: o que o uso sem indicação esconde',
+    excerpt:
+      'O remédio funciona, é barato e está na prateleira. Justamente por isso virou rotina de automedicação, e pode mascarar um problema que precisava de investigação.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-tanta-gente-toma',
+        heading: 'Por que tanta gente toma',
+        paragraphs: [
+          'O omeprazol e os demais inibidores de bomba de prótons deixaram de exigir prescrição e passaram a ser vendidos livremente nas farmácias. São eficazes, baratos e bem tolerados, o que os tornou a primeira escolha de quem sente azia com frequência.',
+          'O padrão de uso costuma se repetir. A pessoa tem azia, toma por alguns dias, melhora e para. Meses depois repete. Com o tempo, passa a tomar todos os dias, sem prazo, sem diagnóstico e sem saber exatamente o que está tratando. A caixa costuma sobrar na gaveta e ser usada na próxima crise, sem que ninguém revise a indicação.',
+          'Não há nada de errado em aliviar sintoma. O problema é que a azia é um sintoma, não um diagnóstico, e a automedicação prolongada interrompe justamente o momento em que a investigação deveria começar. Nas prateleiras, as apresentações de 10, 20 e 40 mg convivem lado a lado, e a escolha da dose costuma ficar com quem compra, sem critério clínico.',
+        ],
+      },
+      {
+        id: 'o-que-o-remedio-faz',
+        heading: 'O que o remédio faz e o que não faz',
+        paragraphs: [
+          'Os inibidores de bomba de prótons bloqueiam a última etapa da produção de ácido no estômago. Reduzem a acidez gástrica de forma potente e consistente, aliviam a azia, ajudam a cicatrizar esofagite e úlcera e são a base do tratamento do refluxo. A dose habitual fica entre 20 e 40 mg por dia, e a resposta costuma aparecer em poucos dias.',
+          'O que eles não fazem é corrigir o mecanismo. O esfíncter que não fecha continua não fechando, a hérnia de hiato continua no lugar, o peso continua pressionando o abdome. Quando o remédio é suspenso, o ácido volta e o sintoma volta com ele.',
+          'Também não tratam tudo o que parece azia. Dor na boca do estômago, queimação que piora em jejum, náusea e empachamento podem ter outras causas, e a resposta a um teste empírico não prova nada quando o quadro é atípico. A endoscopia é o exame que separa as duas situações quando a dor não segue o padrão típico da azia.',
+        ],
+      },
+      {
+        id: 'o-que-fica-escondido',
+        heading: 'O que a melhora pode estar escondendo',
+        paragraphs: [
+          'O efeito mais silencioso da automedicação é o atraso. Câncer de estômago e de esôfago começam com sintomas vagos, que o remédio alivia por algumas semanas. A pessoa conclui que era só gastrite e só volta ao médico quando aparece dificuldade para engolir. No Brasil, o atraso até o diagnóstico de câncer gástrico ainda é medido em meses, e a automedicação aparece entre as razões apontadas.',
+          'Há também o risco de a medicação mascarar uma úlcera que sangra aos poucos. A anemia por falta de ferro pode ser o único sinal, e ela não melhora com omeprazol.',
+          'Por isso, alguns achados tiram o caso da prateleira da farmácia: dificuldade ou dor ao engolir, vômito com sangue, fezes escuras, perda de peso, anemia, início da azia depois dos 45 anos e sintoma que não cede após duas semanas de tratamento em dose adequada. Cada um desses sinais, isolado, já justifica uma consulta com encaminhamento para endoscopia.',
+        ],
+      },
+      {
+        id: 'uso-prolongado',
+        heading: 'O que se sabe do uso prolongado',
+        paragraphs: [
+          'O uso contínuo por anos está associado a alguns efeitos que merecem atenção, ainda que o risco absoluto seja baixo na maioria das pessoas. Os mais discutidos são a queda na absorção de vitamina B12 e de magnésio, o aumento do risco de infecções intestinais e de pneumonia, e uma pequena perda de densidade óssea. A falta de vitamina B12 se manifesta por anemia e por alterações neurológicas que podem passar despercebidas por anos.',
+          'A leitura correta é de equilíbrio. Para quem tem indicação clara, como esofagite erosiva ou esôfago de Barrett, o benefício de manter o remédio supera em muito esses riscos. Para quem toma por conta própria, sem diagnóstico, a conta é outra. A revisão precisa considerar também interações, como a redução do efeito de remédios que dependem do ácido para serem absorvidos.',
+          'A revisão periódica é o que resolve essa conta. Quem usa por mais de um ano deve levar a lista de remédios à consulta e perguntar se ainda há indicação, se a dose pode ser reduzida e se falta alguma investigação.',
+        ],
+      },
+      {
+        id: 'como-sair-do-remedio',
+        heading: 'Como sair sem voltar a ter azia',
+        paragraphs: [
+          'Suspender de uma vez, depois de meses de uso, costuma dar errado. O estômago responde à falta do bloqueio produzindo mais ácido por um tempo, e a azia volta com força alguns dias depois, o que leva a pessoa de volta ao remédio.',
+          'A saída costuma ser gradual, com redução de dose ou uso em dias alternados, orientada por profissional, junto com as mudanças que sustentam o resultado: peso, horário das refeições, elevação da cabeceira e redução dos gatilhos alimentares. O ritmo da retirada depende do tempo de uso e da gravidade da esofagite, e não existe um esquema único que sirva para todos.',
+          'Quando o sintoma volta mesmo com a retirada cuidadosa, isso é informação, não fracasso. Pode significar que a doença existe e precisa de tratamento contínuo, e não de automedicação. Nesse caso, a conversa com o médico deve incluir a possibilidade de manter a menor dose eficaz.',
+        ],
+      },
+      {
+        id: 'quando-procurar-ajuda',
+        heading: 'Quando procurar avaliação',
+        paragraphs: [
+          'Vale procurar a unidade de saúde se a azia aparece duas ou mais vezes por semana, se o remédio já é usado há mais de um mês sem orientação, se é preciso aumentar a dose para ter alívio ou se algum sinal de alarme apareceu. Anotar quantos dias por semana o sintoma aparece ajuda a decidir entre tratamento contínuo e uso sob demanda.',
+          'A consulta é simples e começa pela história. Levar a lista dos medicamentos, o tempo de uso e o que melhora ou piora o sintoma encurta o caminho e evita exames desnecessários. O profissional também verifica se há outros remédios que pioram o refluxo, como alguns anti-inflamatórios e bloqueadores de canal de cálcio.',
+          'Tratar bem não é tomar menos remédio, e também não é tomar para sempre. É saber por que se está tomando. Essa consciência é o que separa um tratamento de um hábito.',
+        ],
+        cta: {
+          label: 'Veja como o refluxo é diagnosticado e tratado',
+          href: '/doencas/doenca-do-refluxo-gastroesofagico/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-do-refluxo-gastroesofagico'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'refluxo-dor-no-peito-refluxo-ou-infarto',
+      'refluxo-alimentos-que-pioram-a-azia',
+      'refluxo-barrett-e-risco-de-cancer',
+      'refluxo-como-dormir-melhor-com-azia',
+    ],
+    references: [
+      {
+        label: 'Doença do refluxo gastroesofágico (DRGE) — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/dist%C3%BArbios-esof%C3%A1gicos-e-de-degluti%C3%A7%C3%A3o/doen%C3%A7a-do-refluxo-gastroesof%C3%A1gico-drge',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Exames relacionados ao ácido e ao refluxo — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/diagn%C3%B3stico-de-dist%C3%BArbios-digestivos/exames-relacionados-ao-%C3%A1cido-e-ao-refluxo',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'refluxo-alimentos-que-pioram-a-azia',
+    slug: 'refluxo-alimentos-que-pioram-a-azia',
+    title: 'Alimentos que pioram a azia: o que a evidência mostra',
+    excerpt:
+      'Café, chocolate, fritura, refrigerante. A lista clássica ajuda, mas não explica tudo: volume da refeição, horário e peso corporal pesam tanto quanto o item isolado.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-gatilho',
+        heading: 'O que é gatilho e o que é causa',
+        paragraphs: [
+          'Gatilho é o que precipita um episódio em quem já tem a doença. Causa é o que produz a doença ao longo do tempo. Confundir os dois leva a dietas rígidas que não resolvem o problema e a culpas desnecessárias por uma refeição isolada.',
+          'No refluxo, os gatilhos alimentares atuam por dois caminhos: relaxam o esfíncter que separa o estômago do esôfago ou aumentam o volume e a pressão dentro do estômago. Alguns alimentos fazem as duas coisas ao mesmo tempo. O relaxamento do esfíncter é passageiro e acontece em qualquer pessoa depois de uma refeição gordurosa; o que muda é a frequência e a intensidade com que isso ocorre.',
+          'Já os fatores que realmente mudam o curso da doença são outros: excesso de peso, tabagismo, refeições volumosas e deitar logo depois de comer. Nenhum deles se resolve apenas escolhendo melhor o que vai no prato. Por isso a conversa sobre alimentação precisa vir junto com a conversa sobre hábitos e peso.',
+        ],
+      },
+      {
+        id: 'lista-classica',
+        heading: 'O que a lista clássica aponta',
+        paragraphs: [
+          'Os itens mais citados nos estudos são café, chocolate, bebidas alcoólicas, refrigerantes e sucos gaseificados, frituras e alimentos gordurosos, menta, condimentos picantes e frutas ácidas, como o limão e a laranja. Também aparecem na lista os alimentos muito quentes e as preparações com muita pimenta.',
+          'A qualidade da evidência varia. O efeito do café e do álcool é bem documentado; já o do chocolate e o da menta aparece mais em estudos pequenos e na prática clínica do que em ensaios robustos. A resposta individual também é grande: há quem coma chocolate sem sintoma e quem sinta azia com meia xícara de café. Quem sente sintoma com um item da lista e não com outro deve confiar na própria resposta, e não na regra geral.',
+          'Por isso a lista serve como ponto de partida para teste, não como proibição universal. Cortar dez alimentos de uma vez torna a dieta insustentável e não permite saber qual deles realmente importava. Uma alternativa é reduzir a quantidade e observar, antes de eliminar o alimento por completo.',
+        ],
+      },
+      {
+        id: 'nao-e-so-alimento',
+        heading: 'Não é só o alimento',
+        paragraphs: [
+          'O volume da refeição pesa mais do que muitos itens da lista. Uma refeição grande distende o estômago, aumenta a pressão sobre o esfíncter e favorece o retorno do conteúdo. Comer menos, mais vezes, costuma render mais do que excluir o café. A velocidade de comer também influencia: refeições rápidas engolem mais ar e distendem o estômago.',
+          'O horário também conta. Deitar nas duas a três horas seguintes a uma refeição é um dos gatilhos mais consistentes, porque elimina a ajuda da gravidade. Jantar tarde e dormir em seguida é uma combinação frequente em quem acorda com azia. Trocar o jantar por uma refeição mais leve e mais cedo costuma ter efeito visível em poucas semanas.',
+          'E o peso corporal é o fator isolado com melhor evidência. A perda de peso reduz o refluxo de forma mensurável, e o efeito aparece mesmo com perdas modestas, de cinco a dez por cento, sobretudo quando a gordura se concentra no abdome. O acompanhamento do peso deve ser feito com o mesmo profissional que trata o refluxo, para não virar dieta de moda.',
+        ],
+      },
+      {
+        id: 'como-testar',
+        heading: 'Como descobrir os seus gatilhos',
+        paragraphs: [
+          'O método mais útil é o registro. Anotar por duas semanas o que foi comido, o horário, a posição em que a pessoa ficou depois e a intensidade do sintoma revela padrões que a memória não guarda. Vale registrar também o que a pessoa estava fazendo: deitar, abaixar para pegar algo no chão, fazer esforço.',
+          'A partir do registro, testa-se um item por vez, retirando por uma a duas semanas e reintroduzindo depois. Se o sintoma não muda, o alimento não era o problema e pode voltar ao prato. Uma planilha simples no celular resolve, e a lista costuma ser mais confiável do que a lembrança do dia anterior.',
+          'Vale desconfiar de listas muito longas e de dietas que prometem cura. Restringir sem testar aumenta o custo, o risco nutricional e a sensação de fracasso quando o sintoma persiste. Quem restringe muitos grupos alimentares por conta própria pode precisar de acompanhamento nutricional.',
+        ],
+      },
+      {
+        id: 'o-que-ajuda',
+        heading: 'O que costuma ajudar de verdade',
+        paragraphs: [
+          'Refeições menores e mais frequentes, não deitar nas duas a três horas seguintes, elevar a cabeceira da cama, reduzir o peso quando há excesso e parar de fumar são medidas com efeito consistente e baixo custo. Nenhuma delas exige comprar produto específico nem seguir cardápio fechado.',
+          'Alguns ajustes específicos ajudam grupos determinados. Quem sente azia com café pode testar o descafeinado; quem tem sintoma com refrigerante pode trocar por água comum. Nenhuma troca é obrigatória para todos. O importante é que a troca seja testada, e não adotada por recomendação genérica.',
+          'Chás e suplementos vendidos como tratamento para refluxo não têm comprovação e podem atrasar o diagnóstico. O mesmo vale para dietas muito restritivas apresentadas como solução definitiva. Quando o sintoma não cede, o caminho é a consulta, e não a próxima promessa de dieta milagrosa.',
+        ],
+      },
+      {
+        id: 'quando-a-dieta-nao-basta',
+        heading: 'Quando a dieta não resolve',
+        paragraphs: [
+          'Se o sintoma persiste apesar dos ajustes, a explicação não é falta de disciplina. O refluxo tem componente mecânico, e a dieta sozinha não corrige o esfíncter nem a hérnia de hiato. Muitas pessoas chegam ao consultório convencidas de que falharam na dieta, quando na verdade nunca foram diagnosticadas.',
+          'Procure avaliação se a azia ocorre duas ou mais vezes por semana, se é preciso remédio contínuo, se há dificuldade para engolir, perda de peso ou anemia. Nesses casos, a endoscopia costuma entrar no plano. O médico pode ainda solicitar exames para afastar outras causas, como gastroparesia ou intolerâncias.',
+          'A dieta é base, não tratamento completo. Ela reduz o número de episódios e melhora o conforto, mas quem tem a doença precisa de diagnóstico e, muitas vezes, de medicamento. Quem controla bem os sintomas com hábitos e uso ocasional de antiácido pode seguir assim, desde que avalie o quadro com regularidade.',
+        ],
+        cta: {
+          label: 'Veja o tratamento completo do refluxo',
+          href: '/doencas/doenca-do-refluxo-gastroesofagico/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-do-refluxo-gastroesofagico'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'refluxo-omeprazol-por-conta-propria',
+      'refluxo-como-dormir-melhor-com-azia',
+      'refluxo-dor-no-peito-refluxo-ou-infarto',
+      'refluxo-barrett-e-risco-de-cancer',
+    ],
+    references: [
+      {
+        label: 'Doença do refluxo gastroesofágico (DRGE) — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/dist%C3%BArbios-esof%C3%A1gicos-e-de-degluti%C3%A7%C3%A3o/doen%C3%A7a-do-refluxo-gastroesof%C3%A1gico-drge',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Exames relacionados ao ácido e ao refluxo — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/diagn%C3%B3stico-de-dist%C3%BArbios-digestivos/exames-relacionados-ao-%C3%A1cido-e-ao-refluxo',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'refluxo-como-dormir-melhor-com-azia',
+    slug: 'refluxo-como-dormir-melhor-com-azia',
+    title: 'Como dormir melhor quando a azia atrapalha a noite',
+    excerpt:
+      'Acordar com gosto ácido na boca e tosse seca não é azar. Entenda por que o refluxo piora deitado e quais mudanças realmente alteram a noite.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-piora-a-noite',
+        heading: 'Por que o refluxo piora deitado',
+        paragraphs: [
+          'Deitado, o esôfago deixa de contar com a gravidade. Durante o dia, cada vez que o conteúdo gástrico sobe, o peso o empurra de volta e a saliva, engolida sem parar, neutraliza o ácido que ficou parado. À noite, as duas defesas desaparecem ao mesmo tempo: o corpo está na horizontal e a deglutição cai a quase nada.',
+          'Some-se a isso o relaxamento do esfíncter, que no sono acontece em episódios mais longos e mais frequentes. O resultado é que o ácido permanece em contato com a mucosa por muito mais tempo. É por isso que a esofagite tende a ser mais grave em quem tem sintoma noturno, e por que tosse e engasgo aparecem justamente nas primeiras horas de sono.',
+          'O quadro típico é acordar com gosto ácido ou amargo na boca, rouquidão pela manhã, tosse seca e uma queimação que obriga a sentar na cama. Muita gente atribui isso a um sono ruim, ao ar-condicionado ou a uma gripe que não passa, e passa anos sem ligar um fato ao outro. Existe ainda o efeito no dia seguinte. Quem tem refluxo noturno dorme pior, acorda cansado e tem mais sonolência durante o dia, o que por sua vez piora a alimentação e reduz a atividade física. O ciclo se fecha sozinho e dificulta a mudança de hábitos.',
+        ],
+      },
+      {
+        id: 'elevar-a-cabeca',
+        heading: 'Elevar a cabeceira, não o travesseiro',
+        paragraphs: [
+          'A recomendação clássica é elevar a cabeceira da cama entre 15 e 20 centímetros. O que se eleva é a estrutura, não o travesseiro: blocos sob os pés da cabeceira ou uma cunha de espuma firme colocada sob o colchão. A diferença parece pequena, mas é o que separa uma inclinação real de um amontoado de almofadas.',
+          'Empilhar travesseiros comuns dobra o pescoço, empurra o abdome para frente e costuma piorar o sintoma. Quem dorme de lado com vários travesseiros acaba em uma posição que comprime o estômago, o que é exatamente o oposto do que se quer. Dor cervical e refluxo juntos, nesse caso, vêm do mesmo arranjo.',
+          'O efeito da inclinação é modesto, mas consistente em quem tem sintoma noturno frequente. Vale medir a altura com uma régua e ajustar até que o conforto permita manter a posição a noite toda, porque uma noite elevada e cinco noites sem inclinação não mudam nada. Camas articuladas resolvem a questão sem gambiarra, mas não são necessárias. Quem divide a cama deve avisar o parceiro, porque a inclinação muda a altura do colchão e pode incomodar quem dorme do outro lado, o que costuma ser motivo de abandono da medida.',
+        ],
+      },
+      {
+        id: 'horario-das-refeicoes',
+        heading: 'O horário da última refeição',
+        paragraphs: [
+          'A janela entre o jantar e o momento de deitar é um dos fatores mais fáceis de mudar e com melhor retorno. O intervalo recomendado é de pelo menos duas a três horas, e ele existe porque o esvaziamento gástrico leva tempo: o estômago não termina o trabalho no momento em que se levanta da mesa.',
+          'Jantar tarde é comum em quem trabalha à noite, em quem chega em casa depois do rush e em quem só encontra a família no fim do dia. Nesses casos, vale deslocar a refeição principal para mais cedo e deixar algo leve para depois, em vez de manter um jantar pesado às dez da noite e deitar em seguida.',
+          'O volume também conta. Uma refeição grande, mesmo cedo, distende o estômago e aumenta a pressão sobre o esfíncter por horas. Comer menos e repetir em outro momento costuma funcionar melhor do que comer tudo de uma vez e esperar o corpo resolver. Bebidas alcoólicas à noite merecem atenção separada. Além de relaxarem o esfíncter, elas fragmentam o sono e reduzem a percepção dos episódios, o que faz a pessoa acordar pior sem saber exatamente por quê.',
+        ],
+      },
+      {
+        id: 'posicao-para-dormir',
+        heading: 'A posição de dormir',
+        paragraphs: [
+          'Dormir sobre o lado esquerdo é a posição mais estudada e a que costuma reduzir o número de episódios. A explicação é anatômica: o estômago fica à esquerda, e essa posição mantém a junção com o esôfago acima do nível do conteúdo gástrico, o que dificulta a subida.',
+          'O lado direito tende a piorar, porque facilita o contato do ácido com a mucosa. Estudos com monitoramento noturno mostram diferença mensurável entre os dois lados, e ela aparece mesmo em quem não percebe sintoma ao acordar. Dormir de bruços costuma ser pior ainda, porque comprime o abdome.',
+          'Nenhuma posição corrige a doença, e mudar de lado não é obrigatório para todos. Para quem acorda com sintoma, porém, testar o lado esquerdo por algumas semanas é simples, não custa nada e pode ser combinado com a cabeceira elevada. Gestantes costumam se beneficiar da mesma combinação e devem conversar com o obstetra, porque a posição também interfere no desconforto do fim da gestação e no retorno venoso. Nesse caso, o ajuste do refluxo caminha junto com o conforto geral.',
+        ],
+      },
+      {
+        id: 'o-que-nao-ajuda',
+        heading: 'O que não ajuda',
+        paragraphs: [
+          'Algumas medidas populares não têm apoio nos estudos. Tomar um copo de leite antes de dormir, por exemplo, alivia por alguns minutos e depois estimula a produção de ácido, o que pode deixar a noite pior do que estava. O mesmo vale para biscoitos e pães usados como calmante gástrico.',
+          'Dormir sentado em poltrona a noite toda costuma ser pior do que a cama inclinada, porque a posição força a coluna e o sono fica fragmentado. Já os comprimidos de antiácido de ação rápida servem para alívio pontual, não para prevenir o episódio noturno, que começa horas depois.',
+          'Também não resolve reduzir apenas o café da manhã ou trocar o tipo de pão. Ajustes isolados e simbólicos dão a sensação de estar fazendo algo, sem mexer no mecanismo que provoca o refluxo durante o sono. O que muda o quadro é o conjunto: horário, volume, peso e cabeceira. Suplementos e chás anunciados como solução para dormir melhor com refluxo não têm comprovação e podem atrasar a avaliação. Quando o sintoma noturno é frequente, ele costuma indicar doença ativa, e não falta de um produto específico.',
+        ],
+      },
+      {
+        id: 'quando-procurar-ajuda',
+        heading: 'Quando o problema é maior que a rotina',
+        paragraphs: [
+          'Se os sintomas noturnos acontecem duas ou mais vezes por semana, se atrapalham o sono de forma consistente ou se vêm com tosse, engasgo e rouquidão pela manhã, vale procurar avaliação. O mesmo vale quando a pessoa já dorme inclinada, janta cedo e continua acordando com azia.',
+          'O médico pode indicar tratamento contínuo por um período, ajustar o horário da medicação para o fim do dia e pedir endoscopia quando há sinais de alarme ou sintomas de longa data. A investigação também afasta outras causas de tosse noturna, como asma e rinite.',
+          'Dormir bem é parte do tratamento, não um luxo. Quem trata o refluxo e mantém hábitos noturnos inadequados costuma ter alívio parcial, e a melhora aparece quando as duas coisas são ajustadas juntas. O contrário também é verdadeiro: só mudar hábitos, sem tratar a doença, raramente resolve. O sintoma noturno é, por si só, um marcador de gravidade. Ele se associa a esofagite mais intensa e a maior risco de complicações, o que reforça a importância de não tratar o assunto apenas como um incômodo de fim de dia.',
+        ],
+        cta: {
+          label: 'Veja como o refluxo noturno é tratado',
+          href: '/doencas/doenca-do-refluxo-gastroesofagico/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-do-refluxo-gastroesofagico'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'refluxo-alimentos-que-pioram-a-azia',
+      'refluxo-omeprazol-por-conta-propria',
+      'refluxo-dor-no-peito-refluxo-ou-infarto',
+      'refluxo-barrett-e-risco-de-cancer',
+    ],
+    references: [
+      {
+        label: 'Doença do refluxo gastroesofágico (DRGE) — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/dist%C3%BArbios-esof%C3%A1gicos-e-de-degluti%C3%A7%C3%A3o/doen%C3%A7a-do-refluxo-gastroesof%C3%A1gico-drge',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Exames relacionados ao ácido e ao refluxo — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/diagn%C3%B3stico-de-dist%C3%BArbios-digestivos/exames-relacionados-ao-%C3%A1cido-e-ao-refluxo',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'refluxo-barrett-e-risco-de-cancer',
+    slug: 'refluxo-barrett-e-risco-de-cancer',
+    title: 'Esôfago de Barrett e risco de câncer: o que o refluxo de longa data pode causar',
+    excerpt:
+      'O refluxo frequente pode mudar o revestimento do esôfago. Entenda o que é o Barrett, quem precisa investigar e por que o seguimento importa mais do que o susto.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-barrett',
+        heading: 'O que é o esôfago de Barrett',
+        paragraphs: [
+          'O esôfago é revestido por um tecido parecido com o da pele, feito para suportar atrito e não ácido. Quando o refluxo ácido o agride por anos seguidos, esse revestimento pode ser substituído por outro, semelhante ao do intestino, mais resistente ao ácido. Essa transformação se chama esôfago de Barrett.',
+          'A troca não é câncer e não dói. Ela é uma adaptação, e o problema é que esse tecido novo tem maior chance de acumular alterações ao longo do tempo. Em uma minoria dos casos, essas alterações progridem para displasia e, mais raramente ainda, para adenocarcinoma de esôfago.',
+          'Vale colocar o risco em perspectiva. A maioria das pessoas com refluxo nunca desenvolve Barrett, e a maioria das pessoas com Barrett nunca desenvolve câncer. O acompanhamento existe justamente porque é possível identificar quem está progredindo, e não porque o desfecho seja provável. Ainda assim, o número de casos de adenocarcinoma de esôfago cresceu nas últimas décadas em vários países, junto com o aumento da obesidade e do refluxo. Isso explica por que o tema passou a receber mais atenção do que recebia antes.',
+        ],
+      },
+      {
+        id: 'quem-esta-em-risco',
+        heading: 'Quem precisa investigar',
+        paragraphs: [
+          'A endoscopia não é indicada para todo mundo que tem azia. Ela é recomendada quando há sinais de alarme, quando os sintomas são persistentes apesar do tratamento, ou quando existe um conjunto de fatores que aumenta a suspeita de complicação.',
+          'Esse conjunto costuma incluir refluxo por muitos anos, início dos sintomas depois dos 45 ou 50 anos, sexo masculino, obesidade, tabagismo e hérnia de hiato. Histórico familiar de câncer de esôfago também entra na conversa, e vale mencioná-lo na consulta mesmo que ninguém pergunte.',
+          'Quem tem apenas azia ocasional, sem nenhum desses fatores, costuma ser tratado clinicamente e observado. Já quem tem refluxo crônico, sintoma noturno frequente e fatores de risco reunidos deve discutir a endoscopia com o médico, mesmo que o sintoma esteja controlado pelo remédio. Um ponto importante: o Barrett costuma ser silencioso. Muitas pessoas descobrem a condição em um exame pedido por outro motivo, e é comum o sintoma ter diminuído justamente quando a alteração apareceu, o que não significa melhora.',
+        ],
+      },
+      {
+        id: 'sinais-que-mudam',
+        heading: 'Os sinais que mudam o rumo',
+        paragraphs: [
+          'Alguns sintomas tiram o caso da rotina e pedem avaliação rápida. Dificuldade para engolir é o principal: quando o alimento parece parar no meio do peito, ou quando é preciso beber água para empurrar, a investigação não pode esperar.',
+          'Perda de peso sem explicação, dor ao engolir, vômito com sangue, fezes escuras e anemia também entram nessa lista. São sinais de que algo além do refluxo simples está acontecendo, e podem indicar estreitamento, úlcera ou lesão que precisa ser vista.',
+          'Há ainda a mudança de padrão. Quem tinha azia típica e passa a sentir mais engasgo do que queimação, ou quem deixa de sentir o sintoma antigo sem ter mudado nada, deve contar isso ao médico. Alteração de padrão é informação clínica, não detalhe. Nenhum desses sinais confirma câncer, e a maioria tem causas tratáveis. O ponto é que eles mudam a prioridade do exame, e é isso que define o prognóstico quando existe uma lesão.',
+        ],
+      },
+      {
+        id: 'como-e-diagnosticado',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'O diagnóstico é feito por endoscopia com biópsia. O endoscopista observa a transição entre o revestimento rosado normal e uma área mais clara e aveludada acima da junção com o estômago, e coleta fragmentos para análise no microscópio.',
+          'A biópsia é o que confirma. É ela que mostra o tipo de tecido e se existem alterações celulares, chamadas displasia, que indicam maior risco. Sem o exame do tecido, o aspecto visual sozinho não fecha o diagnóstico.',
+          'Em alguns casos, o médico associa a pHmetria para documentar o refluxo e a manometria para avaliar a força do esôfago, sobretudo quando se considera cirurgia. Esses exames não substituem a biópsia, mas ajudam a montar o quadro completo. O resultado deve ser guardado e levado a todas as consultas. Comparar lâminas de exames diferentes é o que permite dizer se houve progressão, e essa comparação depende de o material antigo estar disponível.',
+        ],
+      },
+      {
+        id: 'seguimento',
+        heading: 'O que o seguimento faz',
+        paragraphs: [
+          'Quando não há displasia, o seguimento costuma ser feito com endoscopia a cada dois ou três anos, com intervalo que pode ser estendido se dois exames consecutivos forem normais. A lógica é vigiar sem submeter a pessoa a exames demais.',
+          'Quando aparece displasia de baixo grau, o intervalo encurta, em geral para seis meses no primeiro ano. Se não houver progressão, passa-se a anual. Displasia de alto grau muda a conduta e costuma indicar tratamento endoscópico, que remove a área alterada.',
+          'O seguimento não é vigilância passiva. Ele permite tratar lesões iniciais por endoscopia, sem cirurgia, com bons resultados. É por isso que ir às reavaliações na data marcada faz diferença real. Quem muda de cidade ou de serviço deve pedir a transferência do acompanhamento. Perder o fio do seguimento é comum e é justamente o que transforma um caso controlado em diagnóstico tardio.',
+        ],
+      },
+      {
+        id: 'o-que-reduz-o-risco',
+        heading: 'O que reduz o risco',
+        paragraphs: [
+          'Controlar o refluxo é a base. O tratamento com inibidor de bomba de prótons reduz a agressão ao esôfago e ajuda a cicatrizar a esofagite, e quem tem Barrett geralmente precisa mantê-lo a longo prazo, mesmo sem sintoma.',
+          'Perder peso, parar de fumar e reduzir o consumo de álcool têm efeito sobre o refluxo e sobre o risco de forma geral. São mudanças que valem por si, e não apenas como parte do tratamento do esôfago.',
+          'Não existe alimento que previna o Barrett nem exame caseiro que o detecte. Também não há comprovação de que suplementos ou chás reduzam a progressão, e apostar neles costuma atrasar o seguimento que realmente funciona. A mensagem prática é de equilíbrio. O Barrett é uma condição que exige acompanhamento, não uma sentença. Quem mantém o tratamento, vai às endoscopias na data marcada e ajusta os hábitos tem o quadro sob controle na grande maioria dos casos.',
+        ],
+        cta: {
+          label: 'Veja quando a endoscopia está indicada no refluxo',
+          href: '/doencas/doenca-do-refluxo-gastroesofagico/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-do-refluxo-gastroesofagico'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'refluxo-omeprazol-por-conta-propria',
+      'refluxo-dor-no-peito-refluxo-ou-infarto',
+      'refluxo-alimentos-que-pioram-a-azia',
+      'refluxo-como-dormir-melhor-com-azia',
+    ],
+    references: [
+      {
+        label: 'Doença do refluxo gastroesofágico (DRGE) — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/dist%C3%BArbios-esof%C3%A1gicos-e-de-degluti%C3%A7%C3%A3o/doen%C3%A7a-do-refluxo-gastroesof%C3%A1gico-drge',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Exames relacionados ao ácido e ao refluxo — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/diagn%C3%B3stico-de-dist%C3%BArbios-digestivos/exames-relacionados-ao-%C3%A1cido-e-ao-refluxo',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
 ];

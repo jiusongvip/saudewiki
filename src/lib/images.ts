@@ -326,6 +326,14 @@ export const diseaseImages: Record<string, SiteImage> = {
     src: '/img/doenca-gonorreia.webp',
     alt: 'Ilustração médica de um trecho de uretra aberto em corte, com a mucosa avermelhada, secreção clara e bactérias redondas na superfície, com recorte de mãos com pote de urina, e quatro ícones de ardor, corrimento, dor pélvica e sangramento',
   },
+  osteoporose: {
+    src: '/img/doenca-osteoporose.webp',
+    alt: 'Ilustração médica de um osso longo aberto em corte, com o interior esponjoso esburacado e traves ósseas quebradas, com recorte de um raio X da coluna, e quatro ícones de dor lombar, coluna curva, altura menor e fraturas',
+  },
+  'doenca-do-refluxo-gastroesofagico': {
+    src: '/img/doenca-doenca-do-refluxo-gastroesofagico.webp',
+    alt: 'Ilustração médica do esôfago e do estômago em corte, com o esfíncter aberto e gotas de suco gástrico subindo pelo esôfago, com recorte de uma endoscopia, e quatro ícones de azia, refluxo, tosse e rouquidão',
+  },
 };
 
 export const articleImages: Record<string, SiteImage> = {
@@ -1124,6 +1132,46 @@ export const articleImages: Record<string, SiteImage> = {
   'meningite-meningococica-vacina-e-contatos': {
     src: '/img/artigo-meningite-meningococica-vacina-e-contatos.webp',
     alt: 'Profissional de saúde de jaleco branco segura uma seringa com a agulha para cima',
+  },
+  'osteoporose-sem-sintomas-quando-fazer-densitometria': {
+    src: '/img/artigo-osteoporose-sem-sintomas-quando-fazer-densitometria.webp',
+    alt: 'Paciente deitada na maca de um aparelho de imagem enquanto o técnico ajusta o equipamento',
+  },
+  'osteoporose-primeira-fratura-e-o-risco-de-outra': {
+    src: '/img/artigo-osteoporose-primeira-fratura-e-o-risco-de-outra.webp',
+    alt: 'Pessoa com o antebraço imobilizado em tipoia azul e o punho envolvido em atadura branca',
+  },
+  'osteoporose-calcio-vitamina-d-e-alimentacao': {
+    src: '/img/artigo-osteoporose-calcio-vitamina-d-e-alimentacao.webp',
+    alt: 'Tigelas de vidro com iogurte coberto por morangos picados sobre uma bancada',
+  },
+  'osteoporose-coluna-curva-e-perda-de-altura': {
+    src: '/img/artigo-osteoporose-coluna-curva-e-perda-de-altura.webp',
+    alt: 'Vista de costas de uma mulher idosa de cabelos brancos com as mãos na nuca',
+  },
+  'osteoporose-mitos-e-verdades-sobre-os-ossos': {
+    src: '/img/artigo-osteoporose-mitos-e-verdades-sobre-os-ossos.webp',
+    alt: 'Mulher idosa em uma área verde fazendo exercício com faixa elástica nos braços',
+  },
+  'refluxo-dor-no-peito-refluxo-ou-infarto': {
+    src: '/img/artigo-refluxo-dor-no-peito-refluxo-ou-infarto.webp',
+    alt: 'Homem de camisa azul sentado em um sofá com as duas mãos sobre o peito',
+  },
+  'refluxo-omeprazol-por-conta-propria': {
+    src: '/img/artigo-refluxo-omeprazol-por-conta-propria.webp',
+    alt: 'Frasco de vidro com comprimidos brancos ao lado de um copo de água sobre a mesa de cabeceira',
+  },
+  'refluxo-alimentos-que-pioram-a-azia': {
+    src: '/img/artigo-refluxo-alimentos-que-pioram-a-azia.webp',
+    alt: 'Copo de café ao lado de salgados fritos sobre uma mesa de madeira',
+  },
+  'refluxo-como-dormir-melhor-com-azia': {
+    src: '/img/artigo-refluxo-como-dormir-melhor-com-azia.webp',
+    alt: 'Pessoa deitada na cama à noite, acordada, com o lençol cobrindo o peito',
+  },
+  'refluxo-barrett-e-risco-de-cancer': {
+    src: '/img/artigo-refluxo-barrett-e-risco-de-cancer.webp',
+    alt: 'Médica de jaleco branco conversando com um paciente idoso em um consultório',
   },
 };
 

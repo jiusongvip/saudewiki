@@ -347,6 +347,11 @@ export const topics: Topic[] = [
       'leptospirose-como-se-prevenir-em-enchentes',
       'covid-19-como-se-transmite-e-como-se-proteger',
       'covid-19-vacina-e-doses-de-reforco',
+      'osteoporose-calcio-vitamina-d-e-alimentacao',
+      'osteoporose-mitos-e-verdades-sobre-os-ossos',
+      'refluxo-dor-no-peito-refluxo-ou-infarto',
+      'refluxo-alimentos-que-pioram-a-azia',
+      'refluxo-como-dormir-melhor-com-azia',
     ],
     references: [
       {
@@ -404,6 +409,8 @@ export const topics: Topic[] = [
       'cancer-do-colo-do-utero',
       'doenca-arterial-coronariana',
       'depressao',
+      'osteoporose',
+      'doenca-do-refluxo-gastroesofagico',
     ],
     articleSlugs: [
       'diabetes-tipo-2-o-que-muda-no-dia-a-dia',
@@ -481,6 +488,16 @@ export const topics: Topic[] = [
       'depressao-sintomas-e-quando-procurar-ajuda',
       'depressao-tratamento-e-como-ajudar-alguem',
       'doenca-arterial-coronariana-sintomas-e-sinais-de-infarto',
+      'osteoporose-sem-sintomas-quando-fazer-densitometria',
+      'osteoporose-primeira-fratura-e-o-risco-de-outra',
+      'osteoporose-calcio-vitamina-d-e-alimentacao',
+      'osteoporose-coluna-curva-e-perda-de-altura',
+      'osteoporose-mitos-e-verdades-sobre-os-ossos',
+      'refluxo-dor-no-peito-refluxo-ou-infarto',
+      'refluxo-omeprazol-por-conta-propria',
+      'refluxo-alimentos-que-pioram-a-azia',
+      'refluxo-como-dormir-melhor-com-azia',
+      'refluxo-barrett-e-risco-de-cancer',
     ],
     references: [
       {

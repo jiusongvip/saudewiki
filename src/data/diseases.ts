@@ -18376,4 +18376,463 @@ export const diseases: Disease[] = [
     updatedAt: '2026-10-27',
     isPlaceholder: true,
   },
+  {
+    id: 'osteoporose',
+    slug: 'osteoporose',
+    name: 'Osteoporose',
+    aliases: ['ossos fracos', 'perda de massa óssea', 'osteoporose pós-menopausa', 'osso poroso'],
+    summary:
+      'Doença que reduz a densidade e a resistência dos ossos e deixa a pessoa sujeita a fraturas por quedas pequenas ou esforços mínimos. Costuma não dar sintoma até a primeira fratura.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é osteoporose?',
+        paragraphs: [
+          'A osteoporose é uma doença em que os ossos perdem densidade e ficam porosos por dentro. O osso é tecido vivo e está sempre sendo renovado: uma parte é reabsorvida e outra é reconstruída. Quando a retirada passa a ser maior que a reposição, a estrutura interna, que era compacta, fica esburacada e perde força. O osso continua do mesmo tamanho, mas quebra com muito menos impacto.',
+          'As fraturas costumam acontecer nas vértebras, no punho, no quadril, no braço e na pelve. Cerca de uma em cada cinco mulheres e um em cada vinte homens a partir dos 50 anos têm osteoporose, e aproximadamente metade das mulheres na pós-menopausa vai sofrer uma fratura relacionada à doença em algum momento da vida. O problema é que a perda de massa óssea não dói: muitas pessoas descobrem a doença só depois da primeira fratura.',
+        ],
+        cta: {
+          label: 'Leia também: cinco ideias erradas sobre osteoporose',
+          href: '/artigos/osteoporose-mitos-e-verdades-sobre-os-ossos/',
+        },
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de osteoporose',
+        paragraphs: [
+          'A osteoporose primária aparece sem uma causa única identificável e responde pela maior parte dos casos. Ela se divide em três formas. A pós-menopausa atinge mulheres nos primeiros anos depois da última menstruação e costuma fraturar vértebras e punho. A senil aparece depois dos 70 anos e envolve fraturas de coluna e de quadril. A idiopática é rara, surge em mulheres antes da menopausa, em homens com menos de 50 anos e em crianças e adolescentes com hormônios e vitamina D normais.',
+          'A osteoporose secundária tem uma causa conhecida por trás. Entre as doenças que provocam perda óssea estão a doença renal crônica, o hipertireoidismo, o hiperparatireoidismo, a síndrome de Cushing, o diabetes tipo 1, a artrite reumatoide, a doença celíaca e alguns cânceres, como o mieloma múltiplo. Também entram nessa lista o uso prolongado de corticoides, de hormônios tireoidianos, de anticonvulsivantes e de inibidores de aromatase.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Por que os ossos ficam frágeis',
+        paragraphs: [
+          'A densidade óssea sobe até cerca de 30 anos, quando o osso atinge seu pico, e depois começa a cair. Nas mulheres, essa queda acelera na menopausa, que acontece em média perto dos 51 anos, porque o estrogênio freia as células que destroem osso. Sem esse freio, a reabsorção dispara e a perda de massa óssea fica rápida por alguns anos.',
+          'Cálcio e vitamina D em falta pioram o quadro. A vitamina D é necessária para absorver o cálcio dos alimentos e fixá-lo no osso, e boa parte dela é produzida na pele com a luz do sol. Quando ela falta, o cálcio no sangue cai, a paratireoide reage liberando mais hormônio e o corpo retira cálcio do próprio esqueleto. Com a idade, a pele produz menos vitamina D, o intestino absorve menos cálcio e a atividade física diminui, o que fecha o cerco contra o osso.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco',
+        paragraphs: [
+          'Alguns fatores não podem ser mudados, como ter pai ou mãe que fraturou o quadril, ter entrado na menopausa cedo, ser muito magro ou ter mais de 65 anos. Outros dependem do estilo de vida e podem ser corrigidos, e é aí que a prevenção funciona.',
+        ],
+        bullets: [
+          'Dieta pobre em cálcio e em vitamina D.',
+          'Pouca atividade física e longos períodos acamado.',
+          'Tabagismo e consumo excessivo de álcool.',
+          'Uso prolongado de corticoides, de hormônios tireoidianos ou de anticonvulsivantes.',
+          'Doenças que causam osteoporose secundária, como doença renal crônica, hipertireoidismo e artrite reumatoide.',
+          'Quedas repetidas, por tontura, problema de visão ou uso de vários remédios ao mesmo tempo.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas',
+        paragraphs: [
+          'A osteoporose em si não causa dor. A pessoa pode conviver anos com o osso frágil sem sentir nada, e a primeira manifestação costuma ser uma fratura que não se explica pelo impacto. As fraturas por fragilidade acontecem em quedas da própria altura, ao levantar da cama, ao tossir ou ao carregar peso leve, situações que não quebrariam um osso saudável.',
+          'Nas vértebras, a fratura por compressão pode passar em silêncio ou dar dor súbita nas costas, que piora ao levantar e ao andar e melhora com o repouso. Quando várias vértebras se deformam, a coluna encurva, a altura diminui e a barriga parece mais projetada. A deformidade também encurta o tronco e comprime os órgãos do abdome, o que pode causar desconforto digestivo e falta de ar.',
+          'No punho e no quadril, a fratura é dolorosa e limita o movimento na hora. A fratura de quadril é a mais grave: é uma das principais causas de perda de autonomia em idosos e está associada a menor sobrevida.',
+        ],
+        cta: {
+          label: 'Leia também: por que a osteoporose não dá sintoma',
+          href: '/artigos/osteoporose-sem-sintomas-quando-fazer-densitometria/',
+        },
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Queda com dor forte e incapacidade de apoiar o peso pede pronto atendimento, porque fratura de quadril e de punho precisam ser tratadas rápido. Dor súbita e intensa nas costas, perda de altura percebida em pouco tempo ou uma curvatura nova da coluna também merecem avaliação médica, mesmo sem trauma.',
+          'Procure uma unidade de saúde se você tem mais de 50 anos e já fraturou um osso em uma queda pequena, se usa corticoide há mais de três meses, se entrou na menopausa antes dos 45 anos ou se tem alguma doença que sabidamente enfraquece o osso. Nesses casos, a investigação começa antes da primeira fratura.',
+        ],
+        bullets: [
+          'Dor forte no quadril, no punho ou na coluna depois de uma queda, com dificuldade para se levantar ou andar.',
+          'Dor nas costas que surge de repente e não melhora com o repouso.',
+          'Perda de altura ou encurvamento da coluna notado em poucos meses.',
+          'Dor óssea contínua acompanhada de perda de peso, febre ou histórico de câncer, que precisa de outra investigação.',
+        ],
+        cta: {
+          label: 'Leia também: a primeira fratura e o risco de outra',
+          href: '/artigos/osteoporose-primeira-fratura-e-o-risco-de-outra/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'O médico começa pela conversa sobre a história de quedas e fraturas e pelo exame físico, procurando perda de altura, curvatura da coluna e fatores de risco. A investigação é indicada para todas as mulheres a partir dos 65 anos, para mulheres na pós-menopausa mais jovens que tenham fatores de risco, para qualquer pessoa que já fraturou um osso com pouco impacto e para quem tem doença ou usa remédio que provoca perda óssea.',
+          'Quem faz o primeiro atendimento é o clínico geral ou a equipe da unidade básica de saúde. A partir daí, o caso pode seguir com ortopedista, reumatologista, endocrinologista ou geriatra, conforme a causa e as fraturas envolvidas. Na osteoporose secundária, o tratamento da doença de base vem antes ou junto do tratamento do osso.',
+          'Uma fratura por fragilidade já confirma a osteoporose, mesmo quando a densidade óssea medida está normal. É por isso que a história clínica pesa tanto quanto o aparelho.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames confirmam a osteoporose',
+        paragraphs: [
+          'A densitometria óssea por dupla emissão de raios X, conhecida como DXA, é o exame de referência. Ela mede a densidade na coluna lombar e no quadril e compara o resultado com o de uma pessoa jovem saudável do mesmo sexo, gerando o escore T. Um escore T de -2,5 ou menos define osteoporose; valores entre -1 e -2,5 indicam osteopenia, uma perda menor que ainda aumenta o risco de fratura. O exame é indolor, usa pouca radiação e leva cerca de 10 a 15 minutos.',
+          'Em quem tem osteopenia, o médico pode calcular o FRAX, uma estimativa de risco de fratura em dez anos, para decidir se vale tratar. Em crianças, mulheres antes da menopausa e homens com menos de 50 anos, o resultado é lido pelo escore Z, que compara com pessoas da mesma idade.',
+          'Exames de sangue ajudam a afastar causas secundárias e a corrigir o que estiver faltando: cálcio, vitamina D, função renal, hormônios da tireoide e da paratireoide e, em alguns casos, marcadores de formação e de reabsorção óssea. A radiografia da coluna é usada quando há suspeita de fratura vertebral, muitas vezes sem dor.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com osteoporose',
+        paragraphs: [
+          'A dor nas costas da fratura vertebral pode ser confundida com dor lombar comum, com espondilose ou com uma crise muscular. A diferença é que a fratura costuma vir de um esforço mínimo e piora ao levantar, enquanto a dor mecânica melhora com movimento leve e piora com esforço.',
+          'O grupo mais importante de distinguir é o das metástases ósseas e do mieloma múltiplo, que também enfraquecem o osso. Perda de peso, febre, dor que não melhora com o repouso, anemia ou cálcio alto no sangue são sinais de alerta para investigar tumor, e nesse caso a ressonância magnética e a cintilografia óssea entram na investigação.',
+          'A osteomalácia, causada por falta grave de vitamina D, e o hiperparatireoidismo também entram na lista, porque enfraquecem o osso por mecanismos diferentes e exigem outro tratamento.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como a osteoporose é tratada',
+        paragraphs: [
+          'O objetivo do tratamento é evitar a primeira fratura ou a próxima. A base é garantir cálcio e vitamina D, praticar exercício com sustentação de peso, parar de fumar, reduzir o álcool e diminuir o risco de queda em casa. Só isso, porém, não reverte a osteoporose instalada: quando a densidade está baixa ou já houve fratura, entra o medicamento.',
+          'A recomendação geral é de pelo menos 1.000 mg de cálcio por dia, chegando a 1.200 ou 1.500 mg em mulheres na pós-menopausa, homens idosos e gestantes. O cálcio dos alimentos vem antes do suplemento, e leite, iogurte, queijo, brócolis, couve, tofu e sardinha em conserva são boas fontes. Para a vitamina D, a orientação costuma ser de 400 a 800 unidades por dia em quem tem osteoporose, com dose maior quando há deficiência comprovada em exame.',
+          'A fratura aguda precisa de controle da dor e, no quadril, de avaliação cirúrgica rápida. Em algumas fraturas vertebrais dolorosas, o médico pode indicar procedimentos para estabilizar a vértebra. Repouso prolongado não é tratamento: ele acelera a perda óssea e aumenta o risco de novas fraturas.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Remédios para osteoporose',
+        paragraphs: [
+          'Os bifosfonatos são a primeira escolha na maioria dos casos. Fazem parte desse grupo o alendronato e o risedronato, tomados por via oral, o ibandronato, que existe nas duas formas, e o ácido zoledrônico, aplicado na veia. O comprimido é engolido em jejum, com um copo cheio de água, e a pessoa não deve comer, beber outra coisa nem se deitar por 30 a 60 minutos, porque o remédio irrita o esôfago e é mal absorvido com comida no estômago.',
+          'O tratamento costuma durar de três a cinco anos, com reavaliação depois disso. Bifosfonato oral não é indicado para quem tem dificuldade para engolir, esofagite, doença renal grave, cálcio baixo no sangue ou está grávida ou amamentando. Dois efeitos raros merecem atenção: a osteonecrose de mandíbula, sobretudo depois de procedimentos dentários invasivos, e as fraturas atípicas do fêmur em uso muito prolongado. Dor nova na coxa ou na virilha pede avaliação.',
+          'Outras opções ficam para situações específicas. O denosumabe é aplicado sob a pele a cada seis meses e não pode ser interrompido sem orientação, porque a retirada abrupta acelera a perda óssea. O raloxifeno é útil em mulheres na pós-menopausa que não podem usar bifosfonato. A terapia hormonal ajuda a manter o osso, mas o risco costuma superar o benefício na maioria das mulheres. A teriparatida e o romosozumabe entram nos casos de risco muito alto de fratura, e a calcitonina tem papel limitado, mais no alívio da dor da fratura vertebral.',
+        ],
+      },
+      {
+        id: 'prognose',
+        heading: 'Qual é o prognóstico',
+        paragraphs: [
+          'A osteoporose é crônica, mas tem controle. Com tratamento correto e acompanhamento, a densidade óssea se estabiliza ou melhora e o risco de nova fratura cai. Quem já fraturou um osso por fragilidade tem o maior risco de fraturar de novo, e é justamente esse grupo que mais se beneficia do tratamento.',
+          'As consequências dependem do osso atingido. A fratura de quadril costuma exigir cirurgia e reabilitação longa, e está associada a perda de independência e a menor sobrevida. As fraturas vertebrais repetidas deformam a coluna, reduzem a altura e podem causar dor crônica. Diagnosticar cedo e tratar sem interrupção muda essa trajetória.',
+        ],
+        cta: {
+          label: 'Leia também: coluna curva e perda de altura',
+          href: '/artigos/osteoporose-coluna-curva-e-perda-de-altura/',
+        },
+      },
+      {
+        id: 'reabilitacao',
+        heading: 'Reabilitação e prevenção de quedas',
+        paragraphs: [
+          'Exercício com sustentação de peso estimula a formação óssea. Caminhar, subir escadas e treinar com pesos são as atividades mais indicadas, por volta de 30 minutos por dia, sempre com progressão lenta. Natação e hidroginástica não aumentam a densidade óssea, mas melhoram o equilíbrio, a força do tronco e a confiança para se movimentar, o que reduz quedas. Um fisioterapeuta pode montar um programa seguro e ensinar a fazer as tarefas do dia a dia sem sobrecarregar a coluna.',
+          'Em quem já tem fratura vertebral, exercícios com flexão profunda e torção do tronco devem ser evitados, porque aumentam a carga sobre a vértebra. Órteses podem ser indicadas por um período para aliviar a dor e corrigir a postura.',
+          'Em casa, barras de apoio no banheiro, tapete antiderrapante, boa iluminação no corredor e retirada de tapetes soltos evitam boa parte das quedas. Bengala ou andador ajudam quem tem instabilidade. Revisar a visão e os remédios que causam tontura faz parte do mesmo cuidado.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'A alimentação deve garantir cálcio todos os dias, com leite, iogurte, queijo, tofu, couve, brócolis, gergelim e peixes pequenos com espinha. Expor braços e pernas ao sol por 15 a 30 minutos, nos horários de menor intensidade, ajuda na produção de vitamina D. Excesso de sal e muito café ao longo do dia aumentam a perda de cálcio pela urina, e vale moderar.',
+          'O acompanhamento inclui densitometria a cada um ou dois anos durante o tratamento e dosagem de vitamina D quando indicada. Quem usa bifosfonato deve cuidar da saúde bucal e avisar o dentista sobre o medicamento antes de qualquer procedimento. Tomar o remédio na data certa, sem pular doses, é o que sustenta o resultado.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a osteoporose',
+        paragraphs: [
+          'A prevenção começa cedo, porque o osso que se forma até os 30 anos é o que vai sustentar a vida adulta. Cálcio e vitamina D suficientes, atividade física regular com impacto e peso, pouco sal, nenhum cigarro e álcool com moderação constroem um esqueleto mais resistente.',
+          'Depois da menopausa e a partir dos 50 anos, a conversa muda de foco: identificar quem tem risco, medir a densidade quando indicado e tratar antes da fratura. Quedas são o outro lado da prevenção e respondem por boa parte das fraturas em idosos, então adaptar a casa, revisar a visão e ajustar remédios que causam tontura faz parte do mesmo plano.',
+        ],
+        cta: {
+          label: 'Leia também: cálcio, vitamina D e alimentação',
+          href: '/artigos/osteoporose-calcio-vitamina-d-e-alimentacao/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Osteoporose dá sintomas?',
+        answer:
+          'Não. A osteoporose não dói e costuma não dar sinal nenhum até a primeira fratura. Dor nas costas aparece quando uma vértebra se quebra ou se deforma.',
+      },
+      {
+        question: 'Quem precisa fazer densitometria óssea?',
+        answer:
+          'Todas as mulheres a partir dos 65 anos, mulheres na pós-menopausa mais jovens com fatores de risco, qualquer pessoa que já fraturou um osso com pouco impacto e quem usa corticoide por muito tempo ou tem doença que enfraquece o osso.',
+      },
+      {
+        question: 'Cálcio e vitamina D bastam para tratar osteoporose?',
+        answer:
+          'Não. Eles são a base e não podem faltar, mas não revertem a osteoporose instalada. Quando a densidade está baixa ou já houve fratura, o tratamento inclui medicamento específico.',
+      },
+      {
+        question: 'Quem tem osteoporose pode fazer exercício?',
+        answer:
+          'Pode e deve. Caminhada, subida de escadas e treino com pesos fortalecem o osso. Em quem já tem fratura vertebral, movimentos de flexão profunda e torção do tronco devem ser evitados, e o programa ideal é montado com fisioterapeuta.',
+      },
+      {
+        question: 'Osteoporose tem cura?',
+        answer:
+          'Não existe cura, mas existe controle. Com tratamento e acompanhamento, a densidade óssea se estabiliza ou melhora e o risco de nova fratura diminui.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'osteoporose-sem-sintomas-quando-fazer-densitometria',
+      'osteoporose-primeira-fratura-e-o-risco-de-outra',
+      'osteoporose-calcio-vitamina-d-e-alimentacao',
+      'osteoporose-coluna-curva-e-perda-de-altura',
+      'osteoporose-mitos-e-verdades-sobre-os-ossos',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['artrite-reumatoide', 'espondilose-lombar', 'hipotireoidismo', 'doenca-renal-cronica'],
+    references: [
+      {
+        label: 'Osteoporose — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-%C3%B3sseos-articulares-e-musculares/osteoporose/osteoporose',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Osteoporose',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/osteoporose/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+      {
+        label: 'Musculoskeletal conditions — fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-do-refluxo-gastroesofagico',
+    slug: 'doenca-do-refluxo-gastroesofagico',
+    name: 'Doença do refluxo gastroesofágico',
+    aliases: ['DRGE', 'refluxo gastroesofágico', 'refluxo', 'azia frequente', 'esofagite de refluxo'],
+    summary:
+      'Doença em que o conteúdo do estômago volta para o esôfago e provoca azia, queimação atrás do esterno e regurgitação. O diagnóstico é clínico, e o tratamento combina mudanças de hábito com remédios que reduzem o ácido.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é refluxo gastroesofágico?',
+        paragraphs: [
+          'A doença do refluxo gastroesofágico acontece quando o conteúdo do estômago, com ácido e bile, volta para o esôfago. Entre os dois órgãos existe um anel de músculo chamado esfíncter esofágico inferior, que funciona como uma válvula e se fecha para impedir o retorno. Quando ele relaxa na hora errada ou perde força, o conteúdo sobe. O estômago tem uma camada que o protege do próprio ácido; o esôfago não tem, e é essa diferença que transforma o refluxo em sintoma e, em alguns casos, em lesão.',
+          'O refluxo é comum. Cerca de 13% das pessoas no mundo têm refluxo gastroesofágico, e a frequência aumenta com a idade, porque a musculatura do esôfago perde força e o esfíncter fica mais frouxo. Refluxo ocasional depois de uma refeição farta não é doença. A DRGE é o quadro em que o refluxo se repete e passa a atrapalhar o sono, o trabalho ou a alimentação.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de refluxo',
+        paragraphs: [
+          'A endoscopia separa os casos em dois grandes grupos e ajuda a definir o tratamento. A maioria das pessoas com sintomas típicos não tem lesão visível, e isso não significa que o problema seja menor: a mucosa pode estar íntegra e ainda assim inflamada e sensível.',
+        ],
+        bullets: [
+          'Doença não erosiva: há sintomas e refluxo comprovado, mas a endoscopia não mostra lesão.',
+          'Esofagite erosiva: a endoscopia revela erosões ou úlceras na parte final do esôfago.',
+          'Graus LA A e LA B: lesões pequenas, limitadas às dobras da mucosa.',
+          'Graus LA C e LA D: lesões que se estendem e atingem boa parte da circunferência do esôfago.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Por que o refluxo acontece',
+        paragraphs: [
+          'Três defesas mantêm o conteúdo no estômago: a pressão do esfíncter, a limpeza feita pelas ondas de contração do esôfago e a resistência da mucosa. O refluxo aparece quando uma ou mais dessas defesas falham. Hérnia de hiato, pressão abdominal aumentada por obesidade ou gravidez, estômago que esvazia devagar e refluxo que escapa durante o sono são os mecanismos mais frequentes.',
+          'Alguns hábitos pioram o quadro e podem ser ajustados. Refeições muito volumosas, alimentos gordurosos, chocolate, café, bebidas gaseificadas e álcool reduzem a pressão do esfíncter ou retardam o esvaziamento do estômago. Deitar logo depois de comer tira o efeito da gravidade. Cigarro e excesso de álcool lesionam a mucosa. Há também remédios que relaxam o esfíncter, como alguns anti-histamínicos, antidepressivos, bloqueadores de canal de cálcio e nitratos.',
+          'O estado emocional influencia a percepção do sintoma. Ansiedade e depressão não causam o refluxo, mas aumentam a sensibilidade do esôfago, e a mesma quantidade de ácido incomoda mais em quem está sob estresse constante.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas',
+        paragraphs: [
+          'A azia é o sintoma mais comum: uma queimação atrás do esterno, que sobe em direção à garganta e piora depois de comer, ao deitar ou ao se curvar. A regurgitação vem junto em muitos casos, com gosto ácido ou amargo na boca. Quando o conteúdo chega mais alto, aparecem rouquidão, pigarro, dor de garganta e tosse.',
+          'Nem todo mundo sente queimação. Existem as formas chamadas extraesofágicas, em que a tosse crônica, a asma de difícil controle, a rouquidão matinal e a sensação de nó na garganta são a queixa principal, e o refluxo só aparece na investigação. Dor no peito também pode ser refluxo, mas nunca deve ser tratada como refluxo antes de o coração ser avaliado.',
+          'Dificuldade para engolir e dor ao engolir são sintomas diferentes da azia e merecem investigação com endoscopia, porque podem indicar estreitamento, úlcera ou outra doença do esôfago.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Azar que aparece de vez em quando e passa sozinha não precisa de exame. O quadro muda de figura quando os sintomas são frequentes, atrapalham o sono ou vêm acompanhados de sinais de alarme, que pedem endoscopia para afastar lesão grave.',
+          'Dor no peito forte, que aperta, dura mais de alguns minutos ou irradia para o braço, o pescoço ou as costas não é motivo para pensar primeiro em refluxo. Ligue para o SAMU 192 ou procure um pronto atendimento, porque é preciso afastar infarto.',
+        ],
+        bullets: [
+          'Dificuldade para engolir alimentos sólidos ou sensação de que a comida para no meio do caminho.',
+          'Dor ao engolir.',
+          'Perda de peso sem explicação.',
+          'Vômito com sangue ou fezes escuras e com aspecto de borra de café.',
+          'Anemia detectada em exame de sangue.',
+          'Sintomas que começam depois dos 45 anos ou que mudam de padrão.',
+        ],
+        cta: {
+          label: 'Leia também: dor no peito, refluxo ou infarto',
+          href: '/artigos/refluxo-dor-no-peito-refluxo-ou-infarto/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito',
+        paragraphs: [
+          'Quando a queixa é azia e regurgitação típicas, sem sinais de alarme, o diagnóstico é clínico e o tratamento pode começar sem exame. Um teste com remédio que reduz o ácido por algumas semanas ajuda a confirmar a suspeita: se os sintomas melhoram muito, a chance de ser refluxo é alta.',
+          'A endoscopia entra quando há sinal de alarme, quando o tratamento não funciona, quando os sintomas duram muito tempo ou quando se quer avaliar a mucosa. Para a forma não erosiva, o diagnóstico se apoia na combinação de sintomas típicos, endoscopia sem lesão e exame que comprova o refluxo.',
+          'O primeiro atendimento costuma ser na unidade básica de saúde ou com clínico geral. Casos que não respondem, que voltam sempre ou que precisam de exame invasivo seguem para o gastroenterologista.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames confirmam o refluxo',
+        paragraphs: [
+          'A endoscopia é o exame mais útil para ver lesão. Ela mostra esofagite, úlcera, estreitamento, esôfago de Barrett e também permite excluir outras doenças, como úlcera gástrica e câncer. Quando há alteração suspeita, o médico colhe material para biópsia.',
+          'A pHmetria esofágica mede a acidez dentro do esôfago por 24 horas e mostra quanto tempo o pH fica abaixo do normal, além de relacionar cada episódio de refluxo com os sintomas. Pode ser feita com uma sonda fina pelo nariz ou com uma cápsula sem fio fixada na mucosa. É o exame mais preciso e é solicitado antes de qualquer cirurgia antirrefluxo.',
+          'A manometria avalia a pressão do esfíncter e a força das contrações do esôfago. Ela não confirma refluxo, mas ajuda a posicionar a sonda da pHmetria e a decidir se a cirurgia é uma boa opção. Em quem não tolera a endoscopia, o exame contrastado do esôfago pode ajudar a descartar outras causas.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com refluxo',
+        paragraphs: [
+          'A azia que não responde ao tratamento levanta outras hipóteses. A azia funcional e a hipersensibilidade ao refluxo produzem a mesma queimação, mas sem refluxo anormal nos exames; a diferença aparece na pHmetria e na resposta ao remédio.',
+          'A esofagite eosinofílica causa dificuldade para engolir e impactação de alimento, e a endoscopia com biópsia mostra inflamação com eosinófilos. A gastroparesia, comum em diabetes e depois de cirurgia gástrica, dá empachamento, náusea e vômito, e responde pouco ao remédio antirrefluxo. Úlcera péptica e cálculo na vesícula também entram na lista.',
+          'Dor no peito é o diferencial mais importante e o mais urgente. Antes de atribuir a dor ao refluxo, é preciso avaliar o coração, porque a angina pode ter a mesma localização e a mesma duração.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como o refluxo é tratado',
+        paragraphs: [
+          'O tratamento começa por medidas que reduzem o refluxo. Perder peso ajuda de forma direta em quem está acima do peso. Parar de fumar melhora os sintomas com frequência. Evitar comer nas três horas antes de dormir e elevar a cabeceira da cama em cerca de 15 centímetros reduz o refluxo noturno, porque a gravidade trabalha a favor. Refeições menores, menos gordura e menos café e álcool completam o ajuste.',
+          'Essas medidas aliviam, mas raramente controlam sozinhas um quadro frequente. Elas são a base sobre a qual o medicamento atua, e não um substituto dele.',
+          'A parte emocional também pede atenção. Quem convive com dor e com medo de comer desenvolve ansiedade, e a ansiedade aumenta a percepção do sintoma. Aprender a lidar com o estresse e, quando indicado, acompanhamento psicológico ajudam a romper esse ciclo e melhoram a resposta ao tratamento.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Remédios para refluxo',
+        paragraphs: [
+          'Os inibidores da bomba de prótons são o tratamento mais eficaz para o refluxo e para a esofagite. Fazem parte do grupo o omeprazol, o esomeprazol, o lansoprazol, o pantoprazol e o rabeprazol. São tomados em jejum, cerca de 30 minutos antes da primeira refeição, e o efeito aparece em poucos dias, embora a cicatrização da mucosa possa levar mais tempo.',
+          'O tratamento inicial costuma durar cerca de oito semanas. Se os sintomas voltam ao suspender, o médico pode manter uma dose menor por mais tempo e reavaliar periodicamente, porque o uso prolongado sem indicação não é desejável. Quem não responde à dose padrão precisa de reavaliação, e não de aumentar o remédio por conta própria.',
+          'Os bloqueadores de histamina-2, como a famotidina, são uma alternativa para sintomas leves e para o refluxo noturno. Os procinéticos, como a metoclopramida, podem ser associados quando o estômago esvazia devagar. Antiácidos e alginatos servem para alívio pontual, não para tratamento contínuo. Nenhum desses remédios deve ser usado de forma indefinida sem acompanhamento.',
+        ],
+        cta: {
+          label: 'Leia também: omeprazol por conta própria',
+          href: '/artigos/refluxo-omeprazol-por-conta-propria/',
+        },
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Quando a cirurgia é indicada',
+        paragraphs: [
+          'A cirurgia antirrefluxo é considerada quando o tratamento medicamentoso controla os sintomas, mas a pessoa não quer ou não consegue manter o remédio por muitos anos, quando há hérnia de hiato grande, refluxo não ácido que causa sintomas, úlcera, sangramento ou esofagite grave. A técnica mais usada é a fundoplicatura por laparoscopia, em que a parte superior do estômago é enrolada ao redor da porção final do esôfago para reforçar a barreira.',
+          'A fundoplicatura tem eficácia parecida com o tratamento medicamentoso contínuo, mas não é isenta de efeitos. Dificuldade para engolir e sensação de estufamento depois das refeições são as queixas mais comuns no pós-operatório. A decisão é sempre individual e depende de conversa com o gastroenterologista e o cirurgião.',
+          'O estreitamento do esôfago causado por refluxo é tratado com dilatações repetidas por balão ou bougie. As técnicas endoscópicas antirrefluxo existem como alternativa, mas têm seguimento de longo prazo menor que a cirurgia clássica e são reservadas para casos selecionados.',
+        ],
+      },
+      {
+        id: 'prognose',
+        heading: 'Qual é o prognóstico',
+        paragraphs: [
+          'A DRGE é crônica e costuma ir e voltar. Com tratamento correto, a maioria das pessoas controla bem a azia e a regurgitação, e a inflamação do esôfago cicatriza. Quando o remédio é suspenso sem planejamento, os sintomas frequentemente retornam, o que não significa que o tratamento falhou, mas que a doença continua ativa.',
+          'O que muda o prognóstico é o acompanhamento. Quem trata, ajusta hábitos e comparece às reavaliações reduz complicações. Quem convive com azia diária por anos sem avaliação corre o risco de descobrir lesão quando ela já está avançada.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer',
+        paragraphs: [
+          'O ácido que sobe repetidamente inflama a mucosa do esôfago e pode causar esofagite, úlcera e sangramento. Sangramento crônico e discreto leva a anemia sem que a pessoa perceba. A cicatrização repetida também forma tecido fibroso, que estreita a luz do esôfago e dificulta a passagem do alimento.',
+          'A complicação mais temida é o esôfago de Barrett, em que as células da parte final do esôfago mudam de aspecto por causa da irritação constante. Essas células são pré-cancerosas e podem, em uma minoria dos casos, evoluir para adenocarcinoma de esôfago. Quem tem Barrett entra em programa de vigilância com endoscopia periódica, e o intervalo é definido pelo gastroenterologista conforme o grau das alterações.',
+        ],
+        cta: {
+          label: 'Leia também: Barrett e risco de câncer',
+          href: '/artigos/refluxo-barrett-e-risco-de-cancer/',
+        },
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'Ajustar a rotina rende mais que qualquer remédio isolado. Faça refeições menores e mais frequentes, não se deite nas duas a três horas seguintes a comer e evite roupas apertadas na cintura. Elevar a cabeceira da cama com blocos ou cunha, e não apenas com travesseiros, mantém o tórax mais alto durante a noite. Tratar a prisão de ventre também ajuda, porque o esforço para evacuar aumenta a pressão abdominal.',
+          'Vale anotar os sintomas e o que os desencadeia por algumas semanas. Esse registro mostra quais alimentos pesam mais no seu caso, já que a lista de gatilhos varia de pessoa para pessoa, e ajuda o médico a ajustar o tratamento.',
+          'Voltar ao serviço se os sintomas piorarem, se aparecer dificuldade para engolir ou se o remédio parar de fazer efeito é parte do cuidado. Quem tem Barrett não deve pular as endoscopias de controle.',
+        ],
+        cta: {
+          label: 'Leia também: alimentos que pioram a azia',
+          href: '/artigos/refluxo-alimentos-que-pioram-a-azia/',
+        },
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o refluxo',
+        paragraphs: [
+          'Manter o peso na faixa saudável é a medida isolada de maior impacto, porque a gordura abdominal empurra o estômago para cima e aumenta o refluxo. Não fumar, moderar o álcool e evitar refeições volumosas à noite completam o básico.',
+          'Na mesa, vale observar o próprio corpo: café, chocolate, frituras, bebidas gaseificadas e temperos fortes incomodam algumas pessoas e não outras. Reduzir o que comprovadamente piora os seus sintomas é mais útil que cortar tudo por precaução. Tratar cedo e manter o acompanhamento evita que o refluxo chegue às complicações.',
+        ],
+        cta: {
+          label: 'Leia também: como dormir melhor com azia',
+          href: '/artigos/refluxo-como-dormir-melhor-com-azia/',
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Refluxo tem cura?',
+        answer:
+          'Na maioria dos casos, não existe cura, e sim controle. Com tratamento e ajustes de hábito, os sintomas ficam sob controle e a inflamação do esôfago cicatriza, mas o quadro pode voltar se o tratamento for interrompido.',
+      },
+      {
+        question: 'Quem tem refluxo pode tomar café?',
+        answer:
+          'Depende da pessoa. O café relaxa o esfíncter em algumas pessoas e não faz diferença em outras. Se a azia piora depois do café, vale reduzir ou testar sem ele por algumas semanas.',
+      },
+      {
+        question: 'Refluxo pode virar câncer?',
+        answer:
+          'O refluxo em si não é câncer. O risco aparece quando ele causa esôfago de Barrett, uma alteração das células do esôfago que pode evoluir para câncer em uma minoria dos casos. Por isso, quem tem refluxo frequente e sinais de alarme precisa de endoscopia.',
+      },
+      {
+        question: 'Precisa fazer endoscopia sempre?',
+        answer:
+          'Não. Em quem tem azia típica, sem sinais de alarme e com boa resposta ao tratamento, o exame pode não ser necessário no início. A endoscopia é indicada quando há dificuldade para engolir, perda de peso, sangramento, anemia ou quando o tratamento não funciona.',
+      },
+      {
+        question: 'Bebê que golfa muito tem refluxo?',
+        answer:
+          'O refluxo é comum e costuma ser normal nos primeiros meses, porque o esfíncter do bebê ainda está amadurecendo. Vômitos frequentes com perda de peso, recusa alimentar, choro intenso ou engasgos precisam de avaliação pediátrica.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'refluxo-dor-no-peito-refluxo-ou-infarto',
+      'refluxo-omeprazol-por-conta-propria',
+      'refluxo-alimentos-que-pioram-a-azia',
+      'refluxo-como-dormir-melhor-com-azia',
+      'refluxo-barrett-e-risco-de-cancer',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['ulcera-peptica', 'infeccao-por-helicobacter-pylori', 'obesidade', 'espondilose-lombar'],
+    references: [
+      {
+        label: 'Doença do refluxo gastroesofágico (DRGE) — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/dist%C3%BArbios-esof%C3%A1gicos-e-de-degluti%C3%A7%C3%A3o/doen%C3%A7a-do-refluxo-gastroesof%C3%A1gico-drge',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+      {
+        label: 'Exames relacionados ao ácido e ao refluxo — Manual MSD, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-digestivos/diagn%C3%B3stico-de-dist%C3%BArbios-digestivos/exames-relacionados-ao-%C3%A1cido-e-ao-refluxo',
+        publisher: 'Manual MSD Versão Saúde para a Família',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-27',
+    updatedAt: '2026-10-27',
+    isPlaceholder: true,
+  },
 ];
