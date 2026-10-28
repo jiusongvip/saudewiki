@@ -38,6 +38,30 @@ export interface SiteImage {
  * so the file is the same in both languages and only the `alt` changes.
  */
 export const diseaseImages: Record<string, SiteImage> = {
+  'cancer-de-estomago': {
+    src: '/img/doenca-cancer-de-estomago.webp',
+    alt: 'Ilustração médica de um estômago aberto em corte, com a mucosa e um tumor ulcerado na parede interna, com recorte da endoscopia digestiva e detalhe do exame do abdome, e quatro ícones de falta de apetite, dor no abdome, azia e perda de peso',
+  },
+  'leucemia-linfoblastica-aguda': {
+    src: '/img/doenca-leucemia-linfoblastica-aguda.webp',
+    alt: 'Ilustração médica de um osso longo aberto em corte, com a medula óssea cheia de linfoblastos, com recorte da coleta de sangue e detalhe da lâmina no microscópio, e quatro ícones de cansaço, palidez, febre e sangramentos',
+  },
+  'cancer-de-mama': {
+    src: '/img/doenca-cancer-de-mama.webp',
+    alt: 'Ilustração médica de uma mama em corte, com a glândula mamária, os ductos e um nódulo endurecido; ao lado, uma fotografia de uma mulher em pé junto ao aparelho de mamografia, com o peito posicionado entre as placas; abaixo, quatro ícones circulares de nódulo, secreção, retração e linfonodo',
+  },
+  'cancer-de-prostata': {
+    src: '/img/doenca-cancer-de-prostata.webp',
+    alt: 'Ilustração médica da pelve masculina em corte, com a bexiga, a próstata e a uretra e um nódulo dentro da próstata; ao lado, uma fotografia de uma coleta de sangue no braço do paciente, com o garrote e o tubo do exame; abaixo, quatro ícones de jato fraco, urinar muito, hematúria e dor óssea',
+  },
+  'cancer-de-pulmao': {
+    src: '/img/doenca-cancer-de-pulmao.webp',
+    alt: 'Ilustração médica de um pulmão em corte, com os brônquios e um tumor na região central; ao lado, uma fotografia de um médico auscultando as costas do paciente com o estetoscópio; abaixo, quatro ícones de tosse, falta de ar, dor no peito e rouquidão',
+  },
+  'cancer-colorretal': {
+    src: '/img/doenca-cancer-colorretal.webp',
+    alt: 'Ilustração médica de um trecho do intestino grosso aberto, com a mucosa e um tumor na parede; ao lado, uma fotografia de uma colonoscopia, com o paciente deitado na maca e mãos enluvadas segurando o tubo do aparelho; abaixo, quatro ícones de sangue, diarreia, cansaço e anemia',
+  },
   dengue: {
     src: '/img/doenca-dengue.webp',
     alt: 'Ilustração médica de um Aedes aegypti cravado na pele e liberando o vírus na corrente sanguínea, com recorte de um cotovelo coberto de manchas e quatro ícones circulares de febre alta, manchas, sangramento e dor muscular',
@@ -328,11 +352,47 @@ export const diseaseImages: Record<string, SiteImage> = {
   },
   osteoporose: {
     src: '/img/doenca-osteoporose.webp',
-    alt: 'Ilustração médica de um osso longo aberto em corte, com o interior esponjoso esburacado e traves ósseas quebradas, com recorte de um raio X da coluna, e quatro ícones de dor lombar, coluna curva, altura menor e fraturas',
+    alt: 'Ilustração médica de um osso longo aberto em corte, com o interior esponjoso esburacado e traves ósseas quebradas; ao lado, uma fotografia de uma perna e um pé apoiados no suporte do aparelho de densitometria óssea, com mãos enluvadas ajustando a tira no tornozelo; abaixo, quatro ícones de dor lombar, coluna curva, altura menor e fraturas',
   },
   'doenca-do-refluxo-gastroesofagico': {
     src: '/img/doenca-doenca-do-refluxo-gastroesofagico.webp',
-    alt: 'Ilustração médica do esôfago e do estômago em corte, com o esfíncter aberto e gotas de suco gástrico subindo pelo esôfago, com recorte de uma endoscopia, e quatro ícones de azia, refluxo, tosse e rouquidão',
+    alt: 'Ilustração médica do esôfago e do estômago em corte, com o esfíncter aberto e gotas de suco gástrico subindo pelo esôfago; ao lado, uma fotografia de mãos apoiadas sobre a parte alta do abdome durante o exame; abaixo, quatro ícones de azia, refluxo, tosse e rouquidão',
+  },
+  toxoplasmose: {
+    src: '/img/doenca-toxoplasmose.webp',
+    alt: 'Ilustração médica de um olho em corte, com a retina, a coroide e um cisto com parasitas na parede interna; ao lado, uma fotografia de uma gestante com as mãos sobre a barriga e outra de uma pá cheia de areia de gato; abaixo, quatro ícones de gânglios inchados, visão turva, febre e cansaço',
+  },
+  clamidia: {
+    src: '/img/doenca-clamidia.webp',
+    alt: 'Ilustração médica do aparelho reprodutor feminino em corte, com o útero, as trompas e os ovários e a área inflamada marcada na parede do útero; ao lado, uma fotografia de mãos enluvadas segurando o copo da coleta de urina e outra de um preservativo fora da embalagem; abaixo, quatro ícones de corrimento, ardor ao urinar, dor pélvica e ausência de sintomas',
+  },
+  hpv: {
+    src: '/img/doenca-hpv.webp',
+    alt: 'Ilustração médica de um corte da pele, com a epiderme, uma verruga saliente e partículas do vírus na base da lesão; ao lado, uma fotografia da vacina aplicada no braço e outra da coleta com swab para o teste de HPV; abaixo, quatro ícones de verruga, coceira, sangramento e ausência de sintomas',
+  },
+  hipertireoidismo: {
+    src: '/img/doenca-hipertireoidismo.webp',
+    alt: 'Ilustração médica da tireoide em corte sobre a traqueia, com os folículos cheios de coloide e a glândula aumentada; ao lado, uma fotografia de mãos apalpando o pescoço e outra da coleta de sangue para a dosagem de TSH; abaixo, quatro ícones de palpitação, tremor, calor e perda de peso',
+  },
+  'calculo-renal': {
+    src: '/img/doenca-calculo-renal.webp',
+    alt: 'Ilustração médica de um rim em corte, com os cálices, o ureter e um cálculo alojado na pelve renal; ao lado, uma fotografia de uma pessoa com a mão na lombar e outra do transdutor do ultrassom apoiado no flanco; abaixo, quatro ícones de dor em cólica, sangue na urina, náusea e vontade de urinar',
+  },
+  'trombose-venosa-profunda': {
+    src: '/img/doenca-trombose-venosa-profunda.webp',
+    alt: 'Ilustração médica de uma veia profunda aberta em corte, com as hemácias e um coágulo preso à parede do vaso; ao lado, uma fotografia de uma perna inchada sendo medida com fita métrica e outra do transdutor do ultrassom apoiado na panturrilha; abaixo, quatro ícones de inchaço, dor, calor e vermelhidão',
+  },
+  'hiperplasia-prostatica-benigna': {
+    src: '/img/doenca-hiperplasia-prostatica-benigna.webp',
+    alt: 'Ilustração médica de uma próstata em corte, com o lobo aumentado estreitando a uretra; ao lado, uma fotografia do transdutor do ultrassom apoiado no abdome e outra de um frasco de exame de urina na mão; abaixo, quatro ícones de urinar muito, noctúria, jato fraco e urgência',
+  },
+  'lupus-eritematoso-sistemico': {
+    src: '/img/doenca-lupus-eritematoso-sistemico.webp',
+    alt: 'Ilustração médica de um corte da pele, com a epiderme, uma área de inflamação e anticorpos em forma de Y no tecido; ao lado, uma fotografia da mancha avermelhada no rosto e outra da coleta de sangue no braço; abaixo, quatro ícones de cansaço, dor nas juntas, manchas e febre',
+  },
+  'doenca-de-alzheimer': {
+    src: '/img/doenca-doenca-de-alzheimer.webp',
+    alt: 'Ilustração médica de um cérebro em corte, com o córtex, o hipocampo e placas de amiloide; ao lado, uma fotografia de um teste cognitivo feito com papel e caneta; abaixo, quatro ícones de esquecimento, repetição, confusão e agitação',
   },
 };
 
@@ -1173,6 +1233,54 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-refluxo-barrett-e-risco-de-cancer.webp',
     alt: 'Médica de jaleco branco conversando com um paciente idoso em um consultório',
   },
+  'trombose-venosa-profunda-perna-inchada-e-emergencia': {
+    src: '/img/artigo-trombose-venosa-profunda-perna-inchada-e-emergencia.webp',
+    alt: 'Pessoa deitada em maca hospitalar com a perna estendida e um curativo na panturrilha',
+  },
+  'trombose-venosa-profunda-quando-o-risco-aumenta': {
+    src: '/img/artigo-trombose-venosa-profunda-quando-o-risco-aumenta.webp',
+    alt: 'Passageiros sentados em poltronas de avião durante a viagem',
+  },
+  'lupus-eritematoso-sistemico-gravidez': {
+    src: '/img/artigo-lupus-eritematoso-sistemico-gravidez.webp',
+    alt: 'Gestante de vestido terracota com a mão apoiada na barriga, em pé ao ar livre',
+  },
+  'lupus-eritematoso-sistemico-tratamento-e-medicamentos': {
+    src: '/img/artigo-lupus-eritematoso-sistemico-tratamento-e-medicamentos.webp',
+    alt: 'Cartelas de comprimidos e cápsulas sobre uma mesa de madeira',
+  },
+  'lupus-eritematoso-sistemico-primeiros-sinais': {
+    src: '/img/artigo-lupus-eritematoso-sistemico-primeiros-sinais.webp',
+    alt: 'Pessoa de camiseta roxa pressionando o punho com a outra mão',
+  },
+  'lupus-eritematoso-sistemico-sem-mancha-no-rosto': {
+    src: '/img/artigo-lupus-eritematoso-sistemico-sem-mancha-no-rosto.webp',
+    alt: 'Rosto de mulher em close, olhando para o lado',
+  },
+  'lupus-eritematoso-sistemico-nao-e-contagioso': {
+    src: '/img/artigo-lupus-eritematoso-sistemico-nao-e-contagioso.webp',
+    alt: 'Duas mulheres conversando de perto ao ar livre',
+  },
+  'hiperplasia-prostatica-benigna-quando-a-urina-nao-sai': {
+    src: '/img/artigo-hiperplasia-prostatica-benigna-quando-a-urina-nao-sai.webp',
+    alt: 'Homem idoso de avental hospitalar com cateter nasal, sentado na cama',
+  },
+  'hiperplasia-prostatica-benigna-cirurgia-rtu': {
+    src: '/img/artigo-hiperplasia-prostatica-benigna-cirurgia-rtu.webp',
+    alt: 'Cirurgião de avental estéril e luvas em sala de operação',
+  },
+  'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia': {
+    src: '/img/artigo-hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia.webp',
+    alt: 'Casal de idosos sentados juntos, o homem sorrindo e a mulher inclinada na direção dele',
+  },
+  'hiperplasia-prostatica-benigna-tem-cura': {
+    src: '/img/artigo-hiperplasia-prostatica-benigna-tem-cura.webp',
+    alt: 'Médica de estetoscópio conversando com um paciente idoso em um consultório',
+  },
+  'hiperplasia-prostatica-benigna-nodulo-e-calcificacao': {
+    src: '/img/artigo-hiperplasia-prostatica-benigna-nodulo-e-calcificacao.webp',
+    alt: 'Médico fazendo ultrassonografia em uma paciente deitada na maca, com o monitor ao lado',
+  },
 };
 
 export const topicImages: Record<string, SiteImage> = {
@@ -1199,13 +1307,14 @@ export const topicImages: Record<string, SiteImage> = {
 };
 
 /**
- * Article photographs that are covered too: the two taken inside an operating
+ * Article photographs that are covered too: the ones taken inside an operating
  * room. Everything else in `articleImages` is a room, a hand, a plate of food or
  * a test tube, and is shown as it is.
  */
 const surgicalArticleImages = new Set([
   'catarata-tratamento-e-cirurgia',
   'insuficiencia-cardiaca-transplante-cardiaco',
+  'hiperplasia-prostatica-benigna-cirurgia-rtu',
 ]);
 
 /**

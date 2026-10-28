@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "allowedHosts": [
     "gov.br",
     "saude.gov.br",
@@ -129,6 +129,34 @@
         "Vírus permanece latente e pode reativar como herpes-zóster"
       ],
       "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
+      "id": "about-chlamydia",
+      "label": "About Chlamydia",
+      "url": "https://www.cdc.gov/chlamydia/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "clamídia",
+        "IST"
+      ],
+      "diseases": [
+        "clamidia"
+      ],
+      "supports": [
+        "Clamídia costuma não causar sintomas, mas pode provocar dano permanente ao sistema reprodutor feminino",
+        "Pode causar gravidez ectópica potencialmente fatal e infertilidade",
+        "Sintomas podem surgir semanas após a relação sexual com parceria infectada",
+        "Infecção retal pode causar dor, corrimento e sangramento",
+        "Tratamento correto cura a infecção, mas não desfaz danos permanentes já causados",
+        "Recomenda-se repetir o teste cerca de três meses após o tratamento",
+        "Não ter relações até que a pessoa e as parcerias completem o tratamento; com dose única, aguardar sete dias",
+        "Clamídia não tratada pode causar doença inflamatória pélvica, com aderências, gravidez ectópica, infertilidade e dor pélvica crônica",
+        "Clamídia não tratada aumenta o risco de adquirir ou transmitir HIV"
+      ],
+      "verifiedAt": "2026-10-28",
       "status": "verified"
     },
     {
@@ -299,6 +327,58 @@
       "status": "verified"
     },
     {
+      "id": "about-toxoplasmosis",
+      "label": "About Toxoplasmosis",
+      "url": "https://www.cdc.gov/toxoplasmosis/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "toxoplasmose"
+      ],
+      "diseases": [
+        "toxoplasmose"
+      ],
+      "supports": [
+        "A maioria das pessoas com imunidade saudável não tem sintomas; quando presentes, são semelhantes a gripe, com gânglios inchados e dores musculares",
+        "Toxoplasmose grave pode lesar cérebro, olhos ou outros órgãos",
+        "Bebês infectados na gestação costumam nascer sem sintomas e podem desenvolver manifestações mais tarde",
+        "Transmissão por alimentos contaminados, contato com fezes de gato ou solo contaminado, via congênita e, raramente, transplante ou transfusão",
+        "Prevenção: cozinhar carne até a temperatura segura, lavar frutas e verduras em água corrente, usar luvas em jardinagem e trocar a caixa de areia do gato diariamente",
+        "A maioria das pessoas com imunidade saudável não precisa de tratamento e os sintomas costumam desaparecer em poucas semanas"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
+      "id": "about-venous-thromboembolism-blood-clots",
+      "label": "About Venous Thromboembolism (Blood Clots)",
+      "url": "https://www.cdc.gov/blood-clots/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "trombose",
+        "embolia pulmonar",
+        "coágulo"
+      ],
+      "diseases": [
+        "trombose-venosa-profunda"
+      ],
+      "supports": [
+        "VTE inclui trombose venosa profunda e embolia pulmonar",
+        "Cerca de metade das pessoas com TVP não tem sintomas",
+        "Sintomas de TVP: inchaço, dor, calor, vermelhidão",
+        "Sintomas de embolia pulmonar: falta de ar, taquicardia, dor no peito, tosse com sangue, desmaio",
+        "Um terço a metade desenvolve síndrome pós-trombótica",
+        "Cerca de 30% têm novo episódio",
+        "Prevenção: movimentar-se, meias de compressão, anticoagulantes, levantar a cada 1 a 2 horas em viagens acima de 4 horas",
+        "Tratamento: medicamentos, meias de compressão por 2 anos ou mais, remoção cirúrgica em casos graves"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "about-whipworms",
       "label": "About Whipworms",
       "url": "https://www.cdc.gov/sth/about/whipworms.html",
@@ -343,6 +423,25 @@
         "成年人盐摄入应限制在每天 5 克以下（即钠每天 2 克）"
       ],
       "verifiedAt": "2026-10-20",
+      "status": "verified"
+    },
+    {
+      "id": "alzheimer",
+      "label": "Alzheimer",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer",
+      "publisher": "Ministério da Saúde",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "doenca-de-alzheimer"
+      ],
+      "supports": [
+        "MS：Alzheimer 词条页，支撑定义、分期、危险因素、诊断（排除法、甲状腺与 B12）、SUS 用药（多奈哌齐/加兰他敏/利斯的明/美金刚）与 CEAF 取药流程、生存期 8–10 年、预防建议"
+      ],
+      "verifiedAt": "2026-10-28",
       "status": "verified"
     },
     {
@@ -713,6 +812,36 @@
       "status": "verified"
     },
     {
+      "id": "calculos-no-trato-urinario-versao-saude-para-a-familia",
+      "label": "Cálculos no trato urinário, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/doen%C3%A7as-do-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "litíase renal",
+        "cálculo renal"
+      ],
+      "diseases": [
+        "calculo-renal"
+      ],
+      "supports": [
+        "Cálculos de cálcio respondem por cerca de 85% dos casos; também há cálculos de ácido úrico, cistina e estruvita",
+        "Cólica renal: dor intensa entre o flanco e a virilha, em ondas, que costuma ceder em 20 a 60 minutos",
+        "Sintomas associados: náusea, vômito, agitação, sudorese e sangue na urina",
+        "Tomografia é o melhor exame; ultrassom é alternativa sem radiação",
+        "Cálculos maiores que 5 mm têm menor chance de eliminação espontânea",
+        "Analgésicos anti-inflamatórios tratam a dor; alfa-bloqueadores como tansulosina podem ajudar a eliminar o cálculo",
+        "Litotripsia por ondas de choque é indicada para cálculos de até 1 cm na pelve renal ou ureter superior",
+        "Ureteroscopia e nefrolitotomia percutânea são opções para cálculos maiores ou impactados",
+        "Recomenda-se ingestão de 8 a 10 copos de água por dia, com meta de volume urinário acima de 2 litros",
+        "Ingestão de cálcio não deve ser restringida: cerca de 1.000 a 1.500 mg por dia; ingestão baixa aumenta o risco",
+        "Após o primeiro cálculo de cálcio, recidiva em cerca de 11% em dois anos e 39% em 15 anos"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "calendario-nacional-de-vacinacao",
       "label": "Calendário Nacional de Vacinação",
       "url": "https://www.gov.br/saude/pt-br/vacinacao",
@@ -770,6 +899,76 @@
       "status": "verified"
     },
     {
+      "id": "cancer-de-estomago-versao-para-populacao",
+      "label": "Câncer de estômago, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/estomago/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "estômago",
+        "rastreamento"
+      ],
+      "diseases": [
+        "cancer-de-estomago"
+      ],
+      "supports": [
+        "Estimativa de 22.530 casos novos por ano no triênio 2026-2028, sendo 13.830 homens e 8.700 mulheres",
+        "14.917 mortes por câncer de estômago (SIM 2024)",
+        "Fatores de risco: excesso de gordura corporal, álcool, sal, tabagismo, nitrato na água, H. pylori, gastrite atrófica e metaplasia intestinal, história familiar, exposições ocupacionais",
+        "Sinais e sintomas: perda de peso, falta de apetite, cansaço, sensação de estômago cheio, náusea, vômito, dor no alto do abdome, vômito com sangue e fezes escuras",
+        "Rastreamento do câncer de estômago não é recomendado",
+        "Endoscopia digestiva alta com biópsia é o principal exame; tomografia e ultrassonografia endoscópica completam o estadiamento",
+        "Tratamento: cirurgia quando localizado, com quimioterapia antes e/ou depois; paliativo na doença avançada",
+        "Acompanhamento: consultas a cada 3 meses até 2 anos, a cada 6 meses do 3º ao 5º ano e anuais depois de 5 anos"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-mama-saude-de-a-a-z",
+      "label": "Câncer de mama, saúde de A a Z",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-mama",
+      "publisher": "Ministério da Saúde",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "cancer-de-mama"
+      ],
+      "supports": [
+        "Sinais e sintomas do câncer de mama",
+        "Fatores de risco e prevenção"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-mama-versao-para-populacao",
+      "label": "Câncer de mama, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/mama/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "cancer",
+        "rastreamento"
+      ],
+      "diseases": [
+        "cancer-de-mama"
+      ],
+      "supports": [
+        "Estimativa de 78.610 casos novos por ano no triênio 2026-2028",
+        "20.849 mortes por câncer de mama (SIM 2024)",
+        "Mamografia de rastreamento dos 50 aos 74 anos, a cada dois anos",
+        "Cerca de 17% dos casos podem ser evitados com hábitos saudáveis",
+        "Confirmação diagnóstica apenas por biópsia"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "cancer-de-pele-melanoma-versao-para-populacao",
       "label": "Câncer de pele melanoma, versão para população",
       "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pele-melanoma/versao-para-populacao",
@@ -821,6 +1020,74 @@
       "status": "verified"
     },
     {
+      "id": "cancer-de-prostata-saude-de-a-a-z",
+      "label": "Câncer de próstata, saúde de A a Z",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata",
+      "publisher": "Ministério da Saúde",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [],
+      "diseases": [
+        "cancer-de-prostata"
+      ],
+      "supports": [
+        "Ministério da Saúde e OMS não recomendam rastreamento do câncer de próstata",
+        "Nove em cada dez homens diagnosticados têm mais de 55 anos",
+        "Todas as modalidades de tratamento são oferecidas de forma integral e gratuita pelo SUS",
+        "Hiperplasia benigna afeta mais da metade dos homens acima de 50 anos"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-prostata-versao-para-populacao",
+      "label": "Câncer de próstata, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "cancer",
+        "rastreamento"
+      ],
+      "diseases": [
+        "cancer-de-prostata"
+      ],
+      "supports": [
+        "Estimativa de 77.920 casos novos por ano no triênio 2026-2028",
+        "17.826 mortes por câncer de próstata (SIM 2024)",
+        "INCA não recomenda rastreamento populacional",
+        "Diagnóstico por biópsia guiada por ultrassom ou ressonância",
+        "Acompanhamento com PSA a cada 3 ou 6 meses"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-pulmao-versao-para-populacao",
+      "label": "Câncer de pulmão, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pulmao/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "cancer",
+        "tabagismo"
+      ],
+      "diseases": [
+        "cancer-de-pulmao"
+      ],
+      "supports": [
+        "Estimativa de 35.380 casos novos por ano no triênio 2026-2028",
+        "32.555 mortes por câncer de traqueia, brônquios e pulmão (SIM 2024)",
+        "Tabagismo é a principal causa",
+        "Rastreamento populacional não é recomendado",
+        "Cerca de 15% dos casos são operáveis no diagnóstico"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "cancer-do-colo-do-utero-versao-para-populacao",
       "label": "Câncer do colo do útero, versão para população",
       "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao",
@@ -844,6 +1111,30 @@
       "status": "verified"
     },
     {
+      "id": "cancer-do-intestino-versao-para-populacao",
+      "label": "Câncer do intestino, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "cancer",
+        "rastreamento"
+      ],
+      "diseases": [
+        "cancer-colorretal"
+      ],
+      "supports": [
+        "Estimativa de 45.630 casos novos por ano",
+        "26.180 mortes por câncer de cólon e reto (SIM 2024)",
+        "Carne processada e carne vermelha acima de 500 g por semana aumentam o risco",
+        "Rastreamento por sangue oculto nas fezes segundo a OMS",
+        "Cirurgia é o principal tratamento"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "cancer-fact-sheet",
       "label": "Cancer: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
@@ -858,6 +1149,26 @@
         "WHO：Cancer: fact sheet，支撑皮肤癌词条的全球流行病学与防控要点"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-saude-de-a-a-z",
+      "label": "Câncer, saúde de A a Z",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer",
+      "publisher": "Ministério da Saúde",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "cancer",
+        "rastreamento"
+      ],
+      "diseases": [],
+      "supports": [
+        "No Brasil, apenas mama e colo do útero têm indicação de rastreamento",
+        "Diagnóstico precoce e rastreamento são estratégias distintas",
+        "Mais de 100 tipos de câncer"
+      ],
+      "verifiedAt": "2026-10-28",
       "status": "verified"
     },
     {
@@ -997,6 +1308,29 @@
       "status": "imported"
     },
     {
+      "id": "childhood-cancer",
+      "label": "Childhood cancer",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/cancer-in-children",
+      "publisher": "World Health Organization (WHO)",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "infância"
+      ],
+      "diseases": [
+        "leucemia-linfoblastica-aguda"
+      ],
+      "supports": [
+        "Cerca de 400 mil crianças e adolescentes de 0 a 19 anos desenvolvem câncer por ano",
+        "Leucemias, tumores do sistema nervoso central e outros tumores sólidos estão entre os tipos mais comuns na infância",
+        "Mais de 80% das crianças com câncer se curam em países de alta renda e menos de 30% na maioria dos países de baixa e média renda",
+        "A maioria dos cânceres infantis não tem causa conhecida e o rastreamento não é útil"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "chronic-obstructive-pulmonary-disease-copd-fact-sheet",
       "label": "Chronic obstructive pulmonary disease (COPD): fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)",
@@ -1024,6 +1358,34 @@
         "MSD 家庭/专业版：Cirrose hepática, versão saúde para a família，支撑肝硬化词条的病因、症状、诊断或治疗事实"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "clamidia",
+      "label": "Clamídia",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/clamidia",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "IST",
+        "clamídia"
+      ],
+      "diseases": [
+        "clamidia"
+      ],
+      "supports": [
+        "Clamídia é uma IST que acomete principalmente os órgãos genitais e pode afetar garganta e olhos",
+        "Transmissão por contato sexual anal, oral ou vaginal e por via congênita; não é transmitida por transfusão",
+        "Cerca de 70% a 80% dos casos não apresentam sintomas",
+        "Sintomas nas mulheres: corrimento amarelado ou claro, sangramento espontâneo ou na relação, dor ao urinar e dor pélvica",
+        "Sintomas nos homens: ardência ao urinar, corrimento uretral com pus e dor nos testículos",
+        "Complicações: infertilidade, dor pélvica crônica, gravidez tubária e complicações na gestação",
+        "Na gravidez pode causar aborto espontâneo, endometrite, parto precoce e conjuntivite neonatal",
+        "Tratamento com azitromicina ou doxiciclina, com tratamento das parcerias sexuais",
+        "Diagnóstico e tratamento gratuitos no SUS"
+      ],
+      "verifiedAt": "2026-10-28",
       "status": "verified"
     },
     {
@@ -1250,6 +1612,25 @@
       "status": "imported"
     },
     {
+      "id": "dementia",
+      "label": "Dementia",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "en",
+      "topics": [
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "doenca-de-alzheimer"
+      ],
+      "supports": [
+        "WHO：痴呆事实清单（2026-10-26 更新），支撑全球 5700 万患者、每年约 1000 万新发、阿尔茨海默占 60–70%、危险因素与风险降低建议、照护者支持、女性承担 70% 照护时长"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "dengue-and-severe-dengue-fact-sheet",
       "label": "Dengue and severe dengue: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
@@ -1374,6 +1755,25 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "diagnostico-da-doenca-de-alzheimer-recomendacoes-do-departamento-cientifico-de-neurologia-cognitiva-e-do-envelhecimento-da-academia-brasileira-de-neurologia",
+      "label": "Diagnóstico da doença de Alzheimer: recomendações do Departamento Científico de Neurologia Cognitiva e do Envelhecimento da Academia Brasileira de Neurologia",
+      "url": "https://www.scielo.br/j/dn/a/S1980-57642022000400025/?lang=pt",
+      "publisher": "Dementia & Neuropsychologia (Academia Brasileira de Neurologia)",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "doenca-de-alzheimer"
+      ],
+      "supports": [
+        "ABN 2022 诊断建议：巴西约 170 万痴呆老人、诊断流程分层（初/二/三级）、MEEM 与 MoCA、四认知域各两测验、化验（TSH、B12、VDRL、HIV）、MRI 首选与 CT 适用场景、脑脊液与 PET 生物标志物指征、血液标志物展望、鉴别诊断排除项、生存期 5–12 年"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
     },
     {
       "id": "diarreia-e-desidratacao",
@@ -2243,6 +2643,35 @@
       "status": "verified"
     },
     {
+      "id": "hipertireoidismo-versao-saude-para-a-familia",
+      "label": "Hipertireoidismo, versão saúde para a família",
+      "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipertireoidismo",
+      "publisher": "Manual MSD",
+      "host": "www.msdmanuals.com",
+      "lang": "pt",
+      "topics": [
+        "tireoide",
+        "hipertireoidismo"
+      ],
+      "diseases": [
+        "hipertireoidismo"
+      ],
+      "supports": [
+        "Hipertireoidismo afeta cerca de 1% da população e é mais comum em mulheres de 20 a 50 anos",
+        "Graves é a causa mais comum, seguida de bócio multinodular tóxico, nódulo tóxico e tireoidites",
+        "Sintomas: palpitação, sudorese, intolerância ao calor, tremor, perda de peso com apetite aumentado, evacuações frequentes e bócio",
+        "Idosos podem ter forma apática, com fraqueza, confusão, fibrilação atrial e insuficiência cardíaca",
+        "Oftalmopatia de Graves cursa com olhos secos, lacrimejamento, fotofobia, exoftalmia e diplopia",
+        "Tratamento: betabloqueador para sintomas, metimazol como primeira escolha, propiltiouracil associado a lesão hepática",
+        "Iodo radioativo destrói parte da tireoide e costuma levar a hipotireoidismo permanente; contraindicado na gestação e amamentação",
+        "Após iodo radioativo, recomenda-se contracepção por cerca de 6 a 12 meses",
+        "Cirurgia controla mais de 90% dos casos e pode causar hipotireoidismo permanente, paralisia de corda vocal e lesão de paratireoide",
+        "Tempestade tireoidiana é emergência com risco de vida"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "hipotireoidismo",
       "label": "Hipotireoidismo",
       "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipotireoidismo",
@@ -2771,6 +3200,54 @@
       "status": "verified"
     },
     {
+      "id": "leucemia",
+      "label": "Leucemia",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/leucemia",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "leucemia"
+      ],
+      "diseases": [
+        "leucemia-linfoblastica-aguda"
+      ],
+      "supports": [
+        "Definição: câncer das células sanguíneas da medula óssea, em sua maioria glóbulos brancos, geralmente de origem desconhecida",
+        "Classificação em aguda ou crônica e em linfoide ou mieloide",
+        "Leucemia linfoide aguda é mais comum em crianças e tem desenvolvimento rápido"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
+      "id": "leucemia-versao-para-populacao",
+      "label": "Leucemia, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/leucemia/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "leucemia"
+      ],
+      "diseases": [
+        "leucemia-linfoblastica-aguda"
+      ],
+      "supports": [
+        "Estimativa de 12.220 casos novos de leucemia por ano no triênio 2026-2028 e 7.817 mortes (SIM 2024)",
+        "Radiação ionizante e benzeno são os fatores ambientais comprovadamente associados à leucemia aguda",
+        "Sintomas: anemia, infecções, sangramentos, gânglios inchados, febre, perda de peso, dor óssea e comprometimento do sistema nervoso central",
+        "Diagnóstico por hemograma e mielograma com citologia, citogenética, biologia molecular e imunofenotipagem",
+        "LLA é o tipo mais comum em crianças pequenas e também ocorre em adultos",
+        "Tratamento da LLA em três fases: indução de remissão, consolidação e manutenção, com duração de mais de dois anos",
+        "Rastreamento de leucemia não é recomendado"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "linha-de-cuidados-em-avc-na-rede-de-atencao-as-urgencias-e-emergencias",
       "label": "Linha de cuidados em AVC na rede de atenção às urgências e emergências",
       "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt-cuidados-avc.pdf",
@@ -2802,6 +3279,61 @@
         "Recomenda-se manter atividade e evitar repouso prolongado"
       ],
       "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "lupus",
+      "label": "Lúpus",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lupus",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "lúpus",
+        "doença autoimune"
+      ],
+      "diseases": [
+        "lupus-eritematoso-sistemico"
+      ],
+      "supports": [
+        "Lúpus é doença inflamatória autoimune que pode afetar pele, articulações, rins e cérebro",
+        "Formas: discoide, sistêmico, induzido por drogas e neonatal",
+        "Gatilhos: luz solar, infecções, medicamentos",
+        "Mais comum em mulheres, com diagnóstico sobretudo entre 15 e 40 anos",
+        "Sintomas: fadiga, febre, dor articular, rash em asas de borboleta, fotossensibilidade, queda de cabelo, feridas na boca",
+        "Complicações: rim, cérebro, vasos, pulmões, coração",
+        "Diagnóstico por exames de sangue, urina, anticorpos e biópsia renal",
+        "Tratamento conforme gravidade, com corticoide, hidroxicloroquina e imunossupressores",
+        "Acompanhamento e tratamento oferecidos de forma integral e gratuita pelo SUS"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
+      "id": "lupus-eritematoso-sistemico-diagnostico-precoce-e-essencial",
+      "label": "Lúpus Eritematoso Sistêmico: diagnóstico precoce é essencial",
+      "url": "https://www.reumatologia.org.br/doencas-reumaticas/lupus-eritematoso-sistemico/",
+      "publisher": "Sociedade Brasileira de Reumatologia (SBR)",
+      "host": "www.reumatologia.org.br",
+      "lang": "pt",
+      "topics": [
+        "lúpus",
+        "reumatologia"
+      ],
+      "diseases": [
+        "lupus-eritematoso-sistemico"
+      ],
+      "supports": [
+        "SBR estima entre 150 mil e 300 mil pessoas com lúpus no Brasil",
+        "Mais frequente em mulheres de 20 a 45 anos",
+        "Tempo médio entre primeiro sintoma e diagnóstico de 4 a 7 anos",
+        "Cerca de 50% dos pacientes têm inflamação nos rins",
+        "Sintomas gerais: febre, emagrecimento, perda de apetite, fraqueza, dor nas juntas, manchas na pele, anemia, plaquetas baixas",
+        "Acompanhamento regular a cada 3 ou 6 meses com reumatologista",
+        "Não é contagioso",
+        "Doença tem fases de atividade e remissão"
+      ],
+      "verifiedAt": "2026-10-28",
       "status": "verified"
     },
     {
@@ -3622,6 +4154,30 @@
       "status": "verified"
     },
     {
+      "id": "risk-factors-for-blood-clots",
+      "label": "Risk Factors for Blood Clots",
+      "url": "https://www.cdc.gov/blood-clots/risk-factors/index.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "trombose",
+        "fatores de risco"
+      ],
+      "diseases": [
+        "trombose-venosa-profunda"
+      ],
+      "supports": [
+        "Lesão na veia: fraturas, lesão muscular grave, cirurgia de abdome, pelve, quadril ou pernas",
+        "Fluxo lento: acamamento, imobilização, gesso, ficar sentado muito tempo, paralisia",
+        "Estrogênio: anticoncepcionais, terapia hormonal, gestação e até 3 meses pós-parto",
+        "Doenças crônicas: cardíaca, pulmonar, câncer e tratamento, doença inflamatória intestinal",
+        "Outros: TVP/EP prévia, trombofilia hereditária, história familiar, idade, obesidade, cateter venoso central"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "rotavirus",
       "label": "Rotavírus",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/rotavirus",
@@ -3707,6 +4263,28 @@
         "Coleta de IgM entre o 1º e o 30º dia e RT-PCR até o 7º dia"
       ],
       "verifiedAt": "2026-10-27",
+      "status": "verified"
+    },
+    {
+      "id": "saude-do-homem",
+      "label": "Saúde do Homem",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-do-homem",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "saúde do homem",
+        "atenção primária"
+      ],
+      "diseases": [
+        "hiperplasia-prostatica-benigna"
+      ],
+      "supports": [
+        "Política Nacional de Atenção Integral à Saúde do Homem (PNAISH)",
+        "Atenção primária como porta de entrada, com ampliação do horário das UBS pelo Programa Saúde na Hora",
+        "Homens vivem em média 7,1 anos menos que as mulheres e morrem mais por doenças crônicas"
+      ],
+      "verifiedAt": "2026-10-28",
       "status": "verified"
     },
     {
@@ -4062,6 +4640,35 @@
       "status": "verified"
     },
     {
+      "id": "toxoplasmose",
+      "label": "Toxoplasmose",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/toxoplasmose",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "toxoplasmose",
+        "zoonose",
+        "gestação"
+      ],
+      "diseases": [
+        "toxoplasmose"
+      ],
+      "supports": [
+        "Definição: zoonose causada pelo protozoário Toxoplasma gondii, cujos hospedeiros definitivos são gatos e outros felinos",
+        "Transmissão: via oral (água e alimentos contaminados), congênita (mãe para o feto) e, raramente, inalação, inoculação, transfusão e transplante",
+        "Maioria dos infectados não apresenta sintomas; na fase aguda pode haver mialgia, fadiga, febre e gânglios cervicais",
+        "Comprometimento ocular por uveíte pode ocorrer na fase aguda ou mais tarde",
+        "Em imunocomprometidos pode acometer o cérebro, com confusão, falta de coordenação e convulsões",
+        "Toxoplasmose congênita pode causar sequelas visuais, neurológicas, cognitivas, comportamentais e motoras",
+        "Contato com gatos não causa a doença: o risco está nas fezes contaminadas e em água e alimentos mal lavados ou mal cozidos",
+        "Pessoas com imunidade adequada normalmente evoluem sem sequelas e não recebem tratamento específico, apenas sintomático",
+        "Diagnóstico e tratamento disponíveis de forma integral e gratuita no SUS"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "trachoma-fact-sheet",
       "label": "Trachoma: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/trachoma",
@@ -4199,6 +4806,33 @@
       "status": "verified"
     },
     {
+      "id": "trombose",
+      "label": "Trombose",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/trombose",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "trombose",
+        "coágulo",
+        "circulação"
+      ],
+      "diseases": [
+        "trombose-venosa-profunda"
+      ],
+      "supports": [
+        "Definição: coágulo em veias profundas das pernas e coxas, com inchaço e dor",
+        "Pode ser assintomática",
+        "Sintomas: dor, calor, vermelhidão, rigidez muscular",
+        "Sinais de embolia pulmonar: falta de ar súbita, tosse com sangue, dor no peito",
+        "Diagnóstico: ultrassonografia, exame de sangue, venografia, eco Doppler, tomografia e ressonância",
+        "Tratamento: anticoagulantes, heparina, filtro na veia, meias de compressão",
+        "Prevenção: movimento, exercício, líquidos, parar de fumar, evitar álcool, controlar peso"
+      ],
+      "verifiedAt": "2026-10-28",
+      "status": "verified"
+    },
+    {
       "id": "tuberculose-sintomas-diagnostico-e-tratamento",
       "label": "Tuberculose: sintomas, diagnóstico e tratamento",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tuberculose",
@@ -4281,6 +4915,25 @@
         "Municípios selecionados por alta transmissão e porte populacional"
       ],
       "verifiedAt": "2026-10-19",
+      "status": "verified"
+    },
+    {
+      "id": "who-are-the-people-with-alzheimer-disease-in-brazil-findings-from-the-brazilian-longitudinal-study-of-aging-elsi-brasil",
+      "label": "Who are the people with Alzheimer disease in Brazil? Findings from the Brazilian Longitudinal Study of Aging (ELSI-Brasil)",
+      "url": "https://www.scielo.br/j/rbepid/a/S1415-790X2021000100409/?lang=pt",
+      "publisher": "Revista Brasileira de Epidemiologia",
+      "host": "www.scielo.br",
+      "lang": "en",
+      "topics": [
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "doenca-de-alzheimer"
+      ],
+      "supports": [
+        "ELSI-Brasil：50 岁以上自报阿尔茨海默诊断 0,75%、70–79 岁 1,67%、80 岁以上 4,56%、女性 67,9%、小学及以下 70,3%、痴呆漏诊率 77%、2007–2017 痴呆死亡增长 55,5%"
+      ],
+      "verifiedAt": "2026-10-28",
       "status": "verified"
     },
     {

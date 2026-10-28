@@ -18835,4 +18835,3417 @@ export const diseases: Disease[] = [
     updatedAt: '2026-10-27',
     isPlaceholder: true,
   },
+  {
+    id: 'cancer-de-mama',
+    slug: 'cancer-de-mama',
+    name: 'Câncer de mama',
+    aliases: ['câncer mamário', 'tumor na mama', 'neoplasia de mama', 'carcinoma ductal', 'carcinoma lobular'],
+    summary:
+      'Tumor que começa nas células da mama e quase nunca dói no início. É o câncer mais frequente entre as mulheres brasileiras, tem alta chance de cura quando descoberto cedo e o tratamento é gratuito no SUS.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é o câncer de mama?',
+        paragraphs: [
+          'O câncer de mama começa quando células do tecido mamário passam a se multiplicar sem controle. A maior parte dos tumores surge nos ductos, os canais que levam o leite até o mamilo, ou nos lóbulos, as glândulas que produzem o leite. No início costuma ser um nódulo pequeno, indolor, que muitas vezes aparece primeiro na mamografia, antes de ser sentido com a mão.',
+          'Não é uma doença única. Os tumores de mama diferem em tipo histológico, em receptores hormonais e na presença da proteína HER2, e essas diferenças mudam o tratamento e o prognóstico. Existem também casos em homens, bem menos frequentes, que seguem a mesma lógica de investigação.',
+          'O que mais pesa no resultado é o momento do diagnóstico. Quando o tumor está restrito à mama e aos gânglios da axila, o tratamento costuma ter intenção curativa e pode ser menos agressivo. O acesso ao diagnóstico e ao tratamento é integral e gratuito pelo Sistema Único de Saúde (SUS).',
+        ],
+      },
+      {
+        id: 'dados-e-frequencia',
+        heading: 'Quantos casos existem no Brasil?',
+        paragraphs: [
+          'O Instituto Nacional de Câncer (INCA) estima 78.610 casos novos de câncer de mama por ano no triênio de 2026 a 2028, o que faz dele o tumor mais frequente entre as mulheres brasileiras. Em 2024 o país registrou 20.849 mortes pela doença, segundo o Atlas de Mortalidade por Câncer.',
+          'A distribuição não é uniforme. As taxas mais altas aparecem no Sudeste, no Sul e no Centro-Oeste, e as menores no Norte e no Nordeste. A idade pesa bastante: cerca de quatro em cada cinco casos ocorrem depois dos 50 anos, embora a doença também apareça em mulheres mais jovens, inclusive antes dos 40.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de câncer de mama?',
+        paragraphs: [
+          'A primeira divisão que importa na prática separa os tumores que ainda não invadiram o tecido ao redor daqueles que já invadiram. O carcinoma ductal in situ fica contido no ducto e é considerado pré-invasivo. O carcinoma invasivo rompe essa barreira e pode alcançar vasos linfáticos, gânglios e órgãos à distância.',
+          'Depois vêm as características biológicas do tumor, que definem quais tratamentos funcionam. Elas são medidas no tecido retirado na biópsia, por um exame chamado imuno-histoquímica, e separam os tumores em grupos com comportamentos distintos.',
+        ],
+        bullets: [
+          'Carcinoma ductal in situ: tumor restrito ao ducto, sem invasão, com alta chance de controle',
+          'Carcinoma invasivo: o mais comum, capaz de atingir gânglios e outros órgãos',
+          'Luminal (RH positivo): cresce estimulado por estrogênio e responde à hormonioterapia',
+          'HER2 positivo: tumor mais agressivo, tratado com remédios que bloqueiam essa proteína',
+          'Triplo negativo: sem receptores hormonais e sem HER2, tratado sobretudo com quimioterapia',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco de câncer de mama?',
+        paragraphs: [
+          'A idade é o fator mais importante: cerca de quatro em cada cinco casos aparecem depois dos 50 anos. O restante do risco se distribui entre exposição acumulada ao estrogênio, hábitos de vida, radiação e predisposição genética. Nenhum desses fatores, isolado, determina que a doença vá aparecer.',
+          'A exposição hormonal ao longo da vida conta bastante. Primeira menstruação antes dos 12 anos, menopausa depois dos 55, primeira gravidez após os 30, não ter amamentado e uso prolongado de reposição hormonal depois da menopausa aumentam a chance. Obesidade depois da menopausa, consumo frequente de álcool e sedentarismo entram na mesma lista, e o tabagismo tem evidência sugestiva de aumento de risco.',
+          'A herança genética explica uma parte menor, entre 5% e 10% dos casos, mas com peso grande quando presente. Alterações nos genes BRCA1 e BRCA2, vários casos de câncer de mama na família, sobretudo antes dos 50 anos, e câncer de ovário em parentes pedem avaliação em serviço especializado. O INCA também inclui entre os riscos ocupacionais a exposição à radiação ionizante, o contato com agrotóxicos e o trabalho noturno entre 22h e 5h.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sinais e sintomas?',
+        paragraphs: [
+          'O sinal mais comum é um nódulo endurecido, de contorno irregular, que não dói e parece preso ao tecido. Costuma aparecer no quadrante superior externo, perto da axila, e pode ser notado no banho ou na troca de roupa. Dor mamária isolada, sem nódulo, raramente é sinal de câncer, mas merece avaliação quando persiste.',
+          'Alterações na pele e no mamilo entram na lista. A pele pode ficar com aspecto de casca de laranja, retraída ou espessada, e o mamilo pode inverter, mudar de formato ou soltar líquido espontaneamente, sem ser apertado. Gânglios endurecidos na axila ou acima da clavícula podem ser o primeiro achado, antes mesmo de qualquer nódulo na mama.',
+          'Quando o tumor já se espalhou, aparecem sintomas ligados ao órgão atingido. Dor óssea persistente, falta de ar, tosse e perda de peso sem explicação pedem investigação, principalmente em quem tem história de câncer de mama.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Algumas alterações pedem consulta sem esperar a próxima mamografia de rotina, mesmo em quem tem exames recentes normais. Um exame de rastreamento normal não substitui a avaliação de uma queixa nova.',
+        ],
+        bullets: [
+          'Nódulo novo na mama ou na axila, sobretudo endurecido e fixo',
+          'Saída espontânea de líquido por um dos mamilos, principalmente se for sanguinolento',
+          'Pele da mama com casca de laranja, retração ou ferida que não cicatriza',
+          'Mamilo que se inverte ou muda de formato recentemente',
+          'Aumento rápido do tamanho de uma das mamas ou vermelhidão extensa',
+          'Dor óssea contínua, falta de ar ou emagrecimento sem causa aparente',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é confirmado?',
+        paragraphs: [
+          'A investigação começa pelo exame clínico das mamas e pela mamografia, que pode ser completada com ultrassonografia ou ressonância magnética conforme a densidade da mama e o achado. Nenhum desses exames fecha o diagnóstico: a confirmação vem da biópsia, que retira um fragmento do nódulo ou da lesão para análise do patologista.',
+          'Com o material da biópsia em mãos, o laboratório define o tipo do tumor, o grau e os receptores hormonais e HER2. Em paralelo, exames de imagem do tórax, do abdome e dos ossos avaliam se a doença está restrita à mama. Esse conjunto, chamado estadiamento, orienta a escolha do tratamento.',
+          'No SUS a porta de entrada costuma ser a Unidade Básica de Saúde (UBS), que encaminha para a mamografia e para o serviço de referência. Quem tem nódulo palpável e imagem suspeita deve chegar à biópsia sem repetir etapas já feitas.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com câncer de mama?',
+        paragraphs: [
+          'A maior parte dos nódulos mamários é benigna, e é por isso que a investigação precisa ser feita com método, sem susto e sem conclusão apressada. A diferença aparece no exame clínico, na imagem e, quando necessário, na biópsia.',
+        ],
+        bullets: [
+          'Fibroadenoma: nódulo móvel e liso, comum em mulheres jovens',
+          'Cisto mamário: coleção de líquido que muda com o ciclo menstrual',
+          'Mastite e abscesso: dor, calor e vermelhidão, às vezes com febre',
+          'Alteração fibrocística: nódulos múltiplos que variam ao longo do ciclo',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento é definido pelo estadiamento e pelo subtipo do tumor, e quase sempre combina um tratamento local com um tratamento sistêmico. A cirurgia e a radioterapia cuidam da mama e dos gânglios; a quimioterapia, a hormonioterapia e a terapia-alvo agem sobre células que podem estar circulando pelo corpo.',
+          'A ordem muda conforme o caso. Em tumores grandes ou com gânglios comprometidos, a quimioterapia pode vir antes da cirurgia, para reduzir o tumor e permitir uma operação menor. Depois da cirurgia, o tratamento adjuvante diminui o risco de a doença voltar. Em tumores com receptor hormonal positivo, a hormonioterapia costuma ser mantida por vários anos.',
+          'Efeitos colaterais são manejados com apoio da equipe e não são motivo para interromper o tratamento por conta própria. Náusea, queda de cabelo, cansaço e alterações de humor têm condutas específicas, e o serviço de oncologia deve ser avisado quando algum sintoma foge do esperado.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Como é a cirurgia?',
+        paragraphs: [
+          'Sempre que possível, a cirurgia retira apenas o tumor com uma margem de tecido sadio e preserva a mama, em uma operação chamada setorectomia. Quando o tumor é grande em relação à mama, há vários focos ou o resultado estético seria ruim, indica-se a mastectomia, com possibilidade de reconstrução na mesma cirurgia.',
+          'Os gânglios da axila também precisam ser avaliados. Quando não há suspeita de comprometimento, retira-se o primeiro gânglio da cadeia, o linfonodo sentinela, para evitar o esvaziamento completo e reduzir o risco de linfedema. O esvaziamento axilar fica reservado aos casos com gânglios comprometidos.',
+        ],
+      },
+      {
+        id: 'radioterapia',
+        heading: 'Quando a radioterapia é indicada?',
+        paragraphs: [
+          'A radioterapia usa radiação ionizante para eliminar células tumorais que restaram na mama, na parede torácica ou nos gânglios. É habitual depois da cirurgia conservadora e indicada após a mastectomia em situações de maior risco, como tumor grande, margens comprometidas ou vários gânglios atingidos.',
+          'O tratamento é feito em sessões diárias, durante algumas semanas, e não deixa a pessoa radioativa. Os efeitos mais comuns são cansaço, vermelhidão e endurecimento da pele da área tratada, que costumam melhorar com o tempo e com a orientação da equipe.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'As complicações se dividem entre as cirúrgicas e as ligadas aos tratamentos sistêmicos. Entre as cirúrgicas, as mais frequentes são acúmulo de líquido sob a pele, pequenas áreas de necrose na borda da incisão e linfedema do braço, que é o inchaço causado pela retirada de gânglios.',
+          'A quimioterapia pode reduzir as defesas, causar anemia, aftas, náusea e queda de cabelo. Alguns medicamentos têm risco cardíaco e exigem acompanhamento com exames do coração. A hormonioterapia costuma trazer ondas de calor, ressecamento vaginal e dores articulares, efeitos que têm manejo e não devem levar ao abandono do tratamento sem conversa com a equipe.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como é a vida depois do tratamento?',
+        paragraphs: [
+          'O acompanhamento segue um ritmo definido. Nos dois primeiros anos, o INCA orienta exame clínico a cada seis meses e avaliação por imagem da mama uma vez por ano. Depois disso, a avaliação clínica e a imagem passam a ser anuais. Outros exames são pedidos conforme a queixa e o exame físico.',
+          'Manter peso adequado, praticar atividade física e limitar o álcool ajudam a reduzir o risco de recidiva e de outros tumores. O retorno ao trabalho, a sexualidade e a imagem corporal fazem parte do cuidado e podem ser conversados abertamente com a equipe; não há motivo médico para interromper a vida sexual durante ou depois do tratamento.',
+          'Sintomas novos, dor óssea persistente, falta de ar ou nódulos na outra mama ou na axila devem ser relatados nas consultas de seguimento, sem esperar o próximo exame marcado.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir e como rastrear?',
+        paragraphs: [
+          'O Ministério da Saúde recomenda mamografia de rastreamento para mulheres de 50 a 74 anos, a cada dois anos, mesmo sem sintomas. Quem tem risco elevado, por história familiar forte ou alteração genética conhecida, precisa de um plano individual, que pode começar mais cedo e incluir ressonância magnética.',
+          'Cerca de 17% dos casos poderiam ser evitados com hábitos saudáveis, segundo o INCA: praticar atividade física, manter o peso adequado, evitar bebida alcoólica e amamentar pelo maior tempo possível. Observar a própria mama, sem técnica obrigatória, continua útil para perceber mudanças e procurar avaliação.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Câncer de mama dói?',
+        answer:
+          'Não costuma doer. O sinal mais frequente é um nódulo endurecido e indolor. Dor mamária isolada raramente indica câncer, mas deve ser avaliada quando persiste ou vem acompanhada de nódulo.',
+      },
+      {
+        question: 'Homem pode ter câncer de mama?',
+        answer:
+          'Sim, embora seja raro. Aparece como nódulo atrás do mamilo ou alteração da pele, e a investigação segue o mesmo caminho da mulher.',
+      },
+      {
+        question: 'Quem tem nódulo benigno precisa continuar fazendo mamografia?',
+        answer:
+          'Sim. Um resultado benigno não dispensa o rastreamento na faixa recomendada nem a avaliação de qualquer mudança nova na mama.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas', 'saude-da-mulher', 'prevencao'],
+    relatedDiseaseSlugs: ['cancer-do-colo-do-utero', 'cancer-de-pele', 'obesidade'],
+    references: [
+      {
+        label: 'Câncer de mama, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/mama/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de mama, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-mama',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-prostata',
+    slug: 'cancer-de-prostata',
+    name: 'Câncer de próstata',
+    aliases: ['câncer da próstata', 'tumor de próstata', 'adenocarcinoma de próstata', 'neoplasia prostática'],
+    summary:
+      'Tumor que cresce na próstata, glândula que fica abaixo da bexiga. Costuma evoluir devagar e não dar sintomas no início; o diagnóstico é confirmado por biópsia e o tratamento é gratuito no SUS.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é o câncer de próstata?',
+        paragraphs: [
+          'A próstata é uma glândula que existe apenas nos homens, do tamanho de uma ameixa no adulto jovem, situada abaixo da bexiga e à frente do reto. Ela envolve a uretra, o canal por onde passa a urina, e produz parte do líquido que compõe o sêmen. O câncer de próstata surge quando células dessa glândula passam a se multiplicar sem controle.',
+          'Na maioria dos casos o tumor cresce devagar e não ameaça a saúde durante muitos anos. Em uma parte menor dos casos, cresce rápido, rompe a cápsula da próstata e se espalha para gânglios e ossos, o que muda completamente o tratamento e o prognóstico. É essa diferença de comportamento que torna a decisão sobre investigar e tratar tão delicada.',
+          'A próstata não é responsável pela ereção nem pelo orgasmo, mas fica ao lado dos nervos que comandam a ereção. Por isso, cirurgia e radioterapia podem afetar a função sexual e o controle da urina, e essas consequências precisam entrar na conversa antes do tratamento, não depois.',
+        ],
+      },
+      {
+        id: 'dados-e-frequencia',
+        heading: 'Quantos casos existem no Brasil?',
+        paragraphs: [
+          'O Instituto Nacional de Câncer (INCA) estima 77.920 casos novos de câncer de próstata por ano no triênio de 2026 a 2028. É o tumor mais incidente entre os homens brasileiros, depois do câncer de pele não melanoma. Em 2024 foram registradas 17.826 mortes pela doença, segundo o Atlas de Mortalidade por Câncer.',
+          'A idade é o retrato mais fiel do risco: no Brasil, nove em cada dez homens diagnosticados têm mais de 55 anos, segundo o Ministério da Saúde. As taxas ajustadas são maiores no Sudeste, no Centro-Oeste e no Nordeste, e menores no Norte e no Sul.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de câncer de próstata?',
+        paragraphs: [
+          'Quase todos os casos são adenocarcinomas, tumores que nascem nas células glandulares que produzem o líquido prostático. Os outros tipos, como carcinoma de células escamosas, carcinoma ductal, carcinoma mucinoso e carcinoma de pequenas células, são bem menos frequentes e costumam ter comportamento diferente.',
+          'Além do tipo de célula, importa o quanto o tumor se diferencia do tecido normal. Essa informação vem do exame anatomopatológico, que atribui uma nota de 6 a 10, chamada escore de Gleason ou grau ISUP. Quanto maior a nota, mais rápido o tumor tende a crescer e maior o risco de ele já ter saído da próstata.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco?',
+        paragraphs: [
+          'A idade é o principal fator. A incidência e a mortalidade sobem de forma acentuada depois dos 60 anos, e o risco de um homem com pai ou irmão diagnosticado antes dos 60 anos é maior do que o da população geral. Histórico em avô ou tio também conta na avaliação.',
+          'Sobrepeso e obesidade aumentam o risco de doença avançada, e fumantes têm maior chance de morrer por câncer de próstata. Alguns tipos de trabalho aparecem associados ao tumor, sobretudo os que envolvem arsênio, cádmio, produtos da borracha e da indústria têxtil, agrotóxicos, radiação ionizante e trabalho noturno entre 22h e 5h.',
+          'A comparação entre países mostra taxas muito mais altas onde a alimentação é rica em carne e laticínios, o que sustenta a recomendação de uma dieta com mais vegetais e menos gordura animal. Nenhum alimento, isolado, previne ou causa a doença.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sinais e sintomas?',
+        paragraphs: [
+          'Na fase inicial, o câncer de próstata costuma ser silencioso. Quando dá sintomas, eles se parecem com os do crescimento benigno da próstata: dificuldade para começar e terminar de urinar, jato mais fraco, necessidade de urinar muitas vezes durante o dia ou à noite e sensação de esvaziamento incompleto. Sangue na urina aparece em alguns casos.',
+          'Na doença avançada, entram dor óssea contínua, sobretudo na lombar, no quadril e nas costelas, inchaço nas pernas, perda de peso e cansaço. Em situações graves pode haver infecção generalizada ou insuficiência renal por obstrução do fluxo de urina, quadros que exigem atendimento imediato.',
+          'Como os sintomas urinários são comuns em homens acima de 50 anos por causas benignas, eles nunca devem ser interpretados como câncer nem descartados como coisa da idade. O caminho é a consulta, com exame de toque e, quando indicado, dosagem de PSA.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Alguns quadros exigem atendimento no mesmo dia, porque indicam obstrução urinária ou comprometimento de órgãos à distância. Os demais merecem consulta com urologista em poucos dias.',
+        ],
+        bullets: [
+          'Incapacidade de urinar, com dor na bexiga e abdome distendido',
+          'Febre alta com dor lombar ou calafrios, que podem indicar infecção urinária grave',
+          'Sangue vivo na urina, mesmo sem dor',
+          'Dor óssea contínua que piora à noite e não passa com analgésico comum',
+          'Perda de peso rápida e sem explicação, com fraqueza e falta de apetite',
+          'Inchaço nas duas pernas ou dificuldade para caminhar por dor óssea',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'A investigação começa com dois exames simples. O toque retal avalia tamanho, forma e textura da próstata e permite perceber nódulos endurecidos. A dosagem de PSA, uma proteína produzida pela próstata, pode estar alta no câncer, mas também na hiperplasia benigna e na prostatite, e por isso não confirma nada sozinha.',
+          'A confirmação vem da biópsia, feita com agulha guiada por ultrassonografia e, em alguns serviços, por ressonância magnética. O material é analisado pelo patologista, que define o tipo do tumor e o grau de diferenciação. A ressonância da próstata também ajuda a estimar a extensão local antes do tratamento.',
+          'Para saber se a doença saiu da próstata, o médico pode pedir tomografia, ressonância e cintilografia óssea, conforme o PSA e o grau do tumor. No SUS, o urologista da Unidade Básica de Saúde encaminha para o serviço de referência, e todas as etapas do diagnóstico e do tratamento são gratuitas.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com câncer de próstata?',
+        paragraphs: [
+          'A maior parte dos homens com sintomas urinários tem uma causa benigna, e é justamente essa semelhança que torna o exame físico e o PSA tão importantes. As duas condições que mais se confundem com o câncer são:',
+        ],
+        bullets: [
+          'Hiperplasia benigna da próstata: aumento benigno que afeta mais da metade dos homens acima de 50 anos, com próstata uniforme e elástica ao toque',
+          'Prostatite: inflamação geralmente bacteriana, com dor pélvica, sintomas urinários e, às vezes, febre',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Como é a cirurgia?',
+        paragraphs: [
+          'A prostatectomia radical retira toda a próstata e as vesículas seminais, e é uma das opções para a doença localizada, com intenção de cura. Pode ser feita por cirurgia aberta, por videolaparoscopia ou com auxílio de robô, e a escolha depende da experiência da equipe, do tamanho da próstata e das características do tumor.',
+          'A técnica mais moderna não elimina os riscos. Incontinência urinária e disfunção erétil podem ocorrer mesmo nas mãos mais experientes, porque dependem de estruturas muito próximas da próstata. A preservação dos nervos da ereção é tentada quando o tumor permite, e a recuperação costuma levar meses.',
+        ],
+      },
+      {
+        id: 'tratamento-hormonal',
+        heading: 'Hormonioterapia e quimioterapia',
+        paragraphs: [
+          'As células do câncer de próstata dependem da testosterona para crescer, e a hormonioterapia reduz essa estimulação. Ela é usada antes ou junto com a radioterapia em tumores de maior risco, e é o tratamento central na doença metastática. Pode ser feita com medicamentos injetáveis que bloqueiam a produção hormonal, com comprimidos que impedem a ação da testosterona ou, em situações específicas, com a retirada cirúrgica dos testículos.',
+          'A quimioterapia fica reservada aos casos avançados, sobretudo quando há metástases e o tumor deixa de responder à hormonioterapia. Ela é aplicada em ciclos, com controle de exames de sangue, e pode causar queda de cabelo, cansaço, náusea e redução das defesas. Existem ainda terapias mais recentes, como os inibidores de receptor de androgênio e os radiofármacos, oferecidas conforme critérios do serviço.',
+        ],
+      },
+      {
+        id: 'radioterapia-e-outros',
+        heading: 'Radioterapia e outras opções',
+        paragraphs: [
+          'A radioterapia pode ser externa, com aparelho que direciona radiação à próstata por várias semanas, ou interna, com implante de sementes radioativas no órgão. É uma alternativa à cirurgia na doença localizada e costuma ser combinada com hormonioterapia nos tumores de risco intermediário e alto.',
+          'Para tumores muito pequenos e de crescimento lento, existe a vigilância ativa: acompanhamento com PSA e novas biópsias, adiando o tratamento até que haja sinal de progressão. É uma escolha legítima em homens mais velhos ou com outras doenças graves, e não significa abandonar o caso.',
+          'A crioterapia, que destrói o tecido prostático por congelamento, e o ultrassom focalizado de alta intensidade são opções menos difundidas, indicadas em situações selecionadas por equipes especializadas.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'A metástase óssea é a complicação mais temida da doença avançada. Ela causa dor contínua, aumenta o risco de fratura e pode comprimir a medula, quadro que exige atendimento imediato. Os ossos mais atingidos são a coluna, o quadril e as costelas.',
+          'A incontinência urinária aparece em uma parte dos homens operados e melhora com fisioterapia do assoalho pélvico na maioria dos casos. A disfunção erétil é frequente depois da cirurgia e da radioterapia, e tem tratamento com medicamentos, dispositivos e apoio especializado. Falar sobre esses efeitos antes de decidir o tratamento é parte do cuidado.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como é a vida depois do tratamento?',
+        paragraphs: [
+          'O seguimento é feito com dosagem de PSA no sangue a cada três ou seis meses, conforme o caso, além de consultas e exames de imagem quando há suspeita de recidiva. Um PSA que volta a subir pode ser o primeiro sinal de retorno da doença, antes de qualquer sintoma.',
+          'Retomar a atividade física, manter peso adequado, não fumar e reduzir o álcool ajudam na recuperação e na saúde geral. Exercícios para o assoalho pélvico devem começar cedo quando há incontinência, com orientação de fisioterapeuta. Andar de bicicleta e atividades que pressionam o períneo podem ser retomadas conforme liberação da equipe.',
+          'O apoio da família e o acompanhamento psicológico têm papel concreto: homens em tratamento relatam com frequência ansiedade, alterações de humor e dificuldade para falar sobre sexualidade, e esses temas podem e devem ser levados à consulta.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir e o que dizem os exames de rotina',
+        paragraphs: [
+          'Não existe forma comprovada de prevenir o câncer de próstata. O que se pode fazer é reduzir o risco de doença avançada: manter peso adequado, praticar atividade física, comer mais frutas, verduras e grãos, limitar carne vermelha e gordura animal, não fumar e moderar o álcool.',
+          'Sobre rastreamento, a posição brasileira é cautelosa. O Ministério da Saúde e a Organização Mundial da Saúde não recomendam exames de rotina em homens sem sintomas, e o INCA também não indica rastreamento populacional, porque os benefícios não superam claramente os riscos de diagnosticar e tratar tumores que nunca ameaçariam a vida. Quem deseja fazer os exames deve conversar com um profissional de saúde sobre vantagens e desvantagens antes de decidir.',
+          'Homens com sintomas urinários, sangue na urina ou história familiar forte devem procurar avaliação, independentemente de rastreamento. Nesses casos, a investigação tem indicação clara e não se confunde com exame de rotina.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'PSA alto significa câncer?',
+        answer:
+          'Não. O PSA pode subir na hiperplasia benigna, na prostatite, após andar de bicicleta ou por causa de relação sexual recente. Só a biópsia confirma o diagnóstico.',
+      },
+      {
+        question: 'Todo câncer de próstata precisa de tratamento imediato?',
+        answer:
+          'Não. Tumores pequenos e de crescimento lento podem ser acompanhados com vigilância ativa, com PSA e biópsias periódicas. A decisão é individual e deve ser discutida com o urologista.',
+      },
+      {
+        question: 'A cirurgia sempre causa impotência?',
+        answer:
+          'Não sempre, mas o risco existe e depende da extensão do tumor e da preservação dos nervos. Quando ocorre, tem tratamento com medicamentos e acompanhamento especializado.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['cancer-de-pele', 'infeccao-urinaria', 'obesidade'],
+    references: [
+      {
+        label: 'Câncer de próstata, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-pulmao',
+    slug: 'cancer-de-pulmao',
+    name: 'Câncer de pulmão',
+    aliases: ['câncer pulmonar', 'tumor de pulmão', 'carcinoma brônquico', 'neoplasia pulmonar'],
+    summary:
+      'Tumor que começa nos brônquios ou no tecido do pulmão e demora a dar sintomas. O cigarro é a principal causa, o diagnóstico costuma chegar tarde e o tratamento é oferecido pelo SUS.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é o câncer de pulmão?',
+        paragraphs: [
+          'O câncer de pulmão começa nas células que revestem os brônquios ou os alvéolos, as estruturas onde acontece a troca de gases. O tumor cresce dentro do pulmão, pode invadir a pleura, o mediastino e os vasos próximos, e costuma se espalhar para gânglios, ossos, fígado e cérebro antes de dar sinais evidentes.',
+          'Existem dois grandes grupos, e eles se comportam de maneira muito diferente. O câncer de pulmão de não pequenas células responde por cerca de 85% dos casos e reúne o adenocarcinoma, o carcinoma escamoso e o carcinoma de grandes células. O câncer de pequenas células é menos comum, cresce rápido e tende a se disseminar cedo.',
+          'O pulmão tem grande reserva funcional, e por isso um tumor pode crescer por meses sem causar falta de ar. É essa característica que explica por que a maioria dos casos é descoberta em fase avançada, quando a cirurgia já não é possível.',
+        ],
+      },
+      {
+        id: 'dados-e-frequencia',
+        heading: 'Quantos casos existem no Brasil?',
+        paragraphs: [
+          'O Instituto Nacional de Câncer (INCA) estima 35.380 casos novos de câncer de pulmão por ano no triênio de 2026 a 2028, sendo 18.730 em homens e 16.650 em mulheres. Em 2024 o país registrou 32.555 mortes por tumores de traqueia, brônquios e pulmão, segundo o Atlas de Mortalidade por Câncer, com números próximos entre os sexos.',
+          'A maioria dos casos aparece entre 50 e 70 anos. As taxas mais altas entre homens estão na Região Sul, e o Rio Grande do Sul concentra também a maior taxa entre mulheres, o que acompanha a história do tabagismo no estado.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de câncer de pulmão?',
+        paragraphs: [
+          'A classificação mais útil para o tratamento é a que vem do microscópio. Ela define se o tumor é de pequenas células ou de não pequenas células, e essa diferença muda o remédio, a ordem do tratamento e o prognóstico.',
+          'Há também uma divisão pela localização do tumor no pulmão. Os tumores centrais crescem perto dos brônquios principais e costumam dar tosse e sangramento cedo; os periféricos ficam na parte externa do pulmão e podem crescer bastante antes de serem notados, sendo mais frequentemente adenocarcinomas.',
+        ],
+        bullets: [
+          'Adenocarcinoma: o tipo mais comum, sobretudo em quem nunca fumou e em mulheres',
+          'Carcinoma escamoso: ligado ao cigarro, costuma crescer perto dos brônquios centrais',
+          'Grandes células: menos frequente, com crescimento rápido',
+          'Pequenas células: cerca de 15% dos casos, muito agressivo e com metástase precoce',
+        ],
+      },
+      {
+        id: 'estadiamento',
+        heading: 'O que é o estadiamento?',
+        paragraphs: [
+          'O estadiamento descreve onde o tumor está e quanto já se espalhou, e é o que define a estratégia. No câncer de não pequenas células, vai do estágio I, quando o tumor está restrito ao pulmão, ao estágio IV, quando há metástase em outros órgãos. Os estágios II e III indicam comprometimento de gânglios cada vez mais distantes.',
+          'No câncer de pequenas células usa-se uma divisão mais simples: doença limitada, quando o tumor está confinado a um lado do tórax e pode ser tratado com radioterapia, e doença extensa, quando já alcançou o outro pulmão ou órgãos à distância.',
+          'O estadiamento é feito com tomografia do tórax e do abdome, ressonância do crânio, tomografia por emissão de pósitrons e, em alguns casos, cintilografia óssea e mediastinoscopia. Sem esse mapa, não é possível decidir entre cirurgia, radioterapia e tratamento sistêmico.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa o câncer de pulmão?',
+        paragraphs: [
+          'O tabagismo é a principal causa, e o risco cresce com a quantidade de cigarros por dia e com o número de anos fumando. Quem convive com fumantes também adoece: a fumaça de segunda mão aumenta o risco, e não existe nível seguro de exposição. Parar de fumar reduz o risco de forma progressiva, mesmo depois de muitos anos.',
+          'Uma parte dos casos ocorre em quem nunca fumou. Nesses casos pesam fatores genéticos, história familiar, exposição à poluição do ar, infecções pulmonares de repetição, doença pulmonar obstrutiva crônica e exposições ocupacionais.',
+          'Entre os agentes ocupacionais reconhecidos estão o asbesto, a sílica, o arsênio, o cromo, o níquel, o cádmio, o radônio, a fuligem e a emissão de motores a diesel. Trabalhadores da construção civil, da mineração, da fundição, da borracha, da tecelagem e bombeiros estão entre os grupos mais expostos, e o risco é ainda maior em quem fuma.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Tosse persistente é o sintoma mais comum, e costuma ser o primeiro. Em quem já fuma, o sinal de alerta é a mudança do padrão habitual: a tosse que era seca e matinal passa a incomodar em outros horários, ou fica mais intensa. Sangue no escarro, mesmo em pequena quantidade, nunca deve ser atribuído ao cigarro sem investigação.',
+          'Quando o tumor cresce e comprime estruturas próximas, aparecem falta de ar, dor no peito, rouquidão por lesão do nervo da laringe, inchaço da face e do pescoço e derrame pleural. A pneumonia que se repete sempre no mesmo lugar é outro sinal indireto, causado pela obstrução de um brônquio.',
+          'Na doença avançada, entram dor óssea, dor de cabeça, convulsões, fraqueza e perda de peso. Alguns tumores produzem substâncias parecidas com hormônios e causam sintomas à distância, como dedos inchados e doloridos, alterações de sódio no sangue e coágulos.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Os sinais abaixo pedem avaliação médica rápida, sobretudo em quem fuma ou fumou. Nenhum deles confirma câncer, mas todos justificam investigação com imagem.',
+        ],
+        bullets: [
+          'Tosse que não melhora em três semanas ou que muda de padrão em quem fuma',
+          'Sangue no escarro, mesmo em pouca quantidade ou uma única vez',
+          'Falta de ar nova ou que piora progressivamente',
+          'Pneumonia recorrente sempre no mesmo ponto do pulmão',
+          'Rouquidão persistente por mais de duas semanas, sem infecção de garganta',
+          'Dor no peito fixa, perda de peso e cansaço que não se explicam',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'A radiografia de tórax costuma ser o primeiro exame, mas a tomografia é bem mais sensível e mostra o tamanho, a forma e a relação do tumor com as estruturas vizinhas. Quando há suspeita de doença espalhada, entram a tomografia por emissão de pósitrons e a ressonância do crânio.',
+          'O diagnóstico só se fecha com tecido. A biópsia pode ser feita por broncoscopia, quando o tumor é central, ou por punção guiada por imagem, quando é periférico. No material retirado, o patologista define o tipo do tumor e, nos adenocarcinomas, pesquisa mutações que abrem espaço para terapias-alvo.',
+          'O caso é então discutido por uma equipe multidisciplinar, com pneumologista, cirurgião torácico, oncologista e radioterapeuta. No SUS, a investigação começa na Unidade Básica de Saúde e segue para o serviço de referência em oncologia.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com câncer de pulmão?',
+        paragraphs: [
+          'Várias doenças produzem nódulos, cavidades ou sombras no pulmão, e a diferença depende do conjunto de exames, não de um achado isolado. As principais são:',
+        ],
+        bullets: [
+          'Tuberculose: costuma dar febre à tarde, suor noturno e emagrecimento, com bacilos no escarro',
+          'Pneumonia: começa com febre alta e tosse produtiva, e melhora com antibiótico',
+          'Abscesso pulmonar: cursa com febre, muito catarro de odor forte e cavidade na imagem',
+          'Criptococose: nódulos que podem imitar tumor em pessoas expostas',
+          'Tumores benignos: exigem biópsia para separar do carcinoma',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento depende do tipo, do estágio e das condições clínicas da pessoa. Nos tumores de não pequenas células em fase inicial, a cirurgia é a melhor chance de cura, às vezes acompanhada de quimioterapia. Nos estágios localmente avançados, combina-se quimioterapia, radioterapia e, em casos selecionados, imunoterapia.',
+          'Na doença metastática, o objetivo é controlar a doença e prolongar a vida com qualidade. A escolha entre quimioterapia, imunoterapia e terapia-alvo depende das características do tumor: mutações no gene EGFR, rearranjos no gene ALK e expressão de PD-L1 são alguns dos marcadores que orientam a decisão.',
+          'O câncer de pequenas células responde bem à quimioterapia no início, mas volta com frequência. Na doença limitada, associa-se radioterapia e considera-se irradiação preventiva do crânio; na doença extensa, o tratamento é sistêmico, com foco em controle de sintomas.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Quando a cirurgia é possível?',
+        paragraphs: [
+          'A cirurgia é indicada quando o tumor está restrito ao pulmão e aos gânglios próximos e a pessoa tem reserva respiratória suficiente. No Brasil, cerca de 15% dos casos são operáveis no momento do diagnóstico, e a maioria chega tarde demais para isso, segundo o INCA.',
+          'A operação padrão é a lobectomia, que retira o lobo onde está o tumor, junto com os gânglios do mediastino. Em tumores pequenos, periféricos e em pessoas com pouca reserva pulmonar, pode-se optar por uma ressecção menor, como a segmentectomia ou a ressecção em cunha. A cirurgia pode ser aberta ou por videotoracoscopia, com recuperação mais rápida nesta última.',
+        ],
+      },
+      {
+        id: 'radioterapia-e-quimioterapia',
+        heading: 'Radioterapia, quimioterapia e outras técnicas',
+        paragraphs: [
+          'A radioterapia usa radiação ionizante para destruir células tumorais e pode ser empregada com intenção curativa, quando a cirurgia não é possível, ou para aliviar dor, sangramento e falta de ar. O tratamento é diário, por algumas semanas, e os efeitos mais comuns são cansaço, inflamação do pulmão na área irradiada e esofagite.',
+          'A quimioterapia é aplicada em ciclos, com exames de sangue antes de cada um. Pode causar náusea, queda de cabelo, redução das defesas e anemia, efeitos que têm condutas de prevenção e controle. Nos tumores com mutação específica, os comprimidos de terapia-alvo substituem a quimioterapia e costumam ser bem tolerados, embora exijam acompanhamento.',
+          'Em casos selecionados, a radiologia intervencionista oferece procedimentos como a ablação por radiofrequência e a embolização de artérias que alimentam o tumor, usados quando a cirurgia não é opção ou para controlar sintomas.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'A complicação mais grave do câncer de pulmão avançado é a síndrome da veia cava superior, com inchaço da face e do pescoço, falta de ar e tontura, que é uma emergência. Também são frequentes o derrame pleural, que precisa ser drenado, a pneumonia por obstrução brônquica e o escarro com sangue volumoso.',
+          'A perda de peso e de massa muscular, chamada caquexia, acompanha muitos casos avançados e piora a tolerância ao tratamento. A dor, sobretudo a óssea, tem controle com analgésicos em escala, radioterapia e procedimentos específicos.',
+          'Depois da cirurgia podem ocorrer infecção, fístula de ar prolongada e redução da capacidade respiratória. A fisioterapia respiratória, iniciada cedo, ajuda a prevenir complicações e a recuperar a função pulmonar.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como é a vida durante e depois do tratamento?',
+        paragraphs: [
+          'Parar de fumar é a medida mais importante em qualquer fase, inclusive depois do diagnóstico, e o SUS oferece tratamento para quem quer parar. Evitar fumaça de segunda mão, poeira e poluição dentro de casa também ajuda a reduzir crises respiratórias.',
+          'O acompanhamento depois do tratamento inclui consultas e tomografias periódicas. O INCA orienta imagem a cada três meses nos dois primeiros anos, a cada seis meses entre o segundo e o quinto ano e, depois disso, seguimento anual com o médico que acompanha o caso.',
+          'Manter atividade física dentro do possível, comer bem e dormir o suficiente melhora a tolerância aos ciclos de tratamento. Cansaço intenso, falta de ar nova, febre ou dor que não cede devem ser comunicados à equipe sem esperar a próxima consulta.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o câncer de pulmão?',
+        paragraphs: [
+          'Não fumar é a medida mais eficaz, e quem já fuma deve parar o quanto antes. O risco começa a cair logo após a interrupção e continua diminuindo com os anos, mesmo em quem fumou por décadas. Evitar a exposição à fumaça de segunda mão protege crianças e adultos que convivem com fumantes.',
+          'No trabalho, o uso correto de equipamentos de proteção e o controle de poeiras e vapores reduzem a exposição a agentes cancerígenos. Em casa, manter os ambientes ventilados e evitar o uso de fogão a lenha em espaço fechado também ajuda.',
+          'O Brasil não recomenda rastreamento populacional do câncer de pulmão, porque não há evidência de que os benefícios superem os riscos na população geral. Para pessoas com histórico de tabagismo intenso, a discussão sobre tomografia de baixa dose deve ser feita caso a caso com o médico, considerando idade, carga tabágica e tempo desde que parou de fumar.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Quem nunca fumou pode ter câncer de pulmão?',
+        answer:
+          'Sim. Uma parte dos casos ocorre em quem nunca fumou, por fatores genéticos, poluição do ar, exposições ocupacionais e doenças pulmonares prévias. Nesses casos, o adenocarcinoma é o tipo mais frequente.',
+      },
+      {
+        question: 'Câncer de pulmão tem cura?',
+        answer:
+          'Tem, quando é descoberto em fase inicial e pode ser operado. Nos casos avançados, o tratamento controla a doença por períodos cada vez maiores, mas a cura completa é menos provável.',
+      },
+      {
+        question: 'Tosse com sangue é sempre câncer?',
+        answer:
+          'Não. Pode vir de infecções, bronquite e outras causas, mas sangue no escarro sempre precisa de avaliação médica, principalmente em fumantes e em maiores de 50 anos.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['dpoc', 'tuberculose', 'pneumonia'],
+    references: [
+      {
+        label: 'Câncer de pulmão, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pulmao/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-colorretal',
+    slug: 'cancer-colorretal',
+    name: 'Câncer colorretal',
+    aliases: ['câncer de intestino', 'câncer de cólon', 'câncer de reto', 'câncer do intestino grosso', 'tumor colorretal'],
+    summary:
+      'Tumor que começa no cólon ou no reto e muitas vezes nasce de um pólipo. Sangue nas fezes e mudança do hábito intestinal são os sinais mais comuns, e a colonoscopia detecta a lesão antes de virar câncer.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é o câncer colorretal?',
+        paragraphs: [
+          'O câncer colorretal é o tumor que se forma no intestino grosso, que reúne o cólon e o reto. A maior parte começa como um pólipo, uma elevação na parede interna do intestino que cresce por anos antes de se transformar em câncer. Esse detalhe é o que torna a prevenção possível: retirar o pólipo durante a colonoscopia interrompe a história antes do tumor.',
+          'Mais de 90% dos casos são adenocarcinomas, tumores das células que revestem o intestino. O restante inclui tipos menos comuns, com comportamento e tratamento diferentes. A localização também importa: os tumores do lado direito do cólon dão mais anemia e cansaço, enquanto os do lado esquerdo e do reto costumam causar alteração do hábito intestinal e obstrução.',
+          'O diagnóstico precoce muda o desfecho. Quando o tumor está restrito à parede do intestino, a cirurgia costuma ser curativa; quando já atingiu fígado ou pulmão, o tratamento passa a ser sistêmico na maior parte dos casos.',
+        ],
+      },
+      {
+        id: 'dados-e-frequencia',
+        heading: 'Quantos casos existem no Brasil?',
+        paragraphs: [
+          'O Instituto Nacional de Câncer (INCA) estima cerca de 45.630 casos novos de câncer de intestino por ano no Brasil, sendo 21.970 em homens e 23.660 em mulheres. Em 2024 foram registradas 26.180 mortes por tumores de cólon e reto, segundo o Atlas de Mortalidade por Câncer.',
+          'A doença é mais comum depois dos 50 anos, mas tem aparecido em pessoas mais jovens, o que levou serviços a rever a idade de início da investigação em quem tem história familiar. As taxas mais altas estão no Sudeste, no Centro-Oeste e no Sul.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de câncer colorretal?',
+        paragraphs: [
+          'A classificação mais usada na prática olha para o tecido ao microscópio, porque é ele que define o tratamento. Há também uma divisão pelo aspecto do tumor e pela parte do intestino em que ele está, que ajuda a prever sintomas e complicações.',
+        ],
+        bullets: [
+          'Adenocarcinoma: mais de 90% dos casos, originado nas glândulas do intestino',
+          'Adenocarcinoma mucinoso: produz muco em grande quantidade e tende a ser mais agressivo',
+          'Anel de sinete: tipo raro, com células cheias de muco',
+          'Neuroendócrino e linfoma: menos comuns, com tratamentos próprios',
+        ],
+      },
+      {
+        id: 'estadiamento',
+        heading: 'O que é o estadiamento?',
+        paragraphs: [
+          'O estadiamento considera três informações: até onde o tumor invadiu a parede do intestino, se há gânglios comprometidos e se existem metástases. A combinação desses dados define o estágio, que vai do I ao IV, e é o que orienta a indicação de cirurgia, quimioterapia e radioterapia.',
+          'A avaliação começa pela colonoscopia com biópsia e segue com tomografia do tórax, do abdome e da pelve. Na doença do reto, a ressonância da pelve mostra com precisão o quanto o tumor avançou na parede e nos gânglios, informação decisiva para decidir se há radioterapia antes da cirurgia.',
+          'O fígado é o órgão mais atingido pela metástase, e parte desses casos ainda pode ser operada com intenção de cura. Por isso, o estudo do fígado com tomografia ou ressonância faz parte da investigação inicial, e não apenas do seguimento.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que aumenta o risco?',
+        paragraphs: [
+          'A idade acima de 50 anos é o fator mais consistente. Sobrepeso e obesidade, sedentarismo e alimentação pobre em frutas, verduras, cereais integrais e fibras aumentam o risco. O consumo de carne processada, como salsicha, mortadela, linguiça, presunto, bacon e salame, e a ingestão de mais de 500 gramas de carne vermelha cozida por semana também estão associados ao tumor.',
+          'A história familiar pesa bastante. Ter um parente de primeiro grau com câncer de intestino aumenta o risco, e algumas síndromes hereditárias, como a polipose adenomatosa familiar e o câncer colorretal hereditário sem polipose, elevam muito a chance de a doença aparecer cedo. Doenças inflamatórias intestinais, como a retocolite ulcerativa e a doença de Crohn, também exigem acompanhamento específico.',
+          'Tabagismo e consumo frequente de álcool entram na lista, assim como a exposição ocupacional ao asbesto, à radiação ionizante e o trabalho noturno. Quem já teve câncer de intestino, de ovário, de útero ou de mama tem risco maior de um novo tumor colorretal e precisa de seguimento próprio.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sinais e sintomas?',
+        paragraphs: [
+          'Sangue nas fezes é o sinal mais lembrado, mas não é o único. A mudança do hábito intestinal, com diarreia, prisão de ventre ou alternância entre as duas, aparece com frequência, assim como dor ou cólica abdominal, sensação de evacuação incompleta e fezes muito finas. Cansaço e anemia por falta de ferro podem ser a única pista em tumores do lado direito do cólon.',
+          'Perda de peso sem causa aparente, massa palpável no abdome e aumento do volume abdominal pedem investigação. Em tumores do reto, é comum a sensação de urgência para evacuar com eliminação de pouco conteúdo, o que muita gente confunde com hemorroida.',
+          'Nenhum desses sinais é exclusivo de câncer. Hemorroidas, verminoses, doenças inflamatórias intestinais e síndrome do intestino irritável produzem queixas parecidas, e é por isso que a investigação com colonoscopia é necessária quando os sintomas persistem.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Sangramento digestivo nunca deve ser tratado por conta própria com pomada ou suposição de hemorroida. Os sinais abaixo pedem consulta com urgência, e alguns exigem pronto atendimento.',
+        ],
+        bullets: [
+          'Sangue nas fezes, vivo ou escuro, pela primeira vez ou de forma persistente',
+          'Alteração do hábito intestinal que dura mais de três semanas',
+          'Fezes muito finas, com esforço para evacuar e sensação de esvaziamento incompleto',
+          'Anemia e cansaço sem causa explicada, sobretudo em maiores de 50 anos',
+          'Perda de peso rápida e sem motivo aparente',
+          'Dor abdominal intensa com parada de eliminação de fezes e gases',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'A colonoscopia é o exame central. Ela permite olhar toda a mucosa do intestino, retirar pólipos e colher fragmentos do tumor para análise. O exame é feito com sedação, dura em torno de meia hora e, quando o preparo é bem feito, alcança o intestino inteiro.',
+          'O toque retal e o exame do abdome ajudam a perceber tumores baixos e massas palpáveis. Exames de sangue podem mostrar anemia e alterações do CEA, um marcador tumoral que serve para acompanhar o tratamento, mas não para dar diagnóstico.',
+          'Depois da confirmação, a tomografia e, nos tumores de reto, a ressonância completam o estadiamento. No SUS, a investigação começa na Unidade Básica de Saúde, que encaminha para colonoscopia e para o serviço de referência em oncologia.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com câncer colorretal?',
+        paragraphs: [
+          'Como os sintomas são inespecíficos, várias doenças benignas entram na lista de suspeitas. A colonoscopia com biópsia é o que separa os quadros com segurança.',
+        ],
+        bullets: [
+          'Hemorroidas: sangramento vivo no fim da evacuação, sem alteração do hábito intestinal',
+          'Intestino irritável: dor e alteração do ritmo intestinal sem sangue e sem anemia',
+          'Doenças inflamatórias: diarreia crônica, cólica e sangramento, com inflamação na colonoscopia',
+          'Diverticulite: dor em um lado do abdome, febre e alteração do hábito intestinal',
+          'Parasitoses intestinais: diarreia, cólica e sangue, com melhora após tratamento',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'A cirurgia é o tratamento principal e, nos casos iniciais, pode ser suficiente para a cura. O tipo de operação depende da localização do tumor: retira-se o segmento do intestino comprometido com os gânglios da região e liga-se o restante do órgão. Em tumores muito precoces, limitados à superfície, a remoção pode ser feita pela própria colonoscopia.',
+          'Nos tumores de reto mais avançados, a radioterapia e a quimioterapia podem vir antes da cirurgia, para reduzir o tumor e aumentar a chance de preservar o esfíncter anal. Depois da operação, a quimioterapia é indicada conforme o estágio, para reduzir o risco de recidiva.',
+          'Na doença metastática, o tratamento combina quimioterapia, terapia-alvo e, em casos selecionados, cirurgia das lesões do fígado ou do pulmão. A decisão é sempre individual, discutida em equipe, e considera o estado geral da pessoa e o objetivo do tratamento.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Como é a cirurgia e quando é preciso usar bolsa?',
+        paragraphs: [
+          'A maior parte das operações de cólon pode ser feita por videolaparoscopia, com incisões pequenas e recuperação mais rápida. A recuperação inclui retorno gradual da alimentação e estímulo para caminhar cedo, o que reduz complicações.',
+          'Quando o tumor está muito próximo do ânus ou o esfíncter precisa ser retirado, a eliminação das fezes passa a ser feita por uma abertura no abdome, a colostomia. Em muitos casos ela é temporária, para proteger a ligação entre os segmentos do intestino, e é fechada meses depois. Quando é definitiva, há acompanhamento com enfermagem especializada e materiais adequados, e a vida cotidiana segue com adaptações.',
+        ],
+      },
+      {
+        id: 'radioterapia-e-quimioterapia',
+        heading: 'Radioterapia e quimioterapia',
+        paragraphs: [
+          'A radioterapia é usada sobretudo nos tumores de reto, antes ou depois da cirurgia, e pode ser indicada para aliviar dor e sangramento em casos avançados. O tratamento é diário por algumas semanas e pode causar irritação da pele, cansaço, diarreia e desconforto ao urinar, efeitos que costumam passar ao final.',
+          'A quimioterapia é aplicada em ciclos, com exames de sangue antes de cada etapa. Pode causar náusea, diarreia, aftas, cansaço e redução das defesas, além de neuropatia nas mãos e nos pés com alguns medicamentos. Existem ainda os tratamentos com terapia-alvo e imunoterapia, indicados conforme as características do tumor.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'Depois da cirurgia, as complicações mais temidas são a fístula na junção entre os segmentos do intestino, o sangramento e a infecção da ferida. A obstrução intestinal pode ocorrer por aderências, meses ou anos depois da operação, e se manifesta com dor, vômito e parada de eliminação de gases.',
+          'A recidiva é mais provável nos tumores que já atingiram gânglios ou órgãos à distância. O acompanhamento com exames periódicos existe justamente para detectar cedo um novo tumor ou uma metástase que ainda possa ser tratada com intenção de cura.',
+          'Alterações do ritmo intestinal, urgência para evacuar e incontinência podem persistir depois do tratamento do câncer de reto. Fisioterapia do assoalho pélvico e ajustes alimentares ajudam bastante, e devem ser buscados com orientação profissional.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Como é a vida depois do tratamento?',
+        paragraphs: [
+          'O seguimento inclui consultas, dosagem de CEA e exames de imagem, com colonoscopia de controle. O ritmo é definido pelo estágio e pelo tipo de cirurgia, e costuma ser mais intenso nos primeiros anos.',
+          'A alimentação ajuda a controlar o ritmo intestinal. Comer devagar, fracionar as refeições, beber líquidos ao longo do dia e observar como o corpo reage a fibras, laticínios e alimentos gordurosos é mais útil do que seguir regras rígidas. Quem tem estoma conta com materiais e acompanhamento específicos, e pode manter trabalho, esporte e vida social.',
+          'Sintomas novos, sangramento, dor abdominal forte, vômitos persistentes ou perda de peso devem ser relatados sem esperar a consulta marcada.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir e como rastrear?',
+        paragraphs: [
+          'A prevenção começa na mesa. Manter peso adequado, praticar atividade física na maior parte da semana, comer frutas, verduras, legumes, cereais integrais e feijões, evitar carne processada e limitar a carne vermelha a 500 gramas de carne cozida por semana reduzem o risco. Não fumar e moderar o álcool completam a lista.',
+          'O rastreamento do câncer colorretal é feito com exame de sangue oculto nas fezes e, quando o resultado é positivo, colonoscopia. A Organização Mundial da Saúde recomenda essa estratégia nos países que conseguem garantir confirmação diagnóstica e tratamento, e o Ministério da Saúde vem trabalhando nas diretrizes de um programa nacional. No Brasil, a indicação de rastreamento populacional já consolidada é para câncer de mama e de colo do útero.',
+          'Quem tem história familiar de câncer de intestino, doença inflamatória intestinal ou síndrome hereditária precisa de um calendário próprio, muitas vezes com colonoscopia começando antes dos 50 anos. Essa definição deve ser feita pelo médico, com base no caso individual.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Sangue nas fezes é sempre câncer?',
+        answer:
+          'Não. Hemorroidas e fissuras são causas comuns, mas qualquer sangramento precisa ser avaliado, principalmente em pessoas acima de 50 anos ou com alteração do hábito intestinal.',
+      },
+      {
+        question: 'Pólipo no intestino vira câncer?',
+        answer:
+          'Nem todo pólipo se transforma em câncer, mas alguns tipos podem evoluir em anos. Retirar os pólipos na colonoscopia é justamente o que interrompe esse processo.',
+      },
+      {
+        question: 'Quem tem colostomia pode voltar à vida normal?',
+        answer:
+          'Sim. Com materiais adequados e acompanhamento de enfermagem, é possível trabalhar, praticar esportes e manter a vida social. Em muitos casos a bolsa é temporária.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['cancer-de-pele', 'anemia-ferropriva', 'ulcera-peptica'],
+    references: [
+      {
+        label: 'Câncer do intestino, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-estomago',
+    slug: 'cancer-de-estomago',
+    name: 'Câncer de estômago',
+    aliases: ['câncer gástrico', 'câncer do estômago', 'tumor no estômago', 'adenocarcinoma gástrico'],
+    summary:
+      'Tumor que começa na mucosa do estômago, quase sempre sobre uma gastrite atrófica ou outra lesão pré-cancerosa. Emagrecimento, falta de apetite e dor no alto do abdome pedem endoscopia, e a cirurgia é o tratamento com chance de cura.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é o câncer de estômago?',
+        paragraphs: [
+          'O câncer de estômago começa nas células que revestem a parte interna do órgão, a mucosa. Quase todos os casos são adenocarcinomas, tumores que nascem das glândulas produtoras de ácido e de muco. Outros tipos, como o linfoma gástrico e o tumor do estroma gastrointestinal, são bem menos comuns e têm tratamento próprio.',
+          'O tumor cresce devagar e quase sempre em silêncio. Nas fases iniciais, a doença raramente dá sintoma, e quando dá, se parece com gastrite ou úlcera: queimação, estufamento depois de comer, dor vaga no alto do abdome. Por isso o diagnóstico chega tarde em boa parte dos casos.',
+          'A chance de cura depende do quanto o tumor avançou quando é encontrado. Limitado à mucosa ou à submucosa, ele pode ser retirado com intenção curativa. Quando já atravessou a parede, chegou a gânglios ou a outros órgãos, o tratamento passa a ser combinado e o objetivo muda.',
+          'No Brasil, o Instituto Nacional de Câncer (INCA) estima 22.530 casos novos por ano no triênio 2026 a 2028, sendo 13.830 em homens e 8.700 em mulheres. Em 2024 foram registradas 14.917 mortes pela doença, segundo o Atlas de Mortalidade por Câncer.',
+          'A doença é mais comum em pessoas mais velhas e atinge mais homens do que mulheres. A infecção pela bactéria Helicobacter pylori, um dos fatores de risco mais importantes, explica boa parte dos casos.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de câncer de estômago?',
+        paragraphs: [
+          'A classificação que orienta o tratamento olha para o tecido do tumor ao microscópio. A grande maioria é adenocarcinoma, e os tipos menos frequentes têm comportamento diferente e, por isso, tratamento diferente.',
+          'A localização muda os sintomas. Tumores na entrada do estômago, perto do esôfago, atrapalham a descida do alimento e causam dificuldade para engolir. Tumores na saída, perto do duodeno, provocam náusea e vômito porque o estômago não esvazia.',
+        ],
+        bullets: [
+          'Adenocarcinoma: mais de 90% dos casos, nasce das glândulas da mucosa',
+          'Carcinoma de células em anel de sinete: células cheias de muco, costuma ser mais agressivo',
+          'Adenoescamoso e medular: tipos raros, com áreas de glândula e de escama no mesmo tumor',
+          'Linfoma gástrico e tumor do estroma gastrointestinal: não são carcinomas e têm tratamento próprio',
+          'Câncer precoce: limitado à mucosa ou à submucosa, com ou sem gânglio comprometido',
+          'Câncer avançado: já atravessou a camada muscular e chegou à serosa ou a órgãos vizinhos',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'O que aumenta o risco?',
+        paragraphs: [
+          'A mucosa do estômago responde a agressões acumuladas ao longo de décadas. A infecção pela Helicobacter pylori é o fator mais importante: a bactéria coloniza o estômago, provoca inflamação crônica e, em parte das pessoas, leva à gastrite atrófica e à metaplasia intestinal, lesões que precedem o tumor.',
+          'Dieta e hábito pesam. Sal em excesso e alimentos conservados no sal, como embutidos e conservas, aumentam o risco, assim como o consumo de álcool e o tabagismo. Excesso de gordura corporal e sedentarismo entram na lista por vias indiretas, e a água de poços com alta concentração de nitrato também aparece entre os fatores de risco.',
+          'História familiar conta: ter pai, mãe ou irmão com câncer de estômago aumenta o risco. Anemia perniciosa, gastrite atrófica, metaplasia intestinal, cirurgia gástrica prévia e pólipos também pedem acompanhamento. Algumas exposições ocupacionais, como amianto, radiação e solventes da indústria da borracha, aparecem associadas à doença.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'No começo quase não há sintoma. Quando aparecem, são queixas vagas: estufamento depois de comer pouco, azia que não melhora com o remédio de sempre, náusea, dor surda no alto do abdome. Muita gente trata como gastrite por meses antes de procurar ajuda.',
+          'Com o tumor maior entram emagrecimento sem explicação, falta de apetite e cansaço por anemia, porque a lesão sangra devagar e a pessoa perde ferro sem perceber. Saciedade precoce, aquela sensação de estômago cheio com poucos garfos, é uma queixa frequente.',
+          'Na doença avançada pode haver vômito com sangue ou fezes escuras e pastosas, de cheiro forte, que indicam sangramento digestivo. Massa palpável no alto do abdome, aumento do fígado e caroços no pescoço ou perto do umbigo aparecem nos casos mais adiantados.',
+          'A localização do tumor muda a queixa principal: na entrada do estômago o alimento não desce e a pessoa sente dificuldade para engolir; na saída o estômago não esvazia e vêm náuseas e vômitos com restos de comida de horas antes.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Nenhum desses sinais confirma câncer, mas todos pedem investigação. Sangramento digestivo nunca deve ser tratado por conta própria, com remédio para azia ou suposição de gastrite.',
+        ],
+        bullets: [
+          'Vômito com sangue ou fezes escuras, pastosas e de cheiro forte',
+          'Emagrecimento rápido sem dieta e sem motivo aparente',
+          'Dor ou desconforto no alto do abdome que não melhora em algumas semanas',
+          'Dificuldade para engolir ou sensação de comida parada no peito',
+          'Sensação de estômago cheio com pouca comida, junto de náusea',
+          'Cansaço e palidez por anemia sem causa explicada',
+          'Massa palpável no alto do abdome ou caroço no pescoço e perto do umbigo',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'A endoscopia digestiva alta é o exame central. Com o paciente sedado, o médico passa um tubo fino com câmera pela boca e olha o esôfago e o estômago por dentro. Qualquer área suspeita é biopsiada, e o laudo do patologista é o que confirma ou afasta o câncer.',
+          'Lesões precoces são difíceis de ver: podem ser uma elevação mínima, uma área deprimida ou uma mancha avermelhada que não se destaca da mucosa. Por isso o exame depende da experiência de quem faz e do tempo dedicado a olhar cada trecho do estômago.',
+          'Exames de sangue não dão diagnóstico. O hemograma mostra anemia, e os marcadores tumorais CEA e CA 19-9 servem para acompanhar tratamento e recidiva, não para rastrear a doença.',
+          'Com a biópsia confirmada, o estadiamento usa o sistema TNM, que soma três informações: a profundidade do tumor na parede, os gânglios comprometidos e a presença de metástase. A combinação coloca a doença em estágios que vão do 0 ao IV e define se haverá cirurgia, quimioterapia ou as duas coisas.',
+          'Para completar o estágio entram a tomografia de tórax e abdome e, nos tumores precoces, a ultrassonografia endoscópica, que mostra em que camada da parede a lesão parou. A ressonância ajuda quando há suspeita de metástase no fígado, e a tomografia por emissão de pósitrons fica para os casos em que a dúvida sobre metástase muda a conduta.',
+          'No SUS a investigação começa na Unidade Básica de Saúde, que encaminha para a endoscopia e, com o diagnóstico confirmado, para um serviço de referência em oncologia. O caso passa por gastroenterologista, cirurgião do aparelho digestivo e oncologista, conforme a etapa, e o tratamento oncológico é oferecido pelo sistema público.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com câncer de estômago?',
+        paragraphs: [
+          'As queixas do câncer gástrico se parecem com as de doenças benignas muito comuns, e só a endoscopia com biópsia separa com segurança.',
+        ],
+        bullets: [
+          'Gastrite: azia e dor no alto do abdome, sem massa e sem anemia',
+          'Úlcera péptica: dor em queimação que piora em jejum e melhora com o remédio',
+          'Linfoma gástrico: úlceras extensas e superficiais, diagnosticadas por biópsia',
+          'Tumor do estroma (GIST): cresce na parede, muitas vezes grande e sem sangramento',
+          'Pólipo e tumor benigno: lesões pequenas, de crescimento lento, retiradas na endoscopia',
+          'Dispepsia funcional: sintomas sem lesão visível no exame',
+        ],
+      },
+      {
+        id: 'tratamento-de-suporte',
+        heading: 'Suporte, nutrição e terapias complementares',
+        paragraphs: [
+          'Parte do cuidado não ataca o tumor, e sim o que ele provoca. Quando há sangramento intenso ou obstrução, a internação é imediata: o objetivo é conter a hemorragia, descomprimir o estômago e estabilizar a pessoa antes de qualquer outra decisão.',
+          'Nutrição é parte do tratamento. Quem vai operar precisa chegar à cirurgia com peso e força, e quem tem dificuldade para engolir ou vomita muito pode precisar de sonda ou suplemento líquido. Perder peso durante a quimioterapia piora a tolerância ao tratamento.',
+          'Práticas complementares, como acupuntura, meditação e fitoterapia, podem aliviar náusea, dor e ansiedade, mas não substituem cirurgia, quimioterapia ou radioterapia. Nenhuma delas trata o tumor.',
+          'O que a pessoa toma por conta própria precisa ser informado à equipe. Algumas ervas interferem no efeito dos quimioterápicos e sobrecarregam o fígado, e suplementos em dose alta podem atrapalhar a cirurgia e a radioterapia.',
+        ],
+        bullets: [
+          'Sangramento digestivo: controle por endoscopia e transfusão quando necessário',
+          'Obstrução: sonda, prótese ou cirurgia de desvio para permitir a alimentação',
+          'Dor: analgesia em escada, com opioides quando o caso exige',
+          'Náusea e vômito: antieméticos antes e depois das sessões',
+          'Anemia: reposição de ferro e transfusão nos casos sintomáticos',
+        ],
+      },
+      {
+        id: 'cirurgia-e-endoscopia',
+        heading: 'Cirurgia e tratamento por endoscopia',
+        paragraphs: [
+          'A cirurgia é o tratamento que oferece cura. Retira-se a parte do estômago onde está o tumor e os gânglios ao redor, e o trânsito é reconstruído ligando o que sobrou ao esôfago ou ao intestino. Em boa parte dos casos a operação pode ser feita por videolaparoscopia.',
+          'Quanto menor a retirada, melhor a vida depois. Em tumores muito precoces, restritos à mucosa, sem gânglio comprometido e com menos de 2 cm, a lesão pode ser retirada pela própria endoscopia, por dissecção submucosa. O procedimento preserva o estômago e a recuperação é rápida.',
+          'Depois de uma gastrectomia a pessoa passa a comer menos por vez e precisa fracionar as refeições. Pode aparecer dumping, aquela sensação de fraqueza, suor frio e coração acelerado logo depois de comer, e anemia por falta de ferro e de vitamina B12, que exige reposição e acompanhamento.',
+        ],
+      },
+      {
+        id: 'quimio-radio-e-terapias-alvo',
+        heading: 'Quimioterapia, radioterapia e terapias-alvo',
+        paragraphs: [
+          'A quimioterapia entra em três momentos. Antes da cirurgia, para encolher o tumor e aumentar a chance de retirada completa. Depois da operação, para reduzir o risco de recidiva em quem tem gânglios comprometidos. E na doença avançada, para controlar sintomas e prolongar a vida.',
+          'A radioterapia é usada sobretudo em tumores da junção do estômago com o esôfago e nos casos em que a cirurgia não conseguiu margens livres. Também alivia dor e sangramento quando o tumor não pode ser operado. As sessões são diárias por algumas semanas e costumam causar cansaço, náusea e irritação da pele.',
+          'A terapia-alvo depende do que o tumor tem de especial. Tumores com excesso da proteína HER2 podem receber trastuzumabe junto da quimioterapia, com avaliação do coração antes e durante o tratamento. Na doença avançada, a imunoterapia com inibidores de checkpoint passou a fazer parte do arsenal, indicada conforme as características do tumor.',
+          'Efeitos colaterais são manejáveis, mas exigem atenção: queda de cabelo, aftas, diarreia, formigamento nas mãos e nos pés, redução das defesas e infecções. Febre durante a quimioterapia não é sintoma para esperar em casa.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'Sangramento é a complicação mais temida. Pode ser lento e contínuo, causando anemia, ou súbito e volumoso, com vômito de sangue e queda de pressão. Obstrução é a outra: o tumor fecha a saída do estômago e a pessoa para de tolerar líquidos, com vômitos persistentes.',
+        ],
+        bullets: [
+          'Sangramento digestivo, agudo ou crônico',
+          'Obstrução da saída do estômago',
+          'Perfuração, com dor súbita e abdome rígido',
+          'Fístula na ligação entre o estômago e o intestino, depois da cirurgia',
+          'Desnutrição e perda de peso progressiva',
+          'Ascite e obstrução intestinal quando há metástase no peritônio',
+        ],
+      },
+      {
+        id: 'recidiva-e-metastase',
+        heading: 'O câncer pode voltar ou se espalhar?',
+        paragraphs: [
+          'Sim. O risco de recidiva é maior nos dois primeiros anos depois do tratamento, e é por isso que as consultas são mais frequentes nesse período. A volta pode ser no próprio estômago, na linha da cirurgia ou em outro órgão.',
+          'A disseminação acontece por três caminhos. O mais comum é o linfático, pelos gânglios ao redor do estômago. Pelo sangue, as células chegam primeiro ao fígado. Quando se espalham pela cavidade abdominal, produzem ascite, com aumento do volume da barriga e desconforto.',
+          'Metástase não significa que nada mais pode ser feito. Dependendo do caso, a quimioterapia controla a doença por meses ou anos, e lesões isoladas no fígado podem ser operadas em situações selecionadas. A conversa sobre o objetivo do tratamento deve ser franca e incluir o que importa para quem está doente.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Como é a vida em casa durante e depois do tratamento?',
+        paragraphs: [
+          'Comer passa a ser um exercício de paciência. Refeições pequenas e frequentes, cinco ou seis por dia, funcionam melhor do que três grandes. Mastigar devagar, evitar líquidos junto com a comida e deitar só depois de meia hora reduz o desconforto e o dumping.',
+          'Proteína tem prioridade: ovo, peixe, frango, feijão, iogurte e queijo ajudam a manter massa muscular. Suplemento só com orientação, porque a quantidade de calorias e de nutrientes precisa ser calculada. Bebida alcoólica e cigarro devem sair da rotina.',
+          'Cansaço é esperado e melhora com movimento leve e regular, como uma caminhada curta. Sono, higiene e vacinação em dia protegem quem está com as defesas baixas. Medo e tristeza fazem parte do percurso e não precisam ser enfrentados sozinhos: falar com a equipe e com quem já passou pela cirurgia ajuda. Se houver febre, calafrio, vômito que não passa ou sangramento, procure atendimento no mesmo dia.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Qual é o acompanhamento depois do tratamento?',
+        paragraphs: [
+          'O seguimento é feito com consultas, exames de sangue e endoscopia, em ritmo que depende do estágio e do tipo de cirurgia. O INCA orienta consultas a cada três meses até dois anos depois do tratamento, a cada seis meses do terceiro ao quinto ano e anualmente a partir daí.',
+          'Exames de imagem e marcadores entram conforme o caso. O objetivo não é fazer exame por fazer: é encontrar cedo uma recidiva que ainda possa ser tratada e corrigir anemia, falta de vitamina B12 e perda de peso antes que virem problema maior.',
+          'Vale anotar sintomas novos, mudanças no apetite e no peso e levar a lista na consulta. Perder peso sem querer, voltar a sentir dor, engasgar com frequência ou ver sangue nas fezes ou no vômito são motivos para adiantar a avaliação.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir?',
+        paragraphs: [
+          'Não existe vacina contra o câncer gástrico, e o rastreamento em massa não é recomendado no Brasil. O INCA é claro nesse ponto: não há evidência de que examinar toda a população com endoscopia traga mais benefício do que risco. O caminho é reduzir exposição e investigar sintomas cedo.',
+          'Na mesa, menos sal e menos conserva. Temperar com ervas, evitar embutidos e alimentos defumados, comer frutas, verduras e feijão com frequência e manter peso saudável reduzem o risco. Parar de fumar e moderar o álcool completam o quadro.',
+          'Quem tem história familiar de câncer gástrico, gastrite atrófica, metaplasia intestinal ou já tratou Helicobacter pylori deve conversar com o médico sobre acompanhamento e sobre a necessidade de endoscopia periódica. A decisão é individual, e não existe um calendário único que sirva para todos.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Câncer de estômago tem cura?',
+        answer:
+          'Sim, quando é encontrado cedo. Em tumores limitados à mucosa ou à submucosa, a cirurgia ou a retirada por endoscopia resolve a maior parte dos casos. Na doença avançada, o objetivo passa a ser controlar o tumor e manter a qualidade de vida.',
+      },
+      {
+        question: 'Azia todos os dias pode ser câncer?',
+        answer:
+          'Não necessariamente. Azia é mais vezes refluxo ou gastrite, mas sintoma que não melhora com o tratamento, que vem junto de emagrecimento ou que muda de padrão precisa de endoscopia.',
+      },
+      {
+        question: 'Helicobacter pylori sempre causa câncer?',
+        answer:
+          'Não. Muitas pessoas têm a bactéria no estômago e nunca terão câncer, mas a infecção crônica é o principal fator de risco da doença e deve ser tratada quando identificada.',
+      },
+      {
+        question: 'Preciso fazer endoscopia de rotina?',
+        answer:
+          'Não existe indicação de endoscopia periódica para toda a população no Brasil. O exame é pedido quando há sintomas, história familiar ou lesões pré-cancerosas conhecidas, e essa decisão é do médico.',
+      },
+      {
+        question: 'Quem retira o estômago volta a comer normalmente?',
+        answer:
+          'A pessoa passa a comer menos por vez e precisa fracionar as refeições. Com acompanhamento nutricional, o peso se estabiliza e a alimentação volta a ser variada, com adaptações.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['infeccao-por-helicobacter-pylori', 'ulcera-peptica', 'anemia-ferropriva', 'cancer-colorretal'],
+    references: [
+      {
+        label: 'Câncer de estômago, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/estomago/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+
+  {
+    id: 'leucemia-linfoblastica-aguda',
+    slug: 'leucemia-linfoblastica-aguda',
+    name: 'Leucemia linfoblástica aguda',
+    aliases: ['LLA', 'leucemia linfoide aguda', 'leucemia linfocítica aguda', 'leucemia aguda da infância'],
+    summary:
+      'Câncer das células precursoras dos linfócitos que se acumula na medula óssea e derruba a produção de sangue. Anemia, infecções de repetição e manchas roxas pedem hemograma e mielograma, e o tratamento é uma quimioterapia longa, por etapas.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é a leucemia linfoblástica aguda?',
+        paragraphs: [
+          'A leucemia linfoblástica aguda, ou LLA, é um câncer do sangue que começa nas células precursoras dos linfócitos, um tipo de glóbulo branco. Essas células imaturas, chamadas linfoblastos, se multiplicam sem parar dentro da medula óssea e tomam o lugar de quem produzia hemácias, plaquetas e glóbulos brancos maduros.',
+          'O resultado é a queda das três linhagens do sangue: anemia, sangramento por falta de plaquetas e infecções por falta de neutrófilos. As células doentes também podem sair da medula e se instalar em gânglios, baço, fígado, sistema nervoso central e testículos.',
+          'É aguda porque avança depressa: sem tratamento, progride em semanas. Ao mesmo tempo, é uma das neoplasias com maior chance de cura quando o tratamento é feito em serviço preparado, sobretudo em crianças.',
+          'No Brasil, o INCA estima 12.220 casos novos de leucemia por ano no triênio 2026 a 2028, somando todos os tipos, e registrou 7.817 mortes pela doença em 2024. A LLA é o tipo de leucemia mais comum na infância e também aparece em adultos, com resultado pior nessa faixa.',
+          'No mundo, a Organização Mundial da Saúde calcula cerca de 400 mil casos de câncer por ano em crianças e adolescentes de até 19 anos, e as leucemias estão entre os tipos mais frequentes. Onde os serviços são completos, mais de 80% das crianças se curam; onde o acesso é limitado, menos de 30%.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de LLA?',
+        paragraphs: [
+          'A classificação combina o tipo de linfócito afetado e as alterações genéticas das células doentes, porque é isso que define o tratamento e o prognóstico. A divisão antiga, que separava as células em L1, L2 e L3 pelo formato ao microscópio, caiu em desuso.',
+          'Hoje o que vale é a imunofenotipagem, que identifica as proteínas na superfície da célula, e o painel genético, que aponta alterações como ETV6-RUNX1, BCR-ABL1, rearranjo de KMT2A e iAMP21. É esse conjunto que separa a doença de baixo risco da de alto risco.',
+        ],
+        bullets: [
+          'LLA de células B: cerca de 80% dos casos, com origem nos precursores de linfócito B',
+          'LLA de células T: mais comum em adolescentes e adultos jovens, às vezes com massa no mediastino',
+          'LLA Ph-positiva: carrega o cromossomo Philadelphia e recebe um inibidor de tirosina quinase',
+          'LLA Ph-negativa: sem essa alteração, tratada com quimioterapia padrão',
+          'LLA do lactente: aparece no primeiro ano de vida, com alterações genéticas próprias e pior prognóstico',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'O que causa a leucemia linfoblástica aguda?',
+        paragraphs: [
+          'Na maior parte dos casos não há causa identificável. A doença aparece por mutações adquiridas nas células precursoras, e não por algo que a pessoa fez ou deixou de fazer.',
+          'Radiação ionizante e benzeno são os fatores ambientais com associação comprovada. Também entram na lista alguns quimioterápicos usados em tratamentos anteriores, o formaldeído em exposição ocupacional, agrotóxicos, solventes e o trabalho na indústria da borracha. Vírus como o HTLV-1 e doenças autoimunes aparecem associados a alguns tipos de leucemia, e quem já teve síndrome mielodisplásica ou outra doença da medula tem risco maior.',
+          'Síndromes genéticas aumentam o risco, e a síndrome de Down é a mais conhecida. Ter um parente próximo com leucemia também pesa, embora a doença não seja hereditária na maioria dos casos.',
+          'A idade se comporta de forma curiosa: a LLA é mais comum em crianças pequenas, enquanto os outros tipos de leucemia ficam mais frequentes com o envelhecimento.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas vêm da medula ocupada. Anemia dá palidez, cansaço, falta de ar aos esforços, palpitação e dor de cabeça. Falta de plaqueta dá manchas roxas e pontos vermelhos na pele, sangramento de gengiva e de nariz que demora a parar.',
+          'Falta de neutrófilo dá febre e infecção. A febre pode ser baixa ou alta, muitas vezes sem foco aparente, e não cede ao antibiótico comum. Infecções de boca, garganta, pulmão, períneo e trato urinário se repetem e evoluem rápido.',
+          'Quando as células doentes se acumulam fora da medula aparecem gânglios inchados e indolores no pescoço e nas axilas, aumento do baço e do fígado com desconforto abdominal e dor nos ossos e nas articulações. Se a doença chega ao sistema nervoso central, surgem dor de cabeça, náusea, vômito e visão dupla.',
+          'Em meninos, aumento indolor e endurecido de um testículo pode ser o primeiro sinal de recidiva. Em adolescentes com LLA de células T pode haver massa no mediastino, com tosse, falta de ar e dificuldade para deitar.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Febre em quem está em tratamento de leucemia é emergência. A queda de defesas faz uma infecção comum virar sepse em poucas horas, e o atendimento não pode esperar o dia seguinte.',
+        ],
+        bullets: [
+          'Febre, mesmo baixa, em quem está em quimioterapia ou com as defesas baixas',
+          'Manchas roxas ou pontos vermelhos na pele sem trauma',
+          'Sangramento que não para, de gengiva, nariz ou fezes',
+          'Palidez intensa, cansaço súbito ou falta de ar em repouso',
+          'Dor de cabeça forte, vômito persistente, visão dupla ou convulsão',
+          'Gânglios que crescem rápido, massa no pescoço ou no peito com falta de ar',
+          'Dor óssea intensa, sobretudo em criança que passa a mancar ou a recusar andar',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'A suspeita começa no hemograma. Na maioria das vezes há aumento de leucócitos com células imaturas circulando, junto de anemia e plaquetas baixas. Em uma minoria o número de leucócitos está baixo, o que não afasta a doença.',
+          'A confirmação vem do mielograma: uma amostra da medula, colhida do osso da bacia, vai para análise da forma das células, citogenética, biologia molecular e imunofenotipagem. A partir daí se define o tipo, o perfil genético e o risco. Quando a coleta vem vazia ou a medula está necrosada, uma biópsia do osso da bacia com agulha própria completa o material.',
+          'A punção lombar colhe o líquor para ver se há células doentes no sistema nervoso central, e essa avaliação é feita já no diagnóstico. Exames de imagem, como radiografia de tórax, ultrassom e tomografia, procuram massa, aumento de órgãos e foco de infecção.',
+          'O caso é conduzido pelo hematologista, em serviço com hemoterapia, microbiologia e terapia intensiva. No SUS o paciente chega por encaminhamento da Unidade Básica de Saúde, do pronto atendimento ou do pediatra, e segue para um centro de referência em oncologia.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com LLA?',
+        paragraphs: [
+          'Várias doenças imitam a leucemia no hemograma e nos sintomas, e o exame da medula é o que separa os quadros.',
+        ],
+        bullets: [
+          'Reação leucemoide: leucócitos muito altos por infecção grave, que normalizam com o tratamento da infecção',
+          'Mononucleose infecciosa: febre, dor de garganta e gânglios, com linfócitos atípicos e sem queda de plaquetas',
+          'Anemia aplástica: as três linhagens caem, mas a medula está vazia, não infiltrada',
+          'Artrite idiopática juvenil: dor articular e febre, sem células imaturas na medula',
+          'Púrpura trombocitopênica: só as plaquetas caem, com medula normal',
+          'Tumor sólido da infância: infiltra a medula e exige biópsia para o diagnóstico',
+        ],
+      },
+      {
+        id: 'tratamento-de-suporte',
+        heading: 'Como é o suporte antes e durante a quimioterapia?',
+        paragraphs: [
+          'Antes de atacar a doença é preciso segurar as complicações. Quando os leucócitos passam de 100 mil por microlitro, o sangue fica espesso e sobe o risco de obstrução de vasos no cérebro e no pulmão, o que exige quimioterapia imediata e, às vezes, procedimento para retirar leucócitos da circulação.',
+          'A prevenção da síndrome de lise tumoral é rotina: hidratação generosa, controle do ácido úrico e monitoramento de potássio, fósforo e cálcio, porque a destruição rápida das células doentes desequilibra esses minerais e pode lesar os rins.',
+        ],
+        bullets: [
+          'Infecção: isolamento quando indicado, higiene das mãos e antibiótico de amplo espectro na primeira suspeita',
+          'Anemia: transfusão de concentrado de hemácias quando há sintomas',
+          'Plaquetas baixas: transfusão conforme o risco de sangramento',
+          'Nutrição: aporte calórico e proteico, com suporte por sonda ou venoso quando necessário',
+          'Mucosite: higiene bucal, analgesia e prevenção de infecção',
+        ],
+      },
+      {
+        id: 'quimioterapia',
+        heading: 'Como é a quimioterapia?',
+        paragraphs: [
+          'O tratamento é longo e dividido em etapas, cada uma com um objetivo. A primeira é a indução da remissão, que busca zerar as células doentes visíveis e devolver a medula ao normal, e costuma durar cerca de um mês.',
+          'O esquema é ajustado ao risco. Quem tem doença de baixo risco recebe menos intensidade; quem carrega alterações genéticas desfavoráveis ou responde devagar ao primeiro ciclo recebe mais. A resposta é medida pela doença residual mínima, um exame que detecta células doentes em quantidade que o microscópio não vê.',
+          'Na LLA Ph-positiva entra um inibidor de tirosina quinase, como imatinibe ou dasatinibe, junto da quimioterapia. Esse grupo mudou de prognóstico nas últimas décadas e hoje tem chance de cura bem maior do que antes.',
+          'A quimioterapia no líquor é parte do tratamento, não um detalhe. Sem ela, células doentes se escondem atrás da barreira que protege o cérebro e voltam meses depois, e esse é um dos principais motivos de recidiva. A radioterapia ficou restrita a situações específicas, como doença no sistema nervoso central que não responde ao tratamento no líquor e o comprometimento dos testículos.',
+        ],
+        bullets: [
+          'Indução: corticoide, vincristina, antraciclina e asparaginase, com o objetivo de remissão completa',
+          'Consolidação: ciclos com outros quimioterápicos, para eliminar o que sobrou',
+          'Reindução tardia: repetição de esquemas em momentos definidos',
+          'Manutenção: comprimidos diários e doses periódicas por dois anos ou mais, para evitar recidiva',
+          'Profilaxia no líquor: quimioterapia por punção lombar, em momentos fixos',
+        ],
+      },
+      {
+        id: 'transplante-e-outras-terapias',
+        heading: 'Transplante de medula e outras terapias',
+        paragraphs: [
+          'O transplante de células-tronco hematopoéticas é indicado para uma parte dos casos: quem não alcançou remissão no primeiro ciclo, quem tem doença residual mínima alta depois da indução e quem carrega alterações genéticas de alto risco.',
+          'Não é tratamento de primeira linha para todo mundo. O transplante tem mortalidade própria e exige doador compatível, e a decisão é tomada caso a caso, comparando o risco de recidiva com o risco do procedimento.',
+          'A terapia-alvo vai além dos inibidores de tirosina quinase. Anticorpos monoclonais e imunoconjugados, que reconhecem proteínas na superfície do linfoblasto, são usados junto da quimioterapia em situações específicas, sobretudo na doença que voltou.',
+          'Práticas complementares, como acupuntura e meditação, podem ajudar com náusea, dor e ansiedade, mas não tratam a leucemia e não substituem a quimioterapia. Algumas ervas interferem no metabolismo dos quimioterápicos, por isso tudo precisa ser informado à equipe.',
+        ],
+      },
+      {
+        id: 'car-t-e-novidades',
+        heading: 'O que é a terapia com células CAR-T?',
+        paragraphs: [
+          'A terapia com células CAR-T reprograma os linfócitos T da própria pessoa para reconhecer um marcador na superfície do linfoblasto, hoje principalmente o CD19. As células são coletadas, modificadas em laboratório e devolvidas por infusão.',
+          'O tratamento é indicado sobretudo para crianças e adultos jovens com LLA de células B que recaíram ou não responderam a várias linhas de tratamento. Em parte desses casos alcança remissão completa em pessoas que já tinham poucas opções.',
+          'Os efeitos colaterais são próprios e exigem serviço preparado: a síndrome de liberação de citocinas, com febre, queda de pressão e dificuldade para respirar, e a neurotoxicidade, com confusão, tremor e convulsão. Também pode haver queda prolongada de células B, com necessidade de reposição de imunoglobulina.',
+          'A terapia ainda não substitui o transplante em todos os casos e continua em avaliação para uso mais cedo no tratamento. O acesso é limitado e concentrado em centros de pesquisa e serviços de alta complexidade.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Sem tratamento, a leucemia aguda progride rápido e leva à morte em semanas a poucos meses. Com tratamento adequado o cenário é outro: a maioria das crianças com LLA alcança remissão completa e uma parte importante se cura.',
+          'O resultado depende de idade, tipo de linfócito, alterações genéticas, número de leucócitos ao diagnóstico e, sobretudo, da resposta ao primeiro ciclo. Crianças pequenas com doença de baixo risco têm o melhor prognóstico; lactentes e adultos têm resultado pior.',
+          'A diferença entre países não vem da biologia da doença. A OMS atribui a sobrevida menor à demora no diagnóstico, à dificuldade de acesso ao tratamento, ao abandono e à morte por toxicidade, problemas que dependem do sistema de saúde e não do tumor.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'As complicações se dividem entre as que vêm da doença e as que vêm do tratamento. As infecciosas são as mais frequentes e as mais graves, porque a medula fica vazia justamente quando a quimioterapia é mais intensa.',
+        ],
+        bullets: [
+          'Síndrome de lise tumoral: desequilíbrio de potássio, fósforo e cálcio, com risco de lesão renal',
+          'Neutropenia febril: febre sem foco aparente, que exige antibiótico imediato',
+          'Cardiotoxicidade: lesão do músculo cardíaco por antraciclinas, com queda da função de bombeamento',
+          'Neurotoxicidade: formigamento, fraqueza e, com alguns esquemas, convulsão',
+          'Toxicidade hepática e pancreática, com elevação de enzimas',
+          'Osteonecrose e perda de densidade óssea, sobretudo com corticoide prolongado',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Como é o cuidado em casa durante o tratamento?',
+        paragraphs: [
+          'Em casa o foco é evitar infecção e manter o corpo forte. Lavar as mãos com frequência, evitar aglomeração em época de surto, manter os ambientes ventilados e não compartilhar copos e talheres são medidas simples e eficazes.',
+          'A alimentação precisa ser segura e nutritiva. Evitar alimentos crus de risco, como sushi, ovos moles e leite não pasteurizado, reduz infecção; manter proteína em todas as refeições ajuda a atravessar os ciclos. Quem tem aftas pode precisar de comida fria e pastosa por alguns dias.',
+          'Movimento leve, como caminhada curta e alongamento, preserva massa muscular e humor. Sono regular e apoio emocional fazem parte do tratamento, e o cansaço não deve ser enfrentado com cobrança.',
+          'Escova de dentes macia, cuidado com a pele e atenção a qualquer ferida pequena fecham portas de entrada para bactéria. Com as plaquetas baixas, evitar quedas e batidas também protege: tapete solto, banheiro sem apoio e móvel de quina viva viram risco. Com animais de estimação a higiene precisa ser redobrada, e vacinas de vírus vivo não podem ser tomadas durante a quimioterapia.',
+        ],
+      },
+      {
+        id: 'acompanhamento-e-prevencao',
+        heading: 'Acompanhamento e prevenção',
+        paragraphs: [
+          'Depois de terminar o tratamento o acompanhamento continua. Consultas, hemograma e exames específicos são feitos em intervalos que se espaçam com o tempo, e o objetivo é detectar recidiva cedo e tratar as sequelas.',
+          'Crescimento, fertilidade, função cardíaca, aprendizado e risco de um segundo câncer precisam de olhar ao longo dos anos, com equipe que conheça essa história. Esse cuidado é parte do tratamento, não um extra.',
+          'Não existe rastreamento populacional para leucemia, e o INCA não recomenda exames periódicos em quem não tem sintoma. O que existe é atenção aos sinais: palidez, cansaço, febre, infecções repetidas, manchas roxas e sangramentos sem explicação pedem hemograma.',
+          'A prevenção possível é limitada, porque a maioria dos casos não tem fator de risco modificável. Reduzir exposição a benzeno, a radiação ionizante desnecessária e a agrotóxicos, com uso correto de proteção no trabalho, é o que está ao alcance.',
+          'Famílias de crianças em tratamento precisam de apoio prático: transporte, alimentação, afastamento do trabalho e rede de cuidado. Serviços de assistência e organizações de apoio existem em vários estados e fazem diferença para que o tratamento não seja interrompido.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Leucemia linfoblástica aguda tem cura?',
+        answer:
+          'Sim, em boa parte dos casos, sobretudo em crianças. O tratamento é longo e dividido em fases, e o resultado depende do tipo de linfócito, das alterações genéticas e da resposta ao primeiro ciclo.',
+      },
+      {
+        question: 'É contagiosa?',
+        answer:
+          'Não. Leucemia não passa de uma pessoa para outra pelo contato, pelo ar ou por alimentos. Quem está em tratamento pode receber visitas, com higiene e cuidado com pessoas doentes.',
+      },
+      {
+        question: 'Todo mundo com LLA precisa de transplante de medula?',
+        answer:
+          'Não. O transplante fica para os casos de alto risco ou de recidiva, e a indicação é discutida caso a caso com a equipe que acompanha o tratamento.',
+      },
+      {
+        question: 'Criança com leucemia pode voltar à escola?',
+        answer:
+          'Sim, quando as defesas permitem e com acordo entre a equipe, a escola e a família. Manter estudo e convivência ajuda no desenvolvimento e no bem-estar durante o tratamento.',
+      },
+      {
+        question: 'Por que o tratamento dura anos?',
+        answer:
+          'Porque sobram células doentes em quantidade que o microscópio não vê depois da remissão. A fase de manutenção existe para eliminar essas células e reduzir a chance de recaída.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao', 'saude-infantil'],
+    relatedDiseaseSlugs: ['anemia-ferropriva', 'doenca-falciforme', 'pneumonia'],
+    references: [
+      {
+        label: 'Leucemia, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/leucemia/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Leucemia',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/leucemia',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Childhood cancer: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cancer-in-children',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'toxoplasmose',
+    slug: 'toxoplasmose',
+    name: 'Toxoplasmose',
+    aliases: [
+      'toxoplasmose congênita',
+      'toxoplasmose ocular',
+      'infecção por Toxoplasma gondii',
+      'doença do gato',
+      'toxoplasmose na gravidez',
+    ],
+    summary:
+      'Infecção causada pelo protozoário Toxoplasma gondii, quase sempre sem sintomas em quem tem imunidade boa. O risco está na gestação, porque o parasita pode passar para o bebê, e em pessoas com imunidade baixa, que podem ter lesão no cérebro e nos olhos.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é toxoplasmose?',
+        paragraphs: [
+          'Toxoplasmose é a infecção causada pelo Toxoplasma gondii, um protozoário que parasita células de animais de sangue quente, incluindo as pessoas. Os gatos e outros felinos são os hospedeiros definitivos: é no intestino deles que o parasita completa o ciclo e elimina os oocistos, a forma resistente que contamina o ambiente pelas fezes.',
+          'A doença está entre as zoonoses mais comuns do mundo. Em boa parte das pessoas a infecção passa sem sintoma nenhum e só é descoberta por acaso, em um exame de sangue de rotina ou na triagem do pré-natal. Depois da fase aguda, o parasita costuma ficar quieto dentro de cistos nos tecidos, sob controle do sistema imunológico.',
+          'O que torna a toxoplasmose importante não é a frequência, e sim quem ela pega. Em uma pessoa com imunidade em ordem, o quadro costuma ser banal. Em gestantes, o parasita pode atravessar a placenta e comprometer o bebê. Em quem tem imunidade baixa, ele pode voltar a se multiplicar e atingir o cérebro.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas da toxoplasmose?',
+        paragraphs: [
+          'A divisão mais usada separa a infecção adquirida depois do nascimento da forma congênita, transmitida da mãe para o feto. Dentro da forma adquirida, o que muda de um caso para outro é o órgão atingido e o estado imunológico da pessoa.',
+        ],
+        bullets: [
+          'Adquirida: pega pela boca, por alimento ou água contaminada, e costuma cursar com gânglios e sintomas leves',
+          'Congênita: passa da gestante para o feto durante a gravidez e pode deixar sequelas visuais e neurológicas',
+          'Ocular: inflamação da retina e da coroide, que pode aparecer na fase aguda ou anos depois',
+          'Cerebral: forma grave de quem tem imunidade baixa, com confusão, convulsão e déficit neurológico',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a toxoplasmose é transmitida?',
+        paragraphs: [
+          'A porta de entrada mais comum é a boca. O parasita chega em carne mal cozida, principalmente de porco e de caça, em água sem tratamento, em frutas e verduras mal lavadas e em alimentos que tiveram contato com solo contaminado. O oocisto eliminado nas fezes dos felinos é resistente no ambiente e pode sobreviver em hortas, caixas de areia e hortaliças.',
+          'A segunda via é a congênita: quando a mulher se infecta durante a gestação, o parasita pode chegar ao feto pelo cordão umbilical. Quanto mais tarde a infecção acontece, maior a chance de transmissão; quanto mais cedo, maior o risco de lesão grave. As duas coisas precisam ser conversadas com a equipe do pré-natal.',
+          'Transmissão por transfusão de sangue e por transplante de órgão existe, mas é rara. Inalação de aerossóis contaminados e inoculação acidental em laboratório também são descritas como formas excepcionais.',
+          'Uma dúvida frequente: conviver com um gato não basta para pegar toxoplasmose. O risco está no contato com fezes contaminadas, na terra e na areia onde o animal defecou, e não no pelo ou no carinho. Também não há transmissão de uma pessoa para outra pelo convívio, pelo ar ou por objetos de uso comum.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a toxoplasmose?',
+        paragraphs: [
+          'A causa é sempre a infecção pelo Toxoplasma gondii. O parasita tem formas diferentes conforme o estágio: os taquizoítos circulam na fase ativa e são os responsáveis pelos sintomas; os bradizoítos ficam dentro de cistos nos tecidos e explicam por que a infecção pode reacender anos depois; os oocistos saem nas fezes dos felinos e contaminam o ambiente.',
+          'Em quem tem imunidade boa, a resposta do corpo controla a multiplicação e mantém o parasita em latência. Quando a imunidade cai, por HIV avançado, quimioterapia, transplante ou uso prolongado de corticoide, os cistos se rompem e a doença volta a progredir.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem corre mais risco de forma grave?',
+        paragraphs: [
+          'Qualquer pessoa pode se infectar, mas algumas correm risco bem maior de complicação. São elas as gestantes que nunca tiveram contato com o parasita, as pessoas que vivem com HIV e as que fazem tratamento que derruba a imunidade.',
+        ],
+        bullets: [
+          'Gestantes sem anticorpos para o toxoplasma, porque a infecção nova pode chegar ao feto',
+          'Pessoas vivendo com HIV, sobretudo com imunidade muito baixa e sem tratamento regular',
+          'Pessoas transplantadas e em uso de imunossupressores',
+          'Pacientes em quimioterapia ou com câncer hematológico',
+          'Recém-nascidos de mães que se infectaram durante a gestação',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A maioria das pessoas não sente nada. Quando aparecem sintomas, eles lembram uma virose arrastada: gânglios inchados no pescoço, febre baixa, dor no corpo, cansaço, falta de apetite e mal-estar. Os gânglios podem ficar aumentados por semanas ou meses depois que o resto melhora, e isso assusta, mas costuma regredir sozinho.',
+          'Na forma ocular, a inflamação da retina causa visão embaçada, pontos flutuantes, dor, sensibilidade à luz e, às vezes, perda de parte do campo visual. A lesão pode voltar anos depois, às vezes no mesmo olho, e cada episódio pode deixar uma cicatriz.',
+          'Em quem tem imunidade baixa, a doença costuma se manifestar no cérebro: dor de cabeça forte, confusão, sonolência, convulsão, fraqueza em um lado do corpo e febre. Sem tratamento, evolui rápido.',
+          'Na forma congênita, a maior parte dos bebês nasce sem sinal evidente. Quando há, pode aparecer icterícia, cabeça menor que o esperado, alteração no fundo de olho, convulsão e atraso no desenvolvimento. Parte das sequelas visuais e neurológicas só se manifesta meses ou anos depois do nascimento, e é por isso que o seguimento com pediatra e oftalmologista é tão importante.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Alguns quadros exigem avaliação no mesmo dia ou no máximo em poucas horas. Não espere a consulta de rotina quando aparecer algum destes sinais.',
+        ],
+        bullets: [
+          'Gestante com exame de toxoplasmose alterado, sobretudo IgM positivo ou aumento de IgG entre duas coletas',
+          'Gestante com febre, gânglios inchados ou manchas pelo corpo sem causa clara',
+          'Dor ocular, visão embaçada de início recente, sensibilidade à luz ou sombra no campo visual',
+          'Dor de cabeça forte, confusão, convulsão ou fraqueza em um lado do corpo, principalmente em quem tem HIV ou usa imunossupressor',
+          'Febre que passa de uma semana com gânglios que não diminuem',
+          'Bebê com icterícia prolongada, sonolência, irritabilidade ou alteração no exame de fundo de olho',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico começa no exame de sangue. A sorologia procura anticorpos IgG e IgM contra o toxoplasma. Um IgG positivo costuma indicar contato antigo com o parasita; um IgM positivo levanta a suspeita de infecção recente, mas precisa ser interpretado com cuidado, porque pode permanecer alterado por muito tempo. É o médico quem decide se o resultado isolado significa algo ou se é preciso repetir a coleta em algumas semanas.',
+          'Na gestação, a triagem faz parte do pré-natal. Quando a suspeita se confirma, a equipe pode pedir exames complementares e, em situações definidas, avaliar o líquido amniótico para saber se o parasita chegou ao bebê. O acompanhamento é feito em conjunto com o serviço de referência.',
+          'Na forma ocular, o exame de fundo de olho feito pelo oftalmologista costuma ser suficiente para reconhecer a lesão típica. Em pacientes com imunidade baixa e sintomas neurológicos, a tomografia ou a ressonância mostram as lesões cerebrais e ajudam a afastar outras causas.',
+          'O atendimento começa na unidade básica de saúde, que faz a coleta e encaminha os casos suspeitos. Gestantes e pessoas com imunidade baixa seguem para acompanhamento especializado dentro do SUS.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com toxoplasmose?',
+        paragraphs: [
+          'Febre com gânglios inchados tem muitas causas, e a toxoplasmose é só uma delas. Mononucleose infecciosa, infecção aguda pelo HIV, citomegalovírus, tuberculose ganglionar e linfoma aparecem na mesma lista. A diferença costuma vir do conjunto de exames, não de um sintoma isolado.',
+          'Na forma ocular, outras uveítes entram na discussão, entre elas as causadas por citomegalovírus, sífilis e tuberculose. Já as lesões cerebrais de quem vive com HIV precisam ser separadas de linfoma e de outras infecções oportunistas.',
+        ],
+        bullets: [
+          'Mononucleose: dor de garganta intensa, linfócitos atípicos e teste específico positivo',
+          'Citomegalovírus: quadro parecido, comum em quem tem imunidade baixa',
+          'Tuberculose ganglionar: gânglios endurecidos, que podem fistulizar',
+          'Linfoma: gânglios que crescem e não regridem, com perda de peso e sudorese noturna',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'Quem tem imunidade boa, não está grávida e não tem sintomas importantes não precisa de remédio específico. Nesses casos, o corpo controla a infecção e os sintomas somem em algumas semanas. Quando há desconforto, o tratamento é sintomático, com analgésico e repouso.',
+          'O tratamento específico fica para situações definidas: gestante com infecção recente, pessoa com imunidade baixa, doença ocular ativa e toxoplasmose congênita. Os esquemas combinam medicamentos que atacam o parasita, com acompanhamento próximo porque podem causar efeitos colaterais, entre eles alteração no sangue e no fígado. Na gestação, a escolha depende do trimestre e é sempre individualizada.',
+          'Não existe vacina e não há motivo para tomar remédio por conta própria. Quem recebeu o diagnóstico durante a gravidez ou tem imunidade baixa precisa seguir o acompanhamento até o fim, mesmo que os sintomas desapareçam, porque a interrupção sem orientação favorece a volta da doença.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Na maioria das pessoas com imunidade em ordem, o prognóstico é bom: a infecção se resolve, os gânglios regridem em semanas ou meses e não fica sequela. O parasita permanece no corpo em latência, sem causar problema enquanto a imunidade se mantém.',
+          'A forma ocular é a que mais preocupa no longo prazo. As recidivas são frequentes e cada episódio pode reduzir a visão, sobretudo quando a lesão fica na mácula. O acompanhamento com oftalmologista precisa continuar por anos.',
+          'Na toxoplasmose congênita, o desfecho depende do momento da infecção e da rapidez do tratamento. Bebês tratados cedo têm chance bem melhor de desenvolvimento normal. Já a infecção não tratada é a principal responsável pelas sequelas visuais, auditivas e neurológicas.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'As complicações variam conforme o grupo de risco. Em gestantes, o problema é a lesão fetal; em pessoas com imunidade baixa, é a doença disseminada; na forma ocular, é a perda progressiva de visão.',
+        ],
+        bullets: [
+          'Retinocoroidite com cicatriz na retina e queda de visão, às vezes recorrente',
+          'Hidrocefalia e calcificações no cérebro do bebê com toxoplasmose congênita',
+          'Perda auditiva e atraso no desenvolvimento neurológico',
+          'Encefalite em pessoas com imunidade muito baixa',
+          'Reativação da infecção anos depois, quando a imunidade cai',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'A maior parte da prevenção acontece na cozinha. Cozinhar bem a carne, lavar frutas e verduras em água corrente, usar água tratada e evitar leite não pasteurizado reduz muito o risco. Frutos do mar crus, como ostras e mexilhões, também entram na lista do que evitar.',
+          'Quem tem gato não precisa se desfazer do animal. Basta trocar a caixa de areia todos os dias, de preferência não sendo a gestante a fazer isso, e usar luvas quando for necessário. Também vale não alimentar o gato com carne crua e lavar as mãos depois de mexer com terra ou areia.',
+          'Na gestação, o pré-natal é o momento de conversar sobre a sorologia e sobre os cuidados de higiene. Já quem tem imunidade baixa deve avisar a equipe que acompanha o tratamento diante de febre, dor de cabeça ou alteração visual, porque os sintomas podem ser discretos no começo.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a toxoplasmose?',
+        paragraphs: [
+          'Não existe vacina contra a toxoplasmose. A prevenção é feita com higiene, cuidado com a alimentação e orientação, sobretudo para mulheres em idade fértil e gestantes, que é o grupo em que a infecção tem maior consequência.',
+          'Para quem tem imunidade baixa, a orientação é redobrada: evitar carne mal passada, lavar bem os vegetais crus e manter o acompanhamento em dia, porque a reativação pode ser prevenida com acompanhamento adequado.',
+          'A toxoplasmose não é de notificação compulsória em todos os casos, mas a infecção na gestação e a forma congênita entram na vigilância do Ministério da Saúde. Isso permite identificar surtos, bloquear a fonte e tratar as pessoas expostas mais rápido.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Toxoplasmose passa de uma pessoa para outra?',
+        answer:
+          'Não pelo convívio, pelo ar ou por objetos. A transmissão entre pessoas acontece na gestação, da mãe para o feto, e de forma rara por transfusão de sangue ou transplante de órgão.',
+      },
+      {
+        question: 'Meu gato pode me transmitir toxoplasmose?',
+        answer:
+          'O risco existe, mas não pelo contato com o animal. A infecção depende de ingerir o parasita presente em fezes contaminadas, em solo ou areia com fezes, ou em alimentos e água contaminados. Trocar a caixa de areia todos os dias e lavar as mãos reduz bastante esse risco.',
+      },
+      {
+        question: 'Estou grávida e meu IgG deu positivo. Isso é grave?',
+        answer:
+          'Na maior parte das vezes, IgG positivo indica contato antigo com o parasita, antes da gravidez, e não infecção nova. Quem interpreta o resultado, junto com o IgM e outros exames, é a equipe do pré-natal. Leve o exame na próxima consulta e não tome remédio por conta própria.',
+      },
+      {
+        question: 'Toxoplasmose tem cura?',
+        answer:
+          'A infecção aguda se resolve, e a maioria das pessoas não fica com sequela. O parasita pode permanecer no corpo em latência, dentro de cistos, sem causar sintoma enquanto a imunidade está boa.',
+      },
+      {
+        question: 'Todo mundo com toxoplasmose precisa de remédio?',
+        answer:
+          'Não. Pessoas com imunidade boa, sem sintomas importantes e que não estão grávidas costumam dispensar tratamento específico. O remédio é indicado na gestação, na imunidade baixa, na doença ocular ativa e na forma congênita.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-da-mulher'],
+    relatedDiseaseSlugs: ['hiv-aids', 'cisticercose', 'hepatites-virais'],
+    references: [
+      {
+        label: 'Toxoplasmose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/toxoplasmose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Toxoplasmosis',
+        url: 'https://www.cdc.gov/toxoplasmosis/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'clamidia',
+    slug: 'clamidia',
+    name: 'Clamídia',
+    aliases: [
+      'infecção por clamídia',
+      'clamídia genital',
+      'Chlamydia trachomatis',
+      'clamídia na gravidez',
+      'uretrite por clamídia',
+    ],
+    summary:
+      'Infecção sexualmente transmissível causada pela bactéria Chlamydia trachomatis. Sete em cada dez casos não dão sintoma, e a infecção sem tratamento pode comprometer as trompas, causar infertilidade e gravidez tubária. Tem cura com antibiótico e exige tratar as parcerias.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é clamídia?',
+        paragraphs: [
+          'Clamídia é a infecção causada pela bactéria Chlamydia trachomatis, transmitida principalmente por relação sexual. Ela acomete o colo do útero e a uretra, mas também pode se instalar no reto, na garganta e nos olhos. É uma das infecções sexualmente transmissíveis mais comuns no mundo.',
+          'O problema central é o silêncio. A maior parte das pessoas infectadas não tem corrimento, dor nem qualquer sinal, e continua transmitindo a bactéria sem saber. Quando os sintomas aparecem, costumam ser discretos e fáceis de confundir com outras infecções.',
+          'A clamídia não é de notificação obrigatória no Brasil, por isso não existe um número nacional confiável de casos. Os dados internacionais mostram concentração na faixa de 15 a 24 anos, o que orienta as ações de testagem e de prevenção.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são as formas da infecção por clamídia?',
+        paragraphs: [
+          'A bactéria causa quadros diferentes conforme o lugar onde se instala. A forma genital é a mais frequente e a que traz mais consequências. As outras aparecem com menor frequência, mas precisam ser reconhecidas.',
+        ],
+        bullets: [
+          'Genital: atinge colo do útero, uretra e reto, quase sempre sem sintoma',
+          'Faríngea: chega pela prática de sexo oral e raramente causa queixa',
+          'Ocular: conjuntivite por contato com secreção infectada, também presente no recém-nascido',
+          'Pulmonar: pneumonia em bebês nascidos de mães infectadas, com tosse e dificuldade para respirar',
+          'Linfogranuloma venéreo: forma crônica com ferida genital e gânglios que aumentam e podem fistulizar',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como a clamídia é transmitida?',
+        paragraphs: [
+          'A transmissão acontece por contato sexual sem preservativo, seja vaginal, anal ou oral, quando há secreção infectada. Não é preciso haver ejaculação, e a bactéria pode passar mesmo sem qualquer sintoma aparente.',
+          'A segunda via é a vertical: a gestante infectada pode transmitir a bactéria ao bebê durante o parto, o que causa conjuntivite neonatal e, mais raramente, pneumonia. A clamídia não é transmitida por transfusão de sangue, mas quem tem a infecção deve informar a situação ao serviço antes de doar.',
+          'Não há transmissão por abraço, aperto de mão, vaso sanitário, piscina ou compartilhamento de toalhas. Também não se pega clamídia por beijo.',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'O que aumenta o risco?',
+        paragraphs: [
+          'A causa é sempre a bactéria, e o fator que mais pesa é a relação sexual sem preservativo com uma parceria infectada. Como a infecção costuma ser assintomática, muitas pessoas não sabem que podem transmiti-la.',
+        ],
+        bullets: [
+          'Relações sexuais sem preservativo, com parceria nova ou múltiplas parcerias',
+          'Idade entre 15 e 24 anos, faixa em que a prevalência é maior',
+          'Histórico de outra infecção sexualmente transmissível',
+          'Parceria sexual com diagnóstico de clamídia ou de outra IST',
+          'Gestação, pelo risco de transmissão ao bebê no parto',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Entre 70% e 80% das pessoas infectadas não têm sintoma nenhum. Quando aparecem, costumam surgir semanas depois da relação e podem ser confundidos com candidíase, vaginose ou infecção urinária.',
+          'Nas mulheres, os sinais mais comuns são corrimento amarelado ou claro, sangramento fora do período menstrual ou durante a relação, dor ao urinar e dor no baixo ventre. O colo do útero pode sangrar com facilidade ao toque, o que o exame ginecológico identifica.',
+          'Nos homens, a queixa típica é ardência ao urinar e saída de secreção com pus pela uretra, além de dor nos testículos. A inflamação do epidídimo pode deixar o testículo aumentado e doloroso.',
+          'Na infecção retal, pode haver dor, corrimento e sangramento, muitas vezes sem nenhum outro sinal. Em recém-nascidos, a conjuntivite costuma aparecer nos primeiros dias de vida, com olho vermelho e secreção purulenta.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Alguns quadros indicam complicação e pedem avaliação rápida, não apenas um teste caseiro ou automedicação.',
+        ],
+        bullets: [
+          'Dor forte no baixo ventre com febre, que pode indicar doença inflamatória pélvica',
+          'Sangramento vaginal fora do período menstrual ou após a relação',
+          'Corrimento com mau cheiro, sobretudo se vier acompanhado de dor',
+          'Dor e aumento de um testículo, com ou sem febre',
+          'Olho vermelho com secreção purulenta em recém-nascido',
+          'Dor durante a relação que passou a ser constante',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico é laboratorial. O exame mais usado hoje é o teste molecular, que detecta o material genético da bactéria em uma amostra de urina ou em material coletado do colo do útero ou da vagina. O resultado sai em poucos dias e não depende de a pessoa ter sintoma.',
+          'A testagem é indicada para quem tem sintoma, para quem teve relação sem preservativo com parceria infectada e para gestantes durante o pré-natal. Pessoas sexualmente ativas com parcerias novas ou múltiplas também devem conversar com a equipe de saúde sobre a frequência dos exames.',
+          'O atendimento começa na unidade básica de saúde, que solicita o exame e trata os casos simples. Gestantes e pessoas com dor pélvica ou suspeita de complicação são encaminhadas para avaliação especializada. O diagnóstico e o tratamento são gratuitos no SUS.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com clamídia?',
+        paragraphs: [
+          'Corrimento e dor ao urinar têm várias causas, e o exame é o que separa uma da outra. A diferença importa porque o tratamento muda conforme o agente.',
+        ],
+        bullets: [
+          'Gonorreia: corrimento mais abundante e purulento, com sintomas mais intensos',
+          'Tricomoníase: corrimento esverdeado e espumoso, com mau cheiro e coceira',
+          'Vaginose bacteriana: corrimento cinza com odor forte, sem inflamação importante',
+          'Candidíase: coceira intensa e corrimento branco grumoso',
+          'Infecção urinária: ardor e urgência para urinar, sem corrimento genital',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento é com antibiótico e cura a infecção. Os esquemas mais usados incluem azitromicina ou doxiciclina, escolhidos pelo profissional conforme o caso, a presença de gestação e as alergias da pessoa. Não existe remédio caseiro nem lavagem que substitua o antibiótico.',
+          'As parcerias sexuais precisam ser avaliadas e tratadas, mesmo sem sintoma e mesmo que o exame delas não tenha sido feito. Sem isso, a bactéria volta com a próxima relação. O preservativo deve ser usado em todas as relações até que o tratamento de todos esteja concluído, e quem recebe dose única precisa aguardar sete dias.',
+          'Na gestação, a escolha do antibiótico é feita pela equipe, porque alguns medicamentos usados fora da gravidez não são indicados nesse período. O tratamento correto reduz o risco de parto prematuro e de conjuntivite no bebê.',
+          'Cerca de três meses depois do tratamento, vale repetir o teste. A recomendação existe porque a reinfecção é comum, sobretudo quando a parceria não foi tratada.',
+        ],
+      },
+      {
+        id: 'procedimentos',
+        heading: 'Quando é preciso um procedimento?',
+        paragraphs: [
+          'A clamídia em si é tratada com antibiótico, não com cirurgia. Os procedimentos entram quando a infecção já deixou consequências, como abscesso nas trompas, gravidez tubária ou estreitamento do reto na forma crônica.',
+          'Abscessos pélvicos podem precisar de drenagem, e a gravidez tubária é uma emergência que exige cirurgia ou tratamento medicamentoso específico em serviço especializado. Sequelas de obstrução tubária podem ser avaliadas para técnicas de reprodução assistida, quando há desejo de engravidar.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Com o antibiótico correto, a infecção é eliminada e a pessoa deixa de transmitir. O tratamento não desfaz, porém, lesões já instaladas nas trompas ou aderências formadas antes do diagnóstico. É por isso que a testagem precoce importa tanto.',
+          'Quem já teve clamídia pode ter de novo. A imunidade não protege contra uma nova exposição, e a única forma de reduzir o risco é o preservativo e a testagem regular das parcerias.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'Nas mulheres, a bactéria sobe do colo do útero para o útero e as trompas e causa doença inflamatória pélvica. A inflamação repetida deixa cicatrizes que podem bloquear a passagem do óvulo.',
+        ],
+        bullets: [
+          'Doença inflamatória pélvica, com dor, febre e risco de abscesso',
+          'Infertilidade por obstrução das trompas',
+          'Gravidez tubária, que é uma emergência e pode ser fatal sem atendimento',
+          'Dor pélvica crônica e dor durante as relações',
+          'Conjuntivite neonatal, que sem tratamento pode levar à cegueira',
+          'Aumento do risco de adquirir e de transmitir o HIV',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'Durante o tratamento, o casal precisa conversar com honestidade sobre parcerias anteriores e sobre a necessidade de testagem. Não há julgamento nessa conversa, e sim prevenção de uma nova infecção.',
+          'Não use duchas, sabonetes íntimos ou produtos de higiene dentro da vagina. Eles alteram a flora e não eliminam bactéria nenhuma. Roupa íntima de algodão e secagem cuidadosa ajudam apenas no conforto.',
+          'Gestantes devem fazer o pré-natal completo, com os exames solicitados, e avisar a equipe se a parceria tiver diagnóstico de IST. O bebê precisa de avaliação ocular ao nascer quando há infecção materna.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a clamídia?',
+        paragraphs: [
+          'O preservativo, masculino ou feminino, é a medida mais eficaz. O SUS distribui preservativos gratuitamente nas unidades de saúde, e o uso precisa acontecer em todas as relações, inclusive no sexo oral e anal.',
+          'Testar faz parte da prevenção. Quem tem vida sexual ativa com parcerias novas deve conversar com a equipe sobre a frequência dos exames, e gestantes devem incluir a testagem no pré-natal. Como a maioria dos casos não dá sintoma, esperar por queixa é a pior estratégia.',
+          'Não existe vacina contra a clamídia. Reduzir o número de parcerias sem preservativo e tratar as parcerias ao mesmo tempo são as formas de quebrar a cadeia de transmissão.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Clamídia tem cura?',
+        answer:
+          'Sim. O tratamento com o antibiótico indicado elimina a bactéria. O que não se recupera são as lesões já causadas nas trompas, por isso o diagnóstico precoce é tão importante.',
+      },
+      {
+        question: 'Pega clamídia por beijo?',
+        answer:
+          'Não. A clamídia não é transmitida por beijo, abraço, vaso sanitário ou piscina. A transmissão acontece por relação sexual sem preservativo, vaginal, anal ou oral, e da mãe para o bebê no parto.',
+      },
+      {
+        question: 'Minha parceria precisa se tratar mesmo sem sintoma?',
+        answer:
+          'Sim. Parcerias sexuais devem ser avaliadas e tratadas, mesmo sem queixa e mesmo sem exame positivo. Sem isso, a bactéria volta com a próxima relação.',
+      },
+      {
+        question: 'Posso pegar clamídia de novo?',
+        answer:
+          'Sim. Ter tido a infecção não protege contra uma nova exposição. Por isso se recomenda repetir o teste cerca de três meses após o tratamento e usar preservativo em todas as relações.',
+      },
+      {
+        question: 'Clamídia impede engravidar?',
+        answer:
+          'Pode dificultar. A infecção não tratada inflama as trompas e deixa cicatrizes que atrapalham o encontro do óvulo com o espermatozoide. Muitas mulheres só descobrem isso ao investigar a dificuldade para engravidar.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-infecciosas', 'saude-da-mulher', 'prevencao'],
+    relatedDiseaseSlugs: ['gonorreia', 'sifilis', 'hiv-aids', 'infeccao-urinaria'],
+    references: [
+      {
+        label: 'Clamídia',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/clamidia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Infecções Sexualmente Transmissíveis (IST)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chlamydia',
+        url: 'https://www.cdc.gov/chlamydia/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hpv',
+    slug: 'hpv',
+    name: 'HPV (papilomavírus humano)',
+    aliases: [
+      'HPV',
+      'papilomavírus humano',
+      'infecção por HPV',
+      'verruga genital',
+      'condiloma acuminado',
+      'crista de galo',
+    ],
+    summary:
+      'Infecção sexualmente transmissível mais comum no mundo, causada por um vírus que atinge pele e mucosas. Na maioria das pessoas não dá sintoma e o próprio corpo elimina em até dois anos, mas alguns tipos se associam ao câncer do colo do útero, e outros provocam verrugas genitais.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é HPV?',
+        paragraphs: [
+          'HPV é a sigla de papilomavírus humano, um vírus que infecta a pele e as mucosas, as camadas úmidas que revestem boca, garganta, ânus e órgãos genitais. É a infecção sexualmente transmissível mais comum no mundo, e calcula-se que a maioria das pessoas sexualmente ativas entra em contato com o vírus em algum momento da vida.',
+          'Existem mais de 200 tipos de HPV. Alguns provocam verrugas na região genital e no ânus, conhecidas como condilomas acuminados. Outros estão associados a tumores malignos, entre eles o câncer do colo do útero, do ânus, do pênis, da boca e da garganta.',
+          'A infecção costuma ser silenciosa. O vírus pode ficar latente por meses ou anos, sem lesão visível a olho nu, e muitas vezes é eliminado pelo próprio organismo em até 24 meses. A queda da imunidade pode favorecer a multiplicação do vírus e o aparecimento de lesões.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a infecção por HPV?',
+        paragraphs: [
+          'A causa é o papilomavírus humano, que entra no corpo por pequenas soluções de continuidade na pele ou na mucosa e passa a estimular a multiplicação das células daquela região. Esse crescimento exagerado é o que forma a verruga.',
+          'Nos tipos de alto risco, o vírus interfere no controle do crescimento celular. Quando a infecção persiste por muitos anos, podem surgir lesões precursoras e, em uma minoria dos casos, câncer. A persistência é o ponto decisivo, e não o contato isolado com o vírus.',
+        ],
+      },
+      {
+        id: 'transmissao',
+        heading: 'Como o HPV é transmitido?',
+        paragraphs: [
+          'A transmissão acontece por contato direto entre pele e mucosa, sobretudo durante a relação sexual vaginal, anal ou oral. Não é preciso haver ejaculação nem ferida visível, porque o vírus pode estar presente em áreas sem lesão aparente.',
+          'O preservativo reduz o risco, mas não elimina. Isso acontece porque a camisinha não cobre toda a vulva, a região pubiana, o períneo e a bolsa escrotal, e essas áreas podem transmitir o vírus. O preservativo interno cobre uma superfície maior e oferece proteção mais ampla quando é usado desde o início da relação.',
+          'A transmissão também pode ocorrer no parto. Crianças infectadas nesse momento raramente desenvolvem lesões verrucosas nas cordas vocais e na laringe, quadro chamado de papilomatose respiratória recorrente.',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'Quem tem mais risco de infecção persistente?',
+        paragraphs: [
+          'Qualquer pessoa sexualmente ativa pode se infectar. O que muda de um caso para outro é a chance de o vírus permanecer e causar lesão, e aí a imunidade pesa bastante.',
+        ],
+        bullets: [
+          'Pessoas com imunidade baixa, incluindo quem vive com HIV e quem recebeu transplante',
+          'Gestantes, em quem as lesões costumam crescer mais rápido',
+          'Quem tem várias parcerias sexuais sem preservativo',
+          'Pessoas com outras infecções sexualmente transmissíveis, que facilitam a entrada do vírus',
+          'Quem nunca foi vacinado contra o HPV',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A maioria das infecções não causa sintoma nem lesão visível. Quando aparece alguma coisa, o sinal mais comum são as verrugas anogenitais: pequenas elevações únicas ou múltiplas, achatadas ou salientes, que podem coçar mas em geral não doem. Elas costumam ser causadas por tipos não cancerígenos, como o 6 e o 11.',
+          'As lesões subclínicas não são vistas a olho nu e podem ser causadas por tipos de baixo ou de alto risco. Elas se instalam na vulva, na vagina, no colo do útero, na região perianal, no ânus, no pênis, na bolsa escrotal e na região pubiana. Mais raramente aparecem em mucosa nasal, oral ou laríngea.',
+          'As lesões precursoras do câncer do colo do útero também são silenciosas na maior parte do tempo. Só o exame de rastreamento as encontra, e é por isso que a coleta periódica continua sendo necessária mesmo em quem se sente bem.',
+          'Na papilomatose respiratória recorrente, o primeiro sinal costuma ser rouquidão progressiva. Quando a lesão cresce muito, pode causar tosse e dificuldade para respirar, sobretudo em crianças.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Algumas situações pedem avaliação profissional sem demora, porque exigem exame e, em certos casos, tratamento de lesão precursora.',
+        ],
+        bullets: [
+          'Verruga nova ou que cresce rápido na região genital ou anal',
+          'Sangramento após a relação sexual',
+          'Corrimento persistente com mau cheiro que não melhora',
+          'Ferida genital que não cicatriza em algumas semanas',
+          'Rouquidão que dura mais de três semanas, sobretudo em criança',
+          'Resultado de Papanicolau alterado ou teste de HPV positivo para tipo de alto risco',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'As verrugas visíveis são diagnosticadas pelo exame clínico. O profissional observa e palpa a lesão, e pode aplicar ácido acético a 3% para realçar áreas suspeitas, que ficam esbranquiçadas. Quando a aparência não é típica, uma pequena biópsia esclarece o diagnóstico.',
+          'O teste molecular de HPV detecta o material genético do vírus e identifica o tipo. Ele é usado no rastreamento do câncer do colo do útero, ao lado da citologia, e ajuda a definir quem precisa de colposcopia, o exame que amplia a imagem do colo.',
+          'No SUS, o rastreamento do colo do útero passa por uma mudança importante. O teste molecular para HPV oncogênico foi incorporado em 2024 e vai substituir aos poucos a citologia de Papanicolau, com intervalo que pode chegar a cinco anos. A meta é ter o teste disponível em toda a rede pública até dezembro de 2026.',
+          'A avaliação começa na unidade básica de saúde. Casos com lesão visível, resultado alterado ou queixa persistente são encaminhados para ginecologia, urologia, proctologia ou otorrinolaringologia, conforme o local.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com HPV?',
+        paragraphs: [
+          'Nem toda elevação na região genital é verruga por HPV. Algumas são variações normais da anatomia e outras têm causas diferentes, com tratamento próprio.',
+        ],
+        bullets: [
+          'Pérolas de Tyson: pequenas saliências regulares na coroa do pênis, sem relação com infecção',
+          'Molusco contagioso: lesões lisas com depressão central, causadas por outro vírus',
+          'Verruga seborreica: lesão de pele comum em adultos, sem transmissão sexual',
+          'Sífilis secundária: placas úmidas e generalizadas, com teste sorológico positivo',
+          'Cisto de glândula: nódulo liso e indolor, sem crescimento progressivo',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'Não existe antiviral que elimine o HPV. O tratamento disponível age sobre as lesões, destruindo o tecido alterado, e não sobre o vírus. Mesmo depois do tratamento as lesões podem reaparecer, e isso precisa ser explicado desde o início para evitar frustração.',
+          'Nem toda infecção precisa de tratamento. Quando não há lesão visível, a conduta costuma ser acompanhar com exames periódicos, porque a maioria das infecções se resolve sozinha. Já as verrugas e as lesões precursoras de alto grau devem ser tratadas.',
+          'O tratamento é individualizado, considerando extensão, quantidade e localização das lesões, além dos recursos disponíveis e dos efeitos adversos. A escolha entre tratamento aplicado em casa e procedimento no serviço de saúde é feita pelo profissional.',
+        ],
+      },
+      {
+        id: 'tratamento-medicamentoso',
+        heading: 'Quais remédios são usados nas verrugas?',
+        paragraphs: [
+          'Os medicamentos de uso local destroem o tecido da verruga ou estimulam a imunidade da região. Imiquimode e podofilotoxina podem ser aplicados pela própria pessoa em casa, seguindo a orientação recebida. Ácido tricloroacético e podofilina são aplicados no serviço de saúde, porque exigem técnica e proteção da pele ao redor.',
+          'Podofilina e imiquimode não devem ser usados na gestação. Nesse período, a escolha recai sobre métodos que o profissional aplica no consultório, e a decisão precisa considerar o tamanho e a localização da lesão.',
+          'Nenhum desses produtos elimina o vírus do corpo. O objetivo é remover a lesão, e a pessoa deve voltar ao serviço se surgirem novas verrugas.',
+        ],
+      },
+      {
+        id: 'outros-tratamentos',
+        heading: 'Quais procedimentos existem?',
+        paragraphs: [
+          'Eletrocauterização, exérese cirúrgica e crioterapia removem a lesão no ambulatório. Lesões precursoras de alto grau no colo do útero são tratadas com procedimentos que retiram a área alterada, e o seguimento depois disso é obrigatório, porque o risco de recidiva existe.',
+          'A vacina não trata infecção já existente, mas continua indicada para prevenir os tipos que a pessoa ainda não encontrou. O rastreamento precisa continuar mesmo em quem foi vacinado, porque a vacina cobre os tipos mais frequentes e não todos.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'A maior parte das infecções por HPV tem resolução espontânea em até 24 meses. Nas verrugas anogenitais, o tratamento costuma resolver a lesão, mas a recidiva é comum nos primeiros meses, sobretudo em quem tem imunidade baixa.',
+          'Nas lesões precursoras, o prognóstico depende do grau e do tratamento adequado. Lesões de baixo grau muitas vezes regridem sozinhas, enquanto as de alto grau exigem intervenção e acompanhamento próximo para evitar progressão.',
+          'O câncer do colo do útero é consequência de infecção persistente por tipos de alto risco ao longo de muitos anos. É justamente essa lentidão que permite detectar e tratar as lesões antes que virem tumor, e é o motivo pelo qual o rastreamento funciona.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'A complicação mais grave é o câncer, e ela não acontece na maioria das pessoas infectadas. O risco se concentra em infecções persistentes por tipos de alto risco que não foram detectadas nem tratadas.',
+        ],
+        bullets: [
+          'Câncer do colo do útero, precedido por lesões precursoras detectáveis no rastreamento',
+          'Câncer de ânus, pênis, boca e garganta, menos frequentes e ligados aos tipos de alto risco',
+          'Papilomatose respiratória recorrente, com rouquidão e obstrução das vias aéreas',
+          'Recidiva das verrugas após o tratamento',
+          'Alterações psicológicas ligadas ao estigma da infecção',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'Manter a imunidade em ordem ajuda o corpo a controlar o vírus. Alimentação variada, sono regular e atividade física entram nessa conta, e quem vive com HIV ou recebeu transplante precisa manter o tratamento de base em dia.',
+          'As parcerias sexuais devem ser aconselhadas e examinadas, mesmo sem sintoma. A infecção inicial pode ter acontecido com uma parceria que nunca teve sinal nenhum, e culpar alguém não ajuda em nada.',
+          'Voltar ao serviço de saúde diante de uma lesão nova é parte do cuidado. Também vale lembrar que a vacina continua indicada para quem já teve HPV, porque protege contra os tipos que ainda não foram encontrados.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o HPV?',
+        paragraphs: [
+          'A vacina é a medida mais eficaz. No SUS, ela é oferecida gratuitamente em dose única para crianças e adolescentes de 9 a 14 anos. Pessoas com imunidade baixa, como quem vive com HIV, transplantados e pacientes oncológicos, recebem três doses. Vítimas de abuso sexual, pessoas com papilomatose respiratória recorrente e usuários de profilaxia pré-exposição ao HIV também têm esquemas próprios definidos pelo Ministério da Saúde.',
+          'A vacina protege contra os tipos 6, 11, 16 e 18, que respondem pela maior parte das verrugas e dos cânceres associados ao HPV. Ela não cobre todos os tipos existentes, e por isso o rastreamento continua necessário.',
+          'O preservativo, interno ou externo, reduz o risco de transmissão, sem eliminar. O uso desde o início da relação aumenta a proteção, e o SUS distribui preservativos gratuitamente.',
+          'O rastreamento do colo do útero é prevenção. Mulheres com colo do útero devem fazer os exames na periodicidade orientada pelo serviço, mesmo sem sintoma e mesmo depois da vacina.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'HPV tem cura?',
+        answer:
+          'Não existe remédio que elimine o vírus. Na maioria das pessoas, porém, a infecção é controlada pelo próprio organismo em até 24 meses. O tratamento disponível age sobre as lesões, e o acompanhamento existe para detectar lesões precursoras cedo.',
+      },
+      {
+        question: 'Dá para pegar HPV sem relação sexual?',
+        answer:
+          'A transmissão se dá por contato direto entre pele e mucosa, e a relação sexual é a via mais comum. O preservativo reduz o risco, mas não elimina, porque não cobre toda a região genital. Objetos de uso comum não são uma via relevante.',
+      },
+      {
+        question: 'Quem já teve HPV pode tomar a vacina?',
+        answer:
+          'Pode. A vacina não trata a infecção existente, mas protege contra os tipos que a pessoa ainda não encontrou. O calendário do SUS define a faixa etária e os grupos com indicação; fora dessas situações, converse com o profissional de saúde.',
+      },
+      {
+        question: 'Todo HPV vira câncer?',
+        answer:
+          'Não. A maioria das infecções é eliminada pelo organismo. O câncer está ligado à infecção persistente por tipos de alto risco, ao longo de muitos anos, e mesmo nesses casos a evolução passa por lesões precursoras que o rastreamento consegue detectar.',
+      },
+      {
+        question: 'Quem tem HPV pode engravidar?',
+        answer:
+          'Sim. A infecção não impede a gravidez. As lesões podem crescer mais rápido durante a gestação, e por isso o acompanhamento com o obstetra é importante. A transmissão ao bebê é rara.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-infecciosas', 'saude-da-mulher', 'prevencao'],
+    relatedDiseaseSlugs: ['cancer-do-colo-do-utero', 'gonorreia', 'sifilis', 'hiv-aids'],
+    references: [
+      {
+        label: 'HPV',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Câncer do colo do útero, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Cervical cancer: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cervical-cancer',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Infecções Sexualmente Transmissíveis (IST)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertireoidismo',
+    slug: 'hipertireoidismo',
+    name: 'Hipertireoidismo',
+    aliases: [
+      'tireoide hiperativa',
+      'tireotoxicose',
+      'doença de Graves',
+      'bócio difuso tóxico',
+      'hipertireoidismo na gravidez',
+    ],
+    summary:
+      'A tireoide passa a produzir hormônio em excesso e acelera o corpo inteiro. Palpitação, tremor, calor, suor e perda de peso com apetite aumentado são as queixas típicas. Tem tratamento com remédio, iodo radioativo ou cirurgia, e o controle evita complicações no coração.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é hipertireoidismo?',
+        paragraphs: [
+          'Hipertireoidismo é a condição em que a tireoide, uma glândula em forma de borboleta na frente do pescoço, produz hormônios em excesso. Os hormônios T4 e T3 comandam o ritmo do metabolismo, e quando sobram, o corpo inteiro funciona mais rápido.',
+          'O resultado aparece em vários sistemas ao mesmo tempo. O coração bate mais rápido, o intestino trabalha mais, a pessoa sua mais, tolera menos o calor, perde peso mesmo comendo bem e fica agitada. O pescoço pode aumentar de volume, o que se chama bócio.',
+          'A doença atinge cerca de 1% da população e é bem mais comum em mulheres, sobretudo entre 20 e 50 anos. O quadro pode ser leve e passar despercebido por meses, ou intenso e evidente desde o início.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de hipertireoidismo?',
+        paragraphs: [
+          'A divisão mais útil separa os casos em que a tireoide produz hormônio demais dos casos em que o hormônio sobra no sangue por outra razão. Essa diferença muda o tratamento.',
+          'Quando o problema está na própria tireoide, a produção é alta. Quando o hormônio vem de fora, ou de uma tireoide inflamada que apenas libera o que já estava guardado, a produção não está aumentada e o tratamento é outro.',
+        ],
+        bullets: [
+          'Doença de Graves: causa mais comum, autoimune, com bócio e frequentemente alterações nos olhos',
+          'Bócio multinodular tóxico: vários nódulos que produzem hormônio por conta própria, comum em idosos',
+          'Nódulo tóxico: um único nódulo hiperativo, geralmente benigno',
+          'Tireoidites: inflamação que libera hormônio estocado, com fase de tireotoxicose seguida de hipotireoidismo',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa hipertireoidismo?',
+        paragraphs: [
+          'A causa mais comum é a doença de Graves, em que o corpo produz anticorpos que se ligam ao receptor de TSH e estimulam a tireoide continuamente. É uma doença autoimune, com componente genético, e costuma vir acompanhada de bócio.',
+          'Outras causas incluem o bócio multinodular tóxico, o nódulo tóxico e as tireoidites. Medicamentos também entram na lista: a amiodarona, usada para arritmia, o interferon e alguns imunoterápicos contra câncer podem desencadear o quadro. Excesso de iodo, em contraste ou em remédios, e uso indevido de hormônio tireoidiano são outras causas.',
+          'Existe ainda uma forma rara, causada por um tumor benigno da hipófise que produz TSH em excesso e obriga a tireoide a trabalhar mais. Nesses casos, o TSH não fica baixo como de costume, e a investigação precisa incluir a hipófise.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco?',
+        paragraphs: [
+          'Alguns fatores aumentam a chance de desenvolver a doença, e conhecê-los ajuda a saber quando investigar.',
+        ],
+        bullets: [
+          'Ser mulher, sobretudo entre 20 e 50 anos',
+          'Ter parentes próximos com doença de Graves ou outra doença autoimune da tireoide',
+          'Ter outra doença autoimune, como diabetes tipo 1, lúpus ou artrite reumatoide',
+          'Uso de amiodarona, interferon ou imunoterapia',
+          'Excesso de iodo na alimentação ou em suplementos, sobretudo em quem já tem nódulos',
+          'Período pós-parto, quando tireoidites podem se manifestar',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'O sintoma mais frequente é a palpitação. O coração bate rápido mesmo em repouso, às vezes de forma irregular, e a pessoa sente o peito acelerado. Tremor fino nas mãos, sudorese, intolerância ao calor e pele quente e úmida completam o quadro.',
+          'O peso cai mesmo com apetite aumentado, porque o gasto de energia sobe. As evacuações ficam mais frequentes, às vezes com diarreia. Ansiedade, insônia, irritabilidade e dificuldade de concentração são comuns e muitas vezes confundidos com um quadro psiquiátrico.',
+          'Nas mulheres, a menstruação pode ficar irregular, com intervalos maiores e fluxo menor. Nos homens, pode haver queda de libido e disfunção erétil. O pescoço aumenta de volume na maioria dos casos, e a glândula pode ser sentida ao exame.',
+          'Na doença de Graves, os olhos podem ser afetados. O paciente refere olhos secos, lacrimejamento, sensação de areia, incômodo com a luz, olhar arregalado e, nos casos mais intensos, protrusão dos olhos e visão dupla. Essas alterações podem aparecer antes dos outros sintomas ou piorar depois que a tireoide é controlada.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'A complicação mais grave é a tempestade tireoidiana, uma emergência com febre alta, coração muito acelerado, agitação, vômito, confusão e risco de morte. Ela costuma ocorrer em quem não está tratado ou interrompeu o tratamento, e diante desses sinais o atendimento é imediato.',
+        ],
+        bullets: [
+          'Febre alta com coração muito acelerado e agitação, sobretudo em quem tem hipertireoidismo',
+          'Dor no peito, falta de ar ou desmaio',
+          'Palpitação irregular que não passa, com tontura',
+          'Perda de peso muito rápida em poucas semanas',
+          'Confusão, sonolência ou fraqueza intensa em pessoa idosa',
+          'Vômitos persistentes, diarreia intensa e desidratação',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico começa com um exame de sangue simples. No hipertireoidismo, o TSH fica baixo ou indetectável e o T4 livre fica alto. O TSH é o primeiro a se alterar, por isso é o melhor teste de triagem. O T3 também pode ser dosado, sobretudo quando o TSH está baixo e o T4 livre ainda é normal.',
+          'A dosagem do anticorpo contra o receptor de TSH, o TRAb, ajuda a confirmar a doença de Graves e tem valor na gestação, porque anticorpos maternos podem afetar a tireoide do bebê. A ultrassonografia mostra o tamanho da glândula, os nódulos e o fluxo de sangue.',
+          'Em situações em que a causa não fica clara, a captação de iodo radioativo diferencia a tireoide que produz hormônio demais daquela que apenas libera hormônio estocado por inflamação. A escolha dos exames é do endocrinologista.',
+          'O atendimento começa na unidade básica de saúde, que solicita a dosagem de TSH e encaminha ao endocrinologista. A avaliação é feita no SUS, com exames e acompanhamento conforme o protocolo de cada serviço.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com hipertireoidismo?',
+        paragraphs: [
+          'Coração acelerado, perda de peso e ansiedade têm muitas causas. Separar o hipertireoidismo de outras condições evita tratar a coisa errada.',
+        ],
+        bullets: [
+          'Tireoidite subaguda: hormônio sobra por inflamação, e não por produção aumentada',
+          'Hormônio em excesso: TSH baixo com tireoide normal ao exame',
+          'Ansiedade e pânico: palpitação e tremor, com tireoide normal',
+          'Bócio simples: aumento do pescoço com função tireoidiana normal',
+          'Hipotireoidismo: quadro oposto, com cansaço, frio, pele seca e TSH alto',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento tem três frentes: controlar os sintomas, reduzir a produção de hormônio e, em alguns casos, eliminar parte da glândula. O betabloqueador, como o propranolol, alivia palpitação, tremor e ansiedade em poucos dias, sem mexer na produção hormonal. Ele é usado no início e ajustado conforme a resposta, com cuidado em quem tem asma, doença pulmonar obstrutiva crônica ou insuficiência cardíaca.',
+          'Os antitireoidianos reduzem a síntese de hormônio. O metimazol é a primeira escolha na maioria dos casos. O propiltiouracil fica para situações específicas, como o primeiro trimestre da gestação e a crise tireotóxica, porque pode causar lesão no fígado. Antes de começar, é preciso checar hemograma e função do fígado, e o acompanhamento com exames periódicos é obrigatório.',
+          'Febre com dor de garganta durante o uso desses remédios precisa de avaliação imediata, porque pode indicar queda dos glóbulos brancos. O tratamento dura em geral de um a dois anos, e parte dos pacientes recai depois de suspender, o que exige acompanhamento por mais tempo.',
+        ],
+      },
+      {
+        id: 'iodo-radioativo-e-cirurgia',
+        heading: 'Iodo radioativo e cirurgia',
+        paragraphs: [
+          'O iodo radioativo é tomado por via oral e destrói parte do tecido da tireoide. É uma opção frequente na doença de Graves, sobretudo quando o remédio não controla, causa efeito colateral ou a pessoa prefere um tratamento definitivo. A consequência esperada é o hipotireoidismo, que passa a exigir reposição de hormônio pelo resto da vida.',
+          'O iodo radioativo é contraindicado na gestação e na amamentação, e não deve ser usado em quem tem oftalmopatia ativa grave. Depois da aplicação, recomenda-se evitar contato próximo com gestantes e crianças por alguns dias e usar contracepção por cerca de 6 a 12 meses.',
+          'A cirurgia, chamada tireoidectomia, é indicada em bócios muito grandes, compressão da via aérea, suspeita de câncer, recusa ou contraindicação das outras opções. Controla mais de 90% dos casos, mas também costuma levar ao hipotireoidismo permanente. Os riscos incluem lesão das cordas vocais, com rouquidão, e das glândulas paratireoides, com queda do cálcio e formigamento.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Com tratamento, o prognóstico é bom. Os sintomas melhoram em poucas semanas, o peso se estabiliza e o coração volta ao ritmo normal. O tempo até o controle depende da gravidade inicial e da resposta ao remédio.',
+          'A escolha do tratamento muda o que vem depois. Quem usa apenas antitireoidiano pode recair e precisa de acompanhamento prolongado. Quem faz iodo radioativo ou cirurgia costuma resolver o hipertireoidismo, mas passa a conviver com hipotireoidismo, que é mais fácil de tratar e exige apenas reposição hormonal com controle periódico.',
+          'O que piora o prognóstico é o diagnóstico tardio. Anos de hormônio em excesso sobrecarregam o coração, favorecem arritmia e reduzem a massa óssea, e esses efeitos podem não ser totalmente reversíveis.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'As complicações vêm do excesso de hormônio agindo por muito tempo, sobretudo no coração e nos ossos.',
+        ],
+        bullets: [
+          'Fibrilação atrial e outras arritmias, com risco de acidente vascular cerebral',
+          'Insuficiência cardíaca, sobretudo em idosos',
+          'Perda de massa óssea e fraturas, especialmente em mulheres na pós-menopausa',
+          'Oftalmopatia de Graves, com protrusão dos olhos e visão dupla',
+          'Mixedema pré-tibial, com pele espessada na frente das pernas',
+          'Fraqueza muscular e, raramente, paralisia periódica por queda do potássio',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'A alimentação precisa de atenção ao iodo. Sal de cozinha iodado é a fonte habitual no Brasil, e o excesso de suplementos, algas e contrastes iodados deve ser evitado. Não é necessário cortar todo o iodo, e sim manter uma ingestão equilibrada, com orientação de quem acompanha o caso.',
+          'O gasto de energia é alto, por isso a alimentação precisa ser suficiente e variada. Café e bebidas energéticas pioram a palpitação e o tremor. Atividade física leve ajuda no condicionamento, mas o excesso cansa e deve ser ajustado ao momento do tratamento.',
+          'O acompanhamento com exames de TSH e T4 livre é o que garante o ajuste da dose. Interromper o remédio por conta própria é a causa mais comum de recaída e de crise. Quem planeja engravidar deve conversar antes com o endocrinologista, porque a gestação exige ajuste e monitoramento frequente.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o hipertireoidismo?',
+        paragraphs: [
+          'Não existe uma forma garantida de prevenir a doença de Graves, porque ela depende de uma resposta autoimune que não se controla de propósito. O que se pode fazer é evitar excesso de iodo, não usar hormônio tireoidiano sem indicação e avisar o médico sobre histórico familiar.',
+          'Quem usa amiodarona ou imunoterápicos precisa de monitoramento da tireoide antes e durante o tratamento, porque o hipertireoidismo induzido por medicamento é uma complicação conhecida e pode ser identificado cedo.',
+          'Na gestação, a avaliação da tireoide faz parte do pré-natal de risco. Mulheres com hipertireoidismo devem planejar a gravidez com a doença controlada, porque o descontrole aumenta o risco de complicações para a mãe e para o bebê.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Hipertireoidismo tem cura?',
+        answer:
+          'Tem controle, e muitas pessoas ficam sem a doença ativa. O remédio pode ser suspenso depois de um a dois anos em parte dos casos, com risco de recaída. O iodo radioativo e a cirurgia resolvem o hipertireoidismo com mais frequência, mas costumam deixar a pessoa dependente de reposição hormonal.',
+      },
+      {
+        question: 'Emagrecer sem fazer dieta pode ser hipertireoidismo?',
+        answer:
+          'Pode, sobretudo quando a perda de peso vem acompanhada de palpitação, tremor, calor, suor e evacuações frequentes. Nesse caso, vale procurar a unidade de saúde para dosar o TSH.',
+      },
+      {
+        question: 'Quem tem hipertireoidismo pode engravidar?',
+        answer:
+          'Pode, mas o ideal é engravidar com a doença controlada. O hipertireoidismo descompensado aumenta o risco de complicações na gestação, e os remédios precisam de ajuste. O planejamento deve ser feito com o endocrinologista e o obstetra.',
+      },
+      {
+        question: 'Iodo radioativo é perigoso?',
+        answer:
+          'É um tratamento seguro quando indicado corretamente, mas não pode ser usado na gestação nem na amamentação. A consequência mais comum é o hipotireoidismo, que passa a exigir reposição de hormônio e acompanhamento regular.',
+      },
+      {
+        question: 'Preciso parar de comer sal com iodo?',
+        answer:
+          'Não é preciso eliminar o iodo, e sim evitar excesso. Suplementos, algas e contrastes iodados merecem atenção. A orientação sobre a dieta deve vir da equipe que acompanha o tratamento.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao', 'saude-da-mulher'],
+    relatedDiseaseSlugs: ['hipotireoidismo', 'fibrilacao-atrial', 'osteoporose'],
+    references: [
+      {
+        label: 'Hipertireoidismo, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipertireoidismo',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Considerações gerais sobre a tireoide',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/considera%C3%A7%C3%B5es-gerais-sobre-a-tireoide',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'calculo-renal',
+    slug: 'calculo-renal',
+    name: 'Cálculo renal (pedra nos rins)',
+    aliases: [
+      'pedra nos rins',
+      'litíase renal',
+      'nefrolitíase',
+      'cálculo de cálcio',
+      'cólica renal',
+      'pedra no ureter',
+    ],
+    summary:
+      'Massa dura que se forma nos rins quando substâncias da urina se concentram demais. A crise de dor começa no flanco e desce para a virilha, em ondas, e costuma vir com náusea e sangue na urina. Beber água ao longo do dia é a medida que mais reduz a recidiva.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é cálculo renal?',
+        paragraphs: [
+          'Cálculo renal é uma massa endurecida que se forma dentro do rim ou das vias urinárias. Ela nasce quando substâncias dissolvidas na urina, como cálcio, oxalato e ácido úrico, ficam concentradas demais e começam a cristalizar. É o mesmo princípio do saleiro que entope quando a umidade junta os grãos.',
+          'O tamanho varia de grãos de areia a estruturas que ocupam todo o sistema coletor do rim, chamadas cálculos coraliformes. Pedras pequenas podem descer sem causar nada; pedras que ficam presas no ureter provocam a dor mais intensa, porque o tubo tenta empurrar o cálculo por um caminho estreito.',
+          'É uma das queixas mais comuns na emergência. O pico de incidência acontece entre 30 e 50 anos, e os homens são mais afetados. Quem já teve um cálculo tem chance importante de ter outro, e por isso a prevenção não termina quando a dor passa.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de cálculo?',
+        paragraphs: [
+          'O tipo depende do mineral que forma a pedra, e isso muda a prevenção. A análise do cálculo expelido é o exame que define essa composição.',
+        ],
+        bullets: [
+          'Cálcio: cerca de 85% dos casos, em geral combinado com oxalato ou fosfato',
+          'Ácido úrico: comum em quem tem gota ou urina muito ácida, e pode ser dissolvido com medicação',
+          'Estruvita: ligado a infecção urinária de repetição, pode crescer rápido e formar coraliformes',
+          'Cistina: raro, aparece em uma doença genética que faz o rim perder cistina na urina',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa a pedra nos rins?',
+        paragraphs: [
+          'A causa é sempre a urina concentrada, com excesso de substâncias que formam cristal ou falta de inibidores naturais, como o citrato, que impedem os cristais de crescer. Beber pouca água é o fator mais frequente, porque deixa a urina mais densa.',
+          'Algumas doenças aumentam a eliminação de cálcio ou de oxalato na urina. Entre elas estão o hiperparatireoidismo, a acidose tubular renal, a gota, o diabetes tipo 2 e doenças intestinais, incluindo as que passaram por cirurgia bariátrica. Ter parentes próximos com cálculo de cálcio também aumenta o risco.',
+          'Alguns medicamentos entram na conta, como o indinavir, usado no tratamento do HIV. O excesso de vitamina C e de proteína animal na alimentação favorece a formação de cristais em pessoas predispostas.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco?',
+        paragraphs: [
+          'Alguns hábitos e condições aumentam bastante a chance de formar cálculo, e vários deles podem ser modificados.',
+        ],
+        bullets: [
+          'Beber pouca água ao longo do dia',
+          'Dieta com muito sal e muita proteína animal',
+          'Histórico familiar de cálculo de cálcio',
+          'Obesidade, diabetes tipo 2 e cirurgia bariátrica',
+          'Infecção urinária de repetição ou alteração anatômica que dificulta o fluxo de urina',
+          'Uso de suplementos de cálcio em excesso ou de vitamina C em dose alta',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'A crise clássica é a cólica renal: dor intensa entre o flanco e a virilha, que vem em ondas, chega ao pico e cede depois de 20 a 60 minutos, para voltar em seguida. A dor costuma irradiar para o abdome e para a região genital, e o paciente não encontra posição confortável.',
+          'Náusea, vômito, sudorese e agitação acompanham a crise com frequência. Sangue na urina é comum, às vezes visível, às vezes só detectado no exame. Quando o cálculo se aproxima da bexiga, podem aparecer urgência e aumento da frequência urinária.',
+          'Pedras grandes que ficam paradas no rim muitas vezes não doem. Nesses casos, o achado costuma ser incidental, em um ultrassom feito por outro motivo. Já a obstrução completa pode causar dor surda no flanco e redução do volume de urina.',
+          'Febre com calafrios junto da dor é sinal de infecção associada à obstrução, uma situação grave que exige atendimento imediato.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Dor que não cede com analgésico comum, febre ou ausência de urina pedem pronto atendimento. Obstrução com infecção pode evoluir para sepse em pouco tempo.',
+        ],
+        bullets: [
+          'Febre, calafrios ou mal-estar intenso junto da dor',
+          'Dor que não melhora com analgésico e impede ficar parado',
+          'Vontade de urinar sem conseguir eliminar urina',
+          'Redução importante do volume de urina',
+          'Vômitos repetidos que impedem de beber água',
+          'Urina com sangue visível e coágulos',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'A tomografia computadorizada é o melhor exame, porque localiza o cálculo, mede o tamanho e mostra se há obstrução. Ela também identifica outras causas de dor abdominal grave, o que é útil quando o quadro não é típico. A desvantagem é a radiação, que deve ser evitada em gestantes e em repetições desnecessárias.',
+          'O ultrassom é a alternativa sem radiação e costuma ser o primeiro exame na gestação e em serviços de emergência. Ele identifica a maioria dos cálculos e mostra se o rim está dilatado, mas pode deixar passar pedras pequenas no ureter.',
+          'A urina é examinada para detectar sangue, pus e sinais de infecção, e pode ser cultivada quando há febre. Exames de sangue avaliam função renal, cálcio e ácido úrico. Quando o cálculo é expelido, ele deve ser guardado e enviado para análise, porque a composição orienta a prevenção.',
+          'O atendimento inicial acontece na unidade de pronto atendimento ou na UBS, conforme a intensidade da dor. Casos com febre, obstrução ou função renal alterada são avaliados pelo urologista.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com cólica renal?',
+        paragraphs: [
+          'Dor intensa no abdome e no flanco tem várias causas, algumas delas emergenciais. A confusão é perigosa quando atrasa o tratamento correto.',
+        ],
+        bullets: [
+          'Pielonefrite: febre, dor lombar e urina com pus, sem necessariamente haver cálculo',
+          'Apendicite: dor que começa perto do umbigo e migra para a fossa ilíaca direita',
+          'Colecistite: dor no hipocôndrio direito, com náusea e dor ao palpar',
+          'Aneurisma de aorta: dor lombar súbita em pessoa idosa, com queda de pressão',
+          'Gravidez ectópica: dor pélvica intensa em mulher em idade fértil, com atraso menstrual',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento da crise?',
+        paragraphs: [
+          'O primeiro objetivo é controlar a dor. Anti-inflamatórios não esteroidais são a base do tratamento e, quando a dor é muito intensa, podem ser associados analgésicos opioides em ambiente hospitalar. A via e a dose são definidas pelo profissional que atende.',
+          'O tamanho do cálculo orienta a conduta. Pedras pequenas, sem obstrução e sem infecção, costumam sair sozinhas, e o tratamento fica na analgesia e na hidratação. Cálculos maiores que 5 mm têm chance bem menor de eliminação espontânea, e os que ficam perto do rim também descem com mais dificuldade.',
+          'O alfa-bloqueador tansulosina pode ajudar a relaxar a parte final do ureter e facilitar a saída de cálculos pequenos. Ele não substitui a avaliação médica e pode causar queda de pressão ao levantar.',
+          'Não use remédio de dor por conta própria por muitos dias sem reavaliação. Se a dor voltar, a febre aparecer ou a urina diminuir, o retorno precisa ser imediato.',
+        ],
+      },
+      {
+        id: 'procedimentos',
+        heading: 'Quando é preciso um procedimento?',
+        paragraphs: [
+          'A litotripsia por ondas de choque fragmenta o cálculo de fora para dentro e é indicada para pedras de até 1 cm na pelve renal ou no ureter superior. O paciente volta para casa no mesmo dia e elimina os fragmentos pela urina, em geral com algum desconforto.',
+          'A ureteroscopia introduz um aparelho fino pela uretra e pela bexiga até o ureter, com quebra do cálculo a laser. É muito usada para pedras no ureter inferior e para cálculos que não saíram com a litotripsia. A nefrolitotomia percutânea cria um trajeto pequeno nas costas para retirar pedras grandes, coraliformes ou múltiplas.',
+          'Quando há obstrução com infecção, a prioridade é drenar a urina, com cateter duplo J ou nefrostomia, e tratar a infecção antes de remover o cálculo. Cálculos de ácido úrico podem ser dissolvidos com medicação que alcaliniza a urina, mas isso leva meses e exige acompanhamento.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'O prognóstico costuma ser bom. A maioria dos cálculos é eliminada ou removida sem deixar sequela, e a dor desaparece depois do tratamento. Cálculos pequenos, sem obstrução, muitas vezes saem sozinhos em poucos dias ou semanas.',
+          'O problema é a recidiva. Depois do primeiro cálculo de cálcio, cerca de 11% das pessoas têm outro em dois anos, e aproximadamente 39% em 15 anos. Quem não muda a ingestão de água e a dieta tende a repetir o episódio.',
+          'A prevenção funciona, mas precisa ser contínua. Aumentar a água, ajustar o sal e manter o cálcio da dieta são medidas simples, com impacto real na chance de uma nova pedra.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'As complicações aparecem quando o cálculo obstrui a passagem de urina ou quando se associa a infecção.',
+        ],
+        bullets: [
+          'Pielonefrite, com febre, dor lombar e risco de sepse',
+          'Hidronefrose, com dilatação do rim por acúmulo de urina',
+          'Perda progressiva da função renal quando a obstrução não é resolvida',
+          'Cicatriz e estreitamento do ureter após crises repetidas',
+          'Cálculo coraliforme associado a infecção crônica, de tratamento difícil',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'A água é o centro do tratamento. A meta é produzir mais de 2 litros de urina por dia, o que corresponde a beber de 8 a 10 copos ao longo do dia, e não tudo de uma vez. Urina clara é um bom sinal de que a ingestão está adequada.',
+          'O sal deve ser reduzido, porque ele aumenta a eliminação de cálcio na urina. O cálcio da dieta, porém, não deve ser cortado: a recomendação fica em torno de 1.000 a 1.500 mg por dia, e restringir demais aumenta o risco de pedra. Quem tem cálculo de oxalato deve moderar espinafre, ruibarbo, cacau, chá preto e castanhas.',
+          'A proteína animal em excesso também favorece cálculos, e reduzir a porção ajuda. Atividade física e controle do peso entram na prevenção, assim como tratar doenças de base, como gota e hiperparatireoidismo.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a volta da pedra?',
+        paragraphs: [
+          'A prevenção começa pela análise do cálculo, que mostra do que a pedra é feita. A partir daí, a orientação é individualizada: quem tem cálculo de ácido úrico precisa alcalinizar a urina, quem tem estruvita precisa controlar a infecção, e quem tem cistina precisa de acompanhamento especializado.',
+          'Beber água ao longo do dia, reduzir o sal, manter o cálcio da dieta e moderar a proteína animal são medidas que valem para a maioria. Não existe alimento ou suplemento milagroso, e produtos vendidos como preventivos sem comprovação não substituem essas mudanças.',
+          'Quem já teve cálculo deve manter acompanhamento, sobretudo se a doença é recorrente ou se há doença de base. Exames periódicos de urina e imagem permitem identificar pedras antes da crise.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Pedra nos rins pequena sai sozinha?',
+        answer:
+          'Na maioria das vezes, sim. Cálculos pequenos, sem obstrução e sem infecção, costumam ser eliminados pela urina em dias ou semanas, com analgesia e hidratação. Pedras acima de 5 mm têm chance bem menor de sair sem ajuda.',
+      },
+      {
+        question: 'Beber cerveja ajuda a eliminar cálculo?',
+        answer:
+          'Não. A cerveja tem álcool e pode desidratar, além de não ter efeito comprovado sobre a eliminação. O que ajuda é água, em quantidade suficiente para manter a urina clara.',
+      },
+      {
+        question: 'Quem tem cálculo deve parar de comer alimentos com cálcio?',
+        answer:
+          'Não. Restringir o cálcio da dieta aumenta o risco de novos cálculos. A recomendação é manter em torno de 1.000 a 1.500 mg por dia e reduzir o sal, que é o que mais aumenta a perda de cálcio pela urina.',
+      },
+      {
+        question: 'A pedra pode voltar?',
+        answer:
+          'Pode. Cerca de 11% das pessoas têm um novo cálculo em dois anos e cerca de 39% em 15 anos. Beber mais água, reduzir o sal e ajustar a dieta diminuem essa chance.',
+      },
+      {
+        question: 'Cálculo renal tem cura?',
+        answer:
+          'O cálculo em si é removido ou eliminado, e a crise passa. O que existe é tendência a formar novos cálculos, e é isso que a prevenção contínua controla.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['infeccao-urinaria', 'doenca-renal-cronica', 'gota'],
+    references: [
+      {
+        label: 'Cálculos no trato urinário, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/doen%C3%A7as-do-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Infecção renal (pielonefrite), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-renal',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'trombose-venosa-profunda',
+    slug: 'trombose-venosa-profunda',
+    name: 'Trombose venosa profunda (TVP)',
+    aliases: [
+      'TVP',
+      'trombose na perna',
+      'trombose venosa',
+      'coágulo na perna',
+      'tromboembolismo venoso',
+      'TEV',
+    ],
+    summary:
+      'Coágulo que se forma dentro de uma veia profunda, quase sempre na perna. A perna incha, dói e fica mais quente, e o risco maior é o coágulo se soltar e parar no pulmão.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é trombose venosa profunda?',
+        paragraphs: [
+          'Trombose venosa profunda é a formação de um coágulo dentro de uma veia profunda, daquelas que ficam entre os músculos e não aparecem na pele. O coágulo atrapalha o retorno do sangue para o coração, e por isso a perna incha e dói. As veias da panturrilha, da coxa e da região atrás do joelho são as mais atingidas; mais raramente, o problema aparece nos braços.',
+          'A trombose venosa profunda e a embolia pulmonar são a mesma doença em momentos diferentes. O coágulo se forma na perna, e um pedaço dele pode se soltar, viajar pela corrente sanguínea e ficar preso numa artéria do pulmão. Juntas, as duas formas recebem o nome de tromboembolismo venoso.',
+          'O que torna o quadro urgente não é a dor na perna, e sim a possibilidade de embolia. Um coágulo grande no pulmão derruba a oxigenação de repente e pode levar à morte em pouco tempo. Mesmo quando não há embolia, parte das pessoas fica com sequela permanente nas veias, com inchaço e alterações da pele que acompanham a perna por anos.',
+        ],
+        bullets: [
+          'Proximal: atinge veias grandes da coxa e da parte de trás do joelho, como a femoral e a poplítea',
+          'Distal: fica nas veias da panturrilha e costuma ser menor, mas pode crescer e subir',
+          'Mista: há coágulos na coxa e na panturrilha ao mesmo tempo',
+        ],
+      },
+      {
+        id: 'o-quanto-e-comum',
+        heading: 'Quão comum é a trombose venosa profunda?',
+        paragraphs: [
+          'A trombose costuma aparecer depois de uma cirurgia, de um corte ou de muito tempo sem se movimentar. Os procedimentos ortopédicos, oncológicos e ginecológicos estão entre os que mais concentram casos, e o mesmo vale para fraturas e para quem fica acamado por doença.',
+          'A embolia pulmonar, complicação direta da trombose, é uma das causas de morte súbita em pessoas internadas. Boa parte desses episódios poderia ser evitada, porque existe prevenção eficaz: levantar cedo, comprimir as pernas e usar anticoagulante quando há indicação.',
+          'A faixa de 20 a 40 anos concentra mais casos entre mulheres, pela exposição a anticoncepcionais e à gestação. Com o avançar da idade, o risco sobe nos dois sexos e tende a se igualar, porque entram em cena cirurgias, câncer, imobilidade e outras doenças crônicas.',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'O que causa a trombose?',
+        paragraphs: [
+          'Três condições explicam quase todos os casos, e elas costumam se somar: lesão na parede da veia, sangue circulando devagar e sangue com maior tendência a coagular. Uma cirurgia, por exemplo, machuca a parede, obriga ao repouso e ainda deixa o sangue mais coagulável nas primeiras semanas.',
+          'Existem alterações herdadas que aumentam a coagulação, como a deficiência de antitrombina, a mutação do fator V de Leiden, a mutação do gene da protrombina e a deficiência das proteínas C e S. Elas não causam trombose sozinhas, mas tornam o risco muito maior quando aparecem junto de cirurgia, gestação ou anticoncepcional.',
+          'Entre os gatilhos adquiridos estão o câncer e seu tratamento, a insuficiência cardíaca, a doença pulmonar crônica, a doença inflamatória intestinal, a obesidade, o tabagismo, as varizes e o cateter em veia central. Quanto mais fatores uma pessoa reúne ao mesmo tempo, maior a chance de o coágulo se formar.',
+        ],
+        bullets: [
+          'Cirurgia de abdome, de pelve, de quadril ou de perna, fraturas e lesões musculares graves',
+          'Ficar acamado, usar gesso ou passar muitas horas sentado, sobretudo com as pernas cruzadas',
+          'Anticoncepcional com estrogênio, terapia hormonal e gestação, inclusive até três meses após o parto',
+          'Câncer e seu tratamento, insuficiência cardíaca, doença pulmonar crônica e doença inflamatória intestinal',
+          'Trombose ou embolia pulmonar anterior, trombofilia herdada e história familiar de trombose',
+          'Idade avançada, obesidade, tabagismo e cateter em veia central',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'O quadro típico é o de uma perna que incha de repente, dói e fica mais quente que a outra. A dor aparece na panturrilha ou na parte interna da coxa, piora ao andar e ao subir escadas e melhora quando a perna é elevada. A pele pode ficar avermelhada ou arroxeada, e a panturrilha fica sensível ao toque.',
+          'Cerca de metade das pessoas com trombose não sente nada. Nesses casos, o primeiro sinal pode ser a embolia pulmonar, com falta de ar súbita e dor no peito, sem que a perna tenha chamado atenção. Ausência de sintomas na perna não significa ausência de coágulo.',
+          'Quando o coágulo é extenso, a perna inteira incha, fica tensa e pode assumir coloração azulada ou esbranquiçada. Essa forma é rara, mas é a mais grave, porque compromete a circulação do membro e exige atendimento imediato.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Falta de ar, dor no peito ou desmaio em quem tem uma perna inchada é emergência. Ligue para o SAMU no 192 ou vá ao pronto atendimento mais próximo sem esperar o quadro piorar.',
+        ],
+        bullets: [
+          'Falta de ar súbita, respiração curta e rápida ou sensação de que o ar não entra',
+          'Dor no peito ou nas costas que piora ao respirar fundo ou ao tossir',
+          'Tosse com sangue',
+          'Coração acelerado, tontura ou desmaio',
+          'Inchaço repentino de uma perna, com dor, calor e vermelhidão',
+          'Perna muito inchada, tensa, pálida ou arroxeada, com dor intensa',
+        ],
+        cta: {
+          label: 'Leia também: quando a perna inchada é emergência',
+          href: '/artigos/trombose-venosa-profunda-perna-inchada-e-emergencia/',
+        },
+      },
+      {
+        id: 'sindrome-pos-trombotica',
+        heading: 'O que acontece depois: a síndrome pós-trombótica',
+        paragraphs: [
+          'Quando o coágulo não é tratado a tempo, as válvulas que existem dentro das veias podem ser destruídas. Sem essas válvulas, o sangue volta com dificuldade, se acumula na perna e mantém o inchaço mesmo depois que o coágulo desapareceu. É a chamada síndrome pós-trombótica, que costuma se instalar meses depois do episódio.',
+          'Entre um terço e metade das pessoas que têm trombose desenvolve algum grau dessa síndrome. O quadro inclui inchaço que piora ao fim do dia, veias dilatadas, manchas escuras na pele, endurecimento e, nos casos mais avançados, feridas que custam a cicatrizar.',
+          'A prevenção começa no tratamento do episódio agudo: anticoagulação adequada, meia de compressão quando indicada e acompanhamento com cirurgião vascular. Quem já tem a síndrome precisa de cuidado contínuo com a pele e com o edema, porque a ferida tratada tarde volta com facilidade.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito e onde procurar atendimento',
+        paragraphs: [
+          'O médico começa pela história: cirurgia recente, imobilidade, viagem longa, câncer, gestação, anticoncepcional, episódio anterior de trombose e medicamentos em uso. O exame físico procura diferença de volume entre as pernas, calor, alteração de cor e dor ao apalpar a panturrilha.',
+          'A confirmação vem de exames de imagem. A suspeita clínica sozinha não basta, porque outras doenças imitam o quadro, e o exame de sangue isolado também não decide: o D-dímero se altera em infecções, traumas, pós-operatório e gestação.',
+          'O atendimento inicial pode ser feito na UBS ou numa UPA, conforme a intensidade dos sintomas. O especialista que acompanha a trombose é o cirurgião vascular; em casos com embolia pulmonar, pneumologistas e cardiologistas participam do cuidado. O tratamento está disponível na rede pública de saúde.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames confirmam a trombose?',
+        paragraphs: [
+          'O ultrassom com Doppler é o exame de primeira escolha. Ele é indolor, não usa radiação e mostra o fluxo dentro das veias; acerta com facilidade quando o coágulo está na coxa ou atrás do joelho e erra mais quando está nas veias finas da panturrilha. Por isso, um resultado normal com sintomas fortes pode pedir repetição em alguns dias.',
+          'A tomografia com contraste venoso enxerga de uma vez as veias do abdome, da pelve e das pernas, e é útil quando o ultrassom não esclarece ou quando se suspeita de coágulo mais alto. A venografia tradicional, com contraste injetado no pé e raio X, continua sendo o exame de referência, mas é invasiva e ficou reservada para casos selecionados.',
+          'Exames de sangue completam a investigação: hemograma, contagem de plaquetas e eletroforese de proteínas ajudam a identificar condições que favorecem a coagulação. Em situações específicas, o médico pode medir a pressão dentro das veias ou usar métodos que avaliam a resistência ao fluxo sanguíneo.',
+        ],
+        bullets: [
+          'Ultrassom com Doppler: primeiro exame, sem radiação, repetido quando o resultado não combina com o quadro',
+          'D-dímero: ajuda a afastar a trombose quando o resultado é baixo, mas sozinho não confirma nada',
+          'Tomografia com contraste: mapeia as veias do abdome, da pelve e das pernas',
+          'Venografia: exame de referência, invasivo, usado quando os outros não concluem',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com trombose?',
+        paragraphs: [
+          'Inchaço e dor em uma perna têm várias causas, e algumas delas não têm nada a ver com coágulo. A diferença raramente é óbvia no exame físico, e é por isso que o ultrassom costuma entrar cedo na investigação.',
+        ],
+        bullets: [
+          'Celulite: pele vermelha, quente e dolorosa, com febre e sem o aumento de volume típico da trombose',
+          'Tromboflebite superficial: veia endurecida e dolorosa logo abaixo da pele, sem o edema difuso da perna',
+          'Distensão muscular: dor que aparece depois de esforço, sem calor nem inchaço importante',
+          'Cisto de Baker roto: dor na parte de trás do joelho que desce para a panturrilha',
+          'Linfedema: inchaço crônico, muitas vezes nos dois lados ou com história de cirurgia na virilha',
+        ],
+      },
+      {
+        id: 'tratamento-inicial',
+        heading: 'Como começa o tratamento',
+        paragraphs: [
+          'Assim que a trombose é confirmada, começa a anticoagulação. O objetivo é impedir que o coágulo cresça, reduzir a chance de ele se soltar e diminuir a probabilidade de um novo episódio. Quanto antes o tratamento começa, menor o risco de embolia e de sequela nas veias.',
+          'Nas primeiras horas, repouso com a perna elevada acima do nível do coração alivia a dor e ajuda o sangue a voltar. A meia de compressão, quando indicada, controla o edema. Repouso absoluto prolongado não é regra: a maioria das pessoas volta a andar cedo, com orientação da equipe.',
+          'Casos extensos, com risco de perda do membro, podem exigir tratamento mais agressivo já na fase aguda, como trombólise dirigida por cateter ou retirada mecânica do coágulo. Essa decisão é do cirurgião vascular e depende do tamanho do trombo, do tempo de evolução e do risco de sangramento.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'Os anticoagulantes são a base do tratamento. Em ambiente hospitalar, usa-se heparina injetável, às vezes por via intravenosa, às vezes por via subcutânea. Em casa, as opções incluem comprimidos como rivaroxabana, apixabana e dabigatrana, ou a varfarina, que exige controle frequente do sangue.',
+          'A escolha depende da função dos rins, do peso, da gestação, do câncer, das interações com outros remédios e da facilidade de fazer os exames de controle. A varfarina precisa de monitoramento com o exame de coagulação e de atenção à alimentação rica em vitamina K; os anticoagulantes orais mais novos dispensam esse controle, mas custam mais.',
+          'O tempo de uso é definido pelo médico. Em geral o tratamento se estende por vários meses, e quem tem fator de risco permanente, como câncer ativo ou trombofilia grave, pode precisar manter o medicamento por prazo indeterminado.',
+          'Nunca suspenda o anticoagulante por conta própria, nem para uma cirurgia pequena ou um procedimento dentário. Avise qualquer profissional de saúde que você usa esse tipo de remédio e evite associar anti-inflamatórios por iniciativa própria, porque a combinação aumenta o risco de sangramento.',
+        ],
+      },
+      {
+        id: 'cirurgia-e-procedimentos',
+        heading: 'Quando é preciso cirurgia ou procedimento',
+        paragraphs: [
+          'A trombólise por cateter leva o medicamento direto ao coágulo e é indicada em tromboses extensas da coxa e da virilha, sobretudo quando a perna está muito comprometida. Ela reduz o trombo mais rápido que o anticoagulante sozinho e diminui a chance de síndrome pós-trombótica, mas exige estrutura hospitalar e avaliação do risco de sangramento.',
+          'A trombectomia mecânica aspira ou fragmenta o coágulo por dentro da veia, sem abrir a perna. Já a cirurgia aberta, com retirada do trombo, fica para situações extremas, como a perna azulada e tensa por obstrução total, quando a circulação do membro está em risco.',
+          'Quando o anticoagulante não pode ser usado ou falha em impedir a embolia, o médico pode indicar um filtro na veia cava, o vaso que recebe o sangue das pernas. O filtro não trata a trombose e não substitui o anticoagulante: funciona como uma barreira contra coágulos que se soltam.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'A embolia pulmonar é a complicação mais grave. Um coágulo que se desprende e bloqueia boa parte da circulação do pulmão causa falta de ar intensa e queda de pressão, e pode levar à morte em poucas horas. Quanto maior o trombo e quanto mais alto ele está na perna, maior o risco.',
+          'A síndrome pós-trombótica é a complicação mais frequente. Ela não mata, mas muda a vida: a perna permanece inchada, a pele escurece e endurece, e feridas aparecem com facilidade. Meia de compressão e acompanhamento regular reduzem o problema.',
+          'A recorrência também é comum. Cerca de 30% das pessoas que tiveram trombose ou embolia correm risco de um novo episódio, e esse risco é maior quando o primeiro aconteceu sem causa aparente ou quando o anticoagulante foi suspenso cedo demais.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia e acompanhamento',
+        paragraphs: [
+          'A meia de compressão, quando prescrita, deve ser colocada de manhã, antes de levantar, e usada durante o dia. Ela reduz o edema e a dor e ajuda a prevenir a síndrome pós-trombótica. O modelo e o grau de compressão são definidos pelo cirurgião vascular, porque uma meia inadequada aperta demais ou não serve para nada.',
+          'Movimentar a perna é parte do tratamento. Caminhadas curtas e frequentes, elevação das pernas nos intervalos de descanso e exercícios de flexão do tornozelo ativam a musculatura da panturrilha, que funciona como uma bomba e empurra o sangue para cima.',
+          'O acompanhamento inclui consultas regulares, ultrassom quando indicado e, no caso da varfarina, exames de coagulação com frequência. Quem usa anticoagulante deve observar sinais de sangramento, como fezes escuras, urina avermelhada, manchas roxas sem motivo e dor de cabeça forte, e procurar atendimento se algum deles aparecer.',
+          'Beber água ao longo do dia, manter o peso e não fumar ajudam a reduzir o risco de um novo episódio. Em viagens longas, levante-se a cada uma ou duas horas, use roupas folgadas e movimente os pés enquanto estiver sentado.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir a trombose',
+        paragraphs: [
+          'Em quem vai operar, a prevenção começa antes da cirurgia. A equipe avalia o risco e indica o que for necessário: levantar cedo, meia de compressão, aparelhos que comprimem as pernas durante a internação ou anticoagulante por alguns dias. Essas medidas são decididas caso a caso.',
+          'Fora do hospital, o que protege é o movimento. Quem passa muitas horas sentado no trabalho deve levantar e caminhar em intervalos regulares, e quem viaja de avião ou de ônibus por mais de quatro horas deve andar pelo corredor a cada uma ou duas horas, beber água e fazer exercícios com os tornozelos na poltrona.',
+          'Controlar o peso, tratar doenças crônicas, parar de fumar e praticar atividade física reduzem o risco ao longo da vida. Quem já teve trombose, tem trombofilia ou vai enfrentar imobilização prolongada deve conversar com o médico sobre prevenção antes de cirurgias e viagens longas.',
+          'Não use remédio por conta própria para prevenir trombose. A indicação de anticoagulante depende de avaliação médica, e o uso sem critério traz risco de sangramento sem benefício.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Trombose venosa profunda tem cura?',
+        answer:
+          'O episódio agudo é tratado e o coágulo se organiza ou desaparece com o tempo, mas a veia pode ficar com sequela. O que permanece é a tendência a formar novos coágulos, e é por isso que o acompanhamento continua depois que a dor passa.',
+      },
+      {
+        question: 'Quem teve trombose pode ter outra?',
+        answer:
+          'Pode. Cerca de 30% das pessoas que tiveram trombose ou embolia pulmonar correm risco de um novo episódio. O risco é maior quando a primeira trombose surgiu sem causa aparente ou quando o anticoagulante foi suspenso antes do tempo indicado.',
+      },
+      {
+        question: 'Trombose na perna pode virar embolia pulmonar?',
+        answer:
+          'Sim. Parte do coágulo pode se soltar e viajar até o pulmão, e isso acontece sobretudo nas primeiras semanas, antes de o tratamento fazer efeito. Falta de ar súbita, dor no peito e tosse com sangue são sinais de emergência.',
+      },
+      {
+        question: 'Meia de compressão trata a trombose?',
+        answer:
+          'Não. A meia ajuda a controlar o inchaço e reduz a síndrome pós-trombótica, mas não dissolve o coágulo. O tratamento da trombose é feito com anticoagulante, e a meia entra como apoio.',
+      },
+      {
+        question: 'Quem teve trombose pode viajar de avião?',
+        answer:
+          'Na fase aguda, a viagem deve ser adiada. Depois, com anticoagulação estável e liberação médica, o voo é possível, com hidratação, roupas folgadas e caminhadas pelo corredor a cada uma ou duas horas.',
+      },
+      {
+        question: 'Posso parar o anticoagulante quando os sintomas melhoram?',
+        answer:
+          'Não. Suspender por conta própria é uma das principais causas de recidiva. O tempo de tratamento é definido pelo médico, que avalia a causa da trombose e o risco de sangramento.',
+      },
+    ],
+    relatedArticleSlugs: ['trombose-venosa-profunda-perna-inchada-e-emergencia', 'trombose-venosa-profunda-quando-o-risco-aumenta'],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['insuficiencia-cardiaca', 'elefantiase', 'obesidade'],
+    references: [
+      {
+        label: 'Trombose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/trombose',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'About Venous Thromboembolism (Blood Clots)',
+        url: 'https://www.cdc.gov/blood-clots/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention',
+      },
+      {
+        label: 'Risk Factors for Blood Clots',
+        url: 'https://www.cdc.gov/blood-clots/risk-factors/index.html',
+        publisher: 'Centers for Disease Control and Prevention',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiperplasia-prostatica-benigna',
+    slug: 'hiperplasia-prostatica-benigna',
+    name: 'Hiperplasia prostática benigna (HPB)',
+    aliases: [
+      'HPB',
+      'próstata aumentada',
+      'aumento benigno da próstata',
+      'hiperplasia benigna da próstata',
+      'próstata grande',
+    ],
+    summary:
+      'Aumento benigno da próstata, glândula que fica abaixo da bexiga e envolve a uretra. O crescimento comprime o canal e provoca jato fraco, vontade frequente de urinar e idas ao banheiro durante a noite.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é hiperplasia prostática benigna?',
+        paragraphs: [
+          'A próstata é uma glândula do tamanho de uma ameixa, presente apenas nos homens, que fica logo abaixo da bexiga e envolve a parte inicial da uretra, o canal por onde a urina sai. Sua função é produzir parte do líquido que compõe o sêmen.',
+          'Na hiperplasia prostática benigna, o tecido da próstata cresce e comprime a uretra que passa dentro dela. O efeito é parecido com o de apertar um cano: a urina sai com menos força, demora a começar e o esvaziamento da bexiga fica incompleto. O crescimento começa por volta dos 40 anos e costuma dar sintomas a partir dos 50.',
+          'A palavra benigna é importante. A HPB não é câncer, não se espalha para outros órgãos e não encurta a vida por si só. O problema é o incômodo e o desgaste da bexiga ao longo dos anos, que pode levar a retenção urinária, infecções de repetição e, mais raramente, lesão dos rins.',
+        ],
+      },
+      {
+        id: 'o-quanto-e-comum',
+        heading: 'Quão comum é a hiperplasia prostática benigna?',
+        paragraphs: [
+          'É uma das condições mais frequentes do envelhecimento masculino. Cerca de metade dos homens acima de 50 anos tem algum grau de aumento benigno da próstata, e a proporção sobe com a idade, chegando à maioria dos homens acima de 80 anos.',
+          'Muitos convivem com os sintomas durante anos sem procurar ajuda, porque acreditam que levantar várias vezes à noite faz parte de envelhecer. O atraso tem um custo: a bexiga vai perdendo força e as complicações aparecem justamente em quem demorou a ser avaliado.',
+          'No Brasil, o primeiro atendimento costuma acontecer na UBS. A Política Nacional de Atenção Integral à Saúde do Homem foi criada para facilitar esse acesso, e muitas unidades ampliaram o horário de funcionamento para atender quem trabalha durante o dia.',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'Por que a próstata cresce?',
+        paragraphs: [
+          'A causa exata não é conhecida, mas o hormônio masculino tem papel central. A testosterona age nas células da próstata por meio de receptores, e parte dela é convertida em uma forma mais potente, que estimula o crescimento do tecido glandular. Sem testosterona, a HPB não se desenvolve.',
+          'Além dos hormônios, entram em cena o desequilíbrio entre nascimento e morte das células, os fatores de crescimento que aceleram a multiplicação, a conversa entre as células do estroma e do epitélio e a inflamação crônica de baixo grau, que mantém o tecido em estímulo constante.',
+          'O risco cresce com a idade, com a obesidade, com o diabetes e com as doenças cardiovasculares. Sedentarismo, consumo excessivo de álcool e alimentação pobre em vegetais aparecem associados ao problema, embora nenhum deles explique sozinho o quadro.',
+        ],
+        bullets: [
+          'Idade acima de 40 anos, com aumento progressivo do risco',
+          'Obesidade e ganho de peso abdominal',
+          'Diabetes tipo 2 e doenças cardiovasculares',
+          'Sedentarismo e alimentação pouco variada',
+          'Consumo excessivo de álcool',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas se dividem em dois grupos. No primeiro, a bexiga não consegue guardar a urina com tranquilidade: a pessoa sente vontade frequente, tem urgência e acorda várias vezes à noite. No segundo, a dificuldade está na saída: demora para começar, jato fraco e fino, esforço abdominal, gotejamento no final e sensação de que a bexiga não esvaziou.',
+          'A noctúria costuma ser o sintoma que mais incomoda, porque atrapalha o sono e o dia seguinte. Com o tempo, a bexiga perde elasticidade, sobra urina depois de cada micção e o intervalo entre as idas ao banheiro encurta ainda mais.',
+          'Quando há infecção urinária ou cálculo na bexiga associados, aparecem dor para urinar, urina turva e sangramento. Em casos avançados, o esforço repetido para urinar piora hemorroidas e hérnias já existentes.',
+          'O tamanho da próstata não acompanha a intensidade dos sintomas. Homens com glândulas pouco aumentadas podem sofrer muito, enquanto outros com próstatas grandes não se queixam. Por isso, a avaliação considera o incômodo, o fluxo urinário e o impacto na vida diária.',
+        ],
+        bullets: [
+          'Urinar muitas vezes ao dia, em pequenas quantidades',
+          'Urgência, com sensação de que não dá tempo de chegar ao banheiro',
+          'Acordar duas ou mais vezes à noite para urinar',
+          'Demora para iniciar a micção e jato fraco ou entrecortado',
+          'Gotejamento ao final e sensação de esvaziamento incompleto',
+          'Necessidade de fazer força com a barriga para urinar',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Não conseguir urinar é emergência. A bexiga cheia e dolorida pode evoluir para infecção e lesão renal, e a desobstrução precisa ser feita em serviço de saúde, com cateter.',
+        ],
+        bullets: [
+          'Vontade de urinar com dor forte no baixo ventre e nenhuma urina eliminada',
+          'Febre com urina turva, dor para urinar ou dor lombar',
+          'Sangue na urina, com ou sem coágulos',
+          'Perda de urina sem controle',
+          'Diminuição importante do volume de urina, com inchaço nas pernas',
+          'Dor nos rins, náusea e mal-estar em quem já tem dificuldade para urinar',
+        ],
+        cta: {
+          label: 'Leia também: quando não conseguir urinar é emergência',
+          href: '/artigos/hiperplasia-prostatica-benigna-quando-a-urina-nao-sai/',
+        },
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito e onde procurar atendimento',
+        paragraphs: [
+          'Quem tem mais de 50 anos e percebe mudança no jato, vontade frequente ou idas noturnas ao banheiro deve procurar a UBS. O clínico geral ou o urologista faz a avaliação inicial, e casos com complicações ou indicação cirúrgica seguem para o urologista.',
+          'A consulta começa pela história: quando os sintomas apareceram, quantas vezes a pessoa urina por dia e por noite, quais remédios usa, se há diabetes, doenças neurológicas ou cirurgias prévias na região. Um questionário curto, o escore internacional de sintomas prostáticos, ajuda a medir a gravidade e a acompanhar a evolução.',
+          'O exame físico inclui a palpação do abdome, a avaliação dos reflexos e da sensibilidade dos membros inferiores e o toque retal, que informa tamanho, consistência e presença de nódulos. O toque não mede o volume com precisão, mas é essencial para diferenciar a HPB do câncer.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames são pedidos?',
+        paragraphs: [
+          'A urina é examinada para afastar infecção e sangramento, e um exame de sangue avalia a função dos rins. A dosagem de PSA entra quando há suspeita de câncer ou quando o exame físico levanta dúvida; o Ministério da Saúde não recomenda rastreamento de câncer de próstata em homens sem sintomas, porque os benefícios e os riscos precisam ser discutidos caso a caso.',
+          'A ultrassonografia mostra o tamanho da próstata, o resíduo de urina depois da micção e se os rins estão dilatados. A via abdominal exige bexiga cheia; a via transretal mede o volume com mais precisão.',
+          'A urofluxometria registra a velocidade da urina e ajuda a separar obstrução de bexiga fraca. Valores baixos em exames repetidos sugerem obstrução, e o exame é repetido porque há grande variação entre uma micção e outra. Em casos selecionados, o médico pede estudo urodinâmico ou cistoscopia para ver a uretra e a bexiga por dentro.',
+        ],
+        bullets: [
+          'Toque retal e exame neurológico dos membros inferiores',
+          'Urina tipo 1 e urocultura quando há sinais de infecção',
+          'PSA, interpretado junto do exame físico e da história',
+          'Ultrassom com medida do resíduo e avaliação dos rins',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com hiperplasia prostática?',
+        paragraphs: [
+          'Vários problemas causam sintomas urinários parecidos, e alguns são graves. A investigação serve tanto para confirmar a HPB quanto para afastar essas outras causas.',
+        ],
+        bullets: [
+          'Câncer de próstata: PSA muito elevado e nódulo endurecido ao toque pedem biópsia',
+          'Prostatite: dor perineal, febre e urina com pus, muitas vezes em homem mais jovem',
+          'Bexiga neurogênica: dificuldade para urinar em quem tem diabetes avançado, AVC ou lesão medular',
+          'Estenose de uretra: jato fino com histórico de trauma, cateterismo ou uretrite prévia',
+          'Câncer de bexiga: sangue na urina sem dor, sobretudo em tabagista',
+          'Contratura do colo vesical: obstrução sem aumento da próstata, confirmada por cistoscopia',
+        ],
+      },
+      {
+        id: 'tratamento-inicial',
+        heading: 'Como o tratamento começa',
+        paragraphs: [
+          'Quando o homem chega sem conseguir urinar, a primeira medida é esvaziar a bexiga com uma sonda, no pronto atendimento ou no hospital. Depois da desobstrução, o urologista investiga a causa e decide se o caso precisa de cirurgia.',
+          'Nos sintomas leves, que não atrapalham o sono nem as atividades, a conduta pode ser apenas acompanhar. Isso inclui entender como a doença evolui, ajustar hábitos, revisar remédios que pioram a micção e reavaliar uma vez por ano. A maior parte dos homens não chega à retenção urinária nem à lesão renal.',
+          'A decisão de tratar depende do incômodo, do fluxo, do resíduo de urina e da função dos rins. Muitas vezes o tratamento combina mudanças de hábito, medicamento e acompanhamento, e a cirurgia fica reservada para quem não responde ou apresenta complicações.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'Os bloqueadores alfa relaxam a musculatura da uretra e do colo da bexiga, e o alívio costuma aparecer em poucos dias. Tansulosina, doxazosina e terazosina são os mais usados. Tontura e queda de pressão ao levantar são os efeitos mais comuns, e a primeira dose merece cuidado.',
+          'Os inibidores da 5-alfa-redutase, como finasterida e dutasterida, reduzem o volume da próstata ao longo de meses. Funcionam melhor em glândulas muito aumentadas e podem diminuir o risco de retenção e de cirurgia, mas levam tempo para agir e podem afetar o desejo sexual e a ejaculação.',
+          'Quando o incômodo principal é a urgência e a frequência, o médico pode associar um antagonista muscarínico, como oxibutinina, tolterodina ou solifenacina. Esses remédios são contraindicados em quem tem glaucoma de ângulo fechado ou histórico de retenção urinária, e podem causar boca seca e prisão de ventre.',
+          'Extratos de plantas são vendidos com promessa de aliviar os sintomas, mas a evidência é fraca e a composição varia entre produtos. Nenhum fitoterápico substitui a avaliação médica, e o uso por conta própria atrasa o diagnóstico de outras doenças.',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Quando a cirurgia é necessária',
+        paragraphs: [
+          'A cirurgia é indicada quando o medicamento não controla os sintomas, quando há retenção urinária de repetição, infecções frequentes, cálculos na bexiga, sangramento persistente ou comprometimento dos rins. A escolha da técnica depende do tamanho da próstata, das condições clínicas e da experiência do serviço.',
+          'A ressecção transuretral é o padrão de referência: o aparelho entra pela uretra, sem corte na barriga, e retira o tecido que obstrui. A recuperação é relativamente rápida, mas ejaculação retrógrada, estreitamento da uretra e perda de urina podem ocorrer em uma minoria.',
+          'Próstatas muito grandes podem exigir cirurgia aberta ou enucleação endoscópica, que remove o tecido de forma mais completa. As técnicas a laser são alternativa para quem tem risco cirúrgico elevado, porque sangram menos.',
+        ],
+        bullets: [
+          'Ressecção transuretral: padrão para próstatas de tamanho moderado',
+          'Incisão transuretral: para glândulas pequenas e pacientes frágeis',
+          'Enucleação a laser: remoção mais completa, com menos sangramento',
+          'Cirurgia aberta: reservada para próstatas muito grandes ou com cálculos',
+        ],
+      },
+      {
+        id: 'outras-terapias',
+        heading: 'Outras opções e novidades',
+        paragraphs: [
+          'Para quem não pode passar por cirurgia, existem alternativas menos invasivas. A termoterapia por radiofrequência e a micro-ondas aquecem o tecido e aliviam a obstrução, com resultado inferior ao da ressecção. O stent colocado na uretra mantém o canal aberto, mas exige troca e acompanhamento.',
+          'Técnicas mais recentes incluem implantes que afastam os lobos da próstata sem retirar tecido, tratamentos com vapor de água e cirurgia robótica. Elas reduz o tempo de internação e preservam melhor a ejaculação, mas têm indicação restrita e nem toda a rede oferece.',
+          'Essas opções não substituem a avaliação do urologista. A conversa sobre qual técnica faz sentido deve considerar o tamanho da próstata, o desejo de preservar a ejaculação, o risco cirúrgico e a disponibilidade no serviço.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'A complicação mais temida é a retenção urinária aguda, quando a uretra fecha e a bexiga não esvazia. Ocorre de forma imprevisível, às vezes depois de uma noite de bebedeira ou do uso de remédios para resfriado.',
+          'A urina que sobra na bexiga favorece infecções de repetição e a formação de cálculos. Com o tempo, a bexiga desenvolve divertículos, perde contratilidade e passa a não esvaziar nem com esforço.',
+          'A pressão alta dentro da bexiga pode refluir para os ureteres e dilatar os rins, levando à hidronefrose e à perda de função renal. Essa é a complicação que justifica tratar mesmo quem tem pouco incômodo.',
+        ],
+        bullets: [
+          'Retenção urinária aguda, com dor e necessidade de sonda',
+          'Infecção urinária de repetição',
+          'Cálculos na bexiga',
+          'Bexiga com divertículos e perda de força',
+          'Hidronefrose e insuficiência renal em casos avançados',
+          'Sangramento urinário',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia e acompanhamento',
+        paragraphs: [
+          'O retorno ao médico segue o tratamento escolhido. Quem apenas observa costuma ser reavaliado em seis meses e, depois, uma vez por ano. Quem inicia medicamento retorna no primeiro mês e, em seguida, a cada três ou seis meses. Depois da cirurgia, a primeira revisão é em um mês, com nova avaliação em três meses.',
+          'Alguns hábitos ajudam a conviver com os sintomas. Beber menos líquido à noite reduz as idas ao banheiro, e diminuir café, chá preto e álcool reduz a urgência. Segurar a urina por muito tempo piora a bexiga, e o frio intenso pode desencadear retenção.',
+          'Exercícios para o assoalho pélvico, com contrações do períneo, melhoram o controle urinário. Atividade física regular e perda de peso também ajudam, porque a obesidade aumenta a pressão sobre a bexiga.',
+          'Remédios para alergia e para resfriado, muitos deles com ação anticolinérgica, podem piorar o esvaziamento. Antes de usar qualquer produto sem receita, vale perguntar ao farmacêutico ou ao médico se ele é seguro para quem tem próstata aumentada.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir e quando investigar',
+        paragraphs: [
+          'Não existe medida comprovada que impeça o crescimento da próstata. O que se sabe é que manter peso adequado, praticar atividade física, controlar diabetes e pressão e não fumar reduz o risco de a doença avançar mais rápido e de surgirem complicações.',
+          'A partir dos 50 anos, vale conversar com a equipe de saúde sobre os sintomas urinários na consulta de rotina. Quem tem histórico familiar de câncer de próstata ou é negro deve começar essa conversa mais cedo, porque o risco de câncer é maior nesses grupos.',
+          'Não espere a retenção urinária para procurar ajuda. Jato fraco, levantar à noite e sensação de bexiga cheia são motivos suficientes para uma avaliação simples, que pode ser feita na UBS.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Hiperplasia prostática benigna vira câncer?',
+        answer:
+          'Não. A HPB é um crescimento benigno e não se transforma em câncer. As duas doenças podem coexistir na mesma próstata, e é por isso que o toque retal e o PSA fazem parte da avaliação.',
+      },
+      {
+        question: 'Próstata aumentada sempre precisa de cirurgia?',
+        answer:
+          'Não. Muitos homens ficam bem apenas com acompanhamento e ajuste de hábitos, e outros controlam os sintomas com medicamento. A cirurgia entra quando o tratamento clínico falha ou quando aparecem complicações.',
+      },
+      {
+        question: 'A cirurgia retira a próstata inteira?',
+        answer:
+          'Não. A cirurgia da HPB remove apenas o tecido que obstrui a passagem da urina, e a cápsula da próstata é preservada. Isso é diferente da cirurgia do câncer de próstata, que retira a glândula toda.',
+      },
+      {
+        question: 'O tratamento afeta a vida sexual?',
+        answer:
+          'Pode afetar. Os inibidores da 5-alfa-redutase podem reduzir o desejo e a ejaculação, e a cirurgia causa ejaculação retrógrada na maioria dos casos. A potência costuma ser preservada, mas converse com o urologista antes de decidir.',
+      },
+      {
+        question: 'Quem tem próstata aumentada pode tomar remédio para alergia?',
+        answer:
+          'Com cautela. Muitos antialérgicos e descongestionantes têm ação anticolinérgica e podem dificultar a saída da urina, sobretudo em quem já tem jato fraco. Pergunte ao farmacêutico ou ao médico antes de usar.',
+      },
+      {
+        question: 'Existe alimento que diminui a próstata?',
+        answer:
+          'Não há alimento com efeito comprovado de reduzir a próstata. Dieta equilibrada e perda de peso ajudam no controle dos sintomas e das doenças associadas, mas não substituem o tratamento indicado pelo médico.',
+      },
+    ],
+    relatedArticleSlugs: ['hiperplasia-prostatica-benigna-quando-a-urina-nao-sai', 'hiperplasia-prostatica-benigna-cirurgia-rtu', 'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia', 'hiperplasia-prostatica-benigna-tem-cura', 'hiperplasia-prostatica-benigna-nodulo-e-calcificacao'],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['cancer-de-prostata', 'infeccao-urinaria', 'calculo-renal'],
+    references: [
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Saúde do Homem',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-do-homem',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'lupus-eritematoso-sistemico',
+    slug: 'lupus-eritematoso-sistemico',
+    name: 'Lúpus eritematoso sistêmico (LES)',
+    aliases: [
+      'lúpus',
+      'LES',
+      'lúpus sistêmico',
+      'lúpus eritematoso disseminado',
+      'doença autoimune lúpus',
+    ],
+    summary:
+      'Doença autoimune crônica em que o sistema de defesa ataca os próprios tecidos. Alterna crises e períodos calmos e pode atingir pele, articulações, rins, coração e cérebro.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é lúpus eritematoso sistêmico?',
+        paragraphs: [
+          'O lúpus eritematoso sistêmico é uma doença inflamatória crônica em que o sistema imunológico passa a produzir anticorpos contra as próprias células. Esses anticorpos circulam pelo corpo e formam depósitos nos tecidos, o que mantém uma inflamação difusa e difícil de prever.',
+          'Por circular pelo sangue, a inflamação pode atingir praticamente qualquer órgão. Pele, articulações e mucosas são os alvos mais comuns, mas rins, pulmões, coração, sangue e sistema nervoso também podem ser comprometidos. A forma e a gravidade variam muito de uma pessoa para outra.',
+          'A doença funciona em ciclos, com períodos de atividade e períodos de remissão. Numa fase ativa aparecem sintomas novos ou piora dos antigos; na remissão, a pessoa pode passar meses sem queixas. O objetivo do tratamento é encurtar as crises, prevenir danos aos órgãos e manter a qualidade de vida.',
+        ],
+      },
+      {
+        id: 'o-quanto-e-comum',
+        heading: 'Quão comum é o lúpus?',
+        paragraphs: [
+          'A Sociedade Brasileira de Reumatologia estima que entre 150 mil e 300 mil pessoas vivam com lúpus no Brasil. A doença é muito mais frequente em mulheres, sobretudo entre 20 e 45 anos, e o diagnóstico costuma ser feito nessa faixa, embora possa surgir em qualquer idade.',
+          'O tempo entre o primeiro sintoma e o diagnóstico é longo. A estimativa é de quatro a sete anos, porque o início é arrastado, os sintomas imitam outras doenças e nem sempre o quadro se apresenta de forma completa de uma vez.',
+          'O lúpus não é contagioso e não se transmite pelo convívio, pelo beijo ou pela relação sexual. Também não é hereditário no sentido estrito: o que se herda é uma predisposição, que precisa encontrar gatilhos ambientais para se manifestar.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa o lúpus?',
+        paragraphs: [
+          'A causa não é conhecida. O que se sabe é que a doença nasce da combinação entre predisposição genética, fatores ambientais e hormônios. Parentes de primeiro grau de uma pessoa com lúpus têm risco maior que a população geral, e gêmeos idênticos concordam para a doença com frequência bem maior que gêmeos fraternos.',
+          'Entre os gatilhos ambientais, a luz ultravioleta é o mais evidente: muitas pessoas notam que manchas e dores surgem ou pioram depois da exposição ao sol. Infecções virais e bacterianas também podem iniciar ou reativar o quadro, assim como alguns medicamentos, que causam uma forma parecida de lúpus e costumam melhorar com a retirada da droga.',
+          'O hormônio feminino explica parte da diferença entre os sexos. Na idade fértil, há cerca de nove mulheres para cada homem com lúpus; antes da puberdade e depois da menopausa, essa proporção cai bastante. Gestação e uso de estrogênio aparecem associados a mais atividade da doença.',
+        ],
+        bullets: [
+          'História familiar de lúpus ou de outras doenças autoimunes',
+          'Exposição solar sem proteção',
+          'Infecções que funcionam como gatilho',
+          'Uso de medicamentos que induzem lúpus, como alguns anti-hipertensivos e anticonvulsivantes',
+          'Ser mulher em idade fértil',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas gerais abrem o quadro: febre baixa, cansaço que não melhora com repouso, perda de apetite e emagrecimento sem explicação. Muita gente relata meses de mal-estar antes de qualquer manifestação típica, e é comum a pessoa ser tratada como se tivesse uma virose prolongada.',
+          'Na pele, a lesão mais conhecida é o rash em asas de borboleta, uma vermelhidão sobre as maçãs do rosto e o dorso do nariz, que poupa os sulcos ao redor da boca. Também aparecem lesões que pioram ao sol, feridas indolores na boca e no nariz, queda de cabelo difusa ou em placas, e alteração de cor nos dedos com o frio.',
+          'As articulações doem e incham, quase sempre em vários pontos ao mesmo tempo, com rigidez matinal. Diferente da artrite reumatoide, o lúpus raramente deforma as articulações de forma permanente, embora possa causar dor intensa e limitação temporária.',
+          'Quando a inflamação atinge as membranas que revestem o pulmão, o coração ou o abdome, surgem dor no peito ao respirar fundo, falta de ar e aumento da circunferência abdominal. O rim é um dos órgãos mais afetados: cerca de metade dos pacientes apresenta algum grau de nefrite, que costuma ser silenciosa no início e se manifesta por urina espumosa, pressão alta e inchaço nas pernas.',
+          'O sistema nervoso pode causar dor de cabeça persistente, convulsões, alterações de memória, confusão e, nos casos mais graves, quadros psicóticos. No sangue, são comuns anemia, queda de glóbulos brancos e plaquetas baixas, com mais infecções e maior facilidade de sangramento.',
+        ],
+        bullets: [
+          'Febre baixa, cansaço e perda de peso',
+          'Vermelhidão em asas de borboleta no rosto',
+          'Lesões de pele que pioram ao sol',
+          'Feridas indolores na boca ou no nariz',
+          'Dor e inchaço em várias articulações',
+          'Queda de cabelo',
+          'Urina espumosa, inchaço e pressão alta',
+          'Manchas roxas, sangramentos e infecções de repetição',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'Lúpus ativo pode piorar rápido, e alguns sinais indicam risco de dano permanente a órgãos. Procure atendimento no mesmo dia se algum deles aparecer, e não espere a próxima consulta de rotina.',
+        ],
+        bullets: [
+          'Falta de ar, dor no peito ao respirar fundo ou tosse com sangue',
+          'Urina escura, espumosa ou volume muito reduzido, com inchaço nas pernas e no rosto',
+          'Dor de cabeça intensa e súbita, confusão, convulsão ou alteração de comportamento',
+          'Febre alta com calafrios e piora geral do estado',
+          'Manchas roxas extensas, sangramento que não para ou fezes escuras',
+          'Dor abdominal forte, vômitos repetidos ou icterícia',
+          'Dedos pálidos ou azulados com dor intensa que não passa',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito e onde procurar atendimento',
+        paragraphs: [
+          'O diagnóstico é clínico e laboratorial, e não sai de um único exame. O reumatologista reconhece o padrão de sintomas, examina a pele, as articulações e o restante do corpo, e pede exames que mostram inflamação, autoanticorpos e função dos órgãos.',
+          'Existem critérios de classificação internacionais, atualizados periodicamente, que combinam manifestações clínicas e resultados de exames. Eles padronizam a pesquisa e ajudam na decisão, mas não substituem a avaliação do especialista, porque outras doenças produzem quadros parecidos.',
+          'O primeiro atendimento pode ser na UBS, que encaminha para o reumatologista. Casos com comprometimento renal grave contam também com o nefrologista, e quadros neurológicos podem exigir avaliação conjunta com outras especialidades. O tratamento e o acompanhamento são oferecidos pelo SUS.',
+        ],
+        cta: {
+          label: 'Leia também: como o lúpus é confirmado sem mancha no rosto',
+          href: '/artigos/lupus-eritematoso-sistemico-sem-mancha-no-rosto/',
+        },
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames são pedidos?',
+        paragraphs: [
+          'O hemograma mostra anemia, leucopenia e plaquetopenia, alterações que acompanham a atividade da doença. A urina é examinada em toda consulta, porque proteinúria e hematúria podem ser o primeiro sinal de nefrite, mesmo sem sintomas. Quando há perda importante de proteína, o médico solicita a dosagem em urina de 24 horas ou a relação proteína e creatinina.',
+          'A pesquisa de autoanticorpos é o centro da investigação. O anticorpo antinuclear aparece em quase todos os pacientes, mas também em outras doenças e em pessoas saudáveis, por isso não confirma nada sozinho. O anti-DNA de dupla hélice e o anti-Sm são mais específicos, e o anti-DNA costuma subir quando a doença está ativa.',
+          'Os níveis de complemento C3 e C4 caem nas fases de atividade. A biópsia renal, feita quando há sinais de nefrite, define o tipo de lesão e orienta a escolha do tratamento. Exames de imagem, como ultrassom do coração, tomografia de tórax e ressonância do cérebro, são pedidos conforme os órgãos envolvidos.',
+        ],
+        bullets: [
+          'Hemograma completo e provas de inflamação',
+          'Urina tipo 1, proteinúria e sedimento urinário',
+          'Anticorpo antinuclear, anti-DNA e anti-Sm',
+          'Complemento C3 e C4',
+          'Função dos rins e do fígado',
+          'Biópsia renal quando há nefrite',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com lúpus?',
+        paragraphs: [
+          'Várias doenças produzem manchas, dores articulares e alterações de exames parecidas com as do lúpus. A diferença está no conjunto de sintomas, no perfil de anticorpos e na evolução ao longo do tempo.',
+        ],
+        bullets: [
+          'Artrite reumatoide: dor simétrica nas pequenas articulações, sem as lesões de pele do lúpus',
+          'Síndrome de Sjögren: olhos e boca secos, com anticorpos próprios',
+          'Lúpus induzido por drogas: melhora depois da retirada do remédio',
+          'Dermatomiosite: fraqueza muscular proximal e lesões de pele características',
+          'Infecções virais: febre, dores no corpo e alterações transitórias do hemograma',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento no dia a dia',
+        paragraphs: [
+          'O tratamento é individualizado e muda conforme a fase. Na remissão, o objetivo é manter a doença controlada com a menor dose possível de medicamento. Na atividade, a estratégia é controlar a inflamação rápido, antes que ela deixe sequela.',
+          'Repouso é importante nas crises, mas não deve virar imobilidade. Nos períodos calmos, atividade física regular ajuda a controlar a fadiga, protege os ossos e reduz o risco cardiovascular, que é maior nessa população.',
+          'Além dos remédios, o cuidado inclui proteção solar diária, vacinação adequada, controle da pressão e do colesterol, e atenção à saúde mental. Ansiedade e depressão são frequentes e pioram a adesão ao tratamento.',
+        ],
+      },
+      {
+        id: 'medicamentos',
+        heading: 'Quais medicamentos são usados?',
+        paragraphs: [
+          'A hidroxicloroquina é indicada para quase todos os pacientes, mesmo quando a doença está calma, porque reduz crises e diminui o dano acumulado. O oftalmologista faz avaliação inicial e revisões periódicas, já que o uso prolongado pode afetar a retina.',
+          'Nos quadros leves, com artrite e lesões de pele, entram anti-inflamatórios, corticoide em dose baixa e, se necessário, imunossupressores como metotrexato ou azatioprina. O corticoide tópico ajuda nas lesões cutâneas localizadas.',
+          'Nas formas graves, com nefrite, comprometimento do sistema nervoso ou do pulmão, usa-se corticoide em dose alta, às vezes por via intravenosa, associado a imunossupressores como micofenolato ou ciclofosfamida. A resposta é monitorada com exames de urina, sangue e função dos órgãos.',
+          'O belimumabe, um medicamento biológico, é opção para casos que continuam ativos apesar do tratamento convencional. Todas essas drogas exigem acompanhamento próximo, porque aumentam o risco de infecção e têm efeitos adversos próprios.',
+        ],
+      },
+      {
+        id: 'outras-terapias',
+        heading: 'Gestação e tratamentos mais recentes',
+        paragraphs: [
+          'A gestação é possível, mas precisa ser planejada. O ideal é engravidar com a doença estável por pelo menos seis meses, com os órgãos preservados e sem medicamentos teratogênicos. A ciclofosfamida deve ser suspensa meses antes da concepção.',
+          'Durante a gravidez, hidroxicloroquina e azatioprina podem ser mantidas, porque são consideradas seguras para o bebê. O pré-natal é feito em conjunto pelo obstetra e pelo reumatologista, com vigilância do crescimento fetal e da função renal.',
+          'Novos medicamentos vêm sendo estudados para reduzir o uso de corticoide e controlar casos refratários. O reumatologista avalia caso a caso se há indicação e se o tratamento está disponível na rede.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'O dano acumulado ao longo dos anos é a principal preocupação. Cada crise mal controlada pode deixar uma marca no órgão afetado, e o efeito se soma. Por isso o tratamento não é apenas para aliviar sintomas, mas para proteger rins, coração e cérebro.',
+          'A nefrite lúpica é a complicação que mais ameaça a vida a médio prazo. Sem controle, evolui para insuficiência renal e necessidade de diálise. O acompanhamento com urina e exames de função renal permite detectar o problema antes dos sintomas.',
+          'O risco cardiovascular também é maior, pela inflamação crônica e pelo uso prolongado de corticoide. Infarto e derrame aparecem mais cedo do que na população geral, o que reforça a importância de controlar pressão, glicemia e colesterol.',
+        ],
+        bullets: [
+          'Nefrite com perda progressiva da função renal',
+          'Aumento do risco de infarto e de derrame',
+          'Osteoporose e necrose óssea, sobretudo com corticoide prolongado',
+          'Infecções frequentes pelo próprio lúpus e pelos imunossupressores',
+          'Comprometimento do sistema nervoso central',
+          'Abortos de repetição em quem tem anticorpos antifosfolípides',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'Cuidados no dia a dia',
+        paragraphs: [
+          'O sol é um gatilho importante. Use protetor solar de fator alto todos os dias, inclusive em dias nublados, e reaplique ao longo do dia. Chapéu, roupas de manga longa e sombra reduzem a exposição, e o vidro da janela não bloqueia toda a radiação ultravioleta.',
+          'A alimentação deve ser equilibrada, com proteína adequada, frutas e verduras. Quem tem pressão alta ou retenção de líquido precisa reduzir o sal; quem usa corticoide deve moderar o açúcar e a gordura e conversar sobre suplementação de cálcio e vitamina D.',
+          'O sono regular e o controle do estresse ajudam a evitar crises. Atividade física leve a moderada, como caminhada e natação, é bem tolerada na maioria dos casos e deve ser ajustada nas fases de atividade.',
+          'A vacinação precisa de planejamento. Durante as crises, as vacinas devem ser adiadas; fora delas, vacinas com agentes inativados são permitidas, enquanto as vacinas com vírus vivo atenuado são contraindicadas em quem usa imunossupressor.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'O que acompanhar entre as consultas',
+        paragraphs: [
+          'As consultas costumam ser a cada três ou seis meses, e mais frequentes quando a doença está ativa. Em cada visita, o reumatologista avalia sintomas novos, examina a pele e as articulações e revisa os exames.',
+          'Em casa, vale anotar o que muda: dor nova, manchas, febre, alteração do volume de urina e do aspecto da urina. Quem tem pressão alta ou nefrite deve medir a pressão regularmente e levar os valores para a consulta.',
+          'Nunca ajuste a dose do corticoide por conta própria. Aumentar sem orientação expõe a efeitos adversos, e reduzir rápido demais pode desencadear uma crise. Qualquer mudança de medicamento passa pelo reumatologista.',
+        ],
+        bullets: [
+          'Sintomas novos ou piora dos antigos',
+          'Manchas na pele, feridas na boca e queda de cabelo',
+          'Volume e cor da urina, além do peso diário quando há inchaço',
+          'Pressão arterial, sobretudo em quem tem nefrite',
+          'Sinais de infecção, como febre e tosse',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'É possível prevenir o lúpus?',
+        paragraphs: [
+          'Não existe forma conhecida de prevenir o aparecimento do lúpus, porque as causas ainda não são totalmente compreendidas. O que se pode fazer é reduzir os gatilhos e detectar a doença cedo.',
+          'Em quem tem histórico familiar, a atenção aos sinais ajuda: manchas que surgem ao sol, dores articulares persistentes e cansaço fora do normal merecem avaliação. O diagnóstico precoce é o fator que mais influencia o prognóstico.',
+          'Para quem já tem o diagnóstico, prevenir é manter o tratamento, proteger-se do sol, ir às consultas e tratar infecções cedo. Essas medidas reduzem o número de crises e o dano aos órgãos ao longo dos anos.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Lúpus tem cura?',
+        answer:
+          'Não existe cura, mas a doença pode ficar controlada por longos períodos. Com tratamento regular, a maioria das pessoas consegue manter a rotina, estudar, trabalhar e ter filhos.',
+      },
+      {
+        question: 'Lúpus é contagioso?',
+        answer:
+          'Não. O lúpus não passa de uma pessoa para outra por contato, gotículas, relação sexual ou transfusão. O convívio com alguém com lúpus não oferece risco.',
+      },
+      {
+        question: 'Quem tem lúpus pode engravidar?',
+        answer:
+          'Pode, com planejamento. O ideal é engravidar com a doença estável por pelo menos seis meses e sem medicamentos que prejudiquem o bebê. O pré-natal deve ser acompanhado pelo obstetra e pelo reumatologista.',
+      },
+      {
+        question: 'Lúpus piora com sol?',
+        answer:
+          'Sim. A radiação ultravioleta é um dos principais gatilhos de lesões de pele e de atividade da doença. Protetor solar diário, roupas de manga longa e sombra são parte do tratamento.',
+      },
+      {
+        question: 'Corticoide engorda e faz mal?',
+        answer:
+          'O corticoide pode aumentar o apetite, causar retenção de líquido e elevar a glicemia, além de reduzir a massa óssea com o uso prolongado. Por isso a dose é ajustada para o mínimo necessário, e o objetivo é retirá-lo quando a doença permite.',
+      },
+      {
+        question: 'Lúpus tem relação com a menopausa?',
+        answer:
+          'A doença é mais ativa na idade fértil, quando os níveis de estrogênio são mais altos. Depois da menopausa, as crises costumam ser menos frequentes, mas o risco cardiovascular aumenta e o acompanhamento continua.',
+      },
+    ],
+    relatedArticleSlugs: ['lupus-eritematoso-sistemico-gravidez', 'lupus-eritematoso-sistemico-tratamento-e-medicamentos', 'lupus-eritematoso-sistemico-primeiros-sinais', 'lupus-eritematoso-sistemico-sem-mancha-no-rosto', 'lupus-eritematoso-sistemico-nao-e-contagioso'],
+    relatedTopicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedDiseaseSlugs: ['artrite-reumatoide', 'doenca-renal-cronica', 'anemia-ferropriva'],
+    references: [
+      {
+        label: 'Lúpus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lupus',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Lúpus eritematoso sistêmico: diagnóstico precoce é essencial',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/lupus-eritematoso-sistemico/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-alzheimer',
+    slug: 'doenca-de-alzheimer',
+    name: 'Doença de Alzheimer',
+    aliases: [
+      'Alzheimer',
+      'mal de Alzheimer',
+      'demência de Alzheimer',
+      'demência tipo Alzheimer',
+      'esquecimento por Alzheimer',
+    ],
+    summary:
+      'Doença neurodegenerativa progressiva que compromete a memória e outras funções cognitivas. É a forma mais comum de demência e não faz parte do envelhecimento normal.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é a doença de Alzheimer?',
+        paragraphs: [
+          'A doença de Alzheimer é uma doença neurodegenerativa progressiva. Proteínas que deveriam ser eliminadas passam a se acumular no cérebro, e os neurônios morrem aos poucos, sobretudo no hipocampo, região que forma memórias novas, e no córtex, responsável pela linguagem, pelo raciocínio e pelo reconhecimento de pessoas e objetos.',
+          'O sinal mais frequente no início é o esquecimento de fatos recentes: a pessoa repete a mesma pergunta, esquece o compromisso marcado para a tarde, guarda objetos em lugares improváveis. Com o tempo, somam-se dificuldade para encontrar palavras, desorientação no tempo e no espaço, problemas para resolver tarefas que antes eram automáticas e mudanças de comportamento e de personalidade.',
+          'A doença não é uma etapa do envelhecimento normal. Quem envelhece esquece um nome e lembra depois, ou perde a chave e a encontra no lugar de sempre, e segue dando conta da própria vida. No Alzheimer, a perda é progressiva e acaba interferindo no trabalho, nas contas da casa e no autocuidado.',
+          'O Alzheimer é a forma mais comum de demência. A Organização Mundial da Saúde estima que 57 milhões de pessoas viviam com demência no mundo em 2021, com quase 10 milhões de casos novos por ano, e que o Alzheimer responde por 60% a 70% deles. No Brasil, a Academia Brasileira de Neurologia calcula cerca de 1,7 milhão de idosos com demência. O inquérito nacional ELSI-Brasil encontrou diagnóstico médico de Alzheimer referido por 0,75% das pessoas de 50 anos ou mais, proporção que sobe para 4,56% entre os 80 anos ou mais; a maioria são mulheres e sete em cada dez estudaram até o ensino fundamental. O mesmo levantamento lembra que a demência no país é subdiagnosticada, com taxa de não detecção estimada em 77%.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de Alzheimer?',
+        paragraphs: [
+          'Pela origem, a doença se divide em duas formas. A esporádica responde por cerca de 90% dos casos e não tem um padrão de herança definido. Nela, o principal fator genético conhecido é o alelo APOE ε4, que aumenta a probabilidade de a doença aparecer, mas não a determina: muita gente com o alelo nunca desenvolve Alzheimer e muita gente sem ele desenvolve.',
+          'A forma familial é rara e segue herança autossômica dominante, com vários casos em gerações seguidas e início antes dos 65 anos. Ela está ligada a mutações nos genes APP, PSEN1 e PSEN2. Quando há casos assim na família, o teste genético pode ser discutido com o neurologista, porque o resultado interessa também a parentes que ainda não têm sintomas.',
+          'Pelo padrão de sintomas, cerca de 85% dos casos são da forma típica, com a memória episódica comprometida desde o começo. O restante são formas atípicas, em que o primeiro problema não é a memória, e sim a linguagem, a visão e a orientação espacial, ou o comportamento e o julgamento. Essas formas costumam começar mais cedo e demoram mais para serem reconhecidas.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que aumenta o risco de Alzheimer?',
+        paragraphs: [
+          'A causa exata ainda não é conhecida. No cérebro de quem tem Alzheimer aparecem duas lesões características: as placas de beta-amiloide, formadas por fragmentos de proteína que se acumulam do lado de fora dos neurônios, e os emaranhados neurofibrilares, feitos de proteína tau que se enrola dentro das células. As duas convivem com inflamação e com lesão dos pequenos vasos, e o resultado é a morte neuronal e a atrofia do tecido.',
+          'A idade é o fator de risco mais forte. A doença não é consequência inevitável de envelhecer, mas a frequência sobe bastante depois dos 65 anos, e mais ainda depois dos 80. Os demais fatores aparecem na lista abaixo; quase todos aumentam a probabilidade de a doença surgir, sem serem causa direta.',
+          'A escolaridade merece um comentário à parte. Estudar por mais tempo não impede a doença, mas amplia a reserva cognitiva, ou seja, o número de conexões entre neurônios. Com mais conexões, o cérebro compensa por mais tempo a perda de células, o que explica por que duas pessoas com quantidade parecida de lesão podem ter sintomas em momentos diferentes.',
+        ],
+        bullets: [
+          'Idade avançada, sobretudo depois dos 65 anos',
+          'História familiar de Alzheimer em pais ou irmãos',
+          'Síndrome de Down, em que os sintomas costumam começar 10 a 20 anos mais cedo',
+          'Ser mulher, o que em parte reflete a maior expectativa de vida feminina',
+          'Comprometimento cognitivo leve, principalmente quando a memória é o domínio afetado',
+          'Traumatismo craniano grave, como o que causa perda de consciência',
+          'Hipertensão, diabetes tipo 2, colesterol alto e obesidade',
+          'Depressão, perda de audição, perda de visão e sono de má qualidade',
+          'Tabagismo, consumo excessivo de álcool e sedentarismo',
+          'Baixa escolaridade e pouca convivência social',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'O Alzheimer começa devagar e avança ao longo de anos. A divisão usada na prática separa a fase pré-demencial, em que a pessoa ainda é independente, da fase demencial, em que a dependência cresce em três níveis.',
+          'Na fase pré-demencial, a memória falha para fatos recentes, aprender coisas novas fica difícil, a atenção se dispersa e a orientação espacial piora. A pessoa continua dando conta de casa, do trabalho e do autocuidado, e é justamente por isso que esses sinais passam tanto tempo sem ser notados. Cansaço, estresse e luto produzem queixas parecidas e costumam ser a primeira explicação que a família encontra.',
+          'Na fase demencial, a perda de autonomia marca cada estágio:',
+        ],
+        bullets: [
+          'Leve: esquece o que acabou de acontecer, perde objetos, esquece nomes e compromissos, desorienta-se em lugares conhecidos e se irrita com tarefas complexas. A personalidade muda, e quem era cuidadoso pode ficar descuidado ou desconfiado.',
+          'Moderada: esquece também fatos antigos, repete perguntas, erra contas, pode se perder dentro de casa e não reconhece conhecidos. Aparecem afasia (dificuldade para falar), apraxia (dificuldade para usar objetos) e agnosia (dificuldade para reconhecer o que vê). Podem surgir convulsões, rigidez e desinibição.',
+          'Grave: perde a linguagem, fica acamado, tem incontinência urinária e fecal e rigidez nos membros, e passa a depender de outra pessoa para comer, vestir e se limpar.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'O Alzheimer não é uma emergência em si, mas alguns sinais pedem avaliação rápida, porque podem indicar outra doença tratável ou uma complicação da fase avançada.',
+          'Confusão que aparece em um ou dois dias, com sonolência e desatenção, não é o Alzheimer avançando depressa: costuma ser delirium causado por infecção, desidratação, dor ou remédio novo, e precisa de atendimento no mesmo dia.',
+        ],
+        bullets: [
+          'Esquecimento que atrapalha o trabalho, as contas da casa ou a tomada dos remédios',
+          'Dificuldade para se localizar em trajetos conhecidos ou no próprio bairro',
+          'Confusão mental que começa de repente, em horas ou dias, diferente do declínio lento',
+          'Dificuldade para engolir, engasgos frequentes ou perda de peso',
+          'Febre, tosse ou falta de ar, sinais comuns de pneumonia em quem está acamado',
+          'Queda com batida na cabeça, mesmo que a pessoa diga estar bem',
+          'Agitação intensa, agressividade ou ideia de se machucar',
+          'Recusa de alimentos e líquidos, ou urina muito reduzida',
+        ],
+      },
+      {
+        id: 'qual-medico',
+        heading: 'Qual médico procurar',
+        paragraphs: [
+          'O primeiro atendimento costuma ser na UBS. O clínico geral ou o médico de família ouve a queixa, conversa com um acompanhante, revisa os remédios em uso, avalia depressão e pede os exames iniciais. Se a suspeita se mantém, encaminha para geriatra, neurologista ou psiquiatra, de preferência com experiência em cognição.',
+          'Em municípios com serviço de referência, a avaliação é feita por equipe que inclui neuropsicólogo, profissional que aplica a bateria de testes e ajuda a separar o Alzheimer de outras demências. O diagnóstico e o acompanhamento são oferecidos pelo SUS, e o tempo de espera varia conforme a região.',
+          'Antes da consulta, vale organizar três coisas:',
+        ],
+        bullets: [
+          'A história dos sintomas, com exemplos e a data em que a família percebeu as primeiras mudanças',
+          'A lista de todos os remédios em uso, incluindo os comprados sem receita, os chás e os suplementos',
+          'Exames e relatórios antigos, além do nome de quem convive com a pessoa todos os dias',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Quais exames são pedidos?',
+        paragraphs: [
+          'O diagnóstico é clínico. O médico ouve a pessoa e um informante que convive com ela, avalia atenção, memória, linguagem, funções executivas e orientação espacial, e verifica o quanto isso interfere nas atividades do dia a dia. Os testes mais usados na triagem são o MEEM (Mini-Exame do Estado Mental) e o MoCA (Montreal Cognitive Assessment); como a escolaridade muda o desempenho, os pontos de corte precisam ser ajustados por anos de estudo.',
+          'Os exames de sangue servem para afastar causas tratáveis de perda cognitiva: hemograma, glicemia, função dos rins e do fígado, sódio e cálcio, TSH e T4 livre (tireoide), vitamina B12 e VDRL (sífilis). Em casos atípicos ou com suspeita clínica, pode-se pedir sorologia para HIV. Hipotireoidismo, deficiência de B12 e neurossífilis produzem quadros que imitam demência e melhoram com tratamento.',
+          'A ressonância magnética é o exame de imagem preferido, porque mostra com detalhe a atrofia do hipocampo e do córtex e ajuda a diferenciar outras demências. A tomografia entra quando a ressonância não está disponível, e serve sobretudo para descartar hematoma, tumor e hidrocefalia. O eletroencefalograma é solicitado quando há suspeita de crises epilépticas.',
+          'Em casos de início precoce, apresentação atípica ou dúvida diagnóstica, entram os biomarcadores. No líquor, a proteína beta-amiloide 42 cai e as formas total e fosforilada da tau sobem; a PET pode mostrar depósito de amiloide ou queda do metabolismo em regiões específicas. Exames de sangue para tau fosforilada vêm sendo estudados e ainda não substituem a avaliação clínica. O teste genético (APP, PSEN1, PSEN2 e APOE) fica reservado a famílias com vários casos, sobretudo de início precoce.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com Alzheimer?',
+        paragraphs: [
+          'Nem todo esquecimento é Alzheimer, e a lista de doenças que produzem queixa de memória é longa. A diferença aparece no modo como o problema começou, no que piora primeiro e nos exames.',
+        ],
+        bullets: [
+          'A demência vascular se instala em degraus, muitas vezes depois de um AVC, em quem tem histórico de pressão alta e doença cardiovascular; a imagem mostra infartos ou lesão extensa da substância branca.',
+          'A demência com corpos de Lewy traz alucinações visuais detalhadas, parkinsonismo, sono agitado com movimentos e uma atenção que oscila de um dia para o outro.',
+          'A demência frontotemporal muda a personalidade e o comportamento antes de afetar a memória, com desinibição, apatia e compulsões, e costuma começar antes dos 65 anos.',
+          'A demência da doença de Parkinson aparece em quem já tem Parkinson, com prejuízo de planejamento e de atenção maior do que o de memória.',
+          'Na depressão, a queixa de memória vem junto com tristeza, perda de interesse e alteração do sono, e melhora quando a depressão é tratada.',
+          'Hipotireoidismo, deficiência de vitamina B12 e neurossífilis são causas tratáveis e aparecem no exame de sangue.',
+          'O delirium é uma confusão que começa em horas ou dias, com atenção flutuante, quase sempre por infecção, remédio novo ou desidratação.',
+        ],
+      },
+      {
+        id: 'tratamento-medicamentoso',
+        heading: 'Quais remédios são usados?',
+        paragraphs: [
+          'Não existe tratamento que cure o Alzheimer nem que faça a doença regredir. O objetivo é estabilizar por algum tempo o comprometimento cognitivo e o comportamento, aliviar sintomas e manter a autonomia pelo maior período possível.',
+          'Dois grupos de remédios são usados. Os inibidores da acetilcolinesterase (donepezila, galantamina e rivastigmina) aumentam a disponibilidade de acetilcolina no cérebro e são indicados nas fases leve e moderada; a rivastigmina existe em adesivo transdérmico, opção para quem tem náusea ou vômito com o comprimido. A memantina, que age sobre o glutamato, é usada nas fases moderada e grave. O efeito costuma ser modesto e nem toda pessoa responde.',
+          'No SUS, os quatro medicamentos são distribuídos pelo Componente Especializado da Assistência Farmacêutica, de acordo com o protocolo do Ministério da Saúde. O acesso depende de laudo preenchido pelo médico, receita, documentos pessoais e retirada no serviço indicado pelo gestor estadual. O tratamento é gratuito, mas a papelada costuma atrasar o início, e vale pedir orientação na farmácia da unidade de saúde.',
+          'Alucinação, agressividade e agitação não se tratam só com remédio. A primeira escolha é ajustar o ambiente, tratar dor, sono e constipação, e reduzir estímulos. Quando há risco para a própria pessoa ou para os outros, o médico pode usar antipsicóticos em dose baixa e por tempo curto, com revisão frequente, porque essa classe aumenta o risco de efeitos adversos graves em idosos com demência. Antidepressivos como os ISRS ajudam quando há depressão associada.',
+          'A regra de prescrição é começar com dose baixa, aumentar devagar e ficar na menor dose que controla os sintomas. Quem toma vários remédios precisa revisar a lista a cada consulta: anticolinérgicos, sedativos e alguns analgésicos pioram a confusão.',
+        ],
+      },
+      {
+        id: 'outros-tratamentos',
+        heading: 'Cirurgia, terapias complementares e outras abordagens',
+        paragraphs: [
+          'Não há cirurgia para o Alzheimer. A doença não produz uma lesão que possa ser corrigida por operação, e nenhum procedimento cirúrgico altera o curso da degeneração.',
+          'Práticas complementares, como acupuntura e fórmulas de ervas, são procuradas por algumas famílias para insônia e ansiedade. Não há evidência consistente de que alterem a evolução da doença, e algumas ervas e suplementos interagem com os remédios de uso contínuo. Antes de associar qualquer produto, converse com o médico que acompanha o caso.',
+          'O que tem papel reconhecido é o conjunto de intervenções não medicamentosas: estimulação cognitiva em grupo, reabilitação das funções que ainda podem ser treinadas, terapia ocupacional para adaptar a casa e as tarefas, musicoterapia para agitação e vínculo, e atividade física regular. Para quem está nas fases iniciais ou tem risco elevado, somam-se alimentação no padrão mediterrâneo, movimento diário e desafios mentais.',
+          'Na fase avançada, o cuidado se concentra em problemas concretos:',
+        ],
+        bullets: [
+          'Desnutrição e desidratação, por dificuldade para engolir e perda de apetite',
+          'Pneumonia, favorecida pelo engasgo e pela posição acamada',
+          'Infecção urinária, comum em quem tem incontinência e pouca mobilidade',
+          'Lesão por pressão, que exige mudança de posição e cuidado com a pele',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'A evolução é lenta e contínua. A partir do diagnóstico, a sobrevida média fica entre 8 e 10 anos, com variações que vão de 5 a 12 anos conforme a idade, as doenças associadas e o suporte disponível. Não há como prever o ritmo de cada pessoa.',
+          'O Alzheimer encurta a vida, e a morte costuma vir das complicações da fase avançada: pneumonia por aspiração, infecção urinária, lesão por pressão e desnutrição. Parte dessas complicações pode ser evitada com cuidado de enfermagem, alimentação adaptada e acompanhamento médico regular.',
+          'O diagnóstico precoce muda menos o desfecho do que se gostaria, mas muda a qualidade de vida: permite planejar o futuro enquanto a pessoa ainda participa das decisões, tratar depressão e dor, adaptar a casa e dividir o cuidado entre os familiares.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Como cuidar em casa com segurança',
+        paragraphs: [
+          'A casa precisa acompanhar a capacidade da pessoa, e não o contrário. Objetos de uso diário, como chave, carteira e celular, devem ter sempre o mesmo lugar. Um calendário grande na parede ou um quadro branco ajuda a registrar o dia. Remédios ficam em armário trancado, com lista de horários e marcação do que já foi tomado.',
+          'Algumas mudanças simples reduzem quedas e sustos: calçado fechado com sola antiderrapante, corrimão nos dois lados da escada, tapetes retirados dos corredores e menos espelhos pela casa, porque o reflexo pode assustar. Uma pulseira com nome e telefone de contato ajuda a família a ser localizada quando a pessoa se perde na rua.',
+          'Na conversa, frases curtas e uma instrução por vez funcionam melhor do que explicações longas. Discutir com um delírio não convence ninguém: é mais útil acolher o medo e desviar a atenção. Ao ajudar no banho e na troca de roupa, preserve a privacidade e explique o que vai fazer antes de tocar na pessoa.',
+          'Quem cuida também adoece. Cansaço, culpa, irritabilidade e isolamento são comuns, e a sobrecarga adoece também quem cuida. Reserve um intervalo diário para caminhar ou descansar, aceite ajuda de outros parentes e procure um grupo de apoio. Insônia ou tristeza que dura mais de duas semanas merece avaliação profissional.',
+        ],
+      },
+      {
+        id: 'rotina-e-monitoramento',
+        heading: 'Rotina, alimentação e o que observar',
+        paragraphs: [
+          'Movimento diário ajuda o humor, o sono e o equilíbrio. Caminhadas de cerca de meia hora, ou exercícios na cadeira para quem tem dificuldade de andar, são suficientes para começar. Na alimentação, copo com marcação lembra de beber água, horários fixos evitam refeições esquecidas e porções pequenas facilitam comer sem pressa.',
+          'Manter convivência social e atividades ligadas à história da pessoa, como música antiga, plantas e trabalhos manuais, sustenta o vínculo e reduz a apatia. Também faz parte do tratamento controlar pressão, glicemia e colesterol, com metas definidas pelo médico que acompanha cada caso.',
+          'Alguns sinais indicam que algo mudou e devem ser levados à consulta: engasgos frequentes, febre, perda de peso, uma saída de casa sem aviso, ou a perda de uma habilidade que a pessoa ainda tinha, como comer sozinha. Anotar a data e o que aconteceu ajuda o médico a distinguir a progressão da doença de uma causa tratável.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'É possível prevenir o Alzheimer?',
+        paragraphs: [
+          'Não existe vacina nem medida que impeça o Alzheimer. O que existe é redução de risco, e ela começa décadas antes dos primeiros sintomas.',
+          'A Organização Mundial da Saúde lista as ações com melhor sustentação: praticar atividade física, não fumar, evitar o uso nocivo de álcool, manter alimentação equilibrada, controlar peso, pressão, colesterol e glicemia, usar aparelho auditivo quando há perda de audição, reduzir a exposição à poluição do ar e continuar aprendendo e convivendo com outras pessoas.',
+          'Estudar, ler e manter atividade mental não impedem a doença, mas ampliam a reserva cognitiva e adiam o aparecimento dos sintomas. O mesmo vale para o controle da pressão e do diabetes: o que protege o coração e os vasos também protege o cérebro.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Alzheimer tem cura?',
+        answer:
+          'Não. Não existe tratamento que elimine a doença ou reverta a perda de neurônios. Os medicamentos disponíveis estabilizam os sintomas por algum tempo e ajudam a manter a autonomia, e o cuidado diário tem tanto peso quanto a prescrição.',
+      },
+      {
+        question: 'Alzheimer é hereditário?',
+        answer:
+          'Na maioria dos casos, não. A forma esporádica, que responde por cerca de 90% dos casos, não segue um padrão de herança, embora o alelo APOE ε4 aumente o risco. Existe uma forma familial rara, de transmissão dominante e início precoce, ligada aos genes APP, PSEN1 e PSEN2.',
+      },
+      {
+        question: 'Qual é a diferença entre Alzheimer e demência?',
+        answer:
+          'Demência é o conjunto de sintomas: perda de memória e de outras funções cognitivas suficiente para atrapalhar a vida diária. Alzheimer é uma das doenças que causam demência, e a mais comum delas. Existem outras, como a demência vascular e a demência com corpos de Lewy.',
+      },
+      {
+        question: 'Esquecimento normal ou sinal de Alzheimer?',
+        answer:
+          'O esquecimento comum aparece e some: a pessoa esquece um nome e lembra depois, ou perde a chave e a encontra no lugar de sempre. No Alzheimer, a perda é progressiva, atrapalha tarefas que a pessoa fazia sozinha e vem acompanhada de desorientação, mudança de comportamento ou dificuldade com dinheiro e remédios.',
+      },
+      {
+        question: 'Os remédios estão disponíveis no SUS?',
+        answer:
+          'Sim. Donepezila, galantamina, rivastigmina e memantina são distribuídas pelo Componente Especializado da Assistência Farmacêutica, conforme o protocolo do Ministério da Saúde. É preciso laudo médico, receita e documentos pessoais, e a retirada é feita no serviço indicado pelo gestor estadual.',
+      },
+      {
+        question: 'Quem cuida também precisa de ajuda?',
+        answer:
+          'Precisa. A sobrecarga do cuidador é frequente e afeta a saúde de quem cuida e a qualidade do cuidado. Dividir tarefas com outros familiares, reservar pausas diárias e participar de grupos de apoio reduz o desgaste. Tristeza ou insônia por mais de duas semanas merece avaliação.',
+      },
+    ],
+    relatedArticleSlugs: [],
+    relatedTopicSlugs: ['doencas-cronicas'],
+    relatedDiseaseSlugs: ['depressao', 'hipotireoidismo', 'infarto-e-avc'],
+    references: [
+      {
+        label: 'Alzheimer',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Dementia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/dementia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label:
+          'Diagnóstico da doença de Alzheimer: recomendações do Departamento Científico de Neurologia Cognitiva e do Envelhecimento da Academia Brasileira de Neurologia',
+        url: 'https://www.scielo.br/j/dn/a/S1980-57642022000400025/?lang=pt',
+        publisher: 'Dementia & Neuropsychologia (Academia Brasileira de Neurologia)',
+      },
+      {
+        label:
+          'Who are the people with Alzheimer disease in Brazil? Findings from the Brazilian Longitudinal Study of Aging (ELSI-Brasil)',
+        url: 'https://www.scielo.br/j/rbepid/a/S1415-790X2021000100409/?lang=pt',
+        publisher: 'Revista Brasileira de Epidemiologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
 ];

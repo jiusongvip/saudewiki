@@ -13,6 +13,14 @@
  * No dashes of any kind: the preflight gate rejects them in `alt` attributes.
  */
 export const zhImageAlts: Record<string, string> = {
+  'cancer-de-mama':
+    '乳房剖面醫學插圖，顯示乳腺、乳管與堅硬腫塊；旁附一名女性站在乳房攝影儀前的檢查畫面，胸部夾在兩片壓迫板之間；下方為腫塊、分泌物、皮膚凹陷與淋巴結四個圓形圖示',
+  'cancer-de-prostata':
+    '男性骨盆腔剖面醫學插圖，顯示膀胱、攝護腺與尿道，腺體內有結節；旁附手臂抽血的畫面，綁著止血帶、接著採血管；下方為尿流細弱、頻尿、血尿與骨痛四個圖示',
+  'cancer-de-pulmao':
+    '肺部剖面醫學插圖，顯示支氣管與中央的腫瘤；旁附醫師以聽診器聽診病人背部的畫面；下方為咳嗽、呼吸困難、胸痛與聲音沙啞四個圖示',
+  'cancer-colorretal':
+    '大腸剖面醫學插圖，顯示黏膜與腸壁上的腫瘤；旁附大腸鏡檢查的畫面，病人側躺於檢查床、戴手套的手握著內視鏡管；下方為血便、腹瀉、疲倦與貧血四個圖示',
   dengue: '醫學插畫：埃及斑蚊叮入人體皮膚並把病毒釋放到血管中，右上角是長滿紅疹的手肘，下方四個圓形圖示為高燒、皮疹、出血與肌肉痛',
   diabetes: '醫學插畫：胰臟把胰島素釋放到佈滿葡萄糖結晶的血管中，右上角是腳底的慢性潰瘍，下方圖示為口乾、視力模糊、腳部刺痛與疲倦',
   hipertensao: '醫學插畫：動脈管壁變厚、管腔變窄，血流在壓力下擠壓血管，旁邊是綁著血壓計袖帶的手臂，下方圖示為頭痛、心悸、視力模糊與耳鳴',
@@ -308,8 +316,8 @@ export const zhImageAlts: Record<string, string> = {
   'tetano-sintomas-e-tratamento': '加護病房的病床，旁邊有監測器、呼吸器與隔簾',
   'meningite-meningococica-sintomas-e-sinais-de-alerta': '戴紅色聽診器的女醫師正在為一名兒童檢查',
   'meningite-meningococica-vacina-e-contatos': '穿白袍的醫療人員舉著一支針頭朝上的注射器',
-  osteoporose: '醫學插畫：剖開的長骨內部海綿狀結構變得空洞，骨小樑斷裂，右上角是脊椎X光，下方圖示為下背痛、脊柱彎曲、身高變矮與骨折',
-  'doenca-do-refluxo-gastroesofagico': '醫學插畫：食道與胃的剖面，括約肌鬆開，胃酸液滴往上逆流，右上角是胃鏡影像，下方圖示為火燒心、反流、咳嗽與聲音沙啞',
+  osteoporose: '醫學插畫：剖開的長骨內部海綿狀結構變得空洞，骨小樑斷裂，右上角是小腿與腳掌架在骨密度檢查儀的支撐墊上、戴手套的手正在調整腳踝綁帶，下方圖示為下背痛、脊柱彎曲、身高變矮與骨折',
+  'doenca-do-refluxo-gastroesofagico': '醫學插畫：食道與胃的剖面，括約肌鬆開，胃酸液滴往上逆流，右上角是醫師雙手按壓上腹部的檢查畫面，下方圖示為火燒心、反流、咳嗽與聲音沙啞',
   'osteoporose-sem-sintomas-quando-fazer-densitometria': '病人躺在影像檢查床上，技術員在旁邊調整設備',
   'osteoporose-primeira-fratura-e-o-risco-de-outra': '前臂以藍色三角巾固定、手腕包著白色繃帶的人',
   'osteoporose-calcio-vitamina-d-e-alimentacao': '工作檯上幾碗玻璃碗裝的優格，上面鋪著切碎的草莓',
@@ -320,4 +328,27 @@ export const zhImageAlts: Record<string, string> = {
   'refluxo-alimentos-que-pioram-a-azia': '木桌上放著一杯黑咖啡與幾個油炸點心',
   'refluxo-como-dormir-melhor-com-azia': '夜裡躺在床上醒著的人，被子蓋到胸口',
   'refluxo-barrett-e-risco-de-cancer': '穿白袍的女醫師在診間與年長病人對談',
+  'cancer-de-estomago': '醫學插畫：剖開的胃，黏膜與胃壁內側的潰瘍性腫瘤，右上角是胃鏡檢查，其下為腹部觸診，下方圖示為食慾不振、上腹痛、火燒心與體重下降',
+  'leucemia-linfoblastica-aguda': '醫學插畫：剖開的長骨，骨髓腔內充滿淋巴芽細胞，右上角是抽血，其下為顯微鏡下的玻片，下方圖示為疲倦、蒼白、發燒與出血',
+  toxoplasmose: '醫學插畫：眼球剖面，視網膜、脈絡膜與內壁上的寄生蟲囊體，右上角是雙手放在腹部的孕婦與裝滿貓砂的鏟子，下方圖示為淋巴結腫大、視線模糊、發燒與倦怠',
+  clamidia: '醫學插畫：女性生殖系統剖面，子宮、輸卵管與卵巢，子宮壁標出發炎範圍，右上角是戴手套的手拿著尿液收集杯與拆開包裝的保險套，下方圖示為分泌物、排尿灼熱、骨盆腔疼痛與沒有症狀',
+  hpv: '醫學插畫：皮膚剖面，表皮、隆起的疣與病灶底部的病毒顆粒，右上角是在手臂上施打疫苗與以棉棒採檢的畫面，下方圖示為疣、搔癢、出血與沒有症狀',
+  hipertireoidismo: '醫學插畫：氣管上的甲狀腺剖面，濾泡內充滿膠質、腺體腫大，右上角是雙手觸診頸部與抽血檢驗促甲狀腺素的畫面，下方圖示為心悸、顫抖、怕熱與體重下降',
+  'calculo-renal': '醫學插畫：腎臟剖面，腎盞、輸尿管與卡在腎盂的結石，右上角是一手扶著腰側的人與貼在側腹的超音波探頭，下方圖示為絞痛、血尿、噁心與想排尿',
+  'trombose-venosa-profunda': '醫學插畫：剖開的深部靜脈，紅血球與黏在血管壁上的血栓，右上角是用捲尺量小腿圍，其下為貼在小腿上的超音波探頭，下方圖示為腫脹、疼痛、發熱與發紅',
+  'hiperplasia-prostatica-benigna': '醫學插畫：剖開的攝護腺，增大的腺葉壓迫尿道，右上角是貼在腹部的超音波探頭，其下為手拿尿液檢體杯，下方圖示為頻尿、夜尿、尿流細弱與急尿',
+  'lupus-eritematoso-sistemico': '醫學插畫：皮膚剖面，表皮、發炎區與組織中的 Y 形抗體，右上角是臉上的紅斑，其下為手臂抽血，下方圖示為疲倦、關節痛、斑疹與發燒',
+  'doenca-de-alzheimer': '醫學插畫：剖開的大腦，可見大腦皮質、海馬迴與類澱粉蛋白斑塊，右上角是以紙筆進行的認知測驗，下方圖示為健忘、重複、混亂與躁動',
+  'trombose-venosa-profunda-perna-inchada-e-emergencia': '躺在醫院推床上的病人，腿部伸直，小腿貼著紗布',
+  'trombose-venosa-profunda-quando-o-risco-aumenta': '乘客坐在飛機座位上，機艙內是一排排座椅',
+  'lupus-eritematoso-sistemico-gravidez': '穿磚紅色連身裙的孕婦站著，一手放在肚子上',
+  'lupus-eritematoso-sistemico-tratamento-e-medicamentos': '木桌上散放著一排排藥錠與膠囊',
+  'lupus-eritematoso-sistemico-primeiros-sinais': '穿紫色上衣的人用另一隻手按壓手腕',
+  'lupus-eritematoso-sistemico-sem-mancha-no-rosto': '女性臉部特寫，視線看向側邊',
+  'lupus-eritematoso-sistemico-nao-e-contagioso': '兩名女性在戶外近距離交談',
+  'hiperplasia-prostatica-benigna-quando-a-urina-nao-sai': '穿醫院病服的年長男性坐在床上，鼻部接著鼻導管',
+  'hiperplasia-prostatica-benigna-cirurgia-rtu': '穿無菌手術衣、戴手套的外科醫師站在手術室內',
+  'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia': '一對年長伴侶坐在一起，男性微笑，女性向他靠過去',
+  'hiperplasia-prostatica-benigna-tem-cura': '戴聽診器的女醫師在診間與年長男病人交談',
+  'hiperplasia-prostatica-benigna-nodulo-e-calcificacao': '醫師為躺在診療床上的女性做超音波檢查，旁邊是螢幕',
 };

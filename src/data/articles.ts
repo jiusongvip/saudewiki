@@ -20987,4 +20987,1134 @@ export const articles: Article[] = [
     updatedAt: '2026-10-27',
     isPlaceholder: true,
   },
+  {
+    id: 'trombose-venosa-profunda-perna-inchada-e-emergencia',
+    slug: 'trombose-venosa-profunda-perna-inchada-e-emergencia',
+    title: 'Perna inchada e falta de ar: quando a trombose é emergência',
+    excerpt:
+      'Um coágulo na perna incomoda, mas o perigo está no que ele pode fazer depois. Reconhecer os sinais de embolia pulmonar é o que separa uma consulta tranquila de uma corrida ao pronto atendimento.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'uma-perna-diferente-da-outra',
+        heading: 'Uma perna diferente da outra',
+        paragraphs: [
+          'Inchaço de uma perna só, que aparece em algumas horas, é o sinal mais constante da trombose venosa profunda. A perna fica maior que a outra, mais quente e sensível ao toque, e a dor se concentra na panturrilha ou na parte interna da coxa. Muita gente descreve a sensação como uma câimbra que não passa com alongamento e que piora quando a perna é mantida para baixo por muito tempo.',
+          'O que chama atenção no exame é a diferença entre os lados. Medir a panturrilha com uma fita mostra, com frequência, alguns centímetros de diferença entre a perna afetada e a outra. A pele pode ficar avermelhada ou arroxeada, e a dor aumenta ao andar, ao subir escadas e depois de horas em pé. Elevar a perna costuma aliviar, o que ajuda a diferenciar o quadro de outras dores musculares.',
+          'Nem todo inchaço de uma perna é trombose, e nem toda trombose incha. O quadro clássico é o mais frequente, mas não é obrigatório. Esperar que todos os sinais apareçam ao mesmo tempo costuma atrasar a decisão de procurar atendimento, que é justamente a parte que não pode atrasar quando existe suspeita.',
+        ],
+      },
+      {
+        id: 'os-sinais-que-mudam-a-urgencia',
+        heading: 'Os sinais que mudam a urgência',
+        paragraphs: [
+          'A trombose da perna preocupa menos pelo desconforto e mais pelo que vem depois. Um pedaço do coágulo pode se soltar, viajar pela corrente sanguínea e ficar preso numa artéria do pulmão. Quando isso acontece, a doença muda de lugar e de gravidade em poucas horas, e o quadro deixa de ser um problema ortopédico para se tornar uma emergência respiratória.',
+          'Falta de ar que surge de repente, dor no peito que piora ao respirar fundo, tosse com sangue, coração acelerado e desmaio apontam para embolia pulmonar. Nessa situação, a orientação é ligar para o SAMU no 192 ou ir ao pronto atendimento mais próximo, sem esperar para ver se o quadro melhora em casa. Quem tem uma perna inchada e começa a sentir falta de ar não deve dirigir até o serviço de saúde por conta própria.',
+          'Existe ainda a forma mais rara e mais grave, em que a perna inteira incha, fica tensa e assume coloração pálida ou azulada. Ela compromete a circulação do membro e também exige atendimento imediato, porque o risco de perda da perna é real e cresce com o tempo de espera. Nessa apresentação, a dor é intensa e desproporcional ao que se vê na pele.',
+        ],
+      },
+      {
+        id: 'metade-das-pessoas-nao-sente-nada',
+        heading: 'Metade das pessoas não sente nada',
+        paragraphs: [
+          'Cerca de metade das pessoas com trombose não sente nada na perna. Nesses casos, o primeiro sinal pode ser a embolia pulmonar, sem que o inchaço tenha chamado atenção em nenhum momento. A ausência de sintoma local não afasta a doença, apenas retira o aviso mais visível que ela costuma dar.',
+          'Isso explica por que a trombose precisa ser lembrada em situações de risco mesmo quando a perna parece normal. Quem passou por uma cirurgia recente, ficou acamado por doença, viajou muitas horas sentado ou tem câncer em tratamento deve considerar essa hipótese se aparecer falta de ar sem explicação. O mesmo vale para quem usa anticoncepcional com estrogênio ou está no pós-parto recente.',
+          'Para o serviço de saúde, essa metade silenciosa é o motivo de tanta investigação começar pela história e não pelo exame físico. Perguntar sobre imobilização, cirurgia e episódios anteriores rende mais do que procurar inchaço que pode não existir.',
+        ],
+      },
+      {
+        id: 'o-que-imita-uma-trombose',
+        heading: 'O que imita uma trombose',
+        paragraphs: [
+          'Inchaço e dor em uma perna têm várias causas, e a diferença raramente é óbvia no exame físico. Celulite deixa a pele vermelha, quente e dolorosa, muitas vezes com febre, mas sem o aumento de volume difuso que a trombose provoca. A infecção responde a antibiótico, enquanto o coágulo não responde a nada além de anticoagulante.',
+          'A tromboflebite superficial endurece uma veia logo abaixo da pele, sem o edema que toma a perna inteira. Distensão muscular aparece depois de esforço e costuma vir sem calor local importante. Cisto de Baker roto provoca dor na parte de trás do joelho que desce para a panturrilha, e o linfedema é um inchaço crônico, muitas vezes presente nos dois lados e com história de cirurgia na virilha.',
+          'Como as apresentações se parecem, o ultrassom costuma entrar cedo na investigação. Tratar como celulite um quadro que é trombose, ou o contrário, são os dois erros que o exame de imagem evita. Quando há dúvida e o risco de embolia existe, a imagem resolve mais rápido do que a tentativa de acertar pelo aspecto da perna.',
+        ],
+      },
+      {
+        id: 'o-que-acontece-na-chegada',
+        heading: 'O que acontece na chegada',
+        paragraphs: [
+          'O ultrassom com Doppler é o primeiro exame pedido. Ele é indolor, não usa radiação e mostra o fluxo dentro das veias. Acerta com facilidade quando o coágulo está na coxa ou atrás do joelho e erra mais nas veias finas da panturrilha, por isso um resultado normal com sintomas fortes pode pedir repetição em alguns dias.',
+          'O D-dímero, exame de sangue, ajuda a afastar a trombose quando o resultado é baixo, mas não confirma nada sozinho. Ele se altera em infecções, traumas, pós-operatório e gestação, situações comuns em quem chega ao pronto atendimento. Já a tomografia com contraste é usada quando o ultrassom não esclarece ou quando se suspeita de coágulo mais alto, no abdome ou na pelve.',
+          'O atendimento inicial pode ser feito na UBS ou numa UPA, conforme a intensidade dos sintomas. O especialista que acompanha a doença é o cirurgião vascular, e casos com embolia pulmonar contam também com pneumologista e cardiologista. O tratamento está disponível na rede pública de saúde, e chegar com a informação de cirurgias recentes, viagens longas, uso de anticoncepcional e episódios anteriores de trombose ajuda o médico a decidir a sequência de exames sem passar por etapas desnecessárias.',
+        ],
+        cta: {
+          label: 'Veja como a trombose é diagnosticada e tratada',
+          href: '/doencas/trombose-venosa-profunda/',
+        },
+      },
+      {
+        id: 'o-que-nao-fazer-enquanto-espera',
+        heading: 'O que não fazer enquanto espera',
+        paragraphs: [
+          'Massagear a perna, fazer drenagem linfática ou aplicar calor local não ajudam e podem ser perigosos quando existe um coágulo. A massagem pode favorecer o deslocamento do trombo, e o calor aumenta o edema. Compressas geladas também não tratam a causa e podem esconder a evolução do quadro.',
+          'Tomar anti-inflamatório por conta própria é outra má ideia. Além de não resolver o problema, esses remédios aumentam o risco de sangramento se o tratamento com anticoagulante for indicado em seguida, e podem mascarar a febre que ajudaria a diferenciar a trombose de uma infecção de pele.',
+          'Meia de compressão não substitui avaliação. Ela ajuda a controlar o inchaço e reduz a síndrome pós-trombótica, mas não dissolve o coágulo. Enquanto o atendimento não chega, o mais útil é ficar em repouso com a perna elevada acima do nível do coração e ir ao serviço de saúde o quanto antes.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['trombose-venosa-profunda'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['trombose-venosa-profunda-quando-o-risco-aumenta'],
+    references: [
+      {
+        label: 'Trombose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/trombose',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'About Venous Thromboembolism (Blood Clots)',
+        url: 'https://www.cdc.gov/blood-clots/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'trombose-venosa-profunda-quando-o-risco-aumenta',
+    slug: 'trombose-venosa-profunda-quando-o-risco-aumenta',
+    title: 'Cirurgia, viagem longa e pílula: quando o risco de trombose sobe',
+    excerpt:
+      'O coágulo não aparece por acaso. Ele costuma surgir quando três condições se encontram, e boa parte delas pode ser prevista antes de virar problema.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'tres-condicoes-que-se-somam',
+        heading: 'Três condições que se somam',
+        paragraphs: [
+          'Quase todos os casos de trombose se explicam por três condições que costumam aparecer juntas. A primeira é uma lesão na parede da veia. A segunda é o sangue circulando devagar. A terceira é um sangue com maior tendência a coagular. Uma cirurgia, por exemplo, machuca a parede, obriga ao repouso e ainda deixa o sangue mais coagulável nas primeiras semanas, o que reúne o trio de uma vez só.',
+          'Entender essa soma muda a forma de avaliar o risco. Uma pessoa com uma única condição raramente terá um coágulo; a mesma pessoa com duas ou três ao mesmo tempo passa a ter um risco que justifica medidas de prevenção. É por isso que a consulta pergunta tanto sobre cirurgias recentes, tempo de imobilidade, medicamentos em uso e histórico familiar, e não apenas sobre os sintomas do momento.',
+          'Existem alterações herdadas que aumentam a coagulação, como a deficiência de antitrombina, a mutação do fator V de Leiden, a mutação do gene da protrombina e a deficiência das proteínas C e S. Elas não causam trombose sozinhas, mas tornam o risco muito maior quando aparecem junto de cirurgia, gestação ou anticoncepcional, e é nesse encontro que o coágulo costuma se formar.',
+        ],
+      },
+      {
+        id: 'quem-entra-no-grupo-de-risco',
+        heading: 'Quem entra no grupo de risco',
+        paragraphs: [
+          'As cirurgias de abdome, de pelve, de quadril e de perna estão entre as que mais concentram casos, assim como fraturas e lesões musculares graves. Ficar acamado por doença, usar gesso ou passar muitas horas sentado, sobretudo com as pernas cruzadas, produz o mesmo efeito de estagnação do sangue dentro das veias, e o tempo de imobilidade conta tanto quanto o tipo de problema que a causou.',
+          'O anticoncepcional com estrogênio, a terapia hormonal e a gestação aumentam a coagulação, e o risco segue elevado até três meses depois do parto. Câncer e seu tratamento, insuficiência cardíaca, doença pulmonar crônica e doença inflamatória intestinal entram na mesma lista, ao lado de obesidade, tabagismo e cateter em veia central, que costuma ser esquecido por quem está internado há muito tempo.',
+          'A idade funciona como multiplicador. Entre 20 e 40 anos, a trombose é mais comum em mulheres, pela exposição a anticoncepcionais e à gestação. Com o avançar da idade, o risco sobe nos dois sexos e tende a se igualar, porque entram em cena cirurgias, câncer, imobilidade e outras doenças crônicas que se acumulam com o tempo.',
+        ],
+      },
+      {
+        id: 'viagem-longa-o-que-fazer',
+        heading: 'Viagem longa: o que fazer',
+        paragraphs: [
+          'Quem viaja de avião ou de ônibus por mais de quatro horas deve levantar e caminhar pelo corredor a cada uma ou duas horas. Beber água ao longo do trajeto, usar roupas folgadas e movimentar os pés e os tornozelos enquanto está sentado também ajudam, porque a musculatura da panturrilha funciona como uma bomba que empurra o sangue para cima em direção ao coração.',
+          'Pernas cruzadas por muito tempo e sapatos apertados pioram a estagnação. Quem tem histórico de trombose, trombofilia ou passou por cirurgia recente deve conversar com o médico antes de uma viagem longa, porque pode haver indicação de meia de compressão ou de outra medida específica, definida caso a caso e não por conta própria.',
+          'A mesma lógica vale para o trabalho sentado. Levantar em intervalos regulares, caminhar um pouco e não passar o dia inteiro na mesma posição reduzem o tempo em que o sangue fica parado nas pernas. Nenhuma dessas medidas é exótica, e o efeito se acumula ao longo dos anos, sobretudo em quem já reúne outros fatores de risco.',
+        ],
+      },
+      {
+        id: 'antes-de-uma-cirurgia',
+        heading: 'Antes de uma cirurgia',
+        paragraphs: [
+          'Em quem vai operar, a prevenção começa antes da cirurgia. A equipe avalia o risco e indica o que for necessário, e isso pode incluir levantar cedo, meia de compressão, aparelhos que comprimem as pernas durante a internação ou anticoagulante por alguns dias. A escolha é feita caso a caso e depende do tipo de operação, do tempo previsto de internação e dos fatores de risco que a pessoa já carrega.',
+          'Levantar cedo é parte do tratamento, não um luxo. O repouso absoluto prolongado aumenta o risco de coágulo e retarda a recuperação. Quando a equipe libera a caminhada, andar com apoio, respirar fundo e fazer exercícios com os tornozelos ainda na cama são medidas simples que ajudam a circulação e reduzem o tempo de internação.',
+          'Perguntar sobre prevenção não é excesso de zelo. Quem já teve trombose, tem trombofilia ou vai enfrentar imobilização prolongada deve levar esse histórico à consulta pré-operatória, porque a conduta muda quando o risco é conhecido antes. A mesma conversa vale para quem vai começar anticoncepcional ou planeja engravidar.',
+        ],
+        cta: {
+          label: 'Entenda quando a trombose precisa de avaliação',
+          href: '/doencas/trombose-venosa-profunda/',
+        },
+      },
+      {
+        id: 'trombofilia-e-historico-familiar',
+        heading: 'Trombofilia e histórico familiar',
+        paragraphs: [
+          'Trombofilia é o nome dado à maior tendência a formar coágulos, herdada ou adquirida. Ela não é uma sentença: muitas pessoas com a alteração nunca têm trombose, e o episódio costuma precisar de um gatilho, como cirurgia, gestação, imobilização ou uso de estrogênio. Saber disso evita tanto o descuido quanto o medo exagerado de quem recebe o resultado.',
+          'A investigação não é pedida para todo mundo. Ela entra quando o caso levanta suspeita, e quem decide é o especialista que acompanha a pessoa. Fazer a bateria de exames por conta própria costuma gerar ansiedade e decisões precipitadas, porque um resultado alterado nem sempre muda a conduta e pode ser interpretado fora de contexto.',
+          'Quando o diagnóstico é feito, ele serve para orientar prevenção em situações de risco, e não para proibir atividades. O acompanhamento fica com o cirurgião vascular ou com o hematologista, e o plano inclui o que fazer antes de cirurgias, viagens longas e gestação, além de orientar familiares que também podem ter herdado a mesma alteração.',
+        ],
+      },
+      {
+        id: 'o-que-nao-protege',
+        heading: 'O que não protege',
+        paragraphs: [
+          'Não use remédio por conta própria para prevenir trombose. A indicação de anticoagulante depende de avaliação médica, e o uso sem critério traz risco de sangramento sem benefício. Isso vale para comprimidos e para injeções vendidas com a promessa de proteger a circulação, que circulam em grupos de pacientes e em conversas de consultório.',
+          'O ácido acetilsalicílico, usado por muita gente como proteção cardiovascular, não é a escolha para prevenir trombose venosa. Ele age sobre as plaquetas, que participam de outro mecanismo de coagulação, e não substitui as medidas indicadas para o risco venoso. Confundir as duas coisas leva a uma falsa sensação de proteção.',
+          'Meia de compressão sem indicação também não resolve. O modelo e o grau de compressão precisam ser definidos por profissional, porque uma meia inadequada aperta demais ou não serve para nada. O que protege de verdade é movimento, avaliação de risco nas situações certas e tratamento correto quando a trombose já existe.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['trombose-venosa-profunda'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['trombose-venosa-profunda-perna-inchada-e-emergencia'],
+    references: [
+      {
+        label: 'Risk Factors for Blood Clots',
+        url: 'https://www.cdc.gov/blood-clots/risk-factors/index.html',
+        publisher: 'Centers for Disease Control and Prevention',
+      },
+      {
+        label: 'Trombose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/trombose',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'lupus-eritematoso-sistemico-gravidez',
+    slug: 'lupus-eritematoso-sistemico-gravidez',
+    title: 'Lúpus e gravidez: o que muda no pré-natal',
+    excerpt:
+      'Engravidar com lúpus é possível, mas o desfecho depende muito do que acontece antes do teste positivo. Doença calma e medicação revista mudam o percurso.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'planejamento-antes-da-concepcao',
+        heading: 'Planejamento antes da concepção',
+        paragraphs: [
+          'A gestação é possível para quem tem lúpus, mas precisa ser planejada com antecedência. O ideal é engravidar quando a doença está estável há pelo menos seis meses, com os órgãos preservados e sem medicamentos que possam prejudicar o bebê. Sem esse preparo, sobem as chances de crise durante a gravidez e de complicações para a mãe e para o recém-nascido, e é justamente esse risco que o planejamento tenta reduzir.',
+          'Planejar significa também revisar a medicação antes de tentar engravidar. A ciclofosfamida, usada nas formas graves, deve ser suspensa meses antes da concepção, e o reumatologista avalia quais drogas podem ser mantidas e quais precisam ser trocadas por opções mais seguras. Fazer essa revisão depois do teste positivo é mais difícil, porque o tempo é curto e a doença não espera.',
+          'A contracepção faz parte do mesmo plano. Engravidar sem querer, no meio de uma crise, é o cenário que se quer evitar, e a escolha do método precisa ser discutida com a equipe, já que algumas opções têm particularidades nessa população. Quem não pretende engravidar agora deve tratar o tema como parte do tratamento, e não como assunto separado.',
+        ],
+      },
+      {
+        id: 'por-que-a-estabilidade-importa',
+        heading: 'Por que a estabilidade importa tanto',
+        paragraphs: [
+          'A doença ativa no momento da concepção é o principal fator de risco. Quando existe inflamação em curso, as chances de crise durante a gestação sobem, e o comprometimento renal é o que mais preocupa, porque pode piorar rápido e afetar o crescimento do bebê. Um rim já comprometido tem menos margem para suportar as mudanças normais da gravidez.',
+          'Os hormônios têm participação nesse cenário. Na idade fértil há cerca de nove mulheres para cada homem com lúpus, o que mostra o peso dos hormônios femininos, e a gestação aparece associada a mais atividade da doença em parte das pacientes. Isso não significa que toda gestante terá crise, mas explica por que o acompanhamento precisa ser mais próximo do que em uma gestação de baixo risco.',
+          'Estar em remissão muda o tom da conversa. Quem chega à gravidez com a doença calma costuma ter um percurso mais tranquilo e precisa de menos ajuste de medicação, o que reduz o risco de o próprio tratamento complicar a gestação. Por isso a orientação costuma ser esperar o momento certo, e não engravidar assim que o desejo aparece.',
+        ],
+      },
+      {
+        id: 'medicamentos-na-gestacao',
+        heading: 'O que pode e o que não pode ser mantido',
+        paragraphs: [
+          'Hidroxicloroquina e azatioprina podem ser mantidas durante a gravidez, porque são consideradas seguras para o bebê. A hidroxicloroquina, indicada para quase todos os pacientes, costuma ser preservada justamente para reduzir o risco de crise, e suspender o remédio por conta própria é um erro comum e perigoso, muitas vezes motivado pelo medo de prejudicar a criança.',
+          'A ciclofosfamida e o metotrexato exigem interrupção antes da concepção, e o planejamento existe para que a troca seja feita com antecedência e sem pressa. Corticoides em dose baixa costumam ser mantidos quando necessários, e a decisão sobre dose e via de administração fica sempre com o reumatologista, que conhece o histórico de crises da paciente.',
+          'Nenhuma mudança deve ser feita sem orientação. O equilíbrio entre controlar a doença e proteger o bebê é específico de cada caso, porque depende dos órgãos já afetados, do tempo de doença e do tipo de manifestação que costuma aparecer nas crises. O que vale para uma paciente pode não valer para outra.',
+        ],
+      },
+      {
+        id: 'acompanhamento-conjunto',
+        heading: 'O acompanhamento durante a gestação',
+        paragraphs: [
+          'O pré-natal é feito em conjunto pelo obstetra e pelo reumatologista, com vigilância do crescimento fetal e da função renal. A pressão arterial é medida em todas as consultas e a urina é examinada com frequência, porque a perda de proteína pode ser o primeiro sinal de nefrite, antes de qualquer sintoma perceptível.',
+          'Os exames de sangue acompanham a atividade da doença e o efeito dos medicamentos, e a queda do complemento ou a elevação do anti-DNA costumam acender o alerta antes de o quadro clínico mudar. Quando aparece alguma alteração, a equipe decide se ajusta a dose, antecipa consultas ou interna para observação, e essa agilidade é o que evita desfechos ruins.',
+          'A frequência das visitas aumenta com o avançar da gestação. No fim, a avaliação se aproxima do acompanhamento de alto risco, com monitoramento do bem-estar fetal e planejamento do parto, incluindo a discussão sobre o momento e a via mais adequados para cada caso.',
+        ],
+        cta: {
+          label: 'Veja como o lúpus é diagnosticado e tratado',
+          href: '/doencas/lupus-eritematoso-sistemico/',
+        },
+      },
+      {
+        id: 'quando-adiar-a-gestacao',
+        heading: 'Quando é melhor adiar',
+        paragraphs: [
+          'Existem situações em que a orientação é esperar. Doença em atividade, nefrite sem controle, crise recente ou uso de medicamento teratogênico são motivos para adiar a gestação até que o quadro se estabilize. Adiar não é desistir, e sim criar condições para que a gravidez corra bem.',
+          'O tempo de espera varia conforme o caso e depende da resposta ao tratamento. Em geral, a equipe acompanha a queda dos marcadores de atividade, a melhora da função renal e a adaptação da medicação antes de liberar a tentativa, e esse período costuma ser de meses, não de dias.',
+          'Vale conversar sobre o assunto cedo, mesmo antes de decidir engravidar. Quem tem lúpus e deseja ter filhos ganha mais com uma consulta de planejamento do que com orientações dadas às pressas depois da descoberta da gravidez, quando as opções são menores.',
+        ],
+      },
+      {
+        id: 'cuidados-no-dia-a-dia',
+        heading: 'Cuidados no dia a dia da gestante',
+        paragraphs: [
+          'A proteção solar continua obrigatória. O sol é um gatilho conhecido de manchas e de atividade da doença, e a gestação não muda isso; protetor de fator alto todos os dias, chapéu e roupa de manga longa seguem fazendo parte da rotina, inclusive nos dias nublados.',
+          'Descanso e sono regular ajudam a atravessar a gestação com menos crises. Atividade física leve, como caminhada, costuma ser bem tolerada quando a doença está calma, mas precisa ser ajustada nas fases de atividade e sempre com orientação da equipe que acompanha o pré-natal.',
+          'Sinais de alerta não podem esperar a próxima consulta. Falta de ar, urina escura ou espumosa, redução do volume de urina, inchaço nas pernas e no rosto, dor de cabeça intensa e febre alta exigem atendimento no mesmo dia, porque podem indicar atividade da doença ou complicação da gravidez.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['lupus-eritematoso-sistemico'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'lupus-eritematoso-sistemico-tratamento-e-medicamentos',
+      'lupus-eritematoso-sistemico-primeiros-sinais',
+      'lupus-eritematoso-sistemico-sem-mancha-no-rosto',
+      'lupus-eritematoso-sistemico-nao-e-contagioso',
+    ],
+    references: [
+      {
+        label: 'Lúpus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lupus',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Lúpus Eritematoso Sistêmico: diagnóstico precoce é essencial',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/lupus-eritematoso-sistemico/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'lupus-eritematoso-sistemico-tratamento-e-medicamentos',
+    slug: 'lupus-eritematoso-sistemico-tratamento-e-medicamentos',
+    title: 'Hidroxicloroquina e corticoide: como é o tratamento do lúpus',
+    excerpt:
+      'O lúpus não se trata com um remédio só, e a dose muda com a fase da doença. Entender para que serve cada droga ajuda a não interromper o tratamento na hora errada.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'hidroxicloroquina-para-quase-todos',
+        heading: 'Hidroxicloroquina para quase todos',
+        paragraphs: [
+          'A hidroxicloroquina é indicada para quase todos os pacientes, inclusive quando a doença está calma. Ela reduz o número de crises e diminui o dano acumulado ao longo dos anos, e esse efeito protetor é a razão de ser mantida mesmo em quem não tem sintoma no momento. Não é um remédio para crise, e sim para o curso da doença.',
+          'O uso prolongado exige cuidado com os olhos. O oftalmologista faz uma avaliação inicial e revisões periódicas, porque a droga pode afetar a retina em tratamentos longos. Esse acompanhamento permite detectar alterações cedo, quando ainda é possível ajustar a conduta sem perda visual.',
+          'Interromper por conta própria é um erro frequente. Muita gente suspende o remédio quando se sente bem, ou por medo de efeitos a longo prazo, e o resultado costuma ser o retorno das crises meses depois. A decisão de suspender, quando existe, é tomada com o reumatologista e com base em critérios.',
+        ],
+      },
+      {
+        id: 'corticoide-depende-da-dose',
+        heading: 'Corticoide: a dose muda tudo',
+        paragraphs: [
+          'O corticoide é a droga que controla a inflamação mais rápido, e por isso é usado nas fases de atividade. Em quadros leves, com artrite e lesões de pele, entra em dose baixa; nas formas graves, com nefrite ou comprometimento do sistema nervoso, pode ser usado em dose alta, às vezes por via intravenosa, para conter o quadro em pouco tempo.',
+          'O preço desse alívio aparece no uso prolongado. Ganho de peso, aumento da pressão e da glicemia, osteoporose, necrose óssea e maior risco de infecção são efeitos conhecidos, e todos crescem com a dose e com o tempo de uso. Por isso a estratégia é usar a menor dose eficaz pelo menor tempo possível, e reduzir de forma programada quando a doença melhora.',
+          'Nas lesões de pele localizadas, o corticoide tópico resolve boa parte do problema sem os efeitos do comprimido. Ele é subestimado por muitos pacientes, que preferem a via oral por acreditarem que é mais forte, quando na verdade a escolha depende do tipo e da extensão da lesão.',
+        ],
+      },
+      {
+        id: 'imunossupressores-nas-formas-graves',
+        heading: 'Imunossupressores nas formas graves',
+        paragraphs: [
+          'Quando a doença atinge órgãos, entram os imunossupressores. Metotrexato e azatioprina são usados em quadros moderados, e micofenolato ou ciclofosfamida aparecem nas formas graves, sobretudo na nefrite. Essas drogas permitem reduzir a dose de corticoide ao longo do tempo, o que diminui os efeitos adversos do tratamento.',
+          'O monitoramento é parte do uso. Exames de sangue e de urina acompanham a resposta e detectam efeitos indesejados antes que se tornem problemas maiores, e a frequência desses controles é definida pelo tipo de droga e pelo tempo de uso. Faltar a esses exames é o que costuma transformar um efeito manejável em complicação.',
+          'Todas essas medicações aumentam o risco de infecção, porque reduzem a atividade do sistema de defesa. Febre, tosse, feridas que não cicatrizam e mal-estar prolongado merecem avaliação rápida, e não devem ser tratados como resfriado comum por vários dias seguidos.',
+        ],
+      },
+      {
+        id: 'biologicos',
+        heading: 'Quando entra o biológico',
+        paragraphs: [
+          'O belimumabe é uma opção para casos que continuam ativos apesar do tratamento convencional. Ele age sobre um alvo específico do sistema imunológico e é usado quando a doença persiste com atividade mesmo com hidroxicloroquina, corticoide e imunossupressores bem conduzidos.',
+          'A indicação é sempre individual. O reumatologista avalia o histórico de órgãos afetados, a resposta aos tratamentos anteriores e a disponibilidade na rede, porque não é todo caso que se beneficia e não é todo serviço que oferece a droga. A conversa sobre expectativa é importante, já que o efeito costuma aparecer ao longo de meses.',
+          'Novos medicamentos vêm sendo estudados com o objetivo de reduzir a dependência do corticoide e controlar casos refratários. O acompanhamento especializado é o que permite saber se há indicação e se o tratamento está acessível no momento, sem criar expectativa sobre algo que ainda está em pesquisa.',
+        ],
+      },
+      {
+        id: 'o-que-o-tratamento-protege',
+        heading: 'O que o tratamento protege',
+        paragraphs: [
+          'O objetivo do tratamento não é apenas aliviar sintomas. Cada crise mal controlada pode deixar uma marca no órgão afetado, e o efeito se soma com o tempo. Rins, coração e cérebro são os alvos que mais preocupam, e o dano acumulado é o que explica por que o seguimento continua mesmo em fases tranquilas.',
+          'A nefrite lúpica é a complicação que mais ameaça a vida a médio prazo. Sem controle, evolui para insuficiência renal e necessidade de diálise, e o exame de urina em cada consulta é o que permite detectar o problema antes dos sintomas. É uma das razões pelas quais a coleta de urina não deve ser encarada como formalidade.',
+          'O risco cardiovascular também é maior nessa população, pela inflamação crônica e pelo uso prolongado de corticoide. Infarto e derrame aparecem mais cedo do que na população geral, o que reforça a importância de controlar pressão, glicemia e colesterol, além de manter atividade física quando a doença está calma.',
+        ],
+        cta: {
+          label: 'Conheça as complicações do lúpus e como evitá-las',
+          href: '/doencas/lupus-eritematoso-sistemico/',
+        },
+      },
+      {
+        id: 'nunca-ajustar-sozinho',
+        heading: 'Por que não ajustar sozinho',
+        paragraphs: [
+          'Aumentar a dose do corticoide por conta própria expõe a mais efeitos adversos, e reduzir rápido demais pode desencadear uma crise. A retirada do corticoide é feita de forma gradual e programada, com acompanhamento de exames, porque o corpo precisa de tempo para voltar a produzir o próprio hormônio.',
+          'O mesmo vale para os imunossupressores e para a hidroxicloroquina. Cada um tem um tempo próprio de ação e de retirada, e a interrupção sem orientação costuma custar meses de controle perdido. Anotar as dúvidas e levá-las à consulta funciona melhor do que decidir no meio de uma semana ruim.',
+          'Vale também avisar qualquer profissional de saúde sobre os remédios em uso. Dentista, clínico geral e emergencista precisam saber que a pessoa usa imunossupressor, porque isso muda condutas, indica cuidados com infecção e interfere em escolhas de outros tratamentos.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['lupus-eritematoso-sistemico'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'lupus-eritematoso-sistemico-gravidez',
+      'lupus-eritematoso-sistemico-primeiros-sinais',
+      'lupus-eritematoso-sistemico-sem-mancha-no-rosto',
+      'lupus-eritematoso-sistemico-nao-e-contagioso',
+    ],
+    references: [
+      {
+        label: 'Lúpus Eritematoso Sistêmico: diagnóstico precoce é essencial',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/lupus-eritematoso-sistemico/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+      {
+        label: 'Lúpus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lupus',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'lupus-eritematoso-sistemico-primeiros-sinais',
+    slug: 'lupus-eritematoso-sistemico-primeiros-sinais',
+    title: 'Febre, dor nas juntas e cansaço: os primeiros sinais do lúpus',
+    excerpt:
+      'O lúpus costuma começar devagar, com queixas que parecem virose ou excesso de trabalho. Reconhecer o padrão é o que encurta o caminho até o diagnóstico.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'um-cansaco-que-nao-passa',
+        heading: 'Um cansaço que não passa',
+        paragraphs: [
+          'O lúpus costuma começar com queixas vagas. Febre baixa, cansaço que não melhora com repouso, perda de apetite e emagrecimento sem explicação abrem o quadro em boa parte dos casos. Muita gente passa meses se sentindo mal sem conseguir apontar o que está errado, e é comum ser tratada como se tivesse uma virose prolongada.',
+          'Esse cansaço tem características próprias. Ele não melhora depois de uma boa noite de sono, não acompanha o esforço do dia e costuma vir junto de outras queixas que parecem desconectadas entre si. Quando o paciente descreve vários sintomas pequenos que ninguém consegue explicar, a investigação reumatológica passa a fazer sentido.',
+          'A febre baixa e recorrente é outro ponto de atenção. Não é a febre alta das infecções, e sim uma temperatura que sobe no fim do dia, some sozinha e volta dias depois, às vezes por semanas. Febre nesse padrão, sem foco infeccioso encontrado, merece avaliação mais ampla.',
+        ],
+      },
+      {
+        id: 'a-mancha-em-asas-de-borboleta',
+        heading: 'A mancha em asas de borboleta',
+        paragraphs: [
+          'A lesão mais conhecida é a vermelhidão sobre as maçãs do rosto e o dorso do nariz, que desenha o formato de asas de borboleta. Ela poupa os sulcos ao redor da boca, detalhe que ajuda a diferenciar o lúpus de outras causas de vermelhidão facial e que costuma passar despercebido por quem não examina a pele com atenção.',
+          'Nem sempre a mancha está presente, e nem sempre ela é a primeira manifestação. Quando aparece, costuma piorar com sol, o que faz muita gente atribuir o quadro a uma alergia ou a uma queimadura. Lesões que surgem ou se intensificam depois da exposição solar são um sinal que vale contar ao médico.',
+          'Outras alterações cutâneas acompanham o quadro. Feridas indolores na boca e no nariz, queda de cabelo difusa ou em placas e mudança de cor nos dedos com o frio aparecem com frequência. Nenhuma delas confirma a doença sozinha, mas o conjunto tem valor e deve ser descrito em detalhe.',
+        ],
+      },
+      {
+        id: 'articulacoes-que-doem-em-varios-pontos',
+        heading: 'Articulações que doem em vários pontos',
+        paragraphs: [
+          'As dores articulares são uma das queixas mais comuns. Elas atingem várias articulações ao mesmo tempo, com rigidez matinal e inchaço, e costumam incomodar mais do que deformar. Diferente da artrite reumatoide, o lúpus raramente deixa deformidade permanente, embora possa causar dor intensa e limitação temporária durante as crises.',
+          'Esse padrão migratório confunde. A dor pode estar no punho hoje, nos joelhos amanhã e nas mãos na semana seguinte, o que faz o quadro parecer exagero ou algo sem explicação. Quando a queixa se repete por meses e vem acompanhada de cansaço e manchas, a hipótese de doença autoimune ganha força.',
+          'Vale registrar as articulações afetadas e o tempo de rigidez pela manhã. Essas informações, que parecem detalhe, ajudam o reumatologista a separar o lúpus de outras doenças reumáticas e a definir a investigação com mais precisão.',
+        ],
+      },
+      {
+        id: 'quando-a-doenca-sai-da-pele',
+        heading: 'Quando a doença sai da pele',
+        paragraphs: [
+          'O lúpus pode atingir órgãos internos, e alguns sinais aparecem cedo. Quando a inflamação atinge as membranas que revestem o pulmão, o coração ou o abdome, surgem dor no peito ao respirar fundo, falta de ar e aumento da circunferência abdominal. São queixas que muita gente associa a esforço ou a má digestão.',
+          'O rim é um dos órgãos mais afetados, e cerca de metade dos pacientes apresenta algum grau de nefrite. No início ela é silenciosa e se manifesta por urina espumosa, pressão alta e inchaço nas pernas, sinais que só aparecem quando a perda de proteína já é significativa. Por isso a urina é examinada em toda consulta.',
+          'O sangue e o sistema nervoso também entram no quadro. Anemia, queda de glóbulos brancos e plaquetas baixas são comuns e se traduzem em mais infecções e maior facilidade de sangramento. Dor de cabeça persistente, alterações de memória e confusão exigem avaliação, porque podem indicar comprometimento neurológico.',
+        ],
+        cta: {
+          label: 'Entenda como o lúpus é investigado e tratado',
+          href: '/doencas/lupus-eritematoso-sistemico/',
+        },
+      },
+      {
+        id: 'por-que-o-diagnostico-demora',
+        heading: 'Por que o diagnóstico demora',
+        paragraphs: [
+          'O tempo entre o primeiro sintoma e o diagnóstico é longo. A estimativa é de quatro a sete anos, porque o início é arrastado, os sintomas imitam outras doenças e nem sempre o quadro se apresenta de forma completa de uma vez. Cada especialista vê uma parte do problema, e sem alguém olhando o conjunto o caminho se alonga.',
+          'A ausência de um exame único pesa. O diagnóstico é clínico e laboratorial, e nenhum resultado isolado fecha a questão. O anticorpo antinuclear aparece em quase todos os pacientes, mas também em outras doenças e em pessoas saudáveis, o que obriga o médico a interpretar o conjunto e não o número.',
+          'Quem convive com queixas há anos costuma ouvir que é estresse ou que é normal. Insistir na investigação, levar registros dos sintomas e procurar avaliação especializada quando o quadro persiste são atitudes que encurtam esse percurso, sem transformar a busca em autodiagnóstico.',
+        ],
+      },
+      {
+        id: 'quando-procurar-ajuda',
+        heading: 'Quando procurar ajuda',
+        paragraphs: [
+          'O primeiro atendimento pode ser na UBS, que encaminha para o reumatologista. Vale procurar quando há dores articulares persistentes, manchas que pioram ao sol, febre baixa recorrente e cansaço fora do normal, sobretudo em mulheres entre 20 e 45 anos, faixa em que a doença é mais frequente.',
+          'Alguns sinais exigem atendimento no mesmo dia, sem esperar a próxima consulta. Falta de ar, dor no peito ao respirar fundo, urina escura ou espumosa, redução importante do volume urinário, dor de cabeça súbita e intensa, convulsão e febre alta com piora do estado geral indicam risco de dano a órgãos.',
+          'Chegar à consulta com um resumo escrito ajuda. Anotar quando cada sintoma começou, o que piora e o que melhora, os medicamentos em uso e os casos de doenças autoimunes na família dá ao médico a matéria-prima de que ele precisa para decidir quais exames pedir.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['lupus-eritematoso-sistemico'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'lupus-eritematoso-sistemico-gravidez',
+      'lupus-eritematoso-sistemico-tratamento-e-medicamentos',
+      'lupus-eritematoso-sistemico-sem-mancha-no-rosto',
+      'lupus-eritematoso-sistemico-nao-e-contagioso',
+    ],
+    references: [
+      {
+        label: 'Lúpus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lupus',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Lúpus Eritematoso Sistêmico: diagnóstico precoce é essencial',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/lupus-eritematoso-sistemico/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'lupus-eritematoso-sistemico-sem-mancha-no-rosto',
+    slug: 'lupus-eritematoso-sistemico-sem-mancha-no-rosto',
+    title: 'Lúpus sem mancha no rosto: como o diagnóstico é confirmado',
+    excerpt:
+      'A imagem clássica do lúpus tem uma vermelhidão em asas de borboleta. Boa parte dos pacientes não tem nada parecido, e é aí que os exames passam a carregar o peso da investigação.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'a-mancha-nao-e-obrigatoria',
+        heading: 'A mancha não é obrigatória',
+        paragraphs: [
+          'A vermelhidão em asas de borboleta virou a imagem oficial do lúpus, e isso cria uma armadilha. Quem não tem a lesão pode passar anos sem que ninguém considere a doença, e quem tem uma vermelhidão facial de outra causa pode ser encaminhado por engano. A pele ajuda, mas não decide.',
+          'A forma sistêmica pode se manifestar apenas com febre baixa, dores articulares, queda de cabelo e alterações no hemograma. Nesses casos, o quadro se parece com muitas outras condições, e o diagnóstico depende de juntar peças dispersas ao longo do tempo, em vez de reconhecer uma imagem típica de imediato.',
+          'Existe também a forma cutânea crônica, em que as lesões aparecem em áreas expostas ao sol e deixam cicatriz, sem necessariamente comprometer órgãos internos. As duas formas têm nomes parecidos e desfechos diferentes, e separar uma da outra é parte do trabalho do especialista.',
+        ],
+      },
+      {
+        id: 'o-que-a-urina-mostra',
+        heading: 'O que a urina mostra antes dos sintomas',
+        paragraphs: [
+          'O exame de urina é feito em toda consulta, mesmo em quem se sente bem. Proteinúria e hematúria podem ser o primeiro sinal de nefrite, e aparecem antes de qualquer sintoma perceptível. Um exame simples, barato e repetido com frequência detecta o problema que mais ameaça a vida a médio prazo.',
+          'Quando há perda importante de proteína, o médico pede a dosagem em urina de 24 horas ou a relação proteína e creatinina em amostra isolada. Esses números mostram a magnitude do problema e ajudam a definir a urgência do tratamento, além de servirem de referência para comparar a evolução.',
+          'A biópsia renal, feita quando existem sinais de nefrite, define o tipo de lesão e orienta a escolha do tratamento. Ela não é pedida por rotina, e sim quando o resultado muda a conduta, o que costuma acontecer quando a perda de proteína é significativa ou a função renal começa a cair.',
+        ],
+      },
+      {
+        id: 'os-autoanticorpos',
+        heading: 'Os autoanticorpos e o que eles dizem',
+        paragraphs: [
+          'A pesquisa de autoanticorpos é o centro da investigação. O anticorpo antinuclear aparece em quase todos os pacientes, mas também em outras doenças e em pessoas saudáveis, e por isso não confirma nada sozinho. Ele funciona como um sinal de que vale continuar investigando, não como um carimbo de diagnóstico.',
+          'O anti-DNA de dupla hélice e o anti-Sm são mais específicos, e o anti-DNA costuma subir quando a doença está ativa. Essa variação faz dele um marcador útil para acompanhar o tratamento, ainda que nenhum resultado deva ser lido isolado do quadro clínico e dos outros exames.',
+          'Os níveis de complemento C3 e C4 caem nas fases de atividade, porque são consumidos durante a inflamação. A queda do complemento junto com a elevação do anti-DNA costuma anteceder uma crise, e esse é um dos motivos pelos quais os exames são repetidos mesmo quando o paciente está assintomático.',
+        ],
+        cta: {
+          label: 'Veja todos os exames que investigam o lúpus',
+          href: '/doencas/lupus-eritematoso-sistemico/',
+        },
+      },
+      {
+        id: 'fan-positivo-nao-fecha-o-diagnostico',
+        heading: 'FAN positivo não fecha o diagnóstico',
+        paragraphs: [
+          'Receber um exame com anticorpo antinuclear positivo assusta, mas o resultado tem limites claros. Ele pode aparecer em pessoas saudáveis, em quem tem outras doenças autoimunes e em quadros infecciosos, e a frequência aumenta com a idade. Um exame positivo sem sintomas compatíveis não é diagnóstico de lúpus.',
+          'O inverso também acontece. Existem pacientes com a doença e antinuclear negativo, situação incomum mas possível, o que mostra por que o resultado nunca deve ser interpretado sem a clínica. O médico olha o conjunto, e não a linha isolada do laudo.',
+          'O laudo costuma vir com um título, e o título alto impressiona mais do que deveria. Por isso a solicitação do exame deve vir de uma suspeita clínica. Pedir a bateria inteira em quem não tem queixa gera resultados difíceis de interpretar, encaminhamentos desnecessários e anos de ansiedade em torno de um número que talvez nunca signifique doença.',
+        ],
+      },
+      {
+        id: 'o-que-pode-ser-confundido',
+        heading: 'O que pode ser confundido',
+        paragraphs: [
+          'Várias doenças produzem manchas, dores articulares e alterações de exames parecidas com as do lúpus. A artrite reumatoide causa dor simétrica nas pequenas articulações, mas não traz as lesões de pele típicas. A síndrome de Sjögren cursa com olhos e boca secos e tem anticorpos próprios.',
+          'O lúpus induzido por drogas é outra confusão frequente e costuma melhorar depois da retirada do remédio, o que muda completamente a conduta. A dermatomiosite provoca fraqueza muscular proximal e lesões de pele características, enquanto as infecções virais causam febre, dores no corpo e alterações transitórias do hemograma.',
+          'A diferença raramente está em um único achado. Ela aparece no conjunto de sintomas, no perfil de anticorpos e, sobretudo, na evolução ao longo do tempo. É por isso que muitas vezes o diagnóstico é firmado em consultas de acompanhamento, e não na primeira avaliação. Quem tem várias queixas simultâneas costuma ser o caso em que o conjunto esclarece mais rápido.',
+        ],
+      },
+      {
+        id: 'o-caminho-ate-o-especialista',
+        heading: 'O caminho até o especialista',
+        paragraphs: [
+          'O primeiro atendimento pode ser na UBS, que encaminha para o reumatologista. O especialista reconhece o padrão de sintomas, examina pele, articulações e o restante do corpo, e pede os exames que mostram inflamação, autoanticorpos e função dos órgãos.',
+          'Existem critérios de classificação internacionais, atualizados periodicamente, que combinam manifestações clínicas e resultados de exames. Eles padronizam a pesquisa e ajudam na decisão, mas não substituem a avaliação do especialista, porque outras doenças produzem quadros parecidos e os critérios foram feitos para pesquisas antes de serem usados na prática.',
+          'Casos com comprometimento renal grave contam também com o nefrologista, e quadros neurológicos podem exigir avaliação conjunta com outras especialidades. O tratamento e o acompanhamento são oferecidos pelo SUS, e o tempo até o diagnóstico costuma encurtar quando o paciente chega com um relato organizado dos sintomas. Vale levar exames antigos, receitas em uso e a lista de queixas em ordem de aparecimento, porque a cronologia costuma valer mais do que qualquer resultado isolado.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['lupus-eritematoso-sistemico'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'lupus-eritematoso-sistemico-gravidez',
+      'lupus-eritematoso-sistemico-tratamento-e-medicamentos',
+      'lupus-eritematoso-sistemico-primeiros-sinais',
+      'lupus-eritematoso-sistemico-nao-e-contagioso',
+    ],
+    references: [
+      {
+        label: 'Lúpus Eritematoso Sistêmico: diagnóstico precoce é essencial',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/lupus-eritematoso-sistemico/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+      {
+        label: 'Lúpus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lupus',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'lupus-eritematoso-sistemico-nao-e-contagioso',
+    slug: 'lupus-eritematoso-sistemico-nao-e-contagioso',
+    title: 'Lúpus pega? O que é mito e o que é fato',
+    excerpt:
+      'Manchas na pele assustam quem convive com a pessoa, e a dúvida sobre contágio aparece cedo. A resposta é simples, mas vem acompanhada de outras perguntas igualmente comuns.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'nao-passa-de-uma-pessoa-para-outra',
+        heading: 'Não passa de uma pessoa para outra',
+        paragraphs: [
+          'O lúpus não é contagioso. Ele não se transmite pelo convívio, pelo beijo, pela relação sexual, por gotículas de tosse ou por transfusão de sangue. Não existe isolamento, não existe cuidado com talheres ou toalhas, e nenhuma medida de afastamento faz sentido.',
+          'A confusão nasce do aspecto da pele. Manchas vermelhas no rosto lembram doenças infecciosas, e quem convive com alguém em crise costuma perguntar se é preciso evitar contato. A resposta é não, e vale dizer isso em voz alta, porque o medo do contágio ainda afasta pessoas de quem já enfrenta uma doença crônica.',
+          'O que existe é uma doença autoimune, em que o sistema de defesa ataca os próprios tecidos. Nada disso é transmissível, e nenhuma das manifestações, inclusive as lesões de pele, carrega agentes infecciosos capazes de passar adiante. Quem convive com uma pessoa com lúpus não precisa tomar precaução alguma, e crianças podem brincar, dormir na mesma casa e compartilhar o dia sem risco.',
+        ],
+      },
+      {
+        id: 'o-que-se-herda-e-a-predisposicao',
+        heading: 'O que se herda é a predisposição',
+        paragraphs: [
+          'Dizer que o lúpus não é hereditário no sentido estrito é correto, mas precisa de explicação. O que se herda é uma predisposição, que precisa encontrar gatilhos ambientais para se manifestar. Ter um parente com a doença aumenta o risco, sem determinar o desfecho.',
+          'Parentes de primeiro grau têm risco maior que a população geral, e gêmeos idênticos concordam para a doença com frequência bem maior que gêmeos fraternos. Esses dados mostram o peso da genética, e ao mesmo tempo mostram que ela não explica tudo, porque a concordância entre gêmeos idênticos não é total.',
+          'Na prática, isso significa que uma pessoa com lúpus pode ter filhos sem que eles desenvolvam a doença. Significa também que vale ficar atento a sinais em familiares, sem transformar a convivência em vigilância permanente ou em culpa por ter passado algo adiante.',
+        ],
+      },
+      {
+        id: 'sol-e-gatilho-nao-causa',
+        heading: 'O sol é gatilho, não causa',
+        paragraphs: [
+          'A luz ultravioleta é o gatilho ambiental mais evidente. Muitas pessoas notam que manchas e dores surgem ou pioram depois da exposição ao sol, e essa relação é consistente o suficiente para justificar proteção diária. Tomar sol não causa lúpus, mas pode precipitar uma crise em quem já tem a doença.',
+          'Infecções virais e bacterianas também podem iniciar ou reativar o quadro, o que ajuda a entender por que tanta gente relata que os sintomas começaram depois de uma infecção arrastada. Alguns medicamentos, como certos anti-hipertensivos e anticonvulsivantes, causam uma forma parecida de lúpus que costuma melhorar com a retirada da droga.',
+          'O hormônio feminino completa o conjunto. Na idade fértil há cerca de nove mulheres para cada homem com lúpus, proporção que cai antes da puberdade e depois da menopausa. Gestação e uso de estrogênio aparecem associados a mais atividade da doença, sem serem a causa dela.',
+        ],
+        cta: {
+          label: 'Entenda os gatilhos e o tratamento do lúpus',
+          href: '/doencas/lupus-eritematoso-sistemico/',
+        },
+      },
+      {
+        id: 'quantas-pessoas-vivem-com-lupus-no-brasil',
+        heading: 'Quantas pessoas vivem com lúpus no Brasil',
+        paragraphs: [
+          'A Sociedade Brasileira de Reumatologia estima que entre 150 mil e 300 mil pessoas vivam com lúpus no país. Não é uma doença rara, ainda que passe despercebida em muitos serviços, e o número ajuda a dimensionar por que ela aparece com tanta frequência nos consultórios de reumatologia.',
+          'A doença é muito mais frequente em mulheres, sobretudo entre 20 e 45 anos, faixa em que o diagnóstico costuma ser feito. Ela pode surgir em qualquer idade, inclusive na infância e depois da menopausa, mas esses casos são menos comuns e costumam exigir atenção redobrada pela apresentação atípica.',
+          'O tempo até o diagnóstico é longo, com estimativa de quatro a sete anos. Isso significa que muitas pessoas convivem com sintomas por anos antes de receber um nome para o que sentem, e explica por que a informação de qualidade sobre a doença tem tanto valor para quem está nesse percurso.',
+        ],
+      },
+      {
+        id: 'da-para-estudar-trabalhar-e-ter-filhos',
+        heading: 'Dá para estudar, trabalhar e ter filhos',
+        paragraphs: [
+          'Não existe cura, mas a doença pode ficar controlada por longos períodos. Com tratamento regular, a maioria das pessoas consegue manter a rotina, estudar, trabalhar e ter filhos. Essa é a informação que mais falta a quem recebe o diagnóstico, porque o nome assusta mais do que a realidade de quem está em acompanhamento.',
+          'A gravidez é possível e precisa ser planejada, de preferência com a doença estável por pelo menos seis meses. O pré-natal é feito em conjunto pelo obstetra e pelo reumatologista, e algumas medicações são mantidas durante a gestação por serem consideradas seguras para o bebê.',
+          'O trabalho e os estudos seguem o mesmo raciocínio. Em fases de atividade pode ser necessário reduzir o ritmo, e o cansaço costuma ser o sintoma que mais atrapalha a rotina. Ajustes de horário e pausas raramente resolvem tudo, mas ajudam a atravessar as crises sem perder o vínculo com a vida que a pessoa construiu.',
+        ],
+      },
+      {
+        id: 'o-que-realmente-ajuda',
+        heading: 'O que realmente ajuda',
+        paragraphs: [
+          'Manter o tratamento é a medida que mais muda o prognóstico. A hidroxicloroquina, indicada para quase todos os pacientes, reduz crises e dano acumulado, e abandoná-la quando os sintomas melhoram é um dos erros mais comuns e mais caros a longo prazo.',
+          'Proteger-se do sol, ir às consultas, tratar infecções cedo e não ajustar medicação por conta própria completam o conjunto. Nada disso é exótico, e o efeito aparece na soma: menos crises, menos dano a órgãos e mais anos com qualidade de vida. Consultas espaçadas não significam doença resolvida, e é justamente nelas que se ajusta a dose e se revisam os exames que antecedem uma crise.',
+          'Informação correta também é cuidado. Quem entende que a doença não é contagiosa, que não é uma sentença e que exige acompanhamento contínuo tende a aderir melhor ao tratamento e a procurar ajuda mais cedo quando algo muda. Isso vale para o paciente e para quem está ao lado dele.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['lupus-eritematoso-sistemico'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'lupus-eritematoso-sistemico-gravidez',
+      'lupus-eritematoso-sistemico-tratamento-e-medicamentos',
+      'lupus-eritematoso-sistemico-primeiros-sinais',
+      'lupus-eritematoso-sistemico-sem-mancha-no-rosto',
+    ],
+    references: [
+      {
+        label: 'Lúpus',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/lupus',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Lúpus Eritematoso Sistêmico: diagnóstico precoce é essencial',
+        url: 'https://www.reumatologia.org.br/doencas-reumaticas/lupus-eritematoso-sistemico/',
+        publisher: 'Sociedade Brasileira de Reumatologia',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiperplasia-prostatica-benigna-quando-a-urina-nao-sai',
+    slug: 'hiperplasia-prostatica-benigna-quando-a-urina-nao-sai',
+    title: 'Quando a urina não sai: retenção urinária e próstata',
+    excerpt:
+      'Não conseguir urinar é diferente de urinar pouco. A bexiga cheia e dolorida é uma emergência, e o alívio depende de uma sonda colocada em serviço de saúde.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-retencao-urinaria',
+        heading: 'O que é retenção urinária',
+        paragraphs: [
+          'Retenção urinária é a incapacidade de esvaziar a bexiga. O homem sente vontade de urinar, às vezes com dor forte no baixo ventre, faz força e não sai urina ou saem apenas algumas gotas. A bexiga fica cheia, endurecida e dolorosa, e o quadro não melhora sozinho com o passar das horas.',
+          'Ela pode ser aguda ou crônica. Na forma aguda, a dor aparece de repente e leva a pessoa ao pronto atendimento em pouco tempo. Na forma crônica, a bexiga nunca esvazia por completo, o volume residual cresce aos poucos e o paciente convive com jato fraco, infecções de repetição e sensação de que ainda falta urinar.',
+          'A diferença entre urinar pouco e não urinar é o ponto central. Quem tem próstata aumentada costuma levantar várias vezes à noite e sair do banheiro com a impressão de que ficou urina para trás. Quando isso se transforma em nenhuma urina, o problema deixou de ser incômodo e passou a ser emergência.',
+        ],
+      },
+      {
+        id: 'por-que-acontece-de-repente',
+        heading: 'Por que acontece de repente',
+        paragraphs: [
+          'A obstrução se forma aos poucos, mas o fechamento total pode ser desencadeado por fatores pontuais. Uma noite de bebedeira, o uso de remédios para resfriado e alergia com ação anticolinérgica, o frio intenso e o hábito de segurar a urina por muito tempo aparecem entre os gatilhos mais comuns.',
+          'Alguns medicamentos merecem atenção especial. Descongestionantes, anti-histamínicos e certos remédios para bexiga hiperativa podem reduzir a força da musculatura da bexiga e precipitar a retenção em quem já tem dificuldade para esvaziar. Por isso vale perguntar ao farmacêutico antes de usar qualquer produto sem receita.',
+          'Cirurgias recentes, internações, imobilidade e infecções urinárias também funcionam como gatilho. Em homens que já convivem com jato fraco, esses episódios costumam ser o empurrão que faltava para a bexiga parar de esvaziar, e é comum a retenção ser o primeiro motivo que leva o paciente ao serviço de saúde.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-na-hora',
+        heading: 'O que fazer na hora',
+        paragraphs: [
+          'Não conseguir urinar com dor no baixo ventre exige atendimento imediato. A orientação é procurar um pronto atendimento ou hospital, onde a bexiga será esvaziada com uma sonda. Não existe medida caseira que resolva, e esperar piorar aumenta o risco de infecção e de lesão renal.',
+          'A passagem da sonda traz alívio rápido e é feita por profissional de saúde. Em alguns casos, a drenagem precisa ser feita de forma gradual, para evitar sangramento e queda brusca de pressão. O procedimento é desconfortável, mas costuma resolver a dor em minutos.',
+          'Beber mais água para forçar a urina é um erro comum. Com a bexiga já cheia e a via obstruída, aumentar o volume só piora a distensão e a dor. O mesmo vale para comprimidos usados por conta própria na tentativa de relaxar a musculatura, que podem agravar o quadro.',
+        ],
+        cta: {
+          label: 'Entenda a próstata aumentada e seus sinais de alerta',
+          href: '/doencas/hiperplasia-prostatica-benigna/',
+        },
+      },
+      {
+        id: 'depois-da-sonda',
+        heading: 'Depois que a sonda resolve',
+        paragraphs: [
+          'Com a bexiga vazia, começa a investigação. O urologista avalia o histórico de sintomas, o tamanho da próstata, o resíduo de urina e a função dos rins, e decide se o caso pode ser tratado com medicamento ou se já existe indicação cirúrgica. A sonda pode ficar por alguns dias enquanto essa avaliação acontece.',
+          'O exame de urina afasta infecção, e o exame de sangue mostra como estão os rins. A ultrassonografia mede o volume prostático, verifica o resíduo depois da micção e mostra se os rins estão dilatados. Em alguns serviços, a sonda é retirada com um teste de esvaziamento, para saber se o paciente consegue urinar sozinho.',
+          'Esse momento é uma oportunidade de tratar o que vinha sendo adiado. Muitos homens chegam à retenção depois de anos convivendo com jato fraco e idas noturnas ao banheiro, e a internação acaba sendo o primeiro contato com o urologista. Sair do hospital com um plano definido evita que o episódio se repita.',
+        ],
+      },
+      {
+        id: 'retencao-de-repeticao',
+        heading: 'Quando a retenção se repete',
+        paragraphs: [
+          'Retenção urinária de repetição é uma das indicações de cirurgia. Quando o paciente precisa de sonda mais de uma vez, ou quando não consegue ficar sem ela, a obstrução já não responde ao tratamento clínico e a desobstrução definitiva passa a ser o caminho mais seguro.',
+          'Outras situações também pesam na decisão. Infecções urinárias frequentes, cálculos na bexiga, sangramento persistente e comprometimento dos rins entram na lista de indicações. O objetivo da cirurgia é remover o tecido que aperta a uretra e devolver o esvaziamento, evitando que a bexiga e os rins sigam sendo prejudicados.',
+          'A escolha da técnica depende do tamanho da próstata, das condições clínicas e do que o serviço oferece. Próstatas de tamanho moderado costumam ser tratadas por via endoscópica, sem corte na barriga, enquanto glândulas muito grandes podem exigir cirurgia aberta ou enucleação. A conversa sobre qual caminho seguir deve acontecer com o urologista, e não no meio de uma crise.',
+        ],
+      },
+      {
+        id: 'como-reduzir-o-risco',
+        heading: 'Como reduzir o risco de um novo episódio',
+        paragraphs: [
+          'Tratar a próstata aumentada de forma regular é a medida que mais protege. Quem usa medicamento precisa mantê-lo, e quem foi operado deve ir às revisões. Abandonar o tratamento quando os sintomas melhoram é o caminho mais curto para uma nova retenção.',
+          'Alguns hábitos ajudam. Reduzir café, chá preto e álcool diminui a urgência, e beber menos líquido à noite reduz as idas ao banheiro. Segurar a urina por muito tempo piora a bexiga, e o frio intenso pode desencadear o quadro em quem já tem obstrução.',
+          'Vale também revisar a lista de remédios com o médico, levando as caixas ou a receita antiga, porque muita gente esquece o nome do que usa há anos. Anti-histamínicos, descongestionantes e alguns medicamentos para bexiga hiperativa podem piorar o esvaziamento, e a substituição por alternativas mais seguras costuma ser simples quando o problema é identificado antes da crise.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['hiperplasia-prostatica-benigna'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'hiperplasia-prostatica-benigna-cirurgia-rtu',
+      'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia',
+      'hiperplasia-prostatica-benigna-tem-cura',
+      'hiperplasia-prostatica-benigna-nodulo-e-calcificacao',
+    ],
+    references: [
+      {
+        label: 'Saúde do Homem',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-do-homem',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiperplasia-prostatica-benigna-cirurgia-rtu',
+    slug: 'hiperplasia-prostatica-benigna-cirurgia-rtu',
+    title: 'RTU de próstata: como é a cirurgia e o que esperar depois',
+    excerpt:
+      'A ressecção transuretral é o padrão para próstatas de tamanho moderado. O aparelho entra pela uretra, sem corte na barriga, e a recuperação costuma ser curta.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-a-cirurgia-e-indicada',
+        heading: 'Quando a cirurgia é indicada',
+        paragraphs: [
+          'A cirurgia não é o primeiro passo do tratamento. Ela entra quando o medicamento não controla os sintomas, quando há retenção urinária de repetição, infecções frequentes, cálculos na bexiga, sangramento persistente ou comprometimento dos rins. Nesses casos, esperar mais tempo costuma custar função da bexiga e dos rins.',
+          'Também existe a indicação por qualidade de vida. Um homem com jato muito fraco, que precisa levantar várias vezes por noite e evita sair de casa por medo do banheiro, tem motivo legítimo para operar mesmo sem complicação grave. A decisão é compartilhada, e depende do incômodo tanto quanto dos exames.',
+          'A escolha da técnica considera o tamanho da próstata, as condições clínicas e a experiência do serviço, e vale perguntar ao urologista por que aquela opção foi indicada para o seu caso. Próstatas de tamanho moderado costumam ser tratadas por via endoscópica, e glândulas muito grandes podem exigir cirurgia aberta ou enucleação, que remove o tecido de forma mais completa.',
+        ],
+      },
+      {
+        id: 'como-e-feita',
+        heading: 'Como é feita a ressecção transuretral',
+        paragraphs: [
+          'A ressecção transuretral é o padrão de referência. O aparelho entra pela uretra, sem corte na barriga, e retira o tecido que obstrui a passagem da urina. O procedimento é feito com anestesia, em ambiente hospitalar, e a internação costuma ser curta.',
+          'Durante a cirurgia, o urologista remove o tecido por dentro do canal e deixa a uretra livre. Não há uma incisão externa, e por isso a recuperação é relativamente rápida em comparação com a cirurgia aberta. Uma sonda fica no local por um período curto, para drenar a urina e permitir a cicatrização, e costuma ser retirada ainda no hospital ou na primeira semana em casa.',
+          'O material retirado é enviado para análise, o que acrescenta uma informação importante. Mesmo em quem tem diagnóstico de hiperplasia benigna, o exame do tecido afasta a presença de tumor que não havia sido detectada nos exames de imagem ou no toque.',
+        ],
+      },
+      {
+        id: 'recuperacao',
+        heading: 'A recuperação',
+        paragraphs: [
+          'Nas primeiras semanas, é comum urinar com frequência, sentir ardor e ver sangue na urina. Esses sinais costumam diminuir com o tempo, e a orientação é beber água ao longo do dia para ajudar na limpeza do canal. Esforço físico intenso, carregar peso e relações sexuais costumam ser evitados por um período definido pela equipe.',
+          'A primeira revisão costuma acontecer cerca de um mês depois da cirurgia, com nova avaliação em três meses, e é nela que se compara o jato antes e depois do procedimento. Nesse intervalo, o jato tende a melhorar e as idas noturnas ao banheiro diminuem. A melhora nem sempre é imediata, e alguma irritação nos primeiros dias não significa que a cirurgia falhou.',
+          'Sinais de alerta precisam de avaliação rápida. Febre, dor intensa, incapacidade de urinar, sangramento com coágulos que não para e perda de urina sem controle são motivos para procurar atendimento, e não para esperar a consulta marcada.',
+        ],
+        cta: {
+          label: 'Veja quando a próstata aumentada precisa de cirurgia',
+          href: '/doencas/hiperplasia-prostatica-benigna/',
+        },
+      },
+      {
+        id: 'efeitos-possiveis',
+        heading: 'Efeitos possíveis',
+        paragraphs: [
+          'A ejaculação retrógrada é o efeito mais frequente. Depois da cirurgia, o sêmen passa a ir para a bexiga em vez de sair pela uretra, e a ejaculação fica seca. Isso não altera a sensação do orgasmo nem a capacidade de ter ereção, e não é sinal de que algo deu errado, mas costuma surpreender quem não foi avisado antes.',
+          'Estreitamento da uretra e perda de urina podem ocorrer em uma minoria dos casos. O estreitamento se manifesta por jato que volta a ficar fino meses depois da cirurgia, e tem tratamento. A perda de urina costuma ser temporária e melhora com exercícios para o assoalho pélvico, mas merece avaliação quando persiste.',
+          'Complicações mais graves são raras e incluem sangramento importante e absorção de líquido durante o procedimento. O risco é maior em próstatas muito grandes, em cirurgias longas e em pacientes com outras doenças, e é parte do que a equipe avalia antes de indicar a operação.',
+        ],
+      },
+      {
+        id: 'outras-tecnicas',
+        heading: 'Outras técnicas',
+        paragraphs: [
+          'Próstatas muito grandes podem exigir cirurgia aberta ou enucleação endoscópica, que remove o tecido de forma mais completa. A cirurgia aberta fica reservada para glândulas de grande volume ou para casos com cálculos na bexiga, e tem recuperação mais longa.',
+          'As técnicas a laser são alternativa para quem tem risco cirúrgico elevado, porque sangram menos. A enucleação a laser remove o tecido de maneira semelhante à cirurgia aberta, com a vantagem de não exigir corte. A incisão transuretral, por sua vez, é usada em glândulas pequenas e em pacientes frágeis.',
+          'Existem ainda opções menos invasivas, como a termoterapia por radiofrequência e micro-ondas, o stent de uretra e os implantes que afastam os lobos da próstata. Elas reduzem tempo de internação e preservam melhor a ejaculação, mas têm resultado inferior ao da ressecção e indicação restrita, e nem toda a rede oferece.',
+        ],
+      },
+      {
+        id: 'depois-da-alta',
+        heading: 'Depois da alta',
+        paragraphs: [
+          'O acompanhamento continua. Quem operou costuma ser reavaliado em um mês e depois em três, e a partir daí conforme a evolução. Nessas consultas, o urologista verifica o jato, o resíduo de urina e a cicatrização, e ajusta orientações conforme o caso.',
+          'Hábitos que ajudam antes da cirurgia continuam valendo depois. Reduzir café, chá preto e álcool diminui a urgência, beber menos à noite reduz as idas ao banheiro e não segurar a urina protege a bexiga. Exercícios para o assoalho pélvico ajudam no controle urinário, sobretudo se houve perda de urina.',
+          'Vale lembrar que a cirurgia trata a obstrução, não o envelhecimento da bexiga. Parte dos homens continua com urgência e frequência depois do procedimento, porque a musculatura vesical já estava alterada. Nesses casos, o tratamento medicamentoso pode ser retomado, e a conversa sobre expectativa deve começar antes da operação.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['hiperplasia-prostatica-benigna'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'hiperplasia-prostatica-benigna-quando-a-urina-nao-sai',
+      'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia',
+      'hiperplasia-prostatica-benigna-tem-cura',
+      'hiperplasia-prostatica-benigna-nodulo-e-calcificacao',
+    ],
+    references: [
+      {
+        label: 'Saúde do Homem',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-do-homem',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia',
+    slug: 'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia',
+    title: 'Vida sexual depois da cirurgia da próstata',
+    excerpt:
+      'A dúvida aparece antes da operação e quase nunca é respondida com clareza. O efeito mais frequente tem nome, e saber o que esperar evita sustos.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-efeito-mais-frequente',
+        heading: 'O efeito mais frequente',
+        paragraphs: [
+          'A ejaculação retrógrada é o efeito sexual mais comum da cirurgia de próstata. Depois do procedimento, o sêmen deixa de sair pela uretra e passa a ir para a bexiga, e a ejaculação fica seca. É o efeito que aparece com mais consistência, e é sobre ele que a conversa antes da operação precisa começar.',
+          'Muita gente confunde ejaculação com orgasmo. São coisas diferentes. A sensação do orgasmo costuma permanecer, e o que muda é o trajeto do líquido seminal, que é eliminado depois junto com a urina. Quem não recebe essa informação tende a interpretar a ejaculação seca como sinal de que algo deu errado.',
+          'A ressecção transuretral, padrão para próstatas de tamanho moderado, é justamente a técnica em que esse efeito é esperado. Isso não é falha do cirurgião nem complicação, e sim consequência previsível de retirar o tecido que fica ao redor da uretra. Saber disso antes muda a experiência de depois.',
+        ],
+      },
+      {
+        id: 'ejaculacao-seca-e-fertilidade',
+        heading: 'Ejaculação seca e o desejo de ter filhos',
+        paragraphs: [
+          'Para quem ainda pretende ter filhos, a conversa precisa acontecer antes da cirurgia. Se o sêmen deixa de sair pela uretra, a concepção natural fica comprometida, e o casal precisa ser informado disso com antecedência para decidir o momento da operação e discutir alternativas com a equipe.',
+          'Não é um assunto que se resolve depois. Quem adia a conversa por vergonha costuma descobrir o problema no primeiro mês pós-operatório, quando as opções já são outras. Levar a questão para a consulta pré-operatória é parte do planejamento, e não um detalhe constrangedor a ser evitado, mesmo quando a conversa acontece na frente de outras pessoas na sala de espera.',
+          'O mesmo vale para quem não tem parceiro fixo no momento. A vida muda, e a informação precisa estar disponível antes da decisão, não depois dela. Perguntar ao urologista como cada técnica afeta a ejaculação é legítimo e deveria ser rotina.',
+        ],
+      },
+      {
+        id: 'a-erecao-e-outros-fatores',
+        heading: 'A ereção e os outros fatores',
+        paragraphs: [
+          'A ereção depende de circulação, hormônios, sono, medicamentos e do estado geral de saúde, e todos esses fatores continuam pesando depois da cirurgia. Diabetes, pressão alta, tabagismo e sedentarismo afetam a função erétil ao longo dos anos, e a próstata é apenas uma parte desse cenário.',
+          'Quando aparece dificuldade para manter a ereção depois do procedimento, a avaliação precisa ser mais ampla do que a cirurgia. Vale revisar remédios em uso, controlar doenças crônicas, olhar o sono e o estresse, e conversar com o urologista sobre o que pode ser feito. Tratar isso como consequência inevitável da idade é o que mais atrasa a busca por ajuda.',
+          'O estreitamento da uretra e a perda de urina, que aparecem em uma minoria dos casos, também interferem na vida sexual, ainda que de forma indireta. Jato fino que volta meses depois da cirurgia e perda de urina ao esforço têm tratamento, e reconhecer o problema cedo melhora o resultado.',
+        ],
+        cta: {
+          label: 'Conheça as técnicas cirúrgicas e seus efeitos',
+          href: '/doencas/hiperplasia-prostatica-benigna/',
+        },
+      },
+      {
+        id: 'os-remedios-tambem-mexem',
+        heading: 'Os remédios também mexem',
+        paragraphs: [
+          'Antes de chegar à cirurgia, muitos homens passam anos usando medicamentos, e alguns deles têm efeitos sobre a sexualidade. Os inibidores da 5-alfa-redutase, como finasterida e dutasterida, reduzem o volume da próstata ao longo de meses e podem afetar o desejo sexual e a ejaculação.',
+          'Esses remédios funcionam melhor em glândulas muito aumentadas e podem diminuir o risco de retenção e de cirurgia. O efeito sobre a próstata é lento, e o efeito sobre a sexualidade varia de pessoa para pessoa, o que torna a conversa sobre expectativa mais importante do que a leitura da bula isolada.',
+          'Já os bloqueadores alfa, usados para relaxar a musculatura da uretra e do colo da bexiga, costumam causar tontura e queda de pressão ao levantar, sobretudo na primeira dose. Ajustar o horário da tomada e levantar devagar resolve boa parte dos casos, e vale relatar ao médico qualquer efeito que atrapalhe a rotina.',
+        ],
+      },
+      {
+        id: 'a-escolha-da-tecnica',
+        heading: 'A escolha da técnica pode preservar a ejaculação',
+        paragraphs: [
+          'Existem técnicas que preservam melhor a ejaculação. Os implantes que afastam os lobos da próstata sem retirar tecido e alguns tratamentos por vapor de água foram desenvolvidos com esse objetivo, e reduzem o tempo de internação. A indicação, porém, é restrita, e nem toda a rede oferece esses procedimentos.',
+          'O mesmo raciocínio vale para a comparação entre as cirurgias clássicas. A conversa sobre qual técnica faz sentido deve considerar o tamanho da próstata, o risco cirúrgico, o desejo de preservar a ejaculação e a disponibilidade no serviço. Não existe uma escolha certa para todos, e sim a escolha certa para cada caso.',
+          'A diferença entre as técnicas não é pequena para quem se importa com esse ponto, e o momento de decidir é antes da internação. Perguntar diretamente é o caminho. Quem valoriza a ejaculação deve dizer isso ao urologista antes de a operação ser marcada, porque a técnica costuma ser definida antes da sala cirúrgica, e mudar de plano na véspera raramente é possível.',
+        ],
+      },
+      {
+        id: 'quando-procurar-ajuda',
+        heading: 'Quando procurar ajuda',
+        paragraphs: [
+          'Vale procurar o urologista quando a ejaculação seca causa sofrimento, quando aparece dificuldade para manter a ereção, quando a perda de urina interfere na vida sexual ou quando o jato volta a ficar fino meses depois da cirurgia. Nenhuma dessas queixas deve ser tratada como parte normal e definitiva do envelhecimento.',
+          'O diálogo com a parceira ou o parceiro também pesa. Muita gente evita o assunto por medo da reação, e o silêncio costuma criar mais ansiedade do que a conversa. Explicar o que muda e o que não muda ajuda a reconstruir a intimidade depois do procedimento.',
+          'Se houver dúvida sobre o que esperar, perguntar antes da cirurgia é sempre melhor. As respostas variam conforme a técnica, o tamanho da próstata e a saúde geral, e é justamente essa combinação que o especialista avalia ao indicar o tratamento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['hiperplasia-prostatica-benigna'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'hiperplasia-prostatica-benigna-quando-a-urina-nao-sai',
+      'hiperplasia-prostatica-benigna-cirurgia-rtu',
+      'hiperplasia-prostatica-benigna-tem-cura',
+      'hiperplasia-prostatica-benigna-nodulo-e-calcificacao',
+    ],
+    references: [
+      {
+        label: 'Saúde do Homem',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-do-homem',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiperplasia-prostatica-benigna-tem-cura',
+    slug: 'hiperplasia-prostatica-benigna-tem-cura',
+    title: 'HPB tem cura? O que esperar em cinco e dez anos',
+    excerpt:
+      'A próstata aumentada não volta ao tamanho de antes, e a palavra cura não se aplica bem ao caso. O que dá para medir é o controle dos sintomas ao longo dos anos.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'nao-e-cancer-e-nao-passa-sozinha',
+        heading: 'Não é câncer, e não passa sozinha',
+        paragraphs: [
+          'A primeira coisa a esclarecer é o que a hiperplasia prostática benigna não é. Ela não é câncer, não se espalha para outros órgãos e não encurta a vida por si só. A palavra benigna existe para separar esse crescimento do tumor maligno, e essa distinção é o ponto de partida de qualquer conversa sobre prognóstico.',
+          'A segunda é que ela não regride sozinha. O tecido cresce por estímulo hormonal ao longo de décadas, e não há hábito, chá ou suplemento capaz de fazer a glândula voltar ao tamanho anterior. O que existe é controle: reduzir o incômodo, proteger a bexiga e evitar complicações.',
+          'Por isso a pergunta sobre cura costuma ser respondida de outra forma. Não se trata de eliminar a condição para sempre, e sim de mantê-la sob controle por anos, com acompanhamento e ajustes conforme ela evolui. É uma doença crônica de manejo, não um episódio que se encerra.',
+        ],
+      },
+      {
+        id: 'o-que-o-tratamento-faz',
+        heading: 'O que o tratamento faz',
+        paragraphs: [
+          'O tratamento tem três frentes. A primeira é aliviar os sintomas que mais incomodam, como a necessidade de levantar à noite e a sensação de esvaziamento incompleto. A segunda é proteger a bexiga e os rins do desgaste causado pela obstrução prolongada. A terceira é evitar a retenção urinária e as infecções de repetição.',
+          'Os bloqueadores alfa relaxam a musculatura da uretra e do colo da bexiga, e o alívio costuma aparecer em poucos dias. Os inibidores da 5-alfa-redutase reduzem o volume da próstata ao longo de meses, funcionam melhor em glândulas muito aumentadas e podem diminuir o risco de retenção e de cirurgia, mas levam tempo para agir.',
+          'A cirurgia entra quando o medicamento não controla os sintomas ou quando surgem complicações. Ela remove o tecido que obstrui e costuma trazer melhora duradoura do jato, mas não impede que a bexiga continue envelhecendo. Em parte dos homens, urgência e frequência permanecem e voltam a exigir tratamento.',
+        ],
+      },
+      {
+        id: 'quem-observa-e-quem-trata',
+        heading: 'Quem observa e quem trata',
+        paragraphs: [
+          'Nem todo diagnóstico vira tratamento. Nos sintomas leves, que não atrapalham o sono nem as atividades, a conduta pode ser apenas acompanhar, com reavaliação uma vez por ano. Esse acompanhamento inclui entender como a doença evolui, ajustar hábitos e revisar remédios que pioram a micção.',
+          'A decisão de tratar depende do incômodo, do fluxo urinário, do resíduo de urina e da função dos rins. Um homem com próstata grande e poucos sintomas pode seguir observando, enquanto outro com glândula pouco aumentada e queixa importante precisa de tratamento. O tamanho da próstata não acompanha a intensidade dos sintomas.',
+          'Vale registrar a própria evolução. Quantas vezes acorda à noite, quantas vezes urina por dia, se o jato está mais fraco do que há um ano. Essas informações, que parecem pequenas, mostram ao médico se a condição está estável ou progredindo, e ajudam a decidir o momento de mudar a estratégia.',
+        ],
+        cta: {
+          label: 'Veja como a HPB é avaliada e tratada',
+          href: '/doencas/hiperplasia-prostatica-benigna/',
+        },
+      },
+      {
+        id: 'o-que-muda-com-o-tempo',
+        heading: 'O que muda com o tempo',
+        paragraphs: [
+          'A história natural da doença é de progressão lenta. O crescimento começa por volta dos 40 anos e costuma dar sintomas a partir dos 50, e a proporção de homens afetados sobe com a idade, chegando à maioria acima dos 80 anos. Quem tem sintomas leves aos 55 pode continuar assim por muito tempo, ou evoluir em poucos anos.',
+          'Com o passar do tempo, a bexiga perde elasticidade e passa a esvaziar pior. O intervalo entre as idas ao banheiro encurta, o resíduo de urina aumenta e o risco de infecção e de cálculo na bexiga cresce. É esse desgaste, e não o tamanho da próstata, que costuma definir a necessidade de intervir.',
+          'Em uma minoria, a pressão dentro da bexiga reflui para os ureteres e dilata os rins, levando à hidronefrose e à perda de função renal. Essa é a complicação que justifica tratar mesmo quem tem pouco incômodo, e é o motivo pelo qual exames de imagem e de função renal entram na avaliação.',
+        ],
+      },
+      {
+        id: 'sinais-de-que-piorou',
+        heading: 'Sinais de que piorou',
+        paragraphs: [
+          'Alguns sinais indicam que a condição saiu do controle. Não conseguir urinar, ter febre com urina turva, apresentar sangue na urina com coágulos, perder urina sem controle ou notar redução importante do volume urinário com inchaço nas pernas são motivos para procurar atendimento sem esperar a próxima consulta.',
+          'Outros sinais são menos urgentes, mas igualmente importantes. Acordar mais vezes à noite do que há seis meses, sentir que a bexiga não esvazia, precisar fazer força com a barriga para urinar e perceber o jato mais fino são indicativos de progressão. Anotar essas mudanças ajuda na consulta.',
+          'Infecções urinárias de repetição merecem atenção especial. Elas podem ser consequência da urina que sobra na bexiga, e tratá-las apenas com antibiótico, sem investigar a causa, costuma levar a novas infecções em poucos meses.',
+        ],
+      },
+      {
+        id: 'acompanhamento-a-longa-data',
+        heading: 'Acompanhamento a longa data',
+        paragraphs: [
+          'Quem apenas observa costuma ser reavaliado em seis meses e, depois, uma vez por ano. Quem inicia medicamento retorna no primeiro mês e, em seguida, a cada três ou seis meses. Depois da cirurgia, a primeira revisão é em um mês, com nova avaliação em três meses.',
+          'Nessas consultas, o urologista repete o questionário de sintomas, examina o abdome e avalia o jato. Exames de urina e de função renal são pedidos conforme o caso, e a ultrassonografia pode ser repetida para acompanhar o resíduo e o tamanho da próstata. O PSA entra quando há suspeita de câncer ou quando o exame físico levanta dúvida.',
+          'O acompanhamento é o que transforma uma doença crônica em algo manejável. Quem comparece às revisões, mantém o tratamento e relata cada mudança costuma atravessar décadas sem retenção urinária e sem lesão renal, que são justamente os desfechos que se quer evitar.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['hiperplasia-prostatica-benigna'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'hiperplasia-prostatica-benigna-quando-a-urina-nao-sai',
+      'hiperplasia-prostatica-benigna-cirurgia-rtu',
+      'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia',
+      'hiperplasia-prostatica-benigna-nodulo-e-calcificacao',
+    ],
+    references: [
+      {
+        label: 'Saúde do Homem',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-do-homem',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hiperplasia-prostatica-benigna-nodulo-e-calcificacao',
+    slug: 'hiperplasia-prostatica-benigna-nodulo-e-calcificacao',
+    title: 'Nódulo e calcificação na próstata: o que o exame mostra',
+    excerpt:
+      'Um laudo com essas duas palavras assusta, e a leitura raramente vem explicada. Separar o que é achado comum do que pede investigação muda o próximo passo.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-um-nodulo',
+        heading: 'O que é um nódulo',
+        paragraphs: [
+          'Nódulo é o nome que o exame dá a uma área que se destaca do restante do tecido. Ele descreve uma aparência, não uma doença, e pode aparecer em próstatas aumentadas por hiperplasia benigna, em processos inflamatórios e em tumores. O laudo aponta onde está, qual o tamanho e como se comporta, e é o conjunto dessas informações que orienta a conduta.',
+          'O toque retal informa tamanho, consistência e presença de nódulos. Ele não mede o volume com precisão, mas é essencial para diferenciar a hiperplasia do câncer, porque um nódulo endurecido e irregular ao toque levanta uma suspeita diferente de uma glândula aumentada e uniforme.',
+          'É importante não transformar o achado em diagnóstico antes da hora. Muita gente sai do exame convencida de que tem câncer por causa da palavra nódulo, quando o que existe é uma área que precisa ser interpretada junto com o PSA, o toque e o histórico. A conversa com o urologista é o que fecha essa leitura.',
+        ],
+      },
+      {
+        id: 'calcificacao-nao-e-cancer',
+        heading: 'Calcificação não é câncer',
+        paragraphs: [
+          'Calcificação descreve depósitos de cálcio identificados na imagem. É um achado frequente em glândulas que vêm sendo estimuladas por anos, e costuma aparecer em exames feitos por outros motivos, sem relação com tumor. Na maior parte das vezes, é apenas uma marca do tecido e não muda a conduta.',
+          'O que a calcificação indica é que houve, em algum momento, inflamação ou depósito mineral naquele ponto. Ela não prediz câncer, não mede gravidade e não explica sozinha os sintomas urinários. Quem tem jato fraco e noctúria não tem esses sintomas por causa da calcificação, e sim pela obstrução causada pelo aumento da glândula.',
+          'Confundir os dois achados leva a decisões erradas. Existe quem peça exames repetidos por causa de uma calcificação isolada, e existe quem ignore um nódulo endurecido por acreditar que tudo se resume a cálcio. O laudo precisa ser lido inteiro, e não por palavras soltas.',
+        ],
+      },
+      {
+        id: 'psa-e-toque-retal',
+        heading: 'PSA e toque retal',
+        paragraphs: [
+          'O PSA é uma proteína produzida pela próstata, e sua dosagem entra quando há suspeita de câncer ou quando o exame físico levanta dúvida. Ele sobe com o aumento benigno, com inflamação e com infecção, e por isso não serve como teste isolado. Um valor alto não é diagnóstico, e um valor normal não exclui problema.',
+          'O Ministério da Saúde não recomenda rastreamento de câncer de próstata em homens sem sintomas, porque os benefícios e os riscos precisam ser discutidos caso a caso. Isso significa que o exame não deve ser pedido de rotina sem conversa, e que a decisão de investigar precisa considerar idade, histórico familiar e expectativa do paciente.',
+          'Quando o toque encontra um nódulo endurecido e o PSA está muito elevado, a investigação avança. Quando o toque é uniforme e o PSA está pouco alterado, o caminho costuma ser repetir a dosagem e acompanhar, porque muitas variações são transitórias e não indicam tumor.',
+        ],
+        cta: {
+          label: 'Veja como a próstata aumentada é investigada',
+          href: '/doencas/hiperplasia-prostatica-benigna/',
+        },
+      },
+      {
+        id: 'o-que-a-ultrassom-mostra',
+        heading: 'O que a ultrassonografia mostra',
+        paragraphs: [
+          'A ultrassonografia mostra o tamanho da próstata, o resíduo de urina depois da micção e se os rins estão dilatados. A via abdominal exige bexiga cheia, e a via transretal mede o volume com mais precisão, além de permitir ver melhor a região onde ficam os nódulos.',
+          'O exame também ajuda a planejar o tratamento. O volume da glândula influencia a escolha entre medicamento e cirurgia e ajuda a definir qual técnica cirúrgica faz sentido. O resíduo de urina, por sua vez, mostra se a bexiga está esvaziando mal, o que muda a urgência da conduta.',
+          'Nenhuma dessas informações fecha diagnóstico sozinha. A imagem descreve, e o urologista interpreta junto com a história, o toque e os exames de sangue. É por isso que repetir o exame em outro serviço, sem levar os anteriores, costuma gerar mais confusão do que esclarecimento.',
+        ],
+      },
+      {
+        id: 'quando-a-biopsia-e-necessaria',
+        heading: 'Quando a biópsia é necessária',
+        paragraphs: [
+          'A biópsia é indicada quando a suspeita de câncer é real, e não por causa de qualquer nódulo. PSA muito elevado e nódulo endurecido ao toque pedem biópsia, porque é ela que confirma ou afasta o tumor. A decisão é sempre do urologista, com base no conjunto de exames.',
+          'O procedimento coleta fragmentos da próstata por via transretal ou perineal, com anestesia local ou sedação. Não é isento de riscos, e os mais comuns incluem sangramento na urina e no sêmen por alguns dias e infecção, que pode ser grave. Por isso a indicação precisa ser bem fundamentada.',
+          'Quando o resultado é negativo, o assunto pode não terminar ali. Em situações de suspeita persistente, o médico pode repetir a biópsia ou lançar mão de outros exames. Quando é positivo, o caso passa a ser conduzido como câncer de próstata, com estadiamento e discussão de tratamento.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-com-o-resultado',
+        heading: 'O que fazer com o resultado',
+        paragraphs: [
+          'A primeira providência é levar o laudo completo à consulta, e não apenas a conclusão. Tamanho, localização e descrição do nódulo, valor do PSA e data dos exames permitem ao urologista reconstruir o raciocínio e decidir se algo mais precisa ser feito.',
+          'A segunda é perguntar o que o achado muda na conduta. Muitas vezes a resposta é nada, e o acompanhamento segue igual. Outras vezes, o achado antecipa uma investigação que já estava indicada. Saber qual é o caso evita tanto o excesso de exames quanto a negligência. Perguntar isso em voz alta na consulta costuma render uma resposta objetiva e curta.',
+          'A terceira é não tratar sintomas urinários como consequência do nódulo sem confirmação. Jato fraco, urgência e noctúria costumam vir do aumento da próstata, e têm tratamento próprio. Misturar as duas coisas leva a esperar pela investigação do nódulo enquanto o incômodo urinário segue sem cuidado.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['hiperplasia-prostatica-benigna'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'hiperplasia-prostatica-benigna-quando-a-urina-nao-sai',
+      'hiperplasia-prostatica-benigna-cirurgia-rtu',
+      'hiperplasia-prostatica-benigna-vida-sexual-apos-cirurgia',
+      'hiperplasia-prostatica-benigna-tem-cura',
+    ],
+    references: [
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Saúde do Homem',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-do-homem',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-28',
+    updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
 ];

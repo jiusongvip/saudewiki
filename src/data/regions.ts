@@ -44,6 +44,8 @@ export const regions: BodyRegion[] = [
       'cisticercose',
       'raiva',
       'sifilis',
+      'toxoplasmose',
+      'doenca-de-alzheimer',
     ],
     globalOverview: [
       'No mundo, o AVC é uma das principais causas de morte e de incapacidade permanente, e a enxaqueca e outras cefaleias estão entre as causas mais frequentes de anos vividos com limitação. Epilepsia, demências e neuropatias completam o grupo das doenças neurológicas mais comuns.',
@@ -75,6 +77,9 @@ export const regions: BodyRegion[] = [
       'cisticercose',
       'leptospirose',
       'gonorreia',
+      'toxoplasmose',
+      'clamidia',
+      'hipertireoidismo',
     ],
     globalOverview: [
       'No mundo, a catarata continua sendo a maior causa de cegueira evitável, e o glaucoma, a principal causa de cegueira irreversível: a perda de visão ocorre sem dor e sem aviso, por isso o exame periódico é parte do cuidado.',
@@ -134,6 +139,8 @@ export const regions: BodyRegion[] = [
       'ascaridiase',
       'hidatidose',
       'covid-19',
+      'cancer-de-pulmao',
+      'trombose-venosa-profunda',
     ],
     globalOverview: [
       'No mundo, as infecções respiratórias baixas, como a pneumonia, estão entre as principais causas de morte, e a asma atinge centenas de milhões de pessoas, a maioria sem diagnóstico formal.',
@@ -160,6 +167,8 @@ export const regions: BodyRegion[] = [
       'fibrilacao-atrial',
       'obesidade',
       'sifilis',
+      'hipertireoidismo',
+      'trombose-venosa-profunda',
     ],
     globalOverview: [
       'As doenças cardiovasculares são a principal causa de morte no mundo, e dentro delas o infarto e o AVC lideram. A hipertensão, presente em cerca de um em cada quatro adultos, é o maior fator de risco isolado e costuma ser silenciosa por anos.',
@@ -226,6 +235,8 @@ export const regions: BodyRegion[] = [
       'tricuriase',
       'oxiuriase',
       'doenca-do-refluxo-gastroesofagico',
+      'cancer-colorretal',
+      'cancer-de-estomago',
     ],
     globalOverview: [
       'No mundo todo, as infecções intestinais, virais e bacterianas, são a doença mais comum de todas: gastroenterites de curta duração atingem crianças e adultos em qualquer país, e a diarreia segue sendo uma das grandes causas de morte na infância onde o acesso a água tratada é limitado.',
@@ -251,6 +262,7 @@ export const regions: BodyRegion[] = [
       'colesterol-alto',
       'hipotireoidismo',
       'obesidade',
+      'hipertireoidismo',
     ],
     globalOverview: [
       'No mundo, centenas de milhões de pessoas vivem com diabetes, a imensa maioria do tipo 2, e a doença se tornou uma das principais causas de cegueira, diálise e amputação evitáveis.',
@@ -277,6 +289,9 @@ export const regions: BodyRegion[] = [
       'doenca-renal-cronica',
       'infeccao-urinaria',
       'leptospirose',
+      'calculo-renal',
+      'hiperplasia-prostatica-benigna',
+      'lupus-eritematoso-sistemico',
     ],
     globalOverview: [
       'No mundo, a doença renal crônica afeta centenas de milhões de pessoas e cresce junto com diabetes e hipertensão, suas duas principais causas. Ela fica silenciosa até fases avançadas: por isso quem tem essas duas condições faz exame de função renal de rotina.',
@@ -308,6 +323,8 @@ export const regions: BodyRegion[] = [
       'elefantiase',
       'cisticercose',
       'sifilis',
+      'hpv',
+      'lupus-eritematoso-sistemico',
     ],
     globalOverview: [
       'No mundo, o câncer de pele é o tipo de câncer mais diagnosticado, e a exposição ao sol sem proteção é o principal fator modificável. Dermatites, acne, micoses e escabiose estão entre as causas mais comuns de sofrimento cutâneo no dia a dia.',
@@ -338,6 +355,7 @@ export const regions: BodyRegion[] = [
       'espondilose-lombar',
       'gonorreia',
       'osteoporose',
+      'lupus-eritematoso-sistemico',
     ],
     globalOverview: [
       'No mundo, a dor lombar é a principal causa de anos vividos com incapacidade, e a artrose de joelho e quadril pesa sobretudo depois dos 50 anos, acompanhando o envelhecimento e a obesidade.',
@@ -363,6 +381,8 @@ export const regions: BodyRegion[] = [
       'anemia-ferropriva',
       'doenca-falciforme',
       'helmintiases',
+      'leucemia-linfoblastica-aguda',
+      'lupus-eritematoso-sistemico',
     ],
     globalOverview: [
       'No mundo, a anemia por falta de ferro é o distúrbio nutricional mais comum e atinge sobretudo crianças e mulheres. As hemoglobinopatias, como a doença falciforme, estão entre as doenças genéticas mais prevalentes, e as coagulopatias, como a hemofilia, exigem tratamento continuado.',
