@@ -397,6 +397,114 @@ export const diseaseImages: Record<string, SiteImage> = {
 };
 
 export const articleImages: Record<string, SiteImage> = {
+  'cancer-de-estomago-metaplasia-intestinal': {
+    src: '/img/artigo-cancer-de-estomago-metaplasia-intestinal.webp',
+    alt: 'Médica de jaleco explica um relatório de exames para uma paciente sentada à sua frente',
+  },
+  'cancer-de-estomago-cirurgia-tipos': {
+    src: '/img/artigo-cancer-de-estomago-cirurgia-tipos.webp',
+    alt: 'Equipe cirúrgica de touca e máscara em volta da mesa de cirurgia, com instrumentos organizados sobre o campo estéril',
+  },
+  'cancer-de-estomago-quimioterapia': {
+    src: '/img/artigo-cancer-de-estomago-quimioterapia.webp',
+    alt: 'Mãos com luvas introduzem um cateter venoso no braço de um paciente deitado',
+  },
+  'cancer-de-estomago-alimentacao': {
+    src: '/img/artigo-cancer-de-estomago-alimentacao.webp',
+    alt: 'Tigela de sopa com legumes, frango e macarrão, com garfo ao lado',
+  },
+  'cancer-de-estomago-prognostico': {
+    src: '/img/artigo-cancer-de-estomago-prognostico.webp',
+    alt: 'Médico de jaleco conversa com um paciente sentado na cadeira de um consultório',
+  },
+  'leucemia-linfoblastica-aguda-febre': {
+    src: '/img/artigo-leucemia-linfoblastica-aguda-febre.webp',
+    alt: 'Pessoa de máscara cirúrgica deitada no sofá segura um termômetro, com lenços de papel na mesinha ao lado',
+  },
+  'leucemia-linfoblastica-aguda-manutencao': {
+    src: '/img/artigo-leucemia-linfoblastica-aguda-manutencao.webp',
+    alt: 'Cartelas de comprimidos e cápsulas sobre uma superfície clara, algumas já vazias',
+  },
+  'cancer-de-mama-mamografia-de-rastreamento': {
+    src: '/img/artigo-cancer-de-mama-mamografia-de-rastreamento.webp',
+    alt: 'Mulher sentada na maca de uma sala de exame, com as mãos sobre as pernas, enquanto um profissional de jaleco branco segura uma prancheta ao fundo',
+  },
+  'cancer-de-mama-nodulo-na-mama-o-que-fazer': {
+    src: '/img/artigo-cancer-de-mama-nodulo-na-mama-o-que-fazer.webp',
+    alt: 'Mulher de suéter claro conversando com uma médica de jaleco branco e estetoscópio, que segura uma prancheta, sobre fundo rosa',
+  },
+  'cancer-de-mama-depois-da-cirurgia-o-braco': {
+    src: '/img/artigo-cancer-de-mama-depois-da-cirurgia-o-braco.webp',
+    alt: 'Fisioterapeuta de uniforme azul apoiando o braço cruzado de um homem de camiseta escura, em uma sala clara',
+  },
+  'cancer-de-mama-durante-a-quimioterapia': {
+    src: '/img/artigo-cancer-de-mama-durante-a-quimioterapia.webp',
+    alt: 'Detalhe de um braço coberto por manta de tricô, com cateter preso por fita azul e equipo de soro conectado',
+  },
+  'cancer-de-mama-na-familia-quando-investigar': {
+    src: '/img/artigo-cancer-de-mama-na-familia-quando-investigar.webp',
+    alt: 'Médico de jaleco e estetoscópio conversando com uma mulher e uma criança sentadas à mesa do consultório',
+  },
+  'cancer-de-prostata-psa-e-rastreamento': {
+    src: '/img/artigo-cancer-de-prostata-psa-e-rastreamento.webp',
+    alt: 'Mão com luva cirúrgica segurando dois tubos de coleta de sangue, sobre fundo bege',
+  },
+  'cancer-de-prostata-biopsia-como-e-feita': {
+    src: '/img/artigo-cancer-de-prostata-biopsia-como-e-feita.webp',
+    alt: 'Seringas estéreis embaladas individualmente, alinhadas sobre uma superfície azul clara',
+  },
+  'cancer-de-prostata-sintomas-urinarios': {
+    src: '/img/artigo-cancer-de-prostata-sintomas-urinarios.webp',
+    alt: 'Homem acordado na cama durante a madrugada, apoiado no travesseiro, ao lado de um despertador que marca 4h56',
+  },
+  'cancer-de-prostata-escolha-do-tratamento': {
+    src: '/img/artigo-cancer-de-prostata-escolha-do-tratamento.webp',
+    alt: 'Médica de jaleco segurando um tablet com imagens de exame e mostrando o resultado a um paciente de braços cruzados',
+  },
+  'cancer-de-prostata-risco-familiar': {
+    src: '/img/artigo-cancer-de-prostata-risco-familiar.webp',
+    alt: 'Três gerações de uma família, avô, pai e filho, cada um segurando uma moldura de madeira diante do rosto',
+  },
+  'cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer': {
+    src: '/img/artigo-cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer.webp',
+    alt: 'Duas pessoas segurando uma radiografia de tórax contra a luz, com uma médica ao fundo',
+  },
+  'cancer-de-pulmao-rastreamento-em-quem-fuma': {
+    src: '/img/artigo-cancer-de-pulmao-rastreamento-em-quem-fuma.webp',
+    alt: 'Sala de exame com tomógrafo, maca e armários, em ambiente claro e vazio',
+  },
+  'cancer-de-pulmao-cirurgia-e-dreno-de-torax': {
+    src: '/img/artigo-cancer-de-pulmao-cirurgia-e-dreno-de-torax.webp',
+    alt: 'Braço de paciente apoiado na cama hospitalar, com cateter venoso fixado por curativo transparente',
+  },
+  'cancer-de-pulmao-dor-nos-ossos-e-metastase': {
+    src: '/img/artigo-cancer-de-pulmao-dor-nos-ossos-e-metastase.webp',
+    alt: 'Homem de costas, com a mão pressionando a região lombar',
+  },
+  'cancer-de-pulmao-fumaca-de-segunda-mao': {
+    src: '/img/artigo-cancer-de-pulmao-fumaca-de-segunda-mao.webp',
+    alt: 'Homem fumando perto de uma janela, com a fumaça do cigarro se espalhando pelo ambiente',
+  },
+  'cancer-colorretal-sangue-nas-fezes': {
+    src: '/img/artigo-cancer-colorretal-sangue-nas-fezes.webp',
+    alt: 'Dois rolos de papel higiênico em um suporte de madeira, encostados na parede',
+  },
+  'cancer-colorretal-quando-fazer-colonoscopia': {
+    src: '/img/artigo-cancer-colorretal-quando-fazer-colonoscopia.webp',
+    alt: 'Paciente de avental hospitalar sentado na maca enquanto uma profissional de scrubs azuis ajusta o avental',
+  },
+  'cancer-colorretal-polipos-no-intestino': {
+    src: '/img/artigo-cancer-colorretal-polipos-no-intestino.webp',
+    alt: 'Modelos anatômicos de órgãos sobre uma mesa branca, ao lado de uma radiografia',
+  },
+  'cancer-colorretal-intestino-preso-e-alteracao-do-habito': {
+    src: '/img/artigo-cancer-colorretal-intestino-preso-e-alteracao-do-habito.webp',
+    alt: 'Pessoa deitada no sofá com as mãos sobre o abdome e as pernas recolhidas',
+  },
+  'cancer-colorretal-bolsa-de-colostomia': {
+    src: '/img/artigo-cancer-colorretal-bolsa-de-colostomia.webp',
+    alt: 'Profissional de scrubs azuis segurando a mão de uma paciente deitada na cama hospitalar',
+  },
   'gonorreia-como-prevenir': {
     src: '/img/artigo-gonorreia-como-prevenir.webp',
     alt: 'Mãos segurando uma cartela com preservativos sobre o colo',
@@ -1281,6 +1389,126 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-hiperplasia-prostatica-benigna-nodulo-e-calcificacao.webp',
     alt: 'Médico fazendo ultrassonografia em uma paciente deitada na maca, com o monitor ao lado',
   },
+  'toxoplasmose-na-gestacao-igm-positivo': {
+    src: '/img/artigo-toxoplasmose-na-gestacao-igm-positivo.webp',
+    alt: 'Médica de jaleco sentada ao lado de uma paciente na sala de exame, com aparelho de ultrassom ao fundo',
+  },
+  'toxoplasmose-como-evitar-na-gravidez': {
+    src: '/img/artigo-toxoplasmose-como-evitar-na-gravidez.webp',
+    alt: 'Mãos lavando um tomate sob a água corrente da torneira',
+  },
+  'toxoplasmose-congenita-no-bebe': {
+    src: '/img/artigo-toxoplasmose-congenita-no-bebe.webp',
+    alt: 'Profissional de jaleco branco segurando um recém-nascido no colo',
+  },
+  'toxoplasmose-dor-de-cabeca-quando-e-alerta': {
+    src: '/img/artigo-toxoplasmose-dor-de-cabeca-quando-e-alerta.webp',
+    alt: 'Mulher deitada no sofá com a mão na cabeça, com os olhos fechados',
+  },
+  'toxoplasmose-caixa-de-areia-e-gatos': {
+    src: '/img/artigo-toxoplasmose-caixa-de-areia-e-gatos.webp',
+    alt: 'Gato laranja e branco saindo da caixa de areia ao lado de um vaso de planta',
+  },
+  'clamidia-sintomas-e-por-que-passam-despercebidos': {
+    src: '/img/artigo-clamidia-sintomas-e-por-que-passam-despercebidos.webp',
+    alt: 'Mulher jovem sentada em uma cadeira azul na sala de exame de uma clínica',
+  },
+  'clamidia-dor-pelvica-doenca-inflamatoria-pelvica': {
+    src: '/img/artigo-clamidia-dor-pelvica-doenca-inflamatoria-pelvica.webp',
+    alt: 'Mulher deitada no sofá com as duas mãos pressionando o abdômen',
+  },
+  'clamidia-complicacoes-infertilidade-e-gravidez-tubaria': {
+    src: '/img/artigo-clamidia-complicacoes-infertilidade-e-gravidez-tubaria.webp',
+    alt: 'Médica de jaleco em pé ao lado de um aparelho de ultrassom, segurando uma prancheta',
+  },
+  'clamidia-no-homem-sintomas-e-complicacoes': {
+    src: '/img/artigo-clamidia-no-homem-sintomas-e-complicacoes.webp',
+    alt: 'Médica de jaleco conversando com um paciente do outro lado da mesa do consultório',
+  },
+  'clamidia-como-se-prevenir-e-quem-deve-testar': {
+    src: '/img/artigo-clamidia-como-se-prevenir-e-quem-deve-testar.webp',
+    alt: 'Tubos de coleta de sangue organizados em uma bandeja e em uma estante',
+  },
+  'hpv-vacina-nao-trata-infeccao-que-ja-existe': {
+    src: '/img/artigo-hpv-vacina-nao-trata-infeccao-que-ja-existe.webp',
+    alt: 'Profissional de saúde de máscara segurando uma cartela de frascos de vacina',
+  },
+  'hpv-18-e-52-o-que-significa-tipo-de-alto-risco': {
+    src: '/img/artigo-hpv-18-e-52-o-que-significa-tipo-de-alto-risco.webp',
+    alt: 'Profissional de scrubs mostrando uma prancheta digital a uma paciente na recepção da clínica',
+  },
+  'hpv-na-boca-e-na-garganta-o-risco-de-cancer': {
+    src: '/img/artigo-hpv-na-boca-e-na-garganta-o-risco-de-cancer.webp',
+    alt: 'Dentista examinando a boca de um paciente com espelho e instrumento',
+  },
+  'hpv-no-homem-verrugas-e-o-que-fazer': {
+    src: '/img/artigo-hpv-no-homem-verrugas-e-o-que-fazer.webp',
+    alt: 'Homem sentado na maca de exame conversando com uma médica de jaleco',
+  },
+  'hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia': {
+    src: '/img/artigo-hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia.webp',
+    alt: 'Mão segurando cinco embalagens de preservativos coloridos',
+  },
+  'hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera': {
+    src: '/img/artigo-hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera.webp',
+    alt: 'Médica de jaleco auscultando o coração de um paciente com o estetoscópio',
+  },
+  'hipertireoidismo-na-gravidez-o-que-muda': {
+    src: '/img/artigo-hipertireoidismo-na-gravidez-o-que-muda.webp',
+    alt: 'Médica fazendo ultrassonografia em uma gestante deitada na maca',
+  },
+  'hipertireoidismo-iodo-e-alimentacao': {
+    src: '/img/artigo-hipertireoidismo-iodo-e-alimentacao.webp',
+    alt: 'Saleiro e pimenteiro de vidro sobre uma mesa escura',
+  },
+  'hipertireoidismo-exames-tsh-t4-e-t3': {
+    src: '/img/artigo-hipertireoidismo-exames-tsh-t4-e-t3.webp',
+    alt: 'Tubos de coleta de sangue com tampas azuis em uma estante',
+  },
+  'hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia': {
+    src: '/img/artigo-hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia.webp',
+    alt: 'Mãos segurando uma receita médica em frente a uma profissional de saúde',
+  },
+  'calculo-renal-sintomas-e-a-crise-de-dor': {
+    src: '/img/artigo-calculo-renal-sintomas-e-a-crise-de-dor.webp',
+    alt: 'Mão apoiada sobre o flanco de uma pessoa de camisa azul e calça jeans',
+  },
+  'calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada': {
+    src: '/img/artigo-calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada.webp',
+    alt: 'Médica sentada diante do aparelho de ultrassom com uma paciente deitada na maca',
+  },
+  'calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro': {
+    src: '/img/artigo-calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro.webp',
+    alt: 'Paciente sentada em cadeira de rodas coberta por um cobertor, conduzida por uma profissional de scrubs em um corredor de hospital',
+  },
+  'calculo-renal-como-prevenir-a-recidiva': {
+    src: '/img/artigo-calculo-renal-como-prevenir-a-recidiva.webp',
+    alt: 'Mulher bebendo água em um copo de vidro perto de uma janela',
+  },
+  'calculo-renal-dieta-e-o-papel-do-sal': {
+    src: '/img/artigo-calculo-renal-dieta-e-o-papel-do-sal.webp',
+    alt: 'Mão salpicando sal sobre um ovo frito em um prato azul',
+  },
+  'doenca-de-alzheimer-fase-pre-clinica': {
+    src: '/img/artigo-doenca-de-alzheimer-fase-pre-clinica.webp',
+    alt: 'Casal de idosos sentado no sofá com um álbum de fotos antigas aberto nas mãos',
+  },
+  'doenca-de-alzheimer-como-reduzir-o-risco': {
+    src: '/img/artigo-doenca-de-alzheimer-como-reduzir-o-risco.webp',
+    alt: 'Casal de idosos caminhando por uma trilha de terra entre árvores',
+  },
+  'doenca-de-alzheimer-sono': {
+    src: '/img/artigo-doenca-de-alzheimer-sono.webp',
+    alt: 'Idoso dormindo de lado em uma cama, coberto por um edredom cinza',
+  },
+  'doenca-de-alzheimer-como-a-doenca-acontece': {
+    src: '/img/artigo-doenca-de-alzheimer-como-a-doenca-acontece.webp',
+    alt: 'Profissional de saúde com luvas segurando uma chapa de ressonância do cérebro',
+  },
+  'doenca-de-alzheimer-primeiros-meses': {
+    src: '/img/artigo-doenca-de-alzheimer-primeiros-meses.webp',
+    alt: 'Homem jovem ajudando um idoso a vestir um casaco em casa',
+  },
 };
 
 export const topicImages: Record<string, SiteImage> = {
@@ -1315,6 +1543,7 @@ const surgicalArticleImages = new Set([
   'catarata-tratamento-e-cirurgia',
   'insuficiencia-cardiaca-transplante-cardiaco',
   'hiperplasia-prostatica-benigna-cirurgia-rtu',
+  'cancer-de-estomago-cirurgia-tipos',
 ]);
 
 /**

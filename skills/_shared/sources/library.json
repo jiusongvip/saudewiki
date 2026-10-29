@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "allowedHosts": [
     "gov.br",
     "saude.gov.br",
@@ -1064,6 +1064,28 @@
       "status": "verified"
     },
     {
+      "id": "cancer-de-pulmao-saude-de-a-a-z",
+      "label": "Câncer de pulmão, saúde de A a Z",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-pulmao",
+      "publisher": "Ministério da Saúde",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "pulmão",
+        "tabagismo"
+      ],
+      "diseases": [
+        "cancer-de-pulmao"
+      ],
+      "supports": [
+        "Ministério da Saúde：Câncer de pulmão, saúde de A a Z，支撑肺癌词条的官方指南、症状与就医路径",
+        "Fatores de risco, sinais e sintomas e prevenção do câncer de pulmão"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
       "id": "cancer-de-pulmao-versao-para-populacao",
       "label": "Câncer de pulmão, versão para população",
       "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pulmao/versao-para-populacao",
@@ -1890,6 +1912,25 @@
         "A síndrome coronariana aguda exige atendimento de emergência"
       ],
       "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "doenca-de-alzheimer-e-disturbios-do-sono-uma-revisao",
+      "label": "Doença de Alzheimer e distúrbios do sono: uma revisão",
+      "url": "https://www.scielo.br/scielo.php?script=sci_arttext&pid=S0004-282X2019001100815&lang=pt",
+      "publisher": "Arquivos de Neuro-Psiquiatria",
+      "host": "www.scielo.br",
+      "lang": "pt",
+      "topics": [
+        "doencas-cronicas"
+      ],
+      "diseases": [
+        "doenca-de-alzheimer"
+      ],
+      "supports": [
+        "Borges et al. 2019 综述：睡眠障碍与 AD 可能为双向关系、方向未定；失眠与全因痴呆风险 RR 1.53（IC95% 1,07–2,18）；睡眠问题者 AD 风险 1.55 倍；MCI 睡眠障碍患病率 8,8%–59%；慢波睡眠减少、N1/N2 增加、夜间觉醒与日间小睡增多；类淋巴系统清除 Aβ；视交叉上核退化与 sundown；多导睡眠图用于诊断呼吸障碍、周期性肢体运动与 REM 睡眠行为障碍"
+      ],
+      "verifiedAt": "2026-10-29",
       "status": "verified"
     },
     {
@@ -2810,6 +2851,48 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "inca-cancer-de-intestino",
+      "label": "Câncer do intestino",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "intestino",
+        "rastreamento"
+      ],
+      "diseases": [
+        "cancer-colorretal"
+      ],
+      "supports": [
+        "INCA：Câncer do intestino，支撑结直肠癌词条的分期、治疗与随访路径"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
+      "id": "inca-tabagismo",
+      "label": "Tabagismo",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/causas-e-prevencao-do-cancer/tabagismo",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "tabagismo",
+        "prevenção"
+      ],
+      "diseases": [
+        "cancer-de-pulmao",
+        "dpoc"
+      ],
+      "supports": [
+        "INCA：Tabagismo，支撑戒烟、二手烟与烟草暴露的预防建议"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
     },
     {
       "id": "infarto-sintomas-fatores-de-risco-e-atendimento",

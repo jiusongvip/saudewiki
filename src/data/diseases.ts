@@ -18885,6 +18885,10 @@ export const diseases: Disease[] = [
           'A exposição hormonal ao longo da vida conta bastante. Primeira menstruação antes dos 12 anos, menopausa depois dos 55, primeira gravidez após os 30, não ter amamentado e uso prolongado de reposição hormonal depois da menopausa aumentam a chance. Obesidade depois da menopausa, consumo frequente de álcool e sedentarismo entram na mesma lista, e o tabagismo tem evidência sugestiva de aumento de risco.',
           'A herança genética explica uma parte menor, entre 5% e 10% dos casos, mas com peso grande quando presente. Alterações nos genes BRCA1 e BRCA2, vários casos de câncer de mama na família, sobretudo antes dos 50 anos, e câncer de ovário em parentes pedem avaliação em serviço especializado. O INCA também inclui entre os riscos ocupacionais a exposição à radiação ionizante, o contato com agrotóxicos e o trabalho noturno entre 22h e 5h.',
         ],
+        cta: {
+          label: 'Leia também: quando a história da família pede avaliação genética',
+          href: '/artigos/cancer-de-mama-na-familia-quando-investigar/',
+        },
       },
       {
         id: 'sintomas',
@@ -18909,6 +18913,10 @@ export const diseases: Disease[] = [
           'Aumento rápido do tamanho de uma das mamas ou vermelhidão extensa',
           'Dor óssea contínua, falta de ar ou emagrecimento sem causa aparente',
         ],
+        cta: {
+          label: 'Leia também: o que fazer quando aparece um nódulo',
+          href: '/artigos/cancer-de-mama-nodulo-na-mama-o-que-fazer/',
+        },
       },
       {
         id: 'diagnostico',
@@ -18940,6 +18948,10 @@ export const diseases: Disease[] = [
           'A ordem muda conforme o caso. Em tumores grandes ou com gânglios comprometidos, a quimioterapia pode vir antes da cirurgia, para reduzir o tumor e permitir uma operação menor. Depois da cirurgia, o tratamento adjuvante diminui o risco de a doença voltar. Em tumores com receptor hormonal positivo, a hormonioterapia costuma ser mantida por vários anos.',
           'Efeitos colaterais são manejados com apoio da equipe e não são motivo para interromper o tratamento por conta própria. Náusea, queda de cabelo, cansaço e alterações de humor têm condutas específicas, e o serviço de oncologia deve ser avisado quando algum sintoma foge do esperado.',
         ],
+        cta: {
+          label: 'Leia também: efeitos colaterais durante a quimioterapia',
+          href: '/artigos/cancer-de-mama-durante-a-quimioterapia/',
+        },
       },
       {
         id: 'cirurgia',
@@ -18948,6 +18960,10 @@ export const diseases: Disease[] = [
           'Sempre que possível, a cirurgia retira apenas o tumor com uma margem de tecido sadio e preserva a mama, em uma operação chamada setorectomia. Quando o tumor é grande em relação à mama, há vários focos ou o resultado estético seria ruim, indica-se a mastectomia, com possibilidade de reconstrução na mesma cirurgia.',
           'Os gânglios da axila também precisam ser avaliados. Quando não há suspeita de comprometimento, retira-se o primeiro gânglio da cadeia, o linfonodo sentinela, para evitar o esvaziamento completo e reduzir o risco de linfedema. O esvaziamento axilar fica reservado aos casos com gânglios comprometidos.',
         ],
+        cta: {
+          label: 'Leia também: cuidados com o braço depois da cirurgia',
+          href: '/artigos/cancer-de-mama-depois-da-cirurgia-o-braco/',
+        },
       },
       {
         id: 'radioterapia',
@@ -18981,6 +18997,10 @@ export const diseases: Disease[] = [
           'O Ministério da Saúde recomenda mamografia de rastreamento para mulheres de 50 a 74 anos, a cada dois anos, mesmo sem sintomas. Quem tem risco elevado, por história familiar forte ou alteração genética conhecida, precisa de um plano individual, que pode começar mais cedo e incluir ressonância magnética.',
           'Cerca de 17% dos casos poderiam ser evitados com hábitos saudáveis, segundo o INCA: praticar atividade física, manter o peso adequado, evitar bebida alcoólica e amamentar pelo maior tempo possível. Observar a própria mama, sem técnica obrigatória, continua útil para perceber mudanças e procurar avaliação.',
         ],
+        cta: {
+          label: 'Leia também: mamografia de rastreamento, quando começar',
+          href: '/artigos/cancer-de-mama-mamografia-de-rastreamento/',
+        },
       },
     ],
     faq: [
@@ -19000,7 +19020,13 @@ export const diseases: Disease[] = [
           'Sim. Um resultado benigno não dispensa o rastreamento na faixa recomendada nem a avaliação de qualquer mudança nova na mama.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'cancer-de-mama-mamografia-de-rastreamento',
+      'cancer-de-mama-nodulo-na-mama-o-que-fazer',
+      'cancer-de-mama-depois-da-cirurgia-o-braco',
+      'cancer-de-mama-durante-a-quimioterapia',
+      'cancer-de-mama-na-familia-quando-investigar',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'saude-da-mulher', 'prevencao'],
     relatedDiseaseSlugs: ['cancer-do-colo-do-utero', 'cancer-de-pele', 'obesidade'],
     references: [
@@ -19070,6 +19096,10 @@ export const diseases: Disease[] = [
           'Sobrepeso e obesidade aumentam o risco de doença avançada, e fumantes têm maior chance de morrer por câncer de próstata. Alguns tipos de trabalho aparecem associados ao tumor, sobretudo os que envolvem arsênio, cádmio, produtos da borracha e da indústria têxtil, agrotóxicos, radiação ionizante e trabalho noturno entre 22h e 5h.',
           'A comparação entre países mostra taxas muito mais altas onde a alimentação é rica em carne e laticínios, o que sustenta a recomendação de uma dieta com mais vegetais e menos gordura animal. Nenhum alimento, isolado, previne ou causa a doença.',
         ],
+        cta: {
+          label: 'Leia também: pai ou irmão com câncer de próstata',
+          href: '/artigos/cancer-de-prostata-risco-familiar/',
+        },
       },
       {
         id: 'sintomas',
@@ -19094,6 +19124,10 @@ export const diseases: Disease[] = [
           'Perda de peso rápida e sem explicação, com fraqueza e falta de apetite',
           'Inchaço nas duas pernas ou dificuldade para caminhar por dor óssea',
         ],
+        cta: {
+          label: 'Leia também: jato fraco e levantar à noite, quando investigar',
+          href: '/artigos/cancer-de-prostata-sintomas-urinarios/',
+        },
       },
       {
         id: 'diagnostico',
@@ -19103,6 +19137,10 @@ export const diseases: Disease[] = [
           'A confirmação vem da biópsia, feita com agulha guiada por ultrassonografia e, em alguns serviços, por ressonância magnética. O material é analisado pelo patologista, que define o tipo do tumor e o grau de diferenciação. A ressonância da próstata também ajuda a estimar a extensão local antes do tratamento.',
           'Para saber se a doença saiu da próstata, o médico pode pedir tomografia, ressonância e cintilografia óssea, conforme o PSA e o grau do tumor. No SUS, o urologista da Unidade Básica de Saúde encaminha para o serviço de referência, e todas as etapas do diagnóstico e do tratamento são gratuitas.',
         ],
+        cta: {
+          label: 'Leia também: biópsia de próstata, quando é indicada',
+          href: '/artigos/cancer-de-prostata-biopsia-como-e-feita/',
+        },
       },
       {
         id: 'diagnostico-diferencial',
@@ -19122,6 +19160,10 @@ export const diseases: Disease[] = [
           'A prostatectomia radical retira toda a próstata e as vesículas seminais, e é uma das opções para a doença localizada, com intenção de cura. Pode ser feita por cirurgia aberta, por videolaparoscopia ou com auxílio de robô, e a escolha depende da experiência da equipe, do tamanho da próstata e das características do tumor.',
           'A técnica mais moderna não elimina os riscos. Incontinência urinária e disfunção erétil podem ocorrer mesmo nas mãos mais experientes, porque dependem de estruturas muito próximas da próstata. A preservação dos nervos da ereção é tentada quando o tumor permite, e a recuperação costuma levar meses.',
         ],
+        cta: {
+          label: 'Leia também: vigilância ativa, cirurgia ou radioterapia',
+          href: '/artigos/cancer-de-prostata-escolha-do-tratamento/',
+        },
       },
       {
         id: 'tratamento-hormonal',
@@ -19165,6 +19207,10 @@ export const diseases: Disease[] = [
           'Sobre rastreamento, a posição brasileira é cautelosa. O Ministério da Saúde e a Organização Mundial da Saúde não recomendam exames de rotina em homens sem sintomas, e o INCA também não indica rastreamento populacional, porque os benefícios não superam claramente os riscos de diagnosticar e tratar tumores que nunca ameaçariam a vida. Quem deseja fazer os exames deve conversar com um profissional de saúde sobre vantagens e desvantagens antes de decidir.',
           'Homens com sintomas urinários, sangue na urina ou história familiar forte devem procurar avaliação, independentemente de rastreamento. Nesses casos, a investigação tem indicação clara e não se confunde com exame de rotina.',
         ],
+        cta: {
+          label: 'Leia também: PSA e toque, por que o rastreamento não é para todos',
+          href: '/artigos/cancer-de-prostata-psa-e-rastreamento/',
+        },
       },
     ],
     faq: [
@@ -19184,7 +19230,13 @@ export const diseases: Disease[] = [
           'Não sempre, mas o risco existe e depende da extensão do tumor e da preservação dos nervos. Quando ocorre, tem tratamento com medicamentos e acompanhamento especializado.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'cancer-de-prostata-psa-e-rastreamento',
+      'cancer-de-prostata-sintomas-urinarios',
+      'cancer-de-prostata-biopsia-como-e-feita',
+      'cancer-de-prostata-escolha-do-tratamento',
+      'cancer-de-prostata-risco-familiar',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedDiseaseSlugs: ['cancer-de-pele', 'infeccao-urinaria', 'obesidade'],
     references: [
@@ -19269,6 +19321,10 @@ export const diseases: Disease[] = [
           'Uma parte dos casos ocorre em quem nunca fumou. Nesses casos pesam fatores genéticos, história familiar, exposição à poluição do ar, infecções pulmonares de repetição, doença pulmonar obstrutiva crônica e exposições ocupacionais.',
           'Entre os agentes ocupacionais reconhecidos estão o asbesto, a sílica, o arsênio, o cromo, o níquel, o cádmio, o radônio, a fuligem e a emissão de motores a diesel. Trabalhadores da construção civil, da mineração, da fundição, da borracha, da tecelagem e bombeiros estão entre os grupos mais expostos, e o risco é ainda maior em quem fuma.',
         ],
+        cta: {
+          label: 'Leia também: fumaça de segunda mão e câncer em quem nunca fumou',
+          href: '/artigos/cancer-de-pulmao-fumaca-de-segunda-mao/',
+        },
       },
       {
         id: 'sintomas',
@@ -19302,6 +19358,10 @@ export const diseases: Disease[] = [
           'O diagnóstico só se fecha com tecido. A biópsia pode ser feita por broncoscopia, quando o tumor é central, ou por punção guiada por imagem, quando é periférico. No material retirado, o patologista define o tipo do tumor e, nos adenocarcinomas, pesquisa mutações que abrem espaço para terapias-alvo.',
           'O caso é então discutido por uma equipe multidisciplinar, com pneumologista, cirurgião torácico, oncologista e radioterapeuta. No SUS, a investigação começa na Unidade Básica de Saúde e segue para o serviço de referência em oncologia.',
         ],
+        cta: {
+          label: 'Leia também: o que fazer quando aparece um nódulo no pulmão',
+          href: '/artigos/cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer/',
+        },
       },
       {
         id: 'diagnostico-diferencial',
@@ -19333,6 +19393,10 @@ export const diseases: Disease[] = [
           'A cirurgia é indicada quando o tumor está restrito ao pulmão e aos gânglios próximos e a pessoa tem reserva respiratória suficiente. No Brasil, cerca de 15% dos casos são operáveis no momento do diagnóstico, e a maioria chega tarde demais para isso, segundo o INCA.',
           'A operação padrão é a lobectomia, que retira o lobo onde está o tumor, junto com os gânglios do mediastino. Em tumores pequenos, periféricos e em pessoas com pouca reserva pulmonar, pode-se optar por uma ressecção menor, como a segmentectomia ou a ressecção em cunha. A cirurgia pode ser aberta ou por videotoracoscopia, com recuperação mais rápida nesta última.',
         ],
+        cta: {
+          label: 'Leia também: o que é retirado na cirurgia e para que serve o dreno',
+          href: '/artigos/cancer-de-pulmao-cirurgia-e-dreno-de-torax/',
+        },
       },
       {
         id: 'radioterapia-e-quimioterapia',
@@ -19351,6 +19415,10 @@ export const diseases: Disease[] = [
           'A perda de peso e de massa muscular, chamada caquexia, acompanha muitos casos avançados e piora a tolerância ao tratamento. A dor, sobretudo a óssea, tem controle com analgésicos em escala, radioterapia e procedimentos específicos.',
           'Depois da cirurgia podem ocorrer infecção, fístula de ar prolongada e redução da capacidade respiratória. A fisioterapia respiratória, iniciada cedo, ajuda a prevenir complicações e a recuperar a função pulmonar.',
         ],
+        cta: {
+          label: 'Leia também: dor nos ossos, quando pode ser metástase',
+          href: '/artigos/cancer-de-pulmao-dor-nos-ossos-e-metastase/',
+        },
       },
       {
         id: 'vida-diaria',
@@ -19369,6 +19437,10 @@ export const diseases: Disease[] = [
           'No trabalho, o uso correto de equipamentos de proteção e o controle de poeiras e vapores reduzem a exposição a agentes cancerígenos. Em casa, manter os ambientes ventilados e evitar o uso de fogão a lenha em espaço fechado também ajuda.',
           'O Brasil não recomenda rastreamento populacional do câncer de pulmão, porque não há evidência de que os benefícios superem os riscos na população geral. Para pessoas com histórico de tabagismo intenso, a discussão sobre tomografia de baixa dose deve ser feita caso a caso com o médico, considerando idade, carga tabágica e tempo desde que parou de fumar.',
         ],
+        cta: {
+          label: 'Leia também: para quem o rastreamento com tomografia faz sentido',
+          href: '/artigos/cancer-de-pulmao-rastreamento-em-quem-fuma/',
+        },
       },
     ],
     faq: [
@@ -19388,7 +19460,13 @@ export const diseases: Disease[] = [
           'Não. Pode vir de infecções, bronquite e outras causas, mas sangue no escarro sempre precisa de avaliação médica, principalmente em fumantes e em maiores de 50 anos.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer',
+      'cancer-de-pulmao-rastreamento-em-quem-fuma',
+      'cancer-de-pulmao-cirurgia-e-dreno-de-torax',
+      'cancer-de-pulmao-dor-nos-ossos-e-metastase',
+      'cancer-de-pulmao-fumaca-de-segunda-mao',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedDiseaseSlugs: ['dpoc', 'tuberculose', 'pneumonia'],
     references: [
@@ -19428,6 +19506,10 @@ export const diseases: Disease[] = [
           'Mais de 90% dos casos são adenocarcinomas, tumores das células que revestem o intestino. O restante inclui tipos menos comuns, com comportamento e tratamento diferentes. A localização também importa: os tumores do lado direito do cólon dão mais anemia e cansaço, enquanto os do lado esquerdo e do reto costumam causar alteração do hábito intestinal e obstrução.',
           'O diagnóstico precoce muda o desfecho. Quando o tumor está restrito à parede do intestino, a cirurgia costuma ser curativa; quando já atingiu fígado ou pulmão, o tratamento passa a ser sistêmico na maior parte dos casos.',
         ],
+        cta: {
+          label: 'Leia também: pólipo no intestino, quando ele vira câncer',
+          href: '/artigos/cancer-colorretal-polipos-no-intestino/',
+        },
       },
       {
         id: 'dados-e-frequencia',
@@ -19476,6 +19558,10 @@ export const diseases: Disease[] = [
           'Perda de peso sem causa aparente, massa palpável no abdome e aumento do volume abdominal pedem investigação. Em tumores do reto, é comum a sensação de urgência para evacuar com eliminação de pouco conteúdo, o que muita gente confunde com hemorroida.',
           'Nenhum desses sinais é exclusivo de câncer. Hemorroidas, verminoses, doenças inflamatórias intestinais e síndrome do intestino irritável produzem queixas parecidas, e é por isso que a investigação com colonoscopia é necessária quando os sintomas persistem.',
         ],
+        cta: {
+          label: 'Leia também: quando o ritmo intestinal pede exame',
+          href: '/artigos/cancer-colorretal-intestino-preso-e-alteracao-do-habito/',
+        },
       },
       {
         id: 'sinais-de-alerta',
@@ -19491,6 +19577,10 @@ export const diseases: Disease[] = [
           'Perda de peso rápida e sem motivo aparente',
           'Dor abdominal intensa com parada de eliminação de fezes e gases',
         ],
+        cta: {
+          label: 'Leia também: sangue nas fezes, quando é hemorroida',
+          href: '/artigos/cancer-colorretal-sangue-nas-fezes/',
+        },
       },
       {
         id: 'diagnostico',
@@ -19531,6 +19621,10 @@ export const diseases: Disease[] = [
           'A maior parte das operações de cólon pode ser feita por videolaparoscopia, com incisões pequenas e recuperação mais rápida. A recuperação inclui retorno gradual da alimentação e estímulo para caminhar cedo, o que reduz complicações.',
           'Quando o tumor está muito próximo do ânus ou o esfíncter precisa ser retirado, a eliminação das fezes passa a ser feita por uma abertura no abdome, a colostomia. Em muitos casos ela é temporária, para proteger a ligação entre os segmentos do intestino, e é fechada meses depois. Quando é definitiva, há acompanhamento com enfermagem especializada e materiais adequados, e a vida cotidiana segue com adaptações.',
         ],
+        cta: {
+          label: 'Leia também: bolsa de colostomia, temporária ou definitiva',
+          href: '/artigos/cancer-colorretal-bolsa-de-colostomia/',
+        },
       },
       {
         id: 'radioterapia-e-quimioterapia',
@@ -19566,6 +19660,10 @@ export const diseases: Disease[] = [
           'O rastreamento do câncer colorretal é feito com exame de sangue oculto nas fezes e, quando o resultado é positivo, colonoscopia. A Organização Mundial da Saúde recomenda essa estratégia nos países que conseguem garantir confirmação diagnóstica e tratamento, e o Ministério da Saúde vem trabalhando nas diretrizes de um programa nacional. No Brasil, a indicação de rastreamento populacional já consolidada é para câncer de mama e de colo do útero.',
           'Quem tem história familiar de câncer de intestino, doença inflamatória intestinal ou síndrome hereditária precisa de um calendário próprio, muitas vezes com colonoscopia começando antes dos 50 anos. Essa definição deve ser feita pelo médico, com base no caso individual.',
         ],
+        cta: {
+          label: 'Leia também: colonoscopia, para que serve e quando fazer',
+          href: '/artigos/cancer-colorretal-quando-fazer-colonoscopia/',
+        },
       },
     ],
     faq: [
@@ -19585,7 +19683,13 @@ export const diseases: Disease[] = [
           'Sim. Com materiais adequados e acompanhamento de enfermagem, é possível trabalhar, praticar esportes e manter a vida social. Em muitos casos a bolsa é temporária.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'cancer-colorretal-sangue-nas-fezes',
+      'cancer-colorretal-quando-fazer-colonoscopia',
+      'cancer-colorretal-polipos-no-intestino',
+      'cancer-colorretal-intestino-preso-e-alteracao-do-habito',
+      'cancer-colorretal-bolsa-de-colostomia',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedDiseaseSlugs: ['cancer-de-pele', 'anemia-ferropriva', 'ulcera-peptica'],
     references: [
@@ -19731,6 +19835,10 @@ export const diseases: Disease[] = [
           'Quanto menor a retirada, melhor a vida depois. Em tumores muito precoces, restritos à mucosa, sem gânglio comprometido e com menos de 2 cm, a lesão pode ser retirada pela própria endoscopia, por dissecção submucosa. O procedimento preserva o estômago e a recuperação é rápida.',
           'Depois de uma gastrectomia a pessoa passa a comer menos por vez e precisa fracionar as refeições. Pode aparecer dumping, aquela sensação de fraqueza, suor frio e coração acelerado logo depois de comer, e anemia por falta de ferro e de vitamina B12, que exige reposição e acompanhamento.',
         ],
+        cta: {
+          label: 'Leia também: laparoscopia ou cirurgia aberta?',
+          href: '/artigos/cancer-de-estomago-cirurgia-tipos/',
+        },
       },
       {
         id: 'quimio-radio-e-terapias-alvo',
@@ -19741,6 +19849,10 @@ export const diseases: Disease[] = [
           'A terapia-alvo depende do que o tumor tem de especial. Tumores com excesso da proteína HER2 podem receber trastuzumabe junto da quimioterapia, com avaliação do coração antes e durante o tratamento. Na doença avançada, a imunoterapia com inibidores de checkpoint passou a fazer parte do arsenal, indicada conforme as características do tumor.',
           'Efeitos colaterais são manejáveis, mas exigem atenção: queda de cabelo, aftas, diarreia, formigamento nas mãos e nos pés, redução das defesas e infecções. Febre durante a quimioterapia não é sintoma para esperar em casa.',
         ],
+        cta: {
+          label: 'Leia também: quando a quimioterapia entra',
+          href: '/artigos/cancer-de-estomago-quimioterapia/',
+        },
       },
       {
         id: 'complicacoes',
@@ -19765,6 +19877,10 @@ export const diseases: Disease[] = [
           'A disseminação acontece por três caminhos. O mais comum é o linfático, pelos gânglios ao redor do estômago. Pelo sangue, as células chegam primeiro ao fígado. Quando se espalham pela cavidade abdominal, produzem ascite, com aumento do volume da barriga e desconforto.',
           'Metástase não significa que nada mais pode ser feito. Dependendo do caso, a quimioterapia controla a doença por meses ou anos, e lesões isoladas no fígado podem ser operadas em situações selecionadas. A conversa sobre o objetivo do tratamento deve ser franca e incluir o que importa para quem está doente.',
         ],
+        cta: {
+          label: 'Leia também: por que não existe um prazo único',
+          href: '/artigos/cancer-de-estomago-prognostico/',
+        },
       },
       {
         id: 'cuidados-em-casa',
@@ -19774,6 +19890,10 @@ export const diseases: Disease[] = [
           'Proteína tem prioridade: ovo, peixe, frango, feijão, iogurte e queijo ajudam a manter massa muscular. Suplemento só com orientação, porque a quantidade de calorias e de nutrientes precisa ser calculada. Bebida alcoólica e cigarro devem sair da rotina.',
           'Cansaço é esperado e melhora com movimento leve e regular, como uma caminhada curta. Sono, higiene e vacinação em dia protegem quem está com as defesas baixas. Medo e tristeza fazem parte do percurso e não precisam ser enfrentados sozinhos: falar com a equipe e com quem já passou pela cirurgia ajuda. Se houver febre, calafrio, vômito que não passa ou sangramento, procure atendimento no mesmo dia.',
         ],
+        cta: {
+          label: 'Leia também: como comer depois da cirurgia',
+          href: '/artigos/cancer-de-estomago-alimentacao/',
+        },
       },
       {
         id: 'acompanhamento',
@@ -19792,6 +19912,10 @@ export const diseases: Disease[] = [
           'Na mesa, menos sal e menos conserva. Temperar com ervas, evitar embutidos e alimentos defumados, comer frutas, verduras e feijão com frequência e manter peso saudável reduzem o risco. Parar de fumar e moderar o álcool completam o quadro.',
           'Quem tem história familiar de câncer gástrico, gastrite atrófica, metaplasia intestinal ou já tratou Helicobacter pylori deve conversar com o médico sobre acompanhamento e sobre a necessidade de endoscopia periódica. A decisão é individual, e não existe um calendário único que sirva para todos.',
         ],
+        cta: {
+          label: 'Leia também: o que fazer com um laudo de metaplasia intestinal',
+          href: '/artigos/cancer-de-estomago-metaplasia-intestinal/',
+        },
       },
     ],
     faq: [
@@ -19821,7 +19945,7 @@ export const diseases: Disease[] = [
           'A pessoa passa a comer menos por vez e precisa fracionar as refeições. Com acompanhamento nutricional, o peso se estabiliza e a alimentação volta a ser variada, com adaptações.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: ['cancer-de-estomago-metaplasia-intestinal', 'cancer-de-estomago-cirurgia-tipos', 'cancer-de-estomago-quimioterapia', 'cancer-de-estomago-alimentacao', 'cancer-de-estomago-prognostico'],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedDiseaseSlugs: ['infeccao-por-helicobacter-pylori', 'ulcera-peptica', 'anemia-ferropriva', 'cancer-colorretal'],
     references: [
@@ -19915,6 +20039,10 @@ export const diseases: Disease[] = [
           'Gânglios que crescem rápido, massa no pescoço ou no peito com falta de ar',
           'Dor óssea intensa, sobretudo em criança que passa a mancar ou a recusar andar',
         ],
+        cta: {
+          label: 'Leia também: febre durante o tratamento',
+          href: '/artigos/leucemia-linfoblastica-aguda-febre/',
+        },
       },
       {
         id: 'diagnostico',
@@ -19972,6 +20100,10 @@ export const diseases: Disease[] = [
           'Manutenção: comprimidos diários e doses periódicas por dois anos ou mais, para evitar recidiva',
           'Profilaxia no líquor: quimioterapia por punção lombar, em momentos fixos',
         ],
+        cta: {
+          label: 'Leia também: por que o tratamento dura dois anos',
+          href: '/artigos/leucemia-linfoblastica-aguda-manutencao/',
+        },
       },
       {
         id: 'transplante-e-outras-terapias',
@@ -20066,7 +20198,7 @@ export const diseases: Disease[] = [
           'Porque sobram células doentes em quantidade que o microscópio não vê depois da remissão. A fase de manutenção existe para eliminar essas células e reduzir a chance de recaída.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: ['leucemia-linfoblastica-aguda-febre', 'leucemia-linfoblastica-aguda-manutencao'],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao', 'saude-infantil'],
     relatedDiseaseSlugs: ['anemia-ferropriva', 'doenca-falciforme', 'pneumonia'],
     references: [
@@ -20172,6 +20304,10 @@ export const diseases: Disease[] = [
           'Em quem tem imunidade baixa, a doença costuma se manifestar no cérebro: dor de cabeça forte, confusão, sonolência, convulsão, fraqueza em um lado do corpo e febre. Sem tratamento, evolui rápido.',
           'Na forma congênita, a maior parte dos bebês nasce sem sinal evidente. Quando há, pode aparecer icterícia, cabeça menor que o esperado, alteração no fundo de olho, convulsão e atraso no desenvolvimento. Parte das sequelas visuais e neurológicas só se manifesta meses ou anos depois do nascimento, e é por isso que o seguimento com pediatra e oftalmologista é tão importante.',
         ],
+        cta: {
+          label: 'Leia também: quando a dor de cabeça vira sinal de alerta',
+          href: '/artigos/toxoplasmose-dor-de-cabeca-quando-e-alerta/',
+        },
       },
       {
         id: 'sinais-de-alerta',
@@ -20197,6 +20333,10 @@ export const diseases: Disease[] = [
           'Na forma ocular, o exame de fundo de olho feito pelo oftalmologista costuma ser suficiente para reconhecer a lesão típica. Em pacientes com imunidade baixa e sintomas neurológicos, a tomografia ou a ressonância mostram as lesões cerebrais e ajudam a afastar outras causas.',
           'O atendimento começa na unidade básica de saúde, que faz a coleta e encaminha os casos suspeitos. Gestantes e pessoas com imunidade baixa seguem para acompanhamento especializado dentro do SUS.',
         ],
+        cta: {
+          label: 'Leia também: o que fazer com um IgM positivo na gestação',
+          href: '/artigos/toxoplasmose-na-gestacao-igm-positivo/',
+        },
       },
       {
         id: 'diagnostico-diferencial',
@@ -20243,6 +20383,10 @@ export const diseases: Disease[] = [
           'Encefalite em pessoas com imunidade muito baixa',
           'Reativação da infecção anos depois, quando a imunidade cai',
         ],
+        cta: {
+          label: 'Leia também: toxoplasmose congênita e o seguimento do bebê',
+          href: '/artigos/toxoplasmose-congenita-no-bebe/',
+        },
       },
       {
         id: 'vida-diaria',
@@ -20252,6 +20396,10 @@ export const diseases: Disease[] = [
           'Quem tem gato não precisa se desfazer do animal. Basta trocar a caixa de areia todos os dias, de preferência não sendo a gestante a fazer isso, e usar luvas quando for necessário. Também vale não alimentar o gato com carne crua e lavar as mãos depois de mexer com terra ou areia.',
           'Na gestação, o pré-natal é o momento de conversar sobre a sorologia e sobre os cuidados de higiene. Já quem tem imunidade baixa deve avisar a equipe que acompanha o tratamento diante de febre, dor de cabeça ou alteração visual, porque os sintomas podem ser discretos no começo.',
         ],
+        cta: {
+          label: 'Leia também: como lidar com a caixa de areia sem risco',
+          href: '/artigos/toxoplasmose-caixa-de-areia-e-gatos/',
+        },
       },
       {
         id: 'prevencao',
@@ -20261,6 +20409,10 @@ export const diseases: Disease[] = [
           'Para quem tem imunidade baixa, a orientação é redobrada: evitar carne mal passada, lavar bem os vegetais crus e manter o acompanhamento em dia, porque a reativação pode ser prevenida com acompanhamento adequado.',
           'A toxoplasmose não é de notificação compulsória em todos os casos, mas a infecção na gestação e a forma congênita entram na vigilância do Ministério da Saúde. Isso permite identificar surtos, bloquear a fonte e tratar as pessoas expostas mais rápido.',
         ],
+        cta: {
+          label: 'Leia também: como evitar a toxoplasmose na gravidez',
+          href: '/artigos/toxoplasmose-como-evitar-na-gravidez/',
+        },
       },
     ],
     faq: [
@@ -20290,7 +20442,13 @@ export const diseases: Disease[] = [
           'Não. Pessoas com imunidade boa, sem sintomas importantes e que não estão grávidas costumam dispensar tratamento específico. O remédio é indicado na gestação, na imunidade baixa, na doença ocular ativa e na forma congênita.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'toxoplasmose-na-gestacao-igm-positivo',
+      'toxoplasmose-como-evitar-na-gravidez',
+      'toxoplasmose-congenita-no-bebe',
+      'toxoplasmose-dor-de-cabeca-quando-e-alerta',
+      'toxoplasmose-caixa-de-areia-e-gatos',
+    ],
     relatedTopicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-da-mulher'],
     relatedDiseaseSlugs: ['hiv-aids', 'cisticercose', 'hepatites-virais'],
     references: [
@@ -20383,6 +20541,10 @@ export const diseases: Disease[] = [
           'Nos homens, a queixa típica é ardência ao urinar e saída de secreção com pus pela uretra, além de dor nos testículos. A inflamação do epidídimo pode deixar o testículo aumentado e doloroso.',
           'Na infecção retal, pode haver dor, corrimento e sangramento, muitas vezes sem nenhum outro sinal. Em recém-nascidos, a conjuntivite costuma aparecer nos primeiros dias de vida, com olho vermelho e secreção purulenta.',
         ],
+        cta: {
+          label: 'Leia também: por que a maioria dos casos não dá sintoma',
+          href: '/artigos/clamidia-sintomas-e-por-que-passam-despercebidos/',
+        },
       },
       {
         id: 'sinais-de-alerta',
@@ -20398,6 +20560,10 @@ export const diseases: Disease[] = [
           'Olho vermelho com secreção purulenta em recém-nascido',
           'Dor durante a relação que passou a ser constante',
         ],
+        cta: {
+          label: 'Leia também: dor pélvica com febre e doença inflamatória pélvica',
+          href: '/artigos/clamidia-dor-pelvica-doenca-inflamatoria-pelvica/',
+        },
       },
       {
         id: 'diagnostico',
@@ -20407,6 +20573,10 @@ export const diseases: Disease[] = [
           'A testagem é indicada para quem tem sintoma, para quem teve relação sem preservativo com parceria infectada e para gestantes durante o pré-natal. Pessoas sexualmente ativas com parcerias novas ou múltiplas também devem conversar com a equipe de saúde sobre a frequência dos exames.',
           'O atendimento começa na unidade básica de saúde, que solicita o exame e trata os casos simples. Gestantes e pessoas com dor pélvica ou suspeita de complicação são encaminhadas para avaliação especializada. O diagnóstico e o tratamento são gratuitos no SUS.',
         ],
+        cta: {
+          label: 'Leia também: como a clamídia se manifesta no homem',
+          href: '/artigos/clamidia-no-homem-sintomas-e-complicacoes/',
+        },
       },
       {
         id: 'diagnostico-diferencial',
@@ -20462,6 +20632,10 @@ export const diseases: Disease[] = [
           'Conjuntivite neonatal, que sem tratamento pode levar à cegueira',
           'Aumento do risco de adquirir e de transmitir o HIV',
         ],
+        cta: {
+          label: 'Leia também: infertilidade e gravidez tubária depois da clamídia',
+          href: '/artigos/clamidia-complicacoes-infertilidade-e-gravidez-tubaria/',
+        },
       },
       {
         id: 'vida-diaria',
@@ -20480,6 +20654,10 @@ export const diseases: Disease[] = [
           'Testar faz parte da prevenção. Quem tem vida sexual ativa com parcerias novas deve conversar com a equipe sobre a frequência dos exames, e gestantes devem incluir a testagem no pré-natal. Como a maioria dos casos não dá sintoma, esperar por queixa é a pior estratégia.',
           'Não existe vacina contra a clamídia. Reduzir o número de parcerias sem preservativo e tratar as parcerias ao mesmo tempo são as formas de quebrar a cadeia de transmissão.',
         ],
+        cta: {
+          label: 'Leia também: como se prevenir e quem deve fazer o teste',
+          href: '/artigos/clamidia-como-se-prevenir-e-quem-deve-testar/',
+        },
       },
     ],
     faq: [
@@ -20509,7 +20687,13 @@ export const diseases: Disease[] = [
           'Pode dificultar. A infecção não tratada inflama as trompas e deixa cicatrizes que atrapalham o encontro do óvulo com o espermatozoide. Muitas mulheres só descobrem isso ao investigar a dificuldade para engravidar.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'clamidia-sintomas-e-por-que-passam-despercebidos',
+      'clamidia-dor-pelvica-doenca-inflamatoria-pelvica',
+      'clamidia-complicacoes-infertilidade-e-gravidez-tubaria',
+      'clamidia-no-homem-sintomas-e-complicacoes',
+      'clamidia-como-se-prevenir-e-quem-deve-testar',
+    ],
     relatedTopicSlugs: ['doencas-infecciosas', 'saude-da-mulher', 'prevencao'],
     relatedDiseaseSlugs: ['gonorreia', 'sifilis', 'hiv-aids', 'infeccao-urinaria'],
     references: [
@@ -20602,6 +20786,10 @@ export const diseases: Disease[] = [
           'As lesões precursoras do câncer do colo do útero também são silenciosas na maior parte do tempo. Só o exame de rastreamento as encontra, e é por isso que a coleta periódica continua sendo necessária mesmo em quem se sente bem.',
           'Na papilomatose respiratória recorrente, o primeiro sinal costuma ser rouquidão progressiva. Quando a lesão cresce muito, pode causar tosse e dificuldade para respirar, sobretudo em crianças.',
         ],
+        cta: {
+          label: 'Leia também: como o HPV se manifesta no homem',
+          href: '/artigos/hpv-no-homem-verrugas-e-o-que-fazer/',
+        },
       },
       {
         id: 'sinais-de-alerta',
@@ -20617,6 +20805,10 @@ export const diseases: Disease[] = [
           'Rouquidão que dura mais de três semanas, sobretudo em criança',
           'Resultado de Papanicolau alterado ou teste de HPV positivo para tipo de alto risco',
         ],
+        cta: {
+          label: 'Leia também: quando um sintoma de garganta pede investigação',
+          href: '/artigos/hpv-na-boca-e-na-garganta-o-risco-de-cancer/',
+        },
       },
       {
         id: 'diagnostico',
@@ -20650,6 +20842,10 @@ export const diseases: Disease[] = [
           'Nem toda infecção precisa de tratamento. Quando não há lesão visível, a conduta costuma ser acompanhar com exames periódicos, porque a maioria das infecções se resolve sozinha. Já as verrugas e as lesões precursoras de alto grau devem ser tratadas.',
           'O tratamento é individualizado, considerando extensão, quantidade e localização das lesões, além dos recursos disponíveis e dos efeitos adversos. A escolha entre tratamento aplicado em casa e procedimento no serviço de saúde é feita pelo profissional.',
         ],
+        cta: {
+          label: 'Leia também: o que a vacina faz e o que ela não faz',
+          href: '/artigos/hpv-vacina-nao-trata-infeccao-que-ja-existe/',
+        },
       },
       {
         id: 'tratamento-medicamentoso',
@@ -20690,6 +20886,10 @@ export const diseases: Disease[] = [
           'Recidiva das verrugas após o tratamento',
           'Alterações psicológicas ligadas ao estigma da infecção',
         ],
+        cta: {
+          label: 'Leia também: o que significa um tipo de alto risco',
+          href: '/artigos/hpv-18-e-52-o-que-significa-tipo-de-alto-risco/',
+        },
       },
       {
         id: 'vida-diaria',
@@ -20709,6 +20909,10 @@ export const diseases: Disease[] = [
           'O preservativo, interno ou externo, reduz o risco de transmissão, sem eliminar. O uso desde o início da relação aumenta a proteção, e o SUS distribui preservativos gratuitamente.',
           'O rastreamento do colo do útero é prevenção. Mulheres com colo do útero devem fazer os exames na periodicidade orientada pelo serviço, mesmo sem sintoma e mesmo depois da vacina.',
         ],
+        cta: {
+          label: 'Leia também: como reduzir o risco no dia a dia',
+          href: '/artigos/hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia/',
+        },
       },
     ],
     faq: [
@@ -20738,7 +20942,13 @@ export const diseases: Disease[] = [
           'Sim. A infecção não impede a gravidez. As lesões podem crescer mais rápido durante a gestação, e por isso o acompanhamento com o obstetra é importante. A transmissão ao bebê é rara.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'hpv-vacina-nao-trata-infeccao-que-ja-existe',
+      'hpv-18-e-52-o-que-significa-tipo-de-alto-risco',
+      'hpv-na-boca-e-na-garganta-o-risco-de-cancer',
+      'hpv-no-homem-verrugas-e-o-que-fazer',
+      'hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia',
+    ],
     relatedTopicSlugs: ['doencas-infecciosas', 'saude-da-mulher', 'prevencao'],
     relatedDiseaseSlugs: ['cancer-do-colo-do-utero', 'gonorreia', 'sifilis', 'hiv-aids'],
     references: [
@@ -20842,6 +21052,10 @@ export const diseases: Disease[] = [
           'Nas mulheres, a menstruação pode ficar irregular, com intervalos maiores e fluxo menor. Nos homens, pode haver queda de libido e disfunção erétil. O pescoço aumenta de volume na maioria dos casos, e a glândula pode ser sentida ao exame.',
           'Na doença de Graves, os olhos podem ser afetados. O paciente refere olhos secos, lacrimejamento, sensação de areia, incômodo com a luz, olhar arregalado e, nos casos mais intensos, protrusão dos olhos e visão dupla. Essas alterações podem aparecer antes dos outros sintomas ou piorar depois que a tireoide é controlada.',
         ],
+        cta: {
+          label: 'Leia também: por que o corpo acelera',
+          href: '/artigos/hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera/',
+        },
       },
       {
         id: 'sinais-de-alerta',
@@ -20867,6 +21081,10 @@ export const diseases: Disease[] = [
           'Em situações em que a causa não fica clara, a captação de iodo radioativo diferencia a tireoide que produz hormônio demais daquela que apenas libera hormônio estocado por inflamação. A escolha dos exames é do endocrinologista.',
           'O atendimento começa na unidade básica de saúde, que solicita a dosagem de TSH e encaminha ao endocrinologista. A avaliação é feita no SUS, com exames e acompanhamento conforme o protocolo de cada serviço.',
         ],
+        cta: {
+          label: 'Leia também: como ler o TSH, o T4 e o T3',
+          href: '/artigos/hipertireoidismo-exames-tsh-t4-e-t3/',
+        },
       },
       {
         id: 'diagnostico-diferencial',
@@ -20890,6 +21108,10 @@ export const diseases: Disease[] = [
           'Os antitireoidianos reduzem a síntese de hormônio. O metimazol é a primeira escolha na maioria dos casos. O propiltiouracil fica para situações específicas, como o primeiro trimestre da gestação e a crise tireotóxica, porque pode causar lesão no fígado. Antes de começar, é preciso checar hemograma e função do fígado, e o acompanhamento com exames periódicos é obrigatório.',
           'Febre com dor de garganta durante o uso desses remédios precisa de avaliação imediata, porque pode indicar queda dos glóbulos brancos. O tratamento dura em geral de um a dois anos, e parte dos pacientes recai depois de suspender, o que exige acompanhamento por mais tempo.',
         ],
+        cta: {
+          label: 'Leia também: como é o tratamento e o que muda na rotina',
+          href: '/artigos/hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia/',
+        },
       },
       {
         id: 'iodo-radioativo-e-cirurgia',
@@ -20932,6 +21154,10 @@ export const diseases: Disease[] = [
           'O gasto de energia é alto, por isso a alimentação precisa ser suficiente e variada. Café e bebidas energéticas pioram a palpitação e o tremor. Atividade física leve ajuda no condicionamento, mas o excesso cansa e deve ser ajustado ao momento do tratamento.',
           'O acompanhamento com exames de TSH e T4 livre é o que garante o ajuste da dose. Interromper o remédio por conta própria é a causa mais comum de recaída e de crise. Quem planeja engravidar deve conversar antes com o endocrinologista, porque a gestação exige ajuste e monitoramento frequente.',
         ],
+        cta: {
+          label: 'Leia também: iodo, sal e alimentação',
+          href: '/artigos/hipertireoidismo-iodo-e-alimentacao/',
+        },
       },
       {
         id: 'prevencao',
@@ -20941,6 +21167,10 @@ export const diseases: Disease[] = [
           'Quem usa amiodarona ou imunoterápicos precisa de monitoramento da tireoide antes e durante o tratamento, porque o hipertireoidismo induzido por medicamento é uma complicação conhecida e pode ser identificado cedo.',
           'Na gestação, a avaliação da tireoide faz parte do pré-natal de risco. Mulheres com hipertireoidismo devem planejar a gravidez com a doença controlada, porque o descontrole aumenta o risco de complicações para a mãe e para o bebê.',
         ],
+        cta: {
+          label: 'Leia também: hipertireoidismo na gravidez',
+          href: '/artigos/hipertireoidismo-na-gravidez-o-que-muda/',
+        },
       },
     ],
     faq: [
@@ -20970,7 +21200,13 @@ export const diseases: Disease[] = [
           'Não é preciso eliminar o iodo, e sim evitar excesso. Suplementos, algas e contrastes iodados merecem atenção. A orientação sobre a dieta deve vir da equipe que acompanha o tratamento.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera',
+      'hipertireoidismo-na-gravidez-o-que-muda',
+      'hipertireoidismo-iodo-e-alimentacao',
+      'hipertireoidismo-exames-tsh-t4-e-t3',
+      'hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao', 'saude-da-mulher'],
     relatedDiseaseSlugs: ['hipotireoidismo', 'fibrilacao-atrial', 'osteoporose'],
     references: [
@@ -21064,6 +21300,10 @@ export const diseases: Disease[] = [
           'Pedras grandes que ficam paradas no rim muitas vezes não doem. Nesses casos, o achado costuma ser incidental, em um ultrassom feito por outro motivo. Já a obstrução completa pode causar dor surda no flanco e redução do volume de urina.',
           'Febre com calafrios junto da dor é sinal de infecção associada à obstrução, uma situação grave que exige atendimento imediato.',
         ],
+        cta: {
+          label: 'Leia também: como é a crise de dor',
+          href: '/artigos/calculo-renal-sintomas-e-a-crise-de-dor/',
+        },
       },
       {
         id: 'sinais-de-alerta',
@@ -21079,6 +21319,10 @@ export const diseases: Disease[] = [
           'Vômitos repetidos que impedem de beber água',
           'Urina com sangue visível e coágulos',
         ],
+        cta: {
+          label: 'Leia também: quem atende e quando ir ao pronto-socorro',
+          href: '/artigos/calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro/',
+        },
       },
       {
         id: 'diagnostico',
@@ -21122,6 +21366,10 @@ export const diseases: Disease[] = [
           'A ureteroscopia introduz um aparelho fino pela uretra e pela bexiga até o ureter, com quebra do cálculo a laser. É muito usada para pedras no ureter inferior e para cálculos que não saíram com a litotripsia. A nefrolitotomia percutânea cria um trajeto pequeno nas costas para retirar pedras grandes, coraliformes ou múltiplas.',
           'Quando há obstrução com infecção, a prioridade é drenar a urina, com cateter duplo J ou nefrostomia, e tratar a infecção antes de remover o cálculo. Cálculos de ácido úrico podem ser dissolvidos com medicação que alcaliniza a urina, mas isso leva meses e exige acompanhamento.',
         ],
+        cta: {
+          label: 'Leia também: tamanho do cálculo e quando a cirurgia é indicada',
+          href: '/artigos/calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada/',
+        },
       },
       {
         id: 'prognostico',
@@ -21131,6 +21379,10 @@ export const diseases: Disease[] = [
           'O problema é a recidiva. Depois do primeiro cálculo de cálcio, cerca de 11% das pessoas têm outro em dois anos, e aproximadamente 39% em 15 anos. Quem não muda a ingestão de água e a dieta tende a repetir o episódio.',
           'A prevenção funciona, mas precisa ser contínua. Aumentar a água, ajustar o sal e manter o cálcio da dieta são medidas simples, com impacto real na chance de uma nova pedra.',
         ],
+        cta: {
+          label: 'Leia também: como prevenir a volta da pedra',
+          href: '/artigos/calculo-renal-como-prevenir-a-recidiva/',
+        },
       },
       {
         id: 'complicacoes',
@@ -21163,6 +21415,10 @@ export const diseases: Disease[] = [
           'Beber água ao longo do dia, reduzir o sal, manter o cálcio da dieta e moderar a proteína animal são medidas que valem para a maioria. Não existe alimento ou suplemento milagroso, e produtos vendidos como preventivos sem comprovação não substituem essas mudanças.',
           'Quem já teve cálculo deve manter acompanhamento, sobretudo se a doença é recorrente ou se há doença de base. Exames periódicos de urina e imagem permitem identificar pedras antes da crise.',
         ],
+        cta: {
+          label: 'Leia também: dieta, sal e o que muda no prato',
+          href: '/artigos/calculo-renal-dieta-e-o-papel-do-sal/',
+        },
       },
     ],
     faq: [
@@ -21192,7 +21448,13 @@ export const diseases: Disease[] = [
           'O cálculo em si é removido ou eliminado, e a crise passa. O que existe é tendência a formar novos cálculos, e é isso que a prevenção contínua controla.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'calculo-renal-sintomas-e-a-crise-de-dor',
+      'calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada',
+      'calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro',
+      'calculo-renal-como-prevenir-a-recidiva',
+      'calculo-renal-dieta-e-o-papel-do-sal',
+    ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
     relatedDiseaseSlugs: ['infeccao-urinaria', 'doenca-renal-cronica', 'gota'],
     references: [
@@ -22014,6 +22276,10 @@ export const diseases: Disease[] = [
           'A doença não é uma etapa do envelhecimento normal. Quem envelhece esquece um nome e lembra depois, ou perde a chave e a encontra no lugar de sempre, e segue dando conta da própria vida. No Alzheimer, a perda é progressiva e acaba interferindo no trabalho, nas contas da casa e no autocuidado.',
           'O Alzheimer é a forma mais comum de demência. A Organização Mundial da Saúde estima que 57 milhões de pessoas viviam com demência no mundo em 2021, com quase 10 milhões de casos novos por ano, e que o Alzheimer responde por 60% a 70% deles. No Brasil, a Academia Brasileira de Neurologia calcula cerca de 1,7 milhão de idosos com demência. O inquérito nacional ELSI-Brasil encontrou diagnóstico médico de Alzheimer referido por 0,75% das pessoas de 50 anos ou mais, proporção que sobe para 4,56% entre os 80 anos ou mais; a maioria são mulheres e sete em cada dez estudaram até o ensino fundamental. O mesmo levantamento lembra que a demência no país é subdiagnosticada, com taxa de não detecção estimada em 77%.',
         ],
+        cta: {
+          label: 'Entenda como o Alzheimer começa no cérebro',
+          href: '/artigos/doenca-de-alzheimer-como-a-doenca-acontece/',
+        },
       },
       {
         id: 'tipos',
@@ -22053,6 +22319,10 @@ export const diseases: Disease[] = [
           'Na fase pré-demencial, a memória falha para fatos recentes, aprender coisas novas fica difícil, a atenção se dispersa e a orientação espacial piora. A pessoa continua dando conta de casa, do trabalho e do autocuidado, e é justamente por isso que esses sinais passam tanto tempo sem ser notados. Cansaço, estresse e luto produzem queixas parecidas e costumam ser a primeira explicação que a família encontra.',
           'Na fase demencial, a perda de autonomia marca cada estágio:',
         ],
+        cta: {
+          label: 'Leia também: o que acontece antes dos primeiros sintomas',
+          href: '/artigos/doenca-de-alzheimer-fase-pre-clinica/',
+        },
         bullets: [
           'Leve: esquece o que acabou de acontecer, perde objetos, esquece nomes e compromissos, desorienta-se em lugares conhecidos e se irrita com tarefas complexas. A personalidade muda, e quem era cuidadoso pode ficar descuidado ou desconfiado.',
           'Moderada: esquece também fatos antigos, repete perguntas, erra contas, pode se perder dentro de casa e não reconhece conhecidos. Aparecem afasia (dificuldade para falar), apraxia (dificuldade para usar objetos) e agnosia (dificuldade para reconhecer o que vê). Podem surgir convulsões, rigidez e desinibição.',
@@ -22162,6 +22432,10 @@ export const diseases: Disease[] = [
           'Na conversa, frases curtas e uma instrução por vez funcionam melhor do que explicações longas. Discutir com um delírio não convence ninguém: é mais útil acolher o medo e desviar a atenção. Ao ajudar no banho e na troca de roupa, preserve a privacidade e explique o que vai fazer antes de tocar na pessoa.',
           'Quem cuida também adoece. Cansaço, culpa, irritabilidade e isolamento são comuns, e a sobrecarga adoece também quem cuida. Reserve um intervalo diário para caminhar ou descansar, aceite ajuda de outros parentes e procure um grupo de apoio. Insônia ou tristeza que dura mais de duas semanas merece avaliação profissional.',
         ],
+        cta: {
+          label: 'Leia também: o que organizar após o diagnóstico',
+          href: '/artigos/doenca-de-alzheimer-primeiros-meses/',
+        },
       },
       {
         id: 'rotina-e-monitoramento',
@@ -22171,6 +22445,10 @@ export const diseases: Disease[] = [
           'Manter convivência social e atividades ligadas à história da pessoa, como música antiga, plantas e trabalhos manuais, sustenta o vínculo e reduz a apatia. Também faz parte do tratamento controlar pressão, glicemia e colesterol, com metas definidas pelo médico que acompanha cada caso.',
           'Alguns sinais indicam que algo mudou e devem ser levados à consulta: engasgos frequentes, febre, perda de peso, uma saída de casa sem aviso, ou a perda de uma habilidade que a pessoa ainda tinha, como comer sozinha. Anotar a data e o que aconteceu ajuda o médico a distinguir a progressão da doença de uma causa tratável.',
         ],
+        cta: {
+          label: 'Leia também: sono e Alzheimer',
+          href: '/artigos/doenca-de-alzheimer-sono/',
+        },
       },
       {
         id: 'prevencao',
@@ -22180,6 +22458,10 @@ export const diseases: Disease[] = [
           'A Organização Mundial da Saúde lista as ações com melhor sustentação: praticar atividade física, não fumar, evitar o uso nocivo de álcool, manter alimentação equilibrada, controlar peso, pressão, colesterol e glicemia, usar aparelho auditivo quando há perda de audição, reduzir a exposição à poluição do ar e continuar aprendendo e convivendo com outras pessoas.',
           'Estudar, ler e manter atividade mental não impedem a doença, mas ampliam a reserva cognitiva e adiam o aparecimento dos sintomas. O mesmo vale para o controle da pressão e do diabetes: o que protege o coração e os vasos também protege o cérebro.',
         ],
+        cta: {
+          label: 'Leia também: como reduzir o risco de Alzheimer',
+          href: '/artigos/doenca-de-alzheimer-como-reduzir-o-risco/',
+        },
       },
     ],
     faq: [
@@ -22214,7 +22496,13 @@ export const diseases: Disease[] = [
           'Precisa. A sobrecarga do cuidador é frequente e afeta a saúde de quem cuida e a qualidade do cuidado. Dividir tarefas com outros familiares, reservar pausas diárias e participar de grupos de apoio reduz o desgaste. Tristeza ou insônia por mais de duas semanas merece avaliação.',
       },
     ],
-    relatedArticleSlugs: [],
+    relatedArticleSlugs: [
+      'doenca-de-alzheimer-fase-pre-clinica',
+      'doenca-de-alzheimer-como-reduzir-o-risco',
+      'doenca-de-alzheimer-sono',
+      'doenca-de-alzheimer-como-a-doenca-acontece',
+      'doenca-de-alzheimer-primeiros-meses',
+    ],
     relatedTopicSlugs: ['doencas-cronicas'],
     relatedDiseaseSlugs: ['depressao', 'hipotireoidismo', 'infarto-e-avc'],
     references: [

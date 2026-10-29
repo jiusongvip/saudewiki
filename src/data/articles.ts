@@ -22117,4 +22117,5788 @@ export const articles: Article[] = [
     updatedAt: '2026-10-28',
     isPlaceholder: true,
   },
+  {
+    id: 'cancer-de-mama-mamografia-de-rastreamento',
+    slug: 'cancer-de-mama-mamografia-de-rastreamento',
+    title: 'Mamografia de rastreamento: quando começar e de quanto em quanto tempo',
+    excerpt:
+      'O exame é feito em quem não tem sintoma, dentro de uma faixa de idade e com intervalo definido. Entenda por que a regra existe, o que muda em quem tem risco elevado e o que um laudo alterado significa.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'rastrear-nao-e-diagnosticar',
+        heading: 'Rastrear não é diagnosticar',
+        paragraphs: [
+          'Rastreamento é o exame feito em quem não tem queixa nenhuma, para encontrar um tumor antes que ele dê sintoma. Diagnóstico é o caminho de quem já percebeu um nódulo, uma alteração na pele ou uma saída de líquido pelo mamilo. Os dois usam a mesma máquina e o mesmo tipo de imagem, mas respondem a perguntas diferentes e não se substituem em nenhum momento do cuidado.',
+          'A confusão entre eles custa tempo, e tempo é o recurso mais valioso nessa doença. Quem sente um nódulo e decide esperar a mamografia do próximo ano pode passar meses sem investigação, mesmo com o exame de rotina em dia e o laudo arquivado na gaveta. Queixa nova pede consulta agora, independentemente de quando foi feito o último exame e de qual foi o resultado.',
+          'Do outro lado, procurar exame sem indicação também tem preço. Fora da faixa recomendada, o rastreamento encontra alterações que provavelmente nunca virariam doença e que levam a biópsias, retornos e meses de ansiedade sem ganho real para ninguém. Nenhum exame é gratuito em termos de risco: todo achado precisa ser investigado depois.',
+        ],
+      },
+      {
+        id: 'quando-comecar',
+        heading: 'A faixa de idade e o intervalo',
+        paragraphs: [
+          'O Ministério da Saúde recomenda mamografia de rastreamento para mulheres de 50 a 74 anos, a cada dois anos, mesmo sem sintomas. A escolha dessa faixa acompanha o grupo em que o benefício é mais consistente: cerca de quatro em cada cinco casos de câncer de mama aparecem depois dos 50 anos, quando o risco acumulado já justifica o exame periódico.',
+          'Abaixo dos 50 anos, quem tem risco habitual não entra no rastreamento de rotina da rede pública. Isso não significa ignorar a mama nem esperar em silêncio. Qualquer alteração percebida deve ser avaliada na hora, e quem tem dúvida sobre o próprio risco deve levar a pergunta para a consulta em vez de resolver a conta sozinha em casa.',
+          'Acima dos 74, continuar ou parar é uma decisão individual, tomada com quem acompanha a pessoa e leva em conta as outras doenças, os tratamentos em curso e o estado geral. O rastreamento é uma política de população, com regra única; a consulta é o lugar onde a história de cada uma entra na conta e muda a recomendação.',
+        ],
+      },
+      {
+        id: 'risco-elevado',
+        heading: 'Quem precisa de outro plano',
+        paragraphs: [
+          'Uma parte pequena dos casos, entre 5% e 10%, está ligada a alteração genética herdada. Nessa situação o rastreamento segue outra lógica: pode começar mais cedo, em intervalo menor, e incluir ressonância magnética além da mamografia. Quem define isso é um serviço especializado, com base na história familiar, no exame clínico e, quando indicado, no resultado do teste genético.',
+          'Os sinais que pedem essa avaliação são objetivos: vários casos de câncer de mama na mesma família, sobretudo antes dos 50 anos; câncer de ovário em parentes; alteração já identificada nos genes BRCA1 ou BRCA2. Fora desses cenários, o calendário comum continua valendo e não há motivo para pedir exames extras por conta própria.',
+          'Ter um caso na família não transforma ninguém em paciente. A maior parte dos tumores de mama não é hereditária, e a avaliação genética serve justamente para separar quem precisa de vigilância reforçada de quem segue o rastreamento de rotina sem nenhuma mudança no calendário.',
+        ],
+      },
+      {
+        id: 'como-e-o-exame',
+        heading: 'Como a mamografia é feita',
+        paragraphs: [
+          'O aparelho comprime a mama entre duas placas e faz duas incidências de cada lado. A compressão é o que permite ver o tecido com nitidez e reduzir a dose de radiação; também é a parte que incomoda. São poucos segundos em cada posição, e o desconforto passa assim que a placa é solta e a mama volta ao normal.',
+          'A leitura depende da densidade da mama. Mama muito densa esconde nódulos na imagem, e por isso o laudo pode vir com indicação de ultrassonografia ou, em situações específicas, de ressonância magnética. Isso é ajuste de método, não sinal de que existe câncer nem de que o exame anterior falhou.',
+          'Nenhum desses exames fecha o diagnóstico. A confirmação vem sempre da biópsia, que retira um fragmento da lesão para análise do patologista, e é esse tecido que define o tipo do tumor, os receptores hormonais e o tratamento possível.',
+        ],
+      },
+      {
+        id: 'resultado-alterado',
+        heading: 'O que fazer com um laudo alterado',
+        paragraphs: [
+          'Laudo que pede investigação não é diagnóstico de câncer. A maior parte dos nódulos mamários é benigna, e o passo seguinte é comparar com exames anteriores, repetir a imagem com outra técnica e, quando necessário, biopsiar. Cada etapa tem uma função definida e nenhuma delas é adivinhação ou excesso de zelo.',
+          'O que não ajuda é repetir a mamografia várias vezes esperando que o achado desapareça, nem trocar de serviço a cada resultado. Quando a imagem é suspeita e existe nódulo palpável, o caminho é chegar à biópsia sem refazer etapas já cumpridas, levando todos os exames anteriores em mãos.',
+          'Exame normal também não encerra a atenção. Queixa que aparece depois do exame merece avaliação própria, porque o rastreamento fotografa um momento e a mama muda com o tempo, com o ciclo menstrual, com a amamentação e com a idade.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de mama',
+          href: '/doencas/cancer-de-mama/',
+        },
+      },
+      {
+        id: 'acesso-no-sus',
+        heading: 'Onde fazer o exame',
+        paragraphs: [
+          'A porta de entrada é a Unidade Básica de Saúde, que agenda a mamografia e encaminha ao serviço de referência quando há achado. O atendimento oncológico é integral e gratuito pelo Sistema Único de Saúde, do primeiro exame à cirurgia, à quimioterapia, à radioterapia e ao seguimento depois do tratamento.',
+          'Levar os exames anteriores ajuda mais do que parece. A comparação com a mamografia prévia muda a conduta em muitos casos, e para isso é preciso levar as imagens, não apenas o laudo impresso que costuma ficar no arquivo do serviço de origem.',
+          'Quem faz o exame pela rede privada segue as mesmas regras de idade e intervalo, e o resultado deve ser discutido em consulta como qualquer outro exame. O calendário do rastreamento não muda de acordo com quem paga a conta no fim do mês.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-mama'],
+    topicSlugs: ['prevencao', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'cancer-de-mama-nodulo-na-mama-o-que-fazer',
+      'cancer-de-mama-na-familia-quando-investigar',
+      'cancer-de-mama-depois-da-cirurgia-o-braco',
+      'cancer-de-mama-durante-a-quimioterapia',
+    ],
+    references: [
+      {
+        label: 'Câncer de mama, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/mama/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de mama, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-mama',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-mama-nodulo-na-mama-o-que-fazer',
+    slug: 'cancer-de-mama-nodulo-na-mama-o-que-fazer',
+    title: 'Nódulo na mama: o que o exame mostra e quando a biópsia é necessária',
+    excerpt:
+      'A maior parte dos nódulos é benigna, mas o caminho até essa conclusão tem etapas definidas. Veja o que a mamografia e o ultrassom mostram, quando a biópsia entra e quais sinais pedem pressa.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'nodulo-novo',
+        heading: 'Um nódulo novo não é um diagnóstico',
+        paragraphs: [
+          'A maior parte dos nódulos que aparecem na mama é benigna, e é por isso que a investigação precisa de método em vez de pressa. O primeiro passo é o exame clínico: palpar, localizar, ver se o nódulo é móvel ou fixo, se dói à pressão, se a pele sobre ele mudou de cor ou de textura.',
+          'Um nódulo endurecido, de contorno irregular, que não dói e parece preso ao tecido é o tipo que mais preocupa. Costuma aparecer no quadrante superior externo, perto da axila, e pode ser notado por acaso no banho, na troca de roupa ou durante a amamentação, sem nenhum sintoma associado.',
+          'Dor isolada, sem nódulo, raramente é sinal de câncer. Ainda assim, dor que persiste, localizada sempre no mesmo ponto e sem relação com o ciclo menstrual, merece avaliação como qualquer outra queixa que não passa com o tempo e preocupa quem a sente.',
+        ],
+      },
+      {
+        id: 'o-que-os-exames-mostram',
+        heading: 'O que a imagem consegue ver',
+        paragraphs: [
+          'A mamografia é o exame inicial e mostra o nódulo em duas incidências. A ultrassonografia entra para dizer se a lesão é sólida ou cheia de líquido, e ajuda muito quando a mama é densa e esconde achados na mamografia. A ressonância fica reservada a situações específicas, definidas pelo especialista que acompanha o caso.',
+          'Cada exame responde a uma pergunta diferente, e nenhum deles fecha o diagnóstico. A imagem diz onde está, de que tamanho é e qual a aparência da lesão; o que ela é de fato, só o tecido retirado na biópsia diz com segurança.',
+          'É comum sair da consulta com dois ou três exames marcados e a sensação de que nada foi resolvido. Essa sequência é o caminho normal da investigação, não um sinal de que o caso é grave nem de que o serviço está perdendo tempo. Entender o motivo de cada etapa costuma tornar a espera entre uma consulta e outra bem menos angustiante.',
+        ],
+      },
+      {
+        id: 'quando-a-biopsia',
+        heading: 'Quando a biópsia entra',
+        paragraphs: [
+          'A biópsia retira um fragmento do nódulo ou da lesão para análise do patologista, e é ela que confirma ou afasta o câncer. Com o material em mãos, o laboratório define o tipo do tumor, o grau de agressividade e a presença dos receptores hormonais e da proteína HER2. Sem esse tecido, qualquer afirmação sobre o nódulo seria palpite, e é por isso que a punção não é um exame a mais na lista: é o exame que decide.',
+          'Essas informações não são detalhe acadêmico. São elas que separam os tumores que respondem à hormonioterapia daqueles que precisam de quimioterapia, e mudam completamente a conversa sobre o tratamento que vem depois da cirurgia.',
+          'Quando a imagem é suspeita e existe nódulo palpável, o objetivo é chegar à biópsia sem repetir etapas já feitas. Marcar outra mamografia antes da punção, nesse cenário, só atrasa o diagnóstico e não acrescenta informação nova ao que já se sabe.',
+        ],
+        cta: {
+          label: 'Entender o câncer de mama do diagnóstico ao tratamento',
+          href: '/doencas/cancer-de-mama/',
+        },
+      },
+      {
+        id: 'o-que-pode-ser',
+        heading: 'O que costuma aparecer no lugar do câncer',
+        paragraphs: [
+          'Quatro alterações benignas concentram a maior parte dos casos, e reconhecê-las evita susto desnecessário. O fibroadenoma é um nódulo móvel e liso, comum em mulheres jovens. O cisto é uma coleção de líquido que muda de tamanho com o ciclo menstrual e costuma desaparecer sozinho.',
+          'A mastite e o abscesso trazem dor, calor e vermelhidão, às vezes com febre, e costumam ter relação com a amamentação. A alteração fibrocística produz nódulos múltiplos que variam ao longo do ciclo e não formam uma massa única, endurecida e fixa como o tumor costuma se apresentar.',
+          'A diferença entre essas condições e o câncer aparece no conjunto: exame clínico, imagem e, quando necessário, biópsia. Nenhum sinal isolado, nem a dor nem a mobilidade do nódulo, resolve a questão sozinho ou dispensa a investigação. É a soma das informações que permite dizer, com segurança, se o nódulo precisa apenas de acompanhamento.',
+        ],
+      },
+      {
+        id: 'sinais-de-pressa',
+        heading: 'Sinais que pedem consulta sem esperar',
+        paragraphs: [
+          'Algumas alterações não devem aguardar a próxima mamografia de rotina, mesmo em quem tem exames recentes normais. Nódulo novo endurecido e fixo, saída espontânea de líquido por um dos mamilos, sobretudo se for sanguinolento, e pele com aspecto de casca de laranja entram nessa lista.',
+          'Também pedem avaliação o mamilo que se inverte ou muda de formato recentemente, o aumento rápido de uma das mamas com vermelhidão extensa e a ferida que não cicatriza. Gânglio endurecido na axila ou acima da clavícula pode ser o primeiro achado, antes de qualquer nódulo aparecer na mama.',
+          'Um exame de rastreamento normal não substitui a avaliação de uma queixa nova. Essa é a frase que, na prática, mais evita atraso entre o momento em que a pessoa percebe a alteração e a primeira consulta na unidade de saúde. Nenhum desses sinais confirma câncer sozinho; todos, porém, encurtam o caminho até a avaliação.',
+        ],
+      },
+      {
+        id: 'caminho-no-sus',
+        heading: 'O caminho dentro do SUS',
+        paragraphs: [
+          'A porta de entrada é a Unidade Básica de Saúde, que faz o exame clínico, pede a mamografia e encaminha ao serviço de referência quando há achado suspeito. O atendimento é integral e gratuito, do primeiro exame à cirurgia, à radioterapia e ao seguimento depois do tratamento.',
+          'Quem já tem nódulo palpável e imagem suspeita deve chegar à biópsia sem refazer etapas. Levar exames anteriores, com as imagens e não apenas os laudos, encurta esse caminho e evita repetição de dose de radiação, de deslocamento e de espera.',
+          'O tempo importa, mas não é motivo para pular etapas: cada exame tem uma função definida, e o diagnóstico bem feito é o que permite escolher o tratamento certo na ordem certa, sem idas e vindas depois. Pressa sem método costuma custar mais caro do que a espera organizada, com cada etapa cumprida na hora certa.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-mama'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'cancer-de-mama-mamografia-de-rastreamento',
+      'cancer-de-mama-na-familia-quando-investigar',
+      'cancer-de-mama-depois-da-cirurgia-o-braco',
+      'cancer-de-mama-durante-a-quimioterapia',
+    ],
+    references: [
+      {
+        label: 'Câncer de mama, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/mama/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de mama, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-mama',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-mama-depois-da-cirurgia-o-braco',
+    slug: 'cancer-de-mama-depois-da-cirurgia-o-braco',
+    title: 'Depois da cirurgia de mama: por que o braço incha e como cuidar dele',
+    excerpt:
+      'A retirada de gânglios da axila pode alterar a drenagem do braço. Entenda o que é linfedema, por que o linfonodo sentinela reduz esse risco e quais sinais pedem avaliação.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-a-cirurgia-muda',
+        heading: 'O que a cirurgia muda no corpo',
+        paragraphs: [
+          'Sempre que é possível, a cirurgia retira apenas o tumor com uma margem de tecido sadio e preserva a mama. Essa operação se chama setorectomia e costuma vir acompanhada de radioterapia depois. Quando o tumor é grande em relação à mama, existem vários focos ou o resultado estético seria ruim, indica-se a mastectomia, com possibilidade de reconstrução na mesma cirurgia.',
+          'Além da mama, a axila precisa ser avaliada, porque é por ali que a linfa da região drena. Essa parte da operação é a que costuma trazer consequências de longo prazo para o braço, e não a retirada do tumor em si. Muita gente chega à consulta preocupada com a mama e descobre que a conversa mais importante é sobre a axila e sobre o que acontece depois.',
+          'Saber disso antes da cirurgia ajuda a fazer perguntas melhores. Vale perguntar quantos gânglios serão retirados, se há possibilidade de preservar a cadeia, o que esperar do braço nas primeiras semanas e a quem recorrer se algo mudar. Quem entende o que foi feito consegue perceber antes o que está fora do esperado.',
+        ],
+      },
+      {
+        id: 'por-que-o-braco-inchaco',
+        heading: 'Por que o braço incha',
+        paragraphs: [
+          'O linfedema é o inchaço causado pela retirada dos gânglios. A linfa, que normalmente circula pelos vasos linfáticos e passa pelos gânglios da axila, encontra um caminho mais estreito depois da cirurgia e se acumula no braço. O resultado é um aumento de volume que pode vir acompanhado de sensação de peso, aperto e pele mais firme ao toque.',
+          'É uma das complicações cirúrgicas mais frequentes do tratamento do câncer de mama, ao lado do acúmulo de líquido sob a pele e de pequenas áreas de necrose na borda da incisão. Não é inevitável, não aparece em todo mundo e, quando aparece, tem tratamento e acompanhamento. O erro mais comum é tratar o inchaço como algo normal e esperar meses antes de mencionar.',
+          'O que muda o risco é a extensão da cirurgia na axila e o tratamento que vem depois. Radioterapia na região e infecções repetidas no braço entram na conta, e é por isso que a equipe insiste tanto em cuidados simples com a pele, com ferimentos e com as unhas.',
+        ],
+      },
+      {
+        id: 'sentinela-e-esvaziamento',
+        heading: 'Sentinela em vez de esvaziamento',
+        paragraphs: [
+          'Quando não há suspeita de comprometimento dos gânglios, retira-se apenas o primeiro gânglio da cadeia, o linfonodo sentinela. Se ele estiver livre, os demais tendem a estar livres também, e o esvaziamento completo pode ser evitado. Essa escolha reduz justamente o risco de linfedema, sem abrir mão do controle da doença na axila.',
+          'O esvaziamento axilar fica reservado aos casos com gânglios comprometidos, quando é preciso retirar a cadeia para controlar a doença. A decisão é técnica e depende do exame da axila antes e durante a cirurgia, com o resultado da análise disponível em tempo real.',
+          'Vale entender o trade-off: menos gânglios retirados significa menos risco de inchaço, mas exige seguimento atento para não deixar doença para trás. É uma balança que a equipe discute caso a caso, e não uma regra única aplicada a todas as pacientes da mesma forma.',
+        ],
+      },
+      {
+        id: 'movimento-e-cuidado',
+        heading: 'Movimento faz parte do cuidado',
+        paragraphs: [
+          'Depois da cirurgia, o braço costuma ficar sensível e mais fraco por algumas semanas. A orientação geral é retomar os movimentos de forma progressiva, seguindo o que o serviço de reabilitação indica, porque a mobilidade perdida é mais difícil de recuperar quando o braço passa muito tempo parado. Cada serviço tem seu protocolo, e o protocolo existe para ser seguido.',
+          'Manter peso adequado e praticar atividade física regular entram no mesmo pacote de cuidado. Não são recomendações genéricas de saúde: elas fazem parte do acompanhamento de quem tratou câncer de mama e ajudam a reduzir o risco de recidiva e de outros tumores ao longo dos anos.',
+          'O retorno ao trabalho, a sexualidade e a imagem corporal também fazem parte do cuidado e podem ser conversados abertamente com a equipe. Não há motivo médico para interromper a vida sexual durante ou depois do tratamento, e dúvidas sobre o corpo depois da cirurgia são legítimas e têm espaço na consulta.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de mama',
+          href: '/doencas/cancer-de-mama/',
+        },
+      },
+      {
+        id: 'sinais-para-relatar',
+        heading: 'O que relatar na consulta',
+        paragraphs: [
+          'Inchaço novo ou que aumenta ao longo do dia, sensação de peso no braço, anéis e mangas que passam a apertar são sinais de que a drenagem mudou. Nada disso é urgência, mas é informação que não deve esperar o próximo retorno marcado, porque o manejo precoce costuma ser mais simples do que o tardio.',
+          'Vermelhidão extensa, calor, dor e febre no braço podem indicar infecção, e merecem avaliação rápida. Feridas que não cicatrizam, endurecimento da pele e dor persistente no ombro também entram na lista do que precisa ser examinado, mesmo quando parecem coisas separadas do câncer.',
+          'Sintomas novos em qualquer parte do corpo, dor óssea contínua, falta de ar ou nódulos na outra mama ou na axila devem ser relatados nas consultas de seguimento, sem esperar o próximo exame agendado. A consulta de rotina serve para isso também, e não só para renovar receitas.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'O ritmo do acompanhamento',
+        paragraphs: [
+          'Nos dois primeiros anos, o INCA orienta exame clínico a cada seis meses e avaliação por imagem da mama uma vez por ano. Depois disso, a avaliação clínica e a imagem passam a ser anuais, e outros exames são pedidos conforme a queixa e o exame físico, sem baterias fixas de exames para todo mundo.',
+          'Esse calendário vale para quem fez cirurgia conservadora e para quem fez mastectomia, com ajustes conforme o tratamento associado. Ele não substitui a consulta por sintoma novo, que deve acontecer quando o sintoma aparece, e não na data mais próxima da agenda.',
+          'Guardar os exames, saber o próprio histórico e levar as dúvidas anotadas são hábitos simples que tornam cada retorno mais útil. Uma consulta com três perguntas preparadas rende mais do que uma sequência de perguntas apressadas nos últimos minutos, quando o médico já está olhando para a porta.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-mama'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'cancer-de-mama-mamografia-de-rastreamento',
+      'cancer-de-mama-nodulo-na-mama-o-que-fazer',
+      'cancer-de-mama-durante-a-quimioterapia',
+      'cancer-de-mama-na-familia-quando-investigar',
+    ],
+    references: [
+      {
+        label: 'Câncer de mama, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/mama/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de mama, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-mama',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-mama-durante-a-quimioterapia',
+    slug: 'cancer-de-mama-durante-a-quimioterapia',
+    title: 'Durante a quimioterapia: efeitos colaterais e quando avisar a equipe',
+    excerpt:
+      'Náusea, queda de cabelo, cansaço e baixa de defesas têm conduta própria. Veja por que o tratamento sistêmico vem antes ou depois da cirurgia e o que não deve ser resolvido por conta própria.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'antes-ou-depois-da-cirurgia',
+        heading: 'Antes ou depois da cirurgia',
+        paragraphs: [
+          'O tratamento do câncer de mama quase sempre combina um tratamento local com um sistêmico. Cirurgia e radioterapia cuidam da mama e dos gânglios; quimioterapia, hormonioterapia e terapia-alvo agem sobre células que podem estar circulando pelo corpo, mesmo quando a imagem não mostra nada fora da mama.',
+          'A ordem muda conforme o caso. Em tumores grandes ou com gânglios comprometidos, a quimioterapia pode vir antes da cirurgia, para reduzir o tumor e permitir uma operação menor. Depois da cirurgia, o tratamento adjuvante diminui o risco de a doença voltar, atuando sobre células que não aparecem em nenhum exame.',
+          'Entender em que etapa o tratamento está ajuda a interpretar os efeitos que aparecem e a conversa com a equipe. Quem faz quimioterapia antes da cirurgia acompanha o tamanho do tumor a cada ciclo; quem faz depois acompanha a recuperação e o retorno gradual à rotina.',
+        ],
+      },
+      {
+        id: 'defesas-e-anemia',
+        heading: 'Defesas baixas e anemia',
+        paragraphs: [
+          'A quimioterapia age em células que se dividem rápido, e não distingue as do tumor das da medula óssea. Por isso as defesas caem e a anemia aparece, com cansaço que não melhora com uma boa noite de sono e falta de ar aos esforços pequenos, como subir um lance de escada.',
+          'Aftas na boca e na garganta são comuns e podem atrapalhar a alimentação justamente na fase em que o corpo precisa de nutrição. Elas têm manejo, e o serviço de oncologia deve ser avisado quando algum sintoma foge do esperado, porque existe conduta específica para cada um deles.',
+          'Febre durante o tratamento não é um sintoma para observar em casa. Com as defesas baixas, ela pode ser o primeiro sinal de uma infecção grave, e a orientação do serviço sobre onde e quando procurar atendimento deve ser seguida à risca, inclusive fora do horário comercial.',
+        ],
+      },
+      {
+        id: 'nausea-e-cabelo',
+        heading: 'Náusea, cabelo e cansaço',
+        paragraphs: [
+          'Náusea, queda de cabelo, cansaço e alterações de humor são os efeitos mais lembrados por quem passa pelo tratamento, e todos têm condutas próprias. Nenhum deles é motivo para interromper o tratamento por conta própria, e nenhum precisa ser enfrentado sem ajuda.',
+          'A queda de cabelo é temporária na maior parte dos esquemas usados no câncer de mama, e o cabelo costuma voltar depois do fim da quimioterapia. Saber disso com antecedência não elimina o impacto, mas permite planejar lenços, perucas e o momento de contar às pessoas próximas, o que devolve alguma sensação de controle.',
+          'O cansaço costuma ser o efeito mais duradouro e o mais subestimado. Ele não se resolve com força de vontade, e a equipe pode ajudar a distinguir o cansaço do tratamento de outros problemas, como anemia, alterações do sono ou quadro depressivo que merece tratamento próprio.',
+        ],
+        cta: {
+          label: 'Entender o câncer de mama do diagnóstico ao tratamento',
+          href: '/doencas/cancer-de-mama/',
+        },
+      },
+      {
+        id: 'coracao',
+        heading: 'O coração precisa de acompanhamento',
+        paragraphs: [
+          'Alguns medicamentos usados no tratamento do câncer de mama têm risco cardíaco e exigem acompanhamento com exames do coração. Isso vale tanto para certas drogas da quimioterapia quanto para a radioterapia aplicada do lado esquerdo do tórax, que fica próxima ao coração.',
+          'O acompanhamento não é sinal de que o tratamento é perigoso, e sim de que ele é monitorado. Exames periódicos permitem detectar alterações cedo e ajustar a conduta antes que virem sintoma, o que é bem diferente de esperar o problema aparecer para então agir.',
+          'Falta de ar nova, palpitação, cansaço desproporcional ao esforço e inchaço nas pernas devem ser relatados, mesmo que pareçam pequenos diante do tratamento maior. Quem tem doença cardíaca prévia deve contar isso à equipe de oncologia desde a primeira consulta. Não é detalhe de prontuário: o histórico cardíaco pode mudar a escolha do medicamento e o tipo de exame de controle pedido ao longo dos ciclos.',
+        ],
+      },
+      {
+        id: 'hormonioterapia',
+        heading: 'Hormonioterapia por vários anos',
+        paragraphs: [
+          'Em tumores com receptor hormonal positivo, a hormonioterapia costuma ser mantida por vários anos. Ela funciona de forma diferente da quimioterapia, com efeitos próprios e, em geral, mais arrastados do que intensos, o que muda completamente a experiência do tratamento.',
+          'Ondas de calor, ressecamento vaginal e dores articulares são os efeitos mais comuns. Todos têm manejo, e nenhum deles deve levar ao abandono do tratamento sem conversa com a equipe, porque parar por conta própria muda o prognóstico de uma doença que estava sob controle.',
+          'Como o tratamento é longo, o desgaste aparece com o tempo e não nos primeiros meses. Vale anotar os sintomas ao longo do percurso e levá-los à consulta, em vez de esperar que desapareçam sozinhos ou de acreditar que reclamar deles é exagero. Um caderno com a data de início de cada sintoma vale mais do que a impressão geral de que tudo piorou. Isso muda a conduta na consulta seguinte.',
+        ],
+      },
+      {
+        id: 'nao-interromper-sozinho',
+        heading: 'Por que não interromper sozinho',
+        paragraphs: [
+          'Interromper um ciclo de quimioterapia ou parar a hormonioterapia por decisão própria parece uma escolha pequena diante do desconforto, mas não é. O esquema foi montado com doses e intervalos que se sustentam entre si, e a interrupção sem orientação compromete o resultado de meses de tratamento.',
+          'Quando o efeito colateral é intenso, o caminho é avisar a equipe. Existe ajuste de dose, troca de medicamento de suporte e mudança de esquema, e essas decisões são tomadas com informação que a pessoa sozinha não tem, por mais que conheça o próprio corpo.',
+          'Levar um diário simples, com os dias em que cada sintoma apareceu e o que ajudou, muda a qualidade da conversa no consultório. O relato organizado permite ajustes mais precisos do que a lembrança do pior dia, que costuma resumir tudo em uma frase só. Anotar o que comeu, como dormiu e quando tomou os remédios de suporte ajuda a equipe a separar causa e coincidência.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-mama'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'cancer-de-mama-mamografia-de-rastreamento',
+      'cancer-de-mama-nodulo-na-mama-o-que-fazer',
+      'cancer-de-mama-depois-da-cirurgia-o-braco',
+      'cancer-de-mama-na-familia-quando-investigar',
+    ],
+    references: [
+      {
+        label: 'Câncer de mama, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/mama/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de mama, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-mama',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-mama-na-familia-quando-investigar',
+    slug: 'cancer-de-mama-na-familia-quando-investigar',
+    title: 'Câncer de mama na família: quando a história pede avaliação genética',
+    excerpt:
+      'Entre 5% e 10% dos casos têm origem hereditária. Veja quais sinais na família justificam avaliação em serviço especializado e o que muda no rastreamento de quem tem risco elevado.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quanto-e-hereditario',
+        heading: 'Quanto do câncer de mama é hereditário',
+        paragraphs: [
+          'A herança genética explica uma parte menor dos casos, entre 5% e 10%, mas com peso grande quando está presente. Nessa parcela, a pessoa nasce com uma alteração em um gene que participa do reparo do DNA, e o risco de desenvolver tumores ao longo da vida sobe bastante em relação à população geral.',
+          'Isso significa que a maior parte das mulheres com câncer de mama não tem nenhuma alteração herdada, e que ter um caso na família está longe de ser uma sentença. A avaliação genética existe justamente para separar esses dois grupos com critério, em vez de tratar todo mundo como se fosse igual.',
+          'A distinção importa porque o rastreamento e o aconselhamento são diferentes para quem tem risco elevado. Tratar todas as pessoas como alto risco gera exames desnecessários e ansiedade; não identificar quem tem risco alto custa tempo, que é o que mais pesa no desfecho.',
+        ],
+      },
+      {
+        id: 'sinais-na-familia',
+        heading: 'Os sinais que pesam na história',
+        paragraphs: [
+          'Alguns padrões familiares chamam atenção. Vários casos de câncer de mama na mesma família, sobretudo antes dos 50 anos, é o mais conhecido. Câncer de ovário em parentes entra na mesma lista, porque os genes envolvidos nos dois tumores são os mesmos e o histórico de um muda a leitura do outro.',
+          'Também pesa o aparecimento do tumor em homens da família e o diagnóstico em idade muito jovem em mais de um parente. Nenhum desses sinais fecha diagnóstico: eles indicam que vale a pena uma avaliação especializada, com quem trabalha com risco familiar todos os dias.',
+          'A história precisa ser contada dos dois lados da família, não só do materno. Muita informação se perde porque ninguém perguntou sobre as tias e avós do lado paterno, e essa lacuna muda a interpretação do risco de forma significativa na hora da consulta. Vale ligar para os parentes mais velhos antes da consulta e anotar o que eles lembram, mesmo que a informação venha incompleta.',
+        ],
+      },
+      {
+        id: 'brca',
+        heading: 'BRCA1, BRCA2 e o que o teste mostra',
+        paragraphs: [
+          'Alterações nos genes BRCA1 e BRCA2 estão entre as causas hereditárias mais estudadas do câncer de mama. Quando há suspeita, a avaliação acontece em serviço especializado, que analisa a história familiar e define se o teste genético está indicado e qual teste faz sentido naquele caso.',
+          'O teste não é um exame de rotina e não deve ser pedido por conta própria. Um resultado alterado muda o seguimento de toda a família, e um resultado normal em alguém sem indicação pode trazer falsa tranquilidade a quem continua precisando de rastreamento comum.',
+          'Quando o teste é indicado, ele vem acompanhado de aconselhamento antes e depois. Saber o resultado sem entender o que ele significa para o próprio risco e para os parentes é informação pela metade, e informação pela metade costuma gerar decisões apressadas.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de mama',
+          href: '/doencas/cancer-de-mama/',
+        },
+      },
+      {
+        id: 'o-que-muda-no-rastreamento',
+        heading: 'O que muda no rastreamento',
+        paragraphs: [
+          'Quem tem risco elevado precisa de um plano individual, que pode começar mais cedo e incluir ressonância magnética além da mamografia. O intervalo entre exames também pode ser menor do que os dois anos previstos para a população geral, dependendo do caso e do serviço.',
+          'Essa diferença não é pequena. Para a maior parte das mulheres, o rastreamento segue a regra dos 50 aos 74 anos, a cada dois anos; para o grupo de risco elevado, o calendário é desenhado caso a caso, por escrito, com o serviço que acompanha a pessoa e conhece a história da família.',
+          'Vale guardar o plano em mãos e conferir se ele foi atualizado depois de qualquer mudança na família. Um diagnóstico novo em um parente próximo pode alterar a recomendação, e quem não pergunta continua seguindo um calendário que já não é o mais adequado.',
+        ],
+      },
+      {
+        id: 'risco-nao-e-destino',
+        heading: 'Risco não é destino',
+        paragraphs: [
+          'Cerca de 17% dos casos poderiam ser evitados com hábitos saudáveis, segundo o INCA. Praticar atividade física, manter o peso adequado, evitar bebida alcoólica e amamentar pelo maior tempo possível estão entre as medidas com impacto reconhecido, e valem para todos os grupos de risco.',
+          'Para quem tem história familiar, essas medidas não substituem a vigilância, mas continuam valendo. Risco genético e hábitos se somam na mesma conta, e não se anulam: ninguém herda um destino imutável, e ninguém compensa a genética apenas com bons hábitos.',
+          'Observar a própria mama, sem técnica obrigatória, segue útil para perceber mudanças e procurar avaliação. Não é um método de rastreamento e não substitui a mamografia, mas é uma forma de notar o que mudou e chegar mais cedo à consulta. O que não se recomenda é trocar o exame periódico pela observação em casa, que dá uma falsa sensação de segurança e adia a consulta.',
+        ],
+      },
+      {
+        id: 'como-levar-a-consulta',
+        heading: 'Como levar isso para a consulta',
+        paragraphs: [
+          'Antes de marcar a avaliação, vale montar a história da família por escrito: quem teve câncer, que tipo, com que idade e de que lado. Essas quatro informações são o que o especialista precisa para decidir se há indicação de investigação genética e para interpretar o que já se sabe.',
+          'Se houver exames ou laudos de parentes, leve-os. Um laudo antigo que confirma o tipo de tumor vale mais do que a lembrança de que alguém da família teve câncer na mesma idade, porque a memória familiar costuma embaralhar idades e diagnósticos. Quando não há documento, anote ao menos o ano aproximado do diagnóstico e a idade da pessoa na época, que é o que permite montar a linha do tempo da família.',
+          'A conversa pode começar na Unidade Básica de Saúde, que encaminha ao serviço de referência quando há critério. O atendimento oncológico no SUS é integral e gratuito, inclusive na avaliação de risco e no seguimento de quem tem história familiar.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-mama'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'cancer-de-mama-mamografia-de-rastreamento',
+      'cancer-de-mama-nodulo-na-mama-o-que-fazer',
+      'cancer-de-mama-depois-da-cirurgia-o-braco',
+      'cancer-de-mama-durante-a-quimioterapia',
+    ],
+    references: [
+      {
+        label: 'Câncer de mama, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/mama/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de mama, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-mama',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-prostata-psa-e-rastreamento',
+    slug: 'cancer-de-prostata-psa-e-rastreamento',
+    title: 'PSA e toque: por que o rastreamento de próstata não é indicado para todos',
+    excerpt:
+      'O Ministério da Saúde e o INCA não recomendam exames de rotina em homens sem sintomas. Entenda o que o PSA mostra, o que ele não mostra e em quais situações a investigação tem indicação clara.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-dizem-as-autoridades',
+        heading: 'O que dizem as autoridades brasileiras',
+        paragraphs: [
+          'A posição brasileira sobre rastreamento de próstata é cautelosa, e isso costuma surpreender quem espera o contrário. O Ministério da Saúde e a Organização Mundial da Saúde não recomendam exames de rotina em homens sem sintomas, e o INCA também não indica rastreamento populacional.',
+          'O motivo não é descrédito dos exames, e sim uma conta de benefícios e riscos que não fecha claramente a favor. Muitos tumores de próstata crescem devagar e nunca ameaçariam a vida, mas seriam diagnosticados e tratados, com cirurgias, radioterapia e efeitos sobre a urina e a ereção que a pessoa não precisaria enfrentar.',
+          'Isso não significa ignorar a próstata. Significa que a decisão sobre fazer exames sem sintoma é individual, tomada em conversa com um profissional de saúde, e não uma regra automática de check-up anual.',
+        ],
+      },
+      {
+        id: 'o-que-o-psa-mostra',
+        heading: 'O que o PSA mostra e o que ele não mostra',
+        paragraphs: [
+          'O PSA é uma proteína produzida pela próstata, e sua dosagem pode estar alta no câncer. O problema é que ela também sobe na hiperplasia benigna, condição que afeta mais da metade dos homens acima de 50 anos, e na prostatite, a inflamação da glândula.',
+          'Por isso um PSA alto não confirma nada sozinho, e um PSA normal não descarta a doença. O exame é uma pista que precisa ser lida junto com o toque retal, com o tamanho da próstata e com o histórico do paciente, e não um resultado que se interpreta isolado.',
+          'O toque retal avalia tamanho, forma e textura da próstata e permite perceber nódulos endurecidos. É rápido, feito no consultório e continua sendo parte da investigação, mesmo com toda a tecnologia de imagem disponível hoje.',
+        ],
+      },
+      {
+        id: 'quem-deve-procurar',
+        heading: 'Quem deve procurar avaliação',
+        paragraphs: [
+          'Existe um grupo em que a investigação tem indicação clara e não se confunde com exame de rotina. Homens com sintomas urinários, com sangue na urina ou com história familiar forte devem procurar avaliação médica, independentemente de qualquer política de rastreamento.',
+          'A história familiar pesa: o risco de um homem com pai ou irmão diagnosticado antes dos 60 anos é maior do que o da população geral, e histórico em avô ou tio também entra na avaliação. Nesses casos, a conversa sobre quando começar a acompanhar é individual e vale ser antecipada.',
+          'Fora dessas situações, quem deseja fazer os exames deve conversar com um profissional de saúde sobre vantagens e desvantagens antes de decidir. Sair de uma consulta com a decisão tomada em conjunto é diferente de fazer o exame porque ele apareceu na lista do check-up.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de próstata',
+          href: '/doencas/cancer-de-prostata/',
+        },
+      },
+      {
+        id: 'a-idade-e-o-risco',
+        heading: 'A idade como retrato do risco',
+        paragraphs: [
+          'A idade é o retrato mais fiel do risco. No Brasil, nove em cada dez homens diagnosticados têm mais de 55 anos, segundo o Ministério da Saúde, e a incidência e a mortalidade sobem de forma acentuada depois dos 60.',
+          'Isso ajuda a entender por que a conversa sobre exames muda com a idade e com as outras condições de saúde. Em um homem muito idoso, com doenças graves associadas, detectar um tumor de crescimento lento pode gerar mais transtorno do que benefício.',
+          'O inverso também vale: quem tem 55 anos, histórico familiar e boa saúde tem mais a ganhar com a conversa do que quem já está com a saúde frágil. A recomendação não é a mesma para todos, e é por isso que ela não virou uma campanha de exame obrigatório.',
+        ],
+      },
+      {
+        id: 'numeros-do-brasil',
+        heading: 'O tamanho do problema no Brasil',
+        paragraphs: [
+          'O INCA estima 77.920 casos novos de câncer de próstata por ano no triênio de 2026 a 2028. É o tumor mais incidente entre os homens brasileiros, atrás apenas do câncer de pele não melanoma, e em 2024 o país registrou 17.826 mortes pela doença.',
+          'As taxas ajustadas são maiores no Sudeste, no Centro-Oeste e no Nordeste, e menores no Norte e no Sul. Esses números explicam por que o tema volta tanto nas campanhas, mesmo com a posição cautelosa sobre rastreamento.',
+          'A diferença entre ter muitos casos e recomendar exames em massa está justamente no comportamento do tumor: a maioria cresce devagar, e o desafio é separar os que precisam de tratamento rápido dos que podem apenas ser acompanhados.',
+        ],
+      },
+      {
+        id: 'psa-alto-e-agora',
+        heading: 'PSA alto: o que acontece depois',
+        paragraphs: [
+          'Um PSA acima do valor de referência não leva direto à biópsia. O primeiro passo é reunir o que muda a leitura do número: o resultado do toque retal, o tamanho da próstata e os valores de exames anteriores, porque a comparação com o histórico diz mais do que uma medida isolada.',
+          'A hiperplasia benigna e a prostatite são as duas condições que mais confundem o quadro, e ambas são comuns. Na hiperplasia, a próstata cresce de forma uniforme e elástica ao toque; na prostatite, há inflamação, dor pélvica e, às vezes, febre, o que desloca a investigação para outro caminho.',
+          'Se a suspeita persistir depois dessa revisão, a biópsia entra em cena. O caminho até ela pode levar algumas semanas, e isso não é negligência: é o tempo de separar quem precisa do exame de quem pode apenas repetir a dosagem e voltar a conversar.',
+        ],
+      },
+      {
+        id: 'acesso-e-decisao',
+        heading: 'Onde fazer e como decidir',
+        paragraphs: [
+          'No SUS, o urologista da Unidade Básica de Saúde encaminha para o serviço de referência, e todas as etapas do diagnóstico e do tratamento são gratuitas. Isso vale tanto para quem chegou com sintoma quanto para quem foi encaminhado por história familiar.',
+          'A consulta é o lugar de fazer perguntas concretas: qual é o meu risco, o que acontece se o exame der alterado, quais são as chances de eu precisar de tratamento e quais efeitos ele traria. Sem essas respostas, decidir é chutar.',
+          'Levar exames anteriores e saber o histórico da família encurtam a conversa e tornam a decisão mais precisa. Nenhuma decisão sobre a próstata precisa ser tomada no mesmo dia em que a dúvida aparece.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-prostata'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'cancer-de-prostata-biopsia-como-e-feita',
+      'cancer-de-prostata-sintomas-urinarios',
+      'cancer-de-prostata-escolha-do-tratamento',
+      'cancer-de-prostata-risco-familiar',
+    ],
+    references: [
+      {
+        label: 'Câncer de próstata, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-prostata-biopsia-como-e-feita',
+    slug: 'cancer-de-prostata-biopsia-como-e-feita',
+    title: 'Biópsia de próstata: quando é indicada e o que o resultado informa',
+    excerpt:
+      'A biópsia é o único exame que confirma o câncer de próstata. Veja como ela é feita, o que o grau do tumor significa e por que o resultado muda a conversa sobre tratamento.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-e-indicada',
+        heading: 'Quando a biópsia é indicada',
+        paragraphs: [
+          'A investigação da próstata começa com dois exames simples: o toque retal e a dosagem de PSA. Quando um deles é alterado, ou quando os dois apontam na mesma direção, a biópsia entra como próximo passo.',
+          'Ela é o único exame que confirma o câncer. Toque e PSA levantam a suspeita; a biópsia diz o que é, e nenhum exame de imagem substitui esse papel, por mais moderna que seja a tecnologia disponível.',
+          'Por isso a indicação não é banal. Não se biopsia por curiosidade nem por um PSA isolado pouco acima do limite, sem considerar o toque, o tamanho da próstata e a evolução dos valores ao longo do tempo.',
+        ],
+      },
+      {
+        id: 'como-e-feita',
+        heading: 'Como a biópsia é feita',
+        paragraphs: [
+          'O procedimento é feito com agulha guiada por ultrassonografia e, em alguns serviços, por ressonância magnética. O aparelho mostra onde a agulha está, e o médico retira pequenos fragmentos de várias regiões da glândula.',
+          'São amostras pequenas, e o conjunto é que dá a dimensão do que está acontecendo. O material vai para o patologista, que analisa cada fragmento separadamente antes de fechar o laudo.',
+          'É um exame ambulatorial, feito no consultório ou no hospital-dia. O desconforto é passageiro, e a equipe orienta sobre o que esperar nas horas seguintes, incluindo a presença de sangue na urina ou no sêmen.',
+        ],
+      },
+      {
+        id: 'o-que-o-resultado-diz',
+        heading: 'O que o laudo informa',
+        paragraphs: [
+          'O laudo traz o tipo do tumor e o grau de diferenciação das células. Quase todos os casos são adenocarcinomas, tumores que nascem nas células glandulares que produzem o líquido prostático; os outros tipos são bem menos frequentes e têm comportamento diferente.',
+          'O grau vem numa nota de 6 a 10, chamada escore de Gleason ou grau ISUP. Quanto maior a nota, mais rápido o tumor tende a crescer e maior o risco de ele já ter saído da próstata, o que muda completamente a estratégia.',
+          'Essa nota é o que separa um tumor que pode apenas ser acompanhado de outro que precisa de tratamento imediato. É a informação mais importante do laudo, mais do que a simples palavra câncer.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de próstata',
+          href: '/doencas/cancer-de-prostata/',
+        },
+      },
+      {
+        id: 'depois-do-diagnostico',
+        heading: 'Depois do diagnóstico, o estadiamento',
+        paragraphs: [
+          'Confirmado o tumor, o passo seguinte é saber se a doença está restrita à próstata. Para isso o médico pode pedir tomografia, ressonância e cintilografia óssea, conforme o PSA e o grau do tumor.',
+          'A ressonância da próstata também ajuda a estimar a extensão local antes do tratamento, mostrando se o tumor encosta na cápsula da glândula. Esse conjunto de informações se chama estadiamento e orienta a escolha do tratamento.',
+          'Vale entender a lógica: o mesmo tumor, com a mesma nota, muda de conduta se estiver restrito ao órgão ou se já atingiu gânglios e ossos. É por isso que o diagnóstico não termina na biópsia.',
+        ],
+      },
+      {
+        id: 'o-que-muda-na-vida',
+        heading: 'O que muda na prática',
+        paragraphs: [
+          'Um resultado positivo não leva automaticamente à cirurgia. Dependendo da idade, do grau do tumor e das outras condições de saúde, a equipe pode propor vigilância ativa, radioterapia ou cirurgia, e cada caminho tem consequências diferentes.',
+          'Um resultado negativo também não encerra tudo. Quando o PSA continua subindo sem explicação, a equipe avalia a necessidade de repetir a coleta ou de investigar de outra forma, e essa decisão é técnica.',
+          'O que a biópsia faz, nos dois casos, é tirar a conversa do campo da suspeita. A partir do laudo, as decisões passam a se apoiar em dados concretos, e isso muda a qualidade do tratamento.',
+        ],
+      },
+      {
+        id: 'o-papel-da-ressonancia',
+        heading: 'O papel da ressonância',
+        paragraphs: [
+          'A ressonância magnética da próstata ganhou espaço antes da biópsia. Ela mostra regiões suspeitas dentro da glândula e, em alguns serviços, orienta onde a agulha deve entrar, o que aumenta a chance de a amostra vir do ponto certo.',
+          'O exame também ajuda a estimar a extensão local do tumor, mostrando se ele encosta na cápsula que envolve a glândula. Essa informação entra no estadiamento e na conversa sobre qual tratamento faz sentido.',
+          'Ela não substitui a biópsia, porque imagem não confirma diagnóstico. Serve para tornar a coleta mais dirigida e para planejar melhor o que vem depois, especialmente em casos em que o PSA e o toque não concordam entre si e a dúvida persiste.',
+        ],
+      },
+      {
+        id: 'perguntas-antes-da-biopsia',
+        heading: 'Perguntas que ajudam antes do exame',
+        paragraphs: [
+          'Chegar à biópsia com algumas perguntas prontas muda a experiência. Vale saber quantos fragmentos serão retirados, se existe preparo necessário, quais medicamentos devem ser suspensos e o que fazer se aparecer febre ou dor depois do procedimento, porque essas respostas evitam idas desnecessárias ao pronto-socorro.',
+          'Também vale perguntar quem dará o resultado, em quanto tempo e o que acontece se o laudo vier negativo com o PSA ainda alto. Um resultado negativo não encerra a investigação quando o quadro clínico continua sugerindo algo, e saber disso antes evita a sensação de que o caso foi abandonado.',
+          'Por fim, pergunte como o resultado será discutido. Um laudo na mão, lido sozinho em casa, costuma gerar mais medo do que informação; a mesma informação explicada por quem pediu o exame muda a compreensão e a decisão que vem depois.',
+        ],
+      },
+      {
+        id: 'acesso-no-sus',
+        heading: 'Onde fazer no SUS',
+        paragraphs: [
+          'No Sistema Único de Saúde, o urologista da Unidade Básica de Saúde encaminha para o serviço de referência, e todas as etapas do diagnóstico e do tratamento são gratuitas, incluindo a biópsia e os exames de estadiamento.',
+          'Levar os exames anteriores, com os valores de PSA em ordem cronológica, ajuda muito. A curva do PSA ao longo do tempo diz mais do que uma medida isolada, e essa informação muitas vezes se perde entre um serviço e outro.',
+          'Perguntar quantos fragmentos serão retirados, o que fazer nas primeiras horas depois do exame e quando o resultado fica pronto são dúvidas simples que evitam ansiedade desnecessária.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-prostata'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'cancer-de-prostata-psa-e-rastreamento',
+      'cancer-de-prostata-sintomas-urinarios',
+      'cancer-de-prostata-escolha-do-tratamento',
+      'cancer-de-prostata-risco-familiar',
+    ],
+    references: [
+      {
+        label: 'Câncer de próstata, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-prostata-sintomas-urinarios',
+    slug: 'cancer-de-prostata-sintomas-urinarios',
+    title: 'Jato fraco e levantar à noite: quando sintomas urinários pedem investigação',
+    excerpt:
+      'A maioria dos homens com queixas urinárias tem causa benigna, mas é justamente essa semelhança que exige avaliação. Veja quais sinais se confundem com o câncer e quais não podem esperar.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-se-parecem',
+        heading: 'Por que as queixas se parecem tanto',
+        paragraphs: [
+          'Na fase inicial, o câncer de próstata costuma ser silencioso. Quando dá sintomas, eles se parecem com os do crescimento benigno da próstata, que afeta mais da metade dos homens acima de 50 anos. É essa semelhança que torna a avaliação necessária.',
+          'A próstata envolve a uretra, o canal por onde passa a urina, e fica logo abaixo da bexiga. Qualquer aumento da glândula, benigno ou maligno, estreita essa passagem e produz o mesmo tipo de queixa.',
+          'Por isso não existe sintoma que diga, sozinho, se a causa é benigna ou maligna. O que separa os dois é o exame físico e, quando indicado, a dosagem de PSA.',
+        ],
+      },
+      {
+        id: 'sinais-iniciais',
+        heading: 'Os sinais do dia a dia',
+        paragraphs: [
+          'As queixas mais comuns são dificuldade para começar e terminar de urinar, jato mais fraco, necessidade de urinar muitas vezes durante o dia ou à noite e sensação de esvaziamento incompleto. São sintomas que se instalam devagar e costumam ser atribuídos à idade.',
+          'Sangue na urina aparece em alguns casos e nunca deve ser ignorado, mesmo quando indolor e passageiro. Ele muda a prioridade da investigação e pede consulta em poucos dias.',
+          'Nenhum desses sinais deve ser interpretado como câncer, e nenhum deve ser descartado como coisa da idade. As duas leituras erram: uma assusta sem motivo, a outra adia o diagnóstico.',
+        ],
+      },
+      {
+        id: 'doenca-avancada',
+        heading: 'Quando a doença já saiu da próstata',
+        paragraphs: [
+          'Na doença avançada entram sintomas diferentes, ligados a outros órgãos. Dor óssea contínua, sobretudo na lombar, no quadril e nas costelas, é o mais característico, porque a metástase óssea é a complicação mais temida.',
+          'Também aparecem inchaço nas pernas, perda de peso e cansaço. Em situações graves pode haver infecção generalizada ou insuficiência renal por obstrução do fluxo de urina, quadros que exigem atendimento imediato.',
+          'Esses sinais não são o começo habitual da doença, e sim o resultado de anos sem avaliação. É por isso que a conversa sobre sintomas urinários importa mesmo quando o tumor ainda não dá sinal.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de próstata',
+          href: '/doencas/cancer-de-prostata/',
+        },
+      },
+      {
+        id: 'urgencias',
+        heading: 'O que não pode esperar',
+        paragraphs: [
+          'Alguns quadros exigem atendimento no mesmo dia. A incapacidade de urinar, com dor na bexiga e abdome distendido, é o mais claro: indica obstrução e precisa ser resolvida rapidamente.',
+          'Febre alta com dor lombar ou calafrios pode indicar infecção urinária grave, e sangue vivo na urina, mesmo sem dor, também pede avaliação imediata. Dor óssea contínua que piora à noite e não passa com analgésico comum entra na mesma lista.',
+          'Perda de peso rápida e sem explicação, com fraqueza e falta de apetite, e inchaço nas duas pernas ou dificuldade para caminhar por dor óssea completam o grupo que não deve aguardar agenda.',
+        ],
+      },
+      {
+        id: 'o-que-esperar-da-consulta',
+        heading: 'O que acontece na consulta',
+        paragraphs: [
+          'A investigação começa com dois exames simples: o toque retal, que avalia tamanho, forma e textura da próstata, e a dosagem de PSA. O toque é rápido, feito no consultório, e permite perceber nódulos endurecidos que o PSA sozinho não mostra.',
+          'O PSA pode estar alto no câncer, mas também na hiperplasia benigna e na prostatite, e por isso não confirma nada sozinho. Quando um dos exames é alterado, ou os dois apontam na mesma direção, a biópsia entra como próximo passo.',
+          'No SUS, o urologista da Unidade Básica de Saúde faz essa avaliação inicial e encaminha ao serviço de referência quando necessário. Todas as etapas do diagnóstico e do tratamento são gratuitas.',
+        ],
+      },
+      {
+        id: 'o-que-pode-ser',
+        heading: 'O que costuma estar por trás',
+        paragraphs: [
+          'A maior parte dos homens com sintomas urinários tem uma causa benigna. A hiperplasia benigna é o aumento que afeta mais da metade dos homens acima de 50 anos, com próstata uniforme e elástica ao toque, e responde pela maioria dos casos.',
+          'A prostatite é a inflamação da glândula, geralmente bacteriana, com dor pélvica, sintomas urinários e, às vezes, febre. É a segunda condição que mais se confunde com o câncer e costuma ter tratamento específico.',
+          'Reconhecer essas duas condições não dispensa a avaliação, porque elas podem coexistir com o tumor. O que muda é o caminho: cada uma tem conduta própria, e o diagnóstico correto evita tratamento errado.',
+        ],
+      },
+      {
+        id: 'quando-insistir',
+        heading: 'Quando voltar a insistir',
+        paragraphs: [
+          'Sintomas que voltam depois de um tratamento, que pioram com o tempo ou que aparecem em quem nunca teve nada merecem nova avaliação. A repetição não é sinal de que o primeiro médico errou: a próstata muda com a idade.',
+          'Também vale voltar quando aparece um sintoma novo fora do trato urinário, como dor nas costas que não cede ou perda de peso. Esses sinais podem ter outra causa, e é justamente por isso que precisam ser investigados.',
+          'Levar uma lista simples do que mudou e desde quando ajuda mais do que parece. O relato organizado permite separar o que é antigo do que é recente, e essa distinção muda a conduta.',
+        ],
+      },
+      {
+        id: 'acompanhar-os-sintomas',
+        heading: 'Como descrever o que você sente',
+        paragraphs: [
+          'Anotar por alguns dias quantas vezes urina de dia e de noite, se o jato mudou e se sobra sensação de bexiga cheia ajuda a consulta a começar pelo que importa. Números simples valem mais do que a frase de que está urinando demais.',
+          'Também vale registrar se há dor, sangue ou febre junto com as queixas, e desde quando o quadro mudou. Esses detalhes separam uma queixa antiga e estável de algo que começou há poucas semanas.',
+          'A lista não substitui o exame e não precisa ser perfeita. Ela serve para não esquecer o principal na hora da consulta, quando o nervosismo costuma apagar justamente os detalhes mais úteis.',
+        ],
+      },
+      {
+        id: 'homens-abaixo-dos-55',
+        heading: 'A minoria que também adoece',
+        paragraphs: [
+          'Nove em cada dez homens diagnosticados no Brasil têm mais de 55 anos, segundo o Ministério da Saúde. Isso significa que uma em cada dez pessoas com o diagnóstico está abaixo dessa idade, e esse grupo costuma demorar mais para procurar ajuda.',
+          'Em quem tem história familiar forte, o risco aparece mais cedo e a avaliação pode ser antecipada. Nesses casos, a conversa sobre quando começar o acompanhamento é individual e não deve esperar o aniversário de 55.',
+          'Sintoma urinário em homem jovem não é câncer por definição, e também não é motivo para tranquilidade automática. A regra é a mesma em qualquer idade: queixa que persiste merece avaliação.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-prostata'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'cancer-de-prostata-psa-e-rastreamento',
+      'cancer-de-prostata-biopsia-como-e-feita',
+      'cancer-de-prostata-escolha-do-tratamento',
+      'cancer-de-prostata-risco-familiar',
+    ],
+    references: [
+      {
+        label: 'Câncer de próstata, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-prostata-escolha-do-tratamento',
+    slug: 'cancer-de-prostata-escolha-do-tratamento',
+    title: 'Vigilância ativa, cirurgia ou radioterapia: como se escolhe o tratamento',
+    excerpt:
+      'Nem todo tumor de próstata precisa ser tratado na hora. Entenda o que é vigilância ativa, o que cada tratamento faz e por que os efeitos sobre urina e ereção entram na decisão.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'nem-todo-tumor-precisa-tratar',
+        heading: 'Nem todo tumor precisa de tratamento imediato',
+        paragraphs: [
+          'Na maioria dos casos o tumor de próstata cresce devagar e não ameaça a saúde durante muitos anos. Em uma parte menor, cresce rápido, rompe a cápsula da glândula e se espalha para gânglios e ossos, mudando o prognóstico.',
+          'É essa diferença de comportamento que torna a decisão tão delicada. Tratar demais um tumor lento significa conviver com efeitos que não eram necessários; tratar de menos um tumor agressivo significa perder tempo.',
+          'A escolha do tratamento depende do estadiamento, do grau do tumor, da idade e das outras condições de saúde. Não existe conduta única, e a mesma biópsia pode levar a caminhos diferentes em homens diferentes.',
+        ],
+      },
+      {
+        id: 'vigilancia-ativa',
+        heading: 'Vigilância ativa não é abandono',
+        paragraphs: [
+          'Para tumores muito pequenos e de crescimento lento existe a vigilância ativa: acompanhamento com PSA e novas biópsias, adiando o tratamento até que haja sinal de progressão. É uma escolha legítima, sobretudo em homens mais velhos ou com outras doenças graves.',
+          'Ela não significa deixar o caso de lado. Significa trocar o tratamento imediato por vigilância organizada, com exames em intervalos definidos e critério claro para intervir quando algo mudar.',
+          'O benefício é evidente: quem nunca precisar de tratamento evita cirurgia, radioterapia e seus efeitos. O custo é ter de manter os exames em dia e conviver com a incerteza, o que não serve para todo mundo.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de próstata',
+          href: '/doencas/cancer-de-prostata/',
+        },
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Cirurgia: retirar a glândula',
+        paragraphs: [
+          'A prostatectomia radical retira toda a próstata e as vesículas seminais, e é uma das opções para a doença localizada com intenção de cura. Pode ser feita por cirurgia aberta, por videolaparoscopia ou com auxílio de robô.',
+          'A escolha da técnica depende da experiência da equipe, do tamanho da próstata e das características do tumor. A técnica mais moderna não elimina os riscos, e isso precisa ficar claro antes da operação.',
+          'Incontinência urinária e disfunção erétil podem ocorrer mesmo nas mãos mais experientes, porque dependem de estruturas muito próximas da próstata. A preservação dos nervos da ereção é tentada quando o tumor permite, e a recuperação costuma levar meses.',
+        ],
+      },
+      {
+        id: 'radioterapia',
+        heading: 'Radioterapia: destruir sem retirar',
+        paragraphs: [
+          'A radioterapia pode ser externa, com aparelho que direciona radiação à próstata por várias semanas, ou interna, com implante de sementes radioativas no órgão. É uma alternativa à cirurgia na doença localizada.',
+          'Nos tumores de risco intermediário e alto, ela costuma ser combinada com hormonioterapia, que potencializa o efeito da radiação. O tratamento é ambulatorial e não deixa a pessoa radioativa.',
+          'Existem ainda opções menos difundidas, como a crioterapia, que destrói o tecido por congelamento, e o ultrassom focalizado de alta intensidade, indicadas em situações selecionadas por equipes especializadas.',
+        ],
+      },
+      {
+        id: 'hormonioterapia',
+        heading: 'Hormonioterapia e doença avançada',
+        paragraphs: [
+          'As células do câncer de próstata dependem da testosterona para crescer, e a hormonioterapia reduz essa estimulação. Ela é usada antes ou junto com a radioterapia em tumores de maior risco e é o tratamento central na doença metastática.',
+          'Pode ser feita com medicamentos injetáveis que bloqueiam a produção hormonal, com comprimidos que impedem a ação da testosterona ou, em situações específicas, com a retirada cirúrgica dos testículos.',
+          'A quimioterapia fica reservada aos casos avançados, sobretudo quando há metástases e o tumor deixa de responder à hormonioterapia. Ela é aplicada em ciclos, com controle de exames de sangue, e pode causar queda de cabelo, cansaço, náusea e redução das defesas.',
+        ],
+      },
+      {
+        id: 'efeitos-na-conversa',
+        heading: 'Os efeitos entram na conversa',
+        paragraphs: [
+          'A próstata não é responsável pela ereção nem pelo orgasmo, mas fica ao lado dos nervos que comandam a ereção. Por isso cirurgia e radioterapia podem afetar a função sexual e o controle da urina.',
+          'A incontinência aparece em uma parte dos homens operados e melhora com fisioterapia do assoalho pélvico na maioria dos casos. A disfunção erétil é frequente depois da cirurgia e da radioterapia, e tem tratamento com medicamentos, dispositivos e apoio especializado.',
+          'Falar sobre esses efeitos antes de decidir é parte do cuidado, e não um detalhe constrangedor a ser evitado. Quem escolhe sabendo o que esperar costuma lidar melhor com o pós-tratamento.',
+        ],
+      },
+      {
+        id: 'como-decidir',
+        heading: 'Como a decisão é construída',
+        paragraphs: [
+          'A conversa reúne quatro informações: o grau do tumor, o estadiamento, a idade e as outras doenças do paciente. Com elas, a equipe apresenta as opções e o que cada uma implica em controle da doença e em qualidade de vida.',
+          'Vale perguntar sobre a chance de cura em cada caminho, o tempo de recuperação, o efeito esperado sobre a urina e a ereção e o que acontece se o tumor voltar. São perguntas objetivas, e as respostas existem.',
+          'Depois do tratamento, o seguimento é feito com dosagem de PSA a cada três ou seis meses, conforme o caso, além de consultas e exames de imagem quando há suspeita de recidiva. Um PSA que volta a subir pode ser o primeiro sinal de retorno, antes de qualquer sintoma.',
+        ],
+      },
+      {
+        id: 'vida-depois',
+        heading: 'A vida depois do tratamento',
+        paragraphs: [
+          'Retomar a atividade física, manter peso adequado, não fumar e reduzir o álcool ajudam na recuperação e na saúde geral. São medidas simples, sem contraindicação na maioria dos casos e com efeito que aparece em poucos meses.',
+          'Exercícios para o assoalho pélvico devem começar cedo quando há incontinência, com orientação de fisioterapeuta. Andar de bicicleta e atividades que pressionam o períneo podem ser retomadas conforme liberação da equipe.',
+          'O seguimento com PSA a cada três ou seis meses, conforme o caso, é o que detecta a recidiva antes de qualquer sintoma. Faltar a essas consultas quando tudo vai bem é o erro mais comum de quem já se considera curado.',
+        ],
+      },
+      {
+        id: 'apoio-emocional',
+        heading: 'O peso que não aparece no exame',
+        paragraphs: [
+          'Homens em tratamento relatam com frequência ansiedade, alterações de humor e dificuldade para falar sobre sexualidade. Esses temas podem e devem ser levados à consulta, e não são menos importantes do que o valor do PSA.',
+          'O apoio da família tem papel concreto na adesão e na recuperação, e o acompanhamento psicológico ajuda quando o medo da recidiva ocupa espaço demais na rotina e nas decisões do dia a dia.',
+          'Falar sobre ereção, sobre absorvente ou sobre medo de morrer não é sinal de fraqueza, e sim parte de um tratamento que mexe com a identidade. Quem consegue nomear isso costuma aderir melhor ao seguimento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-prostata'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'cancer-de-prostata-psa-e-rastreamento',
+      'cancer-de-prostata-biopsia-como-e-feita',
+      'cancer-de-prostata-sintomas-urinarios',
+      'cancer-de-prostata-risco-familiar',
+    ],
+    references: [
+      {
+        label: 'Câncer de próstata, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-prostata-risco-familiar',
+    slug: 'cancer-de-prostata-risco-familiar',
+    title: 'Pai ou irmão com câncer de próstata: o que muda no seu risco',
+    excerpt:
+      'Idade e história familiar são os fatores mais consistentes no câncer de próstata. Veja quanto pesa ter um caso em casa, quais exposições ocupacionais contam e o que fazer com essa informação.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'idade-e-familia',
+        heading: 'Idade e família: os dois fatores mais consistentes',
+        paragraphs: [
+          'A idade é o principal fator de risco do câncer de próstata. A incidência e a mortalidade sobem de forma acentuada depois dos 60 anos, e no Brasil nove em cada dez homens diagnosticados têm mais de 55 anos, segundo o Ministério da Saúde.',
+          'O segundo fator mais consistente é a história familiar. O risco de um homem com pai ou irmão diagnosticado antes dos 60 anos é maior do que o da população geral, e histórico em avô ou tio também conta na avaliação.',
+          'Esses dois fatores não são modificáveis, e é justamente por isso que eles organizam a conversa sobre quando começar a acompanhar a próstata. Não se trata de destino, e sim de calendário.',
+        ],
+      },
+      {
+        id: 'hereditariedade',
+        heading: 'O que a história familiar realmente indica',
+        paragraphs: [
+          'Ter um parente com a doença aumenta o risco, mas não transforma ninguém em paciente. A maior parte dos casos ocorre em homens sem nenhum caso na família, e a maior parte dos homens com um caso na família nunca terá o diagnóstico.',
+          'O que muda é a prioridade da conversa. Um homem com pai diagnosticado aos 52 anos deve discutir o tema mais cedo do que outro sem história, e essa diferença é prática, não estatística decorativa.',
+          'Vale perguntar em casa com detalhe: quem teve, com que idade e qual foi o grau do tumor. Idade ao diagnóstico e agressividade mudam a interpretação, e essa informação costuma se perder entre gerações.',
+        ],
+      },
+      {
+        id: 'outros-fatores',
+        heading: 'Peso, fumo e alimentação',
+        paragraphs: [
+          'Sobrepeso e obesidade aumentam o risco de doença avançada, e fumantes têm maior chance de morrer por câncer de próstata. Não são fatores que expliquem a maioria dos casos, mas são os que podem ser trabalhados.',
+          'A comparação entre países mostra taxas muito mais altas onde a alimentação é rica em carne e laticínios. Isso sustenta a recomendação de uma dieta com mais vegetais e menos gordura animal, sem transformar nenhum alimento em vilão.',
+          'Nenhum alimento, isolado, previne ou causa a doença. Desconfie de promessas de dieta milagrosa e de suplemento que prometa proteger a próstata, porque elas não existem no que a medicina consegue sustentar hoje.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de próstata',
+          href: '/doencas/cancer-de-prostata/',
+        },
+      },
+      {
+        id: 'trabalho-e-exposicao',
+        heading: 'Exposições ligadas ao trabalho',
+        paragraphs: [
+          'Alguns tipos de trabalho aparecem associados ao tumor, segundo o INCA. Os mais citados envolvem arsênio, cádmio, produtos da borracha e da indústria têxtil, agrotóxicos e radiação ionizante.',
+          'O trabalho noturno entre 22h e 5h também entra nessa lista, assim como aparece entre os riscos ocupacionais de outros tumores. São associações de risco, não causas certas para um indivíduo.',
+          'Se você trabalha ou trabalhou com esses materiais, isso é informação de saúde e deve ser dito ao médico. Ela entra na avaliação de risco do mesmo modo que a história familiar.',
+        ],
+      },
+      {
+        id: 'sintomas-que-mudam',
+        heading: 'Sintomas que mudam a prioridade',
+        paragraphs: [
+          'Independentemente da história familiar, alguns sintomas antecipam a consulta. Sangue na urina, mesmo indolor, é um deles, e não deve ser atribuído a esforço ou a idade sem avaliação.',
+          'Dificuldade para começar ou terminar de urinar, jato fraco e necessidade de urinar muitas vezes à noite são comuns em homens acima de 50 anos por causas benignas, mas merecem consulta quando aparecem ou pioram.',
+          'Dor óssea contínua na lombar, no quadril ou nas costelas, perda de peso sem explicação e inchaço nas pernas são sinais de doença avançada e pedem avaliação sem espera. Nesse ponto, o sintoma já chegou tarde.',
+        ],
+      },
+      {
+        id: 'prevencao-possivel',
+        heading: 'O que dá para prevenir de fato',
+        paragraphs: [
+          'Não existe forma comprovada de prevenir o câncer de próstata. O que se pode fazer é reduzir o risco de doença avançada, e essa diferença de linguagem não é detalhe: é o que a evidência permite afirmar.',
+          'Manter peso adequado, praticar atividade física, comer mais frutas, verduras e grãos, limitar carne vermelha e gordura animal, não fumar e moderar o álcool formam o conjunto com algum sustentáculo.',
+          'Nenhuma dessas medidas substitui a avaliação quando há sintoma ou história familiar forte. Elas somam, e não competem com o acompanhamento médico.',
+        ],
+      },
+      {
+        id: 'o-que-perguntar',
+        heading: 'O que perguntar na consulta',
+        paragraphs: [
+          'Com história familiar, a consulta rende mais com perguntas específicas: devo começar a acompanhar agora, com que frequência, e o que muda no meu caso por ter um parente com a doença. As respostas dependem de idade e do grau de parentesco.',
+          'Vale perguntar também o que fazer se o PSA vier alterado, porque o exame isolado assusta sem informar. Saber de antemão quais seriam os próximos passos reduz a chance de decisões tomadas no susto.',
+          'A posição brasileira é cautelosa: o Ministério da Saúde, a Organização Mundial da Saúde e o INCA não recomendam rastreamento populacional. Isso não impede a conversa individual, e é nela que o seu caso é considerado.',
+        ],
+      },
+      {
+        id: 'numeros-do-brasil',
+        heading: 'O tamanho do problema',
+        paragraphs: [
+          'O INCA estima 77.920 casos novos por ano no triênio de 2026 a 2028, o que faz do câncer de próstata o tumor mais incidente entre homens brasileiros, atrás apenas do câncer de pele não melanoma.',
+          'Em 2024 foram registradas 17.826 mortes pela doença. As taxas ajustadas são maiores no Sudeste, no Centro-Oeste e no Nordeste, e menores no Norte e no Sul, o que reflete diferenças de acesso e de perfil de risco.',
+          'Esses números convivem com a posição cautelosa sobre rastreamento, e a explicação está no comportamento do tumor: a maioria cresce devagar, e o desafio é separar quem precisa de tratamento rápido de quem pode ser acompanhado.',
+        ],
+      },
+      {
+        id: 'rotina-que-ajuda',
+        heading: 'Uma rotina que ajuda de verdade',
+        paragraphs: [
+          'Movimento regular e peso controlado são as medidas com melhor relação entre esforço e benefício. Não exigem academia, e caminhadas frequentes já contam na conta da saúde geral.',
+          'Reduzir carne vermelha e gordura animal e aumentar vegetais é uma mudança de padrão alimentar, não uma dieta de exceção. O efeito aparece ao longo de anos, e não na semana seguinte.',
+          'Parar de fumar vale em qualquer idade. Se você fuma há décadas, isso não é motivo para desistir: fumantes têm maior chance de morrer por câncer de próstata, e parar é a única forma de sair desse grupo.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['cancer-de-prostata'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'cancer-de-prostata-psa-e-rastreamento',
+      'cancer-de-prostata-biopsia-como-e-feita',
+      'cancer-de-prostata-sintomas-urinarios',
+      'cancer-de-prostata-escolha-do-tratamento',
+    ],
+    references: [
+      {
+        label: 'Câncer de próstata, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/prostata/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de próstata, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-prostata',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer',
+    slug: 'cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer',
+    title: 'Nódulo no pulmão: o que fazer quando ele aparece no exame',
+    excerpt:
+      'A maior parte dos nódulos encontrados em exames de tórax não é câncer. Entenda o que a imagem informa, quando a biópsia é necessária e por que acompanhar também é conduta.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'achado-por-acaso',
+        heading: 'O nódulo que aparece sem avisar',
+        paragraphs: [
+          'Um nódulo no pulmão quase nunca é descoberto por causa de um sintoma. Ele aparece numa radiografia pedida por outro motivo, num exame de rotina ou na investigação de uma tosse que não passava, e chega à pessoa como uma frase solta no laudo.',
+          'É um achado comum. Boa parte de quem faz tomografia de tórax tem algum nódulo pequeno, e a maioria deles não é câncer. A pergunta que importa não é se existe um nódulo, e sim o que as características dele permitem concluir.',
+          'Este texto trata do caminho a partir do achado: o que a imagem informa, quais exames vêm depois e em que momento a biópsia deixa de ser uma escolha e passa a ser necessária.',
+        ],
+      },
+      {
+        id: 'nem-todo-nodulo-e-cancer',
+        heading: 'Nem todo nódulo é câncer',
+        paragraphs: [
+          'Nódulo é uma descrição de forma, não um diagnóstico: uma opacidade arredondada no pulmão, cercada de tecido normal. Pode ser cicatriz de uma infecção antiga, área de tuberculose já tratada, um tumor benigno ou um câncer começando.',
+          'O pulmão acumula marcas do que passou por ele. Pneumonia de repetição, bronquite crônica e exposição a poeira deixam cicatrizes que aparecem na imagem e assustam quem lê o laudo sem contexto.',
+          'Por isso o laudo isolado não fecha nada. O que separa as possibilidades é o conjunto: tamanho, formato, borda, densidade, localização e, sobretudo, o que acontece com o nódulo no exame seguinte. Duas pessoas com o mesmo texto no laudo podem receber condutas diferentes, porque idade e história de fumo mudam o peso de cada uma dessas características.',
+        ],
+      },
+      {
+        id: 'como-se-avalia',
+        heading: 'Como o médico avalia o nódulo',
+        paragraphs: [
+          'A primeira coisa que o médico faz é comparar. Se existe uma tomografia anterior, o mesmo nódulo pode ser medido ao longo do tempo, e essa comparação vale mais do que qualquer descrição isolada: um nódulo estável por dois anos tem chance muito menor de ser câncer do que um que cresceu.',
+          'Depois entram a história e o exame físico. Idade, tabagismo — quantos cigarros por dia e por quantos anos —, exposições no trabalho, casos de câncer na família e infecções pulmonares anteriores mudam a probabilidade antes de qualquer exame novo. Um nódulo em quem nunca fumou e não tem exposição relevante não é lido da mesma forma que o mesmo nódulo em alguém com quarenta anos de cigarro.',
+          'Alguns nódulos têm cara de benignos: pequenos, de borda lisa, com calcificação. Outros pedem investigação imediata: borda irregular, crescimento documentado e localização central, perto dos brônquios.',
+        ],
+      },
+      {
+        id: 'exames',
+        heading: 'Tomografia, PET e biópsia: o que cada exame responde',
+        paragraphs: [
+          'A radiografia costuma ser o primeiro exame, mas é pouco sensível: mostra o pulmão como uma sombra e deixa passar nódulos pequenos. A tomografia é o exame que define tamanho, forma e relação do nódulo com as estruturas vizinhas, e é por isso que um nódulo visto apenas na radiografia costuma ser reavaliado em tomografia antes de qualquer decisão.',
+          'Quando há suspeita de doença espalhada, entram a tomografia por emissão de pósitrons, que avalia atividade metabólica, e a ressonância do crânio. Nenhum deles substitui o tecido.',
+          'O diagnóstico só se fecha com biópsia. Em tumores centrais, o material é obtido por broncoscopia; nos periféricos, por punção guiada por imagem. É no tecido que o patologista define o tipo do tumor e, nos adenocarcinomas, pesquisa mutações que abrem espaço para as terapias-alvo.',
+        ],
+      },
+      {
+        id: 'sinais-que-mudam',
+        heading: 'Sinais que tiram o caso da fila de espera',
+        paragraphs: [
+          'Alguns sintomas antecipam a investigação, sobretudo em quem fuma ou já fumou. Nenhum deles confirma câncer, mas todos justificam imagem sem esperar a próxima consulta de rotina:',
+          'A maioria das pessoas com esses sinais tem outra causa, e é importante dizer isso com clareza. A função do alerta não é assustar: é encurtar o tempo até o exame, que é o que muda o desfecho quando o nódulo é maligno.',
+        ],
+        bullets: [
+          'Tosse que não melhora em três semanas ou que muda de padrão em quem fuma',
+          'Sangue no escarro, mesmo em pouca quantidade ou uma única vez',
+          'Falta de ar nova ou que piora progressivamente',
+          'Pneumonia recorrente sempre no mesmo ponto do pulmão',
+          'Rouquidão persistente por mais de duas semanas, sem infecção de garganta',
+          'Perda de peso e cansaço que não se explicam',
+        ],
+      },
+      {
+        id: 'acompanhar-e-conduta',
+        heading: 'Acompanhar também é conduta',
+        paragraphs: [
+          'Quando o nódulo é pequeno e não tem sinal de alarme, a conduta pode ser repetir a tomografia em alguns meses em vez de biopsiar na hora. Isso não é adiar: é escolher o exame com a melhor relação entre risco e informação.',
+          'A lógica é simples. Uma punção de pulmão tem riscos, entre eles o colapso parcial do pulmão e o sangramento. Se a chance de o nódulo ser câncer é baixa, medir o crescimento evita um procedimento desnecessário sem perder tempo quando algo muda.',
+          'O que não se pode é perder o fio. Falta de retorno, exame repetido em serviço diferente e laudo sem comparação com o anterior estão entre os motivos mais comuns de atraso em casos que já estavam sendo acompanhados.',
+        ],
+      },
+      {
+        id: 'proximo-passo',
+        heading: 'O que levar para a consulta',
+        paragraphs: [
+          'Chegar com os exames anteriores, em papel ou no celular, muda a consulta. O médico precisa ver as imagens, não só o laudo, e precisa da data de cada exame para medir o tempo entre um e outro.',
+          'Vale anotar também a própria história de fumo, mesmo que pareça distante: quantos cigarros por dia, por quantos anos e quando parou. Essa conta entra no cálculo de risco e não costuma ser recuperável de memória no meio da consulta.',
+          'Se o nódulo entrar em acompanhamento, pergunte qual é o próximo exame e em quanto tempo ele deve ser feito. O câncer de pulmão demora a dar sintomas porque o pulmão tem grande reserva funcional, e é por isso que o seguimento organizado vale mais do que esperar por um sinal.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de pulmão',
+          href: '/doencas/cancer-de-pulmao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-pulmao'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'cancer-de-pulmao-rastreamento-em-quem-fuma',
+      'cancer-de-pulmao-cirurgia-e-dreno-de-torax',
+      'cancer-de-pulmao-dor-nos-ossos-e-metastase',
+      'cancer-de-pulmao-fumaca-de-segunda-mao',
+    ],
+    references: [
+      {
+        label: 'Câncer de pulmão, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pulmao/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de pulmão, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-pulmao',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Tabagismo',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/causas-e-prevencao-do-cancer/tabagismo',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-pulmao-rastreamento-em-quem-fuma',
+    slug: 'cancer-de-pulmao-rastreamento-em-quem-fuma',
+    title: 'Rastreamento do câncer de pulmão: para quem a tomografia faz sentido',
+    excerpt:
+      'O Brasil não recomenda rastreamento populacional do câncer de pulmão. Entenda o que a tomografia de baixa dose resolve, o que ela custa e por que a decisão é individual.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-rastrear',
+        heading: 'Por que o câncer de pulmão é descoberto tarde',
+        paragraphs: [
+          'O câncer de pulmão tem uma característica que atrapalha todo o resto: ele cresce num órgão com muita reserva. É possível perder parte da capacidade respiratória sem sentir falta de ar, e por isso um tumor pode passar meses sem produzir sintoma nenhum.',
+          'O resultado aparece nos números. Cerca de 15% dos casos são operáveis no momento do diagnóstico, segundo o INCA, e a maioria chega tarde demais para a cirurgia, que é justamente a melhor chance de cura.',
+          'É dessa conta que nasce a ideia do rastreamento: encontrar o tumor antes do sintoma, quando ainda dá para operar. A ideia é boa; a execução é que exige critério. Rastrear não é sair pedindo tomografia: é escolher quem, com que frequência e até quando, porque exame sem critério também faz mal.',
+        ],
+      },
+      {
+        id: 'o-que-e-baixa-dose',
+        heading: 'O que é a tomografia de baixa dose',
+        paragraphs: [
+          'Rastrear não é pedir exames para quem tem queixa. É aplicar um exame periódico numa população sem sintomas, com um objetivo específico: reduzir a morte pela doença. Rastreamento é saúde pública, não medicina de check-up.',
+          'No pulmão, o exame estudado para isso é a tomografia computadorizada de baixa dose. Ela usa menos radiação que a tomografia convencional, é rápida e não precisa de contraste nem de preparo.',
+          'Também é bem mais sensível que a radiografia, que mostra o pulmão como uma sombra e deixa passar nódulos pequenos. O problema é que sensibilidade, aqui, cobra um preço. Um exame que enxerga muito encontra também o que não importa, e essa é a conta que precisa ser feita antes de propor rastreamento a alguém.',
+        ],
+      },
+      {
+        id: 'quem-entra-na-conversa',
+        heading: 'Quem deve entrar nessa conversa',
+        paragraphs: [
+          'A conversa sobre rastreamento começa por quem tem risco alto e mensurável. Os grupos que costumam ser discutidos são estes:',
+          'Ficar fora dessa lista não é garantia de nada, e estar dentro dela não é indicação automática de exame. O que a lista faz é dizer para quem a conversa precisa acontecer, e isso já evita dois erros comuns: o excesso de exame em quem tem risco baixo e a omissão em quem tem risco alto.',
+        ],
+        bullets: [
+          'Quem fumou por muitas décadas e continua fumando',
+          'Quem fumou muito e parou há pouco tempo',
+          'Quem conviveu por anos com fumaça de segunda mão em casa ou no trabalho',
+          'Quem trabalhou com asbesto, sílica, arsênio, cromo, níquel, cádmio, radônio, fuligem ou emissão de motores a diesel',
+          'Quem tem doença pulmonar obstrutiva crônica ou histórico de pneumonia de repetição',
+        ],
+      },
+      {
+        id: 'carga-tabagica',
+        heading: 'A conta da carga tabágica',
+        paragraphs: [
+          'Carga tabágica é a forma de resumir o quanto uma pessoa fumou. Multiplica-se o número de cigarros por dia por 20, o total de um maço, e depois pelos anos de fumo. O resultado é dado em maços-ano.',
+          'Quem fumou um maço por dia durante trinta anos tem 30 maços-ano. Quem fumou dois maços por dia durante quinze anos chega ao mesmo número, e o risco acompanha essa soma, não apenas o tempo de calendário.',
+          'Vale fazer essa conta em casa antes da consulta, com honestidade. Ela muda a conversa sobre rastreamento e é uma informação que costuma se perder entre o que a pessoa lembra e o que ela de fato fumou. Não existe um número mágico que dispense a avaliação clínica: a conta serve para conversar, não para decidir sozinha.',
+        ],
+      },
+      {
+        id: 'limites',
+        heading: 'O que o rastreamento não resolve',
+        paragraphs: [
+          'Toda tomografia de tórax encontra coisas. Muitas delas são nódulos pequenos que nunca virariam doença, e é aí que começa o problema: o achado exige seguimento, o seguimento gera ansiedade e, às vezes, leva a biópsia de algo benigno.',
+          'Esse é o chamado sobrediagnóstico, a descoberta de um tumor que cresceria tão devagar que não causaria sintoma na vida daquela pessoa. Ele não aparece nas estatísticas de cura, mas aparece no custo humano do excesso de exames. O nome assusta, e descreve um fenômeno frequente em qualquer programa de rastreamento bem feito.',
+          'Some-se a isso a radiação acumulada de exames repetidos e o risco próprio da punção de pulmão, que inclui colapso parcial do pulmão e sangramento. Rastrear sem critério transfere risco para quem estava bem.',
+        ],
+      },
+      {
+        id: 'nao-e-para-todos',
+        heading: 'Por que o Brasil não recomenda para todo mundo',
+        paragraphs: [
+          'Por isso o Brasil não recomenda rastreamento populacional do câncer de pulmão: não há evidência de que, na população geral, o benefício supere o dano.',
+          'Para quem tem histórico de tabagismo intenso, o caminho é outro: discutir caso a caso com o médico, considerando idade, carga tabágica e tempo desde que parou de fumar. É uma decisão compartilhada, não uma receita, e a conversa deve incluir os dois lados: menos chance de morrer pela doença de um lado, mais exames, mais achados e mais ansiedade do outro.',
+          'Desconfie de pacote pronto. Serviço que oferece tomografia de tórax anual para qualquer pessoa, sem avaliar risco, está vendendo exame, não prevenção. A pergunta a fazer é simples: qual é o meu risco, e o que esse exame muda no meu caso?',
+        ],
+      },
+      {
+        id: 'parar-de-fumar',
+        heading: 'A medida que vale mais do que o exame',
+        paragraphs: [
+          'Nenhum exame chega perto do efeito de parar de fumar. O risco começa a cair logo após a interrupção e continua diminuindo com os anos, mesmo em quem fumou por décadas, e o SUS oferece tratamento para quem quer parar.',
+          'Evitar a fumaça de segunda mão protege crianças e adultos, e não existe nível seguro de exposição. No trabalho, o uso correto de equipamento de proteção e o controle de poeiras e vapores reduzem o contato com os agentes cancerígenos.',
+          'Se você está na faixa de risco e nunca conversou sobre isso, leve a pergunta para a próxima consulta: para mim, o rastreamento faz sentido? A resposta depende de dados que só o seu médico tem, e fazer a pergunta certa já é metade do caminho.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de pulmão',
+          href: '/doencas/cancer-de-pulmao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-pulmao'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer',
+      'cancer-de-pulmao-cirurgia-e-dreno-de-torax',
+      'cancer-de-pulmao-dor-nos-ossos-e-metastase',
+      'cancer-de-pulmao-fumaca-de-segunda-mao',
+    ],
+    references: [
+      {
+        label: 'Câncer de pulmão, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pulmao/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de pulmão, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-pulmao',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Tabagismo',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/causas-e-prevencao-do-cancer/tabagismo',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-pulmao-cirurgia-e-dreno-de-torax',
+    slug: 'cancer-de-pulmao-cirurgia-e-dreno-de-torax',
+    title: 'Cirurgia do câncer de pulmão: o que é retirado e para que serve o dreno',
+    excerpt:
+      'A lobectomia é a operação padrão, mas nem todo mundo precisa dela. Entenda quando a cirurgia é possível, o que muda entre aberta e por vídeo e por que o dreno fica no tórax.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-a-cirurgia-e-possivel',
+        heading: 'Quando a cirurgia é possível',
+        paragraphs: [
+          'A cirurgia é a melhor chance de cura no câncer de pulmão, mas só existe quando o tumor está restrito ao pulmão e aos gânglios próximos. Se já alcançou o outro pulmão, o osso ou outro órgão, a operação deixa de fazer sentido como tratamento com intenção de cura.',
+          'Além da extensão do tumor, conta a reserva respiratória. O pulmão tem grande capacidade de sobra, e é por isso que muita gente opera com função pulmonar apenas razoável; mas existe um limite, e ele é medido com exames de função respiratória antes da indicação.',
+          'No Brasil, cerca de 15% dos casos são operáveis no momento do diagnóstico, segundo o INCA. Esse número baixo não é falha da cirurgia: é consequência de a doença ser descoberta tarde na maioria das vezes.',
+        ],
+      },
+      {
+        id: 'tipos-de-operacao',
+        heading: 'Lobectomia, segmentectomia e ressecção em cunha',
+        paragraphs: [
+          'A operação padrão é a lobectomia: retira-se o lobo onde está o tumor, junto com os gânglios do mediastino. Os gânglios são retirados mesmo quando parecem normais, porque é o exame deles que confirma se a doença está contida ali.',
+          'Em tumores pequenos e periféricos, ou em pessoas com pouca reserva pulmonar, pode-se optar por uma ressecção menor, como a segmentectomia ou a ressecção em cunha. A escolha não é preferência do cirurgião: depende do tamanho, da localização e do quanto de pulmão a pessoa pode perder sem prejuízo.',
+          'A retirada de um lobo assusta, e vale entender por que ela é tolerada. O pulmão tem grande reserva funcional, e a maior parte das pessoas volta a subir escada e a caminhar depois da recuperação, com acompanhamento de fisioterapia.',
+        ],
+      },
+      {
+        id: 'aberta-ou-video',
+        heading: 'Cirurgia aberta ou por vídeo',
+        paragraphs: [
+          'A operação pode ser feita por uma incisão maior entre as costelas ou por videotoracoscopia, com pequenos cortes e uma câmera. A via por vídeo costuma significar menos dor no pós-operatório e recuperação mais rápida.',
+          'Isso não quer dizer que a cirurgia aberta seja pior. Existem situações em que ela é a escolha certa: tumores grandes, aderências, necessidade de reconstrução e urgências. O que define é o caso, e a conversa sobre a via de acesso deve acontecer antes da operação.',
+          'Perguntar qual via será usada e por quê é legítimo. A resposta deve ser específica para o seu caso, não uma preferência geral do serviço. Vale saber também que a conversão para cirurgia aberta durante uma operação por vídeo não é fracasso: é decisão de segurança diante de sangramento ou de dificuldade técnica.',
+        ],
+      },
+      {
+        id: 'dreno',
+        heading: 'O dreno no tórax: para que serve',
+        paragraphs: [
+          'Sair da cirurgia com um tubo no tórax é o padrão, não uma complicação. Depois de retirar parte do pulmão, sobra um espaço onde se acumulam ar e líquido, e esse acúmulo impede o pulmão de se expandir de novo.',
+          'O dreno faz duas coisas ao mesmo tempo: deixa o ar e o líquido saírem e ajuda o pulmão restante a voltar a ocupar o espaço. Ele fica conectado a um sistema que funciona por selo d\'água, e é comum que a equipe peça para você observar o movimento da coluna de água ao respirar.',
+          'O tubo sai quando não há mais vazamento de ar e o líquido drenado diminui. Cada serviço tem seu critério, e a retirada é decidida pela equipe que acompanha o caso, não pelo número de dias que o dreno está no lugar.',
+        ],
+      },
+      {
+        id: 'depois-da-cirurgia',
+        heading: 'Os primeiros dias e a fisioterapia',
+        paragraphs: [
+          'Levantar cedo, respirar fundo e tossir com apoio parecem contraintuitivos com um tubo no tórax, mas são justamente o que ajuda o pulmão a se expandir e previne pneumonia. A fisioterapia respiratória, iniciada cedo, faz parte do tratamento e não é um extra.',
+          'A dor no pós-operatório tem controle, e pedir analgesia não é fraqueza. Dor mal controlada impede de respirar fundo e de tossir, o que atrasa a recuperação e aumenta o risco de complicação. Se a dor estiver limitando a respiração, isso deve ser dito à equipe no mesmo dia.',
+          'Cansaço por semanas é esperado. Falta de ar que piora de repente, febre, saída de ar pelo local do dreno ou dor que não cede são motivos para falar com a equipe sem esperar a consulta de retorno.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'O que pode complicar',
+        paragraphs: [
+          'As complicações existem e é melhor conhecê-las antes. Elas não são a regra, e a maior parte dos pós-operatórios transcorre sem intercorrência:',
+          'A fístula de ar prolongada é a mais característica: o pulmão continua eliminando ar por mais tempo do que o esperado, e o dreno precisa ficar mais dias. Ela costuma se resolver com tempo e observação, mas prolonga a internação e assusta. O tubo continua no lugar justamente para que esse ar saia sem comprimir o pulmão.',
+        ],
+        bullets: [
+          'Infecção da ferida operatória ou pneumonia no pós-operatório',
+          'Fístula de ar prolongada, com dreno por mais tempo',
+          'Derrame pleural que precisa ser drenado',
+          'Redução da capacidade respiratória, sobretudo em quem já tinha doença pulmonar',
+          'Dor persistente na parede do tórax, que merece avaliação e tratamento',
+        ],
+      },
+      {
+        id: 'seguimento',
+        heading: 'O seguimento depois da operação',
+        paragraphs: [
+          'Depois do tratamento com intenção de cura, o acompanhamento inclui consultas e tomografias periódicas. O INCA orienta imagem a cada três meses nos dois primeiros anos, a cada seis meses entre o segundo e o quinto ano e, depois disso, seguimento anual com o médico que acompanha o caso.',
+          'Parar de fumar continua sendo a medida mais importante em qualquer fase, inclusive depois da cirurgia, e o SUS oferece tratamento para quem quer parar. Evitar fumaça de segunda mão, poeira e poluição dentro de casa reduz crises respiratórias.',
+          'Manter atividade física dentro do possível, comer bem e dormir o suficiente melhora a tolerância ao tratamento. A pergunta que vale levar para cada retorno é simples: o que esse exame vai mudar na conduta?',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de pulmão',
+          href: '/doencas/cancer-de-pulmao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-pulmao'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer',
+      'cancer-de-pulmao-rastreamento-em-quem-fuma',
+      'cancer-de-pulmao-dor-nos-ossos-e-metastase',
+      'cancer-de-pulmao-fumaca-de-segunda-mao',
+    ],
+    references: [
+      {
+        label: 'Câncer de pulmão, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pulmao/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de pulmão, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-pulmao',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-pulmao-dor-nos-ossos-e-metastase',
+    slug: 'cancer-de-pulmao-dor-nos-ossos-e-metastase',
+    title: 'Dor nos ossos no câncer de pulmão: quando pode ser metástase',
+    excerpt:
+      'Dor óssea é um dos sinais da doença avançada e um dos que mais assustam. Veja como se investiga, o que é emergência e como a dor oncológica se controla hoje.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'dor-que-muda',
+        heading: 'Quando a dor vem do osso',
+        paragraphs: [
+          'A dor óssea do câncer de pulmão tem um jeito próprio: costuma ser fixa, em um ponto só, pior à noite e sem relação com esforço. Não melhora com repouso como uma dor muscular e pode acordar a pessoa. A dor que muda de lugar, que melhora com movimento e piora com esforço tem mais cara de muscular.',
+          'Ela aparece quando o tumor já se espalhou. O câncer de pulmão pode invadir gânglios, ossos, fígado e cérebro, e é nas fases avançadas que a dor óssea entra como sintoma.',
+          'Isso não significa que toda dor nas costas em quem tem câncer seja metástase. Dor muscular, hérnia de disco e artrose são muito mais comuns, e a diferença se faz com exame, não com interpretação do sintoma.',
+        ],
+      },
+      {
+        id: 'como-o-tumor-chega',
+        heading: 'Como o tumor chega ao osso',
+        paragraphs: [
+          'As células do tumor entram na corrente sanguínea e se instalam em locais onde o fluxo é intenso, como a coluna, as costelas, o quadril e os ossos longos. Ali elas estimulam a destruição do osso, e é essa destruição que dói.',
+          'O osso enfraquecido pode fraturar com pouco trauma, e uma vértebra comprometida pode comprimir a medula. São duas situações que mudam o manejo e que precisam ser reconhecidas cedo.',
+          'Vale lembrar que o câncer de pulmão cresce dentro de um órgão com muita reserva, e por isso o diagnóstico costuma chegar tarde. É comum que a dor óssea seja o motivo da primeira consulta em quem não tinha sintoma respiratório. É também por isso que o estadiamento investiga os ossos mesmo quando não há dor: nem toda metástase dói no começo.',
+        ],
+      },
+      {
+        id: 'investigar',
+        heading: 'Como se investiga a dor óssea',
+        paragraphs: [
+          'A investigação começa pela imagem. A cintilografia óssea mostra áreas de atividade aumentada e, em alguns casos, faz parte do estadiamento; a tomografia por emissão de pósitrons avalia o corpo inteiro e ajuda a distinguir o que é tumor do que é inflamação.',
+          'A ressonância é o exame que melhor mostra a medula e as partes moles ao redor do osso, e é acionada quando existe suspeita de compressão. Radiografia simples ainda serve para avaliar fratura.',
+          'Quando a imagem não é conclusiva, pode ser necessária biópsia do ponto doloroso. É o tecido que confirma a metástase e, às vezes, mostra se o tumor mudou de comportamento em relação ao pulmão original. Levar as imagens anteriores ajuda: comparar o mesmo ponto ao longo do tempo evita repetir investigação do zero.',
+        ],
+      },
+      {
+        id: 'emergencias',
+        heading: 'Sinais que são emergência',
+        paragraphs: [
+          'Alguns quadros não esperam consulta marcada. Eles pedem atendimento imediato, e reconhecê-los é a parte mais útil deste texto:',
+          'A síndrome da veia cava superior entra na mesma lista: inchaço da face e do pescoço, falta de ar e tontura, causados pela compressão da veia que drena a cabeça. É uma emergência e tem tratamento. Nesses quadros, o tempo entre o sintoma e o atendimento é o que define se vai sobrar sequela.',
+        ],
+        bullets: [
+          'Dor nas costas com perda de força nas pernas, dormência ou dificuldade para urinar',
+          'Dor súbita e muito intensa em um osso, com deformidade ou incapacidade de apoiar',
+          'Confusão mental, dor de cabeça forte ou convulsão',
+          'Inchaço da face e do pescoço com falta de ar',
+          'Febre em quem está em quimioterapia',
+        ],
+      },
+      {
+        id: 'controle-da-dor',
+        heading: 'Controle da dor: o que existe',
+        paragraphs: [
+          'A dor oncológica tem controle, e o tratamento segue uma escala: começa-se com analgésicos simples e sobe-se conforme a intensidade, associando medicações de classes diferentes quando é preciso.',
+          'A radioterapia tem papel central no alívio da dor óssea localizada, além de servir para sangramento e falta de ar. Ela também é usada em caráter preventivo em pontos de risco de fratura.',
+          'Existem ainda procedimentos específicos, como a estabilização cirúrgica de um osso prestes a fraturar e as técnicas de radiologia intervencionista. O objetivo não é apenas reduzir a dor: é manter a pessoa andando, dormindo e conseguindo fazer o que importa. A escolha depende do tipo de dor, do que ela impede e do que a pessoa tolera, e precisa ser reavaliada a cada consulta.',
+        ],
+      },
+      {
+        id: 'tratamento-sistemico',
+        heading: 'O tratamento muda quando há metástase',
+        paragraphs: [
+          'Na doença metastática, o objetivo do tratamento é controlar a doença e prolongar a vida com qualidade, e não eliminar o tumor. Isso muda a conversa: ganha peso o que o tratamento permite fazer, e não apenas quanto tempo ele acrescenta. Isso não é desistir: é escolher o que se quer proteger.',
+          'A escolha entre quimioterapia, imunoterapia e terapia-alvo depende das características do tumor. Mutações no gene EGFR, rearranjos no gene ALK e a expressão de PD-L1 são alguns dos marcadores que orientam a decisão, e são pesquisados no material da biópsia. Um marcador positivo pode transformar o tratamento em comprimidos diários, com menos efeitos do que a quimioterapia.',
+          'No câncer de pequenas células, a lógica é outra: a doença responde bem à quimioterapia no início, mas volta com frequência, e o tratamento na doença extensa tem foco no controle de sintomas.',
+        ],
+      },
+      {
+        id: 'viver-com',
+        heading: 'Viver com a doença avançada',
+        paragraphs: [
+          'Perda de peso e de massa muscular, a chamada caquexia, acompanha muitos casos avançados e piora a tolerância ao tratamento. O manejo inclui acompanhamento nutricional e atividade física adaptada, não apenas comer mais.',
+          'O cansaço intenso, a falta de ar nova e a dor que não cede devem ser comunicados à equipe sem esperar a próxima consulta. Em cuidados paliativos, tratar esses sintomas é o tratamento, e não uma desistência.',
+          'Vale perguntar, em algum momento, o que se espera do tratamento atual e quais são as alternativas se ele parar de funcionar. Ter essa conversa cedo não encurta nada: costuma evitar decisões tomadas com pressa, no meio de uma urgência. Quem acompanha o caso precisa saber o que a pessoa quer evitar, e não só o que ela quer tratar.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de pulmão',
+          href: '/doencas/cancer-de-pulmao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-pulmao'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer',
+      'cancer-de-pulmao-rastreamento-em-quem-fuma',
+      'cancer-de-pulmao-cirurgia-e-dreno-de-torax',
+      'cancer-de-pulmao-fumaca-de-segunda-mao',
+    ],
+    references: [
+      {
+        label: 'Câncer de pulmão, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pulmao/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de pulmão, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-pulmao',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-pulmao-fumaca-de-segunda-mao',
+    slug: 'cancer-de-pulmao-fumaca-de-segunda-mao',
+    title: 'Fumaça de segunda mão e câncer de pulmão em quem nunca fumou',
+    excerpt:
+      'Uma parte dos casos aparece em pessoas que nunca fumaram. Entenda o peso da fumaça de segunda mão, das poeiras do trabalho e da poluição do ar, e o que reduz esse risco.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quem-nunca-fumou',
+        heading: 'Uma parte dos casos ocorre em quem nunca fumou',
+        paragraphs: [
+          'O cigarro é a principal causa do câncer de pulmão, mas não é a única. Uma parte dos casos aparece em pessoas que nunca fumaram, e nesse grupo o tipo mais frequente é o adenocarcinoma, o mesmo que predomina entre as mulheres.',
+          'Isso costuma surpreender quem associa a doença exclusivamente ao cigarro, e o efeito é duplo: quem fuma pode se sentir injustiçado ao ver um não fumante adoecer, e quem nunca fumou pode ignorar sintomas que deveria investigar. Vale dizer com todas as letras: câncer de pulmão em quem nunca fumou não é exceção rara, é uma parte conhecida da doença.',
+          'A explicação não é mística. Nesses casos pesam fatores genéticos, história familiar, exposição à poluição do ar, infecções pulmonares de repetição, doença pulmonar obstrutiva crônica e exposições ocupacionais.',
+        ],
+      },
+      {
+        id: 'segunda-mao',
+        heading: 'O que a fumaça de segunda mão faz',
+        paragraphs: [
+          'Quem convive com fumantes também adoece. A fumaça que sai da ponta do cigarro e a que o fumante exala aumentam o risco de câncer de pulmão em quem está por perto, e não existe nível seguro de exposição. O nome técnico é fumaça ambiental de tabaco, e ele inclui tanto a que sai da ponta acesa quanto a que o fumante devolve ao ambiente.',
+          'Isso vale para ambientes fechados e para exposições longas. Janela aberta e ventilador não resolvem: reduzem o cheiro e a irritação, não a exposição às partículas que causam dano.',
+          'A mesma lógica se aplica ao que fica no sofá, na cortina e no carro depois que o cigarro apaga. A fumaça não desaparece com o ar que circula; ela deixa resíduo, e o ambiente continua sendo fonte de exposição.',
+        ],
+      },
+      {
+        id: 'em-casa',
+        heading: 'Em casa, quem se protege é quem não fuma',
+        paragraphs: [
+          'Crianças e adultos que convivem com fumantes são os mais expostos, porque passam muitas horas no mesmo ambiente. Em casa, a única medida que elimina a exposição é manter o cigarro fora do ambiente fechado. Em carro fechado a concentração sobe rápido, e trajetos curtos repetidos todos os dias somam.',
+          'Fumar na varanda ou na área de serviço reduz parte do problema, mas não o resolve quando a fumaça volta pelo corredor. O critério prático é simples: se o cheiro chega ao ambiente onde as outras pessoas estão, a exposição também chega.',
+          'Quem fuma e quer parar tem tratamento disponível no SUS. Reduzir o número de cigarros ajuda, mas parar é o que muda de fato o risco, e ele começa a cair logo após a interrupção.',
+        ],
+      },
+      {
+        id: 'no-trabalho',
+        heading: 'No trabalho: poeira, vapor e fibra',
+        paragraphs: [
+          'Entre os agentes ocupacionais reconhecidos como cancerígenos para o pulmão estão o asbesto, a sílica, o arsênio, o cromo, o níquel, o cádmio, o radônio, a fuligem e a emissão de motores a diesel. O risco é ainda maior em quem fuma.',
+          'Alguns grupos aparecem com mais frequência nessa lista, pela natureza do que respiram todos os dias:',
+          'O uso correto de equipamento de proteção e o controle de poeiras e vapores no ambiente reduzem a exposição. Se você trabalha ou trabalhou com esses materiais, isso é informação de saúde e deve ser dito ao médico.',
+        ],
+        bullets: [
+          'Trabalhadores da construção civil, sobretudo em reforma e demolição',
+          'Mineração, fundição e metalurgia',
+          'Indústria da borracha e tecelagem',
+          'Bombeiros, pela exposição à fumaça de incêndio',
+          'Quem trabalha com pintura, solvente e combustível sem ventilação adequada',
+        ],
+      },
+      {
+        id: 'ar-ruim',
+        heading: 'Poluição do ar e doenças pulmonares prévias',
+        paragraphs: [
+          'A poluição do ar aparece entre os fatores que pesam nos casos de quem nunca fumou. Ela não age sozinha, e sim somada ao tempo de exposição e à suscetibilidade de cada pessoa.',
+          'Doenças pulmonares também contam. Quem tem doença pulmonar obstrutiva crônica ou histórico de infecções pulmonares de repetição tem mais chance de desenvolver o tumor, e o mesmo vale para quem tem cicatrizes pulmonares antigas. Nenhum desses fatores age como sentença: eles aumentam a chance, e a chance de quem nunca fumou continua baixa em termos absolutos.',
+          'Em casa, manter os ambientes ventilados e evitar fogão a lenha em espaço fechado reduz a exposição a fumaça. São medidas modestas, mas o pulmão responde ao que respira por décadas.',
+        ],
+      },
+      {
+        id: 'o-que-nao-protege',
+        heading: 'O que não protege',
+        paragraphs: [
+          'Algumas soluções caseiras circulam e dão uma falsa sensação de segurança. Ventilador, janela aberta e purificador de ar melhoram o conforto, mas não eliminam a exposição às partículas da fumaça.',
+          'Fumar pouco também não resolve. Não existe nível seguro de exposição, e o risco cresce com a quantidade de cigarros por dia e com o número de anos fumando: reduzir ajuda, mas não zera.',
+          'E o filtro do cigarro não protege ninguém. Ele muda a forma de fumar, não retira o risco. A medida que muda o risco de verdade é parar, e ela vale em qualquer idade, inclusive depois de décadas de cigarro.',
+        ],
+      },
+      {
+        id: 'quando-investigar',
+        heading: 'Quando investigar, mesmo sem nunca ter fumado',
+        paragraphs: [
+          'Quem nunca fumou não está isento de prestar atenção aos sinais. Tosse que não melhora em três semanas, sangue no escarro, falta de ar nova e pneumonia recorrente sempre no mesmo ponto do pulmão pedem avaliação, com ou sem história de tabagismo.',
+          'Rouquidão persistente por mais de duas semanas sem infecção de garganta e perda de peso sem explicação entram na mesma lista. Nenhum desses sinais confirma câncer, e a maioria tem outra causa, mas todos justificam imagem.',
+          'Vale dizer ao médico o que você respira: onde mora, onde trabalha, se convive com fumantes e se já teve pneumonia de repetição. O câncer de pulmão demora a dar sintomas porque o pulmão tem grande reserva funcional, e é a soma dessas informações que encurta o caminho até o diagnóstico. Em caso de dúvida sobre qual especialista procurar, a Unidade Básica de Saúde é o ponto de partida e faz o encaminhamento para o serviço de referência.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer de pulmão',
+          href: '/doencas/cancer-de-pulmao/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-pulmao'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'cancer-de-pulmao-nodulo-no-pulmao-o-que-fazer',
+      'cancer-de-pulmao-rastreamento-em-quem-fuma',
+      'cancer-de-pulmao-cirurgia-e-dreno-de-torax',
+      'cancer-de-pulmao-dor-nos-ossos-e-metastase',
+    ],
+    references: [
+      {
+        label: 'Câncer de pulmão, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pulmao/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de pulmão, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer-de-pulmao',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Tabagismo',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/causas-e-prevencao-do-cancer/tabagismo',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-colorretal-sangue-nas-fezes',
+    slug: 'cancer-colorretal-sangue-nas-fezes',
+    title: 'Sangue nas fezes: quando é hemorroida e quando precisa investigar',
+    excerpt:
+      'Sangramento é o sinal mais lembrado do câncer de intestino e também o mais atribuído à hemorroida sem exame. Veja o que a cor indica e quando a colonoscopia é necessária.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'nem-todo-sangue-e-hemorroida',
+        heading: 'Nem todo sangramento é hemorroida',
+        paragraphs: [
+          'Sangue nas fezes é o sinal mais lembrado do câncer de intestino, e também o mais atribuído à hemorroida sem nenhum exame. A conclusão costuma vir rápido, porque a hemorroida é comum e o sangramento assusta menos quando já tem nome. É uma conclusão confortável, e é justamente por isso que ela precisa ser conferida.',
+          'O problema é que a coincidência existe. Uma pessoa pode ter hemorroida e, ao mesmo tempo, um tumor mais acima no intestino, e o sangramento da hemorroida serve de explicação para os dois. É por isso que sangramento digestivo nunca deve ser tratado por conta própria, com pomada ou suposição.',
+          'A regra prática é simples: sangramento novo, persistente ou acompanhado de mudança do hábito intestinal precisa de avaliação, mesmo em quem já tem diagnóstico de hemorroida.',
+        ],
+      },
+      {
+        id: 'como-e-o-sangue',
+        heading: 'Vermelho vivo ou escuro: o que a cor sugere',
+        paragraphs: [
+          'A cor ajuda a orientar a investigação, mas não fecha diagnóstico. Sangue vermelho vivo, no fim da evacuação e em pequena quantidade, é típico de hemorroidas e fissuras, que sangram perto do ânus. Quanto mais perto do ânus, mais vivo o sangue tende a sair.',
+          'Sangue escuro, misturado às fezes, ou fezes com aspecto de borra de café sugerem sangramento mais alto, no cólon. Tumores do lado direito do intestino costumam dar pouco sangramento visível e se manifestar como anemia por falta de ferro, com cansaço e palidez.',
+          'Existe ainda o sangramento oculto, que não se vê e aparece no exame de sangue oculto nas fezes. É justamente esse tipo que o rastreamento procura, e é por isso que ele é feito em quem não tem queixa nenhuma.',
+        ],
+      },
+      {
+        id: 'outras-causas',
+        heading: 'O que mais causa sangramento',
+        paragraphs: [
+          'A lista de causas benignas é longa, e é isso que torna a avaliação necessária em vez de opcional. As mais frequentes são estas, e nenhuma delas é diagnosticável pela cor do sangue:',
+          'Nenhuma delas exclui câncer, e é importante entender por quê. O diagnóstico diferencial não é feito por eliminação de hipóteses: é feito olhando a mucosa do intestino inteiro, o que só a colonoscopia faz.',
+        ],
+        bullets: [
+          'Hemorroidas: sangramento vivo no fim da evacuação, sem alteração do hábito intestinal',
+          'Fissura anal: dor intensa ao evacuar, com pouco sangue vivo',
+          'Doenças inflamatórias: diarreia crônica, cólica e sangramento',
+          'Diverticulite: dor em um lado do abdome, febre e alteração do hábito intestinal',
+          'Parasitoses intestinais: diarreia, cólica e sangue, com melhora após tratamento',
+        ],
+      },
+      {
+        id: 'o-que-fecha-o-diagnostico',
+        heading: 'O exame que separa as hipóteses',
+        paragraphs: [
+          'A colonoscopia é o exame central. Ela permite olhar toda a mucosa do intestino, retirar pólipos e colher fragmentos de qualquer lesão suspeita. É feita com sedação, dura em torno de meia hora e, quando o preparo é bem feito, alcança o intestino inteiro.',
+          'O toque retal e o exame do abdome ajudam a perceber tumores baixos e massas palpáveis, mas não substituem a colonoscopia. Exames de sangue mostram anemia e alterações do CEA, um marcador tumoral que serve para acompanhar tratamento, não para dar diagnóstico. Um CEA normal, portanto, não tranquiliza ninguém.',
+          'Quando a colonoscopia encontra uma lesão, o patologista define o tipo do tumor no material retirado. Só então a tomografia e, nos tumores de reto, a ressonância completam o estadiamento.',
+        ],
+      },
+      {
+        id: 'quando-a-pista-e-a-anemia',
+        heading: 'Quando a pista é a anemia',
+        paragraphs: [
+          'Nem todo câncer de intestino sangra de forma visível. Os tumores do lado direito do cólon crescem numa área larga, o sangue se mistura ao conteúdo intestinal e passa despercebido por meses, até aparecer como anemia por falta de ferro.',
+          'Aí o quadro engana. A pessoa procura o médico por cansaço, falta de ar aos esforços e palidez, recebe ferro, melhora um pouco e volta a piorar. Anemia em homem adulto e em mulher depois da menopausa, sem causa evidente, é uma pista que pede investigação do intestino.',
+          'Isso não significa que toda anemia seja câncer: carência alimentar, sangramento menstrual e outras doenças são causas comuns. Significa que anemia sem explicação, sobretudo depois dos 50 anos, merece que se procure de onde vem o sangue perdido.',
+        ],
+      },
+      {
+        id: 'quando-e-urgencia',
+        heading: 'Quando procurar atendimento sem esperar',
+        paragraphs: [
+          'Alguns quadros pedem pronto atendimento, e não consulta agendada. Os sinais abaixo estão nessa categoria:',
+          'Dor abdominal intensa com parada de eliminação de fezes e gases sugere obstrução e é emergência. Sangramento volumoso, com tontura ou desmaio, também. Nos dois casos, o pronto atendimento é o lugar certo, e não a fila de uma consulta.',
+        ],
+        bullets: [
+          'Sangue nas fezes pela primeira vez, vivo ou escuro, em qualquer idade',
+          'Sangramento persistente por mais de alguns dias, mesmo em pequena quantidade',
+          'Alteração do hábito intestinal que dura mais de três semanas',
+          'Anemia e cansaço sem causa explicada, sobretudo depois dos 50 anos',
+          'Perda de peso rápida e sem motivo aparente',
+          'Dor abdominal intensa com parada de eliminação de fezes e gases',
+        ],
+      },
+      {
+        id: 'proximo-passo',
+        heading: 'O que fazer com essa informação',
+        paragraphs: [
+          'Se o sangramento é novo, o primeiro passo é uma consulta na Unidade Básica de Saúde, que encaminha para colonoscopia quando indicado. No SUS, esse é o caminho de entrada e o que dá acesso ao serviço de referência em oncologia, quando necessário.',
+          'Vale anotar três coisas antes da consulta: quando o sangramento começou, se é vivo ou escuro e se houve mudança no ritmo intestinal. Também importa saber se há casos de câncer de intestino na família, porque história familiar muda o calendário de exames.',
+          'E não aceite, sem exame, a frase de que é só hemorroida. Pode ser, e muitas vezes é. Mas essa conclusão precisa ser demonstrada, e não presumida. Sangramento que volta não é novidade: é sinal de que algo continua. Pedir o exame é um direito, e a conversa fica mais fácil quando você chega com as datas e as características anotadas. Se o primeiro profissional não pedir o exame, vale perguntar por quê e, se necessário, buscar uma segunda avaliação.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer colorretal',
+          href: '/doencas/cancer-colorretal/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-colorretal'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'cancer-colorretal-quando-fazer-colonoscopia',
+      'cancer-colorretal-polipos-no-intestino',
+      'cancer-colorretal-intestino-preso-e-alteracao-do-habito',
+      'cancer-colorretal-bolsa-de-colostomia',
+    ],
+    references: [
+      {
+        label: 'Câncer do intestino, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer do intestino',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-colorretal-quando-fazer-colonoscopia',
+    slug: 'cancer-colorretal-quando-fazer-colonoscopia',
+    title: 'Colonoscopia: para que serve, como é feita e quando fazer',
+    excerpt:
+      'É o exame que vê o intestino inteiro, retira pólipos e interrompe o câncer antes que ele exista. Entenda o preparo, o que o resultado significa e quem precisa de calendário próprio.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'para-que-serve',
+        heading: 'Para que serve a colonoscopia',
+        paragraphs: [
+          'A colonoscopia é o exame que olha toda a mucosa do intestino grosso, do reto ao ceco. Ela faz duas coisas que nenhum outro exame faz junto: vê a lesão e permite retirá-la na mesma sessão.',
+          'É por isso que ela ocupa um lugar diferente na prevenção do câncer colorretal. A maior parte desses tumores começa como um pólipo, uma elevação na parede interna do intestino que cresce por anos antes de virar câncer. Retirar o pólipo durante o exame interrompe essa história. A lógica é a da prevenção, não a do diagnóstico: em vez de descobrir a doença, impede-se que ela comece.',
+          'Em tumores muito precoces, limitados à superfície, a remoção pode ser feita pela própria colonoscopia, sem cirurgia. Isso mostra o quanto o exame não é apenas diagnóstico.',
+        ],
+      },
+      {
+        id: 'como-e-feita',
+        heading: 'Como é o exame',
+        paragraphs: [
+          'O exame é feito com sedação. Um tubo flexível com câmera percorre o intestino, e o médico insufla ar para abrir as dobras da parede e enxergar o que está entre elas. Dura em torno de meia hora. A sedação não é luxo: sem ela, o desconforto impediria examinar com calma o que precisa ser visto.',
+          'Durante o trajeto, o endoscopista pode retirar pólipos e colher fragmentos de qualquer área suspeita. Esse material vai para o patologista, que define o que é e, no caso de tumor, o tipo e o grau.',
+          'É comum sentir desconforto abdominal e eliminar gases nas horas seguintes. Complicações graves são incomuns, e as mais temidas são sangramento e perfuração, que costumam ocorrer quando há retirada de lesões maiores.',
+        ],
+      },
+      {
+        id: 'preparo',
+        heading: 'O preparo é metade do exame',
+        paragraphs: [
+          'A colonoscopia vale o que vale o preparo. O intestino precisa estar limpo, porque resíduo de fezes esconde lesões pequenas e pode obrigar a repetir tudo. É a etapa que o paciente controla, e a única em que o esforço dele muda o resultado.',
+          'O preparo costuma envolver dieta sem resíduos no dia anterior e uma solução laxante dividida em etapas, com bastante líquido. Seguir o horário importa mais do que a quantidade: começar tarde demais deixa resíduo justamente no cólon direito.',
+          'Quando o preparo é bem feito, o exame alcança o intestino inteiro. Quando é ruim, o laudo muitas vezes diz isso com clareza, e a conduta pode ser repetir o exame em menos tempo do que o habitual.',
+        ],
+      },
+      {
+        id: 'quando-fazer',
+        heading: 'Quem precisa de calendário próprio',
+        paragraphs: [
+          'A idade acima de 50 anos é o fator de risco mais consistente para o câncer colorretal, e é a partir dela que a conversa sobre rastreamento costuma começar. Existem grupos, porém, que precisam de um calendário próprio, muitas vezes com início antes dos 50:',
+          'Essa definição é do médico, com base no caso individual. Não existe uma regra única de idade para todo mundo, e o intervalo entre exames depende do que foi encontrado no anterior. Vale lembrar que a doença tem aparecido em pessoas mais jovens, o que levou serviços a rever a idade de início em quem tem história familiar.',
+        ],
+        bullets: [
+          'Parente de primeiro grau com câncer de intestino',
+          'Doença inflamatória intestinal, como retocolite ulcerativa ou doença de Crohn',
+          'Síndromes hereditárias, como a polipose adenomatosa familiar',
+          'História pessoal de câncer de ovário, de útero ou de mama',
+          'Pólipos retirados em exame anterior',
+        ],
+      },
+      {
+        id: 'rastreamento-no-brasil',
+        heading: 'Como está o rastreamento no Brasil',
+        paragraphs: [
+          'O rastreamento do câncer colorretal é feito com exame de sangue oculto nas fezes e, quando o resultado é positivo, colonoscopia. A Organização Mundial da Saúde recomenda essa estratégia nos países que conseguem garantir confirmação diagnóstica e tratamento.',
+          'No Brasil, a indicação de rastreamento populacional já consolidada é para câncer de mama e de colo do útero, e o Ministério da Saúde vem trabalhando nas diretrizes de um programa nacional para o intestino. Na prática, isso significa que a decisão costuma ser individual.',
+          'Se você tem 50 anos ou mais e nunca conversou sobre isso, leve o assunto para a consulta. Na Unidade Básica de Saúde, o encaminhamento para colonoscopia segue os critérios do serviço e a disponibilidade da rede. Perguntar o que existe no seu município evita esperar por um caminho que não passa por ali.',
+        ],
+      },
+      {
+        id: 'resultado',
+        heading: 'O que o resultado significa',
+        paragraphs: [
+          'Um exame normal não é garantia eterna, e um pólipo não é câncer. O laudo costuma trazer três informações que mudam a conduta: quantos pólipos foram retirados, de que tipo e de que tamanho.',
+          'Pólipos pequenos e de tipo benigno costumam significar apenas repetir o exame em um intervalo definido pelo médico. Pólipos maiores, múltiplos ou com alterações no tecido pedem acompanhamento mais próximo.',
+          'Quando há tumor, o patologista define o tipo, e a tomografia, junto com a ressonância nos tumores de reto, completa o estadiamento. É esse conjunto que indica se a cirurgia vem primeiro ou se há tratamento antes dela. Se o laudo trouxer termos que você não entende, peça que sejam explicados antes de sair da consulta.',
+        ],
+      },
+      {
+        id: 'medo-e-vergonha',
+        heading: 'O medo e a vergonha que adiam o exame',
+        paragraphs: [
+          'Muita gente adia a colonoscopia por vergonha do preparo ou por medo do resultado. As duas coisas são compreensíveis e as duas custam caro: é justamente o tempo entre um exame e outro que transforma um pólipo removível em um tumor.',
+          'Vale saber que a sedação faz a maior parte das pessoas não lembrar de nada do procedimento, e que a equipe faz esse exame todos os dias, com rotina própria para preservar a privacidade.',
+          'Se a hesitação é sobre o preparo, peça orientação detalhada na consulta: o que comer, a que horas começar a solução e quanto líquido beber. Preparo bem explicado é a diferença entre um exame conclusivo e um exame perdido. Nada disso é constrangedor para quem faz o exame: é rotina de trabalho.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer colorretal',
+          href: '/doencas/cancer-colorretal/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-colorretal'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'cancer-colorretal-sangue-nas-fezes',
+      'cancer-colorretal-polipos-no-intestino',
+      'cancer-colorretal-intestino-preso-e-alteracao-do-habito',
+      'cancer-colorretal-bolsa-de-colostomia',
+    ],
+    references: [
+      {
+        label: 'Câncer do intestino, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer do intestino',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-colorretal-polipos-no-intestino',
+    slug: 'cancer-colorretal-polipos-no-intestino',
+    title: 'Pólipo no intestino: quando ele vira câncer e o que fazer',
+    excerpt:
+      'A maior parte dos tumores de intestino começa como pólipo, e retirar o pólipo interrompe o processo. Entenda os tipos, por que o laudo importa e como é o seguimento.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-um-polipo',
+        heading: 'O que é um pólipo',
+        paragraphs: [
+          'Pólipo é uma elevação na parede interna do intestino, parecida com uma pequena verruga ou com uma bolinha presa por uma haste. Ele cresce para dentro do tubo digestivo e, no começo, não atrapalha nada. Ela pode ser séssil, de base larga e achatada, ou pediculada, presa por uma haste, e o formato influencia a técnica de retirada.',
+          'A maior parte dos cânceres colorretais nasce de um pólipo. O tumor não aparece de um dia para o outro: a lesão cresce por anos, acumulando alterações nas células, até que uma delas ganha a capacidade de invadir a parede.',
+          'É esse intervalo longo que torna a prevenção possível. Quando o pólipo é retirado durante a colonoscopia, a história é interrompida antes do tumor existir. É a única prevenção do câncer colorretal que age diretamente sobre a lesão que o origina.',
+        ],
+      },
+      {
+        id: 'nem-todo-polipo',
+        heading: 'Nem todo pólipo é perigoso',
+        paragraphs: [
+          'Nem todo pólipo se transforma em câncer. Alguns tipos têm potencial muito baixo de evoluir, enquanto os adenomas, que são os mais frequentes, são justamente os que costumam anteceder o tumor.',
+          'Quem separa uma coisa da outra é o patologista. O material retirado vai para análise, e o laudo descreve o tipo, o tamanho e se há células com alteração no tecido. Sem esse laudo, não é possível saber o que o pólipo significava.',
+          'Também importa quantos foram encontrados. Um único pólipo pequeno e de tipo benigno tem significado diferente de vários pólipos, ou de um pólipo grande, e essa diferença muda o intervalo até o próximo exame. Um pólipo de dois centímetros não é lido como um de cinco milímetros, ainda que os dois sejam adenomas.',
+        ],
+      },
+      {
+        id: 'como-vira-cancer',
+        heading: 'O caminho até o câncer',
+        paragraphs: [
+          'O pólipo que evolui passa por etapas. Primeiro cresce, depois acumula alterações que desorganizam o tecido, e só muito adiante adquire a capacidade de invadir e de se espalhar para gânglios e outros órgãos.',
+          'Cada etapa leva tempo, e é por isso que a colonoscopia funciona como prevenção, não apenas como diagnóstico. Ela encontra a lesão na etapa em que ela ainda pode ser removida inteira. Sem essa etapa, o pólipo continua lá, e o próximo exame pode encontrar algo mais adiantado.',
+          'Quando o tumor já invadiu, o tratamento muda: cirurgia, e às vezes quimioterapia e radioterapia. Quando há metástase no fígado ou no pulmão, o tratamento passa a ser sistêmico na maior parte dos casos.',
+        ],
+      },
+      {
+        id: 'polipo-da-sintoma',
+        heading: 'Pólipo dá sintoma?',
+        paragraphs: [
+          'Quase nunca. Pólipos pequenos costumam ser silenciosos e aparecem por acaso, em exames feitos por outro motivo ou em programas de rastreamento. O que se procura, nesses casos, é o sangramento oculto, que aparece no exame de fezes antes de qualquer sintoma.',
+          'Pólipos maiores podem sangrar aos poucos, sem que a pessoa veja sangue nas fezes. O resultado é anemia por falta de ferro, com cansaço e falta de ar aos esforços, que muita gente atribui à rotina. Por isso, anemia sem causa em adulto merece investigação do intestino, mesmo sem queixa intestinal.',
+          'Quando crescem muito, podem causar alteração do hábito intestinal, cólica ou obstrução. Nessa fase, o sintoma já não é do pólipo: é da consequência dele. Dor e obstrução são sinais tardios e não devem ser o critério de espera.',
+        ],
+      },
+      {
+        id: 'como-se-retira',
+        heading: 'Como se retira',
+        paragraphs: [
+          'A retirada é feita durante a colonoscopia, com alças e pinças que passam pelo canal do aparelho. Pólipos pequenos saem em segundos; os maiores exigem técnica específica e mais tempo. O endoscopista escolhe a técnica conforme o tamanho, a forma e a localização da lesão.',
+          'A maioria dos procedimentos é feita sem cortes e sem internação. Em lesões muito grandes ou muito planas, pode ser necessária uma ressecção mais elaborada, e o endoscopista avalia o melhor caminho caso a caso. Alguns serviços fazem o procedimento com o paciente internado por um dia, por precaução.',
+          'Sangramento após a retirada pode acontecer, às vezes dias depois, e deve ser comunicado à equipe. Perfuração é rara e também é motivo de atendimento imediato. Sangue vivo nas fezes depois de uma retirada é o sinal mais comum, e nem sempre significa problema grave.',
+        ],
+      },
+      {
+        id: 'depois-de-retirar',
+        heading: 'Depois de retirar: o seguimento',
+        paragraphs: [
+          'Retirar o pólipo não encerra o assunto. Quem já teve pólipos tem mais chance de ter outros, e por isso o acompanhamento continua com colonoscopias em intervalos definidos pelo médico. Isso não quer dizer que o exame falhou: quer dizer que a mucosa do intestino continua produzindo pólipos.',
+          'O intervalo depende do laudo: número, tamanho e tipo dos pólipos, além da qualidade do preparo do exame. Preparo ruim deixa dúvida sobre o que ficou para trás, e costuma encurtar o prazo.',
+          'Vale guardar o laudo e levá-lo a cada consulta. Ele é o documento que sustenta a decisão sobre quando repetir o exame, e sem ele o médico recomeça do zero. E, se o intervalo parecer longo demais para o seu caso, pergunte o motivo: a resposta deve citar o laudo.',
+        ],
+      },
+      {
+        id: 'quando-a-heranca-pesa',
+        heading: 'Quando a herança pesa',
+        paragraphs: [
+          'Algumas famílias têm muito mais pólipos do que o habitual, por síndromes hereditárias como a polipose adenomatosa familiar e o câncer colorretal hereditário sem polipose. Nessas situações, a doença aparece mais cedo e o acompanhamento é próprio.',
+          'Ter um parente de primeiro grau com câncer de intestino também aumenta o risco, e é motivo para começar a investigação antes dos 50 anos. A definição da idade e do intervalo cabe ao médico, com base no caso. Não é preciso esperar sintoma para conversar sobre isso.',
+          'Se você tem vários casos na família, ou um caso em pessoa jovem, isso deve ser dito na consulta. É uma informação que muda o calendário de exames de todo mundo ali.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer colorretal',
+          href: '/doencas/cancer-colorretal/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-colorretal'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'cancer-colorretal-sangue-nas-fezes',
+      'cancer-colorretal-quando-fazer-colonoscopia',
+      'cancer-colorretal-intestino-preso-e-alteracao-do-habito',
+      'cancer-colorretal-bolsa-de-colostomia',
+    ],
+    references: [
+      {
+        label: 'Câncer do intestino, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer do intestino',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-colorretal-intestino-preso-e-alteracao-do-habito',
+    slug: 'cancer-colorretal-intestino-preso-e-alteracao-do-habito',
+    title: 'Intestino preso e fezes finas: quando o ritmo intestinal pede exame',
+    excerpt:
+      'Mudança do hábito intestinal é um dos sinais mais comuns do câncer colorretal, e também um dos mais atribuídos ao estresse. Veja o que conta como alteração e quando investigar.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'nao-existe-ritmo-unico',
+        heading: 'Não existe um ritmo único',
+        paragraphs: [
+          'Não existe um número certo de evacuações por dia ou por semana. Há quem vá três vezes ao dia e quem vá três vezes por semana, e as duas coisas podem ser normais para aquela pessoa. O que se busca é o desvio do padrão, não um número ideal.',
+          'O que importa é o padrão individual. O sinal que merece atenção não é a frequência em si, e sim a mudança em relação ao que era habitual e que se mantém por semanas.',
+          'Essa distinção parece pequena e muda tudo. Quem sempre teve intestino preso não tem um sintoma novo por continuar assim; quem sempre foi regulado e passa a alternar diarreia e prisão de ventre tem. Uma alteração que dura duas semanas e volta ao normal tem outro peso.',
+        ],
+      },
+      {
+        id: 'o-que-conta-como-alteracao',
+        heading: 'O que conta como alteração',
+        paragraphs: [
+          'Algumas mudanças são típicas e vale reconhecê-las. Diarreia que passou a ser frequente, prisão de ventre nova, ou a alternância entre as duas, são as mais comuns. Vale anotar quando começou: o tempo é parte do critério.',
+          'Também entram na lista as fezes muito finas, com esforço para evacuar, a sensação de evacuação incompleta e a urgência para evacuar com eliminação de pouco conteúdo. No tumor de reto, essa urgência é frequente e costuma ser confundida com hemorroida.',
+          'Dor ou cólica abdominal que acompanha essas mudanças reforça o motivo de investigar. Nenhum desses sinais é exclusivo de câncer, e é justamente por isso que a avaliação precisa ser feita. A pergunta que o médico vai fazer é o que mudou, e não apenas o que você sente.',
+        ],
+      },
+      {
+        id: 'onde-esta-muda-a-queixa',
+        heading: 'Onde o tumor está muda a queixa',
+        paragraphs: [
+          'Os tumores do lado direito do cólon crescem numa área larga e dão pouca alteração do ritmo intestinal. O sinal mais comum ali é anemia por falta de ferro, com cansaço e falta de ar aos esforços. É por isso que exames de sangue aparecem cedo na investigação de quem só se queixa de cansaço.',
+          'Os tumores do lado esquerdo e do reto costumam estreitar o tubo digestivo. Isso produz fezes finas, esforço para evacuar, sensação de esvaziamento incompleto e, em casos extremos, obstrução. Fezes finas não são motivo de vergonha: são um dado objetivo.',
+          'A obstrução é a apresentação mais grave: dor abdominal intensa, vômitos e parada de eliminação de fezes e gases. É emergência e não deve esperar consulta. Nesse ponto, o quadro já não é ambulatorial.',
+        ],
+      },
+      {
+        id: 'intestino-irritavel',
+        heading: 'Intestino irritável não explica tudo',
+        paragraphs: [
+          'A síndrome do intestino irritável é comum e provoca dor e alteração do ritmo intestinal. Ela não causa sangue nas fezes nem anemia, e esse é um critério útil na conversa com o médico.',
+          'O problema é usar o diagnóstico antigo como explicação automática para qualquer sintoma novo. Quem tem intestino irritável pode ter câncer como qualquer outra pessoa, e a mudança de padrão em alguém com diagnóstico estabelecido merece reavaliação. Reavaliar não é repetir todos os exames: é olhar de novo para o que mudou.',
+          'Doenças inflamatórias intestinais, diverticulite e parasitoses também produzem queixas parecidas. A colonoscopia com biópsia é o que separa os quadros com segurança. E nenhuma delas dispensa a colonoscopia quando há sinal de alarme.',
+        ],
+      },
+      {
+        id: 'quando-e-alarme',
+        heading: 'Quando a alteração é sinal de alarme',
+        paragraphs: [
+          'O limite prático costuma ser o tempo. Alteração do hábito intestinal que dura mais de três semanas, sem explicação, pede avaliação. Os sinais abaixo reforçam a urgência: Três semanas é um limite prático, não uma regra mágica: se o sintoma piora antes disso, não espere.',
+          'Anemia e cansaço sem causa explicada entram na lista sobretudo depois dos 50 anos, porque podem ser a única pista de um tumor do lado direito do cólon. Quando a anemia aparece junto da alteração do ritmo, a investigação deixa de ser opcional.',
+        ],
+        bullets: [
+          'Alteração do hábito intestinal por mais de três semanas',
+          'Sangue nas fezes, vivo ou escuro, em qualquer quantidade',
+          'Fezes muito finas, com esforço e sensação de esvaziamento incompleto',
+          'Anemia e cansaço sem causa explicada',
+          'Perda de peso rápida e sem motivo aparente',
+          'Dor abdominal intensa com parada de eliminação de fezes e gases',
+        ],
+      },
+      {
+        id: 'como-se-investiga',
+        heading: 'Como se investiga',
+        paragraphs: [
+          'A colonoscopia é o exame central, porque olha toda a mucosa do intestino, retira pólipos e colhe fragmentos de lesões suspeitas. É feita com sedação e dura em torno de meia hora. O preparo, mais uma vez, decide a qualidade do resultado.',
+          'Antes dela, o médico pode pedir exames de sangue para avaliar anemia e dosar o CEA, um marcador tumoral que serve para acompanhar tratamento, não para dar diagnóstico. O toque retal ajuda a perceber tumores baixos. Nenhum deles substitui a visão direta da mucosa.',
+          'No SUS, o caminho começa na Unidade Básica de Saúde, que encaminha para colonoscopia e, quando necessário, para o serviço de referência em oncologia. Perguntar o tempo de espera ajuda a organizar a vida em volta do exame.',
+        ],
+      },
+      {
+        id: 'fibra-agua-e-o-que-ajuda',
+        heading: 'Fibra, água e o que realmente ajuda',
+        paragraphs: [
+          'Mudar a alimentação ajuda o intestino preso funcional: mais fibras, mais líquidos ao longo do dia e atividade física regular melhoram o ritmo na maior parte das pessoas. Isso não substitui a investigação de uma alteração persistente. Se o ritmo não melhora com essas mudanças, isso também é informação clínica.',
+          'Vale desconfiar de laxante por conta própria por meses. Ele alivia o sintoma e pode adiar o diagnóstico, que é exatamente o que não se quer em um tumor que cresce devagar e dá pouco sinal. Laxante não trata a causa, apenas o sintoma.',
+          'A prevenção, essa sim, passa pela mesa: peso adequado, atividade física, frutas, verduras, legumes, cereais integrais e feijões, pouca carne processada e limite de 500 gramas de carne vermelha cozida por semana. Não fumar e moderar o álcool completam a lista.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer colorretal',
+          href: '/doencas/cancer-colorretal/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-colorretal'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'cancer-colorretal-sangue-nas-fezes',
+      'cancer-colorretal-quando-fazer-colonoscopia',
+      'cancer-colorretal-polipos-no-intestino',
+      'cancer-colorretal-bolsa-de-colostomia',
+    ],
+    references: [
+      {
+        label: 'Câncer do intestino, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer do intestino',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-colorretal-bolsa-de-colostomia',
+    slug: 'cancer-colorretal-bolsa-de-colostomia',
+    title: 'Bolsa de colostomia: quando é temporária e como é a vida com ela',
+    excerpt:
+      'A maior parte das operações de intestino não precisa de bolsa, e quando precisa ela costuma ser temporária. Entenda a indicação, os primeiros dias e o que muda na rotina.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-e-necessaria',
+        heading: 'Quando a bolsa é necessária',
+        paragraphs: [
+          'A cirurgia do câncer colorretal retira o segmento do intestino comprometido, junto com os gânglios da região, e liga o restante do órgão. Na maior parte das operações de cólon, essa ligação é feita na mesma cirurgia e não há bolsa. O que define a necessidade é a distância do tumor até a margem do ânus e o estado do esfíncter.',
+          'A colostomia entra quando o tumor está muito próximo do ânus ou quando o esfíncter anal precisa ser retirado. Nesse caso, a eliminação das fezes passa a ser feita por uma abertura no abdome, e a bolsa recolhe o conteúdo.',
+          'Ela também pode ser indicada de forma temporária, para proteger a ligação entre dois segmentos do intestino enquanto ela cicatriza. É uma decisão técnica, tomada durante o planejamento da operação.',
+        ],
+      },
+      {
+        id: 'temporaria-ou-definitiva',
+        heading: 'Temporária ou definitiva',
+        paragraphs: [
+          'Boa parte das colostomias é temporária. Ela protege a anastomose, que é a ligação entre os segmentos do intestino, e é fechada meses depois, quando a cicatrização está completa. O prazo não é fixo: depende da cicatrização e de o tratamento seguinte não atrapalhar.',
+          'Quando o esfíncter precisa ser removido junto com o reto, a bolsa é definitiva. Isso não significa perder a vida social, o trabalho ou o esporte: significa aprender um cuidado novo, com material adequado e acompanhamento de enfermagem especializada.',
+          'Vale perguntar, antes da cirurgia, qual é o plano: se há possibilidade de preservar o esfíncter, se a bolsa será temporária e em que prazo ela pode ser fechada. A resposta muda o planejamento de quem vai operar.',
+        ],
+      },
+      {
+        id: 'a-operacao',
+        heading: 'Como é a operação',
+        paragraphs: [
+          'A maior parte das cirurgias de cólon pode ser feita por videolaparoscopia, com incisões pequenas e recuperação mais rápida. A recuperação inclui retorno gradual da alimentação e estímulo para caminhar cedo, o que reduz complicações.',
+          'Nos tumores de reto mais avançados, a radioterapia e a quimioterapia podem vir antes da cirurgia, para reduzir o tumor e aumentar a chance de preservar o esfíncter anal. É por isso que o tratamento do reto costuma ser planejado em outra ordem. A ordem é decidida em equipe, com cirurgião, oncologista e radioterapeuta.',
+          'Depois da operação, as complicações mais temidas são a fístula na junção entre os segmentos do intestino, o sangramento e a infecção da ferida. A obstrução por aderências pode aparecer meses ou anos depois. Dor que não cede, febre ou parada de eliminação de fezes e gases também pedem avaliação.',
+        ],
+      },
+      {
+        id: 'primeiros-dias',
+        heading: 'Os primeiros dias e o aprendizado',
+        paragraphs: [
+          'Ninguém sai da cirurgia sabendo cuidar de uma bolsa. O aprendizado é gradual e faz parte do pós-operatório: trocar a bolsa, observar a pele, reconhecer o que é normal e o que não é. As primeiras semanas são as mais difíceis, e isso não é falha de ninguém.',
+          'No começo, a bolsa enche de ar com facilidade e o conteúdo é mais líquido. Com o tempo, a consistência muda e o ritmo se organiza, o que torna o manejo mais previsível. Cada corpo tem seu tempo, e não existe comparação útil com o leito ao lado.',
+          'A enfermagem especializada é o apoio central nessa fase. Ela avalia o tipo de bolsa adequado ao seu corpo, ensina a troca e resolve os problemas de vedação, que são a causa mais comum de vazamento.',
+        ],
+      },
+      {
+        id: 'vida-cotidiana',
+        heading: 'Trabalho, roupa, esporte e alimentação',
+        paragraphs: [
+          'A vida cotidiana segue com adaptações, e não com interrupções. Quem tem estoma pode trabalhar, praticar esportes e manter a vida social, com alguns ajustes de rotina:',
+          'Na alimentação, não existe uma dieta única. Costuma ajudar comer devagar, fracionar as refeições, mastigar bem e observar como o corpo reage a alimentos que produzem gases ou odor. Beber líquidos ao longo do dia também importa.',
+          'Roupas mais soltas e cintos que não pressionem o estoma resolvem a maior parte do desconforto. Para esporte e natação, existem cintas e bolsas específicas, e vale conversar com a enfermagem sobre o que serve para o seu caso.',
+        ],
+        bullets: [
+          'Esvaziar a bolsa antes de sair e levar material de reserva na bolsa de mão',
+          'Preferir roupas que não comprimam a região do estoma',
+          'Retomar a atividade física conforme liberação da equipe',
+          'Observar gases, odor e consistência, que variam com a alimentação',
+          'Manter as consultas de acompanhamento, mesmo quando está tudo bem',
+        ],
+      },
+      {
+        id: 'cuidados-com-a-pele',
+        heading: 'Cuidados com a pele ao redor',
+        paragraphs: [
+          'A pele ao redor do estoma é a parte que mais pede atenção. Ela precisa estar seca e íntegra para que a bolsa adira, e a umidade do conteúdo intestinal irrita a pele rapidamente. A região precisa de inspeção diária, sobretudo nas primeiras semanas.',
+          'Trocar a bolsa no intervalo recomendado, limpar com água e secar bem antes de colar, e recortar a abertura no tamanho do estoma são cuidados que evitam a maior parte dos problemas.',
+          'Vermelhidão, ardência, feridas ou vazamento frequente não são normais e têm solução. Levar isso à enfermagem especializada é mais eficaz do que tentar resolver com produtos improvisados. Cada tipo de pele reage de um jeito, e o ajuste é individual.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar a equipe',
+        paragraphs: [
+          'Alguns sinais pedem avaliação e não devem esperar a consulta marcada: mudança de cor ou de tamanho do estoma, sangramento pela abertura, dor abdominal forte, vômitos persistentes ou parada de saída de conteúdo.',
+          'Alterações do ritmo intestinal, urgência para evacuar e incontinência podem persistir depois do tratamento do câncer de reto. Fisioterapia do assoalho pélvico e ajustes alimentares ajudam bastante, e devem ser buscados com orientação profissional. Esses sintomas têm tratamento e não devem ser aceitos como parte normal da vida.',
+          'Vale lembrar que o seguimento inclui consultas, dosagem de CEA, exames de imagem e colonoscopia de controle, com ritmo definido pelo estágio e pelo tipo de cirurgia. Sintomas novos devem ser relatados sem esperar a próxima data.',
+        ],
+        cta: {
+          label: 'Ver o guia completo do câncer colorretal',
+          href: '/doencas/cancer-colorretal/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-colorretal'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'cancer-colorretal-sangue-nas-fezes',
+      'cancer-colorretal-quando-fazer-colonoscopia',
+      'cancer-colorretal-polipos-no-intestino',
+      'cancer-colorretal-intestino-preso-e-alteracao-do-habito',
+    ],
+    references: [
+      {
+        label: 'Câncer do intestino, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer do intestino',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/intestino',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'toxoplasmose-na-gestacao-igm-positivo',
+    slug: 'toxoplasmose-na-gestacao-igm-positivo',
+    title: 'Toxoplasmose na gestação: o que fazer com o IgM positivo',
+    excerpt:
+      'IgM positivo no pré-natal não é diagnóstico fechado nem indicação automática de remédio. Entenda o que o exame mostra, por que ele se repete e quais são os próximos passos.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-o-exame-entra-no-prenatal',
+        heading: 'Por que a toxoplasmose entra no pré-natal',
+        paragraphs: [
+          'O teste de toxoplasmose está na lista de exames do pré-natal brasileiro por uma característica incômoda da infecção: quase sempre ela não dá sintoma. Uma mulher que se infecta no segundo trimestre pode não sentir nada além de um cansaço que atribui à própria gravidez, e a única pista aparece no papel do exame.',
+          'É por isso que a primeira coleta serve de referência para todo o acompanhamento. Saber se a gestante já tinha anticorpos antes de engravidar muda a leitura de qualquer resultado posterior. Quem já tinha IgG não corre risco de infecção nova pelo mesmo parasita, e quem não tinha entra no grupo que precisa de orientação redobrada até o parto.',
+          'A coleta é feita na própria unidade básica de saúde, junto com os outros exames do primeiro trimestre, e o resultado costuma sair em poucos dias. Vale guardar o número do exame e a data da coleta: sem essa informação, um resultado positivo meses depois fica quase impossível de interpretar.',
+        ],
+      },
+      {
+        id: 'o-que-o-igm-mostra',
+        heading: 'O que o IgM mostra e o que ele não mostra',
+        paragraphs: [
+          'O IgM é o primeiro anticorpo que o corpo produz quando encontra o parasita, e por isso costuma ser lido como sinal de infecção recente. O problema é que ele não desaparece no ritmo que se espera: pode continuar positivo por meses, às vezes por mais de um ano, mesmo depois que a fase aguda já passou.',
+          'Um IgM positivo, sozinho, não fecha diagnóstico nem define tratamento. Ele levanta a suspeita e obriga a equipe a olhar o conjunto: o valor do IgG, as datas das coletas, os sintomas e, em alguns serviços, exames que avaliam há quanto tempo aquele anticorpo está presente.',
+          'Na prática, isso significa que a consulta seguinte vale mais do que qualquer busca na internet. É o profissional do pré-natal que decide se o resultado isolado quer dizer alguma coisa ou se é o caso de repetir a coleta depois de algumas semanas, comparando os dois papéis lado a lado.',
+        ],
+      },
+      {
+        id: 'igg-e-igm-lidos-juntos',
+        heading: 'Quando IgG e IgM são lidos juntos',
+        paragraphs: [
+          'Com os dois anticorpos positivos, a pergunta que importa é se a infecção é nova ou antiga. Um IgG que começa negativo e vira positivo entre duas coletas, com IgM também positivo, é o cenário que mais preocupa, porque aponta infecção adquirida durante a gravidez.',
+          'Existe o caso oposto: IgG alto, IgM baixo e nenhuma mudança nas coletas seguintes, situação em que a infecção provavelmente veio anos antes, talvez na infância. Nesse cenário, o risco para o bebê é praticamente nulo, e o pré-natal pode seguir sem mudanças no esquema de exames.',
+          'Repetir a sorologia depois de algumas semanas é o que separa os dois cenários na maioria dos serviços. Por isso a segunda coleta marcada na consulta não deve ser esquecida: é ela que mostra se o IgG está subindo, e essa curva vale mais do que qualquer valor isolado.',
+        ],
+      },
+      {
+        id: 'proximos-passos',
+        heading: 'Os próximos passos depois do resultado alterado',
+        paragraphs: [
+          'Confirmada a suspeita de infecção recente, o pré-natal encaminha a gestante para um serviço de referência. É essa equipe que decide se há indicação de avaliar o líquido amniótico para saber se o parasita chegou ao bebê. O exame não é feito em toda gestante: entra quando a data da infecção é conhecida e o resultado muda a conduta.',
+          'O tratamento específico existe e é indicado justamente na gestante com infecção recente. O esquema depende do trimestre e é sempre individualizado, com acompanhamento próximo, porque os medicamentos que atuam contra o parasita podem alterar o sangue e o fígado. A escolha e a dose ficam com a equipe que acompanha o caso.',
+          'Todo o percurso começa na unidade básica de saúde, que colhe o exame e faz o encaminhamento dentro do SUS. Chegar à consulta com as datas das coletas anotadas e com os exames anteriores em mãos acelera bastante essa etapa, porque evita repetir o que já foi feito.',
+        ],
+        cta: {
+          label: 'Veja como a toxoplasmose se manifesta e como é tratada',
+          href: '/doencas/toxoplasmose/',
+        },
+      },
+      {
+        id: 'o-que-nao-fazer',
+        heading: 'O que não fazer enquanto espera',
+        paragraphs: [
+          'Não comece remédio por conta própria nem interrompa o que foi prescrito quando os sintomas desaparecerem. A interrupção sem orientação favorece a volta da doença, e na gestação o prejuízo não fica restrito à mulher.',
+          'Também não adianta repetir a sorologia em outro laboratório na semana seguinte esperando um resultado diferente. Os anticorpos não mudam de um dia para o outro, e coletas fora do intervalo combinado só embaralham a leitura. O caminho é levar o resultado à consulta seguinte e seguir a orientação sobre quando repetir.',
+          'Cuidado com as promessas de tratamento natural que circulam em grupos de gestantes. Não existe vacina contra a toxoplasmose, e nenhum chá ou suplemento elimina o parasita. O que reduz risco de verdade, nesse período, são os cuidados de higiene na cozinha e na limpeza da caixa de areia do gato.',
+        ],
+      },
+      {
+        id: 'risco-para-o-bebe',
+        heading: 'O risco para o bebê muda conforme o trimestre',
+        paragraphs: [
+          'O risco não é o mesmo em qualquer momento da gravidez. Quanto mais tarde a infecção acontece, maior a chance de o parasita atravessar a placenta e chegar ao feto. Quanto mais cedo, maior o risco de a lesão ser grave. As duas coisas precisam ser conversadas com a equipe, porque o número que assusta em um trimestre não significa o mesmo em outro.',
+          'A maior parte dos bebês infectados nasce sem sinal evidente. Quando há algo visível, pode aparecer icterícia prolongada, cabeça menor que o esperado, alteração no exame de fundo de olho, convulsão ou atraso no desenvolvimento, e é aí que a investigação precisa ser rápida.',
+          'Sequelas visuais e neurológicas podem aparecer meses ou anos depois do nascimento, e é por isso que o seguimento com pediatra e oftalmologista continua mesmo quando o bebê parece bem. Bebês tratados cedo têm chance bem melhor de desenvolvimento normal do que os que chegam tarde ao tratamento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['toxoplasmose'],
+    topicSlugs: ['doencas-infecciosas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'toxoplasmose-como-evitar-na-gravidez',
+      'toxoplasmose-congenita-no-bebe',
+      'toxoplasmose-dor-de-cabeca-quando-e-alerta',
+      'toxoplasmose-caixa-de-areia-e-gatos',
+    ],
+    references: [
+      {
+        label: 'Toxoplasmose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/toxoplasmose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Toxoplasmosis',
+        url: 'https://www.cdc.gov/toxoplasmosis/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'toxoplasmose-como-evitar-na-gravidez',
+    slug: 'toxoplasmose-como-evitar-na-gravidez',
+    title: 'Como evitar toxoplasmose na gravidez',
+    excerpt:
+      'A prevenção da toxoplasmose na gestação passa pela cozinha, pela higiene das mãos e por uma tarefa doméstica que pode ser dividida com outra pessoa. Veja o que muda na rotina.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'a-carne-e-o-ponto-central',
+        heading: 'A carne é o ponto central',
+        paragraphs: [
+          'A porta de entrada mais comum do parasita é a boca, e a principal fonte é carne mal cozida, sobretudo de porco e de caça. A recomendação prática é cozinhar até que não sobre nenhuma parte rosada e que o suco que sai da peça seja claro, sem sinal de sangue. Não existe temperatura de forno que resolva isso de longe: o que vale é o ponto no centro da carne, e não a cor da superfície.',
+          'Carne moída e preparações que ficam cruas no centro exigem atenção extra, porque o calor chega com dificuldade ao meio da peça. O mesmo vale para assados grandes, que parecem prontos por fora e seguem malpassados por dentro quando a peça é grossa. Em preparações como quibe cru e carpaccio, o mais seguro na gravidez é simplesmente deixar para depois.',
+          'Não é preciso abandonar churrasco nem carne de panela. O que muda é o ponto de cozimento e o cuidado com utensílios: tábua e faca usadas na carne crua devem ser lavadas com água e sabão antes de cortar alimentos que vão ser consumidos crus. Ter duas tábuas de cores diferentes na cozinha resolve essa separação sem esforço nenhum.',
+        ],
+      },
+      {
+        id: 'frutas-verduras-e-agua',
+        heading: 'Frutas, verduras e água',
+        paragraphs: [
+          'O oocisto eliminado nas fezes dos felinos é resistente no ambiente e pode contaminar hortas, caixas de areia e hortaliças. Por isso, frutas e verduras devem ser lavadas em água corrente, folha por folha, e não apenas passadas rapidamente sob a torneira antes de ir para a salada. Folhas com muita terra pedem duas ou três águas até a água sair limpa.',
+          'Alimentos que tiveram contato com solo contaminado merecem o mesmo cuidado, inclusive os que vêm de feira e ainda carregam terra na casca. Descascar ou cozinhar o que for possível reduz o risco sem exigir nenhum produto especial de limpeza. Vinagre e bicarbonato não substituem a água corrente: eles ajudam a soltar a sujeira, mas não eliminam o parasita.',
+          'A água também entra na conta. Beber água tratada e lavar os alimentos com água de procedência conhecida já resolve boa parte do problema. Onde a qualidade é incerta, ferver ou usar filtro é medida barata e vale também para a água de sucos e de preparações que não vão ao fogo, como vitaminas e sobremesas geladas.',
+        ],
+      },
+      {
+        id: 'gato-e-caixa-de-areia',
+        heading: 'O gato e a caixa de areia',
+        paragraphs: [
+          'Conviver com um gato não basta para pegar toxoplasmose. O risco está no contato com fezes contaminadas e com a areia onde o animal defecou, não no pelo nem no carinho. Quem tem gato não precisa se desfazer do animal durante a gravidez, o que costuma ser a primeira preocupação de quem recebe o diagnóstico. O animal de estimação de uma vida inteira não vira problema de um dia para o outro.',
+          'O que muda é a divisão de tarefas. O ideal é que outra pessoa troque a caixa de areia todos os dias, e que a gestante não faça essa limpeza. Quando não houver outra pessoa em casa, use luvas, lave as mãos com água e sabão depois e evite levar a mão ao rosto antes disso. Deixar a limpeza para o fim do dia, quando a casa está mais vazia, não reduz risco nenhum: o que conta é a frequência.',
+          'Também vale não alimentar o gato com carne crua, porque isso mantém o ciclo do parasita girando dentro de casa. Gato criado em apartamento, alimentado com ração e sem acesso à rua tem risco menor, mas a limpeza diária da caixa continua valendo como rotina para qualquer animal. Se o gato tem acesso à rua, o cuidado com a caixa passa a ser ainda mais importante.',
+        ],
+      },
+      {
+        id: 'terra-areia-e-luvas',
+        heading: 'Terra, areia e o hábito de lavar as mãos',
+        paragraphs: [
+          'Jardinar, mexer em horta e brincar na areia colocam a mão em contato direto com solo que pode abrigar oocistos. Na gravidez, essas atividades não precisam ser proibidas, mas pedem luva e lavagem das mãos logo depois. O mesmo vale para quem limpa o quintal, mexe em vasos ou tira mato no fim de semana. Jardinar de luva é bem mais confortável do que passar meses preocupada.',
+          'Caixas de areia de praça e de escola merecem atenção especial, porque são usadas por muitos gatos e raramente têm cobertura. Se não der para evitar o local, lave as mãos das crianças ao sair, antes de qualquer lanche, e sacuda a roupa e os calçados antes de entrar em casa. Vale também observar se há fezes visíveis na areia antes de deixar a criança sentar.',
+          'A lavagem das mãos cobre várias frentes ao mesmo tempo: depois de mexer com terra, depois de manusear carne crua, depois de trocar a areia do gato e antes de comer. Não existe vacina contra a toxoplasmose, então a prevenção depende inteiramente desses hábitos repetidos todos os dias. Água e sabão bastam; não é necessário nenhum produto antisséptico especial.',
+        ],
+      },
+      {
+        id: 'quem-ja-tem-anticorpos',
+        heading: 'Quem já tem anticorpos não precisa mudar tudo',
+        paragraphs: [
+          'A orientação muda de acordo com a sorologia. Uma gestante com IgG positivo antes da gravidez já teve contato com o parasita e não corre risco de infecção nova pelo mesmo agente, o que significa que as restrições mais rígidas podem ser afrouxadas depois de conversar com a equipe do pré-natal. Isso não é motivo para abandonar a higiene, apenas para viver sem medo do exagero.',
+          'Já a gestante sem anticorpos é quem mais se beneficia dos cuidados de higiene, porque continua suscetível até o parto. Vale conversar sobre isso na primeira consulta e registrar o resultado no prontuário, para que a orientação não se perca entre um retorno e outro. Quem muda de serviço no meio da gravidez deve levar o exame junto.',
+          'Quem descobre a sorologia negativa no meio da gravidez não precisa viver com medo de tudo. O risco depende de ingerir o parasita, não de conviver com animais ou de comer fora de casa, e a maior parte das refeições preparadas com higiene é segura. O objetivo é reduzir as vias mais prováveis, não transformar a gestação em uma lista de proibições.',
+        ],
+      },
+      {
+        id: 'depois-do-parto',
+        heading: 'Depois do parto os cuidados continuam',
+        paragraphs: [
+          'A amamentação não transmite toxoplasmose, e o aleitamento pode seguir normalmente. O que continua valendo são os cuidados de higiene na cozinha, principalmente quando o bebê começar a comer alimentos preparados em casa e a dividir a mesa com o resto da família. Nada disso exige esterilizar a casa: são as mesmas medidas, aplicadas com constância.',
+          'Para quem tem imunidade baixa por outra condição, a orientação é ainda mais rigorosa e não termina com a gravidez: evitar carne mal passada, lavar bem os vegetais crus e manter o acompanhamento em dia. A reativação da infecção pode ser prevenida com seguimento adequado e contínuo. Nesse grupo, o cuidado com a alimentação é parte do tratamento, não um detalhe de estilo de vida.',
+          'Vale também avisar a equipe que acompanha o tratamento diante de febre, dor de cabeça ou alteração visual, porque no começo os sintomas podem ser discretos e fáceis de confundir com outra coisa menos grave. Quem tem o diagnóstico antigo registrado no prontuário facilita bastante essa conversa.',
+        ],
+        cta: {
+          label: 'Entenda as formas da toxoplasmose e quem corre mais risco',
+          href: '/doencas/toxoplasmose/',
+        },
+      },
+    ],
+    diseaseSlugs: ['toxoplasmose'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'toxoplasmose-na-gestacao-igm-positivo',
+      'toxoplasmose-congenita-no-bebe',
+      'toxoplasmose-dor-de-cabeca-quando-e-alerta',
+      'toxoplasmose-caixa-de-areia-e-gatos',
+    ],
+    references: [
+      {
+        label: 'Toxoplasmose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/toxoplasmose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Toxoplasmosis',
+        url: 'https://www.cdc.gov/toxoplasmosis/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'toxoplasmose-congenita-no-bebe',
+    slug: 'toxoplasmose-congenita-no-bebe',
+    title: 'Toxoplasmose congênita: o que acontece com o bebê',
+    excerpt:
+      'A maior parte dos bebês infectados nasce sem sinal evidente, e é justamente por isso que o seguimento depois do parto importa tanto. Entenda o que é investigado e por quê.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-o-parasita-chega-ao-bebe',
+        heading: 'Como o parasita chega ao bebê',
+        paragraphs: [
+          'A toxoplasmose congênita acontece quando a mulher se infecta durante a gravidez e o parasita atravessa a placenta, chegando ao feto pelo cordão umbilical. Não é uma doença herdada nem genética: é uma infecção que passa de mãe para filho enquanto a gestação acontece. Isso explica por que o diagnóstico na gestante muda toda a condução do pré-natal.',
+          'O momento da infecção muda bastante o desfecho. Quanto mais tarde ela acontece, maior a chance de o parasita chegar ao bebê; quanto mais cedo, maior o risco de a lesão ser grave, porque os órgãos ainda estão se formando. As duas coisas precisam ser conversadas com a equipe do pré-natal, e não interpretadas a partir de um número solto.',
+          'Uma mulher que já tinha anticorpos antes de engravidar não transmite o parasita por essa via, porque a infecção antiga fica controlada pelo sistema imunológico. O risco está concentrado nas gestantes que se infectam pela primeira vez durante os nove meses. É por isso que a primeira sorologia do pré-natal vale tanto.',
+        ],
+      },
+      {
+        id: 'o-que-aparece-ao-nascer',
+        heading: 'O que costuma aparecer ao nascer',
+        paragraphs: [
+          'A maior parte dos bebês nasce sem nenhum sinal evidente, o que dá uma falsa sensação de segurança. Quando há algo visível, os achados mais frequentes são icterícia que se prolonga além do esperado, cabeça menor do que o previsto para a idade gestacional e alteração no exame de fundo de olho. Nenhum deles é dramático à primeira vista, e é justamente aí que o seguimento faz diferença.',
+          'Em casos mais graves pode haver convulsão, sonolência excessiva, irritabilidade difícil de acalmar e atraso no desenvolvimento. Bebês com hidrocefalia, o acúmulo de líquido no cérebro, e com calcificações cerebrais visíveis em exames de imagem formam o grupo de maior preocupação. Esses quadros costumam aparecer já na avaliação da maternidade.',
+          'Nenhum desses sinais é exclusivo da toxoplasmose, e é por isso que o diagnóstico nunca é feito só pelo aspecto do bebê. O que fecha o raciocínio é o conjunto: a sorologia da mãe, o momento da infecção e os exames do recém-nascido. Sem esse conjunto, qualquer conclusão isolada é frágil.',
+        ],
+      },
+      {
+        id: 'exames-do-recem-nascido',
+        heading: 'Os exames do recém-nascido',
+        paragraphs: [
+          'A investigação começa pelo exame físico completo e pelo exame de fundo de olho, feito por oftalmologista ainda na maternidade ou logo no seguimento. É esse exame que identifica a inflamação da retina, muitas vezes invisível de fora e sem qualquer queixa do bebê. Um olho que parece perfeito pode ter lesão ativa na periferia.',
+          'Exames de imagem do crânio entram quando há suspeita de comprometimento neurológico, porque mostram hidrocefalia e calcificações. A audição também precisa ser avaliada, já que a perda auditiva está entre as sequelas descritas da forma congênita. Cada um desses exames responde a uma pergunta diferente, e nenhum substitui o outro.',
+          'A ultrassonografia feita durante a gestação já pode levantar a suspeita, mas não substitui a avaliação depois do nascimento. Por isso, quando a mãe teve infecção confirmada no pré-natal, o bebê sai da maternidade com retorno já marcado com o pediatra e com o oftalmologista. Chegar em casa com data marcada evita a lacuna mais comum nesses casos.',
+        ],
+      },
+      {
+        id: 'tratamento-do-bebe',
+        heading: 'Como é o tratamento do bebê',
+        paragraphs: [
+          'O tratamento específico é indicado para a toxoplasmose congênita e usa medicamentos que atacam o parasita, com acompanhamento próximo. O esquema e a duração ficam com a equipe que acompanha o caso, porque dependem dos exames e do comprometimento encontrado. Não é um tratamento que se ajusta por conta própria em casa.',
+          'Esses medicamentos podem causar efeitos colaterais, entre eles alteração no sangue e no fígado, e é por isso que o seguimento inclui exames periódicos. Qualquer sinal novo, como febre, manchas na pele ou recusa alimentar, deve ser levado à equipe. As consultas de controle não são burocracia: são o que permite ajustar o esquema com segurança.',
+          'O tratamento não é decidido no primeiro dia de vida em todos os casos: depende da confirmação diagnóstica e da avaliação especializada. O que não se deve fazer é esperar o aparecimento de sintomas para procurar ajuda, porque a lesão já instalada responde pior. Bebês tratados cedo têm chance bem melhor de desenvolvimento normal.',
+        ],
+        cta: {
+          label: 'Veja como a toxoplasmose é transmitida e como se proteger',
+          href: '/doencas/toxoplasmose/',
+        },
+      },
+      {
+        id: 'sequelas-que-aparecem-depois',
+        heading: 'As sequelas que aparecem depois',
+        paragraphs: [
+          'Parte das consequências não está visível ao nascer. Alterações visuais e neurológicas podem se manifestar meses ou anos depois, e é comum a família relaxar justamente quando o bebê começa a se desenvolver bem e a rotina de consultas parece excesso. O problema é que a lesão ocular pode avançar sem nenhum sinal percebido em casa.',
+          'Entre as sequelas descritas estão cicatrizes na retina com queda de visão, perda auditiva, atraso no desenvolvimento neurológico e epilepsia. A retinocoroidite pode voltar anos depois, às vezes no mesmo olho, e cada episódio pode reduzir mais a visão. Por isso o acompanhamento com oftalmologista continua por anos, mesmo quando tudo parece bem.',
+          'Bebês tratados cedo têm chance bem melhor de desenvolvimento normal. Já a infecção que segue sem tratamento é a principal responsável pelas sequelas visuais, auditivas e neurológicas, o que reforça a importância de não perder as consultas de acompanhamento. Faltar a uma consulta de rotina custa pouco na hora e muito no futuro.',
+        ],
+      },
+      {
+        id: 'seguimento-com-pediatra-e-oftalmologista',
+        heading: 'O seguimento com pediatra e oftalmologista',
+        paragraphs: [
+          'O acompanhamento de um bebê com toxoplasmose congênita é longo e envolve mais de um especialista. O pediatra avalia crescimento, desenvolvimento e audição; o oftalmologista acompanha o fundo de olho em intervalos regulares, mesmo quando a visão parece normal. Cada um enxerga uma parte do problema, e as informações só fazem sentido juntas.',
+          'Vale guardar todos os exames em uma pasta e levá-los a cada consulta, porque a comparação entre imagens antigas e novas é o que mostra se houve progressão. Também ajuda anotar as datas das coletas da mãe durante a gravidez, informação que muitas vezes se perde. Um caderno simples resolve, desde que esteja sempre na mesma bolsa.',
+          'A notificação da toxoplasmose congênita faz parte da vigilância do Ministério da Saúde, e o registro não expõe a família: ele serve para identificar surtos, bloquear a fonte de contaminação e organizar o seguimento de outras pessoas expostas. Recusar a notificação por medo de exposição é compreensível, mas o sigilo faz parte do atendimento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['toxoplasmose'],
+    topicSlugs: ['doencas-infecciosas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'toxoplasmose-na-gestacao-igm-positivo',
+      'toxoplasmose-como-evitar-na-gravidez',
+      'toxoplasmose-dor-de-cabeca-quando-e-alerta',
+      'toxoplasmose-caixa-de-areia-e-gatos',
+    ],
+    references: [
+      {
+        label: 'Toxoplasmose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/toxoplasmose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Toxoplasmosis',
+        url: 'https://www.cdc.gov/toxoplasmosis/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'toxoplasmose-dor-de-cabeca-quando-e-alerta',
+    slug: 'toxoplasmose-dor-de-cabeca-quando-e-alerta',
+    title: 'Dor de cabeça e toxoplasmose: quando é sinal de alerta',
+    excerpt:
+      'Na maioria das pessoas a toxoplasmose não passa de um mal-estar passageiro. Em quem tem imunidade baixa, a dor de cabeça pode ser o primeiro sinal de uma forma grave.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'quando-a-dor-de-cabeca-e-comum',
+        heading: 'Quando a dor de cabeça não tem relação com o parasita',
+        paragraphs: [
+          'A toxoplasmose adquirida por uma pessoa com imunidade boa costuma se parecer com uma virose arrastada: gânglios inchados no pescoço, febre baixa, dor no corpo, cansaço e falta de apetite. Dor de cabeça pode aparecer nesse conjunto, mas não é o sintoma que chama atenção nem o que leva alguém ao pronto atendimento. O que incomoda mesmo são os gânglios do pescoço, que parecem não ceder.',
+          'A maioria das pessoas não sente nada. Quando sente, os gânglios podem ficar aumentados por semanas ou meses depois que o resto melhora, e isso assusta bastante, embora coste regredir sozinho com o tempo. Nessa fase, o exame costuma ser pedido por outro motivo e acaba revelando a infecção antiga por acaso.',
+          'Isso significa que uma dor de cabeça isolada, em quem está bem, tem muito mais chance de ser enxaqueca, tensão, sinusite ou sono ruim do que toxoplasmose. O parasita não é uma causa comum de cefaleia na população geral, e tratá-lo como suspeita automática leva a exames desnecessários e a uma ansiedade que não ajuda ninguém.',
+        ],
+      },
+      {
+        id: 'o-que-muda-em-quem-tem-imunidade-baixa',
+        heading: 'O que muda em quem tem imunidade baixa',
+        paragraphs: [
+          'O cenário muda por completo quando a imunidade está baixa. Em pessoas vivendo com HIV sem tratamento regular, transplantadas, em quimioterapia ou usando corticoide por tempo prolongado, o parasita pode sair dos cistos e voltar a se multiplicar, atingindo o cérebro. Nesses casos, a infecção antiga é que volta a dar problema, e não uma exposição nova.',
+          'Nessa forma cerebral, a doença se manifesta com dor de cabeça forte, confusão, sonolência, convulsão, fraqueza em um lado do corpo e febre. Sem tratamento, evolui rápido, e o intervalo entre o primeiro sintoma e a piora pode ser de poucos dias. Por isso a avaliação não espera a consulta de rotina.',
+          'A diferença prática está no contexto. A mesma dor de cabeça que em uma pessoa saudável sugere tensão, em alguém com imunidade muito baixa e sem acompanhamento regular precisa de avaliação no mesmo dia. O sintoma é igual; o que muda é o que ele pode significar naquele corpo.',
+        ],
+      },
+      {
+        id: 'sinais-que-exigem-atendimento-no-mesmo-dia',
+        heading: 'Sinais que exigem atendimento no mesmo dia',
+        paragraphs: [
+          'Alguns quadros pedem avaliação em poucas horas, e não valem esperar a consulta marcada. Dor de cabeça forte e de início súbito, confusão mental, convulsão, fraqueza ou dormência em um lado do corpo e alteração da fala entram nessa lista, principalmente em quem tem HIV ou usa imunossupressor. Febre que passa de uma semana com gânglios que não diminuem também merece investigação.',
+          'Na gestante, os sinais de alerta são outros: exame de toxoplasmose alterado, sobretudo IgM positivo ou aumento de IgG entre duas coletas, febre sem causa clara, gânglios que não diminuem e manchas pelo corpo. Nesse grupo, a pressa não é por causa da mãe, e sim do tempo que o parasita tem para chegar ao bebê.',
+          'Também merecem atenção dor ocular, visão embaçada de início recente, sensibilidade à luz e a sensação de uma sombra no campo visual. Esses sintomas podem indicar inflamação da retina, que precisa ser vista pelo oftalmologista sem demora. Um bebê com icterícia prolongada, sonolência ou alteração no fundo de olho entra na mesma urgência.',
+        ],
+      },
+      {
+        id: 'como-a-investigacao-acontece',
+        heading: 'Como a investigação é feita',
+        paragraphs: [
+          'Em quem tem imunidade baixa e sintomas neurológicos, a tomografia ou a ressonância mostram as lesões cerebrais e ajudam a afastar outras causas. O exame de imagem não fecha o diagnóstico sozinho, mas orienta a conduta e evita tratamentos às cegas. Em muitos serviços, é ele que define a velocidade dos passos seguintes.',
+          'A sorologia continua fazendo parte da investigação, porque mostra se houve contato com o parasita. Em paralelo, a equipe costuma pesquisar outras infecções oportunistas que causam quadros parecidos, além de linfoma, que também aparece como lesão cerebral em pessoas com HIV. A lista é longa, e é por isso que o diagnóstico não se fecha às pressas.',
+          'O atendimento começa na unidade básica de saúde, que avalia e encaminha os casos suspeitos. Pessoas com imunidade baixa seguem para acompanhamento especializado dentro do SUS, muitas vezes em serviço de referência para infecções oportunistas. Chegar com os exames anteriores em mãos encurta bastante o caminho.',
+        ],
+        cta: {
+          label: 'Conheça os sintomas e as formas da toxoplasmose',
+          href: '/doencas/toxoplasmose/',
+        },
+      },
+      {
+        id: 'o-que-nao-e-sinal',
+        heading: 'O que não é sinal de toxoplasmose',
+        paragraphs: [
+          'Conviver com um gato não transforma qualquer dor de cabeça em toxoplasmose. O risco depende de ingerir o parasita, presente em fezes contaminadas, em solo e areia com fezes, ou em alimentos e água contaminados, e não do contato com o pelo do animal. Carinho, colo e pelo no sofá não transmitem nada.',
+          'Também não há transmissão de uma pessoa para outra pelo convívio, pelo ar ou por objetos de uso comum. Quem tem um caso confirmado na família não precisa isolar talheres, roupas ou banheiro, e o mesmo vale para o ambiente de trabalho. A única transmissão entre pessoas acontece da gestante para o feto e, de forma rara, por transfusão ou transplante.',
+          'Por fim, um exame de IgG positivo não explica uma dor de cabeça atual. IgG positivo costuma indicar contato antigo com o parasita, muitas vezes de anos antes, e não infecção em atividade. Quem descobriu o resultado numa rotina e passou a atribuir a ele todos os sintomas precisa de uma conversa clara com o médico.',
+        ],
+      },
+      {
+        id: 'quem-vive-com-hiv',
+        heading: 'O cuidado de quem vive com HIV',
+        paragraphs: [
+          'Para quem vive com HIV, a melhor proteção contra a forma cerebral é o tratamento antirretroviral em dia, porque é ele que mantém a imunidade longe do ponto em que os cistos se rompem. A toxoplasmose nesse grupo é, quase sempre, reativação de uma infecção antiga, e não uma exposição nova. Manter o acompanhamento regular vale mais do que qualquer cuidado isolado.',
+          'Vale avisar a equipe que acompanha o tratamento diante de febre, dor de cabeça ou alteração visual, mesmo que os sintomas pareçam leves no começo. O profissional sabe quando investigar e quando apenas acompanhar, e essa conversa evita tanto o susto desnecessário quanto o atraso perigoso. Anotar as datas dos episódios ajuda a perceber padrões.',
+          'A prevenção inclui os mesmos cuidados de higiene recomendados para toda a população: carne bem cozida, vegetais crus lavados, água tratada e limpeza diária da caixa de areia, com luvas quando for necessário. Nada disso substitui o tratamento, mas reduz a chance de uma exposição nova se somar ao quadro.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['toxoplasmose'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'toxoplasmose-na-gestacao-igm-positivo',
+      'toxoplasmose-como-evitar-na-gravidez',
+      'toxoplasmose-congenita-no-bebe',
+      'toxoplasmose-caixa-de-areia-e-gatos',
+    ],
+    references: [
+      {
+        label: 'Toxoplasmose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/toxoplasmose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Toxoplasmosis',
+        url: 'https://www.cdc.gov/toxoplasmosis/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'toxoplasmose-caixa-de-areia-e-gatos',
+    slug: 'toxoplasmose-caixa-de-areia-e-gatos',
+    title: 'Caixa de areia, gatos e toxoplasmose: o que é mito',
+    excerpt:
+      'Ter gato em casa não é o mesmo que ter toxoplasmose. O que pesa é o contato com fezes contaminadas, com terra e com areia. Entenda onde está o risco real.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-papel-do-gato-no-ciclo',
+        heading: 'O papel do gato no ciclo do parasita',
+        paragraphs: [
+          'Os gatos e outros felinos são os hospedeiros definitivos do Toxoplasma gondii. Isso quer dizer que é no intestino deles que o parasita completa o ciclo e elimina os oocistos, a forma resistente que contamina o ambiente pelas fezes. Sem um felino, o ciclo sexuado do parasita simplesmente não acontece.',
+          'Nenhum outro animal, incluindo o ser humano, elimina oocistos. Pessoas e outros mamíferos são hospedeiros intermediários: o parasita fica em cistos nos tecidos e o ciclo só continua se um felino comer essa carne contaminada. É por isso que a carne mal cozida de porco e de caça aparece tanto nas recomendações.',
+          'É por isso que o gato aparece tanto nas conversas sobre a doença. Ele é parte essencial do ciclo, mas a transmissão para uma pessoa depende de um passo intermediário: ingerir o oocisto que chegou ao ambiente, não o animal em si. Entender essa diferença resolve boa parte do medo.',
+        ],
+      },
+      {
+        id: 'por-que-a-areia-concentra-risco',
+        heading: 'Por que a caixa de areia concentra risco',
+        paragraphs: [
+          'O oocisto é resistente no ambiente e pode sobreviver em hortas, caixas de areia e hortaliças. A caixa de areia doméstica reúne as condições ideais: material fino, úmido e frequentemente revolvido, onde as fezes ficam disponíveis por tempo suficiente para contaminar tudo ao redor. É um ambiente muito mais favorável do que o pelo do animal.',
+          'Quanto mais tempo as fezes permanecem ali, mais o ambiente fica contaminado, e maior a chance de a areia ser espalhada pela casa nos pés, nas patas do animal ou na própria limpeza. O risco não está em tocar no gato, e sim no contato com esse material. Quem limpa sem luva e sem lavar as mãos depois assume a maior parte desse risco.',
+          'A recomendação de trocar a areia todos os dias vem daí: reduz o tempo em que as fezes ficam disponíveis e diminui a quantidade de material contaminado circulando dentro de casa. Não é exagero de quem tem mania de limpeza, e sim uma medida com lógica concreta.',
+        ],
+      },
+      {
+        id: 'como-limpar-com-seguranca',
+        heading: 'Como limpar com segurança',
+        paragraphs: [
+          'O ideal é que a limpeza diária não seja feita por gestantes nem por pessoas com imunidade baixa. Quando não houver outra pessoa em casa, use luvas, retire os torrões com a pá, descarte em saco fechado e lave as mãos com água e sabão em seguida. Deixar a luva e o sabão ao lado da caixa facilita a rotina e evita esquecimentos.',
+          'Evite levar a mão ao rosto durante a limpeza e não sacuda a areia dentro de casa. A caixa deve ficar em local ventilado, longe da cozinha e de onde as crianças brincam, e vale lavar a bandeja por inteiro de tempos em tempos. Areia trocada por completo com regularidade também reduz o acúmulo.',
+          'Também ajuda não alimentar o gato com carne crua, porque isso mantém o ciclo do parasita girando dentro de casa. Gato criado em apartamento, alimentado com ração e sem acesso à rua tem risco menor, mas a limpeza diária continua valendo como rotina. O hábito protege a casa inteira, não só a gestante.',
+        ],
+        cta: {
+          label: 'Veja quem corre mais risco de forma grave',
+          href: '/doencas/toxoplasmose/',
+        },
+      },
+      {
+        id: 'areia-de-praca-e-horta',
+        heading: 'Areia de praça, horta e quintal',
+        paragraphs: [
+          'Caixas de areia de praça, de escola e de condomínio são usadas por muitos gatos e raramente têm cobertura. Para quem frequenta esses espaços, especialmente crianças, o cuidado é lavar as mãos ao sair e antes de qualquer lanche. Vale observar se há fezes visíveis antes de deixar a criança sentar e brincar.',
+          'Hortas e canteiros também merecem atenção, porque o oocisto pode sobreviver no solo e chegar às hortaliças. Lavar bem o que vai ser consumido cru e usar luva ao mexer na terra são medidas simples que cobrem essa via. Quem tem horta em casa deve redobrar o cuidado com o que é colhido e comido sem cozinhar.',
+          'Quem tem quintal e gato ao mesmo tempo deve evitar que o animal use o canteiro como banheiro. Cobrir a terra com folhagem ou telas e oferecer uma caixa de areia adequada dentro de casa resolve a maior parte do problema. Um espaço delimitado para o gato também facilita a limpeza diária.',
+        ],
+      },
+      {
+        id: 'o-que-nao-transmite',
+        heading: 'O que não transmite toxoplasmose',
+        paragraphs: [
+          'Não há transmissão pelo pelo do animal, pelo carinho, pelo ar ou por objetos de uso comum. Também não existe transmissão de uma pessoa para outra pelo convívio, o que significa que um caso confirmado na família não exige isolamento de talheres, roupas ou banheiro. A vida doméstica segue normal.',
+          'A transfusão de sangue e o transplante de órgão aparecem como formas raras de transmissão, e a inalação de aerossóis contaminados é descrita como exceção, em situações de laboratório. Nada disso muda a rotina de quem tem um gato em casa. Também não há transmissão por picada de inseto ou por contato com outros animais domésticos.',
+          'A outra via importante é a congênita, quando a mulher se infecta durante a gestação e o parasita chega ao feto. Essa é a razão pela qual a toxoplasmose tem peso tão grande no pré-natal, e por que a orientação sobre alimentação e caixa de areia é repetida em cada consulta.',
+        ],
+      },
+      {
+        id: 'conviver-com-gato-sem-medo',
+        heading: 'Conviver com gato sem medo',
+        paragraphs: [
+          'Quem tem gato não precisa se desfazer do animal, nem durante a gravidez. O que muda é a higiene: limpeza diária da caixa por outra pessoa, luvas quando não houver alternativa, lavagem das mãos depois de mexer com terra ou areia e cuidado com carne crua na cozinha. São medidas pequenas, e nenhuma delas exige abrir mão do animal.',
+          'Vale lembrar que a infecção costuma ser silenciosa. Em boa parte das pessoas ela passa sem sintoma nenhum e só é descoberta por acaso, em exame de rotina ou na triagem do pré-natal, o que explica por que tanta gente convive com o parasita sem saber. Isso também mostra que o risco real é menor do que o medo sugere.',
+          'Depois da fase aguda, o parasita costuma ficar quieto dentro de cistos nos tecidos, sob controle do sistema imunológico. A preocupação maior fica com gestantes sem anticorpos e com pessoas de imunidade baixa, que são os grupos em que a infecção tem consequência. Para o resto da população, conviver com um gato e manter a casa limpa é suficiente.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['toxoplasmose'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'toxoplasmose-na-gestacao-igm-positivo',
+      'toxoplasmose-como-evitar-na-gravidez',
+      'toxoplasmose-congenita-no-bebe',
+      'toxoplasmose-dor-de-cabeca-quando-e-alerta',
+    ],
+    references: [
+      {
+        label: 'Toxoplasmose',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/toxoplasmose',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Toxoplasmosis',
+        url: 'https://www.cdc.gov/toxoplasmosis/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'clamidia-sintomas-e-por-que-passam-despercebidos',
+    slug: 'clamidia-sintomas-e-por-que-passam-despercebidos',
+    title: 'Clamídia: sintomas e por que a maioria não percebe',
+    excerpt:
+      'Sete em cada dez pessoas com clamídia não têm sintoma nenhum. Quando algo aparece, costuma ser discreto e parecido com outras infecções. Veja o que observar.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-a-maioria-nao-sente-nada',
+        heading: 'Por que a maioria não sente nada',
+        paragraphs: [
+          'Entre 70% e 80% das pessoas infectadas pela Chlamydia trachomatis não têm sintoma nenhum. A bactéria se instala no colo do útero ou na uretra sem provocar corrimento visível, dor ou febre, e a pessoa segue a vida sem desconfiar de nada. É por isso que a clamídia circula tanto: quem não sabe que tem também não sabe que transmite.',
+          'O silêncio não significa infecção fraca. A bactéria continua se multiplicando na mucosa e, nas mulheres, pode subir do colo do útero para o útero e as trompas ao longo de meses. Quando os primeiros sinais aparecem, muitas vezes a inflamação já alcançou estruturas que não se recuperam.',
+          'Existe ainda uma confusão frequente: a ausência de corrimento é tomada como prova de que está tudo bem. Não é. A clamídia não precisa de sintoma para existir, e essa é justamente a razão pela qual a testagem é recomendada mesmo em quem se sente bem. Vale lembrar que o teste é simples e não exige preparo: uma amostra de urina ou de secreção resolve, e o resultado chega em poucos dias.',
+        ],
+      },
+      {
+        id: 'sinais-na-mulher',
+        heading: 'Os sinais na mulher',
+        paragraphs: [
+          'Quando aparecem sintomas, eles costumam surgir semanas depois da relação e são fáceis de confundir com candidíase, vaginose ou infecção urinária. Os mais comuns são corrimento amarelado ou claro, sangramento fora do período menstrual e sangramento durante a relação. Dor ao urinar e dor no baixo ventre também entram na lista.',
+          'No exame ginecológico, o colo do útero pode sangrar com facilidade ao toque, sinal que a pessoa não percebe em casa. Esse achado, sozinho, não fecha o diagnóstico, mas ajuda o profissional a suspeitar de infecção por clamídia ou gonorreia. Vale contar na consulta se houve sangramento depois das relações.',
+          'Muitas mulheres chegam ao consultório por outro motivo, como um exame de rotina ou uma queixa de corrimento recorrente, e descobrem a infecção no teste. Isso é comum e não indica descuido: a infecção realmente não dá pistas na maior parte das vezes. Se houver dúvida sobre o que é normal no próprio corpo, anotar quando os sintomas aparecem ajuda muito na consulta.',
+        ],
+      },
+      {
+        id: 'sinais-no-homem',
+        heading: 'Os sinais no homem',
+        paragraphs: [
+          'No homem, a queixa típica é ardência ao urinar e saída de secreção com pus pela uretra, geralmente mais discreta do que na gonorreia. Pode haver também dor nos testículos, e a inflamação do epidídimo deixa o testículo aumentado e doloroso. Como esses sinais são leves, muitos homens atribuem tudo a esforço físico ou a pouca ingestão de água.',
+          'A infecção retal, possível em relação anal sem preservativo, pode causar dor, corrimento e sangramento, e muitas vezes não dá sinal nenhum. Já a forma faríngea, adquirida por sexo oral, raramente provoca queixa. Essas apresentações costumam passar despercebidas até um teste específico.',
+          'Em recém-nascidos de mães infectadas, a conjuntivite aparece nos primeiros dias de vida, com olho vermelho e secreção purulenta. É um quadro que exige avaliação imediata, porque sem tratamento pode comprometer a visão. No homem, a secreção pode ser tão discreta que só é notada pela manhã, antes da primeira urina, e desaparecer ao longo do dia.',
+        ],
+      },
+      {
+        id: 'sintomas-que-parecem-outra-coisa',
+        heading: 'Sintomas que parecem outra coisa',
+        paragraphs: [
+          'Corrimento e dor ao urinar têm várias causas, e o exame é o que separa uma da outra. Na gonorreia, o corrimento costuma ser mais abundante e purulento, com sintomas mais intensos. Na tricomoníase, chama atenção o corrimento esverdeado e espumoso, com mau cheiro e coceira.',
+          'A vaginose bacteriana produz corrimento cinza com odor forte, sem inflamação importante, e a candidíase se apresenta com coceira intensa e corrimento branco grumoso. Já a infecção urinária causa ardor e urgência para urinar sem corrimento genital. Cada uma pede um tratamento diferente, e chutar o diagnóstico costuma piorar o quadro.',
+          'Por isso, tratar por conta própria com o antibiótico que sobrou de outra ocasião é um mau caminho. Além de não resolver o que não é clamídia, o uso inadequado atrapalha o diagnóstico e favorece a resistência da bactéria. Levar à consulta a lista do que já foi tratado antes encurta o caminho e evita repetir antibióticos que não funcionaram.',
+        ],
+      },
+      {
+        id: 'quando-o-silencio-e-perigoso',
+        heading: 'Quando o silêncio se torna perigoso',
+        paragraphs: [
+          'O risco da clamídia sem sintoma está no que ela faz enquanto ninguém percebe. Nas mulheres, a inflamação repetida das trompas deixa cicatrizes que podem bloquear a passagem do óvulo. Em parte dos casos, a primeira manifestação da infecção é justamente a dificuldade para engravidar ou uma gravidez tubária.',
+          'A bactéria também aumenta o risco de adquirir e de transmitir o HIV, porque a mucosa inflamada funciona como porta de entrada mais fácil para o vírus. Esse efeito raramente aparece nas conversas sobre prevenção, mas é relevante para quem tem vida sexual ativa com parcerias novas.',
+          'Existe ainda o risco para o bebê. A gestante infectada pode transmitir a bactéria no parto, causando conjuntivite neonatal e, mais raramente, pneumonia. O pré-natal com testagem e tratamento quebra essa cadeia. Como a infecção não avisa, a testagem de rotina em quem tem vida sexual ativa é a única forma de chegar antes da complicação.',
+        ],
+        cta: {
+          label: 'Veja como a clamídia é transmitida e tratada',
+          href: '/doencas/clamidia/',
+        },
+      },
+      {
+        id: 'o-que-fazer-se-houver-suspeita',
+        heading: 'O que fazer se houver suspeita',
+        paragraphs: [
+          'O caminho é procurar a unidade básica de saúde e pedir a testagem, sem esperar que apareça sintoma. O exame mais usado é o teste molecular, feito em amostra de urina ou em material coletado do colo do útero ou da vagina. O resultado sai em poucos dias, e o diagnóstico e o tratamento são gratuitos no SUS.',
+          'A testagem é indicada para quem tem sintoma, para quem teve relação sem preservativo com parceria infectada e para gestantes durante o pré-natal. Quem tem vida sexual ativa com parcerias novas ou múltiplas deve conversar com a equipe sobre a frequência dos exames.',
+          'Vale avisar as parcerias sexuais, mesmo as que não têm queixa. Elas precisam ser avaliadas e tratadas para que a bactéria não volte na próxima relação. Essa conversa é desconfortável, mas é parte do tratamento e não envolve julgamento. O atendimento é sigiloso, e ninguém precisa explicar a vida pessoal para receber o exame e o tratamento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['clamidia'],
+    topicSlugs: ['doencas-infecciosas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'clamidia-complicacoes-infertilidade-e-gravidez-tubaria',
+      'clamidia-como-se-prevenir-e-quem-deve-testar',
+      'clamidia-dor-pelvica-doenca-inflamatoria-pelvica',
+      'clamidia-no-homem-sintomas-e-complicacoes',
+    ],
+    references: [
+      {
+        label: 'Clamídia',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/clamidia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chlamydia',
+        url: 'https://www.cdc.gov/chlamydia/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'clamidia-complicacoes-infertilidade-e-gravidez-tubaria',
+    slug: 'clamidia-complicacoes-infertilidade-e-gravidez-tubaria',
+    title: 'Clamídia sem tratamento: infertilidade e gravidez tubária',
+    excerpt:
+      'A bactéria sobe do colo do útero para as trompas e deixa cicatrizes que atrapalham a gravidez. Entenda como a infecção silenciosa chega a esse ponto e o que ainda dá para fazer.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-a-bacteria-chega-as-trompas',
+        heading: 'Como a bactéria chega às trompas',
+        paragraphs: [
+          'A clamídia começa no colo do útero e, sem tratamento, sobe pelo canal cervical até o útero e as trompas. Esse caminho não depende de sintoma: a infecção pode avançar em silêncio por meses, enquanto a pessoa se sente bem. Quando a inflamação alcança as trompas, recebe o nome de doença inflamatória pélvica.',
+          'As trompas são estruturas delicadas, com paredes finas e um interior estreito por onde o óvulo precisa passar. A inflamação repetida faz o corpo depositar tecido cicatricial, e esse tecido pode colar as paredes ou obstruir o canal. É uma cicatriz que não aparece em nenhum sintoma externo.',
+          'Um único episódio de doença inflamatória pélvica já pode deixar sequela. Repetições aumentam o dano, e é por isso que o tratamento completo e a testagem das parcerias fazem tanta diferença no longo prazo. A inflamação crônica de baixo grau é a mais traiçoeira, porque não dá febre e segue avançando sem chamar atenção.',
+        ],
+      },
+      {
+        id: 'infertilidade-por-obstrucao',
+        heading: 'Infertilidade por obstrução das trompas',
+        paragraphs: [
+          'Quando a trompa fica bloqueada, o espermatozoide não encontra o óvulo no caminho habitual e a fecundação não acontece. Esse é um dos mecanismos mais comuns de infertilidade feminina, e ele costuma ser descoberto tarde. Muitas mulheres só ouvem falar da clamídia quando já estão investigando a dificuldade para engravidar.',
+          'O tratamento com antibiótico elimina a bactéria, mas não desfaz a cicatriz já formada. É uma distinção importante: a infecção tem cura, a sequela não. Por isso a conversa sobre testagem precoce não é exagero de serviço de saúde, e sim a única forma de chegar antes do dano.',
+          'Quando a obstrução é identificada, existem caminhos. A avaliação pode incluir exames de imagem das trompas e, dependendo do caso, técnicas de reprodução assistida. Nenhum desses recursos substitui a prevenção, mas oferecem alternativa a quem já tem a sequela. Quando há dúvida sobre a permeabilidade das trompas, existem exames específicos que o ginecologista pode solicitar.',
+        ],
+      },
+      {
+        id: 'gravidez-tubaria',
+        heading: 'Gravidez tubária é emergência',
+        paragraphs: [
+          'Com a trompa parcialmente obstruída, o óvulo fecundado pode ficar preso no caminho e se implantar ali mesmo, fora do útero. É a gravidez tubária, uma emergência médica que pode ser fatal sem atendimento. A trompa não tem espaço para o embrião crescer e pode se romper, causando sangramento interno.',
+          'Os sinais incluem dor forte em um lado do baixo ventre, sangramento vaginal, tontura e desmaio. Qualquer mulher com atraso menstrual e dor intensa deve procurar atendimento imediatamente, sobretudo se já teve infecção por clamídia ou doença inflamatória pélvica. Não é um quadro para esperar em casa.',
+          'O tratamento é feito em serviço especializado, com cirurgia ou com medicamento específico, conforme o caso e o momento do diagnóstico. Quanto mais cedo a suspeita é levantada, maiores as chances de resolver sem dano maior à trompa e à vida da mulher. Toda mulher com dor pélvica intensa e atraso menstrual deve considerar a possibilidade e procurar ajuda sem esperar.',
+        ],
+        cta: {
+          label: 'Entenda os sinais de alerta da clamídia',
+          href: '/doencas/clamidia/',
+        },
+      },
+      {
+        id: 'dor-pelvica-cronica',
+        heading: 'Dor pélvica crônica e dor na relação',
+        paragraphs: [
+          'Além da infertilidade, a inflamação das trompas e as aderências deixam dor pélvica crônica. É uma dor que vai e volta, piora com esforço e costuma acompanhar as relações sexuais. Muitas mulheres convivem com ela por anos sem saber que existe uma causa tratável por trás.',
+          'As aderências são faixas de tecido que colam órgãos que deveriam deslizar livremente, como útero, trompas, ovários e intestino. Elas podem puxar estruturas e provocar dor mesmo quando não há mais bactéria ativa. Nesse ponto, o antibiótico já não resolve o desconforto.',
+          'O manejo envolve avaliação especializada, tratamento da dor e, em alguns casos, cirurgia para liberar aderências. Vale dizer com clareza: procurar ajuda para a dor não é exagero, e a dor pélvica persistente merece investigação. Fisioterapia pélvica e acompanhamento com especialista em dor ajudam bastante, mesmo quando a causa já está instalada.',
+        ],
+      },
+      {
+        id: 'conjuntivite-no-recem-nascido',
+        heading: 'A conjuntivite do recém-nascido',
+        paragraphs: [
+          'A complicação que atinge o bebê aparece nos primeiros dias de vida, com olho vermelho e secreção purulenta. É a conjuntivite neonatal, resultado da passagem pelo canal de parto de uma mãe infectada. Sem tratamento, pode evoluir para lesão da córnea e cegueira.',
+          'Por isso, a testagem da gestante no pré-natal tem peso próprio. Tratar a infecção antes do parto reduz o risco de transmissão e de parto prematuro. Quando há infecção materna, o bebê precisa de avaliação ocular ao nascer, mesmo que pareça bem.',
+          'A clamídia também pode causar pneumonia no recém-nascido, com tosse e dificuldade para respirar. São quadros menos frequentes que a conjuntivite, mas igualmente evitáveis com o cuidado no pré-natal. O acompanhamento do bebê inclui avaliação ocular e, quando indicado, tratamento precoce para evitar sequelas visuais.',
+        ],
+      },
+      {
+        id: 'o-que-muda-com-diagnostico-precoce',
+        heading: 'O que muda com o diagnóstico precoce',
+        paragraphs: [
+          'Com o antibiótico correto, a infecção é eliminada e a pessoa deixa de transmitir. O que o tratamento não faz é recuperar trompas já obstruídas ou desfazer aderências formadas antes do diagnóstico. A diferença entre tratar cedo e tratar tarde está exatamente aí.',
+          'Quem já teve clamídia pode ter de novo, porque a imunidade não protege contra uma nova exposição. Por isso se recomenda repetir o teste cerca de três meses após o tratamento e usar preservativo em todas as relações. É uma rotina simples que evita o acúmulo de episódios.',
+          'Para quem já tem sequela, o caminho é a avaliação especializada, com investigação da fertilidade e acompanhamento da dor. O importante é não tratar a clamídia como um susto passageiro: ela é silenciosa justamente na fase em que ainda dá para evitar o dano. Guardar os exames do pré-natal e do tratamento ajuda muito se, anos depois, for preciso investigar a fertilidade. Esse cuidado vale também para quem já teve a infecção mais de uma vez.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['clamidia'],
+    topicSlugs: ['doencas-infecciosas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'clamidia-sintomas-e-por-que-passam-despercebidos',
+      'clamidia-como-se-prevenir-e-quem-deve-testar',
+      'clamidia-dor-pelvica-doenca-inflamatoria-pelvica',
+      'clamidia-no-homem-sintomas-e-complicacoes',
+    ],
+    references: [
+      {
+        label: 'Clamídia',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/clamidia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chlamydia',
+        url: 'https://www.cdc.gov/chlamydia/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'clamidia-como-se-prevenir-e-quem-deve-testar',
+    slug: 'clamidia-como-se-prevenir-e-quem-deve-testar',
+    title: 'Clamídia: como se prevenir e quem deve testar',
+    excerpt:
+      'Preservativo em todas as práticas, testagem sem esperar sintoma e tratamento das parcerias. É disso que depende o controle de uma infecção que quase não avisa.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'preservativo-em-todas-as-praticas',
+        heading: 'Preservativo em todas as práticas',
+        paragraphs: [
+          'O preservativo, masculino ou feminino, é a medida mais eficaz contra a clamídia, e precisa ser usado em todas as relações, inclusive no sexo oral e anal. A bactéria está na secreção, não apenas no esperma, então ejaculação não é requisito para a transmissão. Retirar o preservativo no fim da relação também conta como exposição.',
+          'O SUS distribui preservativos gratuitamente nas unidades de saúde, sem burocracia e sem necessidade de agendamento. Vale pegar mais de um e manter na bolsa ou na carteira, porque ter o preservativo à mão é o que faz diferença no momento. Lubrificante à base de água ajuda a evitar rompimento.',
+          'Nenhum outro método protege contra a clamídia. Pílula, DIU, injeção e camisinha de vênus não têm efeito sobre a transmissão de bactérias, e é comum haver confusão justamente aí. Esses métodos evitam gravidez, não infecção. Vale conferir a validade e o estado da embalagem antes do uso, porque preservativo vencido ou guardado na carteira por meses rasga com facilidade.',
+        ],
+      },
+      {
+        id: 'testar-sem-esperar-sintoma',
+        heading: 'Testar sem esperar sintoma',
+        paragraphs: [
+          'Como sete em cada dez casos não dão sintoma, esperar por queixa é a pior estratégia de controle. A testagem é indicada para quem tem sintoma, para quem teve relação sem preservativo com parceria infectada e para gestantes no pré-natal. Quem tem vida sexual ativa com parcerias novas ou múltiplas deve conversar com a equipe sobre a frequência dos exames.',
+          'O exame mais usado é o teste molecular, que detecta o material genético da bactéria em amostra de urina ou em material coletado do colo do útero ou da vagina. Ele não depende de sintoma e o resultado sai em poucos dias. O diagnóstico e o tratamento são gratuitos no SUS.',
+          'A faixa de 15 a 24 anos concentra a maior parte dos casos, segundo os dados internacionais, e é por isso que ações de testagem costumam mirar esse grupo. Isso não significa que pessoas fora dessa faixa estejam livres: qualquer pessoa com exposição sem preservativo pode se infectar. Muitos serviços oferecem a coleta no mesmo dia da consulta, sem necessidade de agendamento prévio para o exame.',
+        ],
+      },
+      {
+        id: 'tratar-a-parceria',
+        heading: 'Tratar a parceria ao mesmo tempo',
+        paragraphs: [
+          'As parcerias sexuais precisam ser avaliadas e tratadas, mesmo sem sintoma e mesmo que o exame delas não tenha sido feito. Sem isso, a bactéria volta com a próxima relação e o tratamento precisa ser repetido. É o ponto que mais falha na prática, porque exige uma conversa que ninguém quer ter.',
+          'Durante o tratamento, o preservativo continua necessário em todas as relações até que o esquema de todos esteja concluído. Quem recebe dose única precisa aguardar sete dias antes de retomar as relações sem preservativo. Esse prazo costuma ser esquecido e responde por boa parte das reinfecções.',
+          'Não há julgamento nessa conversa, e sim prevenção. Falar sobre parcerias anteriores não é prestar contas a ninguém: é dar à outra pessoa a chance de se tratar antes que a infecção avance. Serviços de saúde costumam orientar como fazer esse aviso quando há desconforto. Quando o aviso é difícil, a equipe pode ajudar a comunicar a parceria sem revelar quem procurou o serviço primeiro.',
+        ],
+      },
+      {
+        id: 'repetir-o-teste-depois',
+        heading: 'Repetir o teste depois do tratamento',
+        paragraphs: [
+          'Cerca de três meses depois do tratamento, vale repetir o teste. A recomendação existe porque a reinfecção é comum, sobretudo quando a parceria não foi tratada ou quando o preservativo deixou de ser usado. Repetir não é desconfiança do tratamento, é reconhecer como a bactéria circula.',
+          'Quem já teve clamídia pode ter de novo, porque a imunidade não protege contra uma nova exposição. Ter tido a infecção não deixa nenhuma memória protetora no corpo. A única forma de reduzir o risco é o preservativo e a testagem regular das parcerias.',
+          'Vale guardar o resultado do primeiro exame e a data do tratamento. Numa nova consulta, essa informação permite comparar e evita repetir etapas já cumpridas. Um registro simples no celular já resolve. O resultado negativo depois do tratamento é a confirmação de que a bactéria saiu, e não uma formalidade.',
+        ],
+        cta: {
+          label: 'Conheça as complicações da clamídia não tratada',
+          href: '/doencas/clamidia/',
+        },
+      },
+      {
+        id: 'gestacao-e-pre-natal',
+        heading: 'Gestação e pré-natal',
+        paragraphs: [
+          'Na gestação, a testagem faz parte do pré-natal e o tratamento reduz o risco de parto prematuro e de conjuntivite no bebê. A escolha do antibiótico fica com a equipe, porque alguns medicamentos usados fora da gravidez não são indicados nesse período. Não use remédio de uma infecção anterior por conta própria.',
+          'A gestante deve avisar a equipe se a parceria tiver diagnóstico de infecção sexualmente transmissível, mesmo que ela própria não tenha sintoma. Essa informação muda a conduta e pode indicar tratamento sem esperar resultado. O bebê precisa de avaliação ocular ao nascer quando há infecção materna.',
+          'O pré-natal completo, com os exames solicitados e as consultas em dia, é o que permite identificar a infecção a tempo. Faltar a uma coleta de rotina pode significar perder a única oportunidade de tratar antes do parto. A testagem no início da gestação e, quando indicado, no terceiro trimestre é o que garante cobertura até o parto.',
+        ],
+      },
+      {
+        id: 'o-que-nao-funciona',
+        heading: 'O que não previne nada',
+        paragraphs: [
+          'Não há transmissão por abraço, aperto de mão, vaso sanitário, piscina ou compartilhamento de toalhas, e também não se pega clamídia por beijo. Por isso, evitar esses contatos não protege ninguém, e o esforço deveria ir para o preservativo e para a testagem. Medidas de higiene íntima não substituem nenhuma das duas.',
+          'Duchas, sabonetes íntimos e produtos de limpeza dentro da vagina alteram a flora e não eliminam bactéria nenhuma. Eles podem até aumentar o risco de outras infecções. Roupa íntima de algodão e secagem cuidadosa ajudam apenas no conforto.',
+          'Também não existe vacina contra a clamídia. Quem espera uma solução por essa via precisa saber que, hoje, a proteção depende de preservativo, testagem e tratamento das parcerias. Reduzir o número de parcerias sem preservativo completa o conjunto. Nenhuma dessas medidas substitui o preservativo, e é importante não trocar uma pela outra por conveniência.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['clamidia'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'clamidia-sintomas-e-por-que-passam-despercebidos',
+      'clamidia-complicacoes-infertilidade-e-gravidez-tubaria',
+      'clamidia-dor-pelvica-doenca-inflamatoria-pelvica',
+      'clamidia-no-homem-sintomas-e-complicacoes',
+    ],
+    references: [
+      {
+        label: 'Clamídia',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/clamidia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chlamydia',
+        url: 'https://www.cdc.gov/chlamydia/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'clamidia-dor-pelvica-doenca-inflamatoria-pelvica',
+    slug: 'clamidia-dor-pelvica-doenca-inflamatoria-pelvica',
+    title: 'Dor pélvica com febre: quando a clamídia sobe',
+    excerpt:
+      'A doença inflamatória pélvica é a complicação que transforma uma infecção silenciosa em dor forte, febre e risco de abscesso. Reconhecer cedo muda o desfecho.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'quando-a-infeccao-sobe',
+        heading: 'Quando a infecção sobe',
+        paragraphs: [
+          'A clamídia começa no colo do útero e, sem tratamento, encontra o caminho aberto para o útero e as trompas. Esse avanço recebe o nome de doença inflamatória pélvica e é a complicação que mais preocupa na infecção por Chlamydia trachomatis. Ele pode acontecer sem que a mulher tenha percebido nenhum sinal na fase inicial.',
+          'A subida da bactéria não é um evento raro nem exige sintoma prévio intenso. Uma infecção que ficou meses sem diagnóstico já inflamou a mucosa o suficiente para alcançar estruturas mais profundas. Quando a inflamação chega às trompas e ao peritônio ao redor, o corpo finalmente responde com dor e febre.',
+          'Existe uma diferença importante entre inflamação leve e doença inflamatória pélvica estabelecida. A primeira costuma passar despercebida; a segunda provoca dor que interfere na rotina e pode formar pus dentro da pelve. É essa segunda situação que exige atendimento rápido e tratamento com antibiótico. A gonorreia costuma seguir o mesmo caminho e pode ocorrer junto com a clamídia. Por isso, quando há suspeita de doença inflamatória pélvica, a equipe costuma tratar as duas infecções ao mesmo tempo, sem esperar o resultado de cada exame separadamente.',
+        ],
+      },
+      {
+        id: 'sinais-de-doenca-inflamatoria-pelvica',
+        heading: 'Os sinais que apontam para a pelve',
+        paragraphs: [
+          'O sinal mais característico é dor forte no baixo ventre acompanhada de febre. A dor pode ser constante ou em cólica, piorar ao andar e se espalhar para as costas e para as pernas. Muitas mulheres descrevem também corrimento com mau cheiro e dor durante a relação sexual.',
+          'Sangramento vaginal fora do período menstrual ou depois da relação aparece com frequência e não deve ser atribuído apenas a alterações hormonais. Dor ao urinar e desconforto ao evacuar podem surgir quando a inflamação alcança estruturas vizinhas da pelve. Nenhum desses sinais é exclusivo da clamídia, mas o conjunto chama atenção.',
+          'A febre é o divisor de águas na decisão de onde procurar ajuda. Dor pélvica sem febre pode esperar uma consulta agendada; dor com febre, calafrios e mal-estar intenso pede avaliação no mesmo dia. Esse é o ponto em que a automedicação com analgésico costuma mascarar o quadro e atrasar o tratamento. Vale registrar quando os sintomas começaram e se houve relação sem preservativo nas semanas anteriores. Essa informação, que parece constrangedora, ajuda o profissional a chegar mais rápido à hipótese correta e a escolher o exame adequado.',
+        ],
+        cta: {
+          label: 'Veja como a clamídia é diagnosticada e tratada',
+          href: '/doencas/clamidia/',
+        },
+      },
+      {
+        id: 'abscesso-e-complicacoes',
+        heading: 'Abscesso e outras complicações',
+        paragraphs: [
+          'Quando a inflamação se concentra e forma uma coleção de pus dentro da pelve, surge o abscesso. Ele provoca dor mais intensa, febre alta e, às vezes, massa que o exame físico consegue palpar. O abscesso é a razão pela qual alguns casos não respondem apenas ao antibiótico e precisam de avaliação especializada.',
+          'As complicações de longo prazo vêm das cicatrizes que a inflamação deixa nas trompas e das aderências entre órgãos. Entre elas estão a infertilidade por obstrução tubária, a gravidez tubária e a dor pélvica crônica. Cada episódio de doença inflamatória pélvica aumenta o risco de a mulher desenvolver essas sequelas.',
+          'Há ainda o risco de a infecção se disseminar e provocar inflamação no fígado, quadro que causa dor no lado direito do abdome e pode confundir o diagnóstico. Ele é menos frequente, mas aparece justamente nos casos em que a bactéria subiu bastante sem tratamento. A boa notícia é que o tratamento precoce reduz muito a chance de todas essas complicações. O antibiótico iniciado na fase de dor e febre, sem esperar o resultado do exame, é o que evita que a inflamação siga avançando enquanto a confirmação chega.',
+        ],
+      },
+      {
+        id: 'como-e-o-tratamento',
+        heading: 'Como é o tratamento',
+        paragraphs: [
+          'O tratamento é com antibiótico e precisa cobrir os agentes mais prováveis, o que na prática significa tratar clamídia e gonorreia ao mesmo tempo. Os esquemas são escolhidos pelo profissional conforme a gravidade, a presença de gestação e as alergias da pessoa. Não existe remédio caseiro nem lavagem que substitua o antibiótico.',
+          'As parcerias sexuais precisam ser avaliadas e tratadas, mesmo sem sintoma e mesmo sem exame positivo. Sem isso, a bactéria volta com a próxima relação e a inflamação recomeça. O preservativo deve ser usado em todas as relações até que o tratamento de todos esteja concluído.',
+          'Durante o tratamento, o repouso relativo ajuda no desconforto, mas não substitui o medicamento. Analgésico pode ser usado para a dor, desde que não esconda uma piora do quadro. Se a febre não ceder em poucos dias ou se a dor aumentar, a pessoa precisa voltar ao serviço antes do retorno marcado. Gestantes com doença inflamatória pélvica são acompanhadas com cuidado redobrado, porque a infecção aumenta o risco de parto prematuro. A escolha do antibiótico nesse grupo é sempre feita pela equipe, já que alguns medicamentos usados fora da gravidez não são indicados nesse período.',
+        ],
+      },
+      {
+        id: 'internacao-e-cirurgia',
+        heading: 'Quando é preciso internação',
+        paragraphs: [
+          'A maior parte dos casos leves é tratada em casa, com antibiótico por via oral e retorno marcado. A internação entra quando há abscesso, febre alta que não cede, vômitos que impedem tomar o remédio, gestação ou dúvida diagnóstica importante. Nesses casos, o antibiótico costuma ser aplicado na veia, no hospital.',
+          'Abscessos podem precisar de drenagem, feita por procedimento guiado por imagem ou por cirurgia. A decisão depende do tamanho, da localização e da resposta ao antibiótico. A clamídia em si não é tratada com cirurgia: os procedimentos entram quando a infecção já deixou consequências.',
+          'A gravidez tubária, que pode resultar da obstrução das trompas, é uma emergência separada e exige cirurgia ou tratamento medicamentoso específico em serviço especializado. Ela não é uma complicação da doença inflamatória pélvica em si, mas consequência do mesmo dano tubário. Depois de um episódio de doença inflamatória pélvica, o seguimento continua. A avaliação da fertilidade e o acompanhamento da dor fazem parte do cuidado, e não devem ser deixados para quando o desejo de engravidar aparecer.',
+        ],
+      },
+      {
+        id: 'quando-ir-ao-pronto-atendimento',
+        heading: 'Quando procurar atendimento no mesmo dia',
+        paragraphs: [
+          'Dor forte no baixo ventre com febre, calafrios ou mal-estar intenso pede pronto atendimento, e não uma consulta para a semana seguinte. O mesmo vale para vômitos repetidos, desmaio, dor que impede ficar em pé e sangramento vaginal abundante. Nesses casos, o tempo entre o primeiro sintoma e o tratamento muda o prognóstico.',
+          'O atendimento inicial pode acontecer na unidade básica de saúde ou em uma unidade de pronto atendimento, conforme a intensidade da dor e o horário. Casos com suspeita de abscesso ou de gravidez tubária são avaliados pelo ginecologista com apoio de exames de imagem. O tratamento é gratuito pelo SUS.',
+          'Levar a carteira de vacinação, os exames anteriores e a lista de medicamentos em uso acelera a avaliação. Se houver possibilidade de gravidez, avise a equipe logo na chegada, porque isso altera a escolha dos exames e dos medicamentos. Nenhuma informação pessoal precisa ser omitida para receber atendimento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['clamidia'],
+    topicSlugs: ['doencas-infecciosas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'clamidia-sintomas-e-por-que-passam-despercebidos',
+      'clamidia-complicacoes-infertilidade-e-gravidez-tubaria',
+      'clamidia-como-se-prevenir-e-quem-deve-testar',
+      'clamidia-no-homem-sintomas-e-complicacoes',
+    ],
+    references: [
+      {
+        label: 'Clamídia',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/clamidia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chlamydia',
+        url: 'https://www.cdc.gov/chlamydia/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'clamidia-no-homem-sintomas-e-complicacoes',
+    slug: 'clamidia-no-homem-sintomas-e-complicacoes',
+    title: 'Clamídia no homem: sintomas, testículo e prevenção',
+    excerpt:
+      'No homem, a clamídia costuma aparecer como ardência ao urinar e secreção discreta. Quando sobe pelo epidídimo, o testículo incha e a dor muda de patamar.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'uretrite-no-homem',
+        heading: 'A uretrite e a secreção discreta',
+        paragraphs: [
+          'No homem, a clamídia se instala na uretra e provoca uretrite, uma inflamação do canal por onde passa a urina. A queixa típica é ardência ao urinar e saída de secreção com pus, geralmente mais discreta do que na gonorreia. Muitos homens descrevem apenas um incômodo leve, fácil de ignorar.',
+          'A secreção pode ser tão escassa que só é notada pela manhã, antes da primeira urina, e desaparecer ao longo do dia. Esse detalhe faz muita gente concluir que não há nada de errado. A ausência de secreção visível, porém, não significa ausência de infecção.',
+          'A uretrite por clamídia não costuma causar febre nem prostração. Por isso, o quadro é frequentemente confundido com irritação por sabonete, excesso de atividade física ou pouca ingestão de água. Quando a ardência persiste por mais de alguns dias, a investigação passa a ser necessária. Vale lembrar que o homem pode transmitir a bactéria mesmo sem qualquer sintoma. A falta de queixa não protege a parceria, e é justamente essa característica que mantém a clamídia circulando.',
+        ],
+      },
+      {
+        id: 'epididimite',
+        heading: 'Quando a inflamação alcança o epidídimo',
+        paragraphs: [
+          'A bactéria pode subir pelo canal deferente e inflamar o epidídimo, estrutura em forma de vírgula encostada no testículo. O resultado é epididimite, com aumento e dor de um testículo, às vezes irradiada para a virilha. A dor piora ao caminhar e pode deixar a região sensível ao toque.',
+          'Febre pode ou não aparecer, e a ausência dela não descarta a inflamação. O quadro exige avaliação médica, porque outras causas de dor testicular, como torção, são emergências e precisam ser descartadas rapidamente. A diferença entre elas não se faz em casa.',
+          'A epididimite por clamídia é tratada com antibiótico, e a melhora costuma vir em poucos dias após o início correto. Adiar a avaliação aumenta o risco de complicações e de dor prolongada. Não é um desconforto para levar com paciência até passar. O exame físico e, quando necessário, a ultrassonografia ajudam a separar inflamação de torção e de outras causas. O tratamento começa na unidade de saúde, com encaminhamento ao urologista nos casos mais intensos ou recorrentes.',
+        ],
+        cta: {
+          label: 'Conheça as formas e as complicações da clamídia',
+          href: '/doencas/clamidia/',
+        },
+      },
+      {
+        id: 'infeccao-retal-e-faringea',
+        heading: 'Infecção retal e na garganta',
+        paragraphs: [
+          'Na relação anal sem preservativo, a bactéria pode se instalar no reto e causar dor, corrimento e sangramento. Muitas vezes não há sintoma nenhum, e a infecção só aparece em um teste específico. Esse silêncio é relevante porque a bactéria continua sendo transmitida.',
+          'A forma faríngea, adquirida por sexo oral, raramente provoca queixa. Quando há, costuma ser uma dor de garganta discreta, atribuída a resfriado ou a mudança de tempo. Ela também responde ao antibiótico indicado pelo profissional, que considera o conjunto das práticas sexuais ao escolher o esquema.',
+          'Essas apresentações explicam por que a conversa sobre práticas sexuais faz parte da consulta. Informar o que acontece na vida sexual não é prestar contas: é o que permite ao profissional pedir o exame certo e tratar o lugar certo. Sem essa informação, o teste pode ser feito no lugar errado e dar negativo. O preservativo, usado em todas as práticas, é o que cobre essas vias. Ele precisa ser colocado antes de qualquer contato, e não apenas na relação vaginal.',
+        ],
+      },
+      {
+        id: 'diagnostico-no-homem',
+        heading: 'Como é feito o diagnóstico',
+        paragraphs: [
+          'O diagnóstico é laboratorial, com teste molecular que detecta o material genético da bactéria. No homem, a amostra pode ser de urina, colhida após algum tempo sem urinar, ou de material da uretra. O resultado sai em poucos dias e não depende de haver sintoma.',
+          'A testagem é indicada para quem tem sintoma, para quem teve relação sem preservativo com parceria infectada e para quem recebeu um aviso de parceria. Pessoas com vida sexual ativa e parcerias novas ou múltiplas devem conversar com a equipe sobre a frequência dos exames.',
+          'O atendimento começa na unidade básica de saúde, que solicita o exame e trata os casos simples. Casos com dor testicular intensa, febre ou recorrência são encaminhados ao urologista. O diagnóstico e o tratamento são gratuitos no SUS. Um resultado negativo não encerra a conversa se houve exposição recente. A janela entre a exposição e a positividade do teste existe, e o profissional sabe quando repetir a coleta.',
+        ],
+      },
+      {
+        id: 'tratamento-e-parceria',
+        heading: 'Tratamento e parceria',
+        paragraphs: [
+          'O tratamento é com antibiótico, com esquemas que incluem azitromicina ou doxiciclina, escolhidos pelo profissional conforme o caso e as alergias. A cura é possível e a pessoa deixa de transmitir após completar o esquema. Não existe remédio caseiro que substitua o antibiótico.',
+          'As parcerias sexuais precisam ser avaliadas e tratadas, mesmo sem sintoma e mesmo sem exame positivo. Sem isso, a bactéria volta com a próxima relação e o tratamento precisa ser repetido. O preservativo deve ser usado em todas as relações até que o tratamento de todos esteja concluído.',
+          'Quem recebe dose única precisa aguardar sete dias antes de retomar as relações sem preservativo. Esse prazo é frequentemente esquecido e responde por boa parte das reinfecções. Cerca de três meses depois do tratamento, vale repetir o teste. Ter tido clamídia não protege contra uma nova exposição. A imunidade não deixa memória protetora, e a única forma de reduzir o risco é o preservativo e a testagem regular.',
+        ],
+      },
+      {
+        id: 'prevencao-no-dia-a-dia',
+        heading: 'Prevenção no dia a dia',
+        paragraphs: [
+          'O preservativo masculino ou feminino é a medida mais eficaz, e o SUS distribui preservativos gratuitamente nas unidades de saúde. Ele precisa ser usado em todas as relações, inclusive no sexo oral e anal, e colocado antes de qualquer contato. Conferir a validade e não guardar a camisinha na carteira por meses evita rompimentos.',
+          'Testar faz parte da prevenção, porque a maioria dos casos não dá sintoma. Esperar por queixa é a pior estratégia em uma infecção silenciosa. Quem tem parcerias novas deve conversar com a equipe sobre a frequência dos exames.',
+          'Não existe vacina contra a clamídia. Também não há transmissão por abraço, vaso sanitário, piscina ou toalha, e não se pega clamídia por beijo. Por isso, evitar esses contatos não protege ninguém, e o esforço deve ir para o preservativo e para a testagem. Tratar as parcerias ao mesmo tempo e reduzir o número de parcerias sem preservativo completam o conjunto. Nenhuma dessas medidas funciona isolada, e é a soma delas que quebra a cadeia de transmissão.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['clamidia'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'clamidia-sintomas-e-por-que-passam-despercebidos',
+      'clamidia-complicacoes-infertilidade-e-gravidez-tubaria',
+      'clamidia-como-se-prevenir-e-quem-deve-testar',
+      'clamidia-dor-pelvica-doenca-inflamatoria-pelvica',
+    ],
+    references: [
+      {
+        label: 'Clamídia',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/clamidia',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'About Chlamydia',
+        url: 'https://www.cdc.gov/chlamydia/about/index.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hpv-vacina-nao-trata-infeccao-que-ja-existe',
+    slug: 'hpv-vacina-nao-trata-infeccao-que-ja-existe',
+    title: 'A vacina contra o HPV não trata a infecção que já existe',
+    excerpt:
+      'Quem recebeu o diagnóstico de HPV pode se vacinar, mas a vacina não elimina o vírus que já está no corpo. Entenda o que ela faz, o que não faz e por que ainda vale tomar.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'por-que-a-vacina-nao-trata',
+        heading: 'Por que a vacina não trata quem já tem o vírus',
+        paragraphs: [
+          'A vacina contra o HPV é feita com partículas que imitam a capa do vírus, sem material genético capaz de se multiplicar. Ao ser aplicada, ela faz o sistema imunológico produzir anticorpos contra essa capa. Quando o vírus de verdade aparece, ele já encontra defesa pronta. É prevenção, e não tratamento: a diferença está no momento em que a defesa é montada.',
+          'Quando o vírus já entrou na célula e passou a usar a maquinaria dela para se replicar, os anticorpos circulantes não alcançam esse reservatório interno. A infecção se instala dentro da mucosa, em células que o anticorpo não enxerga. A vacina não tem como eliminar o que já está lá, e doses extras depois do diagnóstico não mudam esse cenário.',
+          'Isso não é uma falha da vacina: é como as vacinas funcionam em geral. Elas preparam o corpo antes da exposição e contam com o fato de o agente ainda não ter chegado. Tratar uma infecção instalada é outro problema, com outras ferramentas e outro objetivo. Quem confunde as duas coisas costuma se decepcionar com a imunização e abandonar o que ela realmente oferece.',
+        ],
+      },
+      {
+        id: 'o-que-a-vacina-protege',
+        heading: 'O que a vacina realmente protege',
+        paragraphs: [
+          'A vacina oferecida no SUS protege contra os tipos 6, 11, 16 e 18. Os dois primeiros respondem pela maior parte das verrugas genitais, aquelas lesões que aparecem na vulva, no pênis, no ânus e na região perianal. Os dois últimos estão ligados a cerca de 70% dos casos de câncer do colo do útero no mundo, segundo a Organização Mundial da Saúde.',
+          'Como a proteção é específica por tipo, quem já carrega o 16 pode se beneficiar da proteção contra o 18, o 6 e o 11. É essa conta que sustenta a recomendação de vacinar mesmo depois de um resultado positivo. A vacina não apaga o que existe, mas reduz a chance de uma segunda infecção por um tipo que ainda não chegou.',
+          'A vacina não cobre todos os tipos oncogênicos conhecidos, e é por isso que o rastreamento continua exatamente igual depois dela. Ela reduz o risco, não o zera, e essa diferença precisa estar clara para quem toma a decisão. Prometer proteção total é o tipo de exagero que depois vira desconfiança.',
+        ],
+      },
+      {
+        id: 'quem-pode-tomar-depois-do-diagnostico',
+        heading: 'Quem pode tomar depois do diagnóstico',
+        paragraphs: [
+          'Ter HPV não contraindica a vacina. Ela é segura nessa situação, não piora a infecção e não provoca surto de verruga. O que existe é uma limitação de eficácia sobre o que já está instalado, e não um risco novo para quem já carrega o vírus.',
+          'No SUS, a oferta gratuita é definida por faixa etária e por grupos com indicação própria. Crianças e adolescentes de 9 a 14 anos recebem dose única. Pessoas com imunidade baixa, como quem vive com HIV ou recebeu transplante, vítimas de abuso sexual e alguns grupos específicos seguem esquema de três doses.',
+          'Fora dessas situações, a vacina existe na rede privada. Vale conversar com o profissional sobre custo, benefício esperado e o fato de que a proteção é parcial. Decidir com informação é diferente de decidir com pressa, e a conversa cabe em uma consulta comum.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-com-o-teste-positivo',
+        heading: 'O que fazer quando o teste dá positivo',
+        paragraphs: [
+          'Um teste positivo para HPV de alto risco não é diagnóstico de câncer. Ele indica que o vírus está presente e que o rastreamento precisa seguir um fluxo definido, com prazos e exames previstos em protocolo. A palavra alto risco assusta, mas descreve o potencial do vírus, não o que já aconteceu com as células.',
+          'O passo seguinte costuma ser a citologia ou a colposcopia, conforme a idade e o resultado. Na maior parte das vezes a conduta é repetir o exame em um intervalo determinado, porque o organismo elimina o vírus na maioria das pessoas em até dois anos. Repetir não é omissão: é o que o protocolo manda fazer.',
+          'Não existe remédio para limpar o vírus, e produtos vendidos com essa promessa não têm respaldo. O acompanhamento é o que detecta lesão cedo, quando o tratamento é simples e resolve. Quem troca a consulta por um frasco comprado na internet perde tempo e ganha ansiedade.',
+        ],
+        cta: {
+          label: 'Leia também: o que significa um tipo de alto risco',
+          href: '/artigos/hpv-18-e-52-o-que-significa-tipo-de-alto-risco/',
+        },
+      },
+      {
+        id: 'o-que-muda-na-rotina',
+        heading: 'O que muda na rotina depois da vacina',
+        paragraphs: [
+          'Nada muda no rastreamento. Quem tem colo do útero continua fazendo os exames na periodicidade orientada pelo serviço, mesmo vacinada e mesmo sem sintoma. A vacina não substitui a coleta, e quem acha que substitui costuma aparecer anos depois com uma lesão que poderia ter sido vista antes.',
+          'O preservativo continua recomendado em todas as relações. Ele reduz o risco de transmissão, embora não cubra toda a região genital, porque a camisinha não alcança a vulva inteira, o períneo e a bolsa escrotal. O SUS distribui preservativos gratuitamente nas unidades de saúde.',
+          'A vacina é uma peça, não o programa inteiro. Vacina, preservativo e rastreamento funcionam juntos, e nenhum deles sozinho fecha a conta. Quem entende isso para de tratar a imunização como atalho e passa a usá-la pelo que ela é: uma camada a mais de proteção.',
+        ],
+      },
+      {
+        id: 'efeitos-e-duvidas',
+        heading: 'Efeitos e dúvidas comuns',
+        paragraphs: [
+          'Dor no braço, vermelhidão no local e febre baixa são os efeitos mais relatados, e passam em poucos dias. Desmaio logo após a aplicação acontece em adolescentes, e por isso o serviço costuma pedir que a pessoa fique sentada por alguns minutos, de preferência acompanhada.',
+          'Não há evidência de que a vacina cause infertilidade ou altere o ciclo menstrual de forma duradoura. Essa é uma das informações falsas mais repetidas nas redes, e ela afasta justamente quem mais se beneficiaria da proteção. Vacinas contra o HPV são usadas há mais de quinze anos em programas públicos de vários países.',
+          'Quem está grávida pode completar o esquema depois do parto. A vacina não é indicada na gestação por falta de estudos nesse grupo, e não por risco comprovado. Na dúvida, a conversa é com a equipe do pré-natal, que conhece o calendário e o histórico de cada pessoa.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['hpv'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'hpv-18-e-52-o-que-significa-tipo-de-alto-risco',
+      'hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia',
+      'hpv-no-homem-verrugas-e-o-que-fazer',
+    ],
+    references: [
+      {
+        label: 'HPV',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Cervical cancer: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cervical-cancer',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hpv-18-e-52-o-que-significa-tipo-de-alto-risco',
+    slug: 'hpv-18-e-52-o-que-significa-tipo-de-alto-risco',
+    title: 'HPV 18 e 52: o que significa um tipo de alto risco',
+    excerpt:
+      'O resultado do teste traz um número, e ele assusta mais do que deveria. Entenda o que os tipos de alto risco fazem, o que o exame mostra de fato e qual é o seguimento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'o-que-e-tipo-de-alto-risco',
+        heading: 'O que é um tipo de alto risco',
+        paragraphs: [
+          'Os HPV são divididos em dois grupos conforme o risco de câncer. Os de baixo risco, como o 6 e o 11, provocam verrugas e não se associam a tumor. Os de alto risco podem causar lesões precursoras quando a infecção persiste por muitos anos, e é essa persistência que abre caminho para o tumor.',
+          'Alto risco descreve o potencial do vírus, não a situação de quem o carrega. A maior parte das infecções por tipos oncogênicos é eliminada pelo próprio organismo em até dois anos, sem deixar lesão. O resultado do teste é um retrato do momento, não uma sentença sobre o futuro. O corpo resolve a maioria dos casos, e o exame existe para flagrar a minoria em que isso não acontece.',
+          'São mais de uma dezena de tipos oncogênicos. O teste molecular pode informar apenas a presença do grupo de alto risco ou identificar separadamente o 16 e o 18, e essa diferença muda a forma de ler o laudo. Vale conferir no resultado qual foi o método usado antes de tirar conclusões.',
+        ],
+      },
+      {
+        id: 'hpv-16-e-18',
+        heading: 'HPV 16 e 18: os mais estudados',
+        paragraphs: [
+          'O 16 e o 18 respondem por cerca de 70% dos cânceres do colo do útero no mundo. O 16 é o mais frequente e aparece também em tumores de ânus, pênis, boca e garganta, o que explica o interesse crescente em entender seu papel nessas localizações.',
+          'O 18 aparece com mais frequência em adenocarcinomas do colo, um tipo que nasce dentro do canal cervical e é mais difícil de enxergar no exame de rotina. Isso explica por que o resultado do 18 costuma pedir atenção maior, sobretudo em quem tem mais de 30 anos.',
+          'Mesmo entre esses dois tipos, a maioria das infecções não vira câncer. O que pesa é a persistência, somada a fatores como tabagismo, imunidade baixa e ausência de rastreamento. Nenhum desses fatores age sozinho, e nenhum deles torna o desfecho inevitável.',
+        ],
+      },
+      {
+        id: 'hpv-52-e-outros-tipos',
+        heading: 'HPV 52, 31, 33 e outros tipos',
+        paragraphs: [
+          'O 52 é um dos tipos oncogênicos mais encontrados em algumas regiões da Ásia e aparece com frequência nos testes de rastreamento feitos no Brasil. Ele não está entre os tipos cobertos pela vacina oferecida no SUS, que se limita ao 6, 11, 16 e 18. Como o rastreamento brasileiro tem apontado esses tipos com frequência, manter a coleta em dia continua sendo a recomendação.',
+          'O mesmo vale para 31, 33, 45 e 58. O resultado positivo para qualquer um deles segue o mesmo fluxo: citologia, colposcopia quando indicada e repetição do exame no intervalo definido pelo serviço. O número do tipo muda apenas o nome, não o caminho.',
+          'O tipo ajuda a organizar o seguimento, mas não muda o essencial. Não existe remédio que elimine o vírus, e o que protege é detectar a lesão enquanto ela ainda é simples de tratar. Insistir no número é menos útil do que manter as consultas em dia.',
+        ],
+      },
+      {
+        id: 'como-o-virus-chega',
+        heading: 'Como o vírus chega e por que o número aparece',
+        paragraphs: [
+          'A transmissão acontece por contato direto entre pele e mucosa, quase sempre durante a relação sexual vaginal, anal ou oral. Não é preciso haver verruga visível, e o vírus pode ficar latente por anos antes de ser detectado no exame. Por isso o resultado costuma aparecer muito tempo depois do contato.',
+          'Também por isso o laudo não indica quando a infecção aconteceu nem quem a transmitiu. Uma parceria antiga pode ser a origem, e procurar culpados não tem base técnica nem utilidade prática. A conversa útil é sobre o que fazer daqui para a frente, e não sobre quem começou.',
+          'O teste detecta material genético do vírus, não a lesão. O rastreamento junta as duas informações: presença do vírus e estado das células do colo do útero. É a combinação que define se basta repetir, se é preciso colposcopia ou se há algo a tratar.',
+        ],
+      },
+      {
+        id: 'o-que-o-teste-nao-diz',
+        heading: 'O que o teste não diz',
+        paragraphs: [
+          'Um teste positivo não significa câncer, nem que ele vai aparecer. Também não mede gravidade: o mesmo tipo pode ser eliminado por uma pessoa e persistir em outra, sem que haja qualquer diferença no laudo. O exame informa presença, e presença não é destino.',
+          'Um teste negativo não dispensa o rastreamento. A exposição pode ser recente ou a carga viral pode estar indetectável naquela coleta, e o intervalo até o próximo exame existe justamente para cobrir essa janela. Negativo é uma informação com prazo, não um certificado permanente. Por isso o calendário não se negocia a partir de um único resultado.',
+          'Quem recebe o resultado por aplicativo deve levar o laudo à consulta. Interpretar o número sem a citologia leva a decisões precipitadas, de tratamentos desnecessários a sustos que não se confirmam. O laudo completo tem contexto que a notificação isolada não tem.',
+        ],
+      },
+      {
+        id: 'seguimento-e-quando-se-preocupar',
+        heading: 'Seguimento e quando se preocupar',
+        paragraphs: [
+          'O seguimento depende da idade, do resultado da citologia e do histórico. Repetir em um ano, repetir em cinco ou ir direto para a colposcopia são condutas previstas em protocolo, e nenhuma delas é descuido. O intervalo é calculado, não escolhido por pressa ou por cansaço.',
+          'Vale procurar atendimento antes do prazo se aparecer sangramento após a relação sexual, corrimento persistente com mau cheiro ou ferida genital que não cicatriza em algumas semanas. Esses sinais não confirmam câncer, mas pedem exame antes da data marcada. Na dúvida entre esperar e voltar antes, voltar antes costuma ser a escolha mais segura.',
+          'A parte prática é manter as consultas em dia, evitar o tabagismo e usar preservativo. O resto é acompanhar, porque na maior parte dos casos o organismo resolve o que a medicina só precisa vigiar. Vigiar bem é o que transforma um resultado assustador em um episódio encerrado.',
+        ],
+        cta: {
+          label: 'Leia também: a vacina não trata o que já existe',
+          href: '/artigos/hpv-vacina-nao-trata-infeccao-que-ja-existe/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hpv'],
+    topicSlugs: ['doencas-infecciosas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'hpv-vacina-nao-trata-infeccao-que-ja-existe',
+      'hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia',
+      'hpv-na-boca-e-na-garganta-o-risco-de-cancer',
+    ],
+    references: [
+      {
+        label: 'Câncer do colo do útero, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Cervical cancer: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cervical-cancer',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hpv-na-boca-e-na-garganta-o-risco-de-cancer',
+    slug: 'hpv-na-boca-e-na-garganta-o-risco-de-cancer',
+    title: 'HPV na boca e na garganta: onde está o risco de câncer',
+    excerpt:
+      'O HPV chega à boca pelo sexo oral e quase sempre vai embora sozinho. Em uma minoria, persiste e se associa a tumores de orofaringe. Veja o que observar e quando investigar.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-o-virus-chega-a-boca',
+        heading: 'Como o vírus chega à boca',
+        paragraphs: [
+          'O HPV infecta pele e mucosas, e a boca é uma dessas superfícies. A via mais comum é o sexo oral sem preservativo, mas o contato entre bocas e a região genital também pode transmitir. Não é preciso haver ferida, verruga ou ejaculação para que o vírus passe de uma pessoa para outra.',
+          'Na maioria das pessoas, a infecção oral é transitória. O organismo reconhece o vírus e o elimina em meses, sem deixar lesão e sem qualquer sintoma. Estudos que testam a mucosa da boca encontram o vírus em uma parcela pequena dos adultos, justamente porque ele costuma ir embora.',
+          'Existem mais de 200 tipos de HPV, e nem todos se instalam na boca com a mesma facilidade. O tipo 16 é o que aparece com mais frequência nas lesões orais e o que concentra a preocupação dos pesquisadores. Os tipos 6 e 11, comuns na região genital, raramente causam problema na garganta. Vale lembrar que beijar não é uma via relevante de transmissão para os tipos que se instalam na garganta.',
+        ],
+      },
+      {
+        id: 'o-que-muda-quando-persiste',
+        heading: 'O que muda quando a infecção persiste',
+        paragraphs: [
+          'Em uma minoria, o vírus não é eliminado e permanece por anos na mucosa da orofaringe, a região que inclui amígdalas, base da língua e parede posterior da garganta. Essa persistência é o que permite o acúmulo de alterações nas células e, muito tempo depois, o aparecimento de um tumor.',
+          'O câncer de orofaringe ligado ao HPV tem crescido em vários países, sobretudo em adultos jovens que não fumam e não bebem em excesso. Isso o diferencia do câncer de boca clássico, associado ao tabaco e ao álcool, que atinge sobretudo pessoas mais velhas e costuma surgir na língua e no assoalho da boca.',
+          'A boa notícia é que o tumor ligado ao HPV responde melhor ao tratamento e tem prognóstico mais favorável do que o mesmo tumor sem o vírus. A má notícia é que ele costuma aparecer como um caroço no pescoço, sinal fácil de ignorar por meses.',
+        ],
+      },
+      {
+        id: 'sinais-que-pedem-avaliacao',
+        heading: 'Sinais que pedem avaliação',
+        paragraphs: [
+          'O sinal mais comum é um gânglio aumentado no pescoço que não dói e não regride em algumas semanas. Ele costuma ser confundido com inflamação de garganta ou com um resfriado que não passa, e é justamente por isso que o diagnóstico às vezes demora.',
+          'Outros sinais merecem atenção: dor de garganta persistente por mais de três semanas, dificuldade para engolir, sensação de algo preso na garganta, rouquidão que não melhora, dor que irradia para o ouvido e perda de peso sem explicação. Nenhum deles confirma câncer, e todos pedem exame.',
+          'Vale lembrar que a maioria das pessoas com esses sintomas tem outra causa, de amigdalite a refluxo. O critério para procurar ajuda não é o medo de câncer, e sim a duração: sintoma que passa de três semanas deixa de ser explicado por quadro passageiro. Esse prazo é o mesmo que os serviços usam para decidir se um sintoma de garganta precisa de investigação.',
+        ],
+      },
+      {
+        id: 'como-e-o-diagnostico',
+        heading: 'Como é o diagnóstico',
+        paragraphs: [
+          'Não existe teste de rastreamento de HPV na boca para quem não tem sintoma, e isso vale para a rede pública e para a privada. Testar a mucosa de pessoas saudáveis gera resultado positivo sem utilidade prática, porque a maioria das infecções desaparece sozinha.',
+          'Quando há lesão ou gânglio suspeito, a investigação começa pelo exame da boca e da garganta, com palpação do pescoço. O passo decisivo é a biópsia, que retira um fragmento para análise. Em alguns casos, o material do gânglio é analisado primeiro, e a origem é encontrada depois.',
+          'A biópsia também identifica se o tumor tem relação com o HPV, e essa informação muda o tratamento e o prognóstico. Exames de imagem, como tomografia e ressonância, completam a avaliação para definir a extensão da doença. O atendimento começa na unidade básica, com encaminhamento para odontologia ou otorrinolaringologia.',
+        ],
+      },
+      {
+        id: 'prevencao-e-vacina',
+        heading: 'Prevenção e vacina',
+        paragraphs: [
+          'A vacina contra o HPV protege contra o tipo 16, que é o principal envolvido nos tumores de orofaringe. Ela precisa ser aplicada antes do contato com o vírus para render o máximo, e é por isso que o SUS oferece a dose única entre 9 e 14 anos, quando a maioria ainda não iniciou a vida sexual.',
+          'Quem já passou dessa idade e não se vacinou pode conversar com o profissional sobre a vacina na rede privada. Ela não trata infecção existente, mas reduz o risco de encontrar tipos que ainda não chegaram. A decisão é individual e deve considerar idade, exposição e custo.',
+          'O preservativo, usado desde o início da relação, reduz o risco de transmissão pelo sexo oral, embora não elimine. Evitar tabaco e excesso de álcool também conta, porque esses fatores somam risco e pioram a evolução. Nenhuma medida isolada resolve, e o conjunto é o que muda o cenário.',
+        ],
+        cta: {
+          label: 'Leia também: a vacina não trata o que já existe',
+          href: '/artigos/hpv-vacina-nao-trata-infeccao-que-ja-existe/',
+        },
+      },
+      {
+        id: 'o-que-fazer-depois-do-diagnostico',
+        heading: 'O que fazer depois do diagnóstico',
+        paragraphs: [
+          'O tratamento do tumor de orofaringe é definido por equipe especializada e pode incluir cirurgia, radioterapia e quimioterapia, conforme o estágio. O acompanhamento com fonoaudiólogo e nutricionista faz parte do cuidado, porque a deglutição e a alimentação costumam ser afetadas.',
+          'O tabagismo durante o tratamento piora os resultados e aumenta os efeitos colaterais. Parar de fumar nesse momento não é conselho genérico: é parte do plano terapêutico, e os serviços de saúde oferecem apoio para isso.',
+          'Para quem está do outro lado, sem diagnóstico, o recado é simples. Não existe exame de rotina para HPV na boca, mas existe avaliação de sintomas. Um caroço no pescoço que dura semanas merece uma consulta, e não uma nova rodada de remédio para garganta. O tempo entre o primeiro sinal e a consulta costuma ser maior do que o tempo entre a consulta e o tratamento.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['hpv'],
+    topicSlugs: ['doencas-infecciosas'],
+    relatedArticleSlugs: [
+      'hpv-18-e-52-o-que-significa-tipo-de-alto-risco',
+      'hpv-vacina-nao-trata-infeccao-que-ja-existe',
+      'hpv-no-homem-verrugas-e-o-que-fazer',
+    ],
+    references: [
+      {
+        label: 'HPV',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Cervical cancer: fact sheet',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/cervical-cancer',
+        publisher: 'World Health Organization (WHO)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hpv-no-homem-verrugas-e-o-que-fazer',
+    slug: 'hpv-no-homem-verrugas-e-o-que-fazer',
+    title: 'HPV no homem: verrugas, transmissão e o que fazer',
+    excerpt:
+      'Não existe remédio que elimine o HPV do corpo, e no homem o tratamento age sobre as lesões. Entenda como a infecção se manifesta, como é diagnosticada e o que reduz o risco.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'como-o-hpv-aparece-no-homem',
+        heading: 'Como o HPV aparece no homem',
+        paragraphs: [
+          'No homem, a manifestação mais comum são as verrugas anogenitais, também chamadas de condilomas acuminados. São elevações pequenas, únicas ou em grupo, lisas ou com aspecto de couve-flor, que aparecem no pênis, na bolsa escrotal, na região pubiana, no ânus e, mais raramente, na virilha. Em geral surgem semanas ou alguns meses depois do contato com o vírus.',
+          'Elas costumam ser causadas pelos tipos 6 e 11, os mesmos que respondem pela maior parte das verrugas genitais em mulheres. Em geral não doem, podem coçar e crescem devagar. Muitas vezes a pessoa as descobre por acaso, no banho.',
+          'A maioria das infecções por HPV no homem não deixa sinal nenhum. O vírus fica na pele sem produzir lesão visível, e é essa forma silenciosa que responde pela maior parte da transmissão. Não ter verruga não significa não ter o vírus. Por isso o exame clínico periódico, quando há fator de risco, vale mais do que qualquer autoteste.',
+        ],
+      },
+      {
+        id: 'transmissao-sem-lesao',
+        heading: 'Transmissão sem lesão visível',
+        paragraphs: [
+          'A transmissão se dá por contato direto de pele e mucosa, e não exige lesão aparente. O preservativo reduz o risco, mas não elimina, porque não cobre a base do pênis, a bolsa escrotal, o períneo e a região pubiana. Essas áreas também transmitem.',
+          'O vírus pode ficar latente por meses ou anos antes de qualquer sinal. Por isso é impossível saber quando a infecção começou ou quem a transmitiu, e essa informação não existe nem em exames nem em retrospecto. Cobrar uma resposta dessas de alguém é injusto e inútil.',
+          'A conversa com a parceria precisa partir desse ponto: não há culpado identificável, e o que importa é o que cada um faz a partir de agora. Testagem quando indicada, tratamento das lesões e uso de preservativo são medidas concretas e cabem na rotina. Falar disso sem julgamento é o que faz a parceria ir ao serviço em vez de desaparecer.',
+        ],
+      },
+      {
+        id: 'por-que-nao-existe-remedio-para-eliminar',
+        heading: 'Por que não existe remédio para eliminar o vírus',
+        paragraphs: [
+          'Não há antiviral que elimine o HPV do corpo, nem comprimido, nem injeção, nem creme de uso geral. O que existe são tratamentos locais que destroem a lesão, e não o vírus: imiquimode, podofilotoxina, ácido tricoacético, crioterapia, eletrocauterização e exérese cirúrgica.',
+          'Alguns desses produtos podem ser aplicados em casa, com orientação; outros exigem aplicação no serviço de saúde, porque precisam de técnica e de proteção da pele ao redor. A escolha depende da quantidade, do tamanho e do local das lesões.',
+          'Nenhum tratamento garante que a verruga não volte, e a recidiva nos primeiros meses é comum. Isso não significa que o tratamento falhou nem que a pessoa fez algo errado: significa que o vírus continua ali, sob controle do sistema imunológico. O objetivo do tratamento é remover a lesão, e não perseguir um resultado de exame que não existe.',
+        ],
+      },
+      {
+        id: 'como-e-o-diagnostico-no-homem',
+        heading: 'Como é o diagnóstico no homem',
+        paragraphs: [
+          'Não existe exame de rastreamento de HPV para homens sem sintoma, e isso vale para a rede pública e para a privada. O diagnóstico das verrugas é clínico: o profissional examina a região e, quando a aparência não é típica, indica uma biópsia.',
+          'Nem toda elevação no pênis é HPV. As pérolas de Tyson, pequenas saliências regulares ao redor da coroa, são variação normal da anatomia e não têm relação com infecção. Molusco contagioso, verruga seborreica e cistos de glândula também entram na lista do que parece e não é.',
+          'Quando há indicação, o atendimento começa na unidade básica de saúde, que trata os casos simples e encaminha os demais para urologia ou proctologia. O tratamento das verrugas é gratuito pelo SUS, e a pessoa não precisa apresentar documento da parceria para ser atendida. Na dúvida, a avaliação profissional resolve em uma consulta o que a internet transforma em semanas de aflição.',
+        ],
+      },
+      {
+        id: 'risco-de-cancer-no-homem',
+        heading: 'Risco de câncer no homem',
+        paragraphs: [
+          'O câncer relacionado ao HPV no homem é raro. Os mais citados são o de pênis, o de ânus e o de orofaringe, e todos estão ligados a infecções persistentes por tipos de alto risco, sobretudo o 16. A maioria dos homens infectados nunca desenvolve tumor.',
+          'O risco é maior em quem tem imunidade baixa, sobretudo pessoas vivendo com HIV, e em quem tem lesões precursoras não acompanhadas. Nesses grupos, o acompanhamento periódico com exame clínico tem papel importante e é oferecido nos serviços de referência.',
+          'Não há um exame de rotina que previna esses tumores em homens sem fator de risco. O que existe é atenção a sinais: ferida no pênis que não cicatriza, sangramento anal, gânglio no pescoço que persiste. Sintoma com mais de três semanas merece avaliação. Quem vive com HIV deve manter o acompanhamento em dia, porque é nele que essas lesões são vistas cedo.',
+        ],
+      },
+      {
+        id: 'prevencao-e-vacina',
+        heading: 'Prevenção e vacina',
+        paragraphs: [
+          'A vacina contra o HPV é indicada também para meninos, e o SUS oferece dose única dos 9 aos 14 anos. Ela protege contra os tipos 6, 11, 16 e 18, que respondem pela maior parte das verrugas e dos cânceres associados ao vírus. Vacinar meninos reduz a circulação do vírus na população.',
+          'Quem já passou da idade do calendário público pode buscar a vacina na rede privada, inclusive depois de ter tido verrugas. Ela não trata a infecção atual, mas protege contra os tipos que a pessoa ainda não encontrou, e essa conversa cabe na consulta.',
+          'O preservativo, usado desde o início da relação, reduz a transmissão sem eliminar, e o SUS distribui preservativos gratuitamente. Tratar as lesões e avisar a parceria fazem parte do cuidado. Nenhuma dessas medidas funciona sozinha, e juntas mudam o risco de verdade. Vale procurar o serviço com antecedência, e não apenas quando aparece uma lesão.',
+        ],
+        cta: {
+          label: 'Leia também: como reduzir o risco no dia a dia',
+          href: '/artigos/hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hpv'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao'],
+    relatedArticleSlugs: [
+      'hpv-na-boca-e-na-garganta-o-risco-de-cancer',
+      'hpv-vacina-nao-trata-infeccao-que-ja-existe',
+      'hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia',
+    ],
+    references: [
+      {
+        label: 'HPV',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Câncer do colo do útero, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia',
+    slug: 'hpv-como-reduzir-o-risco-e-o-que-ajuda-no-dia-a-dia',
+    title: 'HPV: como reduzir o risco e o que ajuda no dia a dia',
+    excerpt:
+      'Vacina, preservativo e rastreamento são as três medidas que mudam o risco de HPV. Sono, alimentação e tabagismo também contam, e nenhum suco milagroso substitui o acompanhamento.',
+    category: 'Doenças infecciosas',
+    categorySlug: 'doencas-infecciosas',
+    body: [
+      {
+        id: 'vacina-e-o-que-ela-cobre',
+        heading: 'A vacina e o que ela cobre',
+        paragraphs: [
+          'A vacina é a medida com maior impacto na prevenção do HPV. No SUS, ela é oferecida em dose única para crianças e adolescentes de 9 a 14 anos, faixa em que a maioria ainda não iniciou a vida sexual e, portanto, ainda não encontrou o vírus. Quem tem imunidade baixa recebe três doses.',
+          'Ela protege contra os tipos 6, 11, 16 e 18, que respondem pela maior parte das verrugas genitais e por cerca de 70% dos cânceres do colo do útero. Não cobre todos os tipos oncogênicos, e é por isso que a vacina soma com o rastreamento em vez de substituí-lo. Em municípios com baixa cobertura, o vírus continua circulando entre quem não foi vacinado.',
+          'Quem passou da idade do calendário público pode buscar a vacina na rede privada, inclusive depois de um resultado positivo. Ela não trata a infecção existente, mas reduz a chance de uma nova infecção por um tipo que ainda não chegou. A conversa sobre custo e benefício cabe em uma consulta.',
+        ],
+      },
+      {
+        id: 'preservativo-reduz-mas-nao-elimina',
+        heading: 'Preservativo: reduz, mas não elimina',
+        paragraphs: [
+          'O preservativo externo reduz a transmissão do HPV, mas não a elimina, porque não cobre toda a região genital. A base do pênis, a bolsa escrotal, o períneo e a região pubiana ficam descobertos e podem transmitir o vírus mesmo com uso correto.',
+          'O preservativo interno cobre uma superfície maior e oferece proteção mais ampla quando é colocado antes de qualquer contato. Ele é menos conhecido, e vale perguntar sobre ele no serviço de saúde, porque a maioria das pessoas nunca recebeu essa informação.',
+          'O SUS distribui preservativos gratuitamente nas unidades de saúde, sem necessidade de receita ou de justificativa. Usar desde o início da relação, conferir a validade e não guardar a camisinha por meses na carteira são cuidados simples que aumentam a proteção real. A camisinha também protege contra outras infecções, o que reforça o uso em todas as relações.',
+        ],
+      },
+      {
+        id: 'rastreamento-como-prevencao',
+        heading: 'Rastreamento também é prevenção',
+        paragraphs: [
+          'O rastreamento do colo do útero é a medida que detecta lesões antes que virem câncer. Ele é indicado para mulheres de 25 a 64 anos, com intervalo definido pelo serviço, e continua valendo para quem foi vacinada, porque a vacina não cobre todos os tipos.',
+          'O SUS incorporou em 2024 o teste molecular de DNA-HPV, que tende a substituir aos poucos a citologia tradicional e permite intervalos de até cinco anos. A meta é ter o teste disponível em toda a rede pública até o fim de 2026, o que muda a rotina de muitas unidades. Quem tem dificuldade de acesso deve perguntar na unidade quando o novo teste estará disponível.',
+          'Não é preciso ter sintoma para fazer o exame. As lesões precursoras são silenciosas na maior parte do tempo, e é justamente essa característica que torna a coleta periódica tão importante. Quem espera sentir algo costuma chegar quando o tratamento já é maior.',
+        ],
+      },
+      {
+        id: 'imunidade-sono-alimentacao-e-tabagismo',
+        heading: 'Imunidade, sono, alimentação e tabagismo',
+        paragraphs: [
+          'Não existe alimento, chá ou suplemento capaz de eliminar o HPV. O que existe é um sistema imunológico que, na maioria das pessoas, controla o vírus em até dois anos. Dormir bem, alimentar-se de forma variada e manter atividade física regular ajudam esse sistema a funcionar.',
+          'O tabagismo é o fator de estilo de vida com associação mais consistente à persistência do vírus e à progressão de lesões. Fumar reduz a resposta imunológica local e piora a evolução de lesões precursoras. Parar de fumar é, nesse contexto, uma medida de prevenção concreta. O ideal é parar com apoio do serviço de saúde, e não apenas com força de vontade.',
+          'Quem vive com HIV ou usa medicamentos que baixam a imunidade precisa manter o tratamento de base em dia. Nesses casos, a infecção por HPV tem mais chance de persistir, e o acompanhamento periódico é parte do cuidado, não um excesso de zelo.',
+        ],
+      },
+      {
+        id: 'o-que-nao-ajuda-e-o-estigma',
+        heading: 'O que não ajuda e o peso do estigma',
+        paragraphs: [
+          'Duchas, sabonetes íntimos, produtos de higiene interna e cremes vendidos como antivirais não eliminam o HPV e podem irritar a mucosa. Nenhum deles substitui a consulta, e gastar dinheiro com isso costuma atrasar o que realmente importa, que é o acompanhamento. O que existe de comprovado é o acompanhamento periódico, e é nele que o dinheiro rende mais.',
+          'O estigma faz mais vítimas do que o vírus. Muita gente deixa de fazer o exame por medo do que a parceria vai pensar, ou deixa de avisar a parceria por vergonha. Como a infecção é comum e silenciosa, tratar o assunto como falha moral só afasta as pessoas do cuidado.',
+          'Falar sobre o resultado com naturalidade ajuda. O HPV pode ter sido adquirido anos antes, com alguém que nunca teve sinal nenhum, e não há como saber quando aconteceu. O que está ao alcance é o que se faz depois: exame em dia, vacina quando indicada e preservativo.',
+        ],
+      },
+      {
+        id: 'quando-procurar-atendimento',
+        heading: 'Quando procurar atendimento',
+        paragraphs: [
+          'Procure o serviço de saúde se aparecer verruga nova ou que cresce rápido na região genital ou anal, sangramento após a relação sexual, corrimento persistente com mau cheiro ou ferida genital que não cicatriza em algumas semanas. Esses sinais não confirmam câncer, mas pedem exame.',
+          'Também vale voltar antes do prazo quando um resultado alterado deixa dúvidas sobre o que ele significa. Levar o laudo e perguntar é parte do cuidado, e nenhuma pergunta é boba quando o assunto é o próprio corpo. A consulta serve para isso, e não apenas para receber receita.',
+          'O atendimento começa na unidade básica de saúde, que faz a avaliação inicial, solicita exames e encaminha quando necessário. O diagnóstico e o tratamento são gratuitos pelo SUS, e ninguém precisa apresentar documento de parceria para ser atendido.',
+        ],
+        cta: {
+          label: 'Leia também: por que a vacina não trata o que já existe',
+          href: '/artigos/hpv-vacina-nao-trata-infeccao-que-ja-existe/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hpv'],
+    topicSlugs: ['doencas-infecciosas', 'prevencao', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'hpv-vacina-nao-trata-infeccao-que-ja-existe',
+      'hpv-18-e-52-o-que-significa-tipo-de-alto-risco',
+      'hpv-no-homem-verrugas-e-o-que-fazer',
+    ],
+    references: [
+      {
+        label: 'HPV',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Câncer do colo do útero, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/colo-do-utero/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera',
+    slug: 'hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera',
+    title: 'Hipertireoidismo: o que é e por que o corpo acelera',
+    excerpt:
+      'Palpitação, tremor, calor e perda de peso com apetite aumentado são pistas de uma tireoide produzindo hormônio demais. Entenda o que a glândula faz e quando investigar.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-a-tireoide-faz',
+        heading: 'O que a tireoide faz',
+        paragraphs: [
+          'A tireoide é uma glândula em forma de borboleta na frente do pescoço, logo abaixo do pomo de Adão. Ela produz dois hormônios, T4 e T3, que funcionam como um acelerador do metabolismo: dizem a cada célula do corpo em que ritmo ela deve trabalhar, do coração ao intestino.',
+          'A produção é comandada pela hipófise, uma glândula pequena na base do cérebro, por meio do TSH. Quando o nível de hormônio tireoidiano cai, o TSH sobe para estimular a tireoide. Quando o nível sobe, o TSH cai para frear a produção. É esse vaivém que mantém o corpo em equilíbrio.',
+          'No hipertireoidismo, a tireoide passa a produzir hormônio em excesso e o sistema perde o freio. O TSH fica baixo ou indetectável, e o corpo inteiro funciona mais rápido do que deveria. A condição atinge cerca de 1% da população e é bem mais comum em mulheres, sobretudo entre 20 e 50 anos. O bócio pode ser notado pelo próprio paciente, ao usar um colar ou ao se olhar no espelho.',
+        ],
+      },
+      {
+        id: 'por-que-o-corpo-acelera',
+        heading: 'Por que o corpo acelera',
+        paragraphs: [
+          'Hormônio tireoidiano em excesso aumenta o gasto de energia de todas as células. O coração bate mais rápido e com mais força, o intestino trabalha mais depressa, a pele fica quente e úmida e a pessoa sua com facilidade, mesmo em ambiente fresco. O corpo se comporta como um motor em rotação alta. A pele quente e úmida é um achado de exame, e não apenas uma queixa subjetiva.',
+          'O peso cai mesmo com apetite aumentado, porque o consumo de energia supera o que se come. As evacuações ficam mais frequentes, às vezes com diarreia. O sono fica leve, a concentração oscila e a irritabilidade aparece sem motivo aparente, o que costuma ser confundido com ansiedade.',
+          'Na maioria dos casos a tireoide aumenta de volume, o que se chama bócio, e a glândula pode ser sentida ao exame do pescoço. Na doença de Graves, a causa mais comum, o sistema imunológico produz anticorpos que estimulam a tireoide continuamente, e os olhos também podem ser afetados.',
+        ],
+      },
+      {
+        id: 'sintomas-que-aparecem-juntos',
+        heading: 'Sintomas que costumam aparecer juntos',
+        paragraphs: [
+          'O sintoma mais frequente é a palpitação: o coração bate rápido em repouso e a pessoa sente o peito acelerado, às vezes com batidas irregulares. Tremor fino nas mãos, intolerância ao calor, sudorese e cansaço fácil completam o quadro, e o conjunto chama mais atenção do que qualquer sinal isolado.',
+          'Nas mulheres, a menstruação pode ficar irregular, com intervalos maiores e fluxo menor. Nos homens, há queda de libido e dificuldade de ereção. Nos dois sexos, a fraqueza muscular aparece cedo, sobretudo nas coxas, e subir escadas passa a custar mais do que antes. A queda de cabelo também aparece, assusta bastante e costuma reverter com o controle.',
+          'Na doença de Graves, os olhos podem ficar secos, lacrimejando, com sensação de areia e incômodo com a luz. Em casos mais intensos há protrusão dos olhos e visão dupla. Essas alterações podem surgir antes dos outros sintomas e nem sempre melhoram quando a tireoide é controlada.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta',
+        paragraphs: [
+          'A complicação mais grave é a tempestade tireoidiana, uma emergência com febre alta, coração muito acelerado, agitação, vômitos e confusão. Ela costuma ocorrer em quem não está tratado ou interrompeu o remédio por conta própria, e exige atendimento imediato, sem esperar a consulta marcada.',
+          'Dor no peito, falta de ar, desmaio e palpitação irregular que não passa com tontura também pedem avaliação no mesmo dia. Em pessoas idosas, o quadro pode se apresentar de forma atípica, com confusão, sonolência ou fraqueza intensa em vez de tremor e calor.',
+          'Perda de peso muito rápida em poucas semanas, vômitos persistentes e desidratação completam a lista. Nenhum desses sinais é exclusivo do hipertireoidismo, mas em quem já tem o diagnóstico eles indicam descontrole e mudam a urgência do atendimento. Medir a frequência cardíaca em casa e anotar os valores ajuda a equipe a decidir a urgência.',
+        ],
+      },
+      {
+        id: 'quem-tem-mais-risco',
+        heading: 'Quem tem mais risco',
+        paragraphs: [
+          'Ser mulher entre 20 e 50 anos é o fator mais forte. Ter parentes próximos com doença de Graves ou outra doença autoimune da tireoide também pesa, assim como ter diabetes tipo 1, lúpus ou artrite reumatoide, porque essas condições costumam andar juntas.',
+          'Alguns medicamentos podem desencadear o quadro, entre eles a amiodarona, usada para arritmia, o interferon e as imunoterapias contra câncer. Excesso de iodo na alimentação ou em suplementos, e o uso de hormônio tireoidiano sem indicação, são outras causas conhecidas.',
+          'O período pós-parto merece atenção, porque tireoidites podem se manifestar nessa fase e simular tanto hipertireoidismo quanto hipotireoidismo. Quem tem esses fatores e apresenta palpitação, perda de peso ou tremor deve mencioná-los na consulta, mesmo que pareçam queixas desconectadas. Esses fatores não causam a doença sozinhos, mas encurtam o caminho até o diagnóstico.',
+        ],
+      },
+      {
+        id: 'quando-investigar',
+        heading: 'Quando investigar',
+        paragraphs: [
+          'A investigação começa com um exame de sangue simples: TSH e T4 livre. No hipertireoidismo, o TSH fica baixo ou indetectável e o T4 livre fica alto. O TSH é o primeiro a se alterar, por isso funciona bem como teste de triagem quando há suspeita clínica.',
+          'Não é preciso esperar sintomas graves para pedir o exame. Palpitação persistente, perda de peso sem explicação, tremor e intolerância ao calor já justificam a dosagem, sobretudo em mulheres com histórico familiar. O diagnóstico precoce evita anos de sobrecarga no coração e nos ossos.',
+          'O atendimento começa na unidade básica de saúde, que solicita o TSH e encaminha ao endocrinologista quando o resultado é alterado. O tratamento e o acompanhamento são oferecidos no SUS, com exames periódicos para ajuste de dose. Levar exames antigos para a consulta também ajuda a comparar resultados e a datar o início do quadro.',
+        ],
+        cta: {
+          label: 'Leia também: como ler o TSH, o T4 e o T3',
+          href: '/artigos/hipertireoidismo-exames-tsh-t4-e-t3/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertireoidismo'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'hipertireoidismo-exames-tsh-t4-e-t3',
+      'hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia',
+      'hipertireoidismo-iodo-e-alimentacao',
+    ],
+    references: [
+      {
+        label: 'Hipertireoidismo, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipertireoidismo',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Considerações gerais sobre a tireoide',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/considera%C3%A7%C3%B5es-gerais-sobre-a-tireoide',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertireoidismo-na-gravidez-o-que-muda',
+    slug: 'hipertireoidismo-na-gravidez-o-que-muda',
+    title: 'Hipertireoidismo na gravidez: o que muda no diagnóstico e no tratamento',
+    excerpt:
+      'Na gestação, os valores de TSH mudam, o remédio de primeira escolha troca conforme o trimestre e o controle precisa ser mais frequente. Veja o que muda e por quê.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-a-gestacao-muda-o-quadro',
+        heading: 'Por que a gestação muda o quadro',
+        paragraphs: [
+          'Na gravidez, o corpo produz mais hormônio estimulador da tireoide, a gonadotrofina coriônica, e isso mexe com a glândula. O resultado é que os valores de TSH caem naturalmente, sobretudo no primeiro trimestre, e precisam ser lidos com faixas de referência próprias da gestação. Por isso a interpretação no pré-natal é sempre comparada a faixas próprias, trimestre por trimestre.',
+          'Sem essa correção, uma gestante normal pode parecer hipertireoidiana, e o contrário também acontece. Por isso o TSH isolado não basta no pré-natal: a interpretação depende do trimestre e, quando há dúvida, da dosagem do T4 livre e dos anticorpos.',
+          'Existe ainda a tireotoxicose gestacional transitória, comum no início da gravidez em quem tem náuseas intensas, e que costuma se resolver sozinha. Ela não é a doença de Graves e não deve ser tratada como tal, porque o tratamento desnecessário prejudica a gestação. Sem essa distinção, muita gestante recebe remédio de que não precisava e passa a ser acompanhada por um problema que não tem, com exames e preocupações desnecessárias.',
+        ],
+      },
+      {
+        id: 'riscos-para-a-mae-e-para-o-bebe',
+        heading: 'Riscos para a mãe e para o bebê',
+        paragraphs: [
+          'Hipertireoidismo sem controle aumenta o risco de abortamento, parto prematuro, pressão alta na gestação e baixo peso ao nascer. Para a mãe, soma risco de arritmia e de insuficiência cardíaca, sobretudo se a doença já vinha descompensada antes de engravidar. A pressão alta na gestação é outra complicação frequente e exige vigilância em cada consulta.',
+          'Na doença de Graves, os anticorpos maternos atravessam a placenta e podem estimular a tireoide do bebê. Isso causa hipertireoidismo neonatal, que se manifesta nas primeiras semanas com irritabilidade, taquicardia e ganho de peso insuficiente, e exige acompanhamento pediátrico.',
+          'O controle muda esse cenário. Gestantes com a doença compensada tendem a ter uma gestação próxima do normal, e é justamente por isso que o acompanhamento conjunto com endocrinologista e obstetra é a recomendação padrão. O parto prematuro é a complicação mais frequente, e manter o T4 livre dentro da faixa reduz a incidência. O acompanhamento também permite detectar cedo a restrição de crescimento.',
+        ],
+      },
+      {
+        id: 'diagnostico-na-gestacao',
+        heading: 'Diagnóstico na gestação',
+        paragraphs: [
+          'O rastreamento não é feito em todas as gestantes, mas é indicado quando há sintomas, bócio, histórico de doença tireoidiana ou tratamento prévio. Nesses casos, dosam-se TSH e T4 livre, comparados às faixas específicas de cada trimestre.',
+          'O anticorpo contra o receptor de TSH, o TRAb, tem papel importante na gestação. Ele confirma a doença de Graves e estima o risco para o bebê: quando está alto no fim da gravidez, a equipe acompanha o recém-nascido com mais atenção. Quando o TRAb é negativo, outras causas precisam ser consideradas antes de fechar o diagnóstico, entre elas a tireotoxicose gestacional transitória.',
+          'A ultrassonografia da tireoide ajuda a avaliar nódulos e tamanho, e pode ser feita sem risco para o bebê. Já a captação de iodo radioativo, usada fora da gestação para diferenciar as causas, é contraindicada na gravidez. A ressonância, quando necessária, é preferida à tomografia com contraste iodado durante a gravidez.',
+        ],
+      },
+      {
+        id: 'tratamento-na-gravidez',
+        heading: 'Tratamento na gravidez',
+        paragraphs: [
+          'O tratamento usa antitireoidianos, com escolha que muda conforme o trimestre. No primeiro trimestre, prefere-se o propiltiouracil, porque o metimazol tem associação com malformações nesse período. A partir do segundo trimestre, em geral se passa para o metimazol.',
+          'O objetivo não é normalizar o TSH a qualquer custo, e sim manter o T4 livre no limite alto da faixa gestacional. Dose excessiva atravessa a placenta e pode causar hipotireoidismo no bebê, com consequências para o desenvolvimento neurológico. As doses são revistas a cada quatro a seis semanas, com o T4 livre como guia principal, e não o TSH, que na gestação engana com facilidade.',
+          'O betabloqueador alivia palpitação e tremor enquanto o antitireoidiano faz efeito, e é usado pelo menor tempo possível. Iodo radioativo e cirurgia não fazem parte do tratamento de rotina na gestação; a cirurgia fica para situações muito específicas, de preferência no segundo trimestre.',
+        ],
+      },
+      {
+        id: 'depois-do-parto',
+        heading: 'Depois do parto',
+        paragraphs: [
+          'A tireoidite pós-parto aparece em uma parcela das mulheres meses após o nascimento, com uma fase de hormônio alto seguida de uma fase de hormônio baixo. Ela é diferente da doença de Graves e costuma se resolver, mas exige acompanhamento porque pode afetar o humor e o cansaço.',
+          'Quem tem doença de Graves pode ter piora após o parto, e a amamentação entra na conversa: doses moderadas de antitireoidiano são consideradas compatíveis com o aleitamento, mas a decisão é individual e precisa de acompanhamento. Na maioria dos casos a amamentação pode continuar, com ajuste do horário da dose em relação à mamada e revisão periódica da função tireoidiana.',
+          'O recém-nascido de mãe com TRAb alto deve ser avaliado por pediatra nas primeiras semanas. O hipertireoidismo neonatal é raro, tem tratamento e passa quando os anticorpos maternos desaparecem do sangue do bebê.',
+        ],
+      },
+      {
+        id: 'planejamento',
+        heading: 'Planejamento da gravidez',
+        paragraphs: [
+          'O ideal é engravidar com a doença controlada. Quem faz iodo radioativo precisa esperar o período orientado pelo serviço, em geral de seis meses a um ano, e usar contracepção nesse intervalo para evitar uma gestação durante a janela de risco.',
+          'Quem usa antitireoidiano deve conversar antes de tentar engravidar, porque a troca de medicamento pode ser planejada com calma em vez de feita às pressas no primeiro trimestre. Também vale revisar a dose e repetir os exames antes da concepção. Vale revisar também a contracepção, porque a fertilidade costuma voltar assim que o hormônio se normaliza, às vezes antes da primeira menstruação.',
+          'Com planejamento, o risco cai bastante. A gestação segue com acompanhamento mais próximo, exames a cada quatro a seis semanas no início e ajuste de dose conforme o T4 livre, o que costuma ser suficiente para levar a gravidez até o fim sem sustos.',
+        ],
+        cta: {
+          label: 'Leia também: como é o tratamento e o que muda na rotina',
+          href: '/artigos/hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertireoidismo'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera',
+      'hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia',
+      'hipertireoidismo-exames-tsh-t4-e-t3',
+    ],
+    references: [
+      {
+        label: 'Hipertireoidismo, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipertireoidismo',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Considerações gerais sobre a tireoide',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/considera%C3%A7%C3%B5es-gerais-sobre-a-tireoide',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertireoidismo-iodo-e-alimentacao',
+    slug: 'hipertireoidismo-iodo-e-alimentacao',
+    title: 'Hipertireoidismo: iodo, sal e o que muda na alimentação',
+    excerpt:
+      'Cortar todo o iodo não é a recomendação, e também não existe dieta que trate a tireoide hiperativa. Entenda o papel do iodo, o que vale evitar e o que a alimentação pode fazer.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-papel-do-iodo',
+        heading: 'O papel do iodo',
+        paragraphs: [
+          'O iodo é a matéria-prima dos hormônios da tireoide. Sem ele, a glândula não consegue produzir T4 nem T3, e por isso o sal de cozinha no Brasil é iodado por determinação legal. Essa medida praticamente eliminou o bócio por deficiência no país nas últimas décadas. A quantidade recomendada para adultos fica em torno de 150 microgramas por dia, segundo a recomendação internacional, e a tireoide se adapta a variações moderadas.',
+          'A relação entre iodo e hipertireoidismo não é simples. Em quem tem nódulos que produzem hormônio por conta própria, ou doença de Graves latente, uma carga grande de iodo pode desencadear o quadro ou piorá-lo. É o chamado efeito Jekyll and Hyde do iodo: previne em quem falta, atrapalha em quem já tem a glândula hiperativa.',
+          'Por isso a orientação prática não é cortar o iodo, e sim evitar excesso. Manter o sal habitual nas refeições, sem exageros, e ficar atento a produtos concentrados é diferente de tentar uma dieta com zero iodo, que não é necessária e não é viável no dia a dia.',
+        ],
+      },
+      {
+        id: 'sal-iodado-e-o-que-evitar',
+        heading: 'Sal iodado e o que evitar',
+        paragraphs: [
+          'O sal de mesa comum é a principal fonte de iodo na alimentação brasileira, e não há motivo para substituí-lo por versões sem iodo sem orientação. O que pesa é a quantidade: temperos prontos, embutidos, salgadinhos e caldos industrializados concentram sódio e iodo ao mesmo tempo.',
+          'Vale ler rótulos de suplementos e de produtos vendidos como naturais. Muitos complexos multivitamínicos incluem iodo em doses altas, e alguns rótulos trazem valores que superam em muito a necessidade diária. Em quem tem doença tireoidiana, esse detalhe importa. Suplementos vendidos para cabelo e unha também podem conter iodo, e nem sempre isso fica claro na embalagem.',
+          'Algas marinhas, sobretudo as usadas em pó para temperar, concentram iodo em quantidades muito acima do que a tireoide precisa. Um grama de alga pode conter mais iodo do que o recomendado para uma semana. Quem gosta do ingrediente deve conversar com o profissional que acompanha o caso.',
+        ],
+      },
+      {
+        id: 'algas-suplementos-e-contraste',
+        heading: 'Algas, suplementos e contraste iodado',
+        paragraphs: [
+          'Exames com contraste iodado, como tomografias, também entregam uma carga alta de iodo de uma só vez. Isso não significa que o exame esteja proibido em quem tem hipertireoidismo, mas a equipe precisa saber do diagnóstico antes, para avaliar risco e benefício e reforçar o acompanhamento depois.',
+          'O mesmo vale para alguns antissépticos e xaropes com iodo, e para fórmulas de emagrecimento que prometem acelerar o metabolismo. Nenhum deles trata a tireoide, e vários podem atrapalhar o controle justamente quando ele é mais necessário.',
+          'A conversa sobre iodo deve ser feita com quem acompanha o caso, e não com base em vídeos e listas de alimentos proibidos. A lista muda conforme a causa do hipertireoidismo, e o que vale para um nódulo tóxico não vale necessariamente para a doença de Graves. O contraste usado em exames é eliminado pelo rim em poucos dias, mas o efeito sobre a tireoide pode durar semanas.',
+        ],
+      },
+      {
+        id: 'o-que-comer',
+        heading: 'O que a alimentação pode fazer',
+        paragraphs: [
+          'Com o metabolismo acelerado, o gasto de energia sobe e a pessoa perde peso mesmo comendo bem. A alimentação precisa ser suficiente: refeições regulares, com proteína em quantidade adequada, carboidratos e gorduras em equilíbrio, evitam perda de massa muscular enquanto o tratamento faz efeito. Perder músculo nessa fase é comum e atrapalha a recuperação, por isso a proteína não pode faltar.',
+          'Café, chá preto, refrigerantes de cola e bebidas energéticas pioram palpitação e tremor, porque somam estimulantes ao efeito do hormônio em excesso. Reduzir ou suspender essas bebidas durante a fase de descontrole costuma trazer alívio perceptível em poucos dias.',
+          'Cálcio e vitamina D merecem atenção, sobretudo em mulheres na pós-menopausa, porque o excesso de hormônio acelera a perda de massa óssea. Não é preciso suplementar por conta própria: a avaliação mostra se há necessidade e em que dose.',
+        ],
+      },
+      {
+        id: 'o-que-nao-precisa-cortar',
+        heading: 'O que não precisa ser cortado',
+        paragraphs: [
+          'Não existe dieta que trate hipertireoidismo, e nenhum alimento isolado resolve o problema. Restringir glúten, lactose ou açúcar não tem efeito comprovado sobre a produção de hormônio, embora essas restrições circulem como solução em redes sociais.',
+          'Cortar todo o sal também não é recomendado. A restrição severa de sódio tem indicações próprias, como hipertensão e insuficiência cardíaca, e não é uma medida para a tireoide. Quem tem as duas condições deve seguir a orientação do serviço que acompanha cada uma.',
+          'Dietas muito restritivas, por outro lado, agravam a perda de massa muscular num momento em que o corpo já está consumindo reservas. O objetivo, na fase de descontrole, é manter o peso e a força, e não emagrecer mais rápido do que a doença já faz. O que se recomenda é manter o padrão habitual e revisar exageros, não aderir a dietas restritivas por conta própria.',
+        ],
+      },
+      {
+        id: 'quando-procurar',
+        heading: 'Quando procurar orientação',
+        paragraphs: [
+          'Vale procurar o serviço se o peso continuar caindo depois de iniciado o tratamento, se a palpitação piorar após refeições muito salgadas ou suplementos, ou se surgirem sinais de descontrole como tremor intenso, insônia e febre sem causa.',
+          'Também é motivo de consulta a intenção de usar qualquer suplemento, fórmula ou dieta da moda. Levar o rótulo ajuda, porque a quantidade de iodo e de estimulantes costuma estar descrita em letras pequenas que ninguém lê no momento da compra.',
+          'O acompanhamento nutricional pode ser solicitado na unidade básica de saúde, sobretudo quando há perda de peso importante ou restrições alimentares que dificultam manter a ingestão. A orientação é individual e caminha junto com o tratamento medicamentoso. O nutricionista também ajuda a lidar com a falta de apetite ou com a fome excessiva que o descontrole provoca.',
+        ],
+        cta: {
+          label: 'Leia também: como é o tratamento e o que muda na rotina',
+          href: '/artigos/hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertireoidismo'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia',
+      'hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera',
+      'hipertireoidismo-exames-tsh-t4-e-t3',
+    ],
+    references: [
+      {
+        label: 'Hipertireoidismo, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipertireoidismo',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Considerações gerais sobre a tireoide',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/considera%C3%A7%C3%B5es-gerais-sobre-a-tireoide',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertireoidismo-exames-tsh-t4-e-t3',
+    slug: 'hipertireoidismo-exames-tsh-t4-e-t3',
+    title: 'TSH, T4 e T3: como ler os exames do hipertireoidismo',
+    excerpt:
+      'O TSH cai antes do T4 subir, e é por isso que ele é o primeiro exame a mudar. Entenda o que cada dosagem mostra, quando pedir anticorpos e o que a ultrassonografia acrescenta.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'tsh-e-o-primeiro-a-mudar',
+        heading: 'TSH: o primeiro a mudar',
+        paragraphs: [
+          'O TSH é o hormônio que a hipófise produz para comandar a tireoide. Como ele responde a pequenas variações do hormônio tireoidiano, é o primeiro a se alterar quando a glândula começa a produzir demais, muito antes de o T4 sair da faixa de referência.',
+          'No hipertireoidismo, o TSH fica baixo ou indetectável. Um TSH suprimido com T4 livre normal caracteriza o hipertireoidismo subclínico, quadro que costuma ser assintomático e merece acompanhamento, sobretudo em idosos e em quem tem risco cardíaco.',
+          'Por ser sensível e barato, o TSH é o exame de triagem. Ele não diz a causa, apenas indica que algo está fora do lugar. A partir dele é que se decide quais outras dosagens pedir, e essa sequência evita exames desnecessários. Repetir o exame sem mudar a conduta raramente acrescenta informação. Valores de TSH acima do limite com T4 livre alto são raros e sugerem produção de TSH pela hipófise, situação que exige investigação própria.',
+        ],
+      },
+      {
+        id: 't4-livre-e-t3',
+        heading: 'T4 livre e T3',
+        paragraphs: [
+          'O T4 livre mede a fração do hormônio que está disponível para agir nos tecidos, sem interferência das proteínas transportadoras. É ele que confirma o hipertireoidismo quando o TSH está baixo, e é ele que guia o ajuste de dose durante o tratamento.',
+          'O T3 total e o T3 livre ajudam em situações específicas, sobretudo quando o TSH está baixo e o T4 livre ainda é normal. Existe o chamado T3-tireotoxicose, em que apenas o T3 está alto, e esse padrão aparece em nódulos tóxicos e no início da doença de Graves. O T3 costuma subir mais cedo em quem recai, e por isso é dosado quando os sintomas voltam com TSH ainda normal. Quando o T3 está alto e o T4 normal, a conduta segue a mesma do hipertireoidismo franco.',
+          'Nem todo laboratório dosa T3 de rotina, e não é preciso. Pedir todos os exames em série, sem indicação, gera custo e confusão. A escolha do painel depende do quadro clínico e do que se pretende responder.',
+        ],
+      },
+      {
+        id: 'trab-e-anticorpos',
+        heading: 'TRAb e outros anticorpos',
+        paragraphs: [
+          'O TRAb é o anticorpo que se liga ao receptor de TSH e estimula a tireoide. Ele confirma a doença de Graves, que é a causa mais comum de hipertireoidismo, e permite prever recaída depois de suspender o remédio. A dosagem também é útil antes de suspender o remédio, porque valores muito altos indicam maior chance de recaída. Em caso de dúvida, o especialista decide se vale repetir em algumas semanas.',
+          'Na gestação, o TRAb tem papel central. Anticorpos maternos atravessam a placenta e podem estimular a tireoide do feto, por isso a dosagem no fim da gravidez orienta o acompanhamento do recém-nascido.',
+          'Outros anticorpos, como antitireoglobulina e antiperoxidase, aparecem com frequência em doenças autoimunes da tireoide, mas não confirmam hipertireoidismo sozinhos. Eles ajudam a compor o quadro, e não substituem o TRAb na investigação da doença de Graves.',
+        ],
+      },
+      {
+        id: 'ultrassom-e-captacao',
+        heading: 'Ultrassonografia e captação de iodo',
+        paragraphs: [
+          'A ultrassonografia mostra o tamanho da glândula, a presença de nódulos e o padrão de vascularização. Ela é indolor, não usa radiação e ajuda a diferenciar bócio difuso de bócio nodular, o que muda a conduta.',
+          'A captação de iodo radioativo é um exame funcional. Ela diferencia a tireoide que produz hormônio demais, com captação alta, daquela que apenas libera hormônio estocado por inflamação, com captação baixa. É útil quando a causa não fica clara. A captação baixa também aparece na tireoidite subaguda, que costuma ser dolorosa. Depois do iodo radioativo, ela não serve para reavaliar o quadro, porque o tecido foi destruído de propósito.',
+          'Esse exame é contraindicado na gravidez e na amamentação, e não é pedido de rotina quando o quadro clínico e o TRAb já fecharam o diagnóstico. Como envolve material radioativo, a indicação é sempre do especialista.',
+        ],
+      },
+      {
+        id: 'como-ler-o-resultado',
+        heading: 'Como ler o resultado',
+        paragraphs: [
+          'A combinação clássica é TSH baixo com T4 livre alto. TSH baixo com T4 livre normal sugere hipertireoidismo subclínico. TSH baixo com T3 alto e T4 normal aponta para T3-tireotoxicose. TSH normal ou alto com T4 alto é padrão raro e pede investigação da hipófise.',
+          'Cada laboratório usa faixas próprias, e comparar resultados de serviços diferentes sem olhar a referência leva a conclusões erradas. Levar os exames anteriores para a consulta permite ver a tendência, que vale mais do que um número isolado. Em vigência de doença aguda, o TSH pode cair de forma transitória, e repetir o exame depois da recuperação evita diagnóstico errado.',
+          'Nenhum resultado substitui a avaliação clínica. Há situações em que o exame se altera por medicamento, doença aguda ou gravidez, sem que exista hipertireoidismo. É o conjunto de sintomas, exame físico e dosagens que fecha o diagnóstico.',
+        ],
+      },
+      {
+        id: 'preparo-e-repeticao',
+        heading: 'Preparo e repetição',
+        paragraphs: [
+          'Não é preciso jejum para dosar TSH e T4 livre na maioria dos laboratórios, mas cada serviço tem sua rotina e vale confirmar antes. Biotina em dose alta, usada em suplementos para cabelo, pode interferir no ensaio e deve ser suspensa alguns dias antes, se o laboratório orientar. Alguns serviços pedem a coleta pela manhã, porque o TSH oscila ao longo do dia.',
+          'Durante o tratamento, os exames são repetidos a cada quatro a oito semanas até o controle e, depois, em intervalos maiores. O intervalo existe porque o TSH demora a reagir: ele pode ficar baixo por semanas mesmo com o hormônio já normalizado.',
+          'Quem faz iodo radioativo ou cirurgia passa a dosar hormônio com outra frequência, para ajustar a reposição. O acompanhamento é contínuo, e não termina quando os sintomas melhoram. É ele que evita tanto o descontrole quanto o excesso de remédio. Repetir no mesmo laboratório facilita a comparação entre coletas.',
+        ],
+        cta: {
+          label: 'Leia também: como é o tratamento e o que muda na rotina',
+          href: '/artigos/hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertireoidismo'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'hipertireoidismo-o-que-e-e-por-que-o-corpo-acelera',
+      'hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia',
+      'hipertireoidismo-na-gravidez-o-que-muda',
+    ],
+    references: [
+      {
+        label: 'Hipertireoidismo, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipertireoidismo',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Considerações gerais sobre a tireoide',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/considera%C3%A7%C3%B5es-gerais-sobre-a-tireoide',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia',
+    slug: 'hipertireoidismo-tratamento-e-o-que-muda-no-dia-a-dia',
+    title: 'Hipertireoidismo: como é o tratamento e o que muda na rotina',
+    excerpt:
+      'Remédio, iodo radioativo ou cirurgia resolvem o hormônio em excesso por caminhos diferentes. Entenda o que cada opção faz, quais efeitos exigem atenção e o que muda no dia a dia.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'tres-frentes',
+        heading: 'As três frentes do tratamento',
+        paragraphs: [
+          'O tratamento do hipertireoidismo se organiza em três frentes. A primeira alivia os sintomas enquanto o hormônio ainda está alto, com betabloqueadores que reduzem a palpitação, o tremor e a ansiedade em poucos dias, sem mexer na produção hormonal.',
+          'A segunda frente reduz a produção de hormônio, com os antitireoidianos, e é o caminho mais usado no início. A terceira elimina parte ou toda a glândula, com iodo radioativo ou cirurgia, e costuma ser escolhida quando o remédio não controla, causa efeito colateral ou quando se busca um tratamento definitivo.',
+          'A escolha depende da causa, da idade, do tamanho do bócio, da presença de alterações oculares, de gestação ou desejo de engravidar e das preferências de quem vai tratar. Não existe um caminho único, e a decisão é sempre compartilhada com o especialista. Em casos de bócio muito grande ou compressão, a conversa sobre cirurgia costuma vir mais cedo, antes mesmo de tentar o remédio por dois anos.',
+        ],
+      },
+      {
+        id: 'antitireoidianos',
+        heading: 'Os antitireoidianos',
+        paragraphs: [
+          'O metimazol é a primeira escolha na maioria dos casos, e o propiltiouracil fica para situações específicas, como o primeiro trimestre da gestação e a crise tireotóxica, porque pode causar lesão no fígado. Os dois reduzem a síntese de hormônio e levam algumas semanas para o efeito aparecer. A resposta é monitorada pelo T4 livre, que cai antes do TSH e por isso guia o ajuste nas primeiras semanas.',
+          'Antes de começar, é preciso checar hemograma e função do fígado, e o acompanhamento com exames periódicos é obrigatório. A dose é ajustada conforme o T4 livre, e a redução é gradual: retirar o remédio de uma vez costuma provocar recaída.',
+          'O tratamento dura em geral de um a dois anos. Parte das pessoas consegue suspender e fica bem; outra parte recai, sobretudo quem tem TRAb muito alto, bócio grande ou histórico familiar. Nesses casos, iodo radioativo ou cirurgia passam a ser discutidos com mais peso.',
+        ],
+      },
+      {
+        id: 'iodo-radioativo-e-cirurgia',
+        heading: 'Iodo radioativo e cirurgia',
+        paragraphs: [
+          'O iodo radioativo é tomado por via oral em cápsula e destrói parte do tecido da tireoide. É uma opção frequente na doença de Graves e costuma resolver o hipertireoidismo, com a consequência esperada de hipotireoidismo, que passa a exigir reposição de hormônio pelo resto da vida.',
+          'Ele é contraindicado na gestação e na amamentação e não deve ser usado em quem tem oftalmopatia ativa grave. Depois da aplicação, recomenda-se evitar contato próximo com gestantes e crianças por alguns dias e usar contracepção por cerca de seis a doze meses.',
+          'A cirurgia, chamada tireoidectomia, é indicada em bócios muito grandes, compressão da via aérea, suspeita de câncer ou quando as outras opções não se aplicam. Controla mais de 90% dos casos, também costuma levar ao hipotireoidismo e tem riscos próprios, como rouquidão por lesão de nervo e queda do cálcio por lesão das paratireoides. A decisão entre as duas costuma considerar o tamanho do bócio, a experiência do serviço e o risco cirúrgico de cada pessoa.',
+        ],
+      },
+      {
+        id: 'efeitos-colaterais-e-alertas',
+        heading: 'Efeitos colaterais e sinais de alerta',
+        paragraphs: [
+          'Os antitireoidianos podem causar náusea, dor de cabeça, coceira e alterações no paladar, efeitos que costumam ser passageiros. O problema grave é a agranulocitose, uma queda dos glóbulos brancos que reduz a defesa contra infecções e aparece em uma minoria dos pacientes.',
+          'Febre com dor de garganta durante o uso desses remédios exige avaliação imediata e hemograma, porque pode ser o primeiro sinal dessa queda. Não se trata de esperar o fim de semana: o atendimento deve ser no mesmo dia, e o remédio é suspenso até a avaliação. O hemograma mostra a contagem de neutrófilos, e o resultado muda a conduta em poucas horas.',
+          'Dor abdominal intensa, urina escura e pele amarelada sugerem lesão no fígado e também pedem avaliação rápida. Quem faz iodo radioativo deve seguir as orientações de radioproteção do serviço, e quem opera precisa de acompanhamento com cálcio e voz nas primeiras semanas.',
+        ],
+      },
+      {
+        id: 'vida-diaria',
+        heading: 'O que muda no dia a dia',
+        paragraphs: [
+          'Nos primeiros meses, o corpo ainda está acelerado, e o cansaço aparece com facilidade. Atividade física leve ajuda no condicionamento e no humor, mas o excesso piora a palpitação. O ideal é ajustar a intensidade ao momento do tratamento, e não manter a rotina de antes por teimosia.',
+          'O sono costuma ser o primeiro a melhorar, e vale proteger as horas de descanso: café depois do almoço, telas até tarde e bebidas energéticas atrapalham justamente quem tem dificuldade para dormir. Reduzir estimulantes é uma medida simples e com efeito rápido.',
+          'O acompanhamento com TSH e T4 livre é o que garante o ajuste da dose. Interromper o remédio por conta própria é a causa mais comum de recaída e de crise, e quem planeja engravidar deve conversar antes com o endocrinologista, porque a gestação exige ajuste e monitoramento frequente. Manter uma caderneta simples, com dose e horário, ajuda a não repetir nem esquecer comprimidos.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Acompanhamento de longo prazo',
+        paragraphs: [
+          'Depois do controle, as consultas ficam mais espaçadas, mas não terminam. Quem usa antitireoidiano precisa de hemograma e função do fígado periódicos, e quem fez iodo radioativo ou cirurgia passa a dosar hormônio para ajustar a reposição, que é mais simples de manejar do que o hipertireoidismo.',
+          'Vale guardar os exames em ordem e levar todos à consulta. A comparação entre coletas mostra a tendência e evita decisões baseadas em um resultado isolado, que pode ter oscilado por sono, infecção ou uso irregular do remédio.',
+          'O prognóstico com tratamento é bom: os sintomas melhoram em poucas semanas, o peso se estabiliza e o coração volta ao ritmo normal. O que piora o desfecho é o diagnóstico tardio, porque anos de hormônio em excesso sobrecarregam o coração e reduzem a massa óssea de forma nem sempre reversível. Quem controla bem a doença leva uma rotina próxima do normal, com consultas espaçadas e exames duas ou três vezes por ano.',
+        ],
+        cta: {
+          label: 'Leia também: como ler o TSH, o T4 e o T3',
+          href: '/artigos/hipertireoidismo-exames-tsh-t4-e-t3/',
+        },
+      },
+    ],
+    diseaseSlugs: ['hipertireoidismo'],
+    topicSlugs: ['doencas-cronicas', 'saude-da-mulher'],
+    relatedArticleSlugs: [
+      'hipertireoidismo-exames-tsh-t4-e-t3',
+      'hipertireoidismo-iodo-e-alimentacao',
+      'hipertireoidismo-na-gravidez-o-que-muda',
+    ],
+    references: [
+      {
+        label: 'Hipertireoidismo, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/hipertireoidismo',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Considerações gerais sobre a tireoide',
+        url: 'https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-hormonais-e-metab%C3%B3licos/dist%C3%BArbios-da-tireoide/considera%C3%A7%C3%B5es-gerais-sobre-a-tireoide',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'calculo-renal-sintomas-e-a-crise-de-dor',
+    slug: 'calculo-renal-sintomas-e-a-crise-de-dor',
+    title: 'Cálculo renal: como é a crise de dor e o que ela indica',
+    excerpt:
+      'A dor da pedra nos rins vem em ondas, começa no flanco e desce para a virilha. Entenda por que ela é tão intensa, o que costuma acompanhar a crise e quando o quadro deixa de ser só dor.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'como-comeca-a-crise',
+        heading: 'Como a crise começa',
+        paragraphs: [
+          'A crise costuma começar sem aviso, com uma dor que se instala no flanco, na região das costas logo abaixo das costelas. Ela aparece quando o cálculo se desprende do rim e entra no ureter, o tubo estreito que leva a urina até a bexiga, e passa a ser empurrado pela parede do tubo.',
+          'O cálculo renal é uma massa endurecida formada por cálcio, oxalato ou ácido úrico que cristalizaram dentro do rim porque a urina estava concentrada demais. Enquanto a pedra fica parada e não obstrui nada, pode não dar sinal nenhum, e muita gente descobre o cálculo por acaso, num ultrassom feito por outro motivo.',
+          'É uma das queixas mais frequentes na emergência. O pico de incidência fica entre 30 e 50 anos, e os homens são mais afetados. Quem já teve um cálculo tem chance importante de ter outro, e por isso a história não termina quando a dor passa. A maioria dos cálculos é de oxalato de cálcio, e a composição só é confirmada quando o material eliminado vai para análise.',
+        ],
+      },
+      {
+        id: 'a-dor-em-ondas',
+        heading: 'Por que a dor vem em ondas',
+        paragraphs: [
+          'A dor da cólica renal tem um padrão reconhecível: começa no flanco, irradia para o abdome e para a virilha, e vem em ondas. Cada onda cresce até um pico e cede depois de vinte a sessenta minutos, para voltar em seguida, e a pessoa não encontra posição confortável em nenhuma delas.',
+          'O mecanismo explica a intensidade. O ureter tenta empurrar a pedra por um caminho muito estreito, e a musculatura da parede se contrai com força contra a obstrução. É a mesma lógica de uma pedra presa em um cano flexível: quanto menor o espaço, maior o esforço e maior a dor. Por isso a intensidade não mede o tamanho da pedra: uma pedra de três milímetros presa no ureter pode doer mais do que uma de dois centímetros parada no rim.',
+          'Quando o cálculo chega perto da bexiga, o padrão muda. A dor pode virar urgência para urinar, aumento da frequência e incômodo no final da micção. Nessa fase, a pedra está perto da saída, o que costuma ser um bom sinal, mas não dispensa avaliação.',
+        ],
+      },
+      {
+        id: 'sintomas-que-acompanham',
+        heading: 'Sintomas que acompanham a crise',
+        paragraphs: [
+          'Náusea e vômito são comuns, porque o estímulo doloroso intenso ativa o sistema nervoso de forma ampla. Sudorese, palidez e agitação também aparecem, e há quem chegue ao serviço se contorcendo, sem conseguir ficar sentado por muito tempo.',
+          'Sangue na urina é frequente, às vezes visível a olho nu, às vezes detectado apenas no exame de urina. Ele aparece porque a pedra arranha a mucosa do ureter ao descer, e não porque exista uma doença do sangue ou do rim.',
+          'Quando há obstrução completa, o volume de urina pode cair, e a dor passa a ser mais surda e contínua no flanco. Febre com calafrios junto da dor muda tudo: ela sugere infecção associada à obstrução, uma situação grave que exige atendimento imediato, porque pode evoluir para sepse em pouco tempo. Nesse cenário, o exame de urina e a dosagem de creatinina ajudam a separar obstrução simples de quadro com infecção.',
+        ],
+      },
+      {
+        id: 'pedra-que-nao-doi',
+        heading: 'A pedra que não dói',
+        paragraphs: [
+          'Cálculos grandes que ficam parados no rim muitas vezes não provocam dor. Nesses casos, o achado é incidental, e a conduta depende do tamanho, da posição e de haver ou não dilatação do rim. Nem toda pedra silenciosa precisa de cirurgia, e nem toda pedra silenciosa pode ser ignorada.',
+          'Cálculos coraliformes, que ocupam todo o sistema coletor, podem crescer devagar por anos sem sintoma e se associar a infecção urinária de repetição. Quando descobertos, costumam exigir avaliação especializada, porque o tratamento é mais complexo do que o de uma pedra pequena.',
+          'A ausência de dor não é sinal de que está tudo bem. Quem tem cálculo conhecido e nunca sentiu nada deve manter o acompanhamento combinado com o serviço, com exames de imagem na periodicidade indicada, para ver se a pedra cresceu ou passou a obstruir.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando a crise deixa de ser só dor',
+        paragraphs: [
+          'Febre, calafrios ou mal-estar intenso junto da dor pedem pronto atendimento, sem esperar o efeito do analgésico em casa. A combinação de obstrução e infecção é a complicação mais temida, e o tempo até o tratamento muda o prognóstico. Idosos podem não ter febre alta, e a confusão mental pode ser o único sinal de infecção.',
+          'Dor que não cede com analgésico comum, vômitos repetidos que impedem beber água, vontade de urinar sem conseguir eliminar urina e redução importante do volume urinário também são sinais de urgência. Urina com sangue visível e coágulos entra na mesma lista.',
+          'Em pessoas idosas ou com uma só via urinária funcionante, qualquer obstrução merece atenção redobrada. O rim único, por cirurgia ou por condição de nascença, transforma uma pedra pequena em problema sério com mais facilidade, e a avaliação precisa ser mais rápida.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-na-crise',
+        heading: 'O que fazer durante a crise',
+        paragraphs: [
+          'O primeiro passo é buscar atendimento para controlar a dor, e não tentar atravessar a crise em casa. O alívio da dor é parte do tratamento, e o serviço avalia se há obstrução, infecção ou perda de função renal, o que muda a conduta.',
+          'Enquanto espera, beber água em pequenos goles ajuda, desde que não haja vômito persistente. Não use remédio de dor por conta própria por muitos dias sem reavaliação, e não tente receitas caseiras para acelerar a saída da pedra, porque nenhuma tem comprovação. Não existe posição do corpo que acelere a saída da pedra; o que muda o curso é o controle da dor e a hidratação orientada.',
+          'Se a pedra sair, guarde-a e leve ao serviço. A análise da composição é o exame que orienta a prevenção, e ela muda conforme o mineral envolvido. Jogar fora o cálculo é perder a informação mais útil para evitar o próximo episódio.',
+        ],
+        cta: {
+          label: 'Leia também: quem atende e quando ir ao pronto-socorro',
+          href: '/artigos/calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro/',
+        },
+      },
+    ],
+    diseaseSlugs: ['calculo-renal'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada',
+      'calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro',
+      'calculo-renal-como-prevenir-a-recidiva',
+    ],
+    references: [
+      {
+        label: 'Cálculos no trato urinário, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/doen%C3%A7as-do-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Infecção renal (pielonefrite), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-renal',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada',
+    slug: 'calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada',
+    title: 'Tamanho do cálculo renal: quando a cirurgia é indicada',
+    excerpt:
+      'Cinco milímetros, um centímetro, dois centímetros: o tamanho muda a chance de saída espontânea e o tipo de procedimento. Entenda o que cada faixa significa e o que a litotripsia faz.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-tamanho-orienta-a-conduta',
+        heading: 'Por que o tamanho decide tanto',
+        paragraphs: [
+          'O tamanho do cálculo é o dado que mais pesa na decisão entre esperar, medicar ou operar. A razão é simples: o ureter tem poucos milímetros de diâmetro, e uma pedra maior do que essa passagem tem dificuldade real de descer, por mais que a musculatura se contraia. A tomografia sem contraste mede o cálculo em milímetros e mostra se há dilatação acima da pedra, e é esse conjunto que o especialista usa para decidir.',
+          'A posição também conta. Cálculos que estão na pelve renal, perto do ponto de saída, descem com mais dificuldade do que os que já entraram no ureter. Um cálculo de mesmo tamanho pode ter condutas diferentes conforme onde está e conforme o rim estar ou não dilatado.',
+          'A decisão nunca é só aritmética. Sintomas, tempo de obstrução, função renal, infecção associada, gestação e preferências da pessoa entram na conta, e é por isso que dois cálculos de tamanho igual podem ter planos diferentes.',
+        ],
+      },
+      {
+        id: 'pedras-ate-5-mm',
+        heading: 'Pedras de até 5 mm',
+        paragraphs: [
+          'A maioria das pedras pequenas sai sozinha, em dias ou semanas, com analgesia e hidratação. Não é preciso procedimento, e o acompanhamento serve para confirmar a eliminação e verificar se o rim continua sem dilatação.',
+          'O alfa-bloqueador tansulosina pode ajudar a relaxar a parte final do ureter e facilitar a saída de cálculos pequenos. Ele não substitui a avaliação médica, e pode causar queda de pressão ao levantar, sobretudo na primeira dose. A hidratação deve ser orientada, porque beber volume excessivo de uma vez, com vômito ou obstrução, não acelera nada e aumenta o desconforto.',
+          'Mesmo nessa faixa, há situações que mudam a conduta: dor que não controla, febre, rim único, gestação ou obstrução persistente. Nesses casos, o tamanho pequeno não é argumento para esperar. O retorno deve ser combinado com data definida, e não apenas com a orientação de voltar se piorar.',
+        ],
+      },
+      {
+        id: 'de-5-mm-a-1-cm',
+        heading: 'De 5 mm a 1 cm',
+        paragraphs: [
+          'Acima de 5 mm, a chance de eliminação espontânea cai bastante, e o tempo até a saída aumenta. A conduta costuma ser observação por um período definido, com analgesia e retorno programado, mas o prazo é limitado: semanas de obstrução sem resolução aumentam o risco de perda de função. A escolha entre observar e intervir também considera o desejo da pessoa e a distância até o serviço, porque uma crise no fim de semana muda a conta.',
+          'Nessa faixa, a litotripsia por ondas de choque é uma opção frequente quando a pedra está na pelve renal ou no ureter superior. Ela fragmenta o cálculo de fora para dentro, sem cortes, e o paciente volta para casa no mesmo dia.',
+          'A ureteroscopia também aparece aqui, sobretudo para pedras no ureter inferior. Um aparelho fino entra pela uretra e pela bexiga, e o cálculo é quebrado a laser. A escolha depende da localização, da dureza estimada e da experiência do serviço.',
+        ],
+      },
+      {
+        id: 'acima-de-1-cm-e-coraliformes',
+        heading: 'Acima de 1 cm e coraliformes',
+        paragraphs: [
+          'Cálculos maiores que 1 cm raramente saem sozinhos, e a litotripsia perde eficácia conforme o tamanho aumenta. Para pedras grandes, múltiplas ou coraliformes, a nefrolitotomia percutânea é o caminho mais usado: cria-se um trajeto pequeno nas costas para retirar os fragmentos. A tomografia também revela a dureza provável pela densidade do cálculo, dado que ajuda a prever o desempenho da litotripsia.',
+          'O objetivo, nesses casos, é retirar toda a carga de cálculo, e não apenas aliviar a dor. Fragmentos que sobram servem de núcleo para uma nova pedra, e a recidiva em quem tem doença litiásica extensa é a regra, não a exceção.',
+          'Cálculos de ácido úrico têm uma particularidade: podem ser dissolvidos com medicação que alcaliniza a urina. O processo leva meses, exige acompanhamento e não serve para todos os tipos, mas evita procedimentos em alguns casos selecionados.',
+        ],
+      },
+      {
+        id: 'procedimentos',
+        heading: 'O que cada procedimento faz',
+        paragraphs: [
+          'A litotripsia por ondas de choque é a menos invasiva e funciona melhor em pedras duras não muito grandes, no rim ou no ureter superior. Pode exigir mais de uma sessão, e os fragmentos são eliminados pela urina, em geral com algum desconforto e sangue. A escolha depende do cálculo e do serviço.',
+          'A ureteroscopia com laser tem alta taxa de resolução em uma única sessão e é muito usada no ureter inferior. Costuma exigir anestesia e, em alguns casos, a colocação temporária de um cateter duplo J, que fica por dias ou semanas e pode causar incômodo para urinar.',
+          'A nefrolitotomia percutânea é mais invasiva, com internação e recuperação mais longa, e é reservada para cálculos grandes ou complexos. Os riscos incluem sangramento e infecção, e a decisão precisa considerar o benefício de resolver o problema de uma vez. Em qualquer um deles, o fragmento eliminado deve ser analisado, porque a composição define a prevenção.',
+        ],
+      },
+      {
+        id: 'quando-a-urgencia-muda-a-ordem',
+        heading: 'Quando a urgência muda a ordem',
+        paragraphs: [
+          'Quando há obstrução com infecção, a prioridade não é retirar a pedra, e sim drenar a urina. Isso é feito com cateter duplo J ou nefrostomia, junto com antibiótico, e o cálculo é tratado depois que a infecção está controlada.',
+          'A mesma lógica vale para insuficiência renal aguda por obstrução bilateral ou por rim único. Primeiro se desobstrui e se recupera a função; depois se planeja o procedimento definitivo, com mais segurança para a pessoa. O duplo J costuma ficar por algumas semanas e pode provocar urgência urinária e desconforto no flanco, que devem ser explicados antes.',
+          'Gestantes formam um grupo à parte. A avaliação usa ultrassom como primeira escolha, para evitar radiação, e o manejo é sempre conjunto com a obstetrícia, porque a prioridade é a saúde da mãe e do bebê ao mesmo tempo. Vale perguntar ao serviço qual é o plano se a pedra não sair no prazo combinado.',
+        ],
+        cta: {
+          label: 'Leia também: como prevenir a volta da pedra',
+          href: '/artigos/calculo-renal-como-prevenir-a-recidiva/',
+        },
+      },
+    ],
+    diseaseSlugs: ['calculo-renal'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'calculo-renal-sintomas-e-a-crise-de-dor',
+      'calculo-renal-como-prevenir-a-recidiva',
+      'calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro',
+    ],
+    references: [
+      {
+        label: 'Cálculos no trato urinário, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/doen%C3%A7as-do-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Infecção renal (pielonefrite), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-renal',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro',
+    slug: 'calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro',
+    title: 'Pedra nos rins: quem atende e quando ir ao pronto-socorro',
+    excerpt:
+      'A mesma crise pode ser resolvida na UBS, na UPA ou no pronto-socorro, e a escolha depende de febre, volume de urina e controle da dor. Veja o que cada porta faz e quando o urologista entra.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-onde-comecar',
+        heading: 'Por onde começar',
+        paragraphs: [
+          'A crise de pedra nos rins pode ser atendida em mais de um lugar, e a escolha depende da intensidade da dor, da presença de febre e do que a rede daquela região oferece. Em geral, dor forte que não cede e qualquer sinal de infecção pedem um serviço com imagem e plantão. Vale observar se há febre antes de decidir o caminho.',
+          'No Sistema Único de Saúde, a porta de entrada é a UBS, que agenda consulta, pede exames simples e encaminha. Para dor aguda fora do horário, a UPA costuma ser o caminho, e o pronto-socorro do hospital atende os casos mais graves, com acesso a tomografia e a especialista de plantão. Em cidades pequenas, a UPA pode ser o único serviço aberto à noite, e o plantão costuma resolver a dor e encaminhar o seguimento.',
+          'Na rede privada, o pronto atendimento faz o mesmo papel da UPA, e o convênio costuma exigir que o primeiro atendimento aconteça na rede credenciada. A lógica de triagem, porém, é a mesma em qualquer porta: primeiro se afasta risco de vida, depois se controla a dor.',
+        ],
+      },
+      {
+        id: 'o-que-e-urgencia',
+        heading: 'O que é urgência de verdade',
+        paragraphs: [
+          'Febre, calafrios ou mal-estar intenso junto da dor são a combinação mais perigosa. Ela sugere que a urina parada atrás da pedra está infectada, quadro que pode evoluir para sepse em horas e que exige atendimento imediato, com antibiótico e drenagem da via urinária. A febre pode vir baixa no início, e nem sempre acompanha calafrios intensos.',
+          'Ausência de urina, queda importante do volume urinário, vômitos que impedem beber água e dor que não cede com analgésico também são critérios de urgência. Nesses casos, esperar em casa não é uma escolha razoável, mesmo que a dor pareça suportável no momento.',
+          'Alguns grupos têm limiar mais baixo: quem tem um rim só, quem faz diálise, gestantes, idosos e pessoas com imunidade baixa. Neles, uma obstrução pequena pode custar função renal em pouco tempo, e a avaliação deve ser feita sem demora, mesmo com dor moderada. Nesses casos, a decisão de internar costuma ser mais precoce.',
+        ],
+      },
+      {
+        id: 'o-que-a-ubs-resolve',
+        heading: 'O que a UBS consegue resolver',
+        paragraphs: [
+          'A UBS resolve mais do que muita gente imagina. Ela pode prescrever analgesia, pedir exame de urina, dosar creatinina, avaliar a necessidade de encaminhamento e acompanhar quem já tem cálculo conhecido, com data de retorno combinada. Quando a dor é controlável, a própria UBS pode acompanhar a eliminação, com retorno em uma ou duas semanas.',
+          'Também é o lugar da prevenção. É na consulta de rotina que se ajusta a ingestão de água, se revisa o uso de suplementos e se investiga doença de base, como gota, diabetes e hiperparatireoidismo, que aumentam a formação de pedras ao longo dos anos.',
+          'O que a UBS nem sempre tem é imagem no mesmo dia. Quando o quadro exige tomografia ou avaliação cirúrgica, o caminho é o encaminhamento, e vale perguntar na hora qual serviço procurar se a dor piorar antes da consulta marcada.',
+        ],
+      },
+      {
+        id: 'exames-na-porta',
+        heading: 'Os exames feitos na chegada',
+        paragraphs: [
+          'Na chegada, o exame de urina é o primeiro passo: ele mostra sangue, pus e sinais de infecção, e ajuda a separar cólica simples de pielonefrite. Hemograma e creatinina entram quando há febre, vômito ou suspeita de perda de função renal.',
+          'A tomografia sem contraste é o exame que mais informação entrega, porque localiza a pedra, mede o tamanho e mostra dilatação acima da obstrução. O ultrassom é a alternativa sem radiação e costuma ser o primeiro exame na gestação e em muitos plantões. Repetir tomografia em toda crise não é necessário, e o histórico de exames recentes deve ser levado em conta.',
+          'Nada disso deve atrasar o alívio da dor. O analgésico entra enquanto os exames são pedidos, e a espera pelo resultado não é motivo para deixar alguém em cólica por horas no corredor. O conforto durante a espera também é parte do cuidado.',
+        ],
+      },
+      {
+        id: 'quem-e-o-especialista',
+        heading: 'Urologista e nefrologista: quem cuida do quê',
+        paragraphs: [
+          'O urologista é quem trata cálculo: indica e executa litotripsia, ureteroscopia e nefrolitotomia percutânea, e acompanha quem tem doença litiásica de repetição. Em serviços de emergência, é ele quem decide sobre a drenagem quando existe infecção associada. A escolha do procedimento depende do tamanho, da posição e do que o serviço tem disponível.',
+          'O nefrologista cuida da função renal e das causas metabólicas. Ele entra quando há perda de função, rim único, doença genética como a cistinúria ou necessidade de investigar distúrbios que fazem a urina formar cristais com facilidade.',
+          'Na prática, o clínico geral ou o médico de família costuma ser o primeiro a organizar o caso, pedir os exames iniciais e decidir para onde encaminhar. Chegar à consulta com a data das crises e com exames anteriores encurta bastante esse caminho.',
+        ],
+      },
+      {
+        id: 'depois-da-alta',
+        heading: 'Depois da alta',
+        paragraphs: [
+          'A alta não significa que a pedra saiu. Muitas vezes ela continua no ureter, e o plano é esperar a eliminação com analgesia e retorno marcado. Vale perguntar qual é o prazo, o que fazer se a dor voltar e onde buscar atendimento à noite. Perguntar o nome do serviço de referência evita percorrer unidades sem necessidade no meio da madrugada.',
+          'Se a pedra sair, ela deve ser guardada e levada ao serviço. A análise de composição define a prevenção e evita que a próxima crise seja tratada às cegas, com recomendações genéricas que valem para outro tipo de cálculo.',
+          'O retorno antes do prazo é necessário se aparecer febre, se a dor mudar de padrão, se a urina diminuir ou se houver vômito que impeça tomar a medicação. Esses sinais não são esperados numa evolução favorável e mudam a conduta.',
+        ],
+        cta: {
+          label: 'Leia também: tamanho do cálculo e quando a cirurgia é indicada',
+          href: '/artigos/calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada/',
+        },
+      },
+    ],
+    diseaseSlugs: ['calculo-renal'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'calculo-renal-sintomas-e-a-crise-de-dor',
+      'calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada',
+      'calculo-renal-como-prevenir-a-recidiva',
+    ],
+    references: [
+      {
+        label: 'Cálculos no trato urinário, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/doen%C3%A7as-do-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Infecção renal (pielonefrite), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-renal',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'calculo-renal-como-prevenir-a-recidiva',
+    slug: 'calculo-renal-como-prevenir-a-recidiva',
+    title: 'Como prevenir a volta da pedra nos rins',
+    excerpt:
+      'Cerca de 39% das pessoas têm um novo cálculo em quinze anos. A prevenção começa pela análise da pedra e passa por água, sal, cálcio e oxalato, com metas concretas.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-a-pedra-volta',
+        heading: 'Por que a pedra volta',
+        paragraphs: [
+          'Quem já teve uma pedra costuma ouvir que o problema passou. Não passou: o cálculo é o sintoma de uma urina que forma cristais com facilidade, e essa tendência continua depois da crise. A conversa sobre hábitos deveria começar cedo, e não só depois da segunda pedra. Vale registrar as datas das crises para perceber o padrão.',
+          'Os números ajudam a entender a dimensão. Depois do primeiro cálculo de cálcio, cerca de 11% das pessoas têm outro em dois anos, e aproximadamente 39% têm outro em quinze anos. São chances altas para um problema que costuma ser tratado como episódico. Quem tem parentes próximos com cálculo de cálcio entra nesse grupo de risco desde cedo.',
+          'A recidiva, porém, não é destino. Água, sal, cálcio da dieta e proteína animal são fatores que dependem de decisão diária, e mudanças consistentes reduzem a formação de novos cristais. Começar pela água e pelo sal já muda o cenário em poucas semanas.',
+        ],
+      },
+      {
+        id: 'a-analise-do-calculo',
+        heading: 'A análise do cálculo define o plano',
+        paragraphs: [
+          'A análise do cálculo expelido é o exame mais útil da prevenção, e é o mais desperdiçado. Muita gente joga a pedra fora ou não a leva ao serviço, e sem a composição a orientação fica no genérico, que serve para um tipo e atrapalha outro. Guardar o cálculo custa nada e muda o plano.',
+          'Cálculos de cálcio respondem por cerca de 85% dos casos, em geral combinados com oxalato ou fosfato. O restante se divide entre ácido úrico, estruvita, ligada a infecção urinária de repetição, e cistina, forma rara associada a uma doença genética. O fosfato aparece sobretudo em urina alcalina, comum em quem tem infecção de repetição.',
+          'Cada tipo pede uma estratégia diferente. Ácido úrico se beneficia de urina menos ácida, estruvita exige controle da infecção, cistina precisa de acompanhamento especializado, e o cálcio pede ajuste de sal, de oxalato e de líquidos. Sem a análise, tudo isso vira suposição.',
+        ],
+      },
+      {
+        id: 'agua-e-a-meta-de-urina',
+        heading: 'Água: a meta é o volume de urina',
+        paragraphs: [
+          'A água é a medida com maior impacto e a mais simples de executar. A meta não é um número de copos, e sim o volume de urina: produzir mais de dois litros por dia, o que costuma corresponder a oito a dez copos distribuídos ao longo do dia. A conta vale para o dia inteiro, inclusive o período de trabalho.',
+          'Distribuir importa mais do que somar. Beber dois litros de uma vez deixa a urina diluída por algumas horas e concentrada no resto do dia, e é justamente a urina concentrada que forma cristal. Levar uma garrafa e beber em pequenos goles resolve mais do que o volume total. Nos dias de calor, a necessidade sobe.',
+          'A cor da urina é o indicador prático. Urina clara, quase transparente, sugere ingestão adequada; urina amarelo-escura no meio da tarde sugere que a conta está atrasada. Quem trabalha em ambiente quente, faz atividade física intensa ou usa muito sal precisa de mais líquido.',
+        ],
+      },
+      {
+        id: 'sal-calcio-e-proteina',
+        heading: 'Sal, cálcio e proteína animal',
+        paragraphs: [
+          'O sal é o ajuste que mais gente ignora. Ele aumenta a eliminação de cálcio na urina, e mais cálcio na urina significa mais matéria-prima para cristalizar. Boa parte do sal consumido não vem do saleiro, e sim de embutidos, temperos prontos, queijos e comida industrializada. Ler o rótulo ajuda mais do que tirar o saleiro da mesa.',
+          'Com o cálcio da dieta, o conselho é o oposto do que o bom senso sugere. Restringir cálcio aumenta o risco de pedra, porque o cálcio que não vem da alimentação é retirado do osso e passa a ser eliminado na urina, junto com mais oxalato livre, que sobra no intestino e é absorvido.',
+          'A recomendação fica em torno de mil a mil e quinhentos miligramas por dia, o que corresponde a duas a três porções de leite e derivados. Leite e iogurte na refeição principal são a forma mais simples de chegar lá. Suplemento em dose alta, sem orientação, entra na lista de fatores de risco.',
+        ],
+      },
+      {
+        id: 'oxalato-e-outros-ajustes',
+        heading: 'Oxalato, peso e doenças de base',
+        paragraphs: [
+          'O oxalato merece atenção em quem tem cálculo de oxalato de cálcio. Espinafre, ruibarbo, cacau, chá preto e castanhas são fontes concentradas, e a orientação não é abolir, e sim moderar a porção e evitar concentrar tudo na mesma refeição. Chocolate em excesso é um exemplo comum no consultório.',
+          'Comer uma fonte de cálcio junto da refeição rica em oxalato ajuda, porque o cálcio se liga ao oxalato no intestino e reduz o que chega à urina. É uma das razões pelas quais cortar laticínio pode piorar o quadro em vez de melhorar.',
+          'Peso e atividade física entram na conta, porque obesidade e diabetes tipo 2 alteram a composição da urina. Tratar doença de base, como gota e hiperparatireoidismo, e revisar suplementos de vitamina C em dose alta completam o pacote. Nenhuma dessas medidas funciona isolada.',
+        ],
+      },
+      {
+        id: 'seguimento-e-exames',
+        heading: 'Seguimento e exames',
+        paragraphs: [
+          'Quem tem doença litiásica recorrente precisa de seguimento, e não apenas de consultas em crise. Exames periódicos de urina e de imagem permitem identificar pedras antes que obstruam, e alguns cálculos podem ser tratados em momento programado. O objetivo é chegar antes da cólica.',
+          'Vale perguntar ao serviço qual é o intervalo combinado e o que justifica antecipar o retorno. Em geral, quem tem cálculo residual, infecção de repetição ou rim único precisa de intervalos mais curtos e de avaliação com especialista.',
+          'A prevenção não termina quando a urina volta a clarear. Ela é um conjunto de decisões pequenas, mantidas por anos, e o resultado aparece na ausência da próxima crise, que é justamente o desfecho mais difícil de perceber. Uma consulta por ano costuma ser suficiente para quem está estável.',
+        ],
+        cta: {
+          label: 'Leia também: dieta, sal e o que muda no prato',
+          href: '/artigos/calculo-renal-dieta-e-o-papel-do-sal/',
+        },
+      },
+    ],
+    diseaseSlugs: ['calculo-renal'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'calculo-renal-dieta-e-o-papel-do-sal',
+      'calculo-renal-sintomas-e-a-crise-de-dor',
+      'calculo-renal-tamanho-e-quando-a-cirurgia-e-indicada',
+    ],
+    references: [
+      {
+        label: 'Cálculos no trato urinário, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/doen%C3%A7as-do-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Infecção renal (pielonefrite), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-renal',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'calculo-renal-dieta-e-o-papel-do-sal',
+    slug: 'calculo-renal-dieta-e-o-papel-do-sal',
+    title: 'Dieta para pedra nos rins: o papel do sal e do cálcio',
+    excerpt:
+      'Cortar leite piora, e o sal escondido no prato pesa mais do que o saleiro. Veja o que a dieta muda de verdade na prevenção do cálculo renal e como montar a refeição.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-sal-que-nao-se-ve',
+        heading: 'O sal que não se vê',
+        paragraphs: [
+          'O sal não aparece só no saleiro. Ele está no pão, no queijo, no embutido, no tempero pronto, no caldo em pó e na água com gás, e a soma disso costuma passar do que se imagina. Para quem forma cálculo, esse excesso tem efeito direto: mais sódio na urina significa mais cálcio eliminado junto. Vale ler o rótulo de dois ou três produtos que estão na despensa.',
+          'A relação é previsível. O rim tenta manter o equilíbrio do sódio, e cada grama a mais de sal puxa cálcio para a urina. Como o cálcio é justamente a matéria-prima do cálculo mais comum, reduzir sal é uma das alavancas mais eficientes da dieta.',
+          'A meta prática, para a população em geral, é ficar abaixo de cinco gramas de sal por dia, o que corresponde a cerca de duas colheres de chá rasas, somando tudo o que vem da comida pronta. Quem tem hipertensão ou doença renal costuma receber um alvo ainda menor. Para efeito de comparação, um pacote de tempero pronto pode concentrar mais sódio do que a comida inteira do prato.',
+        ],
+      },
+      {
+        id: 'o-mito-de-cortar-o-calcio',
+        heading: 'O mito de cortar o cálcio',
+        paragraphs: [
+          'Cortar leite e queijo parece lógico e é um erro frequente. Quando falta cálcio na alimentação, o corpo retira cálcio do osso para manter o sangue estável, e esse cálcio extra é eliminado na urina, onde pode cristalizar. A restrição costuma vir de uma intuição errada, a de que todo cálculo é feito de cálcio e que bastaria parar de ingeri-lo.',
+          'Além disso, o cálcio da refeição tem um papel protetor no intestino. Ele se liga ao oxalato dos alimentos e reduz a quantidade que é absorvida e chega ao rim, o que diminui a formação de cristais de oxalato de cálcio.',
+          'A recomendação fica em mil a mil e quinhentos miligramas por dia, o que se alcança com duas a três porções de leite, iogurte ou queijo. Quem não consome laticínio precisa de orientação para repor essa quantidade com outras fontes de cálcio. Para quem tem intolerância à lactose, existem opções com cálcio e sem lactose, e o ajuste deve ser feito com orientação.',
+        ],
+      },
+      {
+        id: 'oxalato-no-prato',
+        heading: 'O oxalato no prato',
+        paragraphs: [
+          'Alimentos ricos em oxalato não precisam sair da mesa, mas merecem atenção. Espinafre, ruibarbo, beterraba, cacau, chá preto, café coado forte e castanhas concentram a substância, e a soma ao longo do dia é o que pesa. Não é necessário decorar listas: basta não repetir a mesma fonte em todas as refeições.',
+          'A forma de combinar muda o efeito. Comer esses alimentos junto de uma fonte de cálcio reduz a absorção do oxalato. Já consumir uma grande porção isolada, sem acompanhamento, favorece a chegada de mais oxalato ao rim. O efeito é pequeno, mas soma.',
+          'Cozinhar ajuda em alguns casos. O cozimento em água reduz parte do oxalato de folhas como o espinafre, e descartar a água do cozimento diminui o que é ingerido, o que não acontece quando a folha é consumida crua em grande quantidade.',
+        ],
+      },
+      {
+        id: 'proteina-animal-e-purinas',
+        heading: 'Proteína animal e purinas',
+        paragraphs: [
+          'O excesso de proteína animal aumenta a eliminação de cálcio e reduz o citrato da urina, um inibidor natural da cristalização. O efeito aparece com porções grandes e frequentes, típicas de quem come carne em todas as refeições. A conta é de frequência, não de uma refeição isolada.',
+          'Carnes vermelhas, vísceras, frutos do mar e cerveja são fontes de purinas, que elevam o ácido úrico. Em quem tem urina muito ácida, isso favorece o cálculo de ácido úrico, que tem prevenção diferente do cálculo de cálcio.',
+          'Não se trata de virar vegetariano. Reduzir a porção, alternar com ovos, peixe e leguminosas e diminuir a frequência de churrasco já muda a composição da urina em poucas semanas, sem exigir uma dieta que ninguém mantém. A proteína vegetal, como feijão e lentilha, tem efeito menor sobre o cálcio da urina e ajuda a variar o cardápio.',
+        ],
+      },
+      {
+        id: 'o-que-beber',
+        heading: 'O que beber',
+        paragraphs: [
+          'A água continua sendo a bebida principal, e o critério é o volume de urina, acima de dois litros por dia. Sucos naturais e água com gás entram na conta do líquido, mas não substituem a água ao longo do dia.',
+          'Refrigerante e suco industrializado, sobretudo os adoçados com xarope de milho, aparecem associados a mais cálculos em estudos de população, e o efeito não se explica apenas pelas calorias. Chá e café, com moderação, não precisam ser abolidos. A quantidade também conta: pequenas doses ao longo do dia hidratam melhor do que um litro de uma vez.',
+          'A cerveja tem dupla desvantagem: é diurética, o que concentra a urina, e é fonte de purinas. Ela não hidrata como a água, ao contrário do que a sede engana no fim de semana, e o efeito aparece justamente nos dias de maior ingestão.',
+        ],
+      },
+      {
+        id: 'como-montar-o-prato',
+        heading: 'Como montar o prato',
+        paragraphs: [
+          'O prato brasileiro tem espaço para tudo isso. Arroz, feijão, uma porção de carne menor do que o hábito, salada e uma fruta cítrica compõem uma refeição que não aumenta o risco e ainda fornece líquido e fibra. Não existe alimento proibido, e sim frequência e porção.',
+          'Fora de casa, o sal escondido é o maior problema. Molhos, temperos prontos e embutidos concentram sódio, e pedir o prato sem o molho ou escolher preparações grelhadas reduz bastante a carga sem tornar a refeição sem graça. Trocar o molho por azeite e limão é uma saída simples.',
+          'Nenhuma dessas mudanças precisa acontecer de uma vez. Começar pela água e pelo sal, medir a urina pela cor e ajustar o resto com o tempo costuma funcionar melhor do que uma dieta rígida, abandonada em duas semanas.',
+        ],
+        cta: {
+          label: 'Leia também: como prevenir a volta da pedra',
+          href: '/artigos/calculo-renal-como-prevenir-a-recidiva/',
+        },
+      },
+    ],
+    diseaseSlugs: ['calculo-renal'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: [
+      'calculo-renal-como-prevenir-a-recidiva',
+      'calculo-renal-sintomas-e-a-crise-de-dor',
+      'calculo-renal-quem-atende-e-quando-ir-ao-pronto-socorro',
+    ],
+    references: [
+      {
+        label: 'Cálculos no trato urinário, versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/doen%C3%A7as-do-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio/c%C3%A1lculos-no-trato-urin%C3%A1rio',
+        publisher: 'Manual MSD',
+      },
+      {
+        label: 'Infecção renal (pielonefrite), versão saúde para a família',
+        url: 'https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-do-trato-urin%C3%A1rio-itus/infec%C3%A7%C3%A3o-renal',
+        publisher: 'Manual MSD',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-estomago-metaplasia-intestinal',
+    slug: 'cancer-de-estomago-metaplasia-intestinal',
+    title: 'Metaplasia intestinal: o que o laudo da endoscopia quer dizer',
+    excerpt:
+      'O laudo aponta metaplasia intestinal e a primeira reação é pensar em câncer. Entenda o que essa lesão significa, o que muda no acompanhamento e quando a investigação precisa ser refeita.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-o-laudo-diz',
+        heading: 'O que o laudo está descrevendo',
+        paragraphs: [
+          'O laudo da endoscopia descreve o tecido que o patologista examinou: gastrite crônica, atrofia, metaplasia intestinal. São nomes técnicos de um processo que começou anos antes na mucosa que reveste o estômago por dentro, e não de um tumor. Metaplasia quer dizer que um tipo de célula passou a ocupar o lugar de outro, e no estômago aparecem células parecidas com as do intestino.',
+          'Isso costuma acontecer quando a inflamação se repete por muito tempo. A mucosa se regenera sem parar e, nesse esforço constante, muda de característica. A causa mais frequente é a infecção pela Helicobacter pylori, bactéria que coloniza o estômago, provoca inflamação crônica e, em parte das pessoas, leva à gastrite atrófica e depois à metaplasia.',
+          'Vale ler o relatório inteiro, e não só a palavra que assusta. O laudo costuma informar o grau da lesão e se existe displasia. Displasia é outro patamar: as células já mostram alteração que pede atenção maior e muda a conduta, porque aí a conversa deixa de ser sobre acompanhamento tranquilo.',
+        ],
+      },
+      {
+        id: 'nao-e-cancer',
+        heading: 'Metaplasia não é câncer',
+        paragraphs: [
+          'Metaplasia intestinal não é câncer. Na maioria das pessoas que recebem esse achado, o tumor não vai aparecer, e o que existe é um risco maior do que o de quem tem a mucosa normal. É por isso que a lesão pede acompanhamento, e não pânico, e é também por isso que ela não deve ser ignorada como se fosse um detalhe do laudo.',
+          'A confusão nasce do jeito como a informação chega. O laudo vem com cruzes, o nome é comprido, a consulta é curta e a dúvida fica. Uma conversa com quem pediu o exame esclarece mais do que horas de pesquisa na internet, porque o médico tem o laudo na mão, vê as fotos do exame e conhece o histórico do paciente.',
+          'Também ajuda saber que a endoscopia é um retrato do momento. Duas biópsias do mesmo estômago, feitas em meses diferentes, podem descrever graus diferentes de atrofia, dependendo do trecho que a pinça alcançou e de quantos fragmentos foram retirados para análise.',
+        ],
+      },
+      {
+        id: 'helicobacter',
+        heading: 'Quando a bactéria aparece no exame',
+        paragraphs: [
+          'Se a Helicobacter pylori for identificada, o tratamento costuma ser indicado. A erradicação da bactéria reduz a inflamação da mucosa e é a medida com maior impacto sobre o processo que levou à metaplasia. Ela não apaga a lesão que já existe, mas tira do estômago a agressão que a mantém em atividade.',
+          'O esquema combina antibióticos e remédio para diminuir a acidez, e precisa ser cumprido até o último dia, mesmo que o desconforto passe na metade. Parar antes é o caminho mais curto para a bactéria voltar mais difícil de tratar, e aí o próximo tratamento fica mais longo e menos eficaz.',
+          'Depois vem o controle, com exame que confirma se a bactéria saiu. Repetir a endoscopia antes desse controle não esclarece nada, e nenhum chá ou cápsula vendida como tratamento natural substitui o esquema prescrito. Quem toma remédio por conta própria ainda atrapalha a leitura dos exames seguintes.',
+        ],
+      },
+      {
+        id: 'quem-acompanha',
+        heading: 'Quem precisa repetir a endoscopia',
+        paragraphs: [
+          'A decisão de repetir o exame é individual e depende do conjunto: o grau da atrofia e da metaplasia, a presença de displasia, a história familiar de câncer gástrico, a idade e o resultado do tratamento da bactéria. Não existe um calendário único que sirva para todo mundo, e é por isso que a resposta do médico costuma vir com condições.',
+          'No Brasil não há rastreamento populacional de câncer gástrico com endoscopia, e o INCA é explícito nesse ponto: não há evidência de que examinar toda a população traga mais benefício do que risco. Acompanhar quem tem lesão pré-cancerosa é outra coisa, é decisão clínica tomada caso a caso, com o histórico de cada pessoa na mesa.',
+          'Quem tem história familiar, gastrite atrófica, metaplasia intestinal ou já tratou a bactéria deve levar o assunto para a consulta. A pergunta mais útil não é se vai precisar de endoscopia para sempre, e sim qual é o intervalo indicado para o seu caso e o que faria esse intervalo encurtar ou aumentar.',
+        ],
+      },
+      {
+        id: 'o-que-muda-na-rotina',
+        heading: 'O que muda na rotina',
+        paragraphs: [
+          'Não existe alimento que reverta metaplasia, e é bom desconfiar de quem promete isso. O que está ao alcance é reduzir a agressão que mantém a mucosa inflamada, e essa parte depende de escolhas repetidas todos os dias, não de um suplemento milagroso comprado pela internet.',
+          'Na prática, isso significa menos sal e menos conserva, menos embutido e alimento defumado, mais fruta, verdura e feijão, peso saudável, cigarro fora e álcool moderado. Nada disso garante que a lesão desapareça, e tudo isso diminui a chance de o processo avançar para algo pior.',
+        ],
+        bullets: [
+          'Sal e conservas: reduza o uso na mesa e tempere com ervas',
+          'Embutidos e defumados: deixe para ocasiões esporádicas',
+          'Tabagismo: parar é a medida isolada de maior impacto',
+          'Álcool: modere, e evite por completo se a gastrite for importante',
+          'Peso: o excesso de gordura corporal está na lista de fatores de risco',
+        ],
+      },
+      {
+        id: 'quando-voltar-antes',
+        heading: 'Quando voltar antes da data marcada',
+        paragraphs: [
+          'Acompanhamento não substitui atenção aos sintomas. Alguns sinais pedem avaliação antes da consulta marcada, mesmo em quem tem lesão leve e está se sentindo bem. Esperar o próximo exame de rotina, nesses casos, só atrasa a investigação.',
+          'Sangramento digestivo nunca deve ser tratado por conta própria, com remédio para azia ou com a suposição de que é gastrite. Se houver vômito com sangue ou fezes escuras e pastosas, procure atendimento no mesmo dia.',
+        ],
+        bullets: [
+          'Vômito com sangue ou fezes escuras, pastosas e de cheiro forte',
+          'Emagrecimento rápido sem dieta e sem motivo aparente',
+          'Dor no alto do abdome que não melhora em algumas semanas',
+          'Dificuldade para engolir ou sensação de comida parada no peito',
+          'Sensação de estômago cheio com pouca comida, junto de náusea',
+          'Cansaço e palidez por anemia sem causa explicada',
+        ],
+        cta: {
+          label: 'Conheça o guia completo sobre câncer de estômago',
+          href: '/doencas/cancer-de-estomago/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-estomago'],
+    topicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedArticleSlugs: ['cancer-de-estomago-prognostico'],
+    references: [
+      {
+        label: 'Câncer de estômago, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/estomago/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-estomago-cirurgia-tipos',
+    slug: 'cancer-de-estomago-cirurgia-tipos',
+    title: 'Cirurgia do câncer de estômago: laparoscopia, operação aberta e o que muda depois',
+    excerpt:
+      'A retirada do tumor é o tratamento com chance de cura. Entenda o que a operação tira, quando a via laparoscópica é possível e o que muda na vida depois da gastrectomia.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-a-operacao-faz',
+        heading: 'O que a operação faz',
+        paragraphs: [
+          'A cirurgia é o tratamento que oferece cura no câncer de estômago. O cirurgião retira a parte do estômago onde está o tumor e também os gânglios ao redor, que são o primeiro caminho de disseminação da doença. Depois, reconstrói o trânsito ligando o que sobrou do estômago ao esôfago ou ao intestino.',
+          'Os gânglios retirados não vão embora por acaso. Eles seguem para o patologista, que os examina um a um e informa quantos tinham tumor. Esse resultado entra no estadiamento e ajuda a decidir se haverá quimioterapia depois da operação.',
+          'A operação tem dois objetivos técnicos: deixar margem livre de tumor nas bordas do que foi retirado e tirar gânglios suficientes para o patologista avaliar. Quando a margem não fica livre, o caso volta para discussão e outras etapas entram no plano.',
+        ],
+      },
+      {
+        id: 'quanto-se-retira',
+        heading: 'Quanto do estômago sai',
+        paragraphs: [
+          'A extensão da retirada depende de onde o tumor está e do tamanho dele. Tumores na parte de baixo do estômago costumam permitir a retirada parcial, com o restante do órgão preservado. Tumores na entrada do estômago, perto do esôfago, muitas vezes exigem a retirada total. Uma margem de segurança ao redor do tumor é o que separa uma operação curativa de uma incompleta, e ela depende do tamanho e do tipo do tumor.',
+          'Não é uma escolha estética nem uma preferência do cirurgião. A decisão segue a anatomia e a necessidade de margem livre. Retirar menos do que o tumor exige aumenta a chance de a doença voltar na linha da cirurgia, e isso pesa mais do que o tamanho da cicatriz.',
+          'A localização também muda a queixa antes da operação. Na entrada do estômago o alimento não desce e a pessoa sente dificuldade para engolir. Na saída, o estômago não esvazia e aparecem náuseas e vômitos com restos de comida de horas antes.',
+        ],
+      },
+      {
+        id: 'laparoscopia-ou-aberta',
+        heading: 'Laparoscopia ou operação aberta',
+        paragraphs: [
+          'A videolaparoscopia é uma via de acesso, não uma operação diferente: a retirada do estômago e a reconstrução do trânsito são as mesmas, feitas por dentro com instrumentos longos e imagem em tela. Em boa parte dos casos a operação pode ser feita por essa via, e a escolha é discutida com o cirurgião antes.',
+          'O que pesa na decisão é o estágio e o tamanho do tumor, a localização, cirurgias abdominais anteriores, a condição clínica da pessoa e a experiência da equipe com a técnica. Em tumores mais avançados ou muito grandes, a operação aberta continua sendo a via mais segura.',
+          'Vale perguntar diretamente qual via será usada e por quê. Uma resposta clara costuma vir com os critérios do caso, e não com a ideia de que uma técnica é sempre melhor que a outra. O que cura é a retirada completa, e isso vale nas duas vias.',
+        ],
+      },
+      {
+        id: 'quando-a-endoscopia-resolve',
+        heading: 'Quando a endoscopia resolve',
+        paragraphs: [
+          'Em tumores muito precoces existe uma alternativa à cirurgia. Quando a lesão está restrita à mucosa, não tem gânglio comprometido e mede menos de 2 cm, ela pode ser retirada pela própria endoscopia, por dissecção submucosa. O procedimento preserva o estômago e a recuperação é rápida.',
+          'Os critérios são rígidos e o laudo da peça retirada decide o que vem depois. Se o exame mostrar que o tumor foi mais fundo do que parecia, ou que a margem ficou comprometida, a cirurgia continua indicada. A endoscopia é uma porta para casos selecionados, não um atalho para todos.',
+          'A conversa sobre essa alternativa precisa ser honesta quanto ao que ela não resolve. A retirada por endoscopia não examina gânglio nenhum, e é por isso que só serve quando o risco de comprometimento linfonodal é baixo. Fora desses critérios, a operação continua sendo o caminho com maior chance de cura.',
+        ],
+      },
+      {
+        id: 'depois-da-operacao',
+        heading: 'O que muda depois da operação',
+        paragraphs: [
+          'Depois de uma gastrectomia a pessoa passa a comer menos por vez. O estômago deixou de ser o reservatório de antes, e a comida chega ao intestino mais depressa. Refeições pequenas e frequentes funcionam melhor do que três grandes, e essa adaptação leva meses.',
+          'Pode aparecer dumping, aquela sensação de fraqueza, suor frio e coração acelerado logo depois de comer. Também é comum anemia por falta de ferro e de vitamina B12, porque a absorção muda e o corpo perde a reserva que tinha. Reposição e acompanhamento entram no seguimento.',
+          'O retorno ao peso costuma ser lento e precisa de paciência com orientação nutricional. Perder peso sem querer, voltar a sentir dor ou engasgar com frequência são motivos para adiantar a avaliação, e não para esperar a próxima consulta marcada. Anotar o que se come, quanto se come e como se sente depois ajuda a consulta a render mais do que qualquer aplicativo.',
+        ],
+      },
+      {
+        id: 'preparo-e-recuperacao',
+        heading: 'Preparo e recuperação',
+        paragraphs: [
+          'Quem vai operar precisa chegar à cirurgia com peso e força. Perder peso durante a espera piora a tolerância ao procedimento e a recuperação, e por isso a nutrição começa antes da internação, com orientação sobre proteína e, quando necessário, suplemento. A equipe costuma indicar dieta líquida e pastosa nas primeiras semanas, com progressão conforme a tolerância, e o ritmo varia de pessoa para pessoa.',
+          'Depois da alta, movimento leve e regular ajuda a recuperar a força e a reduzir o risco de trombose. Vale guardar o telefone do serviço e saber a quem ligar fora do horário, porque a dúvida costuma aparecer à noite. Alguns sinais, porém, pedem atendimento imediato, porque indicam complicação da operação e não efeito esperado do pós-operatório.',
+        ],
+        bullets: [
+          'Febre, calafrio ou ferida com secreção',
+          'Dor súbita e intensa, com abdome rígido',
+          'Vômito que não passa ou impossibilidade de tolerar líquidos',
+          'Falta de ar ou dor no peito',
+          'Sangramento pela boca ou nas fezes',
+        ],
+        cta: {
+          label: 'Veja o guia completo do câncer de estômago',
+          href: '/doencas/cancer-de-estomago/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-estomago'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['cancer-de-estomago-quimioterapia', 'cancer-de-estomago-alimentacao'],
+    references: [
+      {
+        label: 'Câncer de estômago, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/estomago/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-estomago-quimioterapia',
+    slug: 'cancer-de-estomago-quimioterapia',
+    title: 'Quimioterapia no câncer de estômago: antes da cirurgia, depois dela ou para controlar',
+    excerpt:
+      'A quimioterapia entra em três momentos diferentes, e o objetivo muda em cada um. Veja o que se espera de cada etapa, quando a terapia-alvo é indicada e como lidar com os efeitos colaterais.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'tres-momentos',
+        heading: 'Três momentos, três objetivos',
+        paragraphs: [
+          'A quimioterapia não tem um papel único no câncer de estômago. Ela pode vir antes da cirurgia, depois da cirurgia ou como tratamento principal quando a operação não é possível, e o que se espera dela muda em cada uma dessas situações. A mesma palavra, portanto, cobre planos bastante diferentes.',
+          'Antes da operação, o objetivo é encolher o tumor e aumentar a chance de retirada completa. Depois, é reduzir o risco de a doença voltar em quem tinha gânglios comprometidos. Na doença avançada, o foco passa a ser controlar sintomas e prolongar a vida com a melhor qualidade possível.',
+          'Entender em qual momento o tratamento está muda a conversa sobre efeitos colaterais. Quem faz quimioterapia antes da cirurgia aceita atravessar meses difíceis pensando na operação. Quem trata uma doença avançada precisa pesar o ganho esperado contra o tempo gasto em hospital, e essa conta é pessoal. Perguntar em que etapa o tratamento está e qual é o objetivo dela é o primeiro passo para decidir com clareza.',
+        ],
+      },
+      {
+        id: 'antes-da-cirurgia',
+        heading: 'Antes da cirurgia',
+        paragraphs: [
+          'Quando o tumor já atravessou a parede do estômago ou atingiu gânglios, a quimioterapia pode começar antes da operação. A ideia é reduzir a lesão, tratar células que já saíram do lugar e chegar à cirurgia com mais chance de margem livre. Nem todo caso entra nesse desenho, e a indicação depende do estadiamento.',
+          'O plano costuma incluir ciclos seguidos de reavaliação com exames de imagem. Se o tumor responde, a cirurgia acontece depois. Se a doença progride durante o tratamento, o caminho é revisto, e às vezes a operação deixa de ser o primeiro objetivo.',
+          'Esse período exige cuidado com o corpo. Perder peso e força durante a quimioterapia piora a tolerância ao tratamento e à própria cirurgia, e por isso a nutrição é acompanhada desde o começo, com orientação sobre proteína e, quando necessário, suplemento.',
+        ],
+      },
+      {
+        id: 'depois-da-cirurgia',
+        heading: 'Depois da cirurgia',
+        paragraphs: [
+          'A quimioterapia depois da operação é indicada sobretudo para quem tinha gânglios comprometidos. Mesmo com a retirada completa, podem restar células doentes fora do alcance do bisturi, e o tratamento procura eliminá-las antes que se instalem em outro órgão.',
+          'O início depende da recuperação. A pessoa precisa estar comendo, cicatrizando e com as defesas razoáveis para receber os ciclos, e o atraso na primeira sessão é comum quando aparece alguma complicação cirúrgica. Não é descuido da equipe, é sequência de prioridades.',
+          'O acompanhamento nessa fase inclui exames de sangue antes de cada ciclo, ajuste de dose quando necessário e controle de sintomas. Anotar febre, vômito, diarreia e cansaço entre as sessões ajuda a equipe a ajustar o esquema sem perder eficácia. Quando a dose precisa ser reduzida, isso não significa descuido: significa que o esquema foi ajustado para caber no corpo daquela pessoa.',
+        ],
+      },
+      {
+        id: 'doenca-avancada',
+        heading: 'Quando a doença está avançada',
+        paragraphs: [
+          'Com metástase, a quimioterapia deixa de ter a cura como objetivo. Ela passa a controlar o tumor, aliviar sintomas e prolongar a vida. Em parte dos casos esse controle dura meses, e a resposta varia bastante de pessoa para pessoa.',
+          'Isso não significa que o tratamento seja inútil, nem que ele deva ser feito de qualquer maneira. A conversa honesta sobre o que se espera ganhar, quanto tempo se passa em consultas e quais efeitos são aceitáveis faz parte da decisão, e pode ser revista a cada etapa. Revisar o plano a cada resposta é parte do cuidado, e não sinal de que a equipe mudou de ideia sem motivo.',
+          'Quando o tumor sangra ou fecha a saída do estômago, entram medidas de suporte, como controle do sangramento por endoscopia, prótese ou cirurgia de desvio. O alívio de sintomas é tratamento de verdade, e não uma etapa menor do cuidado.',
+        ],
+      },
+      {
+        id: 'terapias-alvo-e-imunoterapia',
+        heading: 'Terapia-alvo e imunoterapia',
+        paragraphs: [
+          'A terapia-alvo depende do que o tumor tem de especial. Tumores com excesso da proteína HER2 podem receber trastuzumabe junto da quimioterapia. Antes e durante o uso, a função do coração é avaliada, porque esse é um efeito adverso conhecido do medicamento. O exame que identifica o HER2 é feito no tecido retirado na biópsia ou na cirurgia.',
+          'Na doença avançada, a imunoterapia com inibidores de checkpoint passou a fazer parte do arsenal. A indicação depende das características do tumor e do que já foi tentado, e não vale para todos os pacientes.',
+          'Essas drogas não substituem a quimioterapia na maioria dos casos, elas se somam a ela. Também não são escolhidas por preferência: entram quando o exame do tumor mostra o alvo correspondente, e é por isso que a biópsia e o estudo do tecido importam tanto.',
+        ],
+      },
+      {
+        id: 'efeitos-colaterais',
+        heading: 'Efeitos colaterais: o que esperar e o que não esperar',
+        paragraphs: [
+          'Os efeitos mais comuns são queda de cabelo, aftas, diarreia, formigamento nas mãos e nos pés, cansaço e redução das defesas. Quase todos têm manejo, e a equipe ajusta dose e medicação de apoio conforme o que aparece. Esconder um sintoma para não atrasar o tratamento costuma piorar o resultado.',
+          'Febre durante a quimioterapia não é sintoma para esperar em casa. Com as defesas baixas, uma infecção comum pode evoluir rápido, e o atendimento precisa acontecer no mesmo dia, com o serviço informado de que a pessoa está em tratamento.',
+          'Cansaço é esperado e melhora com movimento leve e regular, como uma caminhada curta. Sono, higiene e vacinação em dia protegem quem está com as defesas baixas, e o apoio da família faz diferença nos dias em que o tratamento pesa mais.',
+        ],
+        bullets: [
+          'Náusea e vômito são controlados com antieméticos antes e depois das sessões',
+          'Aftas pedem higiene bucal e analgesia, com avaliação se impedirem de comer',
+          'Diarreia exige hidratação e ajuste do esquema com a equipe',
+          'Formigamento nas mãos e nos pés deve ser relatado cedo, porque a dose pode ser revista',
+          'Febre, calafrio ou falta de ar pedem atendimento no mesmo dia',
+        ],
+        cta: {
+          label: 'Leia o guia completo do câncer de estômago',
+          href: '/doencas/cancer-de-estomago/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-estomago'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['cancer-de-estomago-cirurgia-tipos', 'cancer-de-estomago-prognostico'],
+    references: [
+      {
+        label: 'Câncer de estômago, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/estomago/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-estomago-alimentacao',
+    slug: 'cancer-de-estomago-alimentacao',
+    title: 'Como comer depois da cirurgia do estômago',
+    excerpt:
+      'Refeições menores, mastigar devagar e separar o líquido da comida mudam o dia a dia de quem fez gastrectomia. Veja o que ajuda com o dumping, o peso e a falta de ferro e vitamina B12.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-muda',
+        heading: 'Por que comer muda depois da cirurgia',
+        paragraphs: [
+          'O estômago funciona como reservatório: recebe a comida, mistura com o suco gástrico e libera aos poucos para o intestino. Depois de uma retirada parcial ou total, esse reservatório encolhe ou deixa de existir, e o alimento chega adiante mais rápido e em porções menores.',
+          'A consequência prática é que a pessoa se sente cheia com pouco e precisa comer mais vezes. Isso não é falta de força de vontade nem sinal de que a cirurgia deu errado. É a nova anatomia funcionando, e o corpo se adapta ao longo de meses. Cada pessoa chega a um ritmo próprio, e comparar o próprio prato com o de outra pessoa operada não ajuda em nada.',
+          'Quem chega à operação desnutrido tem mais dificuldade nessa fase. Por isso a nutrição começa antes da internação, com atenção ao peso e à proteína, e continua no pós-operatório com acompanhamento profissional.',
+        ],
+      },
+      {
+        id: 'fracionar',
+        heading: 'Cinco ou seis vezes ao dia, sem pressa',
+        paragraphs: [
+          'A recomendação que mais ajuda é fracionar. Cinco ou seis refeições pequenas ao longo do dia funcionam melhor do que três grandes, porque cada uma cabe no espaço disponível e o corpo recebe nutriente com mais frequência. O volume de cada refeição cresce devagar, conforme a tolerância.',
+          'Mastigar bem e comer sem pressa reduz o desconforto e o risco de engasgo. Líquidos junto com a comida ocupam espaço e aceleram a passagem, então o melhor é beber entre as refeições, e não durante. Deitar logo depois de comer favorece o refluxo, e vale esperar um tempo antes de ir para a cama. Água em pequenos goles ao longo do dia evita a desidratação, comum quando o volume por refeição cai.',
+          'O horário também conta. Comer sempre nos mesmos períodos, sem pular refeições, evita chegar à mesa com muita fome e comer rápido demais. Para quem volta ao trabalho, uma lancheira com porções prontas resolve boa parte do problema.',
+        ],
+      },
+      {
+        id: 'proteina',
+        heading: 'Proteína em todas as refeições',
+        paragraphs: [
+          'Proteína tem prioridade porque é o que sustenta a massa muscular durante a recuperação. Ovo, peixe, frango, feijão, iogurte e queijo são fontes acessíveis e cabem em porções pequenas, que é justamente o que a nova capacidade do estômago permite. Uma porção pequena de proteína em cada refeição rende mais do que uma grande porção uma vez ao dia.',
+          'A perda de peso sem querer é o sinal de que a conta não está fechando. Quando isso acontece, a equipe avalia se a comida está rendendo pouco em calorias e se há necessidade de suplemento líquido, que concentra nutriente em pouco volume.',
+          'Suplemento, porém, só com orientação. A quantidade de calorias e de nutrientes precisa ser calculada para cada pessoa, e o excesso de alguns produtos atrapalha mais do que ajuda, além de competir com a comida de verdade.',
+        ],
+      },
+      {
+        id: 'dumping',
+        heading: 'Dumping: a fraqueza logo depois de comer',
+        paragraphs: [
+          'O dumping é aquela sensação de fraqueza, suor frio e coração acelerado que aparece pouco depois de comer. Acontece porque a comida chega de uma vez ao intestino, que responde rápido, e o corpo sente como se a pressão tivesse caído. Assusta, mas costuma passar. A velocidade com que o açúcar chega ao intestino pesa nesse desconforto.',
+          'O que ajuda é comer menos por vez, evitar refeições muito doces ou muito concentradas e não beber líquido junto. Deitar um pouco nos primeiros minutos também alivia. Se os episódios se repetem, a equipe revê o volume e a composição das refeições.',
+          'Vale diferenciar o dumping de uma reação grave. Se houver desmaio, dor no peito, falta de ar ou vômito persistente, procure atendimento em vez de esperar passar.',
+        ],
+      },
+      {
+        id: 'ferro-e-b12',
+        heading: 'Ferro e vitamina B12',
+        paragraphs: [
+          'Depois da gastrectomia é comum aparecer anemia por falta de ferro e de vitamina B12. A absorção muda, e a reserva que o corpo tinha vai se esgotando com o tempo. Cansaço, palidez e falta de ar aos esforços são as queixas típicas. A reposição costuma ser prolongada, porque a absorção não volta ao normal depois da retirada.',
+          'O controle é feito com exames de sangue no seguimento, e a reposição é indicada quando os valores caem. Não é um problema que se resolve com alimentação sozinha em todos os casos, e a suplementação precisa de acompanhamento.',
+          'Quem faz a reposição precisa de paciência, porque os valores sobem devagar. O importante é não abandonar o acompanhamento quando o cansaço melhora, já que a anemia volta se a causa não for tratada de forma contínua.',
+        ],
+        bullets: [
+          'Cansaço e palidez: peça avaliação de hemograma e ferro',
+          'Reposição de ferro e de B12 conforme prescrição',
+          'Não tome suplemento por conta própria nem em dose alta',
+          'Leve os exames antigos na consulta, a comparação ajuda',
+        ],
+      },
+      {
+        id: 'cuidados-e-mitos',
+        heading: 'Cuidados e promessas que não se sustentam',
+        paragraphs: [
+          'Bebida alcoólica e cigarro devem sair da rotina. O álcool irrita a mucosa que sobrou e o cigarro atrapalha a cicatrização, além de entrar na lista de fatores de risco da própria doença. Nenhum dos dois combina com tratamento oncológico. Se a pessoa fuma, vale pedir ajuda para parar, porque a dependência raramente se resolve sozinha.',
+          'Circula muita promessa de alimento que cura câncer ou reconstitui o estômago, e nenhuma delas se sustenta. Ervas e suplementos também merecem cuidado: algumas plantas influenciam o efeito dos quimioterápicos e sobrecarregam o fígado, então tudo o que se toma precisa ser informado à equipe.',
+          'Também vale desconfiar de dietas muito restritivas vendidas como cura. Cortar grupos inteiros de alimento sem orientação costuma piorar a desnutrição, que já é um risco nesta fase do tratamento.',
+        ],
+        bullets: [
+          'Álcool fica fora da rotina, sobretudo durante o tratamento',
+          'Parar de fumar ajuda a cicatrização e reduz o risco',
+          'Ervas e suplementos devem ser informados à equipe antes do uso',
+          'Dietas restritivas sem orientação pioram a desnutrição',
+        ],
+        cta: {
+          label: 'Veja o guia completo sobre câncer de estômago',
+          href: '/doencas/cancer-de-estomago/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-estomago'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['cancer-de-estomago-cirurgia-tipos'],
+    references: [
+      {
+        label: 'Câncer de estômago, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/estomago/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-estomago-prognostico',
+    slug: 'cancer-de-estomago-prognostico',
+    title: 'Câncer de estômago: por que não existe um prazo único',
+    excerpt:
+      'Perguntar quanto tempo dura é natural, mas a resposta depende do estágio, da possibilidade de cirurgia e da resposta ao tratamento. Entenda o que muda o prognóstico e o que está ao alcance.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'sem-numero-unico',
+        heading: 'A pergunta que não tem resposta pronta',
+        paragraphs: [
+          'Quando alguém recebe o diagnóstico, a primeira pergunta costuma ser quanto tempo ainda tem. É uma pergunta legítima e, ao mesmo tempo, a que menos tem resposta pronta. Nenhum médico consegue cravar um prazo para uma pessoa específica, e quem promete um número está vendendo uma certeza que não existe.',
+          'O que existe são estimativas construídas sobre grupos de pacientes com estágio, idade e tratamento parecidos. Elas ajudam a orientar decisões e a organizar a conversa, mas não preveem o que vai acontecer com uma pessoa. Duas pessoas com laudos semelhantes podem ter percursos muito diferentes. Por isso a conversa com a equipe costuma ser mais útil do que qualquer cálculo feito por conta própria.',
+          'Vale desconfiar de números soltos na internet, principalmente dos que assustam. Muitos vêm de outra realidade de diagnóstico e de acesso ao tratamento e não descrevem o que acontece hoje em um serviço de oncologia. Uma estatística antiga de outro país não é o seu prognóstico.',
+        ],
+      },
+      {
+        id: 'o-que-pesa',
+        heading: 'O que realmente pesa no prognóstico',
+        paragraphs: [
+          'O fator de maior peso é o estágio no momento do diagnóstico. Limitado à mucosa ou à submucosa, o tumor tem chance real de cura com cirurgia ou com retirada por endoscopia. Quando já atravessou a parede, chegou a gânglios ou a outros órgãos, o objetivo do tratamento muda.',
+          'Também contam o tipo do tumor ao microscópio, quantos gânglios estavam comprometidos, se foi possível retirar tudo com margem livre e como o tumor respondeu ao tratamento feito antes da cirurgia. Idade sozinha diz pouco: o que pesa é a condição clínica, o peso, a força e as outras doenças que a pessoa carrega.',
+          'Existe ainda o que não aparece no laudo. O tempo até o diagnóstico, o acesso ao serviço, a possibilidade de ir às consultas e de receber o tratamento sem interrupção mudam o desfecho. Esses fatores não são detalhes administrativos, e é por isso que a rede de apoio à volta do paciente também conta.',
+        ],
+      },
+      {
+        id: 'doenca-localizada',
+        heading: 'Doença localizada: a conversa é sobre cura',
+        paragraphs: [
+          'Na doença localizada, o tratamento tem intenção curativa. A cirurgia retira o estômago em parte ou por inteiro e os gânglios ao redor, e a quimioterapia pode entrar antes ou depois da operação, conforme o estágio. Em tumores muito precoces, a retirada pela própria endoscopia pode resolver o caso.',
+          'Mesmo com intenção curativa, ninguém promete cura. O seguimento existe justamente porque o risco de recidiva é maior nos dois primeiros anos, e o acompanhamento procura encontrar cedo uma volta que ainda possa ser tratada. É também nessa fase que anemia, falta de vitamina B12 e perda de peso são corrigidas. Cumprir o calendário de consultas e exames é o que transforma essa intenção em prática.',
+          'Nessa etapa, o esforço se divide entre o tratamento e a recuperação do corpo. Recuperar peso, voltar a comer bem e manter algum movimento não são extras: são o que sustenta o resultado da cirurgia e da quimioterapia.',
+        ],
+      },
+      {
+        id: 'doenca-avancada',
+        heading: 'Doença avançada: controlar e viver',
+        paragraphs: [
+          'Com metástase, o objetivo deixa de ser eliminar o tumor e passa a ser controlá-lo pelo maior tempo possível, com a melhor qualidade de vida. Em parte dos casos esse controle dura meses ou anos, e a resposta varia muito de uma pessoa para outra, sem que isso dependa de esforço ou de atitude.',
+          'Metástase não significa que nada mais pode ser feito. Dependendo do caso, a quimioterapia controla a doença, lesões isoladas no fígado podem ser operadas em situações selecionadas e sintomas como dor, náusea e sangramento têm tratamento próprio. O objetivo muda, o cuidado não acaba.',
+          'Também é legítimo decidir priorizar conforto em vez de mais ciclos. Cuidados paliativos não são desistência: são a área que trata dor, falta de ar, cansaço e angústia, e podem caminhar junto com o tratamento oncológico, sem que um exclua o outro.',
+        ],
+      },
+      {
+        id: 'recidiva-e-seguimento',
+        heading: 'Recidiva e seguimento',
+        paragraphs: [
+          'O INCA orienta consultas a cada três meses até dois anos depois do tratamento, a cada seis meses do terceiro ao quinto ano e anualmente a partir daí. O ritmo não é burocracia: os dois primeiros anos concentram a maior parte das recidivas, e é neles que a vigilância rende mais. Quem faz o seguimento em outro serviço deve levar o resumo do tratamento.',
+          'Os exames entram conforme o caso, e o objetivo não é fazer exame por fazer. É encontrar cedo uma recidiva que ainda possa ser tratada e corrigir anemia, falta de vitamina B12 e perda de peso antes que virem um problema maior.',
+          'Vale anotar sintomas novos e mudanças de apetite e de peso para levar à consulta. Perder peso sem querer, voltar a sentir dor, engasgar com frequência ou ver sangue nas fezes ou no vômito são motivos para adiantar a avaliação, e não para esperar a data marcada.',
+        ],
+      },
+      {
+        id: 'o-que-esta-ao-alcance',
+        heading: 'O que está ao alcance',
+        paragraphs: [
+          'Não há como controlar tudo, e é importante não transformar prognóstico em culpa. O que está ao alcance é concreto: manter peso e força, tratar dor e náusea, dormir, mover o corpo dentro do possível e pedir ajuda quando o medo aperta.',
+          'Algumas perguntas ajudam a consulta a render: qual é o objetivo do tratamento agora, o que se espera ganhar com ele, quais efeitos são esperados e o que fazer se o quadro piorar. Anotar as respostas permite conversar com a família sem depender da memória. Se a resposta vier confusa, vale pedir que a equipe repita com outras palavras.',
+        ],
+        bullets: [
+          'Peso e força: acompanhamento nutricional desde o diagnóstico',
+          'Dor e náusea: trate com a equipe, não espere virar rotina',
+          'Sono e movimento: caminhada curta ajuda no cansaço',
+          'Apoio emocional: peça ajuda, inclusive ao serviço de saúde',
+          'Rede prática: transporte, alimentação e companhia nas consultas',
+        ],
+        cta: {
+          label: 'Leia o guia completo sobre câncer de estômago',
+          href: '/doencas/cancer-de-estomago/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-estomago'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['cancer-de-estomago-quimioterapia', 'cancer-de-estomago-metaplasia-intestinal'],
+    references: [
+      {
+        label: 'Câncer de estômago, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/estomago/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'leucemia-linfoblastica-aguda-febre',
+    slug: 'leucemia-linfoblastica-aguda-febre',
+    title: 'Febre durante o tratamento da LLA: por que não dá para esperar em casa',
+    excerpt:
+      'Com as defesas baixas, uma infecção comum pode virar sepse em poucas horas. Saiba por que a febre é emergência, o que dizer ao chegar ao serviço e como reduzir o risco em casa.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'febre-e-emergencia',
+        heading: 'Febre aqui é emergência',
+        paragraphs: [
+          'Febre em quem está em tratamento de leucemia é emergência. Não é exagero da família nem ansiedade de quem lê demais na internet: a quimioterapia derruba os neutrófilos, que são a primeira linha de defesa contra bactéria, e sem eles uma infecção banal avança em poucas horas.',
+          'Por isso a orientação é procurar atendimento no mesmo dia, mesmo que a febre seja baixa e a pessoa pareça bem. O estado pode mudar rápido, e o intervalo entre o primeiro sinal e o antibiótico tem peso no desfecho. Esperar o fim de semana é a decisão que mais custa caro. Em criança, a temperatura medida em casa já é motivo suficiente, mesmo sem outro sintoma.',
+          'O serviço precisa saber, já na chegada, que a pessoa está em tratamento de leucemia e quando foi a última sessão. Essa informação encurta o caminho até o hemograma e o antibiótico, e evita que o caso seja tratado como uma gripe comum. Vale levar o cartão do serviço e o nome do médico que acompanha o caso.',
+        ],
+      },
+      {
+        id: 'por-que-acontece',
+        heading: 'Por que a infecção aparece',
+        paragraphs: [
+          'A medula óssea é a fábrica dos glóbulos brancos, e é justamente ela que a leucemia ocupa. Some a isso o efeito da quimioterapia, que reduz a produção por um tempo depois de cada ciclo. O resultado é a neutropenia, uma janela em que o corpo fica sem tropa.',
+          'As portas de entrada também aumentam. Aftas e inflamação da boca abrem feridas na mucosa, o cateter é uma via direta para a corrente sanguínea e a pele fica mais frágil. Bactérias que já vivem na própria pessoa aproveitam essas brechas.',
+          'Nem toda febre tem um foco identificável, e isso é comum nessa situação. A ausência de um ponto evidente não afasta infecção grave, e é por isso que o antibiótico começa antes do resultado das culturas. A febre, nesse contexto, é o alarme do corpo, e não um sintoma para tolerar em casa.',
+        ],
+      },
+      {
+        id: 'o-que-fazer',
+        heading: 'O que fazer quando a febre aparece',
+        paragraphs: [
+          'O primeiro passo é ir ao serviço de referência ou ao pronto atendimento, sem esperar o horário da consulta marcada. Se houver calafrio, falta de ar, confusão ou queda de pressão, a urgência é maior, e vale pedir ajuda para o transporte em vez de dirigir sozinho.',
+          'Não tome antitérmico por conta própria para ver se passa. O remédio baixa o número e esconde justamente o sinal que levaria a equipe a agir, e a febre pode voltar mais tarde, já com a infecção avançada. O antitérmico só deve ser usado se a equipe orientar, porque a avaliação depende do número medido.',
+          'Leve a lista de medicamentos em uso, a data da última quimioterapia e os exames recentes. Se o atendimento não for no serviço de sempre, diga na recepção que a pessoa está em tratamento de leucemia, porque isso muda a prioridade e a rapidez da avaliação. Se outra pessoa cuida do paciente em casa, ela também precisa saber reconhecer a febre e ter o telefone do serviço à mão.',
+        ],
+      },
+      {
+        id: 'sinais-de-gravidade',
+        heading: 'Sinais de que a infecção está avançando',
+        paragraphs: [
+          'Alguns sinais indicam que a infecção já está se espalhando e pedem atendimento imediato, sem passar por casa nem esperar para ver como evolui. Febre com calafrio e tremores merece atenção redobrada.',
+          'Eles não substituem a avaliação, e a ausência deles não é motivo para relaxar: febre sozinha, nesse contexto, já basta para procurar o serviço.',
+          'A lista serve para reconhecer o que não pode esperar, e não para decidir em casa. Na dúvida entre observar e procurar o serviço, procure o serviço.',
+        ],
+        bullets: [
+          'Calafrio intenso, com tremores',
+          'Respiração rápida ou falta de ar',
+          'Confusão, sonolência ou dor de cabeça forte',
+          'Pressão baixa, tontura ao levantar',
+          'Manchas na pele que não desaparecem ao apertar',
+          'Vômito que impede de tomar líquido',
+          'Sangramento que não para',
+        ],
+      },
+      {
+        id: 'prevencao-em-casa',
+        heading: 'Como reduzir o risco em casa',
+        paragraphs: [
+          'Prevenir infecção é parte do tratamento. Lavar as mãos com frequência, manter os ambientes ventilados e evitar aglomeração em época de surto reduzem a exposição. Não compartilhar copos e talheres é uma medida simples e que funciona. Visitantes com gripe ou ferida na pele devem adiar a visita.',
+          'Na comida, evitar alimentos crus de risco, como sushi, ovos moles e leite não pasteurizado, diminui a chance de infecção. Higiene da boca com escova macia e atenção a qualquer ferida pequena fecham outras portas de entrada. Crianças levam a mão à boca o tempo todo, e esse detalhe não é motivo para relaxar a vigilância.',
+          'Vacinas de vírus vivo não podem ser tomadas durante a quimioterapia, e as demais precisam ser combinadas com a equipe. Com animais de estimação, a higiene deve ser redobrada, e a limpeza da caixa de areia ou das fezes deve ficar com outra pessoa sempre que possível. Vale combinar essas tarefas antes de o tratamento começar, e não no meio de um ciclo.',
+        ],
+      },
+      {
+        id: 'depois-do-episodio',
+        heading: 'Depois que a febre passa',
+        paragraphs: [
+          'Cada episódio costuma virar investigação: hemograma, culturas e, muitas vezes, antibiótico de amplo espectro iniciado na primeira suspeita, antes do resultado. A internação depende da gravidade e da contagem de neutrófilos, e não apenas da temperatura. A espera pela confirmação laboratorial não deve atrasar o início do tratamento.',
+          'Depois da alta, vale anotar o que aconteceu, quanto tempo levou até o atendimento e quais sinais apareceram primeiro. Esse registro ajuda a próxima conversa com a equipe e ensina a família a reconhecer o padrão mais cedo, o que costuma valer mais do que qualquer lista genérica. Esse registro pode ficar na geladeira, à vista de todos. Vale perguntar, na alta, quais sinais obrigam a voltar antes do previsto.',
+          'Vale combinar com o serviço qual telefone usar fora do horário e quem procurar primeiro, porque essa informação costuma faltar justamente quando é necessária.',
+        ],
+        cta: {
+          label: 'Veja o guia completo sobre leucemia linfoblástica aguda',
+          href: '/doencas/leucemia-linfoblastica-aguda/',
+        },
+      },
+    ],
+    diseaseSlugs: ['leucemia-linfoblastica-aguda'],
+    topicSlugs: ['doencas-cronicas', 'saude-infantil'],
+    relatedArticleSlugs: ['leucemia-linfoblastica-aguda-manutencao'],
+    references: [
+      {
+        label: 'Leucemia, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/leucemia/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer, saúde de A a Z',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'leucemia-linfoblastica-aguda-manutencao',
+    slug: 'leucemia-linfoblastica-aguda-manutencao',
+    title: 'Por que o tratamento da LLA continua por dois anos',
+    excerpt:
+      'A remissão não significa que não sobrou nenhuma célula doente. Entenda o que a fase de manutenção faz, por que ela dura tanto e o que muda quando o tratamento termina.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'remissao-nao-e-cura',
+        heading: 'Remissão não é cura',
+        paragraphs: [
+          'Quando o mielograma volta sem células doentes visíveis, a leucemia está em remissão. É uma notícia enorme, e não é o mesmo que cura. Ainda podem restar células em quantidade que o microscópio não consegue enxergar. É um marco do tratamento, e não a linha de chegada. A palavra remissão descreve o que os exames mostram, não o que o corpo garante.',
+          'São essas células que justificam continuar. Se ficarem sem combate, voltam a se multiplicar e a doença reaparece, muitas vezes com menos opções de tratamento do que na primeira vez. O tratamento longo existe para impedir esse retorno.',
+          'A doença residual mínima é o exame que procura essas células com métodos mais sensíveis. É por esse resultado, e não apenas pelo que o microscópio mostrou, que a equipe decide intensificar, manter ou mudar o esquema. O resultado muda a intensidade do que vem depois.',
+        ],
+      },
+      {
+        id: 'as-fases',
+        heading: 'As fases do tratamento',
+        paragraphs: [
+          'O tratamento da LLA é dividido em etapas, cada uma com um objetivo próprio. A primeira é a indução da remissão, que busca zerar as células visíveis e devolver a medula ao normal, e costuma durar cerca de um mês. Cada etapa tem sua função, e pular qualquer uma delas muda o resultado.',
+          'Depois vêm a consolidação, com ciclos de outros quimioterápicos para eliminar o que sobrou, e a manutenção, com comprimidos diários e doses periódicas por dois anos ou mais. Em alguns esquemas há ainda uma reindução tardia, com repetição de etapas em momentos definidos. A escolha do esquema depende do risco e da resposta ao primeiro ciclo.',
+        ],
+        bullets: [
+          'Indução: corticoide, vincristina, antraciclina e asparaginase, para alcançar a remissão',
+          'Consolidação: ciclos com outros quimioterápicos, para eliminar o que restou',
+          'Reindução tardia: repetição de esquemas em momentos definidos',
+          'Manutenção: comprimidos diários e doses periódicas por dois anos ou mais',
+          'Profilaxia no líquor: quimioterapia por punção lombar, em momentos fixos',
+        ],
+      },
+      {
+        id: 'como-e-a-manutencao',
+        heading: 'Como é a manutenção no dia a dia',
+        paragraphs: [
+          'A manutenção é a fase mais longa e a que mais depende da rotina de casa. Em geral são comprimidos tomados todos os dias, com doses de quimioterapia em intervalos definidos e consultas para conferir hemograma e ajustar a dose. O calendário é definido pelo protocolo, e não pela vontade de cada um.',
+          'Parece mais leve do que a indução, e não é descanso. O objetivo é manter pressão constante sobre as células que sobraram, e a dose é calculada para caber no corpo sem derrubar as defesas por completo. A conferência do hemograma é o que permite manter esse equilíbrio.',
+          'Nessa fase a vida volta a se parecer com a de antes, e é aí que os esquecimentos aparecem. Alarme no celular, caixa organizada por dia da semana e alguém em casa sabendo o horário ajudam mais do que força de vontade. Deixar o horário escrito na geladeira também ajuda quem entra na rotina depois.',
+        ],
+      },
+      {
+        id: 'por-que-nao-parar',
+        heading: 'Por que não parar antes do tempo',
+        paragraphs: [
+          'Interromper a manutenção antes do prazo aumenta o risco de recidiva. É tentador parar quando a criança está bem, os exames estão normais e a rotina pesa, mas é justamente esse tratamento longo que sustenta o resultado das fases anteriores.',
+          'Faltar a doses e esquecer comprimidos com frequência tem o mesmo efeito prático. Quando o motivo é efeito colateral, transporte ou dificuldade financeira, vale falar com a equipe: quase sempre existe ajuste possível, e esconder o problema costuma ser pior do que contá-lo. A equipe prefere saber de um esquecimento a descobrir depois uma recidiva.',
+          'O abandono do tratamento é uma das razões que a Organização Mundial da Saúde aponta para a diferença de sobrevida entre países. A frase parece distante, mas descreve algo concreto: tratamento interrompido por falta de apoio, de transporte ou de informação. Quando o tratamento é de uma criança, a escola e a rede de apoio também precisam entender por que ele continua.',
+        ],
+      },
+      {
+        id: 'vida-normal-durante',
+        heading: 'Vida normal durante o tratamento',
+        paragraphs: [
+          'Com as defesas em nível razoável e acordo entre equipe, escola e família, a criança pode voltar às aulas. Manter estudo e convivência ajuda no desenvolvimento e no bem-estar, e o isolamento prolongado cobra um preço próprio. O retorno é gradual, e a escola costuma precisar de orientação sobre o que fazer em caso de febre.',
+          'Higiene continua importando: mãos lavadas, material escolar próprio e aviso rápido à escola quando houver surto de doença respiratória. Vacinas de vírus vivo não podem ser tomadas durante a quimioterapia, e as demais precisam ser combinadas com a equipe.',
+          'Para adultos, o trabalho pode continuar em ritmo adaptado, com acordo sobre as faltas em dias de consulta. Viagem é possível com planejamento e com o serviço informado, e não precisa virar proibição absoluta. Antes de viajar, vale confirmar onde há serviço de saúde no destino.',
+        ],
+      },
+      {
+        id: 'depois-do-fim',
+        heading: 'Depois do fim do tratamento',
+        paragraphs: [
+          'Terminar a manutenção não encerra o cuidado. Consultas, hemograma e exames específicos continuam em intervalos que se espaçam com o tempo, com o objetivo de detectar recidiva cedo e tratar as sequelas. O intervalo entre as consultas aumenta aos poucos, conforme o tempo passa sem recidiva.',
+          'Crescimento, fertilidade, função cardíaca, aprendizado e risco de um segundo câncer precisam de olhar ao longo dos anos, com equipe que conheça essa história. Esse cuidado é parte do tratamento, e não um extra para quem tiver tempo.',
+          'Vale pedir uma cópia do resumo do tratamento e guardá-la junto com os exames. Em uma emergência, ou numa consulta anos depois, esse papel economiza tempo e evita suposições.',
+        ],
+        bullets: [
+          'Guarde o resumo do tratamento recebido, com as drogas e as doses',
+          'Leve esse resumo a qualquer médico no futuro',
+          'Fertilidade: converse sobre o assunto o quanto antes',
+          'Coração, crescimento e aprendizado: acompanhe conforme a orientação',
+          'Segundo câncer: o risco existe, e o seguimento é o que detecta cedo',
+        ],
+        cta: {
+          label: 'Conheça o guia completo sobre leucemia linfoblástica aguda',
+          href: '/doencas/leucemia-linfoblastica-aguda/',
+        },
+      },
+    ],
+    diseaseSlugs: ['leucemia-linfoblastica-aguda'],
+    topicSlugs: ['doencas-cronicas', 'saude-infantil'],
+    relatedArticleSlugs: ['leucemia-linfoblastica-aguda-febre'],
+    references: [
+      {
+        label: 'Leucemia, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/leucemia/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Leucemia',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/leucemia',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-alzheimer-fase-pre-clinica',
+    slug: 'doenca-de-alzheimer-fase-pre-clinica',
+    title: 'Alzheimer antes dos sintomas: o que é a fase pré-clínica',
+    excerpt:
+      'As lesões do Alzheimer começam anos antes da primeira queixa de memória. Entender essa fase ajuda a saber quando investigar e por que o diagnóstico precoce ainda tem limites.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-a-fase-pre-clinica',
+        heading: 'O que a fase pré-clínica quer dizer',
+        paragraphs: [
+          'A doença de Alzheimer começa muito antes do primeiro esquecimento que chama atenção. A Academia Brasileira de Neurologia descreve a fase pré-clínica como um estágio longo e silencioso, em que as alterações no cérebro já existem, mas a pessoa ainda não tem queixa cognitiva nem prejuízo nas atividades do dia a dia. É o intervalo entre o início da lesão e o momento em que o problema aparece nos testes.',
+          'Nessa fase, o que muda são os marcadores biológicos. No líquor, a proteína beta-amiloide 42 cai e as formas total e fosforilada da tau sobem; a tomografia por emissão de pósitrons, a PET, pode mostrar depósito de amiloide no cérebro. Esses exames identificam o processo antes dos sintomas, mas os critérios para diagnóstico pré-clínico continuam restritos à pesquisa.',
+          'Isso não significa que toda pessoa com marcador alterado vá desenvolver demência no ano seguinte. O que se sabe é que a doença segue um curso lento e que o aparecimento dos sintomas depende também de quantas conexões o cérebro conseguiu construir ao longo da vida. Duas pessoas com a mesma quantidade de lesão podem chegar à consulta em momentos muito diferentes.',
+        ],
+      },
+      {
+        id: 'estagios-entre-o-normal-e-a-demencia',
+        heading: 'Pré-clínico, comprometimento leve e demência: a diferença',
+        paragraphs: [
+          'Entre a fase pré-clínica e a demência existe um estágio intermediário, o comprometimento cognitivo leve. Nele, a pessoa ou quem convive com ela percebe uma piora, e os testes mostram desempenho abaixo do esperado para a idade e a escolaridade, mas as atividades do dia a dia continuam preservadas. Não é demência, e também não é envelhecimento normal. A sigla usada no Brasil é CCL, e o diagnóstico exige que a queixa seja confirmada por testes.',
+          'Essa distinção tem consequência prática. No comprometimento leve, a investigação procura causas tratáveis e acompanha a evolução; parte das pessoas melhora ou fica estável, e outra parte progride para demência ao longo dos anos. O diagnóstico nesse ponto permite planejar e tratar depressão, sono e fatores vasculares. O acompanhamento costuma ser anual, com repetição da bateria de testes.',
+          'Já a demência começa quando o prejuízo cognitivo passa a interferir na autonomia: trabalho, finanças, remédios, deslocamento. É esse critério funcional, e não a nota do teste, que separa os estágios na prática clínica. Por isso a mesma pontuação pode significar coisas diferentes em duas pessoas.',
+        ],
+      },
+      {
+        id: 'o-que-ja-mudou-no-cerebro',
+        heading: 'O que já mudou no cérebro',
+        paragraphs: [
+          'Na fase pré-clínica, os emaranhados neurofibrilares de tau se concentram quase só nas estruturas do sistema límbico: córtex entorrinal, subículo, hipocampo, amígdala, núcleo basal de Meynert e córtex temporopolar. É o que os patologistas chamam de estágios I e II de Braak, e corresponde justamente às áreas que formam e consolidam memórias novas.',
+          'O amiloide participa do processo desde as fases iniciais. A proteína precursora do amiloide, a APP, é cortada por uma via errada, e fragmentos de beta-amiloide passam a se acumular do lado de fora dos neurônios, formando as placas. A tau, dentro das células, se enrola e desmonta o transporte interno do neurônio.',
+          'O resultado aparece devagar: as sinapses funcionam pior, a comunicação entre áreas fica mais lenta e os neurônios começam a morrer. Nada disso produz sintoma enquanto o cérebro consegue compensar. Quando a reserva se esgota, a queixa aparece, e costuma ser de memória recente.',
+        ],
+      },
+      {
+        id: 'por-que-o-diagnostico-e-dificil',
+        heading: 'Por que o diagnóstico nessa fase é difícil',
+        paragraphs: [
+          'Sem queixa, não há o que o clínico detecte no consultório. O Mini-Exame do Estado Mental e o MoCA, usados na triagem, foram feitos para medir desempenho, e não para encontrar proteína acumulada; na fase pré-clínica, o desempenho costuma ser normal. Por isso o diagnóstico nesse estágio depende de exames que não fazem parte da rotina.',
+          'O líquor exige punção lombar, e a PET de amiloide é um exame caro, disponível em poucos centros. Exames de sangue para tau fosforilada vêm sendo estudados, mas ainda não substituem a avaliação clínica. Ou seja: mesmo em centros de pesquisa, a fase pré-clínica é identificada em protocolos específicos, não em um check-up comum.',
+          'No Brasil, o problema é maior antes disso. O inquérito ELSI-Brasil estima que 77% dos casos de demência não chegam a ser diagnosticados. Se a demência com sintomas passa tanto tempo sem diagnóstico, a fase sem sintomas está ainda mais longe da atenção básica.',
+        ],
+      },
+      {
+        id: 'quem-deve-procurar-avaliacao',
+        heading: 'Quem deve procurar avaliação',
+        paragraphs: [
+          'A conversa sobre investigar cedo faz sentido em algumas situações. História familiar de Alzheimer de início precoce, síndrome de Down e queixa de memória que já atrapalha o trabalho ou as contas da casa são motivos para procurar a UBS e pedir encaminhamento para geriatria, neurologia ou psiquiatria com experiência em cognição.',
+          'Teste genético não é para todo mundo. A forma familial, ligada a mutações em APP, PSEN1 e PSEN2, é rara e deve ser discutida quando há vários casos em gerações seguidas, sobretudo com início antes dos 65 anos. O alelo APOE ε4 aumenta a probabilidade, mas não determina a doença, e saber que se carrega o alelo não muda a conduta.',
+          'Antes da consulta, vale organizar a história dos sintomas com exemplos e datas, a lista completa de remédios, chás e suplementos e os exames antigos. Quem convive com a pessoa todos os dias deve ir junto: é esse relato que separa o esquecimento comum do que precisa de investigação.',
+        ],
+        cta: {
+          label: 'Veja como o Alzheimer é diagnosticado e tratado',
+          href: '/doencas/doenca-de-alzheimer/',
+        },
+      },
+      {
+        id: 'o-que-fazer-com-a-informacao',
+        heading: 'O que fazer com essa informação hoje',
+        paragraphs: [
+          'Hoje não existe remédio nem vacina que impeça o Alzheimer em quem já tem marcador alterado. O que existe é redução de risco, e ela vale para qualquer idade: atividade física, controle de pressão, glicemia e colesterol, uso de aparelho auditivo quando há perda de audição, vida social ativa e menos exposição à poluição do ar.',
+          'Nenhum suplemento vendido como protetor do cérebro substitui essas medidas. Fórmulas de ervas e compostos importados não têm evidência consistente de que alterem o curso da doença, e alguns interagem com remédios de uso contínuo. Antes de associar qualquer produto, converse com o médico que acompanha o caso.',
+          'Para quem tem história familiar forte ou participa de um protocolo de pesquisa, o acompanhamento periódico é a forma de saber o que muda com o tempo. Para o resto da população, a mensagem prática é menos glamourosa e mais útil: tratar o coração, dormir, se movimentar e manter convivência.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['doenca-de-alzheimer'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'doenca-de-alzheimer-como-reduzir-o-risco',
+      'doenca-de-alzheimer-sono',
+      'doenca-de-alzheimer-como-a-doenca-acontece',
+      'doenca-de-alzheimer-primeiros-meses',
+    ],
+    references: [
+      {
+        label: 'Diagnóstico da doença de Alzheimer: recomendações do Departamento Científico de Neurologia Cognitiva e do Envelhecimento da Academia Brasileira de Neurologia',
+        url: 'https://www.scielo.br/j/dn/a/S1980-57642022000400025/?lang=pt',
+        publisher: 'Dementia & Neuropsychologia (Academia Brasileira de Neurologia)',
+      },
+      {
+        label: 'Who are the people with Alzheimer disease in Brazil? Findings from the Brazilian Longitudinal Study of Aging (ELSI-Brasil)',
+        url: 'https://www.scielo.br/j/rbepid/a/S1415-790X2021000100409/?lang=pt',
+        publisher: 'Revista Brasileira de Epidemiologia',
+      },
+      {
+        label: 'Alzheimer',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-alzheimer-como-reduzir-o-risco',
+    slug: 'doenca-de-alzheimer-como-reduzir-o-risco',
+    title: 'Como reduzir o risco de Alzheimer: o que tem base e o que é promessa',
+    excerpt:
+      'Não existe vacina nem remédio que impeça o Alzheimer, mas há um conjunto de medidas com sustentação científica. Veja o que a OMS recomenda e o que ainda é promessa.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'reduzir-risco-nao-e-evitar',
+        heading: 'Reduzir risco não é o mesmo que evitar',
+        paragraphs: [
+          'A primeira coisa a esclarecer é que não existe medida que garanta proteção contra o Alzheimer. A Organização Mundial da Saúde afirma que a demência não é parte inevitável do envelhecimento e que há evidência de que adotar hábitos saudáveis, tratar condições que aumentam o risco e reduzir exposições ambientais pode baixar a chance de declínio cognitivo.',
+          'O Ministério da Saúde segue a mesma linha: a doença não tem uma forma específica de prevenção, mas manter a cabeça ativa, a vida social e bons hábitos pode retardar o aparecimento dos sintomas. A palavra importante é pode. Quem faz tudo certo não está livre da doença, e quem não fez nada não está condenado a ela.',
+          'A idade continua sendo o fator de risco mais forte. Depois dos 65 anos a frequência sobe bastante, e mais ainda depois dos 80. Por isso a conversa sobre prevenção rende mais quando começa cedo e quando trata o que já está ao alcance, como pressão alta, diabetes e sedentarismo.',
+        ],
+      },
+      {
+        id: 'o-que-a-oms-lista',
+        heading: 'O que a OMS lista como ação com sustentação',
+        paragraphs: [
+          'A lista da OMS é curta e pouco exótica: praticar atividade física, não fumar, evitar o uso nocivo de álcool, manter alimentação equilibrada, controlar o peso, a pressão, o colesterol e a glicemia, usar aparelho auditivo quando há perda de audição, reduzir a exposição à poluição do ar e continuar aprendendo e convivendo com outras pessoas.',
+          'Dois itens dessa lista costumam surpreender. O primeiro é a audição: a perda auditiva não tratada aparece entre os fatores que aumentam o risco de demência, e o aparelho auditivo é a intervenção indicada quando ela existe. O segundo é a poluição do ar, um fator que não depende só da escolha individual e entra na conversa de saúde pública.',
+          'Nenhum item age sozinho, e não há ordem de prioridade universal. Quem fuma tem um motivo claro para parar; quem tem pressão alta tem um alvo mensurável; quem mora sozinho e saiu do convívio social tem um problema que também pede atenção. O conjunto é que faz diferença, e não a adesão perfeita a um único item.',
+        ],
+      },
+      {
+        id: 'por-onde-comecar',
+        heading: 'Como escolher por onde começar',
+        paragraphs: [
+          'Diante de uma lista longa, a tentação é mudar tudo de uma vez e desistir na segunda semana. Uma estratégia mais realista é começar pelo que está fora de controle e tem tratamento disponível: pressão alta, glicemia e tabagismo costumam ser os primeiros da fila, porque o benefício aparece rápido e o acompanhamento já existe na rede de atenção básica.',
+          'O segundo passo é o que depende de avaliação: perda de audição e perda de visão pedem consulta e, quando indicado, aparelho. Tratar a audição melhora a conversa, reduz o isolamento e entra na lista de medidas com sustentação. Não é um ajuste estético, e sim parte do cuidado com o cérebro.',
+          'O terceiro é o que se sustenta sozinho: caminhar, cozinhar em casa, manter contato com pessoas, dormir em horário regular. Mudanças pequenas, mantidas por anos, valem mais do que um pacote intensivo de três meses. Quem tem 60 anos e pressão alta ganha mais controlando a pressão do que procurando o suplemento da moda.',
+        ],
+      },
+      {
+        id: 'pressao-glicemia-e-colesterol',
+        heading: 'Pressão, glicemia e colesterol: o que o coração ensina ao cérebro',
+        paragraphs: [
+          'Hipertensão, diabetes tipo 2, colesterol alto e obesidade aparecem na lista de fatores que aumentam a probabilidade de Alzheimer. A ligação passa pelos pequenos vasos: o cérebro depende de um fluxo de sangue constante, e pressão e glicemia descontroladas agridem esses vasos por anos.',
+          'Isso não quer dizer que tratar a pressão elimine o risco. Quer dizer que o mesmo cuidado que reduz infarto e AVC também protege o cérebro, e que o alvo de tratamento deve ser definido pelo médico que acompanha cada caso, considerando idade, outras doenças e efeitos colaterais.',
+          'Quem já tem demência na família costuma perguntar se vale começar a controlar tudo aos 70 anos. Vale, porque o benefício cardiovascular é imediato e porque parte do declínio cognitivo tem componente vascular. O que não vale é trocar o acompanhamento por conta própria por uma lista de exames sem indicação.',
+        ],
+      },
+      {
+        id: 'reserva-cognitiva',
+        heading: 'Reserva cognitiva: estudo, trabalho e convivência',
+        paragraphs: [
+          'Estudar por mais tempo não impede o Alzheimer, mas muda o momento em que os sintomas aparecem. Quem teve mais anos de escola tende a formar mais conexões entre neurônios, e esse excedente permite compensar a perda de células por mais tempo. É o que se chama de reserva cognitiva.',
+          'A reserva não se constrói só na infância. Aprender uma língua, tocar um instrumento, trabalhar com o que exige raciocínio, manter hobbies e conviver com pessoas diferentes continuam somando na vida adulta. O efeito é de adiamento, não de imunidade.',
+          'Isolamento social aparece como fator de risco na lista da OMS, e não é só uma questão de humor. Conversa, grupo, trabalho voluntário e convivência regular estimulam linguagem, memória e atenção ao mesmo tempo. Para quem já tem queixa de memória, atividade em grupo também reduz apatia.',
+        ],
+      },
+      {
+        id: 'o-que-ainda-e-promessa',
+        heading: 'O que ainda é promessa',
+        paragraphs: [
+          'A lista do que se vende como proteção cerebral é longa: curcumina, ginkgo, ômega 3 em dose alta, resveratrol, vitaminas e fórmulas importadas. Nenhum desses produtos tem evidência consistente de que previna Alzheimer, e alguns interagem com remédios de uso contínuo, sobretudo anticoagulantes.',
+          'Exames de sangue para tau fosforilada e para outros marcadores vêm avançando, mas ainda não substituem a avaliação clínica e não servem para rastrear a população geral. Fazer um exame desses sem indicação costuma produzir ansiedade e condutas desnecessárias, sem mudar o que a pessoa tem a fazer.',
+          'O que existe de concreto hoje é a soma de medidas simples, mantidas por anos. Quem quer reduzir risco deve desconfiar de promessa rápida e olhar para o que a OMS e o Ministério da Saúde listam. Quem já tem sintomas deve procurar avaliação em vez de investir em prevenção por conta própria. O resto é conversa de vitrine.',
+        ],
+        cta: {
+          label: 'Conheça os sintomas e o tratamento do Alzheimer',
+          href: '/doencas/doenca-de-alzheimer/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-de-alzheimer'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'doenca-de-alzheimer-fase-pre-clinica',
+      'doenca-de-alzheimer-sono',
+      'doenca-de-alzheimer-como-a-doenca-acontece',
+      'doenca-de-alzheimer-primeiros-meses',
+    ],
+    references: [
+      {
+        label: 'Dementia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/dementia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Alzheimer',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-alzheimer-sono',
+    slug: 'doenca-de-alzheimer-sono',
+    title: 'Sono e Alzheimer: por que a noite entra nessa conversa',
+    excerpt:
+      'Dormir mal aparece na lista de fatores que aumentam o risco de demência, e o Alzheimer também estraga o sono. A relação é de mão dupla, e isso muda o que a família deve investigar.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'relacao-de-mao-dupla',
+        heading: 'Uma relação de mão dupla',
+        paragraphs: [
+          'A pergunta aparece quase sempre do mesmo jeito: dormir mal causa Alzheimer? A resposta honesta é que a relação existe, mas não é de causa única. A revisão brasileira sobre o tema descreve uma associação potencialmente bidirecional: distúrbios do sono aparecem entre os fatores de risco para a doença, e quem já tem comprometimento cognitivo ou Alzheimer apresenta mais problemas de sono.',
+          'A OMS inclui o sono de má qualidade na lista de condições que aumentam o risco de demência, ao lado de pressão alta, diabetes, depressão, perda de audição e perda de visão. Isso não transforma uma noite ruim em sentença, e também não autoriza tratar insônia como detalhe sem importância.',
+          'O que a literatura ainda não conseguiu estabelecer é a direção. Não se sabe se o sono ruim vem antes e contribui para a doença, se é consequência precoce dela, ou se os dois caminhos acontecem ao mesmo tempo. Essa incerteza muda o tom da orientação: investigar e tratar o sono vale, prometer prevenção não.',
+        ],
+      },
+      {
+        id: 'o-que-os-estudos-mostram',
+        heading: 'O que os estudos mostram',
+        paragraphs: [
+          'Os números vêm de coortes e meta-análises. Uma meta-análise com cinco coortes populacionais encontrou risco cerca de 1,5 vez maior de demência por qualquer causa em pessoas com histórico de insônia. Outra, com 27 estudos, achou risco cerca de 1,55 vez maior de Alzheimer em quem tinha algum problema de sono.',
+          'Nenhum desses resultados prova causalidade. São estudos observacionais, com populações diferentes, formas diferentes de medir sono e tempo de seguimento variável. O que eles fazem é sustentar a hipótese de que o sono participa do processo, e não de que ele seja o único fator.',
+          'Os mecanismos estudados ajudam a entender por que a hipótese é levada a sério. Durante o sono de ondas lentas, a atividade neuronal cai e o cérebro troca líquido com mais eficiência pelo sistema glinfático, que remove substâncias tóxicas, entre elas a beta-amiloide. Noites fragmentadas reduzem essa limpeza e aumentam a concentração da proteína no líquido que banha os neurônios.',
+        ],
+      },
+      {
+        id: 'como-o-sono-muda-com-a-doenca',
+        heading: 'Como o sono muda com a doença',
+        paragraphs: [
+          'Com o passar dos anos, o sono já muda em quem é saudável: o tempo acordado durante a noite aumenta, o sono profundo diminui e as sonecas de dia ficam mais frequentes. No Alzheimer, essas mudanças aparecem mais cedo e com mais intensidade, e a noite costuma ficar entrecortada por despertares.',
+          'A doença também mexe no relógio biológico. A degeneração do núcleo supraquiasmático, a região do cérebro que sincroniza o ciclo de sono e vigília com a luz, ajuda a explicar a piora do fim da tarde e do começo da noite, quando a pessoa fica mais agitada e desorientada. O Ministério da Saúde lista insônia e agitação entre os sinais da fase moderada.',
+          'Há ainda um sinal que merece atenção à parte. O transtorno comportamental do sono REM, em que a pessoa se mexe, grita ou parece representar sonhos, é uma característica central da demência com corpos de Lewy, um dos diagnósticos que entram na lista de diferenciais do Alzheimer. Não é insônia, e não deve ser tratado como tal.',
+        ],
+      },
+      {
+        id: 'o-que-investigar',
+        heading: 'O que vale investigar',
+        paragraphs: [
+          'Quando o sono vira queixa, a primeira pergunta é se existe um distúrbio tratável por trás. Ronco alto, pausas na respiração, sonolência excessiva de dia e dor de cabeça ao acordar levantam a suspeita de apneia do sono, que piora a pressão e a qualidade de vida. O exame indicado nesse caso é a polissonografia.',
+          'A polissonografia também identifica movimentos periódicos das pernas e o transtorno do sono REM. Em idosos com demência, ela pode ser difícil de realizar, e o médico pode começar por um diário de sono e pela observação de quem dorme no mesmo quarto ou cuida da pessoa à noite.',
+          'Antes de atribuir tudo à doença, vale revisar o que atrapalha a noite: dor, urina frequente, refluxo, depressão, cafeína no fim do dia e remédios estimulantes. No consultório, a lista de medicamentos deve ser revista item por item, porque parte do problema costuma estar na prescrição acumulada.',
+        ],
+      },
+      {
+        id: 'o-que-anotar-antes-da-consulta',
+        heading: 'O que anotar antes da consulta',
+        paragraphs: [
+          'A consulta de sono rende mais com registro do que com memória. Vale anotar, por uma ou duas semanas, a hora de deitar e de levantar, quantas vezes a pessoa acorda, se cochila durante o dia e por quanto tempo. Um caderno simples basta, e o diário de sono é aceito como instrumento na avaliação.',
+          'Quem dorme perto deve registrar o que ouve: ronco alto, pausas na respiração, engasgos, movimentos bruscos, fala durante o sono. Essas observações orientam a suspeita de apneia e de transtorno do sono REM, que não aparecem no relato de quem dorme. Anotar horário e frequência ajuda a diferenciar um evento isolado de um padrão.',
+          'Também entram na lista os horários dos remédios, o consumo de café, chá preto, refrigerante e álcool, e o que mudou nas últimas semanas. Levar essa folha preenchida evita uma consulta gasta em lembranças vagas e ajuda o médico a decidir se pede polissonografia ou se começa por ajustes.',
+        ],
+      },
+      {
+        id: 'cuidado-com-sedativos',
+        heading: 'Cuidado com os sedativos',
+        paragraphs: [
+          'O reflexo de pedir um remédio para dormir é compreensível e costuma ser ruim. Sedativos e anticolinérgicos pioram a confusão e podem precipitar delirium em quem tem demência. A orientação é não usar por conta própria e revisar com o médico o que já está em uso.',
+          'Vale combinar com o médico uma rotina: horário fixo para acordar, luz natural pela manhã, menos soneca à tarde, jantar mais cedo e um ritual previsível antes de deitar. Ajustes assim exigem constância e funcionam melhor quando toda a família segue o mesmo combinado.',
+          'Quando há apneia, o tratamento específico pode mudar a noite e o dia. Quando há insônia persistente, o médico avalia causas e alternativas, considerando interações e o risco de confusão. O objetivo realista não é dormir como aos 30 anos, e sim reduzir despertares e melhorar o dia seguinte.',
+        ],
+        cta: {
+          label: 'Entenda o que muda na rotina de quem tem Alzheimer',
+          href: '/doencas/doenca-de-alzheimer/',
+        },
+      },
+    ],
+    diseaseSlugs: ['doenca-de-alzheimer'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'doenca-de-alzheimer-fase-pre-clinica',
+      'doenca-de-alzheimer-como-reduzir-o-risco',
+      'doenca-de-alzheimer-como-a-doenca-acontece',
+      'doenca-de-alzheimer-primeiros-meses',
+    ],
+    references: [
+      {
+        label: 'Doença de Alzheimer e distúrbios do sono: uma revisão',
+        url: 'https://www.scielo.br/scielo.php?script=sci_arttext&pid=S0004-282X2019001100815&lang=pt',
+        publisher: 'Arquivos de Neuro-Psiquiatria',
+      },
+      {
+        label: 'Dementia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/dementia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Alzheimer',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer',
+        publisher: 'Ministério da Saúde',
+      },
+      {
+        label: 'Diagnóstico da doença de Alzheimer: recomendações do Departamento Científico de Neurologia Cognitiva e do Envelhecimento da Academia Brasileira de Neurologia',
+        url: 'https://www.scielo.br/j/dn/a/S1980-57642022000400025/?lang=pt',
+        publisher: 'Dementia & Neuropsychologia (Academia Brasileira de Neurologia)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-alzheimer-como-a-doenca-acontece',
+    slug: 'doenca-de-alzheimer-como-a-doenca-acontece',
+    title: 'Como o Alzheimer acontece no cérebro',
+    excerpt:
+      'Placas de beta-amiloide, emaranhados de tau e morte de neurônios: entender a sequência ajuda a explicar por que a memória recente falha primeiro e por que o tratamento ainda é limitado.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'duas-proteinas',
+        heading: 'Duas proteínas no centro do processo',
+        paragraphs: [
+          'O Alzheimer não tem uma causa única conhecida, mas tem um enredo bem descrito. Tudo começa com o processamento errado de proteínas no sistema nervoso central. A proteína precursora do amiloide, a APP, deveria ser cortada por uma via que não produz fragmentos pegajosos; quando é cortada por outra via, surgem pedaços de beta-amiloide que se acumulam do lado de fora dos neurônios.',
+          'Em paralelo, a proteína tau, que estabiliza os microtúbulos dentro da célula, passa a ser fosforilada em excesso. Ela se desprende, se enrola e forma os emaranhados neurofibrilares. O transporte interno do neurônio desanda, e a célula perde a capacidade de manter as conexões.',
+          'As duas lesões convivem com inflamação e com dano dos pequenos vasos. Nenhuma delas explica sozinha todos os casos, e é por isso que a doença é tratada como multifatorial, com componentes genéticos, vasculares e ambientais que se somam ao longo de décadas.',
+        ],
+      },
+      {
+        id: 'o-caminho-da-lesao',
+        heading: 'O caminho que a lesão percorre',
+        paragraphs: [
+          'A lesão não aparece em qualquer lugar. Os emaranhados de tau começam nas estruturas do sistema límbico, como córtex entorrinal, subículo e hipocampo, e só depois avançam para áreas paralímbicas e para o córtex. Os patologistas dividem esse avanço em estágios, os estágios de Braak.',
+          'Essa sequência explica a ordem dos sintomas. Quando a lesão está restrita ao sistema límbico, a pessoa pode ter apenas queixa de memória ou nenhum sintoma. Quando atinge o hipocampo e as regiões paralímbicas, aparece o padrão amnéstico típico, que responde por cerca de 85% dos casos. Quando chega ao córtex, entram linguagem, raciocínio e reconhecimento.',
+          'A ressonância magnética mostra a consequência disso: atrofia do hipocampo e do córtex, com alargamento dos sulcos. O exame não vê a proteína, mas vê o tecido que foi perdido, e ajuda a diferenciar o Alzheimer de outras demências com padrões de atrofia distintos.',
+        ],
+      },
+      {
+        id: 'por-que-a-memoria-recente',
+        heading: 'Por que a memória recente falha primeiro',
+        paragraphs: [
+          'O hipocampo é a estrutura que forma memórias novas e as liga ao que já existe. Quando ele adoece, o passado antigo continua acessível por mais tempo, e o que se perde é o que acabou de acontecer: a pergunta repetida, o compromisso da tarde, o remédio tomado ou não.',
+          'Isso produz um padrão clínico reconhecível. A pessoa conta a mesma história várias vezes, guarda objetos em lugares improváveis e esquece nomes de pessoas conhecidas, enquanto lembra com detalhe fatos de décadas atrás. A família costuma interpretar como distração ou teimosia, e demora a procurar ajuda.',
+          'Nem todo Alzheimer começa assim. Nas formas atípicas, o primeiro problema pode ser a linguagem, a visão e a orientação espacial, ou o comportamento e o julgamento. Essas formas costumam começar mais cedo e demoram mais para serem reconhecidas, porque não batem com a imagem que se tem da doença.',
+        ],
+      },
+      {
+        id: 'inflamacao-vasos-e-acetilcolina',
+        heading: 'Inflamação, vasos e acetilcolina',
+        paragraphs: [
+          'Além das placas e dos emaranhados, o cérebro com Alzheimer mostra disfunção das sinapses, estresse oxidativo, inflamação e alterações vasculares. Nenhuma dessas alterações é efeito colateral menor: elas ajudam a explicar por que a perda de neurônios continua mesmo depois que as placas já estão formadas.',
+          'Um dos sistemas mais afetados é o da acetilcolina, neurotransmissor ligado à memória e à atenção. A queda desse sinal é a base do tratamento com donepezila, galantamina e rivastigmina, que aumentam a disponibilidade do neurotransmissor. O efeito é modesto e não interrompe a degeneração.',
+          'A contribuição vascular também pesa. Pressão alta, diabetes e colesterol alto lesionam pequenos vasos e reduzem a chegada de sangue a áreas estratégicas. Em muitos casos, o que existe é uma mistura de Alzheimer e demência vascular, o que ajuda a explicar por que o controle dessas doenças aparece tanto na conversa sobre prevenção.',
+        ],
+      },
+      {
+        id: 'o-que-isso-muda',
+        heading: 'O que isso muda no diagnóstico e no tratamento',
+        paragraphs: [
+          'Entender o processo permitiu criar marcadores. A queda da beta-amiloide 42 e a elevação da tau no líquor, o depósito de amiloide visto na PET e a atrofia do hipocampo na ressonância são sinais indiretos da mesma cascata. Eles entram quando o quadro é atípico, o início é precoce ou a dúvida diagnóstica persiste.',
+          'Também abriu caminho para tratamentos que tentam agir na causa, como os anticorpos monoclonais contra o amiloide. São terapias em estudo e com indicação restrita, e não substituem o cuidado diário, a reabilitação e o controle das doenças vasculares.',
+          'Para o paciente e a família, a consequência prática é que o Alzheimer não é um único evento, e sim um processo longo, com fases diferentes. Isso permite planejar, tratar o que incomoda e ajustar expectativas com o médico, em vez de esperar por uma virada que ainda não existe.',
+        ],
+        cta: {
+          label: 'Veja quais exames confirmam o Alzheimer',
+          href: '/doencas/doenca-de-alzheimer/',
+        },
+      },
+      {
+        id: 'o-que-ainda-nao-se-sabe',
+        heading: 'O que a ciência ainda não sabe',
+        paragraphs: [
+          'A existência de placas não garante sintoma. Há pessoas que morrem por outras causas com quantidade importante de amiloide no cérebro e nunca tiveram demência, e há pessoas com pouca placa que já apresentam prejuízo. A explicação mais aceita hoje combina a carga de lesão com a reserva cognitiva e com doenças associadas. Estudos de autópsia mostram essa discrepância com frequência.',
+          'Também não se sabe por que o ritmo varia tanto. Duas pessoas com o mesmo estágio podem passar anos sem mudar de fase, enquanto outra progride em poucos meses. Genética, vascularização, sono, humor e suporte social entram como candidatos, sem que exista um escore capaz de prever o caso individual. O que existe são fatores de risco, não uma previsão.',
+          'Outra fronteira é a doença mista. É comum encontrar, no mesmo cérebro, lesões de Alzheimer e de origem vascular, e essa combinação muda a resposta ao tratamento e o prognóstico. Por isso a pesquisa atual busca marcadores que descrevam o processo como ele é, e não como um modelo único. Reconhecer a mistura evita tratar como Alzheimer puro o que tem componente vascular importante.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['doenca-de-alzheimer'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'doenca-de-alzheimer-fase-pre-clinica',
+      'doenca-de-alzheimer-como-reduzir-o-risco',
+      'doenca-de-alzheimer-sono',
+      'doenca-de-alzheimer-primeiros-meses',
+    ],
+    references: [
+      {
+        label: 'Diagnóstico da doença de Alzheimer: recomendações do Departamento Científico de Neurologia Cognitiva e do Envelhecimento da Academia Brasileira de Neurologia',
+        url: 'https://www.scielo.br/j/dn/a/S1980-57642022000400025/?lang=pt',
+        publisher: 'Dementia & Neuropsychologia (Academia Brasileira de Neurologia)',
+      },
+      {
+        label: 'Alzheimer',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-alzheimer-primeiros-meses',
+    slug: 'doenca-de-alzheimer-primeiros-meses',
+    title: 'Alzheimer: o que organizar nos primeiros meses após o diagnóstico',
+    excerpt:
+      'Depois do diagnóstico, uma série de decisões precisa ser tomada enquanto a pessoa ainda participa delas. Um roteiro do que resolver primeiro, da papelada à divisão do cuidado.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-diagnostico-nao-encerra',
+        heading: 'O diagnóstico não encerra a conversa',
+        paragraphs: [
+          'Receber o diagnóstico de Alzheimer costuma vir com uma sensação de urgência que não combina com a velocidade da doença. A evolução é lenta, e nos primeiros meses a pessoa ainda participa das decisões, entende o que está acontecendo e tem opinião sobre o próprio futuro. Esse tempo é útil e não deve ser gasto só em exames.',
+          'O Ministério da Saúde reforça que o diagnóstico precoce e o encaminhamento ágil para atendimento especializado melhoram o alívio dos sintomas e a estabilização do quadro. Na prática, isso significa garantir acompanhamento regular, revisar remédios e tratar depressão, dor e insônia, que pioram a confusão.',
+          'A conversa inicial também serve para separar o que é doença do que é outra coisa. Hipotireoidismo, deficiência de vitamina B12, neurossífilis e depressão produzem queixa de memória e têm tratamento. Se alguma dessas hipóteses ainda não foi afastada, vale perguntar ao médico antes de assumir que tudo é Alzheimer.',
+        ],
+      },
+      {
+        id: 'quem-decide-junto',
+        heading: 'Quem decide junto',
+        paragraphs: [
+          'A OMS recomenda planejar com antecedência, enquanto a pessoa ainda consegue tomar decisões. O primeiro passo é identificar quem são as pessoas de confiança para apoiar escolhas de cuidado e de dinheiro, e deixar isso claro para a família. Não é transferir o controle, e sim nomear quem ajuda.',
+          'O segundo passo é registrar preferências. Onde a pessoa quer ser cuidada, o que valoriza na rotina, o que não aceita em caso de piora, quem deve ser avisado. Um documento escrito, mesmo simples, evita disputas e reduz o peso de decidir sob pressão em uma emergência.',
+          'Essas conversas são desconfortáveis e costumam ser adiadas até que a comunicação já esteja difícil. Quem tem diagnóstico recente e ainda consegue discutir o assunto está na melhor janela possível. O médico da equipe pode ajudar a conduzir a conversa e a registrar o que foi combinado.',
+        ],
+      },
+      {
+        id: 'documentos-remedios-contatos',
+        heading: 'Documentos, remédios e contatos',
+        paragraphs: [
+          'A OMS sugere que a pessoa saia de casa com identificação que traga endereço e contatos de emergência. Uma pulseira ou um cartão na carteira resolve boa parte dos casos de desorientação na rua, e é mais útil do que esperar que a pessoa memorize o caminho de volta.',
+          'Os remédios pedem organização própria. Guardar em armário trancado, manter uma lista atualizada com horários e marcar o que já foi tomado reduz erro de dose e intoxicação. A lista deve incluir o que foi comprado sem receita, os chás e os suplementos, porque tudo isso entra na conta das interações.',
+          'No SUS, os quatro medicamentos para Alzheimer são distribuídos pelo Componente Especializado da Assistência Farmacêutica. O acesso depende de laudo preenchido pelo médico, receita, documentos pessoais e retirada no serviço indicado pelo gestor estadual. A papelada costuma atrasar o início, e vale pedir orientação na farmácia da unidade de saúde. Fotografar a lista e deixar uma cópia com quem acompanha evita esquecimentos na hora da consulta.',
+        ],
+      },
+      {
+        id: 'dividir-o-cuidado',
+        heading: 'Dividir o cuidado antes do esgotamento',
+        paragraphs: [
+          'Cuidar de alguém com Alzheimer é trabalho, e não uma extensão natural do afeto. A OMS lembra que a tarefa afeta a saúde e o bem-estar de quem cuida e recomenda pedir ajuda a familiares, amigos e profissionais, tirar pausas regulares e buscar apoio para o estresse. A própria OMS mantém um programa de autoajuda para cuidadores, o iSupport.',
+          'Na prática, dividir significa combinar tarefas por escrito: quem leva à consulta, quem compra os remédios, quem dorme no quarto ao lado, quem resolve a papelada. Sem esse combinado, uma pessoa concentra tudo e adoece, e a qualidade do cuidado cai junto.',
+          'Sinais de sobrecarga merecem atenção. Cansaço constante, culpa, irritabilidade e isolamento são comuns, e tristeza ou insônia que duram mais de duas semanas pedem avaliação profissional. Grupo de apoio e conversa com outros cuidadores ajudam a sair do lugar de quem acha que precisa dar conta sozinho.',
+        ],
+      },
+      {
+        id: 'apoio-no-sus',
+        heading: 'Onde buscar apoio no SUS',
+        paragraphs: [
+          'A porta de entrada é a UBS. O clínico geral ou o médico de família acompanha o caso, revisa remédios, avalia depressão e encaminha para geriatria, neurologia ou psiquiatria quando necessário. Em municípios com serviço de referência, a avaliação inclui neuropsicólogo e equipe multiprofissional.',
+          'Vale perguntar na unidade quais grupos de apoio existem no município, se há serviço de referência para demências e como funciona a entrega dos medicamentos. Essas informações mudam de cidade para cidade, e a equipe local é a fonte mais confiável para o caminho concreto.',
+          'O acompanhamento não termina quando o diagnóstico é confirmado. Retornos regulares permitem ajustar dose, tratar complicações cedo e orientar a família sobre o que esperar da próxima fase. Quem entende o que está por vir consegue se preparar melhor e evitar decisões tomadas no susto.',
+        ],
+        cta: {
+          label: 'Veja como o Alzheimer é tratado no SUS',
+          href: '/doencas/doenca-de-alzheimer/',
+        },
+      },
+      {
+        id: 'piorou-a-doenca-ou-e-outra-coisa',
+        heading: 'Piorou a doença ou é outra coisa?',
+        paragraphs: [
+          'Nem toda piora é progressão. Uma confusão que surge em um ou dois dias, com sonolência e atenção flutuante, costuma ser delirium causado por infecção, desidratação, dor ou remédio novo. É uma emergência tratável, e não uma etapa nova da doença. Familiares costumam descrever como se a pessoa tivesse piorado da noite para o dia.',
+          'Outros sinais pedem avaliação rápida: dificuldade para engolir e engasgos frequentes, febre e falta de ar, perda de peso, queda com batida na cabeça, agitação intensa ou recusa de alimentos e líquidos. Cada um tem uma causa provável e um caminho de cuidado próprio. Ter esses sinais anotados encurta a decisão na consulta ou na emergência.',
+          'A diferença entre progressão e intercorrência muda a conduta. Progressão pede ajuste de plano e de expectativas; intercorrência pede tratamento do fator desencadeante e revisão de medicamentos. Anotar quando o sinal apareceu e o que mudou na rotina ajuda o médico a separar os dois cenários. Quem conhece a linha de base da pessoa percebe a diferença mais rápido.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['doenca-de-alzheimer'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: [
+      'doenca-de-alzheimer-fase-pre-clinica',
+      'doenca-de-alzheimer-como-reduzir-o-risco',
+      'doenca-de-alzheimer-sono',
+      'doenca-de-alzheimer-como-a-doenca-acontece',
+    ],
+    references: [
+      {
+        label: 'Dementia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/dementia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Alzheimer',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/alzheimer',
+        publisher: 'Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
 ];
