@@ -570,6 +570,30 @@
       "status": "verified"
     },
     {
+      "id": "anxiety-disorders",
+      "label": "Anxiety disorders",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "saúde mental",
+        "ansiedade"
+      ],
+      "diseases": [
+        "transtorno-de-ansiedade-generalizada"
+      ],
+      "supports": [
+        "470 milhões de pessoas com transtorno de ansiedade em 2023 (5,8% da população)",
+        "apenas 27,6% (cerca de 1 em 4) recebem algum tratamento",
+        "TAG: preocupação excessiva e persistente com situações cotidianas, sintomas por vários meses",
+        "tratamento: intervenções psicológicas com base em TCC e ISRS; benzodiazepínicos geralmente não recomendados pelo risco de dependência",
+        "autocuidado: evitar álcool, atividade física, sono regular, relaxamento e atenção plena"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
       "id": "artrite-reumatoide",
       "label": "Artrite reumatoide",
       "url": "https://www.reumatologia.org.br/doencas-reumaticas/artrite-reumatoide/",
@@ -737,6 +761,33 @@
       "status": "imported"
     },
     {
+      "id": "bipolar-disorder",
+      "label": "Bipolar disorder",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "saúde mental",
+        "transtorno bipolar"
+      ],
+      "diseases": [
+        "transtorno-bipolar"
+      ],
+      "supports": [
+        "36 milhões de pessoas (0,4% da população mundial) viviam com transtorno bipolar em 2023, cerca de 32 milhões de adultos",
+        "1 em cada 226 pessoas; prevalência semelhante entre homens e mulheres, mas mulheres são mais diagnosticadas",
+        "pessoas com transtorno bipolar morrem em média 13 anos antes da população geral",
+        "episódio depressivo: sintomas na maior parte do dia, quase todos os dias, por pelo menos duas semanas",
+        "tipos I e II; sintomas de mania incluem grandiosidade, fala rápida, menos necessidade de sono e comportamentos de risco",
+        "lítio e valproato para mania; valproato não deve ser usado por gestantes, lactantes ou com potencial de engravidar; lítio exige monitoramento clínico e laboratorial",
+        "após remissão completa, manutenção com estabilizador do humor ou antipsicótico por pelo menos seis meses",
+        "antidepressivos não devem ser usados durante episódio de mania"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
       "id": "brasil-elimina-transmissao-da-filariose-linfatica-como-problema-de-saude-publica",
       "label": "Brasil elimina transmissão da filariose linfática como problema de saúde pública",
       "url": "https://bvsms.saude.gov.br/brasil-elimina-transmissao-da-filariose-linfatica-como-problema-de-saude-publica/",
@@ -896,6 +947,55 @@
         "轮状病毒疫苗在巴西国家免疫规划中的接种剂次与月龄"
       ],
       "verifiedAt": "2026-10-19",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-boca",
+      "label": "Câncer de boca",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/boca",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "tabagismo"
+      ],
+      "diseases": [
+        "cancer-de-boca"
+      ],
+      "supports": [
+        "Câncer de boca e orofaringe afeta lábios, gengivas, bochechas, palato, língua e assoalho da boca",
+        "Quinto tumor mais frequente em homens no Brasil e maioria dos casos diagnosticada em estágio avançado",
+        "Tabaco e álcool são os principais fatores de risco; dieta pobre em frutas e vegetais, HPV e sol nos lábios também aumentam o risco"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
+      "id": "cancer-de-boca-versao-para-populacao",
+      "label": "Câncer de boca, versão para população",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/boca/versao-para-populacao",
+      "publisher": "Instituto Nacional de Câncer (INCA)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "câncer",
+        "tabagismo",
+        "álcool"
+      ],
+      "diseases": [
+        "cancer-de-boca"
+      ],
+      "supports": [
+        "Estimativa de 17.190 casos novos por ano no triênio 2026-2028 e 7.156 mortes (C00 a C10, SIM 2024)",
+        "Fatores de risco: tabagismo em todas as formas, álcool, idade acima de 50 anos, sol sem proteção nos lábios, excesso de gordura corporal, HPV e exposições ocupacionais",
+        "Sinais: lesões que não cicatrizam em 15 dias, placas vermelhas ou esbranquiçadas, nódulos no pescoço, rouquidão persistente",
+        "Diagnóstico por exame clínico e biópsia; tomografia, ressonância e radiografia avaliam extensão",
+        "Tratamento cirúrgico na maioria dos casos, com retirada de linfonodos e reconstrução; radioterapia e quimioterapia em casos específicos",
+        "Acompanhamento por 5 anos com cirurgião de cabeça e pescoço e equipe multidisciplinar",
+        "Prevenção: não usar tabaco, evitar álcool, peso adequado, higiene bucal e preservativo no sexo oral"
+      ],
+      "verifiedAt": "2026-10-29",
       "status": "verified"
     },
     {
@@ -1753,6 +1853,33 @@
       "status": "verified"
     },
     {
+      "id": "diabetes-and-polycystic-ovary-syndrome-pcos",
+      "label": "Diabetes and Polycystic Ovary Syndrome (PCOS)",
+      "url": "https://www.cdc.gov/diabetes/risk-factors/pcos-polycystic-ovary-syndrome.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "síndrome dos ovários policísticos",
+        "resistência à insulina",
+        "infertilidade"
+      ],
+      "diseases": [
+        "sindrome-dos-ovarios-policisticos"
+      ],
+      "supports": [
+        "SOP é causa comum de infertilidade e afeta milhões de mulheres",
+        "Mais da metade das mulheres com SOP desenvolve diabetes tipo 2 até os 40 anos",
+        "Sintomas: acne, crescimento de pelos, acantose nigricans, ciclos irregulares e ganho de peso",
+        "Causa exata desconhecida; desequilíbrio de androgênios, histórico familiar e sobrepeso participam",
+        "Complicações: diabetes tipo 2, diabetes gestacional, doença cardíaca, hipertensão, colesterol alterado, apneia do sono e AVC",
+        "Também se associa a depressão e ansiedade",
+        "Tratamento inclui mudanças de estilo de vida e medicamentos que ajudam a ovular e reduzem acne e pelos"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
       "id": "diabetes-fact-sheet",
       "label": "Diabetes: fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
@@ -1767,16 +1894,30 @@
     },
     {
       "id": "diabetes-orientacoes-e-materiais",
-      "label": "Diabetes: orientações e materiais",
+      "label": "Diabetes (diabetes mellitus)",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes",
       "publisher": "Ministério da Saúde (Brasil)",
       "host": "www.gov.br",
       "lang": "pt",
-      "topics": [],
-      "diseases": [],
-      "supports": [],
-      "verifiedAt": null,
-      "status": "imported"
+      "topics": [
+        "diabetes",
+        "diabetes gestacional",
+        "fatores de risco"
+      ],
+      "diseases": [
+        "diabetes",
+        "diabetes-gestacional",
+        "sindrome-dos-ovarios-policisticos"
+      ],
+      "supports": [
+        "Mais de 13 milhões de pessoas com diabetes no Brasil, 6,9% da população",
+        "Diabetes gestacional afeta entre 2% e 4% das gestantes e aumenta o risco de diabetes depois, para a mãe e o bebê",
+        "Toda gestante deve fazer o exame de diabetes durante o pré-natal",
+        "Fatores de risco incluem diabetes gestacional prévio, bebê com mais de 4 kg, sobrepeso e síndrome dos ovários policísticos",
+        "Sintomas: fome e sede excessivas e urinar muitas vezes ao dia"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
     },
     {
       "id": "diagnostico-da-doenca-de-alzheimer-recomendacoes-do-departamento-cientifico-de-neurologia-cognitiva-e-do-envelhecimento-da-academia-brasileira-de-neurologia",
@@ -2075,6 +2216,35 @@
         "Sistema Nacional de Transplantes; lista única para SUS e rede privada; assistência integral pelo SUS; 52,3% receberam em até três meses em 2023"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "endometriose",
+      "label": "Endometriose",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/endometriose",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "endometriose",
+        "dor pélvica",
+        "saúde da mulher"
+      ],
+      "diseases": [
+        "endometriose"
+      ],
+      "supports": [
+        "Definição: tecido endometrial fora da cavidade uterina, com inflamação crônica",
+        "Prevalência estimada entre 5% e 15% das mulheres em idade reprodutiva",
+        "Tipos: peritoneal superficial, ovariana (endometrioma) e infiltrativa profunda",
+        "Sintomas: dismenorreia, dor pélvica crônica, dispareunia, infertilidade e queixas intestinais ou urinárias cíclicas",
+        "Tempo médio entre início dos sintomas e confirmação: sete anos",
+        "Diagnóstico por clínica, ultrassonografia transvaginal com preparo intestinal, ressonância de pelve e videolaparoscopia",
+        "Tratamento pode começar sem confirmação por imagem ou cirurgia",
+        "Opções: hormônios (anticoncepcionais combinados, progestágenos, DIU hormonal), analgésicos, cirurgia",
+        "SUS oferece tratamento clínico e cirúrgico conforme PCDT (Portaria 879/2016), com a atenção primária como porta de entrada"
+      ],
+      "verifiedAt": "2026-10-29",
       "status": "verified"
     },
     {
@@ -2392,6 +2562,32 @@
       "status": "verified"
     },
     {
+      "id": "gestational-diabetes",
+      "label": "Gestational Diabetes",
+      "url": "https://www.cdc.gov/diabetes/about/gestational-diabetes.html",
+      "publisher": "Centers for Disease Control and Prevention (CDC)",
+      "host": "www.cdc.gov",
+      "lang": "pt",
+      "topics": [
+        "diabetes gestacional",
+        "gravidez"
+      ],
+      "diseases": [
+        "diabetes-gestacional"
+      ],
+      "supports": [
+        "Diabetes gestacional surge na gravidez em quem não tinha diabetes",
+        "Costuma se desenvolver por volta da 24a semana; teste entre 24 e 28 semanas",
+        "Muitas vezes não causa sintomas; quando presentes, são leves, como mais sede e mais urina",
+        "Mecanismo: resistência à insulina própria da gestação",
+        "Fatores de risco: diabetes gestacional anterior, bebê com mais de 4 kg, sobrepeso, histórico familiar de diabetes tipo 2, síndrome dos ovários policísticos",
+        "Cerca de metade das mulheres com diabetes gestacional desenvolve diabetes tipo 2 depois",
+        "Tratamento: monitorar glicemia, atividade física, alimentação; insulina ou metformina se necessário"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
       "id": "giardiase-versao-saude-para-a-familia",
       "label": "Giardíase, versão saúde para a família",
       "url": "https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/giard%C3%ADase",
@@ -2476,6 +2672,32 @@
         "MSD 家庭/专业版：Gota, versão saúde para a família，支撑痛风词条的病因、症状、诊断或治疗事实"
       ],
       "verifiedAt": "2026-10-21",
+      "status": "verified"
+    },
+    {
+      "id": "gravidez",
+      "label": "Gravidez",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gravidez",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "gravidez",
+        "pré-natal",
+        "gestação de alto risco"
+      ],
+      "diseases": [
+        "diabetes-gestacional",
+        "pre-eclampsia"
+      ],
+      "supports": [
+        "Pré-natal na atenção básica, com teste rápido de gravidez na UBS pela Rede Cegonha",
+        "Gestação de alto risco: doenças maternas prévias ou adquiridas, como hipertensão e diabetes, que colocam em risco a mãe ou o feto",
+        "Complicações da gestação incluem diabetes, hipertensão e sangramentos",
+        "Casos de risco são encaminhados ao pré-natal de alto risco, com consultas mais frequentes",
+        "Não usar medicamentos sem prescrição na gestação"
+      ],
+      "verifiedAt": "2026-10-29",
       "status": "verified"
     },
     {
@@ -3954,6 +4176,73 @@
       "status": "verified"
     },
     {
+      "id": "parkinson-disease",
+      "label": "Parkinson disease",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/parkinson-disease",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "saúde mental",
+        "neurologia",
+        "parkinson"
+      ],
+      "diseases": [
+        "doenca-de-parkinson"
+      ],
+      "supports": [
+        "mais de 8,5 milhões de pessoas com doença de Parkinson em 2019; prevalência dobrou em 25 anos",
+        "5,8 milhões de DALYs e 329 mil mortes em 2019, alta de 81% e mais de 100% desde 2000",
+        "levodopa/carbidopa é o medicamento mais eficaz para sintomas motores e está na lista de medicamentos essenciais da OMS",
+        "estimulação cerebral profunda pode ajudar no tremor e reduzir a necessidade de medicamentos",
+        "reabilitação com fisioterapia, treino de força, marcha, equilíbrio e hidroterapia melhora função e qualidade de vida",
+        "exposição a poluição do ar, pesticidas e solventes pode aumentar o risco",
+        "muitas pessoas com Parkinson desenvolvem demência ao longo da doença"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
+      "id": "pcdt-da-endometriose",
+      "label": "PCDT da endometriose",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/e/endometriose",
+      "publisher": "Comissão Nacional de Incorporação de Tecnologias no SUS (CONITEC), Ministério da Saúde",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "endometriose",
+        "protocolo clínico"
+      ],
+      "diseases": [
+        "endometriose"
+      ],
+      "supports": [
+        "Protocolo Clínico e Diretrizes Terapêuticas da endometriose no SUS, aprovado pela Portaria 879 de 12 de julho de 2016"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
+      "id": "pcdt-doenca-de-parkinson",
+      "label": "PCDT Doença de Parkinson",
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt-doenca-de-parkinson",
+      "publisher": "Comissão Nacional de Incorporação de Tecnologias no SUS (CONITEC), Ministério da Saúde",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "neurologia",
+        "parkinson"
+      ],
+      "diseases": [
+        "doenca-de-parkinson"
+      ],
+      "supports": [
+        "o SUS possui Protocolo Clínico e Diretrizes Terapêuticas para a doença de Parkinson, que define o tratamento medicamentoso ofertado"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
       "id": "pneumonia-adquirida-na-comunidade-edicao-profissional",
       "label": "Pneumonia adquirida na comunidade, edição profissional",
       "url": "https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-pulmonares/pneumonia/pneumonia-adquirida-na-comunidade",
@@ -3978,6 +4267,34 @@
       "supports": [],
       "verifiedAt": null,
       "status": "imported"
+    },
+    {
+      "id": "pre-eclampsia",
+      "label": "Pre-eclampsia",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "pré-eclâmpsia",
+        "hipertensão na gestação",
+        "mortalidade materna"
+      ],
+      "diseases": [
+        "pre-eclampsia"
+      ],
+      "supports": [
+        "Afeta 3% a 8% das gestantes no mundo",
+        "Distúrbios hipertensivos respondem por cerca de 16% das mortes maternas globais",
+        "Definição: pressão arterial de 140/90 mmHg ou mais e proteinúria de 0,3 g em 24 horas após 20 semanas",
+        "Sinais de gravidade: dor de cabeça intensa, alterações visuais e dor na parte alta do abdome",
+        "Fatores de risco: primeira gestação, gemelar, obesidade, hipertensão, diabetes ou doença renal prévios, história familiar",
+        "Complicações: eclâmpsia, síndrome HELLP, lesão de órgãos, descolamento de placenta, parto prematuro, restrição de crescimento",
+        "Sulfato de magnésio reduz em mais da metade o risco de eclâmpsia",
+        "Prevenção: pré-natal regular, aspirina em dose baixa até 20 semanas em alto risco, cálcio onde a ingestão é baixa"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
     },
     {
       "id": "principais-questoes-sobre-anemia-ferropriva-na-crianca",
@@ -4161,6 +4478,57 @@
         "Apenas dois pacientes sobreviveram na história dos casos brasileiros"
       ],
       "verifiedAt": "2026-10-23",
+      "status": "verified"
+    },
+    {
+      "id": "rede-de-atencao-psicossocial-raps",
+      "label": "Rede de Atenção Psicossocial (RAPS)",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "saúde mental"
+      ],
+      "diseases": [
+        "transtorno-de-ansiedade-generalizada",
+        "transtorno-bipolar",
+        "esquizofrenia"
+      ],
+      "supports": [
+        "UBS é a principal porta de entrada do SUS",
+        "CAPS: serviços públicos de saúde mental abertos à comunidade, para pessoas em intenso sofrimento psíquico, com reinserção comunitária",
+        "leito de saúde mental em hospital geral para internações curtas em casos graves, crises ou intoxicações",
+        "SAMU 192 atende ocorrências de natureza psiquiátrica",
+        "UPA 24h presta atendimento a condições graves e não graves",
+        "Serviços Residenciais Terapêuticos e Unidades de Acolhimento como moradia e acolhimento temporário"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
+      "id": "reduzir-a-lacuna-nos-cuidados-11-4-dia-mundial-de-conscientizacao-da-doenca-de-parkinson",
+      "label": "\"Reduzir a lacuna nos cuidados\": 11/4, Dia Mundial de Conscientização da Doença de Parkinson",
+      "url": "https://bvsms.saude.gov.br/reduzir-a-lacuna-nos-cuidados-11-4-dia-mundial-de-conscientizacao-da-doenca-de-parkinson-2026/",
+      "publisher": "Biblioteca Virtual em Saúde, Ministério da Saúde",
+      "host": "bvsms.saude.gov.br",
+      "lang": "pt",
+      "topics": [
+        "neurologia",
+        "parkinson"
+      ],
+      "diseases": [
+        "doenca-de-parkinson"
+      ],
+      "supports": [
+        "cerca de 11 milhões de pessoas no mundo; segundo distúrbio neurológico mais comum",
+        "no Brasil, mais de 500 mil pessoas com 50 anos ou mais, número que pode passar de 1,2 milhão até 2060",
+        "sintomas motores: tremor de repouso, rigidez, lentidão, alterações posturais, passos curtos, micrografia",
+        "sintomas não motores: alterações do sono, depressão e ansiedade, dificuldade cognitiva, constipação, perda do olfato, urgência urinária, dor",
+        "tratamento individualizado com medicamentos, fisioterapia, terapia ocupacional e psicoterapia quando indicada",
+        "não existe forma conhecida de prevenir de maneira absoluta; atividade física e alimentação saudável são estratégias consideradas"
+      ],
+      "verifiedAt": "2026-10-29",
       "status": "verified"
     },
     {
@@ -4371,6 +4739,30 @@
       "status": "verified"
     },
     {
+      "id": "saude-mental",
+      "label": "Saúde Mental",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental",
+      "publisher": "Ministério da Saúde (Brasil)",
+      "host": "www.gov.br",
+      "lang": "pt",
+      "topics": [
+        "saúde mental"
+      ],
+      "diseases": [
+        "transtorno-de-ansiedade-generalizada",
+        "transtorno-bipolar",
+        "esquizofrenia"
+      ],
+      "supports": [
+        "a política brasileira de saúde mental se pauta na desinstitucionalização, no cuidado em liberdade e nos direitos humanos",
+        "pessoas em crise podem ser atendidas em qualquer serviço da RAPS",
+        "o atendimento no CAPS pode começar por procura espontânea ou por encaminhamento de outros serviços",
+        "estigma é obstáculo à recuperação e leva a busca por ajuda em estágios avançados"
+      ],
+      "verifiedAt": "2026-10-29",
+      "status": "verified"
+    },
+    {
       "id": "sbr-osteoporose",
       "label": "Osteoporose — Sociedade Brasileira de Reumatologia",
       "url": "https://www.reumatologia.org.br/doencas-reumaticas/osteoporose/",
@@ -4418,6 +4810,32 @@
         "Controle inclui água segura, saneamento, educação em saúde e controle de caramujos"
       ],
       "verifiedAt": "2026-10-22",
+      "status": "verified"
+    },
+    {
+      "id": "schizophrenia",
+      "label": "Schizophrenia",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/schizophrenia",
+      "publisher": "Organização Mundial da Saúde",
+      "host": "www.who.int",
+      "lang": "pt",
+      "topics": [
+        "saúde mental",
+        "esquizofrenia"
+      ],
+      "diseases": [
+        "esquizofrenia"
+      ],
+      "supports": [
+        "1 em cada 300 pessoas (27 milhões) vive com esquizofrenia; 0,29% da população e 0,49% dos adultos acima de 20 anos",
+        "início mais comum no fim da adolescência e nos anos 20, mais cedo nos homens",
+        "pessoas com esquizofrenia morrem 9 anos antes da população geral, sobretudo por doenças cardiovasculares, metabólicas e infecciosas",
+        "apenas 29% das pessoas com psicose recebem cuidado especializado",
+        "pelo menos um terço alcança remissão completa dos sintomas",
+        "uso intenso de cannabis associado a risco elevado",
+        "cuidado: medicação, psicoeducação, intervenção familiar, TCC e reabilitação psicossocial"
+      ],
+      "verifiedAt": "2026-10-29",
       "status": "verified"
     },
     {

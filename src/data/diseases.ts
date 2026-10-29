@@ -6743,7 +6743,8 @@ export const diseases: Disease[] = [
       publishedAt: '2026-10-19',
       updatedAt: '2026-10-22',
       isPlaceholder: true,
-    },  {
+    },
+  {
     id: 'epilepsia',
     slug: 'epilepsia',
     name: 'Epilepsia',
@@ -9516,7 +9517,7 @@ export const diseases: Disease[] = [
     id: 'cancer-de-pele',
     slug: 'cancer-de-pele',
     name: 'Câncer de pele',
-    aliases: ['câncer da pele', 'melanoma', 'carcinoma basocelular', 'carcinoma epidermoide', 'câncer de pele não melanoma'],
+    aliases: ['câncer da pele', 'carcinoma basocelular', 'carcinoma epidermoide', 'câncer de pele não melanoma'],
     summary:
       'Tumor que se forma na própria pele, quase sempre em área exposta ao sol. É o câncer mais frequente no Brasil, tem alta chance de cura quando descoberto cedo, e o melanoma exige atenção imediata por poder se espalhar.',
     category: 'Doenças crônicas',
@@ -9804,7 +9805,7 @@ export const diseases: Disease[] = [
       'cancer-de-pele-prevencao-e-protetor-solar',
     ],
     relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
-    relatedDiseaseSlugs: ['hanseniase', 'doenca-renal-cronica', 'hiv-aids'],
+    relatedDiseaseSlugs: ['melanoma', 'hanseniase', 'hiv-aids'],
     references: [
       {
         label: 'Câncer de pele, saúde de A a Z',
@@ -22534,6 +22535,1812 @@ export const diseases: Disease[] = [
     reviewStatus: 'needs_review',
     publishedAt: '2026-10-28',
     updatedAt: '2026-10-28',
+    isPlaceholder: true,
+  },
+  {
+    id: 'melanoma',
+    slug: 'melanoma',
+    name: 'Melanoma',
+    metaTitle: 'Melanoma: sinais, diagnóstico e tratamento',
+    aliases: ['câncer de pele melanoma', 'melanoma cutâneo', 'melanoma maligno', 'melanoma acral', 'melanoma de mucosa'],
+    summary:
+      'Câncer que começa nos melanócitos, as células que produzem a melanina. É o tipo menos frequente de câncer de pele e o mais grave, porque pode se espalhar para outros órgãos. Descoberto cedo, tem alta chance de cura.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é melanoma?',
+        paragraphs: [
+          'O melanoma é um câncer que começa nos melanócitos, as células que produzem a melanina, o pigmento que dá cor à pele. A maior parte dos casos surge na pele, mas o tumor também pode aparecer nas mucosas, como boca, nariz e região anal, e dentro do olho, numa camada chamada úvea. Por isso, nem todo melanoma é visível num exame comum de pele.',
+          'O que separa esse tumor dos outros cânceres de pele é a facilidade de se espalhar. O carcinoma basocelular e o carcinoma epidermoide crescem no lugar onde nasceram e raramente alcançam outros órgãos. O melanoma pode entrar nos vasos linfáticos e no sangue e formar metástases em gânglios, pulmões, fígado, ossos e cérebro. Quanto mais espesso o tumor no momento da retirada, maior esse risco.',
+          'A consequência prática é direta: uma lesão suspeita não deve esperar. Retirar um melanoma fino costuma resolver o problema, enquanto o diagnóstico tardio muda o tratamento e o prognóstico. Diante de uma pinta que muda, procure um dermatologista.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de melanoma?',
+        paragraphs: [
+          'O melanoma é classificado pelo lugar onde começa e pela forma como as células se organizam ao microscópio. A classificação orienta o tratamento e o seguimento, e não é uma lista para decorar.',
+          'Na pele, dois grupos se comportam de maneiras diferentes. Um deles aparece em áreas cronicamente expostas ao sol, como rosto e couro cabeludo de pessoas mais velhas, e cresce devagar por anos como uma mancha. O outro surge em qualquer área, inclusive costas e pernas, e costuma avançar mais rápido; dentro dele há lesões que se espalham pela superfície e outras que formam um nódulo desde o início.',
+          'O estadiamento vai do 0 ao IV e resume o quanto a doença avançou. No estágio 0, as células estão restritas à camada mais superficial. Nos estágios I e II, o tumor é local. No III, há comprometimento de gânglios ou de vasos linfáticos próximos. No IV, existem metástases em outros órgãos.',
+        ],
+        bullets: [
+          'Melanoma cutâneo: o mais conhecido, ligado ao sol e a pintas que já existiam',
+          'Melanoma acral: aparece nas palmas, nas plantas e embaixo das unhas, mais comum em pessoas de pele negra',
+          'Melanoma de mucosa: surge em boca, nariz, vias digestivas e genitais, sem relação com o sol',
+          'Melanoma ocular: começa dentro do olho e costuma ser encontrado em exame de fundo de olho',
+        ],
+      },
+      {
+        id: 'quem-e-afetado',
+        heading: 'Quem é afetado pelo melanoma no Brasil?',
+        paragraphs: [
+          'O Instituto Nacional de Câncer estima 9.360 casos novos de melanoma por ano no Brasil no triênio de 2026 a 2028, sendo 4.930 em homens e 4.430 em mulheres. Em 2024, foram registradas 2.031 mortes pela doença, 1.160 em homens e 871 em mulheres.',
+          'O melanoma responde por cerca de 3% dos tumores malignos da pele, enquanto o câncer de pele não melanoma concentra a maior parte dos casos. A diferença de frequência não diminui a gravidade: o melanoma é responsável por boa parte das mortes por câncer de pele.',
+          'Pele e olhos claros, cabelos ruivos ou loiros, muitas pintas e história pessoal ou familiar da doença formam o grupo de maior risco. Pessoas de pele negra também podem ter melanoma, sobretudo nas palmas, nas plantas e nas unhas, áreas que costumam passar despercebidas no autoexame.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'O que causa o melanoma?',
+        paragraphs: [
+          'O melanoma nasce de danos no material genético dos melanócitos. A radiação ultravioleta, do sol e das câmeras de bronzeamento, é o fator que mais contribui para esse dano, e a exposição na infância e na adolescência pesa bastante no total acumulado ao longo da vida.',
+          'A predisposição individual também conta. Pele clara, olhos claros, cabelos ruivos ou loiros, albinismo, muitas pintas, pintas atípicas e história familiar de melanoma aumentam o risco. Sistema imunológico enfraquecido, como em pessoas que usam imunossupressores depois de um transplante, reduz a capacidade de conter células alteradas.',
+          'O trabalho ao ar livre é um capítulo à parte. Agricultores, trabalhadores da construção civil, pescadores e profissionais de limpeza urbana acumulam horas de sol durante anos. Bombeiros e pessoas expostas a produtos químicos industriais, como as bifenilas policloradas, e a agentes do refino de petróleo também apresentam risco maior, segundo o INCA.',
+        ],
+        bullets: [
+          'Exposição prolongada e repetida ao sol, sobretudo na infância e na adolescência',
+          'Uso de câmeras de bronzeamento artificial',
+          'Pele e olhos claros, cabelos ruivos ou loiros, ou albinismo',
+          'Muitas pintas, pintas atípicas e história pessoal ou familiar de câncer de pele',
+          'Exposição ocupacional à radiação ultravioleta e a produtos químicos industriais',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sinais e sintomas?',
+        paragraphs: [
+          'O melanoma pode surgir numa pinta que já existia ou numa área de pele aparentemente normal. Quando aparece do zero, costuma ser uma mancha escura de bordas irregulares, às vezes com coceira e descamação. Quando se desenvolve a partir de uma pinta, o sinal é a mudança: ela cresce, muda de cor e perde o contorno definido.',
+          'A regra do ABCDE organiza a observação e é usada em todo o mundo para lembrar o que deve chamar atenção. Nenhum desses sinais confirma câncer sozinho, e a maioria das alterações tem outras causas. Ainda assim, uma lesão que soma duas ou três letras merece avaliação.',
+          'Fora da pele, os sintomas dependem do local. No olho podem aparecer pontos que flutuam na visão, visão turva e alteração do campo visual. Nas mucosas, o tumor pode causar sangramento nasal repetido, obstrução e sangue nas fezes, sinais que costumam ser atribuídos a outras causas.',
+        ],
+        bullets: [
+          'Assimetria: uma metade da lesão é diferente da outra',
+          'Bordas irregulares: o contorno é mal definido, como se tivesse sido recortado',
+          'Cor variável: a mesma lesão reúne tons de preto, castanho, branco, vermelho ou azul',
+          'Diâmetro: maior que 6 milímetros, medida aproximada da ponta de um lápis',
+          'Evolução: a lesão muda de tamanho, forma ou cor ao longo de semanas ou meses',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento sem esperar?',
+        paragraphs: [
+          'Algumas situações pedem avaliação rápida, sem aguardar a próxima consulta de rotina.',
+        ],
+        bullets: [
+          'Pinta que cresce, muda de cor ou de forma em poucas semanas',
+          'Ferida na pele que não cicatriza e sangra sem motivo',
+          'Mancha escura nova, com borda irregular, em qualquer parte do corpo, inclusive palmas, plantas e unhas',
+          'Faixa escura nova na unha, que aumenta e alcança a pele ao redor',
+          'Nódulo endurecido na pele ou gânglio aumentado e fixo na virilha, no pescoço ou na axila',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o melanoma é diagnosticado?',
+        paragraphs: [
+          'O primeiro passo é a consulta com dermatologista. O médico examina a lesão a olho nu e com o dermatoscópio, aparelho que amplia e ilumina as camadas superficiais da pele e revela estruturas que não se enxergam de outro modo.',
+          'A confirmação vem da biópsia. Em geral, o médico retira a lesão inteira, com uma margem pequena de pele ao redor, e envia o material para análise. O laudo informa a espessura do tumor, medida em milímetros e chamada de índice de Breslow, além da presença de ulceração. Esses dados definem o estadiamento e o tamanho da cirurgia definitiva.',
+          'Quando a espessura indica risco de disseminação, o cirurgião pode pesquisar o linfonodo sentinela, o primeiro gânglio a receber a linfa da área do tumor. Exames de imagem e a dosagem de LDH no sangue completam a avaliação em casos selecionados.',
+        ],
+        bullets: [
+          'Dermatoscopia: exame com lente de aumento que mostra estruturas abaixo da superfície',
+          'Biópsia: retirada da lesão para análise no microscópio, exame que confirma o diagnóstico',
+          'Linfonodo sentinela: pesquisa do primeiro gânglio que recebe a linfa da região do tumor',
+          'Exames de imagem: ultrassonografia, tomografia e PET-CT avaliam a extensão da doença',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que pode ser confundido com melanoma?',
+        paragraphs: [
+          'A maior parte das lesões escuras não é melanoma. Pintas comuns, lentigo solar, ceratose seborreica e manchas causadas por atrito ou trauma imitam o tumor com frequência.',
+          'Duas confusões merecem atenção. O carcinoma basocelular pigmentado pode parecer uma pinta escura, e o hematoma embaixo da unha se parece com melanoma subungueal. No hematoma, a mancha caminha com o crescimento da unha e desaparece com o tempo, enquanto o tumor persiste e escurece a pele ao redor.',
+          'Nenhuma foto de celular resolve a dúvida. O dermatoscópio e, quando necessário, a biópsia são o que separa uma pinta benigna de um melanoma.',
+        ],
+        bullets: [
+          'Pinta comum: simétrica, de cor uniforme, borda regular e tamanho estável',
+          'Ceratose seborreica: lesão áspera, de aspecto colado na pele, que muda pouco',
+          'Hematoma subungueal: mancha que avança com a unha depois de um trauma',
+          'Basocelular pigmentado: borda elevada e perolada, com crescimento lento',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Como é a cirurgia do melanoma?',
+        paragraphs: [
+          'A cirurgia é o tratamento principal do melanoma localizado. O cirurgião retira o tumor com uma margem de pele sadia ao redor, e a largura dessa margem depende da espessura da lesão. Na maioria das vezes, o procedimento é feito com anestesia local e o paciente volta para casa no mesmo dia.',
+          'Quando há indicação, o linfonodo sentinela é retirado no mesmo tempo cirúrgico. Se ele estiver comprometido, pode ser necessário retirar os gânglios da região, procedimento chamado linfadenectomia. Em lesões extensas no rosto, a reconstrução com retalhos ou enxertos devolve contorno e função.',
+          'O tratamento cirúrgico é oferecido pelo SUS em serviços de referência em oncologia. O encaminhamento costuma partir da unidade básica de saúde ou do dermatologista que fez a biópsia.',
+        ],
+      },
+      {
+        id: 'tratamento-avancado',
+        heading: 'Como é o tratamento da doença avançada?',
+        paragraphs: [
+          'Quando o melanoma não pode ser resolvido apenas com cirurgia, entram os medicamentos. Nas últimas décadas, a imunoterapia e a terapia-alvo mudaram o cenário da doença avançada, com respostas que antes não eram esperadas. A imunoterapia estimula o próprio sistema imunológico a reconhecer e atacar as células do tumor. A terapia-alvo bloqueia proteínas específicas que fazem o tumor crescer, como a produzida pelo gene BRAF alterado, e só funciona em tumores com a alteração correspondente.',
+          'A radioterapia é usada em situações definidas, como complemento depois da retirada de gânglios, no controle de metástases ósseas e cerebrais e em tumores que não podem ser operados. A quimioterapia tem papel limitado e costuma ficar reservada a casos sem outras opções.',
+          'A escolha depende do estágio, do local do tumor, das alterações genéticas encontradas na análise e das condições clínicas da pessoa. A decisão é tomada por uma equipe multidisciplinar, com cirurgião, oncologista, radioterapeuta e patologista. Nenhum desses tratamentos deve ser iniciado por conta própria.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'O prognóstico depende principalmente da espessura do tumor, da presença de ulceração, do comprometimento de gânglios e da existência de metástases. A localização também influencia: lesões em braços e pernas tendem a evoluir melhor do que as de cabeça, pescoço e tronco.',
+          'O melanoma localizado, retirado com margens adequadas, tem alta chance de cura. Na doença com gânglios comprometidos ou metástases, o objetivo passa a ser controlar a doença por mais tempo, com qualidade de vida, e parte dos pacientes responde bem aos tratamentos atuais.',
+          'Quem já teve melanoma tem risco maior de um segundo tumor, tanto na mesma região quanto em outra área da pele. Isso não significa que a doença vá voltar, mas explica por que o seguimento dermatológico continua depois da alta.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais complicações podem aparecer?',
+        paragraphs: [
+          'As complicações mais comuns vêm da cirurgia. A ferida pode infeccionar, acumular líquido e formar seroma, e a retirada de gânglios pode levar ao linfedema, inchaço persistente do braço ou da perna do lado operado.',
+          'O melanoma ocular tem complicações próprias. O tumor pode elevar a pressão do olho, causar glaucoma e descolar a retina, com perda de visão. O acompanhamento com oftalmologista faz parte do tratamento.',
+          'Na doença avançada, os sintomas dependem do órgão atingido. Metástases no pulmão causam tosse e falta de ar, no fígado provocam dor abdominal e perda de apetite, nos ossos causam dor e risco de fratura, e no cérebro podem provocar dor de cabeça intensa e convulsões.',
+        ],
+      },
+      {
+        id: 'acompanhamento',
+        heading: 'Como é o acompanhamento depois do tratamento?',
+        paragraphs: [
+          'O seguimento é definido pelo estágio. O INCA orienta que cada paciente tenha uma data própria de retorno e que essas consultas sejam mantidas, porque é nelas que se detectam recidivas e novos tumores em fase inicial.',
+          'Em geral, os primeiros anos concentram consultas mais frequentes com o dermatologista e, conforme o caso, exames de imagem. Depois, o intervalo aumenta. Quem teve melanoma fino costuma precisar apenas de exame clínico periódico.',
+          'Entre uma consulta e outra, o autoexame mensal da pele ajuda. Em frente ao espelho, com um espelho de mão para as costas e o couro cabeludo, procure pintas novas e mudanças nas antigas, incluindo palmas, plantas, unhas e mucosas visíveis.',
+        ],
+      },
+      {
+        id: 'cuidados-diarios',
+        heading: 'Quais cuidados fazem parte da rotina?',
+        paragraphs: [
+          'A fotoproteção deixa de ser coisa de verão e passa a ser rotina. Protetor solar com fator 15 ou mais nas áreas expostas, reaplicado ao longo do dia, chapéu de aba larga, camiseta de manga e óculos com proteção ultravioleta reduzem a exposição acumulada.',
+          'Depois da cirurgia, a cicatriz merece cuidado: hidratação, proteção solar e atenção a sinais de infecção nas primeiras semanas. Quem fez linfadenectomia precisa de fisioterapia, cuidados com a pele do membro afetado e orientação para evitar infecções e esforços repetidos.',
+          'O impacto emocional também faz parte do tratamento. Medo de recidiva, mudanças na imagem corporal e ansiedade antes das consultas são comuns. Grupos de apoio, psicoterapia e conversa aberta com a equipe ajudam a lidar com essas questões.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o melanoma?',
+        paragraphs: [
+          'A prevenção se resume a reduzir a exposição ultravioleta. O INCA recomenda evitar o sol entre 10h e 16h, procurar sombra, usar roupas de proteção, boné ou chapéu de aba larga, óculos escuros com proteção UV e protetor solar com fator 15 no mínimo, inclusive nos lábios.',
+          'Câmaras de bronzeamento artificial não são uma alternativa segura e aumentam o risco de melanoma. Crianças e adolescentes precisam de atenção redobrada, porque a queimadura nessa fase pesa no risco futuro.',
+          'Não há evidência de que o rastreamento de melanoma em toda a população traga mais benefícios do que riscos, e o INCA não o recomenda. O que funciona é o diagnóstico precoce: conhecer a própria pele e procurar avaliação diante de qualquer lesão nova ou que mude.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Melanoma é contagioso?',
+        answer:
+          'Não. O melanoma não passa de uma pessoa para outra por contato, convivência ou relação sexual. Ele é resultado de alterações nas células da própria pele.',
+      },
+      {
+        question: 'Toda pinta escura é melanoma?',
+        answer:
+          'Não. A maioria das pintas é benigna. O que pede avaliação é a mudança: crescimento rápido, cor desigual, borda irregular, coceira, sangramento ou uma lesão nova que aparece depois dos 30 anos.',
+      },
+      {
+        question: 'Melanoma tem cura?',
+        answer:
+          'Sim, quando é retirado em fase inicial. A cirurgia costuma resolver os tumores finos e localizados. Nos casos avançados, o objetivo do tratamento é controlar a doença e prolongar a sobrevida com qualidade.',
+      },
+      {
+        question: 'Quem teve melanoma pode tomar sol?',
+        answer:
+          'Pode, com proteção. A recomendação é manter fotoproteção diária, evitar o horário de maior radiação e proteger a cicatriz, que fica mais sensível ao sol nos primeiros meses.',
+      },
+      {
+        question: 'Existe exame de rastreamento para melanoma?',
+        answer:
+          'O INCA não recomenda rastreamento em toda a população, porque não há evidência de que traga mais benefícios do que riscos. O caminho é o diagnóstico precoce, com exame da pele diante de qualquer lesão suspeita.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'melanoma-do-diagnostico-ao-estadiamento',
+      'melanoma-quando-a-cirurgia-nao-basta',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['cancer-de-pele', 'cancer-de-mama', 'cancer-de-prostata'],
+    references: [
+      {
+        label: 'Câncer de pele melanoma, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pele-melanoma/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Estimativas para o triênio 2026-2028',
+        url: 'https://www.scielo.br/j/rbcan/a/ZgsGr7Dw4sKrKYSnLKHk5KF/?lang=pt',
+        publisher: 'Revista Brasileira de Cancerologia (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-boca',
+    slug: 'cancer-de-boca',
+    name: 'Câncer de boca',
+    metaTitle: 'Câncer de boca: sinais, diagnóstico e tratamento',
+    aliases: ['câncer oral', 'câncer da cavidade oral', 'carcinoma oral', 'câncer de língua', 'tumor na boca'],
+    summary:
+      'Tumor maligno que começa nos lábios ou nas estruturas da boca, como língua, gengiva, bochecha e assoalho da boca. Tabaco e álcool são os principais fatores de risco. A maioria dos casos é diagnosticada tarde, e uma ferida que não cicatriza em 15 dias precisa de avaliação.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é câncer de boca?',
+        paragraphs: [
+          'O câncer de boca é um tumor maligno que começa nos lábios ou nas estruturas da cavidade oral: língua, gengiva, bochecha, céu da boca e a região embaixo da língua. A doença também pode atingir a orofaringe, a parte da garganta logo atrás da boca, e por isso os dois grupos costumam ser contados juntos nas estatísticas.',
+          'A maior parte desses tumores nasce nas células que revestem a mucosa, os chamados carcinomas epidermoides. Eles crescem a partir de uma ferida que não cicatriza, de uma placa esbranquiçada ou avermelhada, ou de um caroço endurecido. No início, a lesão costuma doer pouco e se parece com uma afta que demora a sarar, o que explica boa parte dos diagnósticos tardios.',
+          'A localização muda o impacto na vida diária. Um tumor pequeno na língua pode alterar a fala e a deglutição antes de crescer muito, enquanto uma lesão na gengiva pode ser confundida com problema dentário. Quanto mais cedo o câncer é encontrado, menor a cirurgia e maiores as chances de preservar essas funções.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos de câncer de boca?',
+        paragraphs: [
+          'O câncer de boca é classificado pelo lugar onde começa e pelo tipo de célula que dá origem ao tumor. A grande maioria é carcinoma epidermoide, também chamado de carcinoma de células escamosas, que surge na camada superficial da mucosa.',
+          'Existem outros tipos bem menos frequentes, como tumores das glândulas salivares, linfomas e sarcomas. Eles têm comportamento e tratamento diferentes, e o diagnóstico preciso depende da biópsia com análise do tecido.',
+          'A localização define o nome usado na prática clínica e o tipo de cirurgia necessário. Tumores de língua e de assoalho da boca são os mais comuns e os que mais comprometem a fala e a alimentação quando crescem.',
+        ],
+        bullets: [
+          'Língua: costuma começar nas bordas e é o sítio mais frequente',
+          'Assoalho da boca: região embaixo da língua, de difícil visualização no espelho',
+          'Gengiva: pode ser confundida com gengivite ou problema de dente',
+          'Bochecha e palato: lesões que aparecem como placas ou feridas persistentes',
+        ],
+      },
+      {
+        id: 'quem-e-afetado',
+        heading: 'Quem é afetado no Brasil?',
+        paragraphs: [
+          'O Instituto Nacional de Câncer estima 17.190 casos novos de câncer de boca e orofaringe por ano no Brasil no triênio de 2026 a 2028. Em 2024, foram registradas 7.156 mortes por esses tumores, sendo 5.430 em homens e 1.726 em mulheres.',
+          'É o quinto tumor mais frequente entre homens no Brasil, e a maioria dos casos é diagnosticada em estágio avançado. O perfil típico é de homens acima de 40 anos, com histórico de consumo frequente de álcool e tabaco e baixa escolaridade, segundo a análise das estimativas nacionais.',
+          'A diferença entre os sexos reflete, em boa parte, o padrão de consumo de tabaco e álcool. Nas últimas décadas, o número de casos entre mulheres cresceu, acompanhando a mudança desse consumo.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'O que aumenta o risco?',
+        paragraphs: [
+          'Tabaco e álcool são os dois principais fatores de risco, e o efeito soma. Quem fuma e bebe tem risco bem maior do que quem só fuma ou só bebe. Vale para cigarro industrializado e também para cigarro de palha, de cravo, charuto, cachimbo, narguilé, fumo de rolo, tabaco mascado e rapé.',
+          'Outros fatores entram na conta. Dieta pobre em frutas e vegetais, infecção pelo HPV, exposição dos lábios ao sol sem proteção, excesso de gordura corporal e idade acima de 50 anos aumentam a chance de desenvolver a doença. O HPV se associa sobretudo aos tumores de orofaringe e se transmite por contato sexual, inclusive no sexo oral.',
+          'Há ainda o atrito crônico. Dente quebrado, prótese mal ajustada e inflamação repetida da mucosa funcionam como agressão constante e favorecem o aparecimento de lesões precursoras. Trabalhadores expostos ao sol, ao betume e a radioisótopos, como o iodo-131, também têm risco ocupacional reconhecido.',
+        ],
+        bullets: [
+          'Tabagismo, em qualquer forma de uso',
+          'Consumo frequente de bebidas alcoólicas',
+          'Tabaco e álcool combinados, que multiplicam o risco',
+          'Infecção pelo HPV, sobretudo nos tumores de orofaringe',
+          'Sol sem proteção nos lábios e exposições ocupacionais',
+          'Dieta pobre em frutas e vegetais e excesso de gordura corporal',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sinais e sintomas?',
+        paragraphs: [
+          'O sinal mais importante é uma ferida na boca ou nos lábios que não cicatriza em 15 dias. Ela pode sangrar, crescer e ter a borda endurecida. A afta comum costuma sarar em uma ou duas semanas; quando ultrapassa esse prazo, a lesão precisa ser examinada por um dentista ou médico.',
+          'Outros sinais incluem manchas ou placas avermelhadas e esbranquiçadas na língua, na gengiva, no céu da boca ou na bochecha, caroços nos lábios, na boca ou no pescoço e rouquidão que não passa. Nenhum deles confirma câncer, e todos podem ter outras causas, mas pedem avaliação.',
+          'Nos casos avançados aparecem dificuldade para mastigar, engolir ou falar, sensação de algo preso na garganta, dificuldade para mover a língua e perda de peso. Dor de ouvido do mesmo lado da lesão, sem infecção aparente, é outro sinal que pode acompanhar tumores de língua e de orofaringe.',
+        ],
+        bullets: [
+          'Ferida na boca ou no lábio que não cicatriza em 15 dias',
+          'Placa vermelha ou esbranquiçada que não sai',
+          'Caroço endurecido na boca, no lábio ou no pescoço',
+          'Rouquidão persistente sem causa aparente',
+          'Dificuldade para engolir, falar ou mover a língua',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Quando procurar atendimento?',
+        paragraphs: [
+          'Qualquer alteração na boca que dure mais de duas semanas merece consulta. Não espere a lesão doer para procurar ajuda, porque o câncer de boca costuma doer pouco no início.',
+        ],
+        bullets: [
+          'Ferida que não cicatriza em 15 dias, mesmo sem dor',
+          'Placa branca ou vermelha persistente na mucosa',
+          'Caroço que cresce na boca ou no pescoço',
+          'Sangramento na boca sem causa identificada',
+          'Dificuldade nova para engolir, falar ou abrir a boca',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como é feito o diagnóstico?',
+        paragraphs: [
+          'O diagnóstico começa com o exame clínico da boca. O dentista ou o médico observa e apalpa lábios, língua, gengiva, bochecha, palato e assoalho da boca, e examina o pescoço em busca de gânglios aumentados. Esse exame é rápido e pode ser feito na unidade básica de saúde.',
+          'Diante de uma lesão suspeita, o passo seguinte é a biópsia: a retirada de um pequeno fragmento para análise no laboratório. Na maioria das vezes o procedimento é feito em ambulatório, com anestesia local. O resultado informa o tipo de tumor e o grau de diferenciação das células.',
+          'Depois da confirmação, exames de imagem avaliam a extensão. Tomografia, ressonância magnética e radiografia mostram o tamanho do tumor, o comprometimento de ossos e a presença de gânglios no pescoço. O conjunto define o estágio e o plano de tratamento, que deve começar o mais rápido possível em um centro especializado.',
+        ],
+        bullets: [
+          'Exame clínico: inspeção e palpação da boca e do pescoço',
+          'Biópsia: retirada de fragmento da lesão para análise',
+          'Tomografia e ressonância: avaliam tamanho e extensão do tumor',
+          'Radiografia: verifica se há comprometimento ósseo',
+        ],
+      },
+      {
+        id: 'cirurgia',
+        heading: 'Como é a cirurgia?',
+        paragraphs: [
+          'A cirurgia é o tratamento principal na maioria dos casos. Em lesões pequenas, basta retirar o tumor com uma margem de tecido sadio ao redor. Em tumores maiores, a operação inclui a remoção dos linfonodos do pescoço do lado afetado e a reconstrução da área.',
+          'A reconstrução pode ser feita com retalhos de pele e músculo retirados do próprio paciente, como o retalho do peitoral ou do antebraço, e com enxertos de osso para reconstruir a mandíbula. O objetivo é devolver contorno, permitir a alimentação e preservar ao máximo a fala.',
+          'O cirurgião de cabeça e pescoço é o profissional que avalia o estágio e define a operação, com apoio de equipe multidisciplinar. O tratamento cirúrgico é oferecido pelo SUS em centros de referência em oncologia, e o encaminhamento passa pela atenção básica ou pelo dentista que identificou a lesão.',
+        ],
+      },
+      {
+        id: 'radioterapia-e-quimioterapia',
+        heading: 'Quando entram a radioterapia e a quimioterapia?',
+        paragraphs: [
+          'A radioterapia pode ser usada antes da cirurgia, para reduzir o tumor, ou depois, quando o risco de recidiva é alto, quando a margem de retirada ficou comprometida ou quando há gânglios acometidos. As sessões são diárias, por algumas semanas, e exigem acompanhamento para controlar efeitos como feridas na boca e dificuldade para engolir.',
+          'A quimioterapia costuma ser associada à radioterapia em tumores avançados, com o objetivo de potencializar o efeito da radiação. Ela também pode ser indicada antes da cirurgia em casos selecionados e, na doença metastática, para controlar a evolução.',
+          'Nem todo paciente precisa desses tratamentos. A indicação depende do estágio, da localização, do resultado da biópsia e das condições clínicas. O plano é definido em reunião de equipe, e o paciente deve ser informado sobre benefícios e efeitos esperados antes de começar.',
+        ],
+      },
+      {
+        id: 'imunoterapia',
+        heading: 'E a imunoterapia e a terapia-alvo?',
+        paragraphs: [
+          'A imunoterapia e a terapia-alvo são opções para casos recorrentes ou metastáticos, quando a cirurgia e a radioterapia não resolvem. A imunoterapia ativa o sistema imunológico para reconhecer as células tumorais; a terapia-alvo bloqueia alterações específicas que fazem o tumor crescer.',
+          'Esses medicamentos não substituem o tratamento inicial e não são indicados para todos os tumores. A escolha depende de exames que identificam marcadores nas células do tumor, e o acesso varia conforme o serviço e os critérios de incorporação no SUS.',
+          'Existem ainda recursos complementares usados em situações específicas, como laser e crioterapia em lesões pequenas e quimioterapia aplicada diretamente na região do tumor. São indicações pontuais, definidas pelo especialista, e não substituem a cirurgia quando ela é possível.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'O prognóstico depende principalmente do estágio no momento do diagnóstico, da localização do tumor e do comprometimento de gânglios. Lesões pequenas, restritas à mucosa, têm chance de cura alta com cirurgia. Tumores avançados exigem tratamentos combinados e têm risco maior de recidiva.',
+          'A região da boca tem vasos e estruturas complexas, o que dificulta a retirada completa do tumor e favorece a disseminação para os gânglios do pescoço. Por isso, mesmo depois de uma cirurgia considerada bem-sucedida, o acompanhamento é obrigatório.',
+          'Boa parte desse resultado ruim vem do diagnóstico tardio. A maioria dos casos no Brasil ainda é identificada em fase avançada, quando a cirurgia é maior e as sequelas funcionais são mais importantes.',
+        ],
+      },
+      {
+        id: 'reabilitacao',
+        heading: 'Como é a recuperação e a reabilitação?',
+        paragraphs: [
+          'A recuperação começa no hospital, com controle da dor, cuidado com a ferida e retorno gradual da alimentação. Depois da alta, o acompanhamento com fonoaudiólogo, nutricionista, fisioterapeuta e dentista faz diferença na qualidade de vida.',
+          'A fonoaudiologia trabalha a fala e a deglutição, com exercícios para a língua, a musculatura da boca e a coordenação da engolir. A nutrição acompanha o ganho de peso e adapta a consistência dos alimentos. A fisioterapia cuida da mobilidade do ombro e do pescoço depois da retirada de gânglios.',
+          'A reabilitação dentária e a prótese ajudam a mastigar e a falar com mais conforto. Cada caso tem um ritmo próprio, e o progresso costuma ser medido em meses, não em semanas.',
+        ],
+      },
+      {
+        id: 'cuidados-diarios',
+        heading: 'Quais cuidados fazem parte da rotina?',
+        paragraphs: [
+          'Manter a boca limpa reduz infecções, sobretudo durante a radioterapia e a quimioterapia. Escovação suave, uso de fio dental quando possível e bochechos prescritos pela equipe ajudam. Evite álcool e cigarro, que irritam a mucosa e aumentam o risco de um segundo tumor.',
+          'A alimentação precisa de atenção. Durante o tratamento, alimentos muito ácidos, picantes ou duros machucam a mucosa. Preparações macias, frias ou em temperatura ambiente, com boa quantidade de proteína, ajudam na recuperação do peso e na cicatrização.',
+          'O apoio emocional é parte do cuidado. Ansiedade, depressão e isolamento são comuns, e afetam a adesão ao tratamento. Conversar com a equipe, participar de grupos de apoio e buscar acompanhamento psicológico quando necessário são medidas concretas, não um detalhe.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Como prevenir o câncer de boca?',
+        paragraphs: [
+          'A prevenção começa por não usar tabaco, em nenhuma forma, e por evitar bebidas alcoólicas. O SUS oferece tratamento para quem quer parar de fumar, com acompanhamento na atenção básica. Quem fuma ou bebe com frequência deve redobrar a atenção a qualquer lesão na boca.',
+          'Cuidar da higiene bucal e resolver problemas dentários ajuda. Dente quebrado, prótese que machuca e gengiva inflamada de forma persistente devem ser tratados, e não servem como desculpa para adiar a avaliação de uma ferida que não sara.',
+          'Usar preservativo no sexo oral reduz a transmissão do HPV, e a vacina contra o HPV protege contra os tipos virais mais associados aos tumores de orofaringe. Protetor solar nos lábios previne o câncer de lábio em quem trabalha ao ar livre. Consultas odontológicas regulares são a melhor oportunidade para examinar a boca com atenção.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Câncer de boca é contagioso?',
+        answer:
+          'Não. O tumor não passa de uma pessoa para outra. O que pode ser transmitido é o HPV, um dos fatores associados a alguns tumores de orofaringe, e o preservativo no sexo oral reduz esse risco.',
+      },
+      {
+        question: 'Afta que não sara é câncer?',
+        answer:
+          'Nem sempre, mas precisa ser avaliada. A afta comum cicatriza em uma ou duas semanas. Uma ferida que dura 15 dias ou mais deve ser examinada por um dentista ou médico.',
+      },
+      {
+        question: 'Câncer de boca tem cura?',
+        answer:
+          'Sim, quando é diagnosticado no início. Lesões pequenas costumam ser resolvidas com cirurgia. Nos casos avançados, o tratamento combina cirurgia, radioterapia e, em situações específicas, medicamentos.',
+      },
+      {
+        question: 'Quem não fuma nem bebe pode ter câncer de boca?',
+        answer:
+          'Pode. Tabaco e álcool explicam a maior parte dos casos, mas HPV, exposição ao sol nos lábios, atrito crônico e dieta pobre em frutas e vegetais também estão associados à doença.',
+      },
+      {
+        question: 'O dentista pode identificar câncer de boca?',
+        answer:
+          'Sim. O exame da boca faz parte da consulta odontológica, e o dentista é frequentemente quem percebe a lesão e encaminha para biópsia. A confirmação, porém, depende do exame do tecido.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'cancer-de-boca-ferida-que-nao-sara',
+      'cancer-de-boca-depois-da-cirurgia',
+    ],
+    relatedTopicSlugs: ['doencas-cronicas', 'prevencao'],
+    relatedDiseaseSlugs: ['cancer-de-pulmao', 'cancer-de-estomago', 'cancer-de-pele'],
+    references: [
+      {
+        label: 'Câncer de boca, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/boca/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+      {
+        label: 'Câncer de boca',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/boca',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'transtorno-de-ansiedade-generalizada',
+    slug: 'transtorno-de-ansiedade-generalizada',
+    name: 'Transtorno de ansiedade generalizada',
+    metaTitle: 'Transtorno de ansiedade generalizada (TAG)',
+    aliases: [
+      'TAG',
+      'ansiedade generalizada',
+      'transtorno ansioso',
+      'ansiedade crônica',
+      'preocupação excessiva',
+    ],
+    summary:
+      'Transtorno mental em que a preocupação excessiva com assuntos do dia a dia dura meses, foge do controle e vem acompanhada de tensão, insônia e sintomas físicos. Tem tratamento eficaz.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é transtorno de ansiedade generalizada?',
+        paragraphs: [
+          'O transtorno de ansiedade generalizada, conhecido pela sigla TAG, é um transtorno mental em que a preocupação ocupa boa parte do dia. A pessoa se preocupa ao mesmo tempo com contas, saúde, trabalho, filhos e segurança da família, e não consegue desligar esse alarme nem quando o problema já foi resolvido. Junto com os pensamentos vêm tensão muscular, inquietação e dificuldade para dormir.',
+          'Não é o nervosismo passageiro de antes de uma prova ou de uma entrevista. No TAG, o medo e a preocupação são intensos, desproporcionais à situação, duram meses, fogem do controle e atrapalham o trabalho, os estudos e a convivência. Quem tem o transtorno costuma saber que a preocupação é exagerada, e é justamente essa consciência que aumenta o sofrimento.',
+          'Os transtornos de ansiedade são os transtornos mentais mais comuns no mundo. A Organização Mundial da Saúde estima que 470 milhões de pessoas, ou 5,8% da população mundial, viviam com algum transtorno de ansiedade em 2023. Os sintomas costumam começar na infância ou na adolescência e seguir para a vida adulta, e as mulheres são mais afetadas do que os homens.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'O sintoma central é a preocupação que não para. Ela muda de assunto várias vezes no mesmo dia, aparece sem motivo claro e volta assim que a pessoa tenta se distrair. Concentrar-se em uma leitura, decidir o que fazer primeiro e lembrar compromissos passa a custar esforço, e a irritabilidade sobe com facilidade.',
+          'O corpo também responde. Palpitações, suor, tremor, náusea, aperto no estômago, dor de cabeça e sensação de perigo iminente são comuns, mesmo em momentos tranquilos. Muita gente chega ao consultório convencida de que tem um problema no coração ou no estômago, e os exames vêm normais.',
+          'Com o tempo, o transtorno muda o comportamento. A pessoa evita situações que disparam a ansiedade, confere tudo várias vezes, pede garantias a familiares e deixa de sair. O resultado aparece no trabalho, no sono e nos relacionamentos, e é esse prejuízo que separa o transtorno da ansiedade comum.',
+        ],
+        bullets: [
+          'Preocupação excessiva com vários assuntos, quase todos os dias',
+          'Dificuldade para concentrar e para tomar decisões simples',
+          'Irritabilidade, inquietação e sensação de estar sempre no limite',
+          'Palpitações, suor, tremor e náusea sem causa clínica aparente',
+          'Tensão muscular, principalmente em ombros, mandíbula e nuca',
+          'Dificuldade para iniciar ou manter o sono',
+          'Sensação de perigo ou de tragédia iminente',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar ajuda sem esperar',
+        paragraphs: [
+          'O TAG raramente é uma emergência por si só, mas alguns sinais pedem avaliação no mesmo dia, porque indicam risco à vida ou outra doença por trás dos sintomas.',
+          'Pensamentos de morte, planos de se machucar ou a sensação de que a vida não vale mais a pena não são parte esperada do transtorno e exigem ajuda imediata. O Centro de Valorização da Vida atende pelo 188, e o SAMU pelo 192.',
+        ],
+        bullets: [
+          'Ideia de se matar, plano de se machucar ou desejo de desaparecer',
+          'Dor no peito pela primeira vez, falta de ar ou palpitações fortes, que precisam de avaliação para descartar causa cardíaca',
+          'Crises de pânico repetidas, com medo de morrer ou de perder o controle',
+          'Uso crescente de álcool, calmantes de outra pessoa ou drogas para conseguir dormir',
+          'Incapacidade de sair de casa, de trabalhar ou de cuidar dos filhos por causa da ansiedade',
+          'Perda de peso, insônia de vários dias ou agitação intensa',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'O que causa a ansiedade generalizada?',
+        paragraphs: [
+          'Não existe uma causa única. O transtorno resulta da interação entre fatores biológicos, psicológicos e sociais, e a mesma pessoa pode reunir vários deles ao mesmo tempo. Isso explica por que duas pessoas criadas na mesma casa podem ter desfechos diferentes.',
+          'Viver situações de abuso, perdas graves ou outras experiências adversas aumenta a probabilidade de desenvolver o transtorno. Estresse crônico, violência, instabilidade financeira e luto também pesam, e a ansiedade pode aparecer meses depois do acontecimento.',
+          'A saúde física faz parte da conta. A tensão constante e a hiperatividade do sistema nervoso são fatores de risco para doenças cardiovasculares, e quem convive com uma doença crônica tem mais chance de desenvolver ansiedade por causa das dificuldades de manejo. Tratar as duas coisas ao mesmo tempo costuma funcionar melhor do que tratar apenas uma.',
+        ],
+        bullets: [
+          'História de abuso, violência ou perdas graves',
+          'Estresse crônico no trabalho, na família ou nas finanças',
+          'Histórico familiar de transtorno de ansiedade ou depressão',
+          'Conviver com doença crônica, dor persistente ou doença cardíaca',
+          'Uso nocivo de álcool e de outras drogas',
+          'Ser mulher, o que reflete uma combinação de fatores sociais e biológicos',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico é clínico. Não existe exame de sangue que confirme ansiedade. O profissional ouve a história, verifica há quanto tempo a preocupação existe, se ela é difícil de controlar, quais sintomas físicos acompanham e o quanto isso atrapalha a rotina.',
+          'Antes de fechar o diagnóstico, é preciso afastar outras causas. Hipertireoidismo, arritmias, anemia e efeitos de medicamentos ou de estimulantes produzem sintomas parecidos, e a retirada abrupta de álcool também. Por isso o médico pode pedir exames de sangue e avaliar o uso de café, energéticos e substâncias.',
+          'Depressão e outros transtornos de ansiedade costumam aparecer junto. A avaliação precisa olhar para o conjunto, porque a escolha do tratamento muda quando há depressão associada. Questionários de rastreio ajudam a organizar a conversa, mas não substituem a avaliação clínica.',
+        ],
+        cta: {
+          label: 'Leia também: preocupação normal ou transtorno?',
+          href: '/artigos/transtorno-de-ansiedade-generalizada-preocupacao-normal-ou-transtorno/',
+        },
+      },
+      {
+        id: 'qual-servico-procurar',
+        heading: 'Qual serviço procurar',
+        paragraphs: [
+          'A Unidade Básica de Saúde é a principal porta de entrada do SUS e o primeiro lugar a procurar quando a preocupação começa a atrapalhar o dia. Na UBS, o médico de família ou o clínico geral avalia os sintomas, pede os exames necessários e inicia o cuidado, com apoio da equipe de enfermagem e, quando disponível, de psicólogo e assistente social.',
+          'Quando o quadro é intenso, recorrente ou vem acompanhado de outras condições, o encaminhamento costuma ser para o Centro de Atenção Psicossocial. O CAPS é um serviço público aberto à comunidade, atende pessoas em sofrimento psíquico intenso e aceita procura espontânea, sem precisar de encaminhamento.',
+          'Em crise, com risco de se machucar ou sintomas físicos importantes, o atendimento pode ser feito em uma UPA 24h ou pelo SAMU 192, que atende ocorrências de natureza psiquiátrica. Se houver pensamento suicida, a pessoa não deve ficar sozinha enquanto busca ajuda.',
+        ],
+        bullets: [
+          'Anote quando os sintomas começaram e o que piora ou melhora',
+          'Leve a lista de remédios em uso, incluindo os comprados sem receita',
+          'Registre o consumo de café, álcool e outras substâncias',
+          'Peça a alguém que convive com você para descrever o que mudou',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento tem dois pilares, e eles se somam. As intervenções psicológicas ensinam a pessoa a lidar com a preocupação e com as situações que a disparam. Os medicamentos entram quando os sintomas são intensos ou persistentes, e a decisão considera gravidade, preferência e disponibilidade do serviço.',
+          'A terapia cognitivo-comportamental é a abordagem com mais evidência para os transtornos de ansiedade. Ela ajuda a reconhecer pensamentos automáticos, testar o quanto eles correspondem à realidade e enfrentar aos poucos as situações evitadas, com técnicas de exposição. Pode ser feita individualmente, em grupo, presencialmente ou on-line.',
+          'A OMS considera que existem tratamentos altamente eficazes para os transtornos de ansiedade, mas apenas cerca de uma em cada quatro pessoas que precisam recebe algum tratamento. Entre as barreiras estão não saber que se trata de uma condição tratável, falta de profissionais e o estigma.',
+        ],
+      },
+      {
+        id: 'remedios',
+        heading: 'Remédios: o que esperar',
+        paragraphs: [
+          'Os antidepressivos da classe dos inibidores seletivos da recaptação de serotonina são úteis no tratamento de adultos com transtornos de ansiedade. O efeito não é imediato e costuma aparecer ao longo das primeiras semanas, enquanto alguns efeitos adversos podem surgir no início e tendem a diminuir com o ajuste da dose.',
+          'Os benzodiazepínicos, usados por muito tempo como primeira escolha, hoje são geralmente desaconselhados no transtorno de ansiedade. O motivo é o alto potencial de dependência e a eficácia limitada no longo prazo. Quando são prescritos, o fazem por período curto, com data para rever a necessidade.',
+          'Nenhum remédio deve ser iniciado, aumentado ou interrompido por conta própria. Parar de repente pode provocar sintomas de retirada e retorno da ansiedade. Gravidez, amamentação, outras doenças e o uso de bebida alcoólica precisam ser discutidos com quem prescreve.',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'O TAG tem tratamento e melhora com ele. Muitas pessoas respondem bem à terapia e, quando necessário, à medicação, recuperando sono, concentração e capacidade de trabalhar. O curso costuma ser oscilante, com períodos melhores e piores, e recaídas são mais prováveis quando o tratamento é interrompido cedo demais.',
+          'Sem tratamento, o transtorno tende a se cronificar e a se espalhar para outras áreas da vida. A pessoa restringe a rotina, perde oportunidades e passa a ser vista como alguém que se preocupa demais, o que atrasa ainda mais a busca por cuidado.',
+          'A ansiedade não tratada aumenta o risco de depressão, de uso nocivo de álcool e outras drogas e de pensamentos suicidas. Também piora o controle de doenças físicas, porque interfere no sono, na alimentação e na adesão aos remédios de uso contínuo.',
+        ],
+      },
+      {
+        id: 'rotina-e-autocuidado',
+        heading: 'O que ajuda no dia a dia',
+        paragraphs: [
+          'Rotina previsível sustenta o tratamento. Horários regulares para dormir e comer, atividade física mesmo que seja uma caminhada curta e redução de cafeína no fim do dia diminuem a descarga de sintomas. O álcool merece atenção: ele parece aliviar no começo e piora a ansiedade nas horas seguintes.',
+          'Técnicas de relaxamento podem ser aprendidas e repetidas em casa. Respiração lenta, relaxamento muscular progressivo e alguns minutos de atenção plena por dia são recursos com evidência para reduzir sintomas de ansiedade, e funcionam melhor quando praticados com regularidade, não apenas nas crises.',
+          'Vale também organizar as preocupações. Escrever o que está em jogo, separar o que depende de você e marcar um horário do dia para pensar no assunto tira a preocupação do comando do dia inteiro. Contar a familiares e amigos o que ajuda e o que atrapalha evita cobranças que aumentam a tensão.',
+        ],
+        bullets: [
+          'Dormir e comer em horários regulares',
+          'Praticar atividade física, mesmo em sessões curtas',
+          'Evitar álcool e outras drogas, que pioram a ansiedade',
+          'Reservar alguns minutos diários para respiração lenta ou atenção plena',
+          'Manter contato com pessoas de confiança em vez de se isolar',
+        ],
+        cta: {
+          label: 'Leia também: ansiedade no trabalho',
+          href: '/artigos/transtorno-de-ansiedade-generalizada-trabalho-e-tratamento/',
+        },
+      },
+      {
+        id: 'prevencao',
+        heading: 'É possível prevenir?',
+        paragraphs: [
+          'A prevenção existe, mas não é individual. Programas de educação para pais e ações nas escolas que treinam habilidades socioemocionais e formas saudáveis de lidar com o estresse reduzem a ansiedade em crianças e adolescentes. Em adultos, programas de exercício físico também aparecem entre as medidas eficazes.',
+          'Para quem já tem sintomas, procurar ajuda cedo é a forma mais concreta de prevenção: quanto menor o tempo de ansiedade não tratada, menor o impacto sobre trabalho, sono e relações. Esperar que passe sozinho costuma prolongar o problema.',
+          'Prevenir não significa evitar todo estresse, o que é impossível. Significa construir repertório para atravessar períodos difíceis sem que a preocupação se torne o centro da vida.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Transtorno de ansiedade generalizada tem cura?',
+        answer:
+      'Não existe uma cura única, e a maioria das pessoas não precisa de tratamento para sempre. O objetivo é reduzir os sintomas e recuperar a rotina, o que costuma acontecer com terapia e, quando indicado, medicação. Como o curso é oscilante, vale manter um plano de retorno caso os sintomas voltem.',
+      },
+      {
+        question: 'Ansiedade é sinal de fraqueza?',
+        answer:
+      'Não. O transtorno resulta da interação entre fatores biológicos, psicológicos e sociais, e não de falta de força de vontade. A pessoa costuma saber que a preocupação é exagerada e não consegue parar, o que mostra que o problema não é escolha.',
+      },
+      {
+        question: 'Preciso tomar remédio para sempre?',
+        answer:
+      'Não há uma regra fixa. A indicação depende da intensidade dos sintomas, da resposta ao tratamento e da presença de outras condições. Muitas pessoas fazem terapia e usam medicação por um período, com revisão periódica da necessidade.',
+      },
+      {
+        question: 'Café e bebida alcoólica pioram a ansiedade?',
+        answer:
+      'Podem piorar. O álcool traz alívio momentâneo e aumenta a ansiedade depois, além de atrapalhar o sono. A cafeína em excesso piora palpitações e insônia. Vale observar o próprio padrão e conversar sobre isso na consulta.',
+      },
+      {
+        question: 'Quando procurar um pronto atendimento?',
+        answer:
+      'Quando houver pensamento de se matar, dor no peito pela primeira vez, falta de ar importante ou incapacidade de se cuidar. Nesses casos, procure uma UPA 24h, ligue para o SAMU 192 ou para o CVV no 188 e não fique sozinho.',
+      },
+      {
+        question: 'Crianças e adolescentes podem ter o transtorno?',
+        answer:
+      'Sim. Os sintomas de ansiedade costumam começar na infância ou na adolescência e continuar na vida adulta. Em crianças, irritabilidade, medo de separação e queixas físicas repetidas podem ser a forma de apresentação, e a avaliação deve incluir a escola e a família.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'transtorno-de-ansiedade-generalizada-preocupacao-normal-ou-transtorno',
+      'transtorno-de-ansiedade-generalizada-trabalho-e-tratamento',
+    ],
+    relatedTopicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedDiseaseSlugs: [
+      'depressao',
+      'transtorno-bipolar',
+      'hipertireoidismo',
+    ],
+    references: [
+      {
+        label: 'Anxiety disorders',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Saúde Mental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rede de Atenção Psicossocial (RAPS)',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'transtorno-bipolar',
+    slug: 'transtorno-bipolar',
+    name: 'Transtorno bipolar',
+    metaTitle: 'Transtorno bipolar: mania, depressão e tratamento',
+    aliases: [
+      'transtorno afetivo bipolar',
+      'doença bipolar',
+      'psicose maníaco-depressiva',
+      'bipolaridade',
+    ],
+    summary:
+      'Transtorno mental marcado por oscilações entre episódios de mania ou hipomania e episódios de depressão. Tem tratamento eficaz, baseado em estabilizadores do humor e acompanhamento contínuo.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é transtorno bipolar?',
+        paragraphs: [
+          'O transtorno bipolar é uma condição de saúde mental que afeta o humor, a energia, a atividade e o pensamento. Ele se caracteriza por episódios de mania ou hipomania, em que o humor fica muito elevado e a energia dispara, alternados com episódios de depressão, em que a pessoa fica para baixo, sem interesse e sem energia.',
+          'Não é o mesmo que ter variações de humor ao longo do dia. As oscilações do transtorno bipolar duram dias ou semanas, mudam de forma intensa o funcionamento da pessoa e trazem prejuízo para o trabalho, os estudos e as relações. Nas fases mais graves, podem exigir internação para evitar danos à própria pessoa ou a outros.',
+          'A Organização Mundial da Saúde estima que 36 milhões de pessoas, ou 0,4% da população mundial, viviam com transtorno bipolar em 2023, o equivalente a uma em cada 226 pessoas. A prevalência é parecida entre homens e mulheres, mas as mulheres são diagnosticadas com mais frequência. A condição aparece sobretudo em idade produtiva, e também em jovens.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Quais são os tipos?',
+        paragraphs: [
+          'A classificação se baseia no padrão dos episódios, e não em rótulos de gravidade moral. Os dois tipos principais são o transtorno bipolar tipo I e o tipo II, e a diferença entre eles está na presença de mania completa ou apenas de hipomania.',
+          'No tipo I, a pessoa tem pelo menos um episódio de mania, com ou sem sintomas psicóticos, e em geral também apresenta episódios de depressão. Com o passar dos anos, os episódios depressivos costumam se tornar mais frequentes do que os de mania.',
+          'No tipo II, existem episódios de hipomania e pelo menos um episódio depressivo, mas nenhum episódio de mania completa. A hipomania tem os mesmos sintomas da mania em intensidade menor, e costuma não interromper tanto a capacidade de funcionar, o que faz esse tipo passar despercebido por muito tempo.',
+        ],
+        bullets: [
+          'Tipo I: um ou mais episódios de mania, geralmente com fases depressivas ao longo da vida',
+          'Tipo II: episódios de hipomania e pelo menos um episódio depressivo, sem mania completa',
+          'Hipomania: sintomas parecidos com a mania, porém menos intensos e com menor prejuízo funcional',
+        ],
+      },
+      {
+        id: 'sintomas-de-mania',
+        heading: 'Como é um episódio de mania?',
+        paragraphs: [
+          'Na mania, o humor fica extremamente elevado, eufórico ou irritado, e a energia parece não acabar. A pessoa fala muito e rápido, muda de assunto sem parar, dorme poucas horas e acorda disposta, e sente que consegue fazer tudo ao mesmo tempo.',
+          'Junto com isso vêm ideias de grandiosidade, distração fácil, agitação e decisões impulsivas. Gastos altos, direção perigosa, envolvimento sexual de risco e consumo de álcool ou drogas são comuns nessa fase. Crenças fixas e falsas, de grandeza ou de perseguição, podem aparecer quando o quadro é mais intenso.',
+          'O episódio não é apenas desagradável: ele pode destruir finanças, relacionamentos e empregos em poucos dias. Quem está na fase maníaca costuma não perceber o problema, e é a família que procura ajuda. Por isso, o relato de quem convive com a pessoa é parte essencial da avaliação.',
+        ],
+        bullets: [
+          'Humor eufórico, exaltado ou irritado fora do normal',
+          'Fala rápida e mudança constante de assunto',
+          'Necessidade muito reduzida de sono',
+          'Sensação de grande capacidade e ideias de grandiosidade',
+          'Distração fácil e agitação',
+          'Gastos, direção e relações sexuais de risco',
+          'Crenças de grandeza ou de perseguição',
+        ],
+      },
+      {
+        id: 'sintomas-de-depressao',
+        heading: 'Como é um episódio de depressão?',
+        paragraphs: [
+          'Na fase depressiva, o humor fica triste, irritado ou vazio, e a pessoa perde o interesse ou o prazer em atividades de que gostava. A energia cai, tarefas simples parecem pesadas e o dia começa sem perspectiva.',
+          'Outros sintomas acompanham o quadro: dificuldade de concentração, culpa excessiva, sensação de pouco valor, falta de esperança, alterações de sono e de apetite, cansaço e pensamentos sobre morte ou suicídio. A ideação suicida precisa ser perguntada de forma direta em toda avaliação, porque a fase depressiva do transtorno bipolar concentra o maior risco.',
+          'A diferença em relação a uma tristeza comum está na duração e na intensidade: os sintomas ocupam a maior parte do dia, quase todos os dias, por pelo menos duas semanas, e atrapalham a vida de forma clara.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar ajuda sem esperar',
+        paragraphs: [
+          'O transtorno bipolar aumenta o risco de suicídio e de comportamentos impulsivos com consequências graves. Alguns sinais exigem avaliação imediata, e não podem esperar a próxima consulta de rotina.',
+          'Em crise, o atendimento pode ser feito em uma UPA 24h ou pelo SAMU 192, que atende ocorrências psiquiátricas. Quando há risco à vida, a internação em leito de saúde mental de hospital geral é uma das possibilidades previstas na rede pública.',
+        ],
+        bullets: [
+          'Falar em morrer, se machucar ou se matar, ou dar sinais de despedida',
+          'Agitação intensa, agressividade ou risco de machucar outra pessoa',
+          'Não dormir por vários dias seguidos e ficar cada vez mais acelerado',
+          'Gastos repentinos e altos, dívidas ou decisões irreversíveis tomadas em poucas horas',
+          'Crenças de perseguição ou ouvir vozes, com medo intenso',
+          'Parar de comer, beber ou tomar os remédios por conta própria',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'O que causa o transtorno bipolar?',
+        paragraphs: [
+          'A causa exata é desconhecida. O que se sabe é que fatores biológicos, genéticos, psicológicos, sociais e estruturais participam do início, do curso e do desfecho do transtorno. A genética tem peso importante, mas não explica tudo sozinha.',
+          'Acontecimentos que mudam a vida podem disparar ou agravar os sintomas: luto, violência, fim de um relacionamento, perda de emprego e privação de sono. O uso de álcool e de outras drogas também influencia o início e a evolução.',
+          'O trabalho entra nas duas direções. Em condições ruins, ele é fonte de estresse e de recaída. Com apoio e ajustes razoáveis, pode ser protetor: melhora o funcionamento, reduz sintomas e aumenta a autoestima e a qualidade de vida.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico é clínico e depende da história ao longo do tempo. Não basta identificar uma fase de tristeza ou de euforia: é preciso reconhecer o padrão dos episódios, a duração, a frequência e o impacto de cada um.',
+          'A confusão mais comum é com a depressão unipolar. Quem procura ajuda durante uma fase depressiva pode receber diagnóstico de depressão e passar anos sem tratamento adequado, porque a hipomania leve não é lembrada na consulta. Perguntar sobre períodos de energia alta, pouco sono e impulsividade muda o rumo do caso.',
+          'O médico também precisa afastar outras causas: efeito de medicamentos, uso de substâncias, doenças da tireoide e quadros neurológicos. A OMS alerta que muitas pessoas com transtorno bipolar são mal diagnosticadas ou não recebem tratamento, o que reforça a importância de uma avaliação cuidadosa e de uma segunda opinião quando há dúvida.',
+        ],
+        cta: {
+          label: 'Leia também: por que o diagnóstico demora',
+          href: '/artigos/transtorno-bipolar-por-que-o-diagnostico-demora/',
+        },
+      },
+      {
+        id: 'qual-servico-procurar',
+        heading: 'Qual serviço procurar',
+        paragraphs: [
+          'A Unidade Básica de Saúde é a porta de entrada do SUS e costuma ser o primeiro contato. O médico de família avalia os sintomas, trata o que for possível na atenção primária e encaminha para o serviço especializado quando o quadro exige acompanhamento com psiquiatra.',
+          'O Centro de Atenção Psicossocial atende pessoas em sofrimento psíquico intenso e pode acompanhar casos de transtorno bipolar, com equipe multiprofissional e articulação com a UBS. O acesso pode começar por procura espontânea ou por encaminhamento de outros serviços.',
+          'Em crise com risco à vida, o caminho é a UPA 24h, o SAMU 192 ou o serviço de emergência de referência. A internação, quando necessária, costuma ser breve e em leito de saúde mental de hospital geral, com retorno ao acompanhamento na rede extra-hospitalar depois da estabilização.',
+        ],
+        bullets: [
+          'Leve o histórico das fases, com datas e duração de cada uma',
+          'Anote os remédios em uso e os que já foram tentados, com resposta e efeitos',
+          'Registre o padrão de sono nas semanas anteriores',
+          'Peça a um familiar que relate o que observou nas fases de euforia',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento combina medicamentos e intervenções psicológicas e psicossociais. Os medicamentos são considerados essenciais, mas costumam ser insuficientes sozinhos para uma recuperação completa. A escolha deve ser compartilhada com a pessoa, considerando eficácia, efeitos adversos e preferências.',
+          'Para a mania aguda, os estabilizadores do humor, como o lítio e o valproato, e os antipsicóticos têm eficácia comprovada. Na depressão bipolar, os antidepressivos podem ser associados a estabilizadores ou antipsicóticos, mas não devem ser usados durante um episódio de mania, pelo risco de piorar o quadro.',
+          'Intervenções psicológicas como terapia cognitivo-comportamental, terapia interpessoal e psicoeducação reduzem sintomas depressivos e a chance de retorno. A psicoeducação familiar ajuda a família a entender a doença, reconhecer sinais precoces e apoiar o tratamento.',
+        ],
+      },
+      {
+        id: 'remedios-e-monitoramento',
+        heading: 'Remédios, exames e cuidados de segurança',
+        paragraphs: [
+          'O lítio é um dos pilares do tratamento e exige acompanhamento clínico e laboratorial regular, porque sua margem de segurança é estreita: a dose precisa ser ajustada com base em exames, e não apenas na resposta clínica. Desidratação, febre, vômitos e mudanças em outros remédios podem alterar os níveis no sangue e provocar intoxicação.',
+          'O valproato não deve ser usado por gestantes, por mulheres que amamentam ou por mulheres com potencial de engravidar, pelo risco de malformações e de problemas no desenvolvimento do bebê. O lítio e a carbamazepina também devem ser evitados na gravidez e na amamentação sempre que possível, e qualquer planejamento de gestação precisa ser discutido antes.',
+          'Alguns medicamentos causam sonolência, espasmos musculares involuntários, tremores e alterações metabólicas, como ganho de peso. Esses efeitos afetam a adesão e devem ser monitorados e manejados, em vez de servirem de motivo para abandonar o tratamento por conta própria.',
+        ],
+        cta: {
+          label: 'Leia também: o que monitorar no uso do lítio',
+          href: '/artigos/transtorno-bipolar-litio-e-exames-de-controle/',
+        },
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'Os sintomas tendem a recorrer, mas a recuperação é possível. Com cuidado adequado, muitas pessoas conseguem lidar com os sintomas e viver de forma significativa e produtiva, com trabalho, estudo e relações estáveis.',
+          'Depois de uma remissão completa, adultos costumam precisar manter estabilizadores do humor ou antipsicóticos por pelo menos seis meses. Quem tem vários episódios de mania e depressão geralmente necessita de tratamento por mais tempo, para reduzir recaídas.',
+          'O transtorno bipolar está entre as principais causas de incapacidade no mundo e reduz a expectativa de vida: em média, as pessoas morrem 13 anos antes da população geral. Parte desse excesso vem de suicídio, e outra parte de doenças físicas, como problemas cardiovasculares e respiratórios, mais frequentes em quem fuma, bebe em excesso e tem dificuldade de acesso à saúde.',
+        ],
+      },
+      {
+        id: 'rotina-e-cuidado-continuado',
+        heading: 'Rotina, sono e cuidado continuado',
+        paragraphs: [
+          'Sono regular é parte do tratamento, não um detalhe de estilo de vida. Dormir e acordar em horários estáveis, evitar noites em claro e reconhecer os primeiros sinais de que a necessidade de sono caiu ajudam a interceptar uma fase de mania antes que ela se instale.',
+          'Atividade física, alimentação saudável, redução de estressores e monitoramento do humor completam o cuidado. Anotar o humor todos os dias, em uma escala simples, permite que a pessoa e o profissional percebam padrões que passariam despercebidos em consultas espaçadas.',
+          'A rede de apoio faz diferença. Grupos de apoio e de psicoeducação oferecem informação, troca de experiências e habilidades de enfrentamento para a pessoa e para a família. Apoio ao trabalho, moradia e convivência, quando disponíveis, sustentam a recuperação e reduzem o isolamento.',
+        ],
+        bullets: [
+          'Manter horários estáveis de sono e de refeições',
+          'Praticar atividade física com regularidade',
+          'Evitar álcool e outras drogas',
+          'Registrar o humor diariamente e levar o registro às consultas',
+          'Manter o tratamento nos períodos em que está bem',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Transtorno bipolar tem cura?',
+        answer:
+      'Não existe cura, mas existe tratamento eficaz. Os sintomas tendem a recorrer, e o objetivo é controlar as fases, reduzir a frequência das recaídas e manter a pessoa funcionando bem entre os episódios. Com acompanhamento contínuo, a recuperação é possível.',
+      },
+      {
+        question: 'Qual é a diferença entre tipo I e tipo II?',
+        answer:
+      'No tipo I há pelo menos um episódio de mania completa, que costuma causar prejuízo importante. No tipo II há episódios de hipomania, mais leves, e pelo menos um episódio depressivo, sem mania completa. O tipo II é mais difícil de reconhecer e costuma ser confundido com depressão.',
+      },
+      {
+        question: 'Antidepressivo sozinho faz mal?',
+        answer:
+      'Pode piorar o quadro. Antidepressivos não devem ser usados durante um episódio de mania e, na depressão bipolar, costumam ser associados a estabilizadores do humor ou antipsicóticos. Por isso o diagnóstico correto antes de prescrever é decisivo.',
+      },
+      {
+        question: 'Lítio é perigoso?',
+        answer:
+      'O lítio é eficaz e seguro quando bem monitorado. Como a margem entre a dose terapêutica e a tóxica é estreita, exige exames periódicos e atenção a desidratação, febre, vômitos e interações com outros remédios. Nunca ajuste a dose por conta própria.',
+      },
+      {
+        question: 'Posso engravidar usando os remédios?',
+        answer:
+      'É possível, mas o planejamento precisa ser feito com antecedência. O valproato é contraindicado na gestação e para mulheres com potencial de engravidar, e o lítio e a carbamazepina devem ser evitados sempre que possível. A troca de medicação deve ser decidida com o psiquiatra antes da gravidez.',
+      },
+      {
+        question: 'Quem está bem pode parar o remédio?',
+        answer:
+      'Não por conta própria. A interrupção sem acompanhamento aumenta o risco de recaída, sobretudo nos primeiros meses após a remissão. A redução ou a retirada deve ser planejada com quem prescreve, com monitoramento dos sinais precoces.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'transtorno-bipolar-por-que-o-diagnostico-demora',
+      'transtorno-bipolar-litio-e-exames-de-controle',
+    ],
+    relatedTopicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedDiseaseSlugs: [
+      'depressao',
+      'transtorno-de-ansiedade-generalizada',
+      'esquizofrenia',
+    ],
+    references: [
+      {
+        label: 'Bipolar disorder',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Saúde Mental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rede de Atenção Psicossocial (RAPS)',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'esquizofrenia',
+    slug: 'esquizofrenia',
+    name: 'Esquizofrenia',
+    metaTitle: 'Esquizofrenia: sintomas, diagnóstico e tratamento',
+    aliases: [
+      'psicose esquizofrênica',
+      'transtorno esquizofrênico',
+      'esquizofrenia paranóide',
+    ],
+    summary:
+      'Transtorno mental grave que causa psicose, com alterações na percepção da realidade, no pensamento e no comportamento. Existe tratamento eficaz e pelo menos um terço das pessoas alcança remissão completa dos sintomas.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é esquizofrenia?',
+        paragraphs: [
+          'A esquizofrenia é um transtorno mental que causa psicose, ou seja, uma perda de contato com a realidade. A pessoa pode ouvir vozes que não existem, acreditar em coisas que contrariam qualquer evidência e organizar o pensamento de um jeito que os outros não conseguem acompanhar.',
+          'O quadro costuma trazer prejuízo importante e mudanças na vida prática: estudo interrompido, trabalho perdido, relações desgastadas, isolamento. Não se trata de dupla personalidade, e a pessoa não escolhe ter os sintomas.',
+          'A Organização Mundial da Saúde estima que uma em cada 300 pessoas, cerca de 27 milhões no mundo, vive com esquizofrenia. A prevalência é de 0,29% na população geral e de 0,49% entre adultos com 20 anos ou mais. O início acontece com mais frequência no fim da adolescência e no começo da vida adulta, e tende a ser mais precoce nos homens do que nas mulheres.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Os sintomas mais reconhecíveis são os delírios e as alucinações. Nos delírios, a pessoa mantém crenças fixas de que algo é verdade mesmo diante de provas em contrário, como a convicção de estar sendo perseguida ou de ter uma missão especial. Nas alucinações, percebe algo que não está ali, e ouvir vozes é a forma mais comum.',
+          'Também aparecem experiências de influência, controle ou passividade: a sensação de que os próprios sentimentos, impulsos ou pensamentos não são gerados por si, de que foram colocados na mente por outra pessoa ou de que estão sendo transmitidos para fora.',
+          'O pensamento pode ficar desorganizado, e isso aparece na fala, que sai embaralhada, sem conexão ou cheia de rodeios. O comportamento também se desorganiza, com ações que parecem sem propósito, respostas emocionais inadequadas, agitação intensa ou lentidão e posturas incomuns. Os sintomas variam muito de pessoa para pessoa e ao longo do tempo.',
+        ],
+        bullets: [
+          'Delírios persistentes, de perseguição, grandeza ou referência',
+          'Alucinações, sobretudo auditivas',
+          'Sensação de que pensamentos ou ações são controlados por fora',
+          'Fala desorganizada, difícil de acompanhar',
+          'Comportamento desorganizado ou sem propósito aparente',
+          'Agitação intensa ou lentidão e imobilidade',
+        ],
+      },
+      {
+        id: 'sintomas-negativos-e-cognitivos',
+        heading: 'Sintomas negativos e dificuldades cognitivas',
+        paragraphs: [
+          'Além dos sintomas que chamam atenção, existem os chamados sintomas negativos, que são perdas em relação ao funcionamento anterior. A pessoa fala pouco, demonstra menos emoções, perde interesse e prazer e se afasta do convívio. Esses sinais são frequentemente confundidos com preguiça ou frieza, o que atrasa o cuidado e aumenta o estigma.',
+          'As funções cognitivas também costumam ficar comprometidas: memória, atenção e resolução de problemas. Essas dificuldades aparecem antes mesmo dos sintomas psicóticos em muitos casos e são um dos principais obstáculos para voltar ao estudo e ao trabalho, mesmo quando as vozes e os delírios melhoram.',
+          'Reconhecer os sintomas negativos e cognitivos muda o plano de cuidado. Eles não respondem do mesmo modo aos medicamentos e pedem reabilitação, adaptação de tarefas e apoio gradual para retomar atividades, em vez de cobrança por motivação.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar ajuda sem esperar',
+        paragraphs: [
+          'O primeiro episódio psicótico é uma urgência. Quanto menor o tempo entre o início dos sintomas e o tratamento, melhor costuma ser o resultado, por isso não vale esperar para ver se passa.',
+          'Em crise, com risco de agressão, autoagressão, confusão intensa ou recusa de alimentos e água, o atendimento pode ser feito em uma UPA 24h ou pelo SAMU 192. Pensamentos de morte e ordens vindas de vozes para se machucar exigem avaliação imediata.',
+        ],
+        bullets: [
+          'Falar sozinho, responder a vozes ou parecer escutar algo que ninguém ouve',
+          'Crenças de perseguição que passam a organizar toda a rotina',
+          'Fala confusa, sem nexo, ou silêncio prolongado',
+          'Abandono súbito de estudo, trabalho e higiene',
+          'Agitação, agressividade ou medo intenso sem motivo aparente',
+          'Recusa de comida e água por vários dias',
+          'Falar em morrer ou agir para se machucar',
+        ],
+        cta: {
+          label: 'Leia também: o que fazer no primeiro episódio psicótico',
+          href: '/artigos/esquizofrenia-primeiro-episodio-psicotico-o-que-fazer/',
+        },
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'O que causa a esquizofrenia?',
+        paragraphs: [
+          'Nenhuma causa única foi identificada. A hipótese mais aceita é a interação entre genes e uma série de fatores ambientais, que juntos alteram o desenvolvimento do cérebro e a forma como ele processa informação.',
+          'Fatores psicossociais também influenciam o início e o curso. O uso intenso de cannabis aparece associado a risco elevado, sobretudo quando começa cedo e em doses altas. Estresse, rupturas e falta de apoio social pioram o curso, sem serem a causa do transtorno.',
+          'A esquizofrenia não é causada por falta de carinho, por fraqueza de caráter ou por uma criação errada. Essa ideia, ainda comum, aumenta a culpa das famílias e o preconceito, e não ajuda ninguém a melhorar.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico é clínico e feito por profissional treinado, a partir da história, do exame do estado mental e do relato de familiares. Não existe exame de sangue ou de imagem que confirme esquizofrenia.',
+          'O médico avalia há quanto tempo os sintomas existem, se há prejuízo no funcionamento e se outras condições podem explicar o quadro. Uso de substâncias, epilepsia, doenças da tireoide, infecções do sistema nervoso e efeitos de medicamentos precisam ser considerados, e exames podem ser pedidos para afastá-los.',
+          'O diagnóstico costuma levar tempo e pode ser revisto. Transtorno bipolar com sintomas psicóticos, depressão psicótica e transtorno esquizoafetivo são diferenciais frequentes. O acompanhamento próximo nos primeiros meses ajuda a confirmar o quadro e a ajustar o tratamento.',
+        ],
+      },
+      {
+        id: 'qual-servico-procurar',
+        heading: 'Qual serviço procurar',
+        paragraphs: [
+          'A Unidade Básica de Saúde é a porta de entrada do SUS e pode acolher a primeira queixa, avaliar o risco e encaminhar para o serviço especializado. Em muitos municípios, o acompanhamento é compartilhado entre a UBS e o Centro de Atenção Psicossocial.',
+          'O CAPS é o serviço central para quem tem transtorno mental grave. Funciona como serviço público aberto à comunidade, com equipe multiprofissional, e o atendimento pode começar por procura espontânea ou por encaminhamento de outros serviços. A política brasileira de saúde mental se baseia na desinstitucionalização, no cuidado em liberdade e nos direitos humanos.',
+          'Quando há crise grave, o atendimento pode ocorrer em UPA 24h, pelo SAMU 192 ou em leito de saúde mental de hospital geral, para internações curtas. Depois da estabilização, a pessoa retorna ao serviço extra-hospitalar. Moradia e acolhimento temporário, quando necessários, contam com Serviços Residenciais Terapêuticos e Unidades de Acolhimento.',
+        ],
+        bullets: [
+          'Procure a UBS para a primeira avaliação e para o acompanhamento de rotina',
+          'O CAPS pode ser procurado diretamente, sem encaminhamento',
+          'Em crise com risco, use a UPA 24h ou o SAMU 192',
+          'Leve o histórico de tratamentos e a lista de remédios em uso',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento combina medicamentos, psicoeducação, intervenção familiar, terapia cognitivo-comportamental e reabilitação psicossocial. Nenhum desses componentes substitui os outros: a medicação reduz delírios e alucinações, e as demais ações ensinam a lidar com os sintomas e a reconstruir a rotina.',
+          'Os antipsicóticos são a base do tratamento medicamentoso e devem ser prescritos e ajustados por profissional habilitado. Eles podem causar efeitos metabólicos e motores, que precisam de acompanhamento, e a interrupção por conta própria é uma das principais causas de recaída.',
+          'A abordagem orientada para a recuperação dá à pessoa voz nas decisões do tratamento. Isso inclui escolher metas realistas, participar das decisões sobre medicação e contar com apoio para moradia, estudo e trabalho. A internação é recurso de crise, não o centro do cuidado.',
+        ],
+      },
+      {
+        id: 'reabilitacao-e-reinsercao',
+        heading: 'Reabilitação e volta à vida cotidiana',
+        paragraphs: [
+          'A reabilitação psicossocial trabalha habilidades concretas: cuidar da casa, administrar dinheiro, usar transporte, retomar estudo e trabalho. O ritmo é individual, com metas pequenas e progressivas, porque o objetivo é sustentar ganhos, e não cumprir um calendário.',
+          'Serviços de convivência, como os Centros de Convivência e Cultura, oferecem espaço de encontro, produção coletiva e cidadania, e ajudam a romper o isolamento. Apoio ao emprego, moradia assistida e treinamento de habilidades sociais são recursos previstos no cuidado orientado para a recuperação.',
+          'A família precisa ser incluída com informação e sem culpa. Intervenções familiares reduzem recaídas e melhoram a convivência, desde que não se transformem em cobrança. Quando o cuidado pesa demais, dividir tarefas e buscar apoio da rede são medidas de saúde, não de desistência.',
+        ],
+        bullets: [
+          'Metas pequenas e verificáveis, revistas com a equipe',
+          'Retomada gradual de estudo ou trabalho, com adaptações',
+          'Participação em atividades de convivência e cultura',
+          'Treino de habilidades para o dia a dia e para as relações',
+        ],
+        cta: {
+          label: 'Leia também: reabilitação, trabalho e família',
+          href: '/artigos/esquizofrenia-reabilitacao-trabalho-e-familia/',
+        },
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'O curso é variável. Algumas pessoas têm períodos de piora e de melhora ao longo da vida, outras apresentam agravamento gradual. Pelo menos um terço alcança remissão completa dos sintomas, e muitas outras conseguem viver com sintomas residuais e manter autonomia com tratamento.',
+          'A esquizofrenia está associada a morte precoce: em média, as pessoas morrem nove anos antes da população geral. A maior parte desse excesso vem de doenças físicas, como cardiovasculares, metabólicas e infecciosas, e não do transtorno em si, o que reforça a necessidade de cuidado clínico regular.',
+          'O acesso ao tratamento é o fator que mais muda o desfecho. Apenas 29% das pessoas com psicose recebem cuidado especializado no mundo, e o atraso no primeiro tratamento piora o prognóstico. Diagnóstico precoce, medicação continuada e suporte social são o que mais protege a longo prazo.',
+        ],
+      },
+      {
+        id: 'direitos-e-estigma',
+        heading: 'Direitos e estigma',
+        paragraphs: [
+          'O estigma contra pessoas com esquizofrenia é intenso e disseminado, e produz exclusão social, discriminação no trabalho, na moradia e no acesso à saúde. A OMS registra violações de direitos humanos tanto dentro de instituições quanto na comunidade, e trata o tema como parte do cuidado, não como questão acessória.',
+          'No Brasil, a política pública se orienta pela desinstitucionalização, pelo cuidado em liberdade e pelo respeito aos direitos humanos. Isso significa que o tratamento deve acontecer, sempre que possível, na comunidade, com a pessoa participando das decisões sobre a própria vida.',
+          'Combater o preconceito é concreto: falar da doença sem reduzi-la a piada, não usar o diagnóstico como insulto, contratar e manter no emprego quem tem o transtorno e tratar a pessoa pelo nome, e não pela doença.',
+        ],
+      },
+      {
+        id: 'familia-e-cuidadores',
+        heading: 'O que a família pode fazer',
+        paragraphs: [
+          'A família costuma ser quem percebe as primeiras mudanças e quem procura ajuda. Anotar o que mudou, quando começou e como a pessoa está dormindo, comendo e convivendo ajuda muito na avaliação, porque o relato de quem convive completa o que a pessoa consegue contar.',
+          'Em crise, a prioridade é segurança: retirar objetos que possam ser usados para agressão, não confrontar delírios de frente, manter a calma e buscar atendimento. Discordar da crença não convence ninguém e pode aumentar a agitação, enquanto acolher o medo e reduzir estímulos costuma funcionar melhor.',
+          'Cuidar desgasta. Cansaço, medo, culpa e isolamento são comuns entre familiares, e a sobrecarga adoece quem cuida. Dividir tarefas, manter a própria vida social e buscar apoio na rede e em grupos de familiares são medidas que sustentam o cuidado no longo prazo.',
+        ],
+        bullets: [
+          'Anote sintomas, sono, apetite e mudanças de comportamento',
+          'Não discuta com o delírio nem desafie a alucinação',
+          'Reduza estímulos e mantenha um ambiente previsível',
+          'Guarde os remédios e acompanhe a tomada diária',
+          'Procure apoio para quem cuida, não apenas para quem tem o diagnóstico',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Esquizofrenia tem cura?',
+        answer:
+      'Não existe cura, mas existe tratamento eficaz. Pelo menos um terço das pessoas alcança remissão completa dos sintomas, e muitas outras mantêm a autonomia com tratamento continuado. O objetivo é controlar os sintomas, prevenir recaídas e sustentar a vida cotidiana.',
+      },
+      {
+        question: 'Esquizofrenia é dupla personalidade?',
+        answer:
+      'Não. Dupla personalidade não é um diagnóstico reconhecido nesses termos, e a esquizofrenia não se caracteriza por personalidades alternadas. O que existe são delírios, alucinações, pensamento desorganizado e sintomas negativos.',
+      },
+      {
+        question: 'Quem tem esquizofrenia é violento?',
+        answer:
+      'Não. A maioria das pessoas com o transtorno não é violenta e, com mais frequência, é vítima de violência e de discriminação. O risco de agressão aumenta em situações de crise não tratada, uso de substâncias e falta de acompanhamento, e é justamente por isso que o tratamento precoce importa.',
+      },
+      {
+        question: 'A pessoa pode trabalhar e estudar?',
+        answer:
+      'Sim, muitas conseguem, com apoio e adaptações. A reabilitação psicossocial, o apoio ao emprego e a retomada gradual de atividades fazem parte do cuidado. O ritmo varia e deve respeitar os sintomas e a resposta ao tratamento.',
+      },
+      {
+        question: 'Posso parar o remédio quando estiver bem?',
+        answer:
+      'Não por conta própria. A interrupção sem acompanhamento é uma das principais causas de recaída, e cada novo episódio pode dificultar a recuperação. Qualquer redução deve ser planejada com o profissional que acompanha o caso.',
+      },
+      {
+        question: 'Onde buscar ajuda no SUS?',
+        answer:
+      'A UBS é a porta de entrada e pode acolher, avaliar e encaminhar. O CAPS acompanha casos de transtorno mental grave e aceita procura espontânea. Em crise com risco, procure uma UPA 24h ou ligue para o SAMU 192.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'esquizofrenia-primeiro-episodio-psicotico-o-que-fazer',
+      'esquizofrenia-reabilitacao-trabalho-e-familia',
+    ],
+    relatedTopicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedDiseaseSlugs: [
+      'transtorno-bipolar',
+      'depressao',
+      'epilepsia',
+    ],
+    references: [
+      {
+        label: 'Schizophrenia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/schizophrenia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Saúde Mental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Rede de Atenção Psicossocial (RAPS)',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-parkinson',
+    slug: 'doenca-de-parkinson',
+    name: 'Doença de Parkinson',
+    metaTitle: 'Doença de Parkinson: sintomas e tratamento',
+    aliases: [
+      'Parkinson',
+      'mal de Parkinson',
+      'parkinsonismo',
+      'doença de Parkinson idiopática',
+    ],
+    summary:
+      'Doença neurodegenerativa progressiva que reduz a produção de dopamina no cérebro e afeta movimento, sono, humor e outras funções. Não tem cura, mas tem tratamento que controla sintomas por muitos anos.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é a doença de Parkinson?',
+        paragraphs: [
+          'A doença de Parkinson é uma doença neurodegenerativa progressiva. Células do cérebro morrem aos poucos, sobretudo na substância negra, área que produz dopamina, um neurotransmissor essencial para controlar movimento, motivação e recompensa. Com menos dopamina, andar, escrever e falar passam a custar mais.',
+          'O tremor é o sinal mais conhecido, mas não é obrigatório: algumas pessoas chegam ao consultório com lentidão, rigidez e desequilíbrio, sem tremor nenhum. A doença também afeta o sono, o olfato, o intestino e o humor, às vezes anos antes dos problemas motores.',
+          'A OMS calcula que mais de 8,5 milhões de pessoas viviam com Parkinson em 2019, e a prevalência dobrou nos últimos 25 anos. No Brasil, a Biblioteca Virtual em Saúde do Ministério da Saúde estima mais de 500 mil pessoas com 50 anos ou mais, número que pode passar de 1,2 milhão até 2060 com o envelhecimento da população. Homens são mais afetados do que mulheres, e embora seja mais comum em idosos, pessoas jovens também podem ter a doença.',
+        ],
+      },
+      {
+        id: 'sintomas-motores',
+        heading: 'Quais são os sintomas motores?',
+        paragraphs: [
+          'Os sintomas motores costumam começar de um lado do corpo e depois se espalhar. O tremor clássico aparece em repouso, principalmente nas mãos e nos dedos, e diminui quando a pessoa faz um movimento voluntário. Nem todo mundo tem tremor, e a ausência dele atrasa muitos diagnósticos.',
+          'A lentidão de movimentos, chamada bradicinesia, é o sintoma que mais interfere na rotina: vestir-se, comer, tomar banho e caminhar ficam mais demorados. A rigidez muscular acompanha, com sensação de peso ou de músculo travado, e pode causar dor.',
+          'Com o tempo, aparecem alterações de postura e de equilíbrio, passos curtos e arrastados e redução da expressão facial. A letra também encolhe, sinal conhecido como micrografia, e costuma ser notado antes de outros sintomas incomodarem.',
+        ],
+        bullets: [
+          'Tremor de repouso, geralmente nas mãos ou nos dedos',
+          'Rigidez muscular, com dor ou sensação de peso',
+          'Lentidão dos movimentos',
+          'Alterações de postura e dificuldade de equilíbrio',
+          'Passos curtos e arrastados',
+          'Diminuição do tamanho da letra',
+        ],
+      },
+      {
+        id: 'sintomas-nao-motores',
+        heading: 'Sintomas que não são motores',
+        paragraphs: [
+          'A doença de Parkinson não se limita ao movimento. Alterações do sono, depressão, ansiedade e dificuldades cognitivas são frequentes e, muitas vezes, pesam mais na qualidade de vida do que o tremor. Constipação, perda do olfato, urgência urinária, suor e salivação excessivos e dor completam o quadro.',
+          'Esses sintomas podem aparecer anos antes do diagnóstico e são frequentemente tratados como problemas separados, cada um por um especialista diferente. Reconhecê-los como parte da doença permite um cuidado mais coordenado.',
+          'Parte das pessoas desenvolve demência ao longo do curso da doença. Isso não acontece com todo mundo e não é imediato, mas justifica acompanhar memória e atenção nas consultas, além de ajustar a rotina e o ambiente quando necessário.',
+        ],
+        bullets: [
+          'Alterações do sono, com sonhos agitados e movimentos durante a noite',
+          'Depressão e ansiedade',
+          'Dificuldades de memória, atenção e planejamento',
+          'Constipação intestinal',
+          'Perda do olfato',
+          'Urgência para urinar',
+          'Dor e alterações sensoriais',
+        ],
+        cta: {
+          label: 'Leia também: os sinais que aparecem antes do tremor',
+          href: '/artigos/doenca-de-parkinson-sinais-antes-do-tremor/',
+        },
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando procurar atendimento',
+        paragraphs: [
+          'A doença avança devagar e não é uma emergência em si. Alguns sinais, porém, indicam complicação e pedem avaliação rápida, porque podem levar a queda, pneumonia ou confusão mental.',
+          'Mudança súbita do estado mental, febre, incapacidade de engolir ou piora muito rápida dos sintomas não devem ser atribuídas ao Parkinson e esperadas em casa.',
+        ],
+        bullets: [
+          'Engasgos frequentes, tosse ao comer ou perda de peso',
+          'Febre, falta de ar ou tosse com secreção',
+          'Confusão mental que começa em horas ou dias',
+          'Queda com batida na cabeça',
+          'Não conseguir tomar os remédios por vômitos ou por falta do medicamento',
+          'Piora muito rápida da mobilidade, em dias',
+          'Ideia de se machucar ou de morrer',
+        ],
+      },
+      {
+        id: 'causas-e-fatores-de-risco',
+        heading: 'O que causa a doença de Parkinson?',
+        paragraphs: [
+          'A causa não é conhecida. Sabe-se que há morte de neurônios produtores de dopamina e acúmulo de uma proteína chamada alfa-sinucleína dentro das células, mas o que dispara esse processo ainda não está esclarecido.',
+          'Ter um familiar com a doença aumenta o risco, embora a maioria dos casos não seja hereditária. Exposição à poluição do ar, a pesticidas e a solventes pode aumentar o risco, e por isso a doença é mais frequente em algumas áreas rurais e industriais.',
+          'Parkinson não é contagioso e não é uma consequência normal de envelhecer. Confundir a doença com o envelhecimento faz com que sinais tratáveis sejam aceitos como inevitáveis.',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico é clínico. Não existe exame de sangue nem de imagem que confirme Parkinson. O profissional avalia a história, examina o movimento, observa tremor, rigidez, lentidão e equilíbrio, e verifica se os sintomas começaram de um lado e se há resposta aos medicamentos.',
+          'A resposta à levodopa ajuda a sustentar o diagnóstico, mas não é obrigatória. Exames de imagem podem ser pedidos para afastar outras causas, como AVC, tumores e hidrocefalia, e a ressonância magnética costuma fazer parte da investigação em casos atípicos ou de início precoce.',
+          'O diagnóstico diferencial importa porque outros parkinsonismos existem, alguns com evolução mais rápida. Tremor essencial, parkinsonismo por medicamentos e outras doenças degenerativas podem se parecer com Parkinson, e a avaliação com neurologista reduz o erro.',
+        ],
+      },
+      {
+        id: 'qual-servico-procurar',
+        heading: 'Qual serviço procurar',
+        paragraphs: [
+          'A Unidade Básica de Saúde é a porta de entrada. O médico de família pode reconhecer os sinais iniciais, iniciar a investigação e encaminhar para neurologista ou geriatra, conforme a disponibilidade da rede.',
+          'O acompanhamento costuma ser compartilhado entre atenção primária e especializada, com fisioterapia, fonoaudiologia, terapia ocupacional e, quando necessário, psicologia e serviço social. Em cidades menores, o telediagnóstico e o apoio de equipes de referência ajudam a reduzir a distância até o especialista.',
+          'Antes da consulta, vale organizar a história dos sintomas, a lista completa de remédios e a descrição do que piorou nas últimas semanas. Vídeos curtos da caminhada e da escrita ajudam o neurologista a ver o que a consulta de quinze minutos não mostra.',
+        ],
+        bullets: [
+          'Anote quando os primeiros sintomas apareceram e de que lado começaram',
+          'Leve a lista de todos os remédios, incluindo os de uso esporádico',
+          'Registre quedas, engasgos e episódios de confusão',
+          'Grave um vídeo curto da marcha e da escrita, se possível',
+        ],
+      },
+      {
+        id: 'tratamento-medicamentoso',
+        heading: 'Quais remédios são usados?',
+        paragraphs: [
+          'A levodopa, associada à carbidopa, é o medicamento mais eficaz para melhorar sintomas, funcionamento e qualidade de vida, e está na lista de medicamentos essenciais da OMS. Ela repõe a dopamina que o cérebro deixou de produzir e costuma trazer alívio claro da lentidão e da rigidez.',
+          'Outros medicamentos podem ser usados conforme o caso, incluindo anticolinérgicos para reduzir movimentos involuntários. O SUS conta com um Protocolo Clínico e Diretrizes Terapêuticas para a doença, que define o tratamento medicamentoso ofertado e as condições de acesso.',
+          'O horário das doses importa. A levodopa tem efeito que dura algumas horas, e atrasos podem provocar piora rápida da mobilidade. Quem tem a doença precisa de um plano para não ficar sem o remédio em viagens, feriados e internações, e nenhum ajuste deve ser feito sem orientação.',
+        ],
+      },
+      {
+        id: 'estimulacao-cerebral-profunda',
+        heading: 'Cirurgia e estimulação cerebral profunda',
+        paragraphs: [
+          'A estimulação cerebral profunda é uma opção para algumas pessoas com tremor importante ou flutuações motoras que não respondem bem aos medicamentos. Eletrodos implantados no cérebro são conectados a um gerador no tórax, e a estimulação ajusta a atividade das áreas envolvidas no movimento.',
+          'A cirurgia pode ajudar no tremor e reduzir a necessidade de medicamentos, mas não é indicada para todos. Demência importante, instabilidade clínica e algumas condições psiquiátricas contraindicam o procedimento, e a seleção é feita por equipe especializada.',
+          'Não existe cirurgia que cure a doença. O procedimento trata sintomas e precisa de programação e acompanhamento ao longo dos anos, além de manutenção do tratamento medicamentoso em muitos casos.',
+        ],
+      },
+      {
+        id: 'fisioterapia-e-reabilitacao',
+        heading: 'Fisioterapia, fonoaudiologia e reabilitação',
+        paragraphs: [
+          'A reabilitação é parte do tratamento, não um complemento opcional. Fisioterapia com treino de força, marcha e equilíbrio, inclusive em piscina, melhora a função e a qualidade de vida e reduz o esforço de quem cuida.',
+          'A fonoaudiologia trabalha voz e deglutição. Falar mais alto, articular melhor e engolir com segurança diminui o risco de engasgo e de pneumonia por aspiração, que é uma das complicações mais graves da fase avançada.',
+          'A terapia ocupacional adapta a casa e as tarefas: talheres com cabo grosso, apoio no banheiro, barras no corredor e rotina de exercícios em casa. O objetivo é manter autonomia pelo maior tempo possível, e não substituir a pessoa por quem cuida.',
+        ],
+        bullets: [
+          'Treino de força, marcha e equilíbrio',
+          'Fisioterapia aquática, quando disponível',
+          'Exercícios de voz e de deglutição',
+          'Adaptações da casa e dos utensílios',
+          'Alongamento e movimento diário, mesmo em dias difíceis',
+        ],
+      },
+      {
+        id: 'prognostico',
+        heading: 'Qual é o prognóstico?',
+        paragraphs: [
+          'A doença é progressiva e não tem cura. Com tratamento, porém, muitas pessoas mantêm boa função por muitos anos, e a expectativa de vida se aproxima da população geral nas formas de início mais tardio e com acompanhamento adequado.',
+          'A OMS registra aumento importante da carga da doença: em 2019, o Parkinson respondeu por 5,8 milhões de anos de vida ajustados por incapacidade e por 329 mil mortes, com alta de 81% e de mais de 100% em relação a 2000. Isso reflete o envelhecimento populacional e a melhora do diagnóstico.',
+          'As complicações que mais ameaçam a vida são as da fase avançada: quedas com fratura, pneumonia por aspiração, desnutrição e infecções. Preveni-las com reabilitação, alimentação adaptada e acompanhamento clínico regular muda o desfecho.',
+        ],
+      },
+      {
+        id: 'cuidados-em-casa',
+        heading: 'Como cuidar em casa com segurança',
+        paragraphs: [
+          'A casa precisa acompanhar a mobilidade. Retirar tapetes soltos, melhorar a iluminação, instalar barras no banheiro e usar calçado fechado com sola antiderrapante reduzem quedas. Corredores livres e móveis estáveis ajudam nos momentos de bloqueio da marcha.',
+          'A alimentação pede atenção. Refeições menores, em ambiente calmo, com a pessoa sentada e sem pressa, diminuem engasgos. Quem tem dificuldade para engolir precisa de avaliação de fonoaudiólogo antes de mudar a consistência dos alimentos por conta própria.',
+          'O cuidador também precisa de apoio. O cuidado diário consome horas e provoca desgaste físico e emocional. Dividir tarefas, aceitar ajuda e reservar pausas não é luxo: é o que permite continuar cuidando sem adoecer.',
+        ],
+        cta: {
+          label: 'Leia também: quedas, engasgos e cuidados em casa',
+          href: '/artigos/doenca-de-parkinson-quedas-e-cuidados-em-casa/',
+        },
+      },
+      {
+        id: 'prevencao',
+        heading: 'É possível prevenir?',
+        paragraphs: [
+          'Não existe forma conhecida de prevenir a doença de Parkinson de maneira absoluta, porque as causas ainda não são completamente compreendidas. O que existe são estratégias associadas a menor risco.',
+          'A prática regular de atividade física aeróbica, como caminhada, natação e bicicleta, tem sido associada a menor risco de desenvolver a doença. Alimentação rica em antioxidantes, com frutas, verduras, oleaginosas e grãos integrais, também é considerada benéfica para a saúde cerebral.',
+          'Manter atividade cognitiva e convivência social é parte da mesma lógica: aprender coisas novas e encontrar pessoas estimula novas conexões entre neurônios. Nenhuma dessas medidas garante proteção, mas todas melhoram a saúde como um todo.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Doença de Parkinson tem cura?',
+        answer:
+      'Não. Não existe tratamento que interrompa a degeneração ou devolva as células perdidas. Os medicamentos, a cirurgia em casos selecionados e a reabilitação controlam sintomas e mantêm a função por muitos anos.',
+      },
+      {
+        question: 'Parkinson é hereditário?',
+        answer:
+      'Na maioria dos casos, não. Ter um familiar com a doença aumenta o risco, mas a maior parte das pessoas com Parkinson não tem histórico familiar. Formas genéticas existem e são minoritárias.',
+      },
+      {
+        question: 'Todo mundo com Parkinson tem tremor?',
+        answer:
+      'Não. O tremor é comum, mas parte das pessoas apresenta apenas lentidão, rigidez e alterações de marcha. A ausência de tremor não exclui o diagnóstico e costuma atrasar a procura por ajuda.',
+      },
+      {
+        question: 'A doença é contagiosa?',
+        answer:
+      'Não. Parkinson não passa de uma pessoa para outra por contato, alimento ou ar. A ideia de contágio é um mito que alimenta discriminação no trabalho e na família.',
+      },
+      {
+        question: 'A levodopa para de funcionar com o tempo?',
+        answer:
+      'Ela continua agindo, mas o efeito de cada dose passa a durar menos e podem surgir flutuações ao longo do dia. Isso exige ajuste do esquema, e não abandono do remédio. Mudanças devem ser feitas com o neurologista.',
+      },
+      {
+        question: 'Quem tem Parkinson pode fazer exercício?',
+        answer:
+      'Deve. Atividade física e fisioterapia melhoram marcha, equilíbrio, força e qualidade de vida, além de reduzir quedas. O programa precisa ser adaptado ao estágio da doença e às condições de cada pessoa.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'doenca-de-parkinson-sinais-antes-do-tremor',
+      'doenca-de-parkinson-quedas-e-cuidados-em-casa',
+    ],
+    relatedTopicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedDiseaseSlugs: [
+      'doenca-de-alzheimer',
+      'epilepsia',
+      'depressao',
+    ],
+    references: [
+      {
+        label: 'Parkinson disease',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/parkinson-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: '"Reduzir a lacuna nos cuidados": 11/4, Dia Mundial de Conscientização da Doença de Parkinson',
+        url: 'https://bvsms.saude.gov.br/reduzir-a-lacuna-nos-cuidados-11-4-dia-mundial-de-conscientizacao-da-doenca-de-parkinson-2026/',
+        publisher: 'Biblioteca Virtual em Saúde, Ministério da Saúde',
+      },
+      {
+        label: 'PCDT Doença de Parkinson',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt-doenca-de-parkinson',
+        publisher: 'Comissão Nacional de Incorporação de Tecnologias no SUS (CONITEC), Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+
+  {
+    id: 'diabetes-gestacional',
+    slug: 'diabetes-gestacional',
+    name: 'Diabetes gestacional',
+    metaTitle: 'Diabetes gestacional: sintomas, exames e tratamento',
+    aliases: ['diabetes na gravidez', 'diabetes da gestação', 'hiperglicemia na gestação', 'GDM'],
+    summary:
+      'Glicemia alta que aparece durante a gravidez, quase sempre sem sintomas, e que exige acompanhamento no pré-natal para proteger a mãe e o bebê. Na maioria dos casos, os valores voltam ao normal depois do parto.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é diabetes gestacional?',
+        paragraphs: [
+          'Diabetes gestacional é a glicemia alta que aparece durante a gravidez em mulheres que não tinham diabetes antes. Ela surge porque a gestação aumenta a resistência à insulina: os hormônios da placenta dificultam a ação da insulina, e o corpo precisa produzir mais para manter a glicose sob controle.',
+          'Quando o pâncreas não consegue acompanhar essa demanda, a glicose sobe no sangue. O problema costuma aparecer a partir da segunda metade da gestação, por volta da 24ª semana, e muitas vezes não provoca sintoma nenhum.',
+          'A diferença entre diabetes gestacional e diabetes que já existia antes da gravidez importa. Quem já tinha a doença precisa de outro tipo de acompanhamento, e o diagnóstico é feito mais cedo, ainda no início do pré-natal.',
+        ],
+      },
+      {
+        id: 'quanto-e-comum',
+        heading: 'Quantas gestantes têm diabetes gestacional?',
+        paragraphs: [
+          'O Ministério da Saúde estima que o diabetes gestacional afete entre 2% e 4% das gestantes no Brasil. Outros levantamentos, com critérios diagnósticos mais sensíveis, encontram proporções maiores. A maior parte dos casos de glicemia alta na gravidez é de diabetes gestacional, e não de diabetes que já existia antes.',
+          'O número cresceu nas últimas décadas porque o critério diagnóstico ficou mais rigoroso e porque a obesidade aumentou entre mulheres em idade reprodutiva. O diagnóstico, porém, não é um rótulo: ele abre acesso a um acompanhamento que reduz complicações para a mãe e para o bebê.',
+        ],
+      },
+      {
+        id: 'tipos',
+        heading: 'Dois grupos, conforme o controle',
+        paragraphs: [
+          'Na prática, os serviços separam as gestantes em dois grupos, e essa divisão orienta o tratamento.',
+          'No primeiro, o controle é alcançado apenas com alimentação adequada e atividade física. No segundo, a glicemia continua acima da meta mesmo com essas mudanças, e é necessário associar insulina. Saber em qual grupo a gestante está ajuda a prever a frequência de consultas e de exames.',
+        ],
+      },
+      {
+        id: 'causas',
+        heading: 'Por que a glicose sobe na gravidez?',
+        paragraphs: [
+          'A gestação muda o metabolismo de propósito. O feto precisa de glicose para crescer, e o corpo da mãe aumenta a produção de hormônios que reduzem a ação da insulina. É um mecanismo fisiológico, presente em todas as gestações, que garante aporte de energia ao bebê.',
+          'O que diferencia quem desenvolve a doença é a capacidade do pâncreas de compensar. Quem já tinha resistência à insulina antes de engravidar começa a gestação com uma necessidade maior de insulina e tem mais chance de não conseguir manter o equilíbrio.',
+          'Por isso o sobrepeso, o sedentarismo e o histórico familiar de diabetes pesam tanto. Eles não causam a doença sozinhos, mas reduzem a margem de compensação disponível.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco',
+        paragraphs: [
+          'Alguns fatores justificam atenção redobrada e, em alguns casos, rastreamento mais cedo.',
+        ],
+        bullets: [
+          'Diabetes gestacional em gestação anterior',
+          'Bebê anterior com mais de 4 kg ao nascer',
+          'Sobrepeso ou obesidade antes de engravidar',
+          'Histórico familiar de diabetes tipo 2 em pais ou irmãos',
+          'Síndrome dos ovários policísticos',
+          'Hipertensão ou doença renal crônica',
+          'Idade acima de 35 anos',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Na maioria dos casos não há sintoma. Quando aparecem, são leves e fáceis de confundir com as queixas normais da gravidez: mais sede, mais vontade de urinar, cansaço e visão embaçada. Muita gestante descobre a doença apenas pelo exame de rotina do pré-natal.',
+          'A ausência de sintomas não significa que nada está acontecendo. A glicose alta atua de forma silenciosa sobre a placenta e sobre o feto, e é por isso que o exame é feito em todas as gestantes, mesmo nas que se sentem bem.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta na gestação',
+        paragraphs: [
+          'Algumas situações pedem contato imediato com o serviço de saúde, principalmente em quem usa insulina.',
+          'Também merece atenção a diminuição dos movimentos do bebê. Contar os movimentos e procurar atendimento quando eles reduzem é uma medida simples e importante no terceiro trimestre.',
+        ],
+        bullets: [
+          'Tremor, suor frio, palpitação, fome súbita ou confusão, que podem indicar hipoglicemia',
+          'Vômitos persistentes que impedem a alimentação e o uso da insulina',
+          'Pressão alta, dor de cabeça forte, visão turva ou dor na parte alta da barriga',
+          'Redução dos movimentos do bebê',
+          'Febre, corrimento com mau cheiro ou dor para urinar',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O rastreamento começa na primeira consulta do pré-natal, com a medida da glicemia de jejum. Valores muito altos nesse momento indicam diabetes que já existia antes da gravidez, e não diabetes gestacional.',
+          'Entre a 24ª e a 28ª semana, a gestante faz o teste oral de tolerância à glicose, conhecido como TOTG. Ela ingere uma solução com 75 g de glicose e o sangue é coletado em jejum, uma hora e duas horas depois. O diagnóstico é confirmado quando qualquer um dos valores atinge os limites: 92 mg/dL em jejum, 180 mg/dL em uma hora ou 153 mg/dL em duas horas.',
+          'Em gestantes com fatores de risco, o teste pode ser antecipado. Quando o resultado é normal e existem sinais de alerta no crescimento do bebê ou no volume de líquido amniótico, o exame pode ser repetido mais adiante.',
+        ],
+        cta: {
+          label: 'Leia também: como ler o resultado do TOTG',
+          href: '/artigos/diabetes-gestacional-teste-da-24-semana/',
+        },
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'Diabetes gestacional ou diabetes prévio?',
+        paragraphs: [
+          'A confusão mais comum é com o diabetes que já existia e só foi descoberto na gravidez. A diferença aparece no momento do diagnóstico e nos valores: glicemia de jejum igual ou acima de 126 mg/dL, ou hemoglobina glicada elevada no início da gestação, apontam para diabetes prévio.',
+          'A distinção não é detalhe burocrático. O diabetes prévio tem mais risco de malformações fetais quando o controle foi ruim no primeiro trimestre e exige acompanhamento conjunto com a endocrinologia desde o começo.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O tratamento começa com alimentação e atividade física, que são capazes de controlar a glicemia na maior parte dos casos. O plano alimentar precisa garantir o crescimento do bebê, e não apenas reduzir o açúcar: refeições fracionadas, com porções distribuídas ao longo do dia, evitam picos e quedas bruscas.',
+          'A atividade física ajuda o corpo a responder melhor à insulina. Caminhadas curtas depois das refeições são a recomendação mais frequente, sempre com liberação da equipe que acompanha o pré-natal.',
+          'A gestante aprende a medir a glicemia em casa. As metas costumam ser de até 95 mg/dL em jejum e de até 120 mg/dL duas horas depois das refeições. Quando a alimentação e o exercício não bastam, entra a insulina, que é o tratamento medicamentoso preferido na gestação.',
+          'O acompanhamento é mais frequente do que o pré-natal habitual, com consultas a cada uma ou duas semanas quando a glicemia ainda está sendo ajustada. Ecografias avaliam o crescimento do bebê e a quantidade de líquido amniótico.',
+        ],
+      },
+      {
+        id: 'parto-e-pos-parto',
+        heading: 'Parto e acompanhamento depois',
+        paragraphs: [
+          'Ter diabetes gestacional não é, por si só, motivo para cesárea. A via de parto depende da posição do bebê, do tamanho estimado, da placenta e da história obstétrica. Quando o bebê é muito grande ou existem outras complicações, a cesárea pode ser indicada.',
+          'O momento do parto é decidido caso a caso. Gestantes com bom controle e sem complicações costumam seguir até perto do termo. Quem usa insulina ou tem pressão alta associada precisa de avaliação mais próxima.',
+          'Depois do parto, a insulina geralmente é suspensa, porque a placenta, que produzia os hormônios responsáveis pela resistência, já saiu. A glicemia é reavaliada ainda no hospital e repetida alguns meses depois, para identificar quem evoluiu para diabetes tipo 2.',
+        ],
+        cta: {
+          label: 'Leia também: o que acontece com a glicemia depois do parto',
+          href: '/artigos/diabetes-gestacional-depois-do-parto/',
+        },
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais são as complicações?',
+        paragraphs: [
+          'Para a mãe, o diabetes gestacional aumenta o risco de pressão alta e pré-eclâmpsia, de infecções urinárias e vaginais, de excesso de líquido amniótico e de parto com bebê grande, o que eleva a chance de cesárea e de trauma no canal de parto.',
+          'Para o bebê, o excesso de glicose que atravessa a placenta faz o pâncreas fetal produzir mais insulina. Isso leva ao crescimento exagerado, à hipoglicemia nas primeiras horas de vida e, com mais frequência, a icterícia e a dificuldades respiratórias.',
+          'A médio prazo, cerca de metade das mulheres com diabetes gestacional desenvolve diabetes tipo 2 ao longo da vida. Em uma gestação futura, a doença pode voltar, com risco que varia entre um terço e dois terços. O filho também tem mais chance de desenvolver obesidade e diabetes na vida adulta.',
+        ],
+      },
+      {
+        id: 'prevencao',
+        heading: 'Dá para prevenir?',
+        paragraphs: [
+          'Antes da gravidez, perder peso quando há sobrepeso, manter alimentação saudável e praticar atividade física reduzem a chance de desenvolver diabetes gestacional. Essas mudanças são mais eficazes quando feitas com tempo, e não na pressa de quem já está grávida.',
+          'Durante a gestação, não se deve tentar emagrecer. O ganho de peso precisa ser adequado ao peso inicial, e a orientação sobre quanto ganhar faz parte do pré-natal. O que se controla é a qualidade da alimentação e o ritmo do ganho.',
+          'Quem já teve diabetes gestacional deve manter o acompanhamento depois do parto. A glicemia de jejum e o teste de tolerância repetidos conforme orientação identificam precocemente a evolução para diabetes tipo 2, quando a mudança de hábitos ainda tem mais efeito.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Diabetes gestacional tem sintomas?',
+        answer: 'Quase nunca. A maioria das gestantes não sente nada e descobre a doença pelo exame de rotina. Quando existem sintomas, são leves, como mais sede e mais vontade de urinar, e se confundem com as queixas normais da gravidez.',
+      },
+      {
+        question: 'O bebê vai nascer com diabetes?',
+        answer: 'Não. O diabetes gestacional não é transmitido ao bebê durante a gravidez. O que existe é maior risco de o filho desenvolver obesidade e diabetes na vida adulta, e esse risco diminui com alimentação adequada e acompanhamento ao longo do crescimento.',
+      },
+      {
+        question: 'Vou precisar de insulina?',
+        answer: 'Nem sempre. Boa parte das gestantes controla a glicemia com alimentação e atividade física. A insulina entra quando as metas não são alcançadas com essas medidas, e é o medicamento preferido na gestação.',
+      },
+      {
+        question: 'Diabetes gestacional volta na próxima gravidez?',
+        answer: 'Pode voltar. O risco fica entre um terço e dois terços, e por isso a glicemia deve ser avaliada desde o início de um novo pré-natal, sem esperar a 24ª semana.',
+      },
+      {
+        question: 'Depois do parto, a diabetes desaparece?',
+        answer: 'Na maioria dos casos, a glicemia volta ao normal nas primeiras horas ou dias depois do parto. Isso não encerra o assunto: cerca de metade das mulheres desenvolve diabetes tipo 2 mais adiante, e a reavaliação periódica é necessária.',
+      },
+      {
+        question: 'Preciso fazer cesárea por causa do diabetes?',
+        answer: 'Não necessariamente. O diabetes gestacional isolado não indica cesárea. A via de parto é decidida conforme o tamanho estimado do bebê, a posição fetal, a placenta e a história de cada gestação.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'diabetes-gestacional-teste-da-24-semana',
+      'diabetes-gestacional-depois-do-parto',
+    ],
+    relatedTopicSlugs: ['saude-da-mulher'],
+    relatedDiseaseSlugs: ['diabetes', 'pre-eclampsia', 'obesidade'],
+    references: [
+      {
+        label: 'Diabetes (diabetes mellitus)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Gestational Diabetes',
+        url: 'https://www.cdc.gov/diabetes/about/gestational-diabetes.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Gravidez',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gravidez',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'pre-eclampsia',
+    slug: 'pre-eclampsia',
+    name: 'Pré-eclâmpsia',
+    metaTitle: 'Pré-eclâmpsia: sintomas, riscos e tratamento',
+    aliases: [
+      'pre-eclampsia',
+      'toxemia gravídica',
+      'hipertensão na gravidez',
+      'eclâmpsia',
+      'síndrome HELLP',
+    ],
+    summary:
+      'Complicação da gravidez marcada por pressão alta e proteína na urina depois da 20ª semana, que pode evoluir rápido e exige pré-natal próximo. O parto é o tratamento definitivo.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    sections: [
+      {
+        id: 'o-que-e',
+        heading: 'O que é pré-eclâmpsia?',
+        paragraphs: [
+          'Pré-eclâmpsia é uma complicação da gravidez caracterizada por pressão alta que aparece depois da 20ª semana, acompanhada de proteína na urina ou de sinais de comprometimento de outros órgãos. Ela atinge a mãe e o bebê ao mesmo tempo e pode evoluir de forma rápida.',
+          'O problema começa na placenta. Vasos que deveriam se adaptar para levar mais sangue ao útero se formam de maneira incompleta, e a placenta libera substâncias que lesam o revestimento dos vasos da mãe. A pressão sobe, os rins passam a perder proteína e órgãos como fígado, cérebro e pulmões podem ser afetados.',
+          'Sem acompanhamento, a doença pode evoluir para eclâmpsia, quando surgem convulsões, e para outras formas graves. O pré-natal identifica os primeiros sinais e permite agir antes que isso aconteça.',
+        ],
+      },
+      {
+        id: 'quanto-e-comum',
+        heading: 'Quantas gestantes são afetadas?',
+        paragraphs: [
+          'A Organização Mundial da Saúde estima que a pré-eclâmpsia afete de 3% a 8% das gestantes no mundo. Os distúrbios hipertensivos da gravidez respondem por cerca de 16% das mortes maternas globais, o que coloca o problema entre as principais causas de morte relacionada ao parto.',
+          'No Brasil, a hipertensão na gestação está entre as complicações que mais levam ao encaminhamento para o pré-natal de alto risco. O Ministério da Saúde inclui a hipertensão entre as condições que caracterizam uma gestação de risco, ao lado do diabetes e das anemias graves.',
+        ],
+      },
+      {
+        id: 'sintomas',
+        heading: 'Quais são os sintomas?',
+        paragraphs: [
+          'Muitas mulheres não sentem nada no início, e a alteração aparece apenas na medida da pressão e no exame de urina do pré-natal. Quando existem sintomas, eles costumam indicar que a doença está avançando.',
+          'Inchaço nas mãos e no rosto, ganho de peso rápido em poucos dias e pressão acima do habitual são sinais que merecem atenção, embora o inchaço isolado nas pernas seja comum em gestações normais.',
+        ],
+        bullets: [
+          'Dor de cabeça forte e persistente, que não melhora com analgésico comum',
+          'Visão embaçada, visão dupla ou percepção de pontos luminosos',
+          'Dor na parte alta da barriga, do lado direito, ou dor no ombro',
+          'Náusea e vômitos que surgem depois do primeiro trimestre',
+          'Inchaço repentino nas mãos e no rosto',
+          'Falta de ar',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta',
+        heading: 'Sinais de alerta: quando ir ao pronto atendimento',
+        paragraphs: [
+          'Pré-eclâmpsia pode piorar em horas. Alguns sinais indicam emergência e exigem atendimento imediato, sem esperar a próxima consulta.',
+          'Convulsão em gestante ou em puérpera é eclâmpsia e precisa de atendimento de urgência. Chame o SAMU pelo 192 ou leve a pessoa ao pronto atendimento mais próximo, sem dirigi-la sozinha se houver risco de convulsão.',
+        ],
+        bullets: [
+          'Convulsão, perda de consciência ou confusão mental',
+          'Dor de cabeça muito intensa que não passa',
+          'Alterações visuais, como perda parcial da visão',
+          'Dor forte na boca do estômago ou no ombro',
+          'Dificuldade para respirar ou dor no peito',
+          'Pressão arterial muito alta medida em casa, com sintomas',
+        ],
+        cta: {
+          label: 'Leia também: os sinais que não esperam a consulta',
+          href: '/artigos/pre-eclampsia-sinais-que-nao-esperam-a-consulta/',
+        },
+      },
+      {
+        id: 'fatores-de-risco',
+        heading: 'Quem tem mais risco',
+        paragraphs: [
+          'Ter um fator de risco não significa que a doença vai aparecer, mas indica a necessidade de acompanhamento mais próximo do que o pré-natal de rotina.',
+          'A primeira gestação e a gestação de gêmeos aumentam a chance, assim como obesidade, pressão alta, diabetes ou doença renal já existentes e história familiar de pré-eclâmpsia. Quem teve a doença em uma gestação anterior também tem risco maior na seguinte.',
+        ],
+        bullets: [
+          'Primeira gestação',
+          'Gestação de gêmeos ou mais bebês',
+          'Obesidade',
+          'Hipertensão, diabetes ou doença renal antes da gravidez',
+          'História familiar de pré-eclâmpsia',
+          'Pré-eclâmpsia em gestação anterior',
+        ],
+      },
+      {
+        id: 'diagnostico',
+        heading: 'Como o diagnóstico é feito?',
+        paragraphs: [
+          'O diagnóstico se baseia na medida da pressão arterial e na pesquisa de proteína na urina. Considera-se pressão alta na gestação valores iguais ou superiores a 140/90 mmHg, confirmados em mais de uma medida. A proteinúria é definida a partir de 0,3 g em 24 horas ou por uma relação proteína e creatinina elevada em amostra de urina.',
+          'Exames de sangue avaliam fígado, rins e plaquetas, e a ultrassonografia acompanha o crescimento do bebê e o volume de líquido amniótico. A frequência desses exames aumenta quando a pressão não se estabiliza.',
+          'Quando a pressão sobe e não há proteína na urina, o diagnóstico pode ser feito pela presença de sinais de comprometimento de órgãos, como alteração das enzimas do fígado, queda de plaquetas ou problemas renais.',
+        ],
+      },
+      {
+        id: 'formas-graves',
+        heading: 'Formas graves da doença',
+        paragraphs: [
+          'A pré-eclâmpsia grave é a forma com pressão muito elevada ou com sinais de lesão de órgãos. Ela exige internação e avaliação rápida sobre o momento do parto.',
+          'A eclâmpsia é a ocorrência de convulsões em uma gestante com pré-eclâmpsia, sem outra causa identificável. É uma emergência obstétrica.',
+          'A síndrome HELLP combina destruição de hemácias, aumento das enzimas do fígado e queda das plaquetas. Pode aparecer com poucos sintomas e progride rápido, com risco de sangramento e de lesão hepática.',
+        ],
+      },
+      {
+        id: 'complicacoes',
+        heading: 'Quais são as complicações?',
+        paragraphs: [
+          'Para a mãe, a doença pode causar lesão nos rins, no fígado e no cérebro, além de descolamento da placenta e sangramento. Essas complicações são a razão pela qual a pressão alta na gestação não é tratada como um detalhe do pré-natal.',
+          'Para o bebê, a placenta que funciona mal reduz o crescimento, e o parto muitas vezes precisa ser antecipado. A prematuridade traz risco de problemas respiratórios e de dificuldades na amamentação nas primeiras semanas.',
+          'Nos casos extremos, a evolução pode levar à morte da mãe e do bebê. A maior parte desses desfechos é evitável com pré-natal regular e reconhecimento precoce dos sinais de gravidade.',
+        ],
+      },
+      {
+        id: 'tratamento',
+        heading: 'Como é o tratamento?',
+        paragraphs: [
+          'O único tratamento que resolve a causa é o parto. O que a equipe faz antes disso é controlar a pressão, prevenir convulsões e ganhar tempo para o bebê amadurecer, quando isso é seguro para a mãe.',
+          'O sulfato de magnésio é usado para prevenir e tratar as convulsões da eclâmpsia, e reduz em mais da metade o risco de convulsão em mulheres com pré-eclâmpsia. Ele é administrado no hospital, com monitoramento, e não é um remédio caseiro.',
+          'Anti-hipertensivos controlam a pressão quando ela está muito alta. Em gestações prematuras, o corticosteroide acelera a maturação do pulmão do bebê. A decisão sobre quando interromper a gestação considera a idade gestacional, a gravidade da doença e a condição do bebê.',
+        ],
+      },
+      {
+        id: 'pos-parto',
+        heading: 'Depois do parto',
+        paragraphs: [
+          'A pressão costuma cair nas primeiras 48 horas, mas pode voltar a subir até seis semanas depois do parto. Por isso a medida da pressão continua nas consultas de revisão, e sintomas como dor de cabeça forte e visão turva devem ser comunicados imediatamente.',
+          'Quem teve pré-eclâmpsia tem mais risco de hipertensão, doença cardíaca e diabetes ao longo da vida. Esse histórico deve ser informado em qualquer consulta futura, e o acompanhamento com o clínico geral ou o cardiologista ajuda a controlar pressão, peso e colesterol.',
+          'A amamentação é possível e recomendada. Os medicamentos usados no pós-parto para controlar a pressão são compatíveis com a amamentação na maior parte dos casos, e a escolha é feita pela equipe que acompanha a mulher.',
+        ],
+        cta: {
+          label: 'Leia também: o risco cardiovascular depois da pré-eclâmpsia',
+          href: '/artigos/pre-eclampsia-depois-do-parto-risco-cardiovascular/',
+        },
+      },
+      {
+        id: 'prevencao',
+        heading: 'Dá para prevenir?',
+        paragraphs: [
+          'Não existe forma de garantir que a pré-eclâmpsia não apareça, mas é possível reduzir o risco. O pré-natal regular, com medida da pressão e exame de urina em todas as consultas, é a medida mais importante, porque permite detectar o problema no começo.',
+          'Em mulheres com alto risco, a Organização Mundial da Saúde recomenda aspirina em dose baixa, iniciada antes de 20 semanas ou quando o pré-natal começa. A suplementação de cálcio é indicada onde a ingestão alimentar é baixa. Nenhuma das duas substitui o acompanhamento.',
+          'Manter peso adequado antes de engravidar, controlar a pressão de base e tratar doenças prévias, como diabetes e doença renal, também fazem parte da prevenção. Durante a gestação, não se deve iniciar ou suspender remédio por conta própria.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Pré-eclâmpsia tem cura?',
+        answer: 'Durante a gestação, não. O que resolve a doença é o parto. Antes disso, o tratamento controla a pressão, previne convulsões e acompanha o bebê de perto.',
+      },
+      {
+        question: 'Pré-eclâmpsia pode aparecer depois do parto?',
+        answer: 'Pode. A doença às vezes se manifesta nas primeiras semanas depois do parto, e a pressão deve continuar sendo medida nas consultas de revisão. Dor de cabeça forte, visão turva e falta de ar nesse período exigem atendimento.',
+      },
+      {
+        question: 'Quem teve pré-eclâmpsia pode ter outra gestação?',
+        answer: 'Pode, com acompanhamento desde o início do pré-natal. O risco de repetir é maior do que em quem nunca teve a doença, e por isso a gestação é tratada como de alto risco.',
+      },
+      {
+        question: 'Pressão alta na gravidez é sempre pré-eclâmpsia?',
+        answer: 'Não. Existe a hipertensão gestacional, em que a pressão sobe sem proteína na urina e sem sinais de lesão de órgãos. A diferença é definida pelos exames e pela evolução, e as duas situações exigem acompanhamento.',
+      },
+      {
+        question: 'Pré-eclâmpsia prejudica o bebê?',
+        answer: 'Pode prejudicar. A placenta que funciona mal reduz o crescimento e, muitas vezes, antecipa o parto. O acompanhamento com ultrassonografia e cardiotocografia serve para identificar esses sinais a tempo.',
+      },
+      {
+        question: 'Posso ter parto normal com pré-eclâmpsia?',
+        answer: 'Sim, em muitos casos. A via de parto depende da idade gestacional, da condição da mãe e do bebê, da apresentação fetal e da história obstétrica. A decisão é tomada pela equipe que acompanha a gestação.',
+      },
+    ],
+    relatedArticleSlugs: [
+      'pre-eclampsia-sinais-que-nao-esperam-a-consulta',
+      'pre-eclampsia-depois-do-parto-risco-cardiovascular',
+    ],
+    relatedTopicSlugs: ['saude-da-mulher'],
+    relatedDiseaseSlugs: ['hipertensao', 'diabetes-gestacional', 'obesidade'],
+    references: [
+      {
+        label: 'Pre-eclampsia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Gravidez',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gravidez',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
     isPlaceholder: true,
   },
 ];

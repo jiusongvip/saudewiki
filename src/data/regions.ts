@@ -46,6 +46,7 @@ export const regions: BodyRegion[] = [
       'sifilis',
       'toxoplasmose',
       'doenca-de-alzheimer',
+      'doenca-de-parkinson',
     ],
     globalOverview: [
       'No mundo, o AVC é uma das principais causas de morte e de incapacidade permanente, e a enxaqueca e outras cefaleias estão entre as causas mais frequentes de anos vividos com limitação. Epilepsia, demências e neuropatias completam o grupo das doenças neurológicas mais comuns.',
@@ -169,6 +170,7 @@ export const regions: BodyRegion[] = [
       'sifilis',
       'hipertireoidismo',
       'trombose-venosa-profunda',
+      'pre-eclampsia',
     ],
     globalOverview: [
       'As doenças cardiovasculares são a principal causa de morte no mundo, e dentro delas o infarto e o AVC lideram. A hipertensão, presente em cerca de um em cada quatro adultos, é o maior fator de risco isolado e costuma ser silenciosa por anos.',
@@ -263,6 +265,7 @@ export const regions: BodyRegion[] = [
       'hipotireoidismo',
       'obesidade',
       'hipertireoidismo',
+      'diabetes-gestacional',
     ],
     globalOverview: [
       'No mundo, centenas de milhões de pessoas vivem com diabetes, a imensa maioria do tipo 2, e a doença se tornou uma das principais causas de cegueira, diálise e amputação evitáveis.',
@@ -319,6 +322,7 @@ export const regions: BodyRegion[] = [
       'malaria',
       'hanseniase',
       'cancer-de-pele',
+      'melanoma',
       'leishmaniose',
       'elefantiase',
       'cisticercose',

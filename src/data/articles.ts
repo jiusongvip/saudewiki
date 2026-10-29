@@ -27901,4 +27901,1583 @@ export const articles: Article[] = [
     updatedAt: '2026-10-29',
     isPlaceholder: true,
   },
+  {
+    id: 'melanoma-do-diagnostico-ao-estadiamento',
+    slug: 'melanoma-do-diagnostico-ao-estadiamento',
+    title: 'Melanoma: do diagnóstico ao estadiamento',
+    excerpt:
+      'O laudo da biópsia traz a espessura do tumor, a ulceração e as margens. Entenda o que cada dado significa e por que ele muda a cirurgia e o seguimento.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-muda-com-o-laudo',
+        heading: 'O que muda quando o laudo confirma melanoma',
+        paragraphs: [
+          'O laudo da biópsia é o primeiro ponto de virada. Antes dele, tudo é suspeita; depois, o texto passa a descrever um tumor com medidas e características próprias. É esse documento que indica se o caso será resolvido com uma cirurgia pequena ou se vai exigir investigação de gânglios e de outros órgãos. A partir daí, o acompanhamento deixa de ser hipótese e passa a ter etapas definidas.',
+          'O exame confirma o diagnóstico e informa o tipo de célula, a espessura do tumor, a presença de ulceração e o número de mitoses. Também registra se as margens do material retirado estão livres. Cada um desses dados entra no cálculo do estágio e muda a conduta. Por isso, duas biópsias parecidas na aparência podem levar a condutas bem diferentes.',
+          'Vale guardar o laudo completo e levá-lo a todas as consultas seguintes. A segunda opinião, quando necessária, depende dele, e o planejamento cirúrgico começa pela leitura desses números. Se algum termo do texto não estiver claro, peça ao médico para explicar palavra por palavra.',
+        ],
+      },
+      {
+        id: 'breslow-e-ulceracao',
+        heading: 'O que significam Breslow e ulceração',
+        paragraphs: [
+          'O índice de Breslow mede, em milímetros, a profundidade que o tumor alcançou a partir da superfície da pele. Não é o tamanho da mancha que se vê, e sim a espessura da invasão. Duas lesões do mesmo diâmetro podem ter espessuras muito diferentes. A medição é feita no microscópio, pelo patologista, e aparece em milímetros com uma casa decimal.',
+          'A espessura é o dado que mais pesa no prognóstico. Tumores muito finos raramente se espalham e costumam ser resolvidos com margens pequenas. Quanto mais profundo, maior o risco de células já terem alcançado vasos linfáticos ou sanguíneos, e maior a margem necessária na cirurgia definitiva. É também a razão pela qual a biópsia precisa retirar a lesão inteira, e não apenas um pedaço dela.',
+          'A ulceração é a perda da camada superficial sobre o tumor, visível ao microscópio. Quando está presente, indica um tumor mais agressivo e entra no estadiamento mesmo em lesões pouco espessas. Em lesões com ulceração, o estadiamento pode subir mesmo quando a espessura é pequena.',
+        ],
+      },
+      {
+        id: 'linfonodo-sentinela',
+        heading: 'Para que serve o linfonodo sentinela',
+        paragraphs: [
+          'O linfonodo sentinela é o primeiro gânglio a receber a linfa da área onde está o tumor. Ele funciona como uma estação de triagem: se as células do melanoma passaram dali, o gânglio pode estar comprometido; se está livre, a chance de outros gânglios da mesma cadeia estarem atingidos cai bastante. A lógica é simples: se o primeiro gânglio está livre, é pouco provável que os seguintes tenham sido atingidos.',
+          'O exame é feito com a injeção de um marcador perto da cicatriz da biópsia e com a localização do gânglio durante a cirurgia. Ele é retirado e analisado. Quando há indicação, o procedimento acontece junto com a ampliação das margens, em um único tempo cirúrgico. O exame acontece no centro cirúrgico, e o gânglio segue para análise junto com o material do tumor.',
+          'Nem todo mundo precisa desse exame. A indicação depende da espessura e de outras características do tumor e é discutida caso a caso. Quando o gânglio está comprometido, o passo seguinte pode ser a retirada dos demais gânglios da região. A decisão pesa o risco de complicações, como o linfedema, contra o benefício de conhecer o estágio com precisão.',
+        ],
+      },
+      {
+        id: 'exames-de-estadiamento',
+        heading: 'Quais exames procuram metástase',
+        paragraphs: [
+          'A pesquisa de metástase não é feita em todas as pessoas. Ela é indicada conforme o estágio e os sintomas. Em tumores finos e sem sinais de disseminação, o exame físico e o acompanhamento costumam bastar. O exame físico do pescoço, das axilas e da virilha faz parte dessa primeira avaliação.',
+          'Quando há indicação, entram ultrassonografia de gânglios, tomografia de tórax e abdome, ressonância do crânio e, em situações específicas, o PET-CT. A dosagem de LDH no sangue completa a avaliação e ajuda a acompanhar a doença avançada. Cada exame tem indicação própria, e pedir todos ao mesmo tempo raramente ajuda.',
+          'Esses exames servem para planejar, não para tranquilizar. Repetir imagem sem critério expõe a radiação e a achados que geram investigações desnecessárias. O intervalo é definido pelo estágio e pelo plano terapêutico. Se surgir um sintoma novo, como dor óssea persistente ou falta de ar, ele deve ser investigado antes do prazo previsto.',
+        ],
+      },
+      {
+        id: 'o-que-cada-estagio-significa',
+        heading: 'O que cada estágio significa',
+        paragraphs: [
+          'O estágio resume duas informações: quanto o tumor invadiu e para onde foi. No estágio 0, as células estão restritas à camada mais superficial e a cirurgia costuma resolver. Nos estágios I e II, o tumor é local, sem comprometimento de gânglios. A diferença entre os estágios I e II está em detalhes do laudo, como a espessura e a ulceração.',
+          'No estágio III, há células em gânglios ou em vasos linfáticos próximos ao tumor original. É a situação em que a pesquisa do linfonodo sentinela e a discussão sobre tratamento complementar ganham peso. No estágio IV, existem metástases em outros órgãos. O estágio III é o mais heterogêneo, porque reúne situações de extensão bem diferente.',
+          'O estágio não é um destino. Ele organiza decisões, compara resultados e define a frequência do seguimento. Duas pessoas com o mesmo estágio podem ter evoluções diferentes, e o plano é revisto a cada nova informação. Por isso, o seguimento é individualizado e não segue um calendário único para todos.',
+        ],
+      },
+      {
+        id: 'por-que-testar-o-tumor',
+        heading: 'Por que o tumor é testado',
+        paragraphs: [
+          'Parte dos melanomas tem alterações em genes que controlam o crescimento celular. Identificar essas alterações permite usar medicamentos que bloqueiam especificamente a proteína alterada, o que se chama de terapia-alvo. O painel costuma incluir BRAF e outras alterações que têm medicamento disponível.',
+          'O teste é feito no material da biópsia ou da cirurgia e faz parte da avaliação de casos avançados. Sem a alteração correspondente, o remédio não funciona, e por isso o exame evita tratamentos inúteis e efeitos colaterais desnecessários. Em tumores sem essas alterações, a imunoterapia segue como caminho principal.',
+          'O resultado também ajuda a entender por que alguns tumores respondem melhor a certas combinações. Se o seu caso entrou nessa discussão, vale perguntar quais marcadores foram pesquisados e o que o resultado muda no plano. O resultado não muda o passado, mas organiza o que fazer a seguir.',
+        ],
+        cta: {
+          label: 'Entenda o melanoma na enciclopédia',
+          href: '/doencas/melanoma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['melanoma'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['melanoma-quando-a-cirurgia-nao-basta'],
+    references: [
+      {
+        label: 'Câncer de pele melanoma, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pele-melanoma/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'melanoma-quando-a-cirurgia-nao-basta',
+    slug: 'melanoma-quando-a-cirurgia-nao-basta',
+    title: 'Melanoma avançado: quando a cirurgia não basta',
+    excerpt:
+      'Imunoterapia e terapia-alvo mudaram o tratamento do melanoma que se espalhou. Veja como cada uma funciona, o que esperar dos efeitos e como a resposta é avaliada.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-a-cirurgia-nao-resolve',
+        heading: 'Quando a cirurgia não resolve',
+        paragraphs: [
+          'A cirurgia resolve a maior parte dos melanomas descobertos cedo. Ela deixa de ser suficiente quando o tumor volta no mesmo lugar, quando há gânglios comprometidos que não podem ser retirados com segurança ou quando aparecem metástases em outros órgãos. Também é o momento em que a equipe discute o que a pessoa prefere e quanto está disposta a tolerar em efeitos colaterais.',
+          'Nesses casos, o tratamento passa a ser sistêmico, ou seja, alcança o corpo todo por meio de medicamentos. O objetivo muda: em vez de retirar tudo, busca-se controlar a doença, reduzir sintomas e prolongar a vida com qualidade. Em muitos casos, a doença fica controlada por anos, com vida próxima do normal.',
+          'A decisão não é tomada às pressas nem por um único profissional. Ela envolve oncologista, cirurgião, radioterapeuta e patologista, e considera o estágio, os sintomas, as doenças prévias e o que a pessoa deseja para o próprio tratamento. Levar um acompanhante e anotar as dúvidas antes da consulta ajuda a não esquecer pontos importantes.',
+        ],
+      },
+      {
+        id: 'imunoterapia',
+        heading: 'Como funciona a imunoterapia',
+        paragraphs: [
+          'As células do melanoma conseguem se esconder do sistema imunológico. A imunoterapia bloqueia sinais que mantêm esse disfarce, e as células de defesa voltam a reconhecer o tumor como algo estranho. Esse mecanismo é diferente do da quimioterapia, que ataca células que se dividem rápido, com ou sem disfarce.',
+          'O tratamento é aplicado por via intravenosa, em ciclos, e a resposta pode demorar algumas semanas. Em parte dos pacientes, o efeito é duradouro, o que mudou o prognóstico da doença avançada nas últimas décadas. As aplicações costumam ser feitas em centro especializado, com monitoramento durante a infusão.',
+          'Nem todo organismo reage do mesmo jeito. Efeitos ligados à ativação imunológica podem aparecer na pele, no intestino, na tireoide e em outros órgãos, e precisam ser relatados à equipe assim que surgirem, mesmo que pareçam leves. Reconhecer esses efeitos cedo permite tratá-los sem interromper o esquema.',
+        ],
+      },
+      {
+        id: 'terapia-alvo',
+        heading: 'Como funciona a terapia-alvo',
+        paragraphs: [
+          'A terapia-alvo é indicada quando o tumor tem uma alteração específica, mais frequentemente no gene BRAF. O medicamento bloqueia a proteína produzida por esse gene alterado, e o resultado é a interrupção do estímulo que faz as células tumorais se multiplicarem. O exame que identifica essa alteração é feito no tecido do tumor, não no sangue.',
+          'Costuma ser usada em combinação, com dois medicamentos que atuam em pontos diferentes da mesma via. A resposta inicial pode ser rápida, inclusive com redução visível de lesões em poucas semanas. Febre e manchas na pele são efeitos comuns no início e costumam ser manejados com ajuste de dose.',
+          'O efeito tende a durar menos do que o da imunoterapia, porque as células tumorais desenvolvem resistência. Por isso, o seguimento com exames periódicos faz parte do tratamento, e não é formalidade. Quando a resistência aparece, a equipe pode trocar a estratégia e considerar outras combinações.',
+        ],
+      },
+      {
+        id: 'radioterapia-e-quimioterapia',
+        heading: 'Radioterapia e quimioterapia',
+        paragraphs: [
+          'A radioterapia é usada para controlar lesões específicas, sobretudo no cérebro e nos ossos, e como complemento depois da retirada de gânglios com doença extensa. Ela alivia dor, reduz o risco de fratura e melhora sintomas neurológicos. As sessões são curtas e indolores, e o cansaço costuma aumentar ao longo das semanas.',
+          'A quimioterapia tem papel limitado no melanoma. Pode ser considerada quando não há outras opções, mas os resultados costumam ser modestos em comparação com a imunoterapia e a terapia-alvo. Por isso, ela raramente é a primeira escolha quando há acesso a tratamentos mais recentes.',
+          'Essas escolhas dependem do que já foi feito, da localização das lesões e do estado geral. Duas pessoas com o mesmo estágio podem receber planos diferentes, e isso não significa que um deles esteja errado. Vale perguntar qual é o objetivo de cada etapa, para que a expectativa fique alinhada ao que é possível.',
+        ],
+      },
+      {
+        id: 'efeitos-colaterais-e-vida-diaria',
+        heading: 'Efeitos colaterais e vida diária',
+        paragraphs: [
+          'Cansaço, alterações de pele, diarreia, mudanças na tireoide e dores nas articulações estão entre os efeitos mais relatados. A maioria é manejável quando identificada cedo, e a equipe ajusta o esquema conforme o caso. Alguns efeitos aparecem só depois de algumas semanas de tratamento, e não na primeira aplicação.',
+          'Anotar sintomas e a data de início ajuda muito. Febre persistente, falta de ar, diarreia intensa e confusão mental pedem contato imediato com o serviço, porque podem indicar efeitos que exigem tratamento rápido. Ter um contato direto do serviço, para esses casos, faz diferença na segurança.',
+          'Manter atividade física possível, alimentação regular e sono ajuda a tolerar o tratamento. O suporte psicológico também conta: ansiedade e medo de progressão são frequentes e não devem ser tratados como parte normal e inevitável. Se o cansaço impedir atividades básicas, isso também deve ser relatado e avaliado.',
+        ],
+      },
+      {
+        id: 'acompanhar-a-resposta',
+        heading: 'Como se avalia se o tratamento funciona',
+        paragraphs: [
+          'A resposta é avaliada com exames de imagem repetidos em intervalos definidos e com o exame clínico. Em imunoterapia, às vezes a lesão aumenta antes de diminuir, e a equipe sabe interpretar esse padrão. O intervalo entre os exames varia conforme o tratamento e o estágio inicial.',
+          'O objetivo pode ser a redução do tumor, o controle do crescimento ou apenas o alívio de sintomas. Cada um tem critérios próprios, e o plano é revisto a cada avaliação. Em algumas situações, o melhor resultado é a estabilidade das lesões por vários meses.',
+          'Perguntar quais exames serão feitos, com que frequência e o que mudaria o rumo do tratamento ajuda a participar das decisões. O melanoma avançado virou uma doença com mais opções do que antes, e isso torna a conversa sobre alternativas parte do cuidado. Anotar as perguntas antes de cada consulta ajuda a usar melhor o tempo com a equipe.',
+        ],
+        cta: {
+          label: 'Veja os sinais e o diagnóstico do melanoma',
+          href: '/doencas/melanoma/',
+        },
+      },
+    ],
+    diseaseSlugs: ['melanoma'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['melanoma-do-diagnostico-ao-estadiamento'],
+    references: [
+      {
+        label: 'Câncer de pele melanoma, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/pele-melanoma/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-boca-ferida-que-nao-sara',
+    slug: 'cancer-de-boca-ferida-que-nao-sara',
+    title: 'Ferida na boca que não sara: quando procurar um dentista',
+    excerpt:
+      'Afta costuma sarar em duas semanas. Uma ferida que passa de 15 dias, endurece ou sangra precisa de exame. Veja o que o dentista procura e como é a biópsia.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'quando-uma-ferida-deixa-de-ser-afta',
+        heading: 'Quando uma ferida deixa de ser afta',
+        paragraphs: [
+          'A afta comum tem um ciclo previsível: aparece, dói por alguns dias e cicatriza em uma ou duas semanas. Uma ferida na boca que passa de 15 dias sem sinal de melhora sai desse ciclo e precisa ser examinada por um dentista ou médico, mesmo que não doa. Isso vale para qualquer pessoa, mesmo sem histórico de tabagismo.',
+          'O sinal de alarme não é só o tempo. Bordas endurecidas, fundo irregular, sangramento fácil e crescimento progressivo mudam a conversa. Dor intensa não é obrigatória, e a ausência dela é justamente o que faz muita gente adiar a consulta por meses. Uma lesão que sangra ao menor toque também merece atenção.',
+          'O câncer de boca é mais frequente depois dos 50 anos, em pessoas que fumam ou bebem com frequência, mas pode aparecer fora desse perfil. Por isso, o critério prático é o tempo de evolução e o aspecto da lesão, não a idade nem o histórico. O tempo é o dado mais confiável que o paciente consegue relatar.',
+        ],
+      },
+      {
+        id: 'o-que-o-exame-da-boca-procura',
+        heading: 'O que o exame da boca procura',
+        paragraphs: [
+          'O exame é simples e não dói. O profissional olha lábios, bochechas, gengivas, palato, língua e assoalho da boca, e apalpa cada uma dessas áreas com luva. Também examina o pescoço em busca de gânglios aumentados, que podem ser o primeiro sinal de um tumor ainda pequeno. O exame completo leva poucos minutos e pode ser feito na própria cadeira do dentista.',
+          'Algumas regiões exigem manobra: puxar a língua para os lados para ver as bordas, levantá-la para enxergar o assoalho e afastar a bochecha. São justamente os lugares onde os tumores costumam começar e onde ninguém consegue olhar sozinho em casa. Por isso, a orientação é não tentar diagnosticar a própria boca no espelho.',
+          'O dentista é muitas vezes quem faz esse exame, porque vê a boca com regularidade e conhece o que é normal naquele paciente. Isso não substitui a avaliação médica quando há suspeita, e os dois caminhos levam ao mesmo lugar: a biópsia. Quando há dúvida, o encaminhamento é para a atenção especializada.',
+        ],
+      },
+      {
+        id: 'sinais-que-mudam-a-urgencia',
+        heading: 'Sinais que mudam a urgência',
+        paragraphs: [
+          'Alguns achados antecipam a consulta. Caroço endurecido que cresce rápido, gânglio no pescoço que não diminui, sangramento sem causa e dificuldade nova para engolir ou falar pedem avaliação em dias, não em meses. Nesses casos, o exame não deve esperar a próxima consulta de rotina.',
+          'Placas brancas ou vermelhas persistentes também entram nessa lista. Elas podem ser lesões precursoras e, quando identificadas, permitem tratamento antes de virarem câncer. O mesmo vale para feridas que reaparecem sempre no mesmo ponto. O dentista avalia se a área precisa de biópsia ou apenas de acompanhamento.',
+          'Não é preciso esperar piorar. Uma ferida que incomoda há três semanas justifica consulta mesmo sem dor, e o exame inicial é rápido, barato e disponível na atenção básica. Adiar costuma aumentar o tamanho da cirurgia necessária.',
+        ],
+      },
+      {
+        id: 'biopsia-o-que-esperar',
+        heading: 'Biópsia: o que esperar',
+        paragraphs: [
+          'A biópsia retira um fragmento da lesão para análise. Na maioria das vezes é feita no ambulatório, com anestesia local, e dura poucos minutos. O material vai para o laboratório e o resultado costuma levar alguns dias. O procedimento é seguro e raramente deixa sequelas.',
+          'O laudo informa se há câncer, o tipo de célula e o grau de diferenciação. Com o diagnóstico confirmado, o encaminhamento para um centro especializado deve ser imediato, porque o tempo até o início do tratamento influencia o resultado. Centros de referência em cabeça e pescoço concentram esse atendimento.',
+          'Enquanto espera, evite mexer na lesão, não use produtos caseiros e mantenha a boca limpa. Se houver sangramento que não para ou dor que aumenta rápido, procure atendimento antes da consulta marcada. Anotar as dúvidas antes da consulta ajuda a aproveitar melhor o tempo com a equipe.',
+        ],
+      },
+      {
+        id: 'fatores-de-risco-que-pedem-atencao',
+        heading: 'Fatores de risco que pedem atenção',
+        paragraphs: [
+          'Tabaco e álcool somam risco. Quem fuma e bebe tem probabilidade bem maior de desenvolver câncer de boca do que quem só fuma ou só bebe, e o efeito aparece tanto com cigarro industrializado quanto com fumo de rolo, charuto, cachimbo e narguilé. O risco cresce com a quantidade e com os anos de uso.',
+          'HPV, sol sem proteção nos lábios, dieta pobre em frutas e vegetais e excesso de gordura corporal também contam. Dente quebrado e prótese mal ajustada agridem a mucosa de forma contínua e devem ser corrigidos pelo dentista. Corrigir a prótese é rápido e resolve a maior parte desses atritos.',
+          'Ter um fator de risco não significa ter câncer, e não ter nenhum não exclui a doença. O que muda com o risco é o nível de atenção: quem fuma ou bebe deve olhar a boca com frequência e não adiar a avaliação de qualquer ferida. Vale combinar uma revisão odontológica pelo menos uma vez por ano.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-enquanto-espera',
+        heading: 'O que fazer enquanto espera o resultado',
+        paragraphs: [
+          'Manter a rotina possível ajuda, mas algumas medidas concretas fazem diferença. Parar de fumar, se puder, e evitar álcool durante a investigação reduz a irritação da mucosa e favorece a cicatrização. Se parar sozinho for difícil, o SUS oferece acompanhamento para cessação do tabagismo.',
+          'Anote quando a lesão apareceu, o que mudou e quais remédios você usa. Essas informações orientam a conduta e evitam exames repetidos. Leve também exames anteriores, se houver, e o cartão de vacinação. Fotografar a lesão com o celular, na mesma luz, ajuda a comparar a evolução.',
+          'Se o diagnóstico for confirmado, o tratamento começa em um serviço especializado e o plano é explicado antes de qualquer decisão. Perguntar sobre etapas, efeitos e alternativas é parte do processo, e não sinal de desconfiança. Escrever as perguntas antes da consulta evita que elas se percam no caminho.',
+        ],
+        cta: {
+          label: 'Conheça o câncer de boca na enciclopédia',
+          href: '/doencas/cancer-de-boca/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-boca'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['cancer-de-boca-depois-da-cirurgia'],
+    references: [
+      {
+        label: 'Câncer de boca, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/boca/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'cancer-de-boca-depois-da-cirurgia',
+    slug: 'cancer-de-boca-depois-da-cirurgia',
+    title: 'Câncer de boca: como é viver depois da cirurgia',
+    excerpt:
+      'Fala, alimentação e ombro mudam depois da retirada do tumor e dos gânglios. Veja o que a reabilitação faz, em que ordem e por que o seguimento dura anos.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-muda-depois-da-cirurgia',
+        heading: 'O que muda depois da cirurgia',
+        paragraphs: [
+          'A cirurgia retira o tumor e, muitas vezes, os gânglios do pescoço do lado afetado. O corpo responde com edema, alteração da sensibilidade e restrição de movimento, e essas mudanças variam conforme a extensão da operação. A extensão da cirurgia depende do tamanho do tumor e do comprometimento de gânglios. A informação sobre o estágio vem do laudo e orienta a conversa seguinte.',
+          'A recuperação tem etapas: controle da dor e da ferida, retorno gradual da alimentação, retomada da fala e adaptação à nova anatomia. Nas primeiras semanas, o cansaço é esperado e não indica, por si só, que algo deu errado. Cada etapa tem um profissional responsável, e o paciente é informado sobre o que esperar.',
+          'A reconstrução, quando necessária, usa tecidos do próprio corpo e pode exigir mais de um tempo cirúrgico. O resultado melhora com o tempo, e o acompanhamento serve para ajustar expectativas e corrigir o que for possível. Fotografias ao longo do tempo mostram uma evolução que o espelho do dia a dia não revela.',
+        ],
+      },
+      {
+        id: 'falar-e-engolir',
+        heading: 'Falar e engolir',
+        paragraphs: [
+          'A língua e o assoalho da boca participam da articulação das palavras e do transporte do alimento. Depois da cirurgia, esses movimentos mudam, e a fonoaudiologia entra para reorganizar a musculatura e ensinar compensações. O trabalho começa, em geral, ainda durante a internação, com exercícios simples. A frequência é definida pela equipe conforme a necessidade.',
+          'A deglutição segura é prioridade. Engasgos, tosse ao comer e voz molhada depois de beber podem indicar aspiração e precisam ser avaliados. Exercícios específicos, feitos com orientação, reduzem esse risco e ajudam a evitar pneumonia. A alimentação e a fala caminham juntas, e a equipe ajusta as orientações conforme a resposta.',
+          'O progresso é medido em semanas e meses. Gravar a própria voz no início e comparar depois ajuda a perceber avanços que passam despercebidos no dia a dia, e dá ao fonoaudiólogo um parâmetro objetivo. Sessões regulares por alguns meses são mais eficazes do que esforços concentrados em poucos dias. O objetivo é voltar a comer com segurança, não apenas falar melhor.',
+        ],
+      },
+      {
+        id: 'alimentacao-e-peso',
+        heading: 'Alimentação e peso',
+        paragraphs: [
+          'Comer pode ficar difícil e doloroso, e a perda de peso é comum. O risco é entrar num ciclo em que a desnutrição atrasa a cicatrização e reduz a tolerância ao tratamento. O acompanhamento começa antes da alta e continua enquanto durar o tratamento.',
+          'A estratégia é adaptar a consistência: alimentos macios, úmidos, em temperatura morna ou fria, refeições menores e mais frequentes. Suplementos entram quando o volume ingerido não cobre a necessidade. Comer devagar e em ambiente tranquilo reduz o risco de engasgo e melhora a quantidade ingerida. Sopas, purês e carnes moídas entram no cardápio com frequência.',
+          'O nutricionista ajusta a quantidade de proteína e de energia e acompanha o peso a cada consulta. Perder peso de forma rápida e sustentada é motivo de consulta, não de resignação. Quando o peso cai, a equipe revê a via de alimentação e o suporte nutricional.',
+        ],
+      },
+      {
+        id: 'ombro-e-pescoco',
+        heading: 'Ombro e pescoço depois da retirada de gânglios',
+        paragraphs: [
+          'A retirada de gânglios do pescoço pode afetar nervos que comandam o ombro, e o resultado é dor, fraqueza e dificuldade para levantar o braço. A fisioterapia começa cedo, com movimentos graduais e alongamentos. Alongamentos diários e exercícios de fortalecimento ajudam a recuperar a amplitude.',
+          'O linfedema, inchaço persistente da face e do pescoço, pode aparecer semanas ou meses depois. Massagem específica, exercícios e cuidado com a pele ajudam a controlar, e a avaliação deve ser precoce. A pele da área operada deve ser hidratada e protegida do sol. O inchaço pode oscilar ao longo do dia e piorar no calor.',
+          'Evite esforço repetido e trauma na área operada, e procure atendimento diante de vermelhidão, calor ou aumento súbito do inchaço, que podem indicar infecção. Relatar dor nova ou perda de força permite ajustar o plano de reabilitação.',
+        ],
+      },
+      {
+        id: 'a-mucosa-durante-a-radioterapia',
+        heading: 'A mucosa durante a radioterapia',
+        paragraphs: [
+          'Quando a radioterapia faz parte do plano, a mucosa da boca e da garganta reage. Aparecem feridas, dor ao engolir e alteração do paladar, geralmente a partir da segunda ou terceira semana de tratamento. O planejamento busca poupar o máximo de tecido sadio, mas a reação é esperada.',
+          'A higiene continua, com escova macia e produtos sem álcool. Bochechos prescritos pela equipe ajudam, e a alimentação precisa ser ajustada para não machucar ainda mais. Refeições frias e pastosas costumam ser melhor toleradas nessa fase. Evite enxaguantes com álcool e bebidas gaseificadas nesse período.',
+          'Esses efeitos costumam melhorar depois do fim das sessões, mas exigem acompanhamento durante todo o período. Não interrompa o tratamento por conta própria: a equipe tem recursos para controlar a dor. O controle da dor é parte do tratamento e não deve ser adiado por receio de medicamentos.',
+        ],
+      },
+      {
+        id: 'voltar-ao-trabalho-e-a-convivencia',
+        heading: 'Voltar ao trabalho e à convivência',
+        paragraphs: [
+          'O retorno ao trabalho depende da fala, da alimentação e do cansaço. Algumas pessoas voltam em poucas semanas; outras precisam de meses e de adaptações, como pausas para hidratação e alimentação. Conversar com o empregador sobre o período de adaptação evita decisões precipitadas.',
+          'A convivência social também muda. Dificuldade para falar ao telefone e constrangimento ao comer em público são comuns, e grupos de apoio ajudam a recuperar confiança. Familiares também precisam de orientação para lidar com as mudanças na comunicação.',
+          'O seguimento com o cirurgião de cabeça e pescoço e a equipe multidisciplinar continua por anos, com exames periódicos. Manter essas consultas é a forma mais eficaz de detectar cedo uma recidiva. O retorno de sintomas, como dor persistente ou novo caroço, deve ser relatado antes da data marcada. Se o medo de voltar atrapalhar, a equipe pode ajudar com encaminhamento.',
+        ],
+        cta: {
+          label: 'Veja os sinais e o tratamento do câncer de boca',
+          href: '/doencas/cancer-de-boca/',
+        },
+      },
+    ],
+    diseaseSlugs: ['cancer-de-boca'],
+    topicSlugs: ['doencas-cronicas'],
+    relatedArticleSlugs: ['cancer-de-boca-ferida-que-nao-sara'],
+    references: [
+      {
+        label: 'Câncer de boca, versão para população',
+        url: 'https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/boca/versao-para-populacao',
+        publisher: 'Instituto Nacional de Câncer (INCA)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'transtorno-de-ansiedade-generalizada-preocupacao-normal-ou-transtorno',
+    slug: 'transtorno-de-ansiedade-generalizada-preocupacao-normal-ou-transtorno',
+    title: 'Preocupação normal ou transtorno de ansiedade? Como saber a diferença',
+    excerpt:
+      'Todo mundo se preocupa. O que separa a preocupação comum do transtorno de ansiedade generalizada é a duração, o controle e o prejuízo que ela causa na rotina.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'a-linha-que-separa',
+        heading: 'Onde termina a preocupação comum',
+        paragraphs: [
+          'Preocupar-se é uma função normal do cérebro. Antes de uma prova, de uma cirurgia ou de uma conversa difícil, a ansiedade antecipa problemas, organiza o pensamento e ajuda a tomar providências. Ela cumpre um papel e desaparece quando o assunto se resolve.',
+          'No transtorno de ansiedade generalizada, esse mecanismo deixa de ser útil. A preocupação passa a ocupar boa parte do dia, muda de assunto sem parar e continua mesmo quando não há nada concreto a resolver. A pessoa reconhece que está exagerando, tenta parar e não consegue, e é essa luta que consome energia.',
+          'A diferença não está em ter ou não ter motivo para se preocupar. Está no quanto a preocupação é intensa, em quanto tempo ela dura, no controle que a pessoa tem sobre ela e no prejuízo que provoca no trabalho, no sono e nas relações.',
+        ],
+      },
+      {
+        id: 'o-que-a-pessoa-sente',
+        heading: 'O corpo costuma dar o primeiro aviso',
+        paragraphs: [
+          'Muita gente não chega ao consultório falando em ansiedade. Chega falando de palpitação, aperto no peito, falta de ar, náusea, dor de cabeça ou insônia. O corpo responde à tensão constante com sintomas reais, e a pessoa passa a investigar cada um deles separadamente.',
+          'É comum uma sequência de exames normais: eletrocardiograma, endoscopia, hemograma, ultrassom. Cada resultado normal alivia por alguns dias e depois volta a dúvida. Quando a investigação se repete sem que ninguém pergunte sobre a preocupação, o diagnóstico atrasa.',
+          'Reconhecer o padrão muda o rumo. Sintomas físicos que aparecem em vários sistemas ao mesmo tempo, sem alteração nos exames, e que pioram em períodos de estresse são um sinal para olhar também para a ansiedade, sem abandonar a investigação clínica.',
+        ],
+      },
+      {
+        id: 'o-teste-do-tempo-e-do-prejuizo',
+        heading: 'Dois critérios práticos: tempo e prejuízo',
+        paragraphs: [
+          'O primeiro critério é o tempo. No transtorno, os sintomas persistem por vários meses, quase todos os dias, e não apenas em véspera de um evento. Uma preocupação que dura uma semana e desaparece depois de resolvida a situação não preenche esse requisito.',
+          'O segundo é o prejuízo. A pessoa deixa de dormir bem, evita reuniões, confere o gás várias vezes antes de sair, pede garantias a familiares, adia decisões simples. O trabalho rende menos, o estudo trava, e o cansaço se acumula.',
+          'Quando esses dois critérios aparecem juntos, vale procurar avaliação. Não é preciso esperar chegar ao limite, e não é necessário ter um acontecimento grave para justificar a consulta.',
+        ],
+      },
+      {
+        id: 'quando-o-corpo-fala-primeiro',
+        heading: 'O que precisa ser descartado antes',
+        paragraphs: [
+          'Ansiedade também pode ser sintoma de outra coisa. Hipertireoidismo, anemia, arritmias e efeitos de medicamentos produzem taquicardia, tremor, insônia e irritabilidade. O uso de cafeína em excesso, de energéticos e de outras substâncias entra na mesma lista, assim como a retirada abrupta de álcool.',
+          'Por isso a avaliação começa com história clínica e, quando necessário, exames de sangue simples. Afastar essas causas não é desconfiar do relato da pessoa: é garantir que o tratamento escolhido seja o correto.',
+          'Depressão e outros transtornos de ansiedade frequentemente caminham junto. A presença de depressão muda a escolha terapêutica e o prognóstico, e é por isso que a consulta precisa olhar para o conjunto, e não apenas para a queixa que motivou a visita.',
+        ],
+      },
+      {
+        id: 'o-que-nao-e-tag',
+        heading: 'O que não é transtorno de ansiedade generalizada',
+        paragraphs: [
+          'A ansiedade tem várias formas, e o tratamento muda conforme o padrão. No transtorno de pânico, o problema central são crises intensas e o medo de que elas se repitam. Na fobia social, o medo se concentra em situações de exposição e julgamento. Na agorafobia, o que domina é o medo de ficar preso ou sem ajuda em lugares difíceis de deixar.',
+          'Existem ainda a ansiedade de separação, as fobias específicas e o mutismo seletivo, que aparece principalmente em crianças. Uma mesma pessoa pode ter mais de um desses quadros ao mesmo tempo, e a fronteira entre eles nem sempre é nítida.',
+          'Reconhecer a diferença não é preciosismo diagnóstico. Um quadro de pânico pede um plano para as crises, e a fobia social pede exposição gradual a situações sociais. Tratar tudo como se fosse o mesmo transtorno costuma render menos resultado. O profissional que escuta a história consegue distinguir o padrão predominante e ajustar o plano.',
+        ],
+      },
+      {
+        id: 'o-que-muda-com-o-diagnostico',
+        heading: 'O que muda depois do diagnóstico',
+        paragraphs: [
+          'O diagnóstico não é um rótulo, é uma chave de acesso ao tratamento. Os transtornos de ansiedade estão entre os transtornos mentais mais comuns do mundo, com 470 milhões de pessoas afetadas em 2023, e existem tratamentos altamente eficazes para eles.',
+          'A terapia cognitivo-comportamental é a abordagem com mais evidência. Ela ensina a reconhecer pensamentos automáticos, testar o quanto correspondem à realidade e enfrentar aos poucos as situações evitadas. Quando os sintomas são intensos, a medicação pode entrar em conjunto.',
+          'O problema é que apenas cerca de uma em cada quatro pessoas que precisam recebe algum tratamento. Não saber que se trata de uma condição tratável, falta de profissionais e o medo do julgamento estão entre os motivos. Nenhum deles deveria impedir alguém de procurar a Unidade Básica de Saúde.',
+        ],
+      },
+      {
+        id: 'como-observar-em-casa',
+        heading: 'Como observar os próprios sintomas',
+        paragraphs: [
+          'Anotar por duas ou três semanas ajuda a consulta e ajuda a própria pessoa a perceber padrões. Vale registrar o que estava acontecendo quando a preocupação aumentou, quanto tempo durou, quais sintomas físicos apareceram e o que ajudou a diminuir. Isso vale tanto para quem está começando a investigar quanto para quem já faz tratamento e quer entender a própria resposta.',
+          'Sono, café e álcool merecem atenção nesse registro. O álcool traz alívio momentâneo e piora a ansiedade nas horas seguintes, além de atrapalhar o sono. A cafeína em excesso piora palpitação e insônia, e reduzir o consumo no fim do dia costuma trazer diferença rápida.',
+          'Se aparecer pensamento de morte, dor no peito pela primeira vez, falta de ar importante ou incapacidade de se cuidar, procure atendimento imediato em uma UPA 24h, ligue para o SAMU 192 ou para o CVV no 188. Fora dessas situações, a UBS é o lugar certo para começar.',
+        ],
+        cta: { label: 'Entenda o transtorno de ansiedade generalizada', href: '/doencas/transtorno-de-ansiedade-generalizada/' },
+      },
+    ],
+    diseaseSlugs: [
+      'transtorno-de-ansiedade-generalizada',
+    ],
+    topicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedArticleSlugs: [
+      'transtorno-de-ansiedade-generalizada-trabalho-e-tratamento',
+    ],
+    references: [
+      {
+        label: 'Anxiety disorders',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Saúde Mental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'transtorno-de-ansiedade-generalizada-trabalho-e-tratamento',
+    slug: 'transtorno-de-ansiedade-generalizada-trabalho-e-tratamento',
+    title: 'Ansiedade no trabalho: quando o transtorno começa a custar o emprego',
+    excerpt:
+      'Faltas, atrasos, reuniões evitadas e noites sem dormir podem ser sinal de transtorno de ansiedade generalizada. Tratar muda o desempenho e a permanência no trabalho.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'como-a-ansiedade-chega-ao-trabalho',
+        heading: 'Como a ansiedade aparece no trabalho',
+        paragraphs: [
+          'No começo, ela parece cuidado. A pessoa revisa o e-mail três vezes, chega mais cedo, aceita tarefas além do que consegue. Com o tempo, o excesso de conferência consome o dia e o trabalho não termina, o que aumenta a cobrança interna e reinicia o ciclo.',
+          'A concentração é o primeiro alvo. Ler um relatório de duas páginas passa a exigir pausas, reuniões longas viram tortura e decisões simples ficam paradas. A irritabilidade sobe, e comentários que antes passavam começam a gerar conflito com colegas.',
+          'A OMS descreve exatamente esse impacto: os transtornos de ansiedade interferem nas atividades diárias e podem prejudicar a vida familiar, social, escolar e profissional. Não é falta de comprometimento, é sintoma de uma condição tratável.',
+        ],
+      },
+      {
+        id: 'o-custo-de-esconder',
+        heading: 'O custo de esconder os sintomas',
+        paragraphs: [
+          'Muita gente esconde. Falta a reuniões, inventa compromissos, evita almoços de equipe e usa o álcool do fim do dia para desacelerar. Cada uma dessas estratégias alivia por algumas horas e cobra um preço maior depois.',
+          'O silêncio tem razões concretas. O estigma faz a pessoa temer ser vista como incapaz, e o medo de perder o emprego é real. O resultado é que a busca por ajuda chega tarde, muitas vezes quando o quadro já afeta o sono e a capacidade de sair de casa.',
+          'Adiar também custa caro para a empresa. Trabalho entregue pela metade, retrabalho, afastamentos longos e rotatividade pesam mais do que o pequeno ajuste de horário que teria permitido iniciar a terapia antes.',
+        ],
+      },
+      {
+        id: 'tratamento-que-devolve-capacidade',
+        heading: 'O tratamento devolve capacidade, não cria dependência',
+        paragraphs: [
+          'O tratamento do transtorno de ansiedade generalizada não torna ninguém menos capaz. Ele devolve a capacidade que a doença estava consumindo. A terapia cognitivo-comportamental ensina a lidar com a preocupação e a enfrentar as situações evitadas, e costuma ser o primeiro passo.',
+          'Quando os sintomas são intensos, os antidepressivos da classe dos inibidores seletivos da recaptação de serotonina podem ser associados. O efeito aparece ao longo das primeiras semanas, e o acompanhamento serve justamente para ajustar o que for necessário.',
+          'Os benzodiazepínicos, muito usados no passado, hoje são geralmente desaconselhados no transtorno de ansiedade pelo alto potencial de dependência e pela eficácia limitada no longo prazo. Um tratamento bem conduzido não é aquele que seda, e sim o que permite voltar a funcionar.',
+        ],
+      },
+      {
+        id: 'adaptacoes-e-conversa-com-a-chefia',
+        heading: 'O que ajuda na conversa com a chefia',
+        paragraphs: [
+          'Nem todo mundo precisa contar o diagnóstico no trabalho. O que costuma ser necessário é negociar o que permite ir às consultas e manter o rendimento, como um horário fixo de saída em um dia da semana ou a possibilidade de fazer terapia on-line no intervalo.',
+          'Se houver abertura, falar em sintomas e necessidades costuma funcionar melhor do que falar em diagnóstico. Em vez de uma explicação longa, uma frase objetiva sobre o que está difícil e o que ajudaria resolve mais.',
+          'A OMS recomenda que o trabalho, com boas condições e ajustes razoáveis, seja tratado como parte da recuperação, porque melhora o funcionamento, reduz sintomas e eleva a autoestima. Em ambientes insalubres, com metas impossíveis e assédio, o trabalho é o oposto: vira fator de risco.',
+        ],
+      },
+      {
+        id: 'quando-o-trabalho-e-a-causa',
+        heading: 'Quando o trabalho é parte da causa',
+        paragraphs: [
+          'Estresse crônico, violência, instabilidade e jornadas exaustivas aumentam a probabilidade de ansiedade, e não faz sentido tratar isso apenas como um problema individual. O transtorno resulta da interação entre fatores biológicos, psicológicos e sociais, e o ambiente de trabalho é um deles.',
+          'Mudar de emprego não é uma prescrição médica e não resolve tudo. Mas reconhecer que o ambiente adoece permite planejar: buscar apoio, documentar situações abusivas, conversar com o serviço de saúde ocupacional quando existe e considerar mudanças com o tempo.',
+          'A prevenção também tem base coletiva. Programas que treinam habilidades socioemocionais, incentivam pausas reais e reduzem a cobrança irracional funcionam melhor do que discursos sobre resiliência individual.',
+        ],
+      },
+      {
+        id: 'tratamento-no-sus',
+        heading: 'O que esperar do tratamento na rede pública',
+        paragraphs: [
+          'Na atenção primária, o primeiro contato costuma ser com o médico de família, que avalia o quadro, solicita exames quando necessário e discute as opções de tratamento. Muitas unidades contam com apoio matricial de profissionais de saúde mental, que orientam a equipe e ajudam nos casos mais difíceis sem precisar encaminhar todo mundo.',
+          'Quando o encaminhamento é para o CAPS, o acompanhamento passa a ser feito por equipe multiprofissional, com atendimento individual, grupos, medicação quando indicada e articulação com a UBS. O acesso pode começar por procura espontânea, e não é necessário chegar em crise para ser acolhido.',
+          'Vale preparar a consulta. Uma lista com o início dos sintomas, o que piora e o que melhora, os remédios em uso, o consumo de álcool e café e o impacto no trabalho ajuda o profissional a decidir em menos tempo. Anotar as dúvidas antes também evita sair do consultório com perguntas sem resposta. O tempo de espera varia muito entre municípios, e isso não é motivo para desistir. Enquanto aguarda, manter sono regular, atividade física, redução de álcool e as técnicas de respiração já aprendidas ajuda a atravessar o período.',
+        ],
+      },
+      {
+        id: 'onde-buscar-ajuda',
+        heading: 'Onde buscar ajuda',
+        paragraphs: [
+          'A Unidade Básica de Saúde é a porta de entrada e resolve a maior parte dos casos iniciais. O médico de família avalia os sintomas, afasta outras causas, inicia o tratamento quando indicado e encaminha para o Centro de Atenção Psicossocial nos casos mais complexos. Quando o município não conta com CAPS, a referência costuma ser o serviço regional de saúde mental.',
+          'O CAPS atende pessoas em sofrimento psíquico intenso e aceita procura espontânea, sem precisar de encaminhamento. Para quem tem convênio, o caminho é procurar psiquiatra ou psicólogo, verificando a cobertura de terapia pelo plano.',
+          'Em crise, com pensamento de morte ou incapacidade de se cuidar, procure uma UPA 24h ou ligue para o SAMU 192. O CVV atende pelo 188, de graça, a qualquer hora.',
+        ],
+        cta: { label: 'Veja os sintomas e o tratamento do transtorno de ansiedade generalizada', href: '/doencas/transtorno-de-ansiedade-generalizada/' },
+      },
+    ],
+    diseaseSlugs: [
+      'transtorno-de-ansiedade-generalizada',
+    ],
+    topicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedArticleSlugs: [
+      'transtorno-de-ansiedade-generalizada-preocupacao-normal-ou-transtorno',
+    ],
+    references: [
+      {
+        label: 'Anxiety disorders',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Rede de Atenção Psicossocial (RAPS)',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'transtorno-bipolar-por-que-o-diagnostico-demora',
+    slug: 'transtorno-bipolar-por-que-o-diagnostico-demora',
+    title: 'Transtorno bipolar: por que o diagnóstico demora tanto',
+    excerpt:
+      'Muitas pessoas passam anos tratadas apenas para depressão antes de receber o diagnóstico de transtorno bipolar. Entender por que isso acontece ajuda a encurtar o caminho.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-erro-mais-comum',
+        heading: 'O erro mais comum começa na primeira consulta',
+        paragraphs: [
+          'A maioria das pessoas com transtorno bipolar procura ajuda durante uma fase de depressão, não durante a mania. A tristeza, o cansaço e a falta de interesse são o que incomoda, e é sobre isso que a consulta gira. O resultado é um diagnóstico de depressão e um tratamento que pode estar incompleto.',
+          'A OMS registra que muitas pessoas com transtorno bipolar são mal diagnosticadas ou não recebem tratamento. Isso não acontece por descuido de um profissional isolado: o transtorno se apresenta de forma diferente ao longo dos anos, e a fase que leva alguém ao consultório raramente é a que define o diagnóstico.',
+          'O padrão só aparece quando alguém pergunta sobre o outro lado da oscilação. Períodos de energia alta, poucas horas de sono, planos grandiosos e decisões impulsivas costumam ser lembrados como fases boas ou como fases de estresse, e não como sintomas.',
+        ],
+      },
+      {
+        id: 'por-que-a-hipomania-passa-despercebida',
+        heading: 'Por que a hipomania passa despercebida',
+        paragraphs: [
+          'Na hipomania, a pessoa se sente produtiva, sociável e criativa. Dorme menos e acorda disposta, assume projetos, fala mais. Para quem está vivendo aquilo, não parece doença: parece o melhor de si. É por isso que esse período raramente é relatado como queixa.',
+          'A duração também ajuda a esconder. A hipomania é mais curta e menos intensa do que a mania, e não costuma exigir internação. Quando o episódio termina, a lembrança fica como um bom momento, não como um sintoma a ser contado ao médico.',
+          'Quem convive percebe de outro jeito. A família costuma notar o ritmo acelerado, os gastos fora do padrão, a irritabilidade e a mudança de planos. Incluir esse relato na avaliação é uma das formas mais eficazes de encurtar o diagnóstico.',
+        ],
+      },
+      {
+        id: 'o-que-o-medico-precisa-perguntar',
+        heading: 'As perguntas que mudam o diagnóstico',
+        paragraphs: [
+          'A avaliação precisa ir além da queixa atual. Perguntas diretas sobre fases de energia elevada, redução da necessidade de sono, pensamentos acelerados e comportamentos de risco trazem informação que a pessoa não oferece espontaneamente.',
+          'Também importa saber se já houve consequências: dívidas contraídas em pouco tempo, discussões por impulsividade, relações iniciadas em um fim de semana, mudanças de emprego repetidas. Cada uma dessas situações é uma pista do padrão, não uma falha de caráter.',
+          'Vale perguntar ainda sobre histórico familiar de transtorno bipolar ou de internações psiquiátricas, sobre uso de álcool e outras drogas e sobre a resposta a tratamentos anteriores. Um antidepressivo que piorou o quadro ou que desencadeou agitação é informação clínica relevante.',
+        ],
+      },
+      {
+        id: 'depressao-unipolar-e-bipolar',
+        heading: 'Depressão unipolar e bipolar não são a mesma coisa',
+        paragraphs: [
+          'Na depressão unipolar, os episódios são apenas depressivos. No transtorno bipolar, existem também fases de mania ou hipomania, mesmo que tenham acontecido anos antes e tenham durado pouco. Essa diferença muda o tratamento.',
+          'Os antidepressivos não devem ser usados durante um episódio de mania, e na depressão bipolar costumam ser associados a estabilizadores do humor ou a antipsicóticos. Prescrever antidepressivo isolado em quem tem transtorno bipolar pode piorar a instabilidade do humor.',
+          'Isso não significa que todo mundo que toma antidepressivo está errado. Significa que a história precisa ser revista quando o quadro não responde como esperado, quando há oscilações intensas ou quando aparecem sintomas que não combinam com depressão.',
+        ],
+      },
+      {
+        id: 'diagnostico-diferencial',
+        heading: 'O que também precisa ser descartado',
+        paragraphs: [
+          'Nem toda euforia é mania. O uso de cocaína, anfetaminas e outras substâncias produz quadros parecidos, e a retirada também desorganiza o humor. O médico precisa perguntar sobre substâncias antes de concluir o diagnóstico.',
+          'Doenças da tireoide, efeitos de medicamentos como corticoides e algumas condições neurológicas alteram humor, energia e sono. Exames simples ajudam a afastar essas causas, sobretudo quando o quadro começa tarde ou muda de padrão.',
+          'O diagnóstico costuma ser construído ao longo do acompanhamento, e não em uma única consulta. Transtorno esquizoafetivo, depressão psicótica e transtornos de personalidade são diferenciais frequentes, e a evolução ajuda a separar os quadros.',
+        ],
+      },
+      {
+        id: 'o-que-muda-com-o-diagnostico-certo',
+        heading: 'O que muda com o diagnóstico correto',
+        paragraphs: [
+          'Com o diagnóstico certo, o tratamento passa a incluir estabilizadores do humor, como o lítio, e pode incluir antipsicóticos. Depois de uma remissão completa, adultos costumam precisar manter esses medicamentos por pelo menos seis meses, e quem tem vários episódios precisa de mais tempo.',
+          'O acompanhamento também muda de foco. Além de tratar a fase atual, a equipe passa a trabalhar prevenção de recaídas, regularidade do sono, reconhecimento de sinais precoces e psicoeducação da família.',
+          'O impacto é grande. O transtorno bipolar está entre as principais causas de incapacidade no mundo e reduz a expectativa de vida em média 13 anos, por suicídio e por doenças físicas associadas. Diagnóstico e tratamento contínuos mudam esse percurso.',
+        ],
+      },
+      {
+        id: 'diagnostico-em-jovens',
+        heading: 'Quando os primeiros sinais aparecem cedo',
+        paragraphs: [
+          'O transtorno bipolar é observado principalmente em pessoas em idade produtiva, mas também aparece em jovens. Em adolescentes, a fase de mania pode ser confundida com comportamento típico da idade, e a irritabilidade é mais frequente do que a euforia clássica.',
+          'Nessa faixa etária, o diagnóstico diferencial inclui uso de substâncias, privação de sono, quadros de ansiedade e outras condições que alteram humor e energia. A avaliação precisa ser cuidadosa e repetida ao longo do tempo, porque o padrão só se revela com a observação das fases.',
+          'Quanto mais cedo o transtorno é reconhecido, menor o tempo de exposição a tratamentos inadequados e a consequências como interrupção dos estudos, afastamento social e uso de álcool. Isso não significa rotular adolescentes: significa acompanhar com cautela quem apresenta episódios claros e recorrentes.',
+        ],
+      },
+      {
+        id: 'como-preparar-a-consulta',
+        heading: 'Como preparar a consulta',
+        paragraphs: [
+          'Uma linha do tempo ajuda mais do que um relato improvisado. Anote quando começaram as fases, quanto duraram, o que aconteceu em cada uma e se houve necessidade de afastamento do trabalho, internação ou uso de medicação nova.',
+          'Leve a lista de todos os remédios já usados, com dose, tempo de uso e o que aconteceu. Se um antidepressivo deixou você mais agitado, mais irritado ou sem dormir, isso precisa ser dito, porque é um dado que aponta para o diagnóstico bipolar.',
+          'Se puder, vá acompanhado de alguém que convive com você. A pessoa que presencia as fases de energia alta consegue descrever o que você não percebeu, e essa descrição costuma ser decisiva.',
+        ],
+        cta: { label: 'Conheça os sintomas e o tratamento do transtorno bipolar', href: '/doencas/transtorno-bipolar/' },
+      },
+    ],
+    diseaseSlugs: [
+      'transtorno-bipolar',
+    ],
+    topicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedArticleSlugs: [
+      'transtorno-bipolar-litio-e-exames-de-controle',
+    ],
+    references: [
+      {
+        label: 'Bipolar disorder',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Saúde Mental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'transtorno-bipolar-litio-e-exames-de-controle',
+    slug: 'transtorno-bipolar-litio-e-exames-de-controle',
+    title: 'Lítio no transtorno bipolar: o que precisa ser monitorado',
+    excerpt:
+      'O lítio é um dos medicamentos mais eficazes para o transtorno bipolar e exige acompanhamento regular. Entenda por que os exames importam e quais sinais pedem avaliação imediata.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-o-litio-exige-controle',
+        heading: 'Por que o lítio exige controle',
+        paragraphs: [
+          'O lítio é um estabilizador do humor com eficácia comprovada para a mania e para a prevenção de recaídas. Ele também tem uma característica que muda a rotina de quem usa: a distância entre a dose que trata e a dose que intoxica é pequena.',
+          'Por isso, a OMS destaca que a prescrição de lítio exige monitoramento clínico e laboratorial. Não se trata de burocracia, e sim de segurança. O ajuste é feito com base em exames, e não apenas na sensação de estar bem ou mal.',
+          'Esse acompanhamento é o que permite usar um medicamento eficaz com risco controlado. Quem faz os exames nas datas combinadas e relata sintomas incomuns tem muito mais chance de manter o tratamento estável por anos.',
+        ],
+      },
+      {
+        id: 'quais-exames',
+        heading: 'Quais exames fazem parte do acompanhamento',
+        paragraphs: [
+          'O controle inclui consultas regulares e exames de sangue, com frequência definida pelo psiquiatra que acompanha o caso. A periodicidade muda no início do tratamento, depois de cada ajuste de dose e nos períodos de maior estabilidade.',
+          'Além do nível do medicamento no sangue, o médico avalia como o corpo está respondendo, porque o lítio circula pelo organismo inteiro e o acompanhamento não se resume a uma única medida. Alterações nos rins e na tireoide estão entre os pontos observados ao longo dos anos.',
+          'O resultado do exame não é lido isoladamente. Idade, peso, outros medicamentos, hidratação e doenças recentes entram na interpretação. Guardar os exames anteriores ajuda a ver tendências, e não apenas números soltos.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta-de-intoxicacao',
+        heading: 'Sinais que pedem avaliação imediata',
+        paragraphs: [
+          'Alguns sintomas podem indicar que o nível de lítio subiu demais. Tremor grosseiro nas mãos, vômitos, diarreia intensa, tontura, sonolência fora do normal, fala arrastada e confusão mental exigem atendimento no mesmo dia.',
+          'Situações que desidratam também merecem atenção: febre, vômitos, diarreia, calor intenso, exercício extenuante e redução da ingestão de água podem concentrar o medicamento no sangue. Nesses casos, procure orientação antes de tomar a próxima dose.',
+          'Não ajuste a dose por conta própria e não dobre a dose esquecida. O profissional precisa saber o que aconteceu para decidir com segurança, e a automedicação é uma das causas mais comuns de intoxicação.',
+        ],
+        bullets: [
+          'Tremor intenso e grosseiro nas mãos',
+          'Vômitos, diarreia intensa ou febre',
+          'Sonolência excessiva, confusão ou fala arrastada',
+          'Tontura ao levantar e desmaio',
+          'Redução importante da urina',
+        ],
+      },
+      {
+        id: 'interacoes-e-rotina',
+        heading: 'Interações e cuidados na rotina',
+        paragraphs: [
+          'Outros medicamentos podem alterar os níveis de lítio no sangue. Anti-inflamatórios, diuréticos e alguns remédios para pressão estão entre os que exigem atenção, e o mesmo vale para produtos naturais e suplementos.',
+          'Por isso, informe toda a lista de remédios em cada consulta, incluindo os comprados sem receita. Quando outro profissional prescrever algo novo, avise que você usa lítio, porque esse detalhe pode mudar a escolha do medicamento.',
+          'A rotina de hidratação e de alimentação também conta. Beber água ao longo do dia, evitar dietas muito restritivas em sal e não passar horas sem comer ajuda a manter os níveis estáveis, sobretudo em dias quentes.',
+        ],
+      },
+      {
+        id: 'gravidez-e-planejamento',
+        heading: 'Gravidez e planejamento',
+        paragraphs: [
+          'O valproato não deve ser usado por gestantes, por mulheres que amamentam ou por mulheres com potencial de engravidar, pelo risco de malformações e de problemas no desenvolvimento. O lítio e a carbamazepina também devem ser evitados na gravidez e na amamentação sempre que possível.',
+          'Isso não significa interromper o tratamento por conta própria ao descobrir uma gestação. A retirada abrupta aumenta o risco de recaída, e a recaída também oferece riscos à mãe e ao bebê.',
+          'O caminho seguro é planejar. Quem usa lítio e pensa em engravidar deve conversar com o psiquiatra antes da concepção, para discutir alternativas, ajustes e o acompanhamento conjunto com o pré-natal.',
+        ],
+      },
+      {
+        id: 'efeitos-adversos-e-adesao',
+        heading: 'Efeitos adversos e adesão ao tratamento',
+        paragraphs: [
+          'Sonolência, tremores finos, sede, aumento da urina e ganho de peso são queixas frequentes. Muitos desses efeitos podem ser manejados com ajuste de dose, mudança de horário ou medidas específicas, e não devem servir de motivo para abandonar o remédio sozinho.',
+          'A conversa franca sobre efeitos é parte do tratamento. Quando a pessoa esconde que parou de tomar ou que reduziu por conta própria, o profissional toma decisões com informação errada, e o risco de recaída sobe.',
+          'Vale lembrar que o lítio é apenas uma parte do cuidado. Sono regular, acompanhamento psicológico, psicoeducação e monitoramento do humor sustentam o resultado e reduzem a chance de nova fase.',
+        ],
+      },
+      {
+        id: 'litio-e-o-restante-do-tratamento',
+        heading: 'O lítio dentro do tratamento como um todo',
+        paragraphs: [
+          'O lítio controla a fase aguda e reduz recaídas, mas não ensina ninguém a reconhecer sinais precoces nem a lidar com o cotidiano. Por isso ele é combinado com intervenções psicológicas e psicossociais.',
+          'A psicoeducação explica o que é a doença, quais são os sinais de cada fase e o que fazer quando eles aparecem. A terapia cognitivo-comportamental e a terapia interpessoal reduzem sintomas depressivos e a chance de retorno, e a psicoeducação familiar melhora o suporte em casa.',
+          'Sono regular, atividade física, alimentação equilibrada e monitoramento diário do humor sustentam o efeito do medicamento. Nenhum desses elementos substitui o outro, e o conjunto é o que permite manter a estabilidade por mais tempo.',
+        ],
+      },
+      {
+        id: 'manutencao',
+        heading: 'Por quanto tempo continuar',
+        paragraphs: [
+          'Depois de uma remissão completa, adultos costumam precisar manter estabilizadores do humor ou antipsicóticos por pelo menos seis meses. Quem já teve vários episódios de mania e depressão geralmente precisa de tratamento por mais tempo.',
+          'A decisão de reduzir ou retirar não é tomada no impulso de um bom mês. Ela considera o número de episódios, a gravidade deles, o tempo desde o último, o suporte familiar e os riscos de cada escolha.',
+          'Manter o acompanhamento nos períodos bons é o que permite detectar cedo as mudanças de sono e de humor que antecedem uma nova fase, quando a intervenção ainda é simples.',
+        ],
+        cta: { label: 'Veja como o transtorno bipolar é tratado', href: '/doencas/transtorno-bipolar/' },
+      },
+    ],
+    diseaseSlugs: [
+      'transtorno-bipolar',
+    ],
+    topicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedArticleSlugs: [
+      'transtorno-bipolar-por-que-o-diagnostico-demora',
+    ],
+    references: [
+      {
+        label: 'Bipolar disorder',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Rede de Atenção Psicossocial (RAPS)',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'esquizofrenia-primeiro-episodio-psicotico-o-que-fazer',
+    slug: 'esquizofrenia-primeiro-episodio-psicotico-o-que-fazer',
+    title: 'Primeiro episódio psicótico: o que fazer nas primeiras horas',
+    excerpt:
+      'Ouvir vozes, acreditar que está sendo perseguido e falar de forma confusa podem ser o início de uma psicose. Reconhecer cedo e buscar atendimento muda o prognóstico.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-um-primeiro-episodio',
+        heading: 'O que caracteriza um primeiro episódio',
+        paragraphs: [
+          'Um episódio psicótico é um período em que a pessoa perde contato com a realidade. Ela pode ouvir vozes que ninguém mais escuta, acreditar que está sendo vigiada ou perseguida e organizar o pensamento de um jeito que os outros não conseguem acompanhar.',
+          'O início costuma ser gradual. Semanas antes, aparecem mudanças que a família nota sem saber nomear: isolamento, desconfiança, queda no rendimento escolar, descuido com a aparência, falas estranhas, riso sem motivo aparente.',
+          'Nem todo episódio psicótico é esquizofrenia. Uso de substâncias, privação de sono, infecções, doenças da tireoide e outros quadros psiquiátricos podem produzir sintomas parecidos. É por isso que a avaliação profissional é indispensável antes de qualquer conclusão.',
+        ],
+      },
+      {
+        id: 'o-que-fazer-nas-primeiras-horas',
+        heading: 'O que fazer nas primeiras horas',
+        paragraphs: [
+          'A prioridade é segurança e avaliação. Se houver risco de agressão, autoagressão, confusão intensa, recusa de alimentos e água ou ordens de vozes para se machucar, procure uma UPA 24h ou ligue para o SAMU 192, que atende ocorrências psiquiátricas.',
+          'Se não houver risco imediato, o caminho é procurar a Unidade Básica de Saúde ou o Centro de Atenção Psicossocial. O CAPS é um serviço público aberto à comunidade e aceita procura espontânea, sem precisar de encaminhamento.',
+          'Leve informações concretas: quando as mudanças começaram, o que a pessoa fala, se está dormindo e comendo, quais remédios usa e se houve uso de álcool ou outras drogas. O relato de quem convive completa o que a pessoa não consegue contar.',
+        ],
+      },
+      {
+        id: 'como-falar-com-quem-esta-em-crise',
+        heading: 'Como falar com quem está em crise',
+        paragraphs: [
+          'Discutir com o delírio não convence ninguém e costuma aumentar a agitação. Se a pessoa diz que está sendo perseguida, responder que isso é impossível gera confronto. É mais útil acolher o medo e dizer que você está ali para ajudar.',
+          'Frases curtas, tom calmo e uma instrução por vez funcionam melhor do que explicações longas. Reduza estímulos, desligue aparelhos, diminua o número de pessoas no ambiente e mantenha uma rotina previsível.',
+          'Não confisque objetos à força nem ameace internação como punição. Quando a conversa não é possível e o risco cresce, chame ajuda profissional e mantenha distância de segurança.',
+        ],
+      },
+      {
+        id: 'sinais-de-alerta-em-casa',
+        heading: 'Sinais de alerta que a família consegue ver',
+        paragraphs: [
+          'Algumas mudanças são visíveis antes de qualquer diagnóstico. A pessoa passa a falar sozinha, responde a algo que ninguém disse, ri sem motivo, olha por cima do ombro como se estivesse sendo seguida. Também pode começar a fechar as cortinas, trocar as fechaduras e recusar comida preparada por outra pessoa.',
+          'Outras mudanças são mais silenciosas e igualmente importantes. Abandono do banho, da troca de roupa e do quarto, queda brusca no rendimento escolar ou no trabalho, silêncio prolongado, frases que não fazem sentido para quem escuta. Nada disso confirma uma psicose, mas o conjunto pede avaliação.',
+          'O critério prático é a mudança em relação ao funcionamento anterior. Uma pessoa que sempre foi reservada é diferente de alguém que era comunicativa e passou a se isolar em poucas semanas. Anotar as datas e os exemplos ajuda muito na consulta, porque impressões vagas se perdem no meio da conversa.',
+        ],
+      },
+      {
+        id: 'por-que-a-hora-importa',
+        heading: 'Por que a hora importa tanto',
+        paragraphs: [
+          'Quanto menor o tempo entre o início dos sintomas e o tratamento, melhor costuma ser o resultado. O período inicial é justamente quando a resposta ao tratamento tende a ser melhor e quando o vínculo com o serviço ainda pode ser construído sem desgaste.',
+          'O acesso, porém, é desigual. A OMS estima que apenas 29% das pessoas com psicose recebem cuidado especializado no mundo, e que mais de duas em cada três não chegam à atenção especializada em saúde mental.',
+          'Isso significa que insistir no encaminhamento faz parte do cuidado. Quando a primeira porta não resolve, vale procurar o CAPS de referência, o serviço de saúde mental do município ou pedir apoio à equipe da UBS que acompanha a família.',
+        ],
+      },
+      {
+        id: 'o-que-esperar-do-tratamento',
+        heading: 'O que esperar do tratamento',
+        paragraphs: [
+          'O tratamento combina antipsicóticos, psicoeducação, intervenção familiar, terapia cognitivo-comportamental e reabilitação psicossocial. A medicação reduz delírios e alucinações, e as outras ações ensinam a lidar com o que sobrou e a reconstruir a rotina.',
+          'A resposta não é imediata e exige ajustes. Efeitos metabólicos e motores precisam ser monitorados, e a interrupção por conta própria é uma das principais causas de recaída.',
+          'O prognóstico é melhor do que o imaginário popular sugere. Pelo menos um terço das pessoas com esquizofrenia alcança remissão completa dos sintomas, e muitas outras mantêm autonomia com tratamento continuado.',
+        ],
+      },
+      {
+        id: 'o-que-a-familia-precisa-saber',
+        heading: 'O que a família precisa saber',
+        paragraphs: [
+          'A esquizofrenia não é causada por falta de carinho, por uma criação errada ou por fraqueza de caráter. Essa ideia, ainda comum, produz culpa nos familiares e não ajuda ninguém a melhorar. O transtorno resulta da interação entre genes e fatores ambientais, e nenhum pai ou mãe escolhe isso.',
+          'Também não é dupla personalidade, e a pessoa não é mais violenta por ter o diagnóstico. O risco de agressão aumenta em crises não tratadas e com uso de substâncias, e é justamente por isso que o acompanhamento contínuo importa.',
+          'Por fim, a família não precisa dar conta sozinha. O CAPS, a UBS e os serviços de convivência existem para dividir esse cuidado, e buscar apoio não é sinal de desistência. Pelo contrário: é o que permite continuar cuidando por muitos anos.',
+        ],
+      },
+      {
+        id: 'depois-da-alta',
+        heading: 'Depois da estabilização',
+        paragraphs: [
+          'A alta da crise não é o fim do tratamento. O retorno ao serviço extra-hospitalar, o uso regular da medicação e as consultas de acompanhamento são o que sustentam o resultado.',
+          'A família precisa de informação e de apoio. Intervenções familiares reduzem recaídas, desde que não se transformem em cobrança. Cansaço, medo e culpa são comuns entre cuidadores e merecem atenção própria.',
+          'Vale também planejar o futuro próximo: retomada gradual de estudo ou trabalho, atividades de convivência e metas pequenas, revistas com a equipe. A recuperação é construída em passos, e não em um único dia.',
+        ],
+        cta: { label: 'Entenda os sintomas e o tratamento da esquizofrenia', href: '/doencas/esquizofrenia/' },
+      },
+    ],
+    diseaseSlugs: [
+      'esquizofrenia',
+    ],
+    topicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedArticleSlugs: [
+      'esquizofrenia-reabilitacao-trabalho-e-familia',
+    ],
+    references: [
+      {
+        label: 'Schizophrenia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/schizophrenia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Rede de Atenção Psicossocial (RAPS)',
+        url: 'https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'esquizofrenia-reabilitacao-trabalho-e-familia',
+    slug: 'esquizofrenia-reabilitacao-trabalho-e-familia',
+    title: 'Viver com esquizofrenia: reabilitação, trabalho e família',
+    excerpt:
+      'Depois de controlar as crises, o desafio passa a ser reconstruir rotina, estudo, trabalho e relações. A reabilitação psicossocial é o que sustenta essa etapa.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-e-reabilitacao',
+        heading: 'O que é reabilitação psicossocial',
+        paragraphs: [
+          'Reabilitação psicossocial não é fisioterapia nem aula de convivência. É um conjunto de ações que ajuda a pessoa a recuperar papéis que a doença interrompeu: cuidar da própria casa, administrar dinheiro, usar transporte, estudar, trabalhar e manter vínculos.',
+          'O trabalho começa por metas pequenas e verificáveis. Cozinhar uma refeição por semana, organizar os remédios da semana, pegar um ônibus sozinho. Cada conquista é revisada com a equipe, e o ritmo é individual.',
+          'A OMS inclui a reabilitação psicossocial entre as opções eficazes de cuidado, ao lado de medicação, psicoeducação, intervenção familiar e terapia cognitivo-comportamental. Nenhuma delas resolve tudo sozinha. Ela começa no serviço, mas acontece na vida: na cozinha, no ônibus, na sala de aula e no trabalho.',
+        ],
+      },
+      {
+        id: 'trabalho-e-estudo',
+        heading: 'Voltar a trabalhar ou estudar',
+        paragraphs: [
+          'A volta ao trabalho é possível para muitas pessoas, mas raramente acontece no mesmo formato de antes. Jornadas menores no início, tarefas com menor pressão de tempo e pausas previstas costumam facilitar a adaptação. Começar por meio período e aumentar conforme a resposta costuma ser mais sustentável do que voltar em tempo integral de uma vez.',
+          'Apoio ao emprego, moradia assistida e treinamento de habilidades sociais são recursos previstos no cuidado orientado para a recuperação. Quando existem no município, mudam a trajetória de quem tem o transtorno.',
+          'Estudo também é possível. Conversar com a instituição sobre prazos e adaptações, reduzir a carga de disciplinas por semestre e escolher horários que respeitem o sono são ajustes concretos, e não privilégios.',
+        ],
+      },
+      {
+        id: 'moradia-e-convivencia',
+        heading: 'Moradia, convivência e vida na comunidade',
+        paragraphs: [
+          'Nem todo mundo tem família disponível ou consegue voltar para a casa de origem. Para essas situações existem os Serviços Residenciais Terapêuticos, moradias comunitárias destinadas a quem passou por internação prolongada e perdeu laços sociais, e as Unidades de Acolhimento, que oferecem acolhimento temporário ligado ao CAPS.',
+          'Os Centros de Convivência e Cultura são outro recurso pouco conhecido. São espaços abertos à comunidade, com encontros, oficinas e produção coletiva, onde a pessoa participa como cidadã e não como paciente. Para quem passa anos isolado em casa, esse tipo de espaço costuma ser o primeiro passo possível.',
+          'A vida na comunidade também inclui coisas simples: igreja, associação de bairro, grupo de caminhada, curso profissionalizante. O tratamento não termina quando os sintomas melhoram; ele continua enquanto a pessoa reconstrói pertencimento.',
+        ],
+      },
+      {
+        id: 'sintomas-que-atrapalham-a-volta',
+        heading: 'Os sintomas que mais atrapalham a volta',
+        paragraphs: [
+          'Muitas vezes o que impede a retomada não são as vozes, e sim os sintomas negativos e as dificuldades cognitivas. Falta de iniciativa, prazer reduzido, atenção dispersa e memória fraca pesam no dia a dia e são confundidos com desinteresse.',
+          'Esses sintomas não respondem do mesmo modo aos medicamentos e exigem estratégias próprias: dividir tarefas em etapas, usar lembretes, manter rotina estável e contar com alguém que ajude a começar a atividade.',
+          'Reconhecer isso evita cobranças inúteis. Dizer que a pessoa precisa se esforçar mais não resolve um problema de função cognitiva, e costuma aumentar o afastamento.',
+        ],
+      },
+      {
+        id: 'familia-e-convivencia',
+        heading: 'O papel da família na convivência',
+        paragraphs: [
+          'A família é parte do tratamento, e não apenas espectadora. Intervenções familiares ensinam a reconhecer sinais precoces, a se comunicar sem confronto e a organizar a rotina da casa de forma previsível.',
+          'Isso não significa vigiar cada passo. Ambientes com cobranças intensas e críticas constantes pioram o curso. O equilíbrio está em oferecer estrutura sem retirar a autonomia que a pessoa ainda tem.',
+          'A sobrecarga do cuidador é real. A OMS descreve o peso físico, emocional e financeiro que recai sobre famílias, e recomenda apoio estruturado. Dividir tarefas e buscar grupos de familiares é parte do cuidado.',
+        ],
+      },
+      {
+        id: 'o-que-muda-com-o-tempo',
+        heading: 'O que muda com o passar dos anos',
+        paragraphs: [
+          'O curso varia. Algumas pessoas têm longos períodos sem sintomas e outros de piora, outras apresentam agravamento gradual. Pelo menos um terço alcança remissão completa, e muitas vivem com sintomas residuais mantendo autonomia e trabalho.',
+          'Com o envelhecimento, cresce o peso das doenças físicas. Problemas cardiovasculares, metabólicos e infecciosos aparecem mais cedo e são menos tratados nessa população, o que explica boa parte da diferença de nove anos na expectativa de vida.',
+          'Por isso o cuidado precisa incluir pressão, glicemia, peso, tabagismo e saúde bucal, além da saúde mental. Consultas clínicas regulares não são um extra: são parte do tratamento psiquiátrico de longo prazo.',
+        ],
+      },
+      {
+        id: 'estigma-e-direitos',
+        heading: 'Estigma, trabalho e direitos',
+        paragraphs: [
+          'O estigma é um dos maiores obstáculos à reintegração. Ele aparece na entrevista de emprego, no comentário de vizinhos e na piada que transforma o diagnóstico em insulto. A OMS trata o tema como violação de direitos, e não como questão menor.',
+          'A política brasileira de saúde mental se orienta pela desinstitucionalização, pelo cuidado em liberdade e pelo respeito aos direitos humanos. Isso significa que o cuidado deve acontecer, sempre que possível, na comunidade, com a pessoa participando das decisões.',
+          'Falar sobre o transtorno com informação, tratar a pessoa pelo nome e não pela doença e manter no emprego quem já está lá são ações concretas de combate ao preconceito. Empregadores que ajustam horários e mantêm vínculos reduzem afastamentos longos e perda de experiência.',
+        ],
+      },
+      {
+        id: 'como-manter-a-estabilidade',
+        heading: 'Como manter a estabilidade',
+        paragraphs: [
+          'A continuidade do tratamento é o fator que mais protege. Consultas regulares, medicação sem interrupções e acompanhamento no CAPS ou na UBS reduzem recaídas e evitam que cada crise apague os ganhos anteriores. Quando uma consulta é perdida, vale remarcar na mesma semana, em vez de esperar o próximo mês.',
+          'Sono regular, alimentação, atividade física e controle de pressão, glicemia e peso completam o cuidado. Pessoas com esquizofrenia morrem em média nove anos antes da população geral, sobretudo por doenças cardiovasculares e metabólicas, e o acompanhamento clínico é parte do tratamento psiquiátrico.',
+          'Um plano escrito para situações de crise, com telefones, sinais de alerta e o que fazer, ajuda a família a agir sem improviso. Vale atualizar esse plano a cada mudança de medicação ou de serviço.',
+        ],
+        cta: { label: 'Veja como a esquizofrenia é diagnosticada e tratada', href: '/doencas/esquizofrenia/' },
+      },
+    ],
+    diseaseSlugs: [
+      'esquizofrenia',
+    ],
+    topicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedArticleSlugs: [
+      'esquizofrenia-primeiro-episodio-psicotico-o-que-fazer',
+    ],
+    references: [
+      {
+        label: 'Schizophrenia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/schizophrenia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Saúde Mental',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-parkinson-sinais-antes-do-tremor',
+    slug: 'doenca-de-parkinson-sinais-antes-do-tremor',
+    title: 'Parkinson: os sinais que aparecem antes do tremor',
+    excerpt:
+      'Constipação, perda do olfato, sono agitado e letra que encolhe podem anteceder o tremor em anos. Reconhecer esses sinais encurta o caminho até o diagnóstico.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'o-que-vem-antes',
+        heading: 'O que costuma vir antes',
+        paragraphs: [
+          'A imagem popular do Parkinson é um homem idoso com a mão tremendo. Essa imagem atrasa diagnósticos, porque a doença começa muito antes do tremor e, em parte dos casos, nunca chega a apresentá-lo de forma evidente.',
+          'Algumas mudanças aparecem anos antes dos problemas motores. Constipação intestinal persistente, perda do olfato e alterações do sono, com sonhos agitados e movimentos durante a noite, estão entre as mais descritas. Depressão e ansiedade também podem ser a primeira manifestação.',
+          'Isso não significa que quem tem constipação vai desenvolver Parkinson. Esses sinais são comuns por muitas outras razões. O que chama atenção é a combinação de vários deles, de instalação gradual, em uma pessoa que também começa a ficar mais lenta. Uma consulta com essa lista em mãos vale mais do que meses de exames isolados.',
+        ],
+      },
+      {
+        id: 'micrografia-e-voz',
+        heading: 'A letra que encolhe e a voz que baixa',
+        paragraphs: [
+          'A micrografia é um dos sinais mais úteis e menos valorizados. A pessoa percebe que a letra ficou menor, mais apertada e difícil de ler, e que escrever cansa. Comparar uma assinatura atual com outra de alguns anos antes costuma revelar a mudança.',
+          'A voz também muda. Fica mais baixa, monótona e com articulação imprecisa, e a família pede para falar mais alto com frequência. Não é timidez nem falta de interesse: é redução da amplitude do movimento, que atinge também a musculatura da fala.',
+          'A expressão facial diminui, e o olhar fica menos animado. Amigos podem interpretar como tristeza ou frieza. Esses sinais, somados à lentidão, justificam uma avaliação com neurologista.',
+        ],
+      },
+      {
+        id: 'dor-e-rigidez',
+        heading: 'Dor no ombro que não melhora',
+        paragraphs: [
+          'Muita gente chega ao ortopedista com dor no ombro, rigidez e dificuldade para levantar o braço. Faz fisioterapia, melhora pouco, e meses depois descobre que o problema era o início do Parkinson do lado daquele membro.',
+          'A rigidez pode ser confundida com tensão muscular ou artrose, sobretudo em idosos. O que diferencia é o padrão: rigidez que acompanha a lentidão, começa de um lado e progride devagar, sem relação com esforço.',
+          'Quando dor e rigidez vêm junto com lentidão para vestir, caminhar e virar na cama, vale mencionar tudo na mesma consulta. Sintomas contados separadamente costumam gerar diagnósticos separados, e nenhum deles explica o conjunto.',
+        ],
+      },
+      {
+        id: 'quedas-e-desequilibrio',
+        heading: 'Quedas e sensação de instabilidade',
+        paragraphs: [
+          'O equilíbrio costuma piorar com o tempo, e as quedas aparecem mais na fase intermediária. Elas não são consequência inevitável da idade e merecem investigação, porque indicam risco de fratura e perda de autonomia.',
+          'Passos curtos e arrastados, dificuldade para girar e a sensação de que os pés ficam colados ao chão ao atravessar uma porta são típicos. Em ambientes apertados, o bloqueio da marcha pode ser tão intenso que a pessoa parece paralisar por alguns segundos.',
+          'Esses sinais têm tratamento. Fisioterapia com treino de marcha, equilíbrio e estratégias para vencer o bloqueio melhora a segurança e reduz quedas, sobretudo quando começa antes de a primeira fratura acontecer.',
+        ],
+      },
+      {
+        id: 'por-que-o-diagnostico-atrasa',
+        heading: 'Por que o diagnóstico demora',
+        paragraphs: [
+          'Não existe exame de sangue nem de imagem que confirme Parkinson. O diagnóstico é clínico, baseado na história e no exame do movimento, e depende de o profissional reconhecer um padrão que se instala aos poucos.',
+          'Quando o tremor não está presente, a suspeita demora mais. Sintomas como lentidão, rigidez e alterações de marcha são atribuídos à idade, à coluna ou ao cansaço, e a consulta termina sem que ninguém junte as peças. Quando a família insiste que algo mudou, essa observação deve ser levada a sério.',
+          'Levar um relato organizado encurta esse caminho. Anotar quando cada sintoma começou, de que lado, o que piorou nos últimos meses e quais remédios estão em uso permite que o médico veja o conjunto em vez de uma queixa isolada.',
+        ],
+      },
+      {
+        id: 'o-que-avaliar-primeiro',
+        heading: 'O que precisa ser avaliado primeiro',
+        paragraphs: [
+          'Antes de concluir que se trata de Parkinson, é preciso afastar o parkinsonismo causado por medicamentos. Remédios usados para náusea, vertigem e alguns problemas psiquiátricos podem produzir tremor e lentidão, que melhoram com a retirada orientada.',
+          'Também entram na lista AVC, hidrocefalia, tumores e outras doenças degenerativas. Exames de imagem ajudam a excluir parte dessas causas, e a resposta aos medicamentos ao longo do tempo ajuda a confirmar a suspeita.',
+          'A avaliação inicial pode começar na Unidade Básica de Saúde, com encaminhamento para neurologista ou geriatra. Quanto mais cedo o especialista vê o caso, menor a chance de anos de tratamento para o diagnóstico errado.',
+        ],
+      },
+      {
+        id: 'o-que-muda-com-o-diagnostico-cedo',
+        heading: 'O que muda com o diagnóstico cedo',
+        paragraphs: [
+          'O diagnóstico precoce não antecipa a cura, que não existe, mas permite começar o tratamento quando ele rende mais. A levodopa, associada à carbidopa, é o medicamento mais eficaz para os sintomas motores e está disponível pelo SUS, conforme o protocolo clínico da doença.',
+          'Também abre espaço para reabilitação antes da perda de função. Fisioterapia, fonoaudiologia e terapia ocupacional preservam marcha, voz e autonomia, e a adaptação da casa feita cedo evita quedas que mudam a trajetória.',
+          'E permite planejar. Ajustar a rotina de trabalho, organizar as finanças, conversar com a família sobre o futuro e conhecer os serviços de saúde são decisões melhores quando tomadas com tempo.',
+        ],
+      },
+      {
+        id: 'sinais-que-exigem-urgencia',
+        heading: 'Sinais que exigem atendimento imediato',
+        paragraphs: [
+          'A doença avança devagar, mas algumas situações são urgentes. Engasgos frequentes com tosse durante as refeições, febre, falta de ar e confusão mental que começa em horas ou dias não devem ser atribuídos ao Parkinson e esperados em casa.',
+          'Queda com batida na cabeça, mesmo que a pessoa diga estar bem, precisa de avaliação. O mesmo vale para quem fica sem o medicamento por vômitos ou por falta na farmácia, porque a retirada abrupta pode piorar muito a mobilidade.',
+          'Nesses casos, procure uma UPA 24h ou ligue para o SAMU 192. Fora das urgências, a UBS é o lugar para ajustar o acompanhamento e tirar dúvidas.',
+        ],
+        cta: { label: 'Conheça os sintomas e o tratamento da doença de Parkinson', href: '/doencas/doenca-de-parkinson/' },
+      },
+    ],
+    diseaseSlugs: [
+      'doenca-de-parkinson',
+    ],
+    topicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedArticleSlugs: [
+      'doenca-de-parkinson-quedas-e-cuidados-em-casa',
+    ],
+    references: [
+      {
+        label: 'Parkinson disease',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/parkinson-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: '"Reduzir a lacuna nos cuidados": 11/4, Dia Mundial de Conscientização da Doença de Parkinson',
+        url: 'https://bvsms.saude.gov.br/reduzir-a-lacuna-nos-cuidados-11-4-dia-mundial-de-conscientizacao-da-doenca-de-parkinson-2026/',
+        publisher: 'Biblioteca Virtual em Saúde, Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'doenca-de-parkinson-quedas-e-cuidados-em-casa',
+    slug: 'doenca-de-parkinson-quedas-e-cuidados-em-casa',
+    title: 'Parkinson: quedas, engasgos e cuidados em casa',
+    excerpt:
+      'Na fase avançada, pequenos ajustes na casa e na rotina evitam fraturas, pneumonias e internações. Veja o que muda e como dividir o cuidado.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-as-quedas-acontecem',
+        heading: 'Por que as quedas acontecem',
+        paragraphs: [
+          'A queda raramente tem uma causa só. Rigidez, lentidão, perda de reflexos posturais e bloqueio da marcha se somam a fatores do ambiente, como tapete solto, pouca luz e piso molhado.',
+          'O medo de cair também pesa. Depois da primeira queda, a pessoa passa a se mover menos, perde força e equilíbrio, e fica mais vulnerável. Esse ciclo pode ser interrompido com fisioterapia e adaptações.',
+          'Pressão baixa ao levantar, remédios que causam tontura, visão ruim e calçado inadequado entram na mesma conta. Vale revisar tudo isso com o médico e com a equipe de reabilitação. Vale também observar em que horário e em que situação as quedas acontecem, porque o padrão orienta a prevenção.',
+        ],
+      },
+      {
+        id: 'adaptar-a-casa',
+        heading: 'Adaptações que reduzem risco',
+        paragraphs: [
+          'A casa precisa acompanhar a mobilidade, e não o contrário. Retirar tapetes soltos, manter corredores livres, melhorar a iluminação e instalar barras no banheiro são mudanças simples e de efeito rápido.',
+          'No banheiro, o vaso sanitário mais alto e a cadeira de banho reduzem esforço e quedas. No quarto, uma luz noturna evita levantar no escuro, e a cama em altura adequada facilita sair sem impulso.',
+          'Calçado fechado, com sola antiderrapante e sem cadarço, é mais seguro do que chinelo. Vestir-se sentado e usar utensílios com cabo grosso também diminuem o risco de tropeços e de queimaduras na cozinha.',
+        ],
+        bullets: [
+          'Retirar tapetes soltos e fios do chão',
+          'Instalar barras no banheiro e luz noturna no corredor',
+          'Usar calçado fechado com sola antiderrapante',
+          'Manter os objetos de uso diário ao alcance das mãos',
+        ],
+      },
+      {
+        id: 'engasgos-e-alimentacao',
+        heading: 'Engasgos e alimentação',
+        paragraphs: [
+          'Engasgar de vez em quando é comum, mas tossir em quase todas as refeições não é. A dificuldade para engolir pode levar à perda de peso, à desnutrição e à entrada de alimento nas vias aéreas.',
+          'Algumas medidas ajudam: comer sentado, com o tronco ereto, sem pressa e sem conversar ao mesmo tempo; preferir porções menores e várias refeições ao dia; evitar alimentos secos e que se desfazem em pedaços pequenos.',
+          'Mudar a consistência dos alimentos por conta própria não é recomendado. A avaliação de fonoaudiólogo identifica o tipo de dificuldade e indica a adaptação correta, que varia de pessoa para pessoa.',
+        ],
+      },
+      {
+        id: 'medicamento-no-horario',
+        heading: 'O remédio no horário certo',
+        paragraphs: [
+          'A levodopa tem efeito que dura algumas horas, e atrasos podem deixar a pessoa travada, sem conseguir levantar ou caminhar. Por isso, a organização dos horários é parte do cuidado, e não um detalhe administrativo.',
+          'Uma caixa organizadora semanal, alarmes no celular e uma lista afixada na parede ajudam. Em viagens, feriados e internações, leve a receita e a quantidade suficiente para o período, porque a falta do medicamento é uma causa frequente de piora súbita. Quem mora sozinho pode combinar com um vizinho ou familiar uma ligação diária no horário da dose.',
+          'Nunca dobre a dose esquecida nem antecipe horários por conta própria. Ajustes são feitos pelo médico, que considera o tempo de efeito, os sintomas e os efeitos adversos de cada pessoa.',
+        ],
+      },
+      {
+        id: 'exercicio-em-casa',
+        heading: 'Exercício em casa, todos os dias',
+        paragraphs: [
+          'A recomendação de atividade física não é genérica. No Parkinson, o movimento diário ajuda a preservar marcha, equilíbrio, força e amplitude dos movimentos, e a OMS inclui a reabilitação entre os tratamentos que melhoram função e qualidade de vida.',
+          'Em casa, é possível trabalhar três frentes. Alongamento de tronco, pernas e ombros pela manhã; exercícios de força com o próprio peso, como levantar e sentar da cadeira; e treino de passos largos, marcando o ritmo com uma contagem ou com música.',
+          'Para quem trava ao andar, truques simples ajudam: contar em voz alta, olhar para um ponto à frente em vez de para os pés, balançar o corpo antes de iniciar e usar um laser ou uma fita no chão como alvo. O fisioterapeuta ensina o que funciona para cada pessoa.',
+        ],
+      },
+      {
+        id: 'constipacao-e-outros-cuidados',
+        heading: 'Constipação, sono e pele',
+        paragraphs: [
+          'A constipação é frequente e piora com a pouca mobilidade e com a baixa ingestão de água. Aumentar fibras, manter hidratação e movimentar-se dentro do possível ajuda, e o médico pode indicar laxantes quando necessário.',
+          'O sono agitado, com movimentos durante os sonhos, pode machucar o companheiro de cama. Proteger o ambiente e conversar sobre o sintoma na consulta são medidas práticas, porque há tratamento.',
+          'A pele merece atenção em quem passa muito tempo sentado ou acamado. Mudar de posição, manter a pele limpa e seca e observar vermelhidão que não desaparece previne feridas que são difíceis de tratar.',
+        ],
+      },
+      {
+        id: 'cuidador',
+        heading: 'O cuidado que também precisa de cuidado',
+        paragraphs: [
+          'A OMS descreve o peso do cuidado informal: familiares e amigos dedicam muitas horas por dia e enfrentam pressão física, emocional e financeira. Esse desgaste não é fraqueza, é consequência previsível de uma tarefa contínua.',
+          'Dividir tarefas com outros familiares, contratar ajuda quando possível e reservar pausas diárias reduz o risco de adoecimento de quem cuida. Grupos de apoio e orientação profissional ajudam a lidar com culpa, medo e cansaço. Se o cansaço passar a impedir o cuidado, procure apoio na UBS antes de chegar ao limite.',
+          'Adaptar a casa também alivia o cuidador: menos quedas significam menos emergências, menos fraturas e menos noites sem dormir. Investir em prevenção é cuidar dos dois.',
+        ],
+      },
+      {
+        id: 'quando-ir-ao-pronto-socorro',
+        heading: 'Quando ir ao pronto atendimento',
+        paragraphs: [
+          'Alguns sinais não podem esperar. Febre, falta de ar, tosse com secreção, confusão mental de início recente e incapacidade de engolir exigem avaliação no mesmo dia.',
+          'Queda com batida na cabeça, dor intensa ou incapacidade de apoiar o peso em uma perna pedem atendimento imediato, mesmo que a pessoa diga estar bem. Em idosos, um hematoma pode se manifestar horas depois.',
+          'Se houver dificuldade para respirar, rebaixamento de consciência ou engasgo que não se resolve, ligue para o SAMU 192. Para ajustes de rotina e dúvidas sobre medicação, a UBS é o caminho.',
+        ],
+        cta: { label: 'Veja como a doença de Parkinson é tratada', href: '/doencas/doenca-de-parkinson/' },
+      },
+    ],
+    diseaseSlugs: [
+      'doenca-de-parkinson',
+    ],
+    topicSlugs: [
+      'doencas-cronicas',
+    ],
+    relatedArticleSlugs: [
+      'doenca-de-parkinson-sinais-antes-do-tremor',
+    ],
+    references: [
+      {
+        label: 'Parkinson disease',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/parkinson-disease',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'PCDT Doença de Parkinson',
+        url: 'https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt-doenca-de-parkinson',
+        publisher: 'Comissão Nacional de Incorporação de Tecnologias no SUS (CONITEC), Ministério da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+
+  {
+    id: 'diabetes-gestacional-teste-da-24-semana',
+    slug: 'diabetes-gestacional-teste-da-24-semana',
+    title: 'O teste da 24ª semana: como entender o resultado do exame de glicose',
+    excerpt:
+      'O TOTG é o exame que confirma o diabetes gestacional. Entenda como ele é feito, o que cada número significa e por que um único valor alterado já muda o pré-natal.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'por-que-o-exame-existe',
+        heading: 'Por que toda gestante faz o exame',
+        paragraphs: [
+          'O diabetes gestacional quase nunca dá sintoma. A gestante se sente bem, ganha peso como esperado e, ainda assim, a glicose pode estar alta o suficiente para afetar a placenta e o crescimento do bebê. É por isso que o exame é feito em todas as gestações, e não apenas em quem tem queixa ou fator de risco.',
+          'A glicose alta atravessa a placenta e chega ao feto, que responde produzindo mais insulina. Esse excesso de insulina faz o bebê crescer acima do esperado, aumentar a gordura corporal e, depois do nascimento, apresentar hipoglicemia nas primeiras horas. O rastreamento existe para interromper esse ciclo antes que ele produza consequências.',
+          'O primeiro exame costuma ser a glicemia de jejum, colhida na primeira consulta do pré-natal. Valores muito altos nesse momento não são diabetes gestacional: indicam diabetes que já existia antes da gravidez e precisa de outro tipo de acompanhamento desde o início. Esse detalhe muda o plano de exames e a frequência das consultas.',
+        ],
+      },
+      {
+        id: 'como-o-teste-e-feito',
+        heading: 'Como o teste é feito',
+        paragraphs: [
+          'O exame se chama teste oral de tolerância à glicose, ou TOTG. A gestante chega em jejum, colhe sangue, ingere uma solução com 75 gramas de glicose e colhe novamente uma e duas horas depois. São três resultados que mostram como o corpo responde a uma carga de açúcar.',
+          'O preparo importa. Não é preciso dieta especial nos dias anteriores, mas a gestante deve estar em jejum conforme a orientação do laboratório e não deve fumar nem fazer esforço físico durante o exame. A solução precisa ser ingerida em poucos minutos, e a permanência no local é necessária para as coletas.',
+          'A janela recomendada fica entre a 24ª e a 28ª semana, quando a resistência à insulina própria da gestação se intensifica. Em quem tem fatores de risco, o médico pode antecipar o teste ou repeti-lo mais adiante, conforme os achados do pré-natal. Vale confirmar com o laboratório quantas horas de jejum são necessárias, porque o excesso também interfere no resultado.',
+        ],
+      },
+      {
+        id: 'o-que-os-numeros-significam',
+        heading: 'O que cada número significa',
+        paragraphs: [
+          'O diagnóstico é confirmado quando qualquer um dos três valores atinge o limite: 92 mg/dL em jejum, 180 mg/dL na primeira hora ou 153 mg/dL na segunda hora. Não é preciso que todos estejam alterados, e um único resultado acima do corte já fecha o diagnóstico.',
+          'Isso costuma surpreender. Muitas gestantes chegam com dois valores normais e um pouco acima do limite e imaginam que o resultado não vale. Vale, e a razão é prática: mesmo alterações discretas se associam a mais risco de bebê grande, de pressão alta e de parto cirúrgico.',
+          'O resultado é interpretado junto com a semana da gestação, o peso inicial, o ganho de peso até ali e a história obstétrica. O número isolado não define a gravidade, mas define a necessidade de acompanhamento mais próximo. Também por isso o resultado deve ser discutido com quem fez o pré-natal, e não interpretado sozinho em casa.',
+        ],
+      },
+      {
+        id: 'resultado-alterado-o-que-muda',
+        heading: 'Resultado alterado: o que muda no pré-natal',
+        paragraphs: [
+          'Receber o diagnóstico não significa que a gestação virou um problema sem controle. Significa que a glicemia passa a ser medida em casa, que a alimentação é reorganizada e que as consultas ficam mais frequentes. Boa parte das gestantes mantém os valores na meta apenas com essas mudanças.',
+          'O plano alimentar não é uma dieta de emagrecimento. Ele distribui as refeições ao longo do dia, reduz açúcar e ultraprocessados e mantém a quantidade de nutrientes necessária para o bebê crescer. Caminhadas curtas depois das refeições ajudam o corpo a responder melhor à insulina.',
+          'Quando alimentação e atividade física não bastam, entra a insulina. Ela é o medicamento preferido na gestação porque não atravessa a placenta e age apenas na glicemia da mãe. As metas costumam ser de até 95 mg/dL em jejum e de até 120 mg/dL duas horas depois de comer. A dose é ajustada a cada semana, conforme os valores medidos em casa e anotados no caderno de acompanhamento.',
+        ],
+        cta: {
+          label: 'Leia a página completa sobre diabetes gestacional',
+          href: '/doencas/diabetes-gestacional/',
+        },
+      },
+      {
+        id: 'e-se-o-resultado-for-normal',
+        heading: 'E se o resultado vier normal?',
+        paragraphs: [
+          'Um resultado normal não encerra a vigilância. Se o bebê cresce mais do que o esperado, se há excesso de líquido amniótico ou se a gestante ganha peso muito rápido, o exame pode ser repetido. A glicemia pode se alterar nas semanas seguintes, sobretudo no terceiro trimestre.',
+          'Também vale observar sintomas que passam despercebidos: sede intensa, vontade de urinar muitas vezes à noite e infecções urinárias ou vaginais de repetição. Nenhum deles confirma o diagnóstico, mas todos justificam conversar com a equipe do pré-natal.',
+          'Quem teve diabetes gestacional em uma gestação anterior começa a próxima com rastreamento desde a primeira consulta. O mesmo vale para quem teve bebê com mais de 4 kg, tem histórico familiar de diabetes tipo 2 ou síndrome dos ovários policísticos. Nesses casos, o rastreamento é individualizado e começa mais cedo.',
+        ],
+      },
+      {
+        id: 'quando-o-teste-vem-antes-da-hora',
+        heading: 'Quando o teste vem antes da hora',
+        paragraphs: [
+          'Em algumas gestantes, a glicemia de jejum já vem alta na primeira consulta. Nesse caso, o diagnóstico é de diabetes que existia antes da gravidez, mesmo que nunca tivesse sido identificado. A conduta muda: o acompanhamento envolve endocrinologista e obstetra desde o começo.',
+          'A diferença tem consequência. O diabetes prévio, quando mal controlado no início da gestação, se associa a mais risco de malformações fetais. Por isso a investigação é feita cedo, e não se espera a 24ª semana para olhar a glicemia de quem chega com sinais de alerta.',
+          'Se você já faz tratamento para diabetes e está pensando em engravidar, o ideal é conversar com a equipe antes da gestação. Ajustar o tratamento e atingir um bom controle antes de engravidar reduz riscos que começam a se formar nas primeiras semanas.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['diabetes-gestacional'],
+    topicSlugs: ['saude-da-mulher'],
+    relatedArticleSlugs: ['diabetes-gestacional-depois-do-parto'],
+    references: [
+      {
+        label: 'Diabetes (diabetes mellitus)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+      {
+        label: 'Gestational Diabetes',
+        url: 'https://www.cdc.gov/diabetes/about/gestational-diabetes.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'diabetes-gestacional-depois-do-parto',
+    slug: 'diabetes-gestacional-depois-do-parto',
+    title: 'Depois do parto: o que acontece com a glicemia e por que voltar a medir',
+    excerpt:
+      'A glicose costuma normalizar em poucos dias, mas o risco de diabetes tipo 2 continua. Entenda a reavaliação, a amamentação e o que muda em uma próxima gestação.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'a-placenta-sai-e-a-glicemia-cai',
+        heading: 'A placenta sai e a glicemia cai',
+        paragraphs: [
+          'A resistência à insulina da gestação é produzida, em boa parte, pelos hormônios da placenta. Quando a placenta é expelida no parto, essa fonte desaparece e a glicemia costuma cair rapidamente, muitas vezes ainda nas primeiras horas depois do nascimento.',
+          'É por isso que a insulina geralmente é suspensa logo após o parto. A equipe acompanha a glicemia no hospital e ajusta o que for necessário. A maioria das mulheres não precisa de nenhum medicamento para diabetes na alta. Se a glicemia permanecer alta, a investigação continua já no hospital.',
+          'Isso não significa que o problema acabou. O corpo que desenvolveu diabetes gestacional tem uma tendência metabólica que continua depois do parto, e é essa tendência que precisa ser acompanhada nos anos seguintes. A consulta de revisão é o primeiro passo para saber em que ponto esse metabolismo está.',
+        ],
+      },
+      {
+        id: 'amamentacao-e-glicemia',
+        heading: 'Amamentar ajuda',
+        paragraphs: [
+          'A amamentação consome glicose e melhora a sensibilidade à insulina, além de beneficiar o bebê de várias formas. Para quem teve diabetes gestacional, amamentar faz parte do cuidado metabólico, e não apenas da nutrição infantil. O aleitamento também ajuda na recuperação gradual do peso.',
+          'Em alguns casos, a glicemia pode cair durante as mamadas, sobretudo em quem usava insulina. Ter um alimento disponível antes de amamentar e observar sinais de hipoglicemia, como tremor e suor frio, é uma precaução simples.',
+          'Os medicamentos usados no pós-parto para pressão alta e para o controle da glicemia, quando necessários, costumam ser compatíveis com a amamentação. A escolha é feita pela equipe que acompanha a mulher, e não deve levar ao desmame por conta própria. Em caso de dúvida sobre um remédio, a resposta costuma estar na bula e na consulta, e não na interrupção do aleitamento.',
+        ],
+      },
+      {
+        id: 'a-reavaliacao-que-muita-gente-esquece',
+        heading: 'A reavaliação que muita gente esquece',
+        paragraphs: [
+          'Depois da alta, a glicemia precisa ser medida novamente, em uma consulta de revisão. Esse retorno é o momento de repetir exames e verificar se os valores voltaram ao normal ou se já há alteração persistente. A consulta costuma incluir também peso, pressão e orientação sobre contracepção.',
+          'Muita mulher falta a essa consulta. A rotina com o bebê, a amamentação e o cansaço empurram o compromisso para depois, e o resultado aparece anos mais tarde, quando o diabetes tipo 2 já está instalado e o tratamento começa mais tarde do que poderia. O intervalo entre o parto e a próxima consulta costuma ser o ponto mais frágil de todo o cuidado.',
+          'A recomendação é incluir a reavaliação na agenda antes mesmo da alta hospitalar, com data marcada. Quem faltou deve procurar a Unidade Básica de Saúde para reagendar, e não esperar o próximo pré-natal, porque o prazo muda o desfecho. O exame é simples e pode ser feito na própria rede pública.',
+        ],
+      },
+      {
+        id: 'metade-desenvolve-diabetes-tipo-2',
+        heading: 'O risco que continua',
+        paragraphs: [
+          'Cerca de metade das mulheres com diabetes gestacional desenvolve diabetes tipo 2 ao longo da vida. O diabetes gestacional funciona como um teste de esforço metabólico: ele revela uma predisposição que existia antes da gravidez e que continua depois dela. O teste de tolerância repetido ajuda a medir essa predisposição.',
+          'Esse risco não é sentença. Perder o peso ganho na gestação, manter atividade física regular e cuidar da alimentação reduzem de forma consistente a chance de progressão. O ganho maior está em agir nos primeiros anos, quando a glicemia ainda está no limite e não no diagnóstico fechado. Pequenas mudanças sustentadas por meses valem mais do que mudanças radicais abandonadas em poucas semanas.',
+          'Vale também olhar para o resto do conjunto: pressão alta, colesterol e circunferência abdominal. O diabetes gestacional se associa a risco cardiovascular maior, e o acompanhamento com o clínico geral ou o cardiologista ajuda a controlar tudo isso junto. Consultas anuais com exames de rotina são suficientes para a maioria.',
+        ],
+      },
+      {
+        id: 'proxima-gestacao',
+        heading: 'Em uma próxima gestação',
+        paragraphs: [
+          'O diabetes gestacional pode voltar. O risco fica entre um terço e dois terços, e é maior em quem engravida com sobrepeso, engravida mais tarde ou teve a doença em mais de uma gestação. Por isso o rastreamento começa na primeira consulta do próximo pré-natal, com glicemia de jejum e TOTG pedidos mais de uma vez ao longo da gestação.',
+          'Antes de engravidar de novo, vale avaliar o peso, a glicemia e a pressão. Um controle bom no início da gestação reduz o risco de complicações nas semanas em que os órgãos do bebê estão se formando.',
+          'Conversar com a equipe sobre o intervalo entre as gestações também é útil. O corpo precisa de tempo para se recuperar do parto e do pós-parto, e o planejamento permite chegar à próxima gravidez em melhores condições. O intervalo entre as gestações é discutido caso a caso, considerando parto, amamentação e recuperação.',
+        ],
+        cta: {
+          label: 'Veja sintomas, exames e tratamento do diabetes gestacional',
+          href: '/doencas/diabetes-gestacional/',
+        },
+      },
+      {
+        id: 'o-que-fazer-agora',
+        heading: 'O que fazer nos primeiros meses',
+        paragraphs: [
+          'Nos primeiros meses depois do parto, o objetivo é recuperar o peso de forma gradual, sem dietas restritivas que prejudiquem a amamentação. Perder peso rápido demais não é necessário e pode reduzir a produção de leite. Amamentar em livre demanda já ajuda a gastar energia.',
+          'Atividade física pode começar assim que houver liberação, com caminhadas curtas e progressivas. Não é preciso academia: subir escadas, caminhar com o bebê e reduzir o tempo sentada já contam. O importante é a constância, não a intensidade, e o retorno às consultas faz parte do plano.',
+          'E o mais importante: marcar a reavaliação e ir até a unidade. Um exame simples, feito na data certa, é o que separa o acompanhamento precoce de um diagnóstico tardio, quando as complicações já começaram. Anotar a data em um lugar visível e pedir ajuda de alguém próximo aumenta a chance de ir, e a consulta costuma ser rápida.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['diabetes-gestacional'],
+    topicSlugs: ['saude-da-mulher'],
+    relatedArticleSlugs: ['diabetes-gestacional-teste-da-24-semana'],
+    references: [
+      {
+        label: 'Gestational Diabetes',
+        url: 'https://www.cdc.gov/diabetes/about/gestational-diabetes.html',
+        publisher: 'Centers for Disease Control and Prevention (CDC)',
+      },
+      {
+        label: 'Diabetes (diabetes mellitus)',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'pre-eclampsia-sinais-que-nao-esperam-a-consulta',
+    slug: 'pre-eclampsia-sinais-que-nao-esperam-a-consulta',
+    title: 'Dor de cabeça e visão turva na gravidez: os sinais que não esperam a consulta',
+    excerpt:
+      'A pré-eclâmpsia pode começar sem sintoma e piorar em horas. Conheça os sinais que exigem pronto atendimento e o que dizer quando chegar lá.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'pressao-que-sobe-sem-aviso',
+        heading: 'Uma pressão que sobe sem avisar',
+        paragraphs: [
+          'A pré-eclâmpsia começa, na maior parte das vezes, sem nenhum sintoma perceptível. A gestante se sente bem, o bebê se mexe, e a alteração aparece apenas quando alguém mede a pressão ou examina a urina. É por isso que a pressão é medida em todas as consultas de pré-natal, mesmo quando a gravidez parece tranquila.',
+          'A doença surge depois da 20ª semana e tem como base uma placenta que não se adaptou bem. Os vasos que deveriam levar mais sangue ao útero se formam de maneira incompleta, e a placenta libera substâncias que lesionam o revestimento dos vasos da mãe. A pressão sobe, os rins passam a perder proteína e órgãos como fígado, cérebro e pulmões podem ser comprometidos.',
+          'O que torna a doença perigosa é a velocidade. Uma gestante que estava bem na consulta da semana anterior pode apresentar pressão muito alta poucos dias depois. Reconhecer os sinais de gravidade e saber onde buscar atendimento é parte do cuidado, e não exagero. Reconhecer cedo é o que permite tratar a tempo, e o tratamento começa no próprio pré-natal.',
+        ],
+      },
+      {
+        id: 'os-sinais-que-importam',
+        heading: 'Os sinais que mudam a conduta',
+        paragraphs: [
+          'Dor de cabeça forte e persistente, que não melhora com analgésico comum, é o sintoma mais frequente nas formas graves. Ela costuma vir acompanhada de alterações visuais: visão embaçada, visão dupla, sensação de luzes ou pontos piscando. Esses sinais indicam que a pressão está afetando o cérebro.',
+          'Dor na parte alta da barriga, do lado direito, ou dor que parece vir do ombro, pode indicar comprometimento do fígado. Náusea e vômitos que aparecem depois do primeiro trimestre, quando o enjoo já tinha passado, entram na mesma lista e muitas vezes são confundidos com uma virose.',
+          'Inchaço nas mãos e no rosto, ganho de peso rápido em poucos dias e falta de ar também merecem atenção. Inchaço apenas nas pernas é comum em gestações normais, mas o edema que sobe para as mãos e para a face, sobretudo se surge de repente, tem outro significado. O edema que deixa marcas na pele, conhecido como cacifo, é o que mais preocupa.',
+        ],
+      },
+      {
+        id: 'convulsao-e-eclampsia',
+        heading: 'Convulsão é emergência',
+        paragraphs: [
+          'Quando a pré-eclâmpsia evolui para eclâmpsia, surgem convulsões. É uma emergência obstétrica, com risco para a mãe e para o bebê, e exige atendimento médico imediato. Nada disso deve ser tratado em casa, e a pessoa não deve ser deixada sozinha.',
+          'Nessa situação, o caminho é chamar o SAMU pelo 192 ou levar a gestante ao pronto atendimento mais próximo. Se houver risco de convulsão, ninguém deve dirigi-la sozinha ao hospital. Durante a crise, o ideal é proteger a cabeça, afastar objetos e não tentar conter os movimentos.',
+          'A eclâmpsia é evitável na maior parte dos casos quando a pré-eclâmpsia é identificada e tratada a tempo. O sulfato de magnésio, usado no hospital, reduz em mais da metade o risco de convulsão em mulheres com a doença, e é por isso que a avaliação precoce muda o desfecho. Por isso a convulsão nunca é um sinal para observar em casa.',
+        ],
+      },
+      {
+        id: 'o-que-dizer-no-pronto-atendimento',
+        heading: 'O que dizer ao chegar',
+        paragraphs: [
+          'No pronto atendimento, a informação mais útil é a idade gestacional. Diga quantas semanas de gravidez você tem, quando foi a última consulta de pré-natal e qual foi a pressão medida naquele dia. Se tiver a caderneta da gestante, leve junto: ela resume exames, pressão e evolução do peso.',
+          'Descreva os sintomas com o tempo de cada um: a dor de cabeça começou ontem à noite, a visão ficou embaçada hoje pela manhã, o inchaço no rosto apareceu em dois dias. Essa cronologia ajuda a equipe a diferenciar uma queixa passageira de um sinal de gravidade.',
+          'Informe também os remédios em uso e qualquer doença prévia, como hipertensão, diabetes ou doença renal. Essas condições mudam a avaliação e a conduta, e a equipe precisa dessa informação para decidir rápido. Se houver sangramento vaginal, informe também o volume e a presença de coágulos.',
+        ],
+        cta: {
+          label: 'Leia a página completa sobre pré-eclâmpsia',
+          href: '/doencas/pre-eclampsia/',
+        },
+      },
+      {
+        id: 'medir-pressao-em-casa',
+        heading: 'Medir a pressão em casa',
+        paragraphs: [
+          'Quem tem histórico de pressão alta ou de pré-eclâmpsia em gestação anterior pode medir a pressão em casa, com aparelho automático de braço e manguito adequado. A medida deve ser feita sentada, após cinco minutos de repouso, com o braço apoiado na altura do coração.',
+          'O valor isolado não fecha diagnóstico, mas ajuda a conversa com a equipe. Anote as medidas com data e hora, e informe se estava com dor de cabeça, tontura ou outros sintomas no momento. Uma sequência de valores altos tem mais significado do que uma medida única.',
+          'Não ajuste remédio por conta própria com base na medida de casa. O tratamento da pressão na gestação é decidido pela equipe, e mudanças sem orientação podem reduzir a pressão demais e prejudicar a circulação da placenta. Leve o aparelho às consultas para conferir se a medida em casa coincide com a do serviço.',
+        ],
+      },
+      {
+        id: 'o-que-nao-fazer',
+        heading: 'O que não fazer',
+        paragraphs: [
+          'Não espere a próxima consulta marcada quando existem sintomas de gravidade. A pré-eclâmpsia pode piorar em horas, e o intervalo até o atendimento é o que separa um caso controlado de uma complicação grave.',
+          'Não use remédio de outra pessoa nem aumente a dose do seu anti-hipertensivo por conta própria. Também não tome anti-inflamatórios para a dor de cabeça sem orientação: alguns podem afetar a função renal e a pressão.',
+          'Não falte a nenhuma consulta de pré-natal, mesmo que esteja se sentindo bem. A doença é silenciosa na maior parte do tempo, e é justamente nas consultas sem queixa que a pressão alta costuma ser descoberta. Se faltar a uma consulta, remarque em vez de esperar o próximo mês, e leve as dúvidas anotadas.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['pre-eclampsia'],
+    topicSlugs: ['saude-da-mulher'],
+    relatedArticleSlugs: ['pre-eclampsia-depois-do-parto-risco-cardiovascular'],
+    references: [
+      {
+        label: 'Pre-eclampsia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
+  {
+    id: 'pre-eclampsia-depois-do-parto-risco-cardiovascular',
+    slug: 'pre-eclampsia-depois-do-parto-risco-cardiovascular',
+    title: 'Depois da pré-eclâmpsia: o risco cardiovascular que continua',
+    excerpt:
+      'A pressão costuma cair após o parto, mas o histórico de pré-eclâmpsia acompanha a mulher por décadas. Saiba o que medir, quando voltar e como reduzir o risco.',
+    category: 'Doenças crônicas',
+    categorySlug: 'doencas-cronicas',
+    body: [
+      {
+        id: 'as-primeiras-seis-semanas',
+        heading: 'As primeiras semanas depois do parto',
+        paragraphs: [
+          'Depois do parto, a pressão costuma cair nas primeiras 48 horas. Isso não significa que o assunto esteja encerrado: a pressão pode voltar a subir até seis semanas depois, e é nesse período que aparecem a maior parte dos casos de pré-eclâmpsia de início tardio. A diferença é que, fora do hospital, ninguém está medindo a pressão por rotina.',
+          'Por isso a medida da pressão continua nas consultas de revisão e, quando indicado, em casa. Dor de cabeça forte, visão turva, dor no estômago e falta de ar nesse período não devem ser atribuídos ao cansaço da maternidade sem avaliação.',
+          'O puerpério é um momento de sono interrompido e pouca atenção à própria saúde. Marcar a consulta de revisão antes da alta e pedir ajuda a alguém próximo para não faltar são formas concretas de não perder esse acompanhamento. O cansaço não é motivo para adiar: a consulta é curta, o bebê pode ir junto e as dúvidas podem ser anotadas antes.',
+        ],
+      },
+      {
+        id: 'por-que-o-risco-fica',
+        heading: 'Por que o risco não termina',
+        paragraphs: [
+          'A pré-eclâmpsia não é só um episódio da gravidez. Ela revela uma predisposição vascular que existe antes e continua depois. Mulheres que tiveram a doença apresentam, ao longo da vida, mais hipertensão, mais doença cardíaca e mais diabetes do que a população geral. O excesso de risco aparece décadas antes dos primeiros sintomas, o que dá tempo de agir.',
+          'A explicação combina fatores. Os vasos que responderam mal à gestação tendem a responder mal a outros estresses, e a hipertensão que aparece anos depois costuma ter raízes nesse mesmo terreno. O histórico funciona como um aviso precoce, e não como uma sentença.',
+          'Esse aviso tem valor prático. Quem sabe do risco pode medir pressão e glicemia com regularidade, cuidar do peso e do colesterol e chegar ao tratamento antes que a doença se instale. O contrário também é verdadeiro: sem essa informação, os sintomas costumam ser atribuídos a outras causas. Muitas mulheres descobrem a hipertensão anos depois, sem ligar uma coisa à outra.',
+        ],
+      },
+      {
+        id: 'o-que-medir-e-quando',
+        heading: 'O que medir e quando',
+        paragraphs: [
+          'Na revisão pós-parto, o mínimo é medir a pressão e conversar sobre o que aconteceu na gestação. A partir daí, um acompanhamento anual com o clínico geral ou com a equipe da Unidade Básica de Saúde costuma ser suficiente para a maioria. Quem tem dificuldade de acesso pode começar pela consulta de revisão do parto, que já faz parte da rotina da maternidade.',
+          'Nesse seguimento, vale olhar o conjunto: pressão, peso, circunferência abdominal, glicemia e colesterol. A circunferência abdominal ajuda a identificar risco cardiometabólico que o índice de massa corporal sozinho não mostra.',
+          'Quem tem pressão alta persistente, alteração de glicemia ou histórico familiar forte pode precisar de avaliação com cardiologista ou endocrinologista. O encaminhamento é decidido caso a caso, e o histórico de pré-eclâmpsia deve ser sempre mencionado. Um histórico bem descrito economiza exames, antecipa decisões e evita que a investigação comece do zero a cada consulta.',
+        ],
+      },
+      {
+        id: 'amamentacao-e-remedios',
+        heading: 'Amamentação e medicamentos',
+        paragraphs: [
+          'A amamentação é possível e recomendada depois da pré-eclâmpsia. Ela ajuda na recuperação do peso e traz benefícios para o bebê, e não deve ser interrompida por causa do histórico obstétrico. Não há motivo para interromper o aleitamento por causa da pressão alta.',
+          'Os anti-hipertensivos usados no pós-parto são, na maioria dos casos, compatíveis com a amamentação. A escolha é feita pela equipe que acompanha a mulher, e dúvidas sobre um medicamento específico devem ser levadas à consulta, não resolvidas pela internet.',
+          'Nunca suspenda um remédio de pressão por conta própria porque a pressão melhorou. A melhora costuma ser efeito do tratamento, e a retirada sem orientação pode levar a uma nova elevação, às vezes com sintomas. Se a pressão estiver baixa demais, também é o serviço que ajusta a dose, e não a intuição de quem está em casa.',
+        ],
+        cta: {
+          label: 'Veja sintomas, riscos e tratamento da pré-eclâmpsia',
+          href: '/doencas/pre-eclampsia/',
+        },
+      },
+      {
+        id: 'proxima-gestacao',
+        heading: 'Em uma próxima gestação',
+        paragraphs: [
+          'O risco de repetir a pré-eclâmpsia é maior em quem já teve a doença. Por isso a próxima gestação é tratada como de alto risco, com pré-natal mais próximo e medida de pressão em todas as consultas. O acompanhamento começa antes da concepção, sempre que possível, e continua em todas as consultas do pré-natal.',
+          'Existe prevenção possível. Em mulheres com alto risco, a Organização Mundial da Saúde recomenda aspirina em dose baixa, iniciada antes de 20 semanas ou quando o pré-natal começa. A suplementação de cálcio é indicada onde a ingestão alimentar é baixa.',
+          'Planejar a gestação ajuda. Avaliar pressão, peso e doenças prévias antes de engravidar permite começar o pré-natal em melhores condições e ajustar tratamentos que não podem ser usados na gravidez. O ácido acetilsalicílico só deve ser usado com indicação, nunca por conta própria.',
+        ],
+      },
+      {
+        id: 'prevencao-de-verdade',
+        heading: 'O que reduz o risco na prática',
+        paragraphs: [
+          'Não existe fórmula que elimine o risco cardiovascular, mas algumas medidas têm efeito consistente: manter peso adequado, praticar atividade física regular, não fumar, moderar o álcool e controlar pressão, glicemia e colesterol quando alterados. Nenhuma dessas medidas é novidade, e todas dependem de constância.',
+          'A alimentação entra como parte do tratamento, e não como promessa isolada. Reduzir ultraprocessados, aumentar o consumo de alimentos frescos e controlar o sal ajudam a manter a pressão em faixa segura ao longo dos anos.',
+          'O ponto mais importante é não perder o vínculo com o serviço de saúde depois do parto. A pré-eclâmpsia é um evento da gravidez que informa sobre a saúde das próximas décadas, e esse aviso só tem utilidade se alguém o usar. Uma consulta por ano, com exames simples, é o suficiente para a maioria das mulheres, desde que a pressão e o peso sejam medidos com regularidade em todas elas.',
+        ],
+      },
+    ],
+    diseaseSlugs: ['pre-eclampsia'],
+    topicSlugs: ['saude-da-mulher'],
+    relatedArticleSlugs: ['pre-eclampsia-sinais-que-nao-esperam-a-consulta'],
+    references: [
+      {
+        label: 'Pre-eclampsia',
+        url: 'https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia',
+        publisher: 'Organização Mundial da Saúde',
+      },
+      {
+        label: 'Gravidez',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gravidez',
+        publisher: 'Ministério da Saúde (Brasil)',
+      },
+    ],
+    author: 'Equipe editorial Saudewiki',
+    reviewer: null,
+    reviewStatus: 'needs_review',
+    publishedAt: '2026-10-29',
+    updatedAt: '2026-10-29',
+    isPlaceholder: true,
+  },
 ];

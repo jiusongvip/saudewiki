@@ -70,6 +70,14 @@ export const diseaseImages: Record<string, SiteImage> = {
     src: '/img/doenca-diabetes.webp',
     alt: 'Ilustração médica do pâncreas liberando insulina num vaso cheio de cristais de glicose, com recorte da sola do pé com uma ferida aberta e quatro ícones de sede excessiva, visão embaçada, formigamento e cansaço',
   },
+  'diabetes-gestacional': {
+    src: '/img/doenca-diabetes-gestacional.webp',
+    alt: 'Ilustração médica de uma placenta em corte, com grãos de glicose no interior, ao lado de um cordão umbilical; acima, o recorte de uma gestante segurando um frasco de glicose e, abaixo, o de uma gota de sangue na fita do glicosímetro; na base, quatro ícones de sede, urina frequente, cansaço e visão turva',
+  },
+  'pre-eclampsia': {
+    src: '/img/doenca-pre-eclampsia.webp',
+    alt: 'Ilustração médica de um útero aberto, com a placenta na parede interna e uma artéria estreitada no meio; ao lado, o recorte de uma braçadeira de pressão no braço de uma gestante e o de uma fita de urina mergulhada em um copo; na base, quatro ícones de dor de cabeça, visão turva, inchaço e náusea',
+  },
   hipertensao: {
     src: '/img/doenca-hipertensao.webp',
     alt: 'Ilustração médica de uma artéria de parede espessada e luz estreita sob pressão, ao lado de um braço com a braçadeira do esfigmomanômetro, com recorte da medição da pressão e quatro ícones de dor de cabeça, palpitação, visão embaçada e zumbido',
@@ -205,6 +213,14 @@ export const diseaseImages: Record<string, SiteImage> = {
   'cancer-de-pele': {
     src: '/img/doenca-cancer-de-pele-v2.webp',
     alt: 'Ilustração médica de um bloco de pele em corte por camadas mostrando células atípicas de uma pinta se multiplicando e invadindo a derme, com recorte de uma pinta irregular de cores misturadas e quatro ícones de assimetria, bordas irregulares, cores variadas e crescimento',
+  },
+  melanoma: {
+    src: '/img/doenca-melanoma.webp',
+    alt: 'Ilustração médica de um bloco de pele em corte mostrando a epiderme, a derme e um aglomerado de melanócitos que desce da superfície, com recorte de uma pinta escura de borda irregular e detalhe do dermatoscópio apoiado na pele, e quatro ícones de pinta que cresce, coceira, sangramento e pinta nova',
+  },
+  'cancer-de-boca': {
+    src: '/img/doenca-cancer-de-boca.webp',
+    alt: 'Ilustração médica de um corte vertical da língua e do assoalho da boca, com a mucosa clara na superfície, o músculo embaixo e uma úlcera de borda elevada na lateral da língua, com recorte do exame da boca feito com espelho odontológico, e quatro ícones de ferida na boca, mancha branca, caroço no pescoço e dificuldade para engolir',
   },
   gota: {
     src: '/img/doenca-gota-v2.webp',
@@ -394,9 +410,57 @@ export const diseaseImages: Record<string, SiteImage> = {
     src: '/img/doenca-doenca-de-alzheimer.webp',
     alt: 'Ilustração médica de um cérebro em corte, com o córtex, o hipocampo e placas de amiloide; ao lado, uma fotografia de um teste cognitivo feito com papel e caneta; abaixo, quatro ícones de esquecimento, repetição, confusão e agitação',
   },
+  'transtorno-de-ansiedade-generalizada': {
+    src: '/img/doenca-transtorno-de-ansiedade-generalizada.webp',
+    alt: 'Ilustração médica de um cérebro em corte, com a amígdala e o hipotálamo destacados em vermelho e feixes de sinal saindo deles; ao lado, uma fotografia de duas mãos apertadas sobre a mesa e outra da coleta de sangue para exames; abaixo, quatro ícones de preocupação, insônia, tensão e palpitações',
+  },
+  'transtorno-bipolar': {
+    src: '/img/doenca-transtorno-bipolar.webp',
+    alt: 'Ilustração médica de um cérebro em corte, com o anel do sistema límbico em vermelho e o hipotálamo logo abaixo; ao lado, uma fotografia de uma mão preenchendo um gráfico semanal de humor e outra de um tubo de coleta para dosagem de lítio; abaixo, quatro ícones de euforia, insônia, tristeza e gastos altos',
+  },
+  'esquizofrenia': {
+    src: '/img/doenca-esquizofrenia.webp',
+    alt: 'Ilustração médica de um cérebro em corte, com o córtex auditivo em vermelho e ondas sonoras, uma faixa azul-acinzentada no lobo frontal e o tálamo ao centro; ao lado, uma fotografia de uma pessoa de costas com as mãos nos ouvidos e outra de mãos com prancheta durante a consulta; abaixo, quatro ícones de delírios, alucinações, fala confusa e isolamento',
+  },
+  'doenca-de-parkinson': {
+    src: '/img/doenca-doenca-de-parkinson.webp',
+    alt: 'Ilustração médica de um cérebro em corte, com uma faixa escura na substância negra e esferas de dopamina se dispersando a partir dela; ao lado, uma fotografia de mãos apoiadas sobre a mesa e outra de mãos de fisioterapeuta junto a um andador; abaixo, quatro ícones de tremor, rigidez, lentidão e quedas',
+  },
 };
 
 export const articleImages: Record<string, SiteImage> = {
+  'transtorno-de-ansiedade-generalizada-preocupacao-normal-ou-transtorno': {
+    src: '/img/artigo-transtorno-de-ansiedade-generalizada-preocupacao-normal-ou-transtorno.webp',
+    alt: 'Mulher vista de costas, em silhueta, diante de uma janela ampla com a cidade ao fundo',
+  },
+  'transtorno-de-ansiedade-generalizada-trabalho-e-tratamento': {
+    src: '/img/artigo-transtorno-de-ansiedade-generalizada-trabalho-e-tratamento.webp',
+    alt: 'Homem sentado à mesa de trabalho, com as mãos no rosto, cercado por papéis',
+  },
+  'transtorno-bipolar-por-que-o-diagnostico-demora': {
+    src: '/img/artigo-transtorno-bipolar-por-que-o-diagnostico-demora.webp',
+    alt: 'Médico de jaleco escrevendo em uma prancheta durante a consulta, com a mão do paciente à frente',
+  },
+  'transtorno-bipolar-litio-e-exames-de-controle': {
+    src: '/img/artigo-transtorno-bipolar-litio-e-exames-de-controle.webp',
+    alt: 'Mão aberta segurando três comprimidos, ao lado de um copo de água',
+  },
+  'esquizofrenia-primeiro-episodio-psicotico-o-que-fazer': {
+    src: '/img/artigo-esquizofrenia-primeiro-episodio-psicotico-o-que-fazer.webp',
+    alt: 'Corredor de hospital vazio, com balança e lixeiras encostadas na parede',
+  },
+  'esquizofrenia-reabilitacao-trabalho-e-familia': {
+    src: '/img/artigo-esquizofrenia-reabilitacao-trabalho-e-familia.webp',
+    alt: 'Mãos de várias pessoas unidas em círculo, em uma roda de apoio',
+  },
+  'doenca-de-parkinson-sinais-antes-do-tremor': {
+    src: '/img/artigo-doenca-de-parkinson-sinais-antes-do-tremor.webp',
+    alt: 'Casal de idosos caminhando abraçado por uma alameda arborizada',
+  },
+  'doenca-de-parkinson-quedas-e-cuidados-em-casa': {
+    src: '/img/artigo-doenca-de-parkinson-quedas-e-cuidados-em-casa.webp',
+    alt: 'Pessoa sentada na cama ao lado de muletas, com outra pessoa em pé no quarto',
+  },
   'cancer-de-estomago-metaplasia-intestinal': {
     src: '/img/artigo-cancer-de-estomago-metaplasia-intestinal.webp',
     alt: 'Médica de jaleco explica um relatório de exames para uma paciente sentada à sua frente',
@@ -1009,6 +1073,22 @@ export const articleImages: Record<string, SiteImage> = {
     src: '/img/artigo-infeccao-urinaria-prevencao-e-cuidados.webp',
     alt: 'Jarra de água e um copo sobre a mesa, com luz do dia ao fundo',
   },
+  'melanoma-do-diagnostico-ao-estadiamento': {
+    src: '/img/artigo-melanoma-do-diagnostico-ao-estadiamento.webp',
+    alt: 'Médica de luvas segura um tablet com a imagem ampliada de uma lesão de pele, ao lado do aparelho que faz a captura',
+  },
+  'melanoma-quando-a-cirurgia-nao-basta': {
+    src: '/img/artigo-melanoma-quando-a-cirurgia-nao-basta.webp',
+    alt: 'Mão de um paciente com acesso venoso no dorso, apoiada em um apoio acolchoado, durante uma sessão de medicação',
+  },
+  'cancer-de-boca-ferida-que-nao-sara': {
+    src: '/img/artigo-cancer-de-boca-ferida-que-nao-sara.webp',
+    alt: 'Profissional com luvas azuis examina a boca de uma paciente com o auxílio de um espelho odontológico',
+  },
+  'cancer-de-boca-depois-da-cirurgia': {
+    src: '/img/artigo-cancer-de-boca-depois-da-cirurgia.webp',
+    alt: 'Paciente sentado na cadeira odontológica segura um espelho de mão enquanto a profissional o observa',
+  },
   'cancer-de-pele-sinais-na-pele-que-pedem-atendimento': {
     src: '/img/artigo-cancer-de-pele-sinais-na-pele-que-pedem-atendimento.webp',
     alt: 'Close da pele de um braço com muitas pintas e sinais castanhos',
@@ -1508,6 +1588,22 @@ export const articleImages: Record<string, SiteImage> = {
   'doenca-de-alzheimer-primeiros-meses': {
     src: '/img/artigo-doenca-de-alzheimer-primeiros-meses.webp',
     alt: 'Homem jovem ajudando um idoso a vestir um casaco em casa',
+  },
+  'diabetes-gestacional-teste-da-24-semana': {
+    src: '/img/artigo-diabetes-gestacional-teste-da-24-semana.webp',
+    alt: 'Profissional de laboratório de touca verde segurando um tubo de sangue contra a luz',
+  },
+  'diabetes-gestacional-depois-do-parto': {
+    src: '/img/artigo-diabetes-gestacional-depois-do-parto.webp',
+    alt: 'Mulher em leito hospitalar com o recém-nascido apoiado sobre o peito',
+  },
+  'pre-eclampsia-sinais-que-nao-esperam-a-consulta': {
+    src: '/img/artigo-pre-eclampsia-sinais-que-nao-esperam-a-consulta.webp',
+    alt: 'Profissional de saúde com luvas medindo a pressão no braço de uma mulher sentada',
+  },
+  'pre-eclampsia-depois-do-parto-risco-cardiovascular': {
+    src: '/img/artigo-pre-eclampsia-depois-do-parto-risco-cardiovascular.webp',
+    alt: 'Mulher sentada no sofá com a braçadeira do aparelho de pressão no braço e o monitor sobre a mesa',
   },
 };
 

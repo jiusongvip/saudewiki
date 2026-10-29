@@ -142,6 +142,7 @@
 | `a doença aparece de forma esporádica`（框架词 `de forma ...` 冗余） | 改副词：`a doença aparece esporadicamente` |
 | `o congelador nem sempre atinge -20 °C de forma confiável`（`de forma confiável` 直译腔） | 直接限定条件：`o congelador nem sempre chega aos -20 °C indicados` |
 | `cerca de metade das pessoas tratadas procura atendimento...`（把无来源的比例数字写成机构结论） | 回到词条原话的定性表述：`o cisto cresce devagar e pode levar mais de uma década...` |
+| `A classificação ... e não existe para o leitor decorar nomes`（元解释式，读者视角突兀） | 改成 `... e não é uma lista para decorar`，或直接删掉这句 |
 
 补充规则：
 
