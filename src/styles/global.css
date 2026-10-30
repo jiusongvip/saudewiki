@@ -287,7 +287,11 @@ html[lang^="zh"] .prose-editorial {
   opacity: 0.9;
 }
 
-.gate-toggle {
+/* One cover, two boxes: the plate's, which is the plate, and the home tile's,
+   which fills the tile. Everything inside — badge, notice, note, control — is
+   the same element and the same type, so the two covers cannot drift apart. */
+.gate-toggle,
+.tile-veil-toggle {
   position: absolute;
   inset: 0;
   display: flex;
@@ -302,7 +306,8 @@ html[lang^="zh"] .prose-editorial {
   transition: background 0.2s ease;
 }
 
-.gate-toggle:hover {
+.gate-toggle:hover,
+.tile-veil-toggle:hover {
   background: rgba(16, 16, 19, 0.55);
 }
 
@@ -354,28 +359,33 @@ html[lang^="zh"] .prose-editorial {
   font-weight: 700;
 }
 
-.gate[data-gate-state='open'] .gate-toggle {
+.gate[data-gate-state='open'] .gate-toggle,
+.tile-veil[data-gate-state='open'] .tile-veil-toggle {
   inset: 0.5rem 0.5rem auto auto;
   padding: 0.3rem 0.6rem;
   border-radius: 999px;
   background: rgba(16, 16, 19, 0.78);
 }
 
-.gate[data-gate-state='open'] .gate-shut {
+.gate[data-gate-state='open'] .gate-shut,
+.tile-veil[data-gate-state='open'] .gate-shut {
   display: none;
 }
 
-.gate[data-gate-state='open'] .gate-open {
+.gate[data-gate-state='open'] .gate-open,
+.tile-veil[data-gate-state='open'] .gate-open {
   display: inline-flex;
 }
 
-.gate-toggle:focus-visible {
+.gate-toggle:focus-visible,
+.tile-veil-toggle:focus-visible {
   outline: 2px solid #fff;
   outline-offset: -3px;
 }
 
 /* Once the cover is a pill, the focus ring has to sit outside it. */
-.gate[data-gate-state='open'] .gate-toggle:focus-visible {
+.gate[data-gate-state='open'] .gate-toggle:focus-visible,
+.tile-veil[data-gate-state='open'] .tile-veil-toggle:focus-visible {
   outline-offset: 2px;
 }
 
@@ -386,12 +396,14 @@ html[lang^="zh"] .prose-editorial {
 }
 
 /* ---------------------------------------------------------------------------
-   The same warning on a composed tile — a tint, not a cover
+   The same cover on a composed tile
 
-   The home mosaic writes the entry's name straight onto the picture, so an
-   opaque cover would hide the only words that say which entry a tile opens.
-   Here the plate keeps its place and loses its detail: dulled and darkened,
-   with the type above it and one chip in the corner that lifts the veil.
+   The home mosaic writes the entry's name straight onto the picture, and an
+   opaque cover over the whole tile would hide the only words that say which
+   entry a tile opens. So the tile borrows the plate's cover — same badge, same
+   notice, same note, same control — and changes only the box: the notice is
+   centred on the surface above the words instead of on the whole picture, and
+   the words sit outside the cover and above it, where they are the link.
 --------------------------------------------------------------------------- */
 
 /*
@@ -420,80 +432,63 @@ html[lang^="zh"] .prose-editorial {
   scale: 1.1;
 }
 
-.tile-veil-layer {
+/* The reservation is what keeps the centred stack off the words: the notice is
+   centred in the box that is left once the foot of the tile is set aside. The
+   featured tile carries three lines at a larger size, the square ones two. */
+.tile-veil-toggle {
+  z-index: 2;
+  padding-bottom: var(--veil-words, 7.25rem);
+  /* Lighter than the plate's cover: the mosaic is a composition, and at the
+     plate's weight the four tiles became black rectangles that said nothing
+     about the picture behind them. Still half a tone down, so the type holds. */
+  background: rgba(16, 16, 19, 0.5);
+}
+
+.tile-veil-toggle:hover {
+  background: rgba(16, 16, 19, 0.42);
+}
+
+.tile-veil-feature .tile-veil-toggle {
+  --veil-words: 10.75rem;
+}
+
+/* A phone gives the square tiles 200px, and the words take more than half of it.
+   The badge and the note are what gives way: the cover still names itself and
+   still says how to open it. The featured tile is twice as tall and keeps the
+   whole stack. */
+@media (max-width: 767px) {
+  .tile-veil:not(.tile-veil-feature) .gate-badge,
+  .tile-veil:not(.tile-veil-feature) .gate-note {
+    display: none;
+  }
+}
+
+/* Open, the picture becomes the third way into the entry, the way it is on every
+   other card: the words' link stretches back over the tile. The pill has to sit
+   above that stretch, or collapsing would follow the link instead. A tile with
+   no cover needs the same stretch in its resting state, so the selector covers
+   both — a tile without `data-gate-state` has nothing to open. */
+.tile-veil:not([data-gate-state]) .tile-words::after,
+.tile-veil[data-gate-state='open'] .tile-words::after {
+  content: '';
   position: absolute;
   inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  background: rgba(16, 16, 19, 0.3);
-  transition: opacity 0.3s ease;
+  z-index: 3;
 }
 
-.tile-veil[data-gate-state='open'] .tile-veil-layer {
-  opacity: 0;
+.tile-veil[data-gate-state='open'] .tile-veil-toggle {
+  z-index: 6;
 }
 
-.tile-reveal {
-  position: absolute;
-  top: 0.7rem;
-  left: 0.7rem;
-  z-index: 5;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  max-width: calc(100% - 1.4rem);
-  padding: 0.3rem 0.65rem;
-  border-radius: 999px;
-  background: rgba(16, 16, 19, 0.72);
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  /* One line, or nothing: a pill that wraps reads as a box. */
-  white-space: nowrap;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-/* Separates the warning from the action on the graphic level. */
-.tile-reveal-sep {
-  width: 1px;
-  height: 0.8rem;
-  background: currentColor;
-  opacity: 0.35;
-}
-
-.tile-reveal:hover {
-  background: rgba(16, 16, 19, 0.86);
-}
-
-.tile-reveal:focus-visible {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
-}
-
-.tile-reveal-shut,
-.tile-reveal-open {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-}
-
-.tile-reveal-open {
-  display: none;
-}
-
-.tile-veil[data-gate-state='open'] .tile-reveal-shut {
-  display: none;
-}
-
-.tile-veil[data-gate-state='open'] .tile-reveal-open {
-  display: inline-flex;
+/* The anchor stays unpositioned on purpose: its `::after` then resolves against
+   the tile rather than against the words, which is what lets one link cover the
+   whole picture once the cover is open. */
+.tile-words {
+  display: block;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .tile-veil img,
-  .tile-veil-layer {
+  .tile-veil img {
     transition: none;
   }
 }

@@ -244,15 +244,19 @@ const schemaJson = JSON.stringify({ '@context': 'https://schema.org', '@graph': 
           transform: none;
           opacity: 1;
         }
-        .gate-toggle {
+        .gate-toggle,
+        .tile-veil-toggle {
           display: none;
         }
         .tile-veil[data-gate-state='closed'] img {
           filter: var(--img-filter);
         }
-        .tile-veil-layer,
-        .tile-reveal {
-          display: none;
+        /* With the cover gone, the picture has to lead somewhere again. */
+        .tile-veil .tile-words::after {
+          content: '';
+          position: absolute;
+          inset: 0;
+          z-index: 3;
         }
       </style>
     </noscript>

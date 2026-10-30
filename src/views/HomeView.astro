@@ -208,12 +208,12 @@ const schemaNodes: Record<string, unknown>[] = [
       <!--
         A disease tile is a composition, not a card: the category, the name and
         the one-line summary sit on the picture. It is therefore a `div` with a
-        stretched link instead of an anchor, so the veil's chip can be a button
-        without nesting inside a link — a press on the chip lifts the veil, a
-        press anywhere else, including on the words, follows the link.
+        cover, not an anchor — a cover is a button and a button may not sit inside
+        a link. The words keep their own anchor, which is what a press on them
+        follows; a press on the picture lifts the cover instead.
       -->
       <div
-        class="tile-veil relative col-span-1 flex min-h-[320px] flex-col overflow-hidden rounded-2xl sm:col-span-2 md:col-span-1 md:row-span-2 md:min-h-0"
+        class="tile-veil tile-veil-feature relative col-span-1 flex min-h-[320px] flex-col overflow-hidden rounded-2xl sm:col-span-2 md:col-span-1 md:row-span-2 md:min-h-0"
         data-gate-state={featuredImage?.sensitive ? 'closed' : undefined}
       >
         <WindowGrid
@@ -240,25 +240,26 @@ const schemaNodes: Record<string, unknown>[] = [
           </div>
         </WindowGrid>
 
-        <span class="scrim-bottom pointer-events-none absolute inset-0" aria-hidden="true" />
+        <span class="scrim-bottom pointer-events-none absolute inset-0 z-[3]" aria-hidden="true" />
         {featuredImage?.sensitive && <TileVeil lang={lang} />}
-        <div class="pointer-events-none absolute inset-x-5 bottom-5 z-[3] md:inset-x-6 md:bottom-6">
-          <p class="text-[0.66rem] font-bold uppercase tracking-wider text-white/90">
-            {featured.category}
-          </p>
-          <h3
-            class="mt-2 text-2xl font-extrabold leading-tight tracking-tight text-white md:text-[1.75rem]"
-          >
-            {featured.name}
-          </h3>
-          <p class="mt-3 max-w-[42ch] text-sm leading-relaxed text-white/85">{featured.summary}</p>
-        </div>
 
         <a
           href={c.urls.disease(featured.slug)}
-          class="card-hit"
+          class="tile-words"
           aria-label={fill(t.common.seeDiseaseAria, { name: featured.name })}
-        ></a>
+        >
+          <span class="absolute inset-x-5 bottom-5 z-[5] md:inset-x-6 md:bottom-6">
+            <p class="text-[0.66rem] font-bold uppercase tracking-wider text-white/90">
+              {featured.category}
+            </p>
+            <h3
+              class="mt-2 text-2xl font-extrabold leading-tight tracking-tight text-white md:text-[1.75rem]"
+            >
+              {featured.name}
+            </h3>
+            <p class="mt-3 max-w-[42ch] text-sm leading-relaxed text-white/85">{featured.summary}</p>
+          </span>
+        </a>
       </div>
 
       {
@@ -280,23 +281,24 @@ const schemaNodes: Record<string, unknown>[] = [
                 loading="lazy"
                 decoding="async"
               />
-              <span class="scrim-bottom pointer-events-none absolute inset-0" aria-hidden="true" />
+              <span class="scrim-bottom pointer-events-none absolute inset-0 z-[3]" aria-hidden="true" />
               {image?.sensitive && <TileVeil lang={lang} />}
-              <div class="pointer-events-none absolute inset-x-4 bottom-4 z-[3] md:inset-x-5 md:bottom-5">
-                <p class="text-[0.66rem] font-bold uppercase tracking-wider text-white/90">
-                  {disease.category}
-                </p>
-                <h3 class="mt-1.5 text-xl font-extrabold leading-tight tracking-tight text-white md:text-2xl">
-                  {disease.name}
-                </h3>
-                <p class="mt-2 text-[0.78rem] leading-snug text-white/85">{disease.summary}</p>
-              </div>
 
               <a
                 href={c.urls.disease(disease.slug)}
-                class="card-hit"
+                class="tile-words"
                 aria-label={fill(t.common.seeDiseaseAria, { name: disease.name })}
-              ></a>
+              >
+                <span class="absolute inset-x-4 bottom-4 z-[5] md:inset-x-5 md:bottom-5">
+                  <p class="text-[0.66rem] font-bold uppercase tracking-wider text-white/90">
+                    {disease.category}
+                  </p>
+                  <h3 class="mt-1.5 text-xl font-extrabold leading-tight tracking-tight text-white md:text-2xl">
+                    {disease.name}
+                  </h3>
+                  <p class="mt-2 text-[0.78rem] leading-snug text-white/85">{disease.summary}</p>
+                </span>
+              </a>
             </div>
           );
         })

@@ -1,28 +1,27 @@
 ---
 /**
- * The warning layer over a disease tile on the home page.
+ * The warning over a disease tile on the home page.
  *
- * The mosaic on the first screens is a composition: the name and the one-line
- * summary sit on the picture itself, so a full cover like the one `SensitiveImage`
- * draws would hide the only words that tell a reader which entry the tile opens.
- * Here the cover is a tint over the picture and a chip in the corner instead:
- * the type stays on top and readable, the plate underneath is blurred and
- * darkened, and the chip is the one control that lifts the veil in place.
+ * It is the same cover `SensitiveImage` draws, in the same words: a badge, the
+ * notice, the range of what the plate can show, and one control that opens it.
+ * A reader who has met the cover on a plate meets it here unchanged, which is
+ * the point — the cover is one idea and it should not have two shapes.
  *
- * The chip is a real button, which is why the tile is no longer an anchor. It is
- * a sibling of a stretched link (`card-hit`) that still covers the whole tile,
- * and the text block above it carries `pointer-events: none`, so a press on the
- * words goes through to the link and a press on the chip only lifts the veil.
+ * What the tile adds is a second way through. The entry's category, name and
+ * summary sit on the picture, outside the cover and above it, and they are the
+ * link: a press on the words opens the entry, a press anywhere else lifts the
+ * veil. That is why the tile is a `div` rather than an anchor — the cover is a
+ * button and may not be nested inside a link — and why the words carry their own
+ * anchor instead of a stretched link over the whole tile, which the cover would
+ * sit on top of.
  *
- * The chip names the action, not just the state. A label reading only "sensitive
- * content" describes the veil and leaves a reader with no idea the veil can be
- * lifted, which is the one thing a cover must say; so the chip carries the notice
- * and then the same "view the image" wording the full cover uses, split by a
- * hairline.
- *
- * The state lives on the tile (`data-gate-state`), so the same delegated
- * listener in `BaseLayout` opens this and a full cover without knowing which is
- * which, and the `<noscript>` block clears it when scripting is off.
+ * Once the cover is open the words' anchor stretches back over the whole tile
+ * (`::after`, drawn from the one link), so the picture becomes the way into the
+ * entry the way it is on every other card, and the pill in the corner is the way
+ * back to a blurred picture. The state lives on the tile (`data-gate-state`), so
+ * the same delegated listener in `BaseLayout` opens this and a full cover
+ * without knowing which is which, and the `<noscript>` block clears it when
+ * scripting is off.
  */
 import Icon from './Icon.astro';
 import { ui } from '../i18n/ui';
@@ -36,16 +35,16 @@ const { lang } = Astro.props;
 const copy = ui[lang].imageGate;
 ---
 
-<span class="tile-veil-layer" aria-hidden="true"></span>
-
-<button type="button" class="tile-reveal" data-gate-toggle aria-expanded="false">
-  <span class="tile-reveal-shut">
-    <Icon name="tabler:alert-triangle" class="h-3.5 w-3.5" />
-    <span>{copy.title}</span>
-    <span class="tile-reveal-sep" aria-hidden="true" />
-    <span>{copy.reveal}</span>
+<button type="button" class="tile-veil-toggle" data-gate-toggle aria-expanded="false">
+  <span class="gate-shut">
+    <span class="gate-badge">
+      <Icon name="tabler:alert-triangle" class="h-4 w-4" />
+    </span>
+    <span class="gate-title">{copy.title}</span>
+    <span class="gate-note">{copy.note}</span>
+    <span class="gate-cta">{copy.reveal}</span>
   </span>
-  <span class="tile-reveal-open">
+  <span class="gate-open">
     <Icon name="tabler:eye" class="h-3.5 w-3.5" />
     <span>{copy.hide}</span>
   </span>
