@@ -10,10 +10,12 @@
 - **Skill B（派生文章）**：`skills/article-derivation-ptbr/SKILL.md`
 - **共享资产**（两 skill 只此一份）：`skills/_shared/editorial-checklist.md`、`skills/_shared/qc-workflow.md`、`skills/_shared/scripts/find_disease.py`、来源资料库 `skills/_shared/sources/library.json`（读写见 `skills/source-library-ptbr/SKILL.md`）
 
-当用户要求**新增一个疾病词条**、**修改某个已有疾病词条**，或为该疾病**补充或重写派生文章与配图**时，按下面的链式流程执行，不得跳过：
+当用户要求**新增一个疾病词条**、**修改某个已有疾病词条**，或为该疾病**补充或重写派生文章与配图**时，按下面的链式流程执行，不得跳过。
+
+**一次交付的定义**：用户说「新增 XXX 疾病」（哪怕只给了一个病名，没提文章）时，交付物默认是**疾病词条 + 派生文章 + 两套配图**三件套，一次做完。第 1 步做完不算交付完成，必须接着走第 2 步；只有用户**明确**说「只要词条」「不要文章」「先只做词条」时才可停在词条，并在交付说明里写明跳过了文章及原因。不得反问「要不要顺便写文章」。
 
 1. **跑 Skill A**：先完整读 `skills/disease-encyclopedia-ptbr/SKILL.md`，按其「工作流程」执行：第 0 步先判定是**新增模式**还是**修改模式**，再定位来源、建立事实清单、核实医学结论，产出 `pt-BR`（编辑源）与 `zh-Hant`（繁体孪生）两个语言层，写入 `src/data/diseases.ts` 及对应孪生，并完成主题、分类、图片接线。
-2. **跑 Skill B**：读 `skills/article-derivation-ptbr/SKILL.md`，先确认目标疾病词条已存在（不存在则回到第 1 步），再定位医典页面读取「相关阅读」模块，按条目数决定篇数（无该模块时从词条 section 固定生成 2 篇；1–5 条按条数；大于 5 条取 5 篇），核实事实后写文，**先把本次全部篇目（含孪生）写完并写入** `src/data/articles.ts` 及对应孪生、完成主题与双向接线，**全部写完之后再统一定配图**。用户只要疾病词条且明确不需要文章时，可跳过本步。
+2. **跑 Skill B（默认必做，即 Skill A 的第 7 步）**：读 `skills/article-derivation-ptbr/SKILL.md`，先确认目标疾病词条已存在（不存在则回到第 1 步），再定位医典页面读取「相关阅读」模块，按条目数决定篇数（无该模块时从词条 section 固定生成 2 篇；1–5 条按条数；大于 5 条取 5 篇），核实事实后写文，**先把本次全部篇目（含孪生）写完并写入** `src/data/articles.ts` 及对应孪生、完成主题与双向接线，**全部写完之后再统一定配图**。只有用户**明确**说只要疾病词条、不需要文章时才可跳过本步，且需在交付说明中写明。
 3. 两个 skill 都必须执行 `skills/_shared/qc-workflow.md` 规定的**三轮质检**（第一轮医学与安全、第二轮巴西本地事实与本地化、第三轮巴西葡语语言），每轮对照 `skills/_shared/editorial-checklist.md` 的对应章节逐条核对。
 4. **交付门禁**：三轮质检后的综合评分必须为 10 分且不存在关键错误；未达标时按扣分项修改并**重跑三轮**，直到达标。未达标不得交付，也不得用一次自检代替三轮质检。
 5. 第三轮质检与交付门禁都要跑 `node scripts/check-editorial.mjs`（或 `npm run check:editorial`）：它把清单里可机械化的红线变成硬门禁。与 `scripts/editorial-baseline.json` 比对，只允许减少不允许新增；修好旧问题后跑 `--update-baseline` 收缩基线。

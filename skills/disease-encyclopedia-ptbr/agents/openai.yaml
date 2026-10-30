@@ -1,4 +1,4 @@
 interface:
   display_name: "葡语疾病医典"
-  short_description: "脚本索引+百度搜索兜底定位疾病医典，重写成巴西葡语疾病词条并连同繁体孪生写入本站数据文件；派生文章由 article-derivation-ptbr skill 生成"
-  default_prompt: "使用 $disease-encyclopedia-ptbr 定位指定疾病的医典链接（先跑 ../_shared/scripts/find_disease.py 查疾病目录索引，未命中再用浏览器百度搜索兜底；已提供链接则直接读取），先判定是新增疾病还是修改已有疾病，核实医学事实后重写为巴西葡语与繁体中文两个语言层，直接写入 src/data/diseases.ts 并完成主题、分类、图片接线。全程必须执行 ../_shared/qc-workflow.md 规定的三轮质检（医学与安全、巴西本地事实、巴西葡语语言），每轮对照 ../_shared/editorial-checklist.md 逐条核对，综合评分达到 10 分且无关键错误才可交付，未达标时按扣分项修改后重跑三轮。派生文章不在本 skill 范围内，由 article-derivation-ptbr skill 生成。"
+  short_description: "脚本索引+百度搜索兜底定位疾病医典，重写成巴西葡语疾病词条并连同繁体孪生写入本站数据文件；写完词条默认接着跑 article-derivation-ptbr 生成派生文章"
+  default_prompt: "使用 $disease-encyclopedia-ptbr 定位指定疾病的医典链接（先跑 ../_shared/scripts/find_disease.py 查疾病目录索引，未命中再用浏览器百度搜索兜底；已提供链接则直接读取），先判定是新增疾病还是修改已有疾病，核实医学事实后重写为巴西葡语与繁体中文两个语言层，直接写入 src/data/diseases.ts 并完成主题、分类、图片接线。全程必须执行 ../_shared/qc-workflow.md 规定的三轮质检（医学与安全、巴西本地事实、巴西葡语语言），每轮对照 ../_shared/editorial-checklist.md 逐条核对，综合评分达到 10 分且无关键错误才可交付，未达标时按扣分项修改后重跑三轮。**词条写完并跑完门禁不是终点**：用户说「新增 XXX 疾病」时默认交付「词条 + 派生文章 + 两套配图」，必须按本 skill 第 7 步立刻接着执行 $article-derivation-ptbr 生成派生文章并配图，回填 relatedArticleSlugs 与 section 的 cta 后重跑 npm run verify -- --prefix <疾病>；只有用户明确说只要词条、不要文章时才跳过，并在交付说明中写明。"

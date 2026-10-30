@@ -1,4 +1,4 @@
 interface:
   display_name: "巴葡派生文章"
-  short_description: "为已有疾病词条读取医典「相关阅读」，按条目数派生巴西葡语文章（含繁体孪生与配图）写入本站数据文件"
-  default_prompt: "使用 $article-derivation-ptbr 为已在 src/data/diseases.ts 中的疾病派生文章：先确认疾病词条已存在（不存在则先跑疾病医典 skill），再定位百度健康医典页面读取「相关阅读」模块，按条目数决定篇数（无该模块时从词条 section 固定生成 2 篇；1–5 条按条数；大于 5 条取 5 篇），核实医学事实后重写为巴西葡语与繁体中文两个语言层，写入 src/data/articles.ts 并完成主题、分类与双向接线；**全部篇目写完之后**才统一定配图，图源 **Pexels 优先**（Unsplash 仅作兜底）。全程必须执行 ../_shared/qc-workflow.md 规定的三轮质检（医学与安全、巴西本地事实、巴西葡语语言），每轮对照 ../_shared/editorial-checklist.md 逐条核对，综合评分达到 10 分且无关键错误才可交付，未达标时按扣分项修改后重跑三轮。"
+  short_description: "为已有疾病词条读取医典「相关阅读」，按条目数派生巴西葡语文章（含繁体孪生与配图）写入本站数据文件；疾病词条新增/修改后默认自动串联，无需用户点名"
+  default_prompt: "使用 $article-derivation-ptbr 为已在 src/data/diseases.ts 中的疾病派生文章：先确认疾病词条已存在（不存在则先跑疾病医典 skill），再定位百度健康医典页面读取「相关阅读」模块，按条目数决定篇数（无该模块时从词条 section 固定生成 2 篇；1–5 条按条数；大于 5 条取 5 篇），核实医学事实后重写为巴西葡语与繁体中文两个语言层，写入 src/data/articles.ts 并完成主题、分类与双向接线；**全部篇目写完之后**才统一定配图，图源 **Pexels 优先**（Unsplash 仅作兜底）。本 skill 通常由疾病 skill 第 7 步自动触发（「新增 XXX 疾病」默认包含文章），此时不要反问「要不要写文章」，按流程一次做完。全程必须执行 ../_shared/qc-workflow.md 规定的三轮质检（医学与安全、巴西本地事实、巴西葡语语言），每轮对照 ../_shared/editorial-checklist.md 逐条核对，综合评分达到 10 分且无关键错误才可交付，未达标时按扣分项修改后重跑三轮。"
